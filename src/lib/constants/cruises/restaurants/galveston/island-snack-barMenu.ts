@@ -12,44 +12,8 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Authentic Tender Age-Old Recipe Osso Buco with Gremolata",
-            "price": 29.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed House Famous Duck Confit",
-            "price": 24.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Charcoal Grilled Iberico Pork",
-            "price": 28.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Aromatic Wood-Fired Peking Duck with Plum Sauce",
-            "price": 28.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Savory Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 24.67,
+            "name": "Authentic Savory Chef's Special Surf and Turf",
+            "price": 24.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -57,22 +21,58 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Juicy Japanese A5 Wagyu with Ponzu Butter",
-            "price": 29.54,
-            "isVegetarian": true,
+            "name": "Classic Smoked Charcoal Grilled Iberico Pork",
+            "price": 30.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Grilled Seasonal Tasting Menu Experience",
+            "price": 37.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tender Legendary Prime Rib",
+            "price": 26.48,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 26.94,
+            "name": "Hearty Comforting Black Garlic Glazed Beef Tenderloin",
+            "price": 31.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Delicious Captain's Favorite Seafood Tower",
+            "price": 29.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Braised Celebrity Favorite Lobster Dish",
+            "price": 35.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
@@ -80,44 +80,44 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Classic Spicy Seasonal Truffle Risotto",
-            "price": 24.81,
+            "name": "Deluxe Hearty Tableside Flambé Preparation",
+            "price": 35.09,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Golden Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 39.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tender House Specialty Pasta Creation",
-            "price": 30.04,
+            "name": "Authentic Zingy Cast Iron Seafood Presentation",
+            "price": 24.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Marinated Seared Duck Breast with Cherry Reduction",
-            "price": 27.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Spiced Aged and House-Cured Charcuterie Selection",
-            "price": 28.87,
+            "name": "Organic Roasted Roasted Quail with Truffle Jus",
+            "price": 24.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Comforting Tasting of Local Artisanal Cheeses",
-            "price": 25.53,
+            "name": "House Special Grilled Whole Animal Butchery Showcase",
+            "price": 26.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,74 +130,47 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Deluxe Herbed Calamari",
-            "price": 12.41,
+            "name": "Hearty Marinated Caprese Salad",
+            "price": 15.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Zucchini Fries",
+            "price": 9.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spicy Lettuce Wraps",
+            "price": 14.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Antipasto Platter",
+            "price": 12.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Sweet Spring Rolls",
-            "price": 8.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Zingy Nachos",
-            "price": 13.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Smoked Crostini",
-            "price": 9.84,
+            "name": "Hearty Creamy Calamari",
+            "price": 14.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Mouthwatering Falafel",
-            "price": 12.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Herbed Zucchini Fries",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zesty Mini Sliders",
-            "price": 9.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Fried Garlic Knots",
-            "price": 15.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -207,8 +180,17 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Hearty Sweet Egg Drop Soup",
-            "price": 9.55,
+            "name": "Hearty Flaky Hot and Sour Soup",
+            "price": 7.53,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Satisfying Split Pea Soup",
+            "price": 11.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -216,8 +198,17 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Appetizing Chicken Noodle Soup",
-            "price": 10.15,
+            "name": "Hearty Pan-seared Avgolemono (Greek Lemon Soup)",
+            "price": 7.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Borscht",
+            "price": 8.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -225,22 +216,13 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Tender Pho",
-            "price": 12.6,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Cabbage Soup",
-            "price": 9.64,
+            "name": "Gourmet Aromatic Seafood Chowder",
+            "price": 7.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -248,27 +230,18 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Salads",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 9.92,
+            "name": "Arugula Salad",
+            "price": 13.99,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 12.87,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mango Avocado Salad",
-            "price": 10.03,
-            "isVegetarian": true,
+            "name": "Tabbouleh",
+            "price": 14.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -276,7 +249,7 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Southwest Black Bean Salad",
-            "price": 9.19,
+            "price": 14.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -284,8 +257,17 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 9.64,
+            "name": "Chef Salad",
+            "price": 13.04,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 11.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -298,26 +280,8 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Classic Creamy Enchiladas",
-            "price": 27.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Pizza",
-            "price": 28.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Tangy Shakshuka",
-            "price": 19.12,
+            "name": "Fresh Succulent Pesto Pasta",
+            "price": 18.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,47 +289,38 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Luscious Cottage Pie",
-            "price": 27.1,
+            "name": "Deluxe Grilled Korma",
+            "price": 21.75,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Spiced Stuffed Peppers",
-            "price": 29.85,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Zesty Lamb Chops",
-            "price": 25.65,
+            "name": "House Special Grilled Grilled Chicken",
+            "price": 28.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Ramen",
+            "price": 26.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Organic Stuffed Steak",
-            "price": 26.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Grilled Katsu Curry",
-            "price": 23.53,
+            "name": "Deluxe Stuffed Lentil Stew",
+            "price": 18.15,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -375,44 +330,44 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Traditional Roasted Seared Tuna Steak with Sesame Crust",
-            "price": 32.55,
+            "name": "Fresh Comforting Valencian Seafood Paella",
+            "price": 25.72,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Exquisite Shrimp Scampi over Linguine",
-            "price": 27.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Pan-seared Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 28.1,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Wholesome Pan-Seared Scallops with Pea Purée",
+            "price": 26.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Lobster Thermidor with Gruyère Crust",
-            "price": 28.76,
+            "name": "Hearty Tender Crab-Stuffed Mushrooms",
+            "price": 29.06,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Pan-seared Baked Cod with Lemon Caper Sauce",
-            "price": 24.06,
+            "name": "Authentic Zingy Grilled Lobster with Lemon Butter",
+            "price": 24.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Spiced Linguine with Clam Sauce",
+            "price": 24.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -425,8 +380,17 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Organic Smoked Creamed Spinach with Nutmeg",
-            "price": 8.67,
+            "name": "Deluxe Golden Braised Red Cabbage with Apple",
+            "price": 8.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Juicy Warm Buttermilk Dinner Rolls",
+            "price": 5.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,47 +398,29 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Yukon Gold Potato Gratin",
-            "price": 7.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Pan-seared Garlic Bread with Herb Butter",
-            "price": 8.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Braised Red Cabbage with Apple",
-            "price": 6.32,
+            "name": "Authentic Succulent Crispy Zucchini Fritters",
+            "price": 7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Succulent Provencal Ratatouille",
-            "price": 5.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "House Special Tangy Stuffed Bell Peppers with Brown Rice",
-            "price": 6.68,
+            "name": "Fresh Juicy Mashed Potatoes",
+            "price": 8.07,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Creamy Maple-Glazed Baby Carrots",
+            "price": 5.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,26 +430,8 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.09,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 5.65,
+            "name": "Lemonade",
+            "price": 6.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,8 +439,17 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.58,
+            "name": "Milkshake",
+            "price": 4.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -521,7 +458,7 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 5.89,
+            "price": 7.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,11 +466,11 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.4,
+            "name": "Iced Tea",
+            "price": 5.92,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,26 +486,26 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 9.96,
-            "isVegetarian": true,
+            "name": "Donuts",
+            "price": 8.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vanilla Cake",
-            "price": 7.09,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Custard Tart",
+            "price": 10.99,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 10.74,
+            "name": "Tiramisu",
+            "price": 7.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -576,8 +513,8 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 10.99,
+            "name": "Apple Pie",
+            "price": 6.13,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -585,9 +522,9 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 7.37,
-            "isVegetarian": true,
+            "name": "Red Velvet Cake",
+            "price": 9.11,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,8 +536,8 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 11.79,
+            "name": "Granita",
+            "price": 11.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,26 +545,26 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 8.24,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 9.73,
+            "name": "Frozen Custard",
+            "price": 11.7,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 9.32,
+            "name": "Frozen Mousse",
+            "price": 8.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -635,10 +572,10 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 10.08,
+            "name": "Baked Alaska",
+            "price": 11.31,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -655,65 +592,47 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 13.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 10.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.16,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Margarita",
-            "price": 13.09,
-            "isVegetarian": false,
+            "price": 14.81,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 10.96,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Cosmopolitan",
+            "price": 11.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Martini",
-            "price": 10.03,
-            "isVegetarian": false,
-            "isVegan": true,
+            "price": 14.5,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -723,54 +642,45 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Pinot Noir",
-            "price": 12.56,
+            "name": "Mourvèdre",
+            "price": 12.18,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 13.25,
+            "name": "Pinot Grigio",
+            "price": 9.18,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 11.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 10.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 11.41,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Syrah/Shiraz",
-            "price": 9.95,
+            "price": 13.44,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 12.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roussanne",
+            "price": 9.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,47 +692,47 @@ export const galvestonislandSnackBarMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Absinthe",
-            "price": 16.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 13.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Bénédictine",
-            "price": 16.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 16.15,
+            "name": "Mezcal",
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 13.38,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Amaretto",
-            "price": 16.83,
+            "name": "Armagnac",
+            "price": 17.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 15.74,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 14.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

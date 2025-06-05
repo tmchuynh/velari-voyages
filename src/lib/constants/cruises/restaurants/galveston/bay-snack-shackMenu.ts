@@ -12,8 +12,17 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Signature Dishes",
         "items": [
           {
-            "name": "Hearty Delicious Captain's Favorite Seafood Tower",
-            "price": 30.19,
+            "name": "Traditional Herbed Seasonal Tasting Platter",
+            "price": 25.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Wood-Fired Peking Duck with Plum Sauce",
+            "price": 25.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,17 +30,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Smoked Heritage Recipe Lamb Shank",
-            "price": 25.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sweet Secret Recipe Bouillabaisse",
-            "price": 27.78,
+            "name": "Fresh Zesty Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 34.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,17 +39,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Mouthwatering Wood-Fired Peking Duck with Plum Sauce",
-            "price": 35.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Tangy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 35.2,
+            "name": "Gourmet Enticing Sous Vide Perfected Wagyu",
+            "price": 27.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -57,22 +48,31 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sizzling House Famous Duck Confit",
-            "price": 31.3,
+            "name": "House Special Grilled Molecular Gastronomy Showcase Tasting",
+            "price": 34.79,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Tangy Chef's Special Surf and Turf",
-            "price": 26.26,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Homestyle Exquisite Captain's Favorite Seafood Tower",
+            "price": 36.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Flambéed Tableside Specialty",
+            "price": 35.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -80,17 +80,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Chef's Specials",
         "items": [
           {
-            "name": "Hearty Zesty Sous Vide Pork Tenderloin",
-            "price": 38.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Chef's Market Inspiration of the Day",
-            "price": 26.3,
+            "name": "House Special Spiced Seared Foie Gras with Fig Compote",
+            "price": 28.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,31 +89,40 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Enticing Chef's Tasting Menu Experience",
-            "price": 37.86,
+            "name": "Organic Tangy Roasted Quail with Truffle Jus",
+            "price": 37.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Pan-seared House Specialty Pasta Creation",
-            "price": 36.91,
-            "isVegetarian": true,
+            "name": "Classic Braised Tomahawk Ribeye for Two",
+            "price": 34.9,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Homestyle Grilled Locally Foraged Mushroom Selection",
-            "price": 36.13,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Handcrafted Exquisite Herb-Crusted Rack of Lamb",
+            "price": 33.42,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Wholesome Sustainable Seafood Tower",
+            "price": 34.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -130,17 +130,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Appetizers",
         "items": [
           {
-            "name": "Fresh Pan-seared Potstickers",
-            "price": 9.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Stuffed Avocado",
-            "price": 13.09,
+            "name": "Fresh Marinated Cheese Nachos",
+            "price": 12.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,17 +139,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Juicy Dumplings",
-            "price": 12.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Stuffed Mushrooms",
-            "price": 11.93,
+            "name": "Authentic Flaky Antipasto Platter",
+            "price": 15.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,17 +148,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Savory Prawn Cocktail",
-            "price": 14.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Herbed Nachos",
-            "price": 12.15,
+            "name": "Handcrafted Tender Deviled Eggs",
+            "price": 14.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,8 +157,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Onion Rings",
-            "price": 13.83,
+            "name": "Classic Spiced Zucchini Fries",
+            "price": 12.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -193,8 +166,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Spinach Artichoke Dip",
-            "price": 11.96,
+            "name": "Premium Roasted Mini Empanadas",
+            "price": 15.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,17 +180,17 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Soups",
         "items": [
           {
-            "name": "Fresh Delicious Miso Soup",
-            "price": 10.33,
-            "isVegetarian": true,
+            "name": "Organic Tangy Tomato Soup",
+            "price": 7.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Herbed Peanut Soup (West African)",
-            "price": 11.08,
+            "name": "Organic Crunchy Carrot Ginger Soup",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -225,8 +198,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Pumpkin Soup",
-            "price": 10.4,
+            "name": "House Special Irresistible Chicken Corn Soup",
+            "price": 13.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,13 +207,22 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Mouthwatering Chicken Corn Soup",
-            "price": 12.02,
+            "name": "Organic Marinated Broccoli Cheddar Soup",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Stuffed Mushroom Soup",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -249,44 +231,44 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Nicoise Salad",
-            "price": 9.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 15.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 12.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 10.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 13.89,
+            "price": 9.25,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 15.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef Salad",
+            "price": 15.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 10.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 13.12,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -298,8 +280,26 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Main Courses",
         "items": [
           {
-            "name": "Gourmet Creamy Steak",
-            "price": 31.14,
+            "name": "Hearty Irresistible Chili con Carne",
+            "price": 18.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Grilled Chicken",
+            "price": 27.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crispy Lamb Chops",
+            "price": 23.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,17 +307,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Stuffed Shish Kebabs",
-            "price": 19.81,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Tacos",
-            "price": 19.47,
+            "name": "Premium Spiced Pho",
+            "price": 19.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -325,48 +316,12 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Currywurst",
-            "price": 25.85,
+            "name": "Seasonal Savory Thai Curry",
+            "price": 25.91,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Succulent Spaghetti Bolognese",
-            "price": 31.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sweet Grilled Chicken",
-            "price": 29.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Crunchy Salmon",
-            "price": 29.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Marinated Gnocchi",
-            "price": 26.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -375,8 +330,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Seafood Specialties",
         "items": [
           {
-            "name": "Homestyle Crunchy Mussels Mariniere in White Wine",
-            "price": 30.38,
+            "name": "Fresh Crispy Seafood Alfredo with Spinach Fettuccine",
+            "price": 34.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +339,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Tender Valencian Seafood Paella",
-            "price": 23.16,
+            "name": "Seasonal Spicy Seafood Risotto with Saffron",
+            "price": 28.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +348,17 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Flavorful Steamed Littleneck Clams in Garlic Broth",
-            "price": 22.78,
+            "name": "Deluxe Appetizing Pan-Seared Scallops with Pea Purée",
+            "price": 32.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Marinated Linguine with Clam Sauce",
+            "price": 33.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,22 +366,13 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sizzling Pan-Seared Scallops with Pea Purée",
-            "price": 27.3,
+            "name": "Deluxe Spicy Lemon-Herb Calamari Steak",
+            "price": 26.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crispy Baked Cod with Lemon Caper Sauce",
-            "price": 24.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -425,8 +380,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Side Dishes",
         "items": [
           {
-            "name": "Fresh Grilled Baked Idaho Potato with Sour Cream",
-            "price": 5.34,
+            "name": "Traditional Hearty Maple-Glazed Baby Carrots",
+            "price": 9.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,17 +389,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Green Beans Almondine",
-            "price": 9.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Luscious Charred Broccolini with Garlic Oil",
-            "price": 5.15,
+            "name": "Fresh Spiced Creamed Spinach with Nutmeg",
+            "price": 7.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,17 +398,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flaky Buttered Egg Noodles",
-            "price": 8.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Fried Creamed Spinach with Nutmeg",
-            "price": 8.88,
+            "name": "Authentic Sizzling Wild Mushroom Risotto",
+            "price": 8.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -470,11 +407,20 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Tangy Cauliflower Gratin with Gruyère",
-            "price": 5.62,
+            "name": "Organic Tangy Crispy Beer-Battered Onion Rings",
+            "price": 9.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delicious Truffle Parmesan Fries",
+            "price": 6.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -484,44 +430,35 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Non-Alcoholic Beverages",
         "items": [
           {
-            "name": "Coffee",
-            "price": 7.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tea",
-            "price": 4.85,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.45,
+            "price": 5.64,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.25,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 7.72,
+            "name": "Water",
+            "price": 4.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,11 +466,11 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 4.43,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Iced Tea",
+            "price": 4.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -549,8 +486,17 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Baked Goods",
         "items": [
           {
+            "name": "Donuts",
+            "price": 9.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Lemon Bars",
-            "price": 8.81,
+            "price": 10.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -558,17 +504,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 10.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Portuguese Custard Tarts",
-            "price": 7.92,
+            "name": "Treacle Tart",
+            "price": 6.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -576,18 +513,18 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 8.67,
-            "isVegetarian": false,
+            "name": "Pain au Chocolat",
+            "price": 9.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 10.46,
-            "isVegetarian": true,
+            "name": "Cheesecake",
+            "price": 10.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -599,47 +536,47 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Frozen Desserts",
         "items": [
           {
-            "name": "Frosty",
-            "price": 11.05,
+            "name": "Frozen Custard",
+            "price": 8.85,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Yogurt",
+            "price": 7.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Semifreddo",
+            "price": 11.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 9.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Granita",
-            "price": 9.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 8.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 9.62,
+            "price": 9.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -655,8 +592,26 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Signature Cocktails",
         "items": [
           {
-            "name": "Margarita",
-            "price": 10.04,
+            "name": "Mai Tai",
+            "price": 13.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -664,17 +619,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 10.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.81,
+            "name": "Negroni",
+            "price": 10.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,34 +629,7 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
           },
           {
             "name": "Martini",
-            "price": 10.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 12.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.11,
+            "price": 13.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -723,54 +642,45 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Wine Selection",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 13.2,
-            "isVegetarian": true,
+            "name": "Roussanne",
+            "price": 9.14,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 13.69,
-            "isVegetarian": false,
+            "name": "Fiano",
+            "price": 12.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 12.23,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 8.44,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 8.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 9.59,
+            "name": "Sémillon",
+            "price": 13.13,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 9.4,
-            "isVegetarian": false,
+            "name": "Vouvray",
+            "price": 11.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -782,35 +692,8 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
         "name": "Spirits and Liqueurs",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 15.8,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
-            "price": 13.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 10.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Campari",
-            "price": 13.68,
+            "name": "Cointreau",
+            "price": 16.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,9 +701,36 @@ export const galvestonbaySnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 14.96,
+            "name": "Grappa",
+            "price": 14.6,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 12.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 12.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 16.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
