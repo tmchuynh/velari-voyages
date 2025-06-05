@@ -71,6 +71,10 @@ export default function RestaurantHours({
         className={cn("flex flex-col justify-between mt-4 text-sm", className)}
       >
         <h5>Hours:</h5>
+        <p className="text-xs">
+          Here’s when we’re open! Be sure to check back for any holiday or
+          special hours.
+        </p>
         {days.map((day) => (
           <p
             key={day.name}
@@ -96,6 +100,10 @@ export default function RestaurantHours({
       >
         <CardHeader>
           <h2 className="mb-0">Restaurant Hours</h2>
+          <h5>
+            Our current operating hours. Please note that times may vary on
+            holidays or during special events.
+          </h5>
         </CardHeader>
         <CardContent className="gap-4 grid grid-cols-1 md:grid-cols-2">
           {days.map((day) => (
@@ -133,6 +141,10 @@ export default function RestaurantHours({
     <div className={cn("text-sm", className)}>
       <div className="flex justify-between items-center mb-2">
         <h5 className="font-medium">Hours</h5>
+        <p className="text-xs">
+          Below are our standard hours of operation. Holiday or special event
+          hours may differ.
+        </p>
         <button
           onClick={() => setExpanded(!expanded)}
           className="text-primary text-xs hover:underline"
