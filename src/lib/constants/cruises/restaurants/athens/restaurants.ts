@@ -341,5 +341,67 @@ export const athensRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Golden Tavern",
+    "description": "This popular Italian establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with ambient lighting.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-595-6459",
+      "contactEmail": "info@grandristoranteathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Taproom",
+    "description": "A charming French restaurant near central park, offering handcrafted desserts and other local favorites in a setting with boutique shops.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-937-2872",
+      "contactEmail": "info@bluepizzeriaathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
