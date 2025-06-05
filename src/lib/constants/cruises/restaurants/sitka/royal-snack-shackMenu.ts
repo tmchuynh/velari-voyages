@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Celebrate tradition and taste with our tasty Italian offerings",
+    "description": "Our delicious kitchen honors the soul of Italian cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Italian specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 37.26,
+            "name": "Gourmet Grilled Heritage Recipe Lamb Shank",
+            "price": 31.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,8 +22,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 34.17,
+            "name": "Classic Hearty Secret Recipe Bouillabaisse",
+            "price": 35.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,26 +31,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 32.06,
+            "name": "Fresh Roasted 24-Hour Braised Short Ribs",
+            "price": 30.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Exquisite Dry-Aged Tomahawk Steak",
+            "price": 26.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "price": 26.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Family Paella",
-            "price": 31.63,
+            "name": "Organic Crunchy Founder's Family Recipe Pasta",
+            "price": 27.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,32 +58,32 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 36.08,
-            "isVegetarian": false,
+            "name": "Handcrafted Delectable Restaurant's Namesake Signature Entrée",
+            "price": 25.26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 35.57,
-            "isVegetarian": true,
+            "name": "Seasonal Delicious Celebrity Favorite Lobster Dish",
+            "price": 32.74,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 33.62,
+            "name": "Fresh Fried Tasting of Local Artisanal Cheeses",
+            "price": 28.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,36 +91,36 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Vegetarian Wellington",
-            "price": 38.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sustainable Seafood Tower",
-            "price": 34.84,
+            "name": "Classic Herbed Hand-Selected Wine Pairing Experience",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Hand-Selected Wine Pairing Experience",
-            "price": 38.84,
+            "name": "Homestyle Delectable Live-Fire Grilled Feature",
+            "price": 31.25,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spicy Seasonal Truffle Risotto",
+            "price": 33,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Volcanic Stone-Cooked Specialty",
-            "price": 28.92,
-            "isVegetarian": false,
+            "name": "Handcrafted Grilled Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 24.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,20 +130,20 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Gourmet Grilled Hummus Platter",
-            "price": 11.89,
+            "name": "Deluxe Smoked Tuna Tartare",
+            "price": 11.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Flavorful Garlic Knots",
-            "price": 8.48,
+            "name": "Authentic Pan-seared Chicken Wings",
+            "price": 15.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,17 +151,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Prawn Cocktail",
-            "price": 8.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Enticing Chicken Wings",
-            "price": 10.05,
+            "name": "Authentic Comforting Baked Brie",
+            "price": 12.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +160,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Wholesome Tzatziki with Pita",
-            "price": 9.84,
+            "name": "House Special Crispy Hummus Platter",
+            "price": 8.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +169,17 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Comforting Lettuce Wraps",
-            "price": 9.27,
+            "name": "Hearty Golden Spinach Artichoke Dip",
+            "price": 10.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Mini Quesadillas",
+            "price": 13.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +187,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Mini Quesadillas",
-            "price": 13.88,
+            "name": "Hearty Spicy Garlic Knots",
+            "price": 10.22,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -196,32 +196,23 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Succulent Tuna Tartare",
-            "price": 9.14,
-            "isVegetarian": false,
+            "name": "Organic Grilled Prawn Toast",
+            "price": 14.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Italian, crafted with care and expertise.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "French Onion Soup",
-            "price": 10.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Borscht",
-            "price": 11.93,
+            "name": "Gourmet Delicious Zuppa Toscana",
+            "price": 10.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,17 +220,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Split Pea Soup",
-            "price": 7.63,
+            "name": "Homestyle Marinated Seafood Chowder",
+            "price": 8.23,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Satisfying Lentil Soup",
+            "price": 10.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Egg Drop Soup",
-            "price": 12.66,
+            "name": "Premium Exquisite Split Pea Soup",
+            "price": 7.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,47 +250,47 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Tabbouleh",
-            "price": 15.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 13.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 9.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Watermelon Feta Salad",
-            "price": 10.85,
+            "price": 11.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 14.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 9.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 13.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 10.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,11 +301,20 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Italian culture.",
+        "description": "From hearty classics to modern interpretations, our mains are a feast for the senses.",
         "items": [
           {
-            "name": "House Special Marinated Lentil Stew",
-            "price": 29.81,
+            "name": "Fresh Succulent Stuffed Peppers",
+            "price": 29.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crispy Pesto Pasta",
+            "price": 23.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,35 +322,44 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zingy Steak",
-            "price": 28.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Exquisite Katsu Curry",
-            "price": 20.69,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Hearty Steamed Coq au Vin",
+            "price": 29.7,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Spaghetti Bolognese",
-            "price": 19.64,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gourmet Spiced Cottage Pie",
+            "price": 27.11,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Eggplant Parmesan",
-            "price": 21.28,
+            "name": "Authentic Steamed Pulled Pork Sandwich",
+            "price": 24.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Pan-seared Grilled Tofu",
+            "price": 21.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Succulent Beef Burger",
+            "price": 20.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,41 +367,23 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Stuffed Coq au Vin",
-            "price": 26.99,
+            "name": "Seasonal Crunchy Gnocchi",
+            "price": 26.15,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Creamy Salmon",
-            "price": 28.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Fried Roast Duck",
-            "price": 21.19,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 34.81,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 29.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,26 +391,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 25.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 34.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 27.98,
+            "name": "Classic British Fish and Chips",
+            "price": 23.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +400,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 26.78,
+            "name": "New England Lobster Roll",
+            "price": 33.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 26.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 26.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,11 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Italian flavors.",
         "items": [
           {
-            "name": "Homestyle Flavorful Mashed Potatoes",
-            "price": 5.33,
+            "name": "Premium Exquisite Mashed Potatoes",
+            "price": 8.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,59 +442,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Zingy Truffle Parmesan Fries",
-            "price": 9.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Warm Buttermilk Dinner Rolls",
-            "price": 9.1,
+            "name": "Handcrafted Flavorful Warm Buttermilk Dinner Rolls",
+            "price": 9.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Smoked Sautéed Garlic Mushrooms",
-            "price": 6.9,
+            "name": "House Special Irresistible Stuffed Bell Peppers with Brown Rice",
+            "price": 7.02,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Wholesome Homestyle Baked Beans",
-            "price": 9.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Zingy Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.42,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
-        "items": [
+          },
           {
-            "name": "Tea",
-            "price": 4.11,
+            "name": "Fresh Luscious Corn on the Cob with Chili Lime Butter",
+            "price": 5.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -502,8 +469,8 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.73,
+            "name": "Fresh Sautéed Yukon Gold Potato Gratin",
+            "price": 6.07,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -511,8 +478,23 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 6.74,
+            "name": "Authentic Comforting Herbed Bulgur Wheat with Lemon",
+            "price": 6.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "items": [
+          {
+            "name": "Organic Spiced Coffee",
+            "price": 6.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +502,17 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.33,
+            "name": "Authentic Smoked Soda",
+            "price": 6.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Exquisite Smoothie",
+            "price": 4.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,20 +520,29 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 7.69,
-            "isVegetarian": true,
+            "name": "Authentic Golden Lemonade",
+            "price": 5.24,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Smoothie",
-            "price": 6.33,
+            "name": "Authentic Steamed Iced Tea",
+            "price": 5.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Tangy Juice",
+            "price": 5.72,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,15 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A curated selection of freshly prepared desserts, inspired by Italian heritage",
+    "description": "Decadent or delicate – our satisfying desserts cater to every preference",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Carrot Cake",
-            "price": 10.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 10.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 6.8,
+            "name": "Custard Tart",
+            "price": 6.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,8 +568,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pecan Pie",
-            "price": 8.35,
+            "name": "Apple Pie",
+            "price": 8.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baklava",
+            "price": 9.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soufflé",
+            "price": 6.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,11 +595,11 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 6.94,
-            "isVegetarian": true,
+            "name": "Sticky Toffee Pudding",
+            "price": 8.33,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,48 +607,48 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "Traditional Tangy Ice Cream",
-            "price": 9.44,
+            "name": "Organic Steamed Paletas",
+            "price": 11.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Frozen Custard",
+            "price": 9.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Smoked Frosty",
+            "price": 10.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Comforting Gelato",
-            "price": 10.53,
+            "name": "Hearty Smoked Kulfi",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Gelato",
+            "price": 8.92,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zesty Ice Cream Cake",
-            "price": 11.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Crispy Frozen Pie",
-            "price": 11.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Comforting Sherbet",
-            "price": 10.09,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,15 +660,15 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A delightful array of beverages specially curated for our guests",
+    "description": "A balanced cocktail lineup featuring house infusions and classic techniques",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
         "items": [
           {
-            "name": "Deluxe Tender Bloody Mary",
-            "price": 12.29,
+            "name": "Homestyle Mouthwatering Cosmopolitan",
+            "price": 14.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,44 +676,26 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Whiskey Sour",
-            "price": 15.23,
+            "name": "Seasonal Savory Bloody Mary",
+            "price": 10.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Baked Mai Tai",
+            "price": 14.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Delectable Old Fashioned",
-            "price": 11.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Smoked Cosmopolitan",
-            "price": 14.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crunchy Margarita",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Baked Negroni",
-            "price": 12.62,
+            "name": "House Special Spicy Mojito",
+            "price": 12.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,11 +703,29 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Pan-seared Manhattan",
-            "price": 14,
+            "name": "Fresh Exquisite Whiskey Sour",
+            "price": 13.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Roasted Manhattan",
+            "price": 10.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy Old Fashioned",
+            "price": 10.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Traditional Fried Syrah/Shiraz",
-            "price": 11.01,
+            "name": "Prosecco",
+            "price": 12.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +745,17 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Torrontés",
-            "price": 12.56,
+            "name": "Sauvignon Blanc",
+            "price": 11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 10.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,38 +763,29 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Exquisite Merlot",
-            "price": 13.37,
-            "isVegetarian": true,
+            "name": "Grenache",
+            "price": 9.6,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Gewürztraminer",
-            "price": 9.64,
+            "name": "Viognier",
+            "price": 9.88,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Roasted Vermentino",
-            "price": 8.68,
+            "name": "Pinot Noir",
+            "price": 10.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Irresistible Malbec",
-            "price": 11.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,52 +793,52 @@ export const sitkaroyalSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Authentic Sautéed Calvados",
-            "price": 17.44,
+            "name": "Fresh Marinated Brandy",
+            "price": 10.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sautéed Chambord",
+            "price": 17.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Fried Baileys Irish Cream",
+            "price": 14.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Vodka",
+            "price": 17.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Exquisite Midori",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Homestyle Exquisite Drambuie",
-            "price": 14.65,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Pan-seared Gin",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Satisfying Grappa",
-            "price": 15.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spiced Cointreau",
-            "price": 11.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       }

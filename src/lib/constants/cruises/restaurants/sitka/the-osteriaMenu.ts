@@ -6,42 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const sitkatheOsteriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where delicious technique meets timeless Italian tradition",
+    "description": "Crafted with care, our delicious Italian plates elevate every meal",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Hearty Marinated Captain's Favorite Seafood Tower",
-            "price": 30.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Marinated 24-Hour Braised Short Ribs",
-            "price": 31.33,
-            "isVegetarian": false,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 34.29,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Traditional Family Paella",
-            "price": 32.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Sous Vide Perfected Wagyu",
-            "price": 37.18,
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 29.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,17 +31,17 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Mouthwatering Flambéed Tableside Specialty",
-            "price": 33.39,
+            "name": "Award-Winning Seafood Boil",
+            "price": 31.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Celebrity Favorite Lobster Dish",
-            "price": 31.85,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 34.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,23 +49,59 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Sautéed Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 25.9,
+            "name": "Legendary Prime Rib",
+            "price": 26.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 35.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Carved Chateaubriand",
+            "price": 28.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Italian.",
         "items": [
           {
-            "name": "Volcanic Stone-Cooked Specialty",
-            "price": 29.83,
+            "name": "Tomahawk Ribeye for Two",
+            "price": 24.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Braised Short Ribs with Red Wine Sauce",
+            "price": 35.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Tasting Menu Experience",
+            "price": 30.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,8 +109,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cast Iron Seafood Presentation",
-            "price": 35.91,
+            "name": "Modern Interpretation of Regional Classic",
+            "price": 36.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,27 +118,9 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Black Garlic Marinated Octopus",
-            "price": 34.4,
+            "name": "Herb-Crusted Rack of Lamb",
+            "price": 34.73,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Vegetarian Wellington",
-            "price": 30.42,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 36.81,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,11 +130,29 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Italian—perfect for sharing or savoring solo.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Authentic Flavorful Mozzarella Sticks",
-            "price": 15.01,
+            "name": "Tempura",
+            "price": 12.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hummus Platter",
+            "price": 13.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tuna Tartare",
+            "price": 12.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +160,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Marinated Spring Rolls",
-            "price": 9.95,
+            "name": "Mini Empanadas",
+            "price": 12.73,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,56 +169,38 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Lettuce Wraps",
-            "price": 15.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delectable Deviled Eggs",
-            "price": 15.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Braised Nachos",
-            "price": 8.16,
+            "name": "Chicken Satay",
+            "price": 13.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Mouthwatering Mini Empanadas",
-            "price": 13.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Falafel",
-            "price": 10.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Stuffed Mini Sliders",
-            "price": 15.57,
+            "name": "Antipasto Platter",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Edamame",
+            "price": 14.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Puffs",
+            "price": 11.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,11 +208,11 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
+        "description": "Crafted with care, our soups are a celebration of Italian flavors and traditions.",
         "items": [
           {
-            "name": "House Special Zingy Gazpacho",
-            "price": 10.6,
+            "name": "Organic Hearty Minestrone",
+            "price": 11.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,41 +220,41 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Hot and Sour Soup",
-            "price": 11.85,
+            "name": "Fresh Enticing Tortilla Soup",
+            "price": 9.47,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Cabbage Soup",
-            "price": 8.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Tomato Soup",
-            "price": 13.36,
+            "name": "Seasonal Enticing Black Bean Soup",
+            "price": 13.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked French Onion Soup",
+            "price": 11.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 14.89,
+            "name": "Mango Avocado Salad",
+            "price": 9.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,8 +262,17 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coleslaw",
-            "price": 13.44,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 14.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 14.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,17 +280,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 12.71,
+            "name": "Cucumber Salad",
+            "price": 10.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,9 +289,9 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 15.05,
-            "isVegetarian": false,
+            "name": "Greek Salad",
+            "price": 14.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,47 +301,11 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "A journey through Italian flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Steak",
-            "price": 27.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 24.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "price": 23.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "price": 25.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pho",
-            "price": 26.14,
+            "name": "Deluxe Grilled Tacos",
+            "price": 28.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -349,17 +313,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 31.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "price": 27.7,
+            "name": "Organic Marinated Quiche",
+            "price": 26.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,10 +322,55 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "price": 28.12,
+            "name": "Authentic Juicy Tagine",
+            "price": 30.09,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Eggplant Parmesan",
+            "price": 22.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Risotto",
+            "price": 20.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Salmon",
+            "price": 23.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Succulent Pulled Pork Sandwich",
+            "price": 20.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Herbed Stir-fry",
+            "price": 25.34,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -382,26 +382,26 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
         "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
         "items": [
           {
-            "name": "Authentic Spicy Shrimp Scampi over Linguine",
-            "price": 32.85,
+            "name": "Fresh Zingy Stuffed Flounder with Crab and Spinach",
+            "price": 26.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Creamy Cajun Shrimp and Grits",
-            "price": 32.8,
+            "name": "Seasonal Baked Grilled Spanish Octopus with Smoked Paprika",
+            "price": 24.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Authentic Pan-seared Seafood Alfredo with Spinach Fettuccine",
-            "price": 25.25,
+            "name": "Traditional Smoked Maryland Style Crab Cakes",
+            "price": 25.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +409,17 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Roasted Traditional Provençal Bouillabaisse",
-            "price": 23.63,
+            "name": "Fresh Smoked Cajun Shrimp and Grits",
+            "price": 27.59,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Pan-seared Tempura Soft Shell Crab",
-            "price": 26.78,
+            "name": "Classic Spiced Linguine with Clam Sauce",
+            "price": 23.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -433,8 +433,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
         "description": "Crafted to enhance your meal, these sides are a celebration of Italian flavors.",
         "items": [
           {
-            "name": "Classic Fried Creamed Spinach with Nutmeg",
-            "price": 7.74,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 5.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,17 +442,26 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sweet Fragrant Basmati Rice Pilaf",
-            "price": 7.39,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 7.24,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delectable Wild Rice Pilaf",
-            "price": 9.18,
+            "name": "French Fries",
+            "price": 7.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Mushroom Risotto",
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +469,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Creamy Colcannon (Irish Potato Mash)",
-            "price": 5.12,
+            "name": "Braised Red Cabbage with Apple",
+            "price": 5.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,17 +478,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Zingy Flaky Cheddar and Chive Biscuits",
-            "price": 9.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Crispy Beer-Battered Onion Rings",
-            "price": 9.92,
+            "name": "Grilled Zucchini and Peppers",
+            "price": 7.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,39 +490,48 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 4.57,
+            "name": "Coffee",
+            "price": 5.68,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.49,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.77,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.44,
-            "isVegetarian": false,
+            "name": "Juice",
+            "price": 6.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 6.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -530,16 +539,7 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Water",
-            "price": 6.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.2,
+            "price": 7.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -552,15 +552,24 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's freshly prepared creations to end your meal on a sweet note",
+    "description": "Discover our collection of freshly prepared sweet masterpieces",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 8.84,
+            "name": "Madeleines",
+            "price": 8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 10.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +577,8 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 9.87,
+            "name": "Cannoli",
+            "price": 10.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -578,27 +587,18 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Baklava",
-            "price": 7.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crumb Cake",
-            "price": 6.67,
-            "isVegetarian": true,
+            "price": 6.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Donuts",
-            "price": 8,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Macarons",
+            "price": 9.19,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,20 +607,29 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
+        "description": "Classic frozen favorites reimagined with gourmet flair and fresh ingredients.",
         "items": [
           {
-            "name": "Frosty",
-            "price": 7.54,
+            "name": "Deluxe Delicious Semifreddo",
+            "price": 7.49,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 8.38,
+            "name": "Premium Satisfying Snow Cone",
+            "price": 8.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Frozen Mousse",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,29 +637,20 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 11.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 8.02,
+            "name": "Handcrafted Herbed Ice Cream Cake",
+            "price": 9.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Sherbet",
+            "price": 7.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,51 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A select assortment of libations to accompany your culinary journey",
+    "description": "Unwind with our carefully chosen beverages crafted for connoisseurs and casual sippers alike",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 13.6,
+            "name": "Martini",
+            "price": 13.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 15.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 13.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -677,53 +713,17 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 13.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
             "price": 12.4,
-            "isVegetarian": true,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 15.19,
+            "name": "Mojito",
+            "price": 10.77,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 10.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.22,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,11 +733,11 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
+        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
         "items": [
           {
-            "name": "Pinot Noir",
-            "price": 13.69,
+            "name": "Vouvray",
+            "price": 13.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,47 +745,47 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 8.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 12.66,
+            "name": "Cabernet Franc",
+            "price": 9.04,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 8.43,
+            "name": "Grenache",
+            "price": 13.77,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 8.13,
-            "isVegetarian": false,
+            "name": "Vermentino",
+            "price": 10.96,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 11.11,
-            "isVegetarian": false,
+            "name": "Sangiovese",
+            "price": 11.96,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 13.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,48 +793,48 @@ export const sitkatheOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 12.78,
+            "name": "House Special Stuffed Absinthe",
+            "price": 11.88,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 12.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 17.15,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frangelico",
-            "price": 16.73,
-            "isVegetarian": true,
+            "name": "House Special Delicious Triple Sec",
+            "price": 17.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Cognac",
+            "price": 12.05,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 17.99,
-            "isVegetarian": true,
+            "name": "Gourmet Irresistible Mezcal",
+            "price": 13.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Midori",
+            "price": 16.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

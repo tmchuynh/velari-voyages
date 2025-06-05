@@ -248,5 +248,160 @@ export const sitkaRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Grand Estate",
+    "description": "Located close to the iconic clock tower, this Japanese restaurant delights with its gourmet street food and ambient lighting.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-154-3151",
+      "contactEmail": "general@royalsmokehousesitka.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Coffee House",
+    "description": "A charming Mediterranean restaurant near downtown, offering handcrafted desserts and other local favorites in a setting with local ambiance.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-119-4198",
+      "contactEmail": "communications@blueseafoodshacksitka.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Taproom",
+    "description": "Experience authentic American cuisine with a local twist, featuring fresh produce served in an atmosphere of charming streetscapes overlooking the cultural center.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-477-7097",
+      "contactEmail": "admin@goldenenotecasitka.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Salumeria",
+    "description": "Located close to the historic district, this Mediterranean restaurant delights with its local ingredients and boutique shops.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-169-7755",
+      "contactEmail": "contact@thelabsitka.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Collective",
+    "description": "This popular French establishment combines traditional recipes and artisanal creations, all served in a unique setting with ambient lighting.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-189-9995",
+      "contactEmail": "contact@goldendininghallsitka.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

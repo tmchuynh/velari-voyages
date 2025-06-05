@@ -6,93 +6,84 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Crafted with care, our simple Italian plates elevate every meal",
+    "description": "Discover our hearty interpretation of classic Italian recipes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Homestyle Smoked Signature Truffle Pasta with Aged Pecorino",
-            "price": 26.45,
+            "name": "Deluxe Delectable Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Heritage Recipe Lamb Shank",
+            "price": 36.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Succulent Executive Chef's Daily Inspiration Entrée",
+            "price": 31.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Chef's Special Surf and Turf",
+            "price": 37.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Secret Recipe Bouillabaisse",
+            "price": 35.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Sizzling Local Bounty Harvest Plate (Vegetarian)",
+            "price": 34.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Deluxe Zesty Founder's Family Recipe Pasta",
-            "price": 28.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Marinated Executive Chef's Daily Inspiration Entrée",
-            "price": 35.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Wood-Fired Peking Duck with Plum Sauce",
-            "price": 35.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Zingy Seasonal Tasting Menu Experience",
-            "price": 25.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 24.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Luscious Charcoal Grilled Iberico Pork",
-            "price": 34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Authentic Spicy Herb-Crusted Rack of Lamb",
-            "price": 39.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Delectable Freshly Harvested Seasonal Creation",
-            "price": 36.63,
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 36.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,41 +91,50 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Volcanic Stone-Cooked Specialty",
-            "price": 30.58,
+            "name": "Chef's Market Inspiration of the Day",
+            "price": 37.2,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 36.12,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Duck Confit with Roasted Root Vegetables",
-            "price": 24.63,
+            "name": "Truffle-Infused Filet Mignon",
+            "price": 26.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Seared Foie Gras with Fig Compote",
+            "price": 25.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Modern Interpretation of Regional Classic",
+            "price": 27.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Italian flavors—perfect for sharing or enjoying solo.",
+        "description": "A selection of small plates that showcase the essence of Italian—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 12.68,
+            "name": "Stuffed Jalapeños",
+            "price": 9.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,35 +142,53 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charcuterie Board",
-            "price": 12.28,
+            "name": "Calamari",
+            "price": 11.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
             "name": "Meatballs",
-            "price": 12.82,
+            "price": 12.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Jalapeños",
-            "price": 8.99,
+            "name": "Deviled Eggs",
+            "price": 14.67,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Tacos",
+            "price": 12.5,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Onion Rings",
-            "price": 14.52,
+            "name": "Cheese Nachos",
+            "price": 8.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arancini",
+            "price": 8.61,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -178,27 +196,9 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Edamame",
-            "price": 15.64,
+            "name": "Prawn Toast",
+            "price": 9.96,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potstickers",
-            "price": 15.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Antipasto Platter",
-            "price": 11.03,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -208,92 +208,92 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Each bowl is a journey through the heart of Italian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Hearty Spiced Tomato Soup",
-            "price": 7.32,
+            "name": "Broccoli Cheddar Soup",
+            "price": 12.09,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Zingy Chicken Noodle Soup",
-            "price": 13.28,
+            "name": "Borscht",
+            "price": 10.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Flavorful Clam Chowder",
-            "price": 11.45,
-            "isVegetarian": false,
+            "name": "Pho",
+            "price": 13.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Braised Chicken Corn Soup",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gazpacho",
+            "price": 10.76,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Waldorf Salad",
-            "price": 11.66,
+            "name": "Caesar Salad",
+            "price": 11.2,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 11.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 10.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 12.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 15.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 14.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 12.23,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 11.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 15.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,20 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Italian vision.",
+        "description": "Culinary centerpieces that define the essence of our dining experience.",
         "items": [
           {
-            "name": "Moussaka",
-            "price": 26.41,
+            "name": "Seafood Platter",
+            "price": 21.36,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fish and Chips",
-            "price": 31.82,
+            "name": "Steak",
+            "price": 26.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +322,17 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Bibimbap",
-            "price": 22.48,
+            "name": "Currywurst",
+            "price": 20.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "price": 18.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +340,26 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "price": 29.15,
+            "name": "Beef Burger",
+            "price": 22.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pizza",
+            "price": 22.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "price": 19.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,37 +367,10 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 28.17,
+            "name": "Stir-fry",
+            "price": 27.52,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "price": 22.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 23.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Katsu Curry",
-            "price": 20.58,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -379,20 +379,29 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Organic Tender Grilled Lobster with Lemon Butter",
-            "price": 22.87,
+            "name": "Gourmet Pan-seared Seafood Gumbo with Okra",
+            "price": 33.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Wholesome New England Lobster Roll",
-            "price": 30.28,
+            "name": "Fresh Fried Lemon-Herb Calamari Steak",
+            "price": 29.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Cedar Plank Roasted Salmon",
+            "price": 25.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,28 +409,19 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Exquisite Lemon-Herb Calamari Steak",
-            "price": 26.98,
+            "name": "Authentic Zingy Oysters Rockefeller with Pernod Cream",
+            "price": 25.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Satisfying Baked Cod with Lemon Caper Sauce",
-            "price": 25.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Spicy Shrimp Scampi over Linguine",
-            "price": 34.77,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Handcrafted Zingy Traditional Provençal Bouillabaisse",
+            "price": 33.38,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -430,11 +430,11 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Italian flavors.",
         "items": [
           {
-            "name": "Organic Crunchy Israeli Couscous with Roasted Tomatoes",
-            "price": 8.28,
+            "name": "House Special Grilled Warm Buttermilk Dinner Rolls",
+            "price": 7.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,49 +442,49 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Wholesome Scalloped Potatoes with Thyme",
-            "price": 8,
+            "name": "Hearty Marinated Soft Polenta with Parmesan",
+            "price": 6.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Luscious Wild Rice Pilaf",
+            "price": 6.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Marinated Macaroni and Aged Cheddar",
+            "price": 9.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Mashed Potatoes",
+            "price": 5.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Scalloped Potatoes with Thyme",
+            "price": 6.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Gourmet Creamy Sautéed Garlic Mushrooms",
-            "price": 6.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Mouthwatering Wild Rice Pilaf",
-            "price": 7.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Juicy Sweet Corn and Cheddar Fritters",
-            "price": 7.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crispy Sweet Potato Wedges with Smoked Paprika",
-            "price": 9.43,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
@@ -493,17 +493,17 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
         "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Gourmet Aromatic Coffee",
-            "price": 4.01,
-            "isVegetarian": true,
+            "name": "Iced Tea",
+            "price": 4.65,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crunchy Iced Tea",
-            "price": 6.12,
+            "name": "Hot Chocolate",
+            "price": 7.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +511,8 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Aromatic Tea",
-            "price": 5.93,
+            "name": "Water",
+            "price": 6.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,28 +520,28 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Hot Chocolate",
-            "price": 5.68,
+            "name": "Milkshake",
+            "price": 4.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 7.07,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Water",
-            "price": 7.51,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Pan-seared Soda",
-            "price": 4.02,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,24 +552,15 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Crafted with love, our warm desserts are the perfect treat",
+    "description": "Indulge in our gooey sweet creations",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
         "items": [
           {
-            "name": "Authentic Flaky Cheesecake",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Luscious Custard Tart",
-            "price": 9.09,
+            "name": "Cannoli",
+            "price": 8.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +568,8 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spiced Biscotti",
-            "price": 8.76,
+            "name": "Baklava",
+            "price": 8.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,17 +577,26 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Berry Tart",
-            "price": 9.8,
-            "isVegetarian": false,
+            "name": "Pain au Chocolat",
+            "price": 9.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Croissants",
-            "price": 7.57,
+            "name": "Cobbler",
+            "price": 10.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 9.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,12 +607,30 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 8.19,
+            "name": "Frozen Banana",
+            "price": 9.11,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Snow Cone",
+            "price": 7.05,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 11.14,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -620,35 +638,17 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Mousse",
-            "price": 9.77,
+            "price": 9.2,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 10.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 9.54,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 11.96,
-            "isVegetarian": false,
+            "name": "Frozen Pie",
+            "price": 8.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,16 +660,52 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' fine creations to complete your meal",
+    "description": "A fine blend of heritage and modern mixology in every glass",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 13.69,
+            "name": "Martini",
+            "price": 11.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 11.66,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.94,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -677,7 +713,7 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 12.76,
+            "price": 13.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -686,46 +722,10 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 15.99,
+            "price": 12.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 14.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 14.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -736,8 +736,8 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
         "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Homestyle Roasted Pinot Noir",
-            "price": 10.93,
+            "name": "House Special Marinated Barbera",
+            "price": 11.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,26 +745,26 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Fried Fiano",
-            "price": 10.89,
-            "isVegetarian": true,
+            "name": "Hearty Savory Champagne/Sparkling Wine",
+            "price": 12.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Viognier",
-            "price": 12.26,
-            "isVegetarian": true,
+            "name": "Gourmet Wholesome Mourvèdre",
+            "price": 9.34,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Chenin Blanc",
-            "price": 10.47,
+            "name": "Authentic Smoked Marsanne",
+            "price": 11.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,17 +772,17 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Succulent Pinot Grigio",
-            "price": 11.15,
-            "isVegetarian": false,
+            "name": "Hearty Delicious Torrontés",
+            "price": 13.21,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Herbed Barbera",
-            "price": 11.21,
+            "name": "Deluxe Aromatic Pinot Blanc",
+            "price": 10.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,51 +793,51 @@ export const sitkaroyalCharcuterieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Grappa",
-            "price": 17.23,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 11.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "price": 14.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 16.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 13.44,
+            "name": "Classic Grilled Whiskey",
+            "price": 13.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Mouthwatering Pisco",
+            "price": 10.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Maraschino",
+            "price": 12.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious Grand Marnier",
+            "price": 10.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Cointreau",
+            "price": 15.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]

@@ -6,51 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const sitkagrandBuffetMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of delicious offerings from across the Mediterranean spectrum",
+    "description": "Enjoy a variety of classic Mediterranean plates made with seasonal inspiration",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
+        "description": "Our chef's pride—carefully selected Mediterranean specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Hearty Exquisite House Famous Duck Confit",
-            "price": 26.86,
-            "isVegetarian": false,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 32.41,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Tangy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 26.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 26.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Tangy Seasonal Tasting Menu Experience",
-            "price": 29.74,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Molecular Gastronomy Showcase Tasting",
-            "price": 34.82,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 27.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,32 +31,8 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Stuffed Chef's Childhood Inspired Creation",
-            "price": 28.82,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Braised Flambéed Tableside Specialty",
-            "price": 29.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
-        "items": [
-          {
-            "name": "House Special Sizzling Tableside Flambé Preparation",
-            "price": 26.43,
+            "name": "Award-Winning Seafood Boil",
+            "price": 31.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,39 +40,90 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Spicy Locally Foraged Mushroom Selection",
-            "price": 33.9,
+            "name": "Legendary Prime Rib",
+            "price": 29.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 37.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Charcoal Grilled Iberico Pork",
+            "price": 30.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 34.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "items": [
+          {
+            "name": "Miso-Glazed Black Cod",
+            "price": 38.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 39.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seared Duck Breast with Cherry Reduction",
+            "price": 33.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Off-Menu Secret Preparation",
+            "price": 27,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Irresistible Cedar Plank Salmon",
-            "price": 34.13,
+            "name": "Sous Vide Pork Tenderloin",
+            "price": 33.92,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Luscious Freshly Harvested Seasonal Creation",
-            "price": 30.28,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Succulent Off-Menu Secret Preparation",
-            "price": 32.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -133,53 +133,35 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
         "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
+            "name": "Stuffed Peppers",
+            "price": 10.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Artichoke Dip",
+            "price": 14.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Antipasto Platter",
-            "price": 8.23,
+            "price": 14.88,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Satay",
-            "price": 13.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bruschetta",
-            "price": 11.29,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Mushrooms",
-            "price": 9.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Falafel",
-            "price": 13.8,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ceviche",
-            "price": 13.47,
+            "name": "Spring Rolls",
+            "price": 12.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,20 +169,38 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Crab Cakes",
-            "price": 10.93,
+            "name": "Spinach Puffs",
+            "price": 14.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dumplings",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Crostini",
-            "price": 15.36,
+            "name": "Mini Quesadillas",
+            "price": 13.61,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Platter",
+            "price": 13.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,11 +208,29 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Mediterranean cooking—perfect for any season.",
+        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
         "items": [
           {
-            "name": "Pumpkin Soup",
-            "price": 12.62,
+            "name": "Authentic Grilled Pho",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Delectable Egg Drop Soup",
+            "price": 11.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Minestrone",
+            "price": 11.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,27 +238,9 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster Bisque",
-            "price": 11.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Minestrone",
-            "price": 13.04,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Coconut Soup",
-            "price": 13.85,
-            "isVegetarian": false,
+            "name": "Hearty Sizzling Pumpkin Soup",
+            "price": 8.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -250,20 +250,20 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Quinoa Salad",
-            "price": 13.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Southwest Black Bean Salad",
+            "price": 14.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Broccoli Crunch Salad",
-            "price": 9.51,
+            "price": 12.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -271,29 +271,29 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 9.25,
+            "name": "Watermelon Feta Salad",
+            "price": 15.85,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 14.13,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 10.83,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 15.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 9.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,47 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
+        "description": "Culinary centerpieces that define the essence of our dining experience.",
         "items": [
           {
-            "name": "Mac and Cheese",
-            "price": 26.95,
+            "name": "Fresh Stuffed Lentil Stew",
+            "price": 24.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Stir-fry",
+            "price": 24.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Biryani",
+            "price": 29.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Spaghetti Bolognese",
+            "price": 29.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Roasted Mac and Cheese",
+            "price": 23.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -313,35 +349,17 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "price": 31.79,
+            "name": "Authentic Golden Burrito",
+            "price": 25.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "price": 31.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "price": 23.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "price": 26.84,
+            "name": "Hearty Zesty Stuffed Zucchini Boats",
+            "price": 27.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -349,59 +367,23 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "price": 26.41,
+            "name": "Hearty Braised Stuffed Peppers",
+            "price": 22.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "price": 21.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lamb Chops",
-            "price": 22.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 32.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Provençal Bouillabaisse",
-            "price": 29.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic British Fish and Chips",
-            "price": 28.47,
+            "name": "Maryland Style Crab Cakes",
+            "price": 29.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +391,50 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 26.71,
+            "name": "Seafood Risotto with Saffron",
+            "price": 29.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 25.32,
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 30.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 22.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Cajun Shrimp and Grits",
+            "price": 33.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
         "items": [
           {
-            "name": "Handcrafted Appetizing Chili Lime Roasted Chickpeas",
-            "price": 8.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crunchy Buttered Egg Noodles",
-            "price": 6.14,
+            "name": "Seasonal Crunchy Creamed Spinach with Nutmeg",
+            "price": 8.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +442,35 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tender Sweet Potato Wedges with Smoked Paprika",
-            "price": 5.29,
+            "name": "Authentic Crispy Wild Rice Pilaf",
+            "price": 5.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Israeli Couscous with Roasted Tomatoes",
+            "price": 6.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Sizzling Herbed Bulgur Wheat with Lemon",
+            "price": 9.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed French Fries",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,29 +478,11 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Sautéed Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 8.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Corn on the Cob with Chili Lime Butter",
-            "price": 5.1,
+            "name": "Homestyle Stuffed Corn on the Cob with Chili Lime Butter",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Satisfying Maple-Glazed Baby Carrots",
-            "price": 7.56,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,58 +490,58 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Authentic Creamy Juice",
-            "price": 4.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Braised Lemonade",
-            "price": 4.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Water",
-            "price": 7.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Smoked Iced Tea",
-            "price": 5.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Hot Chocolate",
-            "price": 5.97,
+            "name": "Premium Flaky Juice",
+            "price": 6.63,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Creamy Iced Tea",
+            "price": 6.68,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Enticing Soda",
-            "price": 4.86,
+            "name": "Seasonal Steamed Coffee",
+            "price": 4.28,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Hot Chocolate",
+            "price": 6.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Water",
+            "price": 4.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Steamed Soda",
+            "price": 4.42,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,15 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our tasty sweet creations",
+    "description": "Crafted with love, our mouthwatering desserts are the perfect treat",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
         "items": [
           {
-            "name": "Carrot Cake",
-            "price": 6.79,
+            "name": "Organic Grilled Vanilla Cake",
+            "price": 8.45,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Donuts",
-            "price": 10.8,
+            "name": "Fresh Sautéed Cannoli",
+            "price": 7.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,29 +577,29 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 6.66,
+            "name": "Authentic Delicious Lemon Bars",
+            "price": 7.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Sizzling Sticky Toffee Pudding",
+            "price": 6.41,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Roasted Apple Pie",
+            "price": 6.65,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 8.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 8.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,11 +607,11 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Made in-house with premium dairy and plant-based alternatives.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 8.32,
+            "name": "Frozen Pudding",
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,37 +619,37 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sorbet",
-            "price": 9.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Baked Alaska",
-            "price": 11.09,
-            "isVegetarian": false,
-            "isVegan": false,
+            "price": 8.78,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Ice Cream",
-            "price": 8.44,
-            "isVegetarian": false,
+            "price": 10.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 9.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 7.53,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Frozen Mousse",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,24 +660,24 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A smooth-drinking selection of alcoholic beverages to complement your meal",
+    "description": "From wines to spirits: delightful choices for every palate",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A cocktail experience that transcends the ordinary—crafted for the discerning palate.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "House Special Satisfying Martini",
-            "price": 12.2,
+            "name": "Traditional Luscious Margarita",
+            "price": 11.24,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Appetizing Margarita",
-            "price": 15.67,
+            "name": "Classic Baked Mojito",
+            "price": 14.88,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -685,17 +685,8 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Old Fashioned",
-            "price": 13.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delicious Bloody Mary",
-            "price": 14.26,
+            "name": "Organic Braised Mai Tai",
+            "price": 14.05,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -703,50 +694,59 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Steamed Mojito",
-            "price": 15.73,
+            "name": "Classic Zesty Manhattan",
+            "price": 10.55,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Marinated Cosmopolitan",
-            "price": 15.35,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Whiskey Sour",
-            "price": 10.43,
+            "name": "Organic Golden Old Fashioned",
+            "price": 10.93,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Braised Martini",
+            "price": 10.32,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Creamy Cosmopolitan",
+            "price": 11.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Authentic Smoked Syrah/Shiraz",
-            "price": 8.85,
+            "name": "Fresh Marinated Chardonnay",
+            "price": 11.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Tangy Pinot Noir",
-            "price": 9.9,
+            "name": "Seasonal Crispy Nebbiolo",
+            "price": 8.49,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -754,68 +754,68 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zingy Verdicchio",
-            "price": 12.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Viognier",
-            "price": 8.67,
+            "name": "Hearty Braised Pinot Noir",
+            "price": 10.11,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Vermentino",
-            "price": 9.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flavorful Grenache",
-            "price": 10.25,
+            "name": "Authentic Braised Chenin Blanc",
+            "price": 11.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Pinot Grigio",
+            "price": 13.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Merlot",
+            "price": 10.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Homestyle Delicious Vodka",
-            "price": 16.87,
-            "isVegetarian": false,
+            "name": "Fresh Crispy Vodka",
+            "price": 10.38,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Steamed Gin",
-            "price": 12.82,
+            "name": "Traditional Enticing Gin",
+            "price": 15.1,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Spicy Chartreuse",
-            "price": 11.86,
+            "name": "Classic Mouthwatering Cognac",
+            "price": 15.98,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -823,20 +823,20 @@ export const sitkagrandBuffetMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Bénédictine",
-            "price": 13.42,
+            "name": "Authentic Savory Grand Marnier",
+            "price": 14.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Creamy Kahlúa",
-            "price": 14.09,
+            "name": "Deluxe Appetizing Amaretto",
+            "price": 11.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
