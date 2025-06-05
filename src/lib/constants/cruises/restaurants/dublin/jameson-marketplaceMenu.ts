@@ -6,42 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our tasty kitchen reimagines British for today’s palate",
+    "description": "Bold, delicious, and unmistakably British—each dish tells a story",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Hearty Savory Chef’s Wild Game Selection",
-            "price": 32.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Award-Winning Seafood Boil",
-            "price": 31.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Savory Black Garlic Glazed Beef Tenderloin",
-            "price": 26.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Wholesome Seasonal Tasting Menu Experience",
-            "price": 35.63,
+            "name": "Homestyle Juicy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 26.56,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -49,8 +22,35 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Creamy Tableside Carved Chateaubriand",
-            "price": 35.76,
+            "name": "Homestyle Grilled Chef's Special Surf and Turf",
+            "price": 24.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spiced Wood-Fired Peking Duck with Plum Sauce",
+            "price": 34.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Hearty Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 24.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Roasted Seasonal Tasting Platter",
+            "price": 37.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,19 +58,19 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy 24-Hour Braised Short Ribs",
-            "price": 31.22,
+            "name": "Traditional Grilled Charcoal Grilled Iberico Pork",
+            "price": 24.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Steamed Japanese A5 Wagyu with Ponzu Butter",
-            "price": 28.88,
+            "name": "Seasonal Spiced Executive Chef's Daily Inspiration Entrée",
+            "price": 26.27,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -79,11 +79,11 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Gourmet Vegetarian Wellington",
-            "price": 24.1,
+            "name": "House Special Fried Fire-Roasted Seasonal Centerpiece",
+            "price": 28.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,38 +91,38 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 39.74,
+            "name": "Handcrafted Exquisite Chef's Childhood Favorite Reimagined",
+            "price": 24.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Dry-Aged Prime Beef Selection",
+            "price": 30.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 26.32,
+            "name": "Authentic Pan-seared House Specialty Pasta Creation",
+            "price": 30.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 39.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custom Tasting Menu Based on Guest Preferences",
-            "price": 34.66,
+            "name": "Organic Mouthwatering Cedar Plank Salmon",
+            "price": 39.96,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,38 +130,29 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of British—perfect for sharing or savoring solo.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Falafel",
-            "price": 14.7,
+            "name": "Organic Crunchy Caprese Salad",
+            "price": 8.99,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shrimp Cocktail",
-            "price": 10.62,
+            "name": "Authentic Creamy Spinach Artichoke Dip",
+            "price": 10.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Mini Empanadas",
-            "price": 10.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Skins",
-            "price": 13.5,
+            "name": "Homestyle Stuffed Baked Brie",
+            "price": 12.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +160,35 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Knots",
-            "price": 13.48,
+            "name": "Authentic Flaky Chicken Satay",
+            "price": 10.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crispy Tempura",
+            "price": 15.82,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Arancini",
+            "price": 15.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Comforting Prawn Toast",
+            "price": 10.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,26 +196,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Quesadillas",
-            "price": 8.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charcuterie Board",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Arancini",
-            "price": 15.2,
+            "name": "Seasonal Spiced Stuffed Peppers",
+            "price": 10.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,20 +208,20 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Crafted with care, our soups are a celebration of British flavors and traditions.",
         "items": [
           {
-            "name": "Authentic Pan-seared Lobster Bisque",
-            "price": 8.49,
+            "name": "Seasonal Braised Clam Chowder",
+            "price": 9.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Gourmet Spicy Mushroom Soup",
-            "price": 9.2,
+            "name": "Traditional Spiced Miso Soup",
+            "price": 7.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,19 +229,19 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Clam Chowder",
-            "price": 11.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sweet Peanut Soup (West African)",
-            "price": 7.87,
+            "name": "Fresh Mouthwatering Thai Coconut Soup",
+            "price": 7.69,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Crispy French Onion Soup",
+            "price": 9.68,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,50 +250,50 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 13.05,
+            "name": "Coleslaw",
+            "price": 13.53,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 10.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Waldorf Salad",
-            "price": 12.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Salad",
-            "price": 10.82,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 13.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 11.71,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 12,
+            "name": "Cobb Salad",
+            "price": 15.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 9.06,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -304,54 +304,36 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
         "description": "A selection of mains that reflect the heart and soul of British, prepared with care.",
         "items": [
           {
-            "name": "Pho",
-            "price": 24.52,
-            "isVegetarian": false,
+            "name": "Stir-fry",
+            "price": 19.26,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "price": 26.87,
+            "name": "Fish and Chips",
+            "price": 31.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Quiche",
-            "price": 28.69,
+            "name": "Paella",
+            "price": 21.17,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Risotto",
-            "price": 26.43,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "price": 24.54,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "price": 30.53,
-            "isVegetarian": false,
+            "price": 21.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -359,17 +341,35 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bibimbap",
-            "price": 25.54,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 27.28,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "price": 19.82,
+            "name": "Enchiladas",
+            "price": 23.95,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tagine",
+            "price": 22.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 23.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,29 +379,11 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Fresh, sustainable seafood prepared using timeless British traditions.",
         "items": [
           {
-            "name": "Authentic Satisfying Cedar Plank Roasted Salmon",
-            "price": 29.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Juicy Garlic Butter Shrimp Skillet",
-            "price": 26.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Lemon-Herb Calamari Steak",
-            "price": 32.44,
+            "name": "New England Lobster Roll",
+            "price": 34.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,8 +391,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Satisfying New England Lobster Roll",
-            "price": 29.26,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 31.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +400,86 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Flaky Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 35.05,
+            "name": "Classic British Fish and Chips",
+            "price": 24.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 23.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 33.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
+        "items": [
+          {
+            "name": "Provencal Ratatouille",
+            "price": 6.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 9.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Rice Pilaf",
+            "price": 6.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soft Polenta with Parmesan",
+            "price": 9.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 7.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Beans",
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -429,72 +489,12 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
-        "items": [
-          {
-            "name": "Grilled Zucchini and Peppers",
-            "price": 6.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Corn on the Cob with Chili Lime Butter",
-            "price": 9.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Beans",
-            "price": 7.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 9.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mashed Potatoes",
-            "price": 8.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "French Fries",
-            "price": 9.41,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.82,
+            "name": "Traditional Mouthwatering Lemonade",
+            "price": 5.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,8 +502,17 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.35,
+            "name": "Gourmet Comforting Juice",
+            "price": 4.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Zesty Coffee",
+            "price": 6.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,17 +520,17 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 5.77,
+            "name": "Authentic Mouthwatering Tea",
+            "price": 5.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Soda",
-            "price": 5.94,
+            "name": "Homestyle Sautéed Water",
+            "price": 7.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,17 +538,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.26,
+            "name": "Homestyle Smoked Smoothie",
+            "price": 5.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,15 +552,15 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's satisfying creations to end your meal on a sweet note",
+    "description": "Delight in our satisfying desserts prepared fresh daily",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Treacle Tart",
-            "price": 10.2,
+            "name": "Seasonal Sizzling Chocolate Chip Cookies",
+            "price": 7.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Biscotti",
-            "price": 10.93,
+            "name": "Classic Crunchy Red Velvet Cake",
+            "price": 10.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,17 +577,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Carrot Cake",
-            "price": 9.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
-            "price": 7.65,
+            "name": "Hearty Herbed Banana Bread",
+            "price": 9.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,10 +586,19 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 10.09,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Cobbler",
+            "price": 7.84,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Satisfying Strawberry Shortcake",
+            "price": 6.72,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,29 +607,11 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Gourmet Zingy Gelato",
-            "price": 7.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crunchy Ice Cream",
-            "price": 11.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Wholesome Frozen Cheesecake",
-            "price": 7.24,
+            "name": "Ice Cream",
+            "price": 10.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,8 +619,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Kulfi",
-            "price": 10.53,
+            "name": "Gelato",
+            "price": 7.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +628,26 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Appetizing Frosty",
-            "price": 7.72,
+            "name": "Frosty",
+            "price": 8.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 10.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 8.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,24 +660,51 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A smooth-drinking array of beverages specially selected by our sommeliers",
+    "description": "A carefully chosen selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Authentic Creamy Whiskey Sour",
-            "price": 12.27,
+            "name": "Whiskey Sour",
+            "price": 15.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Tangy Margarita",
-            "price": 13.84,
+            "name": "Old Fashioned",
+            "price": 15.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 10.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,45 +712,18 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Herbed Mojito",
-            "price": 12.62,
-            "isVegetarian": false,
+            "name": "Margarita",
+            "price": 12.38,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Mouthwatering Martini",
-            "price": 12.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Cosmopolitan",
-            "price": 15.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Bloody Mary",
-            "price": 13.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Zesty Old Fashioned",
-            "price": 10.25,
-            "isVegetarian": false,
+            "name": "Cosmopolitan",
+            "price": 11.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,11 +733,29 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Marsanne",
-            "price": 11.15,
+            "name": "Sauvignon Blanc",
+            "price": 8.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 8.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 12.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +763,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 11.76,
+            "name": "Zinfandel",
+            "price": 8.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,17 +772,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 9.48,
+            "name": "Sangiovese",
+            "price": 13.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,17 +781,8 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 10.74,
+            "name": "Roussanne",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,29 +793,38 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
+        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
         "items": [
           {
-            "name": "Amaretto",
-            "price": 14.86,
+            "name": "Mezcal",
+            "price": 15.97,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 14.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 16.83,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Rum",
-            "price": 14.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 10.98,
+            "price": 17.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,18 +832,9 @@ export const dublinjamesonMarketplaceMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Armagnac",
-            "price": 16.34,
+            "name": "Gin",
+            "price": 12.1,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cointreau",
-            "price": 14.62,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,

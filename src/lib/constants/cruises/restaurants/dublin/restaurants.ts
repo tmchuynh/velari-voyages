@@ -248,5 +248,160 @@ export const dublinRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Blarney Kebab House",
+    "description": "This popular French establishment combines traditional recipes and coddle, all served in a unique setting with green parks.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-689-5731",
+      "contactEmail": "ask@ha'pennymarketplacedublin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Saint Patrick Garden",
+    "description": "Located close to Trinity College, this Irish restaurant delights with its colcannon and live music.",
+    "cuisine": "Irish",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-463-1245",
+      "contactEmail": "info@emeraldrevivaldublin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Wicklow Artisan",
+    "description": "A culinary gem serving Irish specialties including soda bread, where guests enjoy literary heritage in the heart of the city.",
+    "cuisine": "Irish",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-971-5642",
+      "contactEmail": "admin@cliffsfarmtabledublin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Lone Star & Co.",
+    "description": "This popular British establishment combines traditional recipes and seafood chowder, all served in a unique setting with traditional Irish pub atmosphere.",
+    "cuisine": "British",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-748-9041",
+      "contactEmail": "general@templebarsnackshackdublin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Emerald Bar & Kitchen",
+    "description": "A culinary gem serving Mediterranean specialties including seafood chowder, where guests enjoy live music in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-366-8074",
+      "contactEmail": "general@dublinmaisondublin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

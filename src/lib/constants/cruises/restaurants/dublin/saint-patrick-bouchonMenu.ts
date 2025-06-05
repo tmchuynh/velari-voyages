@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A thoughtfully balanced mix of comforting and authentic French flavors",
+    "description": "Bold, hearty, and unmistakably French—each dish tells a story",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Traditional Family Paella",
-            "price": 30.66,
+            "name": "Organic Grilled Traditional Family Paella",
+            "price": 25.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,17 +22,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 33.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.45,
+            "name": "Gourmet Marinated Local Bounty Harvest Plate (Vegetarian)",
+            "price": 36.57,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -40,17 +31,35 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 31,
+            "name": "Traditional Crispy Heritage Recipe Lamb Shank",
+            "price": 32.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 33.07,
+            "name": "Authentic Succulent Whole Roasted Heritage Chicken",
+            "price": 31.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Flambéed Tableside Specialty",
+            "price": 32.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Spiced Celebrity Favorite Lobster Dish",
+            "price": 31.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,17 +67,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 28.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 26,
+            "name": "Handcrafted Tangy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 25.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,38 +79,29 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Hearty Sautéed Cedar Plank Salmon",
-            "price": 25.78,
-            "isVegetarian": false,
+            "name": "Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 27.64,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Juicy Cast Iron Seafood Presentation",
-            "price": 39.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Zesty Freshly Harvested Seasonal Creation",
-            "price": 33.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Charcoal-Grilled Wagyu Beef",
-            "price": 28.47,
+            "name": "Modern Interpretation of Regional Classic",
+            "price": 32.11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 37.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,9 +109,18 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Flaky Tasting of Local Artisanal Cheeses",
-            "price": 39.45,
-            "isVegetarian": true,
+            "name": "Heritage Breed Porchetta",
+            "price": 36.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seared Foie Gras with Fig Compote",
+            "price": 29.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -130,11 +130,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Flavor-forward starters that introduce our approach to French with balance and creativity.",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
         "items": [
           {
-            "name": "Cheese Nachos",
-            "price": 11.8,
+            "name": "Stuffed Avocado",
+            "price": 15.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,44 +142,35 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 11.29,
+            "name": "Charcuterie Board",
+            "price": 8.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hummus Platter",
-            "price": 12.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheese Platter",
-            "price": 8.24,
+            "name": "Spring Rolls",
+            "price": 10.37,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baba Ganoush",
-            "price": 15.69,
+            "name": "Falafel",
+            "price": 14.29,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tempura",
-            "price": 11.82,
+            "name": "Mini Crab Cakes",
+            "price": 13.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +178,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Wings",
-            "price": 8.77,
+            "name": "Prawn Cocktail",
+            "price": 8.07,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tzatziki with Pita",
+            "price": 15.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,9 +196,9 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Skins",
-            "price": 14.2,
-            "isVegetarian": false,
+            "name": "Arancini",
+            "price": 15.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,11 +208,29 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of French flavors and traditions.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Gourmet Exquisite Pumpkin Soup",
-            "price": 10.96,
+            "name": "Carrot Ginger Soup",
+            "price": 7.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Noodle Soup",
+            "price": 9.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Corn Chowder",
+            "price": 12.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,29 +238,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Chicken Noodle Soup",
-            "price": 13.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Delectable Seafood Chowder",
-            "price": 8.56,
+            "name": "French Onion Soup",
+            "price": 9.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Sizzling French Onion Soup",
-            "price": 10.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,20 +250,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
         "items": [
           {
-            "name": "Watermelon Feta Salad",
-            "price": 14.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 11.23,
+            "name": "Garden Salad",
+            "price": 12.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,26 +262,35 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 12.22,
+            "name": "Caesar Salad",
+            "price": 13.06,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 9.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 12.75,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Kale Salad",
+            "price": 14.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chickpea Salad",
-            "price": 13.9,
+            "name": "Chef Salad",
+            "price": 11.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,11 +301,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
         "items": [
           {
-            "name": "Moussaka",
-            "price": 30.85,
+            "name": "Thai Curry",
+            "price": 28.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,8 +313,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "price": 20.53,
+            "name": "Grilled Chicken",
+            "price": 25.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Cottage Pie",
+            "price": 24.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,17 +331,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "price": 29.73,
-            "isVegetarian": false,
+            "name": "Eggplant Parmesan",
+            "price": 22.77,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Paella",
-            "price": 27.42,
+            "price": 22.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,36 +349,27 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "price": 31.69,
+            "name": "Coq au Vin",
+            "price": 24.9,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quiche",
-            "price": 22.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 27.63,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 19.13,
-            "isVegetarian": true,
+            "name": "Fish and Chips",
+            "price": 21.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Enchiladas",
+            "price": 29.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,11 +379,20 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "New England Lobster Roll",
-            "price": 24.97,
+            "name": "Authentic Roasted Seafood Gumbo with Okra",
+            "price": 35.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Savory Miso-Marinated Chilean Sea Bass",
+            "price": 24.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +400,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 23.55,
+            "name": "Handcrafted Smoked Seared Tuna Steak with Sesame Crust",
+            "price": 29.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,26 +409,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Sushi-Grade Sashimi Platter",
-            "price": 26.13,
+            "name": "House Special Grilled Lemon-Herb Calamari Steak",
+            "price": 28.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 25.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 31.29,
+            "name": "Classic Smoked New England Lobster Roll",
+            "price": 27.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Perfectly balanced additions that elevate your dining experience.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Deluxe Crispy Charred Broccolini with Garlic Oil",
-            "price": 9.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crispy Corn on the Cob with Chili Lime Butter",
-            "price": 5.18,
+            "name": "Soft Polenta with Parmesan",
+            "price": 5.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,37 +442,46 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tangy Wild Mushroom Risotto",
-            "price": 7.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delectable Mashed Potatoes",
-            "price": 9.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted French Fries",
-            "price": 9.26,
+            "name": "Chili Lime Roasted Chickpeas",
+            "price": 8.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Sizzling Wild Rice Pilaf",
-            "price": 6.13,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 5.05,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 6.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Zucchini and Peppers",
+            "price": 9.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "French Fries",
+            "price": 5.67,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,29 +490,38 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Authentic Comforting Water",
-            "price": 6.6,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 5.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Herbed Milkshake",
-            "price": 7.71,
-            "isVegetarian": false,
+            "name": "Smoothie",
+            "price": 7.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Succulent Smoothie",
-            "price": 4.2,
+            "name": "Hot Chocolate",
+            "price": 6.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,8 +529,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Soda",
-            "price": 4.43,
+            "name": "Juice",
+            "price": 6.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,20 +538,11 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Hot Chocolate",
-            "price": 4.89,
+            "name": "Iced Tea",
+            "price": 6.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Pan-seared Lemonade",
-            "price": 4.33,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: comforting desserts for every taste",
+    "description": "Crafted with passion, our tasty desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Homestyle Luscious Apple Pie",
-            "price": 10.09,
+            "name": "Premium Marinated Lemon Bars",
+            "price": 9.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,26 +568,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Fruit Galette",
-            "price": 7.9,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Deluxe Irresistible Carrot Cake",
+            "price": 10.11,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Luscious Baklava",
-            "price": 10.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Tiramisu",
-            "price": 7.91,
+            "name": "Classic Juicy Tiramisu",
+            "price": 9.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,8 +586,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Soufflé",
-            "price": 10.12,
+            "name": "Fresh Hearty Strawberry Shortcake",
+            "price": 8.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Wholesome Muffins",
+            "price": 6.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,29 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
+            "name": "Kulfi",
+            "price": 8.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Ice Cream",
-            "price": 9.03,
+            "price": 11.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -620,35 +638,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gelato",
-            "price": 7.18,
+            "price": 7.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 9.1,
+            "name": "Popsicles",
+            "price": 11.07,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 11.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 10.09,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,24 +660,24 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine blend of heritage and modern mixology in every glass",
+    "description": "A enticing array of beverages specially curated for our guests",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Margarita",
-            "price": 12.74,
+            "name": "Deluxe Satisfying Old Fashioned",
+            "price": 13.78,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 10.57,
+            "name": "Seasonal Zesty Mai Tai",
+            "price": 13.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +685,26 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 14.88,
+            "name": "Hearty Steamed Cosmopolitan",
+            "price": 13.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Fried Margarita",
+            "price": 11.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Grilled Manhattan",
+            "price": 12.67,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,38 +712,20 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.24,
+            "name": "Deluxe Braised Negroni",
+            "price": 12.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 14.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.8,
+            "name": "Fresh Sizzling Whiskey Sour",
+            "price": 14.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 10.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,20 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Sauvignon Blanc",
-            "price": 13.73,
+            "name": "Syrah/Shiraz",
+            "price": 13.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 11.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,26 +754,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 8.62,
-            "isVegetarian": true,
+            "name": "Grenache",
+            "price": 12.89,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 8.84,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pinot Grigio",
-            "price": 8.75,
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -772,8 +772,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 12.96,
+            "name": "Albariño",
+            "price": 13.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -781,23 +781,23 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabernet Sauvignon",
-            "price": 11.78,
-            "isVegetarian": true,
+            "name": "Chenin Blanc",
+            "price": 11.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
+        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
         "items": [
           {
-            "name": "Grappa",
-            "price": 16.68,
+            "name": "Brandy",
+            "price": 11.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,8 +805,17 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 10.77,
+            "name": "Calvados",
+            "price": 17.6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,8 +823,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Armagnac",
-            "price": 13.05,
+            "name": "Triple Sec",
+            "price": 11.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,17 +832,8 @@ export const dublinsaintPatrickBouchonMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 17.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Midori",
-            "price": 14.36,
+            "name": "Pisco",
+            "price": 10.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

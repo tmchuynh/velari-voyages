@@ -6,24 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Savor our delicious dishes made with locally sourced ingredients",
+    "description": "A thoughtfully balanced mix of fresh and authentic French flavors",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected French specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "House Special Enticing 24-Hour Braised Short Ribs",
-            "price": 29.22,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.42,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Grilled Award-Winning Seafood Boil",
-            "price": 26.89,
+            "name": "Flambéed Tableside Specialty",
+            "price": 25.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 27.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,8 +40,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Appetizing Legendary Prime Rib",
-            "price": 30.02,
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 27.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,26 +49,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Juicy Chef’s Wild Game Selection",
-            "price": 29.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Captain's Favorite Seafood Tower",
-            "price": 35.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Irresistible Charcoal Grilled Iberico Pork",
-            "price": 25.94,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 28.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,8 +58,17 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Spiced Seasonal Tasting Platter",
-            "price": 27.27,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 27.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 27.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,20 +79,29 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Authentic Mouthwatering Tableside Flambé Preparation",
-            "price": 32.32,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 29.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Vegetarian Wellington",
+            "price": 30.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Collaborative Limited Edition Special",
-            "price": 24.53,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 29.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,59 +109,32 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Volcanic Stone-Cooked Specialty",
-            "price": 30.63,
+            "name": "Sous Vide Pork Tenderloin",
+            "price": 31.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spiced Duck Confit with Roasted Root Vegetables",
-            "price": 29.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Tomahawk Ribeye for Two",
-            "price": 37.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Wild Mushroom Risotto",
+            "price": 28.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of French—perfect for sharing or savoring solo.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Fresh Golden Spinach Artichoke Dip",
-            "price": 10.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Roasted Caprese Salad",
-            "price": 12.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Antipasto Platter",
-            "price": 13.51,
+            "name": "Stuffed Mushrooms",
+            "price": 13.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,8 +142,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Herbed Falafel",
-            "price": 10.25,
+            "name": "Falafel",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -169,39 +151,57 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Smoked Cheese Platter",
+            "name": "Dumplings",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baba Ganoush",
+            "price": 14.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 10.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Samosas",
+            "price": 9.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ceviche",
             "price": 15.01,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Arancini",
-            "price": 8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Baba Ganoush",
-            "price": 13.02,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Spring Rolls",
-            "price": 10.4,
-            "isVegetarian": false,
+            "name": "Antipasto Platter",
+            "price": 13.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -211,17 +211,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
         "description": "Each bowl is a journey through the heart of French, crafted with care and expertise.",
         "items": [
           {
-            "name": "Gazpacho",
-            "price": 12.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot and Sour Soup",
-            "price": 8.6,
+            "name": "Thai Coconut Soup",
+            "price": 10.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,8 +220,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vegetable Barley Soup",
-            "price": 13.91,
+            "name": "Lentil Soup",
+            "price": 13.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,8 +229,17 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zuppa Toscana",
-            "price": 8.91,
+            "name": "Pumpkin Soup",
+            "price": 13.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tomato Soup",
+            "price": 7.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,38 +250,11 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Greek Salad",
-            "price": 15.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
+            "name": "Asian Slaw",
             "price": 10.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 15.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 13.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,8 +262,35 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 12.82,
+            "name": "Quinoa Salad",
+            "price": 15.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 12.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 12.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 11.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,20 +301,11 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
+        "description": "Each dish is a culinary journey, showcasing the richness of French traditions.",
         "items": [
           {
-            "name": "Hearty Juicy Katsu Curry",
-            "price": 30.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crunchy Fish and Chips",
-            "price": 29.57,
+            "name": "Lasagna",
+            "price": 27.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +313,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Zesty Quiche",
-            "price": 26.08,
+            "name": "Gnocchi",
+            "price": 30.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +322,8 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Coq au Vin",
-            "price": 31.07,
+            "name": "Stuffed Zucchini Boats",
+            "price": 23.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,110 +331,110 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Stuffed Burrito",
-            "price": 25.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Jambalaya",
-            "price": 28.83,
-            "isVegetarian": false,
+            "name": "Jambalaya",
+            "price": 31.52,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Enticing Teriyaki Chicken",
-            "price": 29.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Pho",
-            "price": 31.65,
+            "name": "Teriyaki Chicken",
+            "price": 21.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Tagine",
+            "price": 22.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moussaka",
+            "price": 22.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paella",
+            "price": 22.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
+        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
         "items": [
           {
-            "name": "Homestyle Smoked Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 31.79,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Enticing Cajun Shrimp and Grits",
-            "price": 35.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Juicy Crab-Stuffed Mushrooms",
-            "price": 35.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Crunchy Cedar Plank Roasted Salmon",
-            "price": 33.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Creamy Maryland Style Crab Cakes",
-            "price": 23.96,
+            "name": "Handcrafted Grilled Lobster Thermidor with Gruyère Crust",
+            "price": 32.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled Pan-Seared Scallops with Pea Purée",
+            "price": 22.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Creamy Linguine with Clam Sauce",
+            "price": 29.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Luscious Tempura Soft Shell Crab",
+            "price": 32.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Satisfying Prawn Curry in Coconut Masala",
+            "price": 26.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Perfectly balanced additions that elevate your dining experience.",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
         "items": [
           {
-            "name": "Gourmet Comforting Grilled Asparagus with Lemon Zest",
-            "price": 7.3,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Satisfying French Fries",
-            "price": 5.6,
+            "name": "Classic Creamy Chili Lime Roasted Chickpeas",
+            "price": 6.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,36 +442,45 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Tender Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.52,
-            "isVegetarian": true,
+            "name": "Fresh Crispy Sautéed Garlic Mushrooms",
+            "price": 5.12,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Sweet Corn and Cheddar Fritters",
-            "price": 7.16,
+            "name": "Traditional Grilled Warm Buttermilk Dinner Rolls",
+            "price": 9.37,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Yukon Gold Potato Gratin",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Braised Baked Idaho Potato with Sour Cream",
-            "price": 5.86,
-            "isVegetarian": true,
+            "name": "Deluxe Smoked Braised Red Cabbage with Apple",
+            "price": 6.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Cauliflower Gratin with Gruyère",
+            "price": 6.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Baked Herbed Bulgur Wheat with Lemon",
+            "price": 8.95,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,20 +490,38 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Handcrafted Creamy Lemonade",
-            "price": 7.6,
+            "name": "Deluxe Tender Smoothie",
+            "price": 6.13,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Coffee",
-            "price": 7.12,
+            "name": "Authentic Spiced Tea",
+            "price": 5.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Roasted Milkshake",
+            "price": 7.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Hot Chocolate",
+            "price": 7.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,37 +529,19 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Herbed Tea",
-            "price": 5.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crispy Water",
-            "price": 7.4,
+            "name": "Authentic Golden Coffee",
+            "price": 7.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Traditional Zesty Juice",
-            "price": 4.9,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Steamed Iced Tea",
-            "price": 4.75,
+            "name": "Traditional Roasted Soda",
+            "price": 7.27,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,24 +552,42 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our crowd-pleasing sweet creations",
+    "description": "Satisfy your sweet tooth with our freshly prepared treats",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 9.44,
-            "isVegetarian": true,
+            "name": "Premium Pan-seared Cupcakes",
+            "price": 9.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tiramisu",
-            "price": 10.41,
+            "name": "Gourmet Sizzling Scones",
+            "price": 6.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Croissants",
+            "price": 9.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Cannoli",
+            "price": 7.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -577,27 +595,9 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 8.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pain au Chocolat",
-            "price": 9.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pecan Pie",
-            "price": 8.32,
-            "isVegetarian": false,
+            "name": "Premium Delectable Banana Bread",
+            "price": 10.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,50 +607,50 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "Ice Cream Sandwich",
-            "price": 9.92,
+            "name": "Gelato",
+            "price": 9.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 9.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Yogurt",
-            "price": 8.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 11.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
             "price": 11.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frosty",
-            "price": 10.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,72 +660,72 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Enjoy thoughtfully selected cocktails designed to pair effortlessly with our seasonal menu",
+    "description": "A crowd-pleasing selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "House Special Spiced Negroni",
-            "price": 14.47,
+            "name": "Mojito",
+            "price": 14.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.16,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Old Fashioned",
-            "price": 11.65,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tender Manhattan",
-            "price": 15.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Mai Tai",
-            "price": 13.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Whiskey Sour",
-            "price": 12.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Savory Martini",
-            "price": 15.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Cosmopolitan",
-            "price": 14.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,20 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Fiano",
-            "price": 11.55,
+            "name": "Homestyle Mouthwatering Barbera",
+            "price": 12.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sizzling Pinot Grigio",
+            "price": 10.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,47 +754,38 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.79,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "House Special Flaky Moscato",
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 13,
+            "name": "House Special Exquisite Merlot",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flavorful Riesling",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zesty Pinot Blanc",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 13.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 8.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Merlot",
-            "price": 13.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,38 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Handcrafted Satisfying Midori",
-            "price": 14.09,
+            "name": "Coffee Liqueur",
+            "price": 16.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 12.92,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 10.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Campari",
+            "price": 11.41,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -805,38 +832,11 @@ export const dublinloneStarCerveceriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Brandy",
-            "price": 16.15,
+            "name": "Whiskey",
+            "price": 13.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Drambuie",
-            "price": 12.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Spicy Pisco",
-            "price": 16.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Succulent Aquavit",
-            "price": 12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

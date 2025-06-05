@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dubaidhowLocalMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "From street food classics to refined plates—our delicious take on Lebanese",
+    "description": "Our satisfying menu celebrating the flavors of Lebanese cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve.",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 36.07,
+            "name": "Tableside Carved Chateaubriand",
+            "price": 35.24,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -22,8 +22,17 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 37.05,
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 25.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef’s Wild Game Selection",
+            "price": 30.24,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -31,68 +40,59 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 25.19,
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 34.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 33,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Legendary Prime Rib",
-            "price": 35.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 26.53,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 24.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 29.21,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 24.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 34.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Deluxe Grilled Locally Foraged Mushroom Selection",
-            "price": 39.19,
+            "name": "Fresh Delectable Duck Confit with Roasted Root Vegetables",
+            "price": 27.55,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Hearty Chef's Tasting Menu Experience",
-            "price": 36.19,
+            "name": "Premium Mouthwatering Tableside Flambé Preparation",
+            "price": 31.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,8 +100,17 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Pan-seared Tableside Prepared Tartare",
-            "price": 31.78,
+            "name": "Fresh Grilled Seasonal Truffle Risotto",
+            "price": 26.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Irresistible Chef's Childhood Favorite Reimagined",
+            "price": 26.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,19 +118,10 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spiced Tasting of Local Artisanal Cheeses",
-            "price": 34.82,
+            "name": "Gourmet Appetizing House Specialty Pasta Creation",
+            "price": 28.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delectable Heirloom Recipe from Chef's Family",
-            "price": 27.33,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -130,47 +130,11 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "A delightful array of appetizers that highlight the best of Lebanese flavors—perfect for sharing or enjoying solo.",
         "items": [
           {
-            "name": "Deluxe Irresistible Mini Crab Cakes",
-            "price": 11.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Creamy Charcuterie Board",
-            "price": 14.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Grilled Cheese Platter",
-            "price": 10.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crunchy Potato Skins",
-            "price": 11.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Exquisite Prawn Toast",
-            "price": 8.84,
+            "name": "Fresh Spiced Shrimp Cocktail",
+            "price": 8.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,29 +142,65 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Ceviche",
-            "price": 14.79,
+            "name": "Hearty Steamed Garlic Bread",
+            "price": 12.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Spinach Artichoke Dip",
+            "price": 14.15,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tangy Potstickers",
+            "price": 14.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Samosas",
+            "price": 10.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Tempura",
+            "price": 15.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Crispy Mezze Platter",
+            "price": 11.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Golden Nachos",
+            "price": 11.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Stuffed Mushrooms",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Fried Mini Sliders",
-            "price": 12.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,29 +208,11 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Lebanese flavors and traditions.",
+        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
         "items": [
           {
-            "name": "Deluxe Succulent Miso Soup",
-            "price": 9.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Irresistible Corn Chowder",
-            "price": 11.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Tomato Soup",
-            "price": 7.49,
+            "name": "Corn Chowder",
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,11 +220,29 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Golden Lentil Soup",
-            "price": 12.81,
+            "name": "Clam Chowder",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Peanut Soup (West African)",
+            "price": 8.54,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Barley Soup",
+            "price": 11.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,49 +250,49 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Cucumber Salad",
-            "price": 10.34,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 10.14,
+            "name": "Mango Avocado Salad",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 11.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 11.06,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 12.33,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Thai Green Papaya Salad",
+            "price": 11.35,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Southwest Black Bean Salad",
-            "price": 13.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 15.13,
+            "price": 9.03,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,20 +301,11 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Lebanese culture.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Gourmet Crunchy Vegetable Stir-Fry",
-            "price": 29.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Thai Curry",
-            "price": 26.73,
+            "name": "Fajitas",
+            "price": 24.98,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -322,55 +313,64 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Salmon",
-            "price": 26.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sweet Stuffed Zucchini Boats",
-            "price": 29.63,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Cottage Pie",
-            "price": 27.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Succulent Lamb Chops",
-            "price": 24.32,
+            "name": "Steak",
+            "price": 31.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 27.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Spiced Grilled Tofu",
-            "price": 21.26,
+            "name": "Stuffed Zucchini Boats",
+            "price": 24.87,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stir-fry",
+            "price": 29.25,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Pizza",
-            "price": 21.18,
+            "name": "Grilled Tofu",
+            "price": 23.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moussaka",
+            "price": 25.84,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "price": 22.37,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -382,47 +382,47 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
         "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Authentic Savory Sushi-Grade Sashimi Platter",
-            "price": 35.56,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 25.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Grilled Lobster with Lemon Butter",
-            "price": 24.79,
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 26.94,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 27.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Linguine with Clam Sauce",
+            "price": 22.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Provençal Bouillabaisse",
+            "price": 27.1,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Steamed Garlic Butter Shrimp Skillet",
-            "price": 24.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Smoked Shrimp Scampi over Linguine",
-            "price": 28.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Luscious Pan-Seared Scallops with Pea Purée",
-            "price": 23.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,11 +430,11 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
         "items": [
           {
             "name": "Creamy Colcannon (Irish Potato Mash)",
-            "price": 6.26,
+            "price": 5.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,35 +442,35 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steamed Jasmine Rice",
-            "price": 7.94,
-            "isVegetarian": true,
+            "name": "Grilled Zucchini and Peppers",
+            "price": 7.05,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 7.69,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Braised Red Cabbage with Apple",
+            "price": 7.14,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.11,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 9.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 5.87,
+            "name": "Macaroni and Aged Cheddar",
+            "price": 8.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,59 +478,23 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 7.06,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
-        "items": [
-          {
-            "name": "Handcrafted Flaky Soda",
-            "price": 4.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flaky Coffee",
-            "price": 5.4,
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 6.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "items": [
           {
-            "name": "Seasonal Marinated Hot Chocolate",
-            "price": 4.72,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zingy Tea",
-            "price": 7.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Milkshake",
-            "price": 7.64,
+            "name": "Handcrafted Hearty Tea",
+            "price": 6.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,10 +502,46 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Iced Tea",
-            "price": 6.84,
+            "name": "Homestyle Spiced Coffee",
+            "price": 5.62,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Wholesome Milkshake",
+            "price": 5.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Smoothie",
+            "price": 5.23,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Hot Chocolate",
+            "price": 6.11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Soda",
+            "price": 6.66,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,54 +552,54 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our dessert menu features tasty selections to satisfy every craving",
+    "description": "From oven to plate – homemade desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
         "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Deluxe Grilled Baklava",
-            "price": 8.33,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Savory Custard Tart",
-            "price": 10,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Berry Tart",
-            "price": 6.82,
+            "name": "Red Velvet Cake",
+            "price": 8.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Hearty Exquisite Lemon Bars",
-            "price": 9.73,
-            "isVegetarian": true,
+            "name": "Pumpkin Pie",
+            "price": 8.78,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Pan-seared Tiramisu",
-            "price": 6.13,
+            "name": "Crumb Cake",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.26,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 9.18,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,39 +607,21 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Baked Alaska",
-            "price": 7.23,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 10.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 8.61,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Frozen Fruit Bars",
-            "price": 11.98,
+            "price": 7.06,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 7.03,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -647,10 +629,28 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
           },
           {
             "name": "Granita",
-            "price": 10.1,
+            "price": 8.31,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Paletas",
+            "price": 10.25,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 10.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A flavorful selection of alcoholic beverages to complement your meal",
+    "description": "Elevate your dining experience with our refreshing beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "From timeless classics to modern masterpieces, our cocktails are crafted to impress.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10.44,
+            "name": "Organic Sweet Old Fashioned",
+            "price": 15.46,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -676,17 +676,17 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.23,
+            "name": "Seasonal Flavorful Mojito",
+            "price": 15.91,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.56,
+            "name": "Authentic Steamed Manhattan",
+            "price": 13.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,17 +694,8 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 14.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 12.63,
+            "name": "Gourmet Spiced Margarita",
+            "price": 12.15,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -712,19 +703,28 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 13.13,
+            "name": "Seasonal Creamy Negroni",
+            "price": 12.85,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 11.49,
+            "name": "Hearty Savory Mai Tai",
+            "price": 12.54,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Exquisite Whiskey Sour",
+            "price": 11.64,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,29 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "New World energy meets Old World elegance in our diverse selection.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Torrontés",
-            "price": 8.11,
+            "name": "Homestyle Flavorful Verdicchio",
+            "price": 12.71,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Spicy Syrah/Shiraz",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Smoked Riesling",
+            "price": 9.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,46 +763,28 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 12.55,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 11.5,
+            "name": "Authentic Zingy Fiano",
+            "price": 11.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 8.43,
+            "name": "Authentic Satisfying Chardonnay",
+            "price": 12.3,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 13.56,
+            "name": "Handcrafted Creamy Sémillon",
+            "price": 12.51,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Franc",
-            "price": 12.58,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,50 +793,50 @@ export const dubaidhowLocalMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
         "items": [
           {
-            "name": "Authentic Zingy Triple Sec",
-            "price": 10.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy Limoncello",
-            "price": 12.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Mezcal",
-            "price": 16.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Armagnac",
-            "price": 11.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Stuffed Grappa",
-            "price": 13.27,
+            "name": "Armagnac",
+            "price": 12.43,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Amaretto",
+            "price": 17.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 12.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 10.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 16.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

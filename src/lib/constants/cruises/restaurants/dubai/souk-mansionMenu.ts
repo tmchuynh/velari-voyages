@@ -1,128 +1,128 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Emerald Coffee House in dublin
+ * Menu data for Souk Mansion in dubai
  */
-export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
+export const dubaisoukMansionMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our simple menu celebrating the flavors of Mediterranean cooking",
+    "description": "An immersive dining experience defined by tasty Indian cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "name": "Authentic Pan-seared Chef's Special Surf and Turf",
+            "price": 33.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Spicy Chef's Childhood Inspired Creation",
             "price": 30.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 27.77,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 36.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 30,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 25.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 31.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 35.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Mediterranean.",
-        "items": [
-          {
-            "name": "Tableside Prepared Tartare",
-            "price": 35.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dry-Aged Prime Beef Selection",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Lobster Thermidor",
-            "price": 32.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 35.62,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Gourmet Grilled Japanese A5 Wagyu with Ponzu Butter",
+            "price": 35.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Seasonal Tasting Platter",
+            "price": 34.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Exquisite Founder's Family Recipe Pasta",
+            "price": 35.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spicy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 28.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Whole Roasted Heritage Chicken",
+            "price": 34.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "items": [
+          {
+            "name": "Cold-Smoked Delicacy",
+            "price": 33.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Tasting Menu Experience",
+            "price": 25.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 27.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
             "name": "Special Occasion Celebratory Dish",
-            "price": 38.63,
+            "price": 29.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 31.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,11 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Mediterranean flavors—perfect for sharing or enjoying solo.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Authentic Succulent Baba Ganoush",
-            "price": 10.76,
+            "name": "Authentic Luscious Stuffed Peppers",
+            "price": 12.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,8 +142,35 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Appetizing Deviled Eggs",
-            "price": 15.82,
+            "name": "Classic Aromatic Mini Empanadas",
+            "price": 11.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Potstickers",
+            "price": 12.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Comforting Edamame",
+            "price": 15.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Bruschetta",
+            "price": 13.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,53 +178,26 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Appetizing Spring Rolls",
-            "price": 13.48,
+            "name": "Deluxe Aromatic Calamari",
+            "price": 12.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seasonal Crunchy Hummus Platter",
-            "price": 12.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Herbed Spinach Puffs",
-            "price": 15.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Cheese Platter",
-            "price": 9.91,
+            "name": "Handcrafted Crunchy Meatballs",
+            "price": 11.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Seasonal Zesty Mini Sliders",
-            "price": 11.41,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Edamame",
-            "price": 10.03,
+            "name": "Seasonal Mouthwatering Spring Rolls",
+            "price": 9.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,11 +208,11 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
+        "description": "Crafted with care, our soups are a celebration of Indian flavors and traditions.",
         "items": [
           {
-            "name": "French Onion Soup",
-            "price": 11.64,
+            "name": "House Special Herbed Gumbo",
+            "price": 13.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,28 +220,28 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gazpacho",
-            "price": 12.62,
-            "isVegetarian": true,
+            "name": "Hearty Mouthwatering Gazpacho",
+            "price": 8.77,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Corn Soup",
-            "price": 11.04,
-            "isVegetarian": false,
+            "name": "Traditional Zingy Tomato Soup",
+            "price": 9.08,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vegetable Barley Soup",
-            "price": 7.98,
+            "name": "Premium Sizzling Split Pea Soup",
+            "price": 7.39,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,38 +250,20 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 11.64,
+            "name": "Caesar Salad",
+            "price": 11.9,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 12.58,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil and Feta Salad",
-            "price": 14.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 9.85,
+            "name": "Watermelon Feta Salad",
+            "price": 13.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,11 +271,29 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 13.12,
+            "name": "Thai Green Papaya Salad",
+            "price": 10.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.97,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 13.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,20 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Indian vision.",
         "items": [
           {
-            "name": "Gnocchi",
-            "price": 31.62,
+            "name": "Spaghetti Bolognese",
+            "price": 23.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 21.75,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -313,53 +322,8 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "price": 30.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Enchiladas",
-            "price": 20.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "price": 23.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "price": 19.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "price": 24.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 24.91,
+            "name": "Salmon",
+            "price": 26.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -367,10 +331,46 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "price": 30.08,
+            "name": "Lamb Chops",
+            "price": 26.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Primavera",
+            "price": 24.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "price": 21.69,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shakshuka",
+            "price": 23.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 24.03,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,11 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 32.63,
+            "name": "Classic Zingy Valencian Seafood Paella",
+            "price": 31.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +391,8 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "price": 23.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "New England Lobster Roll",
-            "price": 31.3,
+            "name": "Organic Luscious Stuffed Flounder with Crab and Spinach",
+            "price": 34.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +400,41 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 25.98,
+            "name": "Fresh Luscious Oysters Rockefeller with Pernod Cream",
+            "price": 33.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 23.58,
-            "isVegetarian": true,
+            "name": "Hearty Grilled Classic British Fish and Chips",
+            "price": 23.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Irresistible Seared Tuna Steak with Sesame Crust",
+            "price": 25.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Each side is a testament to our commitment to quality and flavor.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Organic Stuffed Creamy Colcannon (Irish Potato Mash)",
-            "price": 9.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delectable Homestyle Baked Beans",
-            "price": 8.33,
+            "name": "Handcrafted Grilled Cauliflower Gratin with Gruyère",
+            "price": 7.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,36 +442,45 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Truffle Parmesan Fries",
-            "price": 6.39,
-            "isVegetarian": false,
+            "name": "Organic Aromatic Baked Idaho Potato with Sour Cream",
+            "price": 7.31,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 9.08,
+            "name": "Fresh Savory Corn on the Cob with Chili Lime Butter",
+            "price": 5.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Warm Buttermilk Dinner Rolls",
+            "price": 8.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Cauliflower Gratin with Gruyère",
-            "price": 8.17,
+            "name": "Homestyle Tangy Provencal Ratatouille",
+            "price": 5.69,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Roasted Root Vegetables",
-            "price": 5.44,
-            "isVegetarian": true,
+            "name": "House Special Grilled Fragrant Basmati Rice Pilaf",
+            "price": 9.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -490,47 +490,38 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Fresh Sweet Coffee",
-            "price": 4.47,
+            "name": "Coffee",
+            "price": 7.53,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Tea",
-            "price": 5.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Iced Tea",
-            "price": 7.83,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Smoothie",
-            "price": 4.15,
-            "isVegetarian": false,
+            "name": "Iced Tea",
+            "price": 4.62,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Milkshake",
-            "price": 6.79,
+            "name": "Milkshake",
+            "price": 5.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -538,11 +529,20 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Roasted Juice",
-            "price": 5.76,
+            "name": "Tea",
+            "price": 5.05,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.58,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,42 +552,15 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From rich chocolates to fruity delights – our mouthwatering desserts await",
+    "description": "A gooey finale to your dining experience",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Hearty Hearty Scones",
-            "price": 6.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Croissants",
-            "price": 8.56,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Cannoli",
-            "price": 7.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Shortbread",
-            "price": 9.99,
+            "name": "Sticky Toffee Pudding",
+            "price": 9.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,8 +568,35 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Steamed Chocolate Chip Cookies",
-            "price": 9.33,
+            "name": "Cobbler",
+            "price": 9.03,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 7.01,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 8.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 10.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,11 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
         "items": [
           {
-            "name": "Kulfi",
-            "price": 10.16,
+            "name": "Seasonal Steamed Sherbet",
+            "price": 9.92,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -619,37 +619,37 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 10.94,
+            "name": "Premium Pan-seared Frozen Pie",
+            "price": 11.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Frozen Mousse",
+            "price": 8.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Frozen Yogurt",
+            "price": 11.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Granita",
-            "price": 9.09,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 11.94,
-            "isVegetarian": true,
+            "name": "Seasonal Smoked Ice Cream Cake",
+            "price": 11.63,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 7.77,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -660,33 +660,15 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine assortment of libations to accompany your culinary journey",
+    "description": "Our bartenders' flavorful creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 15.52,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Martini",
-            "price": 10.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.85,
+            "price": 10.55,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -694,8 +676,8 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 15.56,
+            "name": "Old Fashioned",
+            "price": 15.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -704,16 +686,16 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 11.79,
+            "price": 15.38,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.44,
+            "name": "Mai Tai",
+            "price": 13.56,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,8 +703,26 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 12.33,
+            "name": "Negroni",
+            "price": 14.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 11.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -733,56 +733,56 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Organic Zingy Pinot Noir",
-            "price": 9.22,
-            "isVegetarian": true,
+            "name": "Nebbiolo",
+            "price": 8.44,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Tender Grenache",
-            "price": 8.13,
+            "name": "Cabernet Sauvignon",
+            "price": 10.35,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Flaky Champagne/Sparkling Wine",
-            "price": 9.96,
+            "name": "Sauvignon Blanc",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Hearty Cabernet Sauvignon",
-            "price": 13.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Comforting Zinfandel",
-            "price": 8.67,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Crunchy Malbec",
-            "price": 9.78,
+            "name": "Roussanne",
+            "price": 11.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Marsanne",
+            "price": 10.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 12.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,50 +793,50 @@ export const dublinemeraldCoffeeHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Deluxe Smoked St-Germain",
-            "price": 12.85,
+            "name": "Seasonal Spiced Pisco",
+            "price": 10.77,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Sautéed Bourbon",
-            "price": 16.15,
-            "isVegetarian": true,
+            "name": "Hearty Delectable St-Germain",
+            "price": 12.99,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Mezcal",
-            "price": 15.95,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Grand Marnier",
-            "price": 16.38,
-            "isVegetarian": false,
+            "name": "Handcrafted Zingy Tequila",
+            "price": 14.34,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Marinated Amaretto",
-            "price": 12.45,
-            "isVegetarian": true,
+            "name": "Organic Smoked Triple Sec",
+            "price": 16.74,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flavorful Calvados",
+            "price": 11.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

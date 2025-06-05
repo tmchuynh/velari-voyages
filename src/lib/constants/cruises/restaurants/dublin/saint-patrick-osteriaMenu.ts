@@ -6,33 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Delight in our chef's most tasty takes on traditional Irish flavors",
+    "description": "Our hearty kitchen reimagines Irish for today’s palate",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Irish specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Fresh Grilled 24-Hour Braised Short Ribs",
-            "price": 30.33,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 32.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Organic Zesty Heritage Recipe Lamb Shank",
-            "price": 30.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Japanese A5 Wagyu with Ponzu Butter",
-            "price": 28.62,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 24.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,68 +31,68 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Spicy Founder's Family Recipe Pasta",
-            "price": 27.88,
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 25.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 26.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 32.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crunchy Restaurant's Namesake Signature Entrée",
-            "price": 36.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Secret Recipe Bouillabaisse",
-            "price": 26.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Baked Whole Roasted Heritage Chicken",
-            "price": 27.1,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 28.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Family Paella",
+            "price": 30.67,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Seasonal Farm-to-Table Vegetable Plate",
-            "price": 33.42,
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 24.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 35.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Collaborative Limited Edition Special",
-            "price": 32.81,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 25.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,8 +100,17 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster and Crab Stuffed Ravioli",
-            "price": 28.26,
+            "name": "Cold-Smoked Delicacy",
+            "price": 36.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Charcoal-Grilled Wagyu Beef",
+            "price": 24.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,23 +118,32 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Duck Confit with Roasted Root Vegetables",
-            "price": 35.25,
+            "name": "Heritage Breed Porchetta",
+            "price": 39.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Irish culinary artistry.",
         "items": [
           {
-            "name": "Deluxe Herbed Falafel",
-            "price": 8.8,
+            "name": "Seasonal Wholesome Meatballs",
+            "price": 9.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Fried Mini Sliders",
+            "price": 14.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,26 +151,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Creamy Nachos",
-            "price": 9.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Enticing Spring Rolls",
-            "price": 14.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Enticing Mini Sliders",
-            "price": 8.16,
+            "name": "Homestyle Spiced Zucchini Fries",
+            "price": 8.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -169,8 +160,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Stuffed Mini Tacos",
-            "price": 9.27,
+            "name": "Homestyle Enticing Stuffed Avocado",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +169,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Comforting Mini Empanadas",
-            "price": 10.66,
+            "name": "Hearty Sautéed Tzatziki with Pita",
+            "price": 14.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +178,17 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Deviled Eggs",
-            "price": 13.33,
+            "name": "Classic Stuffed Chicken Satay",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Satisfying Edamame",
+            "price": 13.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +196,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Enticing Lettuce Wraps",
-            "price": 13.17,
+            "name": "Premium Sautéed Potstickers",
+            "price": 13.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,11 +208,20 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Irish, crafted with care and expertise.",
+        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
         "items": [
           {
-            "name": "Split Pea Soup",
-            "price": 7.33,
+            "name": "Premium Exquisite Split Pea Soup",
+            "price": 10.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crunchy Chicken Corn Soup",
+            "price": 8.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,8 +229,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gazpacho",
-            "price": 9.49,
+            "name": "Homestyle Appetizing Carrot Ginger Soup",
+            "price": 7.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,17 +238,8 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Minestrone",
-            "price": 10.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Soup",
-            "price": 12.24,
+            "name": "Deluxe Zingy Butternut Squash Soup",
+            "price": 12.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,29 +250,38 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Tabbouleh",
-            "price": 10.59,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Fruit Salad",
+            "price": 12.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 15.37,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 15.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Watermelon Feta Salad",
-            "price": 12.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 14.21,
+            "price": 11.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,50 +289,41 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 14.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 13.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Irish vision.",
-        "items": [
-          {
-            "name": "Organic Creamy Thai Curry",
-            "price": 20.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Juicy Salmon",
-            "price": 25.79,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 15.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
+        "items": [
+          {
+            "name": "Coq au Vin",
+            "price": 20.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Sizzling Pasta Primavera",
-            "price": 25.88,
+            "name": "Risotto",
+            "price": 20.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Primavera",
+            "price": 29.82,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -331,35 +331,35 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Grilled Chicken",
-            "price": 18.75,
+            "name": "Thai Curry",
+            "price": 23.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Crunchy Steak",
-            "price": 20.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Fajitas",
-            "price": 30.21,
+            "name": "Tacos",
+            "price": 28.9,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zingy Beef Burger",
-            "price": 21.86,
+            "name": "Ramen",
+            "price": 26.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "price": 24.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,12 +367,12 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Comforting Risotto",
-            "price": 29.68,
+            "name": "Beef Wellington",
+            "price": 27.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -382,35 +382,26 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
         "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Hearty Smoked Hearty Italian Cioppino",
-            "price": 23.08,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 26.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Roasted Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 35.49,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 25.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Herbed Sushi-Grade Sashimi Platter",
-            "price": 31.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Steamed Stuffed Flounder with Crab and Spinach",
-            "price": 24.16,
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 28.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -418,70 +409,79 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Baked Cod with Lemon Caper Sauce",
-            "price": 22.83,
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 31.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "New England Lobster Roll",
+            "price": 26.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavor-packed sides made to share—or keep all to yourself.",
+        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
         "items": [
           {
-            "name": "Deluxe Herbed Stuffed Bell Peppers with Brown Rice",
-            "price": 8.9,
+            "name": "Premium Crunchy Green Beans Almondine",
+            "price": 6.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spicy Mashed Potatoes",
+            "price": 8.29,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Pan-seared Garlic Bread with Herb Butter",
+            "price": 7.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Baked Sautéed Garlic Mushrooms",
+            "price": 7.03,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Crunchy Warm Buttermilk Dinner Rolls",
-            "price": 6.03,
-            "isVegetarian": false,
+            "name": "Homestyle Smoked Flaky Cheddar and Chive Biscuits",
+            "price": 8.43,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Zingy Mashed Potatoes",
-            "price": 7.37,
+            "name": "Fresh Delicious Roasted Root Vegetables",
+            "price": 6.62,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Steamed Jasmine Rice",
-            "price": 8.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Garlic Bread with Herb Butter",
-            "price": 6.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Stuffed French Fries",
-            "price": 5.38,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,58 +490,58 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 4.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 4.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Coffee",
-            "price": 6.55,
-            "isVegetarian": true,
+            "price": 7.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 7.62,
+            "name": "Soda",
+            "price": 4.93,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 4.56,
-            "isVegetarian": true,
+            "price": 5.62,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.01,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,15 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: comforting desserts for every taste",
+    "description": "A freshly prepared selection of desserts that celebrate the art of pastry",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Crumb Cake",
-            "price": 10.26,
+            "name": "Hearty Golden Crumb Cake",
+            "price": 9.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,38 +568,38 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 7.11,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 9.37,
+            "name": "Authentic Tangy Danish Pastries",
+            "price": 10.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pain au Chocolat",
-            "price": 9.7,
+            "name": "Seasonal Creamy Muffins",
+            "price": 8.34,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 9.49,
+            "name": "Classic Tender Apple Pie",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Marinated Custard Tart",
+            "price": 8.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,20 +607,11 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Classic frozen favorites reimagined with gourmet flair and fresh ingredients.",
         "items": [
           {
-            "name": "Homestyle Delicious Ice Cream",
-            "price": 7.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Kulfi",
-            "price": 8.64,
+            "name": "Authentic Zingy Frozen Pudding",
+            "price": 9.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,17 +619,17 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Grilled Frozen Pie",
-            "price": 8.32,
-            "isVegetarian": false,
+            "name": "Deluxe Marinated Gelato",
+            "price": 11.94,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Gelato",
-            "price": 8.48,
+            "name": "Gourmet Sautéed Frozen Pie",
+            "price": 8.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +637,20 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crunchy Sherbet",
-            "price": 11.68,
+            "name": "Organic Pan-seared Ice Cream Cake",
+            "price": 10.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Creamy Frozen Yogurt",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,24 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A carefully chosen array of beverages specially selected by our sommeliers",
+    "description": "Enjoy fine cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
+        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.24,
+            "name": "Cosmopolitan",
+            "price": 10.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,18 +685,9 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 13.66,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Margarita",
-            "price": 13.53,
-            "isVegetarian": true,
+            "price": 13.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -695,16 +695,16 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 12.55,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 11.56,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 15.87,
+            "name": "Bloody Mary",
+            "price": 15.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,18 +712,18 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 13.11,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Negroni",
+            "price": 14.02,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 12.29,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 12.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,71 +733,80 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A wine list as thoughtful and layered as our cuisine.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Organic Zingy Chardonnay",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Organic Flaky Fiano",
+            "price": 10.82,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Sautéed Sauvignon Blanc",
-            "price": 13.69,
+            "name": "Authentic Spiced Pinot Blanc",
+            "price": 12.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Succulent Pinot Noir",
-            "price": 13.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Pan-seared Gewürztraminer",
-            "price": 11.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Roasted Marsanne",
-            "price": 12.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Merlot",
-            "price": 9.3,
+            "name": "Authentic Delectable Syrah/Shiraz",
+            "price": 8.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Delicious Pinot Grigio",
+            "price": 13.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Chenin Blanc",
+            "price": 11.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Roussanne",
+            "price": 10.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
+        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
         "items": [
           {
-            "name": "Classic Baked Absinthe",
-            "price": 11.73,
+            "name": "Traditional Zesty Anisette",
+            "price": 14.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Smoked Grappa",
+            "price": 14.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -805,36 +814,27 @@ export const dublinsaintPatrickOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Fried Calvados",
-            "price": 16.5,
+            "name": "Gourmet Comforting Whiskey",
+            "price": 10.2,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Grand Marnier",
-            "price": 11.67,
-            "isVegetarian": false,
+            "name": "Premium Baked Armagnac",
+            "price": 16.48,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Crispy Anisette",
-            "price": 17.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Sambuca",
-            "price": 11.55,
-            "isVegetarian": false,
+            "name": "Handcrafted Sizzling Tequila",
+            "price": 12.26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

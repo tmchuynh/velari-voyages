@@ -1,29 +1,29 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Liffey Provisions in dublin
+ * Menu data for Emerald Bar & Kitchen in dublin
  */
-export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
+export const dublinemeraldBarKitchenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "From street food classics to refined plates—our simple take on Mediterranean",
+    "description": "Elevated Mediterranean dishes showcasing our most tasty culinary ideas",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Mediterranean specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "Authentic Pan-seared Seasonal Tasting Platter",
-            "price": 34.89,
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Award-Winning Seafood Boil",
-            "price": 32.82,
+            "name": "Award-Winning Seafood Boil",
+            "price": 37.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,8 +31,8 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Pan-seared Chef's Childhood Inspired Creation",
-            "price": 36.4,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 24.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,50 +40,50 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Appetizing Founder's Family Recipe Pasta",
-            "price": 25.84,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 34.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 24.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 24.65,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Executive Chef's Daily Inspiration Entrée",
-            "price": 34.51,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 25.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Smoked Dry-Aged Tomahawk Steak",
-            "price": 27.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Sous Vide Perfected Wagyu",
-            "price": 32.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Fresh Luscious Cast Iron Seafood Presentation",
-            "price": 38.9,
+            "name": "Black Garlic Marinated Octopus",
+            "price": 34.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,8 +91,8 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Seared Foie Gras with Fig Compote",
-            "price": 24.5,
+            "name": "High-End Ingredient Showcase",
+            "price": 37.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,41 +100,41 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Custom Tasting Menu Based on Guest Preferences",
-            "price": 34.78,
-            "isVegetarian": true,
+            "name": "Tableside Flambé Preparation",
+            "price": 39.41,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Hearty Spicy Volcanic Stone-Cooked Specialty",
-            "price": 34.83,
-            "isVegetarian": true,
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 24.67,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Satisfying Heritage Breed Porchetta",
-            "price": 39.02,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aged and House-Cured Charcuterie Selection",
+            "price": 30.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Nachos",
-            "price": 14.64,
+            "name": "Authentic Grilled Bruschetta",
+            "price": 13.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,17 +142,17 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Prawn Toast",
-            "price": 10.61,
+            "name": "Authentic Golden Stuffed Mushrooms",
+            "price": 14.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 9.84,
+            "name": "Fresh Satisfying Baba Ganoush",
+            "price": 15.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,35 +160,26 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charcuterie Board",
-            "price": 13.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Meatballs",
-            "price": 14.22,
+            "name": "Authentic Crispy Stuffed Jalapeños",
+            "price": 8.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Spring Rolls",
-            "price": 11.69,
-            "isVegetarian": true,
+            "name": "Fresh Delicious Tempura",
+            "price": 11.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hummus Platter",
-            "price": 13.63,
+            "name": "Classic Herbed Mozzarella Sticks",
+            "price": 10.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -196,10 +187,19 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Brie",
-            "price": 8.38,
+            "name": "Premium Succulent Calamari",
+            "price": 15.74,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Marinated Spring Rolls",
+            "price": 11.39,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,11 +208,11 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Each bowl is a journey through the heart of Mediterranean, crafted with care and expertise.",
         "items": [
           {
-            "name": "Hearty Zesty Turkey and Wild Rice Soup",
-            "price": 8.16,
+            "name": "Gourmet Creamy French Onion Soup",
+            "price": 11.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,29 +220,29 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Corn Chowder",
-            "price": 13.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Appetizing Chicken Corn Soup",
-            "price": 7.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Herbed Minestrone",
-            "price": 9.35,
+            "name": "Homestyle Zingy Corn Chowder",
+            "price": 8.4,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tender Turkey and Wild Rice Soup",
+            "price": 8.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Egg Drop Soup",
+            "price": 9.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,47 +250,47 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 15.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 11.99,
-            "isVegetarian": false,
+            "name": "Cucumber Salad",
+            "price": 15.05,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 13.91,
-            "isVegetarian": true,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 11.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tabbouleh",
-            "price": 14.13,
+            "name": "Thai Green Papaya Salad",
+            "price": 13.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 12.74,
+            "name": "Coleslaw",
+            "price": 12.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 12.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,20 +301,11 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
         "items": [
           {
-            "name": "Pizza",
-            "price": 23.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "price": 19.13,
+            "name": "House Special Spiced Tagine",
+            "price": 26.96,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -322,8 +313,8 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "price": 31.9,
+            "name": "Homestyle Spiced Quiche",
+            "price": 20.08,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -331,8 +322,8 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "price": 19.12,
+            "name": "Deluxe Roasted Cottage Pie",
+            "price": 18.84,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -340,40 +331,49 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 30.49,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 24.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Chili con Carne",
-            "price": 20.6,
+            "name": "Seasonal Delicious Thai Curry",
+            "price": 20.44,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Pho",
+            "price": 25.02,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "price": 22.78,
+            "name": "Classic Aromatic Fish and Chips",
+            "price": 24.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Seasonal Smoked Shakshuka",
+            "price": 24.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Salmon",
+            "price": 23.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -382,68 +382,59 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
         "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 26.24,
+            "name": "Authentic Marinated Traditional Provençal Bouillabaisse",
+            "price": 23.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "price": 34.92,
+            "name": "Seasonal Herbed Smoked Salmon Platter with Dill Crème",
+            "price": 27.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 27.33,
+            "name": "Fresh Mouthwatering Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Italian Cioppino",
-            "price": 24.41,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 34.54,
+            "name": "Premium Fried Oysters Rockefeller with Pernod Cream",
+            "price": 31.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Tender Stuffed Flounder with Crab and Spinach",
+            "price": 26.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Classic Mediterranean side dishes with our own unique interpretation.",
+        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
         "items": [
           {
-            "name": "Fragrant Basmati Rice Pilaf",
-            "price": 5.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Green Beans Almondine",
-            "price": 5.17,
+            "name": "Fresh Zingy Homestyle Baked Beans",
+            "price": 9.35,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -451,35 +442,44 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Corn on the Cob with Chili Lime Butter",
-            "price": 9.94,
+            "name": "House Special Roasted Roasted Root Vegetables",
+            "price": 5.15,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "French Fries",
-            "price": 5.02,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Deluxe Tangy Crispy Zucchini Fritters",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Wild Rice Pilaf",
-            "price": 8.52,
-            "isVegetarian": true,
+            "name": "Hearty Zesty Truffle Parmesan Fries",
+            "price": 7.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 5.29,
+            "name": "Homestyle Spicy Israeli Couscous with Roasted Tomatoes",
+            "price": 5.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flaky Macaroni and Aged Cheddar",
+            "price": 5.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,35 +493,26 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
         "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Authentic Aromatic Coffee",
-            "price": 6.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Succulent Smoothie",
-            "price": 7.68,
+            "name": "Lemonade",
+            "price": 6.87,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.95,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite Juice",
-            "price": 7.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delectable Milkshake",
-            "price": 7.2,
+            "name": "Iced Tea",
+            "price": 6.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,19 +520,28 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Golden Hot Chocolate",
-            "price": 6.4,
+            "name": "Milkshake",
+            "price": 7.61,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Tea",
-            "price": 6.84,
+            "name": "Soda",
+            "price": 6.69,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.33,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -552,53 +552,53 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A comforting finale to your dining experience",
+    "description": "From classics to signatures: crowd-pleasing desserts for every taste",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
         "items": [
           {
-            "name": "Authentic Spiced Apple Pie",
-            "price": 8.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Fried Eclairs",
-            "price": 7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Spicy Madeleines",
-            "price": 7.22,
-            "isVegetarian": false,
+            "name": "Pecan Pie",
+            "price": 10.72,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Treacle Tart",
-            "price": 7.43,
+            "name": "Vanilla Cake",
+            "price": 7.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Crunchy Lemon Bars",
-            "price": 6.73,
+            "name": "Apple Pie",
+            "price": 6.79,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 9.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 7.81,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,51 +607,51 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 8.12,
-            "isVegetarian": false,
+            "name": "Hearty Marinated Popsicles",
+            "price": 8.76,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 8.3,
+            "name": "Organic Exquisite Frozen Mousse",
+            "price": 10.14,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Zingy Ice Cream",
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Ice Cream Sandwich",
+            "price": 9.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 10.12,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 8.24,
+            "name": "Authentic Hearty Granita",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 8.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -660,102 +660,102 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A select drinks program blending innovation with tradition",
+    "description": "Our bartenders' balanced creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Organic Sizzling Old Fashioned",
-            "price": 11.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Hearty Cosmopolitan",
-            "price": 11.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Whiskey Sour",
-            "price": 12.32,
+            "name": "Premium Marinated Bloody Mary",
+            "price": 13.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Grilled Margarita",
-            "price": 15.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Wholesome Mojito",
-            "price": 11.23,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Bloody Mary",
-            "price": 15.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "name": "Organic Zesty Mojito",
+            "price": 11.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Seasonal Appetizing Mai Tai",
-            "price": 12,
+            "name": "Handcrafted Crunchy Whiskey Sour",
+            "price": 12.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Old Fashioned",
+            "price": 14.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Juicy Manhattan",
+            "price": 13.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Mai Tai",
+            "price": 10.19,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Cosmopolitan",
+            "price": 15.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Riesling",
-            "price": 13.42,
-            "isVegetarian": false,
+            "name": "Fresh Herbed Malbec",
+            "price": 12.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Verdicchio",
-            "price": 12.28,
+            "name": "Gourmet Hearty Gamay",
+            "price": 8.63,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nebbiolo",
-            "price": 11.65,
+            "name": "Handcrafted Sweet Vermentino",
+            "price": 8.91,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -763,29 +763,29 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 11.7,
+            "name": "Traditional Mouthwatering Petit Verdot",
+            "price": 13.06,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 9.7,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 10.16,
+            "name": "Seasonal Succulent Syrah/Shiraz",
+            "price": 11.26,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Satisfying Sauvignon Blanc",
+            "price": 13.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,11 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Homestyle Grilled Whiskey",
-            "price": 12.43,
+            "name": "Vodka",
+            "price": 15.85,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -805,38 +805,38 @@ export const dublinliffeyProvisionsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Flavorful Limoncello",
-            "price": 16.97,
+            "name": "Campari",
+            "price": 14.51,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Appetizing Rum",
-            "price": 11.77,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Grilled Baileys Irish Cream",
-            "price": 15.34,
+            "name": "Armagnac",
+            "price": 16.65,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 11.54,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Armagnac",
-            "price": 10.81,
+            "name": "Amaretto",
+            "price": 13.73,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

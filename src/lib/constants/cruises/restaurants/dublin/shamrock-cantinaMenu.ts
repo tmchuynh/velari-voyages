@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Savor our homestyle dishes made with locally sourced ingredients",
+    "description": "A homestyle dining experience featuring the essence of British gastronomy",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic British cooking.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 29.9,
+            "name": "Hearty Crunchy Founder's Family Recipe Pasta",
+            "price": 27.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,8 +22,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 25.36,
+            "name": "Traditional Herbed Seasonal Tasting Platter",
+            "price": 29.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,77 +31,59 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 34.69,
+            "name": "Deluxe Aromatic Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 35.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Aromatic Captain's Favorite Seafood Tower",
+            "price": 35.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Creamy Tableside Carved Chateaubriand",
+            "price": 32.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Award-Winning Seafood Boil",
+            "price": 29.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 33.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 32.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 35.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 33.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Handcrafted Creamy Lobster Thermidor",
-            "price": 36.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Grilled Roasted Quail with Truffle Jus",
-            "price": 26.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Stuffed Off-Menu Secret Preparation",
-            "price": 29.41,
+            "name": "Organic Spiced Miso-Glazed Black Cod",
+            "price": 33.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,17 +91,35 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Live-Fire Grilled Feature",
-            "price": 35.47,
+            "name": "Homestyle Herbed Tasting of Local Artisanal Cheeses",
+            "price": 35.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Smoked Locally Foraged Mushroom Selection",
+            "price": 24.51,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Braised Short Ribs with Red Wine Sauce",
+            "price": 34.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Seared Foie Gras with Fig Compote",
-            "price": 30.05,
+            "name": "Handcrafted Smoked Off-Menu Secret Preparation",
+            "price": 27.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,47 +130,20 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A tempting assortment of beginning bites to pair with your first drink.",
+        "description": "A selection of British starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Chicken Wings",
-            "price": 12.94,
+            "name": "Tuna Tartare",
+            "price": 14.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spring Rolls",
-            "price": 14.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lettuce Wraps",
-            "price": 8.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charcuterie Board",
-            "price": 8.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Prawn Toast",
-            "price": 13.7,
+            "name": "Stuffed Mushrooms",
+            "price": 13.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -178,8 +151,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sweet Potato Fries",
-            "price": 15.21,
+            "name": "Edamame",
+            "price": 9.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,17 +160,44 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Crab Cakes",
-            "price": 11.58,
+            "name": "Zucchini Fries",
+            "price": 9.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Mini Sliders",
-            "price": 15.49,
+            "name": "Onion Rings",
+            "price": 14.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Samosas",
+            "price": 10.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Cocktail",
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Peppers",
+            "price": 15.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,63 +208,81 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of British, crafted with care and expertise.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Miso Soup",
-            "price": 8.15,
-            "isVegetarian": false,
+            "name": "Homestyle Creamy Thai Coconut Soup",
+            "price": 13.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sizzling Peanut Soup (West African)",
+            "price": 7.9,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Stew",
-            "price": 12.11,
+            "name": "Premium Spicy Beef Stew",
+            "price": 12.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 8.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Soup",
-            "price": 11.43,
+            "name": "Homestyle Spiced Lobster Bisque",
+            "price": 11.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Quinoa Salad",
-            "price": 14.55,
-            "isVegetarian": false,
+            "name": "Nicoise Salad",
+            "price": 10.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 10.23,
+            "name": "Greek Salad",
+            "price": 9.63,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 13.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Salad",
+            "price": 10.67,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -272,27 +290,9 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mediterranean Chopped Salad",
-            "price": 11.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 13.63,
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 12.36,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,11 +301,11 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Hearty and refined mains rooted in traditional British, elevated by modern techniques.",
+        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
         "items": [
           {
-            "name": "Handcrafted Luscious Bibimbap",
-            "price": 29,
+            "name": "Fresh Braised Lasagna",
+            "price": 25.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,53 +313,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Spicy Jambalaya",
-            "price": 23.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Luscious Pizza",
-            "price": 29.42,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delicious Cottage Pie",
-            "price": 31.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Roasted Seafood Platter",
-            "price": 21.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sautéed Currywurst",
-            "price": 31.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Risotto",
-            "price": 21.28,
+            "name": "Authentic Spicy Shakshuka",
+            "price": 23.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,10 +322,55 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Braised Ramen",
-            "price": 18.02,
+            "name": "Gourmet Tangy Moussaka",
+            "price": 31.95,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled Pasta Primavera",
+            "price": 21.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Smoked Pho",
+            "price": 22.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Stir-fry",
+            "price": 24.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sautéed Biryani",
+            "price": 28.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Coq au Vin",
+            "price": 23.92,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,20 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
         "items": [
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 32.27,
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 26.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 29.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -392,7 +401,16 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Grilled Lobster with Lemon Butter",
-            "price": 34.56,
+            "price": 22.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tempura Soft Shell Crab",
+            "price": 33.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,41 +418,23 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Maryland Style Crab Cakes",
-            "price": 24.77,
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 23.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Linguine with Clam Sauce",
-            "price": 29.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 23.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Each side is a testament to our commitment to quality and flavor.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Soft Polenta with Parmesan",
-            "price": 6.03,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 7.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,8 +442,26 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Provencal Ratatouille",
-            "price": 5.82,
+            "name": "Creamy Colcannon (Irish Potato Mash)",
+            "price": 9.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Herbed Bulgur Wheat with Lemon",
+            "price": 8.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macaroni and Aged Cheddar",
+            "price": 6.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +469,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 7.64,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 7.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,27 +478,9 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Truffle Parmesan Fries",
-            "price": 8.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 6.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 8.2,
-            "isVegetarian": false,
+            "name": "Buttered Egg Noodles",
+            "price": 8.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,20 +490,29 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Authentic Herbed Soda",
-            "price": 6.7,
+            "name": "Fresh Sizzling Lemonade",
+            "price": 7.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Juicy Water",
-            "price": 5.21,
+            "name": "Deluxe Braised Coffee",
+            "price": 7.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Enticing Tea",
+            "price": 7.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +520,17 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Enticing Juice",
-            "price": 5.84,
+            "name": "Seasonal Marinated Smoothie",
+            "price": 4.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Milkshake",
+            "price": 6.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,31 +538,13 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Milkshake",
-            "price": 5.41,
+            "name": "Authentic Creamy Hot Chocolate",
+            "price": 5.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Hot Chocolate",
-            "price": 4.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Savory Smoothie",
-            "price": 6.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }
@@ -552,24 +552,15 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "British-inspired homemade confections to delight your senses",
+    "description": "Satisfy your sweet tooth with our delicious treats",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Seasonal Crunchy Carrot Cake",
-            "price": 10.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Fried Berry Tart",
-            "price": 7.21,
+            "name": "Deluxe Sweet Treacle Tart",
+            "price": 7.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +568,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Satisfying Pecan Pie",
-            "price": 6.08,
+            "name": "House Special Sweet Brownies",
+            "price": 8.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,22 +577,31 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Zingy Muffins",
-            "price": 10.28,
-            "isVegetarian": true,
+            "name": "Classic Succulent Chocolate Chip Cookies",
+            "price": 7.32,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Soufflé",
-            "price": 10.55,
+            "name": "Homestyle Delectable Sticky Toffee Pudding",
+            "price": 8.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Muffins",
+            "price": 9.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
@@ -610,17 +610,26 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
         "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Semifreddo",
-            "price": 11.38,
-            "isVegetarian": true,
+            "name": "Fresh Irresistible Ice Cream Sandwich",
+            "price": 7.72,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 9.43,
+            "name": "Authentic Grilled Baked Alaska",
+            "price": 9.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Frozen Mousse",
+            "price": 9.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,26 +637,17 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Yogurt",
-            "price": 7.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 9.5,
+            "name": "Organic Spicy Frozen Banana",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 8.62,
+            "name": "Premium Luscious Popsicles",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,15 +660,51 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A smooth-drinking selection of alcoholic beverages to complement your meal",
+    "description": "Indulge in our refreshing drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
+        "description": "From timeless classics to modern masterpieces, our cocktails are crafted to impress.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 13.51,
+            "name": "Traditional Steamed Old Fashioned",
+            "price": 12.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Mai Tai",
+            "price": 15.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Margarita",
+            "price": 15.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Aromatic Mojito",
+            "price": 12.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Manhattan",
+            "price": 11.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,44 +712,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 10.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.19,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 12.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 10.37,
+            "name": "Authentic Crunchy Bloody Mary",
+            "price": 15.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,9 +721,9 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 12.82,
-            "isVegetarian": true,
+            "name": "Premium Pan-seared Martini",
+            "price": 14.63,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,20 +733,11 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Mourvèdre",
-            "price": 10.16,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 11.38,
+            "name": "Premium Baked Pinot Blanc",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +745,17 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 8.72,
+            "name": "Fresh Golden Gewürztraminer",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Mouthwatering Prosecco",
+            "price": 11.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +763,8 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sémillon",
-            "price": 8.29,
+            "name": "Premium Spiced Syrah/Shiraz",
+            "price": 12.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,18 +772,18 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 11.08,
+            "name": "House Special Herbed Torrontés",
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Irresistible Cabernet Franc",
+            "price": 10.2,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Merlot",
-            "price": 10.23,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,38 +793,11 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Armagnac",
-            "price": 12.61,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 13.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Rum",
-            "price": 14.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 16,
+            "name": "Traditional Sizzling Tequila",
+            "price": 17.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,8 +805,35 @@ export const dublinshamrockCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Triple Sec",
-            "price": 15.01,
+            "name": "House Special Spicy Limoncello",
+            "price": 13.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sweet Absinthe",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Creamy Campari",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Smoked Anisette",
+            "price": 16.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
