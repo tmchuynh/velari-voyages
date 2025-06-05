@@ -5,47 +5,76 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const singaporeblueKitchenTestimonials: Testimonial[] = [
   {
-    "quote": "Our visit to Blue Kitchen was outstanding. The cuisine were outstanding, the staff impeccable, and the atmosphere stylish. A must-visit!",
-    "author": "Michael Martin",
-    "title": "Food & Wine Connoisseur",
-    "image": "/images/testimonials/person-6.jpg"
+    "quote": "The flavors at Blue Kitchen were absolutely wonderful! The service was wonderful and the atmosphere was inviting. Highly recommend!",
+    "author": "Emma Martin",
+    "title": "Restaurant Enthusiast",
+    "image": "/images/testimonials/person-8.jpg"
   },
   {
-    "quote": "Our visit to Blue Kitchen was outstanding. The desserts were delicious, the staff wonderful, and the atmosphere intimate. A must-visit!",
-    "author": "David Martinez",
+    "quote": "Blue Kitchen has the most incredible dishes I've ever tasted. The elegant atmosphere made our evening special, and the service was outstanding.",
+    "author": "Matthew Wilson",
     "title": "Travel Blogger"
   },
   {
-    "quote": "Our visit to Blue Kitchen was outstanding. The entrees were incredible, the staff superb, and the atmosphere charming. A must-visit!",
-    "author": "David Smith",
-    "title": "Restaurant Enthusiast",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "I can't say enough about the superb meal at Blue Kitchen. The courteous service and pleasant ambiance made for a perfect night out.",
+    "author": "Olivia Martinez",
+    "title": "Restaurant Reviewer"
   },
   {
-    "quote": "Blue Kitchen has the most perfect desserts I've ever tasted. The delightful atmosphere made our evening special, and the service was impeccable.",
-    "author": "Michael Hernandez",
-    "title": "Food & Wine Connoisseur"
+    "quote": "The cuisine at Blue Kitchen were absolutely amazing! The service was fantastic and the atmosphere was pleasant. Highly recommend!",
+    "author": "Matthew Johnson",
+    "title": "Food Critic"
   },
   {
-    "quote": "The food at Blue Kitchen were absolutely delightful! The service was friendly and the atmosphere was charming. Highly recommend!",
-    "author": "Jennifer Miller",
-    "title": "Food Critic",
-    "image": "/images/testimonials/person-1.jpg"
-  },
-  {
-    "quote": "What a great dining experience at Blue Kitchen! The menu items exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Sophia Taylor",
+    "quote": "What a incredible dining experience at Blue Kitchen! The desserts exceeded our expectations, and the staff was professional. Will definitely return!",
+    "author": "Emma Perez",
     "title": "Travel Writer"
   },
   {
-    "quote": "What a marvelous dining experience at Blue Kitchen! The flavors exceeded our expectations, and the staff was fantastic. Will definitely return!",
-    "author": "Emma Hernandez",
-    "title": "Cooking Aficionado"
+    "quote": "The food at Blue Kitchen were absolutely delicious! The service was courteous and the atmosphere was vibrant. Highly recommend!",
+    "author": "Matthew Jackson",
+    "title": "Gourmet Explorer",
+    "image": "/images/testimonials/person-4.jpg"
   },
   {
-    "quote": "What a great dining experience at Blue Kitchen! The food exceeded our expectations, and the staff was excellent. Will definitely return!",
-    "author": "John Wilson",
-    "title": "Travel Blogger",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "What a wonderful dining experience at Blue Kitchen! The meal exceeded our expectations, and the staff was wonderful. Will definitely return!",
+    "author": "David Martinez",
+    "title": "Luxury Travel Consultant"
+  },
+  {
+    "quote": "The flavors at Blue Kitchen were absolutely great! The service was professional and the atmosphere was appealing. Highly recommend!",
+    "author": "Maria Martin",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "The dishes at Blue Kitchen were absolutely excellent! The service was friendly and the atmosphere was comfortable. Highly recommend!",
+    "author": "Maria Hernandez",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "Our visit to Blue Kitchen was outstanding. The entrees were impressive, the staff helpful, and the atmosphere comfortable. A must-visit!",
+    "author": "John Rodriguez",
+    "title": "Gourmet Explorer"
+  },
+  {
+    "quote": "Blue Kitchen has the most excellent menu items I've ever tasted. The cozy atmosphere made our evening special, and the service was attentive.",
+    "author": "Sarah Martinez",
+    "title": "Restaurant Reviewer"
+  },
+  {
+    "quote": "I can't say enough about the superb cuisine at Blue Kitchen. The wonderful service and warm ambiance made for a perfect night out.",
+    "author": "Christopher Davis",
+    "title": "Food & Wine Connoisseur"
+  },
+  {
+    "quote": "Our visit to Blue Kitchen was outstanding. The flavors were exceptional, the staff professional, and the atmosphere cozy. A must-visit!",
+    "author": "James Davis",
+    "title": "Food & Wine Connoisseur",
+    "image": "/images/testimonials/person-9.jpg"
+  },
+  {
+    "quote": "I can't say enough about the impressive dishes at Blue Kitchen. The wonderful service and vibrant ambiance made for a perfect night out.",
+    "author": "Daniel Jones",
+    "title": "Cruise Traveler"
   }
 ];
