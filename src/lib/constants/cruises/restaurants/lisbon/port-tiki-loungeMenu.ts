@@ -6,15 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A tasty assortment of specialties showcasing the best of Mediterranean cuisine",
+    "description": "Our simple menu celebrating the flavors of Mediterranean cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Our chef's pride—carefully selected Mediterranean specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Traditional Family Paella",
-            "price": 36.1,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 34.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "price": 29.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,56 +31,47 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.36,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 37.13,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 32.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chef's Childhood Inspired Creation",
-            "price": 36.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 33.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 25.38,
+            "price": 27.03,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 32.76,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 28.61,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 36.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 27.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,11 +79,29 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 31.43,
+            "name": "Authentic Exquisite Hand-Selected Wine Pairing Experience",
+            "price": 28.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Stuffed Seared Foie Gras with Fig Compote",
+            "price": 33.84,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Tomahawk Ribeye for Two",
+            "price": 31.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,8 +109,8 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster and Crab Stuffed Ravioli",
-            "price": 39.48,
+            "name": "Handcrafted Creamy Sous Vide Pork Tenderloin",
+            "price": 38.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,29 +118,11 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Farm-to-Table Vegetable Plate",
-            "price": 28.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hand-Selected Wine Pairing Experience",
-            "price": 25.5,
+            "name": "Authentic Steamed Wild Mushroom Risotto",
+            "price": 36.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Vegetarian Wellington",
-            "price": 38.28,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,47 +130,11 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
+        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Bruschetta",
-            "price": 14.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 9.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Puffs",
-            "price": 12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Onion Rings",
-            "price": 12.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Edamame",
-            "price": 9.52,
+            "name": "House Special Delectable Stuffed Mushrooms",
+            "price": 15.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -178,50 +142,17 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 10.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shrimp Cocktail",
-            "price": 10.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Tacos",
-            "price": 11.63,
+            "name": "Premium Golden Edamame",
+            "price": 12.65,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
-        "items": [
-          {
-            "name": "Handcrafted Stuffed Broccoli Cheddar Soup",
-            "price": 8.48,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Beef Stew",
-            "price": 7.14,
+            "name": "Deluxe Zesty Chicken Wings",
+            "price": 14.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,41 +160,128 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Fried Chicken Corn Soup",
-            "price": 9.2,
-            "isVegetarian": false,
+            "name": "Classic Savory Tzatziki with Pita",
+            "price": 15.94,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Peanut Soup (West African)",
-            "price": 12.61,
+            "name": "Homestyle Enticing Calamari",
+            "price": 14.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Creamy Potato Skins",
+            "price": 9.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Baba Ganoush",
+            "price": 10.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Spring Rolls",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "name": "Soups",
+        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 9.74,
-            "isVegetarian": true,
+            "name": "Lobster Bisque",
+            "price": 9.16,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "French Onion Soup",
+            "price": 9.38,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Hot and Sour Soup",
+            "price": 12.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Turkey and Wild Rice Soup",
+            "price": 11.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "items": [
+          {
             "name": "Chef Salad",
-            "price": 13.31,
+            "price": 12.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 11.17,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 13.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 15.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -271,29 +289,11 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 11.67,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 14.68,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 15.31,
+            "name": "Beet Salad",
+            "price": 13.99,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,56 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
+        "description": "Hearty and refined mains rooted in traditional Mediterranean, elevated by modern techniques.",
         "items": [
           {
-            "name": "Homestyle Mouthwatering Jambalaya",
-            "price": 28.27,
+            "name": "Burrito",
+            "price": 29.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 30.52,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 30.04,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Tofu",
+            "price": 27.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cottage Pie",
+            "price": 20.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "price": 20.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,65 +358,20 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Pesto Pasta",
-            "price": 25.09,
+            "name": "Lamb Chops",
+            "price": 20.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Savory Cottage Pie",
-            "price": 27.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Pho",
-            "price": 27.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Delicious Enchiladas",
-            "price": 20.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Aromatic Tacos",
-            "price": 24.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Steak",
-            "price": 21.21,
+            "name": "Beef Burger",
+            "price": 26.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Savory Lasagna",
-            "price": 23.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,62 +379,62 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
         "items": [
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 24.66,
+            "name": "Homestyle Tender Seafood Risotto with Saffron",
+            "price": 31.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 30.72,
+            "name": "Handcrafted Satisfying Steamed Littleneck Clams in Garlic Broth",
+            "price": 30.08,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Spiced Alaskan King Crab Legs with Drawn Butter",
+            "price": 29.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Crunchy Hearty Italian Cioppino",
+            "price": 35.86,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 22.94,
+            "name": "Fresh Aromatic Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 33.87,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 24.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 31.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Deluxe Enticing Garlic Bread with Herb Butter",
-            "price": 7.61,
+            "name": "House Special Flaky Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,47 +442,47 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Sweet Creamed Spinach with Nutmeg",
-            "price": 7.07,
+            "name": "Seasonal Mouthwatering Sweet Potato Wedges with Smoked Paprika",
+            "price": 7.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Braised Braised Red Cabbage with Apple",
-            "price": 5.25,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Gourmet Steamed Homestyle Baked Beans",
+            "price": 6.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spiced Scalloped Potatoes with Thyme",
-            "price": 8.56,
+            "name": "Authentic Marinated Truffle Parmesan Fries",
+            "price": 7.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Grilled Maple-Glazed Baby Carrots",
-            "price": 9.93,
+            "name": "Gourmet Tangy Fragrant Basmati Rice Pilaf",
+            "price": 9.25,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Crispy Zucchini Fritters",
-            "price": 9.23,
+            "name": "Classic Irresistible Baked Idaho Potato with Sour Cream",
+            "price": 8.8,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,47 +490,20 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Organic Herbed Coffee",
-            "price": 7.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Hot Chocolate",
-            "price": 7.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Satisfying Tea",
-            "price": 6.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Soda",
-            "price": 7.12,
+            "name": "Juice",
+            "price": 7.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Creamy Milkshake",
-            "price": 6.25,
+            "name": "Water",
+            "price": 5.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,11 +511,38 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Iced Tea",
-            "price": 6.95,
+            "name": "Coffee",
+            "price": 5.18,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,42 +552,24 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our classic desserts are a celebration of flavor and creativity",
+    "description": "Indulge in our warm sweet creations",
     "category": [
       {
         "name": "Baked Goods",
         "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Classic Juicy Pumpkin Pie",
-            "price": 9.62,
-            "isVegetarian": true,
+            "name": "Authentic Flavorful Cannoli",
+            "price": 8.39,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Homestyle Stuffed Croissants",
-            "price": 7.25,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Fried Cinnamon Rolls",
-            "price": 7.34,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Irresistible Tiramisu",
-            "price": 9.4,
+            "name": "Fresh Grilled Eclairs",
+            "price": 9.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -595,11 +577,29 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flaky Biscotti",
-            "price": 6.25,
+            "name": "Fresh Grilled Brownies",
+            "price": 7.58,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Savory Biscotti",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Crumb Cake",
+            "price": 8.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,47 +607,47 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 7.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Snow Cone",
-            "price": 11,
+            "name": "House Special Tender Frozen Yogurt",
+            "price": 9.67,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 7.91,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Seasonal Smoked Semifreddo",
+            "price": 9.46,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 9.97,
-            "isVegetarian": false,
+            "name": "Seasonal Tangy Gelato",
+            "price": 8.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 8.62,
+            "name": "Fresh Pan-seared Paletas",
+            "price": 11.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Steamed Snow Cone",
+            "price": 9.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,51 +660,60 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Elevate your dining experience with our crowd-pleasing beverage options",
+    "description": "Discover our smooth-drinking drinks, perfectly paired with our Mediterranean cuisine",
     "category": [
       {
         "name": "Signature Cocktails",
         "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 12.2,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 15.04,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 14.88,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Whiskey Sour",
-            "price": 12.04,
+            "price": 11.47,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.96,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.9,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Martini",
-            "price": 15.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 14.95,
+            "price": 10.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -713,19 +722,10 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 12.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.2,
+            "price": 14.32,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,47 +733,20 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Premium Luscious Merlot",
-            "price": 9.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spiced Torrontés",
-            "price": 12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Sauvignon Blanc",
-            "price": 12.89,
+            "name": "Viognier",
+            "price": 9.01,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delectable Champagne/Sparkling Wine",
-            "price": 8.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Malbec",
-            "price": 13.84,
+            "name": "Chardonnay",
+            "price": 8.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,11 +754,38 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Roasted Dolcetto",
-            "price": 9.59,
+            "name": "Prosecco",
+            "price": 13.29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 10.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Vermentino",
+            "price": 13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 12.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,11 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Aquavit",
-            "price": 13.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Vodka",
-            "price": 10.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 14.66,
+            "price": 11.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,20 +805,38 @@ export const lisbonportTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Brandy",
-            "price": 11.84,
+            "name": "Scotch",
+            "price": 12.91,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 13.2,
+            "name": "Pisco",
+            "price": 11.71,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calvados",
+            "price": 13.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

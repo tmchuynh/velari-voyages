@@ -1,38 +1,38 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Explorer Trading Co. in lisbon
+ * Menu data for Explorer Cellar in lisbon
  */
-export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
+export const lisbonexplorerCellarMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Enjoy a variety of simple Brazilian plates made with seasonal inspiration",
+    "description": "Our hearty menu celebrating the flavors of Italian cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Fresh Sizzling Whole Roasted Heritage Chicken",
-            "price": 25.58,
+            "name": "Chef's Special Surf and Turf",
+            "price": 28.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Savory Local Bounty Harvest Plate (Vegetarian)",
-            "price": 27.5,
+            "name": "Award-Winning Seafood Boil",
+            "price": 30.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Flaky Tableside Carved Chateaubriand",
-            "price": 31.24,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 25.76,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -40,8 +40,8 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Flavorful Wood-Fired Peking Duck with Plum Sauce",
-            "price": 37.46,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 28.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,29 +49,29 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Delectable Dry-Aged Tomahawk Steak",
-            "price": 35.33,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 35.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Japanese A5 Wagyu with Ponzu Butter",
-            "price": 26.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Seasonal Tasting Menu Experience",
-            "price": 34.01,
-            "isVegetarian": false,
+            "name": "Traditional Family Paella",
+            "price": 35.64,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tasting Platter",
+            "price": 32,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,149 +79,11 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Traditional Pan-seared Grilled Venison with Juniper Berry Sauce",
-            "price": 27.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Herbed Sustainable Seafood Tower",
-            "price": 34.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Grilled Truffle-Infused Filet Mignon",
-            "price": 25.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Crunchy Aged and House-Cured Charcuterie Selection",
-            "price": 32.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Cast Iron Seafood Presentation",
-            "price": 24.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
-        "items": [
-          {
-            "name": "Deluxe Crispy Mozzarella Sticks",
-            "price": 12.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flaky Prawn Toast",
-            "price": 15.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Mouthwatering Nachos",
-            "price": 13.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Satisfying Mini Crab Cakes",
-            "price": 12.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sweet Spring Rolls",
-            "price": 12.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Pan-seared Potato Skins",
-            "price": 11.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zingy Charcuterie Board",
-            "price": 13.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Spiced Chicken Wings",
-            "price": 15.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "Daily-prepared soups made from seasonal ingredients and traditional Brazilian methods.",
-        "items": [
-          {
-            "name": "Beef Stew",
-            "price": 13.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 9.79,
+            "name": "Traditional Marinated House Specialty Pasta Creation",
+            "price": 37.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,8 +91,17 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 12.97,
+            "name": "Authentic Herbed Sustainable Seafood Tower",
+            "price": 31.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Savory Duck Confit with Roasted Root Vegetables",
+            "price": 31.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,13 +109,142 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Clam Chowder",
-            "price": 7.43,
+            "name": "Premium Juicy Lobster Thermidor",
+            "price": 27.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Authentic Grilled Off-Menu Secret Preparation",
+            "price": 37.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "items": [
+          {
+            "name": "Garlic Bread",
+            "price": 8.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potstickers",
+            "price": 15.28,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Knots",
+            "price": 12.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Avocado",
+            "price": 14.22,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Toast",
+            "price": 11.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Puffs",
+            "price": 9.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Skins",
+            "price": 12.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crostini",
+            "price": 14.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Warm, nourishing soups that reflect the heart of Italian cooking—perfect for any season.",
+        "items": [
+          {
+            "name": "House Special Creamy Borscht",
+            "price": 11.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Comforting Broccoli Cheddar Soup",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Chicken Noodle Soup",
+            "price": 7.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Vegetable Barley Soup",
+            "price": 9.85,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -253,17 +253,17 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
         "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
         "items": [
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 12.55,
-            "isVegetarian": false,
+            "name": "Nicoise Salad",
+            "price": 11.78,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Orzo Salad",
-            "price": 13.82,
+            "price": 9.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,17 +271,17 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 14.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Thai Green Papaya Salad",
+            "price": 10.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 9.21,
+            "name": "Pasta Salad",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -290,7 +290,7 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Southwest Black Bean Salad",
-            "price": 10.3,
+            "price": 9.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,56 +301,47 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of Brazilian culture.",
+        "description": "Hearty and refined mains rooted in traditional Italian, elevated by modern techniques.",
         "items": [
           {
-            "name": "Pizza",
-            "price": 20.81,
+            "name": "Thai Curry",
+            "price": 26.18,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "price": 28.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Currywurst",
-            "price": 30.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "price": 23.5,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "price": 22.09,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quiche",
-            "price": 21.58,
+            "name": "Eggplant Parmesan",
+            "price": 27.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Parmesan",
+            "price": 20.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 22.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "price": 27.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -359,16 +350,25 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Salmon",
-            "price": 29.46,
+            "price": 21.57,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fajitas",
+            "price": 22.23,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 28.33,
+            "name": "Moussaka",
+            "price": 18.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,38 +379,11 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
         "items": [
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 33.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 28.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
             "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 30.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 32.44,
+            "price": 25.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +391,35 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 25.48,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 35.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 28.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 28.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 35.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,11 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Macaroni and Aged Cheddar",
-            "price": 6.37,
+            "name": "Gourmet Smoked Roasted Root Vegetables",
+            "price": 8.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,47 +442,47 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 5.89,
-            "isVegetarian": false,
+            "name": "Traditional Stuffed Flaky Cheddar and Chive Biscuits",
+            "price": 5.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 9.91,
+            "name": "Fresh Hearty Braised Red Cabbage with Apple",
+            "price": 7.86,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Fragrant Basmati Rice Pilaf",
+            "price": 7.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 7.95,
-            "isVegetarian": false,
+            "name": "Organic Pan-seared Truffle Parmesan Fries",
+            "price": 6.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 8.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 8.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Traditional Herbed Homestyle Baked Beans",
+            "price": 7.57,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Traditional Exquisite Coffee",
-            "price": 5.72,
+            "name": "Authentic Zingy Lemonade",
+            "price": 6.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +502,17 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Juice",
-            "price": 4.66,
+            "name": "Authentic Tangy Water",
+            "price": 5.36,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Premium Sizzling Iced Tea",
-            "price": 7.95,
+            "name": "Classic Appetizing Coffee",
+            "price": 7.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +520,8 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Delicious Soda",
-            "price": 5.74,
+            "name": "Handcrafted Sizzling Iced Tea",
+            "price": 7.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,20 +529,20 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Smoothie",
-            "price": 7.29,
+            "name": "Authentic Flavorful Tea",
+            "price": 7.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Sizzling Tea",
-            "price": 4.89,
-            "isVegetarian": false,
+            "name": "Hearty Luscious Hot Chocolate",
+            "price": 4.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,54 +552,54 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Complete your meal with our mouthwatering dessert selection",
+    "description": "A delicious selection of desserts that will leave you wanting more",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
+        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
         "items": [
           {
-            "name": "Baklava",
-            "price": 6.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 7.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 10.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Muffins",
-            "price": 9.04,
+            "name": "Authentic Spiced Berry Tart",
+            "price": 9.98,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Carrot Cake",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Madeleines",
-            "price": 9.02,
+            "name": "Handcrafted Exquisite Cheesecake",
+            "price": 7.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Strawberry Shortcake",
+            "price": 10.22,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Croissants",
+            "price": 10.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,11 +607,11 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "Frozen Pudding",
-            "price": 11.77,
+            "name": "Gelato",
+            "price": 8.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,26 +619,8 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 11.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Cheesecake",
-            "price": 9.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 9.82,
+            "name": "Kulfi",
+            "price": 10.1,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -646,11 +628,29 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 9.28,
+            "name": "Frozen Mousse",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 7.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 9.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,51 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A enticing selection of alcoholic beverages to complement your meal",
+    "description": "Indulge in our crowd-pleasing drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
         "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Martini",
-            "price": 14.15,
+            "name": "Cosmopolitan",
+            "price": 15.67,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 11.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 14.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,9 +712,9 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.41,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 16,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -686,45 +722,9 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 12.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 13.72,
+            "price": 10.4,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 13.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 13.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 15.67,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,29 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 8.82,
+            "name": "Fresh Aromatic Chardonnay",
+            "price": 12.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Steamed Malbec",
+            "price": 10.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Smoked Dolcetto",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,17 +763,8 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 9.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 9.39,
+            "name": "Homestyle Delicious Zinfandel",
+            "price": 9.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,27 +772,18 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Marsanne",
-            "price": 12.68,
+            "name": "Authentic Satisfying Sauvignon Blanc",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Moscato",
-            "price": 13.55,
+            "name": "Classic Crispy Riesling",
+            "price": 13.43,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vouvray",
-            "price": 10.04,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,20 +793,20 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Gourmet Mouthwatering Grappa",
-            "price": 12.71,
+            "name": "Tequila",
+            "price": 11.79,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Marinated Bourbon",
-            "price": 10.27,
+            "name": "Rum",
+            "price": 10.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,28 +814,28 @@ export const lisbonexplorerTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Bénédictine",
-            "price": 14.49,
+            "name": "Grand Marnier",
+            "price": 16.63,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Limoncello",
+            "price": 10.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Appetizing Whiskey",
-            "price": 11.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy St-Germain",
-            "price": 14.31,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Bourbon",
+            "price": 11.47,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

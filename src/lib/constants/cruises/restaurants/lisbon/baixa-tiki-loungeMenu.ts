@@ -6,33 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A flavorful fusion of homestyle and authentic Italian dishes",
+    "description": "A thoughtfully balanced mix of tasty and authentic Italian flavors",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Our chef's pride—carefully selected Italian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Fresh Spicy Local Bounty Harvest Plate (Vegetarian)",
-            "price": 36.44,
+            "name": "Fresh Herbed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 24.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Legendary Prime Rib",
+            "price": 28.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crispy Black Garlic Glazed Beef Tenderloin",
+            "price": 25.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Restaurant's Namesake Signature Entrée",
+            "price": 35.83,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Spiced Founder's Family Recipe Pasta",
-            "price": 35.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Comforting Charcoal Grilled Iberico Pork",
-            "price": 24.37,
+            "name": "Handcrafted Mouthwatering Chef’s Wild Game Selection",
+            "price": 25.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,59 +58,41 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Wood-Fired Peking Duck with Plum Sauce",
-            "price": 32.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Sautéed Award-Winning Seafood Boil",
-            "price": 31.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Succulent Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 33.87,
+            "name": "House Special Smoked Wood-Fired Peking Duck with Plum Sauce",
+            "price": 37.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Zingy Whole Roasted Heritage Chicken",
-            "price": 29.6,
+            "name": "Homestyle Crispy Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 35.73,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Hand-Selected Wine Pairing Experience",
-            "price": 38.32,
-            "isVegetarian": true,
+            "name": "Traditional Tangy Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 34.71,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Freshly Harvested Seasonal Creation",
-            "price": 31.41,
+            "name": "Homestyle Savory Chef's Tasting Menu Experience",
+            "price": 26.17,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -100,31 +100,31 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 39.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 33.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Skin Sea Bass",
-            "price": 24.88,
+            "name": "Authentic Zesty Seared Duck Breast with Cherry Reduction",
+            "price": 28.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Handcrafted Hearty Whole Animal Butchery Showcase",
+            "price": 28.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Juicy Seasonal Farm-to-Table Vegetable Plate",
+            "price": 28.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -133,44 +133,8 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
         "description": "Flavor-forward starters that introduce our approach to Italian with balance and creativity.",
         "items": [
           {
-            "name": "Gourmet Spiced Shrimp Cocktail",
-            "price": 11.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Pan-seared Tempura",
-            "price": 13.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spiced Ceviche",
-            "price": 12.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Mouthwatering Deviled Eggs",
-            "price": 8.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Baba Ganoush",
-            "price": 10.34,
+            "name": "Mezze Platter",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +142,8 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Flavorful Mini Tacos",
-            "price": 10.26,
+            "name": "Samosas",
+            "price": 10.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,19 +151,55 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Dumplings",
-            "price": 10.81,
-            "isVegetarian": true,
+            "name": "Spring Rolls",
+            "price": 12.16,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Delicious Nachos",
-            "price": 12.18,
+            "name": "Antipasto Platter",
+            "price": 15.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dumplings",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Tacos",
+            "price": 10.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Onion Rings",
+            "price": 9.03,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Platter",
+            "price": 14.85,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,11 +208,20 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Italian cooking—perfect for any season.",
+        "description": "Each bowl is a journey through the heart of Italian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Butternut Squash Soup",
-            "price": 11.02,
+            "name": "Homestyle Grilled Thai Coconut Soup",
+            "price": 11.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Hot and Sour Soup",
+            "price": 11.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,26 +229,17 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Black Bean Soup",
-            "price": 9.28,
-            "isVegetarian": false,
+            "name": "Handcrafted Savory Corn Chowder",
+            "price": 13.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Corn Soup",
-            "price": 8.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Zuppa Toscana",
-            "price": 12.93,
+            "name": "Authentic Succulent Italian Wedding Soup",
+            "price": 9.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,50 +250,50 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
+            "name": "Pasta Salad",
+            "price": 11.98,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 14.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 9.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Kale Salad",
-            "price": 9.53,
+            "price": 13.86,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 11.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 12.55,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 9.33,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Avocado Corn Salad",
+            "price": 11.79,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 13.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,38 +301,11 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
         "items": [
           {
-            "name": "Thai Curry",
-            "price": 24.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 29.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "price": 26.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "price": 31.71,
+            "name": "Grilled Tofu",
+            "price": 31.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,26 +313,17 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "price": 31.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "price": 24.41,
+            "name": "Pulled Pork Sandwich",
+            "price": 23.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "price": 24.9,
+            "name": "Gnocchi",
+            "price": 28.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,59 +331,95 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 27.84,
+            "name": "Risotto",
+            "price": 31.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seafood Platter",
+            "price": 24.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chili con Carne",
+            "price": 30.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Jambalaya",
+            "price": 22.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shakshuka",
+            "price": 21.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Authentic Delicious Crab-Stuffed Mushrooms",
-            "price": 31.96,
+            "name": "Traditional Stuffed Lobster Thermidor with Gruyère Crust",
+            "price": 27.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Spiced Garlic Butter Shrimp Skillet",
+            "price": 28.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Marinated Stuffed Flounder with Crab and Spinach",
+            "price": 32.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Smoked Alaskan King Crab Legs with Drawn Butter",
+            "price": 22.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zesty Baked Cod with Lemon Caper Sauce",
-            "price": 25.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Crunchy Lemon-Herb Calamari Steak",
-            "price": 22.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Grilled Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 33.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delectable Grilled Lobster with Lemon Butter",
-            "price": 25.13,
+            "name": "Hearty Mouthwatering Linguine with Clam Sauce",
+            "price": 34.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,11 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Italian flavors.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Premium Hearty Stuffed Bell Peppers with Brown Rice",
-            "price": 7.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Braised Red Cabbage with Apple",
-            "price": 8.61,
+            "name": "Authentic Crispy Sautéed Garlic Mushrooms",
+            "price": 5.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +442,8 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Comforting Mashed Potatoes",
-            "price": 7.4,
+            "name": "Authentic Spiced Herbed Bulgur Wheat with Lemon",
+            "price": 7.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,59 +451,8 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Creamy Colcannon (Irish Potato Mash)",
-            "price": 9.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Herbed Crispy Beer-Battered Onion Rings",
-            "price": 8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Roasted Corn on the Cob with Chili Lime Butter",
-            "price": 9.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
-        "items": [
-          {
-            "name": "Homestyle Luscious Water",
-            "price": 7.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Smoothie",
-            "price": 7.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zesty Juice",
-            "price": 4.68,
+            "name": "Gourmet Delectable Crispy Zucchini Fritters",
+            "price": 6.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,28 +460,88 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Tea",
-            "price": 4.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Savory Iced Tea",
-            "price": 5.43,
-            "isVegetarian": false,
+            "name": "Homestyle Crunchy Sweet Potato Wedges with Smoked Paprika",
+            "price": 5.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Zesty Soda",
-            "price": 6.75,
+            "name": "Premium Grilled Braised Red Cabbage with Apple",
+            "price": 9.09,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Baked Idaho Potato with Sour Cream",
+            "price": 5.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "items": [
+          {
+            "name": "Seasonal Stuffed Water",
+            "price": 5.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Milkshake",
+            "price": 4.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Iced Tea",
+            "price": 7.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Coffee",
+            "price": 4.42,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Appetizing Hot Chocolate",
+            "price": 7.07,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Tea",
+            "price": 6.84,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,66 +552,66 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Crafted with passion, our crowd-pleasing desserts are a must-try",
+    "description": "Finish on a high note with our tasty and memorable sweets",
     "category": [
       {
         "name": "Baked Goods",
         "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Cupcakes",
-            "price": 6.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 10.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soufflé",
-            "price": 9.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 7.09,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 6.74,
+            "name": "Authentic Creamy Madeleines",
+            "price": 6.76,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Smoked Soufflé",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Hearty Baklava",
+            "price": 7.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zingy Cobbler",
+            "price": 10.87,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Biscotti",
+            "price": 6.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
         "items": [
           {
-            "name": "Seasonal Sizzling Kulfi",
-            "price": 10.98,
+            "name": "Frozen Mousse",
+            "price": 8.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,36 +619,36 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Gelato",
-            "price": 7.84,
+            "name": "Kulfi",
+            "price": 10.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Semifreddo",
+            "price": 8.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Creamy Frosty",
-            "price": 7.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Ice Cream",
-            "price": 10.22,
+            "name": "Frozen Cheesecake",
+            "price": 7.04,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Ice Cream Cake",
-            "price": 9.8,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,60 +660,24 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A balanced drinks program blending innovation with tradition",
+    "description": "A enticing drinks program blending innovation with tradition",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "Handcrafted Fried Mojito",
-            "price": 13.93,
+            "name": "Deluxe Comforting Negroni",
+            "price": 13.02,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Bloody Mary",
-            "price": 11.13,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Marinated Margarita",
-            "price": 13.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spiced Old Fashioned",
-            "price": 12.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Baked Manhattan",
-            "price": 15.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Negroni",
-            "price": 11.5,
+            "name": "Organic Hearty Margarita",
+            "price": 15.73,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -721,9 +685,45 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Sautéed Martini",
-            "price": 10.62,
+            "name": "Authentic Irresistible Mojito",
+            "price": 13.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flavorful Bloody Mary",
+            "price": 11.28,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crunchy Mai Tai",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Martini",
+            "price": 10.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Juicy Old Fashioned",
+            "price": 14.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,38 +733,38 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Deluxe Zingy Petit Verdot",
-            "price": 8.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Tender Verdicchio",
-            "price": 9.77,
+            "name": "Cabernet Franc",
+            "price": 11.8,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sweet Grenache",
-            "price": 8.81,
+            "name": "Verdicchio",
+            "price": 10.51,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Hearty Dolcetto",
-            "price": 11.98,
+            "name": "Torrontés",
+            "price": 13.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sémillon",
+            "price": 11.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,8 +772,8 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Aromatic Syrah/Shiraz",
-            "price": 10.32,
+            "name": "Syrah/Shiraz",
+            "price": 12.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,11 +781,11 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Gewürztraminer",
-            "price": 11.2,
+            "name": "Gamay",
+            "price": 10.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,47 +793,47 @@ export const lisbonbaixaTikiLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Pisco",
-            "price": 15.42,
+            "name": "Scotch",
+            "price": 13.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "St-Germain",
+            "price": 10.9,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 14.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
-            "price": 14.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Calvados",
-            "price": 16.29,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 15.04,
+            "name": "Bénédictine",
+            "price": 11.12,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 17.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Campari",
+            "price": 11.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

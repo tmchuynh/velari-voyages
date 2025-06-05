@@ -248,5 +248,160 @@ export const lisbonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Atlantic Buffet",
+    "description": "A culinary gem serving Brazilian specialties including local ingredients, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "Brazilian",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-647-5074",
+      "contactEmail": "hello@pastelmansionlisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Explorer Cellar",
+    "description": "Located close to the historic district, this Italian restaurant delights with its signature dishes and friendly service.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-727-9678",
+      "contactEmail": "info@atlanticloungelisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Pastel Steakhouse",
+    "description": "A culinary gem serving Seafood specialties including artisanal creations, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-906-1599",
+      "contactEmail": "mail@explorerrotisserielisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Alfama Artisan",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of beautiful decor overlooking the historic district.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-706-4771",
+      "contactEmail": "care@castelochateaulisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Explorer Eatery + Bar",
+    "description": "A culinary gem serving Italian specialties including seasonal specialties, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-746-9288",
+      "contactEmail": "care@explorercharcuterielisbon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
