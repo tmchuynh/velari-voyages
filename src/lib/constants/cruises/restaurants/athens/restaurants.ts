@@ -248,5 +248,98 @@ export const athensRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Grand Curry House",
+    "description": "A culinary gem serving Mediterranean specialties including heritage recipes, where guests enjoy friendly service in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-795-8458",
+      "contactEmail": "reachus@goldenwinebarathens.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Wine Bar",
+    "description": "A charming French restaurant near the historic district, offering gourmet street food and other local favorites in a setting with elegant atmosphere.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-140-1886",
+      "contactEmail": "services@royaleateryathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Chocolatier",
+    "description": "This popular French establishment combines traditional recipes and local ingredients, all served in a unique setting with beautiful decor.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-843-3614",
+      "contactEmail": "general@blueoysterbarathens.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
