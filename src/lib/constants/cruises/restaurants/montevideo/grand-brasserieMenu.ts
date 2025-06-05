@@ -1,29 +1,56 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for The Wok in montevideo
+ * Menu data for Grand Brasserie in montevideo
  */
-export const montevideotheWokMenu: RestaurantMenu[] = [
+export const montevideograndBrasserieMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty Mediterranean dishes",
+    "description": "A menu designed to highlight the fresh essence of American",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic American cooking.",
         "items": [
           {
-            "name": "Handcrafted Spiced Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 37.2,
+            "name": "Premium Roasted 24-Hour Braised Short Ribs",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Seasonal Tasting Menu Experience",
+            "price": 37.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Sizzling Black Garlic Glazed Beef Tenderloin",
-            "price": 35.95,
+            "name": "Seasonal Appetizing Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 29.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Hearty Japanese A5 Wagyu with Ponzu Butter",
+            "price": 28.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Succulent Age-Old Recipe Osso Buco with Gremolata",
+            "price": 26.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,17 +58,8 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Traditional Family Paella",
-            "price": 37.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crispy Molecular Gastronomy Showcase Tasting",
-            "price": 30.13,
+            "name": "Fresh Luscious Molecular Gastronomy Showcase Tasting",
+            "price": 30.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,68 +67,41 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite 24-Hour Braised Short Ribs",
-            "price": 32.28,
+            "name": "Authentic Savory Heritage Recipe Lamb Shank",
+            "price": 28.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Tangy Japanese A5 Wagyu with Ponzu Butter",
-            "price": 27.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Aromatic Chef's Special Surf and Turf",
-            "price": 27.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Fresh Luscious Chef's Tasting Menu Experience",
-            "price": 25.79,
-            "isVegetarian": false,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 35.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Wholesome Signature Spice-Rubbed Protein",
-            "price": 31.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Juicy Miso-Glazed Black Cod",
-            "price": 39.16,
+            "name": "Tableside Flambé Preparation",
+            "price": 29.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 39.61,
+            "name": "Sustainable Seafood Tower",
+            "price": 35.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,23 +109,32 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Steamed Cast Iron Seafood Presentation",
-            "price": 30.92,
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 35.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 39.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Mediterranean flavors—perfect for sharing or enjoying solo.",
+        "description": "Flavor-forward starters that introduce our approach to American with balance and creativity.",
         "items": [
           {
-            "name": "Spinach Artichoke Dip",
-            "price": 9.18,
+            "name": "Stuffed Avocado",
+            "price": 13.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,8 +142,8 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cheese Nachos",
-            "price": 15.31,
+            "name": "Mozzarella Sticks",
+            "price": 13.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,56 +151,56 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempura",
-            "price": 8.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Cocktail",
-            "price": 9.25,
+            "name": "Antipasto Platter",
+            "price": 12.66,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baba Ganoush",
-            "price": 10.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Brie",
-            "price": 13.53,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 15.31,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Stuffed Peppers",
+            "price": 14.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Quesadillas",
+            "price": 9.62,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ceviche",
-            "price": 10.72,
+            "name": "Potstickers",
+            "price": 12.25,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 8.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nachos",
+            "price": 13.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,29 +208,20 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Mediterranean cooking—perfect for any season.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Homestyle Creamy Thai Coconut Soup",
-            "price": 11.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Handcrafted Smoked Tomato Soup",
+            "price": 11.87,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Minestrone",
-            "price": 9.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Enticing Clam Chowder",
-            "price": 13.61,
+            "name": "Authentic Creamy Peanut Soup (West African)",
+            "price": 13.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -238,23 +229,41 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Crunchy Mushroom Soup",
-            "price": 9.2,
+            "name": "Deluxe Pan-seared Chicken Corn Soup",
+            "price": 10.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Mouthwatering Clam Chowder",
+            "price": 10.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Watermelon Feta Salad",
-            "price": 10.43,
+            "name": "Lentil and Feta Salad",
+            "price": 9.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 9.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,38 +271,29 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 10.22,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Quinoa Salad",
+            "price": 15.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.24,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cobb Salad",
-            "price": 14.55,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 13.37,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cucumber Salad",
-            "price": 9.11,
+            "price": 12.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,75 +301,75 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
+        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
         "items": [
           {
-            "name": "Premium Tangy Grilled Tofu",
-            "price": 21.68,
-            "isVegetarian": true,
+            "name": "Seasonal Exquisite Lentil Stew",
+            "price": 30.69,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Pulled Pork Sandwich",
-            "price": 31.85,
+            "name": "Classic Sweet Lamb Chops",
+            "price": 21.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Zingy Salmon",
-            "price": 18.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Herbed Enchiladas",
-            "price": 25.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Chili con Carne",
-            "price": 20.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Fish and Chips",
-            "price": 20.48,
+            "name": "Handcrafted Smoked Grilled Chicken",
+            "price": 25.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seasonal Irresistible Stuffed Zucchini Boats",
-            "price": 27.41,
-            "isVegetarian": true,
+            "name": "Hearty Mouthwatering Pizza",
+            "price": 29.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Flaky Stuffed Peppers",
-            "price": 25.74,
+            "name": "Hearty Enticing Coq au Vin",
+            "price": 18.89,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Irresistible Shish Kebabs",
+            "price": 22.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Steamed Grilled Tofu",
+            "price": 20.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Spicy Pesto Pasta",
+            "price": 28.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,29 +379,11 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
         "items": [
           {
-            "name": "Fresh Succulent Cedar Plank Roasted Salmon",
-            "price": 35.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Crispy Seafood Gumbo with Okra",
-            "price": 29.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 29.16,
+            "name": "Traditional Hearty Grilled Swordfish with Mango Chutney",
+            "price": 34.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,8 +391,8 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible Crab-Stuffed Mushrooms",
-            "price": 26.82,
+            "name": "Deluxe Stuffed Stuffed Flounder with Crab and Spinach",
+            "price": 26.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,59 +400,68 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Braised Lemon-Herb Calamari Steak",
-            "price": 31.65,
+            "name": "Premium Creamy Basa Fillet with Dill Cream Sauce",
+            "price": 29.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "House Special Enticing Oysters Rockefeller with Pernod Cream",
+            "price": 32.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Flavorful Mussels Mariniere in White Wine",
+            "price": 34.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Classic American side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 7.95,
+            "name": "Authentic Mouthwatering Roasted Root Vegetables",
+            "price": 9.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Herbed Bulgur Wheat with Lemon",
-            "price": 8.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Creamed Spinach with Nutmeg",
-            "price": 8.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 7.46,
-            "isVegetarian": true,
+            "name": "Homestyle Delectable Crispy Beer-Battered Onion Rings",
+            "price": 9.35,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 7.07,
+            "name": "Authentic Roasted Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 5.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Luscious Scalloped Potatoes with Thyme",
+            "price": 8.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +469,20 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 7.79,
+            "name": "Deluxe Stuffed Creamed Spinach with Nutmeg",
+            "price": 9.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Baked Sautéed Garlic Mushrooms",
+            "price": 7.6,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,59 +490,59 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Handcrafted Sweet Iced Tea",
-            "price": 7.08,
-            "isVegetarian": true,
+            "name": "Premium Zesty Water",
+            "price": 5.38,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Soda",
+            "name": "House Special Hearty Hot Chocolate",
+            "price": 4.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Juice",
+            "price": 5.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tangy Soda",
+            "price": 6.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Crunchy Milkshake",
+            "price": 6.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delectable Smoothie",
             "price": 7.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sizzling Water",
-            "price": 4.57,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Sizzling Juice",
-            "price": 7.29,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Luscious Lemonade",
-            "price": 7.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Flaky Milkshake",
-            "price": 6.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,24 +552,15 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A tasty selection of desserts that will satisfy your cravings",
+    "description": "Every dessert tells a delicious story of flavor and craftsmanship",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "From buttery croissants to hearty loaves, our baked goods are a celebration of flavor.",
         "items": [
           {
-            "name": "Hearty Crunchy Cinnamon Rolls",
-            "price": 9.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crispy Custard Tart",
-            "price": 9.17,
+            "name": "Cupcakes",
+            "price": 9.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,28 +568,37 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Red Velvet Cake",
-            "price": 6.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Muffins",
-            "price": 8.02,
+            "name": "Portuguese Custard Tarts",
+            "price": 10.44,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Braised Shortbread",
-            "price": 9.8,
+            "name": "Apple Pie",
+            "price": 10.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 8.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 6.91,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,20 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Hearty Crispy Frozen Pudding",
-            "price": 10.53,
+            "name": "Homestyle Golden Frozen Cheesecake",
+            "price": 10.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spicy Frozen Pudding",
+            "price": 8.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,17 +628,8 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Tender Ice Cream",
-            "price": 11.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crispy Popsicles",
-            "price": 7.97,
+            "name": "Organic Pan-seared Ice Cream",
+            "price": 8.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,18 +637,18 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Ice Cream Cake",
-            "price": 9.22,
+            "name": "Deluxe Comforting Frozen Fruit Bars",
+            "price": 9.18,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Frozen Cheesecake",
-            "price": 11.38,
-            "isVegetarian": true,
+            "name": "Classic Spiced Semifreddo",
+            "price": 10.12,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,42 +660,33 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine assortment of libations to accompany your culinary journey",
+    "description": "From wines to spirits: refreshing choices for every palate",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each sip tells a story—of ingredients, technique, and passion for mixology.",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
-            "name": "Seasonal Crunchy Bloody Mary",
-            "price": 14.3,
+            "name": "Old Fashioned",
+            "price": 12.13,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Exquisite Cosmopolitan",
-            "price": 14.84,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Hearty Martini",
-            "price": 14.99,
+            "name": "Bloody Mary",
+            "price": 14.05,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Old Fashioned",
-            "price": 13.61,
+            "name": "Mojito",
+            "price": 14.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -703,17 +694,8 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Mojito",
-            "price": 11.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Margarita",
-            "price": 14.4,
+            "name": "Cosmopolitan",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,11 +703,29 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zesty Mai Tai",
-            "price": 12.81,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Whiskey Sour",
+            "price": 15.05,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,47 +733,47 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Marsanne",
-            "price": 13.73,
+            "name": "Vouvray",
+            "price": 10.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chardonnay",
-            "price": 11.22,
-            "isVegetarian": true,
+            "name": "Tempranillo",
+            "price": 13.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Verdicchio",
-            "price": 12.83,
-            "isVegetarian": true,
+            "name": "Marsanne",
+            "price": 9.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 8.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 8.63,
+            "name": "Sangiovese",
+            "price": 11.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,11 +781,11 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 10.88,
+            "name": "Fiano",
+            "price": 9.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,20 +793,20 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Gourmet Exquisite Pisco",
-            "price": 10.64,
+            "name": "Homestyle Marinated Mezcal",
+            "price": 11.18,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Whiskey",
-            "price": 16.41,
+            "name": "Seasonal Fried St-Germain",
+            "price": 12.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,29 +814,29 @@ export const montevideotheWokMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Crunchy Campari",
-            "price": 14.86,
+            "name": "Homestyle Wholesome Calvados",
+            "price": 11.9,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Flaky Scotch",
+            "price": 10.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Crispy Chambord",
-            "price": 14.49,
+            "name": "Classic Sweet Coffee Liqueur",
+            "price": 14.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sizzling Sambuca",
-            "price": 17.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
