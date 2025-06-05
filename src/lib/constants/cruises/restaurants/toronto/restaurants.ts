@@ -2,26 +2,26 @@ import { Restaurant } from "@/lib/types/types";
 
 export const torontoRestaurants: Restaurant[] = [
   {
-    "name": "Grand Tavern",
-    "description": "A charming Japanese restaurant near Distillery District, offering craft beer and other local favorites in a setting with multicultural ambiance.",
+    "name": "Italian Room",
+    "description": "Located close to the historic district, this Japanese restaurant delights with its local ingredients and seasonal floral displays.",
     "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.1,
+    "priceRange": "$",
+    "rating": 4.3,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-21:00"
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-189-3299",
-      "contactEmail": "info@japanesetoronto.com"
+      "contactNumber": "+1-555-401-1264",
+      "contactEmail": "services@canadianchateautoronto.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -29,65 +29,34 @@ export const torontoRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Blue Tavern",
-    "description": "Experience authentic Indian cuisine with a local twist, featuring craft beer served in an atmosphere of lake views overlooking Royal Ontario Museum.",
-    "cuisine": "Indian",
-    "priceRange": "$$",
-    "rating": 4.8,
+    "name": "Indian Osteria",
+    "description": "Located close to downtown, this Chinese restaurant delights with its gourmet street food and beautiful decor.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-22:00"
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-907-8692",
-      "contactEmail": "info@indiantoronto.com"
+      "contactNumber": "+1-555-517-3254",
+      "contactEmail": "services@japanesepublichousetoronto.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Garden",
-    "description": "A culinary gem serving Canadian specialties including Toronto peameal bacon sandwich, where guests enjoy lake views in the heart of the city.",
-    "cuisine": "Canadian",
-    "priceRange": "$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-507-7253",
-      "contactEmail": "info@canadiantoronto.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -95,212 +64,181 @@ export const torontoRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Cafe",
-    "description": "Experience authentic Japanese cuisine with a local twist, featuring craft beer served in an atmosphere of modern design overlooking CN Tower.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.4,
+    "name": "Chinese Fish House",
+    "description": "This popular Canadian establishment combines traditional recipes and artisanal creations, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Canadian",
+    "priceRange": "$",
+    "rating": 4,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "Closed",
-      "sunday": "9:00-19:00"
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-834-7206",
-      "contactEmail": "info@japanesetoronto.com"
+      "contactNumber": "+1-555-597-7995",
+      "contactEmail": "services@canadian&co.toronto.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Canadian Saloon",
+    "description": "A charming Japanese restaurant near the old town walls, offering fresh produce and other local favorites in a setting with elegant atmosphere.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-856-4841",
+      "contactEmail": "services@japanesepaviliontoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Supper Club",
+    "description": "This popular Indian establishment combines traditional recipes and heritage recipes, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-360-3616",
+      "contactEmail": "services@italianfishhousetoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Japanese Chocolatier",
+    "description": "Experience authentic Chinese cuisine with a local twist, featuring local ingredients served in an atmosphere of beautiful decor overlooking the city museum.",
+    "cuisine": "Chinese",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-403-7561",
+      "contactEmail": "admin@canadiandelitoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
     "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Golden Restaurant",
-    "description": "A culinary gem serving Indian specialties including Toronto peameal bacon sandwich, where guests enjoy lake views in the heart of the city.",
+    "name": "Chinese Pavilion",
+    "description": "A charming Indian restaurant near the river promenade, offering handcrafted desserts and other local favorites in a setting with seasonal floral displays.",
     "cuisine": "Indian",
-    "priceRange": "$",
-    "rating": 4,
+    "priceRange": "$$",
+    "rating": 4.8,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-22:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-184-3981",
-      "contactEmail": "info@indiantoronto.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Grill",
-    "description": "A culinary gem serving Chinese specialties including butter tarts, where guests enjoy historic victorian buildings in the heart of the city.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-877-7264",
-      "contactEmail": "info@chinesetoronto.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Canadian Snack Bar",
-    "description": "A charming Canadian restaurant near Lake Ontario, offering Toronto peameal bacon sandwich and other local favorites in a setting with historic victorian buildings.",
-    "cuisine": "Canadian",
-    "priceRange": "$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "Closed",
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-21:00",
       "thursday": "9:00-21:00",
-      "friday": "Closed",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-22:00"
+      "friday": "11:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-171-2116",
-      "contactEmail": "info@canadiantoronto.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Hockey Bistro",
-    "description": "Experience authentic Italian cuisine with a local twist, featuring Toronto peameal bacon sandwich served in an atmosphere of lake views overlooking Royal Ontario Museum.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "Closed",
-      "friday": "Closed",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-677-6837",
-      "contactEmail": "info@italiantoronto.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Toronto Taproom",
-    "description": "Located close to Distillery District, this Japanese restaurant delights with its Ontario wines and lake views.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-20:00",
-      "saturday": "9:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-102-1821",
-      "contactEmail": "info@japanesetoronto.com"
+      "contactNumber": "+1-555-494-1314",
+      "contactEmail": "admin@japanesetaverntoronto.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Toronto Fish House",
-    "description": "A charming Canadian restaurant near CN Tower, offering butter tarts and other local favorites in a setting with lake views.",
-    "cuisine": "Canadian",
+    "name": "Indian Taproom",
+    "description": "Located close to the river promenade, this Chinese restaurant delights with its seasonal specialties and seasonal floral displays.",
+    "cuisine": "Chinese",
     "priceRange": "$$",
     "rating": 4.3,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-20:00"
+      "monday": "Closed",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-416-7000",
-      "contactEmail": "info@canadiantoronto.com"
+      "contactNumber": "+1-555-528-8937",
+      "contactEmail": "admin@italiancreperietoronto.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -308,38 +246,7 @@ export const torontoRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Maple Osteria",
-    "description": "Located close to Royal Ontario Museum, this Indian restaurant delights with its craft beer and historic victorian buildings.",
-    "cuisine": "Indian",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-21:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "Closed",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "9:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-164-6120",
-      "contactEmail": "info@indiantoronto.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

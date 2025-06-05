@@ -2,30 +2,30 @@ import { Restaurant } from "@/lib/types/types";
 
 export const glacierBayRestaurants: Restaurant[] = [
   {
-    "name": "Blue Brasserie",
-    "description": "Experience authentic Italian cuisine with a local twist, featuring local ingredients served in an atmosphere of local ambiance overlooking the waterfront.",
+    "name": "Golden & Co.",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring gourmet street food served in an atmosphere of seasonal floral displays overlooking the cultural center.",
     "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.3,
+    "priceRange": "$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "9:00-20:00",
-      "sunday": "9:00-21:00"
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-508-7004",
-      "contactEmail": "info@italianglacier-bay.com"
+      "contactNumber": "+1-555-284-5588",
+      "contactEmail": "customerservice@grandtableglacier-bay.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -33,57 +33,57 @@ export const glacierBayRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Blue Fine Dining",
-    "description": "This popular Italian establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with boutique shops.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.8,
+    "name": "Royal Eatery",
+    "description": "A charming Japanese restaurant near the city museum, offering fresh produce and other local favorites in a setting with elegant atmosphere.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-19:00",
-      "sunday": "10:00-22:00"
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "Closed",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-820-7767",
-      "contactEmail": "info@italianglacier-bay.com"
+      "contactNumber": "+1-555-742-3185",
+      "contactEmail": "customerservice@royalpatisserieglacier-bay.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
-    "isAdultOnly": true,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
   },
   {
-    "name": "The Dining Hall",
-    "description": "Experience authentic French cuisine with a local twist, featuring seasonal specialties served in an atmosphere of beautiful decor overlooking the historic district.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4,
+    "name": "Royal Inn",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring regional wines served in an atmosphere of local ambiance overlooking the waterfront.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-20:00",
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "Closed",
       "thursday": "11:00-20:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-20:00"
+      "friday": "11:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-263-4875",
-      "contactEmail": "info@frenchglacier-bay.com"
+      "contactNumber": "+1-555-321-8410",
+      "contactEmail": "customerservice@royalcurryhouseglacier-bay.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -95,26 +95,88 @@ export const glacierBayRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Gourmet",
-    "description": "A culinary gem serving Japanese specialties including seasonal specialties, where guests enjoy ambient lighting in the heart of the city.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.2,
+    "name": "Royal Curry House",
+    "description": "This popular Mediterranean establishment combines traditional recipes and signature dishes, all served in a unique setting with seasonal floral displays.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.7,
     "openingHours": {
-      "monday": "10:00-20:00",
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "Closed",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-491-7754",
+      "contactEmail": "customerservice@royalcurryhouseglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Bar & Kitchen",
+    "description": "This popular Mediterranean establishment combines traditional recipes and heritage recipes, all served in a unique setting with artisan markets.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "Closed",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-229-4407",
+      "contactEmail": "customerservice@goldentaproomglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Inn",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of local ambiance overlooking the city museum.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-22:00",
       "tuesday": "11:00-21:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "10:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-19:00",
       "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-291-7784",
-      "contactEmail": "info@japaneseglacier-bay.com"
+      "contactNumber": "+1-555-597-9360",
+      "contactEmail": "ask@bluesaloonglacier-bay.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
@@ -126,34 +188,65 @@ export const glacierBayRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Grand Culinary",
-    "description": "This popular Mediterranean establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with elegant atmosphere.",
+    "name": "Grand Artisan",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring seasonal specialties served in an atmosphere of live street performances overlooking the city museum.",
     "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 4.3,
+    "priceRange": "$",
+    "rating": 4.8,
     "openingHours": {
       "monday": "9:00-19:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-20:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-20:00"
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-608-6152",
-      "contactEmail": "info@mediterraneanglacier-bay.com"
+      "contactNumber": "+1-555-724-7323",
+      "contactEmail": "ask@grandramen-yaglacier-bay.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Marketplace",
+    "description": "A charming French restaurant near downtown, offering artisanal creations and other local favorites in a setting with beautiful decor.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-818-2882",
+      "contactEmail": "ask@royalbakeryglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

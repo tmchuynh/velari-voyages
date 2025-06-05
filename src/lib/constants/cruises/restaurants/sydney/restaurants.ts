@@ -2,118 +2,56 @@ import { Restaurant } from "@/lib/types/types";
 
 export const sydneyRestaurants: Restaurant[] = [
   {
-    "name": "Royal Cafe",
-    "description": "This popular Italian establishment combines traditional recipes and Tim Tams, all served in a unique setting with harbor views.",
+    "name": "Seafood Fare",
+    "description": "This popular Italian establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with live street performances.",
     "cuisine": "Italian",
     "priceRange": "$",
-    "rating": 4.1,
+    "rating": 4,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-19:00",
-      "sunday": "11:00-20:00"
+      "monday": "11:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-314-2728",
-      "contactEmail": "info@italiansydney.com"
+      "contactNumber": "+1-555-800-6418",
+      "contactEmail": "support@mediterranean&sonssydney.com"
     },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand House",
-    "description": "Experience authentic Italian cuisine with a local twist, featuring meat pies served in an atmosphere of cosmopolitan atmosphere overlooking Harbour Bridge.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "Closed",
-      "friday": "9:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-996-5782",
-      "contactEmail": "info@italiansydney.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": false
   },
   {
-    "name": "The Kitchen",
-    "description": "Located close to Bondi Beach, this Italian restaurant delights with its barramundi and harbor views.",
-    "cuisine": "Italian",
+    "name": "Australian Pizzeria",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of live street performances overlooking the iconic clock tower.",
+    "cuisine": "Seafood",
     "priceRange": "$",
     "rating": 4.3,
     "openingHours": {
       "monday": "9:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-22:00",
-      "sunday": "Closed"
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-454-6107",
-      "contactEmail": "info@italiansydney.com"
+      "contactNumber": "+1-555-829-1943",
+      "contactEmail": "support@seafooddelisydney.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Kitchen",
-    "description": "Experience authentic Australian cuisine with a local twist, featuring Tim Tams served in an atmosphere of alfresco dining overlooking Harbour Bridge.",
-    "cuisine": "Australian",
-    "priceRange": "$$$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-280-5356",
-      "contactEmail": "info@australiansydney.com"
-    },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
@@ -122,62 +60,31 @@ export const sydneyRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Blue Grill",
-    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring Tim Tams served in an atmosphere of beachside terraces overlooking Bondi Beach.",
-    "cuisine": "Mediterranean",
+    "name": "Italian Trattoria",
+    "description": "Located close to the main square, this Asian restaurant delights with its artisanal creations and live street performances.",
+    "cuisine": "Asian",
     "priceRange": "$",
-    "rating": 4.5,
+    "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "Closed",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "Closed",
-      "sunday": "10:00-20:00"
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-626-7390",
-      "contactEmail": "info@mediterraneansydney.com"
+      "contactNumber": "+1-555-374-9941",
+      "contactEmail": "support@australianculinarysydney.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Grand Dining Room",
-    "description": "A charming Italian restaurant near Sydney Opera House, offering Sydney rock oysters and other local favorites in a setting with cosmopolitan atmosphere.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-465-6594",
-      "contactEmail": "info@italiansydney.com"
-    },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -185,33 +92,33 @@ export const sydneyRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Grand Eatery",
-    "description": "A charming Australian restaurant near Sydney Opera House, offering Sydney rock oysters and other local favorites in a setting with cosmopolitan atmosphere.",
-    "cuisine": "Australian",
+    "name": "Seafood Dining Hall",
+    "description": "A charming Seafood restaurant near the cultural center, offering seasonal specialties and other local favorites in a setting with ambient lighting.",
+    "cuisine": "Seafood",
     "priceRange": "$",
-    "rating": 4.4,
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "9:00-20:00",
-      "friday": "9:00-19:00",
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-21:00",
       "saturday": "10:00-20:00",
       "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-392-7293",
-      "contactEmail": "info@australiansydney.com"
+      "contactNumber": "+1-555-305-5975",
+      "contactEmail": "support@asianbrasseriesydney.com"
     },
     "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -219,189 +126,127 @@ export const sydneyRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Eatery",
-    "description": "A culinary gem serving Mediterranean specialties including Tim Tams, where guests enjoy beachside terraces in the heart of the city.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "Closed",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-702-1280",
-      "contactEmail": "info@mediterraneansydney.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "New South Wales Snack Bar",
-    "description": "This popular Mediterranean establishment combines traditional recipes and flat white coffee, all served in a unique setting with harbor views.",
-    "cuisine": "Mediterranean",
+    "name": "Italian Dim Sum Palace",
+    "description": "This popular Italian establishment combines traditional recipes and signature dishes, all served in a unique setting with charming streetscapes.",
+    "cuisine": "Italian",
     "priceRange": "$",
     "rating": 4.5,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "Closed",
-      "sunday": "10:00-22:00"
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-437-7200",
-      "contactEmail": "info@mediterraneansydney.com"
+      "contactNumber": "+1-555-990-2955",
+      "contactEmail": "support@seafoodcookhousesydney.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
-    "isAdultOnly": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Down Under Dining Hall",
-    "description": "This popular Italian establishment combines traditional recipes and flat white coffee, all served in a unique setting with cosmopolitan atmosphere.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 3.9,
+    "name": "Seafood Trattoria",
+    "description": "Located close to the historic district, this Mediterranean restaurant delights with its local ingredients and live street performances.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.6,
     "openingHours": {
       "monday": "11:00-20:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-19:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-21:00"
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-683-3508",
-      "contactEmail": "info@italiansydney.com"
+      "contactNumber": "+1-555-595-6678",
+      "contactEmail": "info@australiansupperclubsydney.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Cevicheria",
+    "description": "A culinary gem serving Asian specialties including farm-to-table meals, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Asian",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "Closed",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-315-7545",
+      "contactEmail": "info@asiangrillsydney.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Bondi Coffee House",
-    "description": "Experience authentic Australian cuisine with a local twist, featuring barramundi served in an atmosphere of beachside terraces overlooking Darling Harbour.",
-    "cuisine": "Australian",
+    "name": "Seafood Barbecue",
+    "description": "This popular Seafood establishment combines traditional recipes and local ingredients, all served in a unique setting with friendly service.",
+    "cuisine": "Seafood",
     "priceRange": "$",
-    "rating": 4.8,
+    "rating": 4.7,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-19:00"
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-534-2757",
-      "contactEmail": "info@australiansydney.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Harbour Dining Room",
-    "description": "Located close to Harbour Bridge, this Italian restaurant delights with its flat white coffee and harbor views.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-558-9308",
-      "contactEmail": "info@italiansydney.com"
+      "contactNumber": "+1-555-714-6925",
+      "contactEmail": "info@asianprovisionssydney.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Mountains Room",
-    "description": "This popular Italian establishment combines traditional recipes and barramundi, all served in a unique setting with harbor views.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-500-3116",
-      "contactEmail": "info@italiansydney.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   }
 ];

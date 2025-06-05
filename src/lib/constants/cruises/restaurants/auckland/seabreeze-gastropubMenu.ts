@@ -6,100 +6,84 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "A showcase of flavorful culinary artistry rooted in Pacific heritage",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Authentic Enticing Captain's Favorite Seafood Tower",
-            "price": 33.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Wholesome Award-Winning Seafood Boil",
-            "price": 27.99,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 29.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Pan-seared Heritage Recipe Lamb Shank",
-            "price": 35.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 34.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Savory Whole Roasted Heritage Chicken",
-            "price": 24.37,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 28.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Creamy Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 35.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Spicy Secret Recipe Bouillabaisse",
-            "price": 28.25,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Tasting Platter",
+            "price": 26.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef’s Wild Game Selection",
+            "price": 32.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 24.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 37.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "price": 36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Classic Smoked Sustainable Seafood Tower",
-            "price": 37.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Crispy Off-Menu Secret Preparation",
-            "price": 38.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Fire-Roasted Seasonal Centerpiece",
-            "price": 31.62,
+            "name": "House Special Sweet Sous Vide Pork Tenderloin",
+            "price": 30.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,17 +91,35 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Cedar Plank Salmon",
-            "price": 31.35,
+            "name": "Seasonal Creamy Lobster Thermidor",
+            "price": 36.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Roasted Quail with Truffle Jus",
+            "price": 29.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Smoked Roasted Quail with Truffle Jus",
-            "price": 26.45,
+            "name": "Fresh Herbed Hand-Selected Wine Pairing Experience",
+            "price": 30.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Comforting Tasting of Local Artisanal Cheeses",
+            "price": 34.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -128,55 +130,20 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Seasonal Sizzling Garlic Knots",
-            "price": 11.45,
+            "name": "Garlic Knots",
+            "price": 10.49,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Exquisite Bruschetta",
-            "price": 15.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Dumplings",
-            "price": 15.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Pan-seared Meatballs",
-            "price": 8.17,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Sautéed Onion Rings",
-            "price": 13.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Steamed Mezze Platter",
-            "price": 14.45,
+            "name": "Deviled Eggs",
+            "price": 8.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -184,20 +151,56 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Mini Quesadillas",
-            "price": 15.83,
+            "name": "Spinach Artichoke Dip",
+            "price": 13.41,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Wholesome Caprese Salad",
-            "price": 9.03,
+            "name": "Dumplings",
+            "price": 10.11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 8.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 14.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baba Ganoush",
+            "price": 9.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potstickers",
+            "price": 15.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -205,28 +208,20 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "House Special Golden Avgolemono (Greek Lemon Soup)",
-            "price": 9.75,
-            "isVegetarian": true,
+            "name": "Authentic Herbed Mushroom Soup",
+            "price": 7.49,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Homestyle Enticing French Onion Soup",
-            "price": 12.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Marinated Vegetable Barley Soup",
-            "price": 12.25,
+            "name": "Handcrafted Tangy Clam Chowder",
+            "price": 12.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,22 +229,41 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sizzling Borscht",
-            "price": 8.66,
-            "isVegetarian": true,
+            "name": "Handcrafted Zingy Tortilla Soup",
+            "price": 12.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Succulent Seafood Chowder",
+            "price": 8.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Quinoa Salad",
-            "price": 9.4,
+            "name": "Roasted Vegetable Salad",
+            "price": 9.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 13.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -258,35 +272,26 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Caesar Salad",
-            "price": 13.95,
-            "isVegetarian": false,
+            "price": 12.25,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 15.58,
-            "isVegetarian": false,
+            "name": "Nicoise Salad",
+            "price": 13.38,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 10.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pasta Salad",
-            "price": 14.71,
-            "isVegetarian": true,
+            "price": 11.7,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -296,10 +301,11 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Organic Spiced Burrito",
-            "price": 29.81,
+            "name": "Pesto Pasta",
+            "price": 25.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +313,8 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crispy Lentil Stew",
-            "price": 18,
+            "name": "Paella",
+            "price": 26.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,35 +322,35 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Stuffed Risotto",
-            "price": 26.07,
+            "name": "Chicken Parmesan",
+            "price": 27.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 19.3,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Currywurst",
-            "price": 31.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Paella",
-            "price": 31.61,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Stuffed Peppers",
-            "price": 25.75,
+            "name": "Roast Duck",
+            "price": 29.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Burrito",
+            "price": 26.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,40 +358,41 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Stuffed Zucchini Boats",
-            "price": 29.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Steamed Spaghetti Bolognese",
-            "price": 26.23,
+            "name": "Beef Wellington",
+            "price": 23.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Lamb Chops",
+            "price": 22.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
         "items": [
           {
-            "name": "Handcrafted Grilled Smoked Salmon Platter with Dill Crème",
-            "price": 26.75,
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 32.26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Fried Garlic Butter Shrimp Skillet",
-            "price": 31.72,
+            "name": "Seared Tuna Steak with Sesame Crust",
+            "price": 30.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,26 +400,26 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Seafood Alfredo with Spinach Fettuccine",
-            "price": 35.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Grilled Tempura Soft Shell Crab",
-            "price": 31.21,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 24.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Satisfying Shrimp Scampi over Linguine",
-            "price": 24.68,
+            "name": "Hearty Italian Cioppino",
+            "price": 24.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Spanish Octopus with Smoked Paprika",
+            "price": 22.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -423,10 +430,20 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Authentic Steamed Mashed Potatoes",
-            "price": 7.35,
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 5.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 5.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -434,67 +451,59 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Zingy Cauliflower Gratin with Gruyère",
-            "price": 6.94,
+            "name": "Wild Mushroom Risotto",
+            "price": 6.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 6.71,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 5.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Provencal Ratatouille",
-            "price": 6.56,
-            "isVegetarian": false,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.38,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Smoked Herbed Bulgur Wheat with Lemon",
-            "price": 6.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Tender Steamed Jasmine Rice",
-            "price": 6.86,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Grilled Asparagus with Lemon Zest",
-            "price": 6.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.46,
+            "name": "Milkshake",
+            "price": 6.05,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 5,
+            "price": 6.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -503,35 +512,35 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 7.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 6.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.16,
+            "price": 6.24,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.36,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -543,14 +552,33 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Every dessert tells a delicious story of flavor and craftsmanship",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Croissants",
-            "price": 7.06,
+            "name": "Authentic Creamy Portuguese Custard Tarts",
+            "price": 8.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Grilled Pecan Pie",
+            "price": 6.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Wholesome Tiramisu",
+            "price": 8.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,35 +586,17 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shortbread",
-            "price": 8.51,
+            "name": "Fresh Hearty Brownies",
+            "price": 9.29,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cupcakes",
-            "price": 9.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 10.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 9.38,
+            "name": "Seasonal Grilled Pumpkin Pie",
+            "price": 10.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -597,19 +607,38 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
         "items": [
           {
-            "name": "Frozen Custard",
-            "price": 9.71,
-            "isVegetarian": true,
+            "name": "Kulfi",
+            "price": 9.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Yogurt",
-            "price": 9.99,
+            "name": "Frosty",
+            "price": 9.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Granita",
+            "price": 8.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 7.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,29 +646,11 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Cheesecake",
-            "price": 9.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 11.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 10.84,
+            "name": "Sorbet",
+            "price": 9.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -649,14 +660,24 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "Sip on our flavorful cocktails, designed to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 11.39,
+            "name": "Negroni",
+            "price": 11.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -665,7 +686,7 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 13.58,
+            "price": 13.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -673,45 +694,36 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 10.33,
+            "name": "Mojito",
+            "price": 11.33,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 14.93,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Whiskey Sour",
+            "price": 13.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Margarita",
-            "price": 15.65,
-            "isVegetarian": true,
+            "price": 12.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 10.34,
-            "isVegetarian": true,
+            "name": "Cosmopolitan",
+            "price": 15.04,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -721,69 +733,29 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Torrontés",
-            "price": 10.34,
-            "isVegetarian": false,
+            "name": "Zinfandel",
+            "price": 9.63,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 9.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Viognier",
-            "price": 11.68,
+            "name": "Cabernet Franc",
+            "price": 11.3,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 9.5,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Cabernet Sauvignon",
-            "price": 12.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Blanc",
-            "price": 10.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "items": [
-          {
-            "name": "Aquavit",
-            "price": 10.83,
+            "price": 8.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,7 +763,7 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maraschino",
+            "name": "Verdicchio",
             "price": 13.22,
             "isVegetarian": false,
             "isVegan": false,
@@ -800,26 +772,68 @@ export const aucklandseabreezeGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Anisette",
-            "price": 12.14,
+            "name": "Champagne/Sparkling Wine",
+            "price": 8.09,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Vouvray",
+            "price": 13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "items": [
+          {
+            "name": "Calvados",
+            "price": 17.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mezcal",
-            "price": 16.89,
-            "isVegetarian": false,
+            "name": "Limoncello",
+            "price": 16.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 17.71,
+            "name": "Chambord",
+            "price": 15.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Anisette",
+            "price": 12.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 16.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

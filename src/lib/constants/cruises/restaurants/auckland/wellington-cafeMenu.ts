@@ -6,41 +6,42 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "An immersive dining experience defined by comforting Maori cuisine",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Our chef's pride—carefully selected Maori specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "House Special Grilled Sous Vide Perfected Wagyu",
-            "price": 30.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Appetizing House Famous Duck Confit",
+            "name": "Homestyle Smoked Caribbean-Style Jerk Duck with Mango Slaw",
             "price": 37.13,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Zingy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 31.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Restaurant's Namesake Signature Entrée",
-            "price": 35.04,
+            "name": "Organic Crunchy Whole Roasted Heritage Chicken",
+            "price": 25.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Spiced Black Garlic Glazed Beef Tenderloin",
+            "price": 31.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Baked Chef's Childhood Inspired Creation",
+            "price": 28.66,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -48,49 +49,68 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Crispy Flambéed Tableside Specialty",
-            "price": 34.69,
+            "name": "Handcrafted Smoked Seasonal Tasting Menu Experience",
+            "price": 28.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Black Garlic Glazed Beef Tenderloin",
-            "price": 32.91,
+            "name": "Handcrafted Sautéed Captain's Favorite Seafood Tower",
+            "price": 25.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Enticing Heritage Recipe Lamb Shank",
-            "price": 33.54,
+            "name": "Homestyle Grilled Chef's Special Surf and Turf",
+            "price": 34.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Authentic Savory Tableside Prepared Tartare",
-            "price": 31.06,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 38.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 35.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 25.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Crispy Seasonal Truffle Risotto",
-            "price": 37.43,
+            "name": "Seasonal Truffle Risotto",
+            "price": 27.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -98,29 +118,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Deconstructed Classic with Modern Technique",
-            "price": 24.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Roasted Freshly Harvested Seasonal Creation",
-            "price": 25.5,
+            "name": "Roasted Quail with Truffle Jus",
+            "price": 31.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Sous Vide Pork Tenderloin",
-            "price": 39.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
           }
@@ -128,10 +130,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
+        "description": "A selection of Maori starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Gourmet Appetizing Stuffed Mushrooms",
-            "price": 13.17,
+            "name": "Samosas",
+            "price": 15.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,8 +142,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Caprese Salad",
-            "price": 9.19,
+            "name": "Spinach Puffs",
+            "price": 12.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -148,8 +151,44 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flaky Nachos",
-            "price": 12.13,
+            "name": "Hummus Platter",
+            "price": 9.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 15.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zucchini Fries",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Knots",
+            "price": 11.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -157,44 +196,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Savory Deviled Eggs",
-            "price": 13.72,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Wholesome Mini Crab Cakes",
-            "price": 12.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Pan-seared Garlic Knots",
-            "price": 12.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Pan-seared Tempura",
-            "price": 11.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Flaky Mezze Platter",
-            "price": 12.11,
+            "name": "Charcuterie Board",
+            "price": 9.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -205,28 +208,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Hearty Wholesome Lentil Soup",
-            "price": 10.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty Avgolemono (Greek Lemon Soup)",
-            "price": 12.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Cabbage Soup",
-            "price": 10.1,
+            "name": "Homestyle Herbed Cabbage Soup",
+            "price": 7.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,11 +220,29 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Aromatic Gazpacho",
-            "price": 11.55,
+            "name": "Homestyle Creamy Pho",
+            "price": 7.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Luscious Carrot Ginger Soup",
+            "price": 11.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Lentil Soup",
+            "price": 8.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -246,46 +250,47 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 14.15,
-            "isVegetarian": false,
+            "name": "Spinach Salad",
+            "price": 11.99,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 15.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 12.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 13.03,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 12.17,
+            "name": "Farro Salad",
+            "price": 13.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 12.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 14.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -296,19 +301,56 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Authentic Crunchy Beef Wellington",
-            "price": 18.59,
+            "name": "Salmon",
+            "price": 19.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Steak",
+            "price": 31.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Irresistible Pizza",
-            "price": 31.13,
+            "name": "Mac and Cheese",
+            "price": 19.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bibimbap",
+            "price": 19.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moussaka",
+            "price": 24.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Curry",
+            "price": 19.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,8 +358,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Spiced Ramen",
-            "price": 20.34,
+            "name": "Ramen",
+            "price": 26.47,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -325,47 +367,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Delectable Pulled Pork Sandwich",
-            "price": 28.66,
+            "name": "Fajitas",
+            "price": 20.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Juicy Chili con Carne",
-            "price": 26.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spiced Grilled Chicken",
-            "price": 27.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Zingy Stuffed Peppers",
-            "price": 21.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Salmon",
-            "price": 24.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -373,19 +379,38 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Authentic Crunchy Cedar Plank Roasted Salmon",
-            "price": 22.94,
+            "name": "Crab-Stuffed Mushrooms",
+            "price": 28.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Grilled New England Lobster Roll",
-            "price": 22.09,
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 30.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Miso-Marinated Chilean Sea Bass",
+            "price": 30.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "New England Lobster Roll",
+            "price": 31.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,26 +418,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Juicy Mussels Mariniere in White Wine",
-            "price": 33.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Herbed Basa Fillet with Dill Cream Sauce",
-            "price": 31.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Fried Smoked Salmon Platter with Dill Crème",
-            "price": 25.35,
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 27.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -423,55 +430,56 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Essential accompaniments, from traditional staples to inventive bites.",
         "items": [
           {
-            "name": "Premium Savory Israeli Couscous with Roasted Tomatoes",
-            "price": 6.38,
+            "name": "Authentic Enticing Green Beans Almondine",
+            "price": 7.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Roasted Corn on the Cob with Chili Lime Butter",
+            "price": 6.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Braised Red Cabbage with Apple",
+            "price": 6.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Stuffed Baked Idaho Potato with Sour Cream",
+            "price": 7.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Stuffed Scalloped Potatoes with Thyme",
-            "price": 9.19,
+            "name": "Authentic Hearty Wild Mushroom Risotto",
+            "price": 7.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Classic Pan-seared Mashed Potatoes",
-            "price": 6.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Braised French Fries",
-            "price": 7.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Mouthwatering Baked Idaho Potato with Sour Cream",
-            "price": 5.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zingy Truffle Parmesan Fries",
-            "price": 6.29,
+            "name": "Handcrafted Zingy Grilled Zucchini and Peppers",
+            "price": 7.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -482,11 +490,12 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 6.01,
-            "isVegetarian": true,
+            "name": "Juice",
+            "price": 4.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -494,25 +503,25 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Coffee",
-            "price": 7.58,
+            "price": 4.03,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 4.13,
+            "name": "Iced Tea",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 8,
+            "price": 6.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,18 +529,18 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.17,
+            "name": "Hot Chocolate",
+            "price": 7.66,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 4.03,
-            "isVegetarian": false,
+            "price": 5.28,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -543,14 +552,15 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "From oven to plate – satisfying desserts made with care",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Biscotti",
-            "price": 7.17,
+            "name": "Authentic Smoked Fruit Galette",
+            "price": 10.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -558,49 +568,50 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 10.58,
+            "name": "Gourmet Grilled Baklava",
+            "price": 9.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 9.6,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 7.31,
+            "name": "Gourmet Pan-seared Carrot Cake",
+            "price": 7.58,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Hearty Aromatic Berry Tart",
+            "price": 8.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Portuguese Custard Tarts",
+            "price": 6.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
+        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Semifreddo",
-            "price": 10.24,
+            "name": "Handcrafted Delectable Frozen Cheesecake",
+            "price": 11.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +619,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 10.81,
+            "name": "Fresh Exquisite Semifreddo",
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,29 +628,29 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 11.3,
-            "isVegetarian": true,
+            "name": "Organic Sweet Frozen Mousse",
+            "price": 7.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Kulfi",
+            "price": 8.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 7.74,
+            "name": "Fresh Crunchy Sherbet",
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 11.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -649,14 +660,15 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "A balanced array of beverages specially selected by our sommeliers",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Martini",
-            "price": 12.07,
+            "name": "Old Fashioned",
+            "price": 15.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,8 +676,26 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Mai Tai",
+            "price": 14.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Whiskey Sour",
-            "price": 13.73,
+            "price": 13.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 12.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -674,17 +704,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 10.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.73,
-            "isVegetarian": false,
+            "price": 11.8,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -692,28 +713,19 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Negroni",
-            "price": 14.5,
+            "price": 13.45,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.45,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 13.44,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -721,28 +733,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Chenin Blanc",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chardonnay",
-            "price": 9.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 8.24,
+            "name": "Mourvèdre",
+            "price": 8.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -750,28 +745,46 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Marsanne",
-            "price": 13.46,
+            "name": "Merlot",
+            "price": 11.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Verdicchio",
+            "price": 9.24,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 9.82,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 8.53,
-            "isVegetarian": false,
+            "name": "Albariño",
+            "price": 10.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Prosecco",
-            "price": 13.95,
+            "name": "Fiano",
+            "price": 8.22,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -780,10 +793,11 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
         "items": [
           {
-            "name": "Galliano",
-            "price": 12.49,
+            "name": "Brandy",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,17 +805,17 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 11.79,
+            "name": "Whiskey",
+            "price": 16.27,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Calvados",
-            "price": 10.27,
+            "name": "Amaretto",
+            "price": 10.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -809,8 +823,8 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 15.45,
+            "name": "Maraschino",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -819,7 +833,7 @@ export const aucklandwellingtonCafeMenu: RestaurantMenu[] = [
           },
           {
             "name": "Triple Sec",
-            "price": 11.18,
+            "price": 17.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

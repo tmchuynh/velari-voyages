@@ -155,5 +155,98 @@ export const athensRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Grand Juice Bar",
+    "description": "This popular French establishment combines traditional recipes and gourmet street food, all served in a unique setting with charming streetscapes.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-814-3256",
+      "contactEmail": "customerservice@goldencookhouseathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Parlor",
+    "description": "Experience authentic French cuisine with a local twist, featuring gourmet street food served in an atmosphere of local ambiance overlooking the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-188-8015",
+      "contactEmail": "customerservice@bluefarmtableathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Brasserie",
+    "description": "A charming French restaurant near the waterfront, offering seasonal specialties and other local favorites in a setting with friendly service.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-441-3899",
+      "contactEmail": "customerservice@royalhideawayathens.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

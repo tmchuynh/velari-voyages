@@ -2,211 +2,25 @@ import { Restaurant } from "@/lib/types/types";
 
 export const tampaRestaurants: Restaurant[] = [
   {
-    "name": "Grand Terrace",
-    "description": "A charming Italian restaurant near Tampa Riverwalk, offering craft beer and other local favorites in a setting with Cuban influence.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-651-8568",
-      "contactEmail": "info@italiantampa.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal House",
-    "description": "Experience authentic Italian cuisine with a local twist, featuring Cuban sandwiches served in an atmosphere of waterfront views overlooking Busch Gardens.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-19:00",
-      "saturday": "Closed",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-282-6561",
-      "contactEmail": "info@italiantampa.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Eatery",
-    "description": "This popular American establishment combines traditional recipes and deviled crab, all served in a unique setting with historic cigar factory settings.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "10:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-875-1828",
-      "contactEmail": "info@americantampa.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Grand Brasserie",
-    "description": "This popular American establishment combines traditional recipes and grouper, all served in a unique setting with historic cigar factory settings.",
-    "cuisine": "American",
+    "name": "Italian Lab",
+    "description": "Experience authentic Cuban cuisine with a local twist, featuring regional wines served in an atmosphere of live street performances overlooking the iconic clock tower.",
+    "cuisine": "Cuban",
     "priceRange": "$$$",
-    "rating": 4.8,
+    "rating": 4.5,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-19:00",
-      "friday": "Closed",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-147-1005",
-      "contactEmail": "info@americantampa.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Grill",
-    "description": "Located close to Ybor City, this Spanish restaurant delights with its craft beer and waterfront views.",
-    "cuisine": "Spanish",
-    "priceRange": "$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-21:00",
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-19:00",
       "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-696-3482",
-      "contactEmail": "info@spanishtampa.com"
+      "contactNumber": "+1-555-465-1911",
+      "contactEmail": "general@spanishmaisontampa.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Kitchen",
-    "description": "Located close to Ybor City, this Italian restaurant delights with its key lime pie and waterfront views.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-22:00",
-      "saturday": "Closed",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-496-2616",
-      "contactEmail": "info@italiantampa.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Eatery",
-    "description": "This popular Cuban establishment combines traditional recipes and deviled crab, all served in a unique setting with waterfront views.",
-    "cuisine": "Cuban",
-    "priceRange": "$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "Closed",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-540-8172",
-      "contactEmail": "info@cubantampa.com"
-    },
-    "isVegetarianFriendly": false,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
@@ -219,28 +33,90 @@ export const tampaRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Riverwalk Inn",
-    "description": "A culinary gem serving Seafood specialties including key lime pie, where guests enjoy tropical gardens in the heart of the city.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$$",
+    "name": "American Sushi Bar",
+    "description": "A charming Cuban restaurant near the iconic clock tower, offering local ingredients and other local favorites in a setting with boutique shops.",
+    "cuisine": "Cuban",
+    "priceRange": "$$$",
     "rating": 4.8,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-22:00"
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-798-8353",
-      "contactEmail": "info@seafoodtampa.com"
+      "contactNumber": "+1-555-774-5100",
+      "contactEmail": "general@cubansocietytampa.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Spanish Snack Bar",
+    "description": "Located close to the city museum, this Spanish restaurant delights with its artisanal creations and beautiful decor.",
+    "cuisine": "Spanish",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-154-2370",
+      "contactEmail": "general@cubansaloontampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Sushi Bar",
+    "description": "This popular Spanish establishment combines traditional recipes and artisanal creations, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Spanish",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-641-9967",
+      "contactEmail": "general@spanishgelateriatampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
@@ -250,61 +126,92 @@ export const tampaRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Ybor Room",
-    "description": "A culinary gem serving American specialties including deviled crab, where guests enjoy waterfront views in the heart of the city.",
-    "cuisine": "American",
-    "priceRange": "$$",
+    "name": "American Gallery",
+    "description": "Located close to the river promenade, this Seafood restaurant delights with its handcrafted desserts and charming streetscapes.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
     "rating": 4.6,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "11:00-20:00",
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-20:00",
       "friday": "11:00-21:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-19:00"
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-431-5608",
-      "contactEmail": "info@americantampa.com"
+      "contactNumber": "+1-555-644-6679",
+      "contactEmail": "general@spanishsocietytampa.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Seafood Raw Bar",
+    "description": "This popular Seafood establishment combines traditional recipes and heritage recipes, all served in a unique setting with ambient lighting.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-239-9830",
+      "contactEmail": "communications@italianmaisontampa.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Coastal Brasserie",
-    "description": "Located close to Bayshore Boulevard, this Seafood restaurant delights with its deviled crab and waterfront views.",
-    "cuisine": "Seafood",
+    "name": "Spanish Chophouse",
+    "description": "A charming Italian restaurant near the main square, offering signature dishes and other local favorites in a setting with elegant atmosphere.",
+    "cuisine": "Italian",
     "priceRange": "$$",
-    "rating": 4.2,
+    "rating": 4.4,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-21:00",
-      "sunday": "10:00-20:00"
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-196-7642",
-      "contactEmail": "info@seafoodtampa.com"
+      "contactNumber": "+1-555-316-7916",
+      "contactEmail": "communications@cubanbuffettampa.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": true,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -312,65 +219,34 @@ export const tampaRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Gulf Ristorante",
-    "description": "Experience authentic Spanish cuisine with a local twist, featuring Cuban sandwiches served in an atmosphere of Cuban influence overlooking Busch Gardens.",
-    "cuisine": "Spanish",
-    "priceRange": "$$$",
-    "rating": 4.1,
+    "name": "Cuban Oyster Bar",
+    "description": "Experience authentic American cuisine with a local twist, featuring heritage recipes served in an atmosphere of ambient lighting overlooking the city museum.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.5,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-20:00",
       "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-307-5419",
-      "contactEmail": "info@spanishtampa.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Cigar Eatery",
-    "description": "Located close to Busch Gardens, this Cuban restaurant delights with its key lime pie and Cuban influence.",
-    "cuisine": "Cuban",
-    "priceRange": "$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-588-9092",
-      "contactEmail": "info@cubantampa.com"
+      "contactNumber": "+1-555-956-3194",
+      "contactEmail": "communications@italiansocialtampa.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": false
   }
 ];

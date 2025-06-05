@@ -2,85 +2,116 @@ import { Restaurant } from "@/lib/types/types";
 
 export const limaRestaurants: Restaurant[] = [
   {
-    "name": "Golden Pizzeria",
-    "description": "A culinary gem serving American specialties including handcrafted desserts, where guests enjoy local ambiance in the heart of the city.",
-    "cuisine": "American",
+    "name": "Blue Dining Hall",
+    "description": "A charming Mediterranean restaurant near the iconic clock tower, offering heritage recipes and other local favorites in a setting with charming streetscapes.",
+    "cuisine": "Mediterranean",
     "priceRange": "$$$$",
-    "rating": 4,
+    "rating": 4.8,
     "openingHours": {
       "monday": "9:00-19:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "Closed",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-231-5867",
-      "contactEmail": "info@americanlima.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "The Public House",
-    "description": "This popular Italian establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with friendly service.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "11:00-20:00",
       "tuesday": "9:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-20:00"
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-789-9598",
-      "contactEmail": "info@italianlima.com"
+      "contactNumber": "+1-555-505-7187",
+      "contactEmail": "hi@thecoffeehouselima.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Juice Bar",
+    "description": "A culinary gem serving Mediterranean specialties including farm-to-table meals, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-943-8810",
+      "contactEmail": "hi@grandfarelima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Golden Terrace",
-    "description": "This popular Italian establishment combines traditional recipes and seasonal specialties, all served in a unique setting with beautiful decor.",
+    "name": "Blue Noodle Bar",
+    "description": "A charming Italian restaurant near the cultural center, offering gourmet street food and other local favorites in a setting with friendly service.",
     "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 3.9,
+    "priceRange": "$$$$",
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "Closed"
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-858-1326",
-      "contactEmail": "info@italianlima.com"
+      "contactNumber": "+1-555-327-2596",
+      "contactEmail": "hi@goldengelaterialima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Project",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of live street performances overlooking the main square.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-948-4892",
+      "contactEmail": "hi@thepatisserielima.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -89,29 +120,91 @@ export const limaRestaurants: Restaurant[] = [
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Provisions",
+    "description": "A culinary gem serving Mediterranean specialties including artisanal creations, where guests enjoy seasonal floral displays in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-670-7696",
+      "contactEmail": "hi@bluecurryhouselima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Grand Harvest",
-    "description": "This popular Italian establishment combines traditional recipes and gourmet street food, all served in a unique setting with friendly service.",
+    "name": "The Table",
+    "description": "Located close to the historic district, this Italian restaurant delights with its regional wines and beautiful decor.",
     "cuisine": "Italian",
     "priceRange": "$$",
-    "rating": 4.1,
+    "rating": 4.6,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "11:00-21:00",
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-22:00",
       "friday": "9:00-21:00",
-      "saturday": "11:00-22:00",
-      "sunday": "9:00-22:00"
+      "saturday": "Closed",
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-699-6403",
-      "contactEmail": "info@italianlima.com"
+      "contactNumber": "+1-555-885-4342",
+      "contactEmail": "clientservices@royalkebabhouselima.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Tiki Lounge",
+    "description": "Located close to the old town walls, this Mediterranean restaurant delights with its artisanal creations and beautiful decor.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-764-4999",
+      "contactEmail": "clientservices@goldenroomlima.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -120,29 +213,29 @@ export const limaRestaurants: Restaurant[] = [
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "The Marketplace",
-    "description": "A culinary gem serving Italian specialties including seasonal specialties, where guests enjoy elegant atmosphere in the heart of the city.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
+    "name": "Grand Deli",
+    "description": "Experience authentic French cuisine with a local twist, featuring seasonal specialties served in an atmosphere of friendly service overlooking downtown.",
+    "cuisine": "French",
+    "priceRange": "$$",
     "rating": 4,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "Closed",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-19:00"
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-700-9970",
-      "contactEmail": "info@italianlima.com"
+      "contactNumber": "+1-555-510-4103",
+      "contactEmail": "clientservices@thegallerylima.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -150,10 +243,10 @@ export const limaRestaurants: Restaurant[] = [
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
-    "isAdultOnly": true,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

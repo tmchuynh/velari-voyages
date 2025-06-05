@@ -2,116 +2,54 @@ import { Restaurant } from "@/lib/types/types";
 
 export const losAngelesRestaurants: Restaurant[] = [
   {
-    "name": "Blue Restaurant",
-    "description": "Located close to Hollywood Sign, this Korean restaurant delights with its gourmet burgers and palm-lined patios.",
+    "name": "Hollywood Steakhouse",
+    "description": "This popular Korean establishment combines traditional recipes and signature dishes, all served in a unique setting with charming streetscapes.",
     "cuisine": "Korean",
     "priceRange": "$$$$",
-    "rating": 4,
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-22:00",
+      "monday": "9:00-19:00",
       "tuesday": "11:00-19:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "9:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
       "friday": "10:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "11:00-22:00"
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-328-8551",
-      "contactEmail": "info@koreanlos-angeles.com"
+      "contactNumber": "+1-555-263-1947",
+      "contactEmail": "info@laliverestaurantlos-angeles.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Bistro",
-    "description": "This popular Mexican establishment combines traditional recipes and California fusion, all served in a unique setting with sunset views.",
-    "cuisine": "Mexican",
-    "priceRange": "$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-19:00",
-      "friday": "Closed",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-458-2033",
-      "contactEmail": "info@mexicanlos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Golden House",
-    "description": "Experience authentic Japanese cuisine with a local twist, featuring fish tacos served in an atmosphere of celebrity sightings overlooking Venice Beach.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-193-8919",
-      "contactEmail": "info@japaneselos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Royal Brasserie",
-    "description": "Located close to Venice Beach, this Mediterranean restaurant delights with its gourmet burgers and celebrity sightings.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$",
-    "rating": 4.5,
+    "name": "Hollywood Kebab House",
+    "description": "This popular American establishment combines traditional recipes and seasonal specialties, all served in a unique setting with local ambiance.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-19:00",
-      "sunday": "9:00-22:00"
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "Closed",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-531-5255",
-      "contactEmail": "info@mediterraneanlos-angeles.com"
+      "contactNumber": "+1-555-232-1384",
+      "contactEmail": "info@westsideoysterbarlos-angeles.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -122,278 +60,185 @@ export const losAngelesRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
+    "isRomantic": true,
+    "isPopular": false
   },
   {
-    "name": "Royal Brasserie",
-    "description": "A culinary gem serving Korean specialties including California fusion, where guests enjoy sunset views in the heart of the city.",
-    "cuisine": "Korean",
-    "priceRange": "$$$",
-    "rating": 3.9,
+    "name": "Metro Goldwyn Trattoria",
+    "description": "A culinary gem serving American specialties including farm-to-table meals, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.1,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-22:00"
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-733-5011",
-      "contactEmail": "info@koreanlos-angeles.com"
+      "contactNumber": "+1-555-181-6200",
+      "contactEmail": "info@angelssaloonlos-angeles.com"
     },
-    "isVegetarianFriendly": false,
+    "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
+    "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Grand Tavern",
-    "description": "Located close to Griffith Observatory, this Korean restaurant delights with its craft cocktails and celebrity sightings.",
-    "cuisine": "Korean",
-    "priceRange": "$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-393-1218",
-      "contactEmail": "info@koreanlos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Restaurant",
-    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring avocado toast served in an atmosphere of indoor-outdoor spaces overlooking Griffith Observatory.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-478-3842",
-      "contactEmail": "info@mediterraneanlos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Brasserie",
-    "description": "A charming Korean restaurant near Santa Monica Pier, offering California fusion and other local favorites in a setting with indoor-outdoor spaces.",
-    "cuisine": "Korean",
-    "priceRange": "$$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-21:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-562-3547",
-      "contactEmail": "info@koreanlos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Santa Monica Gastropub",
-    "description": "Experience authentic Mexican cuisine with a local twist, featuring fish tacos served in an atmosphere of celebrity sightings overlooking Hollywood Sign.",
+    "name": "Sunset Room",
+    "description": "A charming Mexican restaurant near the waterfront, offering farm-to-table meals and other local favorites in a setting with beautiful decor.",
     "cuisine": "Mexican",
     "priceRange": "$$$$",
-    "rating": 3.9,
+    "rating": 4.3,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-147-7926",
-      "contactEmail": "info@mexicanlos-angeles.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Pacific Coffee House",
-    "description": "This popular Mediterranean establishment combines traditional recipes and fish tacos, all served in a unique setting with sunset views.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-21:00",
+      "monday": "10:00-19:00",
+      "tuesday": "Closed",
       "wednesday": "9:00-20:00",
-      "thursday": "Closed",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-815-4556",
-      "contactEmail": "info@mediterraneanlos-angeles.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Pacific Trattoria",
-    "description": "A charming American restaurant near Santa Monica Pier, offering fish tacos and other local favorites in a setting with indoor-outdoor spaces.",
-    "cuisine": "American",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-631-5988",
-      "contactEmail": "info@americanlos-angeles.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Palm Tree Garden",
-    "description": "A charming Mexican restaurant near Venice Beach, offering fish tacos and other local favorites in a setting with sunset views.",
-    "cuisine": "Mexican",
-    "priceRange": "$$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-19:00",
       "thursday": "10:00-21:00",
-      "friday": "Closed",
+      "friday": "11:00-19:00",
       "saturday": "10:00-19:00",
-      "sunday": "9:00-19:00"
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-921-4837",
-      "contactEmail": "info@mexicanlos-angeles.com"
+      "contactNumber": "+1-555-164-3264",
+      "contactEmail": "info@mulhollandbiergartenlos-angeles.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
+    "isRomantic": true,
+    "isPopular": true
   },
   {
-    "name": "Baywatch Tavern",
-    "description": "A culinary gem serving American specialties including gourmet burgers, where guests enjoy indoor-outdoor spaces in the heart of the city.",
+    "name": "Rodeo Brasserie",
+    "description": "Experience authentic Korean cuisine with a local twist, featuring seasonal specialties served in an atmosphere of friendly service overlooking the historic district.",
+    "cuisine": "Korean",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-100-7916",
+      "contactEmail": "info@mulhollandlablos-angeles.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Venice Provisions",
+    "description": "This popular American establishment combines traditional recipes and seasonal specialties, all served in a unique setting with ambient lighting.",
     "cuisine": "American",
     "priceRange": "$",
-    "rating": 4.6,
+    "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-20:00",
-      "saturday": "9:00-19:00",
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-20:00",
       "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-385-7679",
-      "contactEmail": "info@americanlos-angeles.com"
+      "contactNumber": "+1-555-642-9797",
+      "contactEmail": "reachus@metrogoldwyntapasbarlos-angeles.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Venice Grill",
+    "description": "A culinary gem serving Mexican specialties including heritage recipes, where guests enjoy friendly service in the heart of the city.",
+    "cuisine": "Mexican",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-243-9551",
+      "contactEmail": "reachus@sunsethouselos-angeles.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Rodeo Ristorante",
+    "description": "Experience authentic American cuisine with a local twist, featuring regional wines served in an atmosphere of artisan markets overlooking the city museum.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-421-9927",
+      "contactEmail": "reachus@palmtreefinedininglos-angeles.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
@@ -401,7 +246,7 @@ export const losAngelesRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   }
 ];

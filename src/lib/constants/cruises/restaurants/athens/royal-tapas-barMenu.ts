@@ -6,14 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const athensroyalTapasBarMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Our carefully crafted selection of simple American dishes",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Fresh Delectable Chef's Special Surf and Turf",
-            "price": 32.93,
+            "name": "Flambéed Tableside Specialty",
+            "price": 27.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,8 +22,17 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Hearty Founder's Family Recipe Pasta",
-            "price": 24.32,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 31.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 25.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,35 +40,17 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Restaurant's Namesake Signature Entrée",
-            "price": 37.53,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 36.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Spiced 24-Hour Braised Short Ribs",
-            "price": 35.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delectable Executive Chef's Daily Inspiration Entrée",
-            "price": 34.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Comforting Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 29.46,
+            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 29.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,31 +58,41 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Braised Local Bounty Harvest Plate (Vegetarian)",
-            "price": 30.55,
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 37.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 26.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Classic Sautéed Tomahawk Ribeye for Two",
-            "price": 35.02,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Fresh Grilled Tableside Prepared Tartare",
+            "price": 39.72,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Heritage Breed Porchetta",
-            "price": 30.27,
+            "name": "Classic Flavorful Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 34.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,8 +100,41 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Flaky Signature Spice-Rubbed Protein",
-            "price": 32.77,
+            "name": "Homestyle Smoked Deconstructed Classic with Modern Technique",
+            "price": 25.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Braised Chef's Tasting Menu Experience",
+            "price": 36.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Exquisite Lobster and Crab Stuffed Ravioli",
+            "price": 28.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of American.",
+        "items": [
+          {
+            "name": "Hearty Zingy Caprese Salad",
+            "price": 13.77,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -107,108 +142,95 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Herb-Crusted Rack of Lamb",
-            "price": 31.65,
+            "name": "Handcrafted Spicy Garlic Knots",
+            "price": 8.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Grilled Whole Animal Butchery Showcase",
-            "price": 38.34,
+            "name": "Deluxe Delectable Hummus Platter",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Irresistible Falafel",
+            "price": 9.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sizzling Prawn Cocktail",
+            "price": 14.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Exquisite Stuffed Avocado",
+            "price": 10.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Zesty Stuffed Mushrooms",
+            "price": 10.74,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Homestyle Flavorful Charcuterie Board",
-            "price": 10.8,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Satisfying Tempura",
-            "price": 10.28,
+            "name": "Authentic Herbed Mini Tacos",
+            "price": 12.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Garlic Knots",
-            "price": 12.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crunchy Ceviche",
-            "price": 15.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Lettuce Wraps",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Authentic Mouthwatering Lentil Soup",
-            "price": 7.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Exquisite Clam Chowder",
-            "price": 9.44,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gazpacho",
+            "price": 7.29,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Golden Tomato Soup",
-            "price": 11.53,
-            "isVegetarian": false,
+            "name": "Split Pea Soup",
+            "price": 10.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Luscious Carrot Ginger Soup",
-            "price": 12.96,
+            "name": "Egg Drop Soup",
+            "price": 12.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -216,8 +238,8 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Lobster Bisque",
-            "price": 7.11,
+            "name": "Pumpkin Soup",
+            "price": 11.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -228,10 +250,20 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Lentil and Feta Salad",
-            "price": 10.24,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 13.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 15.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -239,8 +271,17 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 15.38,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 14.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 13.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -248,29 +289,11 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 15.01,
-            "isVegetarian": false,
+            "name": "Chef Salad",
+            "price": 9.24,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 15.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 12.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -278,10 +301,29 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "Hearty and refined mains rooted in traditional American, elevated by modern techniques.",
         "items": [
           {
-            "name": "Hearty Pan-seared Stuffed Peppers",
-            "price": 23.01,
+            "name": "Premium Herbed Enchiladas",
+            "price": 20.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crispy Steak",
+            "price": 23.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Grilled Mac and Cheese",
+            "price": 28.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,67 +331,26 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Quiche",
-            "price": 29.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zesty Shakshuka",
-            "price": 18.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Baked Pizza",
-            "price": 24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Chili con Carne",
-            "price": 26.94,
+            "name": "Fresh Appetizing Eggplant Parmesan",
+            "price": 18.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "items": [
-          {
-            "name": "Deluxe Grilled Grilled Lobster with Lemon Butter",
-            "price": 34.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           },
           {
-            "name": "Homestyle Crunchy Alaskan King Crab Legs with Drawn Butter",
-            "price": 24.85,
+            "name": "House Special Sautéed Coq au Vin",
+            "price": 30.57,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Traditional Provençal Bouillabaisse",
-            "price": 30.3,
+            "name": "Homestyle Appetizing Beef Wellington",
+            "price": 20.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -357,8 +358,32 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Roasted Grilled Spanish Octopus with Smoked Paprika",
-            "price": 31.32,
+            "name": "Classic Mouthwatering Fajitas",
+            "price": 20.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Juicy Grilled Chicken",
+            "price": 21.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
+        "items": [
+          {
+            "name": "Homestyle Grilled Oysters Rockefeller with Pernod Cream",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -366,8 +391,35 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled Classic British Fish and Chips",
-            "price": 24.01,
+            "name": "Fresh Satisfying Grilled Swordfish with Mango Chutney",
+            "price": 31.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Roasted Valencian Seafood Paella",
+            "price": 28.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Appetizing Linguine with Clam Sauce",
+            "price": 35.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Pan-seared Alaskan King Crab Legs with Drawn Butter",
+            "price": 28.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -378,37 +430,29 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Hearty Herbed Sautéed Garlic Mushrooms",
-            "price": 6.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Grilled Yukon Gold Potato Gratin",
-            "price": 8.55,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Mashed Potatoes",
+            "price": 8.09,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Mashed Potatoes",
-            "price": 6.04,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "French Fries",
+            "price": 5.03,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Zingy French Fries",
-            "price": 7.14,
+            "name": "Soft Polenta with Parmesan",
+            "price": 8.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -416,8 +460,26 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Scalloped Potatoes with Thyme",
-            "price": 9.85,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 6.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 6.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Yukon Gold Potato Gratin",
+            "price": 9.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -428,37 +490,20 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 7.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 6.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 7.9,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Iced Tea",
+            "price": 6.12,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 4.83,
+            "price": 5.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -466,8 +511,35 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 4.27,
+            "name": "Juice",
+            "price": 5.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 7.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 6.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -480,41 +552,24 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Indulge in our gooey sweet creations",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 10.13,
+            "name": "Gourmet Grilled Danish Pastries",
+            "price": 10.51,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macarons",
-            "price": 6.61,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cinnamon Rolls",
-            "price": 6.13,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Custard Tart",
-            "price": 10.75,
+            "name": "Handcrafted Stuffed Portuguese Custard Tarts",
+            "price": 9.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -522,10 +577,28 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 7.86,
+            "name": "Hearty Appetizing Carrot Cake",
+            "price": 6.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Treacle Tart",
+            "price": 6.55,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Golden Donuts",
+            "price": 6.11,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -534,19 +607,11 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 9.13,
+            "name": "Gourmet Satisfying Frozen Mousse",
+            "price": 8.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,8 +619,17 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 8.89,
+            "name": "Deluxe Smoked Popsicles",
+            "price": 9.79,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Granita",
+            "price": 9.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -563,18 +637,18 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 11.36,
+            "name": "Authentic Smoked Baked Alaska",
+            "price": 8.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 11.61,
-            "isVegetarian": true,
+            "name": "Deluxe Exquisite Ice Cream Sandwich",
+            "price": 11.89,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -586,14 +660,15 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "Indulge in our flavorful drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 10.67,
+            "name": "Gourmet Grilled Margarita",
+            "price": 15.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -601,8 +676,8 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 13.38,
+            "name": "Hearty Sizzling Mai Tai",
+            "price": 14.41,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -610,8 +685,26 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 13.08,
+            "name": "Deluxe Grilled Martini",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Whiskey Sour",
+            "price": 14.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Golden Bloody Mary",
+            "price": 15.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,18 +712,18 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 11.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.74,
+            "name": "Deluxe Enticing Cosmopolitan",
+            "price": 12.02,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Exquisite Manhattan",
+            "price": 12.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -640,28 +733,38 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Barbera",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gewürztraminer",
+            "price": 9.18,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 13.16,
+            "name": "Chenin Blanc",
+            "price": 13.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 11.71,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 10.78,
+            "name": "Petit Verdot",
+            "price": 8.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -669,8 +772,8 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 13.49,
+            "name": "Pinot Grigio",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -678,11 +781,11 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Torrontés",
-            "price": 11.33,
-            "isVegetarian": true,
+            "name": "Tempranillo",
+            "price": 11.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -690,10 +793,29 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Maraschino",
+            "name": "Fresh Smoked Vodka",
+            "price": 12.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy St-Germain",
             "price": 15.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Scotch",
+            "price": 17.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,40 +823,22 @@ export const athensroyalTapasBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 13.01,
-            "isVegetarian": true,
+            "name": "Deluxe Herbed Mezcal",
+            "price": 12.68,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 14.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grand Marnier",
-            "price": 16.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cointreau",
-            "price": 14.56,
+            "name": "Authentic Delectable Coffee Liqueur",
+            "price": 12.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }

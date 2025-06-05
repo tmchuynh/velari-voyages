@@ -6,14 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Delight in our chef's most flavorful takes on traditional Seafood flavors",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "Authentic Spiced Heritage Recipe Lamb Shank",
-            "price": 37.52,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 37.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef’s Wild Game Selection",
+            "price": 27.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 24.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "price": 25.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,8 +58,8 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Delectable Dry-Aged Tomahawk Steak",
-            "price": 26.99,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 33.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,58 +67,32 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 26.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Luscious Secret Recipe Bouillabaisse",
-            "price": 28.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Succulent Flambéed Tableside Specialty",
-            "price": 29.33,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 33.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delectable Legendary Prime Rib",
-            "price": 35.17,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zesty Executive Chef's Daily Inspiration Entrée",
-            "price": 25.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Premium Hearty Roasted Quail with Truffle Jus",
-            "price": 34.83,
+            "name": "Deluxe Sweet Collaborative Limited Edition Special",
+            "price": 30.38,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Dry-Aged Prime Beef Selection",
+            "price": 32.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -89,8 +100,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Zesty Seasonal Truffle Risotto",
-            "price": 37.16,
+            "name": "Organic Herbed Duck Confit with Roasted Root Vegetables",
+            "price": 25.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Spicy Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 35.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -98,27 +118,9 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Sustainable Seafood Tower",
-            "price": 27.61,
+            "name": "Authentic Satisfying Tasting of Local Artisanal Cheeses",
+            "price": 25.83,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Braised Herb-Crusted Rack of Lamb",
-            "price": 24.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Golden Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 28.71,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -128,10 +130,20 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
         "items": [
           {
-            "name": "Seasonal Comforting Deviled Eggs",
-            "price": 15.25,
+            "name": "Cheese Platter",
+            "price": 13.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 13.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,85 +151,77 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Bruschetta",
-            "price": 10.04,
-            "isVegetarian": true,
+            "name": "Potato Skins",
+            "price": 14.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baba Ganoush",
+            "price": 15.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Roasted Mini Sliders",
-            "price": 9.3,
+            "name": "Deviled Eggs",
+            "price": 14.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Peppers",
+            "price": 12.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Mushrooms",
+            "price": 11.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Smoked Calamari",
-            "price": 15.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Succulent Nachos",
-            "price": 11.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Smoked Caprese Salad",
-            "price": 8.34,
+            "name": "Garlic Knots",
+            "price": 13.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Pan-seared Zucchini Fries",
-            "price": 10.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zesty Crostini",
-            "price": 10.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Homestyle Spiced Borscht",
-            "price": 11,
-            "isVegetarian": false,
+            "name": "Hearty Spicy Miso Soup",
+            "price": 8.26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Lobster Bisque",
-            "price": 13.99,
+            "name": "Gourmet Delectable Seafood Chowder",
+            "price": 9.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,31 +229,32 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Fried Turkey and Wild Rice Soup",
-            "price": 9.08,
-            "isVegetarian": false,
+            "name": "Deluxe Satisfying Black Bean Soup",
+            "price": 11.33,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "House Special Marinated Chicken Corn Soup",
-            "price": 9.79,
-            "isVegetarian": false,
+            "name": "Seasonal Golden Mushroom Soup",
+            "price": 10.02,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 15.52,
+            "name": "Beet Salad",
+            "price": 11.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,17 +262,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 9.82,
+            "name": "Garden Salad",
+            "price": 14.58,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 14.8,
+            "name": "Waldorf Salad",
+            "price": 14.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -275,18 +280,18 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 11,
-            "isVegetarian": true,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 14.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 14.79,
-            "isVegetarian": true,
+            "name": "Potato Salad",
+            "price": 11.92,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -296,10 +301,65 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "Timeless classics and innovative creations that highlight the best of Seafood.",
         "items": [
           {
-            "name": "Hearty Smoked Beef Wellington",
-            "price": 18.54,
+            "name": "Deluxe Juicy Risotto",
+            "price": 20.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Salmon",
+            "price": 21.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Satisfying Coq au Vin",
+            "price": 29.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Aromatic Thai Curry",
+            "price": 25.51,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Stir-fry",
+            "price": 31.48,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Steamed Burrito",
+            "price": 31.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Quiche",
+            "price": 20.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -307,64 +367,10 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Wholesome Paella",
-            "price": 31.93,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Teriyaki Chicken",
-            "price": 30.01,
+            "name": "Seasonal Crispy Korma",
+            "price": 19.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Tangy Pho",
-            "price": 30.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Juicy Lamb Chops",
-            "price": 20.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Tangy Grilled Chicken",
-            "price": 30.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Zingy Pulled Pork Sandwich",
-            "price": 29.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Herbed Pizza",
-            "price": 31.95,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -373,10 +379,11 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Premium Grilled Lemon-Herb Calamari Steak",
-            "price": 34.11,
+            "name": "Classic Baked Steamed Littleneck Clams in Garlic Broth",
+            "price": 35.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,26 +391,8 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Hearty Miso-Marinated Chilean Sea Bass",
-            "price": 32.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Crunchy Oysters Rockefeller with Pernod Cream",
-            "price": 24.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Satisfying Traditional Provençal Bouillabaisse",
-            "price": 27.87,
+            "name": "Organic Grilled Prawn Curry in Coconut Masala",
+            "price": 22.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -411,8 +400,26 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Juicy Sushi-Grade Sashimi Platter",
-            "price": 27.69,
+            "name": "Fresh Tangy Lemon-Herb Calamari Steak",
+            "price": 29.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Fried Miso-Marinated Chilean Sea Bass",
+            "price": 29.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Traditional Provençal Bouillabaisse",
+            "price": 30.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -423,19 +430,11 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Hearty Zesty Scalloped Potatoes with Thyme",
-            "price": 5.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Spicy Buttered Egg Noodles",
-            "price": 7.44,
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 9.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,17 +442,8 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Corn on the Cob with Chili Lime Butter",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Flavorful Crispy Zucchini Fritters",
-            "price": 9.41,
+            "name": "Homestyle Baked Beans",
+            "price": 5.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,8 +451,26 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Braised Mashed Potatoes",
-            "price": 7.04,
+            "name": "French Fries",
+            "price": 6.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 8.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macaroni and Aged Cheddar",
+            "price": 5.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -470,67 +478,68 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Crispy Beer-Battered Onion Rings",
-            "price": 7.28,
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 7.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 6.99,
+            "name": "Traditional Juicy Coffee",
+            "price": 6.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.13,
+            "name": "House Special Smoked Iced Tea",
+            "price": 7.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 7.76,
+            "name": "Hearty Smoked Hot Chocolate",
+            "price": 5.32,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.58,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 7.5,
+            "name": "Hearty Savory Milkshake",
+            "price": 6.51,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Tea",
+            "price": 4.45,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.94,
+            "name": "Hearty Sweet Lemonade",
+            "price": 5.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -543,23 +552,15 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "A comforting selection of desserts that will leave you wanting more",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Biscotti",
-            "price": 8.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 7.72,
+            "name": "Handcrafted Zesty Custard Tart",
+            "price": 8.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +568,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 6.84,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Banana Bread",
+            "price": 7.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Apple Pie",
-            "price": 9.89,
+            "name": "Deluxe Exquisite Eclairs",
+            "price": 8.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,8 +586,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custard Tart",
-            "price": 7.01,
+            "name": "Authentic Spicy Pain au Chocolat",
+            "price": 10.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Fried Treacle Tart",
+            "price": 10.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -597,47 +607,48 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Ice Cream",
-            "price": 9.97,
+            "name": "Frozen Banana",
+            "price": 8.24,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frosty",
+            "price": 7.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 7.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 7.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 9.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 11.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 8.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 10.02,
-            "isVegetarian": false,
+            "name": "Popsicles",
+            "price": 10.17,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -649,32 +660,24 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "Our delightful collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.23,
+            "name": "Margarita",
+            "price": 11.99,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.58,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 10.98,
+            "name": "Cosmopolitan",
+            "price": 14.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,35 +685,44 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 11.37,
-            "isVegetarian": true,
+            "name": "Martini",
+            "price": 10.52,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 12.92,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 14.15,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Bloody Mary",
-            "price": 15.53,
+            "price": 12.2,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.65,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 14.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +733,11 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
         "items": [
           {
-            "name": "Sauvignon Blanc",
-            "price": 11.03,
+            "name": "Deluxe Zingy Cabernet Franc",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +745,8 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Torrontés",
-            "price": 10.37,
+            "name": "Gourmet Tangy Merlot",
+            "price": 12.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,35 +754,35 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nebbiolo",
-            "price": 10.65,
-            "isVegetarian": false,
+            "name": "Handcrafted Delectable Viognier",
+            "price": 9.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roussanne",
-            "price": 12.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 9.23,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Homestyle Smoked Chardonnay",
+            "price": 12.35,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Cabernet Franc",
-            "price": 9.33,
+            "name": "Hearty Flaky Malbec",
+            "price": 11.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Aromatic Torrontés",
+            "price": 10.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -780,10 +793,11 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 16.02,
+            "name": "Deluxe Delectable Grappa",
+            "price": 17.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -791,26 +805,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Kahlúa",
-            "price": 16.07,
+            "name": "Gourmet Golden Triple Sec",
+            "price": 11.86,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 11.51,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 10.93,
+            "name": "Fresh Enticing Cognac",
+            "price": 11.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -818,8 +823,17 @@ export const aucklandwellingtonDiningRoomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 10.29,
+            "name": "Hearty Crispy Tequila",
+            "price": 11.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Bénédictine",
+            "price": 13.58,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,

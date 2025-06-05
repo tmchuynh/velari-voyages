@@ -2,87 +2,25 @@ import { Restaurant } from "@/lib/types/types";
 
 export const mykonosRestaurants: Restaurant[] = [
   {
-    "name": "Blue Bodega",
-    "description": "A culinary gem serving French specialties including artisanal creations, where guests enjoy ambient lighting in the heart of the city.",
+    "name": "Blue Kebab House",
+    "description": "A charming French restaurant near downtown, offering artisanal creations and other local favorites in a setting with beautiful decor.",
     "cuisine": "French",
     "priceRange": "$$$$",
-    "rating": 4.8,
+    "rating": 4.4,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-21:00",
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-19:00",
       "thursday": "11:00-19:00",
       "friday": "9:00-22:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-191-2409",
-      "contactEmail": "info@frenchmykonos.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Culinary",
-    "description": "This popular Japanese establishment combines traditional recipes and regional wines, all served in a unique setting with friendly service.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "10:00-22:00",
-      "friday": "Closed",
-      "saturday": "11:00-19:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-404-4820",
-      "contactEmail": "info@japanesemykonos.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Snack Bar",
-    "description": "Located close to the cultural center, this French restaurant delights with its seasonal specialties and beautiful decor.",
-    "cuisine": "French",
-    "priceRange": "$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-21:00",
+      "saturday": "10:00-22:00",
       "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-780-4158",
-      "contactEmail": "info@frenchmykonos.com"
+      "contactNumber": "+1-555-161-6871",
+      "contactEmail": "info@bluecharcuteriemykonos.com"
     },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
@@ -92,30 +30,92 @@ export const mykonosRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": true,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Grand Pizzeria",
-    "description": "Experience authentic French cuisine with a local twist, featuring fresh produce served in an atmosphere of charming streetscapes overlooking the old town walls.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 4.1,
+    "name": "Golden Harvest",
+    "description": "Experience authentic American cuisine with a local twist, featuring local ingredients served in an atmosphere of friendly service overlooking the waterfront.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "Closed",
-      "saturday": "10:00-20:00",
-      "sunday": "Closed"
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-592-5125",
-      "contactEmail": "info@frenchmykonos.com"
+      "contactNumber": "+1-555-556-2529",
+      "contactEmail": "info@granddimsumpalacemykonos.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Ristorante",
+    "description": "Located close to downtown, this American restaurant delights with its signature dishes and seasonal floral displays.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-975-3398",
+      "contactEmail": "info@royalrooftopmykonos.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Dining Hall",
+    "description": "Experience authentic American cuisine with a local twist, featuring local ingredients served in an atmosphere of friendly service overlooking central park.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-569-7867",
+      "contactEmail": "info@grandchocolatiermykonos.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": true,
@@ -126,34 +126,127 @@ export const mykonosRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Chateau",
-    "description": "This popular American establishment combines traditional recipes and signature dishes, all served in a unique setting with friendly service.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.3,
+    "name": "The Table",
+    "description": "A culinary gem serving French specialties including fresh produce, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.2,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-20:00"
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-353-9127",
-      "contactEmail": "info@americanmykonos.com"
+      "contactNumber": "+1-555-342-4700",
+      "contactEmail": "info@goldensupperclubmykonos.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Rooftop",
+    "description": "Experience authentic American cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of boutique shops overlooking the city museum.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-475-4546",
+      "contactEmail": "welcome@royalsnackbarmykonos.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Deli",
+    "description": "A culinary gem serving American specialties including regional wines, where guests enjoy ambient lighting in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-125-3829",
+      "contactEmail": "welcome@royalcanteenmykonos.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Public House",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of friendly service overlooking the old town walls.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-325-6445",
+      "contactEmail": "welcome@grandateliermykonos.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
     "isPopular": true
   }
 ];

@@ -6,14 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const athensroyalOsteriaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Chef-selected tasty offerings highlighting French culinary heritage",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Hearty Hearty 24-Hour Braised Short Ribs",
-            "price": 25.53,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 28.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,26 +22,8 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Grilled Seasonal Tasting Platter",
-            "price": 25.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spicy Seasonal Tasting Menu Experience",
-            "price": 37.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zesty Sous Vide Perfected Wagyu",
-            "price": 33.05,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 27.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -48,26 +31,44 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Crunchy Tableside Carved Chateaubriand",
-            "price": 37.75,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 34.25,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Heritage Recipe Lamb Shank",
-            "price": 29.62,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 33.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Hearty Legendary Prime Rib",
-            "price": 26.27,
+            "name": "Traditional Family Paella",
+            "price": 30.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 36.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Famous Duck Confit",
+            "price": 32.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -78,19 +79,29 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Organic Sizzling Fusion of Traditional and Modern Techniques",
-            "price": 34.73,
+            "name": "Deluxe Roasted Braised Short Ribs with Red Wine Sauce",
+            "price": 35.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Flavorful Herb-Crusted Rack of Lamb",
+            "price": 26.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Stuffed Seasonal Truffle Risotto",
-            "price": 31.59,
+            "name": "Gourmet Crunchy Volcanic Stone-Cooked Specialty",
+            "price": 25.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -98,67 +109,50 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Exquisite Fire-Roasted Seasonal Centerpiece",
-            "price": 27.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Flaky Special Occasion Celebratory Dish",
-            "price": 25.23,
+            "name": "Fresh Herbed Tableside Flambé Preparation",
+            "price": 36.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Zingy Seared Foie Gras with Fig Compote",
-            "price": 29.66,
+            "name": "Premium Sautéed Duck Confit with Roasted Root Vegetables",
+            "price": 26.93,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
+        "description": "A selection of small plates that showcase the essence of French—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Traditional Grilled Dumplings",
-            "price": 12.68,
+            "name": "Gourmet Smoked Meatballs",
+            "price": 14.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Irresistible Stuffed Mushrooms",
-            "price": 11.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Pan-seared Chicken Satay",
-            "price": 9.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Spicy Deviled Eggs",
-            "price": 8.44,
+            "name": "Authentic Sweet Stuffed Peppers",
+            "price": 15.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crunchy Stuffed Mushrooms",
+            "price": 14.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,11 +160,47 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Caprese Salad",
-            "price": 8.41,
-            "isVegetarian": true,
+            "name": "Premium Spicy Nachos",
+            "price": 10.38,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Grilled Bruschetta",
+            "price": 10.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Baked Mini Quesadillas",
+            "price": 14.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Ceviche",
+            "price": 15.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Baba Ganoush",
+            "price": 14.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -178,46 +208,38 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Classic Spiced Gumbo",
-            "price": 11.37,
+            "name": "Carrot Ginger Soup",
+            "price": 12.68,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Coconut Soup",
+            "price": 10.99,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Savory Zuppa Toscana",
-            "price": 10.46,
+            "name": "Black Bean Soup",
+            "price": 11.58,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sautéed Corn Chowder",
-            "price": 11.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Lobster Bisque",
-            "price": 7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Pan-seared Italian Wedding Soup",
-            "price": 7.78,
+            "name": "Chicken Corn Soup",
+            "price": 8.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -228,10 +250,11 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Mango Avocado Salad",
-            "price": 15.49,
+            "name": "Caesar Salad",
+            "price": 12.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -239,27 +262,9 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 9.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 12.6,
+            "name": "Pasta Salad",
+            "price": 13.29,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 9.26,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -267,39 +272,16 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chickpea Salad",
-            "price": 9.33,
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Main Courses",
-        "items": [
-          {
-            "name": "Premium Tender Burrito",
-            "price": 31.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Jambalaya",
-            "price": 23.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Katsu Curry",
-            "price": 21.79,
+            "name": "Broccoli Crunch Salad",
+            "price": 15.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,31 +289,101 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Mouthwatering Roast Duck",
-            "price": 21.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "name": "Beet Salad",
+            "price": 10.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "description": "Signature entrées crafted with precision, embodying the core of our French vision.",
+        "items": [
           {
-            "name": "Authentic Herbed Eggplant Parmesan",
-            "price": 29.25,
+            "name": "Fresh Hearty Steak",
+            "price": 30.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Roasted Pasta Primavera",
+            "price": 25.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Stuffed Zucchini Boats",
+            "price": 24.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sizzling Lasagna",
+            "price": 23.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spicy Tagine",
+            "price": 31.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Pesto Pasta",
+            "price": 20.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delicious Burrito",
+            "price": 25.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Grilled Chicken",
+            "price": 19.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Seafood Specialties",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Homestyle Satisfying New England Lobster Roll",
-            "price": 31.36,
+            "name": "Mussels Mariniere in White Wine",
+            "price": 25.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -339,35 +391,35 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Grilled Cajun Shrimp and Grits",
-            "price": 22.41,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 26.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Irresistible Oysters Rockefeller with Pernod Cream",
-            "price": 35.78,
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 27.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Traditional Provençal Bouillabaisse",
-            "price": 26.38,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 29.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Grilled Cedar Plank Roasted Salmon",
-            "price": 31.01,
+            "name": "Seafood Gumbo with Okra",
+            "price": 24.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -378,49 +430,59 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Organic Zesty Charred Broccolini with Garlic Oil",
-            "price": 6.88,
+            "name": "Authentic Grilled Flaky Cheddar and Chive Biscuits",
+            "price": 7.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Gourmet Luscious Chili Lime Roasted Chickpeas",
-            "price": 9.96,
+            "name": "Authentic Spiced Roasted Root Vegetables",
+            "price": 5.2,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Seasonal Sweet Sweet Corn and Cheddar Fritters",
-            "price": 5.59,
+            "name": "Traditional Marinated Grilled Asparagus with Lemon Zest",
+            "price": 6.25,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Creamed Spinach with Nutmeg",
-            "price": 9.14,
-            "isVegetarian": false,
+            "name": "Traditional Mouthwatering Crispy Beer-Battered Onion Rings",
+            "price": 5.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spiced Grilled Asparagus with Lemon Zest",
-            "price": 7.47,
+            "name": "Authentic Mouthwatering Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.57,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Irresistible Braised Red Cabbage with Apple",
+            "price": 7.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -428,10 +490,20 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 4.84,
+            "name": "Deluxe Golden Hot Chocolate",
+            "price": 7.33,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Iced Tea",
+            "price": 5.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -439,8 +511,17 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.08,
+            "name": "Homestyle Creamy Coffee",
+            "price": 7.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Soda",
+            "price": 6.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -448,8 +529,8 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 6.25,
+            "name": "Deluxe Satisfying Milkshake",
+            "price": 6.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -457,18 +538,9 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.03,
+            "name": "Fresh Grilled Tea",
+            "price": 5.9,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 6.85,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -480,14 +552,24 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Complete your meal with our warm dessert selection",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Carrot Cake",
-            "price": 6.25,
+            "name": "Authentic Fried Pumpkin Pie",
+            "price": 7.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Delectable Cupcakes",
+            "price": 6.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -495,8 +577,8 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eclairs",
-            "price": 9.92,
+            "name": "Homestyle Crunchy Madeleines",
+            "price": 8.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -504,26 +586,17 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 6.23,
-            "isVegetarian": true,
+            "name": "Gourmet Grilled Apple Pie",
+            "price": 9.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 6.18,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pumpkin Pie",
-            "price": 7.9,
+            "name": "Classic Spicy Cannoli",
+            "price": 7.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -534,47 +607,48 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Frozen Pudding",
-            "price": 10.11,
-            "isVegetarian": true,
+            "name": "Frozen Fruit Bars",
+            "price": 11.67,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Banana",
-            "price": 10.54,
+            "name": "Snow Cone",
+            "price": 10.36,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 7.2,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Yogurt",
-            "price": 8.86,
+            "price": 9.96,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kulfi",
-            "price": 9.81,
+            "name": "Frozen Mousse",
+            "price": 7.83,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 9.59,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -586,14 +660,15 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "A carefully chosen drinks program blending innovation with tradition",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 10.4,
+            "name": "Manhattan",
+            "price": 11.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -601,35 +676,53 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 13.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Cosmopolitan",
-            "price": 13.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.52,
-            "isVegetarian": true,
+            "price": 12.02,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Mai Tai",
+            "price": 11.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 11.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Whiskey Sour",
-            "price": 11.98,
+            "price": 11.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -640,10 +733,11 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Merlot",
-            "price": 8.09,
+            "name": "Chardonnay",
+            "price": 12.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -651,49 +745,68 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 9.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Gewürztraminer",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Vouvray",
-            "price": 8.72,
-            "isVegetarian": true,
+            "price": 10.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 8.79,
+            "name": "Zinfandel",
+            "price": 12.92,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sémillon",
-            "price": 11.91,
+            "name": "Pinot Noir",
+            "price": 9.95,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 11.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
         "items": [
           {
-            "name": "Bénédictine",
-            "price": 10.74,
+            "name": "Kahlúa",
+            "price": 16.47,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 15.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -701,38 +814,29 @@ export const athensroyalOsteriaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Galliano",
-            "price": 15.28,
+            "name": "Amaretto",
+            "price": 14.96,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 11.5,
-            "isVegetarian": false,
+            "name": "Tequila",
+            "price": 14.11,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cognac",
-            "price": 12.59,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Absinthe",
+            "name": "Rum",
             "price": 16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

@@ -6,14 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Our kitchen presents an array of authentic offerings from across the Australian spectrum",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Fresh Fried 24-Hour Braised Short Ribs",
-            "price": 31.77,
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 27.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,8 +22,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Herbed Dry-Aged Tomahawk Steak",
-            "price": 32.23,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 37.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,17 +31,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Luscious Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 27.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Hearty Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.35,
+            "name": "Chef's Special Surf and Turf",
+            "price": 25.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -48,17 +40,26 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Stuffed Wood-Fired Peking Duck with Plum Sauce",
-            "price": 28.94,
+            "name": "Traditional Family Paella",
+            "price": 29.29,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Spiced Signature Truffle Pasta with Aged Pecorino",
-            "price": 30.49,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 31.43,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 33.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,58 +67,59 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Tender Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 31.79,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 29.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Authentic Aromatic Seared Duck Breast with Cherry Reduction",
-            "price": 31.05,
+            "name": "Gourmet Comforting Collaborative Limited Edition Special",
+            "price": 36.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Spiced Cast Iron Seafood Presentation",
+            "price": 31.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Homestyle Roasted Heritage Breed Porchetta",
-            "price": 24.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "House Special Pan-seared Hand-Selected Wine Pairing Experience",
+            "price": 24.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Sous Vide Pork Tenderloin",
-            "price": 38.12,
+            "name": "Traditional Spiced Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 33.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Braised Whole Animal Butchery Showcase",
-            "price": 33.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Aromatic Collaborative Limited Edition Special",
-            "price": 34.46,
+            "name": "Traditional Zingy Chef's Tasting Menu Experience",
+            "price": 32.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -128,10 +130,11 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Organic Juicy Bruschetta",
-            "price": 15.1,
+            "name": "Bruschetta",
+            "price": 13.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -139,64 +142,64 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Roasted Tzatziki with Pita",
-            "price": 10.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Sweet Potato Fries",
-            "price": 14.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Savory Mezze Platter",
-            "price": 15.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Calamari",
-            "price": 14.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Wholesome Stuffed Peppers",
-            "price": 12.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Falafel",
-            "price": 9.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Herbed Spinach Artichoke Dip",
-            "price": 12.27,
+            "name": "Caprese Salad",
+            "price": 13.62,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Avocado",
+            "price": 11.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Satay",
+            "price": 12.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Crostini",
+            "price": 14.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Antipasto Platter",
+            "price": 8.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sweet Potato Fries",
+            "price": 9.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Toast",
+            "price": 11.92,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -205,28 +208,29 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Homestyle Sizzling Split Pea Soup",
-            "price": 13.72,
-            "isVegetarian": false,
+            "name": "Pumpkin Soup",
+            "price": 7.86,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled French Onion Soup",
-            "price": 7.59,
-            "isVegetarian": false,
+            "name": "Peanut Soup (West African)",
+            "price": 10.82,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Crunchy Cabbage Soup",
-            "price": 7.01,
+            "name": "Broccoli Cheddar Soup",
+            "price": 10.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,8 +238,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Pumpkin Soup",
-            "price": 7.89,
+            "name": "Lentil Soup",
+            "price": 7.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -246,47 +250,48 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 15.41,
+            "name": "Greek Salad",
+            "price": 13.79,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 14.64,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 13.25,
+            "name": "Mango Avocado Salad",
+            "price": 12.08,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 10.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 10.77,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 11.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 12.07,
-            "isVegetarian": false,
+            "name": "Apple Pecan Salad",
+            "price": 15.84,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -296,75 +301,76 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "Crafted with passion and precision, our mains are designed to impress.",
         "items": [
           {
-            "name": "Homestyle Smoked Chili con Carne",
-            "price": 19.18,
+            "name": "Hearty Roasted Fish and Chips",
+            "price": 18.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Fried Lamb Chops",
-            "price": 31.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Aromatic Vegetable Stir-Fry",
-            "price": 20.26,
+            "name": "Traditional Stuffed Lentil Stew",
+            "price": 18.15,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Delectable Tacos",
-            "price": 20.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flaky Lasagna",
-            "price": 23.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Teriyaki Chicken",
-            "price": 30.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Delicious Steak",
-            "price": 22.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Flaky Pho",
-            "price": 26.03,
-            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Enticing Pizza",
+            "price": 18.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Golden Steak",
+            "price": 21.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Teriyaki Chicken",
+            "price": 21.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Roasted Burrito",
+            "price": 27.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Spaghetti Bolognese",
+            "price": 28.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Braised Gnocchi",
+            "price": 27.38,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -373,10 +379,11 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Fresh Baked Tempura Soft Shell Crab",
-            "price": 25.28,
+            "name": "Handcrafted Crunchy Crab-Stuffed Mushrooms",
+            "price": 27.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -384,8 +391,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Pan-seared Mussels Mariniere in White Wine",
-            "price": 22.03,
+            "name": "Authentic Spiced New England Lobster Roll",
+            "price": 26.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -393,8 +400,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Grilled Maryland Style Crab Cakes",
-            "price": 35.5,
+            "name": "Authentic Tangy Prawn Curry in Coconut Masala",
+            "price": 29.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -402,40 +409,50 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Savory Seafood Risotto with Saffron",
-            "price": 28.67,
+            "name": "Homestyle Hearty Steamed Littleneck Clams in Garlic Broth",
+            "price": 29.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Creamy Linguine with Clam Sauce",
-            "price": 25.23,
+            "name": "Organic Delectable Grilled Lobster with Lemon Butter",
+            "price": 28.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Hearty Crunchy Steamed Jasmine Rice",
-            "price": 9.03,
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 8.34,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Enticing Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.2,
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 6.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 7.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,36 +460,27 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Baked Idaho Potato with Sour Cream",
-            "price": 8.23,
+            "name": "Chili Lime Roasted Chickpeas",
+            "price": 5.78,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Wild Mushroom Risotto",
-            "price": 9.72,
-            "isVegetarian": false,
+            "name": "Green Beans Almondine",
+            "price": 9.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Crispy Zucchini Fritters",
-            "price": 5.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Luscious Fragrant Basmati Rice Pilaf",
-            "price": 7.35,
-            "isVegetarian": false,
+            "name": "Crispy Zucchini Fritters",
+            "price": 5.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -482,10 +490,11 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Hot Chocolate",
-            "price": 5.28,
+            "name": "Fresh Sweet Coffee",
+            "price": 4.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -493,35 +502,26 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 7.49,
+            "name": "Authentic Aromatic Soda",
+            "price": 5.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Tea",
-            "price": 4.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 4.5,
+            "name": "Authentic Baked Tea",
+            "price": 6.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 4.79,
+            "name": "Authentic Pan-seared Lemonade",
+            "price": 4.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +529,17 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.98,
+            "name": "Handcrafted Zingy Smoothie",
+            "price": 5.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Juice",
+            "price": 4.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -543,32 +552,42 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Crafted with passion, our freshly prepared desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 8.25,
+            "name": "Eclairs",
+            "price": 7.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 8.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Banana Bread",
-            "price": 8.89,
+            "price": 7.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 9.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 7.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,16 +596,7 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Brownies",
-            "price": 7.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 7.97,
+            "price": 8.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -597,28 +607,11 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Semifreddo",
-            "price": 10.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 10.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 7.41,
+            "name": "Seasonal Sautéed Ice Cream",
+            "price": 10,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -626,17 +619,35 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 8.26,
+            "name": "Deluxe Smoked Frozen Fruit Bars",
+            "price": 11.1,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 10.84,
+            "name": "Authentic Delectable Frozen Mousse",
+            "price": 11.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Baked Sherbet",
+            "price": 9.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Succulent Frozen Yogurt",
+            "price": 8.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -649,23 +660,15 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "A fine selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 14.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.43,
+            "name": "Fresh Zingy Manhattan",
+            "price": 14.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -673,8 +676,8 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.1,
+            "name": "Premium Sweet Old Fashioned",
+            "price": 13.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -682,8 +685,17 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 10.38,
+            "name": "Homestyle Braised Negroni",
+            "price": 10.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Cosmopolitan",
+            "price": 12.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -691,26 +703,26 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 10.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12.28,
-            "isVegetarian": false,
+            "name": "Seasonal Sizzling Mai Tai",
+            "price": 12.57,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 10.13,
+            "name": "Traditional Savory Mojito",
+            "price": 14.99,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Margarita",
+            "price": 11.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +733,29 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
+            "name": "Zinfandel",
+            "price": 10.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grenache",
+            "price": 13.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Fiano",
-            "price": 8.77,
+            "price": 11.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,26 +763,17 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Blanc",
-            "price": 9.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Malbec",
-            "price": 12.95,
+            "name": "Gewürztraminer",
+            "price": 12.15,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 9.71,
+            "name": "Tempranillo",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -759,19 +781,10 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 9.05,
+            "name": "Moscato",
+            "price": 10.85,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mourvèdre",
-            "price": 10.4,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -780,10 +793,20 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Midori",
-            "price": 16.87,
+            "name": "Rum",
+            "price": 12.31,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -791,37 +814,28 @@ export const aucklandhaurakiSteakhouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 14.62,
+            "name": "Mezcal",
+            "price": 14.86,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Limoncello",
-            "price": 11.44,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 12.61,
-            "isVegetarian": true,
+            "name": "Drambuie",
+            "price": 16.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chartreuse",
-            "price": 10.53,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Anisette",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

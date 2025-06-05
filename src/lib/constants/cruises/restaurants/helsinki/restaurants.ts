@@ -2,25 +2,242 @@ import { Restaurant } from "@/lib/types/types";
 
 export const helsinkiRestaurants: Restaurant[] = [
   {
-    "name": "Blue Chophouse",
-    "description": "This popular American establishment combines traditional recipes and seasonal specialties, all served in a unique setting with beautiful decor.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4,
+    "name": "Blue Pavilion",
+    "description": "Located close to the old town walls, this French restaurant delights with its regional wines and ambient lighting.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-954-4541",
+      "contactEmail": "reception@bluetikiloungehelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Gastropub",
+    "description": "A charming Mediterranean restaurant near the cultural center, offering fresh produce and other local favorites in a setting with local ambiance.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-992-5240",
+      "contactEmail": "reception@goldenhousehelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Sanctuary",
+    "description": "Located close to the iconic clock tower, this Italian restaurant delights with its fresh produce and friendly service.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 3.9,
     "openingHours": {
       "monday": "9:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-127-5149",
+      "contactEmail": "reception@thekitchenhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Cafe",
+    "description": "A charming French restaurant near central park, offering heritage recipes and other local favorites in a setting with ambient lighting.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-434-6561",
+      "contactEmail": "reception@thelocalhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Tea House",
+    "description": "This popular French establishment combines traditional recipes and local ingredients, all served in a unique setting with live street performances.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-22:00",
       "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-262-5952",
-      "contactEmail": "info@americanhelsinki.com"
+      "contactNumber": "+1-555-338-5016",
+      "contactEmail": "reception@goldenhideawayhelsinki.com"
     },
-    "isVegetarianFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Public House",
+    "description": "A charming Italian restaurant near the cultural center, offering seasonal specialties and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-463-2444",
+      "contactEmail": "hi@grandcanteenhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Rooftop",
+    "description": "This popular French establishment combines traditional recipes and local ingredients, all served in a unique setting with ambient lighting.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-274-4404",
+      "contactEmail": "hi@grandbouchonhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Experience",
+    "description": "This popular Japanese establishment combines traditional recipes and local ingredients, all served in a unique setting with ambient lighting.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-489-8242",
+      "contactEmail": "hi@blueoysterbarhelsinki.com"
+    },
+    "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
@@ -30,130 +247,6 @@ export const helsinkiRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Parlor",
-    "description": "This popular American establishment combines traditional recipes and heritage recipes, all served in a unique setting with boutique shops.",
-    "cuisine": "American",
-    "priceRange": "$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-287-2083",
-      "contactEmail": "info@americanhelsinki.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "The Steakhouse",
-    "description": "Located close to the river promenade, this Italian restaurant delights with its fresh produce and elegant atmosphere.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-876-4223",
-      "contactEmail": "info@italianhelsinki.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Epicurean",
-    "description": "Located close to the historic district, this Italian restaurant delights with its seasonal specialties and charming streetscapes.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-20:00",
-      "saturday": "9:00-20:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-233-8377",
-      "contactEmail": "info@italianhelsinki.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Kitchen",
-    "description": "This popular American establishment combines traditional recipes and local ingredients, all served in a unique setting with boutique shops.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-620-7496",
-      "contactEmail": "info@americanhelsinki.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
     "isPopular": false
   }
 ];

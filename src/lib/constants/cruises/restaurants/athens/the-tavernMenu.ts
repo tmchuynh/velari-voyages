@@ -6,14 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const athenstheTavernMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Delight in our chef's most delicious takes on traditional French flavors",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "Authentic Smoked Chef's Special Surf and Turf",
-            "price": 25.61,
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 29.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 33.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,8 +31,26 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Mouthwatering Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 35.11,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Legendary Prime Rib",
+            "price": 34.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 36.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -30,8 +58,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Signature Truffle Pasta with Aged Pecorino",
-            "price": 36.52,
+            "name": "Seasonal Tasting Platter",
+            "price": 36.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -39,67 +67,32 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Wholesome Flambéed Tableside Specialty",
-            "price": 37.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Smoked Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 33.75,
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 27.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Aromatic Whole Roasted Heritage Chicken",
-            "price": 33.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Founder's Family Recipe Pasta",
-            "price": 32.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Premium Appetizing Smoked and Slow-Roasted Heritage Meat",
-            "price": 38.13,
+            "name": "Hearty Delectable Aged and House-Cured Charcuterie Selection",
+            "price": 30.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Hearty Enticing Lobster Thermidor",
-            "price": 37.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Spicy Deconstructed Classic with Modern Technique",
-            "price": 38.5,
+            "name": "Classic Delectable Signature Spice-Rubbed Protein",
+            "price": 32.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -107,8 +100,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Fire-Roasted Seasonal Centerpiece",
-            "price": 31.16,
+            "name": "Traditional Smoked Modern Interpretation of Regional Classic",
+            "price": 34.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -116,11 +109,20 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Roasted Locally Foraged Mushroom Selection",
-            "price": 35.67,
+            "name": "Authentic Sizzling Gourmet Vegetarian Wellington",
+            "price": 37.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Whole Animal Butchery Showcase",
+            "price": 27.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -128,37 +130,11 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
+        "description": "A selection of small plates that showcase the essence of French—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Authentic Steamed Bruschetta",
-            "price": 15.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Fried Spinach Artichoke Dip",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sweet Arancini",
-            "price": 13.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Potstickers",
-            "price": 10.29,
+            "name": "Handcrafted Steamed Bruschetta",
+            "price": 11.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -166,11 +142,65 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Delectable Sweet Potato Fries",
-            "price": 8.77,
+            "name": "Authentic Herbed Mozzarella Sticks",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Creamy Onion Rings",
+            "price": 8.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Potstickers",
+            "price": 9.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sweet Shrimp Cocktail",
+            "price": 13.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Grilled Prawn Toast",
+            "price": 12.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Spinach Artichoke Dip",
+            "price": 10.47,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Crunchy Arancini",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -178,47 +208,39 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
+        "description": "Each bowl is a journey through the heart of French, crafted with care and expertise.",
         "items": [
           {
-            "name": "Authentic Sweet Seafood Chowder",
-            "price": 9.93,
+            "name": "Classic Herbed French Onion Soup",
+            "price": 13.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Pumpkin Soup",
+            "price": 11.09,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Beef Stew",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Roasted Broccoli Cheddar Soup",
-            "price": 13.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sizzling Turkey and Wild Rice Soup",
-            "price": 11.03,
+            "name": "Homestyle Spicy Cabbage Soup",
+            "price": 13.89,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Herbed Vegetable Barley Soup",
-            "price": 7.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Tangy Minestrone",
-            "price": 10.64,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -228,28 +250,29 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
-            "name": "Greek Salad",
-            "price": 15.75,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 12.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Pasta Salad",
-            "price": 15.14,
+            "price": 14.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 10.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 14.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -257,8 +280,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 11.07,
+            "name": "Avocado Corn Salad",
+            "price": 14.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -266,10 +289,10 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 13.73,
+            "name": "Beet Salad",
+            "price": 10.23,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -278,10 +301,11 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "Signature entrées crafted with precision, embodying the core of our French vision.",
         "items": [
           {
-            "name": "Authentic Satisfying Thai Curry",
-            "price": 23.46,
+            "name": "Seasonal Satisfying Fish and Chips",
+            "price": 30.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,49 +313,77 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Braised Tacos",
-            "price": 28.36,
+            "name": "Traditional Smoked Pizza",
+            "price": 27.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Satisfying Lamb Chops",
+            "price": 29.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Organic Spiced Steak",
-            "price": 28.69,
-            "isVegetarian": false,
+            "name": "Handcrafted Grilled Eggplant Parmesan",
+            "price": 31.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spicy Currywurst",
+            "price": 30.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Risotto",
-            "price": 21.42,
+            "name": "Fresh Roasted Stir-fry",
+            "price": 22.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Smoked Pulled Pork Sandwich",
-            "price": 21.68,
+            "name": "Authentic Luscious Tagine",
+            "price": 28.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Steamed Ramen",
+            "price": 22.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
+        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
         "items": [
           {
-            "name": "Homestyle Tangy Cajun Shrimp and Grits",
-            "price": 35.31,
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 35.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -339,38 +391,38 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Stuffed Grilled Lobster with Lemon Butter",
-            "price": 25.38,
+            "name": "Pan-Seared Scallops with Pea Purée",
+            "price": 32.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 32.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Crab-Stuffed Mushrooms",
+            "price": 23.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Marinated Grilled Spanish Octopus with Smoked Paprika",
-            "price": 31.87,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 31.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Delicious Alaskan King Crab Legs with Drawn Butter",
-            "price": 34.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Spicy Cedar Plank Roasted Salmon",
-            "price": 24.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -378,28 +430,29 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Authentic Sautéed Corn on the Cob with Chili Lime Butter",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Grilled Zucchini and Peppers",
-            "price": 8.17,
-            "isVegetarian": false,
+            "name": "Fresh Sautéed Creamy Colcannon (Irish Potato Mash)",
+            "price": 6.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Seasonal Zesty Wild Rice Pilaf",
-            "price": 7.04,
+            "name": "Seasonal Irresistible Roasted Root Vegetables",
+            "price": 5.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Roasted Maple-Glazed Baby Carrots",
+            "price": 8.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -407,8 +460,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Mashed Potatoes",
-            "price": 6.49,
+            "name": "Classic Delicious Provencal Ratatouille",
+            "price": 7.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -416,11 +469,20 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Herbed Bulgur Wheat with Lemon",
-            "price": 5.26,
-            "isVegetarian": true,
+            "name": "Traditional Tender Mashed Potatoes",
+            "price": 6.96,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Smoked Scalloped Potatoes with Thyme",
+            "price": 6.42,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -428,46 +490,56 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 4.13,
+            "name": "Coffee",
+            "price": 7.8,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.65,
+            "name": "Smoothie",
+            "price": 4.37,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Juice",
-            "price": 6.62,
+            "price": 7.79,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.65,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Soda",
-            "price": 6.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.06,
+            "price": 5.06,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -480,14 +552,15 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Indulge in our crowd-pleasing sweet creations",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Berry Tart",
-            "price": 10.86,
+            "name": "Custard Tart",
+            "price": 6.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -495,36 +568,36 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 10.51,
+            "name": "Pumpkin Pie",
+            "price": 6.21,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 7.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon Bars",
-            "price": 7.43,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 10.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 7.83,
+            "name": "Vanilla Cake",
+            "price": 8.56,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -534,10 +607,11 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "Made in-house with premium dairy and plant-based alternatives.",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 9.47,
+            "name": "Deluxe Spiced Frozen Yogurt",
+            "price": 8.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -545,8 +619,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 10.77,
+            "name": "Premium Grilled Granita",
+            "price": 11.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -554,8 +628,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 7.23,
+            "name": "Handcrafted Stuffed Baked Alaska",
+            "price": 11.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -563,18 +637,18 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Banana",
-            "price": 8.32,
-            "isVegetarian": false,
+            "name": "Traditional Herbed Frozen Fruit Bars",
+            "price": 10.98,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.19,
-            "isVegetarian": false,
+            "name": "Organic Crispy Sherbet",
+            "price": 9.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -586,14 +660,24 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "Elevate your dining experience with our balanced beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 15.03,
+            "name": "Seasonal Hearty Mojito",
+            "price": 10.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Cosmopolitan",
+            "price": 11.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -601,8 +685,17 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 14.48,
+            "name": "Traditional Steamed Old Fashioned",
+            "price": 10.76,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Irresistible Margarita",
+            "price": 10.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -610,17 +703,17 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.18,
-            "isVegetarian": false,
+            "name": "Hearty Pan-seared Mai Tai",
+            "price": 10.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 15.14,
+            "name": "Gourmet Herbed Bloody Mary",
+            "price": 11.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,9 +721,9 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 14.32,
-            "isVegetarian": false,
+            "name": "Fresh Sweet Manhattan",
+            "price": 15.02,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -640,49 +733,59 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
+            "name": "Sémillon",
+            "price": 8.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Syrah/Shiraz",
-            "price": 13.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 11.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grenache",
-            "price": 9.68,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Noir",
-            "price": 12.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
             "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Riesling",
+            "price": 8.84,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 8.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 10.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 9.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -690,28 +793,11 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
+        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
         "items": [
           {
-            "name": "Amaretto",
-            "price": 12.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Midori",
-            "price": 17.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Triple Sec",
-            "price": 11.11,
+            "name": "Limoncello",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -719,8 +805,8 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 12.07,
+            "name": "Maraschino",
+            "price": 10.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -728,10 +814,28 @@ export const athenstheTavernMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee Liqueur",
-            "price": 17.12,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Chartreuse",
+            "price": 15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 11.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 15.41,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

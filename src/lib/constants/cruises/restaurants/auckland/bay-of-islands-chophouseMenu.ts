@@ -6,14 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of hearty dishes",
+    "description": "Flavors that feel familiar, presented in fresh, delicious ways",
     "category": [
       {
         "name": "Signature Dishes",
+        "description": "Our chef's pride—carefully selected Australian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Authentic Crispy Molecular Gastronomy Showcase Tasting",
-            "price": 36.57,
+            "name": "Chef’s Wild Game Selection",
+            "price": 34.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Legendary Prime Rib",
+            "price": 37.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Flambéed Tableside Specialty",
+            "price": 36.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -21,44 +40,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Spiced Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 34.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Aromatic Charcoal Grilled Iberico Pork",
-            "price": 37.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Hearty House Famous Duck Confit",
-            "price": 35.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Pan-seared Heritage Recipe Lamb Shank",
-            "price": 34.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Hearty Secret Recipe Bouillabaisse",
-            "price": 31.44,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 29.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -66,8 +49,26 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Enticing Founder's Family Recipe Pasta",
-            "price": 36.1,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 30.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 34.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Founder's Family Recipe Pasta",
+            "price": 24.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -78,87 +79,11 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Deluxe Steamed Chef's Market Inspiration of the Day",
-            "price": 35.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Smoked Aged and House-Cured Charcuterie Selection",
-            "price": 28.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Wholesome Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 32.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Tableside Prepared Tartare",
-            "price": 31.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tangy Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 32.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "items": [
-          {
-            "name": "Gourmet Grilled Lettuce Wraps",
-            "price": 9.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Satisfying Chicken Wings",
-            "price": 15.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Irresistible Stuffed Jalapeños",
-            "price": 14.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Stuffed Peppers",
-            "price": 9.41,
+            "name": "Hearty Savory Collaborative Limited Edition Special",
+            "price": 35.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -166,26 +91,17 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Delectable Charcuterie Board",
-            "price": 14.32,
+            "name": "Handcrafted Sweet Whole Animal Butchery Showcase",
+            "price": 29.92,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Crunchy Falafel",
-            "price": 12.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Succulent Mini Quesadillas",
-            "price": 9.26,
+            "name": "Gourmet Crunchy Locally Foraged Mushroom Selection",
+            "price": 38.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -193,22 +109,32 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Calamari",
-            "price": 15.49,
+            "name": "Homestyle Steamed Herb-Crusted Rack of Lamb",
+            "price": 37.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Fresh Flaky Hand-Selected Wine Pairing Experience",
+            "price": 35.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
-        "name": "Soups",
+        "name": "Appetizers",
+        "description": "A delightful array of appetizers that highlight the best of Australian flavors—perfect for sharing or enjoying solo.",
         "items": [
           {
-            "name": "Hearty Tender Lentil Soup",
-            "price": 11.54,
+            "name": "Fresh Wholesome Mini Tacos",
+            "price": 12.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -216,8 +142,35 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Pumpkin Soup",
-            "price": 8.94,
+            "name": "Authentic Comforting Calamari",
+            "price": 8.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Grilled Bruschetta",
+            "price": 11.49,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tangy Stuffed Peppers",
+            "price": 13.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Irresistible Tempura",
+            "price": 10.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -225,8 +178,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Broccoli Cheddar Soup",
-            "price": 12.27,
+            "name": "Homestyle Sautéed Caprese Salad",
+            "price": 10.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -234,9 +187,60 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Zesty Hot and Sour Soup",
-            "price": 13.17,
+            "name": "Authentic Zesty Mini Sliders",
+            "price": 14.77,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Flaky Samosas",
+            "price": 13.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Warm, nourishing soups that reflect the heart of Australian cooking—perfect for any season.",
+        "items": [
+          {
+            "name": "Traditional Grilled French Onion Soup",
+            "price": 8.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Turkey and Wild Rice Soup",
+            "price": 7.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Hearty Minestrone",
+            "price": 13.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Satisfying Vegetable Barley Soup",
+            "price": 11.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -246,46 +250,47 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Spinach Salad",
-            "price": 11.71,
+            "name": "Caesar Salad",
+            "price": 11.36,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arugula Salad",
-            "price": 11.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 15.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef Salad",
-            "price": 11.9,
-            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coleslaw",
-            "price": 11.16,
+            "name": "Greek Salad",
+            "price": 9.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 15.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lentil and Feta Salad",
+            "price": 12.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 14.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -296,10 +301,11 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
+        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Handcrafted Baked Chili con Carne",
-            "price": 24.78,
+            "name": "Stuffed Zucchini Boats",
+            "price": 22.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -307,8 +313,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Quiche",
-            "price": 30.87,
+            "name": "Fajitas",
+            "price": 26.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -316,26 +322,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Seafood Platter",
-            "price": 25.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Shish Kebabs",
-            "price": 24.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Fried Chicken Parmesan",
-            "price": 18.08,
+            "name": "Steak",
+            "price": 22.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -343,8 +331,26 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Mouthwatering Biryani",
-            "price": 24.14,
+            "name": "Pizza",
+            "price": 28.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 18.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pesto Pasta",
+            "price": 29.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -352,20 +358,20 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Sautéed Vegetable Stir-Fry",
-            "price": 18.37,
+            "name": "Fish and Chips",
+            "price": 23.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Classic Crunchy Thai Curry",
-            "price": 31.09,
-            "isVegetarian": false,
+            "name": "Tagine",
+            "price": 29.78,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -373,46 +379,47 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Authentic Zesty Steamed Littleneck Clams in Garlic Broth",
-            "price": 23.79,
+            "name": "Cajun Shrimp and Grits",
+            "price": 25.4,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Tangy Oysters Rockefeller with Pernod Cream",
-            "price": 28.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Smoked Cedar Plank Roasted Salmon",
-            "price": 25.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Mouthwatering Grilled Spanish Octopus with Smoked Paprika",
-            "price": 25.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Linguine with Clam Sauce",
-            "price": 35.74,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 33.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 24.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Valencian Seafood Paella",
+            "price": 28.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pan-Seared Scallops with Pea Purée",
+            "price": 34.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -423,10 +430,29 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Premium Grilled Yukon Gold Potato Gratin",
-            "price": 5.4,
+            "name": "Fresh Steamed Maple-Glazed Baby Carrots",
+            "price": 7.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Flavorful Steamed Jasmine Rice",
+            "price": 5.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Fried Creamed Spinach with Nutmeg",
+            "price": 9.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -434,17 +460,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Sweet Potato Wedges with Smoked Paprika",
-            "price": 9.1,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Spiced Wild Mushroom Risotto",
-            "price": 5.78,
+            "name": "Organic Pan-seared Braised Red Cabbage with Apple",
+            "price": 5.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,26 +469,17 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flavorful Crispy Zucchini Fritters",
-            "price": 5.19,
+            "name": "Fresh Delicious Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.32,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Sautéed Braised Red Cabbage with Apple",
-            "price": 9.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Pan-seared Israeli Couscous with Roasted Tomatoes",
-            "price": 9.63,
+            "name": "Traditional Crunchy Soft Polenta with Parmesan",
+            "price": 9.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -482,37 +490,29 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 4.36,
+            "name": "Lemonade",
+            "price": 5.84,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 4.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Iced Tea",
-            "price": 7.98,
+            "price": 6.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,20 +520,29 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 4.72,
+            "name": "Smoothie",
+            "price": 5.33,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.56,
-            "isVegetarian": true,
+            "name": "Tea",
+            "price": 7.42,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -543,14 +552,15 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our delicious sweet creations",
+    "description": "Our pastry chef's mouthwatering creations to end your meal on a sweet note",
     "category": [
       {
         "name": "Baked Goods",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Vanilla Cake",
-            "price": 6.74,
+            "name": "Scones",
+            "price": 6.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -558,8 +568,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 8.73,
+            "name": "Pecan Pie",
+            "price": 7.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -567,17 +577,17 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Croissants",
-            "price": 8.63,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Red Velvet Cake",
+            "price": 9.2,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 6.54,
+            "name": "Apple Pie",
+            "price": 8.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -585,11 +595,11 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pain au Chocolat",
-            "price": 9.32,
+            "name": "Fruit Galette",
+            "price": 10.73,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -597,10 +607,11 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
+        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Frozen Banana",
-            "price": 11.45,
+            "name": "Deluxe Spicy Frosty",
+            "price": 7.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -608,8 +619,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 11.76,
+            "name": "Fresh Succulent Frozen Cheesecake",
+            "price": 8.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -617,26 +628,26 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 7.3,
+            "name": "Fresh Juicy Frozen Banana",
+            "price": 11.27,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 11.13,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sherbet",
-            "price": 9.8,
+            "name": "Premium Grilled Snow Cone",
+            "price": 9.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Aromatic Sherbet",
+            "price": 7.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -649,14 +660,15 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A selection of fine alcoholic beverages to complement your meal",
+    "description": "A carefully chosen array of beverages specially curated for our guests",
     "category": [
       {
         "name": "Signature Cocktails",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 10.43,
+            "name": "Mojito",
+            "price": 11.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -664,17 +676,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 10.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.48,
+            "name": "Mai Tai",
+            "price": 11.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -683,25 +686,7 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Cosmopolitan",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 10.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 13.31,
+            "price": 14.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -709,11 +694,38 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.53,
+            "name": "Margarita",
+            "price": 12.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 12.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 12.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -721,10 +733,11 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Grenache",
-            "price": 10.51,
+            "name": "Handcrafted Irresistible Sangiovese",
+            "price": 10.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -732,8 +745,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Marsanne",
-            "price": 8.82,
+            "name": "Seasonal Grilled Grenache",
+            "price": 10.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -741,8 +754,77 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Viognier",
-            "price": 9.73,
+            "name": "Homestyle Smoked Fiano",
+            "price": 9.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delectable Cabernet Franc",
+            "price": 11.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Champagne/Sparkling Wine",
+            "price": 13.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Cabernet Sauvignon",
+            "price": 8.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "items": [
+          {
+            "name": "Cognac",
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 10.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 12.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 16.98,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -750,76 +832,8 @@ export const aucklandbayOfIslandsChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Verdicchio",
-            "price": 8.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 12.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 9.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "items": [
-          {
-            "name": "Vodka",
-            "price": 10.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gin",
-            "price": 12.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baileys Irish Cream",
-            "price": 15.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 15.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Galliano",
-            "price": 12.83,
+            "name": "Midori",
+            "price": 10.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

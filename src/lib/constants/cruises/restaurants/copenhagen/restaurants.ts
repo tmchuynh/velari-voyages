@@ -2,54 +2,23 @@ import { Restaurant } from "@/lib/types/types";
 
 export const copenhagenRestaurants: Restaurant[] = [
   {
-    "name": "The Terrace",
-    "description": "A charming Scandinavian restaurant near Christiansborg Palace, offering new Nordic cuisine and other local favorites in a setting with Nordic design.",
+    "name": "Cinnamon Roll Nook",
+    "description": "A culinary gem serving Scandinavian specialties including smørrebrød, where guests enjoy seasonal menus in the heart of the city.",
     "cuisine": "Scandinavian",
-    "priceRange": "$",
-    "rating": 4.2,
+    "priceRange": "$$",
+    "rating": 4.4,
     "openingHours": {
-      "monday": "11:00-22:00",
+      "monday": "11:00-21:00",
       "tuesday": "10:00-19:00",
       "wednesday": "9:00-21:00",
       "thursday": "9:00-20:00",
-      "friday": "9:00-19:00",
+      "friday": "Closed",
       "saturday": "11:00-20:00",
-      "sunday": "9:00-21:00"
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-804-1204",
-      "contactEmail": "info@scandinaviancopenhagen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Dining Room",
-    "description": "Experience authentic Scandinavian cuisine with a local twist, featuring new Nordic cuisine served in an atmosphere of minimalist elegance overlooking Tivoli Gardens.",
-    "cuisine": "Scandinavian",
-    "priceRange": "$$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-549-3073",
-      "contactEmail": "info@scandinaviancopenhagen.com"
+      "contactNumber": "+1-555-141-4231",
+      "contactEmail": "hello@cinnamonrolllabcopenhagen.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -58,64 +27,33 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Restaurant",
-    "description": "Experience authentic Danish cuisine with a local twist, featuring frikadeller served in an atmosphere of minimalist elegance overlooking The Little Mermaid.",
-    "cuisine": "Danish",
-    "priceRange": "$$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-609-8499",
-      "contactEmail": "info@danishcopenhagen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isReservationsAccepted": false,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Grand Eatery",
-    "description": "This popular Spanish establishment combines traditional recipes and Danish pastries, all served in a unique setting with minimalist elegance.",
-    "cuisine": "Spanish",
+    "name": "Christiania Club",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring smørrebrød served in an atmosphere of hygge atmosphere overlooking The Little Mermaid.",
+    "cuisine": "Italian",
     "priceRange": "$$",
-    "rating": 4.6,
+    "rating": 4.5,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-19:00",
-      "friday": "Closed",
+      "monday": "Closed",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
       "saturday": "10:00-22:00",
-      "sunday": "10:00-21:00"
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-335-5735",
-      "contactEmail": "info@spanishcopenhagen.com"
+      "contactNumber": "+1-555-284-1617",
+      "contactEmail": "hello@vikingsalooncopenhagen.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -126,30 +64,30 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Eatery",
-    "description": "A charming Spanish restaurant near Tivoli Gardens, offering new Nordic cuisine and other local favorites in a setting with Nordic design.",
-    "cuisine": "Spanish",
-    "priceRange": "$",
-    "rating": 4.4,
+    "name": "Nyhavn Social",
+    "description": "Experience authentic Scandinavian cuisine with a local twist, featuring smørrebrød served in an atmosphere of bicycle culture overlooking Strøget.",
+    "cuisine": "Scandinavian",
+    "priceRange": "$$",
+    "rating": 4.8,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-22:00"
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-371-9129",
-      "contactEmail": "info@spanishcopenhagen.com"
+      "contactNumber": "+1-555-276-7845",
+      "contactEmail": "hello@vikingtrattoriacopenhagen.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -157,85 +95,23 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Blue Grill",
-    "description": "A charming Danish restaurant near Tivoli Gardens, offering Danish pastries and other local favorites in a setting with hygge atmosphere.",
-    "cuisine": "Danish",
-    "priceRange": "$",
+    "name": "Rosenborg Fine Dining",
+    "description": "A culinary gem serving Scandinavian specialties including flæskesteg, where guests enjoy seasonal menus in the heart of the city.",
+    "cuisine": "Scandinavian",
+    "priceRange": "$$",
     "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "10:00-22:00",
-      "thursday": "Closed",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-744-5042",
-      "contactEmail": "info@danishcopenhagen.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Tivoli Dining Hall",
-    "description": "A charming Danish restaurant near The Little Mermaid, offering frikadeller and other local favorites in a setting with Nordic design.",
-    "cuisine": "Danish",
-    "priceRange": "$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-327-8968",
-      "contactEmail": "info@danishcopenhagen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Viking Taproom",
-    "description": "A charming Spanish restaurant near The Little Mermaid, offering Danish pastries and other local favorites in a setting with Nordic design.",
-    "cuisine": "Spanish",
-    "priceRange": "$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-21:00",
+      "monday": "Closed",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-20:00",
       "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-21:00"
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-204-5395",
-      "contactEmail": "info@spanishcopenhagen.com"
+      "contactNumber": "+1-555-199-1752",
+      "contactEmail": "hello@carlsbergtaverncopenhagen.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -246,34 +122,34 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": false,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Canal Fish House",
-    "description": "Located close to Christiansborg Palace, this Danish restaurant delights with its new Nordic cuisine and minimalist elegance.",
-    "cuisine": "Danish",
-    "priceRange": "$$$",
-    "rating": 4.2,
+    "name": "Frederik Gastropub",
+    "description": "This popular Scandinavian establishment combines traditional recipes and herring, all served in a unique setting with eco-friendly spaces.",
+    "cuisine": "Scandinavian",
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-22:00"
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-592-2517",
-      "contactEmail": "info@danishcopenhagen.com"
+      "contactNumber": "+1-555-186-7050",
+      "contactEmail": "hello@oresunddimsumpalacecopenhagen.com"
     },
     "isVegetarianFriendly": true,
-    "isVeganFriendly": false,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -281,58 +157,89 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Nyhavn Osteria",
-    "description": "A culinary gem serving Scandinavian specialties including frikadeller, where guests enjoy Nordic design in the heart of the city.",
-    "cuisine": "Scandinavian",
-    "priceRange": "$$",
-    "rating": 4.1,
+    "name": "Nyhavn Terrace",
+    "description": "A charming Danish restaurant near The Little Mermaid, offering rødgrød med fløde and other local favorites in a setting with seasonal menus.",
+    "cuisine": "Danish",
+    "priceRange": "$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-22:00"
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-770-2555",
-      "contactEmail": "info@scandinaviancopenhagen.com"
+      "contactNumber": "+1-555-361-5760",
+      "contactEmail": "ask@vikingbrasseriecopenhagen.com"
     },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Oresund Commissary",
+    "description": "This popular Spanish establishment combines traditional recipes and Danish pastries, all served in a unique setting with hygge atmosphere.",
+    "cuisine": "Spanish",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-633-4123",
+      "contactEmail": "ask@rosenborgpatisseriecopenhagen.com"
+    },
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
   },
   {
-    "name": "Christiania Coffee House",
-    "description": "A culinary gem serving Danish specialties including new Nordic cuisine, where guests enjoy minimalist elegance in the heart of the city.",
-    "cuisine": "Danish",
+    "name": "Rosenborg Mansion",
+    "description": "Located close to Nyhavn, this Italian restaurant delights with its new Nordic cuisine and Nordic design.",
+    "cuisine": "Italian",
     "priceRange": "$",
-    "rating": 4.5,
+    "rating": 4.1,
     "openingHours": {
-      "monday": "10:00-21:00",
+      "monday": "11:00-19:00",
       "tuesday": "10:00-21:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-19:00"
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-369-7597",
-      "contactEmail": "info@danishcopenhagen.com"
+      "contactNumber": "+1-555-351-4762",
+      "contactEmail": "ask@oresundcerveceriacopenhagen.com"
     },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,

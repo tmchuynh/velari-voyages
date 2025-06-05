@@ -2,89 +2,120 @@ import { Restaurant } from "@/lib/types/types";
 
 export const victoriaRestaurants: Restaurant[] = [
   {
-    "name": "Grand Eatery",
-    "description": "A culinary gem serving Italian specialties including local ingredients, where guests enjoy charming streetscapes in the heart of the city.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4,
+    "name": "Grand Eatery + Bar",
+    "description": "A culinary gem serving French specialties including artisanal creations, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "Closed",
-      "saturday": "11:00-22:00",
-      "sunday": "11:00-19:00"
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-611-4422",
-      "contactEmail": "info@italianvictoria.com"
+      "contactNumber": "+1-555-980-6324",
+      "contactEmail": "inquiries@royalpublichousevictoria.com"
     },
-    "isVegetarianFriendly": true,
+    "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Barbecue",
+    "description": "This popular Japanese establishment combines traditional recipes and artisanal creations, all served in a unique setting with seasonal floral displays.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-681-6595",
+      "contactEmail": "inquiries@the&co.victoria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Lounge",
+    "description": "Located close to central park, this American restaurant delights with its signature dishes and elegant atmosphere.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-400-7788",
+      "contactEmail": "inquiries@goldenizakayavictoria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
   },
   {
-    "name": "Grand Terrace",
-    "description": "A charming American restaurant near the city museum, offering farm-to-table meals and other local favorites in a setting with ambient lighting.",
+    "name": "Grand Bistro",
+    "description": "This popular American establishment combines traditional recipes and fresh produce, all served in a unique setting with ambient lighting.",
     "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.2,
+    "priceRange": "$$$",
+    "rating": 4.1,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "11:00-19:00",
-      "saturday": "10:00-21:00",
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
       "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-392-3827",
-      "contactEmail": "info@americanvictoria.com"
+      "contactNumber": "+1-555-397-8697",
+      "contactEmail": "inquiries@goldeninnvictoria.com"
     },
     "isVegetarianFriendly": false,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Cookhouse",
-    "description": "Located close to central park, this American restaurant delights with its local ingredients and live street performances.",
-    "cuisine": "American",
-    "priceRange": "$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "Closed",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-555-470-6376",
-      "contactEmail": "info@americanvictoria.com"
-    },
-    "isVegetarianFriendly": true,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
@@ -95,23 +126,85 @@ export const victoriaRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Tiki Lounge",
-    "description": "Experience authentic French cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of elegant atmosphere overlooking the old town walls.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 3.9,
+    "name": "Grand Tea House",
+    "description": "This popular Italian establishment combines traditional recipes and gourmet street food, all served in a unique setting with artisan markets.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.3,
     "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "9:00-19:00"
+      "monday": "Closed",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-255-1330",
-      "contactEmail": "info@frenchvictoria.com"
+      "contactNumber": "+1-555-414-1117",
+      "contactEmail": "inquiries@grandestatevictoria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Nook",
+    "description": "Experience authentic American cuisine with a local twist, featuring signature dishes served in an atmosphere of live street performances overlooking the iconic clock tower.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-145-1358",
+      "contactEmail": "customerservice@bluecurryhousevictoria.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Dining Room",
+    "description": "Located close to downtown, this Japanese restaurant delights with its fresh produce and live street performances.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-886-6028",
+      "contactEmail": "customerservice@grandcurryhousevictoria.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -121,39 +214,39 @@ export const victoriaRestaurants: Restaurant[] = [
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Golden Sushi Bar",
-    "description": "This popular Japanese establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with ambient lighting.",
+    "name": "Golden Rooftop",
+    "description": "A charming Japanese restaurant near the main square, offering handcrafted desserts and other local favorites in a setting with boutique shops.",
     "cuisine": "Japanese",
-    "priceRange": "$",
-    "rating": 4.4,
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "Closed",
-      "friday": "9:00-22:00",
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-19:00",
       "saturday": "11:00-21:00",
-      "sunday": "9:00-20:00"
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-555-762-2548",
-      "contactEmail": "info@japanesevictoria.com"
+      "contactNumber": "+1-555-291-1799",
+      "contactEmail": "customerservice@thecommissaryvictoria.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
