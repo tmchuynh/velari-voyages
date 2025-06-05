@@ -6,8 +6,10 @@ import RestaurantIconKey from "@/components/RestaurantIconKey";
 import { Restaurant } from "@/lib/types/types";
 import { capitalize } from "@/lib/utils/format";
 import { getAllRestaurantsFromCity } from "@/lib/utils/get/restaurants";
+import { getCityInformation } from "@/lib/utils/get/general";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 
 export default function CityRestaurantsPage() {
   const searchParams = useSearchParams();
@@ -35,6 +37,10 @@ export default function CityRestaurantsPage() {
 
   console.log("All Restaurants:", allRestaurants);
 
+  const cityInformation = getCityInformation(city || "");
+
+  console.log("City Information:", cityInformation);
+
   if (loading) {
     return <Loading />;
   }
@@ -45,7 +51,21 @@ export default function CityRestaurantsPage() {
         <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
           <header>
             <h1> Restaurants in {capitalize(city)}</h1>
-            <h5> Explore the best dining options in {capitalize(city)}.</h5>
+            {cityInformation ? (
+              <h5>
+                Explore the best dining options in {capitalize(city)}:{" "}
+                {cityInformation.subtitle}
+              </h5>
+            ) : (
+              <h5> Explore the best dining options in {capitalize(city)} </h5>
+            )}
+
+            {cityInformation && (
+              <>
+                <blockquote>{cityInformation.quote}</blockquote>
+                <p>{cityInformation.additionalInfo}</p>
+              </>
+            )}
           </header>
 
           <RestaurantIconKey compact className="my-4" />
