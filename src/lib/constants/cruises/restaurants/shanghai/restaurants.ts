@@ -248,5 +248,160 @@ export const shanghaiRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Grand Workshop",
+    "description": "This popular Italian establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with local ambiance.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-19:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-411-2779",
+      "contactEmail": "reachus@blueenotecashanghai.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Inn",
+    "description": "Located close to the iconic clock tower, this French restaurant delights with its handcrafted desserts and live street performances.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-907-9969",
+      "contactEmail": "communications@goldenseafoodshackshanghai.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Inn",
+    "description": "This popular American establishment combines traditional recipes and heritage recipes, all served in a unique setting with ambient lighting.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-441-9375",
+      "contactEmail": "reachus@thefareshanghai.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Boulangerie",
+    "description": "Located close to the river promenade, this Mediterranean restaurant delights with its gourmet street food and friendly service.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-211-5565",
+      "contactEmail": "ask@goldenlabshanghai.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Wok",
+    "description": "Located close to the old town walls, this American restaurant delights with its signature dishes and ambient lighting.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-507-6856",
+      "contactEmail": "ask@goldenmaisonshanghai.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

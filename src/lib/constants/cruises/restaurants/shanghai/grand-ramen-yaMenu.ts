@@ -6,72 +6,72 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our hearty kitchen honors the soul of Mediterranean cooking",
+    "description": "A tasty assortment of specialties showcasing the best of Mediterranean cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 35.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Legendary Prime Rib",
-            "price": 37.61,
+            "name": "Award-Winning Seafood Boil",
+            "price": 31.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 31.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 33.26,
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 28.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Charcoal Grilled Iberico Pork",
+            "price": 37.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 34.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 33.32,
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 34.49,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 33.79,
-            "isVegetarian": true,
+            "name": "Tableside Carved Chateaubriand",
+            "price": 28.01,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 37.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,8 +82,8 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 38.54,
+            "name": "Cast Iron Seafood Presentation",
+            "price": 26.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,8 +91,17 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cold-Smoked Delicacy",
-            "price": 29.44,
+            "name": "House Specialty Pasta Creation",
+            "price": 24.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Mushroom Risotto",
+            "price": 34.38,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -100,29 +109,20 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 33.14,
-            "isVegetarian": false,
+            "name": "Tasting of Local Artisanal Cheeses",
+            "price": 30.46,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Duck Confit with Roasted Root Vegetables",
-            "price": 26.8,
+            "name": "Slow-Roasted Prime Rib",
+            "price": 25.34,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seared Duck Breast with Cherry Reduction",
-            "price": 30.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,38 +130,11 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
+        "description": "Traditional and reimagined Mediterranean appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Classic Sizzling Meatballs",
-            "price": 13.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Baked Baked Brie",
-            "price": 11.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Mezze Platter",
-            "price": 14.63,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Stuffed Jalapeños",
-            "price": 8.99,
+            "name": "Deluxe Baked Dumplings",
+            "price": 15.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +142,86 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Stuffed Peppers",
-            "price": 14.74,
+            "name": "Deluxe Savory Potato Skins",
+            "price": 9.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Mozzarella Sticks",
+            "price": 10.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Chicken Wings",
+            "price": 10.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Stuffed Mini Tacos",
+            "price": 11.31,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Flaky Tempura",
+            "price": 12.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Zucchini Fries",
+            "price": 10.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sweet Samosas",
+            "price": 11.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Mediterranean methods.",
+        "items": [
+          {
+            "name": "Hot and Sour Soup",
+            "price": 8.48,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lobster Bisque",
+            "price": 13.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -178,119 +229,68 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Appetizing Spinach Puffs",
-            "price": 10.72,
-            "isVegetarian": true,
+            "name": "Mushroom Soup",
+            "price": 8.42,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Falafel",
-            "price": 14.44,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Clam Chowder",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Irresistible Garlic Knots",
-            "price": 11.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
-        "items": [
-          {
-            "name": "House Special Golden French Onion Soup",
-            "price": 9.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Mushroom Soup",
-            "price": 11.76,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Golden Chicken Noodle Soup",
-            "price": 11.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Enticing Turkey and Wild Rice Soup",
-            "price": 11.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 10.85,
+            "name": "Caesar Salad",
+            "price": 9.49,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Greek Salad",
+            "price": 9.44,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chickpea Salad",
-            "price": 13.04,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 15.04,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Salad",
-            "price": 10.78,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 9.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 14.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Cucumber Salad",
-            "price": 9.34,
+            "price": 15.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,20 +301,29 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Crafted with passion and precision, our mains are designed to impress.",
         "items": [
           {
-            "name": "Deluxe Tender Eggplant Parmesan",
-            "price": 18.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Homestyle Enticing Pizza",
+            "price": 25.11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Smoked Spaghetti Bolognese",
-            "price": 26.51,
+            "name": "Authentic Zesty Mac and Cheese",
+            "price": 19.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Lasagna",
+            "price": 31.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,17 +331,26 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Baked Fish and Chips",
-            "price": 19.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Deluxe Delicious Tagine",
+            "price": 23.36,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Beef Wellington",
-            "price": 31.33,
+            "name": "Traditional Mouthwatering Ramen",
+            "price": 24.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Marinated Lamb Chops",
+            "price": 30.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -340,8 +358,8 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zingy Cottage Pie",
-            "price": 27.12,
+            "name": "Organic Comforting Moussaka",
+            "price": 21.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,29 +367,11 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Stuffed Peppers",
-            "price": 31.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Fajitas",
-            "price": 26.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Fried Stir-fry",
-            "price": 19.34,
+            "name": "Handcrafted Mouthwatering Grilled Tofu",
+            "price": 30.79,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,11 +379,11 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Fresh Appetizing Stuffed Flounder with Crab and Spinach",
-            "price": 35.19,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 30.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -391,26 +391,17 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Zesty Prawn Curry in Coconut Masala",
-            "price": 24.6,
-            "isVegetarian": true,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 35.54,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Pan-Seared Scallops with Pea Purée",
-            "price": 35.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Grilled Spanish Octopus with Smoked Paprika",
-            "price": 35.29,
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 31.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,11 +409,20 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Succulent Crab-Stuffed Mushrooms",
-            "price": 31.92,
+            "name": "Classic British Fish and Chips",
+            "price": 34.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Shrimp Scampi over Linguine",
+            "price": 24.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,47 +430,20 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
         "items": [
           {
-            "name": "Authentic Grilled Flaky Cheddar and Chive Biscuits",
-            "price": 6.96,
+            "name": "Hearty Grilled Flaky Cheddar and Chive Biscuits",
+            "price": 8.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Steamed Jasmine Rice",
-            "price": 5.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Quinoa Pilaf with Herbs",
-            "price": 9.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sautéed Israeli Couscous with Roasted Tomatoes",
-            "price": 5.41,
+            "name": "Homestyle Irresistible Truffle Parmesan Fries",
+            "price": 9.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +451,38 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Cauliflower Gratin with Gruyère",
-            "price": 6.42,
+            "name": "Traditional Sizzling Crispy Zucchini Fritters",
+            "price": 8.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Stuffed Bell Peppers with Brown Rice",
+            "price": 7.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Roasted Root Vegetables",
+            "price": 6.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Creamed Spinach with Nutmeg",
+            "price": 8.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,29 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Juice",
-            "price": 6.28,
+            "name": "Homestyle Stuffed Juice",
+            "price": 4.29,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Lemonade",
+            "price": 6.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Braised Water",
+            "price": 7.12,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -502,47 +520,29 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.33,
-            "isVegetarian": true,
+            "name": "Classic Savory Soda",
+            "price": 4.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 5.64,
+            "name": "Fresh Stuffed Iced Tea",
+            "price": 4.62,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.34,
+            "name": "Gourmet Crunchy Hot Chocolate",
+            "price": 4.19,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.1,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 7.19,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,24 +552,15 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our mouthwatering sweet creations",
+    "description": "A delicious selection of desserts that will satisfy your cravings",
     "category": [
       {
         "name": "Baked Goods",
         "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 7.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Macarons",
-            "price": 10.46,
+            "price": 9.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -577,28 +568,37 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 6.69,
-            "isVegetarian": true,
+            "name": "Shortbread",
+            "price": 7.42,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Treacle Tart",
-            "price": 6.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cinnamon Rolls",
-            "price": 9.8,
+            "name": "Pumpkin Pie",
+            "price": 7.31,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 6.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 10.83,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,38 +607,11 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
-            "name": "Kulfi",
-            "price": 8.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 8.78,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 7.74,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 11.04,
+            "name": "Gourmet Stuffed Granita",
+            "price": 8.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,9 +619,36 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paletas",
-            "price": 9.11,
+            "name": "Authentic Spiced Ice Cream Sandwich",
+            "price": 8.01,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Ice Cream",
+            "price": 11.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Ice Cream Cake",
+            "price": 10.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Herbed Frozen Pie",
+            "price": 9.86,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,15 +660,15 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Enjoy enticing cocktails designed to pair effortlessly with our seasonal menu",
+    "description": "Our carefully chosen wine list features carefully chosen bottles from renowned vineyards",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Gourmet Mouthwatering Manhattan",
-            "price": 13.35,
+            "name": "Gourmet Flavorful Mojito",
+            "price": 13.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,26 +676,26 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delicious Negroni",
-            "price": 13.18,
+            "name": "Deluxe Satisfying Bloody Mary",
+            "price": 10.71,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite Martini",
-            "price": 13.94,
+            "name": "Fresh Spiced Margarita",
+            "price": 10.69,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Cosmopolitan",
-            "price": 15.78,
+            "name": "Handcrafted Sizzling Martini",
+            "price": 15.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -703,8 +703,8 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delectable Bloody Mary",
-            "price": 14.66,
+            "name": "Seasonal Baked Negroni",
+            "price": 13.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,32 +712,41 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Margarita",
-            "price": 10.34,
+            "name": "Classic Flaky Manhattan",
+            "price": 15.97,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Mai Tai",
+            "price": 15.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Handcrafted Zingy Whiskey Sour",
-            "price": 11.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "A wine list as thoughtful and layered as our cuisine.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Homestyle Juicy Gewürztraminer",
-            "price": 13.68,
+            "name": "Authentic Crispy Riesling",
+            "price": 11.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Sauvignon Blanc",
+            "price": 10.42,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -745,26 +754,8 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Flaky Barbera",
-            "price": 8.69,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Baked Gamay",
-            "price": 11.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Crunchy Sémillon",
-            "price": 10.69,
+            "name": "Deluxe Crispy Pinot Blanc",
+            "price": 8.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -772,20 +763,29 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Tender Verdicchio",
-            "price": 10.78,
+            "name": "Organic Aromatic Albariño",
+            "price": 11.36,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Delectable Tempranillo",
-            "price": 12.47,
-            "isVegetarian": false,
+            "name": "Fresh Crispy Vermentino",
+            "price": 10.94,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Hearty Roussanne",
+            "price": 8.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,11 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Deluxe Flavorful Grappa",
-            "price": 16.72,
+            "name": "Hearty Exquisite Rum",
+            "price": 16.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -805,26 +805,26 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Vodka",
-            "price": 15.58,
-            "isVegetarian": false,
+            "name": "Hearty Herbed Calvados",
+            "price": 17.69,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Gin",
-            "price": 11.52,
-            "isVegetarian": true,
+            "name": "Classic Spiced Gin",
+            "price": 12.95,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Crispy Amaretto",
-            "price": 11.83,
+            "name": "Organic Spiced Whiskey",
+            "price": 15.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -832,8 +832,8 @@ export const shanghaigrandRamenYaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Aromatic Cointreau",
-            "price": 10.47,
+            "name": "Traditional Zesty Galliano",
+            "price": 12.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
