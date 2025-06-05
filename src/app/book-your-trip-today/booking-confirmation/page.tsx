@@ -38,12 +38,16 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { cruiseCategoryMap } from "@/lib/constants/info/cruiseCategories";
 import { CrewMember } from "@/lib/interfaces/people/staff";
+import { CruiseVessel } from "@/lib/interfaces/services/cruises";
 import { getCrewMemberData } from "@/lib/utils/get/crew-members";
+import { getVesselForCruise } from "@/lib/utils/get/vessels";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import {
+  FaAnchor,
   FaCheck,
   FaEnvelope,
   FaFilter,
@@ -59,6 +63,7 @@ export default function BookingConfirmationPage() {
   const [crewMembers, setCrewMembers] = useState<CrewMember[]>([]);
   const [loading, setLoading] = useState(true);
   const [contactPersonnel, setContactPersonnel] = useState<CrewMember[]>([]);
+  const [vessel, setVessel] = useState<CruiseVessel | null>(null);
 
   // Filter state for crew members
   const [showFilters, setShowFilters] = useState(false);
@@ -89,6 +94,15 @@ export default function BookingConfirmationPage() {
 
     const bookingInfo = JSON.parse(storedBookingData);
     setBookingData(bookingInfo);
+
+    // Get vessel information based on cruise category and departure city
+    if (bookingInfo.cruiseCategory && bookingInfo.departureCity) {
+      const cruiseVessel = getVesselForCruise(
+        bookingInfo.departureCity,
+        bookingInfo.cruiseCategory
+      );
+      setVessel(cruiseVessel);
+    }
 
     // Fetch crew members based on the departure city
     const fetchCrewMembers = async () => {
@@ -285,6 +299,7 @@ export default function BookingConfirmationPage() {
       >
         <TabsList className="mb-6">
           <TabsTrigger value="booking">Booking Details</TabsTrigger>
+          <TabsTrigger value="vessel">Your Vessel</TabsTrigger>
           <TabsTrigger value="crew">Crew Members</TabsTrigger>
         </TabsList>
 
@@ -370,6 +385,12 @@ export default function BookingConfirmationPage() {
                             }
                           )}
                         </p>
+                        {vessel && (
+                          <p>
+                            <span className="font-medium">Vessel:</span>{" "}
+                            {vessel.name}
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>
@@ -516,13 +537,15 @@ export default function BookingConfirmationPage() {
                       <p>• Check-in closes 1 hour before departure</p>
                     </div>
 
-                    <Button
-                      variant="outline"
-                      className="mt-4 w-full"
-                      onClick={() => setActiveTab("crew")}
-                    >
-                      View Full Crew List
-                    </Button>
+                    {vessel && (
+                      <Button
+                        variant="outline"
+                        className="mt-4 w-full"
+                        onClick={() => setActiveTab("vessel")}
+                      >
+                        <FaShip className="mr-2" /> View Your Vessel Details
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
@@ -544,6 +567,98 @@ export default function BookingConfirmationPage() {
               </Card>
             </div>
           </div>
+        </TabsContent>
+
+        <TabsContent value="vessel">
+          {vessel ? (
+            <div className="space-y-6">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h2 className="flex items-center gap-2 font-bold text-2xl">
+                    <FaAnchor className="text-primary" /> {vessel.name}
+                  </h2>
+                  <p className="text-muted-foreground">{vessel.type}</p>
+                </div>
+                <Badge variant="outline" className="text-sm">
+                  Built {vessel.yearBuilt}
+                </Badge>
+              </div>
+
+              <div className="relative rounded-lg w-full overflow-hidden aspect-video">
+                <Image
+                  src={vessel.imageUrl}
+                  alt={vessel.name}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="gap-6 grid md:grid-cols-3">
+                <Card className="md:col-span-2">
+                  <CardContent className="pt-6">
+                    <h3 className="mb-4 font-semibold text-lg">
+                      Vessel Description
+                    </h3>
+                    <p>{vessel.description}</p>
+
+                    <h3 className="mt-6 mb-4 font-semibold text-lg">
+                      Key Amenities
+                    </h3>
+                    <div className="gap-2 grid grid-cols-2">
+                      {vessel.amenities.map((amenity) => (
+                        <div
+                          key={amenity}
+                          className="flex items-center bg-gray-50 p-2 rounded-md"
+                        >
+                          <FaCheck className="mr-2 text-green-500" size={12} />
+                          <span>{amenity}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card>
+                  <CardContent className="pt-6">
+                    <h3 className="mb-4 font-semibold text-lg">
+                      Vessel Specifications
+                    </h3>
+                    <div className="space-y-3">
+                      <div className="flex justify-between pb-2 border-b">
+                        <p className="font-medium">Passenger Capacity</p>
+                        <p>{vessel.capacity.toLocaleString()}</p>
+                      </div>
+                      <div className="flex justify-between pb-2 border-b">
+                        <p className="font-medium">Length</p>
+                        <p>{vessel.length}</p>
+                      </div>
+                      <div className="flex justify-between pb-2 border-b">
+                        <p className="font-medium">Top Speed</p>
+                        <p>{vessel.topSpeed}</p>
+                      </div>
+                      <div className="flex justify-between pb-2">
+                        <p className="font-medium">Year Built</p>
+                        <p>{vessel.yearBuilt}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          ) : (
+            <div className="py-12 text-center">
+              <h3 className="mb-4 font-semibold text-xl">
+                Vessel information is not available
+              </h3>
+              <p className="mx-auto mb-6 max-w-md text-muted-foreground">
+                Details about your cruise vessel will be provided closer to your
+                departure date.
+              </p>
+              <Button variant="outline" onClick={() => setActiveTab("booking")}>
+                Return to Booking Details
+              </Button>
+            </div>
+          )}
         </TabsContent>
 
         <TabsContent value="crew">
@@ -898,6 +1013,12 @@ export default function BookingConfirmationPage() {
                   month: "long",
                 })}
               </p>
+              {vessel && (
+                <p className="mt-1">
+                  <span className="font-medium">Vessel:</span> {vessel.name} (
+                  {vessel.type})
+                </p>
+              )}
             </div>
             <div className="text-right">
               <p className="font-bold">Booking #{bookingData.bookingNumber}</p>
@@ -991,6 +1112,26 @@ export default function BookingConfirmationPage() {
             </ul>
           </div>
         </div>
+
+        {vessel && (
+          <div className="mb-8 pb-4 border-b">
+            <h3 className="mb-2 font-bold">Your Vessel</h3>
+            <p>
+              <span className="font-medium">Name:</span> {vessel.name}
+            </p>
+            <p>
+              <span className="font-medium">Type:</span> {vessel.type}
+            </p>
+            <p>
+              <span className="font-medium">Capacity:</span>{" "}
+              {vessel.capacity.toLocaleString()} passengers
+            </p>
+            <p>
+              <span className="font-medium">Key Amenities:</span>{" "}
+              {vessel.amenities.join(", ")}
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
