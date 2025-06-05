@@ -59,11 +59,6 @@ export default function CompanyHistoryAndMissionsPage() {
           substance. Our clients came not for spectacle, but for sincerity. And
           that remains unchanged today.
         </p>
-        <Button
-          onClick={() => router.push("/about-velari-voyages/our-founders")}
-        >
-          Meet Our Founders
-        </Button>
       </section>
 
       <section>

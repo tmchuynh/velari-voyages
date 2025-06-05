@@ -7,13 +7,16 @@ import {
 
 export default function AwardsAndRecognitionPage() {
   // Group awards by year for better display organization
-  const awardsByYear = velariVoyagesAwards.reduce((acc, award) => {
-    award.years.forEach((year) => {
-      if (!acc[year]) acc[year] = [];
-      acc[year].push(award);
-    });
-    return acc;
-  }, {} as Record<number, typeof velariVoyagesAwards>);
+  const awardsByYear = velariVoyagesAwards.reduce(
+    (acc, award) => {
+      award.years.forEach((year) => {
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(award);
+      });
+      return acc;
+    },
+    {} as Record<number, typeof velariVoyagesAwards>
+  );
 
   // Get years in descending order (most recent first)
   const sortedYears = Object.keys(awardsByYear)
@@ -44,13 +47,9 @@ export default function AwardsAndRecognitionPage() {
       </header>
 
       <section className="mb-12">
-        <h2 className="mb-6">Our Awards by Year</h2>
-
         {sortedYears.map((year) => (
           <div key={year} className="mb-10">
-            <h3 className="mb-4 pb-2 border-b font-semibold text-2xl">
-              {year}
-            </h3>
+            <h2 className="mb-6 pb-2 border-b border-border">{year}</h2>
             <div className="gap-6 grid md:grid-cols-2">
               {awardsByYear[year].map((award, index) => (
                 <Card
@@ -58,13 +57,11 @@ export default function AwardsAndRecognitionPage() {
                   className="overflow-hidden"
                 >
                   <CardContent className="p-6">
-                    <h4 className="mb-2 font-semibold text-xl">
-                      {award.title}
-                    </h4>
-                    <div className="flex items-center mb-3 text-gray-600 text-sm">
-                      <span className="font-medium">{award.issuer}</span>
+                    <h4>{award.title}</h4>
+                    <div>
+                      <h5>{award.issuer}</h5>
                     </div>
-                    <p className="mb-4 text-gray-700">{award.description}</p>
+                    <p>{award.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {award.years.map((y) => (
                         <Badge
@@ -84,17 +81,18 @@ export default function AwardsAndRecognitionPage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="mb-6">Industry Recognition</h2>
-        <p className="mb-6">
+        <h2>Industry Recognition</h2>
+        <p>
           Our commitment to excellence has been recognized by leading industry
           organizations and publications. Here's a comprehensive list of our
           industry recognitions:
         </p>
-        <div className="gap-6 grid md:grid-cols-2">
+        <div className="gap-6 grid md:grid-cols-2 lg:grid-cols-3">
           {industryRecognition.map((recognition, index) => (
-            <Card key={index} className="bg-gray-50">
-              <CardContent className="p-4">
-                <p className="text-lg">{recognition}</p>
+            <Card key={index}>
+              <CardContent className="px-4 py-1">
+                <h3>{recognition.split("–")[0]}</h3>
+                <h5>{recognition.split("–")[1]}</h5>
               </CardContent>
             </Card>
           ))}
@@ -102,9 +100,9 @@ export default function AwardsAndRecognitionPage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="mb-6">Guest Testimonials</h2>
+        <h2>Guest Testimonials</h2>
         <div className="gap-8 grid md:grid-cols-2">
-          <Card className="bg-gray-50">
+          <Card>
             <CardContent className="p-6">
               <blockquote className="text-lg italic">
                 "Velari Voyages provided us with the most luxurious and
@@ -117,7 +115,7 @@ export default function AwardsAndRecognitionPage() {
             </CardContent>
           </Card>
 
-          <Card className="bg-gray-50">
+          <Card>
             <CardContent className="p-6">
               <blockquote className="text-lg italic">
                 "From the moment we booked until we returned home, every aspect
