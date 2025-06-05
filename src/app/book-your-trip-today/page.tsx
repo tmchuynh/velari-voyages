@@ -4,6 +4,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
+import { cruisePackages } from "@/lib/constants/info/cruisePackages";
+import { formatNumberToCurrency } from "@/lib/utils/format";
 import {
   Form,
   FormControl,
@@ -25,7 +27,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { FaShip, FaSuitcase } from "react-icons/fa";
 import * as z from "zod";
@@ -38,124 +40,70 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
+import { getCruisesByLocation } from "@/lib/utils/get/cruises";
+import { getVesselForCruise } from "@/lib/utils/get/vessels";
+import { Cruise, CruiseVessel } from "@/lib/interfaces/services/cruises";
+import { Location } from "@/lib/types/types";
+import { Tab } from "@headlessui/react";
 
-// Define available cruises
-const cruises = [
-  {
-    id: "amsterdam-nordic",
-    name: "Amsterdam Nordic Explorer",
-    duration: "7 days",
-    departureCity: "Amsterdam",
-    price: 2499,
-  },
-  {
-    id: "barcelona-med",
-    name: "Barcelona Mediterranean Adventure",
-    duration: "10 days",
-    departureCity: "Barcelona",
-    price: 2999,
-  },
-  {
-    id: "venice-adriatic",
-    name: "Venice Adriatic Journey",
-    duration: "8 days",
-    departureCity: "Venice",
-    price: 2799,
-  },
-  {
-    id: "stockholm-baltic",
-    name: "Stockholm Baltic Discovery",
-    duration: "9 days",
-    departureCity: "Stockholm",
-    price: 2899,
-  },
-];
-
-// Create a lookup map for cruises
-const cruiseMap = cruises.reduce( ( map, cruise ) => {
-  map[cruise.id] = cruise;
-  return map;
-}, {} as Record<string, typeof cruises[0]> );
-
-// Define package add-ons
-const packages = [
-  {
-    id: "premium-dining",
-    name: "Premium Dining Package",
-    description:
-      "Exclusive access to specialty restaurants and premium beverages",
-    price: 299,
-  },
-  {
-    id: "spa-wellness",
-    name: "Spa & Wellness Package",
-    description: "Daily spa treatments and wellness activities",
-    price: 399,
-  },
-  {
-    id: "excursion-bundle",
-    name: "Shore Excursion Bundle",
-    description:
-      "Priority booking for all shore excursions with private guides",
-    price: 499,
-  },
-  {
-    id: "premium-wifi",
-    name: "Premium WiFi Package",
-    description: "High-speed internet access throughout your voyage",
-    price: 149,
-  },
-];
+// Define available cities
+const cities = ["Amsterdam", "Barcelona", "Venice", "Stockholm"];
 
 // Create a lookup map for packages
-const packageMap = packages.reduce( ( map, pkg ) => {
-  map[pkg.id] = pkg;
-  return map;
-}, {} as Record<string, typeof packages[0]> );
+const packageMap = cruisePackages.reduce(
+  (map, pkg) => {
+    map[pkg.id] = pkg;
+    return map;
+  },
+  {} as Record<string, (typeof cruisePackages)[0]>
+);
 
 // Form validation schema
-const formSchema = z.object( {
+const formSchema = z.object({
+  // Add city selection field
+  city: z.string().min(1, { message: "Please select a departure city" }),
+
   // First name of the passenger, must be at least 2 characters
   firstName: z
     .string()
-    .min( 2, { message: "First name must be at least 2 characters" } ),
+    .min(2, { message: "First name must be at least 2 characters" }),
 
   // Last name of the passenger, must be at least 2 characters
   lastName: z
     .string()
-    .min( 2, { message: "Last name must be at least 2 characters" } ),
+    .min(2, { message: "Last name must be at least 2 characters" }),
 
   // Email address of the passenger, must be a valid email
-  email: z.string().email( { message: "Please enter a valid email address" } ),
+  email: z.string().email({ message: "Please enter a valid email address" }),
 
   // Phone number of the passenger, must be at least 10 characters
-  phone: z.string().min( 10, { message: "Please enter a valid phone number" } ),
+  phone: z.string().min(10, { message: "Please enter a valid phone number" }),
 
   // ID of the selected cruise, must be provided
-  cruiseId: z.string().min( 1, { message: "Please select a cruise" } ),
+  cruiseId: z.string().min(1, { message: "Please select a cruise" }),
 
   // Travel date for the cruise, must be provided
-  travelDate: z.string().min( 1, { message: "Please select a travel date" } ),
+  travelDate: z.string().min(1, { message: "Please select a travel date" }),
 
   // Number of passengers, must be between 1 and 10
   passengers: z
     .number()
-    .min( 1, { message: "Passengers must be at least 1" } )
-    .max( 10, { message: "Passengers cannot exceed 10" } ),
+    .min(1, { message: "Passengers must be at least 1" })
+    .max(10, { message: "Passengers cannot exceed 10" }),
 
   // Optional field for any special requests or requirements
   specialRequests: z.string().optional(),
 
   // Optional array of selected package IDs
-  selectedPackages: z.array( z.string() ).optional(),
-} );
+  selectedPackages: z.array(z.string()).optional(),
+});
 
 // Generate travel dates for the next 12 months
 const generateTravelDates = () => {
   const dates = [];
   const currentDate = new Date();
 
-  for ( let i = 1; i <= 12; i++ ) {
+  for (let i = 1; i <= 12; i++) {
     const futureDate = new Date(currentDate);
     futureDate.setMonth(currentDate.getMonth() + i);
 
@@ -171,13 +119,19 @@ const generateTravelDates = () => {
 
 export default function BookYourTripPage() {
   const router = useRouter();
-  const [loading, setLoading] = useState<boolean>( false );
-  const [selectedCruise, setSelectedCruise] = useState<typeof cruises[0] | null>( null );
+  const [loading, setLoading] = useState<boolean>(false);
+  // Add state for available cruises
+  const [availableCruises, setAvailableCruises] = useState<Cruise[]>([]);
+  const [selectedCruise, setSelectedCruise] = useState<Cruise | null>(null);
+  const [selectedVessel, setSelectedVessel] = useState<CruiseVessel | null>(
+    null
+  );
 
   // Initialize form
-  const form = useForm<z.infer<typeof formSchema>>( {
-    resolver: zodResolver( formSchema ),
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
     defaultValues: {
+      city: "",
       firstName: "",
       lastName: "",
       email: "",
@@ -188,18 +142,57 @@ export default function BookYourTripPage() {
       specialRequests: "",
       selectedPackages: [],
     },
-  } );
+  });
+
+  // Fetch cruises when city changes
+  const selectedCity = form.watch("city");
+
+  useEffect(() => {
+    async function fetchCruisesForCity() {
+      if (selectedCity) {
+        try {
+          const cityInfo: Location = {
+            city: selectedCity,
+            country: "",
+          };
+          const cruises = await getCruisesByLocation(cityInfo);
+          setAvailableCruises(cruises);
+
+          // Clear selected cruise when city changes
+          setSelectedCruise(null);
+          form.setValue("cruiseId", "");
+        } catch (error) {
+          console.error("Error fetching cruises:", error);
+          toast.error("Failed to load cruises for the selected city");
+          setAvailableCruises([]);
+        }
+      }
+    }
+
+    fetchCruisesForCity();
+  }, [selectedCity, form]);
 
   // Handle cruise selection change
-  const handleCruiseChange = ( cruiseId: string ) => {
-    const cruise = cruises.find( ( c ) => c.id === cruiseId );
+  const handleCruiseChange = async (cruiseId: string) => {
+    const cruise = availableCruises.find((c) => c.title === cruiseId);
     setSelectedCruise(cruise || null);
+
+    if (cruise && cruise.departureLocation.city) {
+      // Get vessel information for the selected cruise
+      const vessel = await getVesselForCruise(
+        cruise.departureLocation.city,
+        cruise.tourCategoryId
+      );
+      setSelectedVessel(vessel);
+    }
   };
 
   // Calculate total price
   const calculateTotal = (values: z.infer<typeof formSchema>) => {
-    const cruise = cruiseMap[values.cruiseId];
-    const cruisePrice = cruise ? cruise.price * (values.passengers || 0) : 0;
+    const cruise = selectedCruise;
+    const cruisePrice = cruise
+      ? cruise.basePrice * (values.passengers || 0)
+      : 0;
 
     const packagesPrice = values.selectedPackages
       ? values.selectedPackages.reduce((total, packageId) => {
@@ -214,11 +207,7 @@ export default function BookYourTripPage() {
   // Memoize total price calculation
   const totalPrice = useMemo(
     () => calculateTotal(form.getValues()),
-    [
-      form.watch("cruiseId"),
-      form.watch("passengers"),
-      form.watch("selectedPackages"),
-    ]
+    [selectedCruise, form.watch("passengers"), form.watch("selectedPackages")]
   );
 
   // Handle form submission
@@ -233,10 +222,10 @@ export default function BookYourTripPage() {
       await new Promise((resolve) => setTimeout(resolve, 1000));
 
       // Get the selected cruise details
-      const cruise = cruises.find((c) => c.id === values.cruiseId);
+      const cruise = selectedCruise;
 
       // Get selected packages details
-      const selectedPackagesDetails = packages.filter((p) =>
+      const selectedPackagesDetails = cruisePackages.filter((p) =>
         values.selectedPackages?.includes(p.id)
       );
 
@@ -245,10 +234,10 @@ export default function BookYourTripPage() {
       // Create the booking data object to pass to the confirmation page
       const bookingData = {
         ...values,
-        cruiseName: cruise?.name,
-        departureCity: cruise?.departureCity,
-        cruiseDuration: cruise?.duration,
-        cruisePrice: cruise?.price,
+        cruiseName: cruise?.title,
+        departureCity: cruise?.departureLocation?.city,
+        arrivalCity: cruise?.arrivalLocation?.city,
+        cruisePrice: cruise?.basePrice,
         selectedPackagesDetails,
         totalPrice,
         bookingNumber: `VV-${Math.floor(100000 + Math.random() * 900000)}`,
@@ -301,6 +290,37 @@ export default function BookYourTripPage() {
 
                     <FormField
                       control={form.control}
+                      name="city"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel>Departure City</FormLabel>
+                          <Select
+                            onValueChange={field.onChange}
+                            defaultValue={field.value}
+                          >
+                            <FormControl>
+                              <SelectTrigger>
+                                <SelectValue placeholder="Select a departure city" />
+                              </SelectTrigger>
+                            </FormControl>
+                            <SelectContent>
+                              {cities.map((city) => (
+                                <SelectItem key={city} value={city}>
+                                  {city}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                          <FormDescription>
+                            Choose your departure city first
+                          </FormDescription>
+                          <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+
+                    <FormField
+                      control={form.control}
                       name="cruiseId"
                       render={({ field }) => (
                         <FormItem>
@@ -311,29 +331,110 @@ export default function BookYourTripPage() {
                               handleCruiseChange(value);
                             }}
                             defaultValue={field.value}
+                            disabled={!selectedCity}
                           >
                             <FormControl>
                               <SelectTrigger>
-                                <SelectValue placeholder="Select a cruise" />
+                                <SelectValue
+                                  placeholder={
+                                    selectedCity
+                                      ? "Select a cruise"
+                                      : "Select a city first"
+                                  }
+                                />
                               </SelectTrigger>
                             </FormControl>
                             <SelectContent>
-                              {cruises.map((cruise) => (
-                                <SelectItem key={cruise.id} value={cruise.id}>
-                                  {cruise.name} ({cruise.duration}) - $
-                                  {cruise.price}
+                              {availableCruises.map((cruise) => (
+                                <SelectItem
+                                  key={cruise.title}
+                                  value={cruise.title}
+                                >
+                                  {cruise.title} - ${cruise.basePrice}
                                 </SelectItem>
                               ))}
                             </SelectContent>
                           </Select>
                           <FormDescription>
-                            Departing from{" "}
-                            {selectedCruise?.departureCity || "select a cruise"}
+                            {selectedCity
+                              ? `Cruises departing from ${selectedCity}`
+                              : "Select a departure city first"}
                           </FormDescription>
                           <FormMessage />
                         </FormItem>
                       )}
                     />
+
+                    {selectedCruise && (
+                      <Card className="bg-muted/30">
+                        <CardContent className="pt-6">
+                          <h3 className="mb-2 font-semibold text-lg">
+                            Cruise Details
+                          </h3>
+                          <div className="space-y-3">
+                            <div className="gap-2 grid grid-cols-2">
+                              <div>
+                                <p className="text-muted-foreground text-sm">
+                                  Departure
+                                </p>
+                                <p className="font-medium">
+                                  {selectedCruise.departureLocation.city},{" "}
+                                  {selectedCruise.departureLocation.country}
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-muted-foreground text-sm">
+                                  Arrival
+                                </p>
+                                <p className="font-medium">
+                                  {selectedCruise.arrivalLocation.city},{" "}
+                                  {selectedCruise.arrivalLocation.country}
+                                </p>
+                              </div>
+                            </div>
+                            <div>
+                              <p className="text-muted-foreground text-sm">
+                                Description
+                              </p>
+                              <p>{selectedCruise.description}</p>
+                            </div>
+                            {selectedCruise.itinerary && (
+                              <div>
+                                <p className="text-muted-foreground text-sm">
+                                  Itinerary
+                                </p>
+                                <Table>
+                                  <TableHeader>
+                                    <TableRow>
+                                      <TableHead>City</TableHead>
+                                      <TableHead>Country</TableHead>
+                                    </TableRow>
+                                    {selectedCruise.itinerary.route.map(
+                                      (item, index) => (
+                                        <TableRow key={index}>
+                                          <TableCell>{item.city}</TableCell>
+                                          <TableCell>{item.country}</TableCell>
+                                        </TableRow>
+                                      )
+                                    )}
+                                  </TableHeader>
+                                </Table>
+                              </div>
+                            )}
+                            {selectedVessel && (
+                              <div>
+                                <p className="text-muted-foreground text-sm">
+                                  Vessel
+                                </p>
+                                <p className="font-medium">
+                                  {selectedVessel.name} ({selectedVessel.type})
+                                </p>
+                              </div>
+                            )}
+                          </div>
+                        </CardContent>
+                      </Card>
+                    )}
 
                     <div className="gap-4 grid md:grid-cols-2">
                       <FormField
@@ -410,7 +511,7 @@ export default function BookYourTripPage() {
                         render={({ field }) => (
                           <FormItem>
                             <div className="gap-4 grid md:grid-cols-2">
-                              {packages.map((pkg) => (
+                              {cruisePackages.map((pkg) => (
                                 <div
                                   key={pkg.id}
                                   className="flex items-start space-x-3 hover:bg-accent/20 p-4 border rounded-md transition-colors"
@@ -437,13 +538,13 @@ export default function BookYourTripPage() {
                                   <div>
                                     <div className="flex justify-between items-center">
                                       <FormLabel className="font-medium text-base">
-                                        {pkg.name}
+                                        {pkg.title}
                                       </FormLabel>
                                       <Badge
                                         variant="secondary"
                                         className="ml-2"
                                       >
-                                        ${pkg.price}
+                                        {formatNumberToCurrency(pkg.price)}
                                       </Badge>
                                     </div>
                                     <FormDescription className="mt-1 text-sm">
@@ -571,14 +672,13 @@ export default function BookYourTripPage() {
                     <div className="space-y-6">
                       <div>
                         <h3 className="font-medium text-lg">
-                          {selectedCruise.name}
+                          {selectedCruise.title}
                         </h3>
                         <p className="text-muted-foreground">
-                          {selectedCruise.duration} • Departing from{" "}
-                          {selectedCruise.departureCity}
+                          Departing from {selectedCruise.departureLocation.city}
                         </p>
                         <p className="mt-1 font-medium">
-                          ${selectedCruise.price} per person
+                          ${selectedCruise.basePrice} per person
                         </p>
                       </div>
 
@@ -592,7 +692,7 @@ export default function BookYourTripPage() {
                         <TableBody>
                           <TableRow>
                             <TableCell>
-                              {selectedCruise.name}
+                              {selectedCruise.title}
                               <br />
                               <span className="text-muted-foreground text-sm">
                                 ({form.watch("passengers") ?? 1}{" "}
@@ -603,18 +703,21 @@ export default function BookYourTripPage() {
                               </span>
                             </TableCell>
                             <TableCell className="text-right">
-                              $
-                              {selectedCruise.price *
-                                (form.watch("passengers") ?? 1)}
+                              {formatNumberToCurrency(
+                                selectedCruise.basePrice *
+                                  (form.watch("passengers") ?? 1)
+                              )}
                             </TableCell>
                           </TableRow>
                           {form.watch("selectedPackages")?.map((pkgId) => {
-                            const pkg = packages.find((p) => p.id === pkgId);
+                            const pkg = cruisePackages.find(
+                              (p) => p.id === pkgId
+                            );
                             return pkg ? (
                               <TableRow key={pkg.id}>
-                                <TableCell>{pkg.name}</TableCell>
+                                <TableCell>{pkg.title}</TableCell>
                                 <TableCell className="text-right">
-                                  ${pkg.price}
+                                  {formatNumberToCurrency(pkg.price)}
                                 </TableCell>
                               </TableRow>
                             ) : null;
@@ -622,7 +725,7 @@ export default function BookYourTripPage() {
                           <TableRow>
                             <TableCell className="font-bold">Total</TableCell>
                             <TableCell className="text-right font-bold">
-                              ${totalPrice}
+                              {formatNumberToCurrency(totalPrice)}
                             </TableCell>
                           </TableRow>
                         </TableBody>
