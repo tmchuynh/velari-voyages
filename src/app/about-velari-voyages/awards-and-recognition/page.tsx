@@ -15,7 +15,7 @@ export default function AwardsAndRecognitionPage() {
       });
       return acc;
     },
-    {} as Record<number, typeof velariVoyagesAwards>
+    {} as Record<number, typeof velariVoyagesAwards>,
   );
 
   // Get years in descending order (most recent first)
