@@ -2357,5 +2357,686 @@ export const londonCruises: Cruise[] = [
     description: "Experience the elegance of the seas on this timeless solstice through Northern Europe, starting from the illustrious port of London. From Stockholm, St. Petersburg, Copenhagen to Tallinn, each destination offers its own story, culture, and breathtaking views.",
     rating: 4.7,
     tags: ["VIP","short-getaway"]
+  },
+  {
+    basePrice: 5087,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "Board in London for a hand-crafted elevation through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Copenhagen, Helsinki.",
+      distance: "1379 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from London to Copenhagen"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Helsinki"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ella Payne",
+        role: "Reservations Agent",
+        languages: ["Gujarati"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
+        contact: {
+          contactEmail: "mesmerizing.drift.of@velarivoyages.com",
+          contactNumber: "+1-105-178-7610"
+        }
+      }
+    ],
+    title: "Mesmerizing Drift of the Timbered Waterfronts",
+    description: "Board in London for a hand-crafted elevation through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Copenhagen, Helsinki.",
+    rating: 4.1,
+    tags: ["cruise-vacation"]
+  },
+  {
+    basePrice: 6872,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "Launch into adventure from London and sail deep into the heart of the Northern Europe. With ports of call like Oslo, Berlin, Kiel, Amsterdam, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "951 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from London to Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Berlin"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Kiel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Amsterdam"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Layla Chambers",
+        role: "Reservations Agent",
+        languages: ["Gujarati"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+        contact: {
+          contactEmail: "sundrenched.discover@velarivoyages.com",
+          contactNumber: "+1-634-797-2985"
+        }
+      }
+    ],
+    title: "Sun-Drenched Discovery of the Nordic Waters",
+    description: "Launch into adventure from London and sail deep into the heart of the Northern Europe. With ports of call like Oslo, Berlin, Kiel, Amsterdam, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.7,
+    tags: ["tropical","cruise-excursion","expedition"]
+  },
+  {
+    basePrice: 5209,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Start in the vibrant city of London and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Copenhagen, Southampton.",
+      distance: "746 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from London to Copenhagen"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Aria Dunn",
+        role: "Reservations Agent",
+        languages: ["Gujarati"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "enchanting.requiem.o@velarivoyages.com",
+          contactNumber: "+1-494-181-4235"
+        }
+      }
+    ],
+    title: "Enchanting Requiem of the Timbered Waterfronts",
+    description: "Start in the vibrant city of London and venture into the iconic Northern Europe. Discover authentic local cultures, cuisine, and coastal wonders in Copenhagen, Southampton.",
+    rating: 4.7,
+    tags: ["short-getaway","cruise-getaway","adventure"]
+  },
+  {
+    basePrice: 3181,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "Let the winds of the Northern Europe carry you from London to the most stunning ports in the region. With destinations like Helsinki, Stockholm, this sanctuary redefines luxury travel.",
+      distance: "686 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from London to Helsinki"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Cynthia Warren",
+        role: "Reservations Agent",
+        languages: ["Gujarati"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "exquisite.exploratio@velarivoyages.com",
+          contactNumber: "+1-841-225-8305"
+        }
+      }
+    ],
+    title: "Exquisite Exploration of the Fog-Laced Legacy",
+    description: "Let the winds of the Northern Europe carry you from London to the most stunning ports in the region. With destinations like Helsinki, Stockholm, this sanctuary redefines luxury travel.",
+    rating: 4.5,
+    tags: ["holiday-cruise","cruise-vacation"]
+  },
+  {
+    basePrice: 6348,
+    departureLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    arrivalLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  }
+],
+      description: "Escape the everyday with this dreamlike journey through Northern Europe, departing from London. You'll visit Oslo, Stockholm, Helsinki, Kiel, where every stop is a new adventure.",
+      distance: "680 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from London to Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Helsinki"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Kiel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Dean",
+        role: "Reservations Agent",
+        languages: ["Gujarati"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+        contact: {
+          contactEmail: "breathtaking.journey@velarivoyages.com",
+          contactNumber: "+1-923-241-2316"
+        }
+      }
+    ],
+    title: "Breathtaking Journey of the Fog-Laced Legacy",
+    description: "Escape the everyday with this dreamlike journey through Northern Europe, departing from London. You'll visit Oslo, Stockholm, Helsinki, Kiel, where every stop is a new adventure.",
+    rating: 4.2,
+    tags: ["wellness"]
   }
 ];

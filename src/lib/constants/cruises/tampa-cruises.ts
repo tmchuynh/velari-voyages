@@ -2553,5 +2553,602 @@ export const tampaCruises: Cruise[] = [
     description: "Set off on a reflection from Tampa that captures the essence of Caribbean. Discover cultural gems and culinary delights across George Town, San Juan, Roatán.",
     rating: 4.3,
     tags: ["relaxation","cruise-journey","culinary"]
+  },
+  {
+    basePrice: 5207,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Cozumel",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from Tampa into the beautiful expanse of Caribbean. Along the way, enjoy rich cultural experiences in Fort Lauderdale, St. Thomas, Cozumel, where history, nature, and cuisine collide.",
+      distance: "1036 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tampa to Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Bella Watson",
+        role: "Travel Advisor",
+        languages: ["Danish","Urdu"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
+        contact: {
+          contactEmail: "alluring.sanctum.of.@velarivoyages.com",
+          contactNumber: "+1-901-390-3930"
+        }
+      }
+    ],
+    title: "Alluring Sanctum of the Warm Currents Hub",
+    description: "Sail away from Tampa into the beautiful expanse of Caribbean. Along the way, enjoy rich cultural experiences in Fort Lauderdale, St. Thomas, Cozumel, where history, nature, and cuisine collide.",
+    rating: 4.6,
+    tags: ["tropical","luxury"]
+  },
+  {
+    basePrice: 8778,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An unforgettable renaissance awaits as you cruise from Tampa across Caribbean. Dive into history, flavor, and culture with stops including George Town, Nassau.",
+      distance: "964 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Allison Fletcher",
+        role: "Travel Advisor",
+        languages: ["Danish","Urdu"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+        contact: {
+          contactEmail: "alluring.mirage.of.t@velarivoyages.com",
+          contactNumber: "+1-219-573-6940"
+        }
+      }
+    ],
+    title: "Alluring Mirage of the Azure Horizons",
+    description: "An unforgettable renaissance awaits as you cruise from Tampa across Caribbean. Dive into history, flavor, and culture with stops including George Town, Nassau.",
+    rating: 4.0,
+    tags: ["seasonal","historical"]
+  },
+  {
+    basePrice: 6275,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  }
+],
+      description: "Step aboard in Tampa and begin a infinite journey through the scenic Caribbean. From historic cities to coastal hideaways like Bermuda, Roatán, Miami, every day is unforgettable.",
+      distance: "631 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tampa to Bermuda"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Bermuda to Roatán"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to Miami"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Tampa"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Tampa"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Ellis",
+        role: "Travel Advisor",
+        languages: ["Danish","Urdu"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
+        contact: {
+          contactEmail: "hidden.infinite.of.t@velarivoyages.com",
+          contactNumber: "+1-703-348-1016"
+        }
+      }
+    ],
+    title: "Hidden Infinite of the Sugarcane Skies",
+    description: "Step aboard in Tampa and begin a infinite journey through the scenic Caribbean. From historic cities to coastal hideaways like Bermuda, Roatán, Miami, every day is unforgettable.",
+    rating: 4.0,
+    tags: ["short-getaway","cruise","cruise-journey"]
+  },
+  {
+    basePrice: 4260,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your mystical journey from Tampa. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Miami, Nassau.",
+      distance: "1498 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Miami to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Helen Reed",
+        role: "Travel Advisor",
+        languages: ["Danish","Urdu"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "majestic.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-922-316-5919"
+        }
+      }
+    ],
+    title: "Majestic Zenith of the Warm Currents Hub",
+    description: "Let the spirit of exploration guide your mystical journey from Tampa. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Miami, Nassau.",
+    rating: 4.6,
+    tags: ["expedition","cruise-holiday"]
+  },
+  {
+    basePrice: 6625,
+    departureLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    arrivalLocation: {
+  "city": "Fort Lauderdale",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart Tampa on a relaxing reflection through the Caribbean region. Highlights include the stunning coastlines of Cozumel, Fort Lauderdale, all while enjoying first-class amenities on board.",
+      distance: "1157 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Fort Lauderdale"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Emma Sutton",
+        role: "Travel Advisor",
+        languages: ["Danish","Urdu"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        contact: {
+          contactEmail: "exquisite.legacy.of.@velarivoyages.com",
+          contactNumber: "+1-533-513-6740"
+        }
+      }
+    ],
+    title: "Exquisite Legacy of the Azure Horizons",
+    description: "Depart Tampa on a relaxing reflection through the Caribbean region. Highlights include the stunning coastlines of Cozumel, Fort Lauderdale, all while enjoying first-class amenities on board.",
+    rating: 4.3,
+    tags: ["glacier-cruise"]
   }
 ];

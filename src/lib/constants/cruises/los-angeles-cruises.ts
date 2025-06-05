@@ -4795,5 +4795,624 @@ export const losAngelesCruises: Cruise[] = [
     description: "Set sail from Los Angeles on this captivating panorama through the heart of West Coast USA. Experience the perfect blend of relaxation and adventure as you explore Rome and Mykonos and Athens, with personalized service and unforgettable experiences awaiting at every port.",
     rating: 4.1,
     tags: ["sightseeing"]
+  },
+  {
+    basePrice: 6945,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Your journey through the West Coast USA begins in Los Angeles, where elegance meets adventure. Explore the shores of Rome, Florence, with curated excursions and luxurious onboard amenities.",
+      distance: "1126 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Rome"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Pamela Hall",
+        role: "Reservations Agent",
+        languages: ["Burmese","Vietnamese","Swedish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        contact: {
+          contactEmail: "spectacular.whisper.@velarivoyages.com",
+          contactNumber: "+1-752-439-8094"
+        }
+      }
+    ],
+    title: "Spectacular Whisper of the Stage of Stars",
+    description: "Your journey through the West Coast USA begins in Los Angeles, where elegance meets adventure. Explore the shores of Rome, Florence, with curated excursions and luxurious onboard amenities.",
+    rating: 4.4,
+    tags: ["anniversary-cruise","cruise-ship","cruise"]
+  },
+  {
+    basePrice: 5197,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  }
+],
+      description: "Let the winds of the West Coast USA carry you from Los Angeles to the most stunning ports in the region. With destinations like Malta, Rome, Mykonos, Venice, this discovery redefines luxury travel.",
+      distance: "1069 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Venice"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Los Angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 19",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Bella Griffin",
+        role: "Reservations Agent",
+        languages: ["Burmese","Vietnamese","Swedish"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+        contact: {
+          contactEmail: "horizonkissed.requie@velarivoyages.com",
+          contactNumber: "+1-366-593-8798"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Requiem of the Cinematic Mirage",
+    description: "Let the winds of the West Coast USA carry you from Los Angeles to the most stunning ports in the region. With destinations like Malta, Rome, Mykonos, Venice, this discovery redefines luxury travel.",
+    rating: 4.9,
+    tags: ["short-getaway","seasonal"]
+  },
+  {
+    basePrice: 9624,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Athens",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Launch into adventure from Los Angeles and sail deep into the heart of the West Coast USA. With ports of call like Florence, Athens, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1370 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Florence"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Athens"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Kennedy West",
+        role: "Reservations Agent",
+        languages: ["Burmese","Vietnamese","Swedish"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+        contact: {
+          contactEmail: "majestic.exploration@velarivoyages.com",
+          contactNumber: "+1-817-162-9208"
+        }
+      }
+    ],
+    title: "Majestic Exploration of the Stage of Stars",
+    description: "Launch into adventure from Los Angeles and sail deep into the heart of the West Coast USA. With ports of call like Florence, Athens, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.3,
+    tags: ["cruise-ship","relaxation"]
+  },
+  {
+    basePrice: 1084,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "Your symphony begins in Los Angeles, where every sunset on the West Coast USA horizon promises another day of discovery—from Rome, Lisbon to hidden ports of charm.",
+      distance: "836 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Melissa Payne",
+        role: "Reservations Agent",
+        languages: ["Burmese","Vietnamese","Swedish"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+        contact: {
+          contactEmail: "pristine.discovery.o@velarivoyages.com",
+          contactNumber: "+1-993-220-4860"
+        }
+      }
+    ],
+    title: "Pristine Discovery of the Wine Country Views",
+    description: "Your symphony begins in Los Angeles, where every sunset on the West Coast USA horizon promises another day of discovery—from Rome, Lisbon to hidden ports of charm.",
+    rating: 4.4,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 6596,
+    departureLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    arrivalLocation: {
+  "city": "Los Angeles",
+  "country": "United States",
+  "region": "West Coast USA",
+  "coordinates": {
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "United States",
+    "region": "West Coast USA",
+    "coordinates": {
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    }
+  }
+],
+      description: "From the lively departure port of Los Angeles, this curated pulse showcases the finest of West Coast USA. With visits to Santorini, Lisbon, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "841 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Los Angeles to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Lisbon"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Los Angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Los Angeles"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Abigail Curtis",
+        role: "Reservations Agent",
+        languages: ["Burmese","Vietnamese","Swedish"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        contact: {
+          contactEmail: "refined.retreat.of.t@velarivoyages.com",
+          contactNumber: "+1-327-333-3253"
+        }
+      }
+    ],
+    title: "Refined Retreat of the Surf & Silence",
+    description: "From the lively departure port of Los Angeles, this curated pulse showcases the finest of West Coast USA. With visits to Santorini, Lisbon, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.7,
+    tags: ["cruise-getaway","cultural"]
   }
 ];

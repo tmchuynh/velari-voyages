@@ -3222,5 +3222,706 @@ export const sanJuanCruises: Cruise[] = [
     description: "Your infinite begins in San Juan, where every sunset on the Caribbean horizon promises another day of discovery—from Nassau, Cozumel, Roatán, George Town to hidden ports of charm.",
     rating: 4.1,
     tags: ["historical"]
+  },
+  {
+    basePrice: 3162,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Escape into the calm waters of Caribbean with this panoramic journey from San Juan. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Cozumel, Roatán, Nassau.",
+      distance: "922 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Roatán"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Roatán to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Jennifer Sutton",
+        role: "Customer Service Representative",
+        languages: ["English","Gujarati"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+        contact: {
+          contactEmail: "luxurious.elevation.@velarivoyages.com",
+          contactNumber: "+1-518-464-6997"
+        }
+      }
+    ],
+    title: "Luxurious Elevation of the Colorful Coastline",
+    description: "Escape into the calm waters of Caribbean with this panoramic journey from San Juan. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Cozumel, Roatán, Nassau.",
+    rating: 4.3,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 9959,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "Board in San Juan for a hand-crafted expedition through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Philipsburg, St. Thomas.",
+      distance: "870 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Mitchell",
+        role: "Customer Service Representative",
+        languages: ["English","Gujarati"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        contact: {
+          contactEmail: "immersive.sanctum.of@velarivoyages.com",
+          contactNumber: "+1-744-281-3475"
+        }
+      }
+    ],
+    title: "Immersive Sanctum of the Island Reverie",
+    description: "Board in San Juan for a hand-crafted expedition through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Philipsburg, St. Thomas.",
+    rating: 4.5,
+    tags: ["cruise-experience","luxury"]
+  },
+  {
+    basePrice: 6150,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "St. Thomas",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this whispering exploration departing San Juan. Savor local cuisine and uncover regional beauty from Philipsburg to Cozumel.",
+      distance: "1148 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Nassau"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to St. Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Evelyn West",
+        role: "Customer Service Representative",
+        languages: ["English","Gujarati"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "sublime.retreat.of.t@velarivoyages.com",
+          contactNumber: "+1-669-915-4168"
+        }
+      }
+    ],
+    title: "Sublime Retreat of the Colonial Echo",
+    description: "Cruise into cultural richness aboard this whispering exploration departing San Juan. Savor local cuisine and uncover regional beauty from Philipsburg to Cozumel.",
+    rating: 4.2,
+    tags: ["expedition","themed-cruise","wellness"]
+  },
+  {
+    basePrice: 2908,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "From the lively departure port of San Juan, this curated zenith showcases the finest of Caribbean. With visits to Bermuda, St. Thomas, Philipsburg, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "727 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Bermuda"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Philipsburg"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Kinsley Cooper",
+        role: "Customer Service Representative",
+        languages: ["English","Gujarati"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+        contact: {
+          contactEmail: "lavish.lullaby.of.th@velarivoyages.com",
+          contactNumber: "+1-389-118-7655"
+        }
+      }
+    ],
+    title: "Lavish Lullaby of the Colonial Echo",
+    description: "From the lively departure port of San Juan, this curated zenith showcases the finest of Caribbean. With visits to Bermuda, St. Thomas, Philipsburg, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.6,
+    tags: ["long-distance","fall-cruise"]
+  },
+  {
+    basePrice: 2608,
+    departureLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "Puerto Rico",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 18.4655,
+    "longitude": -66.1057
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "Puerto Rico",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 18.4655,
+      "longitude": -66.1057
+    }
+  }
+],
+      description: "From the lively departure port of San Juan, this curated discovery showcases the finest of Caribbean. With visits to Tampa, Miami, Roatán, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1198 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Tampa"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Miami"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Roatán"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Ellie Sutton",
+        role: "Customer Service Representative",
+        languages: ["English","Gujarati"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
+        contact: {
+          contactEmail: "lavish.reflection.of@velarivoyages.com",
+          contactNumber: "+1-941-826-6204"
+        }
+      }
+    ],
+    title: "Lavish Reflection of the Palm-Fringed Paradises",
+    description: "From the lively departure port of San Juan, this curated discovery showcases the finest of Caribbean. With visits to Tampa, Miami, Roatán, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.3,
+    tags: ["themed-cruise"]
   }
 ];

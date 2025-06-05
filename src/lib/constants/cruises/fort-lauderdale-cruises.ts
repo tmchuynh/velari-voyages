@@ -3393,5 +3393,682 @@ export const fortLauderdaleCruises: Cruise[] = [
     description: "Begin an epic labyrinth from Fort Lauderdale, where the seas meet culture. Visit the remarkable ports of Roatán, Philipsburg, Nassau while indulging in fine dining, entertainment, and unmatched hospitality.",
     rating: 4.4,
     tags: ["glacier-cruise","anniversary-cruise","weekend-cruise"]
+  },
+  {
+    basePrice: 9842,
+    departureLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    arrivalLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  }
+],
+      description: "Let the waves lead you from Fort Lauderdale on this whispering sojourn. Traverse the iconic waters of Caribbean and discover the beauty of Cozumel, George Town, Bermuda, Tampa.",
+      distance: "1418 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to George Town"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Bermuda"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to Tampa"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Catherine Collins",
+        role: "Corporate Concierge",
+        languages: ["Polish"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+        contact: {
+          contactEmail: "mystical.mythos.of.t@velarivoyages.com",
+          contactNumber: "+1-959-287-1375"
+        }
+      }
+    ],
+    title: "Mystical Mythos of the Tropical Constellation",
+    description: "Let the waves lead you from Fort Lauderdale on this whispering sojourn. Traverse the iconic waters of Caribbean and discover the beauty of Cozumel, George Town, Bermuda, Tampa.",
+    rating: 4.4,
+    tags: ["wellness","luxury","cruise-line"]
+  },
+  {
+    basePrice: 7970,
+    departureLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    arrivalLocation: {
+  "city": "Cozumel",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart Fort Lauderdale on a relaxing excursion through the Caribbean region. Highlights include the stunning coastlines of Miami, St. Thomas, Cozumel, all while enjoying first-class amenities on board.",
+      distance: "900 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Miami to St. Thomas"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Skylar Dixon",
+        role: "Corporate Concierge",
+        languages: ["Polish"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
+        contact: {
+          contactEmail: "midnight.arcadia.of.@velarivoyages.com",
+          contactNumber: "+1-203-585-4150"
+        }
+      }
+    ],
+    title: "Midnight Arcadia of the Turquoise Lagoons",
+    description: "Depart Fort Lauderdale on a relaxing excursion through the Caribbean region. Highlights include the stunning coastlines of Miami, St. Thomas, Cozumel, all while enjoying first-class amenities on board.",
+    rating: 4.4,
+    tags: ["relaxation","luxury"]
+  },
+  {
+    basePrice: 9572,
+    departureLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    arrivalLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  }
+],
+      description: "Depart Fort Lauderdale on a relaxing legacy through the Caribbean region. Highlights include the stunning coastlines of Philipsburg, San Juan, St. Thomas, Bermuda, all while enjoying first-class amenities on board.",
+      distance: "966 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Philipsburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to St. Thomas"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Bermuda"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Bermuda to Fort Lauderdale"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Helen Griffin",
+        role: "Corporate Concierge",
+        languages: ["Polish"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
+        contact: {
+          contactEmail: "majestic.enigma.of.t@velarivoyages.com",
+          contactNumber: "+1-139-462-5026"
+        }
+      }
+    ],
+    title: "Majestic Enigma of the Palm-Fringed Paradises",
+    description: "Depart Fort Lauderdale on a relaxing legacy through the Caribbean region. Highlights include the stunning coastlines of Philipsburg, San Juan, St. Thomas, Bermuda, all while enjoying first-class amenities on board.",
+    rating: 4.7,
+    tags: ["glacier-cruise","cruise-excursion","cruise-adventure"]
+  },
+  {
+    basePrice: 6975,
+    departureLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this dreamlike elevation through Caribbean, starting from the illustrious port of Fort Lauderdale. From St. Thomas, Miami to Nassau, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1439 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Miami"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Miami to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Lawson",
+        role: "Corporate Concierge",
+        languages: ["Polish"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+        contact: {
+          contactEmail: "infinite.elevation.o@velarivoyages.com",
+          contactNumber: "+1-248-911-4743"
+        }
+      }
+    ],
+    title: "Infinite Elevation of the Palm-Fringed Paradises",
+    description: "Experience the elegance of the seas on this dreamlike elevation through Caribbean, starting from the illustrious port of Fort Lauderdale. From St. Thomas, Miami to Nassau, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.9,
+    tags: ["expedition","cruise-line","wellness"]
+  },
+  {
+    basePrice: 1935,
+    departureLocation: {
+  "city": "Fort Lauderdale",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 26.122439,
+    "longitude": -80.137317
+  }
+},
+    arrivalLocation: {
+  "city": "Tampa",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 27.9506,
+    "longitude": -82.4572
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Fort Lauderdale",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 26.122439,
+      "longitude": -80.137317
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  }
+],
+      description: "Launch into adventure from Fort Lauderdale and sail deep into the heart of the Caribbean. With ports of call like Nassau, Tampa, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "942 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Tampa"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Tampa"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Samantha Wells",
+        role: "Corporate Concierge",
+        languages: ["Polish"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "epic.renaissance.of.@velarivoyages.com",
+          contactNumber: "+1-211-112-1219"
+        }
+      }
+    ],
+    title: "Epic Renaissance of the Waters of Leisure",
+    description: "Launch into adventure from Fort Lauderdale and sail deep into the heart of the Caribbean. With ports of call like Nassau, Tampa, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.5,
+    tags: ["VIP","anniversary-cruise"]
   }
 ];

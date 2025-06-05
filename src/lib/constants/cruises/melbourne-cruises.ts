@@ -2442,5 +2442,748 @@ export const melbourneCruises: Cruise[] = [
     description: "Sail away from the charming harbor of Melbourne on this heavenly journey across Asia Pacific. Uncover the beauty and history of Tokyo, Sydney, Singapore, Bali with curated excursions, world-class cuisine, and exceptional service.",
     rating: 4.7,
     tags: ["cruise","long-distance","repositioning"]
+  },
+  {
+    basePrice: 3399,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "Embark on an unforgettable reflection from the vibrant port of Melbourne, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Auckland, Kyoto, Tokyo, Shanghai, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "882 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Tokyo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Shanghai"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Harper Chambers",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Burmese","Filipino","Swedish"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "golden.serenade.of.t@velarivoyages.com",
+          contactNumber: "+1-368-801-5659"
+        }
+      }
+    ],
+    title: "Golden Serenade of the Laneway Wonderland",
+    description: "Embark on an unforgettable reflection from the vibrant port of Melbourne, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Auckland, Kyoto, Tokyo, Shanghai, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.2,
+    tags: ["culinary"]
+  },
+  {
+    basePrice: 1691,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "Join us in Melbourne for a drift of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Tokyo, Auckland where timeless traditions meet modern luxuries.",
+      distance: "699 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Auckland"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Carol Hudson",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Burmese","Filipino","Swedish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+        contact: {
+          contactEmail: "floating.awakening.o@velarivoyages.com",
+          contactNumber: "+1-566-302-2160"
+        }
+      }
+    ],
+    title: "Floating Awakening of the Jazz of the Streets",
+    description: "Join us in Melbourne for a drift of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Tokyo, Auckland where timeless traditions meet modern luxuries.",
+    rating: 4.0,
+    tags: ["adventure","long-distance"]
+  },
+  {
+    basePrice: 5912,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this mesmerizing pilgrimage departing Melbourne. Savor local cuisine and uncover regional beauty from Bangkok to Hong Kong.",
+      distance: "818 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Bangkok"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Hong Kong"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Kyoto"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Tokyo"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Ella Keller",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Burmese","Filipino","Swedish"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "majestic.horizon.of.@velarivoyages.com",
+          contactNumber: "+1-819-746-7095"
+        }
+      }
+    ],
+    title: "Majestic Horizon of the Laneway Wonderland",
+    description: "Cruise into cultural richness aboard this mesmerizing pilgrimage departing Melbourne. Savor local cuisine and uncover regional beauty from Bangkok to Hong Kong.",
+    rating: 4.0,
+    tags: ["general","cruise-vacation","cruise-holiday"]
+  },
+  {
+    basePrice: 1783,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Bali",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This retreat takes you beyond the ordinary, starting in Melbourne. With breathtaking stops in Singapore, Bali, your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "614 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Bali"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Wallace",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Burmese","Filipino","Swedish"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+        contact: {
+          contactEmail: "floating.sanctum.of.@velarivoyages.com",
+          contactNumber: "+1-494-985-2464"
+        }
+      }
+    ],
+    title: "Floating Sanctum of the Jazz of the Streets",
+    description: "This retreat takes you beyond the ordinary, starting in Melbourne. With breathtaking stops in Singapore, Bali, your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.2,
+    tags: ["general","cruise","cruise-line"]
+  },
+  {
+    basePrice: 6691,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "Embark from Melbourne and traverse the Asia Pacific in style. Whether it’s the energy of Auckland or the calm of Sydney, each destination reveals a new side of paradise.",
+      distance: "725 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Sydney to Shanghai"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Bangkok"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Kinsley Hayes",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Burmese","Filipino","Swedish"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+        contact: {
+          contactEmail: "sublime.retreat.of.t@velarivoyages.com",
+          contactNumber: "+1-775-269-4822"
+        }
+      }
+    ],
+    title: "Sublime Retreat of the Cultural Capital of Australia",
+    description: "Embark from Melbourne and traverse the Asia Pacific in style. Whether it’s the energy of Auckland or the calm of Sydney, each destination reveals a new side of paradise.",
+    rating: 4.5,
+    tags: ["wellness","anniversary-cruise"]
   }
 ];

@@ -3018,5 +3018,666 @@ export const singaporeCruises: Cruise[] = [
     description: "Embark on an unforgettable reflection from the vibrant port of Singapore, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Bangkok, Tokyo, Sydney, Shanghai, this journey combines cultural immersion with breathtaking scenery.",
     rating: 4.9,
     tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 5813,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Depart from the iconic port of Singapore and sail through the enchanting Asia Pacific. Explore vibrant destinations like Auckland, Shanghai, each offering its own unique charm and local flair.",
+      distance: "563 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Stephanie Grant",
+        role: "Group Booking Coordinator",
+        languages: ["Filipino"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
+        contact: {
+          contactEmail: "charming.mirage.of.t@velarivoyages.com",
+          contactNumber: "+1-723-286-7769"
+        }
+      }
+    ],
+    title: "Charming Mirage of the Tea-Laced Traditions",
+    description: "Depart from the iconic port of Singapore and sail through the enchanting Asia Pacific. Explore vibrant destinations like Auckland, Shanghai, each offering its own unique charm and local flair.",
+    rating: 4.4,
+    tags: ["general","luxury","family-friendly"]
+  },
+  {
+    basePrice: 7753,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "This hand-selected forbidden cruise offers a true taste of Asia Pacific. Depart from Singapore and explore ports like Sydney, Auckland, Melbourne, each telling a story through food, music, and tradition.",
+      distance: "1207 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Auckland"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Hannah Hamilton",
+        role: "Group Booking Coordinator",
+        languages: ["Filipino"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
+        contact: {
+          contactEmail: "dreamlike.embrace.of@velarivoyages.com",
+          contactNumber: "+1-803-878-1058"
+        }
+      }
+    ],
+    title: "Dreamlike Embrace of the Pacific Dreams",
+    description: "This hand-selected forbidden cruise offers a true taste of Asia Pacific. Depart from Singapore and explore ports like Sydney, Auckland, Melbourne, each telling a story through food, music, and tradition.",
+    rating: 4.9,
+    tags: ["cruise-excursion"]
+  },
+  {
+    basePrice: 9384,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Join us in Singapore for a haven of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Sydney, Kyoto where timeless traditions meet modern luxuries.",
+      distance: "1352 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Kyoto"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Nora Fisher",
+        role: "Group Booking Coordinator",
+        languages: ["Filipino"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
+        contact: {
+          contactEmail: "floating.saga.of.the@velarivoyages.com",
+          contactNumber: "+1-671-432-5877"
+        }
+      }
+    ],
+    title: "Floating Saga of the Sacred Shores",
+    description: "Join us in Singapore for a haven of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Sydney, Kyoto where timeless traditions meet modern luxuries.",
+    rating: 4.7,
+    tags: ["culinary"]
+  },
+  {
+    basePrice: 9811,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this velvet sanctuary through Asia Pacific, starting from the illustrious port of Singapore. From Melbourne, Auckland to Shanghai, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1251 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Melbourne"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Auckland"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Shanghai"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Hall",
+        role: "Group Booking Coordinator",
+        languages: ["Filipino"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "golden.reverie.of.th@velarivoyages.com",
+          contactNumber: "+1-234-128-2751"
+        }
+      }
+    ],
+    title: "Golden Reverie of the Lion City",
+    description: "Experience the elegance of the seas on this velvet sanctuary through Asia Pacific, starting from the illustrious port of Singapore. From Melbourne, Auckland to Shanghai, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.8,
+    tags: ["adventure","historical"]
+  },
+  {
+    basePrice: 4199,
+    departureLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Embark from Singapore and traverse the Asia Pacific in style. Whether it’s the energy of Bangkok or the calm of Kyoto, each destination reveals a new side of paradise.",
+      distance: "639 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Bangkok"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Kyoto"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Kyoto to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Chloe Fox",
+        role: "Group Booking Coordinator",
+        languages: ["Filipino"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
+        contact: {
+          contactEmail: "enchanting.frontier.@velarivoyages.com",
+          contactNumber: "+1-391-428-7059"
+        }
+      }
+    ],
+    title: "Enchanting Frontier of the Oriental Realms",
+    description: "Embark from Singapore and traverse the Asia Pacific in style. Whether it’s the energy of Bangkok or the calm of Kyoto, each destination reveals a new side of paradise.",
+    rating: 4.7,
+    tags: ["repositioning"]
   }
 ];

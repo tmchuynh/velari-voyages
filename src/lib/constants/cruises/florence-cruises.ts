@@ -3539,5 +3539,748 @@ export const florenceCruises: Cruise[] = [
     description: "A voyage of contrasts awaits from Florence. Discover the historical and natural richness of Mediterranean as you cruise to spectacular destinations like Athens, Santorini, Dubrovnik.",
     rating: 4.5,
     tags: ["historical"]
+  },
+  {
+    basePrice: 9463,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Join us in Florence for a mythos of a lifetime. Sail across the serene waters of Mediterranean, stopping at ports like Rome, Mykonos, Lisbon where timeless traditions meet modern luxuries.",
+      distance: "916 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Lisbon"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Valentina Palmer",
+        role: "Sales Consultant",
+        languages: ["Polish","Bengali"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        contact: {
+          contactEmail: "forbidden.adventure.@velarivoyages.com",
+          contactNumber: "+1-439-245-5419"
+        }
+      }
+    ],
+    title: "Forbidden Adventure of the Cradle of the Renaissance",
+    description: "Join us in Florence for a mythos of a lifetime. Sail across the serene waters of Mediterranean, stopping at ports like Rome, Mykonos, Lisbon where timeless traditions meet modern luxuries.",
+    rating: 4.2,
+    tags: ["cruise-holiday","cruise-getaway","cruise-ship"]
+  },
+  {
+    basePrice: 1521,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Florence on this spectacular journey across Mediterranean. Uncover the beauty and history of Dubrovnik, Venice, Lisbon, Rome with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "759 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Dubrovnik"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Venice"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Lisbon"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Rome"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Brooklyn Hudson",
+        role: "Sales Consultant",
+        languages: ["Polish","Bengali"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "secluded.frontier.of@velarivoyages.com",
+          contactNumber: "+1-382-798-7946"
+        }
+      }
+    ],
+    title: "Secluded Frontier of the Canvas of Civilization",
+    description: "Sail away from the charming harbor of Florence on this spectacular journey across Mediterranean. Uncover the beauty and history of Dubrovnik, Venice, Lisbon, Rome with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.8,
+    tags: ["cruise-experience","family-friendly"]
+  },
+  {
+    basePrice: 2663,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Board in Florence for a hand-crafted embrace through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Milan, Mykonos, Santorini.",
+      distance: "1277 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Milan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Santorini"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Melissa Fox",
+        role: "Sales Consultant",
+        languages: ["Polish","Bengali"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+        contact: {
+          contactEmail: "aweinspiring.adventu@velarivoyages.com",
+          contactNumber: "+1-967-262-2257"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Adventure of the Canvas of Civilization",
+    description: "Board in Florence for a hand-crafted embrace through the breathtaking Mediterranean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Milan, Mykonos, Santorini.",
+    rating: 4.6,
+    tags: ["cruise-vacation"]
+  },
+  {
+    basePrice: 7209,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your journey through the Mediterranean begins in Florence, where elegance meets adventure. Explore the shores of Lisbon, Dubrovnik, Mykonos, with curated excursions and luxurious onboard amenities.",
+      distance: "766 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Lisbon"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Dubrovnik"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Julie Wells",
+        role: "Sales Consultant",
+        languages: ["Polish","Bengali"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        contact: {
+          contactEmail: "legendary.mystique.o@velarivoyages.com",
+          contactNumber: "+1-325-828-8465"
+        }
+      }
+    ],
+    title: "Legendary Mystique of the Sunlit Fresco Realm",
+    description: "Your journey through the Mediterranean begins in Florence, where elegance meets adventure. Explore the shores of Lisbon, Dubrovnik, Mykonos, with curated excursions and luxurious onboard amenities.",
+    rating: 4.2,
+    tags: ["repositioning","long-distance"]
+  },
+  {
+    basePrice: 3642,
+    departureLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Launch into adventure from Florence and sail deep into the heart of the Mediterranean. With ports of call like Milan, Rome, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "804 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Milan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Rome"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Dubrovnik"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Anna Curtis",
+        role: "Sales Consultant",
+        languages: ["Polish","Bengali"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
+        contact: {
+          contactEmail: "legendary.mirage.of.@velarivoyages.com",
+          contactNumber: "+1-518-673-7781"
+        }
+      }
+    ],
+    title: "Legendary Mirage of the Sunlit Fresco Realm",
+    description: "Launch into adventure from Florence and sail deep into the heart of the Mediterranean. With ports of call like Milan, Rome, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.3,
+    tags: ["cultural","cruise-excursion"]
   }
 ];

@@ -2798,5 +2798,686 @@ export const barcelonaCruises: Cruise[] = [
     description: "Let the winds of the Mediterranean carry you from Barcelona to the most stunning ports in the region. With destinations like Malta, Dubrovnik, this retreat redefines luxury travel.",
     rating: 4.4,
     tags: ["romantic","long-distance"]
+  },
+  {
+    basePrice: 4638,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Athens",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Join us in Barcelona for a whisper of a lifetime. Sail across the serene waters of Mediterranean, stopping at ports like Venice, Malta, Rome, Athens where timeless traditions meet modern luxuries.",
+      distance: "1030 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Venice"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Athens"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Gibson",
+        role: "Marketing Coordinator",
+        languages: ["German","Thai"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+        contact: {
+          contactEmail: "celestial.quest.of.t@velarivoyages.com",
+          contactNumber: "+1-709-756-1005"
+        }
+      }
+    ],
+    title: "Celestial Quest of the Sun-Drenched Riviera",
+    description: "Join us in Barcelona for a whisper of a lifetime. Sail across the serene waters of Mediterranean, stopping at ports like Venice, Malta, Rome, Athens where timeless traditions meet modern luxuries.",
+    rating: 4.5,
+    tags: ["weekend-cruise","tropical","anniversary-cruise"]
+  },
+  {
+    basePrice: 6217,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "This handpicked sanctuary begins in Barcelona and travels through Mediterranean's iconic waterscapes. Discover Venice, Athens as each day brings new stories and every night offers elegant repose.",
+      distance: "1357 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Venice"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Athens"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Abigail Hayes",
+        role: "Marketing Coordinator",
+        languages: ["German","Thai"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+        contact: {
+          contactEmail: "spectacular.infinite@velarivoyages.com",
+          contactNumber: "+1-180-718-5850"
+        }
+      }
+    ],
+    title: "Spectacular Infinite of the Spires and Spirits",
+    description: "This handpicked sanctuary begins in Barcelona and travels through Mediterranean's iconic waterscapes. Discover Venice, Athens as each day brings new stories and every night offers elegant repose.",
+    rating: 4.9,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 9046,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "Escape to sea from Barcelona on a tranquil voyage exploring the magic of Mediterranean. Visit unforgettable locales like Lisbon, Rome, where each stop inspires awe.",
+      distance: "539 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Lisbon"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Rome"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Elizabeth Curtis",
+        role: "Marketing Coordinator",
+        languages: ["German","Thai"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
+        contact: {
+          contactEmail: "immersive.reverie.of@velarivoyages.com",
+          contactNumber: "+1-613-175-6760"
+        }
+      }
+    ],
+    title: "Immersive Reverie of the Spires and Spirits",
+    description: "Escape to sea from Barcelona on a tranquil voyage exploring the magic of Mediterranean. Visit unforgettable locales like Lisbon, Rome, where each stop inspires awe.",
+    rating: 4.3,
+    tags: ["long-distance"]
+  },
+  {
+    basePrice: 6662,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your saga begins in Barcelona, where every sunset on the Mediterranean horizon promises another day of discovery—from Lisbon, Mykonos, Athens, Santorini to hidden ports of charm.",
+      distance: "1231 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Lisbon"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Olivia Hudson",
+        role: "Marketing Coordinator",
+        languages: ["German","Thai"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
+        contact: {
+          contactEmail: "horizonkissed.advent@velarivoyages.com",
+          contactNumber: "+1-901-641-6785"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Adventure of the Classical Crossroads",
+    description: "Your saga begins in Barcelona, where every sunset on the Mediterranean horizon promises another day of discovery—from Lisbon, Mykonos, Athens, Santorini to hidden ports of charm.",
+    rating: 4.8,
+    tags: ["cruise-adventure","short-getaway"]
+  },
+  {
+    basePrice: 7149,
+    departureLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "An unforgettable mystique awaits as you cruise from Barcelona across Mediterranean. Dive into history, flavor, and culture with stops including Lisbon, Milan.",
+      distance: "745 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Lisbon"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Milan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Avery Griffin",
+        role: "Marketing Coordinator",
+        languages: ["German","Thai"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
+        contact: {
+          contactEmail: "captivating.solstice@velarivoyages.com",
+          contactNumber: "+1-252-985-7651"
+        }
+      }
+    ],
+    title: "Captivating Solstice of the Sun-Kissed Labyrinth",
+    description: "An unforgettable mystique awaits as you cruise from Barcelona across Mediterranean. Dive into history, flavor, and culture with stops including Lisbon, Milan.",
+    rating: 4.8,
+    tags: ["holiday-cruise"]
   }
 ];

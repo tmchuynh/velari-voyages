@@ -2399,5 +2399,644 @@ export const kielCruises: Cruise[] = [
     description: "Sail into splendor from Kiel on a captivating voyage through Northern Europe. Let each stop—from Stockholm to Copenhagen—reveal the unique flavors and colors of the region.",
     rating: 5.0,
     tags: ["VIP"]
+  },
+  {
+    basePrice: 8673,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Set sail from historic Kiel for a modern escape into the Northern Europe. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in St. Petersburg, London, Berlin.",
+      distance: "578 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to St. Petersburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to London"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from London to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Kinsley Hamilton",
+        role: "Marketing Coordinator",
+        languages: ["Finnish","English"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+        contact: {
+          contactEmail: "radiant.oasis.of.the@velarivoyages.com",
+          contactNumber: "+1-568-439-5044"
+        }
+      }
+    ],
+    title: "Radiant Oasis of the Timbered Waterfronts",
+    description: "Set sail from historic Kiel for a modern escape into the Northern Europe. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in St. Petersburg, London, Berlin.",
+    rating: 4.9,
+    tags: ["cruise-getaway","cruise-holiday"]
+  },
+  {
+    basePrice: 3325,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail into splendor from Kiel on a mythic voyage through Northern Europe. Let each stop—from Southampton to Dublin—reveal the unique flavors and colors of the region.",
+      distance: "1417 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Southampton"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to Dublin"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Bella Foster",
+        role: "Marketing Coordinator",
+        languages: ["Finnish","English"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
+        contact: {
+          contactEmail: "eternal.lullaby.of.t@velarivoyages.com",
+          contactNumber: "+1-422-324-4116"
+        }
+      }
+    ],
+    title: "Eternal Lullaby of the Canal Whisper Port",
+    description: "Sail into splendor from Kiel on a mythic voyage through Northern Europe. Let each stop—from Southampton to Dublin—reveal the unique flavors and colors of the region.",
+    rating: 4.2,
+    tags: ["cultural"]
+  },
+  {
+    basePrice: 2313,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  }
+],
+      description: "Unwind and explore on this lullaby through Northern Europe, departing from Kiel. With every stop—from Amsterdam to Helsinki—you’ll collect memories that last a lifetime.",
+      distance: "1054 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to Amsterdam"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Helsinki"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Kiel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Audrey Knight",
+        role: "Marketing Coordinator",
+        languages: ["Finnish","English"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "velvet.sanctuary.of.@velarivoyages.com",
+          contactNumber: "+1-790-647-8717"
+        }
+      }
+    ],
+    title: "Velvet Sanctuary of the Steel and Salt Artery",
+    description: "Unwind and explore on this lullaby through Northern Europe, departing from Kiel. With every stop—from Amsterdam to Helsinki—you’ll collect memories that last a lifetime.",
+    rating: 4.2,
+    tags: ["cruise-experience"]
+  },
+  {
+    basePrice: 6659,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  }
+],
+      description: "This handpicked renaissance begins in Kiel and travels through Northern Europe's iconic waterscapes. Discover Copenhagen, Berlin, Southampton as each day brings new stories and every night offers elegant repose.",
+      distance: "531 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Berlin"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Southampton"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Kiel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Thandiwe Grant",
+        role: "Marketing Coordinator",
+        languages: ["Finnish","English"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
+        contact: {
+          contactEmail: "mystical.retreat.of.@velarivoyages.com",
+          contactNumber: "+1-971-362-7131"
+        }
+      }
+    ],
+    title: "Mystical Retreat of the Twilight Fjords",
+    description: "This handpicked renaissance begins in Kiel and travels through Northern Europe's iconic waterscapes. Discover Copenhagen, Berlin, Southampton as each day brings new stories and every night offers elegant repose.",
+    rating: 4.7,
+    tags: ["seasonal"]
+  },
+  {
+    basePrice: 1504,
+    departureLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "This hand-selected verdant cruise offers a true taste of Northern Europe. Depart from Kiel and explore ports like Southampton, Dublin, each telling a story through food, music, and tradition.",
+      distance: "535 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Southampton"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Graham",
+        role: "Marketing Coordinator",
+        languages: ["Finnish","English"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        contact: {
+          contactEmail: "harmonic.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-595-538-4166"
+        }
+      }
+    ],
+    title: "Harmonic Zenith of the Aurora Veil",
+    description: "This hand-selected verdant cruise offers a true taste of Northern Europe. Depart from Kiel and explore ports like Southampton, Dublin, each telling a story through food, music, and tradition.",
+    rating: 4.6,
+    tags: ["repositioning","cruise-getaway","romantic"]
   }
 ];

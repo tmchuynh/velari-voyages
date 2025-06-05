@@ -2297,5 +2297,726 @@ export const lisbonCruises: Cruise[] = [
     description: "Leave stress behind with this curated mystique from Lisbon. Sail across the best of Mediterranean and explore treasures like Barcelona, Santorini with comfort and style.",
     rating: 4.5,
     tags: ["cruise-ship","fall-cruise","weekend-cruise"]
+  },
+  {
+    basePrice: 4300,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "An unforgettable haven awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Santorini, Milan.",
+      distance: "724 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Milan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Ella Mason",
+        role: "Travel Advisor",
+        languages: ["Tamil"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
+        contact: {
+          contactEmail: "infinite.drift.of.th@velarivoyages.com",
+          contactNumber: "+1-543-177-3086"
+        }
+      }
+    ],
+    title: "Infinite Drift of the Mediterranean Mosaics",
+    description: "An unforgettable haven awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Santorini, Milan.",
+    rating: 4.1,
+    tags: ["cruise-holiday","tropical","cruise"]
+  },
+  {
+    basePrice: 4189,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Dubrovnik",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Launch into adventure from Lisbon and sail deep into the heart of the Mediterranean. With ports of call like Milan, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1158 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Milan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Dubrovnik"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Mitchell",
+        role: "Travel Advisor",
+        languages: ["Tamil"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        contact: {
+          contactEmail: "secluded.arcadia.of.@velarivoyages.com",
+          contactNumber: "+1-494-803-2738"
+        }
+      }
+    ],
+    title: "Secluded Arcadia of the Wine-Soaked Villages",
+    description: "Launch into adventure from Lisbon and sail deep into the heart of the Mediterranean. With ports of call like Milan, Dubrovnik, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.5,
+    tags: ["family-friendly","VIP"]
+  },
+  {
+    basePrice: 1074,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Barcelona",
+  "country": "Spain",
+  "coordinates": {
+    "latitude": 41.390205,
+    "longitude": 2.154007
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  }
+],
+      description: "An unforgettable elevation awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Venice, Santorini, Barcelona.",
+      distance: "1333 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Venice"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Barcelona"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Barcelona"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Curtis",
+        role: "Travel Advisor",
+        languages: ["Tamil"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+        contact: {
+          contactEmail: "heavenly.infinite.of@velarivoyages.com",
+          contactNumber: "+1-260-839-3185"
+        }
+      }
+    ],
+    title: "Heavenly Infinite of the Riverside Reverie",
+    description: "An unforgettable elevation awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Venice, Santorini, Barcelona.",
+    rating: 4.6,
+    tags: ["seasonal"]
+  },
+  {
+    basePrice: 4655,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "Begin your journey in Lisbon, where tradition meets travel. This immersive embrace reveals the finest of Mediterranean, from the beaches of Malta to the streets of Athens.",
+      distance: "1299 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Barcelona"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Venice"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Joan Dean",
+        role: "Travel Advisor",
+        languages: ["Tamil"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "extraordinary.haven.@velarivoyages.com",
+          contactNumber: "+1-671-172-3853"
+        }
+      }
+    ],
+    title: "Extraordinary Haven of the Mosaic Harbors",
+    description: "Begin your journey in Lisbon, where tradition meets travel. This immersive embrace reveals the finest of Mediterranean, from the beaches of Malta to the streets of Athens.",
+    rating: 4.3,
+    tags: ["wellness","cruise-excursion"]
+  },
+  {
+    basePrice: 9747,
+    departureLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "An unforgettable reflection awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Florence, Malta, Milan.",
+      distance: "668 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Florence"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Milan"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Emma Parker",
+        role: "Travel Advisor",
+        languages: ["Tamil"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
+        contact: {
+          contactEmail: "luxurious.discovery.@velarivoyages.com",
+          contactNumber: "+1-907-857-7625"
+        }
+      }
+    ],
+    title: "Luxurious Discovery of the Crystalline Bays",
+    description: "An unforgettable reflection awaits as you cruise from Lisbon across Mediterranean. Dive into history, flavor, and culture with stops including Rome, Florence, Malta, Milan.",
+    rating: 4.7,
+    tags: ["nature","exclusive"]
   }
 ];

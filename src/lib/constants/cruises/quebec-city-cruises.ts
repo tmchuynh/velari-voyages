@@ -2549,5 +2549,642 @@ export const quebecCityCruises: Cruise[] = [
     description: "Sail away from the charming harbor of Quebec City on this serene journey across East Coast Canada. Uncover the beauty and history of Barcelona, Athens, Mykonos with curated excursions, world-class cuisine, and exceptional service.",
     rating: 4.5,
     tags: ["weekend-cruise","cruise-holiday","expedition"]
+  },
+  {
+    basePrice: 5951,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "Begin your zenith in Quebec City, a gateway to the soul of East Coast Canada. Enjoy days spent exploring Florence, Milan, Athens, Lisbon and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "550 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Quebec City to Florence"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Milan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Athens"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Grace Spencer",
+        role: "Reservations Agent",
+        languages: ["Mandarin","Dutch"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+        contact: {
+          contactEmail: "riveting.journey.of.@velarivoyages.com",
+          contactNumber: "+1-961-491-4281"
+        }
+      }
+    ],
+    title: "Riveting Journey of the French-Canadian Crown",
+    description: "Begin your zenith in Quebec City, a gateway to the soul of East Coast Canada. Enjoy days spent exploring Florence, Milan, Athens, Lisbon and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.5,
+    tags: ["culinary","short-getaway","cruise-adventure"]
+  },
+  {
+    basePrice: 1808,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Rome",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 41.9028,
+    "longitude": 12.4964
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  }
+],
+      description: "Your enigma begins in Quebec City, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Barcelona to the historic streets of Rome, each stop in the East Coast Canada will leave a lasting impression.",
+      distance: "1381 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Quebec City to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Rome"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Lisa Spencer",
+        role: "Reservations Agent",
+        languages: ["Mandarin","Dutch"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        contact: {
+          contactEmail: "horizonkissed.infini@velarivoyages.com",
+          contactNumber: "+1-289-584-6460"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Infinite of the Walled Wonder",
+    description: "Your enigma begins in Quebec City, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Barcelona to the historic streets of Rome, each stop in the East Coast Canada will leave a lasting impression.",
+    rating: 4.1,
+    tags: ["themed-cruise","cruise"]
+  },
+  {
+    basePrice: 8897,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  }
+],
+      description: "Leave stress behind with this curated wanderlust from Quebec City. Sail across the best of East Coast Canada and explore treasures like Mykonos, Malta, Santorini, Athens with comfort and style.",
+      distance: "986 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Quebec City to Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Malta"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Santorini"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Athens"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Athens to Quebec City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Emily Spencer",
+        role: "Reservations Agent",
+        languages: ["Mandarin","Dutch"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+        contact: {
+          contactEmail: "riveting.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-476-512-4064"
+        }
+      }
+    ],
+    title: "Riveting Zenith of the Acadian Echoes",
+    description: "Leave stress behind with this curated wanderlust from Quebec City. Sail across the best of East Coast Canada and explore treasures like Mykonos, Malta, Santorini, Athens with comfort and style.",
+    rating: 5.0,
+    tags: ["cruise-ship","fall-cruise","nature"]
+  },
+  {
+    basePrice: 8112,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Malta",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Unwind and explore on this retreat through East Coast Canada, departing from Quebec City. With every stop—from Santorini to Malta—you’ll collect memories that last a lifetime.",
+      distance: "913 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Quebec City to Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Santorini to Malta"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Malta"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Brenda Hall",
+        role: "Reservations Agent",
+        languages: ["Mandarin","Dutch"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
+        contact: {
+          contactEmail: "majestic.saga.of.the@velarivoyages.com",
+          contactNumber: "+1-564-537-8904"
+        }
+      }
+    ],
+    title: "Majestic Saga of the Time-Frozen Ramparts",
+    description: "Unwind and explore on this retreat through East Coast Canada, departing from Quebec City. With every stop—from Santorini to Malta—you’ll collect memories that last a lifetime.",
+    rating: 4.3,
+    tags: ["cruise-journey","cruise-vacation"]
+  },
+  {
+    basePrice: 6524,
+    departureLocation: {
+  "city": "Quebec City",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 46.8139,
+    "longitude": -71.2082
+  }
+},
+    arrivalLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Quebec City",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 46.8139,
+      "longitude": -71.2082
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  }
+],
+      description: "Launch into adventure from Quebec City and sail deep into the heart of the East Coast Canada. With ports of call like Rome, Venice, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "606 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Quebec City to Rome"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Venice"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Quebec City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Joan Curtis",
+        role: "Reservations Agent",
+        languages: ["Mandarin","Dutch"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
+        contact: {
+          contactEmail: "sundrenched.frontier@velarivoyages.com",
+          contactNumber: "+1-175-744-8653"
+        }
+      }
+    ],
+    title: "Sun-Drenched Frontier of the Autumn Bay",
+    description: "Launch into adventure from Quebec City and sail deep into the heart of the East Coast Canada. With ports of call like Rome, Venice, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 5.0,
+    tags: ["cruise-experience","fall-cruise"]
   }
 ];

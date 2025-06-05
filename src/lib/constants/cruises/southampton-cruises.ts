@@ -2633,5 +2633,744 @@ export const southamptonCruises: Cruise[] = [
     description: "Board in Southampton for a hand-crafted awakening through the breathtaking Northern Europe. Highlights include sun-drenched beaches, historic ports, and immersive culture in Stockholm, St. Petersburg.",
     rating: 4.9,
     tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 6535,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Kiel",
+  "country": "Germany",
+  "coordinates": {
+    "latitude": 54.3233,
+    "longitude": 10.1228
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  }
+],
+      description: "Your tranquility begins in Southampton, where every sunset on the Northern Europe horizon promises another day of discovery—from London, Helsinki, Kiel to hidden ports of charm.",
+      distance: "1076 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to London"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from London to Helsinki"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Helsinki to Kiel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Stella Fox",
+        role: "Group Booking Coordinator",
+        languages: ["Hungarian","Punjabi"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
+        contact: {
+          contactEmail: "transcendent.journey@velarivoyages.com",
+          contactNumber: "+1-139-630-6695"
+        }
+      }
+    ],
+    title: "Transcendent Journey of the Harbor of Legends",
+    description: "Your tranquility begins in Southampton, where every sunset on the Northern Europe horizon promises another day of discovery—from London, Helsinki, Kiel to hidden ports of charm.",
+    rating: 4.7,
+    tags: ["cultural"]
+  },
+  {
+    basePrice: 5970,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Your reunion begins in Southampton, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Kiel to the historic streets of London, each stop in the Northern Europe will leave a lasting impression.",
+      distance: "659 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to Kiel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to London"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from London to Tallinn"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring London"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Lisa Holloway",
+        role: "Group Booking Coordinator",
+        languages: ["Hungarian","Punjabi"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/93.jpg",
+        contact: {
+          contactEmail: "unforgettable.enigma@velarivoyages.com",
+          contactNumber: "+1-291-533-1612"
+        }
+      }
+    ],
+    title: "Unforgettable Enigma of the Atlantic Departure Point",
+    description: "Your reunion begins in Southampton, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Kiel to the historic streets of London, each stop in the Northern Europe will leave a lasting impression.",
+    rating: 4.4,
+    tags: ["cruise-adventure","cruise-vacation","cultural"]
+  },
+  {
+    basePrice: 3520,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Begin an epic journey from Southampton, where the seas meet culture. Visit the remarkable ports of Berlin, Stockholm, Dublin, Amsterdam while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "681 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Berlin"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Stockholm"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Dublin"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Amsterdam"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Pamela Crawford",
+        role: "Group Booking Coordinator",
+        languages: ["Hungarian","Punjabi"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
+        contact: {
+          contactEmail: "velvet.serenade.of.t@velarivoyages.com",
+          contactNumber: "+1-135-133-2875"
+        }
+      }
+    ],
+    title: "Velvet Serenade of the Atlantic Departure Point",
+    description: "Begin an epic journey from Southampton, where the seas meet culture. Visit the remarkable ports of Berlin, Stockholm, Dublin, Amsterdam while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.9,
+    tags: ["long-distance","cruise-vacation","cultural"]
+  },
+  {
+    basePrice: 4202,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Let the winds of the Northern Europe carry you from Southampton to the most stunning ports in the region. With destinations like Stockholm, Berlin, St. Petersburg, Amsterdam, this realm redefines luxury travel.",
+      distance: "775 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Berlin"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to St. Petersburg"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Amsterdam"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Chloe Gardner",
+        role: "Group Booking Coordinator",
+        languages: ["Hungarian","Punjabi"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
+        contact: {
+          contactEmail: "breathtaking.adventu@velarivoyages.com",
+          contactNumber: "+1-510-675-1776"
+        }
+      }
+    ],
+    title: "Breathtaking Adventure of the Echoes of Steam",
+    description: "Let the winds of the Northern Europe carry you from Southampton to the most stunning ports in the region. With destinations like Stockholm, Berlin, St. Petersburg, Amsterdam, this realm redefines luxury travel.",
+    rating: 4.5,
+    tags: ["seasonal","holiday-cruise"]
+  },
+  {
+    basePrice: 5519,
+    departureLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected velvet cruise offers a true taste of Northern Europe. Depart from Southampton and explore ports like Amsterdam, Berlin, Helsinki, each telling a story through food, music, and tradition.",
+      distance: "658 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Amsterdam"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Berlin"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Harper",
+        role: "Group Booking Coordinator",
+        languages: ["Hungarian","Punjabi"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        contact: {
+          contactEmail: "verdant.awakening.of@velarivoyages.com",
+          contactNumber: "+1-646-507-1119"
+        }
+      }
+    ],
+    title: "Verdant Awakening of the Aurora Veil",
+    description: "This hand-selected velvet cruise offers a true taste of Northern Europe. Depart from Southampton and explore ports like Amsterdam, Berlin, Helsinki, each telling a story through food, music, and tradition.",
+    rating: 4.1,
+    tags: ["cruise-holiday"]
   }
 ];

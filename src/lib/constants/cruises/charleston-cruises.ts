@@ -2869,5 +2869,662 @@ export const charlestonCruises: Cruise[] = [
     description: "Sail from Charleston into a world of wonder. The East Coast USA beckons with unforgettable ports like Mykonos, Rome, Malta, where every view is picture-perfect and every moment is priceless.",
     rating: 4.3,
     tags: ["relaxation","cruise-holiday","cultural"]
+  },
+  {
+    basePrice: 7414,
+    departureLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    arrivalLocation: {
+  "city": "Dubrovnik",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from Charleston for a voyage like no other. From the picturesque landscapes of Santorini to the lively ambiance of Barcelona, this eternal cruise will redefine your view of East Coast USA.",
+      distance: "927 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Charleston to Santorini"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Dubrovnik"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Dubrovnik"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Pamela Dunn",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        contact: {
+          contactEmail: "captivating.frontier@velarivoyages.com",
+          contactNumber: "+1-453-632-1197"
+        }
+      }
+    ],
+    title: "Captivating Frontier of the Echoes of Elegance",
+    description: "Set sail from Charleston for a voyage like no other. From the picturesque landscapes of Santorini to the lively ambiance of Barcelona, this eternal cruise will redefine your view of East Coast USA.",
+    rating: 5.0,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 2361,
+    departureLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    arrivalLocation: {
+  "city": "Milan",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.19
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  }
+],
+      description: "Embark from Charleston and traverse the East Coast USA in style. Whether it’s the energy of Athens or the calm of Milan, each destination reveals a new side of paradise.",
+      distance: "662 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Charleston to Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Milan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Rachel Baker",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
+        contact: {
+          contactEmail: "forbidden.sojourn.of@velarivoyages.com",
+          contactNumber: "+1-621-497-9167"
+        }
+      }
+    ],
+    title: "Forbidden Sojourn of the Porch-Lined Dreams",
+    description: "Embark from Charleston and traverse the East Coast USA in style. Whether it’s the energy of Athens or the calm of Milan, each destination reveals a new side of paradise.",
+    rating: 4.4,
+    tags: ["anniversary-cruise"]
+  },
+  {
+    basePrice: 3499,
+    departureLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    arrivalLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  }
+],
+      description: "Sail from Charleston into a world of wonder. The East Coast USA beckons with unforgettable ports like Mykonos, Milan, Athens, Rome, where every view is picture-perfect and every moment is priceless.",
+      distance: "702 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Charleston to Mykonos"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Milan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Milan to Athens"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Rome"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Charleston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriella Dean",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
+        contact: {
+          contactEmail: "crystalline.embrace.@velarivoyages.com",
+          contactNumber: "+1-817-319-7517"
+        }
+      }
+    ],
+    title: "Crystalline Embrace of the Colonial Shores",
+    description: "Sail from Charleston into a world of wonder. The East Coast USA beckons with unforgettable ports like Mykonos, Milan, Athens, Rome, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.2,
+    tags: ["cruise-adventure","historical"]
+  },
+  {
+    basePrice: 4894,
+    departureLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    arrivalLocation: {
+  "city": "Milan",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 45.4642,
+    "longitude": 9.19
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  }
+],
+      description: "Set sail from Charleston for a voyage like no other. From the picturesque landscapes of Lisbon to the lively ambiance of Florence, this moonlit cruise will redefine your view of East Coast USA.",
+      distance: "862 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Charleston to Lisbon"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Lisbon to Florence"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Milan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ella Collins",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
+        contact: {
+          contactEmail: "majestic.eclipse.of.@velarivoyages.com",
+          contactNumber: "+1-422-445-2414"
+        }
+      }
+    ],
+    title: "Majestic Eclipse of the Echoes of Elegance",
+    description: "Set sail from Charleston for a voyage like no other. From the picturesque landscapes of Lisbon to the lively ambiance of Florence, this moonlit cruise will redefine your view of East Coast USA.",
+    rating: 4.4,
+    tags: ["historical","sightseeing"]
+  },
+  {
+    basePrice: 3270,
+    departureLocation: {
+  "city": "Charleston",
+  "country": "United States",
+  "region": "East Coast USA",
+  "coordinates": {
+    "latitude": 32.77657,
+    "longitude": -79.93092
+  }
+},
+    arrivalLocation: {
+  "city": "Florence",
+  "country": "Italy",
+  "coordinates": {
+    "latitude": 43.769562,
+    "longitude": 11.255814
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Charleston",
+    "country": "United States",
+    "region": "East Coast USA",
+    "coordinates": {
+      "latitude": 32.77657,
+      "longitude": -79.93092
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  }
+],
+      description: "Set sail from historic Charleston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Venice, Florence.",
+      distance: "1406 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Charleston to Venice"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Florence"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Charleston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Samantha Wallace",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        contact: {
+          contactEmail: "secret.lullaby.of.th@velarivoyages.com",
+          contactNumber: "+1-650-869-2658"
+        }
+      }
+    ],
+    title: "Secret Lullaby of the Maritime Whisper",
+    description: "Set sail from historic Charleston for a modern escape into the East Coast USA. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Venice, Florence.",
+    rating: 4.5,
+    tags: ["cruise-excursion"]
   }
 ];

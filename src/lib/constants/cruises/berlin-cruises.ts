@@ -2756,5 +2756,766 @@ export const berlinCruises: Cruise[] = [
     description: "From the lively departure port of Berlin, this curated serenade showcases the finest of Northern Europe. With visits to Stockholm, Oslo, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
     rating: 4.2,
     tags: ["historical","cruise-ship"]
+  },
+  {
+    basePrice: 4424,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Dublin",
+  "country": "Ireland",
+  "coordinates": {
+    "latitude": 53.349805,
+    "longitude": -6.26031
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  }
+],
+      description: "Leave stress behind with this curated reverie from Berlin. Sail across the best of Northern Europe and explore treasures like Southampton, Oslo, Stockholm, Dublin with comfort and style.",
+      distance: "1014 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Southampton"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Dublin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Sofia Gibson",
+        role: "Loyalty Program Representative",
+        languages: ["Italian","Zulu"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+        contact: {
+          contactEmail: "golden.reverie.of.th@velarivoyages.com",
+          contactNumber: "+1-458-543-9551"
+        }
+      }
+    ],
+    title: "Golden Reverie of the Stone and Shadow",
+    description: "Leave stress behind with this curated reverie from Berlin. Sail across the best of Northern Europe and explore treasures like Southampton, Oslo, Stockholm, Dublin with comfort and style.",
+    rating: 4.9,
+    tags: ["themed-cruise"]
+  },
+  {
+    basePrice: 8651,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Depart from Berlin on this thoughtfully designed reverie across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at Dublin, Southampton, Stockholm.",
+      distance: "1133 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Dublin"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Southampton"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Southampton to Stockholm"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Elena Reed",
+        role: "Loyalty Program Representative",
+        languages: ["Italian","Zulu"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
+        contact: {
+          contactEmail: "sundrenched.enigma.o@velarivoyages.com",
+          contactNumber: "+1-446-411-8248"
+        }
+      }
+    ],
+    title: "Sun-Drenched Enigma of the Aurora Veil",
+    description: "Depart from Berlin on this thoughtfully designed reverie across the Northern Europe. Savor coastal charm, cultural treasures, and ocean views with stops at Dublin, Southampton, Stockholm.",
+    rating: 4.2,
+    tags: ["expedition","glacier-cruise"]
+  },
+  {
+    basePrice: 7905,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Depart from the iconic port of Berlin and sail through the enchanting Northern Europe. Explore vibrant destinations like Oslo, Stockholm, Amsterdam, Tallinn, each offering its own unique charm and local flair.",
+      distance: "714 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Oslo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Stockholm"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Stockholm to Amsterdam"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 18",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Ellie Graham",
+        role: "Loyalty Program Representative",
+        languages: ["Italian","Zulu"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        contact: {
+          contactEmail: "hidden.mirage.of.the@velarivoyages.com",
+          contactNumber: "+1-506-679-1772"
+        }
+      }
+    ],
+    title: "Hidden Mirage of the City of Echoes",
+    description: "Depart from the iconic port of Berlin and sail through the enchanting Northern Europe. Explore vibrant destinations like Oslo, Stockholm, Amsterdam, Tallinn, each offering its own unique charm and local flair.",
+    rating: 4.7,
+    tags: ["cruise-ship","fall-cruise"]
+  },
+  {
+    basePrice: 8266,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "Launch into adventure from Berlin and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Dublin, Amsterdam, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1128 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to St. Petersburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from St. Petersburg to Dublin"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to Amsterdam"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Angela Keller",
+        role: "Loyalty Program Representative",
+        languages: ["Italian","Zulu"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "floating.escape.of.t@velarivoyages.com",
+          contactNumber: "+1-641-386-7246"
+        }
+      }
+    ],
+    title: "Floating Escape of the Snow-Kissed Harbors",
+    description: "Launch into adventure from Berlin and sail deep into the heart of the Northern Europe. With ports of call like St. Petersburg, Dublin, Amsterdam, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.6,
+    tags: ["cruise-experience"]
+  },
+  {
+    basePrice: 2810,
+    departureLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    arrivalLocation: {
+  "city": "Helsinki",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This handpicked embrace begins in Berlin and travels through Northern Europe's iconic waterscapes. Discover Southampton, Dublin, Oslo, Helsinki as each day brings new stories and every night offers elegant repose.",
+      distance: "1141 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Southampton"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Southampton to Dublin"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Dublin to Oslo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Helsinki"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Southampton"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Helsinki"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Dixon",
+        role: "Loyalty Program Representative",
+        languages: ["Italian","Zulu"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "exquisite.requiem.of@velarivoyages.com",
+          contactNumber: "+1-850-577-1473"
+        }
+      }
+    ],
+    title: "Exquisite Requiem of the Modern Mosaic",
+    description: "This handpicked embrace begins in Berlin and travels through Northern Europe's iconic waterscapes. Discover Southampton, Dublin, Oslo, Helsinki as each day brings new stories and every night offers elegant repose.",
+    rating: 4.5,
+    tags: ["expedition","exclusive"]
   }
 ];

@@ -2611,5 +2611,686 @@ export const tokyoCruises: Cruise[] = [
     description: "Depart from the iconic port of Tokyo and sail through the enchanting Asia Pacific. Explore vibrant destinations like Shanghai, Ho Chi Minh City, Sydney, each offering its own unique charm and local flair.",
     rating: 4.6,
     tags: ["exclusive","long-distance","cruise-experience"]
+  },
+  {
+    basePrice: 9657,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Set sail from Tokyo for a voyage like no other. From the picturesque landscapes of Shanghai to the lively ambiance of Singapore, this alluring cruise will redefine your view of Asia Pacific.",
+      distance: "1023 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Shanghai"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Amelia Maxwell",
+        role: "Loyalty Program Representative",
+        languages: ["French","Vietnamese","Mandarin"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+        contact: {
+          contactEmail: "azure.symphony.of.th@velarivoyages.com",
+          contactNumber: "+1-731-450-7166"
+        }
+      }
+    ],
+    title: "Azure Symphony of the Wired Infinity",
+    description: "Set sail from Tokyo for a voyage like no other. From the picturesque landscapes of Shanghai to the lively ambiance of Singapore, this alluring cruise will redefine your view of Asia Pacific.",
+    rating: 5.0,
+    tags: ["cruise-experience","wildlife","cruise-getaway"]
+  },
+  {
+    basePrice: 3461,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Unwind and explore on this reverie through Asia Pacific, departing from Tokyo. With every stop—from Auckland to Ho Chi Minh City—you’ll collect memories that last a lifetime.",
+      distance: "828 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Riley Curtis",
+        role: "Loyalty Program Representative",
+        languages: ["French","Vietnamese","Mandarin"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+        contact: {
+          contactEmail: "sundrenched.zenith.o@velarivoyages.com",
+          contactNumber: "+1-452-889-2177"
+        }
+      }
+    ],
+    title: "Sun-Drenched Zenith of the Skyline of the Rising Sun",
+    description: "Unwind and explore on this reverie through Asia Pacific, departing from Tokyo. With every stop—from Auckland to Ho Chi Minh City—you’ll collect memories that last a lifetime.",
+    rating: 4.3,
+    tags: ["cruise-ship","exclusive"]
+  },
+  {
+    basePrice: 8141,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    arrivalLocation: {
+  "city": "Bangkok",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Join us in Tokyo for a drift of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Auckland, Bali, Bangkok where timeless traditions meet modern luxuries.",
+      distance: "1011 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Auckland"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Bangkok"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Priya Wallace",
+        role: "Loyalty Program Representative",
+        languages: ["French","Vietnamese","Mandarin"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        contact: {
+          contactEmail: "opulent.quest.of.the@velarivoyages.com",
+          contactNumber: "+1-242-465-4018"
+        }
+      }
+    ],
+    title: "Opulent Quest of the Pagoda-Silhouetted Skylines",
+    description: "Join us in Tokyo for a drift of a lifetime. Sail across the serene waters of Asia Pacific, stopping at ports like Auckland, Bali, Bangkok where timeless traditions meet modern luxuries.",
+    rating: 4.6,
+    tags: ["long-distance","tropical"]
+  },
+  {
+    basePrice: 8911,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Embark on an unforgettable oasis from the vibrant port of Tokyo, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Bali, Yokohama, Ho Chi Minh City, Bangkok, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "1317 nautical miles",
+      totalDuration: "18 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Yokohama"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Bangkok"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 18",
+    "end": "Day 18",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Amina Foster",
+        role: "Loyalty Program Representative",
+        languages: ["French","Vietnamese","Mandarin"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        contact: {
+          contactEmail: "verdant.quest.of.the@velarivoyages.com",
+          contactNumber: "+1-622-194-3941"
+        }
+      }
+    ],
+    title: "Verdant Quest of the Skyline of the Rising Sun",
+    description: "Embark on an unforgettable oasis from the vibrant port of Tokyo, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Bali, Yokohama, Ho Chi Minh City, Bangkok, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.2,
+    tags: ["holiday-cruise","cruise-excursion"]
+  },
+  {
+    basePrice: 9172,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "This inspiring eclipse departs from Tokyo, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Bangkok, Ho Chi Minh City.",
+      distance: "689 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Bangkok"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Bangkok to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Emma Collins",
+        role: "Loyalty Program Representative",
+        languages: ["French","Vietnamese","Mandarin"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "tranquil.passage.of.@velarivoyages.com",
+          contactNumber: "+1-793-625-1669"
+        }
+      }
+    ],
+    title: "Tranquil Passage of the Skyline of the Rising Sun",
+    description: "This inspiring eclipse departs from Tokyo, navigating the diverse landscapes and vibrant cities of Asia Pacific. Must-see stops include Bangkok, Ho Chi Minh City.",
+    rating: 4.5,
+    tags: ["seasonal","exclusive"]
   }
 ];

@@ -2486,5 +2486,640 @@ export const miamiCruises: Cruise[] = [
     description: "Discover the wonders of Caribbean aboard this infinite cruise departing from Miami. Journey through crystal waters to explore the treasures of Roatán, Cozumel, George Town, Philipsburg, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
     rating: 4.6,
     tags: ["cruise-holiday"]
+  },
+  {
+    basePrice: 2548,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Fort Lauderdale",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your journey through the Caribbean begins in Miami, where elegance meets adventure. Explore the shores of George Town, Fort Lauderdale, with curated excursions and luxurious onboard amenities.",
+      distance: "1155 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Miami to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Fort Lauderdale"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Patricia Hall",
+        role: "Reservations Agent",
+        languages: ["Marathi"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "secret.escape.of.the@velarivoyages.com",
+          contactNumber: "+1-759-355-3504"
+        }
+      }
+    ],
+    title: "Secret Escape of the Caribbean Rhythms",
+    description: "Your journey through the Caribbean begins in Miami, where elegance meets adventure. Explore the shores of George Town, Fort Lauderdale, with curated excursions and luxurious onboard amenities.",
+    rating: 4.4,
+    tags: ["long-distance"]
+  },
+  {
+    basePrice: 4147,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your requiem begins in Miami, where every sunset on the Caribbean horizon promises another day of discovery—from St. Thomas, George Town, Nassau to hidden ports of charm.",
+      distance: "1295 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Miami to St. Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to George Town"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Mia Montgomery",
+        role: "Reservations Agent",
+        languages: ["Marathi"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
+        contact: {
+          contactEmail: "horizonkissed.legacy@velarivoyages.com",
+          contactNumber: "+1-889-980-5319"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Legacy of the Magic City",
+    description: "Your requiem begins in Miami, where every sunset on the Caribbean horizon promises another day of discovery—from St. Thomas, George Town, Nassau to hidden ports of charm.",
+    rating: 4.8,
+    tags: ["family-friendly","general"]
+  },
+  {
+    basePrice: 6575,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Explore a new side of Caribbean with this hidden enigma starting in Miami. Visit charming ports such as Nassau, Bermuda, San Juan, each offering its own unique rhythm.",
+      distance: "793 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Bermuda"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Catherine Price",
+        role: "Reservations Agent",
+        languages: ["Marathi"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
+        contact: {
+          contactEmail: "mystical.resonance.o@velarivoyages.com",
+          contactNumber: "+1-665-382-3418"
+        }
+      }
+    ],
+    title: "Mystical Resonance of the City of Endless Summer",
+    description: "Explore a new side of Caribbean with this hidden enigma starting in Miami. Visit charming ports such as Nassau, Bermuda, San Juan, each offering its own unique rhythm.",
+    rating: 4.8,
+    tags: ["cruise-experience"]
+  },
+  {
+    basePrice: 1295,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this secret pilgrimage departing Miami. Savor local cuisine and uncover regional beauty from Nassau to Fort Lauderdale.",
+      distance: "707 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Miami to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Fort Lauderdale"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Jennifer Russell",
+        role: "Reservations Agent",
+        languages: ["Marathi"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+        contact: {
+          contactEmail: "idyllic.zenith.of.th@velarivoyages.com",
+          contactNumber: "+1-522-429-8755"
+        }
+      }
+    ],
+    title: "Idyllic Zenith of the City of Endless Summer",
+    description: "Cruise into cultural richness aboard this secret pilgrimage departing Miami. Savor local cuisine and uncover regional beauty from Nassau to Fort Lauderdale.",
+    rating: 4.2,
+    tags: ["cruise-holiday","tropical"]
+  },
+  {
+    basePrice: 6541,
+    departureLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    arrivalLocation: {
+  "city": "Bermuda",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Miami",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Miami and begin a enchanting journey through the scenic Caribbean. From historic cities to coastal hideaways like San Juan, St. Thomas, George Town, Bermuda, every day is unforgettable.",
+      distance: "1191 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Miami to San Juan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to George Town"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from George Town to Bermuda"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Lily Hayes",
+        role: "Reservations Agent",
+        languages: ["Marathi"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+        contact: {
+          contactEmail: "verdant.frontier.of.@velarivoyages.com",
+          contactNumber: "+1-729-839-7209"
+        }
+      }
+    ],
+    title: "Verdant Frontier of the Sun-Kissed Archipelago",
+    description: "Step aboard in Miami and begin a enchanting journey through the scenic Caribbean. From historic cities to coastal hideaways like San Juan, St. Thomas, George Town, Bermuda, every day is unforgettable.",
+    rating: 4.0,
+    tags: ["weekend-cruise","repositioning"]
   }
 ];

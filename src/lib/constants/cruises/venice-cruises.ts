@@ -2665,5 +2665,706 @@ export const veniceCruises: Cruise[] = [
     description: "From bustling Venice to serene Mediterranean shores, this cruise invites you to relax, explore, and indulge. Stops at Rome, Dubrovnik deliver a balanced blend of culture and comfort.",
     rating: 4.3,
     tags: ["family-friendly","relaxation","holiday-cruise"]
+  },
+  {
+    basePrice: 6246,
+    departureLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    arrivalLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  }
+],
+      description: "Depart from the iconic port of Venice and sail through the enchanting Mediterranean. Explore vibrant destinations like Santorini, Dubrovnik, Florence, Rome, each offering its own unique charm and local flair.",
+      distance: "1269 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Santorini"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Dubrovnik"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Dubrovnik to Florence"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Rome"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Rome to Venice"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Mia Morgan",
+        role: "Travel Advisor",
+        languages: ["Bengali","Russian"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "oceanic.elevation.of@velarivoyages.com",
+          contactNumber: "+1-894-709-5763"
+        }
+      }
+    ],
+    title: "Oceanic Elevation of the Ancient Shores",
+    description: "Depart from the iconic port of Venice and sail through the enchanting Mediterranean. Explore vibrant destinations like Santorini, Dubrovnik, Florence, Rome, each offering its own unique charm and local flair.",
+    rating: 4.1,
+    tags: ["long-distance"]
+  },
+  {
+    basePrice: 9223,
+    departureLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    arrivalLocation: {
+  "city": "Lisbon",
+  "country": "Portugal",
+  "coordinates": {
+    "latitude": 38.7169,
+    "longitude": -9.1399
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  }
+],
+      description: "Set sail from historic Venice for a modern escape into the Mediterranean. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Santorini, Florence, Lisbon.",
+      distance: "1061 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Santorini"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Santorini to Florence"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Florence to Lisbon"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Linda Graham",
+        role: "Travel Advisor",
+        languages: ["Bengali","Russian"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
+        contact: {
+          contactEmail: "dreamlike.elevation.@velarivoyages.com",
+          contactNumber: "+1-395-945-4159"
+        }
+      }
+    ],
+    title: "Dreamlike Elevation of the Wine-Soaked Villages",
+    description: "Set sail from historic Venice for a modern escape into the Mediterranean. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Santorini, Florence, Lisbon.",
+    rating: 4.1,
+    tags: ["cruise-ship","exclusive","cruise-adventure"]
+  },
+  {
+    basePrice: 5318,
+    departureLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    arrivalLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 41.9028,
+      "longitude": 12.4964
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  }
+],
+      description: "Sail from Venice into a world of wonder. The Mediterranean beckons with unforgettable ports like Rome, Barcelona, where every view is picture-perfect and every moment is priceless.",
+      distance: "1101 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Venice to Rome"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rome to Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Venice"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Rome"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Adeline Price",
+        role: "Travel Advisor",
+        languages: ["Bengali","Russian"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
+        contact: {
+          contactEmail: "azure.passage.of.the@velarivoyages.com",
+          contactNumber: "+1-191-784-2556"
+        }
+      }
+    ],
+    title: "Azure Passage of the Gondola Phantom",
+    description: "Sail from Venice into a world of wonder. The Mediterranean beckons with unforgettable ports like Rome, Barcelona, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.6,
+    tags: ["historical","repositioning"]
+  },
+  {
+    basePrice: 4009,
+    departureLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    arrivalLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coordinates": {
+      "latitude": 38.7169,
+      "longitude": -9.1399
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  }
+],
+      description: "An unforgettable panorama awaits as you cruise from Venice across Mediterranean. Dive into history, flavor, and culture with stops including Athens, Lisbon.",
+      distance: "1303 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Athens"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Lisbon"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Lisbon to Venice"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Lisbon"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Venice"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Amy Hamilton",
+        role: "Travel Advisor",
+        languages: ["Bengali","Russian"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
+        contact: {
+          contactEmail: "spectacular.renaissa@velarivoyages.com",
+          contactNumber: "+1-339-873-1547"
+        }
+      }
+    ],
+    title: "Spectacular Renaissance of the Olive-Draped Hills",
+    description: "An unforgettable panorama awaits as you cruise from Venice across Mediterranean. Dive into history, flavor, and culture with stops including Athens, Lisbon.",
+    rating: 4.9,
+    tags: ["tropical"]
+  },
+  {
+    basePrice: 3703,
+    departureLocation: {
+  "city": "Venice",
+  "country": "Italy",
+  "region": "Mediterranean",
+  "coordinates": {
+    "latitude": 45.4408,
+    "longitude": 12.3155
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "region": "Mediterranean",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Escape to sea from Venice on a majestic voyage exploring the magic of Mediterranean. Visit unforgettable locales like Malta, Florence, Mykonos, Santorini, where each stop inspires awe.",
+      distance: "1334 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Florence"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Mykonos"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Mykonos to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Jennifer Bennett",
+        role: "Travel Advisor",
+        languages: ["Bengali","Russian"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        contact: {
+          contactEmail: "aweinspiring.retreat@velarivoyages.com",
+          contactNumber: "+1-787-170-8715"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Retreat of the Gondola Phantom",
+    description: "Escape to sea from Venice on a majestic voyage exploring the magic of Mediterranean. Visit unforgettable locales like Malta, Florence, Mykonos, Santorini, where each stop inspires awe.",
+    rating: 4.2,
+    tags: ["romantic"]
   }
 ];

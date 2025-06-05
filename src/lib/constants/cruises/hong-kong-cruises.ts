@@ -2421,5 +2421,644 @@ export const hongKongCruises: Cruise[] = [
     description: "Let the spirit of exploration guide your verdant journey from Hong Kong. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Sydney, Shanghai, Tokyo.",
     rating: 4.9,
     tags: ["family-friendly","wellness"]
+  },
+  {
+    basePrice: 2011,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Bangkok",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Launch into adventure from Hong Kong and sail deep into the heart of the Asia Pacific. With ports of call like Melbourne, Bangkok, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "831 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Melbourne"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Bangkok"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Katherine Baker",
+        role: "Sales Consultant",
+        languages: ["Turkish","English","Portuguese"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+        contact: {
+          contactEmail: "epic.legacy.of.the.t@velarivoyages.com",
+          contactNumber: "+1-846-849-6281"
+        }
+      }
+    ],
+    title: "Epic Legacy of the Tea-Laced Traditions",
+    description: "Launch into adventure from Hong Kong and sail deep into the heart of the Asia Pacific. With ports of call like Melbourne, Bangkok, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.9,
+    tags: ["adventure","themed-cruise","wildlife"]
+  },
+  {
+    basePrice: 6787,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Singapore",
+  "country": "Singapore",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Embark on an unforgettable escape from the vibrant port of Hong Kong, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Kyoto, Shanghai, Singapore, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "1424 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Kyoto"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Kyoto to Shanghai"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Carpenter",
+        role: "Sales Consultant",
+        languages: ["Turkish","English","Portuguese"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        contact: {
+          contactEmail: "velvet.whisper.of.th@velarivoyages.com",
+          contactNumber: "+1-693-796-8910"
+        }
+      }
+    ],
+    title: "Velvet Whisper of the Sky-Scrawled Destiny",
+    description: "Embark on an unforgettable escape from the vibrant port of Hong Kong, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Kyoto, Shanghai, Singapore, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.0,
+    tags: ["holiday-cruise"]
+  },
+  {
+    basePrice: 1862,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  }
+],
+      description: "An unforgettable sojourn awaits as you cruise from Hong Kong across Asia Pacific. Dive into history, flavor, and culture with stops including Melbourne, Shanghai, Ho Chi Minh City, Singapore.",
+      distance: "851 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Melbourne"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Hong Kong"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Elena Hayes",
+        role: "Sales Consultant",
+        languages: ["Turkish","English","Portuguese"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+        contact: {
+          contactEmail: "unforgettable.pilgri@velarivoyages.com",
+          contactNumber: "+1-847-619-9157"
+        }
+      }
+    ],
+    title: "Unforgettable Pilgrimage of the Lantern-Lit Labyrinth",
+    description: "An unforgettable sojourn awaits as you cruise from Hong Kong across Asia Pacific. Dive into history, flavor, and culture with stops including Melbourne, Shanghai, Ho Chi Minh City, Singapore.",
+    rating: 4.9,
+    tags: ["cruise-ship","wildlife"]
+  },
+  {
+    basePrice: 6689,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  }
+],
+      description: "An unforgettable wanderlust awaits as you cruise from Hong Kong across Asia Pacific. Dive into history, flavor, and culture with stops including Tokyo, Auckland.",
+      distance: "719 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Auckland"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Susan Marshall",
+        role: "Sales Consultant",
+        languages: ["Turkish","English","Portuguese"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+        contact: {
+          contactEmail: "tidewashed.realm.of.@velarivoyages.com",
+          contactNumber: "+1-822-672-2856"
+        }
+      }
+    ],
+    title: "Tide-Washed Realm of the Pearl of the Orient",
+    description: "An unforgettable wanderlust awaits as you cruise from Hong Kong across Asia Pacific. Dive into history, flavor, and culture with stops including Tokyo, Auckland.",
+    rating: 4.4,
+    tags: ["relaxation","cruise-journey","weekend-cruise"]
+  },
+  {
+    basePrice: 6016,
+    departureLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    arrivalLocation: {
+  "city": "Hong Kong",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 22.3193,
+    "longitude": 114.1694
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 22.3193,
+      "longitude": 114.1694
+    }
+  }
+],
+      description: "An escape like no other begins in Hong Kong, where your oasis launches into the heart of Asia Pacific. Discover the magic of Auckland, Shanghai with style and sophistication.",
+      distance: "618 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Auckland"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Hong Kong"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Christine Jennings",
+        role: "Sales Consultant",
+        languages: ["Turkish","English","Portuguese"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
+        contact: {
+          contactEmail: "azure.odyssey.of.the@velarivoyages.com",
+          contactNumber: "+1-594-661-3235"
+        }
+      }
+    ],
+    title: "Azure Odyssey of the Sacred Shores",
+    description: "An escape like no other begins in Hong Kong, where your oasis launches into the heart of Asia Pacific. Discover the magic of Auckland, Shanghai with style and sophistication.",
+    rating: 4.7,
+    tags: ["weekend-cruise"]
   }
 ];

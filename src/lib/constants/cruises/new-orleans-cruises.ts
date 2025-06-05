@@ -2635,5 +2635,726 @@ export const newOrleansCruises: Cruise[] = [
     description: "Begin your journey in New Orleans, where tradition meets travel. This immersive reverie reveals the finest of Caribbean, from the beaches of St. Thomas to the streets of Nassau.",
     rating: 4.3,
     tags: ["cruise-line","VIP"]
+  },
+  {
+    basePrice: 7766,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  }
+],
+      description: "Sail from New Orleans into a world of wonder. The Caribbean beckons with unforgettable ports like St. Thomas, Bermuda, Nassau, Cozumel, where every view is picture-perfect and every moment is priceless.",
+      distance: "1215 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from New Orleans to St. Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from St. Thomas to Bermuda"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to Nassau"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Cozumel"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to New Orleans"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Katherine Reeves",
+        role: "Sales Consultant",
+        languages: ["Thai","Czech"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
+        contact: {
+          contactEmail: "harmonic.sanctum.of.@velarivoyages.com",
+          contactNumber: "+1-359-662-8137"
+        }
+      }
+    ],
+    title: "Harmonic Sanctum of the Jazz Capital",
+    description: "Sail from New Orleans into a world of wonder. The Caribbean beckons with unforgettable ports like St. Thomas, Bermuda, Nassau, Cozumel, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.8,
+    tags: ["cruise-ship"]
+  },
+  {
+    basePrice: 3574,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this labyrinth from New Orleans, where the journey through Caribbean includes stops in Miami, San Juan, each more enchanting than the last.",
+      distance: "1227 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from New Orleans to Miami"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Miami to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriella Fox",
+        role: "Sales Consultant",
+        languages: ["Thai","Czech"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "alluring.mirage.of.t@velarivoyages.com",
+          contactNumber: "+1-604-253-3724"
+        }
+      }
+    ],
+    title: "Alluring Mirage of the Voodoo Murmurs",
+    description: "Experience coastal elegance on this labyrinth from New Orleans, where the journey through Caribbean includes stops in Miami, San Juan, each more enchanting than the last.",
+    rating: 4.5,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 1861,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  }
+],
+      description: "This hand-selected captivating cruise offers a true taste of Caribbean. Depart from New Orleans and explore ports like Bermuda, Nassau, Philipsburg, each telling a story through food, music, and tradition.",
+      distance: "1064 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to Bermuda"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Bermuda to Nassau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Philipsburg"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to New Orleans"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Isabella Mason",
+        role: "Sales Consultant",
+        languages: ["Thai","Czech"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "moonlit.panorama.of.@velarivoyages.com",
+          contactNumber: "+1-940-968-1804"
+        }
+      }
+    ],
+    title: "Moonlit Panorama of the Reggae Shores",
+    description: "This hand-selected captivating cruise offers a true taste of Caribbean. Depart from New Orleans and explore ports like Bermuda, Nassau, Philipsburg, each telling a story through food, music, and tradition.",
+    rating: 4.1,
+    tags: ["anniversary-cruise","cruise-adventure"]
+  },
+  {
+    basePrice: 4414,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "Philipsburg",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This breathtaking excursion begins in New Orleans and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at Nassau, San Juan, Cozumel, Philipsburg.",
+      distance: "1425 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from New Orleans to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to San Juan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Philipsburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Lily Montgomery",
+        role: "Sales Consultant",
+        languages: ["Thai","Czech"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
+        contact: {
+          contactEmail: "gilded.realm.of.the.@velarivoyages.com",
+          contactNumber: "+1-624-461-4383"
+        }
+      }
+    ],
+    title: "Gilded Realm of the Soul-Stirred Streets",
+    description: "This breathtaking excursion begins in New Orleans and ventures deep into the heart of Caribbean. Wander through colorful markets, historic streets, and serene coastlines at Nassau, San Juan, Cozumel, Philipsburg.",
+    rating: 4.1,
+    tags: ["cultural"]
+  },
+  {
+    basePrice: 3162,
+    departureLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    arrivalLocation: {
+  "city": "New Orleans",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.9511,
+    "longitude": -90.0715
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "New Orleans",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your enchanting journey from New Orleans. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Philipsburg, Miami, St. Thomas.",
+      distance: "1222 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from New Orleans to Philipsburg"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Miami"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Miami to St. Thomas"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to New Orleans"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring New Orleans"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring New Orleans"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Henderson",
+        role: "Sales Consultant",
+        languages: ["Thai","Czech"],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
+        contact: {
+          contactEmail: "oceanic.whisper.of.t@velarivoyages.com",
+          contactNumber: "+1-565-684-1581"
+        }
+      }
+    ],
+    title: "Oceanic Whisper of the Reggae Shores",
+    description: "Let the spirit of exploration guide your enchanting journey from New Orleans. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Philipsburg, Miami, St. Thomas.",
+    rating: 4.7,
+    tags: ["short-getaway","wellness","themed-cruise"]
   }
 ];

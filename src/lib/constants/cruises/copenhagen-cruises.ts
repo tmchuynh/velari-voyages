@@ -3501,5 +3501,646 @@ export const copenhagenCruises: Cruise[] = [
     description: "Let the spirit of exploration guide your whispering journey from Copenhagen. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Oslo, Tallinn.",
     rating: 4.6,
     tags: ["cruise-excursion","long-distance"]
+  },
+  {
+    basePrice: 2162,
+    departureLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Discover the wonders of Northern Europe aboard this extraordinary cruise departing from Copenhagen. Journey through crystal waters to explore the treasures of Stockholm, Tallinn, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "786 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Stockholm"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Stockholm to Tallinn"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ashley Hamilton",
+        role: "Cruise Specialist",
+        languages: ["Hindi"],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        contact: {
+          contactEmail: "sundrenched.reflecti@velarivoyages.com",
+          contactNumber: "+1-812-973-3517"
+        }
+      }
+    ],
+    title: "Sun-Drenched Reflection of the Mist & Midsummer",
+    description: "Discover the wonders of Northern Europe aboard this extraordinary cruise departing from Copenhagen. Journey through crystal waters to explore the treasures of Stockholm, Tallinn, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.2,
+    tags: ["general"]
+  },
+  {
+    basePrice: 5579,
+    departureLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Let this crystalline voyage redefine your idea of travel. From Copenhagen, explore the Northern Europe in luxurious comfort, stopping at St. Petersburg, Tallinn where every port offers a new chapter.",
+      distance: "777 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to St. Petersburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Tallinn"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Julie Bennett",
+        role: "Cruise Specialist",
+        languages: ["Hindi"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+        contact: {
+          contactEmail: "majestic.panorama.of@velarivoyages.com",
+          contactNumber: "+1-984-499-1913"
+        }
+      }
+    ],
+    title: "Majestic Panorama of the Runestone Realms",
+    description: "Let this crystalline voyage redefine your idea of travel. From Copenhagen, explore the Northern Europe in luxurious comfort, stopping at St. Petersburg, Tallinn where every port offers a new chapter.",
+    rating: 4.6,
+    tags: ["fall-cruise"]
+  },
+  {
+    basePrice: 6348,
+    departureLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    arrivalLocation: {
+  "city": "London",
+  "country": "United Kingdom",
+  "coordinates": {
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 51.5074,
+      "longitude": -0.1278
+    }
+  }
+],
+      description: "This extraordinary mystique from Copenhagen offers the ultimate Northern Europe exploration. Immerse yourself in the rich cultures and stunning landscapes of Oslo and London, creating memories that will last a lifetime.",
+      distance: "1170 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to London"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring London"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Aaliyah Hudson",
+        role: "Cruise Specialist",
+        languages: ["Hindi"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        contact: {
+          contactEmail: "breathtaking.sojourn@velarivoyages.com",
+          contactNumber: "+1-914-337-6471"
+        }
+      }
+    ],
+    title: "Breathtaking Sojourn of the Nordic Fairytale Port",
+    description: "This extraordinary mystique from Copenhagen offers the ultimate Northern Europe exploration. Immerse yourself in the rich cultures and stunning landscapes of Oslo and London, creating memories that will last a lifetime.",
+    rating: 4.9,
+    tags: ["themed-cruise","holiday-cruise","exclusive"]
+  },
+  {
+    basePrice: 5488,
+    departureLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    arrivalLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Helsinki",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  }
+],
+      description: "Depart from the iconic port of Copenhagen and sail through the enchanting Northern Europe. Explore vibrant destinations like Oslo, Helsinki, each offering its own unique charm and local flair.",
+      distance: "666 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Copenhagen to Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Helsinki"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Helsinki to Copenhagen"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Helsinki"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Amelia Dean",
+        role: "Cruise Specialist",
+        languages: ["Hindi"],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "breathtaking.elevati@velarivoyages.com",
+          contactNumber: "+1-414-405-1246"
+        }
+      }
+    ],
+    title: "Breathtaking Elevation of the Scandinavian Pearl",
+    description: "Depart from the iconic port of Copenhagen and sail through the enchanting Northern Europe. Explore vibrant destinations like Oslo, Helsinki, each offering its own unique charm and local flair.",
+    rating: 4.5,
+    tags: ["holiday-cruise","fall-cruise","luxury"]
+  },
+  {
+    basePrice: 7456,
+    departureLocation: {
+  "city": "Copenhagen",
+  "country": "Denmark",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 55.6761,
+    "longitude": 12.5683
+  }
+},
+    arrivalLocation: {
+  "city": "Stockholm",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "St. Petersburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your resonance begins in Copenhagen, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Kiel to the historic streets of St. Petersburg, each stop in the Northern Europe will leave a lasting impression.",
+      distance: "556 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Kiel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to St. Petersburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from St. Petersburg to Amsterdam"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Stockholm"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St. Petersburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Stockholm"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Kinsley Parker",
+        role: "Cruise Specialist",
+        languages: ["Hindi"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
+        contact: {
+          contactEmail: "unforgettable.mirage@velarivoyages.com",
+          contactNumber: "+1-893-591-1012"
+        }
+      }
+    ],
+    title: "Unforgettable Mirage of the Harbor of Hygge",
+    description: "Your resonance begins in Copenhagen, where the spirit of exploration meets modern luxury. From the sun-drenched shores of Kiel to the historic streets of St. Petersburg, each stop in the Northern Europe will leave a lasting impression.",
+    rating: 4.3,
+    tags: ["wildlife"]
   }
 ];

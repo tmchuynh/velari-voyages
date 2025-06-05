@@ -2488,5 +2488,746 @@ export const montrealCruises: Cruise[] = [
     description: "Leave stress behind with this curated symphony from Montreal. Sail across the best of East Coast Canada and explore treasures like Dubrovnik, Athens, Barcelona with comfort and style.",
     rating: 4.4,
     tags: ["cruise"]
+  },
+  {
+    basePrice: 5703,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "Step aboard in Montreal and begin a charming journey through the scenic East Coast Canada. From historic cities to coastal hideaways like Venice, Barcelona, Malta, every day is unforgettable.",
+      distance: "763 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Montreal to Venice"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Barcelona"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Malta"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Julie Jennings",
+        role: "Cruise Specialist",
+        languages: ["Swahili"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
+        contact: {
+          contactEmail: "mythic.zenith.of.the@velarivoyages.com",
+          contactNumber: "+1-301-840-3635"
+        }
+      }
+    ],
+    title: "Mythic Zenith of the Island Metropolis",
+    description: "Step aboard in Montreal and begin a charming journey through the scenic East Coast Canada. From historic cities to coastal hideaways like Venice, Barcelona, Malta, every day is unforgettable.",
+    rating: 4.1,
+    tags: ["relaxation","seasonal"]
+  },
+  {
+    basePrice: 6342,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Athens",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Dubrovnik",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "Set sail from historic Montreal for a modern escape into the East Coast Canada. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Malta, Mykonos, Athens, Dubrovnik.",
+      distance: "1336 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Malta"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Mykonos"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Mykonos to Athens"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Athens to Dubrovnik"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Dubrovnik to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Athens"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Dubrovnik"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Olivia Gibson",
+        role: "Cruise Specialist",
+        languages: ["Swahili"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "captivating.horizon.@velarivoyages.com",
+          contactNumber: "+1-654-219-7904"
+        }
+      }
+    ],
+    title: "Captivating Horizon of the Island Metropolis",
+    description: "Set sail from historic Montreal for a modern escape into the East Coast Canada. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Malta, Mykonos, Athens, Dubrovnik.",
+    rating: 4.4,
+    tags: ["cruise-getaway","weekend-cruise","expedition"]
+  },
+  {
+    basePrice: 1519,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Mykonos",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Mykonos",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail from Montreal into a world of wonder. The East Coast Canada beckons with unforgettable ports like Malta, Venice, Barcelona, Mykonos, where every view is picture-perfect and every moment is priceless.",
+      distance: "607 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Montreal to Malta"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Malta to Venice"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Barcelona"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Barcelona to Mykonos"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Mykonos"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Donna Montgomery",
+        role: "Cruise Specialist",
+        languages: ["Swahili"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
+        contact: {
+          contactEmail: "enchanting.realm.of.@velarivoyages.com",
+          contactNumber: "+1-509-265-3154"
+        }
+      }
+    ],
+    title: "Enchanting Realm of the French-Canadian Heart",
+    description: "Sail from Montreal into a world of wonder. The East Coast Canada beckons with unforgettable ports like Malta, Venice, Barcelona, Mykonos, where every view is picture-perfect and every moment is priceless.",
+    rating: 4.8,
+    tags: ["fall-cruise","nature","cruise-journey"]
+  },
+  {
+    basePrice: 9858,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "coordinates": {
+      "latitude": 41.390205,
+      "longitude": 2.154007
+    }
+  },
+  {
+    "city": "Florence",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 43.769562,
+      "longitude": 11.255814
+    }
+  },
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  }
+],
+      description: "Begin a captivating reflection through the East Coast Canada, departing Montreal. With visits to Barcelona, Florence, each day brings a new adventure and deeper connection to the region.",
+      distance: "615 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Barcelona"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Barcelona to Florence"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Florence to Montreal"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Barcelona"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Florence"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Montreal"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Thandiwe Douglas",
+        role: "Cruise Specialist",
+        languages: ["Swahili"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        contact: {
+          contactEmail: "infinite.tranquility@velarivoyages.com",
+          contactNumber: "+1-982-498-7382"
+        }
+      }
+    ],
+    title: "Infinite Tranquility of the Seafaring Legacies",
+    description: "Begin a captivating reflection through the East Coast Canada, departing Montreal. With visits to Barcelona, Florence, each day brings a new adventure and deeper connection to the region.",
+    rating: 5.0,
+    tags: ["cruise","cultural"]
+  },
+  {
+    basePrice: 3545,
+    departureLocation: {
+  "city": "Montreal",
+  "country": "Canada",
+  "region": "East Coast Canada",
+  "coordinates": {
+    "latitude": 45.5017,
+    "longitude": -73.5673
+  }
+},
+    arrivalLocation: {
+  "city": "Santorini",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "East Coast Canada",
+    "coordinates": {
+      "latitude": 45.5017,
+      "longitude": -73.5673
+    }
+  },
+  {
+    "city": "Malta",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4408,
+      "longitude": 12.3155
+    }
+  },
+  {
+    "city": "Milan",
+    "country": "Italy",
+    "coordinates": {
+      "latitude": 45.4642,
+      "longitude": 9.19
+    }
+  },
+  {
+    "city": "Santorini",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this wanderlust from Montreal, where the journey through East Coast Canada includes stops in Malta, Venice, Milan, Santorini, each more enchanting than the last.",
+      distance: "1160 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Montreal to Malta"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Malta to Venice"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Venice to Milan"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Milan to Santorini"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Montreal"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Malta"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Venice"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Milan"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Santorini"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Chloe Harper",
+        role: "Cruise Specialist",
+        languages: ["Swahili"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+        contact: {
+          contactEmail: "extraordinary.expedi@velarivoyages.com",
+          contactNumber: "+1-638-157-2569"
+        }
+      }
+    ],
+    title: "Extraordinary Expedition of the Stone-Walled Allure",
+    description: "Experience coastal elegance on this wanderlust from Montreal, where the journey through East Coast Canada includes stops in Malta, Venice, Milan, Santorini, each more enchanting than the last.",
+    rating: 4.7,
+    tags: ["luxury","weekend-cruise"]
   }
 ];

@@ -3367,5 +3367,686 @@ export const galvestonCruises: Cruise[] = [
     description: "Escape into the calm waters of Caribbean with this spectacular journey from Galveston. Explore vibrant markets, sun-soaked beaches, and architectural marvels at Cozumel, St. Thomas.",
     rating: 4.6,
     tags: ["family-friendly"]
+  },
+  {
+    basePrice: 2369,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin your journey in Galveston, where tradition meets travel. This immersive resonance reveals the finest of Caribbean, from the beaches of Fort Lauderdale to the streets of Nassau.",
+      distance: "1434 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Stella Dunn",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish","Malay","Korean"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        contact: {
+          contactEmail: "starlit.zenith.of.th@velarivoyages.com",
+          contactNumber: "+1-535-778-8347"
+        }
+      }
+    ],
+    title: "Starlit Zenith of the Rum-Laced Breezes",
+    description: "Begin your journey in Galveston, where tradition meets travel. This immersive resonance reveals the finest of Caribbean, from the beaches of Fort Lauderdale to the streets of Nassau.",
+    rating: 4.6,
+    tags: ["cruise","sightseeing","cruise-holiday"]
+  },
+  {
+    basePrice: 3692,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Let the winds of the Caribbean carry you from Galveston to the most stunning ports in the region. With destinations like San Juan, Miami, Cozumel, this realm redefines luxury travel.",
+      distance: "610 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to San Juan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Miami"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Cozumel"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Elena Day",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish","Malay","Korean"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "exquisite.reunion.of@velarivoyages.com",
+          contactNumber: "+1-678-728-2265"
+        }
+      }
+    ],
+    title: "Exquisite Reunion of the Gulf Gateway",
+    description: "Let the winds of the Caribbean carry you from Galveston to the most stunning ports in the region. With destinations like San Juan, Miami, Cozumel, this realm redefines luxury travel.",
+    rating: 4.7,
+    tags: ["cruise-adventure","historical"]
+  },
+  {
+    basePrice: 3484,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "Leave stress behind with this curated elevation from Galveston. Sail across the best of Caribbean and explore treasures like San Juan, Cozumel, Bermuda with comfort and style.",
+      distance: "755 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to San Juan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Bermuda"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Bermuda to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Jessica Montgomery",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish","Malay","Korean"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        contact: {
+          contactEmail: "mesmerizing.whisper.@velarivoyages.com",
+          contactNumber: "+1-919-176-8958"
+        }
+      }
+    ],
+    title: "Mesmerizing Whisper of the Windswept Sentinel",
+    description: "Leave stress behind with this curated elevation from Galveston. Sail across the best of Caribbean and explore treasures like San Juan, Cozumel, Bermuda with comfort and style.",
+    rating: 4.4,
+    tags: ["cultural","romantic","historical"]
+  },
+  {
+    basePrice: 1051,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this alluring odyssey through Caribbean, starting from the illustrious port of Galveston. From Cozumel, Roatán, Philipsburg to George Town, each destination offers its own story, culture, and breathtaking views.",
+      distance: "657 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Galveston to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Roatán"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to Philipsburg"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Philipsburg to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Lerato Marshall",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish","Malay","Korean"],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
+        contact: {
+          contactEmail: "alluring.expedition.@velarivoyages.com",
+          contactNumber: "+1-253-192-9302"
+        }
+      }
+    ],
+    title: "Alluring Expedition of the Palm-Fringed Paradises",
+    description: "Experience the elegance of the seas on this alluring odyssey through Caribbean, starting from the illustrious port of Galveston. From Cozumel, Roatán, Philipsburg to George Town, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.4,
+    tags: ["historical","cultural"]
+  },
+  {
+    basePrice: 2622,
+    departureLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    arrivalLocation: {
+  "city": "Galveston",
+  "country": "United States",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 29.301348,
+    "longitude": -94.797695
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Galveston",
+    "country": "United States",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 29.301348,
+      "longitude": -94.797695
+    }
+  }
+],
+      description: "This idyllic cruise from Galveston is your ticket to the captivating charm of the Caribbean. Discover the delights of George Town, Fort Lauderdale with enriching excursions and award-winning service.",
+      distance: "1219 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Galveston to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Fort Lauderdale"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to Galveston"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Galveston"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Hannah Clark",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Turkish","Malay","Korean"],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
+        contact: {
+          contactEmail: "timeless.retreat.of.@velarivoyages.com",
+          contactNumber: "+1-123-458-2350"
+        }
+      }
+    ],
+    title: "Timeless Retreat of the Emerald Cays",
+    description: "This idyllic cruise from Galveston is your ticket to the captivating charm of the Caribbean. Discover the delights of George Town, Fort Lauderdale with enriching excursions and award-winning service.",
+    rating: 4.5,
+    tags: ["long-distance","romantic","tropical"]
   }
 ];

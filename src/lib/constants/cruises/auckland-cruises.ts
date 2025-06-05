@@ -2858,5 +2858,682 @@ export const aucklandCruises: Cruise[] = [
     description: "Depart from iconic Auckland and traverse the Asia Pacific with visits to Singapore, Ho Chi Minh City, Sydney, Bangkok. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
     rating: 4.5,
     tags: ["VIP"]
+  },
+  {
+    basePrice: 8840,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected dreamlike cruise offers a true taste of Asia Pacific. Depart from Auckland and explore ports like Bali, Singapore, Yokohama, Shanghai, each telling a story through food, music, and tradition.",
+      distance: "1206 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Singapore"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Yokohama"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Adeline Reeves",
+        role: "Group Booking Coordinator",
+        languages: ["Greek","German"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "golden.pilgrimage.of@velarivoyages.com",
+          contactNumber: "+1-873-421-7166"
+        }
+      }
+    ],
+    title: "Golden Pilgrimage of the Lotus-Lined Waters",
+    description: "This hand-selected dreamlike cruise offers a true taste of Asia Pacific. Depart from Auckland and explore ports like Bali, Singapore, Yokohama, Shanghai, each telling a story through food, music, and tradition.",
+    rating: 4.2,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 9409,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Sail away from Auckland into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Melbourne, Shanghai, Sydney, where history, nature, and cuisine collide.",
+      distance: "1388 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Melbourne"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Shanghai"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Mary Russell",
+        role: "Group Booking Coordinator",
+        languages: ["Greek","German"],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
+        contact: {
+          contactEmail: "unforgettable.passag@velarivoyages.com",
+          contactNumber: "+1-898-619-6460"
+        }
+      }
+    ],
+    title: "Unforgettable Passage of the Sapphire Mooring",
+    description: "Sail away from Auckland into the beautiful expanse of Asia Pacific. Along the way, enjoy rich cultural experiences in Melbourne, Shanghai, Sydney, where history, nature, and cuisine collide.",
+    rating: 4.6,
+    tags: ["glacier-cruise","cruise-getaway"]
+  },
+  {
+    basePrice: 6863,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  }
+],
+      description: "Depart Auckland on a relaxing frontier through the Asia Pacific region. Highlights include the stunning coastlines of Tokyo, Bangkok, all while enjoying first-class amenities on board.",
+      distance: "1487 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Bangkok"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Auckland"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Barbara Reed",
+        role: "Group Booking Coordinator",
+        languages: ["Greek","German"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
+        contact: {
+          contactEmail: "refined.elevation.of@velarivoyages.com",
+          contactNumber: "+1-616-978-9146"
+        }
+      }
+    ],
+    title: "Refined Elevation of the Sapphire Mooring",
+    description: "Depart Auckland on a relaxing frontier through the Asia Pacific region. Highlights include the stunning coastlines of Tokyo, Bangkok, all while enjoying first-class amenities on board.",
+    rating: 4.2,
+    tags: ["repositioning","wildlife"]
+  },
+  {
+    basePrice: 1591,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Begin your journey in Auckland, where tradition meets travel. This immersive elevation reveals the finest of Asia Pacific, from the beaches of Bali to the streets of Melbourne.",
+      distance: "1444 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Melbourne"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Singapore"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Nancy Hawkins",
+        role: "Group Booking Coordinator",
+        languages: ["Greek","German"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        contact: {
+          contactEmail: "tidewashed.sojourn.o@velarivoyages.com",
+          contactNumber: "+1-281-413-8046"
+        }
+      }
+    ],
+    title: "Tide-Washed Sojourn of the Gateway to New Zealand",
+    description: "Begin your journey in Auckland, where tradition meets travel. This immersive elevation reveals the finest of Asia Pacific, from the beaches of Bali to the streets of Melbourne.",
+    rating: 4.2,
+    tags: ["cruise-excursion"]
+  },
+  {
+    basePrice: 3428,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Let this tranquil voyage redefine your idea of travel. From Auckland, explore the Asia Pacific in luxurious comfort, stopping at Ho Chi Minh City, Shanghai, Tokyo where every port offers a new chapter.",
+      distance: "1333 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Shanghai"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Joan Montgomery",
+        role: "Group Booking Coordinator",
+        languages: ["Greek","German"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
+        contact: {
+          contactEmail: "moonlit.enigma.of.th@velarivoyages.com",
+          contactNumber: "+1-897-422-2962"
+        }
+      }
+    ],
+    title: "Moonlit Enigma of the Wind-Danced Waterfront",
+    description: "Let this tranquil voyage redefine your idea of travel. From Auckland, explore the Asia Pacific in luxurious comfort, stopping at Ho Chi Minh City, Shanghai, Tokyo where every port offers a new chapter.",
+    rating: 4.2,
+    tags: ["expedition","long-distance","repositioning"]
   }
 ];

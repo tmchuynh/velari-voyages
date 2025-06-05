@@ -3233,5 +3233,384 @@ export const dubaiCruises: Cruise[] = [
     description: "Join us in Dubai for a resonance of a lifetime. Sail across the serene waters of Middle East, stopping at ports like Malta, Athens where timeless traditions meet modern luxuries.",
     rating: 4.3,
     tags: ["long-distance","cruise-ship","family-friendly"]
+  },
+  {
+    basePrice: 7286,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Set sail from Dubai on this unforgettable expedition through the heart of Middle East. Experience the perfect blend of relaxation and adventure as you explore , with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1007 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Dubai to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Jennifer Campbell",
+        role: "Reservations Agent",
+        languages: ["Danish","Burmese"],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        contact: {
+          contactEmail: "immersive.drift.of.t@velarivoyages.com",
+          contactNumber: "+1-780-911-3712"
+        }
+      }
+    ],
+    title: "Immersive Drift of the Sand-Crafted Skyline",
+    description: "Set sail from Dubai on this unforgettable expedition through the heart of Middle East. Experience the perfect blend of relaxation and adventure as you explore , with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.3,
+    tags: ["luxury"]
+  },
+  {
+    basePrice: 5536,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Begin your arcadia in Dubai, a gateway to the soul of Middle East. Enjoy days spent exploring  and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "804 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Alice Crawford",
+        role: "Reservations Agent",
+        languages: ["Danish","Burmese"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+        contact: {
+          contactEmail: "hidden.escape.of.the@velarivoyages.com",
+          contactNumber: "+1-806-171-6849"
+        }
+      }
+    ],
+    title: "Hidden Escape of the Opulence in Bloom",
+    description: "Begin your arcadia in Dubai, a gateway to the soul of Middle East. Enjoy days spent exploring  and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.2,
+    tags: ["historical","sightseeing"]
+  },
+  {
+    basePrice: 5453,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Step aboard in Dubai and begin a crystalline journey through the scenic Middle East. From historic cities to coastal hideaways like , every day is unforgettable.",
+      distance: "1392 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Charlotte Gardner",
+        role: "Reservations Agent",
+        languages: ["Danish","Burmese"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        contact: {
+          contactEmail: "crystalline.currents@velarivoyages.com",
+          contactNumber: "+1-577-638-6740"
+        }
+      }
+    ],
+    title: "Crystalline Currents of the Sultanate Secrets",
+    description: "Step aboard in Dubai and begin a crystalline journey through the scenic Middle East. From historic cities to coastal hideaways like , every day is unforgettable.",
+    rating: 4.7,
+    tags: ["wildlife","glacier-cruise","fall-cruise"]
+  },
+  {
+    basePrice: 1377,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "From the lively departure port of Dubai, this curated reunion showcases the finest of Middle East. With visits to , you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1009 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Dubai to Dubai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Donna Reeves",
+        role: "Reservations Agent",
+        languages: ["Danish","Burmese"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
+        contact: {
+          contactEmail: "luxurious.infinite.o@velarivoyages.com",
+          contactNumber: "+1-820-179-8833"
+        }
+      }
+    ],
+    title: "Luxurious Infinite of the Oasis of Luxury",
+    description: "From the lively departure port of Dubai, this curated reunion showcases the finest of Middle East. With visits to , you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.2,
+    tags: ["romantic","wellness","cruise-adventure"]
+  },
+  {
+    basePrice: 9930,
+    departureLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    arrivalLocation: {
+  "city": "Dubai",
+  "country": "United Arab Emirates",
+  "region": "Middle East",
+  "coordinates": {
+    "latitude": 25.276987,
+    "longitude": 55.296249
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "region": "Middle East",
+    "coordinates": {
+      "latitude": 25.276987,
+      "longitude": 55.296249
+    }
+  }
+],
+      description: "Escape into the calm waters of Middle East with this pearlescent journey from Dubai. Explore vibrant markets, sun-soaked beaches, and architectural marvels at .",
+      distance: "814 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Dubai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Adeline Hall",
+        role: "Reservations Agent",
+        languages: ["Danish","Burmese"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        contact: {
+          contactEmail: "forbidden.mirage.of.@velarivoyages.com",
+          contactNumber: "+1-141-850-6103"
+        }
+      }
+    ],
+    title: "Forbidden Mirage of the Minaret Horizons",
+    description: "Escape into the calm waters of Middle East with this pearlescent journey from Dubai. Explore vibrant markets, sun-soaked beaches, and architectural marvels at .",
+    rating: 4.3,
+    tags: ["short-getaway","general","fall-cruise"]
   }
 ];

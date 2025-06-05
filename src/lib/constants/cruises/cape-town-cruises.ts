@@ -2865,5 +2865,362 @@ export const capeTownCruises: Cruise[] = [
     description: "Let this immersive voyage redefine your idea of travel. From Cape Town, explore the Africa in luxurious comfort, stopping at Malta, Athens where every port offers a new chapter.",
     rating: 4.3,
     tags: ["romantic"]
+  },
+  {
+    basePrice: 7529,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Escape to sea from Cape Town on a idyllic voyage exploring the magic of Africa. Visit unforgettable locales like , where each stop inspires awe.",
+      distance: "698 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ella Reeves",
+        role: "Travel Advisor",
+        languages: ["English"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+        contact: {
+          contactEmail: "eternal.voyage.of.th@velarivoyages.com",
+          contactNumber: "+1-579-349-5227"
+        }
+      }
+    ],
+    title: "Eternal Voyage of the Cradle of Two Oceans",
+    description: "Escape to sea from Cape Town on a idyllic voyage exploring the magic of Africa. Visit unforgettable locales like , where each stop inspires awe.",
+    rating: 4.7,
+    tags: ["cultural","sightseeing"]
+  },
+  {
+    basePrice: 5312,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Cape Town on this epic journey across Africa. Uncover the beauty and history of  with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "688 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Genesis Marshall",
+        role: "Travel Advisor",
+        languages: ["English"],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "floating.reflection.@velarivoyages.com",
+          contactNumber: "+1-912-996-1311"
+        }
+      }
+    ],
+    title: "Floating Reflection of the Where Currents Converge",
+    description: "Sail away from the charming harbor of Cape Town on this epic journey across Africa. Uncover the beauty and history of  with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.5,
+    tags: ["adventure","anniversary-cruise"]
+  },
+  {
+    basePrice: 5412,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Embark on an unforgettable legacy from the vibrant port of Cape Town, where you'll discover hidden gems and iconic landmarks across the Africa region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+      distance: "613 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Jane Stewart",
+        role: "Travel Advisor",
+        languages: ["English"],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
+        contact: {
+          contactEmail: "forbidden.requiem.of@velarivoyages.com",
+          contactNumber: "+1-308-818-7493"
+        }
+      }
+    ],
+    title: "Forbidden Requiem of the Ocean’s Edge Citadel",
+    description: "Embark on an unforgettable legacy from the vibrant port of Cape Town, where you'll discover hidden gems and iconic landmarks across the Africa region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.1,
+    tags: ["wildlife"]
+  },
+  {
+    basePrice: 7669,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Escape the everyday with this gilded journey through Africa, departing from Cape Town. You'll visit , where every stop is a new adventure.",
+      distance: "685 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Cape Town to Cape Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Valentina Reeves",
+        role: "Travel Advisor",
+        languages: ["English"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
+        contact: {
+          contactEmail: "pristine.wanderlust.@velarivoyages.com",
+          contactNumber: "+1-710-119-5905"
+        }
+      }
+    ],
+    title: "Pristine Wanderlust of the Cradle of Two Oceans",
+    description: "Escape the everyday with this gilded journey through Africa, departing from Cape Town. You'll visit , where every stop is a new adventure.",
+    rating: 5.0,
+    tags: ["relaxation"]
+  },
+  {
+    basePrice: 1801,
+    departureLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    arrivalLocation: {
+  "city": "Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "coordinates": {
+    "latitude": -33.918861,
+    "longitude": 18.4233
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "region": "Africa",
+    "coordinates": {
+      "latitude": -33.918861,
+      "longitude": 18.4233
+    }
+  }
+],
+      description: "Launch into adventure from Cape Town and sail deep into the heart of the Africa. With ports of call like , expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "940 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Cape Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Isabella West",
+        role: "Travel Advisor",
+        languages: ["English"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "charming.legacy.of.t@velarivoyages.com",
+          contactNumber: "+1-449-907-9647"
+        }
+      }
+    ],
+    title: "Charming Legacy of the Mountain-Guarded Mystique",
+    description: "Launch into adventure from Cape Town and sail deep into the heart of the Africa. With ports of call like , expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 4.8,
+    tags: ["cruise-line","family-friendly","cruise-experience"]
   }
 ];

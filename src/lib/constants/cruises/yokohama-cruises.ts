@@ -2673,5 +2673,682 @@ export const yokohamaCruises: Cruise[] = [
     description: "Embark from Yokohama and traverse the Asia Pacific in style. Whether it’s the energy of Shanghai or the calm of Tokyo, each destination reveals a new side of paradise.",
     rating: 4.1,
     tags: ["cruise-experience","short-getaway"]
+  },
+  {
+    basePrice: 5097,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  }
+],
+      description: "Your symphony begins in Yokohama, where every sunset on the Asia Pacific horizon promises another day of discovery—from Kyoto, Bali, Sydney, Ho Chi Minh City to hidden ports of charm.",
+      distance: "1087 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Kyoto"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Bali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Sydney"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Katherine Graham",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Korean","Zulu","Mandarin"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
+        contact: {
+          contactEmail: "hidden.pulse.of.the.@velarivoyages.com",
+          contactNumber: "+1-629-310-2557"
+        }
+      }
+    ],
+    title: "Hidden Pulse of the Volcanic Outposts",
+    description: "Your symphony begins in Yokohama, where every sunset on the Asia Pacific horizon promises another day of discovery—from Kyoto, Bali, Sydney, Ho Chi Minh City to hidden ports of charm.",
+    rating: 4.5,
+    tags: ["fall-cruise","themed-cruise","holiday-cruise"]
+  },
+  {
+    basePrice: 5001,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "This hand-selected immersive cruise offers a true taste of Asia Pacific. Depart from Yokohama and explore ports like Singapore, Hong Kong, Sydney, each telling a story through food, music, and tradition.",
+      distance: "1214 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Singapore to Hong Kong"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Priya Sutton",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Korean","Zulu","Mandarin"],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+        contact: {
+          contactEmail: "riveting.sanctuary.o@velarivoyages.com",
+          contactNumber: "+1-272-967-6590"
+        }
+      }
+    ],
+    title: "Riveting Sanctuary of the Oceanic Wonders",
+    description: "This hand-selected immersive cruise offers a true taste of Asia Pacific. Depart from Yokohama and explore ports like Singapore, Hong Kong, Sydney, each telling a story through food, music, and tradition.",
+    rating: 4.8,
+    tags: ["wellness"]
+  },
+  {
+    basePrice: 9874,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Hong Kong",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Embark on an unforgettable sanctuary from the vibrant port of Yokohama, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Ho Chi Minh City, Sydney, Hong Kong, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "1476 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Sydney"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Hong Kong"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Betty Hunter",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Korean","Zulu","Mandarin"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
+        contact: {
+          contactEmail: "golden.journey.of.th@velarivoyages.com",
+          contactNumber: "+1-651-866-4719"
+        }
+      }
+    ],
+    title: "Golden Journey of the Volcanic Outposts",
+    description: "Embark on an unforgettable sanctuary from the vibrant port of Yokohama, where you'll discover hidden gems and iconic landmarks across the Asia Pacific region. With stops at Ho Chi Minh City, Sydney, Hong Kong, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.7,
+    tags: ["family-friendly","anniversary-cruise"]
+  },
+  {
+    basePrice: 7747,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.6895,
+    "longitude": 139.6917
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  }
+],
+      description: "Depart Yokohama on a relaxing mirage through the Asia Pacific region. Highlights include the stunning coastlines of Ho Chi Minh City, Tokyo, all while enjoying first-class amenities on board.",
+      distance: "903 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Sarah Gardner",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Korean","Zulu","Mandarin"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+        contact: {
+          contactEmail: "dreamlike.awakening.@velarivoyages.com",
+          contactNumber: "+1-958-719-1703"
+        }
+      }
+    ],
+    title: "Dreamlike Awakening of the Gateway to Japan",
+    description: "Depart Yokohama on a relaxing mirage through the Asia Pacific region. Highlights include the stunning coastlines of Ho Chi Minh City, Tokyo, all while enjoying first-class amenities on board.",
+    rating: 4.3,
+    tags: ["holiday-cruise"]
+  },
+  {
+    basePrice: 1468,
+    departureLocation: {
+  "city": "Yokohama",
+  "country": "Japan",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 35.4437,
+    "longitude": 139.638
+  }
+},
+    arrivalLocation: {
+  "city": "Kyoto",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.0116,
+    "longitude": 135.7681
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  }
+],
+      description: "Depart Yokohama on a relaxing elevation through the Asia Pacific region. Highlights include the stunning coastlines of Ho Chi Minh City, Bali, Melbourne, Kyoto, all while enjoying first-class amenities on board.",
+      distance: "1362 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Melbourne"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Kyoto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Layla Keller",
+        role: "Guest Services Agent (Shoreside)",
+        languages: ["Korean","Zulu","Mandarin"],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+        contact: {
+          contactEmail: "whispering.haven.of.@velarivoyages.com",
+          contactNumber: "+1-998-201-7280"
+        }
+      }
+    ],
+    title: "Whispering Haven of the Zen Shores",
+    description: "Depart Yokohama on a relaxing elevation through the Asia Pacific region. Highlights include the stunning coastlines of Ho Chi Minh City, Bali, Melbourne, Kyoto, all while enjoying first-class amenities on board.",
+    rating: 4.5,
+    tags: ["adventure"]
   }
 ];

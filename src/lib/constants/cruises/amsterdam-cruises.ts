@@ -2742,5 +2742,704 @@ export const amsterdamCruises: Cruise[] = [
     description: "Savor each moment of this majestic escape through Northern Europe, starting in Amsterdam. Visit renowned locations like St. Petersburg, Helsinki, Stockholm, where adventure and relaxation intertwine.",
     rating: 4.4,
     tags: ["culinary","weekend-cruise"]
+  },
+  {
+    basePrice: 2488,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Let the winds of the Northern Europe carry you from Amsterdam to the most stunning ports in the region. With destinations like Oslo, Kiel, Tallinn, Berlin, this lullaby redefines luxury travel.",
+      distance: "656 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Amsterdam to Oslo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Oslo to Kiel"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Tallinn"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Berlin"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Morgan",
+        role: "Reservations Agent",
+        languages: ["Swedish","Kannada","Hungarian"],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
+        contact: {
+          contactEmail: "aweinspiring.tranqui@velarivoyages.com",
+          contactNumber: "+1-102-172-8178"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Tranquility of the Waterborne Enigma",
+    description: "Let the winds of the Northern Europe carry you from Amsterdam to the most stunning ports in the region. With destinations like Oslo, Kiel, Tallinn, Berlin, this lullaby redefines luxury travel.",
+    rating: 4.6,
+    tags: ["cultural","tropical"]
+  },
+  {
+    basePrice: 7446,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coordinates": {
+      "latitude": 55.6761,
+      "longitude": 12.5683
+    }
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  }
+],
+      description: "Your drift begins in Amsterdam, where every sunset on the Northern Europe horizon promises another day of discovery—from Berlin, Kiel, Copenhagen to hidden ports of charm.",
+      distance: "537 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Berlin"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Berlin to Kiel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Kiel to Copenhagen"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Copenhagen to Amsterdam"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Copenhagen"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Ava Palmer",
+        role: "Reservations Agent",
+        languages: ["Swedish","Kannada","Hungarian"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "eternal.horizon.of.t@velarivoyages.com",
+          contactNumber: "+1-429-856-2739"
+        }
+      }
+    ],
+    title: "Eternal Horizon of the Golden Age Haven",
+    description: "Your drift begins in Amsterdam, where every sunset on the Northern Europe horizon promises another day of discovery—from Berlin, Kiel, Copenhagen to hidden ports of charm.",
+    rating: 5.0,
+    tags: ["wellness","cruise-vacation"]
+  },
+  {
+    basePrice: 9171,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Southampton",
+  "country": "United Kingdom",
+  "coordinates": {
+    "latitude": 50.9097,
+    "longitude": -1.4044
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  },
+  {
+    "city": "Kiel",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 54.3233,
+      "longitude": 10.1228
+    }
+  },
+  {
+    "city": "Southampton",
+    "country": "United Kingdom",
+    "coordinates": {
+      "latitude": 50.9097,
+      "longitude": -1.4044
+    }
+  }
+],
+      description: "Begin your journey in Amsterdam, where tradition meets travel. This immersive sanctuary reveals the finest of Northern Europe, from the beaches of Tallinn to the streets of Berlin.",
+      distance: "795 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Tallinn to Berlin"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Berlin to Kiel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Kiel to Southampton"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Berlin"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Kiel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Southampton"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ashley Holloway",
+        role: "Reservations Agent",
+        languages: ["Swedish","Kannada","Hungarian"],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+        contact: {
+          contactEmail: "panoramic.panorama.o@velarivoyages.com",
+          contactNumber: "+1-892-890-9504"
+        }
+      }
+    ],
+    title: "Panoramic Panorama of the Canal Crown",
+    description: "Begin your journey in Amsterdam, where tradition meets travel. This immersive sanctuary reveals the finest of Northern Europe, from the beaches of Tallinn to the streets of Berlin.",
+    rating: 4.2,
+    tags: ["adventure","cultural"]
+  },
+  {
+    basePrice: 9596,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Berlin",
+  "country": "Germany",
+  "coordinates": {
+    "latitude": 52.520008,
+    "longitude": 13.404954
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Tallinn",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "coordinates": {
+      "latitude": 52.520008,
+      "longitude": 13.404954
+    }
+  }
+],
+      description: "This infinite cruise from Amsterdam is your ticket to the captivating charm of the Northern Europe. Discover the delights of Tallinn, Oslo, Berlin with enriching excursions and award-winning service.",
+      distance: "1007 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Tallinn"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Tallinn to Oslo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Oslo to Berlin"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Tallinn"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Berlin"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Hannah Graves",
+        role: "Reservations Agent",
+        languages: ["Swedish","Kannada","Hungarian"],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
+        contact: {
+          contactEmail: "sundrenched.reverie.@velarivoyages.com",
+          contactNumber: "+1-945-640-7709"
+        }
+      }
+    ],
+    title: "Sun-Drenched Reverie of the Reflections of the Past",
+    description: "This infinite cruise from Amsterdam is your ticket to the captivating charm of the Northern Europe. Discover the delights of Tallinn, Oslo, Berlin with enriching excursions and award-winning service.",
+    rating: 4.3,
+    tags: ["cruise-line"]
+  },
+  {
+    basePrice: 1837,
+    departureLocation: {
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Northern Europe",
+  "coordinates": {
+    "latitude": 52.377956,
+    "longitude": 4.89707
+  }
+},
+    arrivalLocation: {
+  "city": "Oslo",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "region": "Northern Europe",
+    "coordinates": {
+      "latitude": 52.377956,
+      "longitude": 4.89707
+    }
+  },
+  {
+    "city": "Dublin",
+    "country": "Ireland",
+    "coordinates": {
+      "latitude": 53.349805,
+      "longitude": -6.26031
+    }
+  },
+  {
+    "city": "Oslo",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this oasis from Amsterdam, where the journey through Northern Europe includes stops in Dublin, Oslo, each more enchanting than the last.",
+      distance: "735 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Amsterdam to Dublin"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Dublin to Oslo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Amsterdam"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Dublin"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Oslo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Michelle Crawford",
+        role: "Reservations Agent",
+        languages: ["Swedish","Kannada","Hungarian"],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "epic.haven.of.the.fr@velarivoyages.com",
+          contactNumber: "+1-628-661-3691"
+        }
+      }
+    ],
+    title: "Epic Haven of the Frosted Kingdoms",
+    description: "Experience coastal elegance on this oasis from Amsterdam, where the journey through Northern Europe includes stops in Dublin, Oslo, each more enchanting than the last.",
+    rating: 4.4,
+    tags: ["culinary","cultural","historical"]
   }
 ];
