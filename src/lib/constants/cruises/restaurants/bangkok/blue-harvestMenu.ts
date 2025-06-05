@@ -6,15 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const bangkokblueHarvestMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "An immersive dining experience defined by flavorful Japanese cuisine",
+    "description": "A comforting dining experience featuring the essence of Japanese gastronomy",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve.",
+        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
         "items": [
           {
-            "name": "Authentic Delectable Black Garlic Glazed Beef Tenderloin",
-            "price": 29.82,
+            "name": "Chef's Special Surf and Turf",
+            "price": 27.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 31.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,44 +31,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Japanese A5 Wagyu with Ponzu Butter",
-            "price": 35.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Flambéed Tableside Specialty",
-            "price": 33.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Grilled Dry-Aged Tomahawk Steak",
-            "price": 35.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Irresistible Heritage Recipe Lamb Shank",
-            "price": 37.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Tangy Restaurant's Namesake Signature Entrée",
-            "price": 30.71,
+            "name": "Seasonal Tasting Platter",
+            "price": 34.9,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -67,10 +40,37 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Roasted Chef's Childhood Inspired Creation",
-            "price": 32.55,
+            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 25.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 32.51,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 27.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 35.94,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -79,11 +79,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 34.63,
+            "name": "Modern Interpretation of Regional Classic",
+            "price": 39.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,38 +91,38 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 24.52,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 27.98,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 24.21,
+            "name": "Roasted Quail with Truffle Jus",
+            "price": 30.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Custom Tasting Menu Based on Guest Preferences",
-            "price": 32.17,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Special Occasion Celebratory Dish",
+            "price": 37.8,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hand-Selected Wine Pairing Experience",
+            "price": 36.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Breed Porchetta",
+            "price": 24.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,56 +130,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Japanese flavors—perfect for sharing or enjoying solo.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "price": 11.23,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tuna Tartare",
-            "price": 11.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Falafel",
-            "price": 8.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cheese Platter",
-            "price": 8.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Artichoke Dip",
-            "price": 13,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Crab Cakes",
-            "price": 8.4,
+            "name": "Calamari",
+            "price": 14.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,20 +142,65 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Crostini",
-            "price": 14.52,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Caprese Salad",
+            "price": 14.98,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mini Empanadas",
-            "price": 14.98,
-            "isVegetarian": false,
+            "name": "Dumplings",
+            "price": 15.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crostini",
+            "price": 9.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Puffs",
+            "price": 10.72,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zucchini Fries",
+            "price": 9.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potstickers",
+            "price": 11.59,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Nachos",
+            "price": 13.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,38 +208,38 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Japanese, crafted with care and expertise.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Japanese methods.",
         "items": [
           {
-            "name": "Butternut Squash Soup",
-            "price": 11.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Turkey and Wild Rice Soup",
-            "price": 12.45,
+            "name": "Hearty Sweet Turkey and Wild Rice Soup",
+            "price": 8.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Egg Drop Soup",
-            "price": 7.51,
+            "name": "Traditional Creamy Corn Chowder",
+            "price": 12.35,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Split Pea Soup",
-            "price": 9.64,
+            "name": "Organic Aromatic Tomato Soup",
+            "price": 9.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crispy Broccoli Cheddar Soup",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -250,38 +250,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Lentil and Feta Salad",
-            "price": 12.75,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 11.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 11.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 12.1,
+            "name": "Coleslaw",
+            "price": 14.95,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -289,8 +262,35 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coleslaw",
-            "price": 10.11,
+            "name": "Fruit Salad",
+            "price": 14.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 11.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 13.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,38 +301,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A selection of mains that reflect the heart and soul of Japanese, prepared with care.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Japanese vision.",
         "items": [
           {
-            "name": "Coq au Vin",
-            "price": 30.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "price": 23.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 31.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Korma",
-            "price": 29.94,
+            "name": "Enchiladas",
+            "price": 27.12,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -340,8 +313,35 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "price": 18.14,
+            "name": "Tacos",
+            "price": 20.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Jambalaya",
+            "price": 28.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tagine",
+            "price": 28.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cottage Pie",
+            "price": 27.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,8 +349,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "price": 22.45,
+            "name": "Salmon",
+            "price": 22.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -358,20 +358,20 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "price": 24.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Katsu Curry",
+            "price": 31.71,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 31.16,
-            "isVegetarian": false,
+            "name": "Paella",
+            "price": 28.7,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,38 +379,38 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 29.95,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 26.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 32.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Cedar Plank Roasted Salmon",
-            "price": 26.8,
+            "name": "Valencian Seafood Paella",
+            "price": 23.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 26.74,
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 22.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maryland Style Crab Cakes",
+            "price": 22.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,11 +418,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 22.1,
+            "name": "Classic British Fish and Chips",
+            "price": 31.82,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,20 +430,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Classic Japanese side dishes with our own unique interpretation.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Premium Herbed Chili Lime Roasted Chickpeas",
-            "price": 9.93,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zingy Baked Idaho Potato with Sour Cream",
-            "price": 9.44,
+            "name": "Seasonal Grilled Sautéed Garlic Mushrooms",
+            "price": 9.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,8 +442,17 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Mashed Potatoes",
-            "price": 6.63,
+            "name": "Deluxe Crunchy Grilled Asparagus with Lemon Zest",
+            "price": 5.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Spicy Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 8.96,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -460,17 +460,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Sautéed Garlic Mushrooms",
-            "price": 6.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flavorful Quinoa Pilaf with Herbs",
-            "price": 5.96,
+            "name": "Homestyle Sizzling Corn on the Cob with Chili Lime Butter",
+            "price": 8.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -478,9 +469,18 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Charred Broccolini with Garlic Oil",
-            "price": 6.59,
+            "name": "Traditional Delectable Homestyle Baked Beans",
+            "price": 6.66,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Appetizing Roasted Root Vegetables",
+            "price": 6.38,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -490,29 +490,38 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 5.55,
+            "name": "Coffee",
+            "price": 6.12,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Iced Tea",
-            "price": 5.47,
+            "price": 5.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 6.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,17 +529,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 6.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.56,
+            "name": "Soda",
+            "price": 4.71,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -538,9 +538,9 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 6.69,
-            "isVegetarian": true,
+            "name": "Smoothie",
+            "price": 5.43,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,52 +552,52 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our dessert menu features comforting selections to satisfy every craving",
+    "description": "Experience the art of classic desserts with a Japanese twist",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A rotating selection of baked indulgences from sweet to savory.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Authentic Sizzling Pumpkin Pie",
-            "price": 9.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Mouthwatering Banana Bread",
-            "price": 9.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Marinated Cannoli",
-            "price": 9.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Custard Tart",
-            "price": 7.91,
+            "name": "Homestyle Savory Apple Pie",
+            "price": 6.96,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crispy Custard Tart",
+            "price": 6.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Carrot Cake",
-            "price": 7.41,
+            "name": "Gourmet Savory Danish Pastries",
+            "price": 6.93,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Chocolate Chip Cookies",
+            "price": 8.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Smoked Berry Tart",
+            "price": 8.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,29 +607,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
         "items": [
           {
-            "name": "Gelato",
-            "price": 9.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 10.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 10.37,
+            "name": "Gourmet Grilled Granita",
+            "price": 8.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,8 +619,26 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Banana",
-            "price": 9.66,
+            "name": "Homestyle Sizzling Frozen Mousse",
+            "price": 11.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flavorful Sherbet",
+            "price": 10.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Ice Cream Sandwich",
+            "price": 8.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -646,11 +646,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 10.86,
+            "name": "Deluxe Mouthwatering Frozen Pie",
+            "price": 8.18,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Japanese-inspired drinks and classic favorites in our delightful selection",
+    "description": "A flavorful selection of wines, beers, and spirits to suit every taste",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Seasonal Stuffed Martini",
-            "price": 14.74,
+            "name": "Hearty Spiced Martini",
+            "price": 15.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,17 +676,35 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Margarita",
-            "price": 14.42,
+            "name": "Seasonal Grilled Negroni",
+            "price": 10.97,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Juicy Mai Tai",
-            "price": 14.14,
+            "name": "Deluxe Spicy Bloody Mary",
+            "price": 12.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Mojito",
+            "price": 13.2,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Margarita",
+            "price": 14.88,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -694,8 +712,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Flavorful Old Fashioned",
-            "price": 10.22,
+            "name": "Homestyle Sweet Cosmopolitan",
+            "price": 15.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,26 +721,8 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Mojito",
-            "price": 13.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Golden Whiskey Sour",
-            "price": 10.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Stuffed Negroni",
-            "price": 12.68,
+            "name": "Fresh Satisfying Old Fashioned",
+            "price": 14.24,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -733,59 +733,59 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "Wines selected to enhance each dish and elevate your dining experience.",
         "items": [
           {
-            "name": "Fiano",
-            "price": 11.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sémillon",
-            "price": 9.07,
+            "name": "Classic Crunchy Roussanne",
+            "price": 11.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mourvèdre",
-            "price": 10.25,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vermentino",
-            "price": 12.37,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Classic Comforting Syrah/Shiraz",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 13.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 10.98,
+            "name": "Gourmet Succulent Zinfandel",
+            "price": 9.19,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Enticing Chenin Blanc",
+            "price": 12.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Enticing Marsanne",
+            "price": 13.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Sangiovese",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,38 +793,11 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Absinthe",
-            "price": 16.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bourbon",
-            "price": 12.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "St-Germain",
-            "price": 17.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 14.17,
+            "name": "Calvados",
+            "price": 14.34,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -832,11 +805,38 @@ export const bangkokblueHarvestMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 13.31,
+            "name": "Frangelico",
+            "price": 12.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 14.62,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Campari",
+            "price": 10.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

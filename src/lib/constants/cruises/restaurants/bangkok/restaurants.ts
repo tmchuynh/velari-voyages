@@ -248,5 +248,160 @@ export const bangkokRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Blue Tea House",
+    "description": "Located close to the cultural center, this Japanese restaurant delights with its signature dishes and live street performances.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-283-4918",
+      "contactEmail": "team@bluecharcuteriebangkok.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Atelier",
+    "description": "A charming American restaurant near the old town walls, offering farm-to-table meals and other local favorites in a setting with beautiful decor.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-374-3431",
+      "contactEmail": "info@grandsupperclubbangkok.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Barbecue",
+    "description": "A culinary gem serving French specialties including local ingredients, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-412-8071",
+      "contactEmail": "customerservice@royalrestaurantbangkok.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Izakaya",
+    "description": "A culinary gem serving French specialties including gourmet street food, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-399-8151",
+      "contactEmail": "services@bluefarmtablebangkok.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Cookhouse",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring regional wines served in an atmosphere of friendly service overlooking the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-333-5283",
+      "contactEmail": "services@goldencafebangkok.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
