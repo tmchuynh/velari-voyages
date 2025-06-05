@@ -805,7 +805,7 @@ function generateMenuItemsForType(
   // Set base price ranges according to restaurant's priceRange indicator
   switch (restaurant.priceRange) {
     case "$": // Budget pricing
-      priceModifiers = {
+      let priceModifiers = {
         budget: { factor: 0.6, fixed: -2 },
         standard: { factor: 0.7, fixed: -1 },
         premium: { factor: 0.8, fixed: 0 },
@@ -1599,6 +1599,17 @@ function generateCombinedMenuContent(
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
 
+  // If restaurant is halal or kosher friendly, potentially filter out pork items (30% chance)
+  const shouldFilterPork =
+    (restaurant.isHalalFriendly || restaurant.isKosherFriendly) &&
+    Math.random() < 0.3;
+
+  if (shouldFilterPork) {
+    console.log(
+      `${restaurantName} will have pork items removed from its menu (halal/kosher friendly)`
+    );
+  }
+
   // Generate menu items for each category with the restaurant properties
   const signatureDishes = generateMenuItemsForType(
     "signature dishes",
@@ -1809,10 +1820,11 @@ function generateCombinedMenuContent(
     }
   }
 
-  // Check if drinks menu should be included
+  // Check if drinks menu should be included - skip for halal-friendly restaurants
   if (
     (args["menu-type"] === "all" || args["menu-type"] === "drinks") &&
-    !excludedMenuTypes.includes("drinks")
+    !excludedMenuTypes.includes("drinks") &&
+    !restaurant.isHalalFriendly // Skip drinks menu for halal-friendly restaurants
   ) {
     // Similar structure for drinks menu
     const drinkCategories = [];
