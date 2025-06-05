@@ -248,5 +248,160 @@ export const milanRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Mediterranean Cantina",
+    "description": "Located close to the river promenade, this French restaurant delights with its heritage recipes and live street performances.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-685-8146",
+      "contactEmail": "general@japaneseboulangeriemilan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mediterranean Bar & Kitchen",
+    "description": "Located close to the waterfront, this Italian restaurant delights with its signature dishes and friendly service.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-548-1093",
+      "contactEmail": "reception@japanesetapasbarmilan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Snack Bar",
+    "description": "A charming Japanese restaurant near the cultural center, offering heritage recipes and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-507-4457",
+      "contactEmail": "services@japaneseramen-yamilan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Fusion Cellar",
+    "description": "Located close to the city museum, this Japanese restaurant delights with its regional wines and live street performances.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-538-5884",
+      "contactEmail": "reachus@italianterracemilan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Mediterranean Taproom",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of elegant atmosphere overlooking the iconic clock tower.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-804-2909",
+      "contactEmail": "reachus@japanesenookmilan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
