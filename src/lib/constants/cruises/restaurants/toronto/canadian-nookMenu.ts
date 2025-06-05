@@ -1,29 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Chinese Pavilion in toronto
+ * Menu data for Canadian Nook in toronto
  */
-export const torontochinesePavilionMenu: RestaurantMenu[] = [
+export const torontocanadianNookMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of delicious offerings from across the Indian spectrum",
+    "description": "Satisfy your cravings with our vibrant, tasty take on Japanese",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic Japanese cooking.",
         "items": [
           {
-            "name": "Premium Sweet Chef's Special Surf and Turf",
-            "price": 35.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Savory Seasonal Tasting Platter",
-            "price": 34.12,
+            "name": "Flambéed Tableside Specialty",
+            "price": 27.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,35 +22,26 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Aromatic Signature Truffle Pasta with Aged Pecorino",
-            "price": 31.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crispy Executive Chef's Daily Inspiration Entrée",
-            "price": 25.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Succulent Flambéed Tableside Specialty",
-            "price": 27.68,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 32.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Crunchy Founder's Family Recipe Pasta",
-            "price": 25.65,
+            "name": "24-Hour Braised Short Ribs",
+            "price": 35.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 27.65,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -67,11 +49,29 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Zingy Sous Vide Perfected Wagyu",
-            "price": 29.32,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 26.02,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Founder's Family Recipe Pasta",
+            "price": 36.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Family Paella",
+            "price": 36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,8 +82,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
         "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Authentic Tangy Signature Spice-Rubbed Protein",
-            "price": 31.14,
+            "name": "House Special Crispy Cold-Smoked Delicacy",
+            "price": 33.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,67 +91,67 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Sustainable Seafood Tower",
-            "price": 39.73,
+            "name": "Hearty Satisfying Black Garlic Marinated Octopus",
+            "price": 25.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Smoked Herb-Crusted Rack of Lamb",
-            "price": 28.3,
+            "name": "Traditional Flaky Signature Spice-Rubbed Protein",
+            "price": 27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Creamy Seasonal Farm-to-Table Vegetable Plate",
-            "price": 26.25,
+            "name": "Fresh Golden Aged and House-Cured Charcuterie Selection",
+            "price": 35.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Fire-Roasted Seasonal Centerpiece",
+            "price": 36.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Braised Short Ribs with Red Wine Sauce",
-            "price": 36.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Indian—perfect for sharing or savoring solo.",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
         "items": [
           {
-            "name": "Spinach Artichoke Dip",
-            "price": 15.98,
+            "name": "Stuffed Jalapeños",
+            "price": 8.68,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garlic Knots",
-            "price": 15.82,
+            "name": "Baked Brie",
+            "price": 12.84,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ceviche",
+            "name": "Nachos",
             "price": 11.86,
             "isVegetarian": true,
             "isVegan": false,
@@ -160,8 +160,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Skins",
-            "price": 13.63,
+            "name": "Garlic Knots",
+            "price": 9.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,50 +169,50 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Quesadillas",
-            "price": 14.05,
+            "name": "Calamari",
+            "price": 11.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 10.67,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arancini",
-            "price": 12.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hummus Platter",
-            "price": 11.19,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nachos",
-            "price": 14.65,
+            "name": "Potato Skins",
+            "price": 10.31,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
+        "description": "Each bowl is a journey through the heart of Japanese, crafted with care and expertise.",
         "items": [
           {
-            "name": "Beef Stew",
-            "price": 9.87,
+            "name": "House Special Savory Clam Chowder",
+            "price": 8.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -220,17 +220,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tomato Soup",
-            "price": 12.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 13.48,
+            "name": "Authentic Smoked Tomato Soup",
+            "price": 13.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,11 +229,20 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Egg Drop Soup",
-            "price": 13.96,
+            "name": "Authentic Fried Italian Wedding Soup",
+            "price": 9.5,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Mushroom Soup",
+            "price": 10.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,11 +250,20 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
-            "name": "Coleslaw",
-            "price": 13.32,
+            "name": "Kale Salad",
+            "price": 15.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 11.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,8 +271,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 14.67,
+            "name": "Nicoise Salad",
+            "price": 9.83,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -271,28 +280,19 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 10.8,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 12.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Potato Salad",
-            "price": 10.77,
+            "name": "Orzo Salad",
+            "price": 14.83,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 14.22,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,38 +301,20 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Culinary centerpieces that define the essence of our dining experience.",
+        "description": "From classic to contemporary, our mains are a celebration of Japanese culture.",
         "items": [
           {
-            "name": "Handcrafted Exquisite Lentil Stew",
-            "price": 31.66,
+            "name": "House Special Grilled Biryani",
+            "price": 26.41,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sautéed Seafood Platter",
-            "price": 27.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Shish Kebabs",
-            "price": 27.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Sweet Coq au Vin",
-            "price": 31.1,
+            "name": "Deluxe Fried Lasagna",
+            "price": 29.22,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -340,8 +322,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Zesty Cottage Pie",
-            "price": 29.42,
+            "name": "Hearty Succulent Currywurst",
+            "price": 28.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,17 +331,17 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Baked Roast Duck",
-            "price": 21.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Classic Tangy Stuffed Zucchini Boats",
+            "price": 28.6,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Sizzling Korma",
-            "price": 18.14,
+            "name": "Classic Luscious Pho",
+            "price": 29.43,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -367,50 +349,41 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Exquisite Pulled Pork Sandwich",
-            "price": 27.04,
+            "name": "Handcrafted Herbed Beef Wellington",
+            "price": 23.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Grilled Shish Kebabs",
+            "price": 29.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Pasta Primavera",
+            "price": 26.95,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "Classic British Fish and Chips",
-            "price": 23.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 35.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 27.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maryland Style Crab Cakes",
-            "price": 28.29,
+            "name": "Handcrafted Grilled Steamed Littleneck Clams in Garlic Broth",
+            "price": 32.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +391,35 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 26,
+            "name": "Premium Wholesome Stuffed Flounder with Crab and Spinach",
+            "price": 34.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Savory Garlic Butter Shrimp Skillet",
+            "price": 33.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Golden Mussels Mariniere in White Wine",
+            "price": 33.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Appetizing New England Lobster Roll",
+            "price": 22.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,11 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Sweet Potato Wedges with Smoked Paprika",
-            "price": 6.91,
+            "name": "Hearty Zesty Quinoa Pilaf with Herbs",
+            "price": 8.3,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -442,26 +442,8 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mashed Potatoes",
-            "price": 9.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 5.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Root Vegetables",
-            "price": 8.86,
+            "name": "Premium Spiced Herbed Bulgur Wheat with Lemon",
+            "price": 7.3,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -469,20 +451,38 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Provencal Ratatouille",
-            "price": 9.33,
+            "name": "Homestyle Crispy Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 8.17,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Yukon Gold Potato Gratin",
+            "price": 7.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Zingy Wild Mushroom Risotto",
+            "price": 6.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 6.91,
-            "isVegetarian": true,
+            "name": "Classic Luscious Mashed Potatoes",
+            "price": 7.82,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,29 +490,29 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Juice",
-            "price": 7.91,
+            "name": "Deluxe Crunchy Juice",
+            "price": 6.49,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 6.04,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 6.95,
+            "name": "Classic Spiced Iced Tea",
+            "price": 4.89,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Luscious Smoothie",
+            "price": 5.59,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -520,8 +520,17 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 6.89,
+            "name": "Authentic Mouthwatering Milkshake",
+            "price": 7.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Creamy Tea",
+            "price": 4.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,19 +538,10 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.99,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Seasonal Appetizing Coffee",
+            "price": 4.61,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,33 +552,15 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Experience the art of crowd-pleasing desserts with a Indian twist",
+    "description": "Handcrafted tasty desserts that celebrate Japanese traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
         "items": [
           {
-            "name": "Seasonal Golden Donuts",
-            "price": 6.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Portuguese Custard Tarts",
-            "price": 6.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Succulent Crumb Cake",
-            "price": 8.24,
+            "name": "Fresh Juicy Brownies",
+            "price": 7.29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -586,17 +568,35 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Herbed Treacle Tart",
-            "price": 6.68,
-            "isVegetarian": false,
+            "name": "Organic Smoked Danish Pastries",
+            "price": 6.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flaky Pain au Chocolat",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Chocolate Chip Cookies",
+            "price": 9.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Succulent Muffins",
-            "price": 7.48,
+            "name": "Fresh Comforting Pecan Pie",
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -607,11 +607,20 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
+        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
         "items": [
           {
-            "name": "Classic Succulent Frozen Pudding",
-            "price": 11.29,
+            "name": "Ice Cream",
+            "price": 11.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 7.09,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,26 +628,17 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Kulfi",
-            "price": 10.75,
+            "name": "Semifreddo",
+            "price": 8.98,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Grilled Frozen Custard",
-            "price": 8.78,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Juicy Snow Cone",
-            "price": 9.61,
+            "name": "Baked Alaska",
+            "price": 9.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,10 +646,10 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Mouthwatering Paletas",
-            "price": 7.68,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Frosty",
+            "price": 11.1,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,72 +660,72 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A thoughtfully selected selection of alcoholic beverages to complement your meal",
+    "description": "A thoughtfully selected array of beverages specially curated for our guests",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
             "name": "Old Fashioned",
-            "price": 12.56,
+            "price": 15.12,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 12.35,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 12.76,
-            "isVegetarian": true,
+            "name": "Margarita",
+            "price": 10.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Bloody Mary",
+            "price": 10.82,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mojito",
-            "price": 15.51,
-            "isVegetarian": false,
+            "price": 11.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.2,
+            "name": "Martini",
+            "price": 13.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 13.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 13.36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,20 +733,20 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
+        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
         "items": [
           {
-            "name": "Fresh Roasted Chardonnay",
-            "price": 8.94,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Premium Zingy Tempranillo",
+            "price": 13.16,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Steamed Sangiovese",
-            "price": 9.09,
+            "name": "Deluxe Tangy Gewürztraminer",
+            "price": 13.42,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -754,68 +754,50 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Aromatic Petit Verdot",
-            "price": 9.41,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Zinfandel",
-            "price": 9.47,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Roasted Verdicchio",
-            "price": 9.44,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Creamy Marsanne",
-            "price": 10.34,
+            "name": "Authentic Zingy Pinot Noir",
+            "price": 11.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sizzling Chardonnay",
+            "price": 8.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Vermentino",
+            "price": 9.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Steamed Champagne/Sparkling Wine",
+            "price": 10.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "House Special Exquisite Tequila",
-            "price": 10.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tangy Limoncello",
-            "price": 13.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delicious Anisette",
-            "price": 14.9,
+            "name": "Hearty Flaky Tequila",
+            "price": 12.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -823,8 +805,17 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Baileys Irish Cream",
-            "price": 10.54,
+            "name": "Authentic Spiced Baileys Irish Cream",
+            "price": 12.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Roasted Rum",
+            "price": 17.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -832,10 +823,19 @@ export const torontochinesePavilionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Mouthwatering Cointreau",
-            "price": 11.83,
+            "name": "Handcrafted Herbed Mezcal",
+            "price": 17.06,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Herbed Grappa",
+            "price": 17.2,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true

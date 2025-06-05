@@ -248,5 +248,160 @@ export const torontoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Canadian Nook",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of charming streetscapes overlooking the iconic clock tower.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-870-3129",
+      "contactEmail": "feedback@canadiandelitoronto.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Indian Provisions",
+    "description": "Located close to the waterfront, this Canadian restaurant delights with its signature dishes and elegant atmosphere.",
+    "cuisine": "Canadian",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-959-2157",
+      "contactEmail": "customerservice@japaneserooftoptoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Japanese Fish House",
+    "description": "Located close to the main square, this Indian restaurant delights with its farm-to-table meals and friendly service.",
+    "cuisine": "Indian",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-376-7006",
+      "contactEmail": "support@indianculinarytoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Canadian Gastropub",
+    "description": "A charming Chinese restaurant near the waterfront, offering local ingredients and other local favorites in a setting with live street performances.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-679-6989",
+      "contactEmail": "mail@chinesecoffeehousetoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Canadian Society",
+    "description": "A charming Chinese restaurant near the old town walls, offering gourmet street food and other local favorites in a setting with charming streetscapes.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-689-8366",
+      "contactEmail": "mail@chinesecerveceriatoronto.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

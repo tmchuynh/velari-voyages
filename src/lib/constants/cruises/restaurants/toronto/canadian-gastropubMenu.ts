@@ -1,38 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Indian Taproom in toronto
+ * Menu data for Canadian Gastropub in toronto
  */
-export const torontoindianTaproomMenu: RestaurantMenu[] = [
+export const torontocanadianGastropubMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Your introduction to a world of flavorful, flavor-rich Chinese meals",
+    "description": "A showcase of satisfying culinary artistry rooted in Chinese heritage",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "House favorites that have stood the test of time and showcase our refined approach to Chinese cuisine.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Chef's Special Surf and Turf",
-            "price": 31.74,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Comforting Seasonal Tasting Platter",
-            "price": 26.45,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sweet Captain's Favorite Seafood Tower",
-            "price": 36.47,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 32.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,8 +22,26 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Delectable Flambéed Tableside Specialty",
-            "price": 35.12,
+            "name": "Chef's Special Surf and Turf",
+            "price": 36.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 28.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 28.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,17 +49,17 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 37.62,
+            "name": "Seasonal Tasting Platter",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Sautéed Molecular Gastronomy Showcase Tasting",
-            "price": 32.48,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 32.6,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -67,8 +67,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Heritage Recipe Lamb Shank",
-            "price": 37.07,
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 28.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,20 +79,11 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Tableside Prepared Tartare",
-            "price": 34.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Heirloom Recipe from Chef's Family",
-            "price": 31.69,
+            "name": "Gourmet Sweet High-End Ingredient Showcase",
+            "price": 31.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,41 +91,59 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Freshly Harvested Seasonal Creation",
-            "price": 28.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Specialty Pasta Creation",
-            "price": 26.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Quail with Truffle Jus",
-            "price": 38.37,
+            "name": "Homestyle Irresistible Miso-Glazed Black Cod",
+            "price": 25.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Juicy Lobster Thermidor",
+            "price": 25.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Aromatic Herb-Crusted Rack of Lamb",
+            "price": 34.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Comforting Crispy Skin Sea Bass",
+            "price": 29.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Chinese flavors—perfect for sharing or enjoying solo.",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Chinese.",
         "items": [
           {
-            "name": "Chicken Satay",
-            "price": 14.66,
+            "name": "Organic Smoked Garlic Bread",
+            "price": 9.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Tuna Tartare",
+            "price": 11.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +151,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Spinach Puffs",
-            "price": 12.06,
+            "name": "Hearty Sizzling Samosas",
+            "price": 10.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,53 +160,44 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Calamari",
-            "price": 11.52,
+            "name": "Hearty Satisfying Tempura",
+            "price": 8.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Sweet Potato Fries",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Zucchini Fries",
+            "price": 8.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Meatballs",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Stuffed Jalapeños",
-            "price": 12.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nachos",
-            "price": 13.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 11.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bruschetta",
-            "price": 14.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Empanadas",
-            "price": 11.6,
+            "name": "Fresh Stuffed Edamame",
+            "price": 8.5,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -208,11 +208,53 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
+        "description": "Warm, nourishing soups that reflect the heart of Chinese cooking—perfect for any season.",
         "items": [
           {
-            "name": "Fresh Smoked Tomato Soup",
-            "price": 8.39,
+            "name": "Authentic Roasted Vegetable Barley Soup",
+            "price": 7.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Sweet Tomato Soup",
+            "price": 11.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Flavorful Gazpacho",
+            "price": 12.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Marinated Chicken Noodle Soup",
+            "price": 7.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
+        "items": [
+          {
+            "name": "Cobb Salad",
+            "price": 14.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,8 +262,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Lentil Soup",
-            "price": 12.69,
+            "name": "Potato Salad",
+            "price": 10.43,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -229,59 +271,17 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Steamed Italian Wedding Soup",
-            "price": 13.43,
+            "name": "Cucumber Salad",
+            "price": 14.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
-          {
-            "name": "Traditional Savory Butternut Squash Soup",
-            "price": 10.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
-        "items": [
           {
             "name": "Nicoise Salad",
-            "price": 15.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fruit Salad",
-            "price": 10.44,
+            "price": 15.46,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -289,10 +289,10 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 14.19,
+            "name": "Roasted Vegetable Salad",
+            "price": 12.95,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,11 +301,20 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Chinese vision.",
         "items": [
           {
-            "name": "Bibimbap",
-            "price": 25.48,
+            "name": "Tagine",
+            "price": 28.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 20.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,8 +322,35 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Paella",
-            "price": 25.8,
+            "name": "Gnocchi",
+            "price": 24.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pesto Pasta",
+            "price": 28.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 29.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "price": 31.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -323,43 +359,7 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Quiche",
-            "price": 18.12,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pizza",
-            "price": 26.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 29.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "price": 27.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 21.74,
+            "price": 20.19,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -367,10 +367,10 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 27.08,
+            "name": "Fajitas",
+            "price": 19.28,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,20 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
         "items": [
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 31.91,
+            "name": "Authentic Herbed Lobster Thermidor with Gruyère Crust",
+            "price": 22.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Steamed Littleneck Clams in Garlic Broth",
+            "price": 25.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +400,17 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 33.83,
+            "name": "Hearty Tender Cedar Plank Roasted Salmon",
+            "price": 28.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spicy Smoked Salmon Platter with Dill Crème",
+            "price": 32.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,26 +418,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 25.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "New England Lobster Roll",
-            "price": 26.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 22.7,
+            "name": "Hearty Smoked Baked Cod with Lemon Caper Sauce",
+            "price": 23.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,29 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
         "items": [
           {
-            "name": "Scalloped Potatoes with Thyme",
-            "price": 7.1,
+            "name": "Handcrafted Spiced Mashed Potatoes",
+            "price": 8.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled French Fries",
+            "price": 6.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Maple-Glazed Baby Carrots",
+            "price": 5.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,17 +460,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 6.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Root Vegetables",
-            "price": 6.13,
+            "name": "Fresh Spicy Crispy Zucchini Fritters",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -460,17 +469,32 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Truffle Parmesan Fries",
-            "price": 9.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Gourmet Pan-seared Provencal Ratatouille",
+            "price": 7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chili Lime Roasted Chickpeas",
-            "price": 6.18,
+            "name": "Authentic Delicious Crispy Beer-Battered Onion Rings",
+            "price": 9.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
+        "items": [
+          {
+            "name": "Smoothie",
+            "price": 4.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,32 +502,17 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Provencal Ratatouille",
-            "price": 6.4,
+            "name": "Juice",
+            "price": 4.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
-        "items": [
-          {
-            "name": "Hot Chocolate",
-            "price": 4.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 5.29,
+            "name": "Hot Chocolate",
+            "price": 7.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,17 +521,17 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 6.86,
-            "isVegetarian": true,
+            "price": 6.47,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 5.78,
-            "isVegetarian": true,
+            "name": "Iced Tea",
+            "price": 4.6,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -530,18 +539,9 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 4.68,
+            "price": 7.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 4.37,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,15 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Indulge in our mouthwatering sweet creations",
+    "description": "Chinese-inspired delicious confections to delight your senses",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
+        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
         "items": [
           {
-            "name": "Deluxe Flavorful Custard Tart",
-            "price": 10.63,
+            "name": "Seasonal Herbed Banana Bread",
+            "price": 8.66,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,40 +568,40 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Carrot Cake",
-            "price": 7.45,
+            "name": "Organic Smoked Lemon Bars",
+            "price": 8.01,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Aromatic Carrot Cake",
+            "price": 7.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Cannoli",
+            "price": 10.11,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Irresistible Fruit Galette",
-            "price": 6.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Danish Pastries",
-            "price": 9.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Cannoli",
-            "price": 7.74,
+            "name": "Authentic Crispy Macarons",
+            "price": 9.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -610,8 +610,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
         "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "Hearty Fried Snow Cone",
-            "price": 7.98,
+            "name": "Gourmet Marinated Frozen Custard",
+            "price": 8.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,8 +619,26 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Ice Cream",
-            "price": 9.6,
+            "name": "Authentic Pan-seared Ice Cream",
+            "price": 8.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Hearty Kulfi",
+            "price": 9.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Frozen Pie",
+            "price": 8.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,26 +646,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Fried Ice Cream Sandwich",
-            "price": 8.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy Baked Alaska",
-            "price": 10.27,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Sherbet",
-            "price": 7.91,
+            "name": "Classic Delectable Semifreddo",
+            "price": 10.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,15 +660,24 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Each drink is a thoughtfully selected complement to the flavors of our cuisine",
+    "description": "A flavorful array of beverages specially selected by our sommeliers",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Cosmopolitan",
-            "price": 13.98,
+            "name": "House Special Delectable Old Fashioned",
+            "price": 15.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delicious Martini",
+            "price": 11.3,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -676,17 +685,26 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 14.39,
+            "name": "Homestyle Pan-seared Negroni",
+            "price": 14.12,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crispy Manhattan",
+            "price": 11.99,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 12.72,
+            "name": "Authentic Aromatic Cosmopolitan",
+            "price": 11.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +712,8 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 11.72,
+            "name": "Organic Sweet Bloody Mary",
+            "price": 12.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,28 +721,10 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 14.06,
+            "name": "Classic Crispy Margarita",
+            "price": 13.41,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 14.85,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,38 +733,38 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Classic Steamed Chardonnay",
-            "price": 13.51,
+            "name": "Albariño",
+            "price": 10.82,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prosecco",
+            "price": 12.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 9.82,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Exquisite Merlot",
-            "price": 9.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Sangiovese",
-            "price": 13.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Satisfying Vermentino",
-            "price": 11.19,
+            "name": "Pinot Grigio",
+            "price": 9.69,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -772,20 +772,20 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Herbed Cabernet Sauvignon",
-            "price": 11.66,
-            "isVegetarian": false,
+            "name": "Chardonnay",
+            "price": 8.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Viognier",
-            "price": 12.3,
+            "name": "Sémillon",
+            "price": 10.44,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,38 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
         "items": [
           {
-            "name": "Authentic Crispy Chartreuse",
-            "price": 11.37,
+            "name": "House Special Sautéed Bourbon",
+            "price": 16.33,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Zingy Calvados",
-            "price": 16.44,
-            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Crispy Vodka",
-            "price": 10.25,
+            "name": "Authentic Sizzling Cointreau",
+            "price": 12.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Pisco",
+            "price": 14.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Marinated Amaretto",
+            "price": 14.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,22 +832,13 @@ export const torontoindianTaproomMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Chambord",
-            "price": 13.62,
+            "name": "Seasonal Stuffed St-Germain",
+            "price": 12.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Coffee Liqueur",
-            "price": 14.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
