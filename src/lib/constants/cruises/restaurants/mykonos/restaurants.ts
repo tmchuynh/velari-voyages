@@ -248,5 +248,160 @@ export const mykonosRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Royal Eatery + Bar",
+    "description": "A culinary gem serving American specialties including local ingredients, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-619-6711",
+      "contactEmail": "connect@grandsteakhousemykonos.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Culinary",
+    "description": "Experience authentic American cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of boutique shops overlooking the cultural center.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-937-1934",
+      "contactEmail": "connect@thecreamerymykonos.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Oyster Bar",
+    "description": "A charming French restaurant near the cultural center, offering heritage recipes and other local favorites in a setting with boutique shops.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-350-5401",
+      "contactEmail": "services@royalloungemykonos.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Atelier",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring artisanal creations served in an atmosphere of seasonal floral displays overlooking the cultural center.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-366-5858",
+      "contactEmail": "contact@goldenhousemykonos.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Pizzeria",
+    "description": "This popular Japanese establishment combines traditional recipes and artisanal creations, all served in a unique setting with beautiful decor.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "Closed",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-809-8844",
+      "contactEmail": "contact@bluetaproommykonos.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
