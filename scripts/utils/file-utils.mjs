@@ -13,11 +13,10 @@ export const getDirname = (importMetaUrl) => {
 /**
  * Get city files from the city.ts configuration
  */
-export const getCityFiles = (rootDir) => {
+export const getCityFiles = () => {
   try {
     // Read the city.ts file as text
     const cityFilePath = path.join(
-      rootDir,
       "src",
       "lib",
       "constants",
