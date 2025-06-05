@@ -6,33 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const londonhackneyCantinaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A showcase of satisfying culinary artistry rooted in Indian heritage",
+    "description": "A menu designed to highlight the tasty essence of Indian",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "House Special Herbed Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 24.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zingy Heritage Recipe Lamb Shank",
-            "price": 27.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Sweet Dry-Aged Tomahawk Steak",
-            "price": 28.27,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 28.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,17 +22,26 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Sizzling Whole Roasted Heritage Chicken",
-            "price": 26.04,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 30.45,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Wood-Fired Peking Duck with Plum Sauce",
-            "price": 32.24,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 31.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 24.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,20 +49,29 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Creamy Flambéed Tableside Specialty",
-            "price": 27.59,
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 29.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 30.43,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Aromatic Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 34.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Legendary Prime Rib",
+            "price": 34.82,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,20 +79,29 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Grilled Venison with Juniper Berry Sauce",
-            "price": 39.06,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 38.28,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 26.19,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 37.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 39.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -101,28 +110,19 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
           },
           {
             "name": "Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 38.24,
-            "isVegetarian": false,
+            "price": 39.32,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lobster Thermidor",
-            "price": 24.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Farm-to-Table Vegetable Plate",
-            "price": 29.02,
+            "name": "Off-Menu Secret Preparation",
+            "price": 35.78,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,47 +130,38 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Indian—perfect for sharing or savoring solo.",
+        "description": "A delightful array of appetizers that highlight the best of Indian flavors—perfect for sharing or enjoying solo.",
         "items": [
           {
-            "name": "Homestyle Savory Mini Quesadillas",
+            "name": "Zucchini Fries",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 12.33,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Onion Rings",
             "price": 15.84,
-            "isVegetarian": true,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spiced Spinach Artichoke Dip",
-            "price": 10.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Samosas",
-            "price": 11.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Sweet Caprese Salad",
-            "price": 13.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Appetizing Prawn Cocktail",
-            "price": 14.13,
+            "name": "Prawn Cocktail",
+            "price": 13.32,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -178,8 +169,26 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Spring Rolls",
-            "price": 13.44,
+            "name": "Mini Tacos",
+            "price": 14.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ceviche",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Empanadas",
+            "price": 10.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,20 +196,11 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Mini Tacos",
-            "price": 8.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zingy Prawn Toast",
-            "price": 15.51,
+            "name": "Deviled Eggs",
+            "price": 14.79,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,91 +208,91 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each bowl is a journey through the heart of Indian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Borscht",
-            "price": 13.62,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Classic Aromatic Lobster Bisque",
+            "price": 11.52,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Butternut Squash Soup",
-            "price": 7.73,
+            "name": "Handcrafted Zingy Black Bean Soup",
+            "price": 7.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Tender Egg Drop Soup",
+            "price": 9.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Borscht",
+            "price": 8.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 13.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tortilla Soup",
-            "price": 7.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
-            "name": "Orzo Salad",
-            "price": 15.01,
-            "isVegetarian": true,
+            "name": "Nicoise Salad",
+            "price": 9.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.69,
+            "name": "Arugula Salad",
+            "price": 11.95,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pear and Gorgonzola Salad",
+            "price": 15.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 15.09,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 14.31,
-            "isVegetarian": false,
+            "name": "Cobb Salad",
+            "price": 13.8,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 10.65,
+            "name": "Orzo Salad",
+            "price": 10.75,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -301,47 +301,38 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Timeless classics and innovative creations that highlight the best of Indian.",
         "items": [
           {
-            "name": "Seasonal Herbed Stuffed Zucchini Boats",
-            "price": 27.89,
-            "isVegetarian": false,
+            "name": "Homestyle Flavorful Stuffed Zucchini Boats",
+            "price": 27.9,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Burrito",
-            "price": 31.42,
+            "name": "Homestyle Succulent Grilled Tofu",
+            "price": 19.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Steamed Jambalaya",
+            "price": 26.16,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Creamy Gnocchi",
-            "price": 19.41,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Smoked Fish and Chips",
-            "price": 20.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Sweet Mac and Cheese",
-            "price": 21.13,
+            "name": "Homestyle Stuffed Stir-fry",
+            "price": 28.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -349,8 +340,8 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Jambalaya",
-            "price": 28.93,
+            "name": "Traditional Pan-seared Mac and Cheese",
+            "price": 30.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -358,18 +349,27 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Herbed Seafood Platter",
-            "price": 27.26,
+            "name": "Homestyle Pan-seared Steak",
+            "price": 20.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Organic Satisfying Tacos",
-            "price": 18.28,
-            "isVegetarian": true,
+            "name": "Homestyle Tangy Katsu Curry",
+            "price": 18.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Currywurst",
+            "price": 18.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,38 +379,20 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Fresh, sustainable seafood prepared using timeless Indian traditions.",
         "items": [
           {
-            "name": "Sushi-Grade Sashimi Platter",
-            "price": 29.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 28.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 34.9,
+            "name": "Traditional Grilled Linguine with Clam Sauce",
+            "price": 35.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 31.07,
+            "name": "Seasonal Flaky Cajun Shrimp and Grits",
+            "price": 26.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -418,8 +400,26 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 24.52,
+            "name": "Authentic Hearty Seafood Alfredo with Spinach Fettuccine",
+            "price": 26.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Valencian Seafood Paella",
+            "price": 33.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crispy Seafood Gumbo with Okra",
+            "price": 34.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,38 +430,29 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
+        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
         "items": [
           {
-            "name": "Handcrafted Flaky Charred Broccolini with Garlic Oil",
-            "price": 8.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Tender Provencal Ratatouille",
-            "price": 6.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Comforting Grilled Asparagus with Lemon Zest",
-            "price": 6.8,
+            "name": "Mashed Potatoes",
+            "price": 7.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Succulent Herbed Bulgur Wheat with Lemon",
-            "price": 5.5,
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 7.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 7.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +460,8 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Mashed Potatoes",
-            "price": 9.77,
+            "name": "Maple-Glazed Baby Carrots",
+            "price": 5.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -478,11 +469,20 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Flavorful Quinoa Pilaf with Herbs",
-            "price": 8.82,
-            "isVegetarian": true,
+            "name": "Buttered Egg Noodles",
+            "price": 7.98,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 8.42,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,59 +490,59 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 4.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Coffee",
-            "price": 4.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.11,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.78,
+            "price": 8,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.01,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Smoothie",
-            "price": 7.23,
-            "isVegetarian": false,
+            "price": 5.67,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 7.23,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Lemonade",
+            "price": 7.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,24 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A mouthwatering selection of desserts that celebrate the art of pastry",
+    "description": "Indulge in our comforting sweet creations",
     "category": [
       {
         "name": "Baked Goods",
         "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Authentic Flavorful Soufflé",
-            "price": 9.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tangy Eclairs",
-            "price": 6.02,
+            "name": "Seasonal Steamed Muffins",
+            "price": 10.51,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Mouthwatering Red Velvet Cake",
-            "price": 7.6,
+            "name": "Gourmet Satisfying Carrot Cake",
+            "price": 8.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,32 +577,41 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Appetizing Brownies",
-            "price": 6.63,
+            "name": "Classic Delectable Soufflé",
+            "price": 7.42,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Sticky Toffee Pudding",
-            "price": 6.65,
+            "name": "Authentic Sweet Eclairs",
+            "price": 9.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Steamed Berry Tart",
+            "price": 6.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "House Special Marinated Frozen Yogurt",
-            "price": 11.12,
+            "name": "Sorbet",
+            "price": 7.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,8 +619,8 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Wholesome Frozen Fruit Bars",
-            "price": 8.67,
+            "name": "Snow Cone",
+            "price": 7.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,27 +628,27 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Aromatic Frozen Mousse",
-            "price": 11.34,
+            "name": "Semifreddo",
+            "price": 11.61,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Sorbet",
-            "price": 10.11,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Succulent Popsicles",
-            "price": 9.43,
-            "isVegetarian": false,
+            "name": "Gelato",
+            "price": 10.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 8.23,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,33 +660,15 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' crisp creations to complete your meal",
+    "description": "A crisp drinks program blending innovation with tradition",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "House Special Irresistible Margarita",
-            "price": 14.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Satisfying Manhattan",
-            "price": 12.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Herbed Martini",
-            "price": 15.27,
+            "name": "House Special Crispy Old Fashioned",
+            "price": 14.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,26 +676,26 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Mojito",
-            "price": 10.27,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Classic Mouthwatering Negroni",
+            "price": 13,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Savory Cosmopolitan",
-            "price": 12.76,
-            "isVegetarian": false,
+            "name": "Hearty Comforting Margarita",
+            "price": 11.15,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Irresistible Bloody Mary",
-            "price": 13.75,
+            "name": "Deluxe Grilled Whiskey Sour",
+            "price": 10.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,23 +703,68 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Mai Tai",
-            "price": 15.29,
+            "name": "Handcrafted Wholesome Cosmopolitan",
+            "price": 11.95,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Martini",
+            "price": 12.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Mojito",
+            "price": 12.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Cabernet Sauvignon",
-            "price": 10.17,
+            "name": "Sauvignon Blanc",
+            "price": 8.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 12.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 13.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 11.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,47 +772,20 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 11.26,
+            "name": "Vouvray",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Prosecco",
-            "price": 13.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 13.31,
-            "isVegetarian": true,
+            "price": 13.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 13.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 12.18,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,11 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Start or finish your night with a pour that lingers in memory.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Hearty Appetizing Triple Sec",
-            "price": 14.49,
+            "name": "Kahlúa",
+            "price": 12.54,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -805,35 +805,35 @@ export const londonhackneyCantinaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Steamed Tequila",
-            "price": 12.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Grappa",
-            "price": 14.43,
+            "name": "Cognac",
+            "price": 12.41,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Midori",
-            "price": 15.26,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Herbed Vodka",
-            "price": 13.32,
+            "name": "Tequila",
+            "price": 10.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baileys Irish Cream",
+            "price": 16.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 10.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,

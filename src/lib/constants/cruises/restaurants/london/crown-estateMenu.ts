@@ -6,102 +6,84 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const londoncrownEstateMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A thoughtfully curated lineup of satisfying Indian dishes to suit every palate",
+    "description": "Every plate tells a story of fresh Indian craftsmanship",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 30.22,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 35.34,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 36.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 29.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 28.96,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Chef’s Wild Game Selection",
-            "price": 36.48,
+            "price": 36.04,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 33.72,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 28.6,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
             "name": "Captain's Favorite Seafood Tower",
-            "price": 30,
+            "price": 35.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 35.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 30.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 35.67,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Hand-Selected Wine Pairing Experience",
-            "price": 35.02,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 37.11,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cold-Smoked Delicacy",
-            "price": 31.19,
+            "name": "Tasting of Local Artisanal Cheeses",
+            "price": 27.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -109,8 +91,17 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Black Garlic Marinated Octopus",
+            "price": 38.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
             "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 27.28,
+            "price": 24.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -118,10 +109,19 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Duck Confit with Roasted Root Vegetables",
-            "price": 36.71,
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 35.98,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "High-End Ingredient Showcase",
+            "price": 33.41,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -133,73 +133,73 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
         "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Indian.",
         "items": [
           {
-            "name": "Meatballs",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Satay",
-            "price": 12.58,
+            "name": "Stuffed Peppers",
+            "price": 10.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Potstickers",
-            "price": 10.51,
-            "isVegetarian": true,
+            "name": "Sweet Potato Fries",
+            "price": 11.83,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Puffs",
-            "price": 12.26,
+            "name": "Spinach Artichoke Dip",
+            "price": 9.88,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deviled Eggs",
+            "price": 8.12,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mini Sliders",
-            "price": 10.68,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Samosas",
+            "price": 8.81,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Ceviche",
-            "price": 14.94,
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 13.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Nachos",
-            "price": 8.77,
-            "isVegetarian": true,
+            "name": "Potato Skins",
+            "price": 8.38,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Onion Rings",
-            "price": 11.51,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,11 +208,11 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Indian, crafted with care and expertise.",
+        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
         "items": [
           {
-            "name": "Homestyle Satisfying Gazpacho",
-            "price": 13.52,
+            "name": "Gourmet Mouthwatering Lentil Soup",
+            "price": 9.32,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -220,78 +220,78 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Tangy Tomato Soup",
-            "price": 13,
-            "isVegetarian": false,
+            "name": "Organic Tender Corn Chowder",
+            "price": 10.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Zesty Gumbo",
-            "price": 11.25,
-            "isVegetarian": true,
+            "name": "Seasonal Appetizing Borscht",
+            "price": 13.11,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Seafood Chowder",
-            "price": 10.07,
+            "name": "Handcrafted Spiced Tomato Soup",
+            "price": 10.34,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Each salad is a work of art, designed to nourish and delight.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
-            "name": "Beet Salad",
-            "price": 11.69,
+            "name": "Garden Salad",
+            "price": 9.03,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Green Papaya Salad",
-            "price": 12.79,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 11.52,
-            "isVegetarian": true,
+            "name": "Cucumber Salad",
+            "price": 11.85,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 13.18,
+            "name": "Waldorf Salad",
+            "price": 14.68,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 12.92,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 10.1,
-            "isVegetarian": true,
+            "name": "Kale Salad",
+            "price": 14.45,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,29 +301,20 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A selection of mains that reflect the heart and soul of Indian, prepared with care.",
+        "description": "Each dish is a culinary journey, showcasing the richness of Indian traditions.",
         "items": [
           {
-            "name": "Homestyle Stuffed Burrito",
-            "price": 23.2,
+            "name": "Handcrafted Spicy Lamb Chops",
+            "price": 26.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Shakshuka",
-            "price": 27.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Teriyaki Chicken",
-            "price": 26.55,
+            "name": "Authentic Sweet Gnocchi",
+            "price": 23.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +322,8 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Spiced Steak",
-            "price": 19.54,
+            "name": "Hearty Irresistible Katsu Curry",
+            "price": 26.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -340,50 +331,68 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Pan-seared Spaghetti Bolognese",
-            "price": 31.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Appetizing Mac and Cheese",
-            "price": 22.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Korma",
-            "price": 22.47,
+            "name": "Fresh Spiced Chicken Parmesan",
+            "price": 24.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Classic Appetizing Grilled Chicken",
-            "price": 26.31,
+            "name": "Authentic Spicy Lentil Stew",
+            "price": 22.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Authentic Juicy Pizza",
+            "price": 28.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Tacos",
+            "price": 21.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Korma",
+            "price": 18.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Maryland Style Crab Cakes",
-            "price": 27.12,
+            "name": "Authentic Wholesome Sushi-Grade Sashimi Platter",
+            "price": 22.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Braised Tempura Soft Shell Crab",
+            "price": 28.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +400,8 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 22.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 30.01,
+            "name": "Authentic Grilled Stuffed Flounder with Crab and Spinach",
+            "price": 29.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,20 +409,20 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 26.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 24.52,
+            "name": "Fresh Flaky Basa Fillet with Dill Cream Sauce",
+            "price": 33.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Golden Seafood Risotto with Saffron",
+            "price": 26.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,11 +430,11 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
         "items": [
           {
-            "name": "French Fries",
-            "price": 7.41,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 7.38,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -442,8 +442,8 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 8.42,
+            "name": "Sweet Corn and Cheddar Fritters",
+            "price": 5.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,26 +451,17 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 5.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Mashed Potatoes",
+            "price": 6.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Maple-Glazed Baby Carrots",
-            "price": 8.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Zucchini Fritters",
-            "price": 9.72,
+            "price": 8.89,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -478,11 +469,20 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 9.43,
+            "name": "French Fries",
+            "price": 9.32,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 8.07,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,47 +490,29 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Traditional Spicy Coffee",
-            "price": 4.41,
-            "isVegetarian": false,
+            "name": "Water",
+            "price": 6.99,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Lemonade",
-            "price": 6.62,
-            "isVegetarian": false,
+            "name": "Lemonade",
+            "price": 5.75,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Tea",
-            "price": 4.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Hot Chocolate",
-            "price": 7.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Irresistible Iced Tea",
-            "price": 4.37,
+            "name": "Juice",
+            "price": 6.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -538,11 +520,29 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Pan-seared Soda",
-            "price": 4.67,
+            "name": "Soda",
+            "price": 5.86,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 5.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 4.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,42 +552,24 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's comforting creations to end your meal on a sweet note",
+    "description": "Finish on a high note with our crowd-pleasing and memorable sweets",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Premium Grilled Baklava",
-            "price": 10.51,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Red Velvet Cake",
-            "price": 7.27,
-            "isVegetarian": true,
+            "name": "Macarons",
+            "price": 10.08,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Luscious Berry Tart",
-            "price": 10.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Lemon Bars",
-            "price": 10.97,
+            "name": "Biscotti",
+            "price": 9.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -595,32 +577,41 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Madeleines",
-            "price": 6.94,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Apple Pie",
+            "price": 8.59,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Danish Pastries",
+            "price": 9.69,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 6.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Organic Zingy Kulfi",
-            "price": 10.51,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Flavorful Frozen Pie",
-            "price": 11.69,
+            "name": "Granita",
+            "price": 10.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,17 +619,8 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Wholesome Paletas",
-            "price": 10.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Delectable Frozen Fruit Bars",
-            "price": 8.92,
+            "name": "Frozen Banana",
+            "price": 11.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -646,11 +628,29 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Herbed Frozen Yogurt",
-            "price": 10.49,
+            "name": "Frozen Fruit Bars",
+            "price": 7.96,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 9.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Pudding",
+            "price": 10.76,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,51 +660,33 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A easygoing cocktail lineup featuring house infusions and classic techniques",
+    "description": "Toast to the moment with our smooth-drinking selection of wines, beers, and signature drinks",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
             "name": "Negroni",
-            "price": 10.65,
-            "isVegetarian": true,
+            "price": 11.57,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 14.19,
+            "name": "Bloody Mary",
+            "price": 15.98,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 12.15,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 11.77,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 14.17,
+            "price": 13.71,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -713,7 +695,25 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
           },
           {
             "name": "Martini",
-            "price": 13.56,
+            "price": 11.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.03,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,10 +721,10 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 14.36,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Cosmopolitan",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -736,56 +736,56 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
         "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Homestyle Crunchy Prosecco",
-            "price": 9.04,
+            "name": "Classic Delectable Zinfandel",
+            "price": 10.34,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Chenin Blanc",
-            "price": 11.43,
+            "name": "Seasonal Wholesome Pinot Blanc",
+            "price": 8.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Crispy Sémillon",
+            "price": 12.63,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Exquisite Grenache",
+            "price": 8.48,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Sautéed Torrontés",
-            "price": 8.06,
-            "isVegetarian": true,
+            "name": "Authentic Marinated Prosecco",
+            "price": 8.76,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Herbed Albariño",
-            "price": 9.04,
-            "isVegetarian": true,
+            "name": "Traditional Marinated Gamay",
+            "price": 11.32,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Wholesome Vermentino",
-            "price": 10.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Pinot Grigio",
-            "price": 8.53,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,20 +793,20 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
         "items": [
           {
-            "name": "Gourmet Herbed Cointreau",
-            "price": 16.14,
-            "isVegetarian": false,
+            "name": "Vodka",
+            "price": 12.21,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Wholesome Grappa",
-            "price": 10.18,
+            "name": "Aquavit",
+            "price": 15.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -814,31 +814,31 @@ export const londoncrownEstateMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Grand Marnier",
-            "price": 12.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Anisette",
-            "price": 15.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Chambord",
-            "price": 13.48,
+            "name": "Sambuca",
+            "price": 13.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 16.52,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee Liqueur",
+            "price": 11.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }

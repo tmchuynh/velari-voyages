@@ -248,5 +248,160 @@ export const londonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Hackney Buffet",
+    "description": "A culinary gem serving British specialties including heritage recipes, where guests enjoy seasonal floral displays in the heart of the city.",
+    "cuisine": "British",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-645-6812",
+      "contactEmail": "general@nottinghillcafelondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Greenwich Epicurean",
+    "description": "Located close to the waterfront, this Italian restaurant delights with its gourmet street food and local ambiance.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-618-9178",
+      "contactEmail": "hello@piccadillybuffetlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Soho Saloon",
+    "description": "A culinary gem serving Indian specialties including seasonal specialties, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-605-1946",
+      "contactEmail": "care@shoreditchfishhouselondon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Underground Dining Hall",
+    "description": "Located close to central park, this British restaurant delights with its gourmet street food and beautiful decor.",
+    "cuisine": "British",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-618-9824",
+      "contactEmail": "customerservice@towerbridgemansionlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Sanctuary",
+    "description": "This popular Indian establishment combines traditional recipes and regional wines, all served in a unique setting with seasonal floral displays.",
+    "cuisine": "Indian",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-777-6199",
+      "contactEmail": "customerservice@mayfairepicureanlondon.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

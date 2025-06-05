@@ -1,56 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Big Ben Society in london
+ * Menu data for Hackney Buffet in london
  */
-export const londonbigBenSocietyMenu: RestaurantMenu[] = [
+export const londonhackneyBuffetMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Delight in our chef's most flavorful takes on traditional French flavors",
+    "description": "A delicious dining experience featuring the essence of British gastronomy",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected French specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic British cooking.",
         "items": [
           {
-            "name": "Authentic Juicy Signature Truffle Pasta with Aged Pecorino",
-            "price": 24.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Seasonal Tasting Platter",
-            "price": 28.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Spiced Captain's Favorite Seafood Tower",
-            "price": 30.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Irresistible Chef's Childhood Inspired Creation",
-            "price": 34.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Sous Vide Perfected Wagyu",
-            "price": 32.2,
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 36.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,8 +22,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Roasted Japanese A5 Wagyu with Ponzu Butter",
-            "price": 27.13,
+            "name": "Legendary Prime Rib",
+            "price": 25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,10 +31,46 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Herbed Chef's Special Surf and Turf",
-            "price": 26.17,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 33.12,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 32.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 32.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 36.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.77,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -79,71 +79,11 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for French.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Seasonal Crunchy Chef's Tasting Menu Experience",
-            "price": 24.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Tomahawk Ribeye for Two",
-            "price": 29.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Appetizing Chef's Market Inspiration of the Day",
-            "price": 33.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sizzling Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 26.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Zingy Chef's Childhood Favorite Reimagined",
-            "price": 24.2,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
-        "items": [
-          {
-            "name": "Traditional Mouthwatering Spring Rolls",
-            "price": 14.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Mouthwatering Prawn Toast",
-            "price": 8.7,
+            "name": "Classic Sweet Chef's Tasting Menu Experience",
+            "price": 28.1,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -151,26 +91,17 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Chicken Satay",
-            "price": 11.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy Dumplings",
-            "price": 12.47,
+            "name": "Classic Exquisite Live-Fire Grilled Feature",
+            "price": 32.28,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Arancini",
-            "price": 8.35,
+            "name": "Classic Spiced Truffle-Infused Filet Mignon",
+            "price": 36.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,41 +109,41 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "House Special Pan-seared Calamari",
-            "price": 11.58,
+            "name": "Seasonal Exquisite Dry-Aged Prime Beef Selection",
+            "price": 39.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Caprese Salad",
-            "price": 12.43,
-            "isVegetarian": false,
+            "name": "Hearty Flaky Custom Tasting Menu Based on Guest Preferences",
+            "price": 27.33,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Appetizing Cheese Nachos",
-            "price": 9.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
-        "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of French flavors and traditions.",
+        "name": "Appetizers",
+        "description": "A selection of British starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "House Special Wholesome Borscht",
-            "price": 13.94,
+            "name": "Stuffed Peppers",
+            "price": 10.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Avocado",
+            "price": 9.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,8 +151,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Gumbo",
-            "price": 10.08,
+            "name": "Prawn Cocktail",
+            "price": 15.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,17 +160,86 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Seafood Chowder",
-            "price": 9,
+            "name": "Potstickers",
+            "price": 14.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Artichoke Dip",
+            "price": 13.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Falafel",
+            "price": 14.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Meatballs",
+            "price": 11.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Mini Crab Cakes",
+            "price": 15.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Crafted with care, our soups are a celebration of British flavors and traditions.",
+        "items": [
+          {
+            "name": "Hot and Sour Soup",
+            "price": 12.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Savory Thai Coconut Soup",
-            "price": 7.61,
+            "name": "Corn Chowder",
+            "price": 8.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mushroom Soup",
+            "price": 10.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Cheddar Soup",
+            "price": 11.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,29 +250,20 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 14.87,
+            "name": "Waldorf Salad",
+            "price": 10.04,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 9.93,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 11.83,
+            "name": "Avocado Corn Salad",
+            "price": 14.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -280,17 +271,26 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 13.92,
+            "name": "Greek Salad",
+            "price": 10.53,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 10.29,
+            "name": "Quinoa Salad",
+            "price": 11.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 15.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,20 +301,20 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our French vision.",
+        "description": "Signature entrées crafted with precision, embodying the core of our British vision.",
         "items": [
           {
-            "name": "Hearty Herbed Korma",
-            "price": 20.68,
+            "name": "Authentic Golden Lasagna",
+            "price": 24.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Golden Risotto",
-            "price": 27.29,
+            "name": "Homestyle Luscious Chili con Carne",
+            "price": 30.51,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -322,8 +322,17 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Appetizing Lasagna",
-            "price": 21.55,
+            "name": "Seasonal Succulent Currywurst",
+            "price": 27.42,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Sautéed Fish and Chips",
+            "price": 22.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,35 +340,26 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Steamed Enchiladas",
-            "price": 31.95,
-            "isVegetarian": false,
+            "name": "Gourmet Satisfying Paella",
+            "price": 24.91,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Juicy Pizza",
-            "price": 20.22,
-            "isVegetarian": true,
+            "name": "Deluxe Smoked Roast Duck",
+            "price": 28.82,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Organic Delectable Quiche",
-            "price": 18.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Tender Mac and Cheese",
-            "price": 28.23,
+            "name": "Deluxe Smoked Spaghetti Bolognese",
+            "price": 22.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,8 +367,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Irresistible Bibimbap",
-            "price": 31.12,
+            "name": "Handcrafted Wholesome Salmon",
+            "price": 27.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,11 +379,29 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
         "items": [
           {
-            "name": "Linguine with Clam Sauce",
-            "price": 26.92,
+            "name": "Deluxe Pan-seared Seared Tuna Steak with Sesame Crust",
+            "price": 25.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Exquisite Grilled Lobster with Lemon Butter",
+            "price": 26.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Cedar Plank Roasted Salmon",
+            "price": 22.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,35 +409,17 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 25.48,
+            "name": "Deluxe Marinated Grilled Spanish Octopus with Smoked Paprika",
+            "price": 24.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 29.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 33.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 24.54,
+            "name": "Handcrafted Herbed Garlic Butter Shrimp Skillet",
+            "price": 31.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,29 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "Essential accompaniments, from traditional staples to inventive bites.",
         "items": [
           {
-            "name": "Mashed Potatoes",
-            "price": 6.73,
+            "name": "Truffle Parmesan Fries",
+            "price": 6.1,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 8.63,
+            "price": 5.32,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Green Beans Almondine",
+            "price": 5.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,17 +460,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steamed Jasmine Rice",
-            "price": 8.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 5.44,
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 7.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +469,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Creamy Colcannon (Irish Potato Mash)",
-            "price": 6.59,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 8.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,9 +478,9 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 7.38,
-            "isVegetarian": false,
+            "name": "Homestyle Baked Beans",
+            "price": 8.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -493,8 +493,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
         "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Gourmet Creamy Tea",
-            "price": 6.49,
+            "name": "Lemonade",
+            "price": 6.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,26 +502,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Iced Tea",
-            "price": 6.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Grilled Coffee",
-            "price": 5.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Soda",
-            "price": 5.29,
+            "name": "Smoothie",
+            "price": 4.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +511,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Milkshake",
-            "price": 4.31,
+            "name": "Iced Tea",
+            "price": 5.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,11 +520,29 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Roasted Hot Chocolate",
-            "price": 7.86,
-            "isVegetarian": true,
+            "name": "Tea",
+            "price": 4.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 4.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,24 +552,15 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Complete your meal with our delicious dessert selection",
+    "description": "Decadent or delicate – our baked to perfection desserts cater to every preference",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
+        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
         "items": [
           {
-            "name": "Authentic Herbed Baklava",
-            "price": 9.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Sizzling Brownies",
-            "price": 8.06,
+            "name": "Biscotti",
+            "price": 6.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,28 +568,37 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Sticky Toffee Pudding",
-            "price": 10.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Creamy Vanilla Cake",
-            "price": 9.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Enticing Strawberry Shortcake",
-            "price": 6.16,
+            "name": "Red Velvet Cake",
+            "price": 10.08,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 10.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 7.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 9.75,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,11 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
+        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
         "items": [
           {
-            "name": "Traditional Wholesome Ice Cream",
-            "price": 8.9,
+            "name": "Hearty Creamy Frozen Pudding",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,8 +619,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Delectable Popsicles",
-            "price": 9.8,
+            "name": "Premium Sizzling Frozen Yogurt",
+            "price": 8.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,17 +628,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Succulent Frozen Mousse",
-            "price": 9.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Enticing Semifreddo",
-            "price": 11.9,
+            "name": "Fresh Grilled Frozen Cheesecake",
+            "price": 8.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,9 +637,18 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tangy Frozen Pudding",
-            "price": 7.42,
+            "name": "Fresh Juicy Paletas",
+            "price": 8.25,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Savory Frozen Mousse",
+            "price": 9.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,15 +660,15 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Toast to the moment with our carefully chosen selection of wines, beers, and signature drinks",
+    "description": "Our bartenders' enticing creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Martini",
-            "price": 15.25,
+            "name": "Mojito",
+            "price": 11.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -677,7 +677,7 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 14.34,
+            "price": 11.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,27 +685,9 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 12.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 14.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 15.07,
-            "isVegetarian": false,
+            "name": "Manhattan",
+            "price": 12.03,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -713,16 +695,34 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.33,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 13.31,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Margarita",
+            "price": 12.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Mai Tai",
-            "price": 10.69,
+            "price": 13.4,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,11 +733,20 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Petit Verdot",
-            "price": 8.6,
+            "name": "Classic Sautéed Pinot Grigio",
+            "price": 10.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Cabernet Franc",
+            "price": 9.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,17 +754,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 12.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 8.47,
+            "name": "Premium Delectable Viognier",
+            "price": 12.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,17 +763,8 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Syrah/Shiraz",
-            "price": 12.73,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 11.33,
+            "name": "Homestyle Aromatic Vouvray",
+            "price": 11.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,10 +772,19 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Barbera",
-            "price": 8.92,
+            "name": "Homestyle Roasted Gamay",
+            "price": 11.1,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sweet Chardonnay",
+            "price": 10.54,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,29 +793,11 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
         "items": [
           {
-            "name": "Handcrafted Spiced Triple Sec",
-            "price": 10.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Kahlúa",
-            "price": 17.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Mezcal",
-            "price": 11.31,
+            "name": "Aquavit",
+            "price": 17.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,8 +805,26 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Creamy St-Germain",
-            "price": 11.7,
+            "name": "St-Germain",
+            "price": 14.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 14.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grappa",
+            "price": 17.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +832,11 @@ export const londonbigBenSocietyMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Delicious Pisco",
-            "price": 14.66,
+            "name": "Cognac",
+            "price": 12.3,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
