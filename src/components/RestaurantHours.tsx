@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 import { useState } from "react";
-import { Card, CardContent, CardHeader } from "./card";
+import { Card, CardContent, CardHeader } from "./ui/card";
 
 interface OpeningHours {
   monday?: string;
@@ -76,7 +76,7 @@ export default function RestaurantHours({
             key={day.name}
             className={cn("", {
               "font-extrabold uppercase": currentDay === day.name,
-              "text-fancy": isDarkMode && currentDay === day.name,
+              "text-tertiary": isDarkMode && currentDay === day.name,
               "text-accent": !isDarkMode && currentDay === day.name,
             })}
           >
@@ -106,11 +106,11 @@ export default function RestaurantHours({
                   currentDay === day.name,
               })}
             >
-              <p className="flex justify-between items-center">
+              <p className="flex justify-between items-center px-2">
                 <span
                   className={cn("font-medium", {
                     "font-bold": currentDay === day.name,
-                    "text-fancy": isDarkMode && currentDay === day.name,
+                    "text-tertiary": isDarkMode && currentDay === day.name,
                     "text-accent": !isDarkMode && currentDay === day.name,
                   })}
                 >
