@@ -248,5 +248,160 @@ export const seattleRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "American Cafe",
+    "description": "Located close to the river promenade, this Thai restaurant delights with its signature dishes and live street performances.",
+    "cuisine": "Thai",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-721-1913",
+      "contactEmail": "mail@japanesegatheringseattle.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Japanese Pavilion",
+    "description": "A culinary gem serving Italian specialties including gourmet street food, where guests enjoy artisan markets in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-389-3905",
+      "contactEmail": "contact@seafoodeatery+barseattle.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Seafood Social",
+    "description": "A culinary gem serving Japanese specialties including regional wines, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-411-3081",
+      "contactEmail": "team@japaneserotisserieseattle.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Experience",
+    "description": "A charming Japanese restaurant near the cultural center, offering heritage recipes and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-554-5089",
+      "contactEmail": "services@thaikitchenseattle.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Thai Project",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring local ingredients served in an atmosphere of boutique shops overlooking the cultural center.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-338-4664",
+      "contactEmail": "services@thaitaqueriaseattle.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

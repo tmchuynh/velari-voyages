@@ -1,20 +1,38 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Thai Curry House in seattle
+ * Menu data for Italian Experience in seattle
  */
-export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
+export const seattleitalianExperienceMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Satisfy your cravings with our vibrant, classic take on Italian",
+    "description": "Modern dining rooted in fresh Japanese techniques",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 25.32,
+            "name": "Gourmet Appetizing House Famous Duck Confit",
+            "price": 24.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 26.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Signature Truffle Pasta with Aged Pecorino",
+            "price": 32.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,54 +40,36 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 27,
+            "name": "Deluxe Grilled Chef's Special Surf and Turf",
+            "price": 36.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Founder's Family Recipe Pasta",
+            "price": 33.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 29.81,
+            "name": "Authentic Grilled Flambéed Tableside Specialty",
+            "price": 29.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Delicious Secret Recipe Bouillabaisse",
+            "price": 25.61,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 25.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 26.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 37.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 36.28,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -79,11 +79,11 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Gourmet Vegetarian Wellington",
-            "price": 38.8,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 29.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,26 +91,17 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 29.18,
+            "name": "Aged and House-Cured Charcuterie Selection",
+            "price": 28.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
             "name": "Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 32.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Collaborative Limited Edition Special",
-            "price": 29.72,
+            "price": 25.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,11 +109,20 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deconstructed Classic with Modern Technique",
-            "price": 38.62,
+            "name": "Cold-Smoked Delicacy",
+            "price": 25.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tomahawk Ribeye for Two",
+            "price": 29.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,56 +130,20 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Italian culinary artistry.",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
         "items": [
           {
-            "name": "Tuna Tartare",
-            "price": 11.26,
+            "name": "Authentic Pan-seared Crostini",
+            "price": 11.16,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Stuffed Avocado",
-            "price": 10.6,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lettuce Wraps",
-            "price": 9.29,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 10.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Meatballs",
-            "price": 9.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Chicken Satay",
-            "price": 14.28,
+            "name": "Classic Golden Shrimp Cocktail",
+            "price": 8.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +151,35 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Mini Quesadillas",
-            "price": 8.54,
+            "name": "Fresh Flavorful Charcuterie Board",
+            "price": 15.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Grilled Tuna Tartare",
+            "price": 8.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Wholesome Antipasto Platter",
+            "price": 15.75,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Falafel",
+            "price": 10.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -196,11 +187,20 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Edamame",
-            "price": 9.62,
+            "name": "Fresh Grilled Deviled Eggs",
+            "price": 9.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Cheese Nachos",
+            "price": 11.52,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,62 +208,53 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Italian flavors and traditions.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Japanese methods.",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Broccoli Cheddar Soup",
-            "price": 12.42,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Aromatic Tomato Soup",
-            "price": 12.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Herbed Hot and Sour Soup",
-            "price": 12.76,
+            "name": "Avgolemono (Greek Lemon Soup)",
+            "price": 10.93,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Borscht",
+            "price": 8.88,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Sizzling Chicken Noodle Soup",
-            "price": 7.4,
-            "isVegetarian": false,
+            "name": "Zuppa Toscana",
+            "price": 10.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mushroom Soup",
+            "price": 13.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 15.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 10.81,
+            "name": "Spinach Salad",
+            "price": 12.89,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -271,29 +262,38 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 14.38,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 9.48,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 12.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 15.65,
+            "name": "Chef Salad",
+            "price": 11.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 12.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 12.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,98 +301,98 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A journey through Italian flavors, expertly prepared and beautifully presented.",
+        "description": "A journey through Japanese flavors, expertly prepared and beautifully presented.",
         "items": [
           {
             "name": "Grilled Tofu",
-            "price": 20,
+            "price": 21.99,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "price": 20.36,
+            "name": "Fish and Chips",
+            "price": 30.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Shish Kebabs",
+            "price": 31.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tacos",
+            "price": 25.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stuffed Zucchini Boats",
+            "price": 20.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biryani",
+            "price": 31.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Steak",
+            "price": 25.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Cottage Pie",
-            "price": 21.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "price": 23.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili con Carne",
-            "price": 22.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Curry",
-            "price": 24.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "price": 25.18,
+            "name": "Grilled Chicken",
+            "price": 20.82,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eggplant Parmesan",
-            "price": 28.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
         "items": [
           {
             "name": "Grilled Lobster with Lemon Butter",
-            "price": 26.02,
+            "price": 23.95,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
             "name": "Shrimp Scampi over Linguine",
-            "price": 26.1,
+            "price": 29.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +400,17 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 30.35,
+            "name": "Classic British Fish and Chips",
+            "price": 25.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pan-Seared Scallops with Pea Purée",
+            "price": 34.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,17 +418,8 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seafood Gumbo with Okra",
-            "price": 29.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Tempura Soft Shell Crab",
-            "price": 35.6,
+            "name": "Cedar Plank Roasted Salmon",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,29 +430,11 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Classic Japanese side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Grilled Zucchini and Peppers",
-            "price": 7.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Creamed Spinach with Nutmeg",
-            "price": 9.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Green Beans Almondine",
-            "price": 7.74,
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 5.69,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -460,8 +442,8 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 5.63,
+            "name": "Mashed Potatoes",
+            "price": 8.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,20 +451,38 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Israeli Couscous with Roasted Tomatoes",
-            "price": 6.7,
-            "isVegetarian": false,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 8.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macaroni and Aged Cheddar",
+            "price": 9.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Buttered Egg Noodles",
-            "price": 6.39,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "French Fries",
+            "price": 7.45,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Green Beans Almondine",
+            "price": 5.35,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,29 +490,11 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Premium Creamy Smoothie",
-            "price": 4.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Savory Hot Chocolate",
-            "price": 6.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Delectable Milkshake",
-            "price": 6.99,
+            "name": "Deluxe Crispy Hot Chocolate",
+            "price": 4.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,29 +502,47 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Tea",
-            "price": 4.48,
+            "name": "Homestyle Juicy Water",
+            "price": 6.51,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Water",
-            "price": 5.59,
+            "name": "Authentic Pan-seared Juice",
+            "price": 4.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Smoked Coffee",
+            "price": 6.11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Soda",
-            "price": 7.48,
+            "name": "Authentic Baked Milkshake",
+            "price": 6.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Tea",
+            "price": 5.99,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,24 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Delight in our warm desserts prepared fresh daily",
+    "description": "Satisfy your sweet tooth with our comforting treats",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
+        "description": "Indulge in our selection of baked treats, each one a labor of love.",
         "items": [
           {
-            "name": "Traditional Appetizing Banana Bread",
-            "price": 7.97,
+            "name": "Homestyle Delicious Crumb Cake",
+            "price": 8.86,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Delectable Custard Tart",
+            "price": 9.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,38 +577,29 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Crumb Cake",
-            "price": 10.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Comforting Sticky Toffee Pudding",
-            "price": 8.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Flaky Apple Pie",
-            "price": 7.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Grilled Soufflé",
-            "price": 7.82,
-            "isVegetarian": false,
+            "name": "Homestyle Mouthwatering Sticky Toffee Pudding",
+            "price": 7.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Irresistible Muffins",
+            "price": 7.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Appetizing Soufflé",
+            "price": 7.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -610,26 +610,8 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
         "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "Seasonal Sweet Ice Cream",
-            "price": 7.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Fried Kulfi",
-            "price": 11.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crispy Frozen Banana",
-            "price": 9.08,
+            "name": "Gourmet Zingy Granita",
+            "price": 11.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -637,19 +619,37 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Ice Cream Cake",
-            "price": 11.41,
-            "isVegetarian": false,
+            "name": "Fresh Marinated Frozen Fruit Bars",
+            "price": 9.63,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Frozen Pie",
-            "price": 8.91,
+            "name": "Authentic Spiced Frozen Pudding",
+            "price": 7.41,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Frozen Cheesecake",
+            "price": 9.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Snow Cone",
+            "price": 7.65,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -660,24 +660,15 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Discover our fine drinks, perfectly paired with our Italian cuisine",
+    "description": "Our bartenders' inviting creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 14.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 13.75,
+            "name": "Hearty Stuffed Manhattan",
+            "price": 12.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,35 +676,8 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 12.19,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 12.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 12.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 15.82,
+            "name": "Authentic Spiced Mojito",
+            "price": 13.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +685,46 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 15.24,
+            "name": "Deluxe Steamed Old Fashioned",
+            "price": 11,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delectable Margarita",
+            "price": 11.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Mai Tai",
+            "price": 14.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Whiskey Sour",
+            "price": 12.65,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Cosmopolitan",
+            "price": 12.07,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,58 +733,58 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "House Special Smoked Riesling",
-            "price": 10.6,
+            "name": "Traditional Sizzling Fiano",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Hearty Champagne/Sparkling Wine",
-            "price": 12.87,
+            "name": "Authentic Herbed Zinfandel",
+            "price": 8.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delicious Syrah/Shiraz",
+            "price": 10.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Aromatic Nebbiolo",
+            "price": 10.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Spiced Tempranillo",
-            "price": 10.33,
+            "name": "Deluxe Sizzling Sangiovese",
+            "price": 9.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Spiced Fiano",
-            "price": 9.92,
+            "name": "Seasonal Herbed Sémillon",
+            "price": 11.85,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Marinated Prosecco",
-            "price": 12.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Vouvray",
-            "price": 8.32,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,38 +793,11 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
         "items": [
           {
-            "name": "Limoncello",
-            "price": 14.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Midori",
-            "price": 11.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Drambuie",
-            "price": 12.53,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Amaretto",
-            "price": 13.8,
+            "name": "Traditional Crunchy Grappa",
+            "price": 16.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +805,38 @@ export const seattlethaiCurryHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 16.95,
+            "name": "Homestyle Stuffed Rum",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Comforting Cognac",
+            "price": 14.88,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Satisfying Calvados",
+            "price": 13.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sautéed Amaretto",
+            "price": 14.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

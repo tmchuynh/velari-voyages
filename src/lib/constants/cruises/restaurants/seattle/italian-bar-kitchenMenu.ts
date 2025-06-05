@@ -6,15 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of tasty Italian dishes",
+    "description": "From street food classics to refined plates—our homestyle take on Italian",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Seasonal Tasting Platter",
-            "price": 30.44,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 24.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "24-Hour Braised Short Ribs",
+            "price": 24.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,86 +31,77 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 37.02,
+            "name": "Award-Winning Seafood Boil",
+            "price": 35.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 28.7,
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 37.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 32.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Traditional Family Paella",
-            "price": 36.02,
-            "isVegetarian": true,
+            "price": 29.33,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 33.56,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 32.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 28.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 25.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Dry-Aged Prime Beef Selection",
-            "price": 39.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Whole Animal Butchery Showcase",
-            "price": 38.68,
+            "name": "Seared Duck Breast with Cherry Reduction",
+            "price": 39.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 38.64,
+            "name": "Black Garlic Marinated Octopus",
+            "price": 26.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Signature Spice-Rubbed Protein",
+            "price": 39.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -110,16 +110,16 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chef's Market Inspiration of the Day",
-            "price": 39.26,
+            "price": 31.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Custom Tasting Menu Based on Guest Preferences",
-            "price": 34.2,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 39.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,11 +130,11 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "Traditional and reimagined Italian appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Fresh Zesty Nachos",
-            "price": 9.28,
+            "name": "Deluxe Crispy Mozzarella Sticks",
+            "price": 15.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,77 +142,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Spinach Puffs",
-            "price": 13.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sweet Mozzarella Sticks",
-            "price": 10.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Tender Stuffed Mushrooms",
-            "price": 11.81,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Aromatic Caprese Salad",
-            "price": 11.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Marinated Chicken Wings",
-            "price": 12.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Smoked Charcuterie Board",
-            "price": 10.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Herbed Samosas",
-            "price": 14.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
-        "items": [
-          {
-            "name": "House Special Steamed Tomato Soup",
-            "price": 11.18,
+            "name": "House Special Grilled Stuffed Avocado",
+            "price": 14.46,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -220,8 +151,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Enticing Lentil Soup",
-            "price": 10.73,
+            "name": "Hearty Crunchy Nachos",
+            "price": 10.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,8 +160,68 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crispy Pumpkin Soup",
-            "price": 8.71,
+            "name": "Authentic Tangy Garlic Bread",
+            "price": 9.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Hearty Dumplings",
+            "price": 14.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Roasted Ceviche",
+            "price": 15.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Creamy Baked Brie",
+            "price": 8.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy Caprese Salad",
+            "price": 15.16,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "items": [
+          {
+            "name": "House Special Spicy Egg Drop Soup",
+            "price": 10.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tangy Cabbage Soup",
+            "price": 11.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,51 +229,60 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Egg Drop Soup",
-            "price": 8.25,
-            "isVegetarian": false,
+            "name": "Hearty Tangy Mushroom Soup",
+            "price": 8.82,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Seafood Chowder",
+            "price": 8.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Cobb Salad",
-            "price": 11.37,
+            "name": "Mango Avocado Salad",
+            "price": 14.9,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 10.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 11.02,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 11.16,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 13.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 13.69,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -290,7 +290,7 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Caprese Salad",
-            "price": 13.3,
+            "price": 13.55,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,20 +301,11 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Culinary centerpieces that define the essence of our dining experience.",
+        "description": "A selection of mains that reflect the heart and soul of Italian, prepared with care.",
         "items": [
           {
-            "name": "Korma",
-            "price": 26.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Thai Curry",
-            "price": 22.28,
+            "name": "Gourmet Sizzling Stuffed Peppers",
+            "price": 26.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +313,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "price": 23.97,
+            "name": "Traditional Zesty Steak",
+            "price": 24.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,35 +322,17 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 28.97,
-            "isVegetarian": true,
+            "name": "Authentic Grilled Katsu Curry",
+            "price": 25.22,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coq au Vin",
-            "price": 26.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Stew",
-            "price": 18.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "price": 25.06,
+            "name": "Homestyle Smoked Mac and Cheese",
+            "price": 30.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,8 +340,35 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "price": 28.55,
+            "name": "Gourmet Zingy Pho",
+            "price": 22.45,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Comforting Quiche",
+            "price": 23.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Herbed Lentil Stew",
+            "price": 30.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Savory Moussaka",
+            "price": 24.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -379,11 +379,29 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
         "items": [
           {
-            "name": "House Special Satisfying Stuffed Flounder with Crab and Spinach",
-            "price": 32.35,
+            "name": "Authentic Creamy Stuffed Flounder with Crab and Spinach",
+            "price": 24.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Pan-Seared Scallops with Pea Purée",
+            "price": 26.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Mouthwatering Tempura Soft Shell Crab",
+            "price": 26.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +409,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Pan-Seared Scallops with Pea Purée",
-            "price": 22.13,
+            "name": "Fresh Pan-seared Lemon-Herb Calamari Steak",
+            "price": 35.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -400,68 +418,50 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Spicy Seafood Risotto with Saffron",
-            "price": 27.55,
+            "name": "Homestyle Creamy Alaskan King Crab Legs with Drawn Butter",
+            "price": 23.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Grilled Maryland Style Crab Cakes",
-            "price": 34.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Zingy Baked Cod with Lemon Caper Sauce",
-            "price": 34.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Italian flavors.",
         "items": [
           {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 8.38,
-            "isVegetarian": true,
+            "name": "Authentic Satisfying Roasted Root Vegetables",
+            "price": 7.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Comforting Wild Rice Pilaf",
+            "price": 5.64,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Creamed Spinach with Nutmeg",
-            "price": 8.28,
+            "name": "Organic Mouthwatering Scalloped Potatoes with Thyme",
+            "price": 5.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Herbed Bulgur Wheat with Lemon",
-            "price": 6.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mashed Potatoes",
-            "price": 8.18,
+            "name": "Classic Grilled Corn on the Cob with Chili Lime Butter",
+            "price": 8.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,18 +469,18 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 7.21,
+            "name": "Hearty Comforting Provencal Ratatouille",
+            "price": 7.83,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 8.85,
-            "isVegetarian": false,
+            "name": "Premium Steamed Flaky Cheddar and Chive Biscuits",
+            "price": 9.28,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,20 +490,47 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Homestyle Stuffed Tea",
-            "price": 5.54,
+            "name": "Juice",
+            "price": 7.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.1,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Water",
-            "price": 7.13,
+            "name": "Milkshake",
+            "price": 4.67,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 4.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,39 +538,12 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Aromatic Soda",
-            "price": 6.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Grilled Coffee",
-            "price": 6.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delicious Smoothie",
-            "price": 4.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Juice",
-            "price": 4.09,
+            "name": "Iced Tea",
+            "price": 4.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -552,33 +552,15 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's gooey creations to end your meal on a sweet note",
+    "description": "Elevate your evening with our gooey dessert course",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A rotating selection of baked indulgences from sweet to savory.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Hearty Irresistible Macarons",
-            "price": 8.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Custard Tart",
-            "price": 9.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Fried Soufflé",
-            "price": 7.25,
+            "name": "Apple Pie",
+            "price": 10.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,32 +568,50 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Muffins",
-            "price": 7.65,
+            "name": "Carrot Cake",
+            "price": 7.56,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 6.39,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chocolate Chip Cookies",
+            "price": 9.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Vanilla Cake",
-            "price": 8.97,
-            "isVegetarian": false,
+            "name": "Sticky Toffee Pudding",
+            "price": 7.04,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Gourmet Flaky Ice Cream",
-            "price": 8.19,
+            "name": "Frozen Banana",
+            "price": 9.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,17 +619,26 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Gelato",
-            "price": 8.97,
+            "name": "Gelato",
+            "price": 9.87,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Herbed Ice Cream Sandwich",
-            "price": 8.11,
+            "name": "Sorbet",
+            "price": 8.37,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 11.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,20 +646,11 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Savory Ice Cream Cake",
-            "price": 9.36,
-            "isVegetarian": true,
+            "name": "Kulfi",
+            "price": 11.8,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Creamy Frozen Fruit Bars",
-            "price": 7.21,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,24 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A thoughtfully selected assortment of libations to accompany your culinary journey",
+    "description": "A crowd-pleasing drinks program blending innovation with tradition",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 12.9,
+            "name": "Organic Marinated Mojito",
+            "price": 14.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Bloody Mary",
+            "price": 13.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +685,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.07,
+            "name": "House Special Hearty Old Fashioned",
+            "price": 14.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +694,26 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 10.87,
+            "name": "Homestyle Marinated Margarita",
+            "price": 10.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Martini",
+            "price": 11.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Braised Mai Tai",
+            "price": 11.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,36 +721,9 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 12.51,
+            "name": "Fresh Fried Negroni",
+            "price": 11.11,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 12.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 14.88,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,20 +733,11 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Hearty Herbed Riesling",
-            "price": 8.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Sauvignon Blanc",
-            "price": 12.05,
+            "name": "Chardonnay",
+            "price": 13.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,17 +745,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Sémillon",
-            "price": 9.24,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Flavorful Pinot Noir",
-            "price": 12.69,
+            "name": "Sauvignon Blanc",
+            "price": 12.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,8 +754,8 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Zesty Vouvray",
-            "price": 9.03,
+            "name": "Riesling",
+            "price": 8.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,11 +763,29 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Luscious Merlot",
-            "price": 11.82,
+            "name": "Mourvèdre",
+            "price": 8.61,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 8.3,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sangiovese",
+            "price": 10.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,20 +793,38 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Authentic Fried Armagnac",
-            "price": 11.76,
+            "name": "Calvados",
+            "price": 15.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 12.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 15.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Classic Creamy Vodka",
-            "price": 15.11,
+            "name": "Kahlúa",
+            "price": 15.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,29 +832,11 @@ export const seattleitalianBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Stuffed Bénédictine",
-            "price": 16.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Baked Pisco",
-            "price": 11.51,
+            "name": "Frangelico",
+            "price": 12.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Galliano",
-            "price": 16.39,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

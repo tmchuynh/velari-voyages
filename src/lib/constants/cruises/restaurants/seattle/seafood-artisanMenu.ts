@@ -6,33 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Experience our chef's fresh creations inspired by Seafood tradition",
+    "description": "Explore bold and satisfying twists on beloved Seafood staples",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Seafood specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 37.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 30.1,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 28.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 36.23,
+            "name": "24-Hour Braised Short Ribs",
+            "price": 37.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,8 +31,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 36.6,
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 26.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,8 +40,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 25.63,
+            "name": "Flambéed Tableside Specialty",
+            "price": 30.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -59,17 +50,26 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
           },
           {
             "name": "Wood-Fired Peking Duck with Plum Sauce",
-            "price": 33.64,
+            "price": 26.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Tasting Platter",
-            "price": 35.29,
-            "isVegetarian": true,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 33.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 33.66,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -79,11 +79,29 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Gourmet Herbed Hand-Selected Wine Pairing Experience",
-            "price": 36.78,
+            "name": "Seasonal Stuffed Heritage Breed Porchetta",
+            "price": 31.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Tasting of Local Artisanal Cheeses",
+            "price": 38.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Wild Mushroom Risotto",
+            "price": 34.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,35 +109,17 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Irresistible Chef's Tasting Menu Experience",
-            "price": 35.3,
+            "name": "Premium Steamed Miso-Glazed Black Cod",
+            "price": 33.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seasonal Golden Lobster Thermidor",
-            "price": 25.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Spicy Collaborative Limited Edition Special",
-            "price": 37.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Luscious Tableside Flambé Preparation",
-            "price": 31.13,
+            "name": "Authentic Hearty Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 25.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,11 +130,11 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Fresh Spiced Cheese Nachos",
-            "price": 12.51,
+            "name": "Falafel",
+            "price": 8.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +142,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Flavorful Edamame",
-            "price": 15.32,
+            "name": "Bruschetta",
+            "price": 11.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,8 +151,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Cheese Platter",
-            "price": 12.57,
+            "name": "Dumplings",
+            "price": 12.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,35 +160,17 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Mozzarella Sticks",
-            "price": 9.12,
+            "name": "Meatballs",
+            "price": 13.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Golden Baba Ganoush",
-            "price": 13.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Samosas",
-            "price": 14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Golden Mini Empanadas",
-            "price": 15.17,
+            "name": "Garlic Knots",
+            "price": 10.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +178,26 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Crostini",
-            "price": 14.42,
+            "name": "Potato Skins",
+            "price": 10.09,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Onion Rings",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Artichoke Dip",
+            "price": 13.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,11 +208,29 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
+        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
         "items": [
           {
+            "name": "Minestrone",
+            "price": 7.97,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gazpacho",
+            "price": 9.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Seafood Chowder",
-            "price": 12.42,
+            "price": 12.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,29 +238,11 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hot and Sour Soup",
-            "price": 8.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Thai Coconut Soup",
-            "price": 7.58,
+            "price": 12.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lentil Soup",
-            "price": 13.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,7 +250,7 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
         "items": [
           {
             "name": "Waldorf Salad",
@@ -262,8 +262,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 12.46,
+            "name": "Potato Salad",
+            "price": 10.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,17 +271,17 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 11.47,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Tabbouleh",
+            "price": 13.16,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chickpea Salad",
-            "price": 14.49,
+            "name": "Caesar Salad",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,8 +289,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 9.85,
+            "name": "Quinoa Salad",
+            "price": 10.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -304,26 +304,26 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
         "description": "Timeless main courses crafted for bold palates and lasting impressions.",
         "items": [
           {
-            "name": "Lamb Chops",
-            "price": 28.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "price": 22.24,
+            "name": "House Special Succulent Steak",
+            "price": 24.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 28.11,
+            "name": "Authentic Comforting Mac and Cheese",
+            "price": 25.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tender Tagine",
+            "price": 24.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -331,7 +331,34 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
+            "name": "House Special Grilled Ramen",
+            "price": 23.37,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Pan-seared Fajitas",
+            "price": 21.3,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Savory Eggplant Parmesan",
+            "price": 30.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Currywurst",
             "price": 25.8,
             "isVegetarian": false,
             "isVegan": false,
@@ -340,35 +367,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Burger",
-            "price": 26.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Currywurst",
-            "price": 25.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 23.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Ramen",
-            "price": 25.39,
+            "name": "Hearty Steamed Chicken Parmesan",
+            "price": 28.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,11 +379,11 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Hearty Flaky Stuffed Flounder with Crab and Spinach",
-            "price": 32.54,
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 27.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,17 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Spiced Pan-Seared Scallops with Pea Purée",
-            "price": 25.05,
+            "name": "Hearty Italian Cioppino",
+            "price": 27.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 25.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,29 +409,20 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 30.89,
-            "isVegetarian": true,
+            "name": "Prawn Curry in Coconut Masala",
+            "price": 34.19,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Baked Cod with Lemon Caper Sauce",
-            "price": 29.88,
+            "name": "Valencian Seafood Paella",
+            "price": 26.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Steamed Littleneck Clams in Garlic Broth",
-            "price": 27.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -430,11 +430,29 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Seafood flavors.",
+        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Classic Crispy Grilled Asparagus with Lemon Zest",
-            "price": 8.36,
+            "name": "Fresh Grilled Mashed Potatoes",
+            "price": 8.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Irresistible Buttered Egg Noodles",
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Satisfying Flaky Cheddar and Chive Biscuits",
+            "price": 6.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,35 +460,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Stuffed Mashed Potatoes",
-            "price": 7.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Crunchy Baked Idaho Potato with Sour Cream",
-            "price": 8.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Marinated Israeli Couscous with Roasted Tomatoes",
-            "price": 7.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Wild Mushroom Risotto",
-            "price": 5.29,
+            "name": "Organic Zesty Grilled Zucchini and Peppers",
+            "price": 5.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +469,20 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spicy Grilled Zucchini and Peppers",
-            "price": 8.99,
-            "isVegetarian": true,
+            "name": "Gourmet Spiced Wild Rice Pilaf",
+            "price": 7.55,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Delectable Creamed Spinach with Nutmeg",
+            "price": 7.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Traditional Baked Smoothie",
-            "price": 5.15,
+            "name": "Coffee",
+            "price": 6.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,45 +502,45 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zingy Iced Tea",
-            "price": 5.42,
+            "name": "Tea",
+            "price": 5.77,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Tender Lemonade",
-            "price": 5.3,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Satisfying Milkshake",
-            "price": 6.83,
-            "isVegetarian": true,
+            "name": "Smoothie",
+            "price": 5.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.07,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Zingy Soda",
-            "price": 4.44,
-            "isVegetarian": true,
+            "name": "Water",
+            "price": 5.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Roasted Coffee",
-            "price": 5.23,
-            "isVegetarian": true,
+            "name": "Hot Chocolate",
+            "price": 7.6,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,15 +552,15 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's comforting creations to end your meal on a sweet note",
+    "description": "Crafted with passion, our gooey desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 9.1,
+            "name": "Shortbread",
+            "price": 6.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,17 +568,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Carrot Cake",
-            "price": 9.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Portuguese Custard Tarts",
-            "price": 9.37,
+            "name": "Crumb Cake",
+            "price": 6.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,19 +577,28 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 8.21,
+            "name": "Pumpkin Pie",
+            "price": 9.2,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pain au Chocolat",
-            "price": 8.9,
+            "name": "Scones",
+            "price": 8.08,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 8.73,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,20 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Authentic Smoked Popsicles",
-            "price": 8.89,
+            "name": "Hearty Creamy Frozen Yogurt",
+            "price": 10.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Frozen Custard",
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,17 +628,17 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Hearty Baked Alaska",
-            "price": 7.73,
+            "name": "Organic Braised Frozen Pie",
+            "price": 7.38,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Flaky Sorbet",
-            "price": 9.57,
+            "name": "Premium Roasted Frozen Mousse",
+            "price": 7.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,22 +646,13 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Savory Ice Cream Sandwich",
-            "price": 11.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Semifreddo",
-            "price": 7.58,
+            "name": "Authentic Exquisite Frozen Cheesecake",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       }
@@ -660,24 +660,24 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Sip on our select cocktails, designed to enhance your dining experience",
+    "description": "Our bartenders' fine creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each sip tells a story—of ingredients, technique, and passion for mixology.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10.36,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 10.25,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 13.7,
+            "name": "Whiskey Sour",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,17 +685,35 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 13.92,
+            "name": "Old Fashioned",
+            "price": 10.36,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 10.1,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.23,
+            "name": "Negroni",
+            "price": 11.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 10.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -704,26 +722,8 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
           },
           {
             "name": "Mai Tai",
-            "price": 14.2,
+            "price": 10.16,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.71,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 13.01,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,47 +733,29 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Marsanne",
-            "price": 12.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Petit Verdot",
-            "price": 10.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Malbec",
-            "price": 9.81,
+            "name": "Prosecco",
+            "price": 9.56,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roussanne",
-            "price": 13.97,
-            "isVegetarian": false,
+            "name": "Cabernet Franc",
+            "price": 9.43,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 10.02,
+            "name": "Sémillon",
+            "price": 8.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,10 +763,28 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 13.11,
+            "name": "Sangiovese",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 13.27,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 10.79,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,52 +793,52 @@ export const seattleseafoodArtisanMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "Whether neat, on the rocks, or mixed—our premium selection is built to impress.",
         "items": [
           {
-            "name": "Homestyle Creamy Frangelico",
-            "price": 17.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Delectable Gin",
-            "price": 11.41,
+            "name": "Hearty Herbed Vodka",
+            "price": 17.05,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Pan-seared Grappa",
+            "price": 15.06,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Mezcal",
-            "price": 14.77,
-            "isVegetarian": true,
+            "name": "Fresh Baked Coffee Liqueur",
+            "price": 11.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Appetizing Chambord",
-            "price": 15.56,
+            "name": "Handcrafted Zingy Mezcal",
+            "price": 11.47,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Succulent Vodka",
-            "price": 16.41,
+            "name": "Hearty Grilled Campari",
+            "price": 11.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
