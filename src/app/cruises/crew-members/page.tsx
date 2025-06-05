@@ -53,7 +53,7 @@ export default function CrewMembers() {
             acc[role] = 1;
             return acc;
           },
-          {} as Record<string, number>
+          {} as Record<string, number>,
         );
         setCurrentPages(initialPages);
       } catch (error) {
@@ -190,7 +190,7 @@ export default function CrewMembers() {
         groups[role].push(member);
         return groups;
       },
-      {} as Record<string, CrewMember[]>
+      {} as Record<string, CrewMember[]>,
     );
   }, [filteredCrewMembers]);
 
@@ -558,7 +558,7 @@ export default function CrewMembers() {
                             onClick={() =>
                               handlePageChange(
                                 role,
-                                Math.max(1, currentPage - 1)
+                                Math.max(1, currentPage - 1),
                               )
                             }
                             className={
@@ -586,7 +586,7 @@ export default function CrewMembers() {
                             onClick={() =>
                               handlePageChange(
                                 role,
-                                Math.min(totalPages, currentPage + 1)
+                                Math.min(totalPages, currentPage + 1),
                               )
                             }
                             className={
