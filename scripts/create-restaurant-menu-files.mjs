@@ -805,6 +805,9 @@ function generateMenuItemsForType(
   // Declare priceModifiers outside the switch statement
   let priceModifiers;
 
+  // Initialize useFancyName with default value before it's used in the switch cases
+  let useFancyName = Math.random() > 0.5; // Default to 50% chance of fancy names
+
   // Set base price ranges according to restaurant's priceRange indicator
   switch (restaurant.priceRange) {
     case "$": // Budget pricing
@@ -1231,7 +1234,7 @@ function generateMenuItemsForType(
     const prefix = getRandomItems(menuItems.prefixes, 1)[0];
     const descriptor = getRandomItems(menuItems.descriptors, 1)[0];
 
-    // Use fancy name only for appropriate categories
+    // Use fancy name only for appropriate categories (no need to redefine useFancyName here)
     const itemName =
       useFancyName || args["restaurant-style"] === "fine-dining"
         ? `${prefix} ${descriptor} ${item}`
@@ -1780,11 +1783,89 @@ function generateCombinedMenuContent(
 
     // Only add the menu if there are categories
     if (mainMenuCategories.length > 0) {
+      // Generate diverse main course menu descriptions based on restaurant style and cuisine
+      const getMainCourseDescription = (restaurant, cuisine) => {
+        // Arrays of descriptive adjectives for different restaurant styles
+        const fineDiningAdjectives = [
+          "exquisite",
+          "sophisticated",
+          "artfully prepared",
+          "gourmet",
+          "meticulously crafted",
+          "refined",
+          "elegant",
+        ];
+        const adultOnlyAdjectives = [
+          "premium",
+          "bold",
+          "signature",
+          "distinctive",
+          "exceptional",
+          "hearty",
+          "classic",
+        ];
+        const familyFriendlyAdjectives = [
+          "delightful",
+          "wholesome",
+          "comforting",
+          "satisfying",
+          "crowd-pleasing",
+          "flavorful",
+        ];
+        const casualAdjectives = [
+          "tasty",
+          "hearty",
+          "fresh",
+          "delicious",
+          "homestyle",
+          "flavorful",
+          "authentic",
+        ];
+
+        // Description templates with varied formats
+        const templates = [
+          "Our carefully crafted selection of {adjective} {cuisine} dishes",
+          "Experience our chef's {adjective} creations inspired by {cuisine} tradition",
+          "A {adjective} assortment of specialties showcasing the best of {cuisine} cuisine",
+          "From appetizers to main courses: {adjective} dishes prepared with passion",
+          "Traditional and contemporary {cuisine} favorites with our {adjective} touch",
+          "Our {adjective} menu celebrating the flavors of {cuisine} cooking",
+          "Savor our {adjective} dishes made with locally sourced ingredients",
+          "Chef-selected {adjective} offerings highlighting {cuisine} culinary heritage",
+          "A {adjective} dining experience featuring the essence of {cuisine} gastronomy",
+          "Discover our {adjective} interpretation of classic {cuisine} recipes",
+        ];
+
+        // Select appropriate adjective based on restaurant style
+        let adjectives;
+        if (
+          args["restaurant-style"] === "fine-dining" ||
+          restaurant.isFineDining
+        ) {
+          adjectives = fineDiningAdjectives;
+        } else if (
+          args["restaurant-style"] === "adult-only" ||
+          restaurant.isAdultOnly
+        ) {
+          adjectives = adultOnlyAdjectives;
+        } else if (args["restaurant-style"] === "family-friendly") {
+          adjectives = familyFriendlyAdjectives;
+        } else {
+          adjectives = casualAdjectives;
+        }
+
+        const adjective = getRandomItems(adjectives, 1)[0];
+        let template = getRandomItems(templates, 1)[0];
+
+        // Replace the placeholders with actual values
+        return template
+          .replace("{adjective}", adjective)
+          .replace(/{cuisine}/g, cuisine || "international"); // Using /g to replace all instances
+      };
+
       menus.push({
         title: "Main Course Menu",
-        description: `Our carefully crafted selection of ${
-          args["restaurant-style"] === "fine-dining" ? "exquisite" : "hearty"
-        } dishes`,
+        description: getMainCourseDescription(restaurant, restaurantCuisine),
         category: mainMenuCategories,
       });
     }
@@ -1813,11 +1894,87 @@ function generateCombinedMenuContent(
     }
 
     if (dessertCategories.length > 0) {
+      // Generate diverse dessert menu descriptions
+      const getDessertMenuDescription = (restaurant, cuisine) => {
+        // Arrays of descriptive adjectives for different restaurant styles
+        const fineDiningAdjectives = [
+          "exquisite",
+          "decadent",
+          "artisanal",
+          "sublime",
+          "gourmet",
+          "sophisticated",
+          "divine",
+        ];
+        const adultOnlyAdjectives = [
+          "indulgent",
+          "luxurious",
+          "tempting",
+          "rich",
+          "tantalizing",
+          "heavenly",
+        ];
+        const familyFriendlyAdjectives = [
+          "delightful",
+          "sweet",
+          "fun",
+          "playful",
+          "scrumptious",
+          "cheerful",
+        ];
+        const casualAdjectives = [
+          "delicious",
+          "homemade",
+          "satisfying",
+          "comforting",
+          "tasty",
+          "freshly prepared",
+        ];
+
+        // Description templates with varied formats
+        const templates = [
+          "Indulge in our {adjective} sweet creations",
+          "Complete your meal with our {adjective} dessert selection",
+          "Satisfy your sweet tooth with our {adjective} treats",
+          "Our pastry chef's {adjective} creations to end your meal on a sweet note",
+          "From classics to signatures: {adjective} desserts for every taste",
+          "{cuisine}-inspired {adjective} confections to delight your senses",
+          "A {adjective} finale to your dining experience",
+          "Our {adjective} dessert offerings crafted with the finest ingredients",
+          "Handcrafted {adjective} desserts that celebrate {cuisine} traditions",
+          "Discover our collection of {adjective} sweet masterpieces",
+        ];
+
+        // Select appropriate adjective based on restaurant style
+        let adjectives;
+        if (
+          args["restaurant-style"] === "fine-dining" ||
+          restaurant.isFineDining
+        ) {
+          adjectives = fineDiningAdjectives;
+        } else if (
+          args["restaurant-style"] === "adult-only" ||
+          restaurant.isAdultOnly
+        ) {
+          adjectives = adultOnlyAdjectives;
+        } else if (args["restaurant-style"] === "family-friendly") {
+          adjectives = familyFriendlyAdjectives;
+        } else {
+          adjectives = casualAdjectives;
+        }
+
+        const adjective = getRandomItems(adjectives, 1)[0];
+        let template = getRandomItems(templates, 1)[0];
+
+        // Replace the placeholders with actual values
+        return template
+          .replace("{adjective}", adjective)
+          .replace(/{cuisine}/g, cuisine || "international");
+      };
+
       menus.push({
         title: "Dessert Menu",
-        description: `Indulge in our ${
-          args["restaurant-style"] === "fine-dining" ? "exquisite" : "delicious"
-        } sweet creations`,
+        description: getDessertMenuDescription(restaurant, restaurantCuisine),
         category: dessertCategories,
       });
     }
@@ -1854,15 +2011,79 @@ function generateCombinedMenuContent(
     }
 
     if (drinkCategories.length > 0) {
+      // Generate diverse drink menu descriptions based on restaurant style and other factors
+      const getDrinkMenuDescription = (restaurant, cuisine) => {
+        // Arrays of descriptive adjectives for different restaurant styles
+        const fineDiningAdjectives = [
+          "exquisite",
+          "sophisticated",
+          "curated",
+          "refined",
+          "handcrafted",
+          "artisanal",
+          "premier",
+        ];
+        const adultOnlyAdjectives = [
+          "premium",
+          "indulgent",
+          "exclusive",
+          "signature",
+          "exceptional",
+          "bold",
+          "luxurious",
+        ];
+        const casualAdjectives = [
+          "fine",
+          "quality",
+          "select",
+          "carefully chosen",
+          "thoughtfully selected",
+          "delightful",
+          "enticing",
+        ];
+
+        // Description templates with varied formats
+        const templates = [
+          "A {adjective} selection of alcoholic beverages to complement your meal",
+          "Our {adjective} collection of spirits and cocktails to enhance your dining experience",
+          "Discover our {adjective} drinks, perfectly paired with our {cuisine} cuisine",
+          "Elevate your dining experience with our {adjective} beverage options",
+          "A {adjective} assortment of libations to accompany your culinary journey",
+          "{cuisine}-inspired drinks and classic favorites in our {adjective} selection",
+          "From wines to spirits: {adjective} choices for every palate",
+          "Our bartenders' {adjective} creations to complete your meal",
+          "Indulge in our {adjective} drinks menu crafted to accentuate flavors",
+          "A {adjective} array of beverages specially selected by our sommeliers",
+        ];
+
+        // Select appropriate adjective based on restaurant style
+        let adjectives;
+        if (
+          args["restaurant-style"] === "fine-dining" ||
+          restaurant.isFineDining
+        ) {
+          adjectives = fineDiningAdjectives;
+        } else if (
+          args["restaurant-style"] === "adult-only" ||
+          restaurant.isAdultOnly
+        ) {
+          adjectives = adultOnlyAdjectives;
+        } else {
+          adjectives = casualAdjectives;
+        }
+
+        const adjective = getRandomItems(adjectives, 1)[0];
+        let template = getRandomItems(templates, 1)[0];
+
+        // Replace the placeholders with actual values
+        return template
+          .replace("{adjective}", adjective)
+          .replace("{cuisine}", cuisine || "international");
+      };
+
       menus.push({
         title: "Drinks Menu",
-        description: `A selection of ${
-          args["restaurant-style"] === "fine-dining"
-            ? "exquisite"
-            : args["restaurant-style"] === "adult-only"
-            ? "premium"
-            : "fine"
-        } alcoholic beverages to complement your meal`,
+        description: getDrinkMenuDescription(restaurant, restaurantCuisine),
         category: drinkCategories,
       });
     }
