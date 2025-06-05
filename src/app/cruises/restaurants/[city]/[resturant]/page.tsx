@@ -1,30 +1,19 @@
 "use client";
 
 import Loading from "@/components/Loading";
+import MenuItemDisplay from "@/components/MenuItemDisplay";
 import RestaurantHours from "@/components/RestaurantHours";
-import RestaurantIconKey from "@/components/RestaurantIconKey";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import RestaurantInfoCard from "@/components/RestaurantInfoCard";
 import useSmallScreen from "@/hooks/useSmallScreen";
 import { Restaurant, RestaurantMenu } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import {
-  formatKebebToTitleCase,
-  formatNumberToCurrency,
-} from "@/lib/utils/format.ts";
+import { formatKebebToTitleCase } from "@/lib/utils/format.ts";
 import {
   getRestaurantByName,
   getRestaurantMenuByName,
 } from "@/lib/utils/get/restaurants";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FaStarOfDavid } from "react-icons/fa";
-import { FaWheatAwn } from "react-icons/fa6";
-import { GiMeat } from "react-icons/gi";
-import { RiPlantFill, RiSeedlingFill } from "react-icons/ri";
 
 export default function RestaurantMenuPage() {
   const searchParams = useSearchParams();
@@ -127,10 +116,8 @@ export default function RestaurantMenuPage() {
           </header>
 
           <div className="gap-4 grid lg:grid-cols-2 my-8">
-            {isSmallScreen ? (
-              <RestaurantIconKey compact className="my-4" />
-            ) : (
-              <RestaurantIconKey className="mb-15" />
+            {restaurantInfo && (
+              <RestaurantInfoCard restaurantInfo={restaurantInfo} />
             )}
             {isSmallScreen ? (
               <RestaurantHours
@@ -159,79 +146,11 @@ export default function RestaurantMenuPage() {
                         </h3>
                         {menuCategory.items.map((item, itemIdx) => (
                           <div key={itemIdx} className="py-1 w-full">
-                            <div className="flex-col space-y-1">
-                              <div className="flex justify-between md:items-center">
-                                <div className="flex flex-col flex-wrap lg:flex-auto justify-center gap-2 w-full h-full">
-                                  <h4 className="w-10/12 no-underline">
-                                    {item.name}
-                                  </h4>
-                                  {menu.title === "Main Course Menu" &&
-                                    menuCategory.name !==
-                                      "Non-Alcoholic Beverages" && (
-                                      <div>
-                                        {item.isVegetarian && (
-                                          <Tooltip>
-                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                              <RiPlantFill />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                              <p>Vegetarian Options</p>
-                                            </TooltipContent>
-                                          </Tooltip>
-                                        )}
-                                        {item.isVegan && (
-                                          <Tooltip>
-                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                              <RiSeedlingFill />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                              <p>Vegan Options</p>
-                                            </TooltipContent>
-                                          </Tooltip>
-                                        )}
-                                        {item.isGlutenFree && (
-                                          <Tooltip>
-                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                              <FaWheatAwn />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                              <p>Gluten-Free Options</p>
-                                            </TooltipContent>
-                                          </Tooltip>
-                                        )}
-                                        {item.isHalal && (
-                                          <Tooltip>
-                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                              <GiMeat />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                              <p>Halal Options</p>
-                                            </TooltipContent>
-                                          </Tooltip>
-                                        )}
-                                        {item.isKosher && (
-                                          <Tooltip>
-                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                              <FaStarOfDavid />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                              <p>Kosher Options</p>
-                                            </TooltipContent>
-                                          </Tooltip>
-                                        )}
-                                      </div>
-                                    )}
-                                </div>
-                                <p>
-                                  {formatNumberToCurrency(item.price, 2, 2)}
-                                </p>
-                              </div>
-                              <div>
-                                {item.description && (
-                                  <p>{" - " + item.description}</p>
-                                )}
-                              </div>
-                            </div>
+                            <MenuItemDisplay
+                              item={item}
+                              menuTitle={menu.title}
+                              categoryName={menuCategory.name}
+                            />
                           </div>
                         ))}
                       </section>
