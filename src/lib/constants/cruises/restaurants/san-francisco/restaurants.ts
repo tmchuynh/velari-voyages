@@ -248,5 +248,160 @@ export const sanFranciscoRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Mexican Club",
+    "description": "Located close to the city museum, this Japanese restaurant delights with its local ingredients and artisan markets.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-611-8874",
+      "contactEmail": "reception@chinesebiergartensan-francisco.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Gelateria",
+    "description": "Experience authentic Mexican cuisine with a local twist, featuring regional wines served in an atmosphere of charming streetscapes overlooking the main square.",
+    "cuisine": "Mexican",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-561-1829",
+      "contactEmail": "team@mexicantikiloungesan-francisco.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Fish House",
+    "description": "Located close to the iconic clock tower, this Chinese restaurant delights with its regional wines and artisan markets.",
+    "cuisine": "Chinese",
+    "priceRange": "$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-696-4493",
+      "contactEmail": "ask@americanculinarysan-francisco.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Gathering",
+    "description": "This popular American establishment combines traditional recipes and local ingredients, all served in a unique setting with beautiful decor.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-980-5526",
+      "contactEmail": "communications@americanenotecasan-francisco.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mexican Bar & Kitchen",
+    "description": "A charming Chinese restaurant near downtown, offering signature dishes and other local favorites in a setting with artisan markets.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-730-3560",
+      "contactEmail": "communications@italian&sonssan-francisco.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

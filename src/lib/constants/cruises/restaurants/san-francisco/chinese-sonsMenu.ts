@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Enjoy a variety of hearty American plates made with seasonal inspiration",
+    "description": "Every plate tells a story of fresh American craftsmanship",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Unforgettable signatures that define who we are and what we serve.",
         "items": [
           {
-            "name": "Premium Braised Flambéed Tableside Specialty",
-            "price": 25.69,
+            "name": "Authentic Enticing Tableside Carved Chateaubriand",
+            "price": 24.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,17 +22,17 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Satisfying Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 25.03,
+            "name": "Authentic Comforting Founder's Family Recipe Pasta",
+            "price": 33.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Fresh Delectable Legendary Prime Rib",
-            "price": 34.59,
+            "name": "Premium Smoked Executive Chef's Daily Inspiration Entrée",
+            "price": 31.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,26 +40,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Fried Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 34.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Tangy Executive Chef's Daily Inspiration Entrée",
-            "price": 26.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Spicy 24-Hour Braised Short Ribs",
-            "price": 34.6,
+            "name": "Handcrafted Marinated Whole Roasted Heritage Chicken",
+            "price": 24.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,41 +49,41 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Braised Traditional Family Paella",
-            "price": 31.75,
+            "name": "Handcrafted Zingy Chef's Childhood Inspired Creation",
+            "price": 25.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Sous Vide Perfected Wagyu",
+            "price": 28.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
-        "items": [
-          {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 29.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 27.35,
+            "name": "Deluxe Grilled Signature Truffle Pasta with Aged Pecorino",
+            "price": 34.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "items": [
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 27.16,
+            "name": "Homestyle Braised Grilled Venison with Juniper Berry Sauce",
+            "price": 39.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,8 +91,26 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Whole Animal Butchery Showcase",
-            "price": 27.27,
+            "name": "Gourmet Tender Lobster and Crab Stuffed Ravioli",
+            "price": 38.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Herbed Tableside Prepared Tartare",
+            "price": 31.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Aromatic Chef's Tasting Menu Experience",
+            "price": 26.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,11 +118,11 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custom Tasting Menu Based on Guest Preferences",
-            "price": 33.37,
+            "name": "Classic Creamy Tableside Flambé Preparation",
+            "price": 36.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,20 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of American.",
+        "description": "A selection of small plates that showcase the essence of American—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Classic Smoked Edamame",
-            "price": 11.64,
+            "name": "Homestyle Tangy Prawn Cocktail",
+            "price": 13.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tangy Bruschetta",
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +151,35 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Sizzling Hummus Platter",
-            "price": 8.29,
+            "name": "Seasonal Hearty Sweet Potato Fries",
+            "price": 11.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spiced Mini Empanadas",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Fried Calamari",
+            "price": 10.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Baked Brie",
+            "price": 12.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,17 +187,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Wholesome Tzatziki with Pita",
-            "price": 15.03,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Succulent Prawn Toast",
-            "price": 12.57,
+            "name": "Classic Tangy Tempura",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,37 +196,10 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Dumplings",
-            "price": 14.06,
+            "name": "Handcrafted Marinated Edamame",
+            "price": 13.58,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Zingy Mezze Platter",
-            "price": 13.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Savory Spinach Artichoke Dip",
-            "price": 10.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Fried Prawn Cocktail",
-            "price": 15.41,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -211,68 +211,68 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
         "description": "Daily-prepared soups made from seasonal ingredients and traditional American methods.",
         "items": [
           {
-            "name": "Homestyle Sizzling Gazpacho",
-            "price": 12.03,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Chicken Noodle Soup",
+            "price": 7.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "French Onion Soup",
+            "price": 12.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Bean Soup",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Stuffed Beef Stew",
-            "price": 12.43,
+            "name": "Turkey and Wild Rice Soup",
+            "price": 12.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Aromatic Cabbage Soup",
-            "price": 11.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Stuffed Mushroom Soup",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
+            "name": "Cobb Salad",
+            "price": 11.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Greek Salad",
-            "price": 12.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 9.17,
+            "price": 11.8,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mango Avocado Salad",
-            "price": 9.34,
+            "name": "Asian Slaw",
+            "price": 13.47,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -280,18 +280,18 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 9.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Coleslaw",
+            "price": 15.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tabbouleh",
-            "price": 11.32,
-            "isVegetarian": true,
+            "name": "Thai Green Papaya Salad",
+            "price": 10.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,11 +301,11 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.",
         "items": [
           {
-            "name": "Thai Curry",
-            "price": 31.94,
+            "name": "Organic Braised Pizza",
+            "price": 26.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,53 +313,26 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fish and Chips",
-            "price": 30.82,
+            "name": "Homestyle Flavorful Steak",
+            "price": 24.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "price": 19.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "price": 25.13,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "price": 31.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Risotto",
-            "price": 27.97,
+            "name": "Deluxe Delicious Moussaka",
+            "price": 26,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "price": 30.83,
+            "name": "Handcrafted Flavorful Quiche",
+            "price": 29.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,32 +340,59 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "price": 23.45,
+            "name": "Authentic Fried Seafood Platter",
+            "price": 25.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Traditional Creamy Beef Burger",
+            "price": 21.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Tangy Risotto",
+            "price": 23.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Delicious Biryani",
+            "price": 22.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Maryland Style Crab Cakes",
-            "price": 22.17,
+            "name": "Homestyle Stuffed Seafood Gumbo with Okra",
+            "price": 27.22,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 22.41,
+            "name": "Traditional Flaky Maryland Style Crab Cakes",
+            "price": 27.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,17 +400,17 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 29.59,
+            "name": "Authentic Grilled Mussels Mariniere in White Wine",
+            "price": 35.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 24.49,
+            "name": "Gourmet Crunchy New England Lobster Roll",
+            "price": 32.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +418,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 35.02,
+            "name": "Authentic Hearty Prawn Curry in Coconut Masala",
+            "price": 24.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,60 +430,60 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
         "items": [
           {
-            "name": "Authentic Spicy Sautéed Garlic Mushrooms",
-            "price": 9.52,
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 8.75,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Smoked Green Beans Almondine",
-            "price": 9.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Creamy Colcannon (Irish Potato Mash)",
-            "price": 6.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Flaky Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Hearty Grilled Asparagus with Lemon Zest",
-            "price": 8.04,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Crispy Beer-Battered Onion Rings",
-            "price": 8.48,
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 6.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Provencal Ratatouille",
+            "price": 7.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 9.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cauliflower Gratin with Gruyère",
+            "price": 8.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 8.49,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -493,26 +493,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
         "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Authentic Grilled Juice",
-            "price": 5.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Grilled Tea",
-            "price": 5.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Pan-seared Soda",
-            "price": 6.58,
+            "name": "Milkshake",
+            "price": 6.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,8 +502,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Flaky Milkshake",
-            "price": 7.39,
+            "name": "Smoothie",
+            "price": 7.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,20 +511,38 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Smoothie",
-            "price": 5.67,
+            "name": "Soda",
+            "price": 6.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Hearty Lemonade",
-            "price": 7.52,
+            "name": "Water",
+            "price": 5.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 5.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,42 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Every dessert tells a classic story of flavor and craftsmanship",
+    "description": "A satisfying finale to your dining experience",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
         "items": [
           {
-            "name": "Cobbler",
-            "price": 9.92,
+            "name": "Custard Tart",
+            "price": 7.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 7.11,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Danish Pastries",
+            "price": 10.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macarons",
+            "price": 6.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,35 +595,8 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 8.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Cake",
-            "price": 10.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shortbread",
-            "price": 6.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Red Velvet Cake",
-            "price": 8.67,
+            "name": "Berry Tart",
+            "price": 7.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,11 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 10.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 8.73,
+            "name": "Gourmet Satisfying Popsicles",
+            "price": 7.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,8 +619,17 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 8.24,
+            "name": "Homestyle Grilled Frozen Mousse",
+            "price": 10.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crunchy Semifreddo",
+            "price": 8.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,20 +637,20 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.9,
+            "name": "Fresh Grilled Frozen Fruit Bars",
+            "price": 10.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 7.08,
+            "name": "Premium Grilled Granita",
+            "price": 8.52,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,70 +660,70 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine selection of alcoholic beverages to complement your meal",
+    "description": "Enjoy fine cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
+        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
         "items": [
           {
-            "name": "Margarita",
-            "price": 11.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 13.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 12.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.31,
+            "name": "Handcrafted Smoked Bloody Mary",
+            "price": 14.87,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 12.31,
-            "isVegetarian": true,
+            "name": "Traditional Savory Martini",
+            "price": 12.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Enticing Manhattan",
+            "price": 13.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Margarita",
+            "price": 11.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Mai Tai",
+            "price": 10.8,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Grilled Old Fashioned",
+            "price": 15.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Grilled Mojito",
+            "price": 13.96,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,30 +733,12 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
         "items": [
           {
-            "name": "Roussanne",
-            "price": 10.41,
+            "name": "Verdicchio",
+            "price": 10.88,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Moscato",
-            "price": 8.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nebbiolo",
-            "price": 11.61,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -764,7 +746,25 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chardonnay",
-            "price": 10.45,
+            "price": 13.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Petit Verdot",
+            "price": 13.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 8.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -773,17 +773,17 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
           },
           {
             "name": "Pinot Blanc",
-            "price": 8.23,
+            "price": 13.08,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 10.13,
-            "isVegetarian": false,
+            "name": "Vermentino",
+            "price": 12.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,20 +793,11 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
         "items": [
           {
-            "name": "Hearty Braised Scotch",
-            "price": 16.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Baked Brandy",
-            "price": 14.23,
+            "name": "Rum",
+            "price": 17.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,29 +805,38 @@ export const sanFranciscochineseSonsMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Comforting Bourbon",
-            "price": 16.82,
+            "name": "Frangelico",
+            "price": 17.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Steamed Anisette",
-            "price": 17.47,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sizzling Grappa",
-            "price": 11.22,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tequila",
+            "price": 14.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kahlúa",
+            "price": 12.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 16.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

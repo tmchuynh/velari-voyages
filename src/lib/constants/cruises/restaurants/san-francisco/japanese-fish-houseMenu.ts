@@ -1,20 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for American Creperie in san-francisco
+ * Menu data for Japanese Fish House in san-francisco
  */
-export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
+export const sanFranciscojapaneseFishHouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Explore the richness of American cuisine through our comforting perspective",
+    "description": "Your introduction to a world of classic, flavor-rich Chinese meals",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 29.59,
+            "name": "Tableside Carved Chateaubriand",
+            "price": 37.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,35 +22,8 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 28.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flambéed Tableside Specialty",
-            "price": 26.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 32.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Award-Winning Seafood Boil",
-            "price": 27.3,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 33.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,8 +31,17 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 33.09,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 26.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 35.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,8 +49,26 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 28.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 26.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Whole Roasted Heritage Chicken",
-            "price": 30.42,
+            "price": 27.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,107 +79,11 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Live-Fire Grilled Feature",
-            "price": 26.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 37.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Duck Confit with Roasted Root Vegetables",
-            "price": 32.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 36.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 37.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "A selection of American starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
-        "items": [
-          {
-            "name": "Fresh Fried Deviled Eggs",
-            "price": 13.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Aromatic Tempura",
-            "price": 15.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Braised Baba Ganoush",
-            "price": 8.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Nachos",
-            "price": 8.85,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Prawn Toast",
-            "price": 15.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flaky Ceviche",
-            "price": 9.45,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 27.49,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -187,8 +91,95 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Golden Meatballs",
-            "price": 9.53,
+            "name": "Live-Fire Grilled Feature",
+            "price": 28.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 39.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Mushroom Risotto",
+            "price": 39.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custom Tasting Menu Based on Guest Preferences",
+            "price": 39.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "Flavor-forward starters that introduce our approach to Chinese with balance and creativity.",
+        "items": [
+          {
+            "name": "Gourmet Sautéed Lettuce Wraps",
+            "price": 11.47,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Mouthwatering Stuffed Peppers",
+            "price": 14.65,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crispy Spinach Artichoke Dip",
+            "price": 8.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Tzatziki with Pita",
+            "price": 15.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Dumplings",
+            "price": 8.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Comforting Crostini",
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +187,17 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Stuffed Mushrooms",
-            "price": 12.88,
+            "name": "Authentic Succulent Mozzarella Sticks",
+            "price": 14.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Flaky Zucchini Fries",
+            "price": 10.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,20 +208,29 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of American, crafted with care and expertise.",
+        "description": "Each bowl is a journey through the heart of Chinese, crafted with care and expertise.",
         "items": [
           {
-            "name": "Homestyle Grilled Chicken Noodle Soup",
-            "price": 11.23,
-            "isVegetarian": false,
+            "name": "Thai Coconut Soup",
+            "price": 9.5,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Flaky Mushroom Soup",
-            "price": 11.62,
+            "name": "Gazpacho",
+            "price": 7.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabbage Soup",
+            "price": 9.86,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,20 +238,11 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Seafood Chowder",
-            "price": 11.92,
-            "isVegetarian": false,
+            "name": "Mushroom Soup",
+            "price": 11.56,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Juicy Broccoli Cheddar Soup",
-            "price": 8.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,11 +250,38 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Chickpea Salad",
-            "price": 15.67,
+            "name": "Nicoise Salad",
+            "price": 9.7,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef Salad",
+            "price": 10.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 9.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 10.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,38 +289,11 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 11.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mediterranean Chopped Salad",
-            "price": 11.14,
-            "isVegetarian": false,
+            "name": "Avocado Corn Salad",
+            "price": 12.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Salad",
-            "price": 10.57,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Salad",
-            "price": 11.43,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,20 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our American vision.",
+        "description": "Hearty and refined mains rooted in traditional Chinese, elevated by modern techniques.",
         "items": [
           {
-            "name": "Quiche",
-            "price": 30.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Risotto",
+            "price": 24.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Platter",
-            "price": 30.96,
+            "name": "Salmon",
+            "price": 27.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,53 +322,53 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Shakshuka",
-            "price": 30.74,
-            "isVegetarian": false,
+            "name": "Enchiladas",
+            "price": 24.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "price": 25.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
             "name": "Lasagna",
-            "price": 23.48,
+            "price": 21.77,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 28.91,
+            "name": "Lamb Chops",
+            "price": 27.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Tacos",
-            "price": 29.45,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Tagine",
+            "price": 21.64,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Tofu",
-            "price": 30.16,
+            "name": "Steak",
+            "price": 20.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Shakshuka",
+            "price": 28.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,47 +379,47 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
+            "name": "Tempura Soft Shell Crab",
+            "price": 30.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
             "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 29.08,
+            "price": 35.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 25.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 27.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cedar Plank Roasted Salmon",
-            "price": 28.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
             "name": "Seafood Gumbo with Okra",
-            "price": 25.18,
+            "price": 33.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 31.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoked Salmon Platter with Dill Crème",
+            "price": 23.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,11 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Corn on the Cob with Chili Lime Butter",
-            "price": 7.85,
+            "name": "Homestyle Crunchy Sweet Corn and Cheddar Fritters",
+            "price": 8.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,44 +442,44 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soft Polenta with Parmesan",
-            "price": 5.51,
+            "name": "Homestyle Sautéed Corn on the Cob with Chili Lime Butter",
+            "price": 5.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tangy Green Beans Almondine",
+            "price": 8.73,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Baked Beans",
-            "price": 5.04,
+            "name": "Authentic Baked Sweet Potato Wedges with Smoked Paprika",
+            "price": 6.73,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Smoked Grilled Asparagus with Lemon Zest",
+            "price": 9.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 5.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 5.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 7.26,
+            "name": "Seasonal Marinated Creamed Spinach with Nutmeg",
+            "price": 5.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,29 +490,29 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 6.1,
+            "name": "Tea",
+            "price": 4.58,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.31,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 5.08,
+            "name": "Lemonade",
+            "price": 5.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,29 +520,29 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.47,
+            "name": "Hot Chocolate",
+            "price": 6.92,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.96,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Water",
-            "price": 6.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "price": 4.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 5.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,24 +552,24 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Finish on a high note with our baked to perfection and memorable sweets",
+    "description": "A tasty journey through the world of desserts, inspired by Chinese",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
         "items": [
           {
-            "name": "Homestyle Baked Lemon Bars",
-            "price": 7.01,
+            "name": "Cupcakes",
+            "price": 8.24,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Cannoli",
-            "price": 7.03,
+            "name": "Carrot Cake",
+            "price": 10.74,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -577,27 +577,27 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Flavorful Soufflé",
-            "price": 7.29,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Eclairs",
+            "price": 9.21,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Vanilla Cake",
-            "price": 10.38,
-            "isVegetarian": false,
+            "name": "Fruit Galette",
+            "price": 8.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Shortbread",
-            "price": 7.11,
-            "isVegetarian": false,
+            "name": "Muffins",
+            "price": 10.57,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -610,47 +610,47 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
         "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 9.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sorbet",
-            "price": 8.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 11.68,
+            "name": "Frozen Fruit Bars",
+            "price": 11.09,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 8.38,
-            "isVegetarian": false,
+            "name": "Frozen Mousse",
+            "price": 9.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 9.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 11,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 7.78,
+            "name": "Paletas",
+            "price": 10.5,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,15 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A smooth-drinking assortment of libations to accompany your culinary journey",
+    "description": "Chinese-inspired drinks and classic favorites in our smooth-drinking selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
         "items": [
           {
-            "name": "Homestyle Exquisite Mai Tai",
-            "price": 11.24,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Flavorful Negroni",
-            "price": 14.62,
+            "name": "Margarita",
+            "price": 12.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,17 +676,44 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Martini",
-            "price": 11.58,
+            "name": "Whiskey Sour",
+            "price": 11.3,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 13.54,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Whiskey Sour",
-            "price": 15.28,
+            "name": "Negroni",
+            "price": 15.81,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 11.5,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -703,27 +721,9 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spicy Manhattan",
-            "price": 15.78,
+            "name": "Cosmopolitan",
+            "price": 15.42,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Steamed Margarita",
-            "price": 14.79,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Enticing Cosmopolitan",
-            "price": 14.01,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,20 +733,11 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Wines selected to enhance each dish and elevate your dining experience.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Syrah/Shiraz",
-            "price": 12.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Marsanne",
-            "price": 11.4,
+            "name": "Barbera",
+            "price": 13.13,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -754,36 +745,45 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 8.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Mourvèdre",
+            "price": 11.49,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 9.63,
-            "isVegetarian": false,
+            "name": "Sauvignon Blanc",
+            "price": 13.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 9.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
           },
           {
             "name": "Cabernet Franc",
-            "price": 12.7,
-            "isVegetarian": false,
+            "price": 8.92,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Blanc",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 13.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,51 +793,51 @@ export const sanFranciscoamericanCreperieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Premium Spiced Calvados",
-            "price": 14.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Marinated Rum",
-            "price": 13.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Appetizing Pisco",
-            "price": 13.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Enticing Mezcal",
-            "price": 10.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Brandy",
-            "price": 17.39,
+            "name": "Authentic Grilled Midori",
+            "price": 12.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Luscious Coffee Liqueur",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Tequila",
+            "price": 11.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Delicious Rum",
+            "price": 11.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Triple Sec",
+            "price": 17.39,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
