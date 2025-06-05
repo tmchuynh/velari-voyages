@@ -6,42 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const limablueDiningHallMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Every plate tells a story of authentic Mediterranean craftsmanship",
+    "description": "A thoughtfully curated lineup of fresh Mediterranean dishes to suit every palate",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Seasonal Mouthwatering Seasonal Tasting Menu Experience",
-            "price": 25.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Satisfying Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 31.49,
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 34.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Deluxe Grilled Sous Vide Perfected Wagyu",
-            "price": 25.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Succulent Heritage Recipe Lamb Shank",
-            "price": 31.06,
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 32.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,8 +31,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Tableside Carved Chateaubriand",
-            "price": 35.36,
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 25.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,8 +40,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible House Famous Duck Confit",
-            "price": 25.26,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 34.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,11 +49,29 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Sweet Dry-Aged Tomahawk Steak",
-            "price": 34.12,
-            "isVegetarian": false,
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 31.23,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Special Surf and Turf",
+            "price": 35.85,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,107 +79,80 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Authentic Stuffed Lobster and Crab Stuffed Ravioli",
-            "price": 34.36,
-            "isVegetarian": false,
+            "name": "Classic Irresistible Locally Foraged Mushroom Selection",
+            "price": 39.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Live-Fire Grilled Feature",
-            "price": 37.59,
+            "name": "Authentic Sautéed Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 26.34,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Crispy Tasting of Local Artisanal Cheeses",
-            "price": 30.7,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Hearty Seared Duck Breast with Cherry Reduction",
-            "price": 25.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Chef's Childhood Favorite Reimagined",
-            "price": 36.53,
+            "name": "Traditional Zingy Fusion of Traditional and Modern Techniques",
+            "price": 34.74,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Heritage Breed Porchetta",
+            "price": 29.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Wholesome Lobster and Crab Stuffed Ravioli",
+            "price": 32.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
+        "description": "Flavor-forward starters that introduce our approach to Mediterranean with balance and creativity.",
         "items": [
           {
-            "name": "Authentic Spiced Edamame",
-            "price": 14.28,
+            "name": "Homestyle Enticing Potstickers",
+            "price": 10.25,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Steamed Spinach Puffs",
-            "price": 8.52,
+            "name": "Homestyle Delicious Tempura",
+            "price": 15.86,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Spiced Spring Rolls",
-            "price": 9.88,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Succulent Mini Sliders",
-            "price": 10.95,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Grilled Lettuce Wraps",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy Mini Crab Cakes",
-            "price": 13.04,
+            "name": "Authentic Golden Spinach Puffs",
+            "price": 11.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,18 +160,45 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flaky Calamari",
-            "price": 12.57,
+            "name": "Authentic Flavorful Hummus Platter",
+            "price": 13.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Mouthwatering Deviled Eggs",
-            "price": 9.11,
+            "name": "Organic Grilled Stuffed Avocado",
+            "price": 15.72,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spiced Mini Crab Cakes",
+            "price": 14.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Baked Brie",
+            "price": 8.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Stuffed Peppers",
+            "price": 15.09,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -208,11 +208,20 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Mediterranean cooking—perfect for any season.",
+        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
         "items": [
           {
-            "name": "Tortilla Soup",
-            "price": 7.42,
+            "name": "Vegetable Barley Soup",
+            "price": 11.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tomato Soup",
+            "price": 10.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -221,40 +230,31 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
           },
           {
             "name": "Chicken Noodle Soup",
-            "price": 13.17,
+            "price": 9.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 13.01,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Clam Chowder",
-            "price": 11.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Mushroom Soup",
+            "price": 8.75,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Farro Salad",
-            "price": 10.1,
+            "name": "Waldorf Salad",
+            "price": 14.87,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,26 +262,17 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 14.11,
+            "name": "Chickpea Salad",
+            "price": 14.18,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Southwest Black Bean Salad",
-            "price": 15.02,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 11.25,
+            "name": "Fruit Salad",
+            "price": 12.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,11 +280,20 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 9.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Mango Avocado Salad",
+            "price": 11.42,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 15.55,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,38 +301,56 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with passion and precision, our mains are designed to impress.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Mediterranean vision.",
         "items": [
           {
-            "name": "Stuffed Peppers",
-            "price": 28.7,
+            "name": "Quiche",
+            "price": 29.26,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shish Kebabs",
+            "price": 19.91,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 24.76,
-            "isVegetarian": false,
+            "name": "Ramen",
+            "price": 19.14,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fish and Chips",
-            "price": 26.12,
+            "name": "Stuffed Peppers",
+            "price": 21.69,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "price": 26.88,
+            "name": "Steak",
+            "price": 24.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "price": 29.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -340,86 +358,68 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 29.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Korma",
-            "price": 19.82,
+            "name": "Pho",
+            "price": 18.73,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gnocchi",
-            "price": 22.35,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "price": 29.22,
+            "name": "Beef Wellington",
+            "price": 20.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 32.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garlic Butter Shrimp Skillet",
-            "price": 33.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Valencian Seafood Paella",
-            "price": 30.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mussels Mariniere in White Wine",
-            "price": 34.46,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Hearty Italian Cioppino",
+            "price": 27.77,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crab-Stuffed Mushrooms",
+            "price": 32.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 23.23,
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 26.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seafood Risotto with Saffron",
+            "price": 35.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 28.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -433,17 +433,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
         "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Premium Exquisite Truffle Parmesan Fries",
-            "price": 6.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Comforting Charred Broccolini with Garlic Oil",
-            "price": 9,
+            "name": "French Fries",
+            "price": 6.93,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -451,35 +442,44 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Braised Grilled Asparagus with Lemon Zest",
-            "price": 7.06,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 8.08,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Enticing Stuffed Bell Peppers with Brown Rice",
-            "price": 9.61,
-            "isVegetarian": false,
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 6.19,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Marinated Green Beans Almondine",
-            "price": 7.14,
-            "isVegetarian": false,
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 8.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maple-Glazed Baby Carrots",
+            "price": 8.52,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Wholesome Quinoa Pilaf with Herbs",
-            "price": 5.37,
+            "name": "Grilled Zucchini and Peppers",
+            "price": 8.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -490,20 +490,20 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 5.78,
-            "isVegetarian": false,
+            "name": "Hot Chocolate",
+            "price": 5.01,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 4.25,
+            "name": "Coffee",
+            "price": 5.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -512,7 +512,7 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 4.16,
+            "price": 7.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,29 +520,29 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.43,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Soda",
+            "price": 7.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tea",
-            "price": 7.43,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 7.04,
-            "isVegetarian": false,
+            "price": 4.89,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,24 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Decadent or delicate – our delicious desserts cater to every preference",
+    "description": "Crafted with passion, our freshly prepared desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "Soufflé",
-            "price": 7.85,
+            "name": "Authentic Herbed Crumb Cake",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Soufflé",
+            "price": 7.93,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -568,17 +577,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 10.73,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 8.89,
+            "name": "Homestyle Sweet Biscotti",
+            "price": 7.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,20 +586,20 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 9.59,
+            "name": "Deluxe Juicy Pumpkin Pie",
+            "price": 9.53,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 8.17,
-            "isVegetarian": false,
+            "name": "Homestyle Grilled Baklava",
+            "price": 8.93,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,11 +607,11 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 9.84,
+            "name": "Frozen Banana",
+            "price": 7.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,17 +619,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 10.99,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 7.46,
+            "name": "Kulfi",
+            "price": 7.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -637,18 +628,27 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Yogurt",
-            "price": 11.6,
-            "isVegetarian": true,
+            "name": "Sherbet",
+            "price": 8.37,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 11.75,
+            "name": "Ice Cream",
+            "price": 10.32,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 9.37,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,24 +660,15 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Enjoy balanced cocktails designed to pair effortlessly with our seasonal menu",
+    "description": "A refreshing drinks program blending innovation with tradition",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
+        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
         "items": [
           {
-            "name": "Homestyle Aromatic Mojito",
-            "price": 11.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Baked Margarita",
-            "price": 13.97,
+            "name": "Traditional Zingy Martini",
+            "price": 13.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,8 +676,17 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Crunchy Martini",
-            "price": 15.82,
+            "name": "Premium Spiced Margarita",
+            "price": 15.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Crunchy Old Fashioned",
+            "price": 12.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +694,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Juicy Cosmopolitan",
-            "price": 10.23,
+            "name": "Seasonal Grilled Manhattan",
+            "price": 11.29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -703,8 +703,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Whiskey Sour",
-            "price": 10.79,
+            "name": "Fresh Flavorful Whiskey Sour",
+            "price": 13.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -712,8 +712,8 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Smoked Mai Tai",
-            "price": 12.57,
+            "name": "House Special Sautéed Bloody Mary",
+            "price": 11.93,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,10 +721,10 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Wholesome Bloody Mary",
-            "price": 11.84,
+            "name": "Gourmet Sizzling Mai Tai",
+            "price": 12.2,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,56 +733,56 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "New World energy meets Old World elegance in our diverse selection.",
         "items": [
           {
-            "name": "Chenin Blanc",
-            "price": 11.92,
-            "isVegetarian": false,
+            "name": "Sémillon",
+            "price": 9.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 12.19,
-            "isVegetarian": false,
+            "name": "Syrah/Shiraz",
+            "price": 10.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Vouvray",
-            "price": 13.27,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Sauvignon Blanc",
+            "price": 9.66,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cabernet Sauvignon",
-            "price": 8.05,
+            "name": "Vermentino",
+            "price": 13.82,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nebbiolo",
+            "price": 8.51,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 11.69,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 13.07,
+            "name": "Marsanne",
+            "price": 9.82,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -793,20 +793,11 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "Explore the depth of our spirits menu, where each pour is a discovery.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 17.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 12.19,
+            "name": "Authentic Smoked Cointreau",
+            "price": 11.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -814,8 +805,26 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cointreau",
-            "price": 13.95,
+            "name": "Authentic Marinated Mezcal",
+            "price": 11.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Luscious Triple Sec",
+            "price": 16.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Chambord",
+            "price": 12.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,20 +832,11 @@ export const limablueDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 14.54,
+            "name": "House Special Steamed Rum",
+            "price": 13.31,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frangelico",
-            "price": 11.97,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

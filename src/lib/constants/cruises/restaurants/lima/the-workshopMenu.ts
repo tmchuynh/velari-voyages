@@ -1,20 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Grand Deli in lima
+ * Menu data for The Workshop in lima
  */
-export const limagrandDeliMenu: RestaurantMenu[] = [
+export const limatheWorkshopMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Enjoy a variety of hearty French plates made with seasonal inspiration",
+    "description": "From appetizers to main courses: classic dishes prepared with passion",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 24.06,
+            "name": "Fresh Roasted Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 31.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,44 +22,17 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 25.17,
+            "name": "Hearty Sautéed Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 30.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 29.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 24.69,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 35.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 29.22,
+            "name": "Premium Flavorful Chef's Childhood Inspired Creation",
+            "price": 27.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,23 +40,59 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 33.5,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Hearty Zingy Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.71,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Classic Savory Wood-Fired Peking Duck with Plum Sauce",
+            "price": 25.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Mouthwatering Molecular Gastronomy Showcase Tasting",
+            "price": 25.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Baked House Famous Duck Confit",
+            "price": 26.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Handcrafted Pan-seared Freshly Harvested Seasonal Creation",
-            "price": 27.88,
+            "name": "Fresh Flaky Deconstructed Classic with Modern Technique",
+            "price": 27.27,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Chef's Market Inspiration of the Day",
+            "price": 29.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,17 +100,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Charcoal-Grilled Wagyu Beef",
-            "price": 31.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Steamed Dry-Aged Prime Beef Selection",
-            "price": 35.53,
+            "name": "Organic Irresistible Seared Foie Gras with Fig Compote",
+            "price": 35.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,86 +109,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Juicy Fire-Roasted Seasonal Centerpiece",
-            "price": 36.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Sustainable Seafood Tower",
-            "price": 30.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of French flavors—perfect for sharing or enjoying solo.",
-        "items": [
-          {
-            "name": "House Special Irresistible Mini Crab Cakes",
-            "price": 10.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Juicy Arancini",
-            "price": 12.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tender Meatballs",
-            "price": 10.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Crispy Chicken Wings",
-            "price": 14.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Tangy Calamari",
-            "price": 12.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Herbed Zucchini Fries",
-            "price": 15.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Appetizing Potato Skins",
-            "price": 15.07,
+            "name": "Premium Pan-seared Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 37.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,9 +118,87 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Luscious Baked Brie",
-            "price": 12.05,
+            "name": "Organic Hearty Special Occasion Celebratory Dish",
+            "price": 39.11,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "A delightful array of appetizers that highlight the best of Italian flavors—perfect for sharing or enjoying solo.",
+        "items": [
+          {
+            "name": "Calamari",
+            "price": 15.09,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Samosas",
+            "price": 15.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 12.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Prawn Cocktail",
+            "price": 15.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Sliders",
+            "price": 12.69,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crostini",
+            "price": 10.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Edamame",
+            "price": 12.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spring Rolls",
+            "price": 10.33,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,11 +208,11 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Italian methods.",
         "items": [
           {
-            "name": "Lentil Soup",
-            "price": 13.63,
+            "name": "Zuppa Toscana",
+            "price": 8.69,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -220,29 +220,29 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Borscht",
-            "price": 7.46,
-            "isVegetarian": false,
+            "name": "Cabbage Soup",
+            "price": 12.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hot and Sour Soup",
-            "price": 7.58,
-            "isVegetarian": false,
+            "name": "Corn Chowder",
+            "price": 7.65,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seafood Chowder",
-            "price": 9.82,
+            "name": "Clam Chowder",
+            "price": 11.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -250,20 +250,29 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
             "name": "Cobb Salad",
-            "price": 9.34,
+            "price": 13.99,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Farro Salad",
-            "price": 13.26,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 15.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 15.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,17 +280,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 10.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.33,
+            "name": "Chef Salad",
+            "price": 12.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,11 +289,11 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 14.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Potato Salad",
+            "price": 11.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,11 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From classic to contemporary, our mains are a celebration of French culture.",
+        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
         "items": [
           {
-            "name": "Fresh Zesty Shakshuka",
-            "price": 28.33,
+            "name": "Enchiladas",
+            "price": 27.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,17 +313,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Roasted Teriyaki Chicken",
-            "price": 25.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zingy Pho",
-            "price": 31.72,
+            "name": "Stuffed Peppers",
+            "price": 22.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -331,8 +322,26 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Braised Bibimbap",
-            "price": 24.57,
+            "name": "Teriyaki Chicken",
+            "price": 24.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Steak",
+            "price": 29.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Tofu",
+            "price": 19.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,8 +349,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sautéed Chili con Carne",
-            "price": 24.8,
+            "name": "Chili con Carne",
+            "price": 27.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -349,27 +358,18 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sautéed Lamb Chops",
-            "price": 20.48,
-            "isVegetarian": false,
+            "name": "Stir-fry",
+            "price": 31.51,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Zingy Pasta Primavera",
-            "price": 18.25,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Crispy Paella",
-            "price": 23.7,
-            "isVegetarian": false,
+            "name": "Pho",
+            "price": 25.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,29 +379,38 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
+            "name": "Miso-Marinated Chilean Sea Bass",
+            "price": 27.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempura Soft Shell Crab",
+            "price": 35.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 27.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 22.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Provençal Bouillabaisse",
-            "price": 24.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 31.06,
+            "price": 29.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +418,32 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 33.56,
+            "name": "Valencian Seafood Paella",
+            "price": 25.29,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 32.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of French flavors.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Roasted Root Vegetables",
-            "price": 8.33,
+            "name": "House Special Braised French Fries",
+            "price": 6.43,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 8.47,
+            "name": "Handcrafted Mouthwatering Buttered Egg Noodles",
+            "price": 5.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +451,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 6.29,
+            "name": "House Special Roasted Israeli Couscous with Roasted Tomatoes",
+            "price": 7.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +460,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Corn on the Cob with Chili Lime Butter",
-            "price": 6.5,
+            "name": "Deluxe Roasted Creamed Spinach with Nutmeg",
+            "price": 6.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,19 +469,19 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Buttered Egg Noodles",
-            "price": 9.5,
+            "name": "Traditional Sweet Creamy Colcannon (Irish Potato Mash)",
+            "price": 7.39,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 9.73,
+            "name": "Deluxe Grilled Provencal Ratatouille",
+            "price": 6.1,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,11 +490,20 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Deluxe Herbed Soda",
-            "price": 6.81,
+            "name": "Lemonade",
+            "price": 4.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 4.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +511,26 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Enticing Juice",
-            "price": 6.35,
+            "name": "Milkshake",
+            "price": 4.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Wholesome Smoothie",
-            "price": 5.38,
+            "name": "Juice",
+            "price": 4.56,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -520,29 +538,11 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Golden Lemonade",
-            "price": 7.73,
+            "name": "Iced Tea",
+            "price": 5.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Roasted Iced Tea",
-            "price": 7.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Zingy Tea",
-            "price": 5.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A curated selection of classic desserts, inspired by French heritage",
+    "description": "A curated selection of classic desserts, inspired by Italian heritage",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Freshly baked delights that bring warmth and comfort to your table.",
         "items": [
           {
-            "name": "Fresh Crispy Cupcakes",
-            "price": 7.4,
+            "name": "Soufflé",
+            "price": 10.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,17 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Soufflé",
-            "price": 7.92,
+            "name": "Crumb Cake",
+            "price": 7.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cinnamon Rolls",
+            "price": 6.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,17 +586,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Vanilla Cake",
-            "price": 7.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Pan-seared Croissants",
-            "price": 7.97,
+            "name": "Danish Pastries",
+            "price": 8.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,9 +595,9 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Enticing Macarons",
-            "price": 9.35,
-            "isVegetarian": false,
+            "name": "Muffins",
+            "price": 8.15,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,29 +607,20 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
         "items": [
           {
-            "name": "Deluxe Roasted Granita",
-            "price": 11.37,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Fresh Crunchy Paletas",
+            "price": 11.77,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Creamy Ice Cream Sandwich",
-            "price": 9.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Savory Semifreddo",
-            "price": 8.56,
+            "name": "Authentic Zingy Frozen Pie",
+            "price": 8.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,8 +628,17 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Frozen Cheesecake",
-            "price": 9.54,
+            "name": "Gourmet Juicy Ice Cream Cake",
+            "price": 9.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Fried Frozen Yogurt",
+            "price": 7.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +646,11 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Aromatic Popsicles",
-            "price": 7.25,
-            "isVegetarian": true,
+            "name": "Homestyle Hearty Ice Cream",
+            "price": 10.48,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "French-inspired drinks and classic favorites in our balanced selection",
+    "description": "Enjoy balanced cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
+        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 12.79,
+            "name": "Fresh Creamy Bloody Mary",
+            "price": 13.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,8 +676,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 14.98,
+            "name": "Homestyle Fried Old Fashioned",
+            "price": 10.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,8 +685,17 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 12.86,
+            "name": "Authentic Roasted Whiskey Sour",
+            "price": 13.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Zingy Margarita",
+            "price": 14.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,38 +703,29 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.64,
-            "isVegetarian": false,
+            "name": "Hearty Braised Mai Tai",
+            "price": 13.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sautéed Manhattan",
+            "price": 12.05,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.11,
-            "isVegetarian": false,
+            "name": "Homestyle Sweet Martini",
+            "price": 13.21,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 13.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -736,8 +736,8 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
         "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Prosecco",
-            "price": 8.12,
+            "name": "Classic Luscious Cabernet Sauvignon",
+            "price": 10.29,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,26 +745,26 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
+            "name": "Premium Creamy Roussanne",
+            "price": 8.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Mouthwatering Syrah/Shiraz",
+            "price": 8.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Vouvray",
             "price": 12.17,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 8.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sangiovese",
-            "price": 11.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,68 +772,68 @@ export const limagrandDeliMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 10.96,
-            "isVegetarian": false,
+            "name": "House Special Satisfying Chardonnay",
+            "price": 13.6,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Zinfandel",
-            "price": 12.33,
+            "name": "Authentic Crispy Verdicchio",
+            "price": 12.28,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Limoncello",
-            "price": 10.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 16.41,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Armagnac",
-            "price": 11.65,
+            "name": "Baileys Irish Cream",
+            "price": 10.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee Liqueur",
-            "price": 16.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pisco",
-            "price": 12.44,
+            "price": 10.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 16.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cognac",
+            "price": 11.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 14.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

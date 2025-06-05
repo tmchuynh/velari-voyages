@@ -248,5 +248,160 @@ export const limaRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "The Steakhouse",
+    "description": "A culinary gem serving Italian specialties including artisanal creations, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-937-1469",
+      "contactEmail": "care@bluehouselima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Workshop",
+    "description": "This popular Mediterranean establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with charming streetscapes.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-934-9149",
+      "contactEmail": "care@royalsanctuarylima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Chateau",
+    "description": "A charming American restaurant near the waterfront, offering seasonal specialties and other local favorites in a setting with live street performances.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-167-4508",
+      "contactEmail": "care@goldenhouselima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "The Workshop",
+    "description": "A culinary gem serving Italian specialties including regional wines, where guests enjoy live street performances in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-314-8571",
+      "contactEmail": "feedback@goldensushibarlima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Osteria",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of beautiful decor overlooking the cultural center.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-786-7014",
+      "contactEmail": "feedback@royalrotisserielima.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
