@@ -248,5 +248,160 @@ export const singaporeRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Indian Nook",
+    "description": "A culinary gem serving Malaysian specialties including seasonal specialties, where guests enjoy seasonal floral displays in the heart of the city.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-832-8293",
+      "contactEmail": "customerservice@singaporeanharvestsingapore.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Kitchen",
+    "description": "A charming Indian restaurant near downtown, offering regional wines and other local favorites in a setting with live street performances.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-713-8945",
+      "contactEmail": "welcome@singaporeanloungesingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Collective",
+    "description": "A culinary gem serving Malaysian specialties including handcrafted desserts, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "Malaysian",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-440-9522",
+      "contactEmail": "contact@chinesemansionsingapore.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Lounge",
+    "description": "A charming Indian restaurant near central park, offering artisanal creations and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "Indian",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-984-2331",
+      "contactEmail": "general@malaysianrooftopsingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Snack Shack",
+    "description": "A charming Indian restaurant near the river promenade, offering regional wines and other local favorites in a setting with live street performances.",
+    "cuisine": "Indian",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-618-2107",
+      "contactEmail": "general@indiancerveceriasingapore.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
