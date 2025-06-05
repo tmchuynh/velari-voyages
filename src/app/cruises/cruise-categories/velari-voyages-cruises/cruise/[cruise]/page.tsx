@@ -39,10 +39,11 @@ import {
 } from "@/lib/utils/get/cruises";
 import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function CruiseInformationPage() {
+  const router = useRouter();
   const searchParams = useSearchParams();
   const departureLocationCity = searchParams.get("departureLocationCity");
   const departureLocationCountry = searchParams.get("departureLocationCountry");
@@ -54,8 +55,6 @@ export default function CruiseInformationPage() {
   const [filteredCruises, setFilteredCruises] = useState<Cruise[]>([]);
 
   const [cruiseData, setCruiseData] = useState<Cruise>();
-
-  console.log("category:", category);
 
   // Add state for managing selected package
   const [selectedPackage, setSelectedPackage] = useState<Package | null>(null);
@@ -72,8 +71,6 @@ export default function CruiseInformationPage() {
 
         // Get cruise data using the city name
         const data = await getCruises(departureLocationCity);
-        console.log("Fetched cruises for city:", departureLocationCity, data);
-
         // Find the specific cruise by title
         const cruiseInfo = data.find(
           (c: { title: string }) => c.title === cruise
@@ -117,7 +114,6 @@ export default function CruiseInformationPage() {
     const fetchTours = async () => {
       try {
         const data = await getAllCruises();
-        console.log("Fetched Cruises:", data);
         setAllCruises(data);
         if (data.length > 0) {
           const filteredTours = getCruisesByCategory(data, `${category}`);
@@ -144,14 +140,8 @@ export default function CruiseInformationPage() {
     }
   }, [cruiseData]);
 
-  console.log("Cruise:", cruise);
-  console.log("Category:", category);
-  console.log("All Cruises:", allCruises);
-  console.log("Filtered Cruises:", filteredCruises);
   console.log("Cruise Data:", cruiseData);
   console.log("Available Packages:", availablePackages);
-
-  console.log("Filtered Cruises:", filteredCruises);
 
   if (loading) {
     return <Loading />;
@@ -293,7 +283,18 @@ export default function CruiseInformationPage() {
                       )}{" "}
                     </TableCell>
                     <TableCell className="w-1/6">
-                      <Button size={"xs"} className="border w-full text-wrap">
+                      {/* /cruises/restaurants/amsterdam/dutch-cafe?restaurant=dutch-cafeMenu&city=amsterdam */}
+                      <Button
+                        size={"xs"}
+                        className="border w-full text-wrap"
+                        onClick={() =>
+                          router.push(
+                            `/cruises/restaurants/${location.city.toLowerCase()}?city=${
+                              location.city
+                            }`
+                          )
+                        }
+                      >
                         Resturants
                       </Button>
                     </TableCell>
