@@ -31,13 +31,18 @@ export interface BaseCruise {
   isPopular?: boolean;
   hasPopularDestination?: boolean;
   category:
-    | "mainstream"
-    | "premium"
-    | "entry-luxury"
-    | "luxury"
-    | "premium-luxury"
-    | "ultra-luxury"
-    | "expedition";
+    | "repositioning-cruise"
+    | "anniversary-cruise"
+    | "theme-cruise"
+    | "holiday-cruise"
+    | "fall-foliage-cruise"
+    | "glacier-cruise"
+    | "tropical-cruise"
+    | "vip-cruise"
+    | "fjords-tour"
+    | "weekend-cruise"
+    | "luxury-cruise"
+    | "expedition-cruise";
   itinerary: YachtRoute;
   requiredDocuments?: string[];
   requirements?: string[];
@@ -51,15 +56,7 @@ export type Cruise = BaseCruise & Flags & Details & CruiseCategoryFlags;
 export interface Vessels {
   name: string;
   description: string;
-  type:
-    | "Mainstream Cruise Ship"
-    | "Mega Cruise Ship"
-    | "Ocean Cruise Ship"
-    | "Luxury Cruise Ship"
-    | "Small Cruise Ship"
-    | "Adventure Cruise Ship"
-    | "Expedition Cruise Ship"
-    | "River Cruise Ship";
+  type: CruiseShipType;
   capacity: number;
   length: number;
   width: number;
@@ -83,3 +80,27 @@ export interface Vessels {
   isLuxuryVessel?: boolean;
   isPetFriendly?: boolean;
 }
+
+type CruiseShipType =
+  | "ocean-liner"
+  | "mainstream-cruise-ship"
+  | "mid-size-cruise-ship"
+  | "small-ocean-ship"
+  | "luxury-cruise-ship"
+  | "ultra-luxury-cruise-ship"
+  | "superyacht"
+  | "mega-yacht"
+  | "boutique-cruise-ship"
+  | "expedition-ship"
+  | "polar-expedition-ship"
+  | "ice-class-ship"
+  | "eco-friendly-hybrid-ship"
+  | "resort-style-ship"
+  | "adults-only-ship"
+  | "family-cruise-ship"
+  | "party-cruise-ship"
+  | "short-hop-ferry"
+  | "chartered-vessel"
+  | "river-cruise-ship"
+  | "catamaran"
+  | "zodiac-equipped-vessel";
