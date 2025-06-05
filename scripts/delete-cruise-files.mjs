@@ -29,7 +29,7 @@ const cruisesDir = path.join(
   "src",
   "lib",
   "constants",
-  "cruises"
+  "cruises",
 );
 
 // Parse command line arguments
@@ -38,7 +38,7 @@ const helpFlag = args.includes("--help") || args.includes("-h");
 const forceFlag = args.includes("--force") || args.includes("-f");
 const cityFlag = args.findIndex((arg) => arg === "--city" || arg === "-c");
 const patternFlag = args.findIndex(
-  (arg) => arg === "--pattern" || arg === "-p"
+  (arg) => arg === "--pattern" || arg === "-p",
 );
 const listFlag = args.includes("--list") || args.includes("-l");
 
@@ -160,7 +160,7 @@ async function main() {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      }
+      },
     );
     return;
   }
@@ -172,7 +172,7 @@ async function main() {
 
     if (matchingCities.length === 0) {
       console.log(
-        `No cruise files match the pattern '${args[patternFlag + 1]}'`
+        `No cruise files match the pattern '${args[patternFlag + 1]}'`,
       );
       rl.close();
       return;
@@ -192,13 +192,13 @@ async function main() {
             }
           });
           console.log(
-            `Deleted ${deletedCount} of ${matchingCities.length} cruise files.`
+            `Deleted ${deletedCount} of ${matchingCities.length} cruise files.`,
           );
         } else {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      }
+      },
     );
     return;
   }
@@ -224,13 +224,13 @@ async function main() {
                   }
                 });
                 console.log(
-                  `Deleted ${deletedCount} of ${cruiseFiles.length} cruise files.`
+                  `Deleted ${deletedCount} of ${cruiseFiles.length} cruise files.`,
                 );
               } else {
                 console.log("Deletion cancelled.");
               }
               rl.close();
-            }
+            },
           );
           break;
 
@@ -248,7 +248,7 @@ async function main() {
                 .split(",")
                 .map((num) => parseInt(num.trim()) - 1)
                 .filter(
-                  (num) => !isNaN(num) && num >= 0 && num < cruiseFiles.length
+                  (num) => !isNaN(num) && num >= 0 && num < cruiseFiles.length,
                 );
 
               if (selectedIndexes.length === 0) {
@@ -258,7 +258,7 @@ async function main() {
               }
 
               const selectedCities = selectedIndexes.map(
-                (index) => cruiseFiles[index]
+                (index) => cruiseFiles[index],
               );
               console.log("\nYou selected:");
               selectedCities.forEach((city) => console.log(`- ${city}`));
@@ -274,15 +274,15 @@ async function main() {
                       }
                     });
                     console.log(
-                      `Deleted ${deletedCount} of ${selectedCities.length} cruise files.`
+                      `Deleted ${deletedCount} of ${selectedCities.length} cruise files.`,
                     );
                   } else {
                     console.log("Deletion cancelled.");
                   }
                   rl.close();
-                }
+                },
               );
-            }
+            },
           );
           break;
 
@@ -290,7 +290,7 @@ async function main() {
           console.log("Operation cancelled.");
           rl.close();
       }
-    }
+    },
   );
 }
 

@@ -21,7 +21,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 console.log(`Looking for testimonial files in: ${baseDir}`);
@@ -54,7 +54,7 @@ async function deleteTestimonialFiles() {
   const answer = await new Promise((resolve) => {
     rl.question(
       `This will delete ALL testimonial files in ${cityDirs.length} city directories. Continue? (y/n): `,
-      resolve
+      resolve,
     );
   });
 
@@ -73,7 +73,9 @@ async function deleteTestimonialFiles() {
     const cityPath = path.join(baseDir, cityDir);
     citiesProcessed++;
 
-    console.log(`Processing ${cityDir} (${citiesProcessed}/${cityDirs.length})`);
+    console.log(
+      `Processing ${cityDir} (${citiesProcessed}/${cityDirs.length})`,
+    );
 
     try {
       // Get all testimonial files in the city directory

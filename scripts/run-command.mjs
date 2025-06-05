@@ -100,7 +100,7 @@ async function runCommand() {
 
     if (!CommandClass) {
       console.error(
-        `Error: Command "${commandName}" does not export a default class`
+        `Error: Command "${commandName}" does not export a default class`,
       );
       process.exit(1);
     }

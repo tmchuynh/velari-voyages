@@ -29,7 +29,7 @@ const crewMembersDir = path.join(
   "src",
   "lib",
   "constants",
-  "crewMembers"
+  "crewMembers",
 );
 
 // Parse command line arguments
@@ -38,7 +38,7 @@ const helpFlag = args.includes("--help") || args.includes("-h");
 const forceFlag = args.includes("--force") || args.includes("-f");
 const cityFlag = args.findIndex((arg) => arg === "--city" || arg === "-c");
 const patternFlag = args.findIndex(
-  (arg) => arg === "--pattern" || arg === "-p"
+  (arg) => arg === "--pattern" || arg === "-p",
 );
 const listFlag = args.includes("--list") || args.includes("-l");
 
@@ -146,7 +146,7 @@ async function main() {
 
     if (!crewMemberFiles.includes(cityToDelete)) {
       console.error(
-        `Error: No crew member file found for city '${cityToDelete}'`
+        `Error: No crew member file found for city '${cityToDelete}'`,
       );
       console.log("Available cities:", crewMemberFiles.join(", "));
       rl.close();
@@ -162,7 +162,7 @@ async function main() {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      }
+      },
     );
     return;
   }
@@ -174,7 +174,7 @@ async function main() {
 
     if (matchingCities.length === 0) {
       console.log(
-        `No crew member files match the pattern '${args[patternFlag + 1]}'`
+        `No crew member files match the pattern '${args[patternFlag + 1]}'`,
       );
       rl.close();
       return;
@@ -194,13 +194,13 @@ async function main() {
             }
           });
           console.log(
-            `Deleted ${deletedCount} of ${matchingCities.length} crew member files.`
+            `Deleted ${deletedCount} of ${matchingCities.length} crew member files.`,
           );
         } else {
           console.log("Deletion cancelled.");
         }
         rl.close();
-      }
+      },
     );
     return;
   }
@@ -226,13 +226,13 @@ async function main() {
                   }
                 });
                 console.log(
-                  `Deleted ${deletedCount} of ${crewMemberFiles.length} crew member files.`
+                  `Deleted ${deletedCount} of ${crewMemberFiles.length} crew member files.`,
                 );
               } else {
                 console.log("Deletion cancelled.");
               }
               rl.close();
-            }
+            },
           );
           break;
 
@@ -251,7 +251,7 @@ async function main() {
                 .map((num) => parseInt(num.trim()) - 1)
                 .filter(
                   (num) =>
-                    !isNaN(num) && num >= 0 && num < crewMemberFiles.length
+                    !isNaN(num) && num >= 0 && num < crewMemberFiles.length,
                 );
 
               if (selectedIndexes.length === 0) {
@@ -261,7 +261,7 @@ async function main() {
               }
 
               const selectedCities = selectedIndexes.map(
-                (index) => crewMemberFiles[index]
+                (index) => crewMemberFiles[index],
               );
               console.log("\nYou selected:");
               selectedCities.forEach((city) => console.log(`- ${city}`));
@@ -277,15 +277,15 @@ async function main() {
                       }
                     });
                     console.log(
-                      `Deleted ${deletedCount} of ${selectedCities.length} crew member files.`
+                      `Deleted ${deletedCount} of ${selectedCities.length} crew member files.`,
                     );
                   } else {
                     console.log("Deletion cancelled.");
                   }
                   rl.close();
-                }
+                },
               );
-            }
+            },
           );
           break;
 
@@ -293,7 +293,7 @@ async function main() {
           console.log("Operation cancelled.");
           rl.close();
       }
-    }
+    },
   );
 }
 
