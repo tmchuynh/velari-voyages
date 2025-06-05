@@ -248,5 +248,160 @@ export const barcelonaRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Picasso Raw Bar",
+    "description": "A culinary gem serving Mediterranean specialties including escalivada, where guests enjoy seaside promenades in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-220-7518",
+      "contactEmail": "inquiries@eixamplerotisseriebarcelona.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Barri Gòtic Juice Bar",
+    "description": "This popular Seafood establishment combines traditional recipes and pan con tomate, all served in a unique setting with vibrant street art.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-848-5104",
+      "contactEmail": "welcome@eixampleculinarybarcelona.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mediterranean Maison",
+    "description": "A charming Mediterranean restaurant near Magic Fountain, offering escalivada and other local favorites in a setting with Catalonian charm.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-518-8433",
+      "contactEmail": "support@picassogastropubbarcelona.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Sunlit Seafood Shack",
+    "description": "Located close to Barceloneta Beach, this Fusion restaurant delights with its pan con tomate and historic plazas.",
+    "cuisine": "Fusion",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-494-9499",
+      "contactEmail": "customerservice@mediterraneanbuffetbarcelona.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Montserrat Inn",
+    "description": "Located close to La Rambla, this Seafood restaurant delights with its cava and Mediterranean terrace.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-174-8966",
+      "contactEmail": "customerservice@mediterraneansocietybarcelona.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
