@@ -802,10 +802,13 @@ function generateMenuItemsForType(
   // Adjust price ranges based on the price-range flag and restaurant properties
   let priceRange = { min: 8, max: 16 }; // Default
 
+  // Declare priceModifiers outside the switch statement
+  let priceModifiers;
+
   // Set base price ranges according to restaurant's priceRange indicator
   switch (restaurant.priceRange) {
     case "$": // Budget pricing
-      let priceModifiers = {
+      priceModifiers = {
         budget: { factor: 0.6, fixed: -2 },
         standard: { factor: 0.7, fixed: -1 },
         premium: { factor: 0.8, fixed: 0 },
