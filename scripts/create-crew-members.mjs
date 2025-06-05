@@ -2,6 +2,7 @@ import fs from "fs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import { getCityFiles } from "./utils/file-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { feminineNames, masculineNames } from "./utils/name-utils.mjs";
 
 // // Basic usage
@@ -1430,98 +1431,6 @@ function determineGenderFromName(firstName) {
   // This is an arbitrary rule for names not in our lists
   return firstName.charAt(0).toUpperCase() <= "M" ? "men" : "women";
 }
-
-const cityCountryMap = {
-  auckland: "New Zealand",
-  amsterdam: "Netherlands",
-  barcelona: "Spain",
-  berlin: "Germany",
-  boston: "United States",
-  "buenos-aires": "Argentina",
-  "cape-town": "South Africa",
-  charleston: "United States",
-  copenhagen: "Denmark",
-  dubai: "United Arab Emirates",
-  dublin: "Ireland",
-  florence: "Italy",
-  "fort-lauderdale": "United States",
-  galveston: "United States",
-  "hong-kong": "China",
-  kiel: "Germany",
-  kyoto: "Japan",
-  lisbon: "Portugal",
-  london: "United Kingdom",
-  "los-angeles": "United States",
-  melbourne: "Australia",
-  miami: "United States",
-  milan: "Italy",
-  montreal: "Canada",
-  "new-orleans": "United States",
-  "new-york-city": "United States",
-  paris: "France",
-  "quebec-city": "Canada",
-  "rio-de-janeiro": "Brazil",
-  rome: "Italy",
-  "san-francisco": "United States",
-  "san-juan": "Puerto Rico",
-  seattle: "United States",
-  singapore: "Singapore",
-  southampton: "United Kingdom",
-  sydney: "Australia",
-  tampa: "United States",
-  tokyo: "Japan",
-  toronto: "Canada",
-  vancouver: "Canada",
-  venice: "Italy",
-  yokohama: "Japan",
-};
-
-const cityToRegionMap = {
-  auckland: "Asia Pacific",
-  amsterdam: "Northern Europe",
-  barcelona: "Mediterranean",
-  berlin: "Northern Europe",
-  boston: "East Coast USA",
-  "buenos-aires": "South America",
-  "cape-town": "Africa",
-  charleston: "East Coast USA",
-  copenhagen: "Northern Europe",
-  dubai: "Middle East",
-  dublin: "Northern Europe",
-  florence: "Mediterranean",
-  "fort-lauderdale": "Caribbean",
-  galveston: "Caribbean",
-  "hong-kong": "Asia Pacific",
-  kiel: "Northern Europe",
-  kyoto: "Asia Pacific",
-  lisbon: "Mediterranean",
-  london: "Northern Europe",
-  "los-angeles": "West Coast USA",
-  melbourne: "Asia Pacific",
-  miami: "Caribbean",
-  milan: "Mediterranean",
-  montreal: "East Coast Canada",
-  "new-orleans": "Caribbean",
-  "new-york-city": "East Coast USA",
-  paris: "Northern Europe",
-  "quebec-city": "East Coast Canada",
-  "rio-de-janeiro": "South America",
-  rome: "Mediterranean",
-  "san-francisco": "West Coast USA",
-  "san-juan": "Caribbean",
-  seattle: "Alaska",
-  singapore: "Asia Pacific",
-  southampton: "Northern Europe",
-  sydney: "Asia Pacific",
-  tampa: "Caribbean",
-  tokyo: "Asia Pacific",
-  toronto: "East Coast Canada",
-  vancouver: "Alaska",
-  venice: "Mediterranean",
-  yokohama: "Asia Pacific",
-  athens: "Mediterranean",
-  stockholm: "Northern Europe",
-};
 
 // Function to generate a crew member
 function generateCrewMember(city, department, role, index) {
