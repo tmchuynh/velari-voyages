@@ -5,34 +5,35 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const melbourneitalianJuiceBarTestimonials: Testimonial[] = [
   {
-    "quote": "Italian Juice Bar has the most delightful desserts I've ever tasted. The elegant atmosphere made our evening special, and the service was attentive.",
-    "author": "Matthew Martinez",
-    "title": "Travel Writer"
+    "quote": "Our meal at Italian Juice Bar featured sumptuous beverages, attentive knowledgeable staff, and a warm, warm environment.",
+    "author": "Liam Rogers",
+    "title": "Culinary Journalist",
+    "image": "/images/testimonials/person-1.jpg"
   },
   {
-    "quote": "The desserts at Italian Juice Bar were absolutely exceptional! The service was superb and the atmosphere was warm. Highly recommend!",
-    "author": "Olivia Hernandez",
-    "title": "Dining Columnist"
+    "quote": "For a inviting meal with welcoming service in a artistic setting, Italian Juice Bar is the place to be.",
+    "author": "Mia Bailey",
+    "title": "Gastronomic Critic"
   },
   {
-    "quote": "The appetizers at Italian Juice Bar were absolutely great! The service was superb and the atmosphere was stylish. Highly recommend!",
-    "author": "Jennifer Martin",
-    "title": "Food Critic",
-    "image": "/images/testimonials/person-11.jpg"
+    "quote": "Dining at Italian Juice Bar means enjoying yummy snacks, wonderful attention, and a serene environment tailored for a memorable meal.",
+    "author": "Emily King",
+    "title": "Culinary Blogger"
   },
   {
-    "quote": "Our visit to Italian Juice Bar was outstanding. The cuisine were amazing, the staff impeccable, and the atmosphere appealing. A must-visit!",
-    "author": "Matthew Martinez",
-    "title": "Travel Blogger"
+    "quote": "Italian Juice Bar combines impressive dishes with superb hospitality in a charming setting, perfect for any occasion.",
+    "author": "Samantha Moore",
+    "title": "Lifestyle Influencer"
   },
   {
-    "quote": "Our visit to Italian Juice Bar was outstanding. The cuisine were excellent, the staff excellent, and the atmosphere welcoming. A must-visit!",
-    "author": "Emma Moore",
-    "title": "Gastronomy Enthusiast"
+    "quote": "Every visit to Italian Juice Bar offers tempting appetizers, knowledgeable hospitality, and a welcoming vibrant atmosphere.",
+    "author": "Madison Scott",
+    "title": "Cruise Traveler",
+    "image": "/images/testimonials/person-6.jpg"
   },
   {
-    "quote": "Our visit to Italian Juice Bar was outstanding. The menu items were wonderful, the staff exceptional, and the atmosphere intimate. A must-visit!",
-    "author": "Olivia Taylor",
-    "title": "Cooking Aficionado"
+    "quote": "The brilliant food at Italian Juice Bar kept us coming back for more, complemented perfectly by helpful staff and a chic setting.",
+    "author": "Nicholas Wright",
+    "title": "Culinary Explorer"
   }
 ];
