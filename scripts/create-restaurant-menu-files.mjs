@@ -23,6 +23,9 @@ import { fileURLToPath } from "url";
 // // Focus on a specific food category
 // node scripts/create-restaurant-menu-files.mjs --category "Signature Dishes"
 
+// // Append to a specific category without regenerating the entire file
+// node scripts/create-restaurant-menu-files.mjs --append-category "Main Courses" --append-count 5 --restaurant "Bistro"
+
 // // Combining multiple options
 // node scripts/create-restaurant-menu-files.mjs --menu-type main --items 12 --restaurant "Seafood"
 
@@ -34,13 +37,15 @@ import { menuItems } from "../src/lib/constants/info/restaurants.js";
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
-  string: ["menu-type", "category", "restaurant"],
-  number: ["items"],
+  string: ["menu-type", "category", "restaurant", "append-category"],
+  number: ["items", "append-count"],
   default: {
     "menu-type": "all",
     category: "all",
     items: 7,
     restaurant: "all",
+    "append-category": "",
+    "append-count": 3,
   },
 });
 
@@ -50,6 +55,9 @@ if (!validMenuTypes.includes(args["menu-type"])) {
   console.warn(`Invalid menu type: ${args["menu-type"]}. Using 'all' instead.`);
   args["menu-type"] = "all";
 }
+
+// Determine if we're in append mode
+const APPEND_MODE = args["append-category"] !== "";
 
 // Display chosen options
 console.log(`Generating with options:`);
@@ -61,6 +69,11 @@ console.log(
     args["restaurant"] === "all" ? "All restaurants" : args["restaurant"]
   }`
 );
+if (APPEND_MODE) {
+  console.log(
+    `- Append Mode: Adding ${args["append-count"]} items to "${args["append-category"]}" category`
+  );
+}
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -1196,7 +1209,6 @@ export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify
     2
   )};
 `;
-}
 
 // Process each restaurant to create a single menu file with all three menu types
 function createMenuFileForRestaurant(cityDir, restaurant) {
@@ -1216,16 +1228,132 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
 
   const menuFilePath = path.join(cityPath, menuFileName);
 
-  try {
-    fs.writeFileSync(
-      menuFilePath,
-      generateCombinedMenuContent(cityDir, restaurant.name, restaurant.cuisine)
-    );
-    console.log(`Created menu file: ${menuFilePath}`);
-    return true;
-  } catch (err) {
-    console.error(`Error creating menu file for ${restaurant.name}:`, err);
-    return false;
+  // Handle append mode if requested
+  if (APPEND_MODE && fs.existsSync(menuFilePath)) {
+    try {
+      // Read the existing menu file
+      const fileContent = fs.readFileSync(menuFilePath, "utf8");
+
+      // Check if it's a valid TypeScript file with the expected structure
+      if (!fileContent.includes("RestaurantMenu") || !fileContent.includes("export const")) {
+        console.error(`File exists but doesn't appear to be a valid menu file: ${menuFilePath}`);
+        return false;
+      }
+
+      // Generate new items for the specified category
+      const newItems = generateMenuItemsForType(
+        args["append-category"],
+        restaurant.cuisine,
+        args["append-count"]
+      );
+
+      // Create a temporary function to safely evaluate the file content
+      // This is for parsing the existing menu structure
+      let menuData;
+      try {
+        // Extract just the menu array part using regex
+        const menuMatch = fileContent.match(
+          /export const[\s\S]*?Menu: RestaurantMenu\[\] = (\[[\s\S]*\]);/
+        );
+        if (!menuMatch || !menuMatch[1]) {
+          throw new Error("Could not extract menu data");
+        }
+
+        // Parse the menu array, using Function constructor as a safer alternative to eval
+        menuData = new Function(`return ${menuMatch[1]}`)();
+
+        // Find the right menu object (main, dessert, or drinks)
+        let targetMenu;
+        if (args["menu-type"] === "all") {
+          // Look in all menus
+          for (const menu of menuData) {
+            const categoryIndex = menu.category.findIndex(
+              (cat) => cat.name.toLowerCase() === args["append-category"].toLowerCase()
+            );
+
+            if (categoryIndex !== -1) {
+              targetMenu = menu;
+              break;
+            }
+          }
+        } else {
+          // Look in the specific menu type
+          targetMenu = menuData.find((menu) => {
+            const menuTitle = menu.title.toLowerCase();
+            if (args["menu-type"] === "main" && menuTitle.includes("main course")) {
+              return true;
+            } else if (args["menu-type"] === "dessert" && menuTitle.includes("dessert")) {
+              return true;
+            } else if (args["menu-type"] === "drinks" && menuTitle.includes("drink")) {
+              return true;
+            }
+            return false;
+          });
+        }
+
+        if (!targetMenu) {
+          console.error(`Could not find appropriate menu to append to in ${menuFilePath}`);
+          return false;
+        }
+
+        // Find the specific category
+        const categoryIndex = targetMenu.category.findIndex(
+          (cat) => cat.name.toLowerCase() === args["append-category"].toLowerCase()
+        );
+
+        if (categoryIndex === -1) {
+          console.error(`Category "${args["append-category"]}" not found in menu`);
+          return false;
+        }
+
+        // Add new items to the category
+        targetMenu.category[categoryIndex].items = [
+          ...targetMenu.category[categoryIndex].items,
+          ...newItems,
+        ];
+
+        // Regenerate the file with the updated menu
+        const cityVar = toCamelCase(cityDir);
+        const restaurantVar = toCamelCase(restaurant.name);
+
+        const newFileContent = `import { RestaurantMenu } from "@/lib/types/types";
+
+/**
+ * Menu data for ${restaurant.name} in ${cityDir}
+ */
+export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
+          menuData,
+          null,
+          2
+        )};
+`;
+
+        fs.writeFileSync(menuFilePath, newFileContent);
+        console.log(
+          `Appended ${args["append-count"]} items to "${args["append-category"]}" in ${menuFilePath}`
+        );
+        return true;
+      } catch (parseError) {
+        console.error(`Error parsing existing menu in ${menuFilePath}:`, parseError);
+        return false;
+      }
+    } catch (err) {
+      console.error(`Error appending to menu file for ${restaurant.name}:`, err);
+      return false;
+    }
+  } else {
+    // Normal file creation (not append mode)
+    try {
+      fs.writeFileSync(
+        menuFilePath,
+        generateCombinedMenuContent(cityDir, restaurant.name, restaurant.cuisine)
+      );
+      console.log(`Created menu file: ${menuFilePath}`);
+      return true;
+    } catch (err) {
+      console.error(`Error creating menu file for ${restaurant.name}:`, err);
+      return false;
+    }
   }
 }
 
