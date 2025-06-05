@@ -54,7 +54,7 @@ export default class DeleteRestaurantMenuFiles extends BaseScript {
     return new Promise((resolve) => {
       this.rl.question(
         `This will delete all restaurant files (except restaurants.ts) in ${this.cityFiles.length} cities. Continue? (y/n): `,
-        resolve
+        resolve,
       );
     });
   }
@@ -111,7 +111,7 @@ export default class DeleteRestaurantMenuFiles extends BaseScript {
     progress.complete();
 
     this.log(
-      `Operation complete. Deleted ${stats.totalDeleted} restaurant files across ${stats.processedCities} cities.`
+      `Operation complete. Deleted ${stats.totalDeleted} restaurant files across ${stats.processedCities} cities.`,
     );
 
     if (stats.missingCities > 0) {
