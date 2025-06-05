@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { getCityFiles } from "./utils/file-utils.mjs";
 
 // node scripts/create-city-cruise-files.mjs - Default behavior, adds 10 cruises per city only for new files
 // node scripts/create-city-cruise-files.mjs --append 5 - Adds 5 cruises to existing files
@@ -64,7 +65,7 @@ function kebabToCamelCase(str) {
   return str
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
     )
     .join("");
 }
@@ -84,7 +85,7 @@ function getCruiseCategories() {
       "lib",
       "constants",
       "info",
-      "cruiseCategories.ts",
+      "cruiseCategories.ts"
     );
 
     const content = fs.readFileSync(categoriesPath, "utf8");
@@ -111,7 +112,7 @@ const cruisesDir = path.join(
   "src",
   "lib",
   "constants",
-  "cruises",
+  "cruises"
 );
 
 // Ensure the cruises directory exists
@@ -127,7 +128,7 @@ const cityFilePath = path.join(
   "lib",
   "constants",
   "info",
-  "city.ts",
+  "city.ts"
 );
 
 // Country mapping for cities
@@ -684,42 +685,8 @@ const cityCoordinates = {
   yokohama: { latitude: 35.4437, longitude: 139.638 },
 };
 
-const getCityFiles = () => {
-  try {
-    // Read the city.ts file as text
-    const cityFilePath = path.join(
-      __dirname,
-      "..",
-      "src",
-      "lib",
-      "constants",
-      "info",
-      "city.ts",
-    );
-
-    const fileContent = fs.readFileSync(cityFilePath, "utf8");
-
-    // Extract city names using regex
-    const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/,
-    );
-    if (!cityArrayMatch || !cityArrayMatch[1]) {
-      console.error("Could not parse city files from city.ts");
-      return [];
-    }
-
-    // Extract city names from the array string
-    return cityArrayMatch[1]
-      .split(",")
-      .map((city) => city.trim().replace(/"/g, "").replace(/'/g, ""))
-      .filter((city) => city.length > 0);
-  } catch (error) {
-    console.error("Error reading city files:", error);
-    return [];
-  }
-};
-
-const cityFiles = getCityFiles();
+// Read the city files array from the city.ts file
+const cityFiles = getCityFiles(path.join(__dirname, ".."));
 
 // Generate regional destinations for a cruise from a given city
 function getDestinationsForCity(cityName) {
