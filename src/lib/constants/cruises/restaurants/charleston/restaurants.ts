@@ -248,5 +248,160 @@ export const charlestonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Rainbow Row Public House",
+    "description": "A charming Creole restaurant near Charleston Harbor, offering pecan pie and other local favorites in a setting with garden tours.",
+    "cuisine": "Creole",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-102-2211",
+      "contactEmail": "connect@rainbowrowgourmetcharleston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Rainbow Row Izakaya",
+    "description": "A culinary gem serving Creole specialties including she-crab soup, where guests enjoy garden tours in the heart of the city.",
+    "cuisine": "Creole",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-144-9880",
+      "contactEmail": "help@fortsumter&co.charleston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Harbor Bistro",
+    "description": "This popular American establishment combines traditional recipes and frogmore stew, all served in a unique setting with oak-lined avenues.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-375-2570",
+      "contactEmail": "clientservices@ashleyriverprovisionscharleston.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Spanish Moss Brasserie",
+    "description": "A culinary gem serving Southern specialties including oysters, where guests enjoy garden tours in the heart of the city.",
+    "cuisine": "Southern",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-532-5758",
+      "contactEmail": "welcome@lowcountryharvestcharleston.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Rainbow Row Eatery + Bar",
+    "description": "Located close to Fort Sumter, this Cajun restaurant delights with its shrimp and grits and oak-lined avenues.",
+    "cuisine": "Cajun",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-648-6841",
+      "contactEmail": "welcome@gullahenotecacharleston.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
