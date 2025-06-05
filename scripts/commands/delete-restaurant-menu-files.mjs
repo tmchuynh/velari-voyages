@@ -1,27 +1,54 @@
 import fs from "fs";
 import path from "path";
 import readline from "readline";
-import { BaseScript } from "../utils/base-script.mjs";
-import { getCityFiles } from "../utils/file-utils.mjs";
+import { getCityFiles, getDirname } from "../utils/file-utils.mjs";
 
-export default class DeleteRestaurantMenuFiles extends BaseScript {
+// Setup dirname
+const __dirname = getDirname(import.meta.url);
+
+// Base directory where restaurant files are located
+const baseDir = path.join(
+  __dirname,
+  "..",
+  "..",
+  "src",
+  "lib",
+  "constants",
+  "cruises",
+  "restaurants"
+);
+
+export default class DeleteRestaurantMenuFiles {
   constructor(_args = {}) {
-    super(import.meta.url, {
-      args: {
-        boolean: ["force", "f", "quiet", "q", "debug", "d"],
-        alias: {
-          f: "force",
-          q: "quiet",
-          d: "debug",
-        },
+    this.url = import.meta.url;
+    this.args = {
+      boolean: ["force", "f", "quiet", "q", "debug", "d"],
+      alias: {
+        f: "force",
+        q: "quiet",
+        d: "debug",
       },
-    });
+    };
 
     // Initialize properties
-    this.baseDir = this.resolveConstantsPath("cruises", "restaurants");
+    this.baseDir = baseDir;
     this.cityFiles = getCityFiles();
     this.force = this.args.force || false;
     this.rl = null;
+  }
+
+  log(...messages) {
+    console.log("[LOG]", ...messages);
+  }
+
+  debug(...messages) {
+    if (this.args.debug) {
+      console.log("[DEBUG]", ...messages);
+    }
+  }
+
+  error(...messages) {
+    console.error("[ERROR]", ...messages);
   }
 
   async initialize() {
@@ -54,7 +81,7 @@ export default class DeleteRestaurantMenuFiles extends BaseScript {
     return new Promise((resolve) => {
       this.rl.question(
         `This will delete all restaurant files (except restaurants.ts) in ${this.cityFiles.length} cities. Continue? (y/n): `,
-        resolve,
+        resolve
       );
     });
   }
@@ -111,7 +138,7 @@ export default class DeleteRestaurantMenuFiles extends BaseScript {
     progress.complete();
 
     this.log(
-      `Operation complete. Deleted ${stats.totalDeleted} restaurant files across ${stats.processedCities} cities.`,
+      `Operation complete. Deleted ${stats.totalDeleted} restaurant files across ${stats.processedCities} cities.`
     );
 
     if (stats.missingCities > 0) {

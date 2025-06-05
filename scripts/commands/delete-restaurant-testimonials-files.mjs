@@ -10,11 +10,12 @@ const __dirname = path.dirname(__filename);
 const baseDir = path.join(
   __dirname,
   "..",
+  "..",
   "src",
   "lib",
   "constants",
   "cruises",
-  "testimonials",
+  "testimonials"
 );
 
 console.log(`Looking for testimonial files in: ${baseDir}`);
