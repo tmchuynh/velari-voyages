@@ -1620,6 +1620,37 @@ const generateRandomRestaurants = (cityName, count) => {
     return templates[Math.floor(Math.random() * templates.length)];
   };
 
+  const generalEmailStarters = [
+    "info",
+    "contact",
+    "hello",
+    "hi",
+    "support",
+    "help",
+    "team",
+    "office",
+    "admin",
+    "inquiries",
+    "connect",
+    "reachus",
+    "services",
+    "customerservice",
+    "clientservices",
+    "feedback",
+    "general",
+    "communications",
+    "reception",
+    "mail",
+    "welcome",
+    "ask",
+    "care",
+  ];
+
+  const emailStarter =
+    generalEmailStarters[
+      Math.floor(Math.random() * generalEmailStarters.length)
+    ];
+
   // Generate restaurants for this city
   for (let i = 0; i < count; i++) {
     const cuisine = getRandomCuisine();
@@ -1635,7 +1666,7 @@ const generateRandomRestaurants = (cityName, count) => {
         contactNumber: `+1-555-${Math.floor(Math.random() * 900) + 100}-${
           Math.floor(Math.random() * 9000) + 1000
         }`,
-        contactEmail: `info@${formatTitleToCamelCase(getRandomName())
+        contactEmail: `${emailStarter}@${formatTitleToCamelCase(getRandomName())
           .toLowerCase()
           .replace(/ /g, "")}${cityName}.com`,
       },
