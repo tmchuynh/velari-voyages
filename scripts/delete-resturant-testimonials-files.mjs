@@ -1,12 +1,13 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { getCityFiles } from "./utils/file-utils.mjs";
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Base directory where testimonial files are located (not restaurants)
+// Define base directory for testimonial files
 const baseDir = path.join(
   __dirname,
   "..",
@@ -14,25 +15,15 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials",
+  "restaurants"
 );
 
-console.log(`Looking for testimonial files in: ${baseDir}`);
+// Get city files
+const cityDirs = getCityFiles(path.join(__dirname, ".."));
 
-// Get all city directories
-let cityDirs = [];
-try {
-  cityDirs = fs
-    .readdirSync(baseDir, { withFileTypes: true })
-    .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => dirent.name);
+console.log(`Found ${cityDirs.length} cities to process`);
 
-  console.log(`Found ${cityDirs.length} city directories`);
-} catch (error) {
-  console.error(`Error reading base directory ${baseDir}:`, error);
-  process.exit(1);
-}
-
+// Initialize counters
 let totalDeleted = 0;
 let totalNotFound = 0;
 
