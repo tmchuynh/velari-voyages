@@ -150,6 +150,25 @@ const formSchema = z.object( {
   selectedPackages: z.array( z.string() ).optional(),
 } );
 
+// Generate travel dates for the next 12 months
+const generateTravelDates = () => {
+  const dates = [];
+  const currentDate = new Date();
+
+  for ( let i = 1; i <= 12; i++ ) {
+    const futureDate = new Date(currentDate);
+    futureDate.setMonth(currentDate.getMonth() + i);
+
+    const month = futureDate.toLocaleString("default", { month: "long" });
+    const year = futureDate.getFullYear();
+    const value = futureDate.toISOString().split("T")[0];
+
+    dates.push({ label: `${month} ${year}`, value });
+  }
+
+  return dates;
+};
+
 export default function BookYourTripPage() {
   const router = useRouter();
   const [loading, setLoading] = useState<boolean>( false );
@@ -174,51 +193,54 @@ export default function BookYourTripPage() {
   // Handle cruise selection change
   const handleCruiseChange = ( cruiseId: string ) => {
     const cruise = cruises.find( ( c ) => c.id === cruiseId );
-    setSelectedCruise( cruise );
+    setSelectedCruise(cruise || null);
   };
 
   // Calculate total price
-  const calculateTotal = ( values: z.infer<typeof formSchema> ) => {
+  const calculateTotal = (values: z.infer<typeof formSchema>) => {
     const cruise = cruiseMap[values.cruiseId];
-    const cruisePrice = cruise
-      ? cruise.price * parseInt( values.passengers.toString() )
-      : 0;
+    const cruisePrice = cruise ? cruise.price * (values.passengers || 0) : 0;
 
     const packagesPrice = values.selectedPackages
-      ? values.selectedPackages.reduce( ( total, packageId ) => {
-        const pkg = packageMap[packageId];
-        return total + ( pkg ? pkg.price : 0 );
-      }, 0 )
+      ? values.selectedPackages.reduce((total, packageId) => {
+          const pkg = packageMap[packageId];
+          return total + (pkg ? pkg.price : 0);
+        }, 0)
       : 0;
 
     return cruisePrice + packagesPrice;
   };
 
   // Memoize total price calculation
-  const totalPrice = useMemo( () => calculateTotal( form.getValues() ), [
-    form.watch( "cruiseId" ),
-    form.watch( "passengers" ),
-    form.watch( "selectedPackages" ),
-  ] );
+  const totalPrice = useMemo(
+    () => calculateTotal(form.getValues()),
+    [
+      form.watch("cruiseId"),
+      form.watch("passengers"),
+      form.watch("selectedPackages"),
+    ]
+  );
 
   // Handle form submission
-  const onSubmit = async ( values: z.infer<typeof formSchema> ) => {
-    setLoading( true );
+  const onSubmit: SubmitHandler<z.infer<typeof formSchema>> = async (
+    values
+  ) => {
+    setLoading(true);
 
     try {
       // In a real app, you would call an API to save the booking
       // For now, we'll simulate a delay and redirect to the confirmation page
-      await new Promise( ( resolve ) => setTimeout( resolve, 1000 ) );
+      await new Promise((resolve) => setTimeout(resolve, 1000));
 
       // Get the selected cruise details
-      const cruise = cruises.find( ( c ) => c.id === values.cruiseId );
+      const cruise = cruises.find((c) => c.id === values.cruiseId);
 
       // Get selected packages details
-      const selectedPackagesDetails = packages.filter( ( p ) =>
-        values.selectedPackages?.includes( p.id )
+      const selectedPackagesDetails = packages.filter((p) =>
+        values.selectedPackages?.includes(p.id)
       );
 
-      const totalPrice = calculateTotal( values );
+      const totalPrice = calculateTotal(values);
 
       // Create the booking data object to pass to the confirmation page
       const bookingData = {
@@ -229,47 +251,22 @@ export default function BookYourTripPage() {
         cruisePrice: cruise?.price,
         selectedPackagesDetails,
         totalPrice,
-        bookingNumber: `VV-${ Math.floor( 100000 + Math.random() * 900000 ) }`,
+        bookingNumber: `VV-${Math.floor(100000 + Math.random() * 900000)}`,
         bookingDate: new Date().toISOString(),
       };
 
-      const encryptedData = btoa( JSON.stringify( bookingData ) ); // Base64 encode the data
-      sessionStorage.setItem( "bookingData", encryptedData );
-
-
       // Save booking data to sessionStorage for the confirmation page to access
-      sessionStorage.setItem( "bookingData", JSON.stringify( bookingData ) );
+      sessionStorage.setItem("bookingData", JSON.stringify(bookingData));
 
-      toast( "Your cruise has been booked successfully!" );
+      toast("Your cruise has been booked successfully!");
       // Redirect to confirmation page
-      router.push( "/book-your-trip-today/booking-confirmation" );
-    } catch ( error ) {
-      const travelDates = useMemo( () => {
-        const dates = [];
-        const currentDate = new Date();
-
-        for ( let i = 1; i <= 12; i++ ) {
-          const futureDate = new Date( currentDate );
-          futureDate.setMonth( currentDate.getMonth() + i );
-
-          const month = futureDate.toLocaleString( "default", { month: "long" } );
-          const year = futureDate.getFullYear();
-          const value = futureDate.toISOString().split( "T" )[0];
-
-          dates.push( { label: `${ month } ${ year }`, value } );
-        }
-
-        return dates;
-      }, [] );
-
-      const month = futureDate.toLocaleString( "default", { month: "long" } );
-      const year = futureDate.getFullYear();
-      const value = futureDate.toISOString().split( "T" )[0];
-
-      dates.push( { label: `${ month } ${ year }`, value } );
+      router.push("/book-your-trip-today/booking-confirmation");
+    } catch (error) {
+      toast.error("Failed to complete your booking. Please try again.");
+      console.error(error);
+    } finally {
+      setLoading(false);
     }
-
-    return dates;
   };
 
   const travelDates = generateTravelDates();
@@ -292,10 +289,9 @@ export default function BookYourTripPage() {
               <CardContent className="pt-6">
                 <Form {...form}>
                   <form
-                    onSubmit={form.handleSubmit( onSubmit )}
+                    onSubmit={form.handleSubmit(onSubmit)}
                     className="space-y-8"
-                    onSubmit={form.handleSubmit( onSubmit )}
-                    onSubmit={form.handleSubmit( onSubmit as SubmitHandler<z.infer<typeof formSchema>> )}>
+                  >
                     <div>
                       <FaShip className="text-primary" size={20} />
                       <h2 className="font-semibold text-xl">
@@ -306,32 +302,33 @@ export default function BookYourTripPage() {
                     <FormField
                       control={form.control}
                       name="cruiseId"
-                      render={( { field } ) => (
+                      render={({ field }) => (
                         <FormItem>
                           <FormLabel>Choose a Cruise</FormLabel>
                           <Select
-                            onValueChange={( value ) => {
-                              field.onChange( value );
-                              handleCruiseChange( value );
+                            onValueChange={(value) => {
+                              field.onChange(value);
+                              handleCruiseChange(value);
                             }}
                             defaultValue={field.value}
                           >
-                            <FormControl defaultValue={field.value?.toString()}>
-
-                              <SelectValue placeholder="Select a cruise" />
-                              <SelectContent>
-                                {cruises.map( ( cruise ) => (
-                                  <SelectItem key={cruise.id} value={cruise.id}>
-                                    {cruise.name} ({cruise.duration}) - $
-                                    {cruise.price}
-                                  </SelectItem>
-                                ) )}
-                              </SelectContent>
+                            <FormControl>
+                              <SelectTrigger>
+                                <SelectValue placeholder="Select a cruise" />
+                              </SelectTrigger>
+                            </FormControl>
+                            <SelectContent>
+                              {cruises.map((cruise) => (
+                                <SelectItem key={cruise.id} value={cruise.id}>
+                                  {cruise.name} ({cruise.duration}) - $
+                                  {cruise.price}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
                           </Select>
                           <FormDescription>
                             Departing from{" "}
-                            {selectedCruise?.departureCity ||
-                              "select a cruise"}
+                            {selectedCruise?.departureCity || "select a cruise"}
                           </FormDescription>
                           <FormMessage />
                         </FormItem>
@@ -342,7 +339,7 @@ export default function BookYourTripPage() {
                       <FormField
                         control={form.control}
                         name="travelDate"
-                        render={( { field } ) => (
+                        render={({ field }) => (
                           <FormItem>
                             <FormLabel>Travel Date</FormLabel>
                             <Select
@@ -355,11 +352,11 @@ export default function BookYourTripPage() {
                                 </SelectTrigger>
                               </FormControl>
                               <SelectContent>
-                                {travelDates.map( ( date, index ) => (
+                                {travelDates.map((date, index) => (
                                   <SelectItem key={index} value={date.value}>
                                     {date.label}
                                   </SelectItem>
-                                ) )}
+                                ))}
                               </SelectContent>
                             </Select>
                             <FormMessage />
@@ -370,12 +367,14 @@ export default function BookYourTripPage() {
                       <FormField
                         control={form.control}
                         name="passengers"
-                        render={( { field } ) => (
+                        render={({ field }) => (
                           <FormItem>
                             <FormLabel>Number of Passengers</FormLabel>
                             <Select
-                              onValueChange={field.onChange}
-                              defaultValue={field.value}
+                              onValueChange={(value) =>
+                                field.onChange(parseInt(value))
+                              }
+                              defaultValue={field.value?.toString()}
                             >
                               <FormControl>
                                 <SelectTrigger>
@@ -383,17 +382,12 @@ export default function BookYourTripPage() {
                                 </SelectTrigger>
                               </FormControl>
                               <SelectContent>
-                                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(
-                                  ( num ) => (
-                                    <SelectItem
-                                      key={num}
-                                      value={num.toString()}
-                                    >
-                                      {num}{" "}
-                                      {num === 1 ? "passenger" : "passengers"}
-                                    </SelectItem>
-                                  )
-                                )}
+                                {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+                                  <SelectItem key={num} value={num.toString()}>
+                                    {num}{" "}
+                                    {num === 1 ? "passenger" : "passengers"}
+                                  </SelectItem>
+                                ))}
                               </SelectContent>
                             </Select>
                             <FormMessage />
@@ -413,27 +407,27 @@ export default function BookYourTripPage() {
                       <FormField
                         control={form.control}
                         name="selectedPackages"
-                        render={( { field } ) => (
+                        render={({ field }) => (
                           <FormItem>
                             <div className="gap-4 grid md:grid-cols-2">
-                              {packages.map( ( pkg ) => (
+                              {packages.map((pkg) => (
                                 <div
                                   key={pkg.id}
                                   className="flex items-start space-x-3 hover:bg-accent/20 p-4 border rounded-md transition-colors"
                                 >
                                   <FormControl>
                                     <Checkbox
-                                      checked={field.value?.includes( pkg.id )}
-                                      onCheckedChange={( checked ) => {
-                                        if ( checked ) {
-                                          field.onChange( [
-                                            ...( field.value || [] ),
+                                      checked={field.value?.includes(pkg.id)}
+                                      onCheckedChange={(checked) => {
+                                        if (checked) {
+                                          field.onChange([
+                                            ...(field.value || []),
                                             pkg.id,
-                                          ] );
+                                          ]);
                                         } else {
                                           field.onChange(
                                             field.value?.filter(
-                                              ( value ) => value !== pkg.id
+                                              (value) => value !== pkg.id
                                             ) || []
                                           );
                                         }
@@ -457,7 +451,7 @@ export default function BookYourTripPage() {
                                     </FormDescription>
                                   </div>
                                 </div>
-                              ) )}
+                              ))}
                             </div>
                           </FormItem>
                         )}
@@ -473,7 +467,7 @@ export default function BookYourTripPage() {
                         <FormField
                           control={form.control}
                           name="firstName"
-                          render={( { field } ) => (
+                          render={({ field }) => (
                             <FormItem>
                               <FormLabel>First Name</FormLabel>
                               <FormControl>
@@ -487,7 +481,7 @@ export default function BookYourTripPage() {
                         <FormField
                           control={form.control}
                           name="lastName"
-                          render={( { field } ) => (
+                          render={({ field }) => (
                             <FormItem>
                               <FormLabel>Last Name</FormLabel>
                               <FormControl>
@@ -503,7 +497,7 @@ export default function BookYourTripPage() {
                         <FormField
                           control={form.control}
                           name="email"
-                          render={( { field } ) => (
+                          render={({ field }) => (
                             <FormItem>
                               <FormLabel>Email</FormLabel>
                               <FormControl>
@@ -520,7 +514,7 @@ export default function BookYourTripPage() {
                         <FormField
                           control={form.control}
                           name="phone"
-                          render={( { field } ) => (
+                          render={({ field }) => (
                             <FormItem>
                               <FormLabel>Phone Number</FormLabel>
                               <FormControl>
@@ -535,7 +529,7 @@ export default function BookYourTripPage() {
                       <FormField
                         control={form.control}
                         name="specialRequests"
-                        render={( { field } ) => (
+                        render={({ field }) => (
                           <FormItem>
                             <FormLabel>Special Requests</FormLabel>
                             <FormControl>
@@ -560,10 +554,9 @@ export default function BookYourTripPage() {
                       {loading ? "Processing..." : "Complete Booking"}
                     </Button>
                   </form>
-                  </Form>
-                </CardContent>
-              </Card>
-            </div>
+                </Form>
+              </CardContent>
+            </Card>
           </div>
 
           <div>
@@ -602,8 +595,8 @@ export default function BookYourTripPage() {
                               {selectedCruise.name}
                               <br />
                               <span className="text-muted-foreground text-sm">
-                                ({form.watch( "passengers" ) ?? 1}{" "}
-                                {parseInt( form.watch( "passengers" ) ?? "1" ) === 1
+                                ({form.watch("passengers") ?? 1}{" "}
+                                {(form.watch("passengers") ?? 1) === 1
                                   ? "person"
                                   : "people"}
                                 )
@@ -612,11 +605,11 @@ export default function BookYourTripPage() {
                             <TableCell className="text-right">
                               $
                               {selectedCruise.price *
-                                parseInt( form.watch( "passengers" ) || "1" )}
+                                (form.watch("passengers") ?? 1)}
                             </TableCell>
                           </TableRow>
-                          {form.watch( "selectedPackages" )?.map( ( pkgId ) => {
-                            const pkg = packages.find( ( p ) => p.id === pkgId );
+                          {form.watch("selectedPackages")?.map((pkgId) => {
+                            const pkg = packages.find((p) => p.id === pkgId);
                             return pkg ? (
                               <TableRow key={pkg.id}>
                                 <TableCell>{pkg.name}</TableCell>
@@ -625,12 +618,12 @@ export default function BookYourTripPage() {
                                 </TableCell>
                               </TableRow>
                             ) : null;
-                          } )}
-                          <TableRow> <TableCell className="font-bold">Total</TableCell>
+                          })}
+                          <TableRow>
+                            <TableCell className="font-bold">Total</TableCell>
                             <TableCell className="text-right font-bold">
-                              ${calculateTotal( form.getValues() )}
+                              ${totalPrice}
                             </TableCell>
-                            <TableCell> ${totalPrice}</TableCell>
                           </TableRow>
                         </TableBody>
                       </Table>
@@ -667,5 +660,6 @@ export default function BookYourTripPage() {
           </div>
         </div>
       </div>
+    </div>
   );
 }
