@@ -1,20 +1,29 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Kaiseki Rotisserie in kyoto
+ * Menu data for Shrine Cantina in kyoto
  */
-export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
+export const kyotoshrineCantinaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Taste the depth of Japanese culture through our tasty preparations",
+    "description": "Satisfy your cravings with our vibrant, tasty take on Japanese",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Our chef's pride—carefully selected Japanese specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Deluxe Aromatic Japanese A5 Wagyu with Ponzu Butter",
-            "price": 31.45,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 26.43,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Special Surf and Turf",
+            "price": 26.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,8 +31,8 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Delectable Legendary Prime Rib",
-            "price": 27.49,
+            "name": "Tableside Carved Chateaubriand",
+            "price": 36.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,17 +40,26 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 34.74,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 36.01,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 33.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Spiced Flambéed Tableside Specialty",
-            "price": 36.27,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 31.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,50 +67,23 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Sweet Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 25.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Wood-Fired Peking Duck with Plum Sauce",
-            "price": 28.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Mouthwatering Award-Winning Seafood Boil",
-            "price": 26.49,
-            "isVegetarian": false,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 35.02,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 25.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Volcanic Stone-Cooked Specialty",
-            "price": 32.86,
+            "name": "Collaborative Limited Edition Special",
+            "price": 29.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,17 +91,17 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dry-Aged Prime Beef Selection",
-            "price": 30.46,
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 36.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Braised Short Ribs with Red Wine Sauce",
-            "price": 34.56,
+            "name": "Aged and House-Cured Charcuterie Selection",
+            "price": 27.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,23 +109,41 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cedar Plank Salmon",
-            "price": 27.84,
+            "name": "Herb-Crusted Rack of Lamb",
+            "price": 36.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 30.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "Flavor-forward starters that introduce our approach to Japanese with balance and creativity.",
         "items": [
           {
-            "name": "Authentic Tender Stuffed Mushrooms",
-            "price": 15.81,
+            "name": "Spring Rolls",
+            "price": 14.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Calamari",
+            "price": 15.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,53 +151,17 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Sweet Falafel",
-            "price": 13.58,
+            "name": "Spinach Puffs",
+            "price": 10.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Crunchy Caprese Salad",
-            "price": 14.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Hearty Lettuce Wraps",
-            "price": 14.51,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Dumplings",
-            "price": 8.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Arancini",
-            "price": 15.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Baked Brie",
-            "price": 9.7,
+            "name": "Deviled Eggs",
+            "price": 14.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +169,35 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Mezze Platter",
-            "price": 11.24,
+            "name": "Prawn Toast",
+            "price": 15.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Crab Cakes",
+            "price": 13.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Falafel",
+            "price": 14.44,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Potato Skins",
+            "price": 13.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -211,17 +211,8 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
         "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Authentic Baked French Onion Soup",
-            "price": 9.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Wholesome Mushroom Soup",
-            "price": 8.9,
+            "name": "Gazpacho",
+            "price": 13.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,22 +220,31 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Carrot Ginger Soup",
-            "price": 8.18,
+            "name": "Tomato Soup",
+            "price": 7.16,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Satisfying Chicken Noodle Soup",
-            "price": 7.93,
+            "name": "Chicken Noodle Soup",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Thai Coconut Soup",
+            "price": 13.14,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -253,17 +253,8 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
         "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
         "items": [
           {
-            "name": "Caesar Salad",
-            "price": 9.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.3,
+            "name": "Chickpea Salad",
+            "price": 9.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,29 +262,38 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 15.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Salad",
-            "price": 14.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pecan Salad",
-            "price": 12.92,
+            "name": "Mango Avocado Salad",
+            "price": 11.54,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef Salad",
+            "price": 13.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 9.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,29 +301,29 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Japanese vision.",
+        "description": "A selection of mains that reflect the heart and soul of Japanese, prepared with care.",
         "items": [
           {
-            "name": "Fajitas",
-            "price": 24.27,
+            "name": "Tacos",
+            "price": 28.72,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bibimbap",
-            "price": 23.41,
+            "name": "Thai Curry",
+            "price": 19.49,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stir-fry",
-            "price": 30.51,
+            "name": "Mac and Cheese",
+            "price": 24.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,47 +331,47 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "price": 18.75,
+            "name": "Eggplant Parmesan",
+            "price": 31.26,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "price": 19.38,
+            "name": "Ramen",
+            "price": 27.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Salmon",
+            "price": 21.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Cottage Pie",
-            "price": 25.98,
+            "name": "Chili con Carne",
+            "price": 24.88,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "price": 24.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Tofu",
-            "price": 18.49,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gnocchi",
+            "price": 29.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,47 +379,47 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Fresh, sustainable seafood prepared using timeless Japanese traditions.",
         "items": [
           {
-            "name": "Premium Hearty Tempura Soft Shell Crab",
-            "price": 29.1,
+            "name": "Seasonal Luscious Hearty Italian Cioppino",
+            "price": 31.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Comforting Lemon-Herb Calamari Steak",
+            "price": 31.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 26.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Deluxe Crispy Oysters Rockefeller with Pernod Cream",
-            "price": 34.13,
+            "name": "Seasonal Delectable Stuffed Flounder with Crab and Spinach",
+            "price": 22.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Grilled Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 27.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Satisfying Seafood Risotto with Saffron",
-            "price": 24.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Flavorful Cajun Shrimp and Grits",
-            "price": 33.8,
+            "name": "Seasonal Crispy New England Lobster Roll",
+            "price": 27.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,38 +430,38 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Essential accompaniments, from traditional staples to inventive bites.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Fragrant Basmati Rice Pilaf",
-            "price": 9.33,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Root Vegetables",
-            "price": 5.02,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.13,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mashed Potatoes",
-            "price": 6.68,
-            "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Creamy Colcannon (Irish Potato Mash)",
-            "price": 9.71,
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 8.83,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Beans",
+            "price": 7.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,8 +469,8 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 7.68,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 5.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +478,11 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 9.46,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Crispy Zucchini Fritters",
+            "price": 7.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -493,8 +493,17 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
         "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Traditional Zingy Coffee",
-            "price": 7.52,
+            "name": "Tea",
+            "price": 5.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 7.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,49 +511,40 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Stuffed Tea",
-            "price": 6.01,
+            "name": "Hot Chocolate",
+            "price": 4.56,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Hot Chocolate",
-            "price": 5.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Smoked Lemonade",
-            "price": 5.1,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Milkshake",
-            "price": 6.61,
-            "isVegetarian": false,
+            "name": "Milkshake",
+            "price": 4.77,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Crispy Iced Tea",
-            "price": 5.51,
-            "isVegetarian": false,
+            "name": "Soda",
+            "price": 7.79,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.08,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -552,54 +552,54 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's classic creations to end your meal on a sweet note",
+    "description": "From classics to signatures: comforting desserts for every taste",
     "category": [
       {
         "name": "Baked Goods",
         "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
         "items": [
           {
-            "name": "Premium Aromatic Donuts",
-            "price": 9.46,
+            "name": "Fresh Satisfying Carrot Cake",
+            "price": 8.74,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Smoked Apple Pie",
+            "price": 9.7,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Exquisite Lemon Bars",
-            "price": 8.71,
+            "name": "Deluxe Crispy Tiramisu",
+            "price": 6.1,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Golden Pumpkin Pie",
+            "price": 10.36,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Madeleines",
+            "price": 10.82,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Comforting Eclairs",
-            "price": 7.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Savory Cupcakes",
-            "price": 6.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Custard Tart",
-            "price": 6.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -607,38 +607,11 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Made in-house with premium dairy and plant-based alternatives.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Frozen Cheesecake",
-            "price": 9.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 9.95,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frosty",
-            "price": 10.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kulfi",
-            "price": 9.99,
+            "name": "Paletas",
+            "price": 11.55,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -646,8 +619,35 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Granita",
+            "price": 9.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 11.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Ice Cream Sandwich",
-            "price": 10.39,
+            "price": 7.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 9.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -660,24 +660,42 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our balanced wine list features carefully chosen bottles from renowned vineyards",
+    "description": "Enjoy crisp cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 15.59,
+            "name": "Classic Wholesome Martini",
+            "price": 11.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Margarita",
+            "price": 12.86,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Exquisite Old Fashioned",
+            "price": 14.78,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 12.85,
+            "name": "Deluxe Roasted Cosmopolitan",
+            "price": 12.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,47 +703,29 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.93,
-            "isVegetarian": true,
+            "name": "Gourmet Luscious Mojito",
+            "price": 13.93,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 14.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 14.26,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 10.64,
+            "name": "Homestyle Spiced Bloody Mary",
+            "price": 14.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Negroni",
+            "price": 10.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Homestyle Grilled Zinfandel",
-            "price": 11.19,
+            "name": "Torrontés",
+            "price": 10.49,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -745,47 +745,47 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Chardonnay",
-            "price": 13.44,
-            "isVegetarian": true,
+            "name": "Chardonnay",
+            "price": 8.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 12.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gewürztraminer",
+            "price": 8.68,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Zingy Moscato",
+            "name": "Malbec",
             "price": 8.95,
-            "isVegetarian": false,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Tempranillo",
-            "price": 13.61,
+            "name": "Sauvignon Blanc",
+            "price": 10.83,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Herbed Vermentino",
-            "price": 11.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Steamed Sauvignon Blanc",
-            "price": 8.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,50 +793,50 @@ export const kyotokaisekiRotisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
         "items": [
           {
-            "name": "Sambuca",
-            "price": 13.69,
+            "name": "Baileys Irish Cream",
+            "price": 17.62,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Midori",
+            "price": 15.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 10.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Anisette",
+            "price": 11.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Limoncello",
+            "price": 15.03,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brandy",
-            "price": 14.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 17.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Triple Sec",
-            "price": 12.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Aquavit",
-            "price": 14.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

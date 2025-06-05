@@ -6,60 +6,42 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our tasty menu celebrating the flavors of French cooking",
+    "description": "A tasty assortment of specialties showcasing the best of French cuisine",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "House favorites that have stood the test of time and showcase our refined approach to French cuisine.",
         "items": [
           {
-            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.75,
+            "name": "Hearty Zingy Charcoal Grilled Iberico Pork",
+            "price": 26.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Hearty 24-Hour Braised Short Ribs",
+            "price": 26.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Pan-seared Heritage Recipe Lamb Shank",
+            "price": 37.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 28.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 37.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 24.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 26.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 29.19,
+            "name": "Seasonal Crispy Restaurant's Namesake Signature Entrée",
+            "price": 32.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,11 +49,29 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 26.86,
-            "isVegetarian": true,
+            "name": "Gourmet Irresistible Secret Recipe Bouillabaisse",
+            "price": 32.25,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sweet Flambéed Tableside Specialty",
+            "price": 26.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Tender Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,26 +82,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
         "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Deluxe Grilled Sous Vide Pork Tenderloin",
-            "price": 25.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Aromatic Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 29.22,
-            "isVegetarian": false,
+            "name": "High-End Ingredient Showcase",
+            "price": 39.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Crispy Seasonal Farm-to-Table Vegetable Plate",
-            "price": 30.96,
+            "name": "Duck Confit with Roasted Root Vegetables",
+            "price": 30.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,19 +100,28 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Appetizing Aged and House-Cured Charcuterie Selection",
-            "price": 32.96,
+            "name": "Miso-Glazed Black Cod",
+            "price": 37.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Seasonal Mouthwatering Custom Tasting Menu Based on Guest Preferences",
-            "price": 28.63,
+            "name": "Tableside Prepared Tartare",
+            "price": 28,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Vegetarian Wellington",
+            "price": 39.99,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -130,29 +130,20 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of French culinary artistry.",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of French.",
         "items": [
           {
-            "name": "Authentic Savory Bruschetta",
-            "price": 9.33,
+            "name": "Authentic Herbed Zucchini Fries",
+            "price": 12.46,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Stuffed Garlic Knots",
-            "price": 9.04,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Herbed Zucchini Fries",
-            "price": 14.35,
+            "name": "Homestyle Irresistible Ceviche",
+            "price": 12.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,8 +151,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Enticing Mini Tacos",
-            "price": 11.81,
+            "name": "Premium Pan-seared Hummus Platter",
+            "price": 14.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +160,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Spiced Caprese Salad",
-            "price": 10.92,
+            "name": "Fresh Luscious Cheese Nachos",
+            "price": 13.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,17 +169,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Zingy Lettuce Wraps",
-            "price": 10.4,
+            "name": "House Special Grilled Dumplings",
+            "price": 12.29,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Smoked Antipasto Platter",
-            "price": 11.86,
+            "name": "Fresh Spiced Baba Ganoush",
+            "price": 11.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,41 +187,32 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Creamy Edamame",
-            "price": 13.5,
+            "name": "Premium Irresistible Stuffed Mushrooms",
+            "price": 14.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Enticing Spinach Artichoke Dip",
+            "price": 15.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Miso Soup",
-            "price": 8.93,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Corn Soup",
-            "price": 12.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mushroom Soup",
-            "price": 11.91,
+            "name": "Deluxe Delicious Hot and Sour Soup",
+            "price": 9.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,11 +220,29 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cabbage Soup",
-            "price": 7.39,
+            "name": "Authentic Golden French Onion Soup",
+            "price": 7.46,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Wholesome Peanut Soup (West African)",
+            "price": 10.09,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Grilled Broccoli Cheddar Soup",
+            "price": 11.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,20 +250,11 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 9.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 11.4,
+            "name": "Pasta Salad",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,17 +262,26 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 10.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Nicoise Salad",
+            "price": 9.23,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 10.66,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 11.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 14.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,11 +289,11 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 13.42,
+            "name": "Greek Salad",
+            "price": 10.24,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,38 +301,20 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "From hearty classics to modern interpretations, our mains are a feast for the senses.",
         "items": [
           {
-            "name": "House Special Herbed Steak",
-            "price": 25.14,
+            "name": "Homestyle Sautéed Thai Curry",
+            "price": 30.76,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Tangy Pizza",
-            "price": 26.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Savory Enchiladas",
-            "price": 29.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Stir-fry",
-            "price": 28.52,
+            "name": "Traditional Grilled Lasagna",
+            "price": 18.81,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,17 +322,44 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Savory Chicken Parmesan",
-            "price": 28.43,
+            "name": "Homestyle Satisfying Chili con Carne",
+            "price": 25.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Pulled Pork Sandwich",
+            "price": 19.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Stuffed Fajitas",
-            "price": 26.04,
+            "name": "Handcrafted Grilled Lentil Stew",
+            "price": 18.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sweet Bibimbap",
+            "price": 21.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Pan-seared Korma",
+            "price": 26.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,20 +367,11 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Marinated Grilled Chicken",
-            "price": 26.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Tangy Coq au Vin",
-            "price": 31.18,
+            "name": "Traditional Crunchy Stir-fry",
+            "price": 23.86,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,11 +379,11 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
+        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 32.29,
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 32.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Linguine with Clam Sauce",
-            "price": 35.1,
+            "name": "Seafood Gumbo with Okra",
+            "price": 35.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,17 +400,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 30.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 33.26,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 34.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -418,59 +409,41 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Alaskan King Crab Legs with Drawn Butter",
-            "price": 26.59,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 25.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 35.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "Essential accompaniments, from traditional staples to inventive bites.",
         "items": [
           {
-            "name": "Fresh Spicy Wild Mushroom Risotto",
-            "price": 7.41,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 5.71,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Savory Mashed Potatoes",
-            "price": 5.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Stuffed Bell Peppers with Brown Rice",
-            "price": 7.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Tangy French Fries",
-            "price": 7.57,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Macaroni and Aged Cheddar",
-            "price": 5.37,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 5.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,10 +451,37 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Tender Sautéed Garlic Mushrooms",
-            "price": 9.46,
+            "name": "Sweet Corn and Cheddar Fritters",
+            "price": 5.54,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 9.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 8.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 5.7,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -493,44 +493,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
         "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Deluxe Savory Juice",
-            "price": 6.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zesty Tea",
-            "price": 7.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Mouthwatering Coffee",
-            "price": 4.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crunchy Water",
-            "price": 4.06,
+            "name": "Coffee",
+            "price": 4.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Iced Tea",
-            "price": 6.63,
+            "name": "Tea",
+            "price": 6.79,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -538,11 +511,38 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Sizzling Soda",
-            "price": 4.99,
+            "name": "Hot Chocolate",
+            "price": 4.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,24 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Elevate your evening with our mouthwatering dessert course",
+    "description": "Crafted with love, our satisfying desserts are the perfect treat",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Seasonal Creamy Banana Bread",
-            "price": 6.5,
+            "name": "Cobbler",
+            "price": 10.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Muffins",
+            "price": 6.76,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +577,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Soufflé",
-            "price": 6.72,
+            "name": "Apple Pie",
+            "price": 6.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,26 +586,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Aromatic Vanilla Cake",
-            "price": 9.99,
+            "name": "Baklava",
+            "price": 10.11,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sizzling Berry Tart",
-            "price": 6.53,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Comforting Biscotti",
-            "price": 8.82,
+            "name": "Shortbread",
+            "price": 9.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,11 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
         "items": [
           {
-            "name": "Authentic Grilled Frozen Mousse",
-            "price": 8.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Comforting Snow Cone",
-            "price": 7.97,
+            "name": "Paletas",
+            "price": 7.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,17 +619,26 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Succulent Popsicles",
-            "price": 7.78,
+            "name": "Frozen Mousse",
+            "price": 10.95,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 10.28,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Wholesome Frozen Banana",
-            "price": 9.31,
+            "name": "Granita",
+            "price": 10.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,9 +646,9 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Mouthwatering Ice Cream Cake",
-            "price": 9.16,
-            "isVegetarian": false,
+            "name": "Gelato",
+            "price": 11.81,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,15 +660,24 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Treat yourself to a thoughtfully selected nightcap from our curated selection",
+    "description": "Toast to the moment with our fine selection of wines, beers, and signature drinks",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "Unique, house-crafted cocktails that offer a memorable sip every time.",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.12,
+            "name": "Authentic Smoked Bloody Mary",
+            "price": 13.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Flaky Cosmopolitan",
+            "price": 11.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,17 +685,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 12.63,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 10.86,
+            "name": "Fresh Zesty Whiskey Sour",
+            "price": 11.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,68 +694,50 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.63,
-            "isVegetarian": false,
+            "name": "Gourmet Mouthwatering Martini",
+            "price": 10.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 10.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 13.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
+            "name": "Hearty Savory Negroni",
             "price": 12.3,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed Mojito",
+            "price": 10.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Margarita",
+            "price": 12.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Wine Selection",
-        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
+        "description": "New World energy meets Old World elegance in our diverse selection.",
         "items": [
           {
-            "name": "Dolcetto",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sauvignon Blanc",
-            "price": 9.01,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 9.35,
+            "name": "House Special Delicious Roussanne",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +745,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 13.83,
+            "name": "Traditional Fried Pinot Blanc",
+            "price": 11.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Spiced Cabernet Sauvignon",
+            "price": 11.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,8 +763,8 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 10.39,
+            "name": "Hearty Flavorful Fiano",
+            "price": 13.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,8 +772,17 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 10.61,
+            "name": "Authentic Braised Vermentino",
+            "price": 12.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Fried Gamay",
+            "price": 9.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,11 +793,20 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Explore the depth of our spirits menu, where each pour is a discovery.",
         "items": [
           {
-            "name": "Traditional Smoked Absinthe",
-            "price": 10.64,
+            "name": "St-Germain",
+            "price": 11.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Rum",
+            "price": 13.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,36 +814,27 @@ export const kyotoshrineGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Chartreuse",
-            "price": 14.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Cointreau",
-            "price": 12.05,
-            "isVegetarian": false,
+            "name": "Bourbon",
+            "price": 15.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Amaretto",
-            "price": 13.04,
-            "isVegetarian": false,
+            "name": "Cognac",
+            "price": 10.18,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Appetizing Chambord",
-            "price": 11.09,
-            "isVegetarian": false,
+            "name": "Cointreau",
+            "price": 10.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
