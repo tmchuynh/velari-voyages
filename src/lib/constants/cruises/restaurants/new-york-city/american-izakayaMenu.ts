@@ -1,20 +1,29 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for American Juice Bar in new-york-city
+ * Menu data for American Izakaya in new-york-city
  */
-export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
+export const newYorkCityamericanIzakayaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our delicious kitchen honors the soul of Italian cooking",
+    "description": "A menu designed to highlight the fresh essence of Chinese",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "Our chef's pride—carefully selected Chinese specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Deluxe Enticing Dry-Aged Tomahawk Steak",
-            "price": 25.13,
+            "name": "Deluxe Exquisite Award-Winning Seafood Boil",
+            "price": 27.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Delectable Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 35.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,26 +31,26 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Luscious Black Garlic Glazed Beef Tenderloin",
-            "price": 25.87,
-            "isVegetarian": false,
+            "name": "Organic Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 33.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Legendary Prime Rib",
+            "price": 32.62,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Japanese A5 Wagyu with Ponzu Butter",
-            "price": 26.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 24.2,
+            "name": "Authentic Stuffed Celebrity Favorite Lobster Dish",
+            "price": 27.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,29 +58,20 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Irresistible Chef's Special Surf and Turf",
-            "price": 30.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spicy Seasonal Tasting Platter",
-            "price": 28.51,
+            "name": "Gourmet Exquisite Charcoal Grilled Iberico Pork",
+            "price": 28.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Handcrafted Comforting Celebrity Favorite Lobster Dish",
-            "price": 30.41,
+            "name": "Deluxe Comforting Captain's Favorite Seafood Tower",
+            "price": 36.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -82,26 +82,8 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
         "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 31.33,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 29.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Heritage Breed Porchetta",
-            "price": 29.33,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 30.45,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -110,17 +92,35 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Seasonal Truffle Risotto",
-            "price": 30.37,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 32.59,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 25,
-            "isVegetarian": false,
+            "name": "Heirloom Recipe from Chef's Family",
+            "price": 27.18,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Slow-Roasted Prime Rib",
+            "price": 32.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whole Animal Butchery Showcase",
+            "price": 34.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -130,56 +130,11 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "A selection of small plates that showcase the essence of Chinese—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Hearty Hearty Cheese Nachos",
-            "price": 14.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled Stuffed Jalapeños",
-            "price": 13.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Mini Sliders",
-            "price": 8.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Crunchy Samosas",
-            "price": 10.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Potato Skins",
-            "price": 9.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crispy Charcuterie Board",
-            "price": 15.64,
+            "name": "Authentic Appetizing Lettuce Wraps",
+            "price": 9.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +142,53 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Luscious Bruschetta",
-            "price": 12.14,
+            "name": "Deluxe Irresistible Mezze Platter",
+            "price": 14.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sweet Tzatziki with Pita",
+            "price": 10,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Herbed Garlic Knots",
+            "price": 8.59,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Shrimp Cocktail",
+            "price": 13.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Smoked Baked Brie",
+            "price": 15.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Smoked Potstickers",
+            "price": 10,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,32 +196,41 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Zingy Calamari",
-            "price": 15.1,
+            "name": "Authentic Zingy Nachos",
+            "price": 12.21,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
+        "description": "Warm, nourishing soups that reflect the heart of Chinese cooking—perfect for any season.",
         "items": [
           {
-            "name": "Homestyle Tangy Gumbo",
-            "price": 10.56,
+            "name": "Miso Soup",
+            "price": 9.5,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gumbo",
+            "price": 7.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Sweet Broccoli Cheddar Soup",
-            "price": 10.25,
+            "name": "Tomato Soup",
+            "price": 12.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,19 +238,10 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Roasted Minestrone",
-            "price": 7.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Pan-seared Zuppa Toscana",
-            "price": 10.08,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gazpacho",
+            "price": 10.09,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,38 +250,29 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "From classic combinations to innovative creations, our salads are a feast for the senses.",
         "items": [
           {
-            "name": "Potato Salad",
-            "price": 15.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 15.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Southwest Black Bean Salad",
-            "price": 15.41,
+            "price": 10.57,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef Salad",
-            "price": 9.03,
+            "name": "Fruit Salad",
+            "price": 10.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 15.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,9 +280,18 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 10.26,
-            "isVegetarian": false,
+            "name": "Quinoa Salad",
+            "price": 15.68,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 15.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,38 +301,38 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.",
         "items": [
           {
-            "name": "Steak",
-            "price": 30.13,
+            "name": "Pesto Pasta",
+            "price": 22.45,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "price": 31.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 19.04,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Zucchini Boats",
-            "price": 29.61,
+            "name": "Salmon",
+            "price": 24.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Lamb Chops",
+            "price": 30.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Enchiladas",
+            "price": 30.77,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -340,38 +340,38 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "price": 18.58,
+            "name": "Korma",
+            "price": 24.15,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Lamb Chops",
-            "price": 26.98,
-            "isVegetarian": false,
+            "name": "Chili con Carne",
+            "price": 26.52,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "price": 23.23,
-            "isVegetarian": false,
+            "name": "Burrito",
+            "price": 24.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Shish Kebabs",
-            "price": 28.13,
+            "name": "Paella",
+            "price": 29.44,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,11 +379,20 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Classic Grilled Stuffed Flounder with Crab and Spinach",
-            "price": 28.7,
+            "name": "House Special Savory Baked Cod with Lemon Caper Sauce",
+            "price": 25.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Steamed Seafood Risotto with Saffron",
+            "price": 24.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +400,17 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Enticing Oysters Rockefeller with Pernod Cream",
-            "price": 35.2,
-            "isVegetarian": false,
+            "name": "Premium Appetizing Sushi-Grade Sashimi Platter",
+            "price": 31.04,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Flavorful Tempura Soft Shell Crab",
-            "price": 33.44,
+            "name": "Hearty Spiced Linguine with Clam Sauce",
+            "price": 34.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,20 +418,11 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Succulent Lemon-Herb Calamari Steak",
-            "price": 27.35,
+            "name": "Homestyle Grilled Seafood Alfredo with Spinach Fettuccine",
+            "price": 23.48,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Delectable Crab-Stuffed Mushrooms",
-            "price": 30.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,47 +430,20 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Authentic Crunchy Garlic Bread with Herb Butter",
-            "price": 8.88,
+            "name": "Hearty Creamy Maple-Glazed Baby Carrots",
+            "price": 6.63,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Juicy Truffle Parmesan Fries",
-            "price": 7.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Creamed Spinach with Nutmeg",
-            "price": 8.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Macaroni and Aged Cheddar",
-            "price": 5.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Zesty Mashed Potatoes",
-            "price": 9.11,
+            "name": "Traditional Smoked Grilled Zucchini and Peppers",
+            "price": 7.88,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -478,11 +451,38 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Wild Mushroom Risotto",
-            "price": 8.2,
+            "name": "Fresh Golden Scalloped Potatoes with Thyme",
+            "price": 9.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Irresistible Charred Broccolini with Garlic Oil",
+            "price": 5.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Green Beans Almondine",
+            "price": 8.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Warm Buttermilk Dinner Rolls",
+            "price": 6.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Classic Flavorful Iced Tea",
-            "price": 4.82,
+            "name": "Seasonal Zingy Smoothie",
+            "price": 5.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -502,35 +502,8 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crispy Hot Chocolate",
-            "price": 5.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Sautéed Soda",
-            "price": 4.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Exquisite Juice",
-            "price": 5.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Spicy Water",
-            "price": 7.98,
+            "name": "Traditional Crunchy Juice",
+            "price": 7.44,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,9 +511,36 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Spicy Smoothie",
-            "price": 6.63,
+            "name": "Organic Stuffed Tea",
+            "price": 4.94,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Wholesome Hot Chocolate",
+            "price": 4.11,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Delectable Coffee",
+            "price": 4.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Zingy Water",
+            "price": 6.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,15 +552,15 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A freshly prepared selection of desserts that will leave you wanting more",
+    "description": "Every dessert tells a tasty story of flavor and craftsmanship",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Freshly baked delights that bring warmth and comfort to your table.",
         "items": [
           {
-            "name": "Hearty Pan-seared Lemon Bars",
-            "price": 6.26,
+            "name": "Classic Hearty Danish Pastries",
+            "price": 10.03,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -568,17 +568,17 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Wholesome Strawberry Shortcake",
-            "price": 6.87,
+            "name": "Handcrafted Mouthwatering Pecan Pie",
+            "price": 7.29,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Sticky Toffee Pudding",
-            "price": 8.21,
+            "name": "Premium Aromatic Carrot Cake",
+            "price": 6.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,41 +586,41 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spicy Pumpkin Pie",
-            "price": 8.19,
-            "isVegetarian": true,
+            "name": "Gourmet Delicious Cupcakes",
+            "price": 6.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Biscotti",
-            "price": 9.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "name": "House Special Aromatic Vanilla Cake",
+            "price": 10.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Classic Grilled Sorbet",
-            "price": 10.04,
+            "name": "Seasonal Sweet Semifreddo",
+            "price": 11.69,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Baked Snow Cone",
-            "price": 7.2,
+            "name": "House Special Luscious Frozen Cheesecake",
+            "price": 10.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,27 +628,27 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Braised Frozen Cheesecake",
-            "price": 7.73,
-            "isVegetarian": false,
+            "name": "Seasonal Fried Ice Cream Sandwich",
+            "price": 9.71,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Frosty",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Deluxe Baked Baked Alaska",
-            "price": 10.33,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Aromatic Frozen Pudding",
-            "price": 7.52,
-            "isVegetarian": true,
+            "name": "Gourmet Fried Baked Alaska",
+            "price": 7.02,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,15 +660,42 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine drinks program blending innovation with tradition",
+    "description": "Our carefully chosen collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
         "items": [
           {
-            "name": "Organic Flaky Martini",
-            "price": 10.25,
+            "name": "Gourmet Herbed Cosmopolitan",
+            "price": 15.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Martini",
+            "price": 15.71,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Margarita",
+            "price": 14.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Juicy Manhattan",
+            "price": 13.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,17 +703,17 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Margarita",
-            "price": 10,
-            "isVegetarian": true,
+            "name": "Authentic Roasted Old Fashioned",
+            "price": 12.82,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Wholesome Old Fashioned",
-            "price": 11.19,
+            "name": "Hearty Spiced Whiskey Sour",
+            "price": 12.79,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -694,38 +721,11 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Mojito",
-            "price": 11.76,
-            "isVegetarian": false,
+            "name": "Homestyle Herbed Mojito",
+            "price": 13.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Enticing Cosmopolitan",
-            "price": 15.75,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Whiskey Sour",
-            "price": 11.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crispy Negroni",
-            "price": 12.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
+        "description": "New World energy meets Old World elegance in our diverse selection.",
         "items": [
           {
-            "name": "Seasonal Irresistible Pinot Grigio",
-            "price": 13.26,
+            "name": "Zinfandel",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +745,8 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Flaky Barbera",
-            "price": 10.13,
+            "name": "Sangiovese",
+            "price": 8.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,50 +754,50 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Aromatic Roussanne",
-            "price": 8.87,
-            "isVegetarian": false,
+            "name": "Tempranillo",
+            "price": 9.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Albariño",
-            "price": 8.92,
-            "isVegetarian": true,
+            "name": "Merlot",
+            "price": 9.29,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Luscious Vouvray",
-            "price": 13.74,
+            "name": "Mourvèdre",
+            "price": 10.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Succulent Chenin Blanc",
-            "price": 9.52,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Roussanne",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Premium Wholesome Vodka",
-            "price": 17.51,
+            "name": "Premium Crunchy Rum",
+            "price": 14.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,8 +805,8 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Scotch",
-            "price": 16.91,
+            "name": "Authentic Sweet Sambuca",
+            "price": 11.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,17 +814,8 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Organic Herbed Drambuie",
-            "price": 11.4,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Fried St-Germain",
-            "price": 10.27,
+            "name": "Gourmet Golden Bénédictine",
+            "price": 17.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,9 +823,18 @@ export const newYorkCityamericanJuiceBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Delicious Cointreau",
-            "price": 13.12,
-            "isVegetarian": false,
+            "name": "Hearty Flavorful Frangelico",
+            "price": 14.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Whiskey",
+            "price": 11.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

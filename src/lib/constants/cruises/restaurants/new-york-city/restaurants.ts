@@ -248,5 +248,160 @@ export const newYorkCityRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "French Bodega",
+    "description": "This popular Japanese establishment combines traditional recipes and regional wines, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-468-4643",
+      "contactEmail": "inquiries@frenchchocolatiernew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Trattoria",
+    "description": "A charming Chinese restaurant near the cultural center, offering gourmet street food and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-808-8962",
+      "contactEmail": "contact@japanesegastropubnew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "American Izakaya",
+    "description": "Located close to the iconic clock tower, this Chinese restaurant delights with its heritage recipes and local ambiance.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-494-6858",
+      "contactEmail": "contact@frenchsmokehousenew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Japanese Nook",
+    "description": "This popular Japanese establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with ambient lighting.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-885-4419",
+      "contactEmail": "general@americanboulangerienew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "French Mansion",
+    "description": "Experience authentic French cuisine with a local twist, featuring fresh produce served in an atmosphere of local ambiance overlooking the city museum.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-451-7059",
+      "contactEmail": "general@italianizakayanew-york-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
