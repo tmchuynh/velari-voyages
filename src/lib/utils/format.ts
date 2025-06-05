@@ -112,7 +112,7 @@ export function formatCamelCaseToTitle(camelCase: string): string {
 export function formatNumberToCurrency(
   value: number,
   min?: number,
-  max?: number
+  max?: number,
 ): string {
   return new Intl.NumberFormat("en-US", {
     style: "currency",

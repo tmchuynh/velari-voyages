@@ -19,7 +19,7 @@ export function popularArray(array: any[]) {
 
 export function sortByLength(
   array: string[],
-  ascending: boolean = true
+  ascending: boolean = true,
 ): string[] {
   return [...array].sort((a, b) => {
     const lengthA = a.length;
@@ -31,7 +31,7 @@ export function sortByLength(
 export function sortByProperty<T>(
   array: T[],
   property: keyof T,
-  ascending: boolean = true
+  ascending: boolean = true,
 ): T[] {
   return [...array].sort((a, b) => {
     if (a[property] < b[property]) {
@@ -47,7 +47,7 @@ export function sortByProperty<T>(
 export function sortByPropertyByLength<T>(
   array: T[],
   property: keyof T,
-  ascending: boolean = true
+  ascending: boolean = true,
 ): T[] {
   return [...array].sort((a, b) => {
     const lengthA = (a[property] as unknown as string)?.length || 0;
@@ -58,9 +58,9 @@ export function sortByPropertyByLength<T>(
 
 /**
  * Groups and sorts an array of objects based on specified properties.
- * 
+ *
  * @template T - The type of objects in the array.
- * 
+ *
  * @param {T[]} array - The array to be grouped and sorted.
  * @param {keyof T} groupByProperty - The property key to group the array by.
  * @param {keyof T} [sortByPropertyKey] - Optional property key to sort each group by.
@@ -68,9 +68,9 @@ export function sortByPropertyByLength<T>(
  * @param {boolean} [sortByLength=false] - Whether to sort by the length of the property value instead of the value itself.
  * @param {boolean} [groupByLength=false] - Whether to group by the length of the property value instead of the value itself.
  * @param {boolean} [groupAscending=false] - Whether to sort groups in ascending order (true) or descending order (false).
- * 
+ *
  * @returns {T[]} A new array with elements grouped and sorted according to the specified parameters.
- * 
+ *
  * @example
  * // Group courses by difficulty and sort each group by date
  * const sortedCourses = groupAndSortByProperties(
@@ -79,7 +79,7 @@ export function sortByPropertyByLength<T>(
  *   'publishDate', // Sort each group by publishDate
  *   false          // Sort dates in descending order (newest first)
  * );
- * 
+ *
  * @example
  * // Group products by category name length and sort by price
  * const sortedProducts = groupAndSortByProperties(
@@ -99,20 +99,23 @@ export function groupAndSortByProperties<T>(
   sortAscending: boolean = true,
   sortByLength: boolean = false,
   groupByLength: boolean = false,
-  groupAscending: boolean = false
+  groupAscending: boolean = false,
 ): T[] {
   // Group the array by the specified property or by the length of the property
-  const grouped = array.reduce((acc, item) => {
-    const key = groupByLength
-      ? (item[groupByProperty] as unknown as string)?.length || 0
-      : (item[groupByProperty] as string | number);
+  const grouped = array.reduce(
+    (acc, item) => {
+      const key = groupByLength
+        ? (item[groupByProperty] as unknown as string)?.length || 0
+        : (item[groupByProperty] as string | number);
 
-    if (!acc[key]) {
-      acc[key] = [];
-    }
-    acc[key].push(item);
-    return acc;
-  }, {} as Record<string | number, T[]>);
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      acc[key].push(item);
+      return acc;
+    },
+    {} as Record<string | number, T[]>,
+  );
 
   // Sort the group keys to ensure the groups are processed in the correct order
   const sortedKeys = Object.keys(grouped).sort((a, b) => {
@@ -201,14 +204,14 @@ export function uniqueArray(arr: string[]) {
 export function filterArrayByProperty<T, K extends keyof T>(
   array: T[],
   property: K,
-  value: T[K]
+  value: T[K],
 ): T[] {
   return array.filter((item) => item[property] === value);
 }
 
 export function alphabeticalSort(
   array: string[],
-  ascending: boolean = true
+  ascending: boolean = true,
 ): string[] {
   return [...array].sort((a, b) => {
     return ascending ? a.localeCompare(b) : b.localeCompare(a);
@@ -217,24 +220,24 @@ export function alphabeticalSort(
 
 /**
  * Sorts an array of objects containing date strings based on their dates.
- * 
+ *
  * @param array - The array of objects containing date strings to sort.
  * @param ascending - Determines the sort order. If true (default), sorts in ascending order (oldest first).
  *                    If false, sorts in descending order (newest first).
  * @returns A new sorted array without modifying the original array.
- * 
+ *
  * @example
  * ```typescript
  * // Sort blog posts by date (oldest first)
  * const sortedPosts = sortByDate(posts);
- * 
+ *
  * // Sort blog posts by date (newest first)
  * const newestFirstPosts = sortByDate(posts, false);
  * ```
  */
 export function sortByDate(
   array: { date: string }[],
-  ascending: boolean = true
+  ascending: boolean = true,
 ): { date: string }[] {
   return [...array].sort((a, b) => {
     const dateA = new Date(a.date);
@@ -247,16 +250,16 @@ export function sortByDate(
 
 /**
  * Sorts an array of objects containing price strings in ascending or descending order.
- * 
+ *
  * @param array - An array of objects, each containing a 'price' property with string value
  * @param ascending - A boolean flag indicating sort direction (true for ascending, false for descending)
  * @returns A new sorted array without modifying the original array
- * 
+ *
  * @example
  * // Sort prices in ascending order
  * sortByPrice([{ price: "$10.99" }, { price: "$5.99" }]);
  * // Returns [{ price: "$5.99" }, { price: "$10.99" }]
- * 
+ *
  * @example
  * // Sort prices in descending order
  * sortByPrice([{ price: "$10.99" }, { price: "$5.99" }], false);
@@ -264,7 +267,7 @@ export function sortByDate(
  **/
 export function sortByPrice(
   array: { price: string }[],
-  ascending: boolean = true
+  ascending: boolean = true,
 ): { price: string }[] {
   return [...array].sort((a, b) => {
     const priceA = parseFloat(a.price.replace(/[^0-9.-]+/g, ""));
@@ -275,19 +278,19 @@ export function sortByPrice(
 
 /**
  * Sorts an array of string durations in ascending order.
- * 
+ *
  * This function converts string representations of time durations into minutes
  * and then sorts them from shortest to longest.
- * 
+ *
  * Handles the following formats:
  * - Minutes (e.g., "30 minutes", "45 minute")
  * - Hours (e.g., "2 hours", "1 hour")
  * - Days (e.g., "2 days", "1 day")
  * - Special case "Full day" (interpreted as 8 hours)
- * 
+ *
  * @param arr - Array of string durations to be sorted
  * @returns A new array with the durations sorted in ascending order
- * 
+ *
  * @example
  * sortDurations(["2 hours", "30 minutes", "Full day"])
  * // Returns: ["30 minutes", "2 hours", "Full day"]
