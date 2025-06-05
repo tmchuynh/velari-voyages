@@ -62,7 +62,7 @@ export function getPackagesForCruiseCategory(category: string): Package[] {
  * camelCase format (e.g., "New York" becomes "newYork"), and then uses this formatted name
  * to construct an expected module export name (e.g., "newYorkCruises").
  * It also generates a slug version of the city name (e.g., "new-york") to dynamically
- * import a module from `@/lib/constants/cruises/`.
+ * import a module from `@/lib/constants/cruises/cruises`.
  *
  * If the module is found, it attempts to return the array of `Cruise` objects exported
  * under the constructed `cruiseID`. If that specific export is not found, it tries an
@@ -106,11 +106,15 @@ export async function getCruises(city: string): Promise<Cruise[]> {
   const sluggedCity =
     formatToSlug(cityWithoutAccents.replace("'", "-")) + "-cruises";
 
-  console.log(`Looking for cruises in: @/lib/constants/cruises/${sluggedCity}`);
+  console.log(
+    `Looking for cruises in: @/lib/constants/cruisescruises/cruises/${sluggedCity}`
+  );
   console.log(`Export expected: export const ${cruiseID}: Cruise[] = [];`);
 
   try {
-    const cruiseModule = await import(`@/lib/constants/cruises/${sluggedCity}`);
+    const cruiseModule = await import(
+      `@/lib/constants/cruises//cruises/${sluggedCity}`
+    );
     // Return the specific named export that matches cruiseID
     if (cruiseModule[cruiseID]) {
       return cruiseModule[cruiseID];
@@ -128,7 +132,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
     }
   } catch (error) {
     console.error(
-      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/${sluggedCity} with export ${cruiseID}`,
+      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises//cruises/${sluggedCity} with export ${cruiseID}`
     );
     return [];
   }
@@ -193,7 +197,7 @@ export async function getAllCruises(): Promise<Cruise[]> {
     try {
       // Dynamic import of the cruises file
       const cruisesModule = await import(
-        `@/lib/constants/cruises/${removeAccents(city)}-cruises`
+        `@/lib/constants/cruises/cruises/${removeAccents(city)}-cruises`
       );
 
       // Get the cruises array using the city name + Cruises naming convention
