@@ -1651,6 +1651,26 @@ const generateRandomRestaurants = (cityName, count) => {
       Math.floor(Math.random() * generalEmailStarters.length)
     ];
 
+  const priceRange = getRandomPrice();
+
+  let fineDining = false;
+  if (priceRange === "$$$$") {
+    fineDining = true;
+  } else if (priceRange === "$$$") {
+    fineDining = getRandomBool(0.5);
+  } else if (priceRange === "$$") {
+    fineDining = getRandomBool(0.2);
+  } else if (priceRange === "$") {
+    fineDining = getRandomBool(0.1);
+  }
+
+  const veganFriendly = getRandomBool(0.5);
+  let vegetarianFriendly = false;
+
+  if (veganFriendly) {
+    vegetarianFriendly = true;
+  }
+
   // Generate restaurants for this city
   for (let i = 0; i < count; i++) {
     const cuisine = getRandomCuisine();
@@ -1659,7 +1679,7 @@ const generateRandomRestaurants = (cityName, count) => {
       name: getRandomName(),
       description: generateDescription(cuisine, cityName),
       cuisine,
-      priceRange: getRandomPrice(),
+      priceRange: `${priceRange}`,
       rating: parseFloat(getRandomRating()),
       openingHours: getRandomHours(),
       contactInfo: {
@@ -1670,12 +1690,12 @@ const generateRandomRestaurants = (cityName, count) => {
           .toLowerCase()
           .replace(/ /g, "")}${cityName}.com`,
       },
-      isVegetarianFriendly: getRandomBool(0.7),
-      isVeganFriendly: getRandomBool(0.5),
+      isVegetarianFriendly: `${vegetarianFriendly}`,
+      isVeganFriendly: `${veganFriendly}`,
       isGlutenFreeFriendly: getRandomBool(0.4),
       isHalalFriendly: getRandomBool(0.3),
       isKosherFriendly: getRandomBool(0.2),
-      isFineDining: getRandomBool(0.3),
+      isFineDining: `${fineDining}`,
       isAdultOnly: getRandomBool(0.1),
       isIndoorSeating: getRandomBool(0.9),
       isReservationsAccepted: getRandomBool(0.8),
