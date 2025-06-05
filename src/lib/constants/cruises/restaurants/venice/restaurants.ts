@@ -248,5 +248,160 @@ export const veniceRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Mediterranean Hideaway",
+    "description": "A charming Italian restaurant near the river promenade, offering farm-to-table meals and other local favorites in a setting with friendly service.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-864-3011",
+      "contactEmail": "communications@venetiancantinavenice.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Venetian Trading Co.",
+    "description": "This popular Seafood establishment combines traditional recipes and artisanal creations, all served in a unique setting with artisan markets.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-562-7171",
+      "contactEmail": "contact@seafoodinnvenice.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Mediterranean Workshop",
+    "description": "This popular Mediterranean establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with boutique shops.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-688-1349",
+      "contactEmail": "team@mediterraneancellarvenice.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Chateau",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of seasonal floral displays overlooking central park.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-879-6864",
+      "contactEmail": "ask@japaneseenotecavenice.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Fine Dining",
+    "description": "A charming Italian restaurant near the cultural center, offering handcrafted desserts and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-417-3782",
+      "contactEmail": "ask@seafoodcollectivevenice.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

@@ -1,29 +1,65 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Seafood Bar & Kitchen in venice
+ * Menu data for Japanese Fine Dining in venice
  */
-export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
+export const venicejapaneseFineDiningMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A flavorful dining experience featuring the essence of Seafood gastronomy",
+    "description": "Our carefully crafted selection of fresh Italian dishes",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Authentic Exquisite Flambéed Tableside Specialty",
-            "price": 31.48,
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 31.79,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Carved Chateaubriand",
+            "price": 24.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Special Surf and Turf",
+            "price": 35.72,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Celebrity Favorite Lobster Dish",
+            "price": 32.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 37.66,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Steamed Heritage Recipe Lamb Shank",
-            "price": 36.55,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 30.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,68 +67,23 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Comforting Age-Old Recipe Osso Buco with Gremolata",
-            "price": 24.44,
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 25.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Celebrity Favorite Lobster Dish",
-            "price": 31.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Marinated Molecular Gastronomy Showcase Tasting",
-            "price": 33.62,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delicious Legendary Prime Rib",
-            "price": 35.16,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Marinated Founder's Family Recipe Pasta",
-            "price": 33.32,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Dry-Aged Prime Beef Selection",
-            "price": 39.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 35.73,
+            "name": "Heirloom Recipe from Chef's Family",
+            "price": 38.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,8 +91,8 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Specialty Pasta Creation",
-            "price": 38.7,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 28.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,32 +100,41 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster Thermidor",
-            "price": 35.88,
+            "name": "Herb-Crusted Rack of Lamb",
+            "price": 26.38,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 26.34,
-            "isVegetarian": false,
+            "name": "Wild Mushroom Risotto",
+            "price": 29.32,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 24.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A tempting assortment of beginning bites to pair with your first drink.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Mini Empanadas",
-            "price": 10.55,
+            "name": "Premium Aromatic Prawn Cocktail",
+            "price": 14.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,44 +142,35 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Knots",
-            "price": 11.63,
+            "name": "Deluxe Delectable Mini Empanadas",
+            "price": 10.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Edamame",
+            "price": 10.41,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Antipasto Platter",
-            "price": 12.01,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lettuce Wraps",
-            "price": 11.8,
+            "name": "Authentic Hearty Zucchini Fries",
+            "price": 9.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Meatballs",
-            "price": 15.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Tzatziki with Pita",
-            "price": 11.04,
+            "name": "Homestyle Sweet Mezze Platter",
+            "price": 13.69,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +178,8 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Samosas",
-            "price": 13.63,
+            "name": "Traditional Grilled Lettuce Wraps",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,11 +187,20 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 14.59,
+            "name": "House Special Tangy Cheese Platter",
+            "price": 11.9,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Savory Tempura",
+            "price": 8.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,20 +208,11 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
+        "description": "Each bowl is a journey through the heart of Italian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Split Pea Soup",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Barley Soup",
-            "price": 11.65,
+            "name": "Hot and Sour Soup",
+            "price": 9.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,18 +220,27 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Corn Soup",
-            "price": 10.92,
-            "isVegetarian": false,
+            "name": "Mushroom Soup",
+            "price": 10.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Egg Drop Soup",
+            "price": 11.5,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Hot and Sour Soup",
-            "price": 13.65,
-            "isVegetarian": false,
+            "name": "Broccoli Cheddar Soup",
+            "price": 12.39,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -250,11 +250,11 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
+        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Cucumber Salad",
-            "price": 9.62,
+            "name": "Lentil and Feta Salad",
+            "price": 14.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,35 +262,35 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 14.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 11.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.65,
+            "name": "Kale Salad",
+            "price": 9.02,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 14.52,
+            "name": "Caesar Salad",
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 15.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,57 +301,12 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Seafood vision.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Lasagna",
-            "price": 30.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "price": 30.06,
+            "name": "Ramen",
+            "price": 30.15,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 26.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Spaghetti Bolognese",
-            "price": 29.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "price": 19.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tagine",
-            "price": 31.86,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -359,169 +314,34 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Pasta Primavera",
-            "price": 24.84,
+            "price": 24.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 29.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           },
           {
             "name": "Roast Duck",
-            "price": 25.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
-        "items": [
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 23.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Valencian Seafood Paella",
-            "price": 30.05,
+            "price": 30.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 23.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 31.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Linguine with Clam Sauce",
-            "price": 27.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "Classic Seafood side dishes with our own unique interpretation.",
-        "items": [
-          {
-            "name": "Israeli Couscous with Roasted Tomatoes",
-            "price": 9.71,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 8.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mashed Potatoes",
-            "price": 7.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cauliflower Gratin with Gruyère",
-            "price": 9.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Zucchini and Peppers",
-            "price": 5.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 7.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
-        "items": [
-          {
-            "name": "Coffee",
-            "price": 7.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 4.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 5.03,
+            "name": "Tacos",
+            "price": 19.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,8 +349,152 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 5.83,
+            "name": "Bibimbap",
+            "price": 22.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beef Burger",
+            "price": 21.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Pesto Pasta",
+            "price": 31.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Fresh, sustainable seafood prepared using timeless Italian traditions.",
+        "items": [
+          {
+            "name": "Seafood Alfredo with Spinach Fettuccine",
+            "price": 31.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 35.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 25.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic British Fish and Chips",
+            "price": 24.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
+        "items": [
+          {
+            "name": "Crispy Zucchini Fritters",
+            "price": 5.02,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 6.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 6.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 9.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 9.66,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sweet Corn and Cheddar Fritters",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "items": [
+          {
+            "name": "Juice",
+            "price": 7.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -539,10 +503,46 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Iced Tea",
-            "price": 7.49,
+            "price": 7.03,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 4.11,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 5.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Decadent or delicate – our mouthwatering desserts cater to every preference",
+    "description": "Experience the art of comforting desserts with a Italian twist",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
+        "description": "Indulge in our selection of baked treats, each one a labor of love.",
         "items": [
           {
-            "name": "Handcrafted Spiced Apple Pie",
-            "price": 8.69,
+            "name": "Gourmet Juicy Red Velvet Cake",
+            "price": 8.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,68 +568,59 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Fried Baklava",
-            "price": 10.5,
+            "name": "Homestyle Juicy Soufflé",
+            "price": 10.13,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Delectable Custard Tart",
-            "price": 10.07,
-            "isVegetarian": false,
+            "name": "Classic Roasted Carrot Cake",
+            "price": 8.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Sticky Toffee Pudding",
-            "price": 9.35,
-            "isVegetarian": false,
+            "name": "Hearty Smoked Muffins",
+            "price": 6.92,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Pumpkin Pie",
-            "price": 9.81,
-            "isVegetarian": false,
+            "name": "Gourmet Crispy Tiramisu",
+            "price": 7.91,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Gourmet Satisfying Frozen Banana",
-            "price": 7.78,
+            "name": "Homestyle Smoked Gelato",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Ice Cream",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Succulent Frosty",
-            "price": 7.57,
+            "name": "Homestyle Zingy Baked Alaska",
+            "price": 8.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,17 +628,26 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Fried Ice Cream Sandwich",
-            "price": 9.88,
-            "isVegetarian": false,
+            "name": "Classic Stuffed Frozen Banana",
+            "price": 7.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Braised Kulfi",
-            "price": 7.68,
+            "name": "Authentic Appetizing Frozen Mousse",
+            "price": 8.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Sizzling Paletas",
+            "price": 9.79,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,42 +660,15 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Discover our inviting drinks, perfectly paired with our Seafood cuisine",
+    "description": "Our bar showcases enticing spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Homestyle Juicy Margarita",
-            "price": 11.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Juicy Cosmopolitan",
-            "price": 10.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Hearty Bloody Mary",
-            "price": 10.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Whiskey Sour",
-            "price": 14.67,
+            "name": "Mojito",
+            "price": 12.39,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -703,17 +676,35 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Mojito",
-            "price": 12.23,
+            "name": "Negroni",
+            "price": 10.29,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bloody Mary",
+            "price": 15.23,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Manhattan",
-            "price": 10.17,
+            "name": "Cosmopolitan",
+            "price": 10.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 10.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,13 +712,22 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Martini",
-            "price": 14.44,
+            "name": "Old Fashioned",
+            "price": 12.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 14.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -736,17 +736,8 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
         "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Hearty Roasted Cabernet Sauvignon",
-            "price": 10.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Irresistible Syrah/Shiraz",
-            "price": 10.36,
+            "name": "Deluxe Grilled Gamay",
+            "price": 13.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +745,17 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Irresistible Dolcetto",
-            "price": 8.15,
+            "name": "Authentic Crunchy Champagne/Sparkling Wine",
+            "price": 11.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Luscious Cabernet Sauvignon",
+            "price": 11.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,17 +763,8 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sweet Gewürztraminer",
-            "price": 9.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Marsanne",
-            "price": 13.7,
+            "name": "Deluxe Exquisite Petit Verdot",
+            "price": 10.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -781,8 +772,17 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spicy Sangiovese",
-            "price": 12.93,
+            "name": "Fresh Spiced Pinot Blanc",
+            "price": 9.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Appetizing Pinot Grigio",
+            "price": 12.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -796,17 +796,8 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
         "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Authentic Pan-seared Limoncello",
-            "price": 10.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Herbed Amaretto",
-            "price": 16.09,
+            "name": "Premium Pan-seared Gin",
+            "price": 17.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,29 +805,38 @@ export const veniceseafoodBarKitchenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Sambuca",
-            "price": 14.79,
+            "name": "Authentic Irresistible St-Germain",
+            "price": 14.04,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Spiced Bénédictine",
+            "price": 16.51,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Aromatic Grappa",
-            "price": 15.65,
-            "isVegetarian": false,
+            "name": "Deluxe Stuffed Vodka",
+            "price": 16.05,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Sizzling Scotch",
-            "price": 10.2,
-            "isVegetarian": false,
+            "name": "Handcrafted Zingy Aquavit",
+            "price": 17.97,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

@@ -6,60 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Experience our chef's homestyle creations inspired by Venetian tradition",
+    "description": "Celebrate tradition and taste with our homestyle Venetian offerings",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 34.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Famous Duck Confit",
-            "price": 24.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 25.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 27.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 30.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 28.57,
+            "name": "Fresh Roasted Executive Chef's Daily Inspiration Entrée",
+            "price": 31.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,23 +22,95 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 36.15,
+            "name": "Authentic Flaky Age-Old Recipe Osso Buco with Gremolata",
+            "price": 29.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sweet Signature Truffle Pasta with Aged Pecorino",
+            "price": 31.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 31.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Hearty Whole Roasted Heritage Chicken",
+            "price": 37.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Classic Flaky Chef's Special Surf and Turf",
+            "price": 26.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Marinated Dry-Aged Tomahawk Steak",
+            "price": 37.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Handcrafted Mouthwatering Tableside Prepared Tartare",
-            "price": 39.14,
+            "name": "Wild Mushroom Risotto",
+            "price": 31.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Skin Sea Bass",
+            "price": 25.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chef's Market Inspiration of the Day",
+            "price": 36.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Truffle Risotto",
+            "price": 25.55,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -91,38 +118,11 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Sustainable Seafood Tower",
-            "price": 31.96,
+            "name": "Collaborative Limited Edition Special",
+            "price": 33.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Zingy Gourmet Vegetarian Wellington",
-            "price": 31.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Flavorful Truffle-Infused Filet Mignon",
-            "price": 38.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crunchy Dry-Aged Prime Beef Selection",
-            "price": 35.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,11 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Venetian culinary artistry.",
+        "description": "Traditional and reimagined Venetian appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Hearty Baked Baba Ganoush",
-            "price": 9.14,
+            "name": "House Special Crunchy Prawn Toast",
+            "price": 10.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,17 +142,17 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Pan-seared Potato Skins",
-            "price": 8.73,
+            "name": "Authentic Delicious Nachos",
+            "price": 15.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Appetizing Nachos",
-            "price": 8,
+            "name": "Seasonal Marinated Edamame",
+            "price": 11.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,128 +160,59 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Crostini",
-            "price": 8.08,
+            "name": "Seasonal Enticing Potstickers",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Tzatziki with Pita",
+            "price": 13.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Succulent Caprese Salad",
+            "price": 8.87,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Mouthwatering Mozzarella Sticks",
+            "price": 9.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Lettuce Wraps",
+            "price": 11.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Classic Herbed Falafel",
-            "price": 11.77,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Prawn Toast",
-            "price": 9.91,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Stuffed Tzatziki with Pita",
-            "price": 14.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Wholesome Cheese Platter",
-            "price": 13.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Venetian flavors and traditions.",
+        "description": "Each bowl is a journey through the heart of Venetian, crafted with care and expertise.",
         "items": [
           {
-            "name": "Beef Stew",
-            "price": 8.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Tomato Soup",
-            "price": 12.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Cheddar Soup",
-            "price": 7.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 7.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
-        "items": [
-          {
-            "name": "Quinoa Salad",
-            "price": 14.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 12.82,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 14.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 11.64,
+            "name": "Pho",
+            "price": 12.27,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -289,11 +220,80 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Salad",
-            "price": 10.42,
+            "name": "Lentil Soup",
+            "price": 12.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Clam Chowder",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Miso Soup",
+            "price": 10.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "items": [
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 13.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 15.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Waldorf Salad",
+            "price": 12.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tabbouleh",
+            "price": 12.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coleslaw",
+            "price": 14.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,56 +301,11 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
+        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
         "items": [
           {
-            "name": "Bibimbap",
-            "price": 23.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Jambalaya",
-            "price": 27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 31.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "price": 30.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 26.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "price": 30.02,
+            "name": "Authentic Herbed Moussaka",
+            "price": 27.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,8 +313,35 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Biryani",
-            "price": 20.23,
+            "name": "Authentic Roasted Quiche",
+            "price": 28.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Zesty Coq au Vin",
+            "price": 29.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Tangy Currywurst",
+            "price": 20.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Golden Risotto",
+            "price": 25.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,8 +349,26 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Currywurst",
-            "price": 30.31,
+            "name": "Authentic Spicy Salmon",
+            "price": 29.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Herbed Pizza",
+            "price": 24.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spicy Stuffed Peppers",
+            "price": 26.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,38 +379,20 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 32.72,
+            "name": "Authentic Baked Steamed Littleneck Clams in Garlic Broth",
+            "price": 28.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic British Fish and Chips",
-            "price": 23.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Maryland Style Crab Cakes",
-            "price": 31.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 35.34,
+            "name": "Traditional Delicious Seafood Gumbo with Okra",
+            "price": 30.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,23 +400,41 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sushi-Grade Sashimi Platter",
-            "price": 35.92,
+            "name": "Fresh Herbed Grilled Spanish Octopus with Smoked Paprika",
+            "price": 24.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Sushi-Grade Sashimi Platter",
+            "price": 24.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Smoked Cedar Plank Roasted Salmon",
+            "price": 27.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Israeli Couscous with Roasted Tomatoes",
-            "price": 5.08,
+            "name": "Classic Baked Mashed Potatoes",
+            "price": 9.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,47 +442,47 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 7.16,
+            "name": "Classic Enticing Soft Polenta with Parmesan",
+            "price": 5.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Baked Provencal Ratatouille",
+            "price": 5.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Creamed Spinach with Nutmeg",
+            "price": 6.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Herbed French Fries",
+            "price": 6.82,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 6.06,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 7.45,
-            "isVegetarian": true,
+            "name": "Fresh Satisfying Braised Red Cabbage with Apple",
+            "price": 7.29,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 9.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Truffle Parmesan Fries",
-            "price": 5.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -494,35 +494,8 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Smoothie",
-            "price": 7.34,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 6.7,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soda",
-            "price": 4.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 7.82,
-            "isVegetarian": false,
+            "price": 5.72,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -530,18 +503,45 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Hot Chocolate",
-            "price": 4.66,
+            "price": 7.92,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 6.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 5.98,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 7.93,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Soda",
+            "price": 7.78,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,15 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A curated selection of homemade desserts, inspired by Venetian heritage",
+    "description": "Our pastry chef's homemade creations to end your meal on a sweet note",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky croissants to rich breads—our oven's finest, ready to enjoy.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Homestyle Crunchy Scones",
-            "price": 10.92,
+            "name": "Classic Grilled Vanilla Cake",
+            "price": 10.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,17 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Tender Berry Tart",
-            "price": 10.12,
+            "name": "Fresh Spicy Cinnamon Rolls",
+            "price": 6.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Crunchy Eclairs",
+            "price": 7.69,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -577,68 +586,32 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Smoked Banana Bread",
-            "price": 8.11,
+            "name": "Fresh Flaky Lemon Bars",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Comforting Custard Tart",
-            "price": 7.47,
+            "name": "Hearty Zesty Donuts",
+            "price": 8.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Cobbler",
-            "price": 9.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kulfi",
-            "price": 8.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 7.72,
+            "name": "Classic Golden Frozen Banana",
+            "price": 11.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +619,35 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 7.92,
+            "name": "Homestyle Crispy Frozen Mousse",
+            "price": 8.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Wholesome Frozen Custard",
+            "price": 9.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Appetizing Popsicles",
+            "price": 8.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Exquisite Frozen Pudding",
+            "price": 8.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,33 +660,15 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A quality selection of alcoholic beverages to complement your meal",
+    "description": "Unwind with our balanced beverages crafted for connoisseurs and casual sippers alike",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Martini",
-            "price": 11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 12.81,
+            "name": "Traditional Grilled Whiskey Sour",
+            "price": 15.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +676,8 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 14.43,
+            "name": "Deluxe Irresistible Negroni",
+            "price": 12.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,8 +685,26 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 11.3,
+            "name": "House Special Grilled Cosmopolitan",
+            "price": 13.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Mojito",
+            "price": 12.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Delectable Mai Tai",
+            "price": 10.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,18 +712,18 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 15.45,
+            "name": "Authentic Smoked Manhattan",
+            "price": 10.07,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Mojito",
-            "price": 11.81,
-            "isVegetarian": false,
+            "name": "Hearty Spicy Old Fashioned",
+            "price": 12.02,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,11 +733,11 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A wine list as thoughtful and layered as our cuisine.",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Fresh Flaky Cabernet Sauvignon",
-            "price": 11.57,
+            "name": "Fresh Stuffed Cabernet Sauvignon",
+            "price": 10.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +745,8 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Stuffed Dolcetto",
-            "price": 12.64,
+            "name": "Classic Savory Pinot Blanc",
+            "price": 10.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,26 +754,17 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Creamy Sangiovese",
-            "price": 8.17,
-            "isVegetarian": true,
+            "name": "Traditional Irresistible Riesling",
+            "price": 13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Pinot Grigio",
-            "price": 12.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Albariño",
-            "price": 12.23,
+            "name": "Authentic Fried Verdicchio",
+            "price": 8.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,8 +772,17 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Crunchy Grenache",
-            "price": 10.7,
+            "name": "Premium Crunchy Torrontés",
+            "price": 9.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Marinated Sémillon",
+            "price": 9.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,38 +793,11 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Classic Enticing Bourbon",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Steamed Campari",
-            "price": 10.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Marinated St-Germain",
-            "price": 13.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Mouthwatering Baileys Irish Cream",
-            "price": 13.65,
+            "name": "Grappa",
+            "price": 14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,11 +805,38 @@ export const venicejapaneseSanctuaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Grappa",
-            "price": 17.22,
+            "name": "Triple Sec",
+            "price": 11.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 17.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scotch",
+            "price": 11.36,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
