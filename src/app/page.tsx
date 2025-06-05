@@ -7,80 +7,94 @@ import { cruiseDepartureLocations } from "@/lib/constants/info/city.ts";
 import { testimonials } from "@/lib/constants/info/testimonials";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import useSmallScreen from "@/hooks/useSmallScreen";
+import useMediumScreen from "@/hooks/useMediumScreen";
 
 export default function HomePage() {
   const router = useRouter();
+  const isSmallScreen = useSmallScreen();
+  const isMediumScreen = useMediumScreen();
   const sortedDestinations = groupAndSortByProperties(
     cruiseDepartureLocations,
     "isPopular",
-    "city",
+    "city"
   );
 
   const featuresList = [
     {
-      title: "Luxury Ocean Suites",
+      title: "Luxury Meets Exploration",
       description:
-        "Indulge in spacious staterooms with private balconies and premium amenities for the ultimate comfort at sea.",
-      icon: "🛳️",
+        "We combine premium accommodations, personalized service, and exquisite dining with breathtaking destinations for a seamless, indulgent experience at sea.",
+      icon: "🌊",
     },
     {
-      title: "Global Destinations",
+      title: "Curated Itineraries",
       description:
-        "Explore breathtaking ports of call across the Mediterranean, Caribbean, Alaska, and exotic locations worldwide.",
-      icon: "🌏",
+        "Every voyage is thoughtfully planned to include iconic ports, hidden gems, and immersive cultural excursions you won't find on standard cruise lines.",
+      icon: "🗺️",
     },
     {
-      title: "Gourmet Dining",
+      title: "Uncompromising Comfort",
       description:
-        "Savor world-class cuisine prepared by renowned chefs using fresh, locally-sourced ingredients from our ports of call.",
-      icon: "🍽️",
+        "From oceanview suites to spa-level amenities, our ships are designed for relaxation and refinement — no detail is overlooked.",
+      icon: "🛌",
     },
     {
-      title: "Curated Shore Excursions",
+      title: "World-Class Service",
       description:
-        "Discover local cultures and hidden gems with our expertly guided tours at each destination.",
-      icon: "🏛️",
+        "Our handpicked crew delivers attentive, discreet service that anticipates your every need, ensuring an exceptional onboard experience.",
+      icon: "⭐",
     },
     {
-      title: "Onboard Entertainment",
+      title: "Sustainable Voyaging",
       description:
-        "Enjoy Broadway-caliber shows, live music, casinos, and enrichment programs throughout your voyage.",
-      icon: "🎭",
+        "We’re committed to responsible travel, incorporating eco-conscious practices and supporting the preservation of the places we visit.",
+      icon: "♻️",
     },
     {
-      title: "Personalized Service",
+      title: "Tailored Experiences",
       description:
-        "Experience attentive care from our professional crew dedicated to making your journey extraordinary.",
-      icon: "👨‍✈️",
+        "Whether it’s a romantic getaway, family escape, or solo retreat, we offer flexible, customizable packages to match your travel style and goals.",
+      icon: "🎯",
     },
   ];
+
   return (
     <main className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       {/* Hero Section */}
-      <div>
-        <div className="flex md:flex-row flex-col items-center">
-          <div className="space-y-6 md:w-1/2">
-            <h1>Experience Luxury at Sea</h1>
+      <div className="flex md:flex-row flex-col items-center gap-7 mb-10 md:mb-16">
+        <div className="space-y-6 md:w-1/2">
+          <header className="mb-8">
+            <h1 className="text-left">Sail Beyond Expectations</h1>
+            <h5 className="text-left">Where Luxury Meets Discovery</h5>
             <p>
-              Embark on unforgettable voyages with Velari Voyages, your premier
-              cruise line offering extraordinary journeys to the world's most
-              captivating destinations.
+              Step aboard Velari Voyages and enter a world where refined
+              elegance, personalized service, and breathtaking destinations
+              redefine the cruising experience. Our curated journeys blend
+              five-star comfort with immersive exploration, offering you the
+              freedom to travel the world without compromise.
             </p>
-            <div className="flex sm:flex-row flex-col gap-4">
-              <Button>Book Your Cruise</Button>
-              <Button>View Destinations</Button>
-            </div>
+          </header>
+          <div className="flex sm:flex-row flex-col gap-4">
+            <Button>Book Your Cruise</Button>
+            <Button onClick={() => router.push("/cruises")}>
+              View Destinations
+            </Button>
           </div>
-          <div className="mt-12 md:mt-0 md:w-1/2">
-            <div className="relative shadow-2xl rounded-lg w-full h-64 md:h-96 overflow-hidden">
-              {/* Replace with actual cruise ship image */}
-              <div className="absolute inset-0 bg-gradient-to-br from-transparent to-blue-900/30" />
-              <div className="w-full h-full">
-                {/* Placeholder for cruise image */}
-                <div className="flex justify-center items-center h-full">
-                  Cruise Ship Image
-                </div>
-              </div>
+        </div>
+
+        <div className="mt-12 md:mt-0 md:w-1/2">
+          <div className="relative shadow-2xl rounded-lg w-full h-64 md:h-96 overflow-hidden">
+            {/* Replace with actual cruise ship image */}
+            <div className="absolute inset-0 bg-gradient-to-br from-transparent to-blue-900/30" />
+            <div className="w-full h-full">
+              <Image
+                src="https://images.unsplash.com/photo-1747134392471-831ea9a48e1e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+                alt="City"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -89,12 +103,51 @@ export default function HomePage() {
       {/* Features Section */}
       <section>
         <div>
-          <div className="mb-16 text-center">
+          <div className="mb-16">
             <h2>Why Choose Velari Voyages</h2>
-            <p>
-              We combine luxury amenities with extraordinary destinations to
-              create unforgettable cruise experiences.
-            </p>
+            <h5>
+              Elevating Every Journey with Style, Comfort, and Distinction
+            </h5>
+            {isSmallScreen ? (
+              <p>
+                At Velari Voyages, we redefine the cruise experience by blending
+                luxury with adventure, offering a unique blend of world-class
+                service and breathtaking destinations.
+              </p>
+            ) : isMediumScreen ? (
+              <p>
+                We combine immersive itineraries, exclusive shore excursions,
+                and indulgent onboard comforts—from gourmet cuisine to spa
+                sanctuaries—offering guests a journey that transcends
+                traditional cruising and delivers a truly unforgettable
+                experience in every destination we explore.
+              </p>
+            ) : (
+              <>
+                {" "}
+                <p>
+                  From the moment you step aboard, Velari Voyages welcomes you
+                  into a realm where every moment is designed with precision,
+                  elegance, and intent.
+                </p>
+                <p>
+                  Our ships are more than vessels—they are floating sanctuaries
+                  of sophistication, where five-star amenities, world-class
+                  service, and immersive cultural experiences converge. Every
+                  suite, every plate, every excursion is a reflection of our
+                  commitment to excellence. Whether you’re sipping champagne on
+                  a private balcony as the sun sets over Santorini or exploring
+                  the vibrant markets of Southeast Asia with expert local
+                  guides, each detail is curated to elevate your journey.
+                </p>
+                <p>
+                  We don’t just take you to breathtaking destinations—we
+                  transform how you experience them. With Velari Voyages, your
+                  voyage is not just a trip—it’s a passage into a world of
+                  timeless beauty, refined comfort, and unforgettable discovery.
+                </p>
+              </>
+            )}
           </div>
 
           <div className="gap-8 grid md:grid-cols-2 lg:grid-cols-3">
@@ -146,7 +199,7 @@ export default function HomePage() {
                       className="mt-4"
                       onClick={() =>
                         router.push(
-                          `/cruises/cruise-categories/velari-voyages-cruises/${trail.country}/${trail.city}?city=${trail.city}&country=${trail.country}`,
+                          `/cruises/cruise-categories/velari-voyages-cruises/${trail.country}/${trail.city}?city=${trail.city}&country=${trail.country}`
                         )
                       }
                     >
