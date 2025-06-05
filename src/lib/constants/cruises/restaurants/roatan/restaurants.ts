@@ -248,5 +248,160 @@ export const roatanRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Blue Fare",
+    "description": "A culinary gem serving French specialties including gourmet street food, where guests enjoy friendly service in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-516-9010",
+      "contactEmail": "services@grandnoodlebarroatan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Bouchon",
+    "description": "A culinary gem serving French specialties including local ingredients, where guests enjoy live street performances in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-787-6750",
+      "contactEmail": "hi@royalsocietyroatan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Smokehouse",
+    "description": "This popular Italian establishment combines traditional recipes and gourmet street food, all served in a unique setting with charming streetscapes.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-973-5465",
+      "contactEmail": "reception@thebar&kitchenroatan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Inn",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring local ingredients served in an atmosphere of seasonal floral displays overlooking the old town walls.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-459-8976",
+      "contactEmail": "welcome@goldencreperieroatan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Buffet",
+    "description": "Experience authentic Italian cuisine with a local twist, featuring regional wines served in an atmosphere of seasonal floral displays overlooking the river promenade.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-885-5557",
+      "contactEmail": "welcome@goldengrandcaferoatan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
