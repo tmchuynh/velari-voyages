@@ -1,3 +1,4 @@
+import { formatTitleToCamelCase } from "@/lib/utils/format.ts";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -1634,7 +1635,7 @@ const generateRandomRestaurants = (cityName, count) => {
         contactNumber: `+1-555-${Math.floor(Math.random() * 900) + 100}-${
           Math.floor(Math.random() * 9000) + 1000
         }`,
-        contactEmail: `info@${cuisine
+        contactEmail: `info@${formatTitleToCamelCase(getRandomName())
           .toLowerCase()
           .replace(/ /g, "")}${cityName}.com`,
       },
