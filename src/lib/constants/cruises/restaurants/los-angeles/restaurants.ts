@@ -248,5 +248,160 @@ export const losAngelesRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Studio Room",
+    "description": "Experience authentic Mexican cuisine with a local twist, featuring heritage recipes served in an atmosphere of beautiful decor overlooking the cultural center.",
+    "cuisine": "Mexican",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-966-8639",
+      "contactEmail": "reception@griffithmarketplacelos-angeles.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Venice Steakhouse",
+    "description": "A culinary gem serving American specialties including artisanal creations, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "Closed",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-663-7524",
+      "contactEmail": "reachus@dodgerstavernlos-angeles.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "LA Live Fare",
+    "description": "Located close to the waterfront, this Mexican restaurant delights with its signature dishes and local ambiance.",
+    "cuisine": "Mexican",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-127-2472",
+      "contactEmail": "clientservices@echoparkfarmtablelos-angeles.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Santa Monica Juice Bar",
+    "description": "Located close to the river promenade, this Mexican restaurant delights with its handcrafted desserts and charming streetscapes.",
+    "cuisine": "Mexican",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-770-4677",
+      "contactEmail": "contact@coastal&co.los-angeles.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Sunset Salumeria",
+    "description": "Experience authentic American cuisine with a local twist, featuring artisanal creations served in an atmosphere of artisan markets overlooking the iconic clock tower.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-598-4982",
+      "contactEmail": "contact@westsidegardenlos-angeles.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
