@@ -248,5 +248,160 @@ export const berlinRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Museum Island Cafe",
+    "description": "This popular Turkish establishment combines traditional recipes and Eisbein, all served in a unique setting with green parks.",
+    "cuisine": "Turkish",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-578-8561",
+      "contactEmail": "admin@brandenburg&co.berlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Brandenburg Cookhouse",
+    "description": "A charming Vietnamese restaurant near Alexanderplatz, offering schnitzel and other local favorites in a setting with avant-garde atmosphere.",
+    "cuisine": "Vietnamese",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-164-5214",
+      "contactEmail": "reception@charlottenburgseafoodshackberlin.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Bavarian Pizzeria",
+    "description": "A culinary gem serving Turkish specialties including German beer, where guests enjoy avant-garde atmosphere in the heart of the city.",
+    "cuisine": "Turkish",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-327-2721",
+      "contactEmail": "services@prussiansnackbarberlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Wall Tapas Bar",
+    "description": "This popular Vietnamese establishment combines traditional recipes and Kartoffelsalat, all served in a unique setting with green parks.",
+    "cuisine": "Vietnamese",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-343-2731",
+      "contactEmail": "contact@spreesmokehouseberlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Rhine Gastropub",
+    "description": "Experience authentic Vietnamese cuisine with a local twist, featuring Berliner Pfannkuchen served in an atmosphere of techno club scene overlooking East Side Gallery.",
+    "cuisine": "Vietnamese",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-410-2028",
+      "contactEmail": "contact@alexanderplatzcurryhouseberlin.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
