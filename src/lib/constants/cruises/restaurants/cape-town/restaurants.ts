@@ -248,5 +248,160 @@ export const capeTownRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Robben Island Lab",
+    "description": "This popular Indian establishment combines traditional recipes and fresh seafood, all served in a unique setting with ocean views.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "Closed",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-906-9697",
+      "contactEmail": "customerservice@bo-kaapestatecape-town.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Seabreeze Snack Bar",
+    "description": "Located close to Table Mountain, this French restaurant delights with its bobotie and multicultural influences.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-453-1852",
+      "contactEmail": "contact@westerncapetradingco.cape-town.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Atlantic Room",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring Cape Malay curry served in an atmosphere of African-inspired decor overlooking Signal Hill.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-771-5598",
+      "contactEmail": "customerservice@victoriawharftrattoriacape-town.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Cape Bouchon",
+    "description": "Located close to Bo-Kaap, this Seafood restaurant delights with its Cape Malay curry and artisan markets.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-755-8917",
+      "contactEmail": "support@penguinbrasseriecape-town.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Vineyard Trading Co.",
+    "description": "Located close to V&A Waterfront, this Seafood restaurant delights with its snoek fish and historic slave lodge.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-637-4593",
+      "contactEmail": "support@capepointjuicebarcape-town.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

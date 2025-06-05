@@ -6,42 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Inspired by tradition, driven by tasty execution",
+    "description": "Our tasty menu celebrating the flavors of Indian cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
         "items": [
           {
-            "name": "House Special Wholesome Local Bounty Harvest Plate (Vegetarian)",
-            "price": 24.2,
+            "name": "Chef's Special Surf and Turf",
+            "price": 30.18,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Golden Chef's Special Surf and Turf",
-            "price": 28.57,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Chef’s Wild Game Selection",
-            "price": 28.14,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 31.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Traditional Fried Secret Recipe Bouillabaisse",
-            "price": 24.36,
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 36.74,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -49,31 +40,40 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Chef's Childhood Inspired Creation",
-            "price": 34.44,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 26.18,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Baked Wood-Fired Peking Duck with Plum Sauce",
-            "price": 32.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Savory Seasonal Tasting Platter",
-            "price": 32.02,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Charcoal Grilled Iberico Pork",
+            "price": 26.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tasting Platter",
+            "price": 25.17,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Flambéed Tableside Specialty",
+            "price": 25.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
@@ -82,26 +82,35 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Traditional Zingy Tasting of Local Artisanal Cheeses",
-            "price": 30.67,
-            "isVegetarian": true,
+            "name": "House Special Spiced Tableside Flambé Preparation",
+            "price": 34.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Seasonal Farm-to-Table Vegetable Plate",
-            "price": 37.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "name": "Handcrafted Grilled Modern Interpretation of Regional Classic",
+            "price": 36.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Smoked Dry-Aged Prime Beef Selection",
-            "price": 25.05,
+            "name": "Deluxe Fried Seared Foie Gras with Fig Compote",
+            "price": 26.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spiced Truffle-Infused Filet Mignon",
+            "price": 39.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -109,50 +118,32 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Steamed Live-Fire Grilled Feature",
-            "price": 24.68,
+            "name": "Hearty Smoked Aged and House-Cured Charcuterie Selection",
+            "price": 30.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Pan-seared Deconstructed Classic with Modern Technique",
-            "price": 28.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Indian—perfect for sharing or savoring solo.",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Indian.",
         "items": [
           {
-            "name": "Potstickers",
-            "price": 10.57,
+            "name": "Spring Rolls",
+            "price": 15.44,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mozzarella Sticks",
-            "price": 13.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Puffs",
-            "price": 8.15,
+            "name": "Falafel",
+            "price": 10.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -160,8 +151,44 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Nachos",
-            "price": 12.31,
+            "name": "Garlic Knots",
+            "price": 12.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cheese Nachos",
+            "price": 8.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 13.08,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ceviche",
+            "price": 11.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Tacos",
+            "price": 14.71,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -169,36 +196,9 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deviled Eggs",
-            "price": 9.63,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 13.2,
+            "name": "Crostini",
+            "price": 11.17,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Edamame",
-            "price": 9.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezze Platter",
-            "price": 10.63,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -208,38 +208,38 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "Homestyle Luscious Corn Chowder",
-            "price": 11.95,
+            "name": "Gumbo",
+            "price": 13.36,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Peanut Soup (West African)",
+            "price": 9.91,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Savory Beef Stew",
-            "price": 7,
+            "name": "Avgolemono (Greek Lemon Soup)",
+            "price": 9.25,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Pan-seared Zuppa Toscana",
-            "price": 7.13,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Black Bean Soup",
-            "price": 11.13,
+            "name": "Gazpacho",
+            "price": 13.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -250,38 +250,20 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 11.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 14.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 10.57,
+            "name": "Orzo Salad",
+            "price": 13.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 13.17,
+            "name": "Chickpea Salad",
+            "price": 10.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -289,10 +271,28 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 15.18,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Nicoise Salad",
+            "price": 13.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Watermelon Feta Salad",
+            "price": 14.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 15.5,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,20 +301,11 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Shish Kebabs",
-            "price": 26.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 26.64,
+            "name": "Fresh Roasted Fajitas",
+            "price": 29.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -322,17 +313,35 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "price": 26.6,
+            "name": "Classic Aromatic Chicken Parmesan",
+            "price": 25.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Braised Steak",
+            "price": 26.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Currywurst",
-            "price": 24.47,
+            "name": "Gourmet Spicy Fish and Chips",
+            "price": 28.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Baked Bibimbap",
+            "price": 21.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,26 +349,17 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pulled Pork Sandwich",
-            "price": 30.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "price": 30.17,
-            "isVegetarian": false,
+            "name": "Fresh Smoked Burrito",
+            "price": 23.08,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "price": 26.1,
+            "name": "House Special Crunchy Grilled Chicken",
+            "price": 25.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,62 +367,62 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Beef Wellington",
-            "price": 18.77,
+            "name": "Authentic Crispy Stir-fry",
+            "price": 21.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Stuffed Flounder with Crab and Spinach",
-            "price": 31.94,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 33.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 35.05,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Prawn Curry in Coconut Masala",
-            "price": 22.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 25.47,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 23.41,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 33.33,
+            "name": "Tempura Soft Shell Crab",
+            "price": 32.3,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 32.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Valencian Seafood Paella",
+            "price": 33.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -433,26 +433,17 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
         "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
         "items": [
           {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 9.96,
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.91,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Creamed Spinach with Nutmeg",
-            "price": 7.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Pilaf with Herbs",
-            "price": 6.26,
+            "name": "Cauliflower Gratin with Gruyère",
+            "price": 9.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -460,8 +451,8 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Buttered Egg Noodles",
-            "price": 5.27,
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 5.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,19 +460,28 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 7.1,
+            "name": "Provencal Ratatouille",
+            "price": 8.18,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 7.79,
-            "isVegetarian": true,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 7.76,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Yukon Gold Potato Gratin",
+            "price": 9.77,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,20 +490,11 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Seasonal Roasted Coffee",
-            "price": 4.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Golden Water",
-            "price": 4.08,
+            "name": "Iced Tea",
+            "price": 5.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -511,40 +502,49 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Comforting Lemonade",
-            "price": 6.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Juice",
+            "price": 6.23,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Appetizing Milkshake",
-            "price": 4.34,
-            "isVegetarian": true,
+            "name": "Soda",
+            "price": 6.88,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Juice",
-            "price": 5.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Sautéed Soda",
-            "price": 6.87,
+            "name": "Lemonade",
+            "price": 6.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 4.41,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 4.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -552,33 +552,33 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Sweets reimagined – our homemade creations are the perfect ending",
+    "description": "A classic selection of desserts to complement your dining experience",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Deluxe Mouthwatering Fruit Galette",
-            "price": 6.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Hearty Smoked Pecan Pie",
+            "price": 10.19,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Chocolate Chip Cookies",
-            "price": 8.81,
+            "name": "Gourmet Fried Cupcakes",
+            "price": 7.6,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Delectable Pecan Pie",
-            "price": 9.43,
+            "name": "Deluxe Marinated Cinnamon Rolls",
+            "price": 9.33,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,18 +586,18 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Carrot Cake",
-            "price": 10.18,
+            "name": "Authentic Grilled Carrot Cake",
+            "price": 8.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Hearty Cannoli",
-            "price": 6.34,
-            "isVegetarian": true,
+            "name": "Traditional Zesty Danish Pastries",
+            "price": 7.41,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,11 +607,38 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From rich gelatos to refreshing sorbets, our frozen desserts are a must-try.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
             "name": "Frozen Custard",
-            "price": 10.54,
+            "price": 7.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 8.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sorbet",
+            "price": 9.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Fruit Bars",
+            "price": 11.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -620,35 +647,8 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
           },
           {
             "name": "Popsicles",
-            "price": 9.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 9.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 10.89,
+            "price": 8.54,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paletas",
-            "price": 9.05,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,42 +660,24 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A crisp array of beverages specially curated for our guests",
+    "description": "Indian-inspired drinks and classic favorites in our balanced selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 12.71,
-            "isVegetarian": true,
+            "name": "Manhattan",
+            "price": 13.68,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 13.86,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Negroni",
-            "price": 15.96,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 15.39,
+            "price": 13.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,9 +685,18 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.22,
+            "name": "Mojito",
+            "price": 14.35,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 13.16,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -713,18 +704,27 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 15.52,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 14.45,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.62,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Mai Tai",
+            "price": 14.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 13.62,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,29 +733,29 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Gewürztraminer",
-            "price": 8.49,
+            "name": "Deluxe Enticing Petit Verdot",
+            "price": 13.8,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fiano",
-            "price": 11.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Homestyle Irresistible Sangiovese",
+            "price": 8.8,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Merlot",
-            "price": 10.66,
+            "name": "Gourmet Crunchy Syrah/Shiraz",
+            "price": 9.07,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -763,29 +763,29 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Prosecco",
-            "price": 10.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabernet Sauvignon",
-            "price": 10.69,
+            "name": "Hearty Herbed Pinot Grigio",
+            "price": 12.63,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 12.96,
-            "isVegetarian": false,
+            "name": "Hearty Tangy Tempranillo",
+            "price": 8.35,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Roasted Cabernet Franc",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -796,17 +796,26 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
         "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Organic Smoked Cognac",
-            "price": 11.54,
+            "name": "Fresh Wholesome Grand Marnier",
+            "price": 13.72,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Gin",
+            "price": 12.09,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Spicy Armagnac",
-            "price": 13.96,
+            "name": "Organic Delicious Frangelico",
+            "price": 16.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -814,26 +823,17 @@ export const capeTowntableMountainBarbecueMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Exquisite Chambord",
-            "price": 11.46,
+            "name": "Authentic Juicy Campari",
+            "price": 15.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Fresh Zingy Rum",
-            "price": 11.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Fried Absinthe",
-            "price": 15.29,
+            "name": "Premium Enticing Galliano",
+            "price": 13.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
