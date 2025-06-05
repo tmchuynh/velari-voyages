@@ -5,11 +5,11 @@ import { parseArgs } from "./utils/file-utils.mjs";
 import { getLogger } from "./utils/logger.mjs";
 
 // Import and register commands
-import CreateCityCruiseFiles from './commands/create-city-cruise-files.mjs';
-import CreateRestaurantData from './commands/create-restaurant-data.mjs';
-import CreateRestaurantMenus from './commands/create-restaurant-menus.mjs';
-import CreateRestaurantTestimonials from './commands/create-restaurant-testimonials.mjs';
-import DeleteRestaurantMenuFiles from './commands/delete-restaurant-menu-files.mjs';
+import CreateCityCruiseFiles from "./commands/create-city-cruise-files.mjs";
+import CreateRestaurantData from "./commands/create-restaurant-data.mjs";
+import CreateRestaurantMenus from "./commands/create-restaurant-menus.mjs";
+import CreateRestaurantTestimonials from "./commands/create-restaurant-testimonials.mjs";
+import DeleteRestaurantMenuFiles from "./commands/delete-restaurant-menu-files.mjs";
 
 const registry = getCommandRegistry();
 const logger = getLogger();
@@ -68,7 +68,7 @@ const args = parseArgs(process.argv.slice(2), {
 
 // Show version if requested
 if (args.version) {
-  console.log(`Velari Voyages CLI v${config.get('version', '1.0.0')}`);
+  console.log(`Velari Voyages CLI v${config.get("version", "1.0.0")}`);
   process.exit(0);
 }
 

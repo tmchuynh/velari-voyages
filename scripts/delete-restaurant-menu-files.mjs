@@ -14,7 +14,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "restaurants",
 );
 
 // Get city files
@@ -41,7 +41,7 @@ async function deleteRestaurantFiles() {
   const answer = await new Promise((resolve) => {
     rl.question(
       `This will delete all restaurant files (except restaurants.ts) in ${cityFiles.length} cities. Continue? (y/n): `,
-      resolve
+      resolve,
     );
   });
 
@@ -62,7 +62,7 @@ async function deleteRestaurantFiles() {
     // Check if directory exists before proceeding
     if (!fs.existsSync(cityPath)) {
       console.log(
-        `Warning: Directory for ${cityDir} does not exist. Skipping.`
+        `Warning: Directory for ${cityDir} does not exist. Skipping.`,
       );
       missingCities++;
       continue;
@@ -77,7 +77,7 @@ async function deleteRestaurantFiles() {
         .filter((file) => file.endsWith(".ts") && file !== "restaurants.ts");
 
       console.log(
-        `Found ${files.length} restaurant files to delete in ${cityDir}...`
+        `Found ${files.length} restaurant files to delete in ${cityDir}...`,
       );
 
       // Delete each file
@@ -93,7 +93,7 @@ async function deleteRestaurantFiles() {
   }
 
   console.log(
-    `Operation complete. Deleted ${totalDeleted} restaurant files across ${processedCities} cities.`
+    `Operation complete. Deleted ${totalDeleted} restaurant files across ${processedCities} cities.`,
   );
   if (missingCities > 0) {
     console.log(`Note: ${missingCities} city directories were not found.`);

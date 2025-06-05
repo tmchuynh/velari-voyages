@@ -34,25 +34,25 @@ const APPEND_MODE = args.includes("--append") || args.includes("-a");
 const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const RESTAURANT_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--count="))?.split("=")[1] || "5",
-  10
+  10,
 );
 const APPEND_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--append-count="))?.split("=")[1] ||
     args.find((arg) => arg.startsWith("-ac="))?.split("=")[1] ||
     RESTAURANT_COUNT.toString(),
-  10
+  10,
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `${APPEND_MODE ? "Appending" : "Generating"} ${
     APPEND_MODE ? APPEND_COUNT : RESTAURANT_COUNT
-  } restaurants per city`
+  } restaurants per city`,
 );
 console.log(
   `Will ${
@@ -61,7 +61,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } restaurant files`
+  } restaurant files`,
 );
 
 // Generate restaurant data for a given city
@@ -70,7 +70,7 @@ const generateRestaurantsForCity = (cityName) => {
   const camelCaseCityName = cityName
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
     )
     .join("");
 
@@ -84,7 +84,7 @@ const generateRestaurantsForCity = (cityName) => {
     "cruises",
     "restaurants",
     cityName,
-    "restaurants.ts"
+    "restaurants.ts",
   );
 
   // Create directory if it doesn't exist
@@ -97,7 +97,7 @@ const generateRestaurantsForCity = (cityName) => {
   if (fs.existsSync(filePath)) {
     if (!APPEND_MODE && !REWRITE_MODE) {
       console.log(
-        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`
+        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`,
       );
       return;
     }
@@ -117,7 +117,7 @@ const generateRestaurantsForCity = (cityName) => {
       // Extract array from existing file using an improved regex
       // This pattern is more flexible with whitespace and formatting
       const match = content.match(
-        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/
+        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/,
       );
 
       if (match && match[1]) {
@@ -139,18 +139,18 @@ const generateRestaurantsForCity = (cityName) => {
           // Parse the extracted array
           existingRestaurants = JSON.parse(processedContent);
           console.log(
-            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`
+            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`,
           );
         } catch (e) {
           console.error(
             `Error parsing existing restaurants for ${cityName}:`,
-            e
+            e,
           );
           console.error(
             `Failed JSON content (first 200 chars): ${match[1].substring(
               0,
-              200
-            )}...`
+              200,
+            )}...`,
           );
 
           // Fall back to an alternative approach using eval in a controlled way
@@ -161,7 +161,7 @@ const generateRestaurantsForCity = (cityName) => {
             const safeEval = new Function(`return ${arrayContent}`);
             existingRestaurants = safeEval();
             console.log(
-              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`
+              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`,
             );
           } catch (evalError) {
             console.error("Alternative parsing also failed:", evalError);
@@ -175,7 +175,7 @@ const generateRestaurantsForCity = (cityName) => {
     } catch (e) {
       console.error(
         `Error reading existing restaurant file for ${cityName}:`,
-        e
+        e,
       );
     }
   }
@@ -189,14 +189,14 @@ const generateRestaurantsForCity = (cityName) => {
   // Validate we're actually appending if in append mode
   if (APPEND_MODE && existingRestaurants.length > 0) {
     console.log(
-      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`
+      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`,
     );
     if (
       restaurants.length !==
       existingRestaurants.length + newRestaurants.length
     ) {
       console.error(
-        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!"
+        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!",
       );
     }
   }
@@ -207,7 +207,7 @@ const generateRestaurantsForCity = (cityName) => {
     camelCaseCityName,
     restaurants,
     existingCount,
-    newCount
+    newCount,
   ) => {
     // Generate the file content
     const fileContent = `import { Restaurant } from "@/lib/types/types";
@@ -215,7 +215,7 @@ const generateRestaurantsForCity = (cityName) => {
 export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       restaurants,
       null,
-      2
+      2,
     )};
 `;
 
@@ -224,15 +224,15 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
 
     if (existingCount > 0) {
       console.log(
-        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`
+        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`,
       );
     } else if (REWRITE_MODE) {
       console.log(
-        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
+        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
       );
     } else {
       console.log(
-        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
+        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
       );
     }
   };
@@ -244,7 +244,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       existingRestaurants.length,
-      newRestaurants.length
+      newRestaurants.length,
     );
   } else {
     // Generate new restaurants with default count (either new file or rewrite mode)
@@ -254,7 +254,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       0,
-      restaurants.length
+      restaurants.length,
     );
   }
 };

@@ -14,7 +14,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 console.log(`Looking for testimonial files in: ${baseDir}`);
