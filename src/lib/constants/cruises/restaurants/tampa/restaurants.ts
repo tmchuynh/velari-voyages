@@ -248,5 +248,160 @@ export const tampaRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "American Creperie",
+    "description": "This popular Cuban establishment combines traditional recipes and seasonal specialties, all served in a unique setting with friendly service.",
+    "cuisine": "Cuban",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-606-1130",
+      "contactEmail": "help@spanishcreperietampa.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "American Juice Bar",
+    "description": "Experience authentic American cuisine with a local twist, featuring fresh produce served in an atmosphere of seasonal floral displays overlooking the iconic clock tower.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-616-6604",
+      "contactEmail": "mail@cubanosteriatampa.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Cantina",
+    "description": "A charming Cuban restaurant near downtown, offering farm-to-table meals and other local favorites in a setting with friendly service.",
+    "cuisine": "Cuban",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-835-8249",
+      "contactEmail": "contact@italianlocaltampa.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Nook",
+    "description": "A culinary gem serving Spanish specialties including regional wines, where guests enjoy live street performances in the heart of the city.",
+    "cuisine": "Spanish",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-792-1950",
+      "contactEmail": "connect@cubanculinarytampa.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Seafood Patisserie",
+    "description": "A culinary gem serving Cuban specialties including farm-to-table meals, where guests enjoy artisan markets in the heart of the city.",
+    "cuisine": "Cuban",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-614-8591",
+      "contactEmail": "connect@americanbistrotampa.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

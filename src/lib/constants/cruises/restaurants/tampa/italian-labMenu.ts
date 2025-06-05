@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const tampaitalianLabMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A flavorful dining experience featuring the essence of Cuban gastronomy",
+    "description": "Crafted with care, our authentic Cuban plates elevate every meal",
     "category": [
       {
         "name": "Signature Dishes",
         "description": "Our chef's pride—carefully selected Cuban specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Deluxe Stuffed Celebrity Favorite Lobster Dish",
-            "price": 34.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Crispy Tableside Carved Chateaubriand",
-            "price": 32.13,
+            "name": "Traditional Roasted Charcoal Grilled Iberico Pork",
+            "price": 27.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,8 +22,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spiced Chef's Special Surf and Turf",
-            "price": 31.9,
+            "name": "Handcrafted Herbed Restaurant's Namesake Signature Entrée",
+            "price": 26.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,35 +31,44 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Black Garlic Glazed Beef Tenderloin",
-            "price": 27.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Golden House Famous Duck Confit",
-            "price": 36.32,
+            "name": "Traditional Enticing Secret Recipe Bouillabaisse",
+            "price": 30.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Exquisite Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 36.8,
+            "name": "Premium Exquisite 24-Hour Braised Short Ribs",
+            "price": 33.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Baked Award-Winning Seafood Boil",
+            "price": 33.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Grilled Signature Truffle Pasta with Aged Pecorino",
-            "price": 30.88,
+            "name": "Traditional Exquisite Seasonal Tasting Menu Experience",
+            "price": 36.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Spiced Molecular Gastronomy Showcase Tasting",
+            "price": 32.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -82,17 +82,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Organic Stuffed Tomahawk Ribeye for Two",
-            "price": 36.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Crispy Freshly Harvested Seasonal Creation",
-            "price": 33.43,
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 39.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,41 +91,50 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Smoked and Slow-Roasted Heritage Meat",
-            "price": 34.13,
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 26.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Flambé Preparation",
+            "price": 29.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Sous Vide Pork Tenderloin",
+            "price": 35.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fire-Roasted Seasonal Centerpiece",
+            "price": 32.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Braised Seared Duck Breast with Cherry Reduction",
-            "price": 27.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Tableside Flambé Preparation",
-            "price": 34.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Cuban.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Cuban culinary artistry.",
         "items": [
           {
-            "name": "Homestyle Juicy Mini Crab Cakes",
-            "price": 12.03,
+            "name": "Mini Sliders",
+            "price": 15.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +142,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spicy Lettuce Wraps",
-            "price": 15.54,
+            "name": "Calamari",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,26 +151,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Exquisite Dumplings",
-            "price": 13.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Spinach Puffs",
-            "price": 14.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Smoked Bruschetta",
-            "price": 15.34,
+            "name": "Stuffed Avocado",
+            "price": 8.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +160,17 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Smoked Caprese Salad",
-            "price": 11.95,
+            "name": "Antipasto Platter",
+            "price": 12.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Crab Cakes",
+            "price": 12.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +178,17 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Marinated Mini Quesadillas",
-            "price": 10.88,
+            "name": "Zucchini Fries",
+            "price": 9.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hummus Platter",
+            "price": 15.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,10 +196,10 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Crispy Prawn Toast",
-            "price": 10.4,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Cheese Platter",
+            "price": 11.46,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,11 +208,20 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Fresh Satisfying Turkey and Wild Rice Soup",
-            "price": 8.4,
+            "name": "Homestyle Stuffed French Onion Soup",
+            "price": 10.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Baked Turkey and Wild Rice Soup",
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,50 +229,32 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Flaky Broccoli Cheddar Soup",
-            "price": 12.59,
+            "name": "Authentic Crispy Beef Stew",
+            "price": 11.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Avgolemono (Greek Lemon Soup)",
-            "price": 11.31,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Aromatic Minestrone",
-            "price": 7.44,
+            "name": "Authentic Grilled Broccoli Cheddar Soup",
+            "price": 9.27,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Apple Pecan Salad",
-            "price": 13.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 11.5,
+            "name": "Spinach Salad",
+            "price": 12.29,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -271,29 +262,38 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 12.83,
-            "isVegetarian": false,
+            "name": "Quinoa Salad",
+            "price": 14.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Nicoise Salad",
-            "price": 11.78,
-            "isVegetarian": false,
+            "name": "Orzo Salad",
+            "price": 12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 14.91,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Waldorf Salad",
-            "price": 9.83,
-            "isVegetarian": false,
+            "name": "Cucumber Salad",
+            "price": 10,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,11 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our Cuban vision.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Seasonal Stuffed Lentil Stew",
-            "price": 28.6,
+            "name": "Spaghetti Bolognese",
+            "price": 26.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,53 +313,53 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Coq au Vin",
-            "price": 20.52,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Beef Burger",
+            "price": 23.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 28.89,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Burrito",
-            "price": 22.42,
+            "name": "Pulled Pork Sandwich",
+            "price": 21.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Baked Korma",
-            "price": 18.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sweet Bibimbap",
-            "price": 30.73,
+            "name": "Roast Duck",
+            "price": 26.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Pan-seared Lamb Chops",
-            "price": 23.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Fresh Steamed Biryani",
-            "price": 20.14,
+            "name": "Stuffed Peppers",
+            "price": 20.18,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pho",
+            "price": 19.61,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,23 +367,23 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Luscious Chili con Carne",
-            "price": 23.9,
+            "name": "Steak",
+            "price": 31.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Handcrafted Fried Lemon-Herb Calamari Steak",
-            "price": 27.17,
+            "name": "Hearty Juicy Prawn Curry in Coconut Masala",
+            "price": 27.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +391,17 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Marinated Stuffed Flounder with Crab and Spinach",
-            "price": 26.32,
+            "name": "Handcrafted Succulent Sushi-Grade Sashimi Platter",
+            "price": 29.42,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Roasted Baked Cod with Lemon Caper Sauce",
+            "price": 22.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +409,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tangy Seared Tuna Steak with Sesame Crust",
-            "price": 24.99,
+            "name": "Fresh Hearty Seafood Gumbo with Okra",
+            "price": 33.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +418,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Hearty Grilled Spanish Octopus with Smoked Paprika",
-            "price": 25.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Sizzling Valencian Seafood Paella",
-            "price": 33.76,
+            "name": "Classic Zesty Crab-Stuffed Mushrooms",
+            "price": 32.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,38 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Classic Cuban side dishes with our own unique interpretation.",
+        "description": "Each side is a testament to our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 7.63,
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 5.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 8.56,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 9.62,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steamed Jasmine Rice",
-            "price": 8.17,
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 9.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -452,25 +470,7 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
           },
           {
             "name": "Wild Rice Pilaf",
-            "price": 7.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Beans",
-            "price": 5.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "French Fries",
-            "price": 8.49,
+            "price": 9.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,9 +478,9 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soft Polenta with Parmesan",
-            "price": 6.78,
-            "isVegetarian": true,
+            "name": "Chili Lime Roasted Chickpeas",
+            "price": 5.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,20 +490,11 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Flavorful, alcohol-free options that never compromise on taste or presentation.",
         "items": [
           {
-            "name": "Smoothie",
-            "price": 5.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.77,
+            "name": "Coffee",
+            "price": 5.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,16 +503,7 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 7.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.74,
+            "price": 7.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,17 +511,35 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 4.29,
+            "name": "Milkshake",
+            "price": 5.48,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 5.03,
+            "name": "Water",
+            "price": 7.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 7.54,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,15 +552,15 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Experience the art of classic desserts with a Cuban twist",
+    "description": "Crafted with passion, our comforting desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Madeleines",
-            "price": 6.79,
+            "name": "Fresh Steamed Fruit Galette",
+            "price": 6.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soufflé",
-            "price": 6.79,
+            "name": "Fresh Hearty Cobbler",
+            "price": 7.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,17 +577,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sticky Toffee Pudding",
-            "price": 6.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 8.13,
+            "name": "Handcrafted Appetizing Strawberry Shortcake",
+            "price": 10.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,9 +586,18 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vanilla Cake",
-            "price": 8.3,
-            "isVegetarian": true,
+            "name": "Hearty Savory Berry Tart",
+            "price": 9.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Smoked Lemon Bars",
+            "price": 8.61,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,11 +607,11 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Frosty",
-            "price": 11.17,
+            "name": "House Special Sizzling Granita",
+            "price": 11.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,26 +619,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Granita",
-            "price": 9.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Custard",
-            "price": 9.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 7.41,
+            "name": "Homestyle Grilled Ice Cream",
+            "price": 7.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,13 +628,31 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 12,
+            "name": "Fresh Baked Paletas",
+            "price": 9.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Delectable Frozen Fruit Bars",
+            "price": 10.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Kulfi",
+            "price": 7.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }
@@ -660,15 +660,15 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Discover our carefully chosen drinks, perfectly paired with our Cuban cuisine",
+    "description": "A carefully chosen selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From timeless classics to modern masterpieces, our cocktails are crafted to impress.",
+        "description": "Crafted with care, our cocktails are a perfect pairing for any dish on our menu.",
         "items": [
           {
-            "name": "Margarita",
-            "price": 11.76,
+            "name": "Homestyle Grilled Manhattan",
+            "price": 13.47,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +676,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 15.62,
+            "name": "Hearty Zingy Whiskey Sour",
+            "price": 10.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,35 +685,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 13.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 14.52,
+            "name": "Authentic Crispy Mojito",
+            "price": 14.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,11 +694,38 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.14,
+            "name": "Homestyle Herbed Mai Tai",
+            "price": 15.7,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Juicy Martini",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Negroni",
+            "price": 10.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flaky Bloody Mary",
+            "price": 11.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Vouvray",
-            "price": 10.68,
+            "name": "Homestyle Pan-seared Pinot Grigio",
+            "price": 10.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +745,8 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 9.64,
+            "name": "Seasonal Golden Pinot Noir",
+            "price": 11.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,37 +754,37 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mourvèdre",
-            "price": 13.65,
+            "name": "Traditional Pan-seared Torrontés",
+            "price": 13.01,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chenin Blanc",
-            "price": 12.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Dolcetto",
-            "price": 12.18,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 11.31,
+            "name": "Authentic Grilled Riesling",
+            "price": 8.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Satisfying Vouvray",
+            "price": 10.5,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Juicy Zinfandel",
+            "price": 11.6,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,47 +793,47 @@ export const tampaitalianLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "Explore the depth of our spirits menu, where each pour is a discovery.",
         "items": [
           {
-            "name": "Classic Hearty Brandy",
-            "price": 12.86,
-            "isVegetarian": false,
+            "name": "Deluxe Baked Limoncello",
+            "price": 10.33,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Whiskey",
-            "price": 11.88,
+            "name": "Fresh Marinated Brandy",
+            "price": 17.87,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Grilled Anisette",
+            "price": 16.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Cointreau",
-            "price": 16.92,
+            "name": "Gourmet Baked Absinthe",
+            "price": 13.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Hearty Mezcal",
-            "price": 11.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Pan-seared Amaretto",
-            "price": 12.54,
+            "name": "Homestyle Roasted Cognac",
+            "price": 17.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,

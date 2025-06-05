@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const tampaspanishChophouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "An immersive dining experience defined by tasty Italian cuisine",
+    "description": "A flavorful fusion of authentic and authentic Italian dishes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
+        "description": "House favorites that have stood the test of time and showcase our refined approach to Italian cuisine.",
         "items": [
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 33.98,
+            "name": "Deluxe Aromatic Restaurant's Namesake Signature Entrée",
+            "price": 27.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,26 +22,17 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 35.28,
-            "isVegetarian": true,
+            "name": "Deluxe Luscious Secret Recipe Bouillabaisse",
+            "price": 31.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 31.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 33.37,
+            "name": "Traditional Pan-seared Dry-Aged Tomahawk Steak",
+            "price": 24.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,8 +40,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Family Paella",
-            "price": 34.34,
+            "name": "Homestyle Tangy Signature Truffle Pasta with Aged Pecorino",
+            "price": 27.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,71 +49,80 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 27.28,
-            "isVegetarian": false,
+            "name": "Fresh Flaky Age-Old Recipe Osso Buco with Gremolata",
+            "price": 33.32,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 26.37,
+            "name": "Authentic Hearty Founder's Family Recipe Pasta",
+            "price": 34.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Steamed Whole Roasted Heritage Chicken",
+            "price": 32.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
         "items": [
           {
-            "name": "Organic Herbed Chef's Tasting Menu Experience",
-            "price": 27.36,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 32.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Prepared Tartare",
+            "price": 26.41,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Live-Fire Grilled Feature",
-            "price": 36.74,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Lobster Thermidor",
+            "price": 29.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Flambé Preparation",
+            "price": 28.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 24.16,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Zingy Lobster Thermidor",
-            "price": 34.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crispy Modern Interpretation of Regional Classic",
-            "price": 27.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Braised Seasonal Farm-to-Table Vegetable Plate",
-            "price": 36.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,11 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Classic Smoked Stuffed Jalapeños",
-            "price": 13.03,
+            "name": "Homestyle Flaky Sweet Potato Fries",
+            "price": 8.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -142,26 +142,53 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Pan-seared Stuffed Mushrooms",
-            "price": 10.31,
+            "name": "Fresh Satisfying Cheese Nachos",
+            "price": 10.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Baked Brie",
+            "price": 14.27,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Roasted Nachos",
+            "price": 10.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Stuffed Mushrooms",
+            "price": 13.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Caprese Salad",
+            "price": 14.17,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Nachos",
-            "price": 11.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Herbed Mozzarella Sticks",
-            "price": 14.64,
+            "name": "Homestyle Zesty Tzatziki with Pita",
+            "price": 10.78,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,36 +196,9 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Tuna Tartare",
-            "price": 10.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Ceviche",
-            "price": 14.36,
+            "name": "House Special Herbed Spring Rolls",
+            "price": 11.71,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Wholesome Tzatziki with Pita",
-            "price": 13.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Caprese Salad",
-            "price": 9.97,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,11 +208,11 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Italian, crafted with care and expertise.",
+        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
         "items": [
           {
-            "name": "Butternut Squash Soup",
-            "price": 12.59,
+            "name": "Cabbage Soup",
+            "price": 12.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,9 +220,9 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mushroom Soup",
-            "price": 11.59,
-            "isVegetarian": false,
+            "name": "Thai Coconut Soup",
+            "price": 8.28,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -230,31 +230,49 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "French Onion Soup",
-            "price": 9.46,
+            "price": 11.57,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chicken Corn Soup",
-            "price": 9.62,
+            "name": "Chicken Noodle Soup",
+            "price": 11.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 10.21,
+            "name": "Orzo Salad",
+            "price": 11.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 13.04,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 9.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,38 +280,20 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 14.13,
-            "isVegetarian": false,
+            "name": "Cobb Salad",
+            "price": 15.05,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 15.52,
+            "name": "Chef Salad",
+            "price": 12.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 10.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,20 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From hearty classics to modern interpretations, our mains are a feast for the senses.",
+        "description": "A selection of mains that reflect the heart and soul of Italian, prepared with care.",
         "items": [
           {
-            "name": "Vegetable Stir-Fry",
-            "price": 29.34,
+            "name": "Hearty Satisfying Cottage Pie",
+            "price": 30.8,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 26.57,
+            "name": "Homestyle Zingy Salmon",
+            "price": 18.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,26 +322,17 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "price": 19.75,
+            "name": "Authentic Marinated Fish and Chips",
+            "price": 28.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Pasta Primavera",
-            "price": 25.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "price": 29.79,
+            "name": "Gourmet Exquisite Eggplant Parmesan",
+            "price": 26.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -349,8 +340,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 21.93,
+            "name": "Premium Marinated Paella",
+            "price": 18.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,41 +349,41 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Shakshuka",
-            "price": 30.36,
+            "name": "Premium Crispy Enchiladas",
+            "price": 25.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Wholesome Lasagna",
+            "price": 25.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Steak",
+            "price": 23.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Biryani",
-            "price": 23.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
         "items": [
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 25.73,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 32.28,
+            "name": "Premium Spiced Grilled Swordfish with Mango Chutney",
+            "price": 27.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +391,17 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Italian Cioppino",
-            "price": 26.66,
+            "name": "Traditional Grilled Pan-Seared Scallops with Pea Purée",
+            "price": 35.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Tangy Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 35.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,32 +409,32 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 33.31,
+            "name": "Traditional Crispy Shrimp Scampi over Linguine",
+            "price": 35.74,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 28.93,
+            "name": "Authentic Crunchy Cajun Shrimp and Grits",
+            "price": 31.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
+        "description": "Flavor-packed sides made to share—or keep all to yourself.",
         "items": [
           {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 7.76,
+            "name": "Steamed Jasmine Rice",
+            "price": 7.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,8 +442,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.71,
+            "name": "Soft Polenta with Parmesan",
+            "price": 8.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,37 +451,37 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mashed Potatoes",
-            "price": 8.18,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 5.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sweet Potato Wedges with Smoked Paprika",
+            "price": 8.75,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maple-Glazed Baby Carrots",
+            "price": 6.43,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 6.01,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 7.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Macaroni and Aged Cheddar",
-            "price": 7.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Provencal Ratatouille",
-            "price": 7.63,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,11 +490,20 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 5.6,
+            "name": "Tea",
+            "price": 4.53,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Juice",
+            "price": 6.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,8 +511,26 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Milkshake",
+            "price": 7.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.37,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Water",
-            "price": 5.79,
+            "price": 7.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -512,37 +539,10 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 4.21,
+            "price": 7.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.7,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 5.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 5.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,16 +552,43 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: classic desserts for every taste",
+    "description": "Italian-inspired comforting confections to delight your senses",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Custard Tart",
-            "price": 7.38,
+            "name": "Crumb Cake",
+            "price": 8.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 8.9,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 8.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 6.57,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -569,36 +596,9 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
           },
           {
             "name": "Apple Pie",
-            "price": 6.33,
+            "price": 7.64,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Donuts",
-            "price": 9.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 9.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sticky Toffee Pudding",
-            "price": 7.98,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,11 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Premium Creamy Semifreddo",
-            "price": 9.99,
+            "name": "Frozen Banana",
+            "price": 8.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,8 +619,17 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Steamed Frozen Pie",
-            "price": 10.42,
+            "name": "Baked Alaska",
+            "price": 11.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Cake",
+            "price": 7.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,17 +637,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Exquisite Ice Cream",
-            "price": 7.25,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Sherbet",
-            "price": 11.44,
+            "name": "Gelato",
+            "price": 10.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +646,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spicy Frozen Cheesecake",
-            "price": 8,
+            "name": "Kulfi",
+            "price": 9.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,33 +660,24 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our easygoing collection of spirits and cocktails to enhance your dining experience",
+    "description": "Unwind with our delightful beverages crafted for connoisseurs and casual sippers alike",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
         "items": [
           {
-            "name": "Authentic Juicy Negroni",
-            "price": 14.99,
+            "name": "Authentic Roasted Bloody Mary",
+            "price": 15.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Grilled Mojito",
-            "price": 14.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Mouthwatering Martini",
-            "price": 10.93,
+            "name": "Handcrafted Braised Martini",
+            "price": 12.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,8 +685,26 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Luscious Whiskey Sour",
-            "price": 15.53,
+            "name": "Fresh Herbed Mai Tai",
+            "price": 15.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Herbed Cosmopolitan",
+            "price": 11.87,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Flaky Negroni",
+            "price": 15.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,17 +712,8 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Stuffed Cosmopolitan",
-            "price": 14.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Flaky Manhattan",
-            "price": 11.3,
+            "name": "Traditional Satisfying Whiskey Sour",
+            "price": 13.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,11 +721,11 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Steamed Mai Tai",
-            "price": 13.58,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Homestyle Flavorful Mojito",
+            "price": 13.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Handcrafted Tender Torrontés",
-            "price": 10.92,
+            "name": "Homestyle Pan-seared Verdicchio",
+            "price": 12.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,43 +745,43 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Sangiovese",
-            "price": 10,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Sizzling Petit Verdot",
-            "price": 13.12,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Luscious Vouvray",
-            "price": 12.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sweet Prosecco",
-            "price": 9.81,
+            "name": "Fresh Golden Petit Verdot",
+            "price": 11.35,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Fiano",
+            "name": "Deluxe Golden Syrah/Shiraz",
+            "price": 10.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Cabernet Franc",
+            "price": 9.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Vouvray",
+            "price": 11.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Mouthwatering Cabernet Sauvignon",
             "price": 11.76,
             "isVegetarian": true,
             "isVegan": false,
@@ -793,20 +793,38 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Handcrafted Delicious Drambuie",
-            "price": 10.68,
+            "name": "Authentic Delicious Vodka",
+            "price": 10.78,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sizzling Gin",
+            "price": 11.43,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Savory Absinthe",
-            "price": 16.72,
+            "name": "Homestyle Braised Galliano",
+            "price": 14.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Exquisite Coffee Liqueur",
+            "price": 14.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,27 +832,9 @@ export const tampaspanishChophouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Crunchy Maraschino",
-            "price": 12.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Tequila",
-            "price": 14.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Satisfying Vodka",
-            "price": 15.45,
-            "isVegetarian": false,
+            "name": "Organic Flaky Chartreuse",
+            "price": 14.83,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

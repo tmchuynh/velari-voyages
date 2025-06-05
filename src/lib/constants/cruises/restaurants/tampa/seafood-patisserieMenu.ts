@@ -1,47 +1,29 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for American Gallery in tampa
+ * Menu data for Seafood Patisserie in tampa
  */
-export const tampaamericanGalleryMenu: RestaurantMenu[] = [
+export const tampaseafoodPatisserieMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of authentic Seafood dishes",
+    "description": "Our kitchen presents an array of classic offerings from across the Cuban spectrum",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Our chef's pride—carefully selected Cuban specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Gourmet Stuffed Flambéed Tableside Specialty",
-            "price": 36.16,
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 27.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Crispy Award-Winning Seafood Boil",
-            "price": 37.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Roasted Chef's Childhood Inspired Creation",
-            "price": 30.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Sautéed Signature Truffle Pasta with Aged Pecorino",
-            "price": 25.34,
+            "name": "Chef's Childhood Inspired Creation",
+            "price": 33.88,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,26 +31,44 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Whole Roasted Heritage Chicken",
-            "price": 34.33,
+            "name": "Chef's Special Surf and Turf",
+            "price": 29.83,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Famous Duck Confit",
+            "price": 37.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Hearty Spiced Black Garlic Glazed Beef Tenderloin",
-            "price": 28.78,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 34.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Zingy Traditional Family Paella",
-            "price": 32.19,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 36,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.8,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -79,38 +79,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Aged and House-Cured Charcuterie Selection",
-            "price": 28.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Favorite Reimagined",
-            "price": 29.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Quail with Truffle Jus",
-            "price": 32.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hand-Selected Wine Pairing Experience",
-            "price": 30.07,
+            "name": "Handcrafted Crunchy Whole Animal Butchery Showcase",
+            "price": 32.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -118,11 +91,38 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cedar Plank Salmon",
-            "price": 24.4,
+            "name": "Premium Hearty Locally Foraged Mushroom Selection",
+            "price": 32.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Fried House Specialty Pasta Creation",
+            "price": 30.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Spiced Seared Duck Breast with Cherry Reduction",
+            "price": 36.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Flaky Black Garlic Marinated Octopus",
+            "price": 28.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -130,11 +130,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Seafood—perfect for sharing or savoring solo.",
+        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
         "items": [
           {
-            "name": "Spring Rolls",
-            "price": 8.88,
+            "name": "Seasonal Grilled Spinach Artichoke Dip",
+            "price": 15.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,77 +142,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Jalapeños",
-            "price": 12.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Sliders",
-            "price": 9.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zucchini Fries",
-            "price": 12.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Quesadillas",
-            "price": 8.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 8.07,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potstickers",
-            "price": 15.11,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Edamame",
-            "price": 15.31,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Seafood, crafted with care and expertise.",
-        "items": [
-          {
-            "name": "Clam Chowder",
-            "price": 9.92,
+            "name": "Deluxe Exquisite Tuna Tartare",
+            "price": 12.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,8 +151,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Cabbage Soup",
-            "price": 7.37,
+            "name": "Handcrafted Zesty Calamari",
+            "price": 13.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,8 +160,17 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Miso Soup",
-            "price": 9.95,
+            "name": "Authentic Grilled Mezze Platter",
+            "price": 10.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Sautéed Bruschetta",
+            "price": 11.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,8 +178,68 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "French Onion Soup",
-            "price": 13.42,
+            "name": "Fresh Delicious Mini Crab Cakes",
+            "price": 11.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Delectable Tzatziki with Pita",
+            "price": 8.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Shrimp Cocktail",
+            "price": 9.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
+        "items": [
+          {
+            "name": "Mushroom Soup",
+            "price": 12.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Corn Chowder",
+            "price": 10.21,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tomato Soup",
+            "price": 7.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pumpkin Soup",
+            "price": 11.97,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -250,30 +250,21 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Kale Salad",
-            "price": 14.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Quinoa Salad",
+            "price": 13.7,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 10.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 15.44,
-            "isVegetarian": false,
+            "name": "Chef Salad",
+            "price": 14.99,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -281,7 +272,7 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Waldorf Salad",
-            "price": 15.24,
+            "price": 9.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,8 +280,17 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 15.58,
+            "name": "Roasted Beet and Goat Cheese Salad",
+            "price": 14.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 14.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,11 +301,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with passion and precision, our mains are designed to impress.",
+        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
         "items": [
           {
-            "name": "Premium Delicious Quiche",
-            "price": 28.64,
+            "name": "Traditional Spiced Cottage Pie",
+            "price": 22.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,8 +313,26 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Pesto Pasta",
-            "price": 28.17,
+            "name": "Seasonal Succulent Eggplant Parmesan",
+            "price": 29.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Delectable Salmon",
+            "price": 26.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Tangy Grilled Chicken",
+            "price": 31.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +340,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Delectable Grilled Chicken",
-            "price": 19.93,
+            "name": "Authentic Tender Pho",
+            "price": 31.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -331,8 +349,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Mouthwatering Vegetable Stir-Fry",
-            "price": 24.83,
+            "name": "Fresh Grilled Spaghetti Bolognese",
+            "price": 27.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,17 +358,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Hearty Beef Burger",
-            "price": 26.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spiced Currywurst",
-            "price": 25.93,
+            "name": "Fresh Creamy Mac and Cheese",
+            "price": 30.07,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,20 +367,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Fried Lentil Stew",
-            "price": 18.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Pasta Primavera",
-            "price": 25.95,
+            "name": "Premium Irresistible Bibimbap",
+            "price": 25.7,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,29 +379,29 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 34.92,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 27.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 22.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
             "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 29.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Baked Cod with Lemon Caper Sauce",
-            "price": 22.41,
+            "price": 29.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +409,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pan-Seared Scallops with Pea Purée",
-            "price": 22.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Tempura Soft Shell Crab",
-            "price": 31.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
-        "items": [
-          {
-            "name": "Authentic Stuffed Truffle Parmesan Fries",
-            "price": 7.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Crispy Beer-Battered Onion Rings",
-            "price": 9.73,
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 34.72,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +418,23 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Crispy Zucchini Fritters",
-            "price": 9.19,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 29.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Crafted to enhance your meal, these sides are a celebration of Cuban flavors.",
+        "items": [
+          {
+            "name": "Quinoa Pilaf with Herbs",
+            "price": 7.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,17 +442,26 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Soft Polenta with Parmesan",
-            "price": 9.57,
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 7.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 6.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Traditional Marinated Corn on the Cob with Chili Lime Butter",
-            "price": 7.01,
+            "name": "Provencal Ratatouille",
+            "price": 7.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -478,8 +469,17 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Pan-seared Stuffed Bell Peppers with Brown Rice",
-            "price": 7.16,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Rice Pilaf",
+            "price": 6.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,20 +490,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 4.65,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 4.12,
+            "name": "Smoothie",
+            "price": 5.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +502,35 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.54,
+            "name": "Lemonade",
+            "price": 4.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tea",
+            "price": 7.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 4.1,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -521,28 +539,10 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 6.3,
+            "price": 5.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 7.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Every dessert tells a homemade story of flavor and craftsmanship",
+    "description": "Elevate your evening with our homemade dessert course",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Deluxe Fried Apple Pie",
-            "price": 10.23,
+            "name": "Organic Marinated Strawberry Shortcake",
+            "price": 8.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Muffins",
-            "price": 9.49,
+            "name": "Traditional Sweet Crumb Cake",
+            "price": 6.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +577,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Lemon Bars",
-            "price": 6.86,
+            "name": "Organic Spicy Red Velvet Cake",
+            "price": 10.32,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,8 +586,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Portuguese Custard Tarts",
-            "price": 10.7,
+            "name": "Authentic Exquisite Pecan Pie",
+            "price": 9.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,8 +595,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Herbed Vanilla Cake",
-            "price": 9.49,
+            "name": "Classic Tangy Banana Bread",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,38 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
+        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Frozen Pudding",
+            "name": "Fresh Sweet Frozen Pudding",
+            "price": 11.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zesty Frozen Cheesecake",
             "price": 9.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Crunchy Ice Cream",
+            "price": 9.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crispy Sorbet",
+            "price": 9.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,35 +646,8 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 9.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pie",
-            "price": 9.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Cake",
-            "price": 11.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 9.81,
+            "name": "Organic Herbed Frozen Custard",
+            "price": 9.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,51 +660,15 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "From wines to spirits: delightful choices for every palate",
+    "description": "Our thoughtfully selected collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Martini",
-            "price": 12.46,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 13.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 12.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 15.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mai Tai",
-            "price": 14.83,
+            "price": 14.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,9 +676,18 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 14.76,
-            "isVegetarian": true,
+            "name": "Mojito",
+            "price": 14.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cosmopolitan",
+            "price": 15.18,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -722,8 +695,35 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.2,
+            "price": 10.85,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 15.55,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 10.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.91,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -733,38 +733,11 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Seasonal Grilled Pinot Grigio",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Pan-seared Merlot",
-            "price": 12.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Chenin Blanc",
-            "price": 8.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Stuffed Gewürztraminer",
-            "price": 10.79,
+            "name": "Gewürztraminer",
+            "price": 9.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -772,19 +745,46 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sizzling Riesling",
-            "price": 8.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crunchy Prosecco",
-            "price": 9.76,
+            "name": "Sémillon",
+            "price": 9.18,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 12.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sauvignon Blanc",
+            "price": 13.35,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 9.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Moscato",
+            "price": 8.54,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,29 +793,20 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Pisco",
-            "price": 12.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tequila",
-            "price": 17.88,
+            "name": "Handcrafted Herbed Amaretto",
+            "price": 12.97,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 17.71,
+            "name": "Gourmet Crispy Vodka",
+            "price": 16.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,22 +814,31 @@ export const tampaamericanGalleryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sambuca",
-            "price": 17.33,
+            "name": "Organic Succulent Chambord",
+            "price": 14.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Chambord",
-            "price": 15.9,
+            "name": "Hearty Flaky Pisco",
+            "price": 12.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Juicy Calvados",
+            "price": 11.82,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
