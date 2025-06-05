@@ -248,5 +248,160 @@ export const glacierBayRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "The Seafood Shack",
+    "description": "A charming French restaurant near the city museum, offering gourmet street food and other local favorites in a setting with charming streetscapes.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-187-4628",
+      "contactEmail": "welcome@grandpavilionglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Bistro",
+    "description": "A culinary gem serving French specialties including heritage recipes, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-146-2491",
+      "contactEmail": "contact@royalkebabhouseglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Grill",
+    "description": "A culinary gem serving Italian specialties including seasonal specialties, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-446-4872",
+      "contactEmail": "reachus@thecafeglacier-bay.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Supper Club",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring seasonal specialties served in an atmosphere of boutique shops overlooking the iconic clock tower.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-959-3522",
+      "contactEmail": "help@grandcharcuterieglacier-bay.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Boulangerie",
+    "description": "A culinary gem serving Mediterranean specialties including local ingredients, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-703-2271",
+      "contactEmail": "help@goldenteahouseglacier-bay.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];
