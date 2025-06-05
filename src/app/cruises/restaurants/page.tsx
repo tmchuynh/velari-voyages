@@ -21,7 +21,7 @@ import {
 import { cityFiles } from "@/lib/constants/info/city.ts";
 import { Restaurant } from "@/lib/types/types";
 import { capitalize } from "@/lib/utils/format.ts";
-import { getAllRestaurantsFromCity } from "@/lib/utils/get.ts";
+import { getAllRestaurantsFromCity } from "@/lib/utils/get/restaurants";
 import { ChevronDown } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
