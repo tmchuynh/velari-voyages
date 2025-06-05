@@ -6,42 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "From appetizers to main courses: flavorful dishes prepared with passion",
+    "description": "Our carefully crafted selection of comforting French dishes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Homestyle Tangy Whole Roasted Heritage Chicken",
-            "price": 32.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zesty Heritage Recipe Lamb Shank",
-            "price": 34.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Grilled Charcoal Grilled Iberico Pork",
-            "price": 34.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Traditional Family Paella",
-            "price": 32.42,
+            "name": "Seasonal Pan-seared Celebrity Favorite Lobster Dish",
+            "price": 35.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,17 +22,26 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Grilled Chef’s Wild Game Selection",
-            "price": 24.49,
+            "name": "Authentic Grilled Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 25.53,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Marinated Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 27.74,
+            "name": "Seasonal Flavorful Executive Chef's Daily Inspiration Entrée",
+            "price": 34.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Enticing Flambéed Tableside Specialty",
+            "price": 25.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,9 +49,27 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Grilled Seasonal Tasting Menu Experience",
-            "price": 30.63,
+            "name": "House Special Tender Black Garlic Glazed Beef Tenderloin",
+            "price": 30.48,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crunchy House Famous Duck Confit",
+            "price": 27.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Zesty Founder's Family Recipe Pasta",
+            "price": 27.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -79,38 +79,20 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Homestyle Grilled Sustainable Seafood Tower",
-            "price": 39.14,
+            "name": "Heritage Breed Porchetta",
+            "price": 35.4,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Baked Seared Duck Breast with Cherry Reduction",
-            "price": 39.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Creamy Lobster and Crab Stuffed Ravioli",
-            "price": 27.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Tangy Sous Vide Pork Tenderloin",
-            "price": 27.11,
+            "name": "Volcanic Stone-Cooked Specialty",
+            "price": 35.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,8 +100,26 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Hand-Selected Wine Pairing Experience",
-            "price": 28.54,
+            "name": "Chef's Market Inspiration of the Day",
+            "price": 39.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Vegetarian Wellington",
+            "price": 25.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crispy Skin Sea Bass",
+            "price": 28.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,20 +130,38 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of French culinary artistry.",
+        "description": "A selection of small plates that showcase the essence of French—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "House Special Exquisite Dumplings",
-            "price": 12.45,
+            "name": "Tzatziki with Pita",
+            "price": 10.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sweet Potato Fries",
+            "price": 8.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Falafel",
+            "price": 14.85,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Mini Crab Cakes",
-            "price": 11.24,
+            "name": "Tuna Tartare",
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,8 +169,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Creamy Hummus Platter",
-            "price": 15.8,
+            "name": "Mozzarella Sticks",
+            "price": 9.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,8 +178,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Sautéed Calamari",
-            "price": 11.3,
+            "name": "Onion Rings",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,35 +187,17 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Crunchy Chicken Satay",
-            "price": 13.88,
-            "isVegetarian": false,
+            "name": "Edamame",
+            "price": 12.77,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Tangy Baked Brie",
-            "price": 10.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Smoked Tempura",
-            "price": 13.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sautéed Potstickers",
-            "price": 12.11,
+            "name": "Mini Empanadas",
+            "price": 14.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,29 +208,11 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Daily-prepared soups made from seasonal ingredients and traditional French methods.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Gumbo",
-            "price": 13.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Stew",
-            "price": 11.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Peanut Soup (West African)",
-            "price": 10.6,
+            "name": "Organic Pan-seared Minestrone",
+            "price": 13.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,8 +220,26 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Black Bean Soup",
-            "price": 7.77,
+            "name": "Classic Delectable Tortilla Soup",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Comforting Pumpkin Soup",
+            "price": 12.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Herbed Borscht",
+            "price": 7.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,11 +250,11 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Fruit Salad",
-            "price": 11.43,
+            "name": "Quinoa Salad",
+            "price": 11.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,17 +262,26 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 15.14,
+            "name": "Chef Salad",
+            "price": 15.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 13.3,
+            "name": "Arugula Salad",
+            "price": 11.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pecan Salad",
+            "price": 15.01,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -280,20 +289,11 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beet Salad",
-            "price": 9.72,
-            "isVegetarian": false,
+            "name": "Mango Avocado Salad",
+            "price": 10.63,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 10.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,11 +301,56 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Hearty and refined mains rooted in traditional French, elevated by modern techniques.",
+        "description": "A journey through French flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Steak",
-            "price": 31.72,
+            "name": "Deluxe Crunchy Pizza",
+            "price": 25.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Exquisite Lentil Stew",
+            "price": 25.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delectable Beef Burger",
+            "price": 30.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Succulent Beef Wellington",
+            "price": 23.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Fried Quiche",
+            "price": 24.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Juicy Chicken Parmesan",
+            "price": 19.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,8 +358,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Grilled Chicken",
-            "price": 31.87,
+            "name": "Authentic Appetizing Enchiladas",
+            "price": 24.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,56 +367,11 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Pho",
-            "price": 29.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Katsu Curry",
-            "price": 26.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 19.34,
+            "name": "Premium Spicy Risotto",
+            "price": 19.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lasagna",
-            "price": 31.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Parmesan",
-            "price": 18.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Quiche",
-            "price": 19.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,29 +379,11 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
+        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
         "items": [
           {
-            "name": "Organic Aromatic Pan-Seared Scallops with Pea Purée",
-            "price": 25.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Grilled Grilled Lobster with Lemon Butter",
-            "price": 35.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zingy Steamed Littleneck Clams in Garlic Broth",
-            "price": 33.43,
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 25.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,8 +391,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Sushi-Grade Sashimi Platter",
-            "price": 26.58,
+            "name": "Pan-Seared Scallops with Pea Purée",
+            "price": 35.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,23 +400,50 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Tender Hearty Italian Cioppino",
-            "price": 30.27,
-            "isVegetarian": true,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 32.52,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 23.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 24.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavor-packed sides made to share—or keep all to yourself.",
+        "description": "Each side is a testament to our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Gourmet Fried Mashed Potatoes",
-            "price": 7.67,
+            "name": "Handcrafted Zingy Mashed Potatoes",
+            "price": 6.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Grilled Steamed Jasmine Rice",
+            "price": 8.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,47 +451,38 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Soft Polenta with Parmesan",
-            "price": 6.53,
+            "name": "Authentic Grilled Warm Buttermilk Dinner Rolls",
+            "price": 7.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Deluxe Smoked Wild Rice Pilaf",
-            "price": 7.93,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Green Beans Almondine",
-            "price": 6.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Braised Herbed Bulgur Wheat with Lemon",
-            "price": 9.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Marinated Provencal Ratatouille",
-            "price": 5.73,
+            "name": "Deluxe Spicy Maple-Glazed Baby Carrots",
+            "price": 9.22,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delicious Garlic Bread with Herb Butter",
+            "price": 6.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Soft Polenta with Parmesan",
+            "price": 7.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,29 +490,29 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Water",
-            "price": 4.29,
+            "name": "Coffee",
+            "price": 7.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.84,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.29,
+            "name": "Lemonade",
+            "price": 6.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 4.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +520,17 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 7.65,
+            "name": "Tea",
+            "price": 6.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 7.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,17 +539,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Iced Tea",
-            "price": 5.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 7.53,
-            "isVegetarian": true,
+            "price": 7.34,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,24 +552,15 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: mouthwatering desserts for every taste",
+    "description": "Crafted with passion, our mouthwatering desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
+        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
         "items": [
           {
-            "name": "Soufflé",
-            "price": 8.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 9.63,
+            "name": "Hearty Hearty Tiramisu",
+            "price": 7.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +568,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 10.75,
+            "name": "Organic Crunchy Shortbread",
+            "price": 10.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,18 +577,27 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cupcakes",
-            "price": 8.13,
+            "name": "Authentic Luscious Apple Pie",
+            "price": 6.64,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Irresistible Custard Tart",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 8.34,
-            "isVegetarian": false,
+            "name": "Deluxe Grilled Carrot Cake",
+            "price": 10.54,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -607,11 +607,20 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Handmade with care, our frozen desserts are a celebration of texture and taste.",
         "items": [
           {
-            "name": "Frozen Pie",
-            "price": 9.52,
+            "name": "Granita",
+            "price": 11.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Banana",
+            "price": 11.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,8 +628,17 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 8,
+            "name": "Popsicles",
+            "price": 10.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream Sandwich",
+            "price": 7.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -629,25 +647,7 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Yogurt",
-            "price": 8.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 10.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 8.87,
+            "price": 10.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,60 +660,33 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A inviting assortment of libations to accompany your culinary journey",
+    "description": "A balanced selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Mai Tai",
-            "price": 14.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 15.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 13.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Margarita",
-            "price": 15.71,
-            "isVegetarian": true,
+            "price": 12.75,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 13.4,
+            "name": "Bloody Mary",
+            "price": 14.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 12.31,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,11 +694,38 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.31,
+            "name": "Manhattan",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 12.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 12.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,47 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Viognier",
-            "price": 11.85,
+            "name": "Traditional Stuffed Syrah/Shiraz",
+            "price": 10.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Fiano",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sautéed Dolcetto",
+            "price": 8.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Zingy Viognier",
+            "price": 8.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Tender Malbec",
+            "price": 13.93,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -745,44 +781,8 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 9.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 13.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Champagne/Sparkling Wine",
-            "price": 10.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Vermentino",
-            "price": 8.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 11.79,
+            "name": "Homestyle Grilled Grenache",
+            "price": 8.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -796,46 +796,46 @@ export const hongKongjunkBoatRawBarMenu: RestaurantMenu[] = [
         "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Deluxe Pan-seared Armagnac",
-            "price": 16.26,
+            "name": "Triple Sec",
+            "price": 10,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pisco",
+            "price": 12.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vodka",
+            "price": 11.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mezcal",
+            "price": 16.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 12.55,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Spicy Brandy",
-            "price": 11.88,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy Vodka",
-            "price": 11.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crispy Limoncello",
-            "price": 11.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Hearty Anisette",
-            "price": 12.2,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true

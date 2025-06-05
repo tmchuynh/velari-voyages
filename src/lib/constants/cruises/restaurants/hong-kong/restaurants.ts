@@ -248,5 +248,160 @@ export const hongKongRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Victoria Creamery",
+    "description": "A culinary gem serving Thai specialties including wonton noodles, where guests enjoy neon-lit streets in the heart of the city.",
+    "cuisine": "Thai",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-585-8791",
+      "contactEmail": "mail@dynastypublichousehong-kong.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Kowloon Curry House",
+    "description": "A charming French restaurant near Lan Kwai Fong, offering snake soup and other local favorites in a setting with urban parks.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-768-7156",
+      "contactEmail": "team@lanternlocalhong-kong.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Pearl Cafe",
+    "description": "Experience authentic French cuisine with a local twist, featuring dim sum served in an atmosphere of skyscraper skyline overlooking Star Ferry.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-403-7071",
+      "contactEmail": "inquiries@harborsocietyhong-kong.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Junk Boat Smokehouse",
+    "description": "Located close to Tian Tan Buddha, this Cantonese restaurant delights with its pineapple buns and fusion of East and West.",
+    "cuisine": "Cantonese",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-292-9108",
+      "contactEmail": "clientservices@causewaysocialhong-kong.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Neon Creperie",
+    "description": "Located close to Victoria Harbour, this Chinese restaurant delights with its wonton noodles and dim sum carts.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-291-1076",
+      "contactEmail": "clientservices@mid-levelswokhong-kong.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

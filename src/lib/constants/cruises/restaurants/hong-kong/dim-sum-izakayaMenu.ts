@@ -6,71 +6,71 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A thoughtfully balanced mix of homestyle and authentic Japanese flavors",
+    "description": "Flavors that feel familiar, presented in fresh, tasty ways",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Japanese specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
         "items": [
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 30.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Family Paella",
-            "price": 26.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flambéed Tableside Specialty",
-            "price": 31.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 26.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Dry-Aged Tomahawk Steak",
-            "price": 25.88,
+            "price": 24.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Tasting Menu Experience",
+            "price": 33.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 25.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 27.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 29.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
             "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 31.23,
-            "isVegetarian": true,
+            "price": 32.28,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 35.88,
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 32.35,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -79,29 +79,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Inventive dishes that explore rare ingredients, bold flavors, and progressive cooking techniques.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Chef's Market Inspiration of the Day",
-            "price": 38.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Venison with Juniper Berry Sauce",
-            "price": 34.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Farm-to-Table Vegetable Plate",
-            "price": 25.56,
+            "name": "Fresh Appetizing Whole Animal Butchery Showcase",
+            "price": 28.14,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -109,20 +91,38 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Miso-Glazed Black Cod",
-            "price": 31.71,
+            "name": "Authentic Grilled Gourmet Vegetarian Wellington",
+            "price": 37.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 27.57,
+            "name": "Homestyle Tender Wild Mushroom Risotto",
+            "price": 33.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Braised Crispy Skin Sea Bass",
+            "price": 35.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Roasted Cold-Smoked Delicacy",
+            "price": 37.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,38 +130,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Japanese.",
+        "description": "Flavor-forward starters that introduce our approach to Japanese with balance and creativity.",
         "items": [
           {
-            "name": "Chicken Wings",
-            "price": 12.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Sliders",
-            "price": 14.1,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Jalapeños",
-            "price": 10.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Falafel",
-            "price": 13.01,
+            "name": "Handcrafted Grilled Baba Ganoush",
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -169,17 +142,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 8.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Crab Cakes",
-            "price": 12.29,
+            "name": "Organic Savory Stuffed Mushrooms",
+            "price": 10.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,20 +151,56 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cheese Platter",
-            "price": 15.61,
-            "isVegetarian": true,
+            "name": "House Special Aromatic Hummus Platter",
+            "price": 11.92,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Zucchini Fries",
-            "price": 8.39,
-            "isVegetarian": true,
+            "name": "Authentic Smoked Garlic Bread",
+            "price": 15.84,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Baked Baked Brie",
+            "price": 8.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Steamed Mini Quesadillas",
+            "price": 10.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Antipasto Platter",
+            "price": 9.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Savory Lettuce Wraps",
+            "price": 8.57,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,38 +208,38 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each bowl is a journey through the heart of Japanese, crafted with care and expertise.",
         "items": [
           {
-            "name": "Authentic Stuffed Mushroom Soup",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Traditional Marinated Gazpacho",
+            "price": 13.85,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Creamy Seafood Chowder",
-            "price": 11.97,
-            "isVegetarian": false,
+            "name": "Premium Crispy Broccoli Cheddar Soup",
+            "price": 13.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Lobster Bisque",
-            "price": 10.82,
-            "isVegetarian": false,
+            "name": "Homestyle Zingy Peanut Soup (West African)",
+            "price": 7.12,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Gourmet Stuffed Carrot Ginger Soup",
-            "price": 10.03,
+            "name": "Fresh Luscious Cabbage Soup",
+            "price": 7.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -250,11 +250,20 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
+            "name": "Potato Salad",
+            "price": 14.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Caprese Salad",
-            "price": 13.29,
+            "price": 10.92,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -262,38 +271,29 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 13.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobb Salad",
-            "price": 15.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Orzo Salad",
-            "price": 11,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 9.1,
+            "name": "Roasted Vegetable Salad",
+            "price": 10.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 15.85,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spinach Salad",
+            "price": 13,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,47 +301,29 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "A selection of mains that reflect the heart and soul of Japanese, prepared with care.",
         "items": [
           {
-            "name": "Spaghetti Bolognese",
-            "price": 30.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Paella",
-            "price": 19.04,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "price": 19.59,
+            "name": "Stuffed Peppers",
+            "price": 29.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Tofu",
-            "price": 30.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Pizza",
-            "price": 21.71,
+            "price": 26.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stir-fry",
+            "price": 25.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -349,29 +331,47 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 26.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 21.93,
-            "isVegetarian": true,
+            "name": "Katsu Curry",
+            "price": 18,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Curry",
-            "price": 20.43,
-            "isVegetarian": true,
+            "name": "Teriyaki Chicken",
+            "price": 26.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Korma",
+            "price": 25.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Steak",
+            "price": 28.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Salmon",
+            "price": 27.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,11 +379,20 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
         "items": [
           {
-            "name": "Hearty Golden Seafood Risotto with Saffron",
-            "price": 26.92,
+            "name": "Shrimp Scampi over Linguine",
+            "price": 32.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seafood Risotto with Saffron",
+            "price": 24.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -391,17 +400,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Succulent Tempura Soft Shell Crab",
-            "price": 34.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Stuffed Flounder with Crab and Spinach",
-            "price": 32.26,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 28.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,20 +409,20 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Golden Lemon-Herb Calamari Steak",
-            "price": 30.59,
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 32.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "House Special Golden New England Lobster Roll",
-            "price": 34.07,
+            "name": "Grilled Swordfish with Mango Chutney",
+            "price": 30.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,20 +430,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Supportive elements that enhance and elevate the star of your plate.",
         "items": [
           {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 6.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Buttered Egg Noodles",
-            "price": 7.77,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 7.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,17 +442,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 8.22,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 6.83,
+            "name": "Truffle Parmesan Fries",
+            "price": 5.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +451,26 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Soft Polenta with Parmesan",
-            "price": 7.72,
+            "name": "Sweet Corn and Cheddar Fritters",
+            "price": 5.7,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 9.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,8 +478,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 7.69,
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 7.36,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,11 +490,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
         "items": [
           {
-            "name": "Fresh Delectable Water",
-            "price": 5.08,
+            "name": "Classic Marinated Smoothie",
+            "price": 5.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +502,17 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Golden Coffee",
-            "price": 5.55,
+            "name": "Gourmet Sweet Juice",
+            "price": 6.01,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Braised Hot Chocolate",
-            "price": 7.51,
+            "name": "Premium Crunchy Tea",
+            "price": 5.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -520,29 +520,29 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Appetizing Juice",
-            "price": 5.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Juicy Soda",
-            "price": 5.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Hearty Smoothie",
-            "price": 6.84,
-            "isVegetarian": true,
+            "name": "House Special Grilled Water",
+            "price": 4.2,
+            "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Creamy Milkshake",
+            "price": 6.37,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Hot Chocolate",
+            "price": 6.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,33 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our pastry chef's satisfying creations to end your meal on a sweet note",
+    "description": "A delicious selection of desserts that celebrate the art of pastry",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Indulge in our selection of baked treats, each one a labor of love.",
+        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
         "items": [
           {
-            "name": "Organic Juicy Baklava",
-            "price": 6.14,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Banana Bread",
+            "price": 8.24,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Luscious Treacle Tart",
-            "price": 9.68,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Carrot Cake",
+            "price": 7.93,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Custard Tart",
-            "price": 7.06,
+            "name": "Custard Tart",
+            "price": 10.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,18 +586,18 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Sweet Madeleines",
-            "price": 7.15,
+            "name": "Cheesecake",
+            "price": 10.94,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Biscotti",
-            "price": 7.22,
-            "isVegetarian": true,
+            "name": "Eclairs",
+            "price": 6.06,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -607,29 +607,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "Smooth, rich frozen creations featuring local fruits and seasonal flavors.",
         "items": [
           {
-            "name": "Fresh Mouthwatering Ice Cream",
-            "price": 9.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delectable Granita",
-            "price": 7.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Smoked Baked Alaska",
-            "price": 10.09,
+            "name": "Semifreddo",
+            "price": 11.33,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -637,19 +619,37 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Frozen Yogurt",
-            "price": 7.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Frozen Pie",
+            "price": 8.44,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Frozen Cheesecake",
-            "price": 7.58,
+            "name": "Frozen Yogurt",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Custard",
+            "price": 10.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 10.54,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -660,15 +660,15 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A delightful selection of alcoholic beverages to complement your meal",
+    "description": "A balanced cocktail lineup featuring house infusions and classic techniques",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Old Fashioned",
-            "price": 10.57,
+            "name": "Organic Pan-seared Bloody Mary",
+            "price": 11.92,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -676,8 +676,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 13.42,
+            "name": "Hearty Spicy Old Fashioned",
+            "price": 15.11,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -685,35 +685,8 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 12.1,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 10.12,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.73,
+            "name": "Gourmet Tangy Whiskey Sour",
+            "price": 15.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,11 +694,38 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 10.38,
+            "name": "Homestyle Spicy Cosmopolitan",
+            "price": 12.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Mojito",
+            "price": 15.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Steamed Mai Tai",
+            "price": 14.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Enticing Margarita",
+            "price": 13.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,59 +733,59 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Homestyle Sweet Viognier",
-            "price": 11.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Mouthwatering Chardonnay",
-            "price": 12.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Tender Roussanne",
-            "price": 13.24,
+            "name": "Authentic Marinated Torrontés",
+            "price": 10.66,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Golden Tempranillo",
+            "price": 12.59,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delectable Chardonnay",
+            "price": 9.72,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Flaky Mourvèdre",
-            "price": 8.42,
+            "name": "House Special Steamed Nebbiolo",
+            "price": 13.9,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Stuffed Sauvignon Blanc",
-            "price": 10.63,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Satisfying Champagne/Sparkling Wine",
-            "price": 13.13,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Vouvray",
+            "price": 11.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Flavorful Fiano",
+            "price": 9.96,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,11 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 12.31,
+            "name": "Grappa",
+            "price": 12.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,37 +805,37 @@ export const hongKongdimSumIzakayaMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Vodka",
-            "price": 17.84,
+            "name": "Tequila",
+            "price": 10.7,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Campari",
-            "price": 11.6,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Midori",
-            "price": 17.68,
+            "price": 12.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Drambuie",
-            "price": 16.88,
+            "name": "Cointreau",
+            "price": 13.69,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grand Marnier",
+            "price": 11.55,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true

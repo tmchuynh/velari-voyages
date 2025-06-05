@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of delicious offerings from across the Thai spectrum",
+    "description": "A classic assortment of specialties showcasing the best of Thai cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Our chef's pride—carefully selected Thai specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 31.52,
+            "name": "Classic Mouthwatering Captain's Favorite Seafood Tower",
+            "price": 24.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,55 +22,55 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Family Paella",
-            "price": 27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Black Garlic Glazed Beef Tenderloin",
-            "price": 36.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 28.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 25.72,
+            "name": "Homestyle Creamy Legendary Prime Rib",
+            "price": 24.62,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 35.26,
+            "name": "Deluxe Aromatic House Famous Duck Confit",
+            "price": 29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Smoked Flambéed Tableside Specialty",
+            "price": 34.98,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Herbed 24-Hour Braised Short Ribs",
+            "price": 26.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 31.73,
+            "name": "Fresh Braised Whole Roasted Heritage Chicken",
+            "price": 25.88,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Fried Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 33.06,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -82,35 +82,26 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
         "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Herb-Crusted Rack of Lamb",
-            "price": 28.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 28.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 33.02,
+            "name": "Fresh Mouthwatering Chef's Tasting Menu Experience",
+            "price": 36.37,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 29.27,
+            "name": "Deluxe Sizzling Tableside Flambé Preparation",
+            "price": 28.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Chef's Childhood Favorite Reimagined",
+            "price": 26.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -118,89 +109,98 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
-            "price": 24.09,
+            "name": "Handcrafted Mouthwatering Seared Duck Breast with Cherry Reduction",
+            "price": 25.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Traditional Mouthwatering Miso-Glazed Black Cod",
+            "price": 33.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A selection of Thai starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
+        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Seasonal Pan-seared Spinach Puffs",
-            "price": 13.51,
+            "name": "Handcrafted Golden Mini Quesadillas",
+            "price": 13.38,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Spring Rolls",
-            "price": 14.82,
-            "isVegetarian": false,
+            "name": "Premium Grilled Samosas",
+            "price": 11.62,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crispy Nachos",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Spiced Cheese Platter",
-            "price": 8.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Crunchy Tzatziki with Pita",
-            "price": 12.01,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Stuffed Chicken Wings",
-            "price": 14.93,
+            "name": "Authentic Flavorful Chicken Satay",
+            "price": 10.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Golden Stuffed Mushrooms",
+            "price": 15.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Mouthwatering Bruschetta",
+            "price": 10.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Handcrafted Delectable Crostini",
-            "price": 9.41,
-            "isVegetarian": true,
+            "name": "Fresh Crispy Charcuterie Board",
+            "price": 13.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Sweet Cheese Platter",
+            "price": 12.51,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Antipasto Platter",
-            "price": 15.47,
+            "name": "Homestyle Savory Prawn Toast",
+            "price": 9.67,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,29 +208,20 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Steaming selections ideal for starting your meal or simply savoring the warmth.",
         "items": [
           {
-            "name": "Italian Wedding Soup",
-            "price": 9.7,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Gumbo",
+            "price": 8.76,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Clam Chowder",
-            "price": 9.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Borscht",
-            "price": 7.77,
+            "name": "Avgolemono (Greek Lemon Soup)",
+            "price": 11.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -238,10 +229,19 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 11.9,
+            "name": "Clam Chowder",
+            "price": 11.92,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tomato Soup",
+            "price": 11.3,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,29 +250,11 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
         "items": [
           {
-            "name": "Mediterranean Chopped Salad",
-            "price": 15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Nicoise Salad",
-            "price": 10.89,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chickpea Salad",
-            "price": 12.56,
+            "price": 9.37,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,19 +262,37 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 14.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 12.26,
+            "name": "Thai Green Papaya Salad",
+            "price": 13.8,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 9.26,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Southwest Black Bean Salad",
+            "price": 15.76,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 14.66,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -301,77 +301,77 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Robust and satisfying center-of-plate dishes that deliver flavor and artistry.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Deluxe Zingy Thai Curry",
-            "price": 31.15,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Satisfying Fajitas",
-            "price": 20.85,
+            "name": "Deluxe Marinated Tacos",
+            "price": 23.22,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sizzling Tagine",
-            "price": 25.28,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Enticing Korma",
-            "price": 27.71,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Stuffed Peppers",
-            "price": 21.51,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Fried Lasagna",
-            "price": 18.19,
+            "name": "Deluxe Baked Grilled Chicken",
+            "price": 25.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Sautéed Currywurst",
+            "price": 30.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Flaky Roast Duck",
-            "price": 21.95,
+            "name": "Authentic Crunchy Salmon",
+            "price": 18.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Crunchy Mac and Cheese",
-            "price": 18.69,
+            "name": "Homestyle Herbed Fish and Chips",
+            "price": 19.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Crunchy Beef Wellington",
+            "price": 31.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Spiced Pho",
+            "price": 22.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Luscious Paella",
+            "price": 23.29,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,20 +379,11 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Hearty Comforting Lemon-Herb Calamari Steak",
-            "price": 33.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Delicious Grilled Lobster with Lemon Butter",
-            "price": 25.17,
+            "name": "House Special Flavorful Oysters Rockefeller with Pernod Cream",
+            "price": 30.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -400,41 +391,50 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Roasted Grilled Swordfish with Mango Chutney",
-            "price": 35.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Aromatic Smoked Salmon Platter with Dill Crème",
-            "price": 27.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Delicious Shrimp Scampi over Linguine",
-            "price": 27.22,
+            "name": "Hearty Spiced Valencian Seafood Paella",
+            "price": 27.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Cajun Shrimp and Grits",
+            "price": 33.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Flaky Pan-Seared Scallops with Pea Purée",
+            "price": 32.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Maryland Style Crab Cakes",
+            "price": 27.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Versatile and craveable, designed to mix and match your perfect pairing.",
+        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
         "items": [
           {
-            "name": "Hearty Pan-seared Warm Buttermilk Dinner Rolls",
-            "price": 7.05,
+            "name": "House Special Luscious Israeli Couscous with Roasted Tomatoes",
+            "price": 6.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,26 +442,17 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Maple-Glazed Baby Carrots",
-            "price": 9.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Fresh Spicy Maple-Glazed Baby Carrots",
+            "price": 8.63,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Truffle Parmesan Fries",
-            "price": 9.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Crispy Beer-Battered Onion Rings",
-            "price": 7.13,
+            "name": "Gourmet Succulent Steamed Jasmine Rice",
+            "price": 6.9,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,21 +460,30 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Flaky Cheddar and Chive Biscuits",
-            "price": 5.25,
+            "name": "Fresh Creamy Green Beans Almondine",
+            "price": 6.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zingy Provencal Ratatouille",
+            "price": 7.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Baked Idaho Potato with Sour Cream",
-            "price": 5.83,
+            "name": "Fresh Sautéed Roasted Root Vegetables",
+            "price": 9.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -493,8 +493,8 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
         "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
-            "name": "Classic Pan-seared Coffee",
-            "price": 6.26,
+            "name": "Smoothie",
+            "price": 4.26,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,46 +502,46 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Tender Tea",
-            "price": 4.07,
-            "isVegetarian": false,
+            "name": "Tea",
+            "price": 5.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Juicy Milkshake",
-            "price": 6.77,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Soda",
+            "price": 5.14,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Golden Iced Tea",
-            "price": 7.73,
-            "isVegetarian": false,
+            "name": "Hot Chocolate",
+            "price": 5.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Organic Savory Lemonade",
-            "price": 6.81,
+            "name": "Milkshake",
+            "price": 5.55,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Iced Tea",
+            "price": 7.24,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Baked Smoothie",
-            "price": 6.21,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -552,15 +552,24 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: warm desserts for every taste",
+    "description": "A curated selection of crowd-pleasing desserts, inspired by Thai heritage",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Freshly baked delights that bring warmth and comfort to your table.",
         "items": [
           {
-            "name": "Authentic Crunchy Macarons",
-            "price": 6.93,
+            "name": "Fresh Grilled Croissants",
+            "price": 8.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Satisfying Portuguese Custard Tarts",
+            "price": 7.42,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,17 +577,17 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Delectable Cannoli",
-            "price": 10.52,
-            "isVegetarian": false,
+            "name": "Hearty Baked Cheesecake",
+            "price": 6.31,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Marinated Berry Tart",
-            "price": 9.94,
+            "name": "Authentic Grilled Custard Tart",
+            "price": 10.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,8 +595,23 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Zingy Donuts",
-            "price": 9.55,
+            "name": "Authentic Steamed Banana Bread",
+            "price": 10.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Frozen Desserts",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "items": [
+          {
+            "name": "Organic Flaky Ice Cream",
+            "price": 11.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,23 +619,8 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Succulent Croissants",
-            "price": 9.15,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
-        "items": [
-          {
-            "name": "Ice Cream",
-            "price": 11.73,
+            "name": "House Special Creamy Frozen Cheesecake",
+            "price": 7.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,26 +628,17 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Pie",
-            "price": 10.33,
+            "name": "Traditional Tangy Baked Alaska",
+            "price": 7.08,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 7.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 9.52,
+            "name": "Fresh Sweet Frozen Mousse",
+            "price": 10.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -646,11 +646,11 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 11.38,
-            "isVegetarian": true,
+            "name": "Homestyle Sweet Sherbet",
+            "price": 11.56,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Elevate your dining experience with our thoughtfully selected beverage options",
+    "description": "Discover our inviting drinks, perfectly paired with our Thai cuisine",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
+        "description": "Elevate your evening with our signature cocktails, each a unique expression of flavor.",
         "items": [
           {
-            "name": "Authentic Smoked Cosmopolitan",
-            "price": 12.8,
+            "name": "Seasonal Irresistible Martini",
+            "price": 10.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,35 +676,8 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Baked Mai Tai",
-            "price": 12.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flavorful Bloody Mary",
-            "price": 11.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Tangy Manhattan",
-            "price": 15.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Hearty Negroni",
-            "price": 15.86,
+            "name": "Premium Smoked Mai Tai",
+            "price": 11.55,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -712,8 +685,26 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Wholesome Mojito",
-            "price": 15.83,
+            "name": "Handcrafted Roasted Old Fashioned",
+            "price": 14.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Manhattan",
+            "price": 12.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Hearty Whiskey Sour",
+            "price": 11.87,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -721,11 +712,20 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Flavorful Old Fashioned",
-            "price": 13.58,
+            "name": "Authentic Flaky Cosmopolitan",
+            "price": 11.47,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Savory Mojito",
+            "price": 12.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,20 +733,20 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Organic Mouthwatering Sangiovese",
-            "price": 12.97,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Organic Grilled Cabernet Sauvignon",
+            "price": 9.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Champagne/Sparkling Wine",
-            "price": 8.54,
+            "name": "Authentic Grilled Gamay",
+            "price": 9.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,68 +754,59 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Deluxe Stuffed Vouvray",
-            "price": 13.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Grilled Fiano",
-            "price": 8.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Chardonnay",
-            "price": 11.98,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sweet Sémillon",
-            "price": 11.6,
+            "name": "Handcrafted Herbed Mourvèdre",
+            "price": 11.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Classic Succulent Sauvignon Blanc",
+            "price": 9.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Fried Albariño",
+            "price": 13.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Irresistible Nebbiolo",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Midori",
-            "price": 15.75,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Tequila",
-            "price": 15.95,
+            "price": 17.59,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grappa",
-            "price": 12.67,
+            "name": "St-Germain",
+            "price": 15.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,8 +814,8 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grand Marnier",
-            "price": 17.72,
+            "name": "Whiskey",
+            "price": 17.89,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -832,11 +823,20 @@ export const hongKongjunkBoatSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Drambuie",
-            "price": 13.3,
-            "isVegetarian": true,
+            "name": "Bourbon",
+            "price": 13.56,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aquavit",
+            "price": 12.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
