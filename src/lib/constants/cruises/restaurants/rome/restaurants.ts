@@ -248,5 +248,160 @@ export const romeRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Japanese Craft",
+    "description": "Located close to the waterfront, this French restaurant delights with its seasonal specialties and local ambiance.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-429-2567",
+      "contactEmail": "admin@italianartisanrome.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mediterranean Social",
+    "description": "Experience authentic French cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of ambient lighting overlooking central park.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-939-2105",
+      "contactEmail": "welcome@japaneseeateryrome.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "French Atelier",
+    "description": "Experience authentic Roman cuisine with a local twist, featuring seasonal specialties served in an atmosphere of local ambiance overlooking central park.",
+    "cuisine": "Roman",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-953-4563",
+      "contactEmail": "communications@romancoffeehouserome.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Mediterranean Gelateria",
+    "description": "Located close to the main square, this Roman restaurant delights with its handcrafted desserts and seasonal floral displays.",
+    "cuisine": "Roman",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-900-5663",
+      "contactEmail": "hi@mediterranean&co.rome.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Kebab House",
+    "description": "A culinary gem serving Mediterranean specialties including signature dishes, where guests enjoy boutique shops in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-119-5042",
+      "contactEmail": "hi@italianhouserome.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
