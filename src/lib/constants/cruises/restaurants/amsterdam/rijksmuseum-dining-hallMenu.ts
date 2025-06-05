@@ -6,42 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "From appetizers to main courses: comforting dishes prepared with passion",
+    "description": "Chef-selected delicious offerings highlighting Belgian culinary heritage",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 34.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 29.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 32.44,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 35.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,28 +22,55 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 25.25,
-            "isVegetarian": false,
+            "name": "Traditional Family Paella",
+            "price": 30.23,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 32.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 27.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Flambéed Tableside Specialty",
+            "price": 24.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": false
           },
           {
             "name": "Seasonal Tasting Platter",
-            "price": 26.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Legendary Prime Rib",
-            "price": 34.15,
-            "isVegetarian": false,
-            "isVegan": false,
+            "price": 25.66,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -79,38 +79,38 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Fresh Stuffed Whole Animal Butchery Showcase",
-            "price": 34.37,
-            "isVegetarian": true,
+            "name": "Organic Creamy Volcanic Stone-Cooked Specialty",
+            "price": 36.27,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Tableside Flambé Preparation",
-            "price": 34.05,
+            "name": "Handcrafted Grilled Tableside Prepared Tartare",
+            "price": 31.16,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Satisfying Chef's Tasting Menu Experience",
-            "price": 25.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Cast Iron Seafood Presentation",
-            "price": 30.78,
+            "name": "House Special Stuffed Wild Mushroom Risotto",
+            "price": 30.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Cast Iron Seafood Presentation",
+            "price": 39.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,11 +118,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Herbed Miso-Glazed Black Cod",
-            "price": 26.37,
+            "name": "Gourmet Aromatic Miso-Glazed Black Cod",
+            "price": 26.99,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -130,11 +130,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Samosas",
-            "price": 9.41,
+            "name": "Deluxe Mouthwatering Baba Ganoush",
+            "price": 8.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,17 +142,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 11.87,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shrimp Cocktail",
-            "price": 14.53,
+            "name": "Authentic Zesty Caprese Salad",
+            "price": 13.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,8 +151,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Chicken Satay",
-            "price": 9.49,
+            "name": "Traditional Irresistible Potato Skins",
+            "price": 10.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,8 +160,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cheese Nachos",
-            "price": 12.45,
+            "name": "Handcrafted Wholesome Mini Crab Cakes",
+            "price": 13.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,8 +169,17 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 9.68,
+            "name": "Homestyle Grilled Stuffed Jalapeños",
+            "price": 9.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Aromatic Edamame",
+            "price": 12.64,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +187,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 14.57,
+            "name": "House Special Roasted Potstickers",
+            "price": 15.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +196,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tzatziki with Pita",
-            "price": 11.24,
+            "name": "Classic Stuffed Tempura",
+            "price": 10.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,38 +208,38 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Belgian, crafted with care and expertise.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Zuppa Toscana",
-            "price": 13.55,
+            "name": "Organic Stuffed Vegetable Barley Soup",
+            "price": 13.09,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Borscht",
-            "price": 11.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "French Onion Soup",
-            "price": 9.08,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Beef Stew",
-            "price": 7.96,
+            "name": "House Special Spicy Thai Coconut Soup",
+            "price": 9.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Crunchy Turkey and Wild Rice Soup",
+            "price": 8.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Zesty Tomato Soup",
+            "price": 10.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,11 +250,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Crisp and colorful salads that balance flavor, nutrition, and beautiful presentation.",
         "items": [
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 12.98,
+            "name": "Pear and Gorgonzola Salad",
+            "price": 15.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,35 +262,35 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Broccoli Crunch Salad",
-            "price": 11.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Apple Pecan Salad",
-            "price": 15.43,
-            "isVegetarian": false,
+            "name": "Garden Salad",
+            "price": 13.06,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Avocado Corn Salad",
-            "price": 15.29,
-            "isVegetarian": true,
+            "name": "Spinach Salad",
+            "price": 15.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 14.29,
+            "name": "Beet Salad",
+            "price": 9.08,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,29 +301,20 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a masterpiece, showcasing the best of our culinary traditions.",
+        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
         "items": [
           {
-            "name": "Currywurst",
-            "price": 31.45,
-            "isVegetarian": true,
+            "name": "Authentic Sautéed Katsu Curry",
+            "price": 24.68,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Chili con Carne",
-            "price": 31.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "price": 28.46,
+            "name": "Authentic Roasted Spaghetti Bolognese",
+            "price": 31.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,8 +322,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Tacos",
-            "price": 26.84,
+            "name": "Classic Luscious Eggplant Parmesan",
+            "price": 19.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,17 +331,35 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Jambalaya",
-            "price": 23.27,
+            "name": "House Special Grilled Chicken Parmesan",
+            "price": 30.82,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Savory Burrito",
+            "price": 24.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tagine",
-            "price": 27.63,
+            "name": "Homestyle Succulent Salmon",
+            "price": 20.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Flavorful Ramen",
+            "price": 20.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,17 +367,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pasta Primavera",
-            "price": 21.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "price": 27.62,
+            "name": "Handcrafted Hearty Mac and Cheese",
+            "price": 30.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,11 +379,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Classic British Fish and Chips",
-            "price": 24.28,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 30.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -391,17 +391,17 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 25.26,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 29.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Seafood Alfredo with Spinach Fettuccine",
-            "price": 26.65,
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 28.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -410,7 +410,7 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
           },
           {
             "name": "Prawn Curry in Coconut Masala",
-            "price": 29.95,
+            "price": 25.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,23 +418,23 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sushi-Grade Sashimi Platter",
-            "price": 22.16,
-            "isVegetarian": true,
+            "name": "Linguine with Clam Sauce",
+            "price": 32.42,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Gourmet Tender Grilled Asparagus with Lemon Zest",
-            "price": 9.61,
+            "name": "Buttered Egg Noodles",
+            "price": 5.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,26 +442,26 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Exquisite Provencal Ratatouille",
-            "price": 6.46,
+            "name": "Warm Buttermilk Dinner Rolls",
+            "price": 9.36,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Wholesome Crispy Zucchini Fritters",
-            "price": 5.22,
+            "name": "Israeli Couscous with Roasted Tomatoes",
+            "price": 8.29,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sweet Wild Rice Pilaf",
-            "price": 5.79,
+            "name": "Herbed Bulgur Wheat with Lemon",
+            "price": 9.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +469,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Creamy Colcannon (Irish Potato Mash)",
-            "price": 7.92,
+            "name": "Wild Mushroom Risotto",
+            "price": 5.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,8 +478,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Fried Macaroni and Aged Cheddar",
-            "price": 5.33,
+            "name": "Crispy Beer-Battered Onion Rings",
+            "price": 9.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,20 +490,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Deluxe Smoked Lemonade",
-            "price": 7.62,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Roasted Hot Chocolate",
-            "price": 6.6,
+            "name": "Coffee",
+            "price": 6.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,8 +502,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Sautéed Iced Tea",
-            "price": 6.74,
+            "name": "Tea",
+            "price": 7.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,31 +511,40 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Creamy Milkshake",
-            "price": 7.26,
+            "name": "Smoothie",
+            "price": 7.45,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Smoothie",
-            "price": 4.97,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Herbed Juice",
-            "price": 5.08,
-            "isVegetarian": false,
+            "name": "Juice",
+            "price": 7.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 6.06,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }
@@ -552,15 +552,42 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Discover our collection of tasty sweet masterpieces",
+    "description": "Satisfy your sweet tooth with our mouthwatering treats",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
+        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
         "items": [
           {
-            "name": "Lemon Bars",
-            "price": 6.6,
+            "name": "Donuts",
+            "price": 9.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 6.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Banana Bread",
+            "price": 10.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 10.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -569,34 +596,7 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
           },
           {
             "name": "Pain au Chocolat",
-            "price": 8.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 7.11,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Treacle Tart",
-            "price": 7.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vanilla Cake",
-            "price": 9.79,
+            "price": 7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,20 +607,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic frozen favorites reimagined with gourmet flair and fresh ingredients.",
+        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Sherbet",
-            "price": 10.35,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 11.29,
+            "name": "Fresh Grilled Frozen Banana",
+            "price": 11.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,17 +619,26 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 10.51,
-            "isVegetarian": true,
+            "name": "Traditional Baked Snow Cone",
+            "price": 9.14,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Fruit Bars",
-            "price": 10.36,
+            "name": "Authentic Sizzling Baked Alaska",
+            "price": 11.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Creamy Frosty",
+            "price": 8.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +646,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 8.58,
+            "name": "Deluxe Spiced Frozen Yogurt",
+            "price": 10.24,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,24 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our thoughtfully selected collection of spirits and cocktails to enhance your dining experience",
+    "description": "Elevate your dining experience with our smooth-drinking beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Handcrafted Grilled Mojito",
-            "price": 14.8,
+            "name": "Homestyle Spicy Mai Tai",
+            "price": 13.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Luscious Bloody Mary",
+            "price": 10.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +685,17 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Creamy Bloody Mary",
-            "price": 11.71,
+            "name": "Homestyle Flaky Martini",
+            "price": 13.44,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Spiced Negroni",
+            "price": 14.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,26 +703,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Delicious Mai Tai",
-            "price": 15.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Juicy Martini",
-            "price": 14.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sweet Manhattan",
-            "price": 10.33,
+            "name": "Deluxe Crunchy Margarita",
+            "price": 12.36,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -712,17 +712,17 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Exquisite Old Fashioned",
-            "price": 13.63,
+            "name": "Homestyle Mouthwatering Old Fashioned",
+            "price": 14.38,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Exquisite Cosmopolitan",
-            "price": 15.67,
+            "name": "Premium Spiced Whiskey Sour",
+            "price": 12.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,11 +733,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A spectrum of vintages and varietals—from structured reds to bright, crisp whites.",
         "items": [
           {
-            "name": "Deluxe Irresistible Sémillon",
-            "price": 13.23,
+            "name": "Classic Irresistible Cabernet Franc",
+            "price": 13.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,26 +745,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Irresistible Sauvignon Blanc",
-            "price": 10.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Pinot Blanc",
-            "price": 8.26,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Delectable Riesling",
-            "price": 13.56,
+            "name": "Hearty Spiced Sémillon",
+            "price": 13.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,8 +754,26 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Crispy Syrah/Shiraz",
-            "price": 13.89,
+            "name": "Hearty Savory Merlot",
+            "price": 10.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Vouvray",
+            "price": 14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Flavorful Zinfandel",
+            "price": 12.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -781,8 +781,8 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Pan-seared Nebbiolo",
-            "price": 10.6,
+            "name": "Seasonal Sweet Tempranillo",
+            "price": 13.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,20 +793,11 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 16.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bourbon",
-            "price": 12.37,
+            "name": "Handcrafted Crunchy Aquavit",
+            "price": 14.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,8 +805,17 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Midori",
-            "price": 12.15,
+            "name": "House Special Flavorful Frangelico",
+            "price": 14.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Grappa",
+            "price": 11.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -823,18 +823,18 @@ export const amsterdamrijksmuseumDiningHallMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 13.92,
+            "name": "Hearty Wholesome Brandy",
+            "price": 15.42,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baileys Irish Cream",
-            "price": 12.49,
-            "isVegetarian": false,
+            "name": "Seasonal Enticing Grand Marnier",
+            "price": 10.24,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
