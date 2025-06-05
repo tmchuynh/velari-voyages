@@ -5,7 +5,7 @@ import { BaseScript } from "../utils/base-script.mjs";
 import { getCityFiles } from "../utils/file-utils.mjs";
 
 export default class DeleteRestaurantMenuFiles extends BaseScript {
-  constructor(args = {}) {
+  constructor(_args = {}) {
     super(import.meta.url, {
       args: {
         boolean: ["force", "f", "quiet", "q", "debug", "d"],
@@ -19,7 +19,7 @@ export default class DeleteRestaurantMenuFiles extends BaseScript {
 
     // Initialize properties
     this.baseDir = this.resolveConstantsPath("cruises", "restaurants");
-    this.cityFiles = getCityFiles(this.rootDir);
+    this.cityFiles = getCityFiles();
     this.force = this.args.force || false;
     this.rl = null;
   }
