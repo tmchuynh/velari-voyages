@@ -372,5 +372,160 @@ export const aucklandRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Maori Lounge",
+    "description": "Experience authentic Australian cuisine with a local twist, featuring seafood chowder served in an atmosphere of lush native greenery overlooking Viaduct Harbour.",
+    "cuisine": "Australian",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-354-6720",
+      "contactEmail": "inquiries@auckland&sonsauckland.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Auckland Provisions",
+    "description": "A culinary gem serving Pacific specialties including green-lipped mussels, where guests enjoy Kiwi hospitality in the heart of the city.",
+    "cuisine": "Pacific",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-372-5413",
+      "contactEmail": "feedback@hobbitonnoodlebarauckland.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Pounamu Kitchen",
+    "description": "A charming Australian restaurant near Rangitoto Island, offering Kina (sea urchin) and other local favorites in a setting with harbor views.",
+    "cuisine": "Australian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-929-9150",
+      "contactEmail": "team@hobbitonbistroauckland.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Waitemata Parlor",
+    "description": "This popular Maori establishment combines traditional recipes and green-lipped mussels, all served in a unique setting with harbor views.",
+    "cuisine": "Maori",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "Closed",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-664-7091",
+      "contactEmail": "reachus@northlandmarketplaceauckland.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Waikato Ramen-Ya",
+    "description": "Experience authentic Pacific cuisine with a local twist, featuring lamb dishes served in an atmosphere of locally-sourced seafood overlooking Auckland Harbour Bridge.",
+    "cuisine": "Pacific",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-835-6778",
+      "contactEmail": "reachus@tasmancraftauckland.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
