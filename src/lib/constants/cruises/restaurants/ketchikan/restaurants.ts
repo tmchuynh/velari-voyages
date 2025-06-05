@@ -248,5 +248,160 @@ export const ketchikanRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Golden Brasserie",
+    "description": "A culinary gem serving Japanese specialties including handcrafted desserts, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-136-1023",
+      "contactEmail": "clientservices@goldenepicureanketchikan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Noodle Bar",
+    "description": "This popular American establishment combines traditional recipes and seasonal specialties, all served in a unique setting with boutique shops.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "Closed",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-245-9903",
+      "contactEmail": "contact@theworkshopketchikan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Ristorante",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring seasonal specialties served in an atmosphere of beautiful decor overlooking the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-475-5266",
+      "contactEmail": "ask@grandestateketchikan.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Cerveceria",
+    "description": "A culinary gem serving American specialties including seasonal specialties, where guests enjoy seasonal floral displays in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-312-6444",
+      "contactEmail": "hello@thepublichouseketchikan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Grand Cafe",
+    "description": "This popular American establishment combines traditional recipes and artisanal creations, all served in a unique setting with live street performances.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-967-9949",
+      "contactEmail": "hello@goldenmaisonketchikan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

@@ -1,56 +1,56 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for The Public House in ketchikan
+ * Menu data for Golden Ristorante in ketchikan
  */
-export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
+export const ketchikangoldenRistoranteMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A menu designed to highlight the satisfying essence of American",
+    "description": "Celebrate tradition and taste with our satisfying Japanese offerings",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Our chef's pride—carefully selected Japanese specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Traditional Family Paella",
-            "price": 28.43,
+            "name": "Homestyle Herbed House Famous Duck Confit",
+            "price": 24.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Herbed Local Bounty Harvest Plate (Vegetarian)",
+            "price": 30.87,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Wholesome Restaurant's Namesake Signature Entrée",
+            "price": 31.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Tangy Traditional Family Paella",
+            "price": 34.51,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 25.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 37.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 25.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 27.33,
+            "name": "Homestyle Satisfying Heritage Recipe Lamb Shank",
+            "price": 29.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,8 +58,8 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Tableside Carved Chateaubriand",
-            "price": 26.68,
+            "name": "Traditional Creamy Sous Vide Perfected Wagyu",
+            "price": 35.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,8 +67,8 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 31.64,
+            "name": "Deluxe Savory Japanese A5 Wagyu with Ponzu Butter",
+            "price": 24.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -79,20 +79,11 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Japanese.",
         "items": [
           {
-            "name": "Cold-Smoked Delicacy",
-            "price": 36.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Specialty Pasta Creation",
-            "price": 24.63,
+            "name": "Fire-Roasted Seasonal Centerpiece",
+            "price": 37.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,29 +91,38 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 37.32,
+            "name": "Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 24.93,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heritage Breed Porchetta",
+            "price": 24.88,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Truffle Risotto",
-            "price": 36.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Collaborative Limited Edition Special",
-            "price": 34.79,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 31.81,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Freshly Harvested Seasonal Creation",
+            "price": 34.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,38 +130,47 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Traditional and reimagined American appetizers made for sharing or solo indulgence.",
+        "description": "Flavor-forward starters that introduce our approach to Japanese with balance and creativity.",
         "items": [
           {
-            "name": "Homestyle Fried Calamari",
-            "price": 11.41,
+            "name": "Fresh Roasted Cheese Nachos",
+            "price": 11.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Spicy Mini Tacos",
+            "price": 12.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Bruschetta",
+            "price": 11.52,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Creamy Arancini",
+            "price": 12.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Sweet Chicken Wings",
-            "price": 8.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Flaky Mini Crab Cakes",
-            "price": 12.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Pan-seared Stuffed Mushrooms",
-            "price": 8.68,
+            "name": "Traditional Zesty Baba Ganoush",
+            "price": 14.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,37 +178,28 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Braised Mezze Platter",
-            "price": 9.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Sweet Mini Tacos",
-            "price": 10.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Exquisite Stuffed Peppers",
-            "price": 12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zingy Onion Rings",
-            "price": 15.75,
+            "name": "Hearty Aromatic Caprese Salad",
+            "price": 12.47,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Spinach Puffs",
+            "price": 15.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sizzling Potstickers",
+            "price": 12.91,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,20 +208,20 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of American, crafted with care and expertise.",
+        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
         "items": [
           {
-            "name": "Lentil Soup",
-            "price": 13.89,
-            "isVegetarian": false,
+            "name": "Butternut Squash Soup",
+            "price": 9.68,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Italian Wedding Soup",
-            "price": 8.36,
+            "name": "Broccoli Cheddar Soup",
+            "price": 10.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,32 +229,50 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Turkey and Wild Rice Soup",
-            "price": 8.53,
+            "name": "Thai Coconut Soup",
+            "price": 11.66,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Lobster Bisque",
-            "price": 9.45,
-            "isVegetarian": false,
+            "name": "Black Bean Soup",
+            "price": 12.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Fruit Salad",
-            "price": 14.91,
+            "name": "Orzo Salad",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 11.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 11.96,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -262,36 +280,18 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 13.75,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Garden Salad",
+            "price": 15,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Greek Salad",
-            "price": 13.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 10.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 15.36,
-            "isVegetarian": false,
+            "name": "Pasta Salad",
+            "price": 9.2,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,20 +301,20 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Signature entrées crafted with precision, embodying the core of our American vision.",
+        "description": "A selection of mains that reflect the heart and soul of Japanese, prepared with care.",
         "items": [
           {
-            "name": "Risotto",
-            "price": 18.5,
+            "name": "Homestyle Mouthwatering Pesto Pasta",
+            "price": 24.49,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pesto Pasta",
-            "price": 31.3,
+            "name": "Gourmet Juicy Ramen",
+            "price": 31.98,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,8 +322,8 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Spaghetti Bolognese",
-            "price": 29.15,
+            "name": "Gourmet Savory Quiche",
+            "price": 31.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -331,26 +331,35 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cottage Pie",
-            "price": 20.78,
+            "name": "Authentic Delicious Mac and Cheese",
+            "price": 30.84,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Teriyaki Chicken",
-            "price": 28.9,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Pizza",
-            "price": 18.07,
+            "name": "Seasonal Crunchy Enchiladas",
+            "price": 23.24,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Stuffed Zucchini Boats",
+            "price": 22.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Exquisite Shish Kebabs",
+            "price": 20.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,71 +367,62 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roast Duck",
-            "price": 23.92,
+            "name": "Authentic Zingy Fajitas",
+            "price": 19.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Burger",
-            "price": 22.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Miso-Marinated Chilean Sea Bass",
-            "price": 35.14,
+            "name": "House Special Enticing Lemon-Herb Calamari Steak",
+            "price": 35.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "New England Lobster Roll",
-            "price": 35.26,
+            "name": "Homestyle Tangy Cajun Shrimp and Grits",
+            "price": 30.37,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Spanish Octopus with Smoked Paprika",
-            "price": 23.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Basa Fillet with Dill Cream Sauce",
-            "price": 31.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cedar Plank Roasted Salmon",
-            "price": 32.9,
-            "isVegetarian": false,
+            "name": "Premium Savory Basa Fillet with Dill Cream Sauce",
+            "price": 22.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Golden Shrimp Scampi over Linguine",
+            "price": 29.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Satisfying Oysters Rockefeller with Pernod Cream",
+            "price": 26.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,59 +430,59 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Organic Hearty Warm Buttermilk Dinner Rolls",
+            "name": "Traditional Spicy Garlic Bread with Herb Butter",
+            "price": 9.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome French Fries",
+            "price": 9.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Stuffed Roasted Root Vegetables",
+            "price": 5.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Wild Rice Pilaf",
+            "price": 7.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Flaky Crispy Beer-Battered Onion Rings",
+            "price": 9.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Stuffed Buttered Egg Noodles",
             "price": 7.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Grilled Wild Mushroom Risotto",
-            "price": 5.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Enticing Green Beans Almondine",
-            "price": 8.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Succulent Israeli Couscous with Roasted Tomatoes",
-            "price": 8.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Stuffed Sweet Potato Wedges with Smoked Paprika",
-            "price": 7.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Mouthwatering Wild Rice Pilaf",
-            "price": 6.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,29 +490,11 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 7.59,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee",
-            "price": 5.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.63,
+            "name": "Fresh Grilled Lemonade",
+            "price": 6.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -520,8 +502,35 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hot Chocolate",
-            "price": 4.37,
+            "name": "Authentic Marinated Coffee",
+            "price": 4.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Hot Chocolate",
+            "price": 6.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Delicious Tea",
+            "price": 7.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Delectable Milkshake",
+            "price": 6.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -529,18 +538,9 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 4.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tea",
-            "price": 7.21,
-            "isVegetarian": false,
+            "name": "Fresh Enticing Water",
+            "price": 5.77,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,15 +552,15 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A baked to perfection selection of desserts that will satisfy your cravings",
+    "description": "From rich chocolates to fruity delights – our tasty desserts await",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "House Special Spiced Cupcakes",
-            "price": 8.57,
+            "name": "House Special Mouthwatering Cheesecake",
+            "price": 10.27,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,8 +568,8 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Cobbler",
-            "price": 9.3,
+            "name": "Gourmet Zingy Cannoli",
+            "price": 6.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,50 +577,50 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Biscotti",
-            "price": 7.78,
+            "name": "Seasonal Herbed Banana Bread",
+            "price": 8.26,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Succulent Eclairs",
+            "price": 6.8,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Irresistible Red Velvet Cake",
-            "price": 10.37,
+            "name": "Authentic Stuffed Soufflé",
+            "price": 6.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Creamy Vanilla Cake",
-            "price": 8.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "Made in-house with premium dairy and plant-based alternatives.",
+        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Homestyle Stuffed Sorbet",
-            "price": 7.45,
-            "isVegetarian": false,
+            "name": "Frozen Cheesecake",
+            "price": 7.67,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Ice Cream",
-            "price": 7.75,
+            "name": "Frozen Custard",
+            "price": 9.13,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,17 +628,17 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Spiced Frozen Pie",
-            "price": 11.31,
-            "isVegetarian": true,
+            "name": "Frozen Pudding",
+            "price": 11.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Golden Baked Alaska",
-            "price": 11.59,
+            "name": "Baked Alaska",
+            "price": 8.5,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -646,8 +646,8 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Semifreddo",
-            "price": 11.52,
+            "name": "Frozen Yogurt",
+            "price": 8.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,15 +660,15 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Toast to the moment with our thoughtfully selected selection of wines, beers, and signature drinks",
+    "description": "Elevate your dining experience with our quality beverage options",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 12.51,
+            "name": "Mai Tai",
+            "price": 10.11,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,55 +676,55 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 11.37,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 10.88,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 10.34,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 13.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 11.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Margarita",
-            "price": 12.89,
+            "price": 14.09,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 10.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 13.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.22,
+            "name": "Negroni",
+            "price": 10.66,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 14.57,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,47 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Gourmet Smoked Syrah/Shiraz",
-            "price": 12.72,
+            "name": "Handcrafted Spicy Pinot Noir",
+            "price": 10.8,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sizzling Chenin Blanc",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Merlot",
+            "price": 11.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Luscious Syrah/Shiraz",
+            "price": 13.82,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Enticing Cabernet Sauvignon",
+            "price": 11.28,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -745,47 +781,11 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Satisfying Merlot",
-            "price": 13.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Enticing Cabernet Franc",
-            "price": 11.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Sweet Vermentino",
-            "price": 9.3,
+            "name": "Homestyle Marinated Pinot Blanc",
+            "price": 13.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Delectable Torrontés",
-            "price": 8.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delectable Cabernet Sauvignon",
-            "price": 9.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,49 +793,49 @@ export const ketchikanthePublicHouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
         "items": [
           {
-            "name": "Seasonal Flavorful Grappa",
-            "price": 14.59,
+            "name": "Gourmet Hearty Baileys Irish Cream",
+            "price": 16.47,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Enticing Pisco",
-            "price": 17.77,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Brandy",
-            "price": 11.93,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Roasted Vodka",
-            "price": 11.46,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Amaretto",
-            "price": 15.48,
+            "name": "Premium Flaky Calvados",
+            "price": 17.89,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Bourbon",
+            "price": 10.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Flavorful Chambord",
+            "price": 13.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Zesty Sambuca",
+            "price": 11.98,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
