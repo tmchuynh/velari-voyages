@@ -6,24 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Delight in our chef's most satisfying takes on traditional Mediterranean flavors",
+    "description": "Flavors that feel familiar, presented in fresh, flavorful ways",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "A curated collection of our most iconic and requested plates.",
         "items": [
           {
-            "name": "Premium Roasted Charcoal Grilled Iberico Pork",
-            "price": 35.79,
+            "name": "Gourmet Sweet Captain's Favorite Seafood Tower",
+            "price": 27.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Grilled Japanese A5 Wagyu with Ponzu Butter",
+            "price": 36.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Age-Old Recipe Osso Buco with Gremolata",
-            "price": 30.35,
+            "name": "Deluxe Zingy Award-Winning Seafood Boil",
+            "price": 25.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,8 +40,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Spicy Secret Recipe Bouillabaisse",
-            "price": 34.2,
+            "name": "Fresh Spiced Legendary Prime Rib",
+            "price": 29.68,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,8 +49,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sizzling Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 25,
+            "name": "Deluxe Creamy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 32.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,50 +58,41 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Comforting Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 36.54,
+            "name": "Premium Sautéed Whole Roasted Heritage Chicken",
+            "price": 30.04,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Luscious Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 24.66,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Crunchy Heritage Recipe Lamb Shank",
-            "price": 36.65,
+            "name": "Homestyle Crunchy Charcoal Grilled Iberico Pork",
+            "price": 30.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Tasting of Local Artisanal Cheeses",
-            "price": 38.95,
-            "isVegetarian": true,
+            "name": "Charcoal-Grilled Wagyu Beef",
+            "price": 37.39,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 27.26,
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 36.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,8 +100,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Black Garlic Marinated Octopus",
-            "price": 31.38,
+            "name": "Special Occasion Celebratory Dish",
+            "price": 38.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -109,20 +109,20 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seared Duck Breast with Cherry Reduction",
-            "price": 38.11,
+            "name": "Pan-Seared Scallops with Citrus Beurre Blanc",
+            "price": 37.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Miso-Glazed Black Cod",
-            "price": 31.15,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 36.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,11 +130,11 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Mediterranean—perfect for sharing or savoring solo.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Mediterranean culinary artistry.",
         "items": [
           {
-            "name": "Mozzarella Sticks",
-            "price": 15.62,
+            "name": "Organic Stuffed Bruschetta",
+            "price": 13.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +142,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 11.13,
+            "name": "Gourmet Appetizing Lettuce Wraps",
+            "price": 12.25,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -151,26 +151,44 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Calamari",
-            "price": 9.24,
+            "name": "Fresh Crunchy Tuna Tartare",
+            "price": 8.45,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Calamari",
+            "price": 14.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Grilled Prawn Toast",
+            "price": 13.53,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Onion Rings",
-            "price": 14.9,
+            "name": "Fresh Stuffed Spinach Artichoke Dip",
+            "price": 8.91,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Prawn Toast",
-            "price": 12.23,
+            "name": "Hearty Succulent Mozzarella Sticks",
+            "price": 12.31,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,27 +196,9 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dumplings",
-            "price": 13.86,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Empanadas",
-            "price": 11.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Tacos",
-            "price": 12.41,
-            "isVegetarian": true,
+            "name": "Hearty Zingy Spinach Puffs",
+            "price": 14.66,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -208,20 +208,20 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Daily-prepared soups made from seasonal ingredients and traditional Mediterranean methods.",
+        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
         "items": [
           {
-            "name": "Organic Creamy Avgolemono (Greek Lemon Soup)",
-            "price": 10.76,
+            "name": "Peanut Soup (West African)",
+            "price": 13.49,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Mushroom Soup",
-            "price": 8.53,
+            "name": "Italian Wedding Soup",
+            "price": 10.65,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,18 +229,18 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Golden Lentil Soup",
-            "price": 12.9,
+            "name": "Avgolemono (Greek Lemon Soup)",
+            "price": 10.59,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Broccoli Cheddar Soup",
-            "price": 11.43,
-            "isVegetarian": false,
+            "name": "Borscht",
+            "price": 13.22,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -253,8 +253,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
         "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Lentil and Feta Salad",
-            "price": 9.24,
+            "name": "Potato Salad",
+            "price": 9.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,38 +262,38 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Watermelon Feta Salad",
-            "price": 13.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 13.06,
+            "name": "Orzo Salad",
+            "price": 14.54,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 12.95,
-            "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Spinach Salad",
-            "price": 13.56,
+            "price": 12.79,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 14.23,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 13.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -304,35 +304,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
         "description": "A journey through Mediterranean flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Tagine",
-            "price": 26.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gnocchi",
-            "price": 31.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "price": 29.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "price": 21.95,
+            "name": "Jambalaya",
+            "price": 31.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -340,8 +313,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lentil Stew",
-            "price": 18.4,
+            "name": "Coq au Vin",
+            "price": 20.21,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -349,80 +322,107 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
+            "name": "Beef Burger",
+            "price": 30.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
             "name": "Biryani",
-            "price": 25.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "price": 23.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 22.41,
+            "price": 19.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lasagna",
+            "price": 19.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Salmon",
+            "price": 21.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pasta Primavera",
+            "price": 27.91,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fajitas",
+            "price": 31.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "Crafted with care, our seafood offerings are a testament to our commitment to quality.",
         "items": [
           {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "price": 23.67,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 22.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemon-Herb Calamari Steak",
-            "price": 34.05,
+            "name": "Homestyle Juicy New England Lobster Roll",
+            "price": 30.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Marinated Hearty Italian Cioppino",
+            "price": 33.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
-            "price": 27,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Homestyle Grilled Linguine with Clam Sauce",
+            "price": 28.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 26.71,
+            "name": "Premium Creamy Alaskan King Crab Legs with Drawn Butter",
+            "price": 30.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Roasted Grilled Swordfish with Mango Chutney",
+            "price": 32.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,20 +430,11 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Mediterranean flavors.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Authentic Satisfying Stuffed Bell Peppers with Brown Rice",
-            "price": 5.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Fried Green Beans Almondine",
-            "price": 7.98,
+            "name": "Braised Red Cabbage with Apple",
+            "price": 8.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -451,8 +442,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Creamy Cauliflower Gratin with Gruyère",
-            "price": 8.71,
+            "name": "Provencal Ratatouille",
+            "price": 9.24,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -460,8 +451,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Flaky Homestyle Baked Beans",
-            "price": 8.56,
+            "name": "Stuffed Bell Peppers with Brown Rice",
+            "price": 7.43,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -469,19 +460,28 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Braised Herbed Bulgur Wheat with Lemon",
-            "price": 7.69,
-            "isVegetarian": false,
+            "name": "Mashed Potatoes",
+            "price": 8.78,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spicy Sautéed Garlic Mushrooms",
-            "price": 6.96,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 5.76,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cauliflower Gratin with Gruyère",
+            "price": 9.82,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -490,11 +490,11 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
-            "name": "Milkshake",
-            "price": 5.19,
+            "name": "Handcrafted Smoked Hot Chocolate",
+            "price": 5.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,26 +502,35 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lemonade",
-            "price": 7.64,
+            "name": "Traditional Stuffed Coffee",
+            "price": 5.25,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 7.14,
-            "isVegetarian": true,
+            "name": "Fresh Sautéed Tea",
+            "price": 6.18,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 6.09,
+            "name": "Authentic Pan-seared Smoothie",
+            "price": 5.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Juice",
+            "price": 7.3,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -529,19 +538,10 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.05,
+            "name": "Homestyle Sweet Iced Tea",
+            "price": 6.32,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 4.77,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,24 +552,24 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our baked to perfection desserts are a celebration of flavor and creativity",
+    "description": "From classics to signatures: comforting desserts for every taste",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
         "items": [
           {
-            "name": "Soufflé",
-            "price": 10.8,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Cupcakes",
+            "price": 8.23,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 6.79,
+            "name": "Pecan Pie",
+            "price": 9.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,8 +577,8 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 10.11,
+            "name": "Croissants",
+            "price": 7.52,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -587,19 +587,19 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
           },
           {
             "name": "Banana Bread",
-            "price": 8.21,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 6.19,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 7.9,
+            "name": "Cobbler",
+            "price": 8.43,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,49 +607,49 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
-            "name": "Frozen Pie",
-            "price": 9.85,
+            "name": "Ice Cream Sandwich",
+            "price": 11.06,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ice Cream",
+            "price": 11.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 8.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Gelato",
-            "price": 9.09,
+            "price": 7.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Yogurt",
-            "price": 7.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 7.55,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Semifreddo",
-            "price": 7.06,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Frosty",
+            "price": 9.35,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,24 +660,24 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' crowd-pleasing creations to complete your meal",
+    "description": "A balanced selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Bloody Mary",
-            "price": 13.62,
+            "name": "Classic Roasted Margarita",
+            "price": 12.04,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 14.55,
+            "name": "Traditional Sizzling Martini",
+            "price": 12.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,35 +685,35 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.97,
-            "isVegetarian": true,
+            "name": "Authentic Marinated Negroni",
+            "price": 11.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Herbed Mai Tai",
+            "price": 13.88,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 10.28,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Traditional Stuffed Manhattan",
+            "price": 13.11,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 11.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.17,
+            "name": "Gourmet Sizzling Mojito",
+            "price": 11.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +721,10 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 13.76,
+            "name": "Homestyle Grilled Cosmopolitan",
+            "price": 12.57,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,59 +733,59 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
+        "description": "Wines selected to enhance each dish and elevate your dining experience.",
         "items": [
           {
-            "name": "Champagne/Sparkling Wine",
-            "price": 11.42,
+            "name": "Classic Grilled Albariño",
+            "price": 9.45,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Petit Verdot",
-            "price": 10.25,
+            "name": "Homestyle Luscious Pinot Blanc",
+            "price": 10.77,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grenache",
-            "price": 10.52,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Syrah/Shiraz",
-            "price": 13.89,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sémillon",
-            "price": 11.86,
-            "isVegetarian": true,
+            "name": "Seasonal Delectable Moscato",
+            "price": 8.24,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gewürztraminer",
-            "price": 12.14,
+            "name": "Authentic Wholesome Cabernet Sauvignon",
+            "price": 12.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Grilled Tempranillo",
+            "price": 10.83,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Fried Sémillon",
+            "price": 12.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,52 +793,52 @@ export const vancouveritalianCollectiveMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Mezcal",
-            "price": 17.48,
-            "isVegetarian": true,
+            "name": "Homestyle Flaky Midori",
+            "price": 11.4,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 10.27,
-            "isVegetarian": true,
+            "name": "Premium Pan-seared Mezcal",
+            "price": 14.47,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Tangy Vodka",
+            "price": 11.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cointreau",
-            "price": 11.53,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Seasonal Stuffed Brandy",
+            "price": 11.44,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grappa",
-            "price": 10.18,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vodka",
-            "price": 15.46,
-            "isVegetarian": true,
+            "name": "Authentic Stuffed Whiskey",
+            "price": 10.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       }
