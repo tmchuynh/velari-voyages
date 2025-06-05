@@ -189,7 +189,7 @@ export default function CruiseInfo({
                   onClick={() =>
                     router.push(
                       "/book-your-trip-today?cruise=" +
-                        formatToSlug(cruise.title)
+                        formatToSlug(cruise.title),
                     )
                   }
                   className="mx-auto mt-4 w-13/14"
@@ -225,8 +225,8 @@ export default function CruiseInfo({
 
               router.push(
                 `/cruises/cruise-categories/velari-voyages-cruises/cruise/${formatToSlug(
-                  cruise.title
-                )}?${queryParams.toString()}`
+                  cruise.title,
+                )}?${queryParams.toString()}`,
               );
             }}
           >
