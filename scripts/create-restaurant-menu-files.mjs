@@ -99,7 +99,7 @@ const excludedCategories = args["exclude-categories"]
 const validPriceRanges = ["budget", "standard", "premium", "luxury"];
 if (!validPriceRanges.includes(args["price-range"])) {
   console.warn(
-    `Invalid price range: ${args["price-range"]}. Using 'standard' instead.`
+    `Invalid price range: ${args["price-range"]}. Using 'standard' instead.`,
   );
   args["price-range"] = "standard";
 }
@@ -115,7 +115,7 @@ const validDietaryFocuses = [
 ];
 if (!validDietaryFocuses.includes(args["dietary-focus"])) {
   console.warn(
-    `Invalid dietary focus: ${args["dietary-focus"]}. Using 'mixed' instead.`
+    `Invalid dietary focus: ${args["dietary-focus"]}. Using 'mixed' instead.`,
   );
   args["dietary-focus"] = "mixed";
 }
@@ -129,7 +129,7 @@ const validRestaurantStyles = [
 ];
 if (!validRestaurantStyles.includes(args["restaurant-style"])) {
   console.warn(
-    `Invalid restaurant style: ${args["restaurant-style"]}. Using 'casual' instead.`
+    `Invalid restaurant style: ${args["restaurant-style"]}. Using 'casual' instead.`,
   );
   args["restaurant-style"] = "casual";
 }
@@ -152,11 +152,11 @@ console.log(`- Items per category: ${args["items"]}`);
 console.log(
   `- Restaurant: ${
     args["restaurant"] === "all" ? "All restaurants" : args["restaurant"]
-  }`
+  }`,
 );
 if (APPEND_MODE) {
   console.log(
-    `- Append Mode: Adding ${args["append-count"]} items to "${args["append-category"]}" category`
+    `- Append Mode: Adding ${args["append-count"]} items to "${args["append-category"]}" category`,
   );
 }
 
@@ -192,7 +192,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "restaurants",
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -209,7 +209,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase()
+      index === 0 ? word.toLowerCase() : word.toUpperCase(),
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -240,7 +240,7 @@ function extractRestaurantNames(filePath) {
       if (matches.length === 0) {
         console.log(`File content sample: ${content.substring(0, 200)}...`);
         console.warn(
-          `No restaurant names found in ${filePath} using standard patterns`
+          `No restaurant names found in ${filePath} using standard patterns`,
         );
       }
     }
@@ -634,16 +634,16 @@ function getDietaryFlags(cuisine, itemName) {
 
   // Check for obvious non-vegetarian items
   const containsMeat = meatKeywords.some((keyword) =>
-    lowerName.includes(keyword)
+    lowerName.includes(keyword),
   );
   const containsSeafood = seafoodKeywords.some((keyword) =>
-    lowerName.includes(keyword)
+    lowerName.includes(keyword),
   );
   const containsDairy = dairyKeywords.some((keyword) =>
-    lowerName.includes(keyword)
+    lowerName.includes(keyword),
   );
   const containsGluten = glutenKeywords.some((keyword) =>
-    lowerName.includes(keyword)
+    lowerName.includes(keyword),
   );
 
   // Base probabilities adjusted by cuisine type
@@ -775,7 +775,7 @@ function generateMenuItemsForType(
   category,
   cuisine,
   count = args["items"],
-  restaurant
+  restaurant,
 ) {
   // If a specific category is specified and doesn't match this one, use default count
   if (
@@ -790,7 +790,7 @@ function generateMenuItemsForType(
   if (
     args["enhance-menu"].toLowerCase() === "drinks" &&
     ["signature cocktails", "wine selection", "spirits and liqueurs"].includes(
-      category.toLowerCase()
+      category.toLowerCase(),
     )
   ) {
     count = Math.max(count * 2, 10); // Double the count or minimum 10 items
@@ -866,7 +866,7 @@ function generateMenuItemsForType(
   ) {
     count = Math.max(count * 2, 10); // Double the count or minimum 10 items
     console.log(
-      `Enhanced drinks menu for adult-only restaurant: ${restaurant.name}`
+      `Enhanced drinks menu for adult-only restaurant: ${restaurant.name}`,
     );
   }
 
@@ -942,7 +942,7 @@ function generateMenuItemsForType(
           "Cosmopolitan",
           "Mai Tai",
           "Whiskey Sour",
-        ].includes(item)
+        ].includes(item),
       );
       priceRange = { min: 10, max: 16 };
       break;
@@ -972,11 +972,11 @@ function generateMenuItemsForType(
   const modifier = priceModifiers[args["price-range"]];
   priceRange.min = Math.max(
     Math.round(priceRange.min * modifier.factor) + modifier.fixed,
-    3
+    3,
   );
   priceRange.max = Math.max(
     Math.round(priceRange.max * modifier.factor) + modifier.fixed,
-    priceRange.min + 2
+    priceRange.min + 2,
   );
 
   // Apply restaurant-specific price modifiers
@@ -1024,17 +1024,17 @@ function generateMenuItemsForType(
       ) {
         const lowerMeatKeywords = meatKeywords.map((k) => k.toLowerCase());
         const lowerSeafoodKeywords = seafoodKeywords.map((k) =>
-          k.toLowerCase()
+          k.toLowerCase(),
         );
 
         // Filter out meat and seafood
         filteredSource = filteredSource.filter((item) => {
           const lowerItem = item.toLowerCase();
           const hasMeat = lowerMeatKeywords.some((keyword) =>
-            lowerItem.includes(keyword)
+            lowerItem.includes(keyword),
           );
           const hasSeafood = lowerSeafoodKeywords.some((keyword) =>
-            lowerItem.includes(keyword)
+            lowerItem.includes(keyword),
           );
           return !hasMeat && !hasSeafood;
         });
@@ -1045,7 +1045,7 @@ function generateMenuItemsForType(
           filteredSource = filteredSource.filter((item) => {
             const lowerItem = item.toLowerCase();
             const hasDairy = lowerDairyKeywords.some((keyword) =>
-              lowerItem.includes(keyword)
+              lowerItem.includes(keyword),
             );
             return !hasDairy;
           });
@@ -1058,7 +1058,7 @@ function generateMenuItemsForType(
         filteredSource = filteredSource.filter((item) => {
           const lowerItem = item.toLowerCase();
           const hasGluten = lowerGlutenKeywords.some((keyword) =>
-            lowerItem.includes(keyword)
+            lowerItem.includes(keyword),
           );
           return !hasGluten;
         });
@@ -1088,12 +1088,12 @@ function generateMenuItemsForType(
         ];
 
         const lowerNonHalalKeywords = nonHalalKeywords.map((k) =>
-          k.toLowerCase()
+          k.toLowerCase(),
         );
         filteredSource = filteredSource.filter((item) => {
           const lowerItem = item.toLowerCase();
           const hasNonHalal = lowerNonHalalKeywords.some((keyword) =>
-            lowerItem.includes(keyword)
+            lowerItem.includes(keyword),
           );
           return !hasNonHalal;
         });
@@ -1132,12 +1132,12 @@ function generateMenuItemsForType(
         ];
 
         const lowerNonKosherKeywords = nonKosherKeywords.map((k) =>
-          k.toLowerCase()
+          k.toLowerCase(),
         );
         filteredSource = filteredSource.filter((item) => {
           const lowerItem = item.toLowerCase();
           const hasNonKosher = lowerNonKosherKeywords.some((keyword) =>
-            lowerItem.includes(keyword)
+            lowerItem.includes(keyword),
           );
           return !hasNonKosher;
         });
@@ -1415,7 +1415,7 @@ function generateMenuItemsForType(
         const neededItems = Math.max(0, count - filteredSource.length);
         const selectedAdditionalItems = getRandomItems(
           additionalItems,
-          neededItems
+          neededItems,
         );
         filteredSource = [...filteredSource, ...selectedAdditionalItems];
       }
@@ -1449,44 +1449,44 @@ function generateMenuItemsForType(
     ) {
       const lowerItemName = itemName.toLowerCase();
       const hasMeat = meatKeywords.some((keyword) =>
-        lowerItemName.includes(keyword.toLowerCase())
+        lowerItemName.includes(keyword.toLowerCase()),
       );
       const hasSeafood = seafoodKeywords.some((keyword) =>
-        lowerItemName.includes(keyword.toLowerCase())
+        lowerItemName.includes(keyword.toLowerCase()),
       );
 
       if (hasMeat || hasSeafood) {
         nameNeedsChange = true;
         alternativeDescriptor = getRandomItems(
           ["Garden", "Fresh", "Green", "Harvest", "Plant-Based", "Seasonal"],
-          1
+          1,
         )[0];
       }
 
       // For vegan, also check dairy
       if (args["dietary-focus"] === "vegan-only" && !nameNeedsChange) {
         const hasDairy = dairyKeywords.some((keyword) =>
-          lowerItemName.includes(keyword.toLowerCase())
+          lowerItemName.includes(keyword.toLowerCase()),
         );
         if (hasDairy) {
           nameNeedsChange = true;
           alternativeDescriptor = getRandomItems(
             ["Pure", "Plant", "Garden", "Harvest"],
-            1
+            1,
           )[0];
         }
       }
     } else if (args["dietary-focus"] === "gluten-free") {
       const lowerItemName = itemName.toLowerCase();
       const hasGluten = glutenKeywords.some((keyword) =>
-        lowerItemName.includes(keyword.toLowerCase())
+        lowerItemName.includes(keyword.toLowerCase()),
       );
 
       if (hasGluten) {
         nameNeedsChange = true;
         alternativeDescriptor = getRandomItems(
           ["Gluten-Free", "Flourless", "Grain-Free", "Pure"],
-          1
+          1,
         )[0];
       }
     } else if (args["dietary-focus"] === "halal-only") {
@@ -1501,14 +1501,14 @@ function generateMenuItemsForType(
         "liquor",
       ];
       const hasNonHalal = nonHalalTerms.some((keyword) =>
-        lowerItemName.includes(keyword.toLowerCase())
+        lowerItemName.includes(keyword.toLowerCase()),
       );
 
       if (hasNonHalal) {
         nameNeedsChange = true;
         alternativeDescriptor = getRandomItems(
           ["Halal", "Traditional", "Authentic", "House"],
-          1
+          1,
         )[0];
       }
     } else if (args["dietary-focus"] === "kosher-only") {
@@ -1522,14 +1522,14 @@ function generateMenuItemsForType(
         "catfish",
       ];
       const hasNonKosher = nonKosherTerms.some((keyword) =>
-        lowerItemName.includes(keyword.toLowerCase())
+        lowerItemName.includes(keyword.toLowerCase()),
       );
 
       if (hasNonKosher) {
         nameNeedsChange = true;
         alternativeDescriptor = getRandomItems(
           ["Kosher", "Traditional", "Classic", "House"],
-          1
+          1,
         )[0];
       }
     }
@@ -1609,7 +1609,7 @@ function generateCocktailItems(count, priceRange) {
     const technique = getRandomItems(menuItems.cocktailTechniques, 1)[0];
     const glassType = getRandomItems(
       menuItems.cocktailGlassware || ["glass"],
-      1
+      1,
     )[0];
 
     // Format name patterns
@@ -1646,7 +1646,7 @@ function generateCocktailItems(count, priceRange) {
             "Daiquiri",
             "Tom Collins",
           ],
-          1
+          1,
         )[0];
         name = classicCocktail;
         break;
@@ -1693,7 +1693,7 @@ function generateMenuFileContent(cityName, restaurantName, restaurantCuisine) {
   const signatureDishes = generateMenuItems(
     "signature dishes",
     restaurantCuisine,
-    4
+    4,
   );
   const starters = generateMenuItems("starters", restaurantCuisine, 6);
   const mainCourses = generateMenuItems("main courses", restaurantCuisine, 8);
@@ -1799,7 +1799,7 @@ function generateCombinedMenuContent(
   cityName,
   restaurantName,
   restaurantCuisine,
-  restaurant // Add the full restaurant object as a parameter
+  restaurant, // Add the full restaurant object as a parameter
 ) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
@@ -1811,7 +1811,7 @@ function generateCombinedMenuContent(
 
   if (shouldFilterPork) {
     console.log(
-      `${restaurantName} will have pork items removed from its menu (halal/kosher friendly)`
+      `${restaurantName} will have pork items removed from its menu (halal/kosher friendly)`,
     );
   }
 
@@ -1820,55 +1820,55 @@ function generateCombinedMenuContent(
     "signature dishes",
     restaurantCuisine,
     7,
-    restaurant
+    restaurant,
   );
   const chefsSpecials = generateMenuItemsForType(
     "chef's specials",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
   const appetizers = generateMenuItemsForType(
     "appetizers",
     restaurantCuisine,
     8,
-    restaurant
+    restaurant,
   );
   const salads = generateMenuItemsForType(
     "salads",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
   const soups = generateMenuItemsForType(
     "soups",
     restaurantCuisine,
     4,
-    restaurant
+    restaurant,
   );
   const mainCourses = generateMenuItemsForType(
     "main courses",
     restaurantCuisine,
     8,
-    restaurant
+    restaurant,
   );
   const sideDishes = generateMenuItemsForType(
     "side dishes",
     restaurantCuisine,
     6,
-    restaurant
+    restaurant,
   );
   const seafoodSpecialties = generateMenuItemsForType(
     "seafood specialties",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
   const nonAlcoholicBeverages = generateMenuItemsForType(
     "non-alcoholic beverages",
     restaurantCuisine,
     6,
-    restaurant
+    restaurant,
   );
 
   // Generate dessert menu categories
@@ -1876,13 +1876,13 @@ function generateCombinedMenuContent(
     "frozen desserts",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
   const bakedGoods = generateMenuItemsForType(
     "baked goods",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
 
   // Generate alcohol categories
@@ -1890,19 +1890,19 @@ function generateCombinedMenuContent(
     "signature cocktails",
     restaurantCuisine,
     7,
-    restaurant
+    restaurant,
   );
   const wines = generateMenuItemsForType(
     "wine selection",
     restaurantCuisine,
     6,
-    restaurant
+    restaurant,
   );
   const spirits = generateMenuItemsForType(
     "spirits and liqueurs",
     restaurantCuisine,
     5,
-    restaurant
+    restaurant,
   );
 
   // Build menus array based on menu-type flag and excluded menu types
@@ -2201,7 +2201,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Signature Dishes",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: signatureDishes,
       });
@@ -2213,7 +2213,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Chef's Specials",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: chefsSpecials,
       });
@@ -2225,7 +2225,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Appetizers",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: appetizers,
       });
@@ -2237,7 +2237,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Soups",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: soups,
       });
@@ -2249,7 +2249,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Salads",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: salads,
       });
@@ -2261,7 +2261,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Main Courses",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: mainCourses,
       });
@@ -2273,7 +2273,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Seafood Specialties",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: seafoodSpecialties,
       });
@@ -2285,7 +2285,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Side Dishes",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: sideDishes,
       });
@@ -2297,7 +2297,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Non-Alcoholic Beverages",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: nonAlcoholicBeverages,
       });
@@ -2480,7 +2480,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Baked Goods",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: bakedGoods,
       });
@@ -2492,7 +2492,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Frozen Desserts",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: frozenDesserts,
       });
@@ -2659,7 +2659,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Signature Cocktails",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: cocktails,
       });
@@ -2671,7 +2671,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Wine Selection",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: wines,
       });
@@ -2683,7 +2683,7 @@ function generateCombinedMenuContent(
         description: getCategoryDescription(
           "Spirits and Liqueurs",
           restaurantCuisine,
-          restaurant
+          restaurant,
         ),
         items: spirits,
       });
@@ -2832,7 +2832,7 @@ function generateCombinedMenuContent(
 export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
     menus,
     null,
-    2
+    2,
   )};
 `;
 }
@@ -2844,7 +2844,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
 
   if (!kebabName) {
     console.error(
-      `Failed to generate valid filename for "${restaurant.name}".`
+      `Failed to generate valid filename for "${restaurant.name}".`,
     );
     return false;
   }
@@ -2869,7 +2869,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         !fileContent.includes("export const")
       ) {
         console.error(
-          `File exists but doesn't appear to be a valid menu file: ${menuFilePath}`
+          `File exists but doesn't appear to be a valid menu file: ${menuFilePath}`,
         );
         return false;
       }
@@ -2878,7 +2878,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
       const newItems = generateMenuItemsForType(
         args["append-category"],
         restaurant.cuisine,
-        args["append-count"]
+        args["append-count"],
       );
 
       // Create a temporary function to safely evaluate the file content
@@ -2888,7 +2888,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         // Extract just the menu array part using regex
         const menuMatch = fileContent.match(
           // Ensure fileContent is correctly referenced
-          /export const[\s\S]*?Menu: RestaurantMenu\[\] = (\[[\s\S]*\]);/
+          /export const[\s\S]*?Menu: RestaurantMenu\[\] = (\[[\s\S]*\]);/,
         );
         if (!menuMatch || !menuMatch[1]) {
           throw new Error("Could not extract menu data");
@@ -2904,7 +2904,8 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
           for (const menu of menuData) {
             const categoryIndex = menu.category.findIndex(
               (cat) =>
-                cat.name.toLowerCase() === args["append-category"].toLowerCase()
+                cat.name.toLowerCase() ===
+                args["append-category"].toLowerCase(),
             );
 
             if (categoryIndex !== -1) {
@@ -2938,7 +2939,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
 
         if (!targetMenu) {
           console.error(
-            `Could not find appropriate menu to append to in ${menuFilePath}`
+            `Could not find appropriate menu to append to in ${menuFilePath}`,
           );
           return false;
         }
@@ -2946,12 +2947,12 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         // Find the specific category
         const categoryIndex = targetMenu.category.findIndex(
           (cat) =>
-            cat.name.toLowerCase() === args["append-category"].toLowerCase()
+            cat.name.toLowerCase() === args["append-category"].toLowerCase(),
         );
 
         if (categoryIndex === -1) {
           console.error(
-            `Category "${args["append-category"]}" not found in menu`
+            `Category "${args["append-category"]}" not found in menu`,
           );
           return false;
         }
@@ -2974,26 +2975,26 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
           menuData,
           null,
-          2
+          2,
         )};
         `;
 
         fs.writeFileSync(menuFilePath, newFileContent);
         console.log(
-          `Appended ${args["append-count"]} items to "${args["append-category"]}" in ${menuFilePath}`
+          `Appended ${args["append-count"]} items to "${args["append-category"]}" in ${menuFilePath}`,
         );
         return true;
       } catch (parseError) {
         console.error(
           `Error parsing existing menu in ${menuFilePath}:`,
-          parseError
+          parseError,
         );
         return false;
       }
     } catch (err) {
       console.error(
         `Error appending to menu file for ${restaurant.name}:`,
-        err
+        err,
       );
       return false;
     }
@@ -3006,8 +3007,8 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
           cityDir,
           restaurant.name,
           restaurant.cuisine,
-          restaurant // Pass the full restaurant object
-        )
+          restaurant, // Pass the full restaurant object
+        ),
       );
       console.log(`Created menu file: ${menuFilePath}`);
       return true;
@@ -3035,12 +3036,12 @@ cityDirs.forEach((cityDir) => {
       args["restaurant"] === "all"
         ? restaurants
         : restaurants.filter((r) =>
-            r.name.toLowerCase().includes(args["restaurant"].toLowerCase())
+            r.name.toLowerCase().includes(args["restaurant"].toLowerCase()),
           );
 
     if (args["restaurant"] !== "all" && filteredRestaurants.length === 0) {
       console.warn(
-        `No restaurants found matching "${args["restaurant"]}" in ${cityDir}`
+        `No restaurants found matching "${args["restaurant"]}" in ${cityDir}`,
       );
       return;
     }

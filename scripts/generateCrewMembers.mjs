@@ -24,14 +24,14 @@ const getCityFiles = () => {
       "lib",
       "constants",
       "info",
-      "city.ts"
+      "city.ts",
     );
 
     const fileContent = fs.readFileSync(cityFilePath, "utf8");
 
     // Extract city names using regex
     const cityArrayMatch = fileContent.match(
-      /export const cityFiles = \[([\s\S]*?)\];/
+      /export const cityFiles = \[([\s\S]*?)\];/,
     );
     if (!cityArrayMatch || !cityArrayMatch[1]) {
       console.error("Could not parse city files from city.ts");
@@ -304,11 +304,11 @@ let cruiseDepartureLocations = [];
 try {
   const cityTsFile = fs.readFileSync(
     path.join(__dirname, "../src/lib/constants/info/city.ts"),
-    "utf8"
+    "utf8",
   );
   // Extract the cruiseDepartureLocations array using regex
   const locationsMatch = cityTsFile.match(
-    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/
+    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/,
   );
   if (locationsMatch && locationsMatch[1]) {
     // Basic string manipulation to make it valid JSON (remove type annotations and convert to proper JSON)
@@ -1771,7 +1771,8 @@ function generateCrewMember(city, department, role, index) {
   // Get city data from cruiseDepartureLocations
   const cityData = cruiseDepartureLocations.find(
     (location) =>
-      location.city.toLowerCase() === formatKebebToTitleCase(city).toLowerCase()
+      location.city.toLowerCase() ===
+      formatKebebToTitleCase(city).toLowerCase(),
   );
 
   const countryName = cityCountryMap[city] || "";
@@ -1834,7 +1835,7 @@ function generateCrewMember(city, department, role, index) {
   if (bio.includes("{background}")) {
     bio = bio.replace(
       "{background}",
-      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)]
+      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)],
     );
   }
 
@@ -1843,14 +1844,14 @@ function generateCrewMember(city, department, role, index) {
       "{specialty}",
       engineeringSpecialties[
         Math.floor(Math.random() * engineeringSpecialties.length)
-      ]
+      ],
     );
   }
 
   if (bio.includes("{cuisine}")) {
     bio = bio.replace(
       "{cuisine}",
-      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)]
+      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)],
     );
   }
 
@@ -1898,14 +1899,14 @@ function writeCrewMembersToFile(city, crewMembers) {
 export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
     crewMembers,
     null,
-    2
+    2,
   )};
 `;
 
   const filePath = path.join(
     __dirname,
     "../src/lib/constants/crewMembers",
-    `${city}.ts`
+    `${city}.ts`,
   );
   fs.writeFileSync(filePath, fileContent);
   console.log(`Generated crew members for ${city}`);

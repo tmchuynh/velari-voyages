@@ -22,7 +22,7 @@ async function importMenus() {
     "lib",
     "constants",
     "cruises",
-    "restaurants"
+    "restaurants",
   );
   const restaurants = {
     name: "",
@@ -328,7 +328,7 @@ async function writeTestimonials() {
     "lib",
     "constants",
     "cruises",
-    "testimonials"
+    "testimonials",
   );
   if (!fs.existsSync(baseDir)) {
     fs.mkdirSync(baseDir, { recursive: true });
@@ -346,7 +346,7 @@ async function writeTestimonials() {
     // Get restaurant name without city prefix and convert to kebab case
     const restaurantName = restaurant.replace(
       /^(auckland|barcelona|buenosAires)/,
-      ""
+      "",
     );
     const kebabRestaurant = toKebabCase(restaurantName);
     const filePath = path.join(cityDir, `${kebabRestaurant}-testimonials.js`);
@@ -355,12 +355,12 @@ async function writeTestimonials() {
 export const ${restaurant}Testimonials = ${JSON.stringify(
       testimonialList,
       null,
-      2
+      2,
     )};
 `;
     fs.writeFileSync(filePath, fileContent);
     console.log(
-      `Generated testimonials for ${restaurant} in ${cityName}/${kebabRestaurant}-testimonials.js`
+      `Generated testimonials for ${restaurant} in ${cityName}/${kebabRestaurant}-testimonials.js`,
     );
   }
   console.log("All testimonial files have been generated successfully!");

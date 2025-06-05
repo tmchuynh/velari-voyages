@@ -14,7 +14,7 @@ const baseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 console.log(`Looking for testimonial files in: ${baseDir}`);
@@ -42,7 +42,9 @@ cityDirs.forEach((cityDir) => {
 
   try {
     // Get all testimonial files in the city directory
-    const files = fs.readdirSync(cityPath).filter((file) => file.endsWith("-testimonials.ts"));
+    const files = fs
+      .readdirSync(cityPath)
+      .filter((file) => file.endsWith("-testimonials.ts"));
 
     console.log(`Found ${files.length} testimonial files in ${cityDir}`);
 

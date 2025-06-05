@@ -40,7 +40,7 @@ const restaurantsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "restaurants",
 );
 
 // Output directory for testimonial files (write to here)
@@ -51,7 +51,7 @@ const testimonialsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -68,7 +68,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase()
+      index === 0 ? word.toLowerCase() : word.toUpperCase(),
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -668,14 +668,14 @@ function extractExistingTestimonials(filePath) {
       console.log(`DEBUG: File exists: ${fs.existsSync(filePath)}`);
       console.log(`DEBUG: File size: ${content.length} bytes`);
       console.log(
-        `DEBUG: File content preview: ${content.substring(0, 100)}...`
+        `DEBUG: File content preview: ${content.substring(0, 100)}...`,
       );
     }
 
     // Try to extract the array portion of the file with a more robust regex
     // This looks for the export statement and captures everything between the array brackets
     const arrayMatch = content.match(
-      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/
+      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/,
     );
 
     if (!arrayMatch) {
@@ -702,7 +702,7 @@ function extractExistingTestimonials(filePath) {
 
       if (DEBUG_MODE) {
         console.log(
-          `DEBUG: Successfully parsed ${parsedData.length} testimonials`
+          `DEBUG: Successfully parsed ${parsedData.length} testimonials`,
         );
       }
 
@@ -722,7 +722,7 @@ function extractExistingTestimonials(filePath) {
 
         if (DEBUG_MODE) {
           console.log(
-            `DEBUG: Fallback method successful, found ${result.length} testimonials`
+            `DEBUG: Fallback method successful, found ${result.length} testimonials`,
           );
         }
 
@@ -742,7 +742,7 @@ function extractExistingTestimonials(filePath) {
 function generateTestimonialFileContent(
   cityName,
   restaurantName,
-  existingTestimonials = []
+  existingTestimonials = [],
 ) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
@@ -750,7 +750,7 @@ function generateTestimonialFileContent(
   // Generate new testimonials
   const newTestimonials = generateTestimonials(
     restaurantName,
-    parseInt(TESTIMONIAL_COUNT)
+    parseInt(TESTIMONIAL_COUNT),
   );
 
   // Combine with existing testimonials if in append mode
@@ -763,11 +763,11 @@ function generateTestimonialFileContent(
     const expectedCount = existingTestimonials.length + newTestimonials.length;
     if (testimonials.length !== expectedCount) {
       console.error(
-        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`
+        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`,
       );
     } else if (DEBUG_MODE) {
       console.log(
-        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`
+        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`,
       );
     }
   }
@@ -780,7 +780,7 @@ function generateTestimonialFileContent(
 export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = ${JSON.stringify(
     testimonials,
     null,
-    2
+    2,
   )};
 `;
 }
@@ -838,8 +838,8 @@ cityDirs.forEach((cityDir) => {
           generateTestimonialFileContent(
             cityDir,
             restaurantName,
-            existingTestimonials
-          )
+            existingTestimonials,
+          ),
         );
 
         if (!hadExistingFile) {
@@ -847,7 +847,7 @@ cityDirs.forEach((cityDir) => {
           totalCreated++;
         } else if (APPEND_MODE) {
           console.log(
-            `Appended ${TESTIMONIAL_COUNT} testimonials to: ${filePath}`
+            `Appended ${TESTIMONIAL_COUNT} testimonials to: ${filePath}`,
           );
           totalUpdated++;
         } else {
@@ -857,7 +857,7 @@ cityDirs.forEach((cityDir) => {
       } catch (err) {
         console.error(
           `Error creating testimonial file for ${restaurantName}:`,
-          err
+          err,
         );
         totalFailed++;
       }
