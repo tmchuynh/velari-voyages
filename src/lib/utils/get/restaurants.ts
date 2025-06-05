@@ -33,7 +33,7 @@ import {
  * console.log(restaurants);
  */
 export async function getRestaurantsForCruise(
-  cruise: Cruise
+  cruise: Cruise,
 ): Promise<Restaurant[]> {
   if (!cruise || !cruise.departureLocation || !cruise.departureLocation.city) {
     console.error("Invalid cruise data provided");
@@ -52,7 +52,7 @@ export async function getRestaurantsForCruise(
   try {
     const restaurantModule = await import(
       `@/lib/constants/cruises/restaurants/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
+        cityWithoutAccents.replace("'", "-"),
       )}/restaurants}
       )}`
     );
@@ -61,13 +61,13 @@ export async function getRestaurantsForCruise(
       return restaurantModule[restaurantID] as Restaurant[];
     } else {
       console.error(
-        `Export named export const ${restaurantID}: Restaurant[] =[]; not found in module`
+        `Export named export const ${restaurantID}: Restaurant[] =[]; not found in module`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/restaurants: ${error} export const ${restaurantID}: Restaurant[] = [];`
+      `Error loading resource from @/lib/constants/restaurants: ${error} export const ${restaurantID}: Restaurant[] = [];`,
     );
     return [];
   }
@@ -127,7 +127,7 @@ export async function getRestaurantsForCruise(
  */
 export async function getRestaurantMenu(
   cruise: Cruise,
-  restaurant: Restaurant
+  restaurant: Restaurant,
 ): Promise<RestaurantMenu[]> {
   if (!cruise || !cruise.departureLocation || !cruise.departureLocation.city) {
     console.error("Invalid cruise data provided");
@@ -165,13 +165,13 @@ export async function getRestaurantMenu(
       return menuModule[menuID] as RestaurantMenu[];
     } else {
       console.error(
-        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: RestaurantMenu[] = [];`
+        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: RestaurantMenu[] = [];`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu from @/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}: ${error}`
+      `Error loading restaurant menu from @/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}: ${error}`,
     );
     return [];
   }
@@ -218,7 +218,7 @@ export async function getAllRestaurants(): Promise<Restaurant[]> {
         allRestaurants.push(...cityRestaurants);
       } else {
         console.warn(
-          `No valid restaurants found for ${city} within @/lib/constants/cruises/restaurants/${city}/restaurants.ts`
+          `No valid restaurants found for ${city} within @/lib/constants/cruises/restaurants/${city}/restaurants.ts`,
         );
       }
     } catch (error) {
@@ -267,7 +267,7 @@ export async function getAllRestaurantMenus(): Promise<RestaurantMenu[]> {
         allRestaurantMenus.push(...cityRestaurantMenus);
       } else {
         console.warn(
-          `No valid restaurant menus found for ${city} within @/lib/constants/cruises/restaurants/${city}/restaurants.ts`
+          `No valid restaurant menus found for ${city} within @/lib/constants/cruises/restaurants/${city}/restaurants.ts`,
         );
       }
     } catch (error) {
@@ -297,7 +297,7 @@ export async function getAllRestaurantMenus(): Promise<RestaurantMenu[]> {
  * ```
  */
 export async function getAllRestaurantsFromCity(
-  city: string
+  city: string,
 ): Promise<Restaurant[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
@@ -330,7 +330,7 @@ export async function getAllRestaurantsFromCity(
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${restaurantID}`
+      `Error loading restaurant data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${restaurantID}`,
     );
     return [];
   }
@@ -356,7 +356,7 @@ export async function getAllRestaurantsFromCity(
  * ```
  */
 export async function getAllRestaurantMenusFromCity(
-  city: string
+  city: string,
 ): Promise<RestaurantMenu[]> {
   if (!city || typeof city !== "string") {
     console.error("Invalid city name provided:", city);
@@ -387,7 +387,7 @@ export async function getAllRestaurantMenusFromCity(
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${menuID}`
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedCity}/restaurants with export ${menuID}`,
     );
     return [];
   }
@@ -421,7 +421,7 @@ export async function getAllRestaurantMenusFromCity(
  * ```
  */
 export async function getAllMenuItemsFromRestaurant(
-  restaurant: Restaurant
+  restaurant: Restaurant,
 ): Promise<RestaurantMenu[]> {
   if (!restaurant || !restaurant.name) {
     console.error("Invalid restaurant data provided");
@@ -433,14 +433,14 @@ export async function getAllMenuItemsFromRestaurant(
   const restaurantFormatted =
     restaurantWithoutAccents.replaceAll(" ", "-").charAt(0).toLowerCase() +
     formatTitleToCamelCase(
-      formatKebebToTitleCase(restaurantWithoutAccents.slice(1))
+      formatKebebToTitleCase(restaurantWithoutAccents.slice(1)),
     )
       .replace("'", "")
       .replace("-", "");
 
   const menuID = `${restaurantFormatted}Menu`;
   const sluggedRestaurant = formatToSlug(
-    restaurantWithoutAccents.replace("'", "-")
+    restaurantWithoutAccents.replace("'", "-"),
   );
 
   try {
@@ -456,7 +456,7 @@ export async function getAllMenuItemsFromRestaurant(
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedRestaurant} with export ${menuID}`
+      `Error loading restaurant menu data: ${error}. Tried: @/lib/constants/cruises/restaurants/${sluggedRestaurant} with export ${menuID}`,
     );
     return [];
   }
@@ -487,7 +487,7 @@ export async function getAllMenuItemsFromRestaurant(
  */
 export async function getRestaurantMenuByName(
   cityName: string,
-  restaurantName: string
+  restaurantName: string,
 ): Promise<RestaurantMenu[]> {
   if (!cityName || typeof cityName !== "string") {
     console.error("Invalid city name provided");
@@ -495,7 +495,7 @@ export async function getRestaurantMenuByName(
   }
 
   const cityWithoutAccents = formatToSlug(
-    removeAccents(cityName.replace("'", "-"))
+    removeAccents(cityName.replace("'", "-")),
   );
 
   if (!restaurantName || typeof restaurantName !== "string") {
@@ -510,7 +510,7 @@ export async function getRestaurantMenuByName(
   const restaurantslug = formatToSlug(
     normalizeString(removeAccents(restaurantName))
       .replace(/'/g, "")
-      .replace(/-/g, " ")
+      .replace(/-/g, " "),
   );
   // Format for variable name: cityInCamelCase + restaurantInCamelCase + Menu
   const cityPrefix = formatKebabToCamelCase(citySlug).replace(/-/g, ""); // Remove hyphens for camelCase
@@ -528,13 +528,13 @@ export async function getRestaurantMenuByName(
       return menuModule[menuID] as RestaurantMenu[];
     } else {
       console.error(
-        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: RestaurantMenu[] = [];`
+        `Export named '${menuID}' not found in module. Expected: export const ${menuID}: RestaurantMenu[] = [];`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant menu from @/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}: ${error}`
+      `Error loading restaurant menu from @/lib/constants/cruises/restaurants/${citySlug}/${restaurantslug}: ${error}`,
     );
     return [];
   }
@@ -542,7 +542,7 @@ export async function getRestaurantMenuByName(
 
 export async function getRestaurantByName(
   cityName: string,
-  restaurantName: string
+  restaurantName: string,
 ): Promise<Restaurant> {
   if (!cityName || typeof cityName !== "string") {
     console.error("Invalid city name provided");
@@ -550,7 +550,7 @@ export async function getRestaurantByName(
   }
 
   const cityWithoutAccents = formatToSlug(
-    removeAccents(cityName.replace("'", "-"))
+    removeAccents(cityName.replace("'", "-")),
   );
 
   if (!restaurantName || typeof restaurantName !== "string") {
@@ -567,7 +567,7 @@ export async function getRestaurantByName(
   const restaurantVariable = `${cityPrefix}Restaurants`;
 
   const restaurantNameFormatted = formatKebebToTitleCase(
-    removeAccents(restaurantName || "")
+    removeAccents(restaurantName || ""),
   ).replace("menu", "");
 
   try {
@@ -581,19 +581,19 @@ export async function getRestaurantByName(
       const data = restaurantModule[restaurantVariable].find(
         (restaurant: Restaurant) =>
           restaurant.name.toLowerCase() ===
-          restaurantNameFormatted.toLowerCase()
+          restaurantNameFormatted.toLowerCase(),
       );
       // If the restaurant is found, return it
       return data as Restaurant;
     } else {
       console.error(
-        `Export named '${restaurantVariable}' not found in module. Expected: export const ${restaurantVariable}: Restaurant = {};`
+        `Export named '${restaurantVariable}' not found in module. Expected: export const ${restaurantVariable}: Restaurant = {};`,
       );
       return {} as Restaurant;
     }
   } catch (error) {
     console.error(
-      `Error loading restaurant data from @/lib/constants/cruises/restaurants/${citySlug}/restaurants: ${error}`
+      `Error loading restaurant data from @/lib/constants/cruises/restaurants/${citySlug}/restaurants: ${error}`,
     );
     return {} as Restaurant;
   }

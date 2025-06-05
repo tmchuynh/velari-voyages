@@ -37,7 +37,7 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
   try {
     const crewModule = await import(
       `@/lib/constants/crewMembers/${formatToSlug(
-        cityWithoutAccents.replace("'", "-")
+        cityWithoutAccents.replace("'", "-"),
       )}`
     );
     // Return the specific named export that matches crewID
@@ -45,13 +45,13 @@ export async function getCrewMemberData(city: string): Promise<CrewMember[]> {
       return crewModule[crewID] as CrewMember[];
     } else {
       console.error(
-        `Export named export const ${crewID}: CrewMember[] =[]; not found in module`
+        `Export named export const ${crewID}: CrewMember[] =[]; not found in module`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading resource from @/lib/constants/crewMembers: ${error} export const ${crewID}: CrewMember[] = [];`
+      `Error loading resource from @/lib/constants/crewMembers: ${error} export const ${crewID}: CrewMember[] = [];`,
     );
     return [];
   }
@@ -93,7 +93,7 @@ export async function getAllTeamMembers(): Promise<CrewMember[]> {
         allCrewMembers.push(...cruiseTeamMembers);
       } else {
         console.warn(
-          `No valid team members found for ${city} within @/lib/constants/staff/crewMembers/${city}.ts`
+          `No valid team members found for ${city} within @/lib/constants/staff/crewMembers/${city}.ts`,
         );
       }
     } catch (error) {
@@ -103,7 +103,6 @@ export async function getAllTeamMembers(): Promise<CrewMember[]> {
 
   return allCrewMembers;
 }
-
 
 export const getRoleDescription = (role: string): string => {
   switch (role) {

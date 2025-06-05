@@ -29,7 +29,7 @@ import {
  *          or if no cruises are found for the given city.
  */
 export async function getCruisesByLocation(
-  cityInfo: Location
+  cityInfo: Location,
 ): Promise<Cruise[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
@@ -122,13 +122,13 @@ export async function getCruises(city: string): Promise<Cruise[]> {
       }
 
       console.error(
-        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`
+        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`,
       );
       return [];
     }
   } catch (error) {
     console.error(
-      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/${sluggedCity} with export ${cruiseID}`
+      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/${sluggedCity} with export ${cruiseID}`,
     );
     return [];
   }
@@ -148,7 +148,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
  */
 export function getCruisesByCategory(
   cruises: Cruise[],
-  category: string
+  category: string,
 ): Cruise[] {
   if (!cruises || !Array.isArray(cruises)) {
     console.error("Invalid tours data provided");
@@ -157,7 +157,7 @@ export function getCruisesByCategory(
 
   // Filter tours by the specified category ID
   const filteredCruises = cruises.filter(
-    (tour) => tour.tourCategoryId === category
+    (tour) => tour.tourCategoryId === category,
   );
 
   if (filteredCruises.length === 0) {
@@ -205,7 +205,7 @@ export async function getAllCruises(): Promise<Cruise[]> {
         allCruises.push(...cityCruises);
       } else {
         console.warn(
-          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}-cruises.ts`
+          `No valid cruises found for ${city} within @/lib/constants/cruises/${city}-cruises.ts`,
         );
       }
     } catch (error) {
@@ -215,7 +215,6 @@ export async function getAllCruises(): Promise<Cruise[]> {
 
   return allCruises;
 }
-
 
 export function getVesselTypeDescription(type: string): string {
   switch (type) {

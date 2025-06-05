@@ -15,7 +15,7 @@
  */
 export function getRandomDatesFromNextWeek(
   count: number,
-  rangeInDays = 30
+  rangeInDays = 30,
 ): string[] {
   const dates = new Set<string>();
 
