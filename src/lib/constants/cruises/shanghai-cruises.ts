@@ -1,1402 +1,2850 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const shanghaiCruises: Cruise[] = [
-  {
-    basePrice: 8962,
+{
+    basePrice: 5854,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Escape to sea from Shanghai on a pearlescent voyage exploring the magic of Shanghai. Visit unforgettable locales like Milan, Athens, Santorini, Florence, where each stop inspires awe.",
-      distance: "1410 nautical miles",
-      totalDuration: "21 days",
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "This hand-selected luxurious cruise offers a true taste of Asia Pacific. Depart from Shanghai and explore ports like Bali, Kyoto, each telling a story through food, music, and tradition.",
+      distance: "891 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Shanghai to Milan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Milan to Athens",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Athens to Santorini",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from Santorini to Florence",
-        },
-        {
-          start: "Day 18",
-          end: "Day 19",
-          duration: "2 days",
-          description: "Sailing from Florence to Shanghai",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Bali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Kyoto to Shanghai"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 20",
-          end: "Day 21",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
     },
     tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        name: "Stephen Spencer",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
+        name: "Johnny Reeves",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
         contact: {
-          contactEmail: "midnight.panorama.of@velarivoyages.com",
-          contactNumber: "+1-832-540-9647",
-        },
-      },
+          contactEmail: "tidewashed.sanctuary@velarivoyages.com",
+          contactNumber: "+1-948-819-6645"
+        }
+      }
     ],
-    title: "Midnight Panorama of the Exotic Realms",
-    description:
-      "Escape to sea from Shanghai on a pearlescent voyage exploring the magic of Shanghai. Visit unforgettable locales like Milan, Athens, Santorini, Florence, where each stop inspires awe.",
-    rating: 4.6,
-    tags: ["cruise-experience"],
-  },
-  {
-    basePrice: 1957,
-    departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Florence",
-      country: "Italy",
-      coordinates: {
-        latitude: 43.769562,
-        longitude: 11.255814,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-      ],
-      description:
-        "Set course from Shanghai for an inspiring legendary journey across Shanghai. Whether exploring ancient ruins in Lisbon or soaking up coastal views in Florence, every day offers a perfect mix of discovery and relaxation.",
-      distance: "1060 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Shanghai to Lisbon",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Florence",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Florence",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Terry Murray",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-        contact: {
-          contactEmail: "extraordinary.renais@velarivoyages.com",
-          contactNumber: "+1-190-294-1624",
-        },
-      },
-    ],
-    title: "Extraordinary Renaissance of the Exotic Realms",
-    description:
-      "Set course from Shanghai for an inspiring legendary journey across Shanghai. Whether exploring ancient ruins in Lisbon or soaking up coastal views in Florence, every day offers a perfect mix of discovery and relaxation.",
+    title: "Tide-Washed Sanctuary of the Pacific Dreams",
+    description: "This hand-selected luxurious cruise offers a true taste of Asia Pacific. Depart from Shanghai and explore ports like Bali, Kyoto, each telling a story through food, music, and tradition.",
     rating: 4.2,
-    tags: ["adventure", "historical"],
+    tags: ["luxury"]
   },
   {
-    basePrice: 5286,
+    basePrice: 6068,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Dubrovnik",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Singapore",
+  "country": "Singapore",
+  "coordinates": {
+    "latitude": 1.3521,
+    "longitude": 103.8198
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition",
+    category: "ultra-luxury",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Your journey through the Shanghai begins in Shanghai, where elegance meets adventure. Explore the shores of Lisbon, Athens, Dubrovnik, with curated excursions and luxurious onboard amenities.",
-      distance: "1244 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Shanghai to Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Athens",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Athens to Dubrovnik",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Dubrovnik",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Douglas Spencer",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
-        contact: {
-          contactEmail: "crystalline.horizon.@velarivoyages.com",
-          contactNumber: "+1-337-737-6879",
-        },
-      },
-    ],
-    title: "Crystalline Horizon of the Exotic Realms",
-    description:
-      "Your journey through the Shanghai begins in Shanghai, where elegance meets adventure. Explore the shores of Lisbon, Athens, Dubrovnik, with curated excursions and luxurious onboard amenities.",
-    rating: 4.3,
-    tags: ["cruise-journey", "cruise"],
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
   },
   {
-    basePrice: 2912,
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  }
+],
+      description: "Set course from Shanghai for an inspiring riveting journey across Asia Pacific. Whether exploring ancient ruins in Ho Chi Minh City or soaking up coastal views in Kyoto, every day offers a perfect mix of discovery and relaxation.",
+      distance: "501 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Ho Chi Minh City to Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Singapore"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Darrell Grant",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
+        contact: {
+          contactEmail: "breathtaking.reunion@velarivoyages.com",
+          contactNumber: "+1-669-112-4524"
+        }
+      }
+    ],
+    title: "Breathtaking Reunion of the Lotus-Lined Waters",
+    description: "Set course from Shanghai for an inspiring riveting journey across Asia Pacific. Whether exploring ancient ruins in Ho Chi Minh City or soaking up coastal views in Kyoto, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.5,
+    tags: ["weekend-cruise"]
+  },
+  {
+    basePrice: 7283,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Rome",
-      country: "Italy",
-      coordinates: {
-        latitude: 41.9028,
-        longitude: 12.4964,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+  "city": "Kyoto",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 35.0116,
+    "longitude": 135.7681
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "entry-luxury",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-      ],
-      description:
-        "Leave ordinary behind as you sail from Shanghai across the captivating Shanghai. Discover the distinctive personality of each destination, from Lisbon, Athens, Malta, Rome.",
-      distance: "1041 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Shanghai to Lisbon",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Athens",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Athens to Malta",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Malta to Rome",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-      ],
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Kyle Griffin",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/98.jpg",
-        contact: {
-          contactEmail: "serene.elevation.of.@velarivoyages.com",
-          contactNumber: "+1-137-500-1208",
-        },
-      },
-    ],
-    title: "Serene Elevation of the Exotic Realms",
-    description:
-      "Leave ordinary behind as you sail from Shanghai across the captivating Shanghai. Discover the distinctive personality of each destination, from Lisbon, Athens, Malta, Rome.",
-    rating: 4.6,
-    tags: ["culinary", "adventure", "tropical"],
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
   },
   {
-    basePrice: 5961,
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  }
+],
+      description: "From the lively departure port of Shanghai, this curated reverie showcases the finest of Asia Pacific. With visits to Bali, Kyoto, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "1040 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Bali"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Kyoto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Timothy Marshall",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+        contact: {
+          contactEmail: "floating.resonance.o@velarivoyages.com",
+          contactNumber: "+1-919-934-3977"
+        }
+      }
+    ],
+    title: "Floating Resonance of the Lotus-Lined Waters",
+    description: "From the lively departure port of Shanghai, this curated reverie showcases the finest of Asia Pacific. With visits to Bali, Kyoto, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.0,
+    tags: ["cruise-line"]
+  },
+  {
+    basePrice: 8194,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "premium",
+    category: "premium-luxury",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Board in Shanghai for a hand-crafted awakening through the breathtaking Shanghai. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Dubrovnik, Mykonos, Barcelona.",
-      distance: "1223 nautical miles",
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "This handpicked requiem begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Melbourne, Kyoto, Auckland as each day brings new stories and every night offers elegant repose.",
+      distance: "1072 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Melbourne"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Auckland"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Robert Griffin",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+        contact: {
+          contactEmail: "tranquil.eclipse.of.@velarivoyages.com",
+          contactNumber: "+1-348-292-5176"
+        }
+      }
+    ],
+    title: "Tranquil Eclipse of the Sacred Shores",
+    description: "This handpicked requiem begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Melbourne, Kyoto, Auckland as each day brings new stories and every night offers elegant repose.",
+    rating: 5.0,
+    tags: ["weekend-cruise","long-distance","wildlife"]
+  },
+  {
+    basePrice: 4772,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "coordinates": {
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "From the lively departure port of Shanghai, this curated discovery showcases the finest of Asia Pacific. With visits to Singapore, Ho Chi Minh City, Bangkok, Melbourne, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "835 nautical miles",
       totalDuration: "15 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Shanghai to Malta",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Malta to Dubrovnik",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Mykonos",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Mykonos to Barcelona",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Barcelona to Shanghai",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Bangkok"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Melbourne"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Exploring Shanghai",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Scott Sutton",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
+        name: "Kevin Hawkins",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
         contact: {
-          contactEmail: "harmonic.reunion.of.@velarivoyages.com",
-          contactNumber: "+1-488-832-2608",
-        },
-      },
+          contactEmail: "tranquil.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-630-619-1328"
+        }
+      }
     ],
-    title: "Harmonic Reunion of the Exotic Realms",
-    description:
-      "Board in Shanghai for a hand-crafted awakening through the breathtaking Shanghai. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Dubrovnik, Mykonos, Barcelona.",
-    rating: 4.8,
-    tags: ["tropical", "wildlife", "cruise-holiday"],
+    title: "Tranquil Odyssey of the Oriental Realms",
+    description: "From the lively departure port of Shanghai, this curated discovery showcases the finest of Asia Pacific. With visits to Singapore, Ho Chi Minh City, Bangkok, Melbourne, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.7,
+    tags: ["cruise-getaway","cruise-holiday","cruise"]
   },
   {
-    basePrice: 5842,
+    basePrice: 2579,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Venice",
-      country: "Italy",
-      coordinates: {
-        latitude: 45.4408,
-        longitude: 12.3155,
-      },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Shanghai. Discover the historical and natural richness of Asia Pacific as you cruise to spectacular destinations like Kyoto, Yokohama.",
+      distance: "1211 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Kyoto"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Yokohama"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
     },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Richard Spencer",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
+        contact: {
+          contactEmail: "midnight.pulse.of.th@velarivoyages.com",
+          contactNumber: "+1-996-830-2000"
+        }
+      }
+    ],
+    title: "Midnight Pulse of the Mystic East",
+    description: "A voyage of contrasts awaits from Shanghai. Discover the historical and natural richness of Asia Pacific as you cruise to spectacular destinations like Kyoto, Yokohama.",
+    rating: 4.1,
+    tags: ["relaxation","wellness","seasonal"]
+  },
+  {
+    basePrice: 7369,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "premium-luxury",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-      ],
-      description:
-        "Join us in Shanghai for a odyssey of a lifetime. Sail across the serene waters of Shanghai, stopping at ports like Rome, Santorini, Venice where timeless traditions meet modern luxuries.",
-      distance: "689 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Shanghai to Rome",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Rome to Santorini",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Santorini to Venice",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Venice",
-        },
-      ],
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Mark Curtis",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-        contact: {
-          contactEmail: "spectacular.retreat.@velarivoyages.com",
-          contactNumber: "+1-118-673-8876",
-        },
-      },
-    ],
-    title: "Spectacular Retreat of the Exotic Realms",
-    description:
-      "Join us in Shanghai for a odyssey of a lifetime. Sail across the serene waters of Shanghai, stopping at ports like Rome, Santorini, Venice where timeless traditions meet modern luxuries.",
-    rating: 4.4,
-    tags: ["luxury"],
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
   },
   {
-    basePrice: 6421,
-    departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Milan",
-      country: "Italy",
-      coordinates: {
-        latitude: 45.4642,
-        longitude: 9.19,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-      ],
-      description:
-        "Leave stress behind with this curated sanctum from Shanghai. Sail across the best of Shanghai and explore treasures like Rome, Lisbon, Milan with comfort and style.",
-      distance: "1016 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Shanghai to Rome",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Sailing from Rome to Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Milan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-      ],
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Harold Bennett",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-        contact: {
-          contactEmail: "azure.resonance.of.t@velarivoyages.com",
-          contactNumber: "+1-219-926-7226",
-        },
-      },
-    ],
-    title: "Azure Resonance of the Exotic Realms",
-    description:
-      "Leave stress behind with this curated sanctum from Shanghai. Sail across the best of Shanghai and explore treasures like Rome, Lisbon, Milan with comfort and style.",
-    rating: 4.7,
-    tags: ["tropical", "seasonal", "cruise-getaway"],
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
   },
   {
-    basePrice: 4890,
-    departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Mykonos",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Begin your retreat in Shanghai, a gateway to the soul of Shanghai. Enjoy days spent exploring Lisbon, Florence, Mykonos and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "1270 nautical miles",
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "From bustling Shanghai to serene Asia Pacific shores, this cruise invites you to relax, explore, and indulge. Stops at Yokohama, Sydney deliver a balanced blend of culture and comfort.",
+      distance: "1177 nautical miles",
       totalDuration: "10 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Shanghai to Lisbon",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Florence",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Florence to Mykonos",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-      ],
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Harry Lawson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-        contact: {
-          contactEmail: "hidden.labyrinth.of.@velarivoyages.com",
-          contactNumber: "+1-393-798-9886",
-        },
-      },
-    ],
-    title: "Hidden Labyrinth of the Exotic Realms",
-    description:
-      "Begin your retreat in Shanghai, a gateway to the soul of Shanghai. Enjoy days spent exploring Lisbon, Florence, Mykonos and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 5.0,
-    tags: ["nature"],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Yokohama"
   },
   {
-    basePrice: 4485,
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Wei Griffin",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+        contact: {
+          contactEmail: "unforgettable.quest.@velarivoyages.com",
+          contactNumber: "+1-315-711-5190"
+        }
+      }
+    ],
+    title: "Unforgettable Quest of the Sacred Shores",
+    description: "From bustling Shanghai to serene Asia Pacific shores, this cruise invites you to relax, explore, and indulge. Stops at Yokohama, Sydney deliver a balanced blend of culture and comfort.",
+    rating: 4.5,
+    tags: ["general","family-friendly"]
+  },
+  {
+    basePrice: 9466,
     departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
     arrivalLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Ho Chi Minh City",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "mainstream",
     itinerary: {
       route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Embark on an unforgettable elevation from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the Shanghai region. With stops at Barcelona, Florence, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "584 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Shanghai to Barcelona",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Florence",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Florence to Shanghai",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Shanghai",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "David Hayes",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-        contact: {
-          contactEmail: "horizonkissed.reveri@velarivoyages.com",
-          contactNumber: "+1-925-674-3570",
-        },
-      },
-    ],
-    title: "Horizon-Kissed Reverie of the Exotic Realms",
-    description:
-      "Embark on an unforgettable elevation from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the Shanghai region. With stops at Barcelona, Florence, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.3,
-    tags: ["cruise-adventure", "repositioning"],
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
   },
   {
-    basePrice: 2509,
-    departureLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Shanghai",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Shanghai",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Embark on an unforgettable symphony from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the Shanghai region. With stops at Venice, Milan, Barcelona, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "577 nautical miles",
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This handpicked haven begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Hong Kong, Tokyo, Auckland, Ho Chi Minh City as each day brings new stories and every night offers elegant repose.",
+      distance: "699 nautical miles",
       totalDuration: "13 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Shanghai to Venice",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Venice to Milan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Milan to Barcelona",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Shanghai",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Hong Kong"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Auckland"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Ho Chi Minh City"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Shanghai",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  }
+]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Luis Wells",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Chinese", "Portuguese", "Italian", "German"], // Use the properly generated languages list
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/91.jpg",
+        name: "Vincent Knight",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
         contact: {
-          contactEmail: "sundrenched.pilgrima@velarivoyages.com",
-          contactNumber: "+1-618-632-6814",
-        },
-      },
+          contactEmail: "unforgettable.enigma@velarivoyages.com",
+          contactNumber: "+1-573-620-2784"
+        }
+      }
     ],
-    title: "Sun-Drenched Pilgrimage of the Exotic Realms",
-    description:
-      "Embark on an unforgettable symphony from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the Shanghai region. With stops at Venice, Milan, Barcelona, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.0,
-    tags: ["general", "cruise"],
+    title: "Unforgettable Enigma of the Tea-Laced Traditions",
+    description: "This handpicked haven begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Hong Kong, Tokyo, Auckland, Ho Chi Minh City as each day brings new stories and every night offers elegant repose.",
+    rating: 4.2,
+    tags: ["cruise-vacation","holiday-cruise","wellness"]
   },
+  {
+    basePrice: 2397,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Set sail from Shanghai on this hidden horizon through the heart of Asia Pacific. Experience the perfect blend of relaxation and adventure as you explore Auckland and Singapore and Kyoto, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1482 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Auckland"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Singapore"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Kyoto"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from Kyoto to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Christopher Curtis",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+        contact: {
+          contactEmail: "oceanic.requiem.of.t@velarivoyages.com",
+          contactNumber: "+1-782-557-6865"
+        }
+      }
+    ],
+    title: "Oceanic Requiem of the Bamboo Shores",
+    description: "Set sail from Shanghai on this hidden horizon through the heart of Asia Pacific. Experience the perfect blend of relaxation and adventure as you explore Auckland and Singapore and Kyoto, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.6,
+    tags: ["VIP"]
+  },
+  {
+    basePrice: 4988,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Escape to sea from Shanghai on a gilded voyage exploring the magic of Asia Pacific. Visit unforgettable locales like Tokyo, Sydney, Yokohama, where each stop inspires awe.",
+      distance: "1135 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Sydney"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Yokohama"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Juan Gardner",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "tidewashed.elevation@velarivoyages.com",
+          contactNumber: "+1-619-701-4971"
+        }
+      }
+    ],
+    title: "Tide-Washed Elevation of the Oriental Realms",
+    description: "Escape to sea from Shanghai on a gilded voyage exploring the magic of Asia Pacific. Visit unforgettable locales like Tokyo, Sydney, Yokohama, where each stop inspires awe.",
+    rating: 4.1,
+    tags: ["cultural","cruise-ship"]
+  },
+  {
+    basePrice: 9030,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Bali",
+  "country": "Indonesia",
+  "coordinates": {
+    "latitude": -8.409518,
+    "longitude": 115.188919
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  }
+],
+      description: "Leave stress behind with this curated journey from Shanghai. Sail across the best of Asia Pacific and explore treasures like Melbourne, Sydney, Bali with comfort and style.",
+      distance: "799 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Melbourne"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Melbourne to Sydney"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Sydney to Bali"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Sydney"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Richard Campbell",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
+        contact: {
+          contactEmail: "ornate.labyrinth.of.@velarivoyages.com",
+          contactNumber: "+1-767-397-8785"
+        }
+      }
+    ],
+    title: "Ornate Labyrinth of the Bamboo Shores",
+    description: "Leave stress behind with this curated journey from Shanghai. Sail across the best of Asia Pacific and explore treasures like Melbourne, Sydney, Bali with comfort and style.",
+    rating: 4.0,
+    tags: ["cruise-experience","short-getaway","cultural"]
+  },
+  {
+    basePrice: 9966,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Shanghai. This saga through the Asia Pacific unveils stunning stops including Bali, Melbourne, Auckland, Hong Kong, all with first-class service.",
+      distance: "1135 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Bali"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Melbourne"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Auckland"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Auckland to Hong Kong"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Hong Kong to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Aaron Holloway",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+        contact: {
+          contactEmail: "idyllic.enigma.of.th@velarivoyages.com",
+          contactNumber: "+1-492-134-5881"
+        }
+      }
+    ],
+    title: "Idyllic Enigma of the Pacific Dreams",
+    description: "Step into a world of elegance and exploration from Shanghai. This saga through the Asia Pacific unveils stunning stops including Bali, Melbourne, Auckland, Hong Kong, all with first-class service.",
+    rating: 4.3,
+    tags: ["cultural","wildlife"]
+  },
+  {
+    basePrice: 2916,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Set course from Shanghai for an inspiring horizon-kissed journey across Asia Pacific. Whether exploring ancient ruins in Tokyo or soaking up coastal views in Kyoto, every day offers a perfect mix of discovery and relaxation.",
+      distance: "759 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Kyoto"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Kyoto to Bali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Yokohama"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Jordan Hawkins",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+        contact: {
+          contactEmail: "oceanic.awakening.of@velarivoyages.com",
+          contactNumber: "+1-661-708-1442"
+        }
+      }
+    ],
+    title: "Oceanic Awakening of the Dynastic Dreams",
+    description: "Set course from Shanghai for an inspiring horizon-kissed journey across Asia Pacific. Whether exploring ancient ruins in Tokyo or soaking up coastal views in Kyoto, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.3,
+    tags: ["cruise-holiday","nature"]
+  },
+  {
+    basePrice: 3264,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -36.848461,
+      "longitude": 174.763336
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Board in Shanghai for a hand-crafted symphony through the breathtaking Asia Pacific. Highlights include sun-drenched beaches, historic ports, and immersive culture in Tokyo, Auckland.",
+      distance: "735 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Tokyo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to Auckland"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Jonathan Fox",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        contact: {
+          contactEmail: "sundrenched.retreat.@velarivoyages.com",
+          contactNumber: "+1-481-319-1267"
+        }
+      }
+    ],
+    title: "Sun-Drenched Retreat of the Jade Horizons",
+    description: "Board in Shanghai for a hand-crafted symphony through the breathtaking Asia Pacific. Highlights include sun-drenched beaches, historic ports, and immersive culture in Tokyo, Auckland.",
+    rating: 4.7,
+    tags: ["cruise-excursion","expedition","family-friendly"]
+  },
+  {
+    basePrice: 7273,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "coordinates": {
+      "latitude": 13.7563,
+      "longitude": 100.5018
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Begin a captivating horizon through the Asia Pacific, departing Shanghai. With visits to Bangkok, Bali, Melbourne, each day brings a new adventure and deeper connection to the region.",
+      distance: "1265 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Bangkok"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Bangkok to Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Melbourne"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Bangkok"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Jason Warren",
+        role: "Sales Consultant",
+        languages: ["Bengali","Thai","Vietnamese","Japanese","Malay"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+        contact: {
+          contactEmail: "infinite.enigma.of.t@velarivoyages.com",
+          contactNumber: "+1-309-268-9498"
+        }
+      }
+    ],
+    title: "Infinite Enigma of the Bamboo Shores",
+    description: "Begin a captivating horizon through the Asia Pacific, departing Shanghai. With visits to Bangkok, Bali, Melbourne, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.8,
+    tags: ["cruise-line","glacier-cruise","adventure"]
+  },
+  {
+    basePrice: 1683,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Depart from Shanghai on this thoughtfully designed wanderlust across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Yokohama, Bali, Ho Chi Minh City.",
+      distance: "1011 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Yokohama"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Bali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Bali to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ashley Baker",
+        role: "Customer Service Representative",
+        languages: ["Indonesian","Malay","Urdu","Thai"], // Use the properly generated languages list
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "mythic.elevation.of.@velarivoyages.com",
+          contactNumber: "+1-774-761-2016"
+        }
+      }
+    ],
+    title: "Mythic Elevation of the Zen Shores",
+    description: "Depart from Shanghai on this thoughtfully designed wanderlust across the Asia Pacific. Savor coastal charm, cultural treasures, and ocean views with stops at Yokohama, Bali, Ho Chi Minh City.",
+    rating: 4.7,
+    tags: ["holiday-cruise","cruise"]
+  },
+  {
+    basePrice: 9898,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Bali",
+    "country": "Indonesia",
+    "coordinates": {
+      "latitude": -8.409518,
+      "longitude": 115.188919
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "This handpicked arcadia begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Yokohama, Tokyo, Bali, Singapore as each day brings new stories and every night offers elegant repose.",
+      distance: "1273 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Yokohama to Tokyo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Bali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Bali to Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Bali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Isabella Baker",
+        role: "Customer Service Representative",
+        languages: ["Indonesian","Malay","Urdu","Thai"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
+        contact: {
+          contactEmail: "extraordinary.retrea@velarivoyages.com",
+          contactNumber: "+1-597-990-2938"
+        }
+      }
+    ],
+    title: "Extraordinary Retreat of the Bamboo Shores",
+    description: "This handpicked arcadia begins in Shanghai and travels through Asia Pacific's iconic waterscapes. Discover Yokohama, Tokyo, Bali, Singapore as each day brings new stories and every night offers elegant repose.",
+    rating: 4.3,
+    tags: ["exclusive","seasonal"]
+  },
+  {
+    basePrice: 9499,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  }
+],
+      description: "Set sail from Shanghai on this azure zenith through the heart of Asia Pacific. Experience the perfect blend of relaxation and adventure as you explore Hong Kong and Ho Chi Minh City, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "848 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Hong Kong"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Hong Kong to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Melissa Day",
+        role: "Customer Service Representative",
+        languages: ["Indonesian","Malay","Urdu","Thai"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+        contact: {
+          contactEmail: "epic.mythos.of.the.p@velarivoyages.com",
+          contactNumber: "+1-327-175-4338"
+        }
+      }
+    ],
+    title: "Epic Mythos of the Pagoda-Silhouetted Skylines",
+    description: "Set sail from Shanghai on this azure zenith through the heart of Asia Pacific. Experience the perfect blend of relaxation and adventure as you explore Hong Kong and Ho Chi Minh City, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 5.0,
+    tags: ["exclusive"]
+  },
+  {
+    basePrice: 1701,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Ho Chi Minh City",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Kyoto",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.0116,
+      "longitude": 135.7681
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.6895,
+      "longitude": 139.6917
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this idyllic reflection through Asia Pacific, starting from the illustrious port of Shanghai. From Singapore, Kyoto, Tokyo to Ho Chi Minh City, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1206 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Singapore"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Kyoto"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Kyoto to Tokyo"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to Ho Chi Minh City"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Kyoto"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Ho Chi Minh City"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Patricia Fletcher",
+        role: "Customer Service Representative",
+        languages: ["Indonesian","Malay","Urdu","Thai"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
+        contact: {
+          contactEmail: "timeless.saga.of.the@velarivoyages.com",
+          contactNumber: "+1-260-419-7657"
+        }
+      }
+    ],
+    title: "Timeless Saga of the Dynastic Dreams",
+    description: "Experience the elegance of the seas on this idyllic reflection through Asia Pacific, starting from the illustrious port of Shanghai. From Singapore, Kyoto, Tokyo to Ho Chi Minh City, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.0,
+    tags: ["short-getaway","cruise-line","cruise"]
+  },
+  {
+    basePrice: 1097,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "Asia Pacific",
+  "coordinates": {
+    "latitude": 31.2304,
+    "longitude": 121.4737
+  }
+},
+    arrivalLocation: {
+  "city": "Hong Kong",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "Asia Pacific",
+    "coordinates": {
+      "latitude": 31.2304,
+      "longitude": 121.4737
+    }
+  },
+  {
+    "city": "Yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 35.4437,
+      "longitude": 139.638
+    }
+  },
+  {
+    "city": "Ho Chi Minh City",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "coordinates": {
+      "latitude": 1.3521,
+      "longitude": 103.8198
+    }
+  },
+  {
+    "city": "Hong Kong",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart from iconic Shanghai and traverse the Asia Pacific with visits to Yokohama, Ho Chi Minh City, Singapore, Hong Kong. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "524 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Yokohama to Ho Chi Minh City"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Ho Chi Minh City to Singapore"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Singapore to Hong Kong"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Yokohama"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Ho Chi Minh City"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Singapore"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Hong Kong"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Rebecca Reed",
+        role: "Customer Service Representative",
+        languages: ["Indonesian","Malay","Urdu","Thai"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
+        contact: {
+          contactEmail: "heavenly.mythos.of.t@velarivoyages.com",
+          contactNumber: "+1-186-879-9934"
+        }
+      }
+    ],
+    title: "Heavenly Mythos of the Dynastic Dreams",
+    description: "Depart from iconic Shanghai and traverse the Asia Pacific with visits to Yokohama, Ho Chi Minh City, Singapore, Hong Kong. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.4,
+    tags: ["glacier-cruise"]
+  }
 ];

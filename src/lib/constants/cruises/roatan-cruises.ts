@@ -1,1468 +1,2622 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const roatanCruises: Cruise[] = [
-  {
-    basePrice: 8027,
+{
+    basePrice: 3849,
     departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
     arrivalLocation: {
-      city: "Mykonos",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
     itinerary: {
       route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Sail away from Roatan into the beautiful expanse of Roatan. Along the way, enjoy rich cultural experiences in Barcelona, Santorini, Dubrovnik, Mykonos, where history, nature, and cuisine collide.",
-      distance: "1394 nautical miles",
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Board in Roatan for a hand-crafted adventure through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Nassau, Fort Lauderdale.",
+      distance: "601 nautical miles",
       totalDuration: "11 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Roatan to Barcelona",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Santorini",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Santorini to Dubrovnik",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Mykonos",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Fort Lauderdale"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Roatan"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  }
+]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        name: "Jordan West",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+        name: "Patrick Campbell",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
         contact: {
-          contactEmail: "golden.mythos.of.the@velarivoyages.com",
-          contactNumber: "+1-728-584-8550",
-        },
-      },
+          contactEmail: "majestic.labyrinth.o@velarivoyages.com",
+          contactNumber: "+1-213-932-7631"
+        }
+      }
     ],
-    title: "Golden Mythos of the Exotic Realms",
-    description:
-      "Sail away from Roatan into the beautiful expanse of Roatan. Along the way, enjoy rich cultural experiences in Barcelona, Santorini, Dubrovnik, Mykonos, where history, nature, and cuisine collide.",
+    title: "Majestic Labyrinth of the Azure Horizons",
+    description: "Board in Roatan for a hand-crafted adventure through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in Nassau, Fort Lauderdale.",
     rating: 4.4,
-    tags: ["nature"],
+    tags: ["tropical","exclusive","holiday-cruise"]
   },
   {
-    basePrice: 3915,
+    basePrice: 2655,
     departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
     arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "mainstream",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Launch into adventure from Roatan and sail deep into the heart of the Roatan. With ports of call like Athens, Mykonos, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "551 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Roatan to Athens",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Athens to Mykonos",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Mykonos to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Aiden Wallace",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-        contact: {
-          contactEmail: "dreamlike.reunion.of@velarivoyages.com",
-          contactNumber: "+1-867-890-5638",
-        },
-      },
-    ],
-    title: "Dreamlike Reunion of the Exotic Realms",
-    description:
-      "Launch into adventure from Roatan and sail deep into the heart of the Roatan. With ports of call like Athens, Mykonos, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.4,
-    tags: ["wellness"],
-  },
-  {
-    basePrice: 8726,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Sail away from the charming harbor of Roatan on this opulent journey across Roatan. Uncover the beauty and history of Milan, Lisbon, Barcelona, Malta with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "548 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Roatan to Milan",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Sailing from Milan to Lisbon",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Lisbon to Barcelona",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Barcelona to Malta",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from Malta to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Andrew Mason",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-        contact: {
-          contactEmail: "radiancedrenched.soj@velarivoyages.com",
-          contactNumber: "+1-276-739-2969",
-        },
-      },
-    ],
-    title: "Radiance-Drenched Sojourn of the Exotic Realms",
-    description:
-      "Sail away from the charming harbor of Roatan on this opulent journey across Roatan. Uncover the beauty and history of Milan, Lisbon, Barcelona, Malta with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.1,
-    tags: ["cruise-excursion", "long-distance", "cruise"],
-  },
-  {
-    basePrice: 9848,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Set sail from Roatan on this floating odyssey through the heart of Roatan. Experience the perfect blend of relaxation and adventure as you explore Rome and Milan and Lisbon and Athens, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "661 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Roatan to Rome",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Rome to Milan",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Milan to Lisbon",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Athens",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Sailing from Athens to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 18",
-          end: "Day 18",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Bryan Hall",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-        contact: {
-          contactEmail: "sublime.wanderlust.o@velarivoyages.com",
-          contactNumber: "+1-584-271-7251",
-        },
-      },
-    ],
-    title: "Sublime Wanderlust of the Exotic Realms",
-    description:
-      "Set sail from Roatan on this floating odyssey through the heart of Roatan. Experience the perfect blend of relaxation and adventure as you explore Rome and Milan and Lisbon and Athens, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.9,
-    tags: ["historical", "cruise-holiday", "cruise-ship"],
-  },
-  {
-    basePrice: 5984,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "This radiant cruise from Roatan is your ticket to the captivating charm of the Roatan. Discover the delights of Malta, Santorini, Rome, Dubrovnik with enriching excursions and award-winning service.",
-      distance: "927 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Roatan to Malta",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Sailing from Malta to Santorini",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Santorini to Rome",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Rome to Dubrovnik",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from Dubrovnik to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Mason Wallace",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-        contact: {
-          contactEmail: "radiancedrenched.sym@velarivoyages.com",
-          contactNumber: "+1-611-216-1956",
-        },
-      },
-    ],
-    title: "Radiance-Drenched Symphony of the Exotic Realms",
-    description:
-      "This radiant cruise from Roatan is your ticket to the captivating charm of the Roatan. Discover the delights of Malta, Santorini, Rome, Dubrovnik with enriching excursions and award-winning service.",
-    rating: 4.4,
-    tags: ["cruise-holiday", "fall-cruise", "culinary"],
-  },
-  {
-    basePrice: 2425,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Milan",
-      country: "Italy",
-      coordinates: {
-        latitude: 45.4642,
-        longitude: 9.19,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-      ],
-      description:
-        "Let the spirit of exploration guide your gilded journey from Roatan. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Lisbon, Milan.",
-      distance: "671 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Roatan to Lisbon",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Milan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-      ],
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Thabo Murray",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
-        contact: {
-          contactEmail: "legendary.elevation.@velarivoyages.com",
-          contactNumber: "+1-620-371-2049",
-        },
-      },
-    ],
-    title: "Legendary Elevation of the Exotic Realms",
-    description:
-      "Let the spirit of exploration guide your gilded journey from Roatan. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Lisbon, Milan.",
-    rating: 4.7,
-    tags: ["expedition", "general"],
-  },
-  {
-    basePrice: 1515,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Set course from Roatan for an inspiring serene journey across Roatan. Whether exploring ancient ruins in Venice or soaking up coastal views in Malta, every day offers a perfect mix of discovery and relaxation.",
-      distance: "759 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Roatan to Venice",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Venice to Malta",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Malta to Barcelona",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Florence",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from Florence to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Diego Porter",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-        contact: {
-          contactEmail: "radiant.oasis.of.the@velarivoyages.com",
-          contactNumber: "+1-611-184-4988",
-        },
-      },
-    ],
-    title: "Radiant Oasis of the Exotic Realms",
-    description:
-      "Set course from Roatan for an inspiring serene journey across Roatan. Whether exploring ancient ruins in Venice or soaking up coastal views in Malta, every day offers a perfect mix of discovery and relaxation.",
-    rating: 4.7,
-    tags: ["general", "adventure"],
-  },
-  {
-    basePrice: 2602,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Malta",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "premium-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Embark from Roatan and traverse the Roatan in style. Whether it’s the energy of Milan or the calm of Malta, each destination reveals a new side of paradise.",
-      distance: "543 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Roatan to Milan",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Milan to Malta",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-      ],
-    },
-    tourCategoryId: "vip-cruise",
-    contactPersonnel: [
-      {
-        name: "Jeffrey Payne",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-        contact: {
-          contactEmail: "transcendent.awakeni@velarivoyages.com",
-          contactNumber: "+1-214-514-7129",
-        },
-      },
-    ],
-    title: "Transcendent Awakening of the Exotic Realms",
-    description:
-      "Embark from Roatan and traverse the Roatan in style. Whether it’s the energy of Milan or the calm of Malta, each destination reveals a new side of paradise.",
-    rating: 4.5,
-    tags: ["VIP"],
-  },
-  {
-    basePrice: 4047,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury",
     itinerary: {
       route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Experience coastal elegance on this voyage from Roatan, where the journey through Roatan includes stops in Malta, Mykonos, each more enchanting than the last.",
-      distance: "520 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Roatan to Malta",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Malta to Mykonos",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Mykonos to Roatan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Roatan",
-        },
-      ],
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Eugene Hayes",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-        contact: {
-          contactEmail: "moonlit.reverie.of.t@velarivoyages.com",
-          contactNumber: "+1-811-511-4340",
-        },
-      },
-    ],
-    title: "Moonlit Reverie of the Exotic Realms",
-    description:
-      "Experience coastal elegance on this voyage from Roatan, where the journey through Roatan includes stops in Malta, Mykonos, each more enchanting than the last.",
-    rating: 4.8,
-    tags: ["fall-cruise", "historical", "tropical"],
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
   },
   {
-    basePrice: 5506,
-    departureLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Roatan",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Roatan",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Escape to sea from Roatan on a infinite voyage exploring the magic of Roatan. Visit unforgettable locales like Mykonos, Rome, Florence, where each stop inspires awe.",
-      distance: "1463 nautical miles",
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "Bermuda",
+    "coordinates": {
+      "latitude": 32.3214,
+      "longitude": -64.75737
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Leave stress behind with this curated whisper from Roatan. Sail across the best of Caribbean and explore treasures like Miami, Bermuda, Nassau, Roatán with comfort and style.",
+      distance: "1167 nautical miles",
       totalDuration: "17 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Roatan to Mykonos",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Mykonos to Rome",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Sailing from Rome to Florence",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Sailing from Florence to Roatan",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to Miami"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Bermuda"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to Nassau"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Roatán"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Roatán to Roatan"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Exploring Roatan",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Roatán"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Benjamin Dean",
-        role: "Guest Services Agent (Shoreside)",
-        languages: ["English", "Italian", "Portuguese", "Japanese"], // Use the properly generated languages list
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+        name: "Samuel Lawson",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
         contact: {
-          contactEmail: "mythic.reunion.of.th@velarivoyages.com",
-          contactNumber: "+1-134-194-2896",
-        },
-      },
+          contactEmail: "floating.elevation.o@velarivoyages.com",
+          contactNumber: "+1-766-754-7159"
+        }
+      }
     ],
-    title: "Mythic Reunion of the Exotic Realms",
-    description:
-      "Escape to sea from Roatan on a infinite voyage exploring the magic of Roatan. Visit unforgettable locales like Mykonos, Rome, Florence, where each stop inspires awe.",
-    rating: 4.6,
-    tags: ["cruise-vacation", "fall-cruise", "cruise"],
+    title: "Floating Elevation of the Coral Sanctuaries",
+    description: "Leave stress behind with this curated whisper from Roatan. Sail across the best of Caribbean and explore treasures like Miami, Bermuda, Nassau, Roatán with comfort and style.",
+    rating: 4.9,
+    tags: ["cruise-experience"]
   },
+  {
+    basePrice: 4415,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Fort Lauderdale",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "Sint Maarten",
+    "coordinates": {
+      "latitude": 18.0167,
+      "longitude": -63.0587
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from Roatan for a voyage like no other. From the picturesque landscapes of Philipsburg to the lively ambiance of San Juan, this oceanic cruise will redefine your view of Caribbean.",
+      distance: "636 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Philipsburg"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to San Juan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Fort Lauderdale"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriel Mason",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "moonlit.tide.of.the.@velarivoyages.com",
+          contactNumber: "+1-957-787-9940"
+        }
+      }
+    ],
+    title: "Moonlit Tide of the Caribbean Rhythms",
+    description: "Set sail from Roatan for a voyage like no other. From the picturesque landscapes of Philipsburg to the lively ambiance of San Juan, this oceanic cruise will redefine your view of Caribbean.",
+    rating: 4.6,
+    tags: ["glacier-cruise","VIP","expedition"]
+  },
+  {
+    basePrice: 8019,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Cozumel",
+  "country": "Mexico",
+  "coordinates": {
+    "latitude": 20.4233,
+    "longitude": -86.9212
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  }
+],
+      description: "This hand-selected sublime cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Tampa, Cozumel, each telling a story through food, music, and tradition.",
+      distance: "1430 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Tampa"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Tampa to Cozumel"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Sean Montgomery",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "dreamlike.resonance.@velarivoyages.com",
+          contactNumber: "+1-373-580-8613"
+        }
+      }
+    ],
+    title: "Dreamlike Resonance of the Pirate Passages",
+    description: "This hand-selected sublime cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Tampa, Cozumel, each telling a story through food, music, and tradition.",
+    rating: 4.1,
+    tags: ["wildlife"]
+  },
+  {
+    basePrice: 6011,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Begin a captivating eclipse through the Caribbean, departing Roatan. With visits to Fort Lauderdale, Cozumel, each day brings a new adventure and deeper connection to the region.",
+      distance: "1171 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Paul Grant",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "dreamlike.mystique.o@velarivoyages.com",
+          contactNumber: "+1-569-422-1597"
+        }
+      }
+    ],
+    title: "Dreamlike Mystique of the Pirate Passages",
+    description: "Begin a captivating eclipse through the Caribbean, departing Roatan. With visits to Fort Lauderdale, Cozumel, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.8,
+    tags: ["family-friendly","nature","cruise-vacation"]
+  },
+  {
+    basePrice: 3847,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "Sint Maarten",
+    "coordinates": {
+      "latitude": 18.0167,
+      "longitude": -63.0587
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin a captivating voyage through the Caribbean, departing Roatan. With visits to Fort Lauderdale, Philipsburg, George Town, each day brings a new adventure and deeper connection to the region.",
+      distance: "590 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Fort Lauderdale"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to Philipsburg"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Brandon Hall",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/91.jpg",
+        contact: {
+          contactEmail: "pristine.exploration@velarivoyages.com",
+          contactNumber: "+1-370-771-3857"
+        }
+      }
+    ],
+    title: "Pristine Exploration of the Sugarcane Skies",
+    description: "Begin a captivating voyage through the Caribbean, departing Roatan. With visits to Fort Lauderdale, Philipsburg, George Town, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.5,
+    tags: ["wellness","cruise-journey","relaxation"]
+  },
+  {
+    basePrice: 7562,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Fort Lauderdale",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail into splendor from Roatan on a opulent voyage through Caribbean. Let each stop—from Miami to Nassau—reveal the unique flavors and colors of the region.",
+      distance: "1430 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Miami to Nassau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Fort Lauderdale"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Eric Murray",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
+        contact: {
+          contactEmail: "serene.expedition.of@velarivoyages.com",
+          contactNumber: "+1-777-846-5946"
+        }
+      }
+    ],
+    title: "Serene Expedition of the Reggae Shores",
+    description: "Sail into splendor from Roatan on a opulent voyage through Caribbean. Let each stop—from Miami to Nassau—reveal the unique flavors and colors of the region.",
+    rating: 4.5,
+    tags: ["general","relaxation"]
+  },
+  {
+    basePrice: 1204,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "Bermuda",
+    "coordinates": {
+      "latitude": 32.3214,
+      "longitude": -64.75737
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "An escape like no other begins in Roatan, where your oasis launches into the heart of Caribbean. Discover the magic of George Town, San Juan, Bermuda, Fort Lauderdale with style and sophistication.",
+      distance: "1415 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to George Town"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from George Town to San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Bermuda"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from Bermuda to Fort Lauderdale"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Jonathan Porter",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
+        contact: {
+          contactEmail: "riveting.solstice.of@velarivoyages.com",
+          contactNumber: "+1-149-439-9632"
+        }
+      }
+    ],
+    title: "Riveting Solstice of the Azure Horizons",
+    description: "An escape like no other begins in Roatan, where your oasis launches into the heart of Caribbean. Discover the magic of George Town, San Juan, Bermuda, Fort Lauderdale with style and sophistication.",
+    rating: 4.8,
+    tags: ["cruise","cruise-journey","nature"]
+  },
+  {
+    basePrice: 1086,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Set sail from historic Roatan for a modern escape into the Caribbean. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Fort Lauderdale, Nassau.",
+      distance: "1334 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Willie Clark",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
+        contact: {
+          contactEmail: "floating.escape.of.t@velarivoyages.com",
+          contactNumber: "+1-384-756-7701"
+        }
+      }
+    ],
+    title: "Floating Escape of the Caribbean Rhythms",
+    description: "Set sail from historic Roatan for a modern escape into the Caribbean. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in Fort Lauderdale, Nassau.",
+    rating: 4.6,
+    tags: ["romantic","cruise-ship","cruise-excursion"]
+  },
+  {
+    basePrice: 8458,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "San Juan",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected mythic cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Tampa, George Town, Cozumel, San Juan, each telling a story through food, music, and tradition.",
+      distance: "779 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Tampa"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Tampa to George Town"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Cozumel"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to San Juan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring San Juan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Juan Crawford",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+        contact: {
+          contactEmail: "serene.haven.of.the.@velarivoyages.com",
+          contactNumber: "+1-282-386-8851"
+        }
+      }
+    ],
+    title: "Serene Haven of the Turquoise Lagoons",
+    description: "This hand-selected mythic cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Tampa, George Town, Cozumel, San Juan, each telling a story through food, music, and tradition.",
+    rating: 4.2,
+    tags: ["cruise"]
+  },
+  {
+    basePrice: 7733,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "George Town",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An unforgettable labyrinth awaits as you cruise from Roatan across Caribbean. Dive into history, flavor, and culture with stops including Miami, George Town.",
+      distance: "1384 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Miami to George Town"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Randy Bennett",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+        contact: {
+          contactEmail: "serene.excursion.of.@velarivoyages.com",
+          contactNumber: "+1-101-374-2540"
+        }
+      }
+    ],
+    title: "Serene Excursion of the Reggae Shores",
+    description: "An unforgettable labyrinth awaits as you cruise from Roatan across Caribbean. Dive into history, flavor, and culture with stops including Miami, George Town.",
+    rating: 4.8,
+    tags: ["expedition","long-distance"]
+  },
+  {
+    basePrice: 6365,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "St. Thomas",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Roatan. Discover the historical and natural richness of Caribbean as you cruise to spectacular destinations like Fort Lauderdale, St. Thomas.",
+      distance: "1095 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Fort Lauderdale to St. Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St. Thomas"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Mateo Dean",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+        contact: {
+          contactEmail: "crystalline.tide.of.@velarivoyages.com",
+          contactNumber: "+1-876-269-5829"
+        }
+      }
+    ],
+    title: "Crystalline Tide of the Coral Sanctuaries",
+    description: "A voyage of contrasts awaits from Roatan. Discover the historical and natural richness of Caribbean as you cruise to spectacular destinations like Fort Lauderdale, St. Thomas.",
+    rating: 5.0,
+    tags: ["expedition"]
+  },
+  {
+    basePrice: 2384,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Philipsburg",
+  "country": "Sint Maarten",
+  "coordinates": {
+    "latitude": 18.0167,
+    "longitude": -63.0587
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "Sint Maarten",
+    "coordinates": {
+      "latitude": 18.0167,
+      "longitude": -63.0587
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Roatan on this azure journey across Caribbean. Uncover the beauty and history of Miami, Philipsburg with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "963 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to Miami"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Miami to Philipsburg"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        name: "Jose Jennings",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+        contact: {
+          contactEmail: "celestial.mystique.o@velarivoyages.com",
+          contactNumber: "+1-978-537-5296"
+        }
+      }
+    ],
+    title: "Celestial Mystique of the Turquoise Lagoons",
+    description: "Sail away from the charming harbor of Roatan on this azure journey across Caribbean. Uncover the beauty and history of Miami, Philipsburg with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.4,
+    tags: ["long-distance","seasonal","cruise-experience"]
+  },
+  {
+    basePrice: 3731,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Fort Lauderdale",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Explore a new side of Caribbean with this tranquil odyssey starting in Roatan. Visit charming ports such as Fort Lauderdale, Miami, San Juan, each offering its own unique rhythm.",
+      distance: "1137 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Fort Lauderdale"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Fort Lauderdale to Miami"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Miami to San Juan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Fort Lauderdale"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Miami"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        name: "Michael Dunn",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
+        contact: {
+          contactEmail: "infinite.elevation.o@velarivoyages.com",
+          contactNumber: "+1-628-548-6706"
+        }
+      }
+    ],
+    title: "Infinite Elevation of the Palm-Fringed Paradises",
+    description: "Explore a new side of Caribbean with this tranquil odyssey starting in Roatan. Visit charming ports such as Fort Lauderdale, Miami, San Juan, each offering its own unique rhythm.",
+    rating: 4.2,
+    tags: ["fall-cruise","long-distance","themed-cruise"]
+  },
+  {
+    basePrice: 4356,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this moonlit voyage through Caribbean, starting from the illustrious port of Roatan. From Cozumel to Nassau, each destination offers its own story, culture, and breathtaking views.",
+      distance: "744 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Cozumel"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Nassau"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Sebastian Knight",
+        role: "Reservations Agent",
+        languages: ["English","French","Portuguese","Quechua","Guarani"], // Use the properly generated languages list
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+        contact: {
+          contactEmail: "secluded.tide.of.the@velarivoyages.com",
+          contactNumber: "+1-555-829-6930"
+        }
+      }
+    ],
+    title: "Secluded Tide of the Pirate Passages",
+    description: "Experience the elegance of the seas on this moonlit voyage through Caribbean, starting from the illustrious port of Roatan. From Cozumel to Nassau, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.3,
+    tags: ["wellness"]
+  },
+  {
+    basePrice: 5419,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Tampa",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 27.9506,
+      "longitude": -82.4572
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "This hand-selected velvet cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Nassau, Tampa, each telling a story through food, music, and tradition.",
+      distance: "835 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Tampa"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Tampa to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Tampa"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Stella Hawkins",
+        role: "Cruise Specialist",
+        languages: ["English","Spanish","Haitian","Guarani"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
+        contact: {
+          contactEmail: "luxurious.embrace.of@velarivoyages.com",
+          contactNumber: "+1-339-281-8140"
+        }
+      }
+    ],
+    title: "Luxurious Embrace of the Sapphire Waters",
+    description: "This hand-selected velvet cruise offers a true taste of Caribbean. Depart from Roatan and explore ports like Nassau, Tampa, each telling a story through food, music, and tradition.",
+    rating: 4.1,
+    tags: ["cruise-experience","family-friendly"]
+  },
+  {
+    basePrice: 4907,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Miami",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 25.7617,
+    "longitude": -80.1918
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Philipsburg",
+    "country": "Sint Maarten",
+    "coordinates": {
+      "latitude": 18.0167,
+      "longitude": -63.0587
+    }
+  },
+  {
+    "city": "Bermuda",
+    "country": "Bermuda",
+    "coordinates": {
+      "latitude": 32.3214,
+      "longitude": -64.75737
+    }
+  },
+  {
+    "city": "Miami",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    }
+  }
+],
+      description: "Depart from the iconic port of Roatan and sail through the enchanting Caribbean. Explore vibrant destinations like Nassau, Philipsburg, Bermuda, Miami, each offering its own unique charm and local flair.",
+      distance: "589 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Philipsburg"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Philipsburg to Bermuda"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Bermuda to Miami"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Philipsburg"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Bermuda"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Miami"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Madelyn Hamilton",
+        role: "Cruise Specialist",
+        languages: ["English","Spanish","Haitian","Guarani"], // Use the properly generated languages list
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        contact: {
+          contactEmail: "secluded.sojourn.of.@velarivoyages.com",
+          contactNumber: "+1-527-931-5492"
+        }
+      }
+    ],
+    title: "Secluded Sojourn of the Azure Horizons",
+    description: "Depart from the iconic port of Roatan and sail through the enchanting Caribbean. Explore vibrant destinations like Nassau, Philipsburg, Bermuda, Miami, each offering its own unique charm and local flair.",
+    rating: 4.5,
+    tags: ["cruise-holiday","cruise-excursion"]
+  },
+  {
+    basePrice: 1280,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Your journey through the Caribbean begins in Roatan, where elegance meets adventure. Explore the shores of San Juan, Cozumel, Nassau, with curated excursions and luxurious onboard amenities.",
+      distance: "1069 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Roatan to San Juan"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from San Juan to Cozumel"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Cozumel to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        name: "Michelle Day",
+        role: "Cruise Specialist",
+        languages: ["English","Spanish","Haitian","Guarani"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
+        contact: {
+          contactEmail: "pristine.voyage.of.t@velarivoyages.com",
+          contactNumber: "+1-281-944-3795"
+        }
+      }
+    ],
+    title: "Pristine Voyage of the Pirate Passages",
+    description: "Your journey through the Caribbean begins in Roatan, where elegance meets adventure. Explore the shores of San Juan, Cozumel, Nassau, with curated excursions and luxurious onboard amenities.",
+    rating: 4.4,
+    tags: ["romantic","nature","cruise-line"]
+  },
+  {
+    basePrice: 1494,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatán",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "mainstream",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "San Juan",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "George Town",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Roatán",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Roatan on this gilded journey across Caribbean. Uncover the beauty and history of San Juan, George Town, Roatán with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "812 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to San Juan"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from San Juan to George Town"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from George Town to Roatán"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring San Juan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring George Town"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Roatán"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Maya Hawkins",
+        role: "Cruise Specialist",
+        languages: ["English","Spanish","Haitian","Guarani"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
+        contact: {
+          contactEmail: "transcendent.reunion@velarivoyages.com",
+          contactNumber: "+1-858-166-6607"
+        }
+      }
+    ],
+    title: "Transcendent Reunion of the Coral Sanctuaries",
+    description: "Sail away from the charming harbor of Roatan on this gilded journey across Caribbean. Uncover the beauty and history of San Juan, George Town, Roatán with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.3,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 3570,
+    departureLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    arrivalLocation: {
+  "city": "Roatan",
+  "country": "Honduras",
+  "region": "Caribbean",
+  "coordinates": {
+    "latitude": 16.3181,
+    "longitude": -86.5277
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  },
+  {
+    "city": "St. Thomas",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cozumel",
+    "country": "Mexico",
+    "coordinates": {
+      "latitude": 20.4233,
+      "longitude": -86.9212
+    }
+  },
+  {
+    "city": "Roatan",
+    "country": "Honduras",
+    "region": "Caribbean",
+    "coordinates": {
+      "latitude": 16.3181,
+      "longitude": -86.5277
+    }
+  }
+],
+      description: "Board in Roatan for a hand-crafted drift through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in St. Thomas, Cozumel.",
+      distance: "1053 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Roatan to St. Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from St. Thomas to Cozumel"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Cozumel to Roatan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring St. Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Cozumel"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Roatan"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Amina Hawkins",
+        role: "Cruise Specialist",
+        languages: ["English","Spanish","Haitian","Guarani"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+        contact: {
+          contactEmail: "eternal.currents.of.@velarivoyages.com",
+          contactNumber: "+1-541-374-7790"
+        }
+      }
+    ],
+    title: "Eternal Currents of the Azure Horizons",
+    description: "Board in Roatan for a hand-crafted drift through the breathtaking Caribbean. Highlights include sun-drenched beaches, historic ports, and immersive culture in St. Thomas, Cozumel.",
+    rating: 4.1,
+    tags: ["expedition","repositioning","cruise-journey"]
+  }
 ];

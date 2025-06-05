@@ -1,1404 +1,2738 @@
 import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const santiagoCruises: Cruise[] = [
-  {
-    basePrice: 6444,
+{
+    basePrice: 1147,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "premium",
-    itinerary: {
-      route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Embark from Santiago and traverse the Santiago in style. Whether it’s the energy of Rome or the calm of Lisbon, each destination reveals a new side of paradise.",
-      distance: "1283 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Santiago to Rome",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Rome to Lisbon",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Lisbon to Barcelona",
-        },
-        {
-          start: "Day 14",
-          end: "Day 14",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Santiago",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 15",
-          end: "Day 16",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Samuel Baker",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
-        contact: {
-          contactEmail: "ornate.passage.of.th@velarivoyages.com",
-          contactNumber: "+1-821-672-3000",
-        },
-      },
-    ],
-    title: "Ornate Passage of the Exotic Realms",
-    description:
-      "Embark from Santiago and traverse the Santiago in style. Whether it’s the energy of Rome or the calm of Lisbon, each destination reveals a new side of paradise.",
-    rating: 4.7,
-    tags: ["long-distance", "cruise-excursion", "romantic"],
-  },
-  {
-    basePrice: 3582,
-    departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Lisbon",
-      country: "Portugal",
-      coordinates: {
-        latitude: 38.7169,
-        longitude: -9.1399,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "ultra-luxury",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-      ],
-      description:
-        "Join us in Santiago for a quest of a lifetime. Sail across the serene waters of Santiago, stopping at ports like Barcelona, Lisbon where timeless traditions meet modern luxuries.",
-      distance: "1472 nautical miles",
-      totalDuration: "7 days",
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Explore a new side of South America with this moonlit whisper starting in Santiago. Visit charming ports such as Montevideo, Rio de Janeiro, Buenos Aires, each offering its own unique rhythm.",
+      distance: "984 nautical miles",
+      totalDuration: "13 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Santiago to Barcelona",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Sailing from Barcelona to Lisbon",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Rio de Janeiro"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Rio de Janeiro to Buenos Aires"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Santiago"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  }
+]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Johnny Keller",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        name: "Stephen Fisher",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
         contact: {
-          contactEmail: "pearlescent.infinite@velarivoyages.com",
-          contactNumber: "+1-118-219-4937",
-        },
-      },
+          contactEmail: "exquisite.sanctum.of@velarivoyages.com",
+          contactNumber: "+1-478-897-5805"
+        }
+      }
     ],
-    title: "Pearlescent Infinite of the Exotic Realms",
-    description:
-      "Join us in Santiago for a quest of a lifetime. Sail across the serene waters of Santiago, stopping at ports like Barcelona, Lisbon where timeless traditions meet modern luxuries.",
-    rating: 4.7,
-    tags: ["cruise-experience", "cruise-vacation"],
+    title: "Exquisite Sanctum of the Pre-Columbian Paths",
+    description: "Explore a new side of South America with this moonlit whisper starting in Santiago. Visit charming ports such as Montevideo, Rio de Janeiro, Buenos Aires, each offering its own unique rhythm.",
+    rating: 5.0,
+    tags: ["cultural","long-distance"]
   },
   {
-    basePrice: 1840,
+    basePrice: 8402,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "luxury",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Begin your journey in Santiago, a gateway to the soul of Santiago. Enjoy days spent exploring Dubrovnik, Malta, Athens, Florence and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-      distance: "1088 nautical miles",
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Let the spirit of exploration guide your forbidden journey from Santiago. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Buenos Aires, Cartagena, Rio de Janeiro, Montevideo.",
+      distance: "1309 nautical miles",
       totalDuration: "16 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Santiago to Dubrovnik",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Dubrovnik to Malta",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Malta to Athens",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Athens to Florence",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from Florence to Santiago",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 16",
-          end: "Day 16",
-          duration: "1 days",
-          description: "Exploring Santiago",
-        },
-      ],
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Oliver Knight",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-        contact: {
-          contactEmail: "transcendent.pilgrim@velarivoyages.com",
-          contactNumber: "+1-155-496-8710",
-        },
-      },
-    ],
-    title: "Transcendent Pilgrimage of the Exotic Realms",
-    description:
-      "Begin your journey in Santiago, a gateway to the soul of Santiago. Enjoy days spent exploring Dubrovnik, Malta, Athens, Florence and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
-    rating: 4.9,
-    tags: ["themed-cruise", "luxury"],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Buenos Aires"
   },
   {
-    basePrice: 9894,
-    departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Rome",
-      country: "Italy",
-      coordinates: {
-        latitude: 41.9028,
-        longitude: 12.4964,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
-    itinerary: {
-      route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-      ],
-      description:
-        "Escape to sea from Santiago on a captivating voyage exploring the magic of Santiago. Visit unforgettable locales like Santorini, Lisbon, Barcelona, Rome, where each stop inspires awe.",
-      distance: "557 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Santiago to Santorini",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Santorini to Lisbon",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Lisbon to Barcelona",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Barcelona to Rome",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Exploring Rome",
-        },
-      ],
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Timothy Harper",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-        contact: {
-          contactEmail: "pearlescent.pilgrima@velarivoyages.com",
-          contactNumber: "+1-917-647-2278",
-        },
-      },
-    ],
-    title: "Pearlescent Pilgrimage of the Exotic Realms",
-    description:
-      "Escape to sea from Santiago on a captivating voyage exploring the magic of Santiago. Visit unforgettable locales like Santorini, Lisbon, Barcelona, Rome, where each stop inspires awe.",
-    rating: 4.9,
-    tags: ["cruise-journey", "fall-cruise", "cruise-excursion"],
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Cartagena"
   },
   {
-    basePrice: 8462,
-    departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "ultra-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Your serenade begins in Santiago, where every sunset on the Santiago horizon promises another day of discovery—from Athens, Dubrovnik, Venice to hidden ports of charm.",
-      distance: "1354 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Santiago to Athens",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Athens to Dubrovnik",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Dubrovnik to Venice",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Venice to Santiago",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Exploring Santiago",
-        },
-      ],
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Jason Carpenter",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/98.jpg",
-        contact: {
-          contactEmail: "refined.requiem.of.t@velarivoyages.com",
-          contactNumber: "+1-700-134-8995",
-        },
-      },
-    ],
-    title: "Refined Requiem of the Exotic Realms",
-    description:
-      "Your serenade begins in Santiago, where every sunset on the Santiago horizon promises another day of discovery—from Athens, Dubrovnik, Venice to hidden ports of charm.",
-    rating: 4.1,
-    tags: ["fall-cruise", "cruise-vacation"],
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Cartagena to Rio de Janeiro"
   },
   {
-    basePrice: 5446,
-    departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    arrivalLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "entry-luxury",
-    itinerary: {
-      route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Step into a world of elegance and exploration from Santiago. This embrace through the Santiago unveils stunning stops including Malta, Lisbon, Mykonos, Santorini, all with first-class service.",
-      distance: "1344 nautical miles",
-      totalDuration: "19 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Santiago to Malta",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Malta to Lisbon",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Mykonos",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Sailing from Mykonos to Santorini",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Sailing from Santorini to Santiago",
-        },
-      ],
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Rio de Janeiro to Montevideo"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Santiago"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 18",
-          end: "Day 19",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Brian Dean",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+        name: "Alan Lawson",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
         contact: {
-          contactEmail: "breathtaking.labyrin@velarivoyages.com",
-          contactNumber: "+1-619-706-4218",
-        },
-      },
+          contactEmail: "secluded.mystique.of@velarivoyages.com",
+          contactNumber: "+1-722-204-7287"
+        }
+      }
     ],
-    title: "Breathtaking Labyrinth of the Exotic Realms",
-    description:
-      "Step into a world of elegance and exploration from Santiago. This embrace through the Santiago unveils stunning stops including Malta, Lisbon, Mykonos, Santorini, all with first-class service.",
-    rating: 5.0,
-    tags: ["cruise-ship", "general", "anniversary-cruise"],
+    title: "Secluded Mystique of the Carnival Currents",
+    description: "Let the spirit of exploration guide your forbidden journey from Santiago. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Buenos Aires, Cartagena, Rio de Janeiro, Montevideo.",
+    rating: 4.4,
+    tags: ["repositioning","nature"]
   },
   {
-    basePrice: 9847,
+    basePrice: 2035,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Santorini",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Cartagena",
+  "country": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "mainstream",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "From bustling Santiago to serene Santiago shores, this cruise invites you to relax, explore, and indulge. Stops at Milan, Santorini deliver a balanced blend of culture and comfort.",
-      distance: "943 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Santiago to Milan",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Milan to Santorini",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-      ],
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Christopher Campbell",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-        contact: {
-          contactEmail: "pristine.sojourn.of.@velarivoyages.com",
-          contactNumber: "+1-830-507-1303",
-        },
-      },
-    ],
-    title: "Pristine Sojourn of the Exotic Realms",
-    description:
-      "From bustling Santiago to serene Santiago shores, this cruise invites you to relax, explore, and indulge. Stops at Milan, Santorini deliver a balanced blend of culture and comfort.",
-    rating: 4.1,
-    tags: ["long-distance", "general", "tropical"],
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
   },
   {
-    basePrice: 2553,
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Leave stress behind with this curated sanctuary from Santiago. Sail across the best of South America and explore treasures like Buenos Aires, Rio de Janeiro, Cartagena with comfort and style.",
+      distance: "1264 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Buenos Aires"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Rio de Janeiro"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Rio de Janeiro to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        name: "Jeffrey Crawford",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
+        contact: {
+          contactEmail: "tranquil.arcadia.of.@velarivoyages.com",
+          contactNumber: "+1-401-342-7514"
+        }
+      }
+    ],
+    title: "Tranquil Arcadia of the Andean Views",
+    description: "Leave stress behind with this curated sanctuary from Santiago. Sail across the best of South America and explore treasures like Buenos Aires, Rio de Janeiro, Cartagena with comfort and style.",
+    rating: 4.0,
+    tags: ["sightseeing","wildlife","glacier-cruise"]
+  },
+  {
+    basePrice: 3928,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition",
+    hasPopularDestination: false,
+    category: "mainstream",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Leave ordinary behind as you sail from Santiago across the captivating Santiago. Discover the distinctive personality of each destination, from Malta, Florence.",
-      distance: "1477 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Santiago to Malta",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Sailing from Malta to Florence",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Florence to Santiago",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-      ],
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Arthur Gardner",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
-        contact: {
-          contactEmail: "floating.sanctuary.o@velarivoyages.com",
-          contactNumber: "+1-503-944-4290",
-        },
-      },
-    ],
-    title: "Floating Sanctuary of the Exotic Realms",
-    description:
-      "Leave ordinary behind as you sail from Santiago across the captivating Santiago. Discover the distinctive personality of each destination, from Malta, Florence.",
-    rating: 4.9,
-    tags: ["cruise-holiday"],
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
   },
   {
-    basePrice: 2231,
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Depart from Santiago on this thoughtfully designed symphony across the South America. Savor coastal charm, cultural treasures, and ocean views with stops at Cartagena, Montevideo, Rio de Janeiro, Buenos Aires.",
+      distance: "684 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Cartagena"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Cartagena to Montevideo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Rio de Janeiro"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Rio de Janeiro to Buenos Aires"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Santiago"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        name: "Jose Palmer",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
+        contact: {
+          contactEmail: "infinite.requiem.of.@velarivoyages.com",
+          contactNumber: "+1-688-455-3926"
+        }
+      }
+    ],
+    title: "Infinite Requiem of the Cape Horn Crossings",
+    description: "Depart from Santiago on this thoughtfully designed symphony across the South America. Savor coastal charm, cultural treasures, and ocean views with stops at Cartagena, Montevideo, Rio de Janeiro, Buenos Aires.",
+    rating: 4.2,
+    tags: ["VIP","cruise-ship"]
+  },
+  {
+    basePrice: 6959,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Athens",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "coordinates": {
+    "latitude": -34.9011,
+    "longitude": -56.1645
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "ultra-luxury",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Athens",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Unwind and explore on this saga through Santiago, departing from Santiago. With every stop—from Mykonos to Athens—you’ll collect memories that last a lifetime.",
-      distance: "621 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Santiago to Mykonos",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Mykonos to Dubrovnik",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Florence",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Florence to Athens",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Exploring Athens",
-        },
-      ],
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Rajesh Curtis",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-        contact: {
-          contactEmail: "azure.wanderlust.of.@velarivoyages.com",
-          contactNumber: "+1-120-120-7502",
-        },
-      },
-    ],
-    title: "Azure Wanderlust of the Exotic Realms",
-    description:
-      "Unwind and explore on this saga through Santiago, departing from Santiago. With every stop—from Mykonos to Athens—you’ll collect memories that last a lifetime.",
-    rating: 4.4,
-    tags: ["romantic", "holiday-cruise", "expedition"],
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
   },
   {
-    basePrice: 8452,
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Santiago. Discover the historical and natural richness of South America as you cruise to spectacular destinations like Cartagena, Montevideo.",
+      distance: "1165 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Cartagena"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Cartagena to Montevideo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        name: "Ryan Baker",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
+        contact: {
+          contactEmail: "dreamlike.panorama.o@velarivoyages.com",
+          contactNumber: "+1-514-181-2476"
+        }
+      }
+    ],
+    title: "Dreamlike Panorama of the Emerald Coasts",
+    description: "A voyage of contrasts awaits from Santiago. Discover the historical and natural richness of South America as you cruise to spectacular destinations like Cartagena, Montevideo.",
+    rating: 4.5,
+    tags: ["romantic"]
+  },
+  {
+    basePrice: 5689,
     departureLocation: {
-      city: "Santiago",
-      country: "",
-      region: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     arrivalLocation: {
-      city: "Barcelona",
-      country: "Spain",
-      coordinates: {
-        latitude: 41.390205,
-        longitude: 2.154007,
-      },
+  "city": "Buenos Aires",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from Santiago. Discover the historical and natural richness of South America as you cruise to spectacular destinations like Rio de Janeiro, Montevideo, Cartagena, Buenos Aires.",
+      distance: "574 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Rio de Janeiro"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rio de Janeiro to Montevideo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Cartagena"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Cartagena to Buenos Aires"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  }
+]
     },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Gabriel Chambers",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
+        contact: {
+          contactEmail: "exquisite.reverie.of@velarivoyages.com",
+          contactNumber: "+1-784-709-1607"
+        }
+      }
+    ],
+    title: "Exquisite Reverie of the Incan Echoes",
+    description: "A voyage of contrasts awaits from Santiago. Discover the historical and natural richness of South America as you cruise to spectacular destinations like Rio de Janeiro, Montevideo, Cartagena, Buenos Aires.",
+    rating: 4.9,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 9079,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Escape the everyday with this enchanting journey through South America, departing from Santiago. You'll visit Cartagena, Lima, where every stop is a new adventure.",
+      distance: "1209 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Cartagena"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Cartagena to Lima"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Lima to Santiago"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Samuel Harper",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
+        contact: {
+          contactEmail: "mythic.realm.of.the.@velarivoyages.com",
+          contactNumber: "+1-666-787-4299"
+        }
+      }
+    ],
+    title: "Mythic Realm of the Pre-Columbian Paths",
+    description: "Escape the everyday with this enchanting journey through South America, departing from Santiago. You'll visit Cartagena, Lima, where every stop is a new adventure.",
+    rating: 5.0,
+    tags: ["cruise-holiday"]
+  },
+  {
+    basePrice: 4172,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Lima",
+  "country": "Peru",
+  "coordinates": {
+    "latitude": -12.0464,
+    "longitude": -77.0428
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  }
+],
+      description: "Depart from iconic Santiago and traverse the South America with visits to Montevideo, Lima. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "857 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Lima"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        name: "Aaron Mason",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
+        contact: {
+          contactEmail: "majestic.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-116-467-1540"
+        }
+      }
+    ],
+    title: "Majestic Embrace of the Carnival Currents",
+    description: "Depart from iconic Santiago and traverse the South America with visits to Montevideo, Lima. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.1,
+    tags: ["luxury"]
+  },
+  {
+    basePrice: 4465,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "An escape like no other begins in Santiago, where your embrace launches into the heart of South America. Discover the magic of Rio de Janeiro, Buenos Aires, Montevideo, Cartagena with style and sophistication.",
+      distance: "741 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Rio de Janeiro"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Rio de Janeiro to Buenos Aires"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Montevideo"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        name: "Logan Russell",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+        contact: {
+          contactEmail: "crystalline.excursio@velarivoyages.com",
+          contactNumber: "+1-698-535-9115"
+        }
+      }
+    ],
+    title: "Crystalline Excursion of the Rainforest Veins",
+    description: "An escape like no other begins in Santiago, where your embrace launches into the heart of South America. Discover the magic of Rio de Janeiro, Buenos Aires, Montevideo, Cartagena with style and sophistication.",
+    rating: 4.9,
+    tags: ["tropical","cruise-getaway"]
+  },
+  {
+    basePrice: 9098,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Lima",
+  "country": "Peru",
+  "coordinates": {
+    "latitude": -12.0464,
+    "longitude": -77.0428
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  }
+],
+      description: "Sail into splendor from Santiago on a harmonic voyage through South America. Let each stop—from Buenos Aires to Montevideo—reveal the unique flavors and colors of the region.",
+      distance: "964 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Buenos Aires"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Montevideo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Rio de Janeiro"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Rio de Janeiro to Lima"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Lima"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Carlos Griffin",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+        contact: {
+          contactEmail: "moonlit.odyssey.of.t@velarivoyages.com",
+          contactNumber: "+1-706-884-3511"
+        }
+      }
+    ],
+    title: "Moonlit Odyssey of the Carnival Currents",
+    description: "Sail into splendor from Santiago on a harmonic voyage through South America. Let each stop—from Buenos Aires to Montevideo—reveal the unique flavors and colors of the region.",
+    rating: 4.6,
+    tags: ["seasonal"]
+  },
+  {
+    basePrice: 9884,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "premium-luxury",
     itinerary: {
       route: [
-        {
-          city: "Santiago",
-          country: "",
-          region: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Malta",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-      ],
-      description:
-        "Board in Santiago for a hand-crafted legacy through the breathtaking Santiago. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Barcelona.",
-      distance: "533 nautical miles",
-      totalDuration: "8 days",
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Savor each moment of this timeless escape through South America, starting in Santiago. Visit renowned locations like Lima, Rio de Janeiro, Buenos Aires, Cartagena, where adventure and relaxation intertwine.",
+      distance: "592 nautical miles",
+      totalDuration: "14 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Santiago to Malta",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Malta to Barcelona",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Lima"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from Lima to Rio de Janeiro"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Rio de Janeiro to Buenos Aires"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Cartagena"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from Cartagena to Santiago"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Santiago",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Barcelona",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  }
+]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        name: "Russell Spencer",
-        role: "Sales Consultant",
-        languages: ["English", "French", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        name: "Albert Graham",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
         contact: {
-          contactEmail: "opulent.reverie.of.t@velarivoyages.com",
-          contactNumber: "+1-365-275-6446",
-        },
-      },
+          contactEmail: "azure.sojourn.of.the@velarivoyages.com",
+          contactNumber: "+1-651-541-9021"
+        }
+      }
     ],
-    title: "Opulent Reverie of the Exotic Realms",
-    description:
-      "Board in Santiago for a hand-crafted legacy through the breathtaking Santiago. Highlights include sun-drenched beaches, historic ports, and immersive culture in Malta, Barcelona.",
-    rating: 4.0,
-    tags: ["nature"],
+    title: "Azure Sojourn of the Samba Shores",
+    description: "Savor each moment of this timeless escape through South America, starting in Santiago. Visit renowned locations like Lima, Rio de Janeiro, Buenos Aires, Cartagena, where adventure and relaxation intertwine.",
+    rating: 4.6,
+    tags: ["wellness","themed-cruise"]
   },
+  {
+    basePrice: 4800,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Lima",
+  "country": "Peru",
+  "coordinates": {
+    "latitude": -12.0464,
+    "longitude": -77.0428
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  }
+],
+      description: "Unwind and explore on this currents through South America, departing from Santiago. With every stop—from Montevideo to Lima—you’ll collect memories that last a lifetime.",
+      distance: "752 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Montevideo to Buenos Aires"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Buenos Aires to Lima"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Lima"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Terry Nash",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+        contact: {
+          contactEmail: "velvet.discovery.of.@velarivoyages.com",
+          contactNumber: "+1-589-919-8836"
+        }
+      }
+    ],
+    title: "Velvet Discovery of the Lost Cities & Living Cultures",
+    description: "Unwind and explore on this currents through South America, departing from Santiago. With every stop—from Montevideo to Lima—you’ll collect memories that last a lifetime.",
+    rating: 4.9,
+    tags: ["weekend-cruise"]
+  },
+  {
+    basePrice: 1118,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "This hand-selected breathtaking cruise offers a true taste of South America. Depart from Santiago and explore ports like Montevideo, Lima, each telling a story through food, music, and tradition.",
+      distance: "721 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Lima"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Santiago"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Lucas Parker",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
+        contact: {
+          contactEmail: "spectacular.enigma.o@velarivoyages.com",
+          contactNumber: "+1-776-557-6872"
+        }
+      }
+    ],
+    title: "Spectacular Enigma of the Cape Horn Crossings",
+    description: "This hand-selected breathtaking cruise offers a true taste of South America. Depart from Santiago and explore ports like Montevideo, Lima, each telling a story through food, music, and tradition.",
+    rating: 4.2,
+    tags: ["cruise-line","culinary"]
+  },
+  {
+    basePrice: 1090,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Rio de Janeiro",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "ultra-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Santiago. This expedition through the South America unveils stunning stops including Cartagena, Montevideo, Rio de Janeiro, all with first-class service.",
+      distance: "726 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Cartagena"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Cartagena to Montevideo"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from Montevideo to Rio de Janeiro"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Blake Gardner",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+        contact: {
+          contactEmail: "enchanting.expeditio@velarivoyages.com",
+          contactNumber: "+1-554-254-5640"
+        }
+      }
+    ],
+    title: "Enchanting Expedition of the Rainforest Veins",
+    description: "Step into a world of elegance and exploration from Santiago. This expedition through the South America unveils stunning stops including Cartagena, Montevideo, Rio de Janeiro, all with first-class service.",
+    rating: 4.7,
+    tags: ["wildlife","cruise-line"]
+  },
+  {
+    basePrice: 9079,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Montevideo",
+  "country": "Uruguay",
+  "coordinates": {
+    "latitude": -34.9011,
+    "longitude": -56.1645
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  }
+],
+      description: "Depart Santiago on a relaxing sanctum through the South America region. Highlights include the stunning coastlines of Cartagena, Lima, Buenos Aires, Montevideo, all while enjoying first-class amenities on board.",
+      distance: "752 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Cartagena"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from Cartagena to Lima"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Buenos Aires"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 14",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Montevideo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 15",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        name: "Lucas Clark",
+        role: "Loyalty Program Representative",
+        languages: ["English","Quechua","Portuguese","Aymara","French"], // Use the properly generated languages list
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+        contact: {
+          contactEmail: "radiant.reverie.of.t@velarivoyages.com",
+          contactNumber: "+1-158-258-7808"
+        }
+      }
+    ],
+    title: "Radiant Reverie of the Rainforest Veins",
+    description: "Depart Santiago on a relaxing sanctum through the South America region. Highlights include the stunning coastlines of Cartagena, Lima, Buenos Aires, Montevideo, all while enjoying first-class amenities on board.",
+    rating: 4.7,
+    tags: ["sightseeing"]
+  },
+  {
+    basePrice: 3362,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Rio de Janeiro",
+  "country": "",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this legacy from Santiago, where the journey through South America includes stops in Montevideo, Lima, Rio de Janeiro, each more enchanting than the last.",
+      distance: "1369 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Montevideo to Lima"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from Lima to Rio de Janeiro"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Lisa Chambers",
+        role: "Customer Service Representative",
+        languages: ["English","Portuguese","Guarani","Spanish","Aymara"], // Use the properly generated languages list
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        contact: {
+          contactEmail: "alluring.symphony.of@velarivoyages.com",
+          contactNumber: "+1-630-958-9070"
+        }
+      }
+    ],
+    title: "Alluring Symphony of the Carnival Currents",
+    description: "Experience coastal elegance on this legacy from Santiago, where the journey through South America includes stops in Montevideo, Lima, Rio de Janeiro, each more enchanting than the last.",
+    rating: 4.7,
+    tags: ["cruise-journey"]
+  },
+  {
+    basePrice: 4688,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coordinates": {
+      "latitude": -34.9011,
+      "longitude": -56.1645
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  }
+],
+      description: "Let the waves lead you from Santiago on this epic tide. Traverse the iconic waters of South America and discover the beauty of Montevideo, Buenos Aires, Lima.",
+      distance: "1376 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Montevideo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Montevideo to Buenos Aires"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Lima"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Santiago"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Montevideo"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        name: "Jessica Fox",
+        role: "Customer Service Representative",
+        languages: ["English","Portuguese","Guarani","Spanish","Aymara"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
+        contact: {
+          contactEmail: "lavish.elevation.of.@velarivoyages.com",
+          contactNumber: "+1-309-932-9535"
+        }
+      }
+    ],
+    title: "Lavish Elevation of the Southern Horizons",
+    description: "Let the waves lead you from Santiago on this epic tide. Traverse the iconic waters of South America and discover the beauty of Montevideo, Buenos Aires, Lima.",
+    rating: 4.1,
+    tags: ["family-friendly","weekend-cruise","cruise-line"]
+  },
+  {
+    basePrice: 7480,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Begin a captivating escape through the South America, departing Santiago. With visits to Lima, Cartagena, each day brings a new adventure and deeper connection to the region.",
+      distance: "1012 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Lima"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Ariana Lawson",
+        role: "Customer Service Representative",
+        languages: ["English","Portuguese","Guarani","Spanish","Aymara"], // Use the properly generated languages list
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
+        contact: {
+          contactEmail: "pearlescent.excursio@velarivoyages.com",
+          contactNumber: "+1-185-647-3941"
+        }
+      }
+    ],
+    title: "Pearlescent Excursion of the Sacred Valleys",
+    description: "Begin a captivating escape through the South America, departing Santiago. With visits to Lima, Cartagena, each day brings a new adventure and deeper connection to the region.",
+    rating: 4.2,
+    tags: ["family-friendly","cultural"]
+  },
+  {
+    basePrice: 2768,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "entry-luxury",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Explore a new side of South America with this midnight enigma starting in Santiago. Visit charming ports such as Rio de Janeiro, Lima, Buenos Aires, Cartagena, each offering its own unique rhythm.",
+      distance: "736 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Santiago to Rio de Janeiro"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from Rio de Janeiro to Lima"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from Lima to Buenos Aires"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from Buenos Aires to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Rio de Janeiro"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Buenos Aires"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Rebecca Hamilton",
+        role: "Customer Service Representative",
+        languages: ["English","Portuguese","Guarani","Spanish","Aymara"], // Use the properly generated languages list
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+        contact: {
+          contactEmail: "exquisite.discovery.@velarivoyages.com",
+          contactNumber: "+1-792-597-1990"
+        }
+      }
+    ],
+    title: "Exquisite Discovery of the Sacred Valleys",
+    description: "Explore a new side of South America with this midnight enigma starting in Santiago. Visit charming ports such as Rio de Janeiro, Lima, Buenos Aires, Cartagena, each offering its own unique rhythm.",
+    rating: 4.5,
+    tags: ["cruise-ship","historical"]
+  },
+  {
+    basePrice: 5403,
+    departureLocation: {
+  "city": "Santiago",
+  "country": "Chile",
+  "region": "South America",
+  "coordinates": {
+    "latitude": -33.4489,
+    "longitude": -70.6693
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "premium",
+    itinerary: {
+      route: [
+  {
+    "city": "Santiago",
+    "country": "Chile",
+    "region": "South America",
+    "coordinates": {
+      "latitude": -33.4489,
+      "longitude": -70.6693
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "Peru",
+    "coordinates": {
+      "latitude": -12.0464,
+      "longitude": -77.0428
+    }
+  },
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Unwind and explore on this horizon through South America, departing from Santiago. With every stop—from Lima to Cartagena—you’ll collect memories that last a lifetime.",
+      distance: "1271 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Santiago to Lima"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from Lima to Cartagena"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Santiago"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Lima"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        name: "Elizabeth Gibson",
+        role: "Customer Service Representative",
+        languages: ["English","Portuguese","Guarani","Spanish","Aymara"], // Use the properly generated languages list
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
+        contact: {
+          contactEmail: "golden.requiem.of.th@velarivoyages.com",
+          contactNumber: "+1-983-892-7104"
+        }
+      }
+    ],
+    title: "Golden Requiem of the Rainforest Veins",
+    description: "Unwind and explore on this horizon through South America, departing from Santiago. With every stop—from Lima to Cartagena—you’ll collect memories that last a lifetime.",
+    rating: 4.9,
+    tags: ["culinary"]
+  }
 ];
