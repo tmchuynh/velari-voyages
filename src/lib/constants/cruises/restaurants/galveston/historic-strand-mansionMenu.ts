@@ -6,42 +6,51 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Savor our tasty dishes made with locally sourced ingredients",
+    "description": "Our authentic kitchen honors the soul of Mexican cooking",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Classic Grilled Chef’s Wild Game Selection",
-            "price": 35.62,
+            "name": "Seasonal Enticing Charcoal Grilled Iberico Pork",
+            "price": 32.02,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Captain's Favorite Seafood Tower",
+            "price": 31.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Grilled House Famous Duck Confit",
+            "price": 24.1,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spiced Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 28.25,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Herbed Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 31.94,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Whole Roasted Heritage Chicken",
-            "price": 37.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Flavorful Sous Vide Perfected Wagyu",
-            "price": 36.58,
+            "name": "Traditional Satisfying Chef's Childhood Inspired Creation",
+            "price": 26.85,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,8 +58,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Hearty Restaurant's Namesake Signature Entrée",
-            "price": 25.21,
+            "name": "Traditional Grilled Sous Vide Perfected Wagyu",
+            "price": 24.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -58,22 +67,13 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delectable Wood-Fired Peking Duck with Plum Sauce",
-            "price": 30.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sautéed Heritage Recipe Lamb Shank",
-            "price": 37.87,
+            "name": "Homestyle Succulent Molecular Gastronomy Showcase Tasting",
+            "price": 37.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -82,17 +82,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
         "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Heritage Breed Porchetta",
-            "price": 38.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Freshly Harvested Seasonal Creation",
-            "price": 38.52,
+            "name": "Gourmet Stuffed Whole Animal Butchery Showcase",
+            "price": 38.82,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -100,29 +91,38 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Lobster Thermidor",
-            "price": 25.8,
+            "name": "Handcrafted Spicy Seared Duck Breast with Cherry Reduction",
+            "price": 35.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Cedar Plank Salmon",
-            "price": 28.34,
+            "name": "Authentic Spiced Heirloom Recipe from Chef's Family",
+            "price": 34.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Tableside Flambé Preparation",
+            "price": 27.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 24.36,
+            "name": "Classic Savory Lobster Thermidor",
+            "price": 30.53,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,30 +130,48 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
+        "description": "A selection of small plates that showcase the essence of Mexican—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Mozzarella Sticks",
-            "price": 13.76,
+            "name": "Stuffed Peppers",
+            "price": 11.77,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Onion Rings",
-            "price": 10.57,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garlic Bread",
-            "price": 9.07,
+            "name": "Onion Rings",
+            "price": 9.55,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tzatziki with Pita",
+            "price": 14.87,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Crab Cakes",
+            "price": 10.75,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bruschetta",
+            "price": 8.43,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -161,25 +179,16 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
           },
           {
             "name": "Charcuterie Board",
-            "price": 15.76,
+            "price": 13.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Bruschetta",
-            "price": 11.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lettuce Wraps",
-            "price": 14.34,
+            "name": "Potato Skins",
+            "price": 9.96,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -187,101 +196,41 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deviled Eggs",
-            "price": 11.78,
+            "name": "Chicken Wings",
+            "price": 15.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Antipasto Platter",
-            "price": 9.22,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Black Bean Soup",
-            "price": 13.06,
+            "name": "Authentic Hearty Chicken Noodle Soup",
+            "price": 8.73,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Peanut Soup (West African)",
-            "price": 7.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cabbage Soup",
-            "price": 8.11,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Lentil Soup",
-            "price": 11.28,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
-        "items": [
-          {
-            "name": "Caprese Salad",
-            "price": 11.54,
+            "name": "Classic Comforting Beef Stew",
+            "price": 7.32,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 10.52,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tabbouleh",
-            "price": 12.41,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 10.07,
+            "name": "Premium Sautéed Chicken Corn Soup",
+            "price": 7.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -289,11 +238,62 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Potato Salad",
-            "price": 14.57,
-            "isVegetarian": true,
+            "name": "Authentic Creamy Hot and Sour Soup",
+            "price": 13.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
+        "items": [
+          {
+            "name": "Cobb Salad",
+            "price": 12.03,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Orzo Salad",
+            "price": 12.2,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 10.13,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 13.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.72,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,98 +301,11 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Thoughtfully prepared mains that offer comfort, complexity, and satisfaction.",
+        "description": "Signature entrées crafted with precision, embodying the core of our Mexican vision.",
         "items": [
-          {
-            "name": "Bibimbap",
-            "price": 20.02,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "price": 21.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
           {
             "name": "Grilled Chicken",
-            "price": 23.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Moussaka",
-            "price": 19.27,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coq au Vin",
-            "price": 27.91,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "price": 20.16,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vegetable Stir-Fry",
-            "price": 20.51,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Burrito",
-            "price": 28.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
-        "items": [
-          {
-            "name": "Seafood Gumbo with Okra",
-            "price": 23.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 22.56,
+            "price": 22.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +313,17 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seafood Risotto with Saffron",
-            "price": 35.24,
+            "name": "Lamb Chops",
+            "price": 28.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Salmon",
+            "price": 24.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,8 +331,86 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 35.05,
+            "name": "Thai Curry",
+            "price": 21.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Ramen",
+            "price": 31.61,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Parmesan",
+            "price": 19.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pesto Pasta",
+            "price": 27.95,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 22.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "items": [
+          {
+            "name": "Hearty Grilled Seafood Alfredo with Spinach Fettuccine",
+            "price": 23.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Hearty Miso-Marinated Chilean Sea Bass",
+            "price": 33.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spicy Stuffed Flounder with Crab and Spinach",
+            "price": 33.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Sweet Grilled Lobster with Lemon Butter",
+            "price": 30.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -418,8 +418,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 23.41,
+            "name": "Handcrafted Zingy Linguine with Clam Sauce",
+            "price": 29.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,47 +430,29 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Each side is a testament to our commitment to quality and flavor.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Mashed Potatoes",
-            "price": 9.04,
+            "name": "Roasted Root Vegetables",
+            "price": 7.93,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 8.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Steamed Jasmine Rice",
-            "price": 8.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 5.64,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maple-Glazed Baby Carrots",
-            "price": 7.12,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Beans",
-            "price": 9.24,
+            "price": 8.21,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -478,9 +460,27 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 5,
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 5.27,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "French Fries",
+            "price": 8.09,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Buttered Egg Noodles",
+            "price": 8.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,11 +490,11 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Cold-pressed, house-infused, and always refreshing.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Traditional Juicy Water",
-            "price": 5.8,
+            "name": "Soda",
+            "price": 5.46,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -502,8 +502,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Herbed Hot Chocolate",
-            "price": 7.44,
+            "name": "Hot Chocolate",
+            "price": 7.4,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -511,26 +511,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Exquisite Juice",
-            "price": 6.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Baked Tea",
-            "price": 4.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Satisfying Coffee",
-            "price": 5.44,
+            "name": "Milkshake",
+            "price": 5.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -538,8 +520,26 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Satisfying Soda",
-            "price": 7.97,
+            "name": "Juice",
+            "price": 7.71,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Smoothie",
+            "price": 5.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -552,53 +552,53 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Mexican-inspired delicious confections to delight your senses",
+    "description": "A gooey selection of desserts that celebrate the art of pastry",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Premium Tender Crumb Cake",
-            "price": 7.11,
+            "name": "Deluxe Braised Pain au Chocolat",
+            "price": 6.92,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Grilled Donuts",
-            "price": 7.54,
+            "name": "Handcrafted Savory Berry Tart",
+            "price": 7.97,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Comforting Cobbler",
-            "price": 8.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Fried Croissants",
-            "price": 9.59,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Fried Chocolate Chip Cookies",
-            "price": 10.71,
+            "name": "Authentic Grilled Red Velvet Cake",
+            "price": 8.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Roasted Brownies",
+            "price": 6.08,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Fried Crumb Cake",
+            "price": 7.86,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,11 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "The ultimate way to cool off and indulge—delicate, creamy, and unforgettable.",
+        "description": "Made in-house with premium dairy and plant-based alternatives.",
         "items": [
           {
-            "name": "Frozen Yogurt",
-            "price": 10.67,
+            "name": "Gourmet Wholesome Frozen Custard",
+            "price": 7.58,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -619,38 +619,38 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 9.21,
-            "isVegetarian": true,
+            "name": "Deluxe Creamy Ice Cream",
+            "price": 11.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 9.39,
-            "isVegetarian": true,
+            "name": "Authentic Crunchy Kulfi",
+            "price": 8.41,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Frosty",
-            "price": 7.77,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Popsicles",
-            "price": 7.84,
-            "isVegetarian": true,
+            "name": "Authentic Irresistible Ice Cream Sandwich",
+            "price": 11.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Zesty Granita",
+            "price": 7.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,33 +660,33 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Enjoy balanced cocktails designed to pair effortlessly with our seasonal menu",
+    "description": "Our select collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
+        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
         "items": [
           {
-            "name": "Handcrafted Comforting Manhattan",
-            "price": 12.96,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Margarita",
+            "price": 11.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Succulent Mojito",
-            "price": 15.99,
-            "isVegetarian": true,
+            "name": "Old Fashioned",
+            "price": 15.08,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Satisfying Martini",
-            "price": 15.8,
+            "name": "Manhattan",
+            "price": 11.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -694,26 +694,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Exquisite Bloody Mary",
-            "price": 11.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tangy Mai Tai",
-            "price": 12.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Delectable Cosmopolitan",
-            "price": 15.43,
+            "name": "Bloody Mary",
+            "price": 14.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,11 +703,29 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Margarita",
-            "price": 12.47,
-            "isVegetarian": true,
+            "name": "Cosmopolitan",
+            "price": 11.5,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 14.9,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 11.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -736,26 +736,8 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
         "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Riesling",
-            "price": 13.32,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 12.42,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Barbera",
-            "price": 10.67,
+            "name": "Chardonnay",
+            "price": 8.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,29 +745,47 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gamay",
-            "price": 9.65,
+            "name": "Cabernet Sauvignon",
+            "price": 11.55,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Sauvignon Blanc",
-            "price": 9.34,
+            "price": 13.54,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mourvèdre",
+            "price": 8.52,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Noir",
-            "price": 12.12,
-            "isVegetarian": false,
+            "name": "Barbera",
+            "price": 12.47,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dolcetto",
+            "price": 9.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,29 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
         "items": [
           {
-            "name": "Gourmet Delicious Frangelico",
-            "price": 15.64,
+            "name": "Rum",
+            "price": 13.62,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frangelico",
+            "price": 15.58,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cointreau",
+            "price": 14.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -805,35 +823,17 @@ export const galvestonhistoricStrandMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Midori",
-            "price": 12.03,
+            "name": "Amaretto",
+            "price": 11.9,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Sambuca",
-            "price": 16.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Succulent Rum",
-            "price": 16.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Herbed Coffee Liqueur",
-            "price": 17.3,
+            "name": "Whiskey",
+            "price": 10.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,

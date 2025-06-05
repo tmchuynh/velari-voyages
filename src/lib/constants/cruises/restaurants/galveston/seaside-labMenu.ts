@@ -6,24 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const galvestonseasideLabMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where classic creativity meets timeless American inspiration",
+    "description": "From appetizers to main courses: homestyle dishes prepared with passion",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected American specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "House favorites that have stood the test of time and showcase our refined approach to American cuisine.",
         "items": [
           {
-            "name": "Authentic Hearty Black Garlic Glazed Beef Tenderloin",
-            "price": 26.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Sizzling Restaurant's Namesake Signature Entrée",
-            "price": 37.15,
+            "name": "Founder's Family Recipe Pasta",
+            "price": 30.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,17 +22,44 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Roasted Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 24.24,
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 30.78,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tableside Carved Chateaubriand",
+            "price": 27.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Flambéed Tableside Specialty",
+            "price": 36.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Grilled Age-Old Recipe Osso Buco with Gremolata",
-            "price": 30.57,
+            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 34.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 36.94,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -49,26 +67,8 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Enticing House Famous Duck Confit",
-            "price": 34.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Smoked Local Bounty Harvest Plate (Vegetarian)",
-            "price": 26.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Smoked Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 29.46,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 36.28,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -79,29 +79,20 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
         "items": [
           {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 28.34,
+            "name": "Traditional Juicy Truffle-Infused Filet Mignon",
+            "price": 38.55,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Slow-Roasted Prime Rib",
-            "price": 27.28,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 39.54,
+            "name": "Deluxe Pan-seared Heirloom Recipe from Chef's Family",
+            "price": 38.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,32 +100,50 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "High-End Ingredient Showcase",
-            "price": 29.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 36.94,
+            "name": "Traditional Pan-seared Charcoal-Grilled Wagyu Beef",
+            "price": 26.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Premium Aromatic Seared Duck Breast with Cherry Reduction",
+            "price": 34.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Sweet Tableside Prepared Tartare",
+            "price": 26.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "A tempting assortment of beginning bites to pair with your first drink.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Meatballs",
-            "price": 13.03,
+            "name": "Fresh Hearty Garlic Bread",
+            "price": 14.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Marinated Charcuterie Board",
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,8 +151,26 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Potato Skins",
-            "price": 9.08,
+            "name": "Organic Delicious Potstickers",
+            "price": 9.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Herbed Sweet Potato Fries",
+            "price": 14.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Stuffed Jalapeños",
+            "price": 14.64,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,54 +178,27 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Edamame",
-            "price": 11.95,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Fresh Appetizing Mini Quesadillas",
+            "price": 11.83,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baba Ganoush",
-            "price": 8.92,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Onion Rings",
-            "price": 14.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nachos",
-            "price": 15.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.42,
+            "name": "Organic Savory Calamari",
+            "price": 14.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Spring Rolls",
-            "price": 15.87,
-            "isVegetarian": true,
+            "name": "Traditional Flavorful Stuffed Peppers",
+            "price": 8.16,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,20 +208,20 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "Gourmet Stuffed Gumbo",
-            "price": 7.4,
-            "isVegetarian": true,
+            "name": "Organic Creamy Lobster Bisque",
+            "price": 8.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Premium Herbed Beef Stew",
-            "price": 11.23,
+            "name": "Handcrafted Savory Turkey and Wild Rice Soup",
+            "price": 11.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -229,32 +229,8 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Flavorful Carrot Ginger Soup",
-            "price": 7.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Hearty Lentil Soup",
-            "price": 9.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
-        "items": [
-          {
-            "name": "Arugula Salad",
-            "price": 14.2,
+            "name": "Hearty Delectable Tomato Soup",
+            "price": 9.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,8 +238,32 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 11.63,
+            "name": "Handcrafted Flaky Italian Wedding Soup",
+            "price": 11.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "Light, clean, and energizing—each salad is a visual and flavorful delight.",
+        "items": [
+          {
+            "name": "Caesar Salad",
+            "price": 11.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 10.08,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -272,25 +272,25 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
           },
           {
             "name": "Nicoise Salad",
-            "price": 12.63,
-            "isVegetarian": true,
-            "isVegan": false,
+            "price": 15.47,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 9.86,
-            "isVegetarian": true,
+            "name": "Lentil and Feta Salad",
+            "price": 14.2,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Salad",
-            "price": 9.61,
+            "name": "Watermelon Feta Salad",
+            "price": 15.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,38 +301,20 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Culinary centerpieces that define the essence of our dining experience.",
+        "description": "A journey through American flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Seafood Platter",
-            "price": 20.95,
+            "name": "Currywurst",
+            "price": 19.5,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gnocchi",
-            "price": 21.49,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Eggplant Parmesan",
-            "price": 24.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Chicken",
-            "price": 30.18,
+            "name": "Lamb Chops",
+            "price": 21.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -340,50 +322,68 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Tagine",
-            "price": 25.29,
+            "name": "Shakshuka",
+            "price": 29.99,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chili con Carne",
+            "price": 25.84,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quiche",
-            "price": 28.49,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Fajitas",
+            "price": 21.03,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Steak",
-            "price": 26.97,
+            "name": "Grilled Tofu",
+            "price": 30.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spaghetti Bolognese",
+            "price": 22.43,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "price": 30.07,
+            "name": "Pizza",
+            "price": 27.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
         "items": [
           {
-            "name": "Classic Sweet Grilled Lobster with Lemon Butter",
-            "price": 26.16,
+            "name": "Handcrafted Herbed Grilled Spanish Octopus with Smoked Paprika",
+            "price": 32.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,68 +391,86 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Traditional Pan-seared Sushi-Grade Sashimi Platter",
-            "price": 29.03,
+            "name": "Handcrafted Crispy Tempura Soft Shell Crab",
+            "price": 22.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Steamed Littleneck Clams in Garlic Broth",
+            "price": 33.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "House Special Exquisite Oysters Rockefeller with Pernod Cream",
-            "price": 24.89,
+            "name": "House Special Spicy Oysters Rockefeller with Pernod Cream",
+            "price": 24.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Juicy Linguine with Clam Sauce",
-            "price": 32.58,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "House Special Sizzling Shrimp Scampi over Linguine",
-            "price": 27.73,
+            "name": "Authentic Sweet Basa Fillet with Dill Cream Sauce",
+            "price": 26.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Each side is a testament to our commitment to quality and flavor.",
+        "description": "Essential accompaniments, from traditional staples to inventive bites.",
         "items": [
           {
-            "name": "Hearty Roasted Truffle Parmesan Fries",
-            "price": 8,
-            "isVegetarian": true,
+            "name": "Homestyle Grilled Herbed Bulgur Wheat with Lemon",
+            "price": 6.84,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Succulent Chili Lime Roasted Chickpeas",
-            "price": 5.72,
+            "name": "House Special Golden French Fries",
+            "price": 5.82,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Warm Buttermilk Dinner Rolls",
-            "price": 5.54,
+            "name": "Premium Satisfying Roasted Root Vegetables",
+            "price": 8.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Delectable Creamy Colcannon (Irish Potato Mash)",
+            "price": 7.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Mouthwatering Chili Lime Roasted Chickpeas",
+            "price": 5.4,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,27 +478,9 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Grilled Asparagus with Lemon Zest",
-            "price": 9.04,
+            "name": "Handcrafted Sautéed Homestyle Baked Beans",
+            "price": 5.84,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Golden French Fries",
-            "price": 7.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Flaky Cauliflower Gratin with Gruyère",
-            "price": 6.86,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,11 +490,29 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Organic Luscious Iced Tea",
-            "price": 5.33,
+            "name": "Homestyle Sweet Coffee",
+            "price": 5.34,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Sweet Tea",
+            "price": 7.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Steamed Smoothie",
+            "price": 7.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,45 +520,27 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Tea",
-            "price": 6.97,
+            "name": "Traditional Comforting Lemonade",
+            "price": 5.69,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Pan-seared Milkshake",
-            "price": 6.86,
-            "isVegetarian": true,
+            "name": "Homestyle Enticing Soda",
+            "price": 6.26,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Spicy Hot Chocolate",
-            "price": 6.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Juicy Soda",
-            "price": 7.14,
+            "name": "Fresh Steamed Juice",
+            "price": 4.6,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Marinated Coffee",
-            "price": 6.67,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,33 +552,42 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Delight in our delicious desserts prepared fresh daily",
+    "description": "Indulge in our delicious sweet creations",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
+        "description": "Pastries, breads, and treats prepared in-house using classic and modern methods.",
         "items": [
           {
-            "name": "Authentic Creamy Pain au Chocolat",
-            "price": 6.35,
+            "name": "Apple Pie",
+            "price": 6.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Authentic Spiced Cobbler",
-            "price": 10.47,
-            "isVegetarian": false,
+            "name": "Chocolate Chip Cookies",
+            "price": 10.28,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Baked Biscotti",
-            "price": 6.73,
+            "name": "Madeleines",
+            "price": 10.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 7.38,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -586,17 +595,8 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Eclairs",
-            "price": 7.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Pan-seared Carrot Cake",
-            "price": 8.83,
+            "name": "Tiramisu",
+            "price": 7.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,38 +607,20 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 7.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Mousse",
-            "price": 8.55,
+            "name": "Homestyle Herbed Frozen Mousse",
+            "price": 9.79,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Snow Cone",
-            "price": 7.52,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Sandwich",
-            "price": 9.03,
+            "name": "Fresh Sweet Semifreddo",
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,13 +628,31 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Baked Alaska",
-            "price": 10.32,
+            "name": "Fresh Comforting Frozen Pudding",
+            "price": 10.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Spiced Snow Cone",
+            "price": 10.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Baked Alaska",
+            "price": 7.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       }
@@ -660,42 +660,33 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A refreshing selection of alcoholic beverages to complement your meal",
+    "description": "A easygoing selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
         "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 14.38,
+            "name": "Fresh Zesty Martini",
+            "price": 15.28,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 11.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 10.77,
-            "isVegetarian": true,
+            "name": "Deluxe Smoked Margarita",
+            "price": 12.45,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 15.47,
+            "name": "Handcrafted Tender Mai Tai",
+            "price": 14.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -703,29 +694,38 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 15.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 12.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 12.77,
+            "name": "Homestyle Zingy Whiskey Sour",
+            "price": 15.73,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Baked Manhattan",
+            "price": 15.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Luscious Bloody Mary",
+            "price": 11.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crispy Old Fashioned",
+            "price": 11.57,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,20 +733,11 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "A wine list as thoughtful and layered as our cuisine.",
         "items": [
           {
-            "name": "Verdicchio",
-            "price": 11.45,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 12.96,
+            "name": "Homestyle Baked Dolcetto",
+            "price": 10.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +745,8 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Dolcetto",
-            "price": 13.24,
+            "name": "Gourmet Steamed Sangiovese",
+            "price": 10.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +754,8 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Malbec",
-            "price": 12.67,
+            "name": "Authentic Creamy Fiano",
+            "price": 8.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,41 +763,41 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Albariño",
-            "price": 12.34,
-            "isVegetarian": true,
+            "name": "Premium Appetizing Syrah/Shiraz",
+            "price": 10.3,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Riesling",
-            "price": 13.08,
+            "name": "Premium Grilled Chenin Blanc",
+            "price": 12.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Champagne/Sparkling Wine",
+            "price": 10.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
+        "description": "From classic spirits to rare finds, our collection is a journey through flavor.",
         "items": [
           {
-            "name": "Aquavit",
-            "price": 10.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brandy",
-            "price": 15.59,
+            "name": "Homestyle Roasted Mezcal",
+            "price": 16.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,17 +805,17 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Amaretto",
-            "price": 16.67,
-            "isVegetarian": true,
+            "name": "Authentic Crunchy Maraschino",
+            "price": 14.75,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Galliano",
-            "price": 11.02,
+            "name": "Fresh Delectable Anisette",
+            "price": 15.93,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,8 +823,17 @@ export const galvestonseasideLabMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 13.67,
+            "name": "Deluxe Delectable Frangelico",
+            "price": 11.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Smoked Vodka",
+            "price": 15.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
