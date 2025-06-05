@@ -1,8 +1,8 @@
 "use client";
 
 import Loading from "@/components/Loading";
+import RestaurantHours from "@/components/RestaurantHours";
 import RestaurantIconKey from "@/components/RestaurantIconKey";
-import RestaurantHours from "@/components/ui/RestaurantHours";
 import {
   Tooltip,
   TooltipContent,
@@ -165,58 +165,62 @@ export default function RestaurantMenuPage() {
                                   <h4 className="w-10/12 no-underline">
                                     {item.name}
                                   </h4>
-                                  <div>
-                                    {item.isVegetarian && (
-                                      <Tooltip>
-                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                          <RiPlantFill />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Vegetarian Options</p>
-                                        </TooltipContent>
-                                      </Tooltip>
+                                  {menu.title === "Main Course Menu" &&
+                                    menuCategory.name !==
+                                      "Non-Alcoholic Beverages" && (
+                                      <div>
+                                        {item.isVegetarian && (
+                                          <Tooltip>
+                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                              <RiPlantFill />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                              <p>Vegetarian Options</p>
+                                            </TooltipContent>
+                                          </Tooltip>
+                                        )}
+                                        {item.isVegan && (
+                                          <Tooltip>
+                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                              <RiSeedlingFill />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                              <p>Vegan Options</p>
+                                            </TooltipContent>
+                                          </Tooltip>
+                                        )}
+                                        {item.isGlutenFree && (
+                                          <Tooltip>
+                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                              <FaWheatAwn />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                              <p>Gluten-Free Options</p>
+                                            </TooltipContent>
+                                          </Tooltip>
+                                        )}
+                                        {item.isHalal && (
+                                          <Tooltip>
+                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                              <GiMeat />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                              <p>Halal Options</p>
+                                            </TooltipContent>
+                                          </Tooltip>
+                                        )}
+                                        {item.isKosher && (
+                                          <Tooltip>
+                                            <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
+                                              <FaStarOfDavid />
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                              <p>Kosher Options</p>
+                                            </TooltipContent>
+                                          </Tooltip>
+                                        )}
+                                      </div>
                                     )}
-                                    {item.isVegan && (
-                                      <Tooltip>
-                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                          <RiSeedlingFill />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Vegan Options</p>
-                                        </TooltipContent>
-                                      </Tooltip>
-                                    )}
-                                    {item.isGlutenFree && (
-                                      <Tooltip>
-                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                          <FaWheatAwn />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Gluten-Free Options</p>
-                                        </TooltipContent>
-                                      </Tooltip>
-                                    )}
-                                    {item.isHalal && (
-                                      <Tooltip>
-                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                          <GiMeat />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Halal Options</p>
-                                        </TooltipContent>
-                                      </Tooltip>
-                                    )}
-                                    {item.isKosher && (
-                                      <Tooltip>
-                                        <TooltipTrigger className="mt-1 p-0.5 text-muted-foreground">
-                                          <FaStarOfDavid />
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                          <p>Kosher Options</p>
-                                        </TooltipContent>
-                                      </Tooltip>
-                                    )}
-                                  </div>
                                 </div>
                                 <p>
                                   {formatNumberToCurrency(item.price, 2, 2)}
