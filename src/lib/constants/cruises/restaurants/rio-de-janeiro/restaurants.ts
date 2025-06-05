@@ -248,5 +248,160 @@ export const rioDeJaneiroRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
+  },
+  {
+    "name": "Brazilian Lounge",
+    "description": "Located close to downtown, this Portuguese restaurant delights with its regional wines and beautiful decor.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "Closed",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-745-6797",
+      "contactEmail": "general@seafoodoysterbarrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Harvest",
+    "description": "A charming Japanese restaurant near the main square, offering farm-to-table meals and other local favorites in a setting with friendly service.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-684-3364",
+      "contactEmail": "contact@seafoodgrillrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Seafood Bodega",
+    "description": "A culinary gem serving Portuguese specialties including signature dishes, where guests enjoy charming streetscapes in the heart of the city.",
+    "cuisine": "Portuguese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-868-9025",
+      "contactEmail": "inquiries@japanesepizzeriario-de-janeiro.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Barbecue",
+    "description": "A charming Japanese restaurant near the main square, offering heritage recipes and other local favorites in a setting with artisan markets.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-906-4379",
+      "contactEmail": "help@italian&sonsrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Brazilian Kebab House",
+    "description": "A culinary gem serving Seafood specialties including local ingredients, where guests enjoy live street performances in the heart of the city.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-438-5102",
+      "contactEmail": "help@japanesedininghallrio-de-janeiro.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
