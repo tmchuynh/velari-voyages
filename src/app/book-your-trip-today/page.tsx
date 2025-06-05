@@ -44,7 +44,6 @@ import { getCruisesByLocation } from "@/lib/utils/get/cruises";
 import { getVesselForCruise } from "@/lib/utils/get/vessels";
 import { Cruise, CruiseVessel } from "@/lib/interfaces/services/cruises";
 import { Location } from "@/lib/types/types";
-import { Tab } from "@headlessui/react";
 
 // Define available cities
 const cities = ["Amsterdam", "Barcelona", "Venice", "Stockholm"];
@@ -55,7 +54,7 @@ const packageMap = cruisePackages.reduce(
     map[pkg.id] = pkg;
     return map;
   },
-  {} as Record<string, (typeof cruisePackages)[0]>
+  {} as Record<string, (typeof cruisePackages)[0]>,
 );
 
 // Form validation schema
@@ -124,7 +123,7 @@ export default function BookYourTripPage() {
   const [availableCruises, setAvailableCruises] = useState<Cruise[]>([]);
   const [selectedCruise, setSelectedCruise] = useState<Cruise | null>(null);
   const [selectedVessel, setSelectedVessel] = useState<CruiseVessel | null>(
-    null
+    null,
   );
 
   // Initialize form
@@ -181,7 +180,7 @@ export default function BookYourTripPage() {
       // Get vessel information for the selected cruise
       const vessel = await getVesselForCruise(
         cruise.departureLocation.city,
-        cruise.tourCategoryId
+        cruise.tourCategoryId,
       );
       setSelectedVessel(vessel);
     }
@@ -207,12 +206,12 @@ export default function BookYourTripPage() {
   // Memoize total price calculation
   const totalPrice = useMemo(
     () => calculateTotal(form.getValues()),
-    [selectedCruise, form.watch("passengers"), form.watch("selectedPackages")]
+    [selectedCruise, form.watch("passengers"), form.watch("selectedPackages")],
   );
 
   // Handle form submission
   const onSubmit: SubmitHandler<z.infer<typeof formSchema>> = async (
-    values
+    values,
   ) => {
     setLoading(true);
 
@@ -226,7 +225,7 @@ export default function BookYourTripPage() {
 
       // Get selected packages details
       const selectedPackagesDetails = cruisePackages.filter((p) =>
-        values.selectedPackages?.includes(p.id)
+        values.selectedPackages?.includes(p.id),
       );
 
       const totalPrice = calculateTotal(values);
@@ -415,7 +414,7 @@ export default function BookYourTripPage() {
                                           <TableCell>{item.city}</TableCell>
                                           <TableCell>{item.country}</TableCell>
                                         </TableRow>
-                                      )
+                                      ),
                                     )}
                                   </TableHeader>
                                 </Table>
@@ -528,8 +527,8 @@ export default function BookYourTripPage() {
                                         } else {
                                           field.onChange(
                                             field.value?.filter(
-                                              (value) => value !== pkg.id
-                                            ) || []
+                                              (value) => value !== pkg.id,
+                                            ) || [],
                                           );
                                         }
                                       }}
@@ -705,13 +704,13 @@ export default function BookYourTripPage() {
                             <TableCell className="text-right">
                               {formatNumberToCurrency(
                                 selectedCruise.basePrice *
-                                  (form.watch("passengers") ?? 1)
+                                  (form.watch("passengers") ?? 1),
                               )}
                             </TableCell>
                           </TableRow>
                           {form.watch("selectedPackages")?.map((pkgId) => {
                             const pkg = cruisePackages.find(
-                              (p) => p.id === pkgId
+                              (p) => p.id === pkgId,
                             );
                             return pkg ? (
                               <TableRow key={pkg.id}>
