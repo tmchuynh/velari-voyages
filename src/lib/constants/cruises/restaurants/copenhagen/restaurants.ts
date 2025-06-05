@@ -248,5 +248,160 @@ export const copenhagenRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Cinnamon Roll Bar & Kitchen",
+    "description": "Located close to The Little Mermaid, this Italian restaurant delights with its new Nordic cuisine and minimalist elegance.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-486-8897",
+      "contactEmail": "inquiries@oresundcharcuteriecopenhagen.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Canal Restaurant",
+    "description": "This popular Danish establishment combines traditional recipes and flæskesteg, all served in a unique setting with waterfront dining.",
+    "cuisine": "Danish",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-167-3145",
+      "contactEmail": "office@nordicizakayacopenhagen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Carlsberg Cookhouse",
+    "description": "A culinary gem serving French specialties including smørrebrød, where guests enjoy minimalist elegance in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-681-3523",
+      "contactEmail": "ask@littlemermaidlocalcopenhagen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Scandi Estate",
+    "description": "A culinary gem serving Danish specialties including smørrebrød, where guests enjoy minimalist elegance in the heart of the city.",
+    "cuisine": "Danish",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-492-3705",
+      "contactEmail": "welcome@copenhagensteakhousecopenhagen.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Nordic Lounge",
+    "description": "Experience authentic Scandinavian cuisine with a local twist, featuring smørrebrød served in an atmosphere of seasonal menus overlooking Strøget.",
+    "cuisine": "Scandinavian",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "Closed",
+      "saturday": "10:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-919-2712",
+      "contactEmail": "welcome@scandipublichousecopenhagen.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

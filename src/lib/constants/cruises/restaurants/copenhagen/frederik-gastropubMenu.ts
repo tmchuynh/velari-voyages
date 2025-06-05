@@ -6,42 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of hearty offerings from across the Scandinavian spectrum",
+    "description": "Satisfy your cravings with our vibrant, satisfying take on Scandinavian",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "House favorites that have stood the test of time and showcase our refined approach to Scandinavian cuisine.",
         "items": [
           {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 33.59,
+            "name": "Chef's Special Surf and Turf",
+            "price": 27.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 32.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 28.98,
-            "isVegetarian": true,
+            "name": "Tableside Carved Chateaubriand",
+            "price": 29.59,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 24.38,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 34.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,29 +40,38 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 37.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 32.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 33.81,
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 31.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Legendary Prime Rib",
+            "price": 33.78,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Dry-Aged Tomahawk Steak",
+            "price": 32.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Black Garlic Glazed Beef Tenderloin",
+            "price": 34.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -82,8 +82,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
         "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Locally Foraged Mushroom Selection",
-            "price": 24.91,
+            "name": "Gourmet Succulent Sous Vide Pork Tenderloin",
+            "price": 33.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tangy Chef's Market Inspiration of the Day",
+            "price": 34.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,8 +100,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sustainable Seafood Tower",
-            "price": 27.66,
+            "name": "Seasonal Appetizing Smoked and Slow-Roasted Heritage Meat",
+            "price": 31.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Enticing Heritage Breed Porchetta",
+            "price": 33.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -100,28 +118,10 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seared Foie Gras with Fig Compote",
-            "price": 28.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 39.9,
+            "name": "Homestyle Delicious Fusion of Traditional and Modern Techniques",
+            "price": 28.39,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Live-Fire Grilled Feature",
-            "price": 29.04,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -130,20 +130,20 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Scandinavian.",
         "items": [
           {
-            "name": "Authentic Wholesome Shrimp Cocktail",
-            "price": 15.13,
+            "name": "Tuna Tartare",
+            "price": 14.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Spiced Nachos",
-            "price": 12.77,
+            "name": "Nachos",
+            "price": 9.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,35 +151,26 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Appetizing Spinach Puffs",
-            "price": 12.1,
-            "isVegetarian": true,
+            "name": "Bruschetta",
+            "price": 11.32,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Stuffed Hummus Platter",
-            "price": 8.73,
+            "name": "Stuffed Peppers",
+            "price": 13.85,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Stuffed Peppers",
-            "price": 15.47,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Baba Ganoush",
-            "price": 9.25,
+            "name": "Onion Rings",
+            "price": 9.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,17 +178,26 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Juicy Garlic Bread",
-            "price": 9.05,
-            "isVegetarian": true,
+            "name": "Chicken Satay",
+            "price": 11.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tzatziki with Pita",
+            "price": 8.41,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Grilled Potstickers",
-            "price": 15.33,
+            "name": "Potstickers",
+            "price": 9.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,11 +208,20 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Scandinavian, crafted with care and expertise.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Scandinavian methods.",
         "items": [
           {
-            "name": "Gourmet Tangy Seafood Chowder",
-            "price": 7.91,
+            "name": "Hot and Sour Soup",
+            "price": 9.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Clam Chowder",
+            "price": 12.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,29 +229,20 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Grilled Tomato Soup",
-            "price": 13.06,
+            "name": "Black Bean Soup",
+            "price": 13.12,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Chicken Noodle Soup",
-            "price": 9.96,
+            "name": "Egg Drop Soup",
+            "price": 9.58,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Delectable Split Pea Soup",
-            "price": 12.94,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,49 +250,49 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a work of art, designed to nourish and delight.",
+        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Orzo Salad",
-            "price": 11.85,
+            "name": "Caprese Salad",
+            "price": 13.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobb Salad",
+            "price": 12.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 14.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 14.09,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Potato Salad",
-            "price": 13.61,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mango Avocado Salad",
-            "price": 14.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chickpea Salad",
-            "price": 15.71,
+            "price": 12.1,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Vegetable Salad",
-            "price": 12.9,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,74 +301,74 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "A selection of mains that reflect the heart and soul of Scandinavian, prepared with care.",
         "items": [
           {
-            "name": "Teriyaki Chicken",
-            "price": 30.81,
+            "name": "Salmon",
+            "price": 25.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fish and Chips",
+            "price": 26.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Primavera",
+            "price": 18.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 21.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quiche",
+            "price": 19.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 30.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chicken Parmesan",
+            "price": 28.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Steak",
-            "price": 21.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 26.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "price": 22.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pizza",
-            "price": 24.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pesto Pasta",
-            "price": 20.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Platter",
-            "price": 26.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "price": 18.1,
+            "name": "Risotto",
+            "price": 20.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,29 +379,11 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Daily catches transformed into exquisite plates by our skilled kitchen team.",
+        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Steamed Littleneck Clams in Garlic Broth",
-            "price": 24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Valencian Seafood Paella",
-            "price": 29.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 33.65,
+            "name": "Seafood Risotto with Saffron",
+            "price": 27.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,32 +391,50 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Oysters Rockefeller with Pernod Cream",
-            "price": 23.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "price": 31.8,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 29.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
+          },
+          {
+            "name": "Seafood Gumbo with Okra",
+            "price": 23.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tempura Soft Shell Crab",
+            "price": 28.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Linguine with Clam Sauce",
+            "price": 23.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 9.94,
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 9.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,8 +442,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mashed Potatoes",
-            "price": 5.69,
+            "name": "Green Beans Almondine",
+            "price": 6.54,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Root Vegetables",
+            "price": 7.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,8 +460,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Creamy Colcannon (Irish Potato Mash)",
-            "price": 8.1,
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cauliflower Gratin with Gruyère",
+            "price": 7.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,25 +479,7 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Crispy Beer-Battered Onion Rings",
-            "price": 5.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Baked Beans",
-            "price": 6.5,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Buttered Egg Noodles",
-            "price": 6.02,
+            "price": 5.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -490,59 +490,59 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
         "items": [
           {
-            "name": "Soda",
-            "price": 7.05,
+            "name": "Traditional Zingy Juice",
+            "price": 5.78,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lemonade",
-            "price": 6.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 5.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Iced Tea",
-            "price": 6.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.22,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Smoothie",
-            "price": 5.15,
+            "name": "Handcrafted Grilled Tea",
+            "price": 5.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Flavorful Hot Chocolate",
+            "price": 5.84,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Pan-seared Iced Tea",
+            "price": 6.38,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Baked Coffee",
+            "price": 4.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Pan-seared Lemonade",
+            "price": 6.95,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,33 +552,42 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Discover our collection of tasty sweet masterpieces",
+    "description": "A curated selection of crowd-pleasing desserts, inspired by Scandinavian heritage",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
+        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
         "items": [
           {
-            "name": "Soufflé",
-            "price": 7.65,
-            "isVegetarian": true,
+            "name": "Premium Spiced Lemon Bars",
+            "price": 8.49,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Croissants",
-            "price": 8.32,
+            "name": "Authentic Succulent Pecan Pie",
+            "price": 6.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Mouthwatering Red Velvet Cake",
+            "price": 7.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Red Velvet Cake",
-            "price": 7.53,
+            "name": "Homestyle Grilled Cupcakes",
+            "price": 9.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,17 +595,8 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Scones",
-            "price": 8.71,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Muffins",
-            "price": 9.22,
+            "name": "Classic Exquisite Vanilla Cake",
+            "price": 6.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,11 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Classic and contemporary frozen delights that cool and satisfy.",
+        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
         "items": [
           {
             "name": "Paletas",
-            "price": 7.67,
+            "price": 10.38,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,8 +619,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 10.44,
+            "name": "Sorbet",
+            "price": 10.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 8.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -628,26 +637,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 10.68,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Pudding",
-            "price": 7.39,
+            "name": "Popsicles",
+            "price": 8.03,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream",
-            "price": 10.87,
+            "name": "Semifreddo",
+            "price": 8.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,15 +660,15 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Sip on our balanced cocktails, designed to enhance your dining experience",
+    "description": "Enjoy select cocktails designed to pair effortlessly with our seasonal menu",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Fresh Flaky Mojito",
-            "price": 10.05,
+            "name": "Whiskey Sour",
+            "price": 14.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +676,8 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Spiced Old Fashioned",
-            "price": 15.67,
+            "name": "Bloody Mary",
+            "price": 13.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,47 +685,47 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Spicy Manhattan",
-            "price": 15.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Creamy Negroni",
-            "price": 10.46,
-            "isVegetarian": false,
+            "name": "Old Fashioned",
+            "price": 15.25,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Flaky Mai Tai",
-            "price": 13.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Bloody Mary",
-            "price": 11.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Hearty Cosmopolitan",
-            "price": 10.03,
+            "name": "Cosmopolitan",
+            "price": 12.73,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 12.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 10.12,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
+        "description": "Handpicked selections that reflect our commitment to quality and terroir.",
         "items": [
           {
-            "name": "Deluxe Appetizing Viognier",
-            "price": 11.05,
+            "name": "Chardonnay",
+            "price": 11.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,26 +745,8 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Chardonnay",
-            "price": 8.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Smoked Pinot Noir",
-            "price": 8.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Flaky Tempranillo",
-            "price": 9.03,
+            "name": "Sangiovese",
+            "price": 12.82,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -772,8 +754,26 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Satisfying Barbera",
-            "price": 8.95,
+            "name": "Syrah/Shiraz",
+            "price": 13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempranillo",
+            "price": 9.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chenin Blanc",
+            "price": 12.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -781,8 +781,8 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Marinated Dolcetto",
-            "price": 9.42,
+            "name": "Albariño",
+            "price": 12.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,38 +793,29 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coffee Liqueur",
-            "price": 14.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 12.18,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Maraschino",
+            "price": 13.5,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 10.85,
+            "name": "Absinthe",
+            "price": 17.13,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brandy",
+            "price": 15.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -832,8 +823,17 @@ export const copenhagenfrederikGastropubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Maraschino",
-            "price": 17.85,
+            "name": "Campari",
+            "price": 14.15,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Drambuie",
+            "price": 16.54,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,

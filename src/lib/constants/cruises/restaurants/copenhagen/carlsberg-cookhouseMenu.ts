@@ -1,29 +1,56 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Christiania Club in copenhagen
+ * Menu data for Carlsberg Cookhouse in copenhagen
  */
-export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
+export const copenhagencarlsbergCookhouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Discover our simple interpretation of classic Italian recipes",
+    "description": "Savor our satisfying dishes made with locally sourced ingredients",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "Exclusive, time-tested recipes that highlight the heart and soul of authentic French cooking.",
         "items": [
           {
             "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 37.31,
-            "isVegetarian": true,
+            "price": 29.31,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 28.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 32.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
             "name": "Flambéed Tableside Specialty",
-            "price": 28.62,
+            "price": 24.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 25.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,17 +58,8 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 30.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 27.34,
+            "name": "Traditional Family Paella",
+            "price": 28.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,41 +67,23 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 26.28,
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 24.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 32.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
-            "price": 27.05,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Italian.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Cold-Smoked Delicacy",
-            "price": 30.09,
+            "name": "Gourmet Herbed Seasonal Farm-to-Table Vegetable Plate",
+            "price": 24.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,35 +91,35 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tableside Flambé Preparation",
-            "price": 36.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "House Specialty Pasta Creation",
-            "price": 29.59,
+            "name": "Seasonal Baked Modern Interpretation of Regional Classic",
+            "price": 28.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Signature Spice-Rubbed Protein",
-            "price": 27.37,
+            "name": "Homestyle Hearty Cedar Plank Salmon",
+            "price": 34.49,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tasting of Local Artisanal Cheeses",
-            "price": 30.39,
+            "name": "Seasonal Satisfying Grilled Venison with Juniper Berry Sauce",
+            "price": 39.16,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sautéed Locally Foraged Mushroom Selection",
+            "price": 28.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,107 +130,89 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Italian—perfect for sharing or savoring solo.",
+        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of French.",
         "items": [
           {
-            "name": "Traditional Stuffed Mini Quesadillas",
-            "price": 11.19,
-            "isVegetarian": true,
+            "name": "Authentic Appetizing Tempura",
+            "price": 12.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Mouthwatering Calamari",
+            "price": 15.73,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Traditional Smoked Stuffed Peppers",
-            "price": 11.23,
-            "isVegetarian": false,
+            "name": "Deluxe Exquisite Ceviche",
+            "price": 13.31,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Wholesome Stuffed Jalapeños",
-            "price": 15.85,
+            "name": "Authentic Grilled Cheese Platter",
+            "price": 10.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Homestyle Grilled Cheese Platter",
-            "price": 15.03,
+            "name": "Hearty Spiced Mini Sliders",
+            "price": 10.04,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Nachos",
-            "price": 15.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Falafel",
-            "price": 12.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Mini Empanadas",
-            "price": 13.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Marinated Arancini",
+            "name": "Authentic Tender Lettuce Wraps",
             "price": 13.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Stuffed Potato Skins",
+            "price": 11.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Marinated Garlic Knots",
+            "price": 8.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of Italian cooking—perfect for any season.",
+        "description": "Warm, nourishing soups that reflect the heart of French cooking—perfect for any season.",
         "items": [
           {
-            "name": "Hot and Sour Soup",
-            "price": 10.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gazpacho",
-            "price": 8.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Italian Wedding Soup",
-            "price": 7.34,
+            "name": "Miso Soup",
+            "price": 12.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,11 +220,29 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 11.21,
-            "isVegetarian": true,
+            "name": "Tomato Soup",
+            "price": 12.62,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Carrot Ginger Soup",
+            "price": 9.73,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gumbo",
+            "price": 7.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,11 +250,29 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Avocado Corn Salad",
-            "price": 12.03,
+            "name": "Greek Salad",
+            "price": 11.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cucumber Salad",
+            "price": 10.6,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 12.36,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -262,36 +280,18 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 11.17,
+            "name": "Coleslaw",
+            "price": 9.95,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fruit Salad",
-            "price": 13.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 14.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Nicoise Salad",
-            "price": 11.13,
-            "isVegetarian": true,
+            "name": "Caprese Salad",
+            "price": 10.73,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,77 +301,77 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Grilled Chicken",
-            "price": 23.28,
+            "name": "Spaghetti Bolognese",
+            "price": 19.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 20.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fish and Chips",
+            "price": 30.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eggplant Parmesan",
+            "price": 25.22,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "price": 30.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Salmon",
-            "price": 26.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shakshuka",
-            "price": 23.83,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stir-fry",
-            "price": 26.06,
+            "name": "Burrito",
+            "price": 26.14,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bibimbap",
-            "price": 25.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Korma",
-            "price": 27.83,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Stuffed Zucchini Boats",
-            "price": 19.93,
-            "isVegetarian": false,
+            "price": 25.57,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lasagna",
-            "price": 20.72,
-            "isVegetarian": true,
+            "name": "Paella",
+            "price": 18.52,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -379,20 +379,29 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Authentic Sweet Baked Cod with Lemon Caper Sauce",
-            "price": 23.42,
+            "name": "Classic Stuffed Lobster Thermidor with Gruyère Crust",
+            "price": 28.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Roasted Linguine with Clam Sauce",
-            "price": 33.65,
+            "name": "Handcrafted Spicy Seared Tuna Steak with Sesame Crust",
+            "price": 31.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Smoked Grilled Swordfish with Mango Chutney",
+            "price": 26.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,29 +409,20 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Stuffed Seafood Gumbo with Okra",
-            "price": 24.03,
+            "name": "Gourmet Creamy Pan-Seared Scallops with Pea Purée",
+            "price": 26.54,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Homestyle Flavorful Steamed Littleneck Clams in Garlic Broth",
-            "price": 35.59,
+            "name": "Fresh Pan-seared Garlic Butter Shrimp Skillet",
+            "price": 30.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Marinated Mussels Mariniere in White Wine",
-            "price": 26.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           }
@@ -430,11 +430,20 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
+        "description": "Classic French side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Green Beans Almondine",
-            "price": 6.41,
+            "name": "Garlic Bread with Herb Butter",
+            "price": 7.16,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Root Vegetables",
+            "price": 6.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -443,34 +452,7 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Buttered Egg Noodles",
-            "price": 6.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Israeli Couscous with Roasted Tomatoes",
-            "price": 8.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili Lime Roasted Chickpeas",
-            "price": 5.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Grilled Asparagus with Lemon Zest",
-            "price": 9.83,
+            "price": 6.88,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,9 +460,27 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Truffle Parmesan Fries",
-            "price": 5.57,
-            "isVegetarian": true,
+            "name": "Charred Broccolini with Garlic Oil",
+            "price": 9.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 7.77,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 8.72,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -490,21 +490,30 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
+        "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 6.1,
+            "name": "Juice",
+            "price": 7.96,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 7.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 5.33,
-            "isVegetarian": false,
+            "name": "Tea",
+            "price": 6.73,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -512,34 +521,25 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Hot Chocolate",
-            "price": 5.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 6.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 4.6,
+            "price": 6.99,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.16,
+            "name": "Milkshake",
+            "price": 4.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 5.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,55 +552,55 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A crowd-pleasing journey through the world of desserts, inspired by Italian",
+    "description": "Our delicious dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
+        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
         "items": [
           {
-            "name": "Organic Hearty Carrot Cake",
-            "price": 10.73,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Tender Red Velvet Cake",
-            "price": 9.67,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Berry Tart",
-            "price": 6.36,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Zingy Eclairs",
-            "price": 10.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Luscious Treacle Tart",
-            "price": 7.32,
+            "name": "Macarons",
+            "price": 8.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 10.28,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 6.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Donuts",
+            "price": 8.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Madeleines",
+            "price": 10.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
@@ -610,45 +610,45 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
         "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
         "items": [
           {
-            "name": "Snow Cone",
-            "price": 11.07,
+            "name": "Popsicles",
+            "price": 11.46,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Paletas",
-            "price": 7.82,
+            "price": 8.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 7.74,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 9.89,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Frozen Mousse",
-            "price": 8.77,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 11.46,
+            "price": 8.94,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sherbet",
-            "price": 11.03,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -660,60 +660,60 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A carefully chosen array of beverages specially curated for our guests",
+    "description": "Discover our inviting drinks, perfectly paired with our French cuisine",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
+        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
         "items": [
           {
-            "name": "Authentic Crispy Whiskey Sour",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Spicy Negroni",
-            "price": 12.94,
+            "name": "Bloody Mary",
+            "price": 13.99,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Satisfying Margarita",
-            "price": 13.8,
-            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Wholesome Bloody Mary",
-            "price": 10.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Herbed Martini",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Tangy Manhattan",
-            "price": 11.44,
+            "name": "Martini",
+            "price": 15.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 12.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 14.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Negroni",
+            "price": 15.81,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -721,10 +721,10 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Mojito",
-            "price": 10.98,
+            "name": "Mai Tai",
+            "price": 14.35,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,47 +733,20 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Pinot Noir",
-            "price": 12.49,
+            "name": "Riesling",
+            "price": 12.73,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Zinfandel",
-            "price": 13.55,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Malbec",
-            "price": 13.46,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tempranillo",
-            "price": 9.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chardonnay",
-            "price": 9.49,
+            "name": "Roussanne",
+            "price": 9.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -782,10 +755,37 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
           },
           {
             "name": "Vouvray",
-            "price": 11.58,
+            "price": 8.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cabernet Franc",
+            "price": 11.49,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Barbera",
+            "price": 10.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,29 +793,11 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Start or finish your night with a pour that lingers in memory.",
+        "description": "Explore the depth of our spirits menu, where each pour is a discovery.",
         "items": [
           {
-            "name": "Gourmet Tangy Vodka",
-            "price": 17.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zingy Chambord",
-            "price": 12.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Zingy Chartreuse",
-            "price": 14.73,
+            "name": "Brandy",
+            "price": 17.57,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,22 +805,40 @@ export const copenhagenchristianiaClubMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Creamy Grappa",
-            "price": 17.08,
+            "name": "Grand Marnier",
+            "price": 13.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Maraschino",
+            "price": 13.19,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Armagnac",
+            "price": 17.49,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Appetizing St-Germain",
-            "price": 11.07,
+            "name": "Absinthe",
+            "price": 13.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       }

@@ -6,42 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our satisfying kitchen reimagines Italian for today’s palate",
+    "description": "A fresh assortment of specialties showcasing the best of Italian cuisine",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Gourmet Baked Chef's Childhood Inspired Creation",
-            "price": 25.89,
+            "name": "Japanese A5 Wagyu with Ponzu Butter",
+            "price": 33.04,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Juicy House Famous Duck Confit",
-            "price": 35.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Steamed Captain's Favorite Seafood Tower",
-            "price": 37.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Comforting Signature Truffle Pasta with Aged Pecorino",
-            "price": 37.81,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 25.04,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,17 +31,35 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Crunchy Wood-Fired Peking Duck with Plum Sauce",
-            "price": 25.84,
-            "isVegetarian": false,
+            "name": "Seasonal Tasting Platter",
+            "price": 25.47,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Sizzling Sous Vide Perfected Wagyu",
-            "price": 26.35,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 24.96,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 30.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 26.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,8 +67,8 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Zesty Traditional Family Paella",
-            "price": 32.9,
+            "name": "Secret Recipe Bouillabaisse",
+            "price": 24.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -79,125 +79,47 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Black Garlic Marinated Octopus",
-            "price": 36.18,
+            "name": "Classic Flaky Braised Short Ribs with Red Wine Sauce",
+            "price": 24.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 37.53,
+            "name": "Handcrafted Golden Special Occasion Celebratory Dish",
+            "price": 28.61,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Spice-Rubbed Protein",
-            "price": 37.84,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Slow-Roasted Prime Rib",
-            "price": 28.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deconstructed Classic with Modern Technique",
-            "price": 39.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "A selection of Italian starters that blend tradition with modern flair, perfect for sharing or savoring solo.",
-        "items": [
-          {
-            "name": "Deviled Eggs",
-            "price": 11.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sweet Potato Fries",
-            "price": 13.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Spinach Artichoke Dip",
-            "price": 14.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mozzarella Sticks",
-            "price": 8.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 15.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garlic Bread",
-            "price": 10.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Arancini",
-            "price": 11.34,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tuna Tartare",
-            "price": 15.68,
+            "name": "Authentic Steamed Daily Fresh Catch with Seasonal Accompaniments",
+            "price": 29.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Zesty Seared Duck Breast with Cherry Reduction",
+            "price": 33.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Tender Cast Iron Seafood Presentation",
+            "price": 32.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -207,12 +129,12 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Soups",
-        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
+        "name": "Appetizers",
+        "description": "Flavor-forward starters that introduce our approach to Italian with balance and creativity.",
         "items": [
           {
-            "name": "Premium Savory Lentil Soup",
-            "price": 7.93,
+            "name": "Bruschetta",
+            "price": 8.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,17 +142,8 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Appetizing Clam Chowder",
-            "price": 9.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Savory Avgolemono (Greek Lemon Soup)",
-            "price": 7.69,
+            "name": "Stuffed Peppers",
+            "price": 12.44,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,8 +151,95 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Herbed Split Pea Soup",
-            "price": 11.16,
+            "name": "Lettuce Wraps",
+            "price": 10.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garlic Bread",
+            "price": 10.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Charcuterie Board",
+            "price": 10.99,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Antipasto Platter",
+            "price": 11.1,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mini Sliders",
+            "price": 14.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Zucchini Fries",
+            "price": 11.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Soups",
+        "description": "Warm, nourishing soups that reflect the heart of Italian cooking—perfect for any season.",
+        "items": [
+          {
+            "name": "Homestyle Crunchy Thai Coconut Soup",
+            "price": 8.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Avgolemono (Greek Lemon Soup)",
+            "price": 10.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Juicy Chicken Noodle Soup",
+            "price": 12.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Fried Carrot Ginger Soup",
+            "price": 12.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,11 +250,11 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Chickpea Salad",
-            "price": 12.34,
+            "name": "Greek Salad",
+            "price": 9.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -262,38 +262,38 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pear and Gorgonzola Salad",
-            "price": 13.07,
-            "isVegetarian": true,
+            "name": "Coleslaw",
+            "price": 10.56,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cobb Salad",
-            "price": 9.37,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Waldorf Salad",
+            "price": 10.26,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Kale Salad",
-            "price": 9.87,
+            "name": "Potato Salad",
+            "price": 11.55,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Fruit Salad",
-            "price": 13.89,
+            "price": 13.62,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,65 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
+        "description": "A journey through Italian flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Seasonal Appetizing Grilled Chicken",
-            "price": 28.37,
-            "isVegetarian": false,
+            "name": "Bibimbap",
+            "price": 26.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fajitas",
+            "price": 24.68,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Stir-fry",
+            "price": 25.56,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vegetable Stir-Fry",
+            "price": 29.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tacos",
+            "price": 30.86,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pulled Pork Sandwich",
+            "price": 18.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Gourmet Grilled Tacos",
-            "price": 24.38,
+            "name": "Moussaka",
+            "price": 21.1,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,54 +367,9 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Smoked Pesto Pasta",
-            "price": 21.41,
+            "name": "Salmon",
+            "price": 28.55,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Coq au Vin",
-            "price": 31.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Marinated Korma",
-            "price": 28.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Smoked Steak",
-            "price": 20.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Creamy Lentil Stew",
-            "price": 20.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Savory Risotto",
-            "price": 29.78,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,11 +379,20 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Premium Sizzling Smoked Salmon Platter with Dill Crème",
-            "price": 23.32,
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 28.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lobster Thermidor with Gruyère Crust",
+            "price": 27.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,35 +400,26 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Crunchy Crab-Stuffed Mushrooms",
-            "price": 31.61,
-            "isVegetarian": false,
+            "name": "Traditional Provençal Bouillabaisse",
+            "price": 26.65,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 27.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Grilled Seafood Gumbo with Okra",
-            "price": 33.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Baked Maryland Style Crab Cakes",
-            "price": 31.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Zingy Traditional Provençal Bouillabaisse",
-            "price": 30.03,
+            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 29.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,11 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Classic Italian side dishes with our own unique interpretation.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Buttered Egg Noodles",
-            "price": 6.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Israeli Couscous with Roasted Tomatoes",
-            "price": 7.02,
+            "name": "Creamed Spinach with Nutmeg",
+            "price": 8.32,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,26 +442,35 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 8.84,
-            "isVegetarian": false,
+            "name": "Yukon Gold Potato Gratin",
+            "price": 9.35,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.7,
+            "name": "Grilled Zucchini and Peppers",
+            "price": 8.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Steamed Jasmine Rice",
+            "price": 6.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Mashed Potatoes",
-            "price": 6.56,
+            "price": 6.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,71 +478,71 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Rice Pilaf",
-            "price": 7.64,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
-        "items": [
-          {
-            "name": "Fresh Herbed Iced Tea",
-            "price": 7.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Juice",
-            "price": 4.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Braised Smoothie",
-            "price": 5.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Fried Lemonade",
-            "price": 6.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Creamy Tea",
-            "price": 7,
+            "name": "Scalloped Potatoes with Thyme",
+            "price": 8.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "items": [
+          {
+            "name": "Homestyle Marinated Iced Tea",
+            "price": 5.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Coffee",
-            "price": 4.16,
+            "name": "Homestyle Grilled Lemonade",
+            "price": 4.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Sizzling Soda",
+            "price": 5.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Succulent Water",
+            "price": 7.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Marinated Hot Chocolate",
+            "price": 6.17,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Delicious Juice",
+            "price": 5.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,15 +552,15 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Discover our collection of tasty sweet masterpieces",
+    "description": "Finish on a high note with our tasty and memorable sweets",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 6.86,
+            "name": "Croissants",
+            "price": 8.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,38 +568,38 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Macarons",
-            "price": 6.4,
+            "name": "Custard Tart",
+            "price": 9.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pain au Chocolat",
+            "price": 9.54,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vanilla Cake",
+            "price": 8.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 10.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cobbler",
-            "price": 9.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 10.54,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Red Velvet Cake",
-            "price": 9.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,29 +607,20 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
             "name": "Ice Cream",
-            "price": 11.49,
+            "price": 8.48,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ice Cream Sandwich",
-            "price": 11.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 11.55,
+            "name": "Frozen Pie",
+            "price": 7.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -637,8 +628,8 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frosty",
-            "price": 8.11,
+            "name": "Frozen Pudding",
+            "price": 7.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,8 +637,17 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 11.24,
+            "name": "Snow Cone",
+            "price": 8.93,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Frozen Cheesecake",
+            "price": 10.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,60 +660,24 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' quality creations to complete your meal",
+    "description": "Toast to the moment with our inviting selection of wines, beers, and signature drinks",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Seasonal Stuffed Old Fashioned",
-            "price": 11.42,
+            "name": "Margarita",
+            "price": 12.04,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Golden Negroni",
-            "price": 12.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Hearty Cosmopolitan",
-            "price": 13.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Succulent Mojito",
-            "price": 11.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Organic Grilled Martini",
-            "price": 10.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Flavorful Mai Tai",
-            "price": 13.3,
+            "name": "Old Fashioned",
+            "price": 12.89,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -721,32 +685,8 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Braised Manhattan",
-            "price": 11.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Wine Selection",
-        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
-        "items": [
-          {
-            "name": "Deluxe Tangy Merlot",
-            "price": 8.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Juicy Verdicchio",
-            "price": 12.13,
+            "name": "Mojito",
+            "price": 15.73,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -754,36 +694,36 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Golden Pinot Noir",
-            "price": 12.22,
+            "name": "Martini",
+            "price": 12.47,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Steamed Barbera",
-            "price": 13.9,
-            "isVegetarian": true,
+            "name": "Negroni",
+            "price": 12.71,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Juicy Chenin Blanc",
-            "price": 10.47,
+            "name": "Cosmopolitan",
+            "price": 10.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Homestyle Stuffed Vouvray",
-            "price": 10.33,
-            "isVegetarian": false,
+            "name": "Mai Tai",
+            "price": 13.35,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -792,39 +732,81 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "name": "Wine Selection",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Traditional Luscious Sambuca",
-            "price": 14.48,
+            "name": "Fresh Delicious Chenin Blanc",
+            "price": 11.44,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Stuffed Chambord",
+            "name": "Classic Delicious Sémillon",
+            "price": 11.07,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Baked Pinot Grigio",
+            "price": 10.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delicious Viognier",
             "price": 10.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Delectable Cognac",
-            "price": 10.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Organic Smoked Galliano",
-            "price": 12.9,
+            "name": "Homestyle Savory Champagne/Sparkling Wine",
+            "price": 13.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Comforting Chardonnay",
+            "price": 8.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "items": [
+          {
+            "name": "Authentic Marinated Rum",
+            "price": 13.85,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Pisco",
+            "price": 14.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -832,8 +814,26 @@ export const copenhagenrosenborgMansionMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Tangy Pisco",
-            "price": 12.67,
+            "name": "Traditional Sweet Maraschino",
+            "price": 13.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Creamy Baileys Irish Cream",
+            "price": 17.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Mouthwatering Scotch",
+            "price": 16.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
