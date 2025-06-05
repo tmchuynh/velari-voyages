@@ -936,7 +936,81 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       priceRange = { min: 18, max: 30 };
   }
 
-  // Apply price range adjustments based on selected pricing tier
+  // Filter meat items for vegetarian and vegan restaurants
+  if (
+    args["dietary-focus"] === "vegetarian-only" ||
+    args["dietary-focus"] === "vegan-only"
+  ) {
+    // Use the meat and seafood keywords to filter out non-vegetarian items
+    if (itemSource && Array.isArray(itemSource)) {
+      const lowerMeatKeywords = meatKeywords.map((k) => k.toLowerCase());
+      const lowerSeafoodKeywords = seafoodKeywords.map((k) => k.toLowerCase());
+
+      // Filter out any item containing meat or seafood keywords
+      itemSource = itemSource.filter((item) => {
+        const lowerItem = item.toLowerCase();
+        const hasMeat = lowerMeatKeywords.some((keyword) =>
+          lowerItem.includes(keyword)
+        );
+        const hasSeafood = lowerSeafoodKeywords.some((keyword) =>
+          lowerItem.includes(keyword)
+        );
+        return !hasMeat && !hasSeafood;
+      });
+
+      // If we filtered out too many items and don't have enough left
+      if (itemSource.length < count) {
+        // Add some explicitly vegetarian items to ensure we have enough
+        const vegetarianItems = [
+          "Mushroom Risotto",
+          "Eggplant Parmesan",
+          "Roasted Vegetable Medley",
+          "Quinoa Bowl",
+          "Falafel",
+          "Vegetable Curry",
+          "Spinach Pie",
+          "Veggie Burger",
+          "Lentil Stew",
+          "Tofu Stir Fry",
+          "Garden Salad",
+          "Caprese Salad",
+          "Tomato Soup",
+          "Bean Burrito",
+          "Vegetable Lasagna",
+          "Stuffed Peppers",
+          "Cauliflower Steak",
+          "Sweet Potato Gnocchi",
+          "Zucchini Fritters",
+          "Avocado Toast",
+          "Hummus Plate",
+        ];
+
+        // Add vegan-specific items if needed
+        if (args["dietary-focus"] === "vegan-only") {
+          vegetarianItems.push(
+            "Jackfruit Tacos",
+            "Seitan Kebabs",
+            "Chickpea Curry",
+            "Tempeh Bacon",
+            "Cashew Cheese Plate",
+            "Coconut Milk Soup",
+            "Maple Glazed Carrots",
+            "Nut Roast",
+            "Portobello Steaks",
+            "Lentil Shepherd's Pie",
+            "Vegan Chili"
+          );
+        }
+
+        // Add enough vegetarian items to meet the count
+        const neededItems = Math.max(0, count - itemSource.length);
+        const additionalItems = getRandomItems(vegetarianItems, neededItems);
+        itemSource = [...itemSource, ...additionalItems];
+      }
+    }
+  }
+
+  // Apply price range adjustments
   const modifier = priceModifiers[args["price-range"]];
   priceRange.min = Math.max(
     Math.round(priceRange.min * modifier.factor) + modifier.fixed,
@@ -965,6 +1039,38 @@ function generateMenuItemsForType(category, cuisine, count = args["items"]) {
       useFancyName || args["restaurant-style"] === "fine-dining"
         ? `${prefix} ${descriptor} ${item}`
         : item;
+
+    // For vegetarian/vegan items, ensure the name doesn't accidentally include meat terms
+    // (e.g., if we're using fancy names that combine random prefixes/descriptors)
+    if (
+      (args["dietary-focus"] === "vegetarian-only" ||
+        args["dietary-focus"] === "vegan-only") &&
+      useFancyName
+    ) {
+      // Check if the proposed name contains any meat terms
+      const lowerItemName = itemName.toLowerCase();
+      const hasMeat = meatKeywords.some((keyword) =>
+        lowerItemName.includes(keyword.toLowerCase())
+      );
+      const hasSeafood = seafoodKeywords.some((keyword) =>
+        lowerItemName.includes(keyword.toLowerCase())
+      );
+
+      // If it does contain meat terms, use the basic name instead of the fancy one
+      if (hasMeat || hasSeafood) {
+        // Just use the item with a vegetarian-friendly descriptor
+        const vegDescriptors = [
+          "Garden",
+          "Fresh",
+          "Green",
+          "Harvest",
+          "Plant-Based",
+          "Seasonal",
+        ];
+        const descriptor = getRandomItems(vegDescriptors, 1)[0];
+        itemName = `${descriptor} ${item}`;
+      }
+    }
 
     // Generate basic dietary flags
     const basicDietaryFlags = getDietaryFlags(cuisine, itemName);
