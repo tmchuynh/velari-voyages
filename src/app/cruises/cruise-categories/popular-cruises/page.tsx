@@ -91,14 +91,14 @@ export default function PopularTours() {
     const categories = [
       ...new Set(
         groupAndSortByProperties(popularCruises, "tourCategoryId").map(
-          (cruise) => cruise.tourCategoryId
-        )
+          (cruise) => cruise.tourCategoryId,
+        ),
       ),
     ];
     categories.sort((a, b) => a.localeCompare(b));
     const allTags = new Set<string>();
     popularCruises.forEach((cruise) =>
-      cruise.tags?.forEach((tag: string) => allTags.add(tag))
+      cruise.tags?.forEach((tag: string) => allTags.add(tag)),
     );
 
     const prices = popularCruises.map((cruise) => {
@@ -111,7 +111,7 @@ export default function PopularTours() {
       ...new Set(
         popularCruises
           .map((cruise) => cruise.departureLocation?.city)
-          .filter(Boolean)
+          .filter(Boolean),
       ),
     ];
 
@@ -119,7 +119,7 @@ export default function PopularTours() {
       ...new Set(
         popularCruises
           .map((cruise) => cruise.arrivalLocation?.city)
-          .filter(Boolean)
+          .filter(Boolean),
       ),
     ];
 
@@ -474,7 +474,7 @@ export default function PopularTours() {
                 }
                 if (!cruise.departureLocation || !cruise.arrivalLocation) {
                   console.warn(
-                    `Tour is missing departure or arrival location: ${cruise.title}`
+                    `Tour is missing departure or arrival location: ${cruise.title}`,
                   );
                   return null; // Skip rendering if location data is missing
                 }
@@ -485,12 +485,12 @@ export default function PopularTours() {
                     attraction.city.toLowerCase() ===
                       cruise.departureLocation.city.toLowerCase() ||
                     attraction.country.toLowerCase() ===
-                      cruise.departureLocation.country.toLowerCase()
+                      cruise.departureLocation.country.toLowerCase(),
                 );
 
                 if (!departureInfo) {
                   console.warn(
-                    `Departure location information not found for cruise: ${cruise.title}`
+                    `Departure location information not found for cruise: ${cruise.title}`,
                   );
                   return null;
                 }
@@ -562,7 +562,7 @@ export default function PopularTours() {
               Showing{" "}
               {Math.min(
                 (currentPage - 1) * itemsPerPage + 1,
-                filteredTours.length
+                filteredTours.length,
               )}{" "}
               - {Math.min(currentPage * itemsPerPage, filteredTours.length)} of{" "}
               {filteredTours.length} cruises
