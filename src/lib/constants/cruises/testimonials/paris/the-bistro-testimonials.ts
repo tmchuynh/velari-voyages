@@ -5,46 +5,76 @@ import { Testimonial } from "@/lib/interfaces/services/testimonials";
  */
 export const paristheBistroTestimonials: Testimonial[] = [
   {
-    "quote": "The cuisine at The Bistro were absolutely incredible! The service was exceptional and the atmosphere was warm. Highly recommend!",
-    "author": "Sarah Rodriguez",
+    "quote": "Our visit to The Bistro was outstanding. The dishes were fantastic, the staff friendly, and the atmosphere warm. A must-visit!",
+    "author": "Jennifer Brown",
     "title": "Dining Columnist",
-    "image": "/images/testimonials/person-3.jpg"
+    "image": "/images/testimonials/person-7.jpg"
   },
   {
-    "quote": "The appetizers at The Bistro were absolutely perfect! The service was prompt and the atmosphere was relaxing. Highly recommend!",
-    "author": "William Garcia",
-    "title": "Lifestyle Influencer"
+    "quote": "The Bistro has the most delicious specialties I've ever tasted. The intimate atmosphere made our evening special, and the service was prompt.",
+    "author": "Lisa Johnson",
+    "title": "Food Critic"
   },
   {
-    "quote": "The entrees at The Bistro were absolutely wonderful! The service was fantastic and the atmosphere was appealing. Highly recommend!",
-    "author": "Christopher Davis",
-    "title": "Cruise Traveler"
+    "quote": "The menu items at The Bistro were absolutely amazing! The service was professional and the atmosphere was relaxing. Highly recommend!",
+    "author": "John Wilson",
+    "title": "Gourmet Explorer"
   },
   {
-    "quote": "The Bistro has the most superb entrees I've ever tasted. The inviting atmosphere made our evening special, and the service was friendly.",
-    "author": "Lisa Thompson",
-    "title": "Cruise Traveler"
-  },
-  {
-    "quote": "The appetizers at The Bistro were absolutely impressive! The service was exceptional and the atmosphere was relaxing. Highly recommend!",
-    "author": "Elizabeth Johnson",
+    "quote": "The Bistro has the most excellent flavors I've ever tasted. The sophisticated atmosphere made our evening special, and the service was excellent.",
+    "author": "Thomas Davis",
     "title": "Restaurant Reviewer"
   },
   {
-    "quote": "I can't say enough about the delicious entrees at The Bistro. The professional service and charming ambiance made for a perfect night out.",
-    "author": "Thomas Jackson",
-    "title": "Culinary Expert",
-    "image": "/images/testimonials/person-11.jpg"
+    "quote": "The cuisine at The Bistro were absolutely superb! The service was friendly and the atmosphere was vibrant. Highly recommend!",
+    "author": "Emma Taylor",
+    "title": "Culinary Expert"
   },
   {
-    "quote": "I can't say enough about the excellent food at The Bistro. The courteous service and cozy ambiance made for a perfect night out.",
-    "author": "Sarah Anderson",
-    "title": "Cooking Aficionado"
+    "quote": "What a wonderful dining experience at The Bistro! The entrees exceeded our expectations, and the staff was friendly. Will definitely return!",
+    "author": "Emily Rodriguez",
+    "title": "Food Journalist"
   },
   {
-    "quote": "Our visit to The Bistro was outstanding. The specialties were delectable, the staff superb, and the atmosphere delightful. A must-visit!",
-    "author": "Lisa Smith",
-    "title": "Gastronomy Enthusiast",
-    "image": "/images/testimonials/person-5.jpg"
+    "quote": "The Bistro has the most fantastic food I've ever tasted. The welcoming atmosphere made our evening special, and the service was attentive.",
+    "author": "William Wilson",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "The Bistro has the most outstanding meal I've ever tasted. The appealing atmosphere made our evening special, and the service was prompt.",
+    "author": "David Perez",
+    "title": "Food Critic",
+    "image": "/images/testimonials/person-6.jpg"
+  },
+  {
+    "quote": "What a outstanding dining experience at The Bistro! The menu items exceeded our expectations, and the staff was exceptional. Will definitely return!",
+    "author": "Ava Johnson",
+    "title": "Dining Columnist"
+  },
+  {
+    "quote": "The specialties at The Bistro were absolutely fantastic! The service was helpful and the atmosphere was welcoming. Highly recommend!",
+    "author": "James Jackson",
+    "title": "Gourmet Explorer"
+  },
+  {
+    "quote": "The Bistro has the most fantastic dishes I've ever tasted. The stylish atmosphere made our evening special, and the service was excellent.",
+    "author": "Sophia Hernandez",
+    "title": "Culinary Expert"
+  },
+  {
+    "quote": "What a impressive dining experience at The Bistro! The appetizers exceeded our expectations, and the staff was superb. Will definitely return!",
+    "author": "Olivia Smith",
+    "title": "Food Critic"
+  },
+  {
+    "quote": "The Bistro has the most marvelous cuisine I've ever tasted. The pleasant atmosphere made our evening special, and the service was prompt.",
+    "author": "Elizabeth Rodriguez",
+    "title": "Travel Blogger"
+  },
+  {
+    "quote": "I can't say enough about the delectable food at The Bistro. The knowledgeable service and sophisticated ambiance made for a perfect night out.",
+    "author": "Olivia Wilson",
+    "title": "Cruise Traveler",
+    "image": "/images/testimonials/person-3.jpg"
   }
 ];
