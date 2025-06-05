@@ -6,6 +6,7 @@ import {
   TimePeriod,
 } from "@/lib/types/types";
 import { ContactPersonnel } from "../people/staff";
+import { IconType } from "react-icons";
 
 export interface YachtRoute {
   route: Location[];
@@ -20,8 +21,7 @@ export interface CruisCategory {
   id: string;
   title: string;
   description: string;
-  tags?: string[];
-  icon: React.ComponentType;
+  icon: IconType;
 }
 
 export interface BaseCruise {
@@ -53,35 +53,7 @@ export interface BaseCruise {
 
 export type Cruise = BaseCruise & Flags & Details & CruiseCategoryFlags;
 
-export interface Vessels {
-  name: string;
-  description: string;
-  type: CruiseShipType;
-  capacity: number;
-  length: number;
-  width: number;
-  speed: number;
-  yearBuilt?: number;
-  homePort: Location;
-  specifications?: {
-    engineType?: string;
-    fuelCapacity?: number;
-    waterCapacity?: number;
-    propulsionType?: string;
-    hullMaterial?: string;
-    classification?: string;
-    safetyEquipment?: string[];
-    navigationEquipment?: string[];
-    communicationEquipment?: string[];
-    entertainmentEquipment?: string[];
-    accessibilityFeatures?: string[];
-    environmentalFeatures?: string[];
-  };
-  isLuxuryVessel?: boolean;
-  isPetFriendly?: boolean;
-}
-
-type CruiseShipType =
+export type CruiseShipType =
   | "ocean-liner"
   | "mainstream-cruise-ship"
   | "mid-size-cruise-ship"
@@ -104,3 +76,51 @@ type CruiseShipType =
   | "river-cruise-ship"
   | "catamaran"
   | "zodiac-equipped-vessel";
+
+export interface CruiseVessel {
+  id: string;
+  name: string;
+  type: string;
+  capacity: number;
+  amenities: string[];
+  length: string;
+  topSpeed: string;
+  yearBuilt: number;
+  description: string;
+  imageUrl: string;
+}
+
+export interface Vessels {
+  name: string;
+  description: string;
+  type: CruiseShipType;
+  capacity: number;
+  length: number;
+  width: number;
+  speed: number;
+  yearBuilt: number;
+  homePort: {
+    city: string;
+    country: string;
+    coordinates: {
+      latitude: number;
+      longitude: number;
+    };
+  };
+  specifications: {
+    engineType: string;
+    fuelCapacity: number;
+    waterCapacity: number;
+    propulsionType: string;
+    hullMaterial: string;
+    classification: string;
+    safetyEquipment: string[];
+    navigationEquipment: string[];
+    communicationEquipment: string[];
+    entertainmentEquipment: string[];
+    accessibilityFeatures: string[];
+    environmentalFeatures: string[];
+  };
+  isLuxuryVessel: boolean;
+  isPetFriendly: boolean;
+}
