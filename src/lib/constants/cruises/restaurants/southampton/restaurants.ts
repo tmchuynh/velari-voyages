@@ -248,5 +248,160 @@ export const southamptonRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "British Cookhouse",
+    "description": "A culinary gem serving Mediterranean specialties including gourmet street food, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-355-4409",
+      "contactEmail": "office@indianfinediningsouthampton.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "French Boulangerie",
+    "description": "A culinary gem serving Italian specialties including signature dishes, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "Closed",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-666-4281",
+      "contactEmail": "office@italiantradingco.southampton.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "French Gallery",
+    "description": "This popular Italian establishment combines traditional recipes and farm-to-table meals, all served in a unique setting with ambient lighting.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-757-8581",
+      "contactEmail": "hi@frenchartisansouthampton.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "British Supper Club",
+    "description": "Located close to the iconic clock tower, this Italian restaurant delights with its local ingredients and ambient lighting.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-554-8132",
+      "contactEmail": "mail@frenchbarbecuesouthampton.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "French Marketplace",
+    "description": "This popular French establishment combines traditional recipes and artisanal creations, all served in a unique setting with beautiful decor.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-946-6002",
+      "contactEmail": "mail@italianchocolatiersouthampton.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

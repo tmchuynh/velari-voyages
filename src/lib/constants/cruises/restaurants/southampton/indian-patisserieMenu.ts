@@ -6,15 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Timeless tastes, elevated by our simple approach to Indian",
+    "description": "A thoughtfully curated lineup of delicious Indian dishes to suit every palate",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
+        "description": "Our chef's pride—carefully selected Indian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
+            "name": "Founder's Family Recipe Pasta",
+            "price": 36.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Molecular Gastronomy Showcase Tasting",
+            "price": 36.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 29.32,
+            "price": 25.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,55 +40,37 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 33.61,
+            "name": "Award-Winning Seafood Boil",
+            "price": 37.19,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Flambéed Tableside Specialty",
-            "price": 36.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 31.34,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Famous Duck Confit",
-            "price": 34.98,
+            "name": "Whole Roasted Heritage Chicken",
+            "price": 28.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 34.02,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           },
           {
             "name": "Seasonal Tasting Menu Experience",
-            "price": 28.78,
+            "price": 35.74,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Age-Old Recipe Osso Buco with Gremolata",
+            "price": 30.68,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -79,50 +79,50 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Fresh Satisfying Roasted Quail with Truffle Jus",
-            "price": 24.15,
-            "isVegetarian": false,
+            "name": "Volcanic Stone-Cooked Specialty",
+            "price": 31.75,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Grilled House Specialty Pasta Creation",
-            "price": 33.77,
+            "name": "Freshly Harvested Seasonal Creation",
+            "price": 36.2,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Braised Short Ribs with Red Wine Sauce",
+            "price": 35.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Aged and House-Cured Charcuterie Selection",
+            "price": 34.79,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Collaborative Limited Edition Special",
-            "price": 25.27,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Chef's Market Inspiration of the Day",
+            "price": 31.09,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Mouthwatering Crispy Skin Sea Bass",
-            "price": 26.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Tasting of Local Artisanal Cheeses",
-            "price": 28.59,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,20 +130,38 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Crafted to excite the palate, our starters are a perfect introduction to the world of Indian.",
+        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
         "items": [
           {
-            "name": "Traditional Herbed Stuffed Jalapeños",
-            "price": 9.4,
+            "name": "Baba Ganoush",
+            "price": 11.33,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Smoked Onion Rings",
-            "price": 15.36,
+            "name": "Chicken Satay",
+            "price": 15.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Onion Rings",
+            "price": 14.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Brie",
+            "price": 11.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,17 +169,26 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Delectable Ceviche",
-            "price": 15.4,
+            "name": "Stuffed Peppers",
+            "price": 14.33,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Bruschetta",
-            "price": 15.66,
+            "name": "Bruschetta",
+            "price": 14.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 8.49,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -169,37 +196,10 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Creamy Sweet Potato Fries",
-            "price": 10.19,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Hearty Garlic Bread",
-            "price": 11.3,
+            "name": "Hummus Platter",
+            "price": 11.55,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crunchy Mini Tacos",
-            "price": 14.22,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Irresistible Mezze Platter",
-            "price": 14.38,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -208,39 +208,39 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "A warm, flavorful embrace in every bowl—crafted for nourishment and satisfaction.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Tomato Soup",
-            "price": 12.65,
+            "name": "Gazpacho",
+            "price": 11.83,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Black Bean Soup",
-            "price": 8.15,
+            "name": "Pho",
+            "price": 12.62,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Corn Chowder",
-            "price": 13.46,
+            "name": "French Onion Soup",
+            "price": 12.72,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Peanut Soup (West African)",
-            "price": 11.29,
-            "isVegetarian": false,
+            "name": "Mushroom Soup",
+            "price": 13.78,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -253,26 +253,8 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
         "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
         "items": [
           {
-            "name": "Caprese Salad",
-            "price": 9.29,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Kale Salad",
-            "price": 10.87,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 12.07,
+            "name": "Apple Pecan Salad",
+            "price": 12.63,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,18 +262,36 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Potato Salad",
-            "price": 13.17,
+            "name": "Avocado Corn Salad",
+            "price": 13.68,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 13.35,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 11.78,
+            "name": "Cobb Salad",
+            "price": 15.02,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mango Avocado Salad",
+            "price": 15.78,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -301,74 +301,74 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Quiche",
-            "price": 24.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fajitas",
-            "price": 31.92,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 25.61,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tacos",
-            "price": 18.17,
+            "name": "Jambalaya",
+            "price": 24.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ramen",
-            "price": 31.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Biryani",
-            "price": 29.03,
-            "isVegetarian": false,
+            "price": 31.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Enchiladas",
-            "price": 20.52,
+            "name": "Paella",
+            "price": 31.95,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pizza",
-            "price": 20.45,
+            "name": "Chicken Parmesan",
+            "price": 31.91,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cottage Pie",
+            "price": 23.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Salmon",
+            "price": 30.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Beef Burger",
+            "price": 31.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Gnocchi",
+            "price": 29.42,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,20 +379,11 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Fresh, sustainable seafood prepared using timeless Indian traditions.",
         "items": [
           {
-            "name": "Fresh Flavorful Traditional Provençal Bouillabaisse",
-            "price": 22.55,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Alaskan King Crab Legs with Drawn Butter",
-            "price": 28.03,
+            "name": "Classic British Fish and Chips",
+            "price": 23.07,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -400,29 +391,38 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Sweet Valencian Seafood Paella",
-            "price": 33.72,
+            "name": "Smoked Salmon Platter with Dill Crème",
+            "price": 22.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Traditional Tangy Linguine with Clam Sauce",
-            "price": 26.5,
+            "name": "Stuffed Flounder with Crab and Spinach",
+            "price": 32.52,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Fried Grilled Lobster with Lemon Butter",
-            "price": 28.01,
+            "name": "Linguine with Clam Sauce",
+            "price": 31.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Cajun Shrimp and Grits",
+            "price": 22.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -433,8 +433,17 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
         "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Handcrafted Satisfying Wild Mushroom Risotto",
-            "price": 5.26,
+            "name": "French Fries",
+            "price": 8.21,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cauliflower Gratin with Gruyère",
+            "price": 9.26,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -442,47 +451,38 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Zingy Corn on the Cob with Chili Lime Butter",
-            "price": 6.12,
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 5.31,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Truffle Parmesan Fries",
+            "price": 8.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Fresh Tangy Homestyle Baked Beans",
-            "price": 8.49,
+            "name": "Homestyle Baked Beans",
+            "price": 9.3,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 8.35,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Grilled Asparagus with Lemon Zest",
-            "price": 5.28,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Quinoa Pilaf with Herbs",
-            "price": 9.4,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Spiced Sweet Potato Wedges with Smoked Paprika",
-            "price": 8.38,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Juice",
-            "price": 7.65,
+            "name": "Organic Marinated Soda",
+            "price": 7.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,17 +502,8 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 7.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 7.22,
+            "name": "Premium Braised Water",
+            "price": 6.99,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -520,27 +511,36 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 5.39,
-            "isVegetarian": false,
+            "name": "Premium Tangy Hot Chocolate",
+            "price": 7.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Milkshake",
-            "price": 6.11,
-            "isVegetarian": true,
+            "name": "Handcrafted Grilled Milkshake",
+            "price": 5.98,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.12,
+            "name": "Traditional Hearty Juice",
+            "price": 4.34,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Luscious Smoothie",
+            "price": 4.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -552,33 +552,15 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A delicious selection of desserts that celebrate the art of pastry",
+    "description": "Experience the art of classic desserts with a Indian twist",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 8.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crumb Cake",
-            "price": 9.02,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tiramisu",
-            "price": 8.36,
+            "name": "Pumpkin Pie",
+            "price": 6.73,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -586,20 +568,38 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chocolate Chip Cookies",
-            "price": 7.53,
+            "name": "Soufflé",
+            "price": 7.02,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baklava",
-            "price": 10.16,
+            "name": "Chocolate Chip Cookies",
+            "price": 10.48,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Biscotti",
+            "price": 7.17,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Croissants",
+            "price": 6.19,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,50 +607,50 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A delightful way to end your meal—cool, creamy, and bursting with flavor.",
+        "description": "Made in-house with premium dairy and plant-based alternatives.",
         "items": [
           {
-            "name": "Sherbet",
-            "price": 9.35,
+            "name": "Hearty Creamy Frozen Yogurt",
+            "price": 9.73,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Aromatic Sorbet",
+            "price": 7.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Granita",
+            "price": 8.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Kulfi",
+            "price": 7.09,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Banana",
-            "price": 11.17,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Mousse",
-            "price": 11.98,
+            "name": "Gourmet Crispy Frozen Fruit Bars",
+            "price": 8.75,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream Cake",
-            "price": 9.96,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 9.14,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,52 +660,34 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine array of beverages specially selected by our sommeliers",
+    "description": "A balanced selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 13.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
-            "price": 15.45,
+            "name": "Cosmopolitan",
+            "price": 10.62,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 11.26,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Martini",
-            "price": 10.93,
-            "isVegetarian": false,
-            "isVegan": false,
+            "price": 14.7,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 12.78,
-            "isVegetarian": true,
+            "name": "Whiskey Sour",
+            "price": 15.88,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -713,19 +695,37 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
           },
           {
             "name": "Margarita",
-            "price": 11.73,
+            "price": 15.4,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.62,
+            "name": "Manhattan",
+            "price": 10.26,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mai Tai",
+            "price": 14.75,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 15.97,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,38 +733,29 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "Our sommelier's picks, chosen for balance, terroir expression, and quality.",
         "items": [
           {
-            "name": "Deluxe Tangy Pinot Blanc",
-            "price": 10.74,
-            "isVegetarian": true,
+            "name": "Hearty Enticing Cabernet Franc",
+            "price": 11.26,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Satisfying Cabernet Sauvignon",
-            "price": 13.66,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Crunchy Grenache",
-            "price": 9.52,
-            "isVegetarian": true,
+            "name": "Gourmet Satisfying Vermentino",
+            "price": 10.53,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Steamed Cabernet Franc",
-            "price": 9.11,
+            "name": "Traditional Satisfying Viognier",
+            "price": 8.61,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -772,50 +763,59 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Comforting Gewürztraminer",
-            "price": 9.74,
-            "isVegetarian": true,
+            "name": "Deluxe Satisfying Petit Verdot",
+            "price": 8.93,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sweet Dolcetto",
+            "price": 11.32,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Pan-seared Champagne/Sparkling Wine",
-            "price": 12.79,
+            "name": "Premium Smoked Marsanne",
+            "price": 9.35,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "For aficionados and explorers alike—top-shelf selections with depth and pedigree.",
         "items": [
           {
-            "name": "Authentic Zingy Scotch",
-            "price": 14.48,
+            "name": "Whiskey",
+            "price": 15.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Spiced Grappa",
-            "price": 10.21,
+            "name": "Grappa",
+            "price": 16.75,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Classic Baked Kahlúa",
-            "price": 17.54,
+            "name": "Sambuca",
+            "price": 14.3,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -823,17 +823,17 @@ export const southamptonindianPatisserieMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Irresistible Pisco",
-            "price": 15.93,
+            "name": "Aquavit",
+            "price": 12.64,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Creamy Drambuie",
-            "price": 17.95,
+            "name": "Grand Marnier",
+            "price": 12.7,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,

@@ -6,24 +6,33 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Delight in our chef's most classic takes on traditional Indian flavors",
+    "description": "A thoughtfully balanced mix of classic and authentic Indian flavors",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Our chef's pride—carefully selected Indian specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Deluxe Grilled Restaurant's Namesake Signature Entrée",
-            "price": 29.72,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Hearty Golden Japanese A5 Wagyu with Ponzu Butter",
+            "price": 29.42,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Herbed Korean BBQ Short Ribs with Kimchi Rice",
-            "price": 31.06,
+            "name": "Traditional Delectable Award-Winning Seafood Boil",
+            "price": 26.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Grilled Whole Roasted Heritage Chicken",
+            "price": 36.49,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -31,17 +40,26 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Gourmet Crunchy Legendary Prime Rib",
-            "price": 33.69,
-            "isVegetarian": true,
+            "name": "Organic Delectable Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 35.27,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Crunchy Executive Chef's Daily Inspiration Entrée",
+            "price": 29.43,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Exquisite Modernist Foie Gras Sphere with Rhubarb Gel",
-            "price": 25.67,
+            "name": "Fresh Braised Chef's Special Surf and Turf",
+            "price": 37.29,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -49,41 +67,23 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Delectable Chef’s Wild Game Selection",
-            "price": 26.45,
-            "isVegetarian": false,
+            "name": "Gourmet Pan-seared Age-Old Recipe Osso Buco with Gremolata",
+            "price": 31.08,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Handcrafted Aromatic Chef's Special Surf and Turf",
-            "price": 24.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Grilled House Famous Duck Confit",
-            "price": 26.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Special Occasion Celebratory Dish",
-            "price": 38.84,
+            "name": "Traditional Juicy Deconstructed Classic with Modern Technique",
+            "price": 27.56,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -91,17 +91,26 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Truffle Risotto",
-            "price": 24.6,
-            "isVegetarian": true,
+            "name": "Premium Exquisite Signature Spice-Rubbed Protein",
+            "price": 39.99,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Herb-Crusted Rack of Lamb",
-            "price": 31.21,
+            "name": "Hearty Marinated Grilled Venison with Juniper Berry Sauce",
+            "price": 25.05,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Crispy Cedar Plank Salmon",
+            "price": 32.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,20 +118,11 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 31.63,
-            "isVegetarian": true,
+            "name": "Seasonal Braised Seasonal Truffle Risotto",
+            "price": 28.35,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Heritage Breed Porchetta",
-            "price": 25.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,260 +130,20 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A delightful array of appetizers that highlight the best of Indian flavors—perfect for sharing or enjoying solo.",
+        "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Indian culinary artistry.",
         "items": [
           {
-            "name": "Stuffed Mushrooms",
-            "price": 10.69,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 12.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Jalapeños",
-            "price": 12.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mezze Platter",
-            "price": 14.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tzatziki with Pita",
-            "price": 13.07,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Wings",
-            "price": 14.29,
+            "name": "Seasonal Grilled Shrimp Cocktail",
+            "price": 11.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 10.4,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Prawn Toast",
-            "price": 10.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Soups",
-        "description": "Rich flavors and slow-simmered ingredients that speak of home and tradition.",
-        "items": [
-          {
-            "name": "Tomato Soup",
-            "price": 12.21,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Carrot Ginger Soup",
-            "price": 9.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Butternut Squash Soup",
-            "price": 12.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 8.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Salads",
-        "description": "Balanced, clean, and flavorful options featuring local and organic ingredients where possible.",
-        "items": [
-          {
-            "name": "Apple Pecan Salad",
-            "price": 10.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
           },
           {
-            "name": "Caesar Salad",
-            "price": 15.04,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Avocado Corn Salad",
-            "price": 9.78,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
+            "name": "Authentic Spicy Tuna Tartare",
             "price": 15.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 13.24,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Main Courses",
-        "description": "Crafted with passion and precision, our mains are designed to impress.",
-        "items": [
-          {
-            "name": "Homestyle Stuffed Tagine",
-            "price": 19.27,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Stuffed Spaghetti Bolognese",
-            "price": 19.38,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Satisfying Enchiladas",
-            "price": 24.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Savory Fajitas",
-            "price": 26.15,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Grilled Mac and Cheese",
-            "price": 20.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Sizzling Lentil Stew",
-            "price": 31.82,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Crispy Steak",
-            "price": 28.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Savory Gnocchi",
-            "price": 20.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
-        "items": [
-          {
-            "name": "Homestyle Sizzling Oysters Rockefeller with Pernod Cream",
-            "price": 27.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +151,35 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Spiced Seafood Alfredo with Spinach Fettuccine",
-            "price": 34.12,
-            "isVegetarian": false,
+            "name": "Fresh Tangy Stuffed Mushrooms",
+            "price": 8.79,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Appetizing Mini Quesadillas",
+            "price": 11.51,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Fried Hearty Italian Cioppino",
-            "price": 33.4,
+            "name": "Seasonal Luscious Falafel",
+            "price": 12.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Marinated Mini Tacos",
+            "price": 12.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,17 +187,17 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Sweet Seafood Risotto with Saffron",
-            "price": 29.74,
+            "name": "Gourmet Luscious Mini Crab Cakes",
+            "price": 10.94,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Authentic Marinated Linguine with Clam Sauce",
-            "price": 26.07,
+            "name": "Homestyle Delicious Chicken Satay",
+            "price": 14.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -429,30 +207,63 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Side Dishes",
-        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "name": "Soups",
+        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
         "items": [
           {
-            "name": "Stuffed Bell Peppers with Brown Rice",
-            "price": 9.53,
-            "isVegetarian": true,
+            "name": "Handcrafted Spicy Clam Chowder",
+            "price": 11.19,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 7.24,
-            "isVegetarian": true,
+            "name": "Hearty Tangy Cabbage Soup",
+            "price": 13.63,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 5.97,
+            "name": "Homestyle Sizzling Hot and Sour Soup",
+            "price": 8.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Baked Lentil Soup",
+            "price": 8.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Salads",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "items": [
+          {
+            "name": "Roasted Vegetable Salad",
+            "price": 15.06,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beet Salad",
+            "price": 13.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +271,68 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Truffle Parmesan Fries",
-            "price": 6.98,
+            "name": "Southwest Black Bean Salad",
+            "price": 14.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 10.65,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caprese Salad",
+            "price": 14.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Main Courses",
+        "description": "Signature entrées crafted with precision, embodying the core of our Indian vision.",
+        "items": [
+          {
+            "name": "Deluxe Smoked Roast Duck",
+            "price": 29.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Tender Grilled Chicken",
+            "price": 29.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Flaky Salmon",
+            "price": 18.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Delicious Vegetable Stir-Fry",
+            "price": 24.4,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,18 +340,87 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Mushroom Risotto",
-            "price": 9.47,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Traditional Stuffed Katsu Curry",
+            "price": 24.41,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Mouthwatering Eggplant Parmesan",
+            "price": 30.49,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Herbed Bulgur Wheat with Lemon",
-            "price": 9.33,
-            "isVegetarian": true,
+            "name": "Seasonal Zesty Ramen",
+            "price": 26.61,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Hearty Pesto Pasta",
+            "price": 23.84,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "items": [
+          {
+            "name": "Garlic Butter Shrimp Skillet",
+            "price": 27.42,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seafood Gumbo with Okra",
+            "price": 27.78,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Cajun Shrimp and Grits",
+            "price": 25.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Mussels Mariniere in White Wine",
+            "price": 31.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic British Fish and Chips",
+            "price": 35.97,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -489,12 +429,12 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
         ]
       },
       {
-        "name": "Non-Alcoholic Beverages",
-        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
+        "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "Soda",
-            "price": 7.66,
+            "name": "Premium Crunchy Macaroni and Aged Cheddar",
+            "price": 7.06,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,47 +442,107 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 6.72,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.99,
-            "isVegetarian": true,
+            "name": "Gourmet Herbed Charred Broccolini with Garlic Oil",
+            "price": 6.09,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 6.07,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Deluxe Aromatic Fragrant Basmati Rice Pilaf",
+            "price": 6.02,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Coffee",
-            "price": 4.44,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Seasonal Marinated Baked Idaho Potato with Sour Cream",
+            "price": 8.71,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 6.37,
+            "name": "Gourmet Stuffed Roasted Brussels Sprouts with Balsamic Glaze",
+            "price": 6.41,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Stuffed Roasted Root Vegetables",
+            "price": 8.74,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Non-Alcoholic Beverages",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "items": [
+          {
+            "name": "Homestyle Stuffed Coffee",
+            "price": 5.91,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Savory Water",
+            "price": 6.58,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Juice",
+            "price": 7.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Traditional Herbed Lemonade",
+            "price": 7.03,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tender Hot Chocolate",
+            "price": 4.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Stuffed Tea",
+            "price": 4.29,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,42 +552,15 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A warm selection of desserts that will leave you wanting more",
+    "description": "Crafted with love, our crowd-pleasing desserts are the perfect treat",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Deluxe Grilled Cannoli",
-            "price": 9.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Smoked Carrot Cake",
-            "price": 8.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Juicy Soufflé",
-            "price": 8.28,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Savory Muffins",
-            "price": 8.9,
+            "name": "Treacle Tart",
+            "price": 10.91,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -595,11 +568,38 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Delectable Madeleines",
-            "price": 10.9,
-            "isVegetarian": false,
+            "name": "Macarons",
+            "price": 6.14,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Brownies",
+            "price": 8.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 10.12,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Portuguese Custard Tarts",
+            "price": 9.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,11 +607,20 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Made in-house with premium dairy and plant-based alternatives.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
             "name": "Sorbet",
-            "price": 9.28,
+            "price": 7.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 10.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -620,25 +629,7 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Pie",
-            "price": 10.92,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gelato",
-            "price": 7.56,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Semifreddo",
-            "price": 9.1,
+            "price": 11.3,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -646,10 +637,19 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 7.03,
-            "isVegetarian": true,
+            "name": "Granita",
+            "price": 7.17,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 8.45,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,33 +660,15 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A easygoing drinks program blending innovation with tradition",
+    "description": "A carefully chosen selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 14.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 12.54,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 12.92,
+            "name": "Cosmopolitan",
+            "price": 15.38,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -695,8 +677,17 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
           },
           {
             "name": "Whiskey Sour",
-            "price": 13.94,
-            "isVegetarian": true,
+            "price": 10.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mojito",
+            "price": 15.24,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -704,27 +695,36 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 10.74,
-            "isVegetarian": true,
+            "price": 10.24,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.66,
-            "isVegetarian": false,
+            "name": "Bloody Mary",
+            "price": 15.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.94,
-            "isVegetarian": false,
+            "name": "Negroni",
+            "price": 13.83,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 15.64,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,20 +733,29 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Authentic Spicy Merlot",
-            "price": 13.8,
+            "name": "Gamay",
+            "price": 9.64,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 8.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Classic Smoked Pinot Blanc",
-            "price": 8.19,
+            "name": "Dolcetto",
+            "price": 8.41,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -754,36 +763,27 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Marinated Fiano",
-            "price": 10.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Crunchy Torrontés",
-            "price": 10.5,
+            "name": "Zinfandel",
+            "price": 13.88,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Sweet Chardonnay",
-            "price": 8.78,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Succulent Riesling",
-            "price": 10.91,
+            "name": "Moscato",
+            "price": 9.36,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Vermentino",
+            "price": 8.74,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -793,20 +793,20 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
         "items": [
           {
-            "name": "Limoncello",
-            "price": 17.38,
+            "name": "Grappa",
+            "price": 17.29,
             "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tequila",
-            "price": 11.84,
+            "name": "Limoncello",
+            "price": 13.48,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,26 +814,26 @@ export const southamptonmediterraneanRistoranteMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Armagnac",
-            "price": 12.14,
+            "name": "Mezcal",
+            "price": 14.7,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Campari",
-            "price": 17.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Cognac",
+            "price": 14.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Scotch",
-            "price": 13.45,
+            "name": "Aquavit",
+            "price": 10.04,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
