@@ -6,42 +6,60 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const newOrleansamericanInnMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Explore the richness of Creole cuisine through our delicious perspective",
+    "description": "A journey through Creole flavors, led by our chef's authentic creations",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Creole specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
         "items": [
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 25.09,
+            "name": "Authentic Satisfying Dry-Aged Tomahawk Steak",
+            "price": 35.46,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Local Bounty Harvest Plate (Vegetarian)",
+            "price": 37.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed 24-Hour Braised Short Ribs",
+            "price": 24.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Succulent Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.5,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Wood-Fired Peking Duck with Plum Sauce",
+            "price": 33.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Japanese A5 Wagyu with Ponzu Butter",
-            "price": 29.37,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 25.93,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 33.08,
+            "name": "Traditional Marinated Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 24.01,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -49,41 +67,41 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 36.4,
+            "name": "Classic Flavorful House Famous Duck Confit",
+            "price": 25.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
-          },
-          {
-            "name": "Charcoal Grilled Iberico Pork",
-            "price": 36.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 32.43,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Creole.",
         "items": [
           {
-            "name": "Classic Sautéed Tableside Flambé Preparation",
-            "price": 30.5,
+            "name": "Locally Foraged Mushroom Selection",
+            "price": 28.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tableside Flambé Preparation",
+            "price": 24.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Smoked and Slow-Roasted Heritage Meat",
+            "price": 24.66,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -91,36 +109,18 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Premium Baked Hand-Selected Wine Pairing Experience",
-            "price": 37.02,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Creamy Fire-Roasted Seasonal Centerpiece",
-            "price": 25.21,
+            "name": "Black Garlic Marinated Octopus",
+            "price": 26.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Gourmet Exquisite Fusion of Traditional and Modern Techniques",
-            "price": 38.66,
+            "name": "Chef's Childhood Favorite Reimagined",
+            "price": 27.97,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden Chef's Childhood Favorite Reimagined",
-            "price": 33.73,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -133,17 +133,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
         "description": "A harmonious blend of textures and flavors, our appetizers are a celebration of Creole culinary artistry.",
         "items": [
           {
-            "name": "Lettuce Wraps",
-            "price": 12.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Mushrooms",
-            "price": 15.9,
+            "name": "Hearty Zingy Antipasto Platter",
+            "price": 15.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -151,8 +142,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mezze Platter",
-            "price": 12.75,
+            "name": "Handcrafted Tender Tuna Tartare",
+            "price": 9.9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,17 +151,35 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chicken Satay",
-            "price": 12.46,
+            "name": "Fresh Spiced Spinach Puffs",
+            "price": 14.24,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Fried Cheese Platter",
+            "price": 10.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Bruschetta",
-            "price": 11.31,
+            "name": "Fresh Creamy Spinach Artichoke Dip",
+            "price": 8.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Delicious Crostini",
+            "price": 10.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -178,29 +187,20 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hummus Platter",
-            "price": 10.86,
-            "isVegetarian": true,
+            "name": "Gourmet Wholesome Chicken Satay",
+            "price": 11.47,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Samosas",
+            "name": "Gourmet Luscious Spring Rolls",
             "price": 8.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mini Sliders",
-            "price": 13.42,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,29 +208,29 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Creole, crafted with care and expertise.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Creole methods.",
         "items": [
           {
-            "name": "Handcrafted Crunchy Minestrone",
-            "price": 10.77,
-            "isVegetarian": true,
+            "name": "Hearty Flaky Cabbage Soup",
+            "price": 13.4,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Tomato Soup",
-            "price": 13.3,
+            "name": "Authentic Exquisite Tortilla Soup",
+            "price": 7.14,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Fresh Tangy Mushroom Soup",
-            "price": 7.72,
+            "name": "Seasonal Juicy Mushroom Soup",
+            "price": 8.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -238,8 +238,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Smoked Carrot Ginger Soup",
-            "price": 13.17,
+            "name": "Gourmet Creamy Italian Wedding Soup",
+            "price": 8.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,47 +250,47 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
+        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
         "items": [
           {
-            "name": "Nicoise Salad",
-            "price": 15.86,
+            "name": "Caesar Salad",
+            "price": 10.64,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Greek Salad",
-            "price": 12.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roasted Beet and Goat Cheese Salad",
-            "price": 9.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 11.88,
-            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Caprese Salad",
-            "price": 12.63,
+            "name": "Greek Salad",
+            "price": 12.81,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 13.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nicoise Salad",
+            "price": 13.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Avocado Corn Salad",
+            "price": 11.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -301,11 +301,11 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Deluxe Zesty Vegetable Stir-Fry",
-            "price": 31.6,
+            "name": "Hearty Stuffed Bibimbap",
+            "price": 19.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -313,53 +313,26 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Roasted Shish Kebabs",
-            "price": 28.99,
+            "name": "Authentic Roasted Paella",
+            "price": 18.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Authentic Delectable Thai Curry",
-            "price": 27.59,
+            "name": "Hearty Aromatic Thai Curry",
+            "price": 18.12,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Savory Pulled Pork Sandwich",
-            "price": 21.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Savory Eggplant Parmesan",
-            "price": 26.57,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Delicious Roast Duck",
-            "price": 22.39,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sizzling Salmon",
-            "price": 31.22,
+            "name": "Handcrafted Delicious Beef Wellington",
+            "price": 24.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,8 +340,35 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Fried Moussaka",
-            "price": 29.69,
+            "name": "Gourmet Smoked Roast Duck",
+            "price": 29.83,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Flavorful Quiche",
+            "price": 31.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sweet Cottage Pie",
+            "price": 29.15,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Pan-seared Grilled Tofu",
+            "price": 20.96,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -379,20 +379,11 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar delicacies to grilled perfection—our tribute to the ocean.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Gourmet Zesty Sushi-Grade Sashimi Platter",
-            "price": 30.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Comforting Cedar Plank Roasted Salmon",
-            "price": 35.19,
+            "name": "Seafood Risotto with Saffron",
+            "price": 31.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +391,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Stuffed Seafood Alfredo with Spinach Fettuccine",
-            "price": 35.67,
+            "name": "Maryland Style Crab Cakes",
+            "price": 24.48,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +400,26 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Classic Crunchy Steamed Littleneck Clams in Garlic Broth",
-            "price": 27.22,
+            "name": "New England Lobster Roll",
+            "price": 30.85,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Blackened Mahi-Mahi with Pineapple Salsa",
+            "price": 30.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Creamy Miso-Marinated Chilean Sea Bass",
-            "price": 34.26,
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 24.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,11 +430,11 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
         "items": [
           {
-            "name": "Mashed Potatoes",
-            "price": 8.28,
+            "name": "Hearty Crunchy Sweet Corn and Cheddar Fritters",
+            "price": 6.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,26 +442,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Truffle Parmesan Fries",
-            "price": 7.45,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Wild Mushroom Risotto",
-            "price": 5.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chili Lime Roasted Chickpeas",
-            "price": 5.69,
+            "name": "Premium Golden Israeli Couscous with Roasted Tomatoes",
+            "price": 6.05,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,19 +451,37 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charred Broccolini with Garlic Oil",
-            "price": 5.48,
+            "name": "Handcrafted Delectable Yukon Gold Potato Gratin",
+            "price": 5.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Sautéed Grilled Asparagus with Lemon Zest",
+            "price": 6.06,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Pan-seared Roasted Root Vegetables",
+            "price": 8.11,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 9.56,
+            "name": "Classic Steamed Wild Mushroom Risotto",
+            "price": 7.9,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,38 +490,11 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Lemonade",
-            "price": 4.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Iced Tea",
-            "price": 5.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Smoothie",
-            "price": 6.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 7.2,
+            "price": 6.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -530,8 +503,8 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 7.77,
-            "isVegetarian": false,
+            "price": 6.49,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -539,7 +512,34 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
           },
           {
             "name": "Juice",
-            "price": 4.68,
+            "price": 6.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Coffee",
+            "price": 6.06,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Milkshake",
+            "price": 5.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 6.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,24 +552,15 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Satisfy your sweet tooth with our mouthwatering treats",
+    "description": "Crafted with passion, our satisfying desserts are a must-try",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Freshly baked delights that bring warmth and comfort to your table.",
+        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
         "items": [
           {
-            "name": "Authentic Roasted Red Velvet Cake",
-            "price": 7.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Spiced Cannoli",
-            "price": 8.53,
+            "name": "Crumb Cake",
+            "price": 9.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -577,17 +568,17 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Irresistible Tiramisu",
-            "price": 9.15,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Berry Tart",
+            "price": 9.93,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Handcrafted Zingy Banana Bread",
-            "price": 10.42,
+            "name": "Cinnamon Rolls",
+            "price": 10.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,8 +586,17 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Croissants",
-            "price": 10.89,
+            "name": "Cheesecake",
+            "price": 6.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 6.55,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,49 +607,49 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Classic and contemporary frozen delights that cool and satisfy.",
         "items": [
           {
-            "name": "House Special Creamy Semifreddo",
-            "price": 11.72,
+            "name": "Homestyle Enticing Frozen Custard",
+            "price": 9.94,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Creamy Frozen Yogurt",
+            "price": 9.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Herbed Sherbet",
-            "price": 9.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Zingy Sorbet",
-            "price": 11.63,
+            "name": "Organic Grilled Frosty",
+            "price": 11.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Roasted Paletas",
-            "price": 11.85,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Traditional Aromatic Sorbet",
+            "price": 9.8,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Grilled Kulfi",
-            "price": 10.27,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Hearty Smoked Gelato",
+            "price": 9.88,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -660,51 +660,15 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Our bartenders' enticing creations to complete your meal",
+    "description": "A fine selection of alcoholic beverages to complement your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A selection of signature drinks that reflect our culinary philosophy and creativity.",
+        "description": "Crafted for the curious, the connoisseur, and everyone in between.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 15.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mojito",
-            "price": 13.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Martini",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.67,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 14.48,
+            "price": 15.27,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -713,7 +677,7 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
           },
           {
             "name": "Old Fashioned",
-            "price": 11.61,
+            "price": 12.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +685,46 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 10.91,
+            "name": "Mai Tai",
+            "price": 11.1,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.05,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 15.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Manhattan",
+            "price": 11.02,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,56 +733,56 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A wine list as thoughtful and layered as our cuisine.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Merlot",
-            "price": 10.41,
+            "name": "Premium Smoked Vermentino",
+            "price": 10.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Hearty Chardonnay",
+            "price": 12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Grilled Zinfandel",
+            "price": 9.98,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grenache",
-            "price": 9.08,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Dolcetto",
-            "price": 13.31,
-            "isVegetarian": false,
+            "name": "Fresh Fried Petit Verdot",
+            "price": 11.12,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pinot Grigio",
-            "price": 13.73,
+            "name": "Authentic Spiced Pinot Noir",
+            "price": 10.86,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Barbera",
-            "price": 13.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Viognier",
-            "price": 11.57,
+            "name": "Homestyle Succulent Fiano",
+            "price": 12.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -793,11 +793,11 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
         "items": [
           {
-            "name": "Brandy",
-            "price": 13.22,
+            "name": "Vodka",
+            "price": 11.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,9 +805,27 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Aquavit",
-            "price": 15.84,
+            "name": "Armagnac",
+            "price": 12.74,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Bénédictine",
+            "price": 14.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 15.46,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -815,28 +833,10 @@ export const newOrleansamericanInnMenu: RestaurantMenu[] = [
           },
           {
             "name": "St-Germain",
-            "price": 13.98,
+            "price": 11.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey",
-            "price": 17.88,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pisco",
-            "price": 14.18,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

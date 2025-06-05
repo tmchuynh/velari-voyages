@@ -1,185 +1,149 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Cajun Snack Shack in new-orleans
+ * Menu data for French Patisserie in new-orleans
  */
-export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
+export const newOrleansfrenchPatisserieMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Traditional and contemporary Creole favorites with our classic touch",
+    "description": "Our carefully crafted selection of tasty Italian dishes",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
         "items": [
           {
-            "name": "Fresh Spiced Traditional Family Paella",
-            "price": 36.62,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Golden 24-Hour Braised Short Ribs",
-            "price": 37.61,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sautéed Seasonal Tasting Platter",
-            "price": 25.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Exquisite House Famous Duck Confit",
-            "price": 27.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Grilled Heritage Recipe Lamb Shank",
-            "price": 29.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Creamy Executive Chef's Daily Inspiration Entrée",
-            "price": 34.69,
+            "name": "Homestyle Appetizing Tableside Carved Chateaubriand",
+            "price": 34.44,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Crispy Dry-Aged Tomahawk Steak",
-            "price": 26.86,
+            "name": "Homestyle Tangy Chef's Special Surf and Turf",
+            "price": 34.18,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Pan-seared Whole Roasted Heritage Chicken",
+            "price": 36.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Zingy Age-Old Recipe Osso Buco with Gremolata",
+            "price": 30.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crispy Molecular Gastronomy Showcase Tasting",
+            "price": 36.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Enticing Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 31.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Savory Seasonal Tasting Menu Experience",
+            "price": 35.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Gourmet Comforting Seared Duck Breast with Cherry Reduction",
-            "price": 28.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Roasted Whole Animal Butchery Showcase",
-            "price": 30.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Delicious Tableside Flambé Preparation",
-            "price": 38.49,
+            "name": "Dry-Aged Prime Beef Selection",
+            "price": 24.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Satisfying Fire-Roasted Seasonal Centerpiece",
-            "price": 24.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Satisfying Truffle-Infused Filet Mignon",
-            "price": 38.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Appetizers",
-        "description": "Thoughtfully prepared small plates to begin your culinary experience with elegance and taste.",
-        "items": [
-          {
-            "name": "Deviled Eggs",
-            "price": 14.34,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potstickers",
-            "price": 11.95,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lettuce Wraps",
-            "price": 14.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Samosas",
-            "price": 9.92,
+            "name": "Whole Animal Butchery Showcase",
+            "price": 33.19,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ceviche",
-            "price": 13.42,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mini Crab Cakes",
-            "price": 14.58,
+            "name": "Lobster Thermidor",
+            "price": 26.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Tableside Flambé Preparation",
+            "price": 34.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fusion of Traditional and Modern Techniques",
+            "price": 39.62,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Appetizers",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
+        "items": [
+          {
+            "name": "Nachos",
+            "price": 12.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shrimp Cocktail",
+            "price": 9.35,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,8 +151,8 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Caprese Salad",
-            "price": 11.92,
+            "name": "Potstickers",
+            "price": 16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +160,44 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Quesadillas",
-            "price": 12.35,
+            "name": "Hummus Platter",
+            "price": 15.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Meatballs",
+            "price": 12.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chicken Wings",
+            "price": 10.72,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Mezze Platter",
+            "price": 12.74,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Spring Rolls",
+            "price": 14.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,20 +208,11 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
+        "description": "From light broths to hearty stews, our soups are a comforting embrace in every spoonful.",
         "items": [
           {
-            "name": "Organic Crunchy Clam Chowder",
-            "price": 9.41,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Gourmet Comforting Broccoli Cheddar Soup",
-            "price": 8.96,
+            "name": "Fresh Mouthwatering Tomato Soup",
+            "price": 13.5,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -229,41 +220,41 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Comforting Lobster Bisque",
-            "price": 9.11,
-            "isVegetarian": false,
+            "name": "Seasonal Pan-seared Gumbo",
+            "price": 10.3,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Authentic Smoked Black Bean Soup",
-            "price": 12.13,
+            "name": "Traditional Sizzling Cabbage Soup",
+            "price": 10.57,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Sautéed Pumpkin Soup",
+            "price": 8.89,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
+        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 15.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 12.7,
+            "name": "Caesar Salad",
+            "price": 12.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,8 +262,8 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 13.55,
+            "name": "Greek Salad",
+            "price": 15.56,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -280,20 +271,29 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Asian Slaw",
-            "price": 15.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Coleslaw",
-            "price": 9.61,
+            "name": "Potato Salad",
+            "price": 11.11,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 9.76,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 13.59,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,38 +301,11 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
+        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
         "items": [
           {
-            "name": "Thai Curry",
-            "price": 25.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Risotto",
-            "price": 28.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 20.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 19.26,
+            "name": "Enchiladas",
+            "price": 21.82,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -340,26 +313,8 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chili con Carne",
-            "price": 31.49,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roast Duck",
-            "price": 22.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 21.92,
+            "name": "Spaghetti Bolognese",
+            "price": 19.75,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,23 +322,68 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mac and Cheese",
-            "price": 29.29,
+            "name": "Pulled Pork Sandwich",
+            "price": 25.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Jambalaya",
+            "price": 28.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Burrito",
+            "price": 25.5,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tagine",
+            "price": 21.97,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Lasagna",
+            "price": 30.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Teriyaki Chicken",
+            "price": 28.74,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "Coastal cuisine brought inland with clarity, freshness, and elegance.",
         "items": [
           {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 27.93,
+            "name": "Lemon-Herb Calamari Steak",
+            "price": 25.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,26 +391,8 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Smoked Salmon Platter with Dill Crème",
-            "price": 34.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seared Tuna Steak with Sesame Crust",
-            "price": 29.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seafood Risotto with Saffron",
-            "price": 35.56,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 27.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,8 +400,26 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Shrimp Scampi over Linguine",
-            "price": 29.05,
+            "name": "Valencian Seafood Paella",
+            "price": 35.69,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seafood Gumbo with Okra",
+            "price": 28.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 27.94,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -430,20 +430,20 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your meal, these sides are a celebration of Creole flavors.",
+        "description": "Classic Italian side dishes with our own unique interpretation.",
         "items": [
           {
-            "name": "Homestyle Hearty Warm Buttermilk Dinner Rolls",
-            "price": 7.52,
+            "name": "Mashed Potatoes",
+            "price": 5.43,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Golden Provencal Ratatouille",
-            "price": 8.88,
+            "name": "Homestyle Baked Beans",
+            "price": 7.35,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,26 +451,26 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Spicy Israeli Couscous with Roasted Tomatoes",
-            "price": 8.01,
+            "name": "Sautéed Garlic Mushrooms",
+            "price": 7.12,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Steamed Maple-Glazed Baby Carrots",
+            "name": "Herbed Bulgur Wheat with Lemon",
             "price": 8.17,
-            "isVegetarian": true,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Pan-seared Charred Broccolini with Garlic Oil",
-            "price": 7.01,
+            "name": "Creamy Colcannon (Irish Potato Mash)",
+            "price": 9.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -478,23 +478,23 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sautéed Baked Idaho Potato with Sour Cream",
-            "price": 9.54,
-            "isVegetarian": false,
+            "name": "Soft Polenta with Parmesan",
+            "price": 6.79,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright and revitalizing beverages for all ages and preferences.",
+        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
             "name": "Smoothie",
-            "price": 5.84,
+            "price": 6.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -503,35 +503,8 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
           },
           {
             "name": "Lemonade",
-            "price": 4.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hot Chocolate",
-            "price": 6.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Juice",
-            "price": 5.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Water",
-            "price": 4.74,
-            "isVegetarian": false,
+            "price": 5.58,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -539,7 +512,34 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tea",
-            "price": 4.46,
+            "price": 7.77,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hot Chocolate",
+            "price": 5.13,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Water",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soda",
+            "price": 4.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,24 +552,15 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Discover our collection of classic sweet masterpieces",
+    "description": "Our warm dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "From flaky pastries to hearty breads, our baked goods are a must-try.",
+        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
         "items": [
           {
-            "name": "Apple Pie",
-            "price": 7.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baklava",
-            "price": 9.29,
+            "name": "Cupcakes",
+            "price": 7.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -578,7 +569,7 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
           },
           {
             "name": "Banana Bread",
-            "price": 8.38,
+            "price": 9.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,19 +577,28 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crumb Cake",
-            "price": 10.68,
+            "name": "Tiramisu",
+            "price": 8.33,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pecan Pie",
+            "price": 6.56,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Berry Tart",
-            "price": 7.41,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Carrot Cake",
+            "price": 9.63,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,11 +607,11 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "A symphony of flavors and textures, our frozen desserts are a refreshing finale.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Seasonal Creamy Frozen Mousse",
-            "price": 9.49,
+            "name": "Organic Zesty Sorbet",
+            "price": 9.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,37 +619,37 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Crispy Frozen Fruit Bars",
-            "price": 11.42,
+            "name": "Classic Zesty Granita",
+            "price": 11.75,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Smoked Frosty",
+            "price": 8.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Mouthwatering Semifreddo",
+            "price": 10.97,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Marinated Semifreddo",
-            "price": 8.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Juicy Frozen Cheesecake",
-            "price": 11.71,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Smoked Frozen Banana",
-            "price": 10.35,
+            "name": "Deluxe Pan-seared Frozen Yogurt",
+            "price": 9.79,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -660,15 +660,24 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Elevate your dining experience with our easygoing beverage options",
+    "description": "Italian-inspired drinks and classic favorites in our carefully chosen selection",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Refined blends of premium spirits, house syrups, and fresh produce.",
+        "description": "Each cocktail is a work of art—balanced, bold, and beautifully presented.",
         "items": [
           {
-            "name": "Manhattan",
-            "price": 10.21,
+            "name": "House Special Delicious Negroni",
+            "price": 12.07,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Wholesome Bloody Mary",
+            "price": 14.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +685,35 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Bloody Mary",
-            "price": 15.75,
+            "name": "Authentic Sweet Mai Tai",
+            "price": 14.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Savory Mojito",
+            "price": 10.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Crispy Martini",
+            "price": 14.31,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Zingy Margarita",
+            "price": 13.05,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -685,47 +721,11 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 14.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whiskey Sour",
-            "price": 10.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 11.92,
-            "isVegetarian": false,
+            "name": "Fresh Roasted Manhattan",
+            "price": 13.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 13.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 12.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,10 +733,97 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "New World energy meets Old World elegance in our diverse selection.",
+        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
         "items": [
           {
-            "name": "Sémillon",
+            "name": "Premium Juicy Zinfandel",
+            "price": 10.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Barbera",
+            "price": 9.84,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Grilled Viognier",
+            "price": 13.11,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Luscious Syrah/Shiraz",
+            "price": 8.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Sweet Merlot",
+            "price": 9.81,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Dolcetto",
+            "price": 11.04,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Spirits and Liqueurs",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
+        "items": [
+          {
+            "name": "Brandy",
+            "price": 10.16,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sambuca",
+            "price": 12.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chambord",
+            "price": 15.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Triple Sec",
             "price": 12.08,
             "isVegetarian": true,
             "isVegan": false,
@@ -745,98 +832,11 @@ export const newOrleanscajunSnackShackMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 12.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 11.97,
+            "name": "Cognac",
+            "price": 16.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fiano",
-            "price": 11.74,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Vermentino",
-            "price": 10.99,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mourvèdre",
-            "price": 12.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
-        "items": [
-          {
-            "name": "Gourmet Fried Cognac",
-            "price": 15.65,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Fried Grand Marnier",
-            "price": 12.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Stuffed Bénédictine",
-            "price": 13.11,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Braised Grappa",
-            "price": 13.88,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Golden Tequila",
-            "price": 12.51,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

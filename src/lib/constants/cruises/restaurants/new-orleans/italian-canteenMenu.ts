@@ -6,15 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our carefully crafted selection of comforting Cajun dishes",
+    "description": "From street food classics to refined plates—our delicious take on Cajun",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Our chef's pride—carefully selected Cajun specialties that define our culinary identity, honed through years of experience and passion.",
+        "description": "A curated collection of our most iconic and requested plates, each a testament to our culinary excellence.",
         "items": [
           {
-            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
-            "price": 26.81,
+            "name": "Authentic Delectable Chef's Special Surf and Turf",
+            "price": 33.68,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,8 +22,17 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 36.05,
+            "name": "Gourmet Grilled Local Bounty Harvest Plate (Vegetarian)",
+            "price": 34.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Roasted Seasonal Tasting Platter",
+            "price": 32.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -31,8 +40,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 36.72,
+            "name": "Seasonal Zingy Traditional Family Paella",
+            "price": 31.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,91 +49,82 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 28.83,
+            "name": "Authentic Crunchy Black Garlic Glazed Beef Tenderloin",
+            "price": 31.66,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Succulent Chef's Childhood Inspired Creation",
+            "price": 34.88,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Baked Flambéed Tableside Specialty",
+            "price": 32.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 33.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Chef's Special Surf and Turf",
-            "price": 29.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Captain's Favorite Seafood Tower",
-            "price": 34.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
             "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
+        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
         "items": [
           {
-            "name": "Traditional Sweet Chef's Tasting Menu Experience",
-            "price": 38.14,
+            "name": "Chef's Tasting Menu Experience",
+            "price": 27.07,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Aromatic Grilled Venison with Juniper Berry Sauce",
-            "price": 26.94,
+            "name": "Seasonal Truffle Risotto",
+            "price": 36.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Heirloom Recipe from Chef's Family",
+            "price": 34.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "High-End Ingredient Showcase",
+            "price": 29.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Venison with Juniper Berry Sauce",
+            "price": 25.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Crunchy Daily Fresh Catch with Seasonal Accompaniments",
-            "price": 24.99,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Herbed Seasonal Farm-to-Table Vegetable Plate",
-            "price": 24.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Crunchy Sous Vide Perfection with Molecular Gastronomy Elements",
-            "price": 25.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -133,8 +133,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
         "description": "A selection of small plates that showcase the essence of Cajun—perfect for sharing or savoring solo.",
         "items": [
           {
-            "name": "Gourmet Delectable Mini Tacos",
-            "price": 14.07,
+            "name": "Authentic Appetizing Chicken Wings",
+            "price": 9.34,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -142,53 +142,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Steamed Hummus Platter",
-            "price": 9.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Grilled Mini Quesadillas",
-            "price": 15.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Zingy Potstickers",
-            "price": 10.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Sweet Chicken Satay",
-            "price": 11.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Luscious Spinach Artichoke Dip",
-            "price": 12.2,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Stuffed Nachos",
-            "price": 15.77,
+            "name": "Fresh Golden Potato Skins",
+            "price": 11.53,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -196,8 +151,53 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Stuffed Deviled Eggs",
-            "price": 15.52,
+            "name": "Fresh Exquisite Zucchini Fries",
+            "price": 11.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Grilled Antipasto Platter",
+            "price": 15.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Mini Quesadillas",
+            "price": 8.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Luscious Tuna Tartare",
+            "price": 10.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Samosas",
+            "price": 9.69,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Marinated Spinach Artichoke Dip",
+            "price": 12.24,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -208,62 +208,62 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of Cajun flavors and traditions.",
+        "description": "A comforting range of house-made soups, from clear and delicate broths to rich, hearty bowls.",
         "items": [
           {
-            "name": "Authentic Exquisite Zuppa Toscana",
-            "price": 8.31,
+            "name": "Gourmet Delectable Minestrone",
+            "price": 8.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Aromatic Thai Coconut Soup",
+            "price": 8.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Spiced Miso Soup",
-            "price": 11.43,
+            "name": "Gourmet Crunchy Italian Wedding Soup",
+            "price": 9.65,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Satisfying Mushroom Soup",
-            "price": 13.52,
+            "name": "Traditional Smoked Gazpacho",
+            "price": 7.56,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Hearty Pho",
-            "price": 12.21,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       },
       {
         "name": "Salads",
-        "description": "Wholesome creations that blend crunch, freshness, and house-crafted dressings.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
-            "name": "Roasted Vegetable Salad",
-            "price": 10.58,
-            "isVegetarian": true,
+            "name": "Apple Pecan Salad",
+            "price": 12.94,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Garden Salad",
-            "price": 11.9,
+            "name": "Cobb Salad",
+            "price": 12.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -271,29 +271,29 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Apple Pecan Salad",
-            "price": 14.92,
-            "isVegetarian": true,
+            "name": "Mediterranean Chopped Salad",
+            "price": 14.09,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pasta Salad",
-            "price": 14.62,
-            "isVegetarian": true,
+            "name": "Greek Salad",
+            "price": 14.96,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lentil and Feta Salad",
-            "price": 12.63,
-            "isVegetarian": true,
+            "name": "Kale Salad",
+            "price": 12.29,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,89 +301,11 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Hearty and refined mains rooted in traditional Cajun, elevated by modern techniques.",
+        "description": "From classic to contemporary, our mains are a celebration of Cajun culture.",
         "items": [
           {
-            "name": "Pizza",
-            "price": 23.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Salmon",
-            "price": 19.04,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Fish and Chips",
-            "price": 18.63,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Stuffed Peppers",
-            "price": 19.03,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beef Wellington",
-            "price": 21.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Lasagna",
-            "price": 19.69,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mac and Cheese",
-            "price": 26.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 24.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Seafood Specialties",
-        "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
-        "items": [
-          {
-            "name": "Gourmet Spicy Sushi-Grade Sashimi Platter",
-            "price": 35.06,
+            "name": "Seasonal Creamy Spaghetti Bolognese",
+            "price": 21.6,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,8 +313,17 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Roasted Stuffed Flounder with Crab and Spinach",
-            "price": 22.55,
+            "name": "Organic Zingy Seafood Platter",
+            "price": 27.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Smoked Pho",
+            "price": 22.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +331,17 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Delectable Lemon-Herb Calamari Steak",
-            "price": 35.65,
+            "name": "Fresh Fried Lentil Stew",
+            "price": 21.5,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Aromatic Beef Burger",
+            "price": 28.14,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,22 +349,82 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Hearty Tender Smoked Salmon Platter with Dill Crème",
-            "price": 31.53,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Delectable Seafood Risotto with Saffron",
-            "price": 35.72,
+            "name": "House Special Aromatic Chicken Parmesan",
+            "price": 19.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "Homestyle Spiced Chili con Carne",
+            "price": 31.49,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Zesty Tacos",
+            "price": 25.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Seafood Specialties",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "items": [
+          {
+            "name": "Homestyle Delicious Crab-Stuffed Mushrooms",
+            "price": 32.81,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tangy Shrimp Scampi over Linguine",
+            "price": 31.94,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Flaky Hearty Italian Cioppino",
+            "price": 30.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Pan-seared Garlic Butter Shrimp Skillet",
+            "price": 28.82,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Spicy Pan-Seared Scallops with Pea Purée",
+            "price": 23.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
@@ -433,35 +433,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
         "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
         "items": [
           {
-            "name": "Mashed Potatoes",
-            "price": 5.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Crispy Beer-Battered Onion Rings",
-            "price": 8.7,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "French Fries",
-            "price": 6.56,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Yukon Gold Potato Gratin",
-            "price": 8.71,
+            "name": "Stuffed Bell Peppers with Brown Rice",
+            "price": 6.91,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,8 +442,17 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Quinoa Pilaf with Herbs",
-            "price": 9.78,
+            "name": "Grilled Asparagus with Lemon Zest",
+            "price": 8.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chili Lime Roasted Chickpeas",
+            "price": 6.58,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -479,10 +461,28 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Green Beans Almondine",
-            "price": 8.84,
+            "price": 5.11,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 5.12,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Beans",
+            "price": 8.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,39 +490,30 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Crafted beverages that offer a sophisticated alternative to traditional drinks.",
         "items": [
           {
-            "name": "Iced Tea",
-            "price": 4.79,
-            "isVegetarian": true,
+            "name": "Milkshake",
+            "price": 5.37,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Water",
-            "price": 6,
+            "name": "Tea",
+            "price": 5.73,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Smoothie",
-            "price": 5.26,
+            "price": 5.32,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Milkshake",
-            "price": 4.8,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -530,17 +521,26 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Soda",
-            "price": 5.07,
-            "isVegetarian": true,
-            "isVegan": true,
+            "price": 6.62,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Tea",
-            "price": 7.86,
+            "name": "Hot Chocolate",
+            "price": 5.7,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Lemonade",
+            "price": 6.97,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,42 +552,15 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "From classics to signatures: classic desserts for every taste",
+    "description": "Our dessert menu features homemade selections to satisfy every craving",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Perfectly baked goods that pair beautifully with our beverages or stand alone.",
+        "description": "Perfectly baked pastries and breads that bring warmth to your table.",
         "items": [
           {
-            "name": "Gourmet Crispy Muffins",
-            "price": 7.14,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Stuffed Shortbread",
-            "price": 10.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Herbed Apple Pie",
-            "price": 9.59,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Grilled Pecan Pie",
-            "price": 8.8,
+            "name": "Madeleines",
+            "price": 10.21,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,11 +568,38 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Fruit Galette",
-            "price": 6.94,
+            "name": "Banana Bread",
+            "price": 6.4,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cupcakes",
+            "price": 7.26,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cannoli",
+            "price": 9.21,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 10.75,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,11 +607,11 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
-            "name": "Popsicles",
-            "price": 7.7,
+            "name": "Sorbet",
+            "price": 10.72,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,9 +619,18 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Ice Cream Cake",
-            "price": 9.32,
-            "isVegetarian": true,
+            "name": "Frozen Custard",
+            "price": 7.01,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Sherbet",
+            "price": 11.34,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -629,7 +638,7 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gelato",
-            "price": 11.06,
+            "price": 11.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -638,19 +647,10 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
           },
           {
             "name": "Frozen Fruit Bars",
-            "price": 9.87,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Alaska",
-            "price": 11.41,
+            "price": 9.08,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,33 +660,15 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Treat yourself to a balanced nightcap from our curated selection",
+    "description": "Our bar showcases balanced spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
         "items": [
           {
-            "name": "Organic Savory Old Fashioned",
-            "price": 15.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Pan-seared Margarita",
-            "price": 13.06,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Zesty Martini",
-            "price": 14.04,
+            "name": "Deluxe Grilled Cosmopolitan",
+            "price": 14.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -694,17 +676,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Smoked Negroni",
-            "price": 14.3,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Crunchy Mojito",
-            "price": 11.02,
+            "name": "Fresh Tangy Mojito",
+            "price": 14.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -712,8 +685,26 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Aromatic Mai Tai",
-            "price": 13.35,
+            "name": "Traditional Smoked Mai Tai",
+            "price": 15.45,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Creamy Whiskey Sour",
+            "price": 14.46,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Delectable Manhattan",
+            "price": 14.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,8 +712,17 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Herbed Manhattan",
-            "price": 13.21,
+            "name": "Traditional Fried Martini",
+            "price": 14.03,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Stuffed Margarita",
+            "price": 15.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -733,11 +733,11 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "A wine list as thoughtful and layered as our cuisine.",
+        "description": "Our sommelier's recommendations, designed to pair perfectly with our menu.",
         "items": [
           {
-            "name": "Hearty Roasted Petit Verdot",
-            "price": 8.48,
+            "name": "Gourmet Marinated Sangiovese",
+            "price": 12.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,8 +745,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Sautéed Champagne/Sparkling Wine",
-            "price": 11.87,
+            "name": "Authentic Crunchy Roussanne",
+            "price": 12.39,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -754,8 +754,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Fresh Stuffed Sauvignon Blanc",
-            "price": 10.23,
+            "name": "Seasonal Comforting Torrontés",
+            "price": 8.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -763,8 +763,8 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Herbed Pinot Grigio",
-            "price": 11.89,
+            "name": "Gourmet Succulent Barbera",
+            "price": 9.59,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -772,20 +772,20 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Wholesome Zinfandel",
-            "price": 11.02,
+            "name": "Handcrafted Spiced Chenin Blanc",
+            "price": 13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Grilled Dolcetto",
-            "price": 11.06,
+            "name": "Traditional Exquisite Verdicchio",
+            "price": 9.67,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,52 +793,52 @@ export const newOrleansitalianCanteenMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
+        "description": "Start or finish your night with a pour that lingers in memory.",
         "items": [
           {
-            "name": "Gourmet Tangy Coffee Liqueur",
-            "price": 13.17,
+            "name": "Premium Herbed Baileys Irish Cream",
+            "price": 12.64,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Crispy Sambuca",
+            "price": 10.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Mouthwatering Cointreau",
+            "price": 13.33,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Creamy Campari",
+            "price": 10.13,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Sweet Limoncello",
+            "price": 13.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          },
-          {
-            "name": "Handcrafted Zesty Scotch",
-            "price": 14.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Roasted Calvados",
-            "price": 10.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Sweet Cointreau",
-            "price": 11.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Delicious Anisette",
-            "price": 15.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
           }
         ]
       }

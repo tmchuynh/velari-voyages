@@ -248,5 +248,160 @@ export const newOrleansRestaurants: Restaurant[] = [
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": false
+  },
+  {
+    "name": "Cajun Pizzeria",
+    "description": "Experience authentic French cuisine with a local twist, featuring fresh produce served in an atmosphere of ambient lighting overlooking the main square.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "Closed",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-292-1658",
+      "contactEmail": "hello@italianseafoodshacknew-orleans.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "French Patisserie",
+    "description": "Located close to the cultural center, this Italian restaurant delights with its local ingredients and live street performances.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "Closed",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-294-9486",
+      "contactEmail": "feedback@americanpizzerianew-orleans.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Harvest",
+    "description": "A culinary gem serving Italian specialties including fresh produce, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-820-9383",
+      "contactEmail": "feedback@americanprovisionsnew-orleans.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Rooftop",
+    "description": "A culinary gem serving Cajun specialties including regional wines, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Cajun",
+    "priceRange": "$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-604-8627",
+      "contactEmail": "ask@creoleprovisionsnew-orleans.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Creole Saloon",
+    "description": "Experience authentic Cajun cuisine with a local twist, featuring local ingredients served in an atmosphere of boutique shops overlooking downtown.",
+    "cuisine": "Cajun",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-176-8623",
+      "contactEmail": "ask@americanbrasserienew-orleans.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
   }
 ];
