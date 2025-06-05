@@ -9,7 +9,7 @@ import CreateCityCruiseFiles from "./commands/create-city-cruise-files.mjs";
 import CreateRestaurantData from "./commands/create-restaurant-data.mjs";
 import CreateRestaurantMenus from "./commands/create-restaurant-menus.mjs";
 import CreateRestaurantTestimonials from "./commands/create-restaurant-testimonials.mjs";
-import DeleteRestaurantMenuFiles from "./commands/delete-restaurant-menu-files.mjs";
+import DeleteRestaurantMenuFiles from "./delete-restaurant-menu-files.mjs";
 
 const registry = getCommandRegistry();
 const logger = getLogger();

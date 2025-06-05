@@ -3,34 +3,33 @@ import path from "path";
 import readline from "readline";
 import { fileURLToPath } from "url";
 
-// List mode: Just show available cruise files without deleting
-// node scripts/commands/delete-cruise-files.mjs --list
+// List mode: Just show available crew member files without deleting
+// node scripts/delete-crew-members.mjs --list
 
 // Delete specific city:
-// node scripts/commands/delete-cruise-files.mjs --city miami
+// node scripts/delete-crew-members.mjs --city miami
 
 // Delete by pattern:
-// node scripts/commands/delete-cruise-files.mjs --pattern "new-|los-"
+// node scripts/delete-crew-members.mjs --pattern "new-|los-"
 
 // Force delete (skip confirmations):
-// node scripts/commands/delete-cruise-files.mjs --force --city miami
+// node scripts/delete-crew-members.mjs --force --city miami
 
 // Interactive mode (default):
-// node scripts/commands/delete-cruise-files.mjs
+// node scripts/delete-crew-members.mjs
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Base directory for cruise files
-const cruisesDir = path.join(
+// Base directory for crew member files
+const crewMembersDir = path.join(
   __dirname,
-  "..",
   "..",
   "src",
   "lib",
   "constants",
-  "cruises"
+  "crewMembers"
 );
 
 // Parse command line arguments
@@ -52,58 +51,58 @@ const rl = readline.createInterface({
 // Show help message
 if (helpFlag) {
   console.log(`
-Usage: node scripts/delete-cruise-files.mjs [options]
+Usage: node scripts/delete-crew-members.mjs [options]
 
 Options:
   --help, -h                Show this help message
   --force, -f               Skip confirmation prompts
-  --city, -c <city-name>    Delete cruise file for specific city
-  --pattern, -p <pattern>   Delete cruise files matching pattern (e.g., "miami|new-york")
-  --list, -l                List all available cruise files without deleting
+  --city, -c <city-name>    Delete crew members file for specific city
+  --pattern, -p <pattern>   Delete crew members files matching pattern (e.g., "miami|new-york")
+  --list, -l                List all available crew members files without deleting
 
 Examples:
-  node scripts/delete-cruise-files.mjs --list
-  node scripts/delete-cruise-files.mjs --city miami
-  node scripts/delete-cruise-files.mjs --pattern "new-|los-" --force
-  node scripts/delete-cruise-files.mjs              # Interactive mode
+  node scripts/delete-crew-members.mjs --list
+  node scripts/delete-crew-members.mjs --city miami
+  node scripts/delete-crew-members.mjs --pattern "new-|los-" --force
+  node scripts/delete-crew-members.mjs              # Interactive mode
 `);
   process.exit(0);
 }
 
-// Check if cruises directory exists
-if (!fs.existsSync(cruisesDir)) {
-  console.error(`Error: Cruise files directory not found at ${cruisesDir}`);
+// Check if crew members directory exists
+if (!fs.existsSync(crewMembersDir)) {
+  console.error(`Error: Crew members directory not found at ${crewMembersDir}`);
   process.exit(1);
 }
 
-// Get available cruise files
-function getCruiseFiles() {
+// Get available crew member files
+function getCrewMemberFiles() {
   try {
     return fs
-      .readdirSync(cruisesDir)
-      .filter((file) => file.endsWith("-cruises.ts"))
-      .map((file) => file.replace("-cruises.ts", ""));
+      .readdirSync(crewMembersDir)
+      .filter((file) => file.endsWith(".ts"))
+      .map((file) => file.replace(".ts", ""));
   } catch (err) {
-    console.error("Error reading cruise files directory:", err);
+    console.error("Error reading crew members directory:", err);
     return [];
   }
 }
 
-// Function to delete a specific cruise file
-function deleteCruiseFile(city) {
-  const filePath = path.join(cruisesDir, `${city}-cruises.ts`);
+// Function to delete a specific crew member file
+function deleteCrewMemberFile(city) {
+  const filePath = path.join(crewMembersDir, `${city}.ts`);
 
   if (!fs.existsSync(filePath)) {
-    console.error(`Error: Cruise file for ${city} does not exist.`);
+    console.error(`Error: Crew member file for ${city} does not exist.`);
     return false;
   }
 
   try {
     fs.unlinkSync(filePath);
-    console.log(`Successfully deleted cruise file for ${city}`);
+    console.log(`Successfully deleted crew member file for ${city}`);
     return true;
   } catch (err) {
-    console.error(`Error deleting cruise file for ${city}:`, err);
+    console.error(`Error deleting crew member file for ${city}:`, err);
     return false;
   }
 }
@@ -124,19 +123,19 @@ function confirmDeletion(message, callback) {
 
 // Main execution path
 async function main() {
-  const cruiseFiles = getCruiseFiles();
+  const crewMemberFiles = getCrewMemberFiles();
 
   // Just list files if requested
   if (listFlag) {
-    console.log("Available cruise files:");
-    cruiseFiles.forEach((city) => console.log(`- ${city}`));
+    console.log("Available crew member files:");
+    crewMemberFiles.forEach((city) => console.log(`- ${city}`));
     rl.close();
     return;
   }
 
-  // No cruise files found
-  if (cruiseFiles.length === 0) {
-    console.log("No cruise files found. Nothing to delete.");
+  // No crew member files found
+  if (crewMemberFiles.length === 0) {
+    console.log("No crew member files found. Nothing to delete.");
     rl.close();
     return;
   }
@@ -145,18 +144,20 @@ async function main() {
   if (cityFlag !== -1 && args.length > cityFlag + 1) {
     const cityToDelete = args[cityFlag + 1];
 
-    if (!cruiseFiles.includes(cityToDelete)) {
-      console.error(`Error: No cruise file found for city '${cityToDelete}'`);
-      console.log("Available cities:", cruiseFiles.join(", "));
+    if (!crewMemberFiles.includes(cityToDelete)) {
+      console.error(
+        `Error: No crew member file found for city '${cityToDelete}'`
+      );
+      console.log("Available cities:", crewMemberFiles.join(", "));
       rl.close();
       return;
     }
 
     confirmDeletion(
-      `Are you sure you want to delete the cruise file for ${cityToDelete}?`,
+      `Are you sure you want to delete the crew member file for ${cityToDelete}?`,
       (confirmed) => {
         if (confirmed) {
-          deleteCruiseFile(cityToDelete);
+          deleteCrewMemberFile(cityToDelete);
         } else {
           console.log("Deletion cancelled.");
         }
@@ -169,31 +170,31 @@ async function main() {
   // Delete files matching pattern
   if (patternFlag !== -1 && args.length > patternFlag + 1) {
     const pattern = new RegExp(args[patternFlag + 1]);
-    const matchingCities = cruiseFiles.filter((city) => pattern.test(city));
+    const matchingCities = crewMemberFiles.filter((city) => pattern.test(city));
 
     if (matchingCities.length === 0) {
       console.log(
-        `No cruise files match the pattern '${args[patternFlag + 1]}'`
+        `No crew member files match the pattern '${args[patternFlag + 1]}'`
       );
       rl.close();
       return;
     }
 
-    console.log("The following cruise files match your pattern:");
+    console.log("The following crew member files match your pattern:");
     matchingCities.forEach((city) => console.log(`- ${city}`));
 
     confirmDeletion(
-      `Are you sure you want to delete ${matchingCities.length} cruise files?`,
+      `Are you sure you want to delete ${matchingCities.length} crew member files?`,
       (confirmed) => {
         if (confirmed) {
           let deletedCount = 0;
           matchingCities.forEach((city) => {
-            if (deleteCruiseFile(city)) {
+            if (deleteCrewMemberFile(city)) {
               deletedCount++;
             }
           });
           console.log(
-            `Deleted ${deletedCount} of ${matchingCities.length} cruise files.`
+            `Deleted ${deletedCount} of ${matchingCities.length} crew member files.`
           );
         } else {
           console.log("Deletion cancelled.");
@@ -205,7 +206,7 @@ async function main() {
   }
 
   // Interactive mode - delete all or select from list
-  console.log(`Found ${cruiseFiles.length} cruise files.`);
+  console.log(`Found ${crewMemberFiles.length} crew member files.`);
 
   rl.question(
     `Do you want to [d]elete all, [s]elect from list, or [c]ancel? `,
@@ -215,17 +216,17 @@ async function main() {
         case "delete":
         case "delete all":
           confirmDeletion(
-            `Are you sure you want to delete ALL ${cruiseFiles.length} cruise files?`,
+            `Are you sure you want to delete ALL ${crewMemberFiles.length} crew member files?`,
             (confirmed) => {
               if (confirmed) {
                 let deletedCount = 0;
-                cruiseFiles.forEach((city) => {
-                  if (deleteCruiseFile(city)) {
+                crewMemberFiles.forEach((city) => {
+                  if (deleteCrewMemberFile(city)) {
                     deletedCount++;
                   }
                 });
                 console.log(
-                  `Deleted ${deletedCount} of ${cruiseFiles.length} cruise files.`
+                  `Deleted ${deletedCount} of ${crewMemberFiles.length} crew member files.`
                 );
               } else {
                 console.log("Deletion cancelled.");
@@ -237,8 +238,8 @@ async function main() {
 
         case "s":
         case "select":
-          console.log("\nAvailable cruise files:");
-          cruiseFiles.forEach((city, index) => {
+          console.log("\nAvailable crew member files:");
+          crewMemberFiles.forEach((city, index) => {
             console.log(`${index + 1}. ${city}`);
           });
 
@@ -249,7 +250,8 @@ async function main() {
                 .split(",")
                 .map((num) => parseInt(num.trim()) - 1)
                 .filter(
-                  (num) => !isNaN(num) && num >= 0 && num < cruiseFiles.length
+                  (num) =>
+                    !isNaN(num) && num >= 0 && num < crewMemberFiles.length
                 );
 
               if (selectedIndexes.length === 0) {
@@ -259,23 +261,23 @@ async function main() {
               }
 
               const selectedCities = selectedIndexes.map(
-                (index) => cruiseFiles[index]
+                (index) => crewMemberFiles[index]
               );
               console.log("\nYou selected:");
               selectedCities.forEach((city) => console.log(`- ${city}`));
 
               confirmDeletion(
-                `Are you sure you want to delete these ${selectedCities.length} cruise files?`,
+                `Are you sure you want to delete these ${selectedCities.length} crew member files?`,
                 (confirmed) => {
                   if (confirmed) {
                     let deletedCount = 0;
                     selectedCities.forEach((city) => {
-                      if (deleteCruiseFile(city)) {
+                      if (deleteCrewMemberFile(city)) {
                         deletedCount++;
                       }
                     });
                     console.log(
-                      `Deleted ${deletedCount} of ${selectedCities.length} cruise files.`
+                      `Deleted ${deletedCount} of ${selectedCities.length} crew member files.`
                     );
                   } else {
                     console.log("Deletion cancelled.");
