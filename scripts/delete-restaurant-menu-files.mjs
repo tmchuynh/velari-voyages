@@ -1,13 +1,12 @@
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-import { getCityFiles } from "./utils/file-utils.mjs";
+import readline from "readline";
+import { getCityFiles, getDirname } from "./utils/file-utils.mjs";
 
-// Get the equivalent of __dirname in ESM
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Setup dirname
+const __dirname = getDirname(import.meta.url);
 
-// Define base directory for restaurant files
+// Base directory where restaurant files are located
 const baseDir = path.join(
   __dirname,
   "..",
@@ -19,45 +18,88 @@ const baseDir = path.join(
 );
 
 // Get city files
-const cityDirs = getCityFiles(path.join(__dirname, ".."));
+const cityFiles = getCityFiles();
 
-console.log(`Found ${cityDirs.length} cities to process`);
-
-// Initialize counters
-let totalDeleted = 0;
-let totalNotFound = 0;
-
-// Process each city directory
-cityDirs.forEach((cityDir) => {
-  const cityPath = path.join(baseDir, cityDir);
-
-  try {
-    // Get all menu files in the city directory (ending with Menu.ts but not restaurants.ts)
-    const files = fs
-      .readdirSync(cityPath)
-      .filter((file) => file.endsWith("Menu.ts") && file !== "restaurants.ts");
-
-    console.log(`Found ${files.length} menu files in ${cityDir}`);
-
-    // Delete each menu file
-    files.forEach((file) => {
-      const filePath = path.join(cityPath, file);
-
-      try {
-        fs.unlinkSync(filePath);
-        console.log(`Deleted: ${filePath}`);
-        totalDeleted++;
-      } catch (err) {
-        console.error(`Failed to delete ${filePath}:`, err);
-        totalNotFound++;
-      }
-    });
-  } catch (err) {
-    console.error(`Error processing directory ${cityPath}:`, err);
-  }
+// Create readline interface for user confirmation
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
 });
 
-console.log("\n=== Summary ===");
-console.log(`Total files deleted: ${totalDeleted}`);
-console.log(`Total files not found or failed: ${totalNotFound}`);
-console.log("Restaurant menu files deletion process completed!");
+// Main function to delete restaurant files
+async function deleteRestaurantFiles() {
+  console.log("Starting restaurant files deletion script...");
+
+  // Check if base directory exists
+  if (!fs.existsSync(baseDir)) {
+    console.error(`Error: Base directory not found: ${baseDir}`);
+    rl.close();
+    return;
+  }
+
+  // Ask for confirmation before proceeding
+  const answer = await new Promise((resolve) => {
+    rl.question(
+      `This will delete all restaurant files (except restaurants.ts) in ${cityFiles.length} cities. Continue? (y/n): `,
+      resolve
+    );
+  });
+
+  if (answer.toLowerCase() !== "y") {
+    console.log("Operation cancelled.");
+    rl.close();
+    return;
+  }
+
+  let totalDeleted = 0;
+  let processedCities = 0;
+  let missingCities = 0;
+
+  // Process each city from our predefined list
+  for (const cityDir of cityFiles) {
+    const cityPath = path.join(baseDir, cityDir);
+
+    // Check if directory exists before proceeding
+    if (!fs.existsSync(cityPath)) {
+      console.log(
+        `Warning: Directory for ${cityDir} does not exist. Skipping.`
+      );
+      missingCities++;
+      continue;
+    }
+
+    processedCities++;
+
+    try {
+      // Get all .ts files in the directory (except restaurants.ts)
+      const files = fs
+        .readdirSync(cityPath)
+        .filter((file) => file.endsWith(".ts") && file !== "restaurants.ts");
+
+      console.log(
+        `Found ${files.length} restaurant files to delete in ${cityDir}...`
+      );
+
+      // Delete each file
+      files.forEach((file) => {
+        const filePath = path.join(cityPath, file);
+        fs.unlinkSync(filePath);
+        totalDeleted++;
+        console.log(`Deleted: ${filePath}`);
+      });
+    } catch (error) {
+      console.error(`Error processing directory ${cityDir}: ${error.message}`);
+    }
+  }
+
+  console.log(
+    `Operation complete. Deleted ${totalDeleted} restaurant files across ${processedCities} cities.`
+  );
+  if (missingCities > 0) {
+    console.log(`Note: ${missingCities} city directories were not found.`);
+  }
+  rl.close();
+}
+
+// Run the script
+deleteRestaurantFiles();
