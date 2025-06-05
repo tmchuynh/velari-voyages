@@ -59,7 +59,7 @@ export default function CityCruisesPage() {
   const cityInfo = cruiseDepartureLocations.find(
     (attraction) =>
       attraction.city.toLowerCase() ===
-      formatKebebToTitleCase(city || "")?.toLowerCase()
+      formatKebebToTitleCase(city || "")?.toLowerCase(),
   );
 
   useEffect(() => {
@@ -73,8 +73,8 @@ export default function CityCruisesPage() {
             (location) =>
               location.city.toLowerCase() ===
               formatKebebToTitleCase(
-                decodeURIComponent(cityName)
-              )?.toLowerCase()
+                decodeURIComponent(cityName),
+              )?.toLowerCase(),
           );
 
           // Use the city information to get cruises if possible
@@ -85,7 +85,7 @@ export default function CityCruisesPage() {
             } else {
               // Fall back to direct city name lookup
               const fallbackData = await getCruises(
-                decodeURIComponent(cityName)
+                decodeURIComponent(cityName),
               );
               setCruises(fallbackData);
             }
@@ -127,7 +127,7 @@ export default function CityCruisesPage() {
     const categories = [...new Set(cruises.map((tour) => tour.tourCategoryId))];
     const allTags = new Set<string>();
     cruises.forEach((tour) =>
-      tour.tags?.forEach((tag: string) => allTags.add(tag))
+      tour.tags?.forEach((tag: string) => allTags.add(tag)),
     );
 
     const currentCruisePrices = cruises

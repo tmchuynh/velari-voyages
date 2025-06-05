@@ -73,7 +73,7 @@ export default function CruiseInformationPage() {
         const data = await getCruises(departureLocationCity);
         // Find the specific cruise by title
         const cruiseInfo = data.find(
-          (c: { title: string }) => c.title === cruise
+          (c: { title: string }) => c.title === cruise,
         );
 
         if (cruiseInfo) {
@@ -86,7 +86,7 @@ export default function CruiseInformationPage() {
           const alternativeCruiseInfo = data.find(
             (c: any) =>
               c.departureLocation?.city === departureLocationCity &&
-              c.arrivalLocation?.city === arrivalLocationCity
+              c.arrivalLocation?.city === arrivalLocationCity,
           );
 
           if (alternativeCruiseInfo) {
@@ -291,7 +291,7 @@ export default function CruiseInformationPage() {
                           router.push(
                             `/cruises/restaurants/${location.city.toLowerCase()}?city=${
                               location.city
-                            }`
+                            }`,
                           )
                         }
                       >
@@ -398,7 +398,7 @@ export default function CruiseInformationPage() {
                             </Button>
                           </div>
                         </div>
-                      )
+                      ),
                     )
                   ) : (
                     <p>No packages available for this cruise category.</p>
