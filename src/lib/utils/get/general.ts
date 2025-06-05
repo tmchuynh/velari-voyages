@@ -1,3 +1,6 @@
+import { Location } from "@/lib/types/types";
+import { cruiseDepartureLocations } from "@/lib/constants/info/city";
+
 /**
  * Generates an array of random dates starting from next week's Monday.
  *
@@ -15,7 +18,7 @@
  */
 export function getRandomDatesFromNextWeek(
   count: number,
-  rangeInDays = 30,
+  rangeInDays = 30
 ): string[] {
   const dates = new Set<string>();
 
@@ -37,4 +40,12 @@ export function getRandomDatesFromNextWeek(
   }
 
   return Array.from(dates);
+}
+
+export function getCityInformation(city: string): Location | undefined {
+  const cityName = city.toLowerCase();
+  const cityInformation = cruiseDepartureLocations.find(
+    (location) => location.city.toLowerCase() === cityName
+  );
+  return cityInformation;
 }
