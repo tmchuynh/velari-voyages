@@ -71,6 +71,7 @@ export const cityFiles = [
   "vancouver",
   "venice",
   "yokohama",
+  "oslo",
 ];
 
 export const cruiseDepartureLocations: Location[] = [
@@ -882,5 +883,24 @@ export const cruiseDepartureLocations: Location[] = [
     timezoneAbbreviation: "EST/EDT",
     additionalInfo:
       "Great Lakes cruise destination. Toronto's cruise terminal primarily serves smaller vessels navigating the Great Lakes during the summer and early fall season (June-October). The facility welcomes ships exploring routes between major cities on the Great Lakes including Chicago, Detroit, Milwaukee, and Cleveland. Located at the eastern edge of the harbor, the terminal provides convenient access to Toronto's diverse neighborhoods, CN Tower, Ripley's Aquarium, and vibrant waterfront developments.",
+  },
+  {
+    city: "Oslo",
+    country: "Norway",
+    region: "Viken",
+    isPopular: false,
+    subtitle: "Gateway to the Fjords",
+    quote:
+      "Where the sea meets the forest, Oslo cradles the essence of Norway's natural beauty and maritime heritage.",
+    coordinates: {
+      latitude: 59.9139,
+      longitude: 10.7522,
+    },
+    address: "Oslo Cruise Terminal, Akershusstranda 31",
+    postalCode: "0150",
+    timezone: "Europe/Oslo",
+    timezoneAbbreviation: "CET/CEST",
+    additionalInfo:
+      "Main cruise port for Norway, especially for fjord cruises. The terminal is located in the city center, within walking distance to major attractions like the Oslo Opera House, Akershus Fortress, and the Nobel Peace Center. The cruise season typically runs from April to September, coinciding with the best weather for exploring Norway's stunning fjords and coastal scenery. Well-connected by public transport, the port offers easy access to Oslo Gardermoen Airport (about 50 minutes by train).",
   },
 ];
