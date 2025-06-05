@@ -1,4 +1,3 @@
-import { formatTitleToCamelCase } from "@/lib/utils/format.ts";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -294,6 +293,18 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
     );
   }
 };
+
+function formatTitleToCamelCase(title) {
+  return title
+    .split(" ")
+    .map((word, index) => {
+      if (index === 0) {
+        return word.toLowerCase();
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join("");
+}
 
 // Function to generate random restaurant data for a city
 const generateRandomRestaurants = (cityName, count) => {
@@ -1690,12 +1701,12 @@ const generateRandomRestaurants = (cityName, count) => {
           .toLowerCase()
           .replace(/ /g, "")}${cityName}.com`,
       },
-      isVegetarianFriendly: `${vegetarianFriendly}`,
-      isVeganFriendly: `${veganFriendly}`,
+      isVegetarianFriendly: vegetarianFriendly,
+      isVeganFriendly: veganFriendly,
       isGlutenFreeFriendly: getRandomBool(0.4),
       isHalalFriendly: getRandomBool(0.3),
       isKosherFriendly: getRandomBool(0.2),
-      isFineDining: `${fineDining}`,
+      isFineDining: fineDining,
       isAdultOnly: getRandomBool(0.1),
       isIndoorSeating: getRandomBool(0.9),
       isReservationsAccepted: getRandomBool(0.8),
