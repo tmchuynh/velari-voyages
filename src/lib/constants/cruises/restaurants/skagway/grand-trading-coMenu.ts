@@ -6,33 +6,24 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "A journey through Japanese flavors, led by our chef's fresh creations",
+    "description": "Bold, delicious, and unmistakably Japanese—each dish tells a story",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 34.85,
+            "name": "Authentic Grilled House Famous Duck Confit",
+            "price": 27.31,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 32.56,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Heritage Recipe Lamb Shank",
-            "price": 27.76,
+            "name": "Hearty Stuffed Heritage Recipe Lamb Shank",
+            "price": 30.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,89 +31,98 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Dry-Aged Tomahawk Steak",
-            "price": 27.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Executive Chef's Daily Inspiration Entrée",
-            "price": 37.53,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "24-Hour Braised Short Ribs",
-            "price": 30.22,
-            "isVegetarian": false,
+            "name": "Seasonal Steamed Chef's Childhood Inspired Creation",
+            "price": 25.27,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 32.79,
+            "name": "Authentic Comforting Signature Truffle Pasta with Aged Pecorino",
+            "price": 27.92,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Crispy Sous Vide Perfected Wagyu",
+            "price": 28.31,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Zingy Secret Recipe Bouillabaisse",
+            "price": 29.72,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Crunchy Flambéed Tableside Specialty",
+            "price": 36.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Japanese.",
+        "description": "Expressions of creativity from our chef’s table—ever-changing and inspired by market finds.",
         "items": [
           {
-            "name": "Authentic Luscious Heritage Breed Porchetta",
-            "price": 31.03,
-            "isVegetarian": false,
+            "name": "Classic Juicy Chef's Childhood Favorite Reimagined",
+            "price": 32.29,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Satisfying Tomahawk Ribeye for Two",
-            "price": 34.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Pan-seared Signature Spice-Rubbed Protein",
-            "price": 38.21,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Crispy Off-Menu Secret Preparation",
-            "price": 24.59,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Premium Spiced Sustainable Seafood Tower",
+            "price": 30.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Fried Dry-Aged Prime Beef Selection",
+            "price": 26.87,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Deluxe Sautéed Seasonal Truffle Risotto",
-            "price": 32.98,
+            "name": "Authentic Smoked Duck Confit with Roasted Root Vegetables",
+            "price": 30.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Grilled Volcanic Stone-Cooked Specialty",
+            "price": 39.2,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,56 +130,29 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
+        "description": "A tempting assortment of beginning bites to pair with your first drink.",
         "items": [
           {
-            "name": "Authentic Herbed Stuffed Jalapeños",
-            "price": 9.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Mouthwatering Cheese Nachos",
-            "price": 9.26,
+            "name": "Bruschetta",
+            "price": 9.8,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Tangy Mini Crab Cakes",
-            "price": 15.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Satisfying Falafel",
-            "price": 10.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Spiced Samosas",
-            "price": 15.25,
-            "isVegetarian": false,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Aromatic Potstickers",
-            "price": 13.58,
+            "name": "Shrimp Cocktail",
+            "price": 13.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Zucchini Fries",
+            "price": 12.99,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -187,18 +160,45 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Enticing Potato Skins",
-            "price": 13.2,
+            "name": "Arancini",
+            "price": 10.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Meatballs",
+            "price": 13.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Premium Zingy Arancini",
-            "price": 11.55,
+            "name": "Stuffed Avocado",
+            "price": 14.67,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Brie",
+            "price": 8.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tempura",
+            "price": 12.93,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -208,40 +208,40 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Daily-prepared soups made from seasonal ingredients and traditional Japanese methods.",
         "items": [
           {
-            "name": "Tomato Soup",
-            "price": 10.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Avgolemono (Greek Lemon Soup)",
-            "price": 12.06,
+            "name": "Premium Succulent Pho",
+            "price": 13.22,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "French Onion Soup",
-            "price": 10.07,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Lentil Soup",
-            "price": 7.43,
+            "name": "Traditional Fried Egg Drop Soup",
+            "price": 13.43,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Spiced Hot and Sour Soup",
+            "price": 9.04,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Crunchy Zuppa Toscana",
+            "price": 8.29,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -250,20 +250,11 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Each salad is a work of art, designed to nourish and delight.",
         "items": [
           {
-            "name": "Coleslaw",
-            "price": 14.49,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Garden Salad",
-            "price": 9.54,
+            "name": "Quinoa Salad",
+            "price": 13.48,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -271,29 +262,38 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beet Salad",
-            "price": 11.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Farro Salad",
-            "price": 14.53,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Mediterranean Chopped Salad",
-            "price": 9.16,
+            "price": 14.08,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Green Papaya Salad",
+            "price": 13.66,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kale Salad",
+            "price": 9.01,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Arugula Salad",
+            "price": 15.6,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -301,20 +301,20 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Gnocchi",
-            "price": 28.89,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Jambalaya",
+            "price": 21.25,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Risotto",
-            "price": 22,
+            "name": "Katsu Curry",
+            "price": 30.18,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -322,17 +322,8 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pho",
-            "price": 24.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Shish Kebabs",
-            "price": 26.72,
+            "name": "Moussaka",
+            "price": 19.21,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -340,77 +331,59 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Wellington",
-            "price": 31.69,
+            "name": "Tacos",
+            "price": 31.3,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Grilled Chicken",
+            "price": 20.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Chicken Parmesan",
-            "price": 29.42,
+            "name": "Korma",
+            "price": 22.73,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Tagine",
-            "price": 31.75,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "price": 19.54,
-            "isVegetarian": false,
+            "name": "Burrito",
+            "price": 18.58,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Shish Kebabs",
+            "price": 29.9,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "A celebration of the sea, featuring seasonal catches and artisanal techniques.",
         "items": [
           {
-            "name": "Authentic Mouthwatering Maryland Style Crab Cakes",
-            "price": 23.4,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Premium Roasted Pan-Seared Scallops with Pea Purée",
-            "price": 26.22,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Wholesome Stuffed Flounder with Crab and Spinach",
-            "price": 26.98,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Crunchy Lobster Thermidor with Gruyère Crust",
-            "price": 26.66,
+            "name": "New England Lobster Roll",
+            "price": 25.63,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,59 +391,8 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Juicy Mussels Mariniere in White Wine",
-            "price": 33.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          }
-        ]
-      },
-      {
-        "name": "Side Dishes",
-        "description": "Flavor-packed sides made to share—or keep all to yourself.",
-        "items": [
-          {
-            "name": "Handcrafted Flaky Roasted Brussels Sprouts with Balsamic Glaze",
-            "price": 6.83,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Delectable Truffle Parmesan Fries",
-            "price": 8.88,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Luscious Corn on the Cob with Chili Lime Butter",
-            "price": 7.09,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Spicy French Fries",
-            "price": 6.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Herbed Braised Red Cabbage with Apple",
-            "price": 6.45,
+            "name": "Hearty Italian Cioppino",
+            "price": 31.11,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -478,10 +400,88 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Delicious Herbed Bulgur Wheat with Lemon",
-            "price": 5.22,
+            "name": "Seafood Gumbo with Okra",
+            "price": 33.73,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic British Fish and Chips",
+            "price": 28.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 25.11,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Side Dishes",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
+        "items": [
+          {
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 8.6,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "French Fries",
+            "price": 7.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Macaroni and Aged Cheddar",
+            "price": 6.59,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Buttered Egg Noodles",
+            "price": 9.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Wild Rice Pilaf",
+            "price": 7.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Baked Beans",
+            "price": 6.68,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -490,20 +490,20 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
+        "description": "Bright and revitalizing beverages for all ages and preferences.",
         "items": [
           {
-            "name": "Authentic Enticing Juice",
-            "price": 5.74,
-            "isVegetarian": false,
+            "name": "Traditional Roasted Juice",
+            "price": 7.53,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Hearty Grilled Soda",
-            "price": 6.96,
+            "name": "Handcrafted Steamed Lemonade",
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,17 +511,17 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Grilled Hot Chocolate",
-            "price": 4.72,
-            "isVegetarian": true,
+            "name": "Deluxe Sautéed Smoothie",
+            "price": 6.46,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Enticing Iced Tea",
-            "price": 5.29,
+            "name": "Premium Comforting Soda",
+            "price": 6.77,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -529,20 +529,20 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Pan-seared Water",
-            "price": 7.89,
-            "isVegetarian": true,
+            "name": "Premium Savory Tea",
+            "price": 5.58,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Spiced Coffee",
-            "price": 6.77,
+            "name": "Organic Grilled Milkshake",
+            "price": 5.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -552,105 +552,105 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Delight in our comforting desserts prepared fresh daily",
+    "description": "A curated selection of delicious desserts, inspired by Japanese heritage",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Each bite tells a story—layered, textured, and baked to perfection.",
+        "description": "Handcrafted with the finest ingredients, our baked goods are a treat for the senses.",
         "items": [
           {
-            "name": "Cheesecake",
-            "price": 8.8,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Strawberry Shortcake",
-            "price": 10.67,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Portuguese Custard Tarts",
-            "price": 7.32,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scones",
-            "price": 7.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cannoli",
-            "price": 10.76,
+            "name": "Deluxe Creamy Tiramisu",
+            "price": 8.54,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Seasonal Herbed Cheesecake",
+            "price": 6.65,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Crunchy Cannoli",
+            "price": 6.31,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Tangy Macarons",
+            "price": 10.53,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Golden Treacle Tart",
+            "price": 7.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Refreshing treats from velvety gelatos to sharp, citrusy sorbets.",
         "items": [
           {
-            "name": "Ice Cream Cake",
-            "price": 10.97,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Ice Cream",
-            "price": 7.17,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frosty",
-            "price": 8.61,
+            "name": "Handcrafted Savory Frozen Pudding",
+            "price": 7.24,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Stuffed Ice Cream Cake",
+            "price": 7.02,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Exquisite Frozen Custard",
+            "price": 10.2,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Hearty Ice Cream",
+            "price": 9.78,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gelato",
-            "price": 8.16,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Granita",
-            "price": 9.37,
+            "name": "Fresh Zingy Ice Cream Sandwich",
+            "price": 9.83,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,24 +660,15 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Japanese-inspired drinks and classic favorites in our crowd-pleasing selection",
+    "description": "Our inviting collection of spirits and cocktails to enhance your dining experience",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
+        "description": "From reinvented classics to bold new creations, every glass is an experience.",
         "items": [
           {
-            "name": "Gourmet Tangy Bloody Mary",
-            "price": 14.06,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Smoked Negroni",
-            "price": 14.51,
+            "name": "Manhattan",
+            "price": 13.92,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -685,35 +676,8 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "House Special Pan-seared Mojito",
-            "price": 12.94,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Comforting Old Fashioned",
-            "price": 12.78,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Juicy Margarita",
-            "price": 10.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Stuffed Cosmopolitan",
-            "price": 10.1,
+            "name": "Mojito",
+            "price": 10.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -721,10 +685,46 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Golden Manhattan",
-            "price": 10.17,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Cosmopolitan",
+            "price": 14.14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Martini",
+            "price": 14.39,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 12.15,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Old Fashioned",
+            "price": 11.85,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey Sour",
+            "price": 15.15,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,38 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Perfect pairings for any palate, with guidance available from our trained staff.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Sémillon",
-            "price": 9.75,
+            "name": "Handcrafted Satisfying Syrah/Shiraz",
+            "price": 9.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Zingy Pinot Grigio",
+            "price": 8.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Wholesome Grenache",
+            "price": 11.63,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flavorful Pinot Blanc",
+            "price": 11.18,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -745,44 +772,17 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sangiovese",
-            "price": 10.39,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Syrah/Shiraz",
-            "price": 10.86,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Merlot",
-            "price": 11.33,
+            "name": "Authentic Zesty Torrontés",
+            "price": 12.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Verdicchio",
-            "price": 12.08,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pinot Grigio",
-            "price": 12.82,
+            "name": "Traditional Grilled Nebbiolo",
+            "price": 10.7,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -793,20 +793,29 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Explore our selection of small-batch and artisanal spirits, each with a unique story.",
+        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
         "items": [
           {
-            "name": "Classic Stuffed Vodka",
-            "price": 14.02,
+            "name": "Authentic Irresistible Tequila",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Organic Grilled Frangelico",
+            "price": 16.69,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Premium Hearty Frangelico",
-            "price": 11.12,
+            "name": "Organic Stuffed Gin",
+            "price": 15.71,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -814,8 +823,8 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Braised Chartreuse",
-            "price": 12.96,
+            "name": "Organic Pan-seared St-Germain",
+            "price": 10.43,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -823,18 +832,9 @@ export const skagwaygrandTradingCoMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Fried Scotch",
-            "price": 15.62,
+            "name": "Homestyle Delicious Cointreau",
+            "price": 12.03,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Savory Absinthe",
-            "price": 15.92,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,

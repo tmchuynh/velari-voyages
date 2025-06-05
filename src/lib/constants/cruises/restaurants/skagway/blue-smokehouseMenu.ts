@@ -6,33 +6,15 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of tasty offerings from across the Japanese spectrum",
+    "description": "Bold, classic, and unmistakably Japanese—each dish tells a story",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A curated collection of our most iconic and requested plates.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Seasonal Golden Whole Roasted Heritage Chicken",
-            "price": 24.42,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Sautéed Secret Recipe Bouillabaisse",
-            "price": 32.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Exquisite Restaurant's Namesake Signature Entrée",
-            "price": 25.42,
+            "name": "Heritage Recipe Lamb Shank",
+            "price": 36.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -40,17 +22,26 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Homestyle Hearty Chef’s Wild Game Selection",
-            "price": 37.4,
-            "isVegetarian": true,
+            "name": "Captain's Favorite Seafood Tower",
+            "price": 30.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Chef's Special Surf and Turf",
+            "price": 32.64,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Seasonal Grilled Black Garlic Glazed Beef Tenderloin",
-            "price": 35.49,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 32.77,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -58,32 +49,41 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Grilled Heritage Recipe Lamb Shank",
-            "price": 26.96,
+            "name": "Modernist Foie Gras Sphere with Rhubarb Gel",
+            "price": 37.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Fresh Smoked Charcoal Grilled Iberico Pork",
-            "price": 36.73,
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 25.78,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Award-Winning Seafood Boil",
+            "price": 30.79,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "Inspired by nature, mood, and season—our chef’s ever-evolving vision on a plate.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for Japanese.",
         "items": [
           {
-            "name": "Fire-Roasted Seasonal Centerpiece",
-            "price": 33.51,
+            "name": "Fresh Pan-seared Tasting of Local Artisanal Cheeses",
+            "price": 27.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,37 +91,37 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Tasting Menu Experience",
-            "price": 24.38,
+            "name": "Classic Spiced Tableside Flambé Preparation",
+            "price": 25.76,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Savory Truffle-Infused Filet Mignon",
+            "price": 27.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Spiced Chef's Tasting Menu Experience",
+            "price": 24.35,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whole Animal Butchery Showcase",
-            "price": 32.58,
+            "name": "Homestyle Marinated Fire-Roasted Seasonal Centerpiece",
+            "price": 37.13,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tasting of Local Artisanal Cheeses",
-            "price": 32.78,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Tableside Prepared Tartare",
-            "price": 37.38,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -130,29 +130,11 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "A selection of small plates that showcase the essence of Japanese—perfect for sharing or savoring solo.",
+        "description": "Flavor-forward starters that introduce our approach to Japanese with balance and creativity.",
         "items": [
-          {
-            "name": "Antipasto Platter",
-            "price": 13.66,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
           {
             "name": "Garlic Bread",
             "price": 14.93,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Jalapeños",
-            "price": 9.83,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,8 +142,17 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Edamame",
-            "price": 13.16,
+            "name": "Ceviche",
+            "price": 14.83,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Nachos",
+            "price": 8.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,17 +160,17 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Mini Sliders",
-            "price": 8.32,
+            "name": "Deviled Eggs",
+            "price": 13.21,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Tuna Tartare",
-            "price": 13.49,
+            "price": 10.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -187,20 +178,29 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Arancini",
-            "price": 13.71,
+            "name": "Spinach Artichoke Dip",
+            "price": 15.14,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Stuffed Avocado",
-            "price": 10.38,
-            "isVegetarian": false,
+            "price": 12.31,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mozzarella Sticks",
+            "price": 13.69,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -208,39 +208,39 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Each bowl is a journey through the heart of Japanese, crafted with care and expertise.",
+        "description": "Crafted with care, our soups are a celebration of Japanese flavors and traditions.",
         "items": [
           {
-            "name": "Deluxe Baked Lentil Soup",
-            "price": 8.52,
-            "isVegetarian": true,
+            "name": "Deluxe Satisfying Lobster Bisque",
+            "price": 10.76,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fresh Comforting Clam Chowder",
+            "price": 13.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Handcrafted Zingy Turkey and Wild Rice Soup",
+            "price": 9.81,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Egg Drop Soup",
-            "price": 11.28,
+            "name": "Traditional Delectable Egg Drop Soup",
+            "price": 10.21,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Grilled Italian Wedding Soup",
-            "price": 9.31,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Appetizing Hot and Sour Soup",
-            "price": 8.97,
-            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
@@ -250,29 +250,20 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Garden Salad",
-            "price": 9.44,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "name": "Nicoise Salad",
+            "price": 11.4,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cucumber Salad",
-            "price": 13.2,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Asian Slaw",
-            "price": 11.71,
+            "name": "Watermelon Feta Salad",
+            "price": 14.89,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -280,19 +271,28 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arugula Salad",
-            "price": 12.18,
+            "name": "Thai Green Papaya Salad",
+            "price": 11.56,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Salad",
+            "price": 9.29,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Spinach Salad",
-            "price": 9.12,
-            "isVegetarian": true,
-            "isVegan": false,
+            "name": "Beet Salad",
+            "price": 14.61,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -301,47 +301,38 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Each dish is a celebration of flavor, tradition, and culinary excellence.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Homestyle Sizzling Bibimbap",
-            "price": 19.49,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Crispy Shish Kebabs",
-            "price": 21.27,
+            "name": "Bibimbap",
+            "price": 31.65,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Crunchy Katsu Curry",
-            "price": 29.52,
+            "name": "Stuffed Zucchini Boats",
+            "price": 20.62,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Grilled Teriyaki Chicken",
-            "price": 21.86,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Traditional Sautéed Burrito",
-            "price": 20.73,
+            "name": "Pizza",
+            "price": 30.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pasta Primavera",
+            "price": 26.72,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -349,68 +340,77 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Stuffed Peppers",
-            "price": 22.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Appetizing Vegetable Stir-Fry",
-            "price": 24.81,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Thai Curry",
+            "price": 29.95,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Zesty Lentil Stew",
-            "price": 18.27,
-            "isVegetarian": false,
+            "name": "Shakshuka",
+            "price": 28.14,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Jambalaya",
+            "price": 22.12,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mac and Cheese",
+            "price": 24.47,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Homestyle Marinated Cajun Shrimp and Grits",
-            "price": 23.4,
+            "name": "Hearty Italian Cioppino",
+            "price": 29.31,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Fried Pan-Seared Scallops with Pea Purée",
-            "price": 25.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Stuffed Alaskan King Crab Legs with Drawn Butter",
-            "price": 23.24,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Irresistible Valencian Seafood Paella",
-            "price": 30.38,
+            "name": "Grilled Lobster with Lemon Butter",
+            "price": 27.62,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Basa Fillet with Dill Cream Sauce",
+            "price": 25.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "New England Lobster Roll",
+            "price": 30.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -418,130 +418,130 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Handcrafted Grilled Seafood Risotto with Saffron",
-            "price": 28.54,
+            "name": "Oysters Rockefeller with Pernod Cream",
+            "price": 32.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
+        "description": "Small dishes with big impact—each one crafted to complement without overpowering.",
         "items": [
           {
-            "name": "Homestyle Crunchy Roasted Root Vegetables",
-            "price": 7.27,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Zesty Steamed Jasmine Rice",
-            "price": 6.48,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Steamed Flaky Cheddar and Chive Biscuits",
-            "price": 8.85,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Buttered Egg Noodles",
-            "price": 9.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "House Special Exquisite Quinoa Pilaf with Herbs",
-            "price": 8.13,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Tangy Stuffed Bell Peppers with Brown Rice",
-            "price": 5.22,
+            "name": "Deluxe Golden Herbed Bulgur Wheat with Lemon",
+            "price": 6.68,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Gourmet Grilled Wild Rice Pilaf",
+            "price": 6.73,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Tender Steamed Jasmine Rice",
+            "price": 7.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Creamy Homestyle Baked Beans",
+            "price": 7.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Roasted Cauliflower Gratin with Gruyère",
+            "price": 8.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Charred Broccolini with Garlic Oil",
+            "price": 8.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Refreshing selections ranging from house-made sodas to premium juices.",
+        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Authentic Flavorful Lemonade",
-            "price": 5.31,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Braised Coffee",
-            "price": 4.36,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Tender Tea",
-            "price": 4.42,
+            "name": "Gourmet Wholesome Coffee",
+            "price": 7.09,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Comforting Soda",
-            "price": 5.32,
-            "isVegetarian": true,
+            "name": "Organic Flaky Tea",
+            "price": 6.08,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Zesty Milkshake",
-            "price": 6.38,
+            "name": "Seasonal Marinated Milkshake",
+            "price": 7.14,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Satisfying Soda",
+            "price": 4.09,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Tangy Juice",
+            "price": 5.17,
+            "isVegetarian": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Classic Sweet Hot Chocolate",
-            "price": 6.91,
+            "name": "Traditional Marinated Iced Tea",
+            "price": 4.91,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -552,33 +552,15 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A mouthwatering selection of desserts that celebrate the art of pastry",
+    "description": "Our pastry chef's satisfying creations to end your meal on a sweet note",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Freshly baked delights that bring warmth and comfort to your table.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Gourmet Zesty Tiramisu",
-            "price": 8.03,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Smoked Biscotti",
-            "price": 10,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Mouthwatering Shortbread",
-            "price": 8.16,
+            "name": "Apple Pie",
+            "price": 9.28,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,8 +568,8 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Luscious Berry Tart",
-            "price": 6.54,
+            "name": "Crumb Cake",
+            "price": 9.77,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
@@ -595,10 +577,28 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Braised Soufflé",
-            "price": 10.42,
-            "isVegetarian": true,
+            "name": "Carrot Cake",
+            "price": 6.59,
+            "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Custard Tart",
+            "price": 10.93,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Eclairs",
+            "price": 6.2,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -610,47 +610,47 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
         "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
         "items": [
           {
-            "name": "Traditional Roasted Frozen Fruit Bars",
-            "price": 7.9,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Delicious Popsicles",
-            "price": 8.44,
+            "name": "Fresh Enticing Frozen Cheesecake",
+            "price": 8.43,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Seasonal Hearty Frozen Yogurt",
+            "price": 7.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Creamy Ice Cream Sandwich",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Sautéed Baked Alaska",
+            "price": 10.17,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Hearty Sherbet",
-            "price": 10.8,
-            "isVegetarian": true,
-            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Herbed Kulfi",
-            "price": 10.91,
+            "name": "Classic Fried Gelato",
+            "price": 10.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Smoked Snow Cone",
-            "price": 9.6,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,42 +660,51 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A fine cocktail lineup featuring house infusions and classic techniques",
+    "description": "Our bar showcases carefully chosen spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
         "description": "From classic twists to innovative new blends, our cocktails are a celebration of flavor.",
         "items": [
           {
-            "name": "Martini",
+            "name": "Premium Grilled Bloody Mary",
+            "price": 10.47,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Pan-seared Whiskey Sour",
+            "price": 12.51,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Steamed Manhattan",
+            "price": 14,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Flavorful Martini",
+            "price": 10.96,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Roasted Margarita",
             "price": 12.37,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.9,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.15,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 14.89,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -703,28 +712,19 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 11.03,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 15.11,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Old Fashioned",
+            "name": "Authentic Succulent Mojito",
             "price": 12.58,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Gourmet Aromatic Mai Tai",
+            "price": 10.08,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
@@ -733,20 +733,47 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
         "items": [
           {
-            "name": "Authentic Tangy Sémillon",
-            "price": 12.08,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Gamay",
+            "price": 8.46,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fiano",
+            "price": 11.59,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Fried Chardonnay",
-            "price": 9.42,
+            "name": "Nebbiolo",
+            "price": 8.07,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 12.1,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chardonnay",
+            "price": 12.19,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": true,
@@ -754,36 +781,9 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Zesty Sauvignon Blanc",
-            "price": 10.94,
+            "name": "Sauvignon Blanc",
+            "price": 10.08,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Irresistible Chenin Blanc",
-            "price": 12.37,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crispy Moscato",
-            "price": 8.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Roasted Vouvray",
-            "price": 9.34,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -793,11 +793,29 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A thoughtful balance of classic favorites and rare, small-batch discoveries.",
+        "description": "From timeless classics to innovative new blends, our spirits menu is a celebration of flavor.",
         "items": [
           {
-            "name": "St-Germain",
-            "price": 14.73,
+            "name": "Vodka",
+            "price": 14.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 16.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 12.12,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -805,38 +823,20 @@ export const skagwayblueSmokehouseMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chartreuse",
-            "price": 13.9,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Limoncello",
-            "price": 10.48,
+            "name": "Aquavit",
+            "price": 17.87,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chambord",
-            "price": 15.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": true
           },
           {
             "name": "Absinthe",
-            "price": 10.01,
+            "price": 17.18,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }

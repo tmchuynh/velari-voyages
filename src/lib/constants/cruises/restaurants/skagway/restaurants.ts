@@ -248,5 +248,160 @@ export const skagwayRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Royal Grand Cafe",
+    "description": "A culinary gem serving French specialties including handcrafted desserts, where guests enjoy ambient lighting in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-657-3702",
+      "contactEmail": "inquiries@goldendimsumpalaceskagway.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Culinary",
+    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of elegant atmosphere overlooking the main square.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-544-1083",
+      "contactEmail": "customerservice@thebar&kitchenskagway.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Society",
+    "description": "A culinary gem serving Italian specialties including gourmet street food, where guests enjoy ambient lighting in the heart of the city.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-425-2992",
+      "contactEmail": "office@bluesaloonskagway.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Cantina",
+    "description": "A charming Japanese restaurant near the river promenade, offering fresh produce and other local favorites in a setting with ambient lighting.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-217-8969",
+      "contactEmail": "admin@royalbrasserieskagway.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Emporium",
+    "description": "This popular Japanese establishment combines traditional recipes and seasonal specialties, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-972-3927",
+      "contactEmail": "admin@bluelabskagway.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];
