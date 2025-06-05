@@ -92,7 +92,7 @@ export class FileDataStore extends DataStore {
       await fs.promises.writeFile(
         this.filePath,
         JSON.stringify(jsonData, null, 2),
-        "utf8"
+        "utf8",
       );
     } catch (error) {
       logger.error(`Failed to save data store: ${error.message}`, {

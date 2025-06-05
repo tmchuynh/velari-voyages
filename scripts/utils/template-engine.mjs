@@ -93,7 +93,7 @@ export class TemplateEngine {
       if (this.debug) {
         console.error(
           `Failed to generate file from template ${templateName}:`,
-          error
+          error,
         );
       }
       throw error;

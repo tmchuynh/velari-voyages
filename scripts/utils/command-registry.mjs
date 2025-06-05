@@ -52,7 +52,7 @@ export class CommandRegistry {
     for (const alias of aliases) {
       if (this.aliases.has(alias)) {
         console.warn(
-          `Alias "${alias}" is already registered for another command. It will be overridden.`
+          `Alias "${alias}" is already registered for another command. It will be overridden.`,
         );
       }
       this.aliases.set(alias, name);
@@ -111,7 +111,7 @@ export class CommandRegistry {
       }
     } catch (error) {
       throw new Error(
-        `Error executing command "${nameOrAlias}": ${error.message}`
+        `Error executing command "${nameOrAlias}": ${error.message}`,
       );
     }
   }

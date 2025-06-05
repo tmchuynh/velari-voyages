@@ -255,7 +255,7 @@ function createDefaultLogger(options = {}) {
       new FileTransport({
         level: LOG_LEVELS.DEBUG, // Log everything to file
         filename: options.logFilename || "script.log",
-      })
+      }),
     );
   }
 

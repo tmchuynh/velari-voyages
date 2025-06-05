@@ -310,12 +310,12 @@ export const lastNames = [
  * @returns {string} Full name (first and last)
  */
 export function getRandomName(useFeminineName = Math.random() > 0.5) {
-  const firstName = useFeminineName 
+  const firstName = useFeminineName
     ? feminineNames[Math.floor(Math.random() * feminineNames.length)]
     : masculineNames[Math.floor(Math.random() * masculineNames.length)];
 
   const lastName = lastNames[Math.floor(Math.random() * lastNames.length)];
-  
+
   return `${firstName} ${lastName}`;
 }
 

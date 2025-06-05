@@ -46,7 +46,7 @@ export class ProgressTracker {
 
     const percent = Math.min(
       100,
-      Math.round((this.current / this.total) * 100)
+      Math.round((this.current / this.total) * 100),
     );
     let output = `${this.message ? `${this.message} ` : ""}`;
 
@@ -128,14 +128,14 @@ export function createBatchProcessor(options = {}) {
           const result = processItem(item, i + index);
           progress.update(i + index + 1);
           return result;
-        })
+        }),
       );
 
       results.push(...batchResults);
       await onBatchComplete(
         batchResults,
         i,
-        Math.min(i + batchSize, items.length)
+        Math.min(i + batchSize, items.length),
       );
     }
 

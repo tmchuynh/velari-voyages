@@ -79,7 +79,7 @@ export class Config {
       fs.writeFileSync(
         this.configPath,
         JSON.stringify(this.config, null, 2),
-        "utf8"
+        "utf8",
       );
     } catch (error) {
       console.error(`Error saving config: ${error.message}`);

@@ -53,7 +53,7 @@ export class Validator {
       .split(".")
       .reduce(
         (o, key) => (o && o[key] !== undefined ? o[key] : undefined),
-        obj
+        obj,
       );
   }
 }
@@ -68,25 +68,25 @@ export function createRestaurantValidator() {
     .addRule(
       "name",
       (v) => v && typeof v === "string" && v.length > 0,
-      "Restaurant name must be a non-empty string"
+      "Restaurant name must be a non-empty string",
     )
 
     .addRule(
       "cuisine",
       (v) => v && typeof v === "string" && v.length > 0,
-      "Restaurant cuisine must be a non-empty string"
+      "Restaurant cuisine must be a non-empty string",
     )
 
     .addRule(
       "priceRange",
       (v) => v && ["$", "$$", "$$$", "$$$$"].includes(v),
-      "Price range must be one of: $, $$, $$$, $$$$"
+      "Price range must be one of: $, $$, $$$, $$$$",
     )
 
     .addRule(
       "rating",
       (v) => v !== undefined && typeof v === "number" && v >= 1 && v <= 5,
-      (v) => `Rating must be a number between 1 and 5, got ${v}`
+      (v) => `Rating must be a number between 1 and 5, got ${v}`,
     );
 
   return validator;
@@ -99,22 +99,22 @@ export function createMenuValidator() {
     .addRule(
       "title",
       (v) => v && typeof v === "string" && v.length > 0,
-      "Menu title must be a non-empty string"
+      "Menu title must be a non-empty string",
     )
 
     .addRule(
       "category",
       (v) => Array.isArray(v) && v.length > 0,
-      "Menu must have at least one category"
+      "Menu must have at least one category",
     )
 
     .addRule(
       "category",
       (v) =>
         v.every(
-          (cat) => cat && typeof cat.name === "string" && cat.name.length > 0
+          (cat) => cat && typeof cat.name === "string" && cat.name.length > 0,
         ),
-      "Each category must have a name"
+      "Each category must have a name",
     );
 
   return validator;
@@ -127,25 +127,25 @@ export function createCruiseValidator() {
     .addRule(
       "title",
       (v) => v && typeof v === "string" && v.length > 0,
-      "Cruise title must be a non-empty string"
+      "Cruise title must be a non-empty string",
     )
 
     .addRule(
       "departureLocation",
       (v) => v && typeof v.city === "string",
-      "Departure location must have a city"
+      "Departure location must have a city",
     )
 
     .addRule(
       "itinerary.route",
       (v) => Array.isArray(v) && v.length >= 2,
-      "Cruise route must have at least two locations"
+      "Cruise route must have at least two locations",
     )
 
     .addRule(
       "basePrice",
       (v) => typeof v === "number" && v > 0,
-      (v) => `Base price must be greater than 0, got ${v}`
+      (v) => `Base price must be greater than 0, got ${v}`,
     );
 
   return validator;

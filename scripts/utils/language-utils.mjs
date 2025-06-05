@@ -197,7 +197,7 @@ export const languageNameToCode = Object.entries(languageCodeToName).reduce(
     acc[name] = code;
     return acc;
   },
-  {}
+  {},
 );
 
 // Common languages grouped by region for use in crew/destination context
@@ -331,7 +331,7 @@ export function getRandomLanguages(count = 3, region = "global") {
 
   // Create a copy to avoid modifying original array
   const availableLanguages = [...sourceList].filter(
-    (lang) => lang.code !== "en"
+    (lang) => lang.code !== "en",
   );
 
   // Ensure we respect the requested count (between 3-5)
