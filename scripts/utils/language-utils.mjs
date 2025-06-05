@@ -322,23 +322,26 @@ export const commonPersonnelLanguages = [
 export function getRandomLanguages(count = 3, region = "global") {
   const sourceList = languagesByRegion[region] || commonPersonnelLanguages;
   const selectedLanguages = [];
-  const maxCount = Math.min(count, sourceList.length);
-
-  // Create a copy to avoid modifying original array
-  const availableLanguages = [...sourceList];
 
   // Always include English for cruise personnel
-  const englishIndex = availableLanguages.findIndex(
-    (lang) => lang.code === "en"
-  );
+  const englishIndex = sourceList.findIndex((lang) => lang.code === "en");
   if (englishIndex !== -1) {
-    selectedLanguages.push(availableLanguages[englishIndex]);
-    availableLanguages.splice(englishIndex, 1);
-    count--;
+    selectedLanguages.push(sourceList[englishIndex]);
   }
 
+  // Create a copy to avoid modifying original array
+  const availableLanguages = [...sourceList].filter(
+    (lang) => lang.code !== "en"
+  );
+
+  // Ensure we respect the requested count (between 3-5)
+  const targetCount = Math.min(Math.max(count, 3), 5);
+
   // Add random additional languages
-  while (selectedLanguages.length < maxCount && availableLanguages.length > 0) {
+  while (
+    selectedLanguages.length < targetCount &&
+    availableLanguages.length > 0
+  ) {
     const randomIndex = Math.floor(Math.random() * availableLanguages.length);
     selectedLanguages.push(availableLanguages[randomIndex]);
     availableLanguages.splice(randomIndex, 1);

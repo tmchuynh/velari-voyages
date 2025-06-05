@@ -1387,7 +1387,7 @@ for (const city of cityFiles) {
 
     const role =
       personnelRoles[Math.floor(Math.random() * personnelRoles.length)];
-    const personnelLanuage = [];
+    
     // Get region-specific languages for the personnel
     const region = cityToRegionMap[city] || "";
     let regionForLanguages;
@@ -1425,7 +1425,8 @@ for (const city of cityFiles) {
         break;
     }
 
-    const languagesCount = Math.floor(Math.random() * 3) + 1; // 1-3 languages per personnel
+    // Update to generate 3-5 languages instead of 1-3
+    const languagesCount = Math.floor(Math.random() * 3) + 3; // 3-5 languages per personnel
     const personnelLanguages = getRandomLanguages(
       languagesCount,
       regionForLanguages
@@ -1539,7 +1540,7 @@ for (const city of cityFiles) {
       {
         name: "${getName()}",
         role: "${role}",
-        languages: [${personnelLanuage}],
+        languages: [${languagesList}], // Use the properly generated languages list
         experienceYears: ${5 + Math.floor(Math.random() * 15)},
         profileImage: "${profileImage}",
         contact: {
