@@ -8,16 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-city-cruise-files": "node --loader ts-node/esm scripts/create-city-cruise-files.mjs",
-    "create-restaurant-files": "node --loader ts-node/esm scripts/create-restaurant-files.mjs",
-    "create-city-folders": "node --loader ts-node/esm scripts/create-city-folders.mjs",
-    "create-restaurant-menu-files": "node --loader ts-node/esm scripts/create-restaurant-menu-files.mjs",
-    "delete-restaurant-menu-files": "node --loader ts-node/esm scripts/delete-restaurant-menu-files.mjs",
-    "delete-misspelled-restaurant-files": "node --loader ts-node/esm scripts/delete-misspelled-restaurant-files.mjs",
-    "populate-restaurant-testimonials": "node --loader ts-node/esm scripts/populate-restaurant-testimonials.mjs",
-    "testimonials": "node --loader ts-node/esm scripts/testimonials.mjs",
-    "generate-crew": "node scripts/generateCrewMembers.mjs",
-    "enhance-crew": "node scripts/enhanceCrewData.mjs"
+    "format": "prettier --write \"{src,scripts}/**/*.{ts,tsx,js,jsx,mjs,json,md,css}\"",
+    "format-all": "node scripts/format-files.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
@@ -63,6 +55,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "^15.3.3",
+    "prettier": "^3.5.3",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
