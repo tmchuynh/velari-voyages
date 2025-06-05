@@ -5,7 +5,7 @@ export const getLanguageByIso = (iso: string): Language | undefined => {
 };
 export const getLanguageByName = (name: string): Language | undefined => {
   return languages.find(
-    (lang) => lang.name.toLowerCase() === name.toLowerCase()
+    (lang) => lang.name.toLowerCase() === name.toLowerCase(),
   );
 };
 export const getLanguagesByIsoList = (isoList: string[]): Language[] => {
@@ -13,7 +13,7 @@ export const getLanguagesByIsoList = (isoList: string[]): Language[] => {
 };
 export const getLanguagesByNameList = (nameList: string[]): Language[] => {
   return languages.filter((lang) =>
-    nameList.some((name) => lang.name.toLowerCase() === name.toLowerCase())
+    nameList.some((name) => lang.name.toLowerCase() === name.toLowerCase()),
   );
 };
 export const formatLanguagesList = (languages: string[]): string => {
