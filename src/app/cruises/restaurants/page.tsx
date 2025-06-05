@@ -43,7 +43,7 @@ export default function RestaurantPage() {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(9);
   const [previousPageCities, setPreviousPageCities] = useState<Set<string>>(
-    new Set()
+    new Set(),
   );
   const [paginatedData, setPaginatedData] = useState<{
     restaurants: {
@@ -102,9 +102,9 @@ export default function RestaurantPage() {
     return Array.from(
       new Set(
         cityRestaurants.flatMap((city) =>
-          city.restaurants.map((restaurant) => restaurant.priceRange)
-        )
-      )
+          city.restaurants.map((restaurant) => restaurant.priceRange),
+        ),
+      ),
     ).filter(Boolean);
   };
 
@@ -112,9 +112,9 @@ export default function RestaurantPage() {
     return Array.from(
       new Set(
         cityRestaurants.flatMap((city) =>
-          city.restaurants.map((restaurant) => restaurant.cuisine)
-        )
-      )
+          city.restaurants.map((restaurant) => restaurant.cuisine),
+        ),
+      ),
     ).filter(Boolean);
   };
 
@@ -127,7 +127,7 @@ export default function RestaurantPage() {
         (restaurant) =>
           (!selectedPriceRange ||
             restaurant.priceRange === selectedPriceRange) &&
-          (!selectedCuisine || restaurant.cuisine === selectedCuisine)
+          (!selectedCuisine || restaurant.cuisine === selectedCuisine),
       ),
     }))
     .filter(({ restaurants }) => restaurants.length > 0);
@@ -135,7 +135,7 @@ export default function RestaurantPage() {
   // Calculate total restaurants for pagination
   const totalRestaurants = filteredCityRestaurants.reduce(
     (total, city) => total + city.restaurants.length,
-    0
+    0,
   );
   const totalPages = Math.ceil(totalRestaurants / itemsPerPage);
 
@@ -169,7 +169,7 @@ export default function RestaurantPage() {
         startIndex = Math.max(0, (currentPage - 1) * itemsPerPage - countSoFar);
         endIndex = Math.min(
           cityRestaurantsCount,
-          currentPage * itemsPerPage - countSoFar
+          currentPage * itemsPerPage - countSoFar,
         );
 
         // Check if this city was displayed on the previous page
@@ -237,7 +237,7 @@ export default function RestaurantPage() {
         >
           1
         </PaginationLink>
-      </PaginationItem>
+      </PaginationItem>,
     );
 
     // Show ellipsis if needed
@@ -245,7 +245,7 @@ export default function RestaurantPage() {
       pages.push(
         <PaginationItem key="ellipsis-1">
           <PaginationEllipsis />
-        </PaginationItem>
+        </PaginationItem>,
       );
     }
 
@@ -264,7 +264,7 @@ export default function RestaurantPage() {
           >
             {i}
           </PaginationLink>
-        </PaginationItem>
+        </PaginationItem>,
       );
     }
 
@@ -273,7 +273,7 @@ export default function RestaurantPage() {
       pages.push(
         <PaginationItem key="ellipsis-2">
           <PaginationEllipsis />
-        </PaginationItem>
+        </PaginationItem>,
       );
     }
 
@@ -287,7 +287,7 @@ export default function RestaurantPage() {
           >
             {totalPages}
           </PaginationLink>
-        </PaginationItem>
+        </PaginationItem>,
       );
     }
 
