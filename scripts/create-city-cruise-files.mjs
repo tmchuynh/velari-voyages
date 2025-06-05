@@ -685,25 +685,42 @@ const cityCoordinates = {
   yokohama: { latitude: 35.4437, longitude: 139.638 },
 };
 
-// Read and extract cityFiles array from the file
-let cityFiles = [];
-try {
-  const cityFileContent = fs.readFileSync(cityFilePath, "utf8");
-  const cityArrayMatch = cityFileContent.match(
-    /export const cityFiles = \[([\s\S]*?)\];/
-  );
+const getCityFiles = () => {
+  try {
+    // Read the city.ts file as text
+    const cityFilePath = path.join(
+      __dirname,
+      "..",
+      "src",
+      "lib",
+      "constants",
+      "info",
+      "city.ts"
+    );
 
-  if (cityArrayMatch && cityArrayMatch[1]) {
-    cityFiles = cityArrayMatch[1]
+    const fileContent = fs.readFileSync(cityFilePath, "utf8");
+
+    // Extract city names using regex
+    const cityArrayMatch = fileContent.match(
+      /export const cityFiles = \[([\s\S]*?)\];/
+    );
+    if (!cityArrayMatch || !cityArrayMatch[1]) {
+      console.error("Could not parse city files from city.ts");
+      return [];
+    }
+
+    // Extract city names from the array string
+    return cityArrayMatch[1]
       .split(",")
       .map((city) => city.trim().replace(/"/g, "").replace(/'/g, ""))
       .filter((city) => city.length > 0);
+  } catch (error) {
+    console.error("Error reading city files:", error);
+    return [];
   }
-  console.log(`Found ${cityFiles.length} cities in cityFiles array`);
-} catch (error) {
-  console.error("Error reading city files:", error);
-  process.exit(1);
-}
+};
+
+const cityFiles = getCityFiles();
 
 // Generate regional destinations for a cruise from a given city
 function getDestinationsForCity(cityName) {
