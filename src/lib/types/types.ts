@@ -231,6 +231,7 @@ export type RestaurantMenu = {
   description: string;
   category: {
     name: string;
+    description?: string;
     items: {
       name: string;
       description?: string;
