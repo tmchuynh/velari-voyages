@@ -16,24 +16,30 @@ import { useState } from "react";
 
 export default function FleetAndVessels() {
   // Group vessels by type
-  const vesselsByType = cruiseVessels.reduce((acc, vessel) => {
-    const type = vessel.type;
-    if (!acc[type]) {
-      acc[type] = [];
-    }
-    acc[type].push(vessel);
-    return acc;
-  }, {} as Record<string, typeof cruiseVessels>);
+  const vesselsByType = cruiseVessels.reduce(
+    (acc, vessel) => {
+      const type = vessel.type;
+      if (!acc[type]) {
+        acc[type] = [];
+      }
+      acc[type].push(vessel);
+      return acc;
+    },
+    {} as Record<string, typeof cruiseVessels>
+  );
 
   // Get all vessel types
   const vesselTypes = Object.keys(vesselsByType);
 
   // Pagination state for each vessel type
   const [currentPages, setCurrentPages] = useState<Record<string, number>>(
-    vesselTypes.reduce((acc, type) => {
-      acc[type] = 1;
-      return acc;
-    }, {} as Record<string, number>)
+    vesselTypes.reduce(
+      (acc, type) => {
+        acc[type] = 1;
+        return acc;
+      },
+      {} as Record<string, number>
+    )
   );
 
   // Items per page
@@ -81,7 +87,6 @@ export default function FleetAndVessels() {
           Our diverse fleet offers experiences tailored to every type of
           traveler, from intimate river cruises to luxury ocean voyages.
         </p>
-        <p className="mt-2 text-gray-500 text-sm"></p>
       </div>
 
       {/* Display vessels by type */}
@@ -95,10 +100,10 @@ export default function FleetAndVessels() {
 
         return (
           <section key={type} className="mb-16">
-            <h2 className="pb-2 border-b">{type}s</h2>
-            <p>
-              {getVesselTypeDescription(type)} ({vessels.length} vessels)
-            </p>
+            <div className="flex justify-between items-center pb-2 border-b">
+              <h2>{type}s</h2> <Badge>{vessels.length} vessels</Badge>
+            </div>
+            <p>{getVesselTypeDescription(type)}</p>
 
             <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
               {currentVessels.map((vessel) => (
@@ -107,19 +112,15 @@ export default function FleetAndVessels() {
                   className="flex flex-col justify-between p-0 h-full overflow-hidden"
                 >
                   <CardContent className="pt-6">
-                    <h3 className="mb-2 font-semibold text-xl">
-                      {vessel.name}
-                    </h3>
+                    <h3>{vessel.name}</h3>
 
-                    <p className="mt-2 text-gray-600 text-sm line-clamp-3">
-                      {vessel.description}
-                    </p>
+                    <p>{vessel.description}</p>
 
                     <div className="space-y-2 mt-4 text-sm">
-                      <p>
-                        <span className="font-medium">Home Port:</span>{" "}
-                        {vessel.homePort.city}, {vessel.homePort.country}
-                      </p>
+                      <div className="flex items-center gap-2 justce">
+                        <h5>Home Port:</h5> {vessel.homePort.city},{" "}
+                        {vessel.homePort.country}
+                      </div>
                       <div className="gap-4 grid md:grid-cols-2 lg:grid-cols-5">
                         <div className="lg:col-span-2">
                           <h5 className="font-medium">Capacity:</h5>{" "}
@@ -150,8 +151,8 @@ export default function FleetAndVessels() {
                       )}
                     </div>
                   </CardContent>
-                  <CardFooter className="bg-gray-50 pb-6 border-t">
-                    <p className="text-gray-600 text-sm">
+                  <CardFooter className="bg-muted pb-6 border-t">
+                    <p>
                       Speed: {vessel.speed} knots • Width: {vessel.width}m
                     </p>
                   </CardFooter>
