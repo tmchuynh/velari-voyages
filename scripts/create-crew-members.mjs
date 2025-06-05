@@ -3,6 +3,7 @@ import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import { getRandomLanguages } from "./utils/language-utils.mjs";
 import { feminineNames, masculineNames } from "./utils/name-utils.mjs";
 
 // // Basic usage
@@ -274,22 +275,8 @@ const namesByRegion = {
   // Add more region-specific names as needed
 };
 
-// Languages by region
-const languagesByRegion = {
-  global: [
-    "English",
-    "Spanish",
-    "French",
-    "German",
-    "Mandarin",
-    "Japanese",
-    "Arabic",
-    "Russian",
-    "Portuguese",
-    "Italian",
-  ],
-  // Add more region-specific languages as needed
-};
+// Replace the hardcoded languages array with imported language utilities
+// Languages by region - This is now imported from language-utils.mjs
 
 // Replace the import statement with direct access to cruiseDepartureLocations
 // import { cruiseDepartureLocations } from "../src/lib/constants/info/city.js";
@@ -1466,17 +1453,50 @@ function generateCrewMember(city, department, role, index) {
 
   const experienceYears = Math.floor(Math.random() * 20) + 3; // 5-20 years
 
-  const languages = [];
-  const languageCount = Math.floor(Math.random() * 5) + 2;
-  for (let i = 0; i < languageCount; i++) {
-    const lang =
-      languagesByRegion.global[
-        Math.floor(Math.random() * languagesByRegion.global.length)
-      ];
-    if (!languages.includes(lang)) {
-      languages.push(lang);
-    }
+  // Generate random languages based on region
+  const region = cityToRegionMap[city] || "";
+  let regionForLanguages;
+
+  // Map maritime regions to language regions
+  switch (region) {
+    case "Mediterranean":
+    case "Northern Europe":
+    case "Western Europe":
+      regionForLanguages = "europe";
+      break;
+
+    case "Asia Pacific":
+      regionForLanguages = "asia";
+      break;
+
+    case "Caribbean":
+    case "East Coast USA":
+    case "West Coast USA":
+    case "East Coast Canada":
+    case "South America":
+      regionForLanguages = "americas";
+      break;
+
+    case "Middle East":
+      regionForLanguages = "middleEast";
+      break;
+
+    case "Africa":
+      regionForLanguages = "africa";
+      break;
+
+    default:
+      regionForLanguages = "global";
+      break;
   }
+
+  // Get appropriate languages for crew member
+  const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
+  const selectedLanguages = getRandomLanguages(
+    languageCount,
+    regionForLanguages
+  );
+  const languages = selectedLanguages.map((lang) => lang.name);
 
   // For simplicity, always include English if not already
   if (!languages.includes("English")) {
