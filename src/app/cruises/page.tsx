@@ -58,21 +58,10 @@ export default function Cruises() {
 
     const query = searchQuery.toLowerCase();
     return (
-      item.departureLocation.city.toLowerCase().includes(query) ||
-      item.departureLocation.country.toLowerCase().includes(query) ||
-      (item.departureLocation.region &&
-        item.departureLocation.region.toLowerCase().includes(query)) ||
-      (item.departureLocation.state &&
-        item.departureLocation.state.toLowerCase().includes(query)) ||
-      item.arrivalLocation.city.toLowerCase().includes(query) ||
-      item.arrivalLocation.country.toLowerCase().includes(query) ||
-      (item.arrivalLocation.region &&
-        item.arrivalLocation.region.toLowerCase().includes(query)) ||
-      (item.arrivalLocation.state &&
-        item.arrivalLocation.state.toLowerCase().includes(query)) ||
-      item.category.toLowerCase().includes(query) ||
-      item.title.toLowerCase().includes(query) ||
-      item.tags?.some((tag) => tag.toLowerCase().includes(query))
+      item.city.toLowerCase().includes(query) ||
+      item.country.toLowerCase().includes(query) ||
+      item.region?.toLowerCase().includes(query) ||
+      item.state?.toLowerCase().includes(query)
     );
   });
 
@@ -82,8 +71,8 @@ export default function Cruises() {
   // First sort by the selected criterion (city or country)
   const sortedDestinations = groupAndSortByProperties(
     filteredDestinations,
-    sortBy as keyof (typeof allCruises)[0],
-    secondarySortField as keyof (typeof allCruises)[0],
+    "country",
+    "city",
     true,
     false,
     false,
@@ -208,48 +197,48 @@ export default function Cruises() {
             key={index}
             className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
           >
-           <CardContent> 
-            <h2
-              className="w-7/8 underline-offset-2 hover:underline"
-              onClick={() => {
-                // Use query parameters instead of path parameters
-                const queryParams = new URLSearchParams({
-                  country: item.country,
-                  city: item.city,
-                });
+            <CardContent>
+              <h2
+                className="w-7/8 underline-offset-2 hover:underline"
+                onClick={() => {
+                  // Use query parameters instead of path parameters
+                  const queryParams = new URLSearchParams({
+                    country: item.country,
+                    city: item.city,
+                  });
 
-                router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${
-                    item.country
-                  }/${item.city
-                  }?${queryParams.toString()}`
-                );
-              }}
-            >
-              {item.city} - {item.country}
-            </h2>
-
-            {item.isPopular && (
-              <Badge
-                size={"sm"}
-                variant={"outline"}
-                className="top-4 right-4 absolute uppercase"
+                  router.push(
+                    `/cruises/cruise-categories/velari-voyages-cruises/${
+                      item.country
+                    }/${item.city}?${queryParams.toString()}`
+                  );
+                }}
               >
-                Popular
-              </Badge>
-            )}
+                {item.city} - {item.country}
+              </h2>
 
-            <Button
-              size={"sm"}
-              className="mt-7"
-              onClick={() =>
-                router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${item.departureLocation.country}/${item.departureLocation.city}?city=${item.departureLocation.city}&country=${item.departureLocation.country}`
-                )
-              }
-            >
-              View Tours
-            </Button></CardContent>
+              {item.isPopular && (
+                <Badge
+                  size={"sm"}
+                  variant={"outline"}
+                  className="top-4 right-4 absolute uppercase"
+                >
+                  Popular
+                </Badge>
+              )}
+
+              <Button
+                size={"sm"}
+                className="mt-7"
+                onClick={() =>
+                  router.push(
+                    `/cruises/cruise-categories/velari-voyages-cruises/${item.country}/${item.city}?city=${item.city}&country=${item.country}`
+                  )
+                }
+              >
+                View Tours
+              </Button>
+            </CardContent>
           </Card>
         ))}
       </div>
