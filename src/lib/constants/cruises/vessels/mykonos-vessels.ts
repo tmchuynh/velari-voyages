@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const mykonosVessels: Vessels[] = [
   {
     name: "MY Mykonos Explorer",
-    description: "The MY Mykonos Explorer invites travelers to explore the treasures of Mediterranean in unmatched comfort. This exceptional boutique cruise ship, based in Mykonos, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MY Mykonos Explorer invites travelers to explore the treasures of Mediterranean in unmatched comfort. This exceptional boutique cruise ship, based in Mykonos, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "boutique-cruise-ship",
     capacity: 1399,
     length: 379,
     width: 66,
     speed: 24,
     yearBuilt: 2013,
-    homePort: {"city":"Mykonos","country":"Greece","coordinates":{"latitude":37.4467,"longitude":25.3289}},
+    homePort: {
+      city: "Mykonos",
+      country: "Greece",
+      coordinates: { latitude: 37.4467, longitude: 25.3289 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 12500,
@@ -18,26 +23,58 @@ export const mykonosVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Searchlights and rescue equipment","Life jackets with integrated GPS","Weather monitoring stations","Rescue boats and life rafts","Hyperbaric treatment chambers","Thermal imaging cameras"],
-      navigationEquipment: ["Navigation data management systems","Echo sounders and sonar systems"],
-      communicationEquipment: ["Broadband internet throughout","Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Casino with table games and slot machines","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Visual alarm systems","Transfer chairs for pool access","Accessible dining facilities"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","Recyclable material management systems","Exhaust gas cleaning systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Life jackets with integrated GPS",
+        "Weather monitoring stations",
+        "Rescue boats and life rafts",
+        "Hyperbaric treatment chambers",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Casino with table games and slot machines",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Transfer chairs for pool access",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "Recyclable material management systems",
+        "Exhaust gas cleaning systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Mykonos Voyager",
-    description: "Setting sail from the beautiful port of Mykonos, the MV Mykonos Voyager is a floating paradise designed for the discerning traveler. This remarkable expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Mykonos, the MV Mykonos Voyager is a floating paradise designed for the discerning traveler. This remarkable expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "expedition-ship",
     capacity: 1710,
     length: 442,
     width: 76,
     speed: 15,
     yearBuilt: 2023,
-    homePort: {"city":"Mykonos","country":"Greece","coordinates":{"latitude":37.4467,"longitude":25.3289}},
+    homePort: {
+      city: "Mykonos",
+      country: "Greece",
+      coordinates: { latitude: 37.4467, longitude: 25.3289 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 16790,
@@ -45,26 +82,57 @@ export const mykonosVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Life jackets with integrated GPS","Satellite emergency notification devices","Searchlights and rescue equipment","Water purification systems"],
-      navigationEquipment: ["Integrated navigation system displays","Long-range identification and tracking (LRIT)","Inland ECDIS","Weather routing systems"],
-      communicationEquipment: ["Internal crew communication network","Global Maritime Distress Safety System (GMDSS)","Marine radio telephony"],
-      entertainmentEquipment: ["Children's entertainment areas","Observation lounges with panoramic views","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Hearing augmentation systems","Accessible entertainment venues"],
-      environmentalFeatures: ["Heat recovery systems","Dynamic routing to optimize fuel usage","Ballast water management technology"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Satellite emergency notification devices",
+        "Searchlights and rescue equipment",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Long-range identification and tracking (LRIT)",
+        "Inland ECDIS",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Hearing augmentation systems",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Dynamic routing to optimize fuel usage",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RV Mykonos Princess",
-    description: "Sailing from the picturesque port of Mykonos, the RV Mykonos Princess represents a new era in cruise experiences. This remarkable ultra luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Mykonos, the RV Mykonos Princess represents a new era in cruise experiences. This remarkable ultra luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ultra-luxury-cruise-ship",
     capacity: 594,
     length: 218,
     width: 42,
     speed: 29,
     yearBuilt: 2018,
-    homePort: {"city":"Mykonos","country":"Greece","coordinates":{"latitude":37.4467,"longitude":25.3289}},
+    homePort: {
+      city: "Mykonos",
+      country: "Greece",
+      coordinates: { latitude: 37.4467, longitude: 25.3289 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 4570,
@@ -72,26 +140,59 @@ export const mykonosVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Man overboard detection systems","Water purification systems","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Electronic chart display information systems (ECDIS)","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Marine radio telephony","Public address systems"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Culinary demonstration kitchens","Library and educational facilities","Immersive simulation experiences","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Tactile guidance systems","Accessible medical facilities","Accessible dining facilities"],
-      environmentalFeatures: ["LED lighting throughout","Heat recovery systems","Food waste digesters","Solar panel supplementation","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Water purification systems",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Electronic chart display information systems (ECDIS)",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Culinary demonstration kitchens",
+        "Library and educational facilities",
+        "Immersive simulation experiences",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Tactile guidance systems",
+        "Accessible medical facilities",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Heat recovery systems",
+        "Food waste digesters",
+        "Solar panel supplementation",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Mykonos Legend",
-    description: "Experience the epitome of maritime excellence aboard the SS Mykonos Legend, a premier superyacht sailing from Mykonos. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the SS Mykonos Legend, a premier superyacht sailing from Mykonos. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "superyacht",
     capacity: 978,
     length: 295,
     width: 54,
     speed: 29,
     yearBuilt: 2005,
-    homePort: {"city":"Mykonos","country":"Greece","coordinates":{"latitude":37.4467,"longitude":25.3289}},
+    homePort: {
+      city: "Mykonos",
+      country: "Greece",
+      coordinates: { latitude: 37.4467, longitude: 25.3289 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 7960,
@@ -99,26 +200,55 @@ export const mykonosVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Comprehensive medical facilities","Survival craft VHF radios","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Dynamic positioning systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment","Public address systems"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Casino with table games and slot machines","Culinary demonstration kitchens","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Transfer chairs for pool access"],
-      environmentalFeatures: ["Energy-efficient appliances","Solar panel supplementation","Advanced water treatment systems","Recyclable material management systems"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Survival craft VHF radios",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Casino with table games and slot machines",
+        "Culinary demonstration kitchens",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Solar panel supplementation",
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Mykonos Jewel",
-    description: "Setting sail from the beautiful port of Mykonos, the MV Mykonos Jewel is a floating paradise designed for the discerning traveler. This remarkable polar expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Mykonos, the MV Mykonos Jewel is a floating paradise designed for the discerning traveler. This remarkable polar expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "polar-expedition-ship",
     capacity: 1526,
     length: 405,
     width: 70,
     speed: 21,
     yearBuilt: 2019,
-    homePort: {"city":"Mykonos","country":"Greece","coordinates":{"latitude":37.4467,"longitude":25.3289}},
+    homePort: {
+      city: "Mykonos",
+      country: "Greece",
+      coordinates: { latitude: 37.4467, longitude: 25.3289 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 14170,
@@ -126,14 +256,40 @@ export const mykonosVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Marine-Grade Steel",
       classification: "China Classification Society B",
-      safetyEquipment: ["Man overboard detection systems","Hyperbaric treatment chambers","Water purification systems"],
-      navigationEquipment: ["Inland ECDIS","Automatic identification systems (AIS)","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Virtual reality gaming center","Art gallery and auction facilities","Dance clubs and live music venues","Children's entertainment areas","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Service animal accommodations","Tactile guidance systems","Braille signage throughout"],
-      environmentalFeatures: ["Advanced water treatment systems","Optimized hull design for reduced fuel consumption","Dynamic routing to optimize fuel usage","Shore power connectivity"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Hyperbaric treatment chambers",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Automatic identification systems (AIS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Art gallery and auction facilities",
+        "Dance clubs and live music venues",
+        "Children's entertainment areas",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Tactile guidance systems",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Dynamic routing to optimize fuel usage",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

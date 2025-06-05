@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const hoChiMinhCityVessels: Vessels[] = [
   {
     name: "PS Ho Chi Minh City Explorer",
-    description: "The magnificent PS Ho Chi Minh City Explorer offers a perfect blend of adventure and relaxation for travelers departing from Ho Chi Minh City. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Asia Pacific region.",
+    description:
+      "The magnificent PS Ho Chi Minh City Explorer offers a perfect blend of adventure and relaxation for travelers departing from Ho Chi Minh City. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Asia Pacific region.",
     type: "zodiac-equipped-vessel",
     capacity: 1630,
     length: 426,
     width: 73,
     speed: 18,
     yearBuilt: 2024,
-    homePort: {"city":"Ho Chi Minh City","country":"Vietnam","coordinates":{"latitude":10.8231,"longitude":106.6297}},
+    homePort: {
+      city: "Ho Chi Minh City",
+      country: "Vietnam",
+      coordinates: { latitude: 10.8231, longitude: 106.6297 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 15540,
@@ -18,26 +23,50 @@ export const hoChiMinhCityVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "China Classification Society B",
-      safetyEquipment: ["Thermal imaging cameras","Hyperbaric treatment chambers","Weather monitoring stations","Rescue boats and life rafts","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Doppler speed logs","Integrated bridge systems"],
-      communicationEquipment: ["Broadband internet throughout","Ship-to-shore communication links"],
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Hyperbaric treatment chambers",
+        "Weather monitoring stations",
+        "Rescue boats and life rafts",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: ["Doppler speed logs", "Integrated bridge systems"],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Ship-to-shore communication links",
+      ],
       entertainmentEquipment: ["Library and educational facilities"],
-      accessibilityFeatures: ["Accessible dining facilities","Accessible entertainment venues","Visual alarm systems"],
-      environmentalFeatures: ["Recyclable material management systems","Exhaust gas cleaning systems","Biodegradable hydraulic fluids","Energy-efficient appliances","Noise reduction technology to minimize impact on marine life"]
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Exhaust gas cleaning systems",
+        "Biodegradable hydraulic fluids",
+        "Energy-efficient appliances",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MS Ho Chi Minh City Voyager",
-    description: "The MS Ho Chi Minh City Voyager stands as a testament to luxury and innovation on the high seas. Departing from Ho Chi Minh City, this sophisticated ice class ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MS Ho Chi Minh City Voyager stands as a testament to luxury and innovation on the high seas. Departing from Ho Chi Minh City, this sophisticated ice class ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "ice-class-ship",
     capacity: 1801,
     length: 460,
     width: 79,
     speed: 18,
     yearBuilt: 2019,
-    homePort: {"city":"Ho Chi Minh City","country":"Vietnam","coordinates":{"latitude":10.8231,"longitude":106.6297}},
+    homePort: {
+      city: "Ho Chi Minh City",
+      country: "Vietnam",
+      coordinates: { latitude: 10.8231, longitude: 106.6297 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 18170,
@@ -45,26 +74,49 @@ export const hoChiMinhCityVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Personal locator beacons","Thermal imaging cameras","Hyperbaric treatment chambers","Weather monitoring stations"],
-      navigationEquipment: ["Night vision systems","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Internal crew communication network","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Children's entertainment areas","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Accessible medical facilities","Visual alarm systems"],
-      environmentalFeatures: ["Recyclable material management systems"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Thermal imaging cameras",
+        "Hyperbaric treatment chambers",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Night vision systems",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: ["Recyclable material management systems"],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Ho Chi Minh City Princess",
-    description: "Setting sail from the beautiful port of Ho Chi Minh City, the SS Ho Chi Minh City Princess is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Ho Chi Minh City, the SS Ho Chi Minh City Princess is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "luxury-cruise-ship",
     capacity: 408,
     length: 181,
     width: 37,
     speed: 20,
     yearBuilt: 2008,
-    homePort: {"city":"Ho Chi Minh City","country":"Vietnam","coordinates":{"latitude":10.8231,"longitude":106.6297}},
+    homePort: {
+      city: "Ho Chi Minh City",
+      country: "Vietnam",
+      coordinates: { latitude: 10.8231, longitude: 106.6297 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 3340,
@@ -72,26 +124,56 @@ export const hoChiMinhCityVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Weather monitoring stations","Survival craft VHF radios","Life jackets with integrated GPS","Searchlights and rescue equipment"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS","Global navigation satellite systems (GNSS)","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Public address systems","Emergency position-indicating radio beacons","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Virtual reality gaming center","Observation lounges with panoramic views","Library and educational facilities","Culinary demonstration kitchens","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Roll-in showers","Visual alarm systems"],
-      environmentalFeatures: ["Solar panel supplementation","Exhaust gas cleaning systems","Food waste digesters","Ballast water management technology"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+        "Global navigation satellite systems (GNSS)",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Emergency position-indicating radio beacons",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Observation lounges with panoramic views",
+        "Library and educational facilities",
+        "Culinary demonstration kitchens",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: ["Roll-in showers", "Visual alarm systems"],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Exhaust gas cleaning systems",
+        "Food waste digesters",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Ho Chi Minh City Legend",
-    description: "Combining traditional maritime charm with modern amenities, the MV Ho Chi Minh City Legend promises an extraordinary voyage from its home port of Ho Chi Minh City. This impressive boutique cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Ho Chi Minh City Legend promises an extraordinary voyage from its home port of Ho Chi Minh City. This impressive boutique cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "boutique-cruise-ship",
     capacity: 643,
     length: 228,
     width: 44,
     speed: 17,
     yearBuilt: 2014,
-    homePort: {"city":"Ho Chi Minh City","country":"Vietnam","coordinates":{"latitude":10.8231,"longitude":106.6297}},
+    homePort: {
+      city: "Ho Chi Minh City",
+      country: "Vietnam",
+      coordinates: { latitude: 10.8231, longitude: 106.6297 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 5010,
@@ -99,26 +181,60 @@ export const hoChiMinhCityVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Life jackets with integrated GPS","Satellite emergency notification devices","Marine evacuation systems (MES)","Searchlights and rescue equipment","Thermal imaging cameras","Comprehensive medical facilities"],
-      navigationEquipment: ["River radar systems","Echo sounders and sonar systems","Gyrocompasses and magnetic compasses","Bridge alert management systems"],
-      communicationEquipment: ["Marine radio telephony","Digital selective calling equipment","Public address systems"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Art gallery and auction facilities","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible medical facilities","Braille signage throughout","Accessible shore excursion options"],
-      environmentalFeatures: ["Energy-efficient appliances","Recyclable material management systems","Shore power connectivity","LED lighting throughout"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Satellite emergency notification devices",
+        "Marine evacuation systems (MES)",
+        "Searchlights and rescue equipment",
+        "Thermal imaging cameras",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Echo sounders and sonar systems",
+        "Gyrocompasses and magnetic compasses",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Digital selective calling equipment",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Art gallery and auction facilities",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Braille signage throughout",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Recyclable material management systems",
+        "Shore power connectivity",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Ho Chi Minh City Jewel",
-    description: "The majestic SY Ho Chi Minh City Jewel represents the pinnacle of maritime engineering and hospitality. Based in Ho Chi Minh City, this exceptional resort style ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Asia Pacific region.",
+    description:
+      "The majestic SY Ho Chi Minh City Jewel represents the pinnacle of maritime engineering and hospitality. Based in Ho Chi Minh City, this exceptional resort style ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Asia Pacific region.",
     type: "resort-style-ship",
     capacity: 1387,
     length: 377,
     width: 66,
     speed: 21,
     yearBuilt: 2016,
-    homePort: {"city":"Ho Chi Minh City","country":"Vietnam","coordinates":{"latitude":10.8231,"longitude":106.6297}},
+    homePort: {
+      city: "Ho Chi Minh City",
+      country: "Vietnam",
+      coordinates: { latitude: 10.8231, longitude: 106.6297 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 12440,
@@ -126,14 +242,41 @@ export const hoChiMinhCityVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Satellite emergency notification devices","Comprehensive medical facilities","Advanced fire detection and suppression systems","Weather monitoring stations"],
-      navigationEquipment: ["Integrated navigation system displays","Bridge alert management systems"],
-      communicationEquipment: ["Marine radio telephony","Satellite communication systems"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Theater with Broadway-style productions","Climbing walls and sports courts","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Accessible dining facilities","Elevator access to all public decks","Accessible shore excursion options","Accessible entertainment venues"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Shore power connectivity","Advanced water treatment systems","Optimized hull design for reduced fuel consumption","Recyclable material management systems"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Comprehensive medical facilities",
+        "Advanced fire detection and suppression systems",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Elevator access to all public decks",
+        "Accessible shore excursion options",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Shore power connectivity",
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

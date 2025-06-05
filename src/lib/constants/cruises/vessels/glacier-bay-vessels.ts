@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const glacierBayVessels: Vessels[] = [
   {
     name: "MV Glacier Bay Explorer",
-    description: "The MV Glacier Bay Explorer invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ultra luxury cruise ship, based in Glacier Bay, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MV Glacier Bay Explorer invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ultra luxury cruise ship, based in Glacier Bay, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "ultra-luxury-cruise-ship",
     capacity: 1088,
     length: 317,
     width: 57,
     speed: 24,
     yearBuilt: 2010,
-    homePort: {"city":"Glacier Bay","country":"United States","coordinates":{"latitude":58.8017,"longitude":-135.5828}},
+    homePort: {
+      city: "Glacier Bay",
+      country: "United States",
+      coordinates: { latitude: 58.8017, longitude: -135.5828 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 9030,
@@ -18,26 +23,56 @@ export const glacierBayVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Rescue boats and life rafts","Emergency escape breathing devices","Searchlights and rescue equipment","Water purification systems","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Autopilot systems with track control","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment","Internal crew communication network"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Culinary demonstration kitchens","Cinema with latest releases","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible medical facilities","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Ballast water management technology","Exhaust gas cleaning systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Emergency escape breathing devices",
+        "Searchlights and rescue equipment",
+        "Water purification systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Culinary demonstration kitchens",
+        "Cinema with latest releases",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Exhaust gas cleaning systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Glacier Bay Voyager",
-    description: "Combining traditional maritime charm with modern amenities, the MV Glacier Bay Voyager promises an extraordinary voyage from its home port of Glacier Bay. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Glacier Bay Voyager promises an extraordinary voyage from its home port of Glacier Bay. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "ice-class-ship",
     capacity: 1478,
     length: 395,
     width: 69,
     speed: 23,
     yearBuilt: 2019,
-    homePort: {"city":"Glacier Bay","country":"United States","coordinates":{"latitude":58.8017,"longitude":-135.5828}},
+    homePort: {
+      city: "Glacier Bay",
+      country: "United States",
+      coordinates: { latitude: 58.8017, longitude: -135.5828 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 13620,
@@ -45,26 +80,58 @@ export const glacierBayVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Advanced fire detection and suppression systems","Life jackets with integrated GPS"],
-      navigationEquipment: ["Doppler speed logs","Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS","Navigation data management systems","Integrated bridge systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Maritime VHF radio systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Dance clubs and live music venues","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Service animal accommodations","Tactile guidance systems","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Ballast water management technology","Exhaust gas cleaning systems","Biodegradable hydraulic fluids","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Advanced fire detection and suppression systems",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+        "Navigation data management systems",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Maritime VHF radio systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Dance clubs and live music venues",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Tactile guidance systems",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Exhaust gas cleaning systems",
+        "Biodegradable hydraulic fluids",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Glacier Bay Princess",
-    description: "Experience the epitome of maritime excellence aboard the TS Glacier Bay Princess, a premier superyacht sailing from Glacier Bay. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the TS Glacier Bay Princess, a premier superyacht sailing from Glacier Bay. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "superyacht",
     capacity: 799,
     length: 259,
     width: 48,
     speed: 24,
     yearBuilt: 2023,
-    homePort: {"city":"Glacier Bay","country":"United States","coordinates":{"latitude":58.8017,"longitude":-135.5828}},
+    homePort: {
+      city: "Glacier Bay",
+      country: "United States",
+      coordinates: { latitude: 58.8017, longitude: -135.5828 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 6210,
@@ -72,26 +139,55 @@ export const glacierBayVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Personal locator beacons","Survival craft VHF radios","Radar reflectors","Hyperbaric treatment chambers","Tactical response equipment","Water purification systems"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Broadband internet throughout","Public address systems","Digital selective calling equipment"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Observation lounges with panoramic views","Art gallery and auction facilities","Children's entertainment areas"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Wheelchair accessible cabins","Assistive listening devices","Braille signage throughout"],
-      environmentalFeatures: ["Shore power connectivity"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+        "Radar reflectors",
+        "Hyperbaric treatment chambers",
+        "Tactical response equipment",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Public address systems",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Observation lounges with panoramic views",
+        "Art gallery and auction facilities",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Wheelchair accessible cabins",
+        "Assistive listening devices",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: ["Shore power connectivity"],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SS Glacier Bay Legend",
-    description: "Setting sail from the beautiful port of Glacier Bay, the SS Glacier Bay Legend is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Glacier Bay, the SS Glacier Bay Legend is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "luxury-cruise-ship",
     capacity: 647,
     length: 229,
     width: 44,
     speed: 16,
     yearBuilt: 2018,
-    homePort: {"city":"Glacier Bay","country":"United States","coordinates":{"latitude":58.8017,"longitude":-135.5828}},
+    homePort: {
+      city: "Glacier Bay",
+      country: "United States",
+      coordinates: { latitude: 58.8017, longitude: -135.5828 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 5030,
@@ -99,26 +195,53 @@ export const glacierBayVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Composite Materials",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Man overboard detection systems","Advanced fire detection and suppression systems","Rescue boats and life rafts","Tactical response equipment","Marine evacuation systems (MES)","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Inland ECDIS","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Digital selective calling equipment","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible entertainment venues","Tactile guidance systems"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Advanced fire detection and suppression systems",
+        "Rescue boats and life rafts",
+        "Tactical response equipment",
+        "Marine evacuation systems (MES)",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Glacier Bay Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the PS Glacier Bay Jewel promises an extraordinary voyage from its home port of Glacier Bay. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the PS Glacier Bay Jewel promises an extraordinary voyage from its home port of Glacier Bay. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "ice-class-ship",
     capacity: 1864,
     length: 472,
     width: 80,
     speed: 27,
     yearBuilt: 2022,
-    homePort: {"city":"Glacier Bay","country":"United States","coordinates":{"latitude":58.8017,"longitude":-135.5828}},
+    homePort: {
+      city: "Glacier Bay",
+      country: "United States",
+      coordinates: { latitude: 58.8017, longitude: -135.5828 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 18880,
@@ -126,14 +249,39 @@ export const glacierBayVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Hyperbaric treatment chambers","Automated external defibrillators (AEDs)","Marine evacuation systems (MES)","Digital safety monitoring systems","Radar reflectors"],
-      navigationEquipment: ["Weather routing systems","Electronic chart display information systems (ECDIS)","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Digital selective calling equipment","Ship-to-shore communication links","Satellite communication systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Art gallery and auction facilities"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Accessible dining facilities"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Biodegradable hydraulic fluids","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Hyperbaric treatment chambers",
+        "Automated external defibrillators (AEDs)",
+        "Marine evacuation systems (MES)",
+        "Digital safety monitoring systems",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Electronic chart display information systems (ECDIS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Ship-to-shore communication links",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Art gallery and auction facilities",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Biodegradable hydraulic fluids",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

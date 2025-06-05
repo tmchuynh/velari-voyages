@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const newYorkCityVessels: Vessels[] = [
   {
     name: "MY New York City Explorer",
-    description: "With its distinctive profile and luxurious appointments, the MY New York City Explorer stands as a jewel in the New York City harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MY New York City Explorer stands as a jewel in the New York City harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "chartered-vessel",
     capacity: 777,
     length: 255,
     width: 48,
     speed: 28,
     yearBuilt: 2010,
-    homePort: {"city":"New York City","country":"United States","coordinates":{"latitude":40.7128,"longitude":-74.006}},
+    homePort: {
+      city: "New York City",
+      country: "United States",
+      coordinates: { latitude: 40.7128, longitude: -74.006 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 6120,
@@ -18,26 +23,56 @@ export const newYorkCityVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Weather monitoring stations","Digital safety monitoring systems","Comprehensive medical facilities","Thermal imaging cameras"],
-      navigationEquipment: ["Integrated bridge systems","Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS"],
-      communicationEquipment: ["Satellite communication systems","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Immersive simulation experiences"],
-      accessibilityFeatures: ["Elevator access to all public decks","Visual alarm systems","Transfer chairs for pool access","Assistive listening devices"],
-      environmentalFeatures: ["Heat recovery systems","Exhaust gas cleaning systems","Shore power connectivity","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Digital safety monitoring systems",
+        "Comprehensive medical facilities",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Visual alarm systems",
+        "Transfer chairs for pool access",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Exhaust gas cleaning systems",
+        "Shore power connectivity",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV New York City Voyager",
-    description: "The MV New York City Voyager stands as a testament to luxury and innovation on the high seas. Departing from New York City, this sophisticated ultra luxury cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MV New York City Voyager stands as a testament to luxury and innovation on the high seas. Departing from New York City, this sophisticated ultra luxury cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "ultra-luxury-cruise-ship",
     capacity: 1750,
     length: 450,
     width: 77,
     speed: 29,
     yearBuilt: 2013,
-    homePort: {"city":"New York City","country":"United States","coordinates":{"latitude":40.7128,"longitude":-74.006}},
+    homePort: {
+      city: "New York City",
+      country: "United States",
+      coordinates: { latitude: 40.7128, longitude: -74.006 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 17320,
@@ -45,26 +80,53 @@ export const newYorkCityVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Composite Materials",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Marine evacuation systems (MES)","Personal locator beacons"],
-      navigationEquipment: ["Bridge alert management systems","Gyrocompasses and magnetic compasses","River radar systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Internal crew communication network"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Observation lounges with panoramic views","Casino with table games and slot machines","Virtual reality gaming center"],
-      accessibilityFeatures: ["Roll-in showers","Wheelchair accessible cabins","Tactile guidance systems"],
-      environmentalFeatures: ["Recyclable material management systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Gyrocompasses and magnetic compasses",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Observation lounges with panoramic views",
+        "Casino with table games and slot machines",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Roll-in showers",
+        "Wheelchair accessible cabins",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MS New York City Princess",
-    description: "Setting sail from the beautiful port of New York City, the MS New York City Princess is a floating paradise designed for the discerning traveler. This remarkable chartered vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of New York City, the MS New York City Princess is a floating paradise designed for the discerning traveler. This remarkable chartered vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "chartered-vessel",
     capacity: 1385,
     length: 377,
     width: 66,
     speed: 20,
     yearBuilt: 2021,
-    homePort: {"city":"New York City","country":"United States","coordinates":{"latitude":40.7128,"longitude":-74.006}},
+    homePort: {
+      city: "New York City",
+      country: "United States",
+      coordinates: { latitude: 40.7128, longitude: -74.006 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 12440,
@@ -72,26 +134,60 @@ export const newYorkCityVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Satellite emergency notification devices","Rescue boats and life rafts","Comprehensive medical facilities","Man overboard detection systems","Hyperbaric treatment chambers","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["River radar systems","Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Internal crew communication network","Ship-to-shore communication links","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Full-service spa and fitness center","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Service animal accommodations","Visual alarm systems","Hearing augmentation systems"],
-      environmentalFeatures: ["Heat recovery systems","Noise reduction technology to minimize impact on marine life","Ballast water management technology","Food waste digesters"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Rescue boats and life rafts",
+        "Comprehensive medical facilities",
+        "Man overboard detection systems",
+        "Hyperbaric treatment chambers",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Ship-to-shore communication links",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Visual alarm systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Ballast water management technology",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV New York City Legend",
-    description: "Combining traditional maritime charm with modern amenities, the MV New York City Legend promises an extraordinary voyage from its home port of New York City. This impressive resort style ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV New York City Legend promises an extraordinary voyage from its home port of New York City. This impressive resort style ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "resort-style-ship",
     capacity: 1122,
     length: 324,
     width: 58,
     speed: 18,
     yearBuilt: 2010,
-    homePort: {"city":"New York City","country":"United States","coordinates":{"latitude":40.7128,"longitude":-74.006}},
+    homePort: {
+      city: "New York City",
+      country: "United States",
+      coordinates: { latitude: 40.7128, longitude: -74.006 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 9390,
@@ -99,26 +195,52 @@ export const newYorkCityVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Tactical response equipment","Survival craft VHF radios","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Satellite communication systems","Internal crew communication network"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Cinema with latest releases","Full-service spa and fitness center","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Tactile guidance systems","Hearing augmentation systems"],
-      environmentalFeatures: ["Shore power connectivity","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Survival craft VHF radios",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Cinema with latest releases",
+        "Full-service spa and fitness center",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS New York City Jewel",
-    description: "The RMS New York City Jewel offers an unparalleled cruising experience from New York City, combining luxury amenities with state-of-the-art navigation technology. This mega yacht features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of East Coast USA hospitality.",
+    description:
+      "The RMS New York City Jewel offers an unparalleled cruising experience from New York City, combining luxury amenities with state-of-the-art navigation technology. This mega yacht features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of East Coast USA hospitality.",
     type: "mega-yacht",
     capacity: 1447,
     length: 389,
     width: 68,
     speed: 25,
     yearBuilt: 2016,
-    homePort: {"city":"New York City","country":"United States","coordinates":{"latitude":40.7128,"longitude":-74.006}},
+    homePort: {
+      city: "New York City",
+      country: "United States",
+      coordinates: { latitude: 40.7128, longitude: -74.006 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 13220,
@@ -126,14 +248,37 @@ export const newYorkCityVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Tactical response equipment","Satellite emergency notification devices","Weather monitoring stations","Digital safety monitoring systems","Advanced fire detection and suppression systems","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Integrated bridge systems","Doppler speed logs"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Maritime VHF radio systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Culinary demonstration kitchens","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Hearing augmentation systems","Roll-in showers","Accessible shore excursion options"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Noise reduction technology to minimize impact on marine life","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Satellite emergency notification devices",
+        "Weather monitoring stations",
+        "Digital safety monitoring systems",
+        "Advanced fire detection and suppression systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: ["Integrated bridge systems", "Doppler speed logs"],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Maritime VHF radio systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Culinary demonstration kitchens",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Hearing augmentation systems",
+        "Roll-in showers",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Noise reduction technology to minimize impact on marine life",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

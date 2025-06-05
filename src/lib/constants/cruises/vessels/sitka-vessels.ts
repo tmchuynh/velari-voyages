@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const sitkaVessels: Vessels[] = [
   {
     name: "MY Sitka Explorer",
-    description: "The MY Sitka Explorer invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ice class ship, based in Sitka, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MY Sitka Explorer invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ice class ship, based in Sitka, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "ice-class-ship",
     capacity: 1338,
     length: 367,
     width: 65,
     speed: 19,
     yearBuilt: 2017,
-    homePort: {"city":"Sitka","country":"United States","coordinates":{"latitude":57.0531,"longitude":-135.3304}},
+    homePort: {
+      city: "Sitka",
+      country: "United States",
+      coordinates: { latitude: 57.0531, longitude: -135.3304 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 11920,
@@ -18,26 +23,57 @@ export const sitkaVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Hyperbaric treatment chambers","Satellite emergency notification devices","Tactical response equipment","Thermal imaging cameras","Man overboard detection systems"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Integrated navigation system displays","Autopilot systems with track control","Inland ECDIS"],
-      communicationEquipment: ["Broadband internet throughout","Internal crew communication network","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Braille signage throughout","Service animal accommodations"],
-      environmentalFeatures: ["Energy-efficient appliances","Biodegradable hydraulic fluids","Advanced water treatment systems","Heat recovery systems"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Satellite emergency notification devices",
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Integrated navigation system displays",
+        "Autopilot systems with track control",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Internal crew communication network",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+        "Advanced water treatment systems",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Sitka Voyager",
-    description: "Combining traditional maritime charm with modern amenities, the TS Sitka Voyager promises an extraordinary voyage from its home port of Sitka. This impressive zodiac equipped vessel offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the TS Sitka Voyager promises an extraordinary voyage from its home port of Sitka. This impressive zodiac equipped vessel offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "zodiac-equipped-vessel",
     capacity: 786,
     length: 257,
     width: 48,
     speed: 21,
     yearBuilt: 2020,
-    homePort: {"city":"Sitka","country":"United States","coordinates":{"latitude":57.0531,"longitude":-135.3304}},
+    homePort: {
+      city: "Sitka",
+      country: "United States",
+      coordinates: { latitude: 57.0531, longitude: -135.3304 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 6160,
@@ -45,26 +81,50 @@ export const sitkaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Radar reflectors","Automated external defibrillators (AEDs)","Survival craft VHF radios","Personal locator beacons"],
-      navigationEquipment: ["Doppler speed logs","Bridge alert management systems","Dynamic positioning systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Virtual reality gaming center"],
-      accessibilityFeatures: ["Accessible shore excursion options","Transfer chairs for pool access","Accessible dining facilities"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Automated external defibrillators (AEDs)",
+        "Survival craft VHF radios",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Bridge alert management systems",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Transfer chairs for pool access",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: ["Marine ecosystem monitoring equipment"],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Sitka Princess",
-    description: "The RMS Sitka Princess offers an unparalleled cruising experience from Sitka, combining luxury amenities with state-of-the-art navigation technology. This family cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
+    description:
+      "The RMS Sitka Princess offers an unparalleled cruising experience from Sitka, combining luxury amenities with state-of-the-art navigation technology. This family cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
     type: "family-cruise-ship",
     capacity: 1217,
     length: 343,
     width: 61,
     speed: 24,
     yearBuilt: 2023,
-    homePort: {"city":"Sitka","country":"United States","coordinates":{"latitude":57.0531,"longitude":-135.3304}},
+    homePort: {
+      city: "Sitka",
+      country: "United States",
+      coordinates: { latitude: 57.0531, longitude: -135.3304 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 10460,
@@ -72,26 +132,57 @@ export const sitkaVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Digital safety monitoring systems","Rescue boats and life rafts","Life jackets with integrated GPS","Hyperbaric treatment chambers","Marine evacuation systems (MES)","Comprehensive medical facilities"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Weather routing systems","River radar systems"],
-      communicationEquipment: ["Satellite communication systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Virtual reality gaming center","Full-service spa and fitness center","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Hearing augmentation systems","Braille signage throughout"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Solar panel supplementation","Optimized hull design for reduced fuel consumption","Shore power connectivity"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Rescue boats and life rafts",
+        "Life jackets with integrated GPS",
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Weather routing systems",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Full-service spa and fitness center",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Hearing augmentation systems",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Solar panel supplementation",
+        "Optimized hull design for reduced fuel consumption",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Sitka Legend",
-    description: "The magnificent SS Sitka Legend offers a perfect blend of adventure and relaxation for travelers departing from Sitka. This outstanding river cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Alaska region.",
+    description:
+      "The magnificent SS Sitka Legend offers a perfect blend of adventure and relaxation for travelers departing from Sitka. This outstanding river cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Alaska region.",
     type: "river-cruise-ship",
     capacity: 684,
     length: 236,
     width: 45,
     speed: 29,
     yearBuilt: 2006,
-    homePort: {"city":"Sitka","country":"United States","coordinates":{"latitude":57.0531,"longitude":-135.3304}},
+    homePort: {
+      city: "Sitka",
+      country: "United States",
+      coordinates: { latitude: 57.0531, longitude: -135.3304 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 5310,
@@ -99,26 +190,58 @@ export const sitkaVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Satellite emergency notification devices","Life jackets with integrated GPS","Tactical response equipment","Thermal imaging cameras","Personal locator beacons","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Infrared camera systems","River radar systems","Echo sounders and sonar systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Internal crew communication network","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Virtual reality gaming center","Theater with Broadway-style productions","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible shore excursion options","Accessible dining facilities","Accessible entertainment venues"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Advanced water treatment systems","Shore power connectivity"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Life jackets with integrated GPS",
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+        "Personal locator beacons",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "River radar systems",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Internal crew communication network",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Theater with Broadway-style productions",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Advanced water treatment systems",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Sitka Jewel",
-    description: "With its distinctive profile and luxurious appointments, the RV Sitka Jewel stands as a jewel in the Sitka harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the RV Sitka Jewel stands as a jewel in the Sitka harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "chartered-vessel",
     capacity: 1425,
     length: 385,
     width: 67,
     speed: 19,
     yearBuilt: 2021,
-    homePort: {"city":"Sitka","country":"United States","coordinates":{"latitude":57.0531,"longitude":-135.3304}},
+    homePort: {
+      city: "Sitka",
+      country: "United States",
+      coordinates: { latitude: 57.0531, longitude: -135.3304 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 12890,
@@ -126,14 +249,38 @@ export const sitkaVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Satellite emergency notification devices","Searchlights and rescue equipment","Comprehensive medical facilities","Tactical response equipment"],
-      navigationEquipment: ["Bridge alert management systems","Echo sounders and sonar systems","Integrated bridge systems"],
-      communicationEquipment: ["Broadband internet throughout","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Cinema with latest releases","Climbing walls and sports courts","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible entertainment venues","Roll-in showers"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Searchlights and rescue equipment",
+        "Comprehensive medical facilities",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Echo sounders and sonar systems",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Cinema with latest releases",
+        "Climbing walls and sports courts",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible entertainment venues",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

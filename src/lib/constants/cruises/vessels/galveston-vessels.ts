@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const galvestonVessels: Vessels[] = [
   {
     name: "MY Galveston Explorer",
-    description: "The MY Galveston Explorer invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional catamaran, based in Galveston, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MY Galveston Explorer invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional catamaran, based in Galveston, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "catamaran",
     capacity: 1123,
     length: 324,
     width: 58,
     speed: 25,
     yearBuilt: 2013,
-    homePort: {"city":"Galveston","country":"United States","coordinates":{"latitude":29.301348,"longitude":-94.797695}},
+    homePort: {
+      city: "Galveston",
+      country: "United States",
+      coordinates: { latitude: 29.301348, longitude: -94.797695 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 9390,
@@ -18,26 +23,53 @@ export const galvestonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Radar reflectors","Personal locator beacons","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Global navigation satellite systems (GNSS)","Night vision systems","Radar and automatic radar plotting aids (ARPAs)"],
+      safetyEquipment: [
+        "Radar reflectors",
+        "Personal locator beacons",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Global navigation satellite systems (GNSS)",
+        "Night vision systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
       communicationEquipment: ["Marine radio telephony"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Multiple swimming pools and water features","Immersive simulation experiences"],
-      accessibilityFeatures: ["Accessible shore excursion options","Hearing augmentation systems","Assistive listening devices"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Exhaust gas cleaning systems","Food waste digesters","Solar panel supplementation"]
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Multiple swimming pools and water features",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Hearing augmentation systems",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Exhaust gas cleaning systems",
+        "Food waste digesters",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Galveston Voyager",
-    description: "The SS Galveston Voyager offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This short hop ferry features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The SS Galveston Voyager offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This short hop ferry features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "short-hop-ferry",
     capacity: 1555,
     length: 411,
     width: 71,
     speed: 18,
     yearBuilt: 2006,
-    homePort: {"city":"Galveston","country":"United States","coordinates":{"latitude":29.301348,"longitude":-94.797695}},
+    homePort: {
+      city: "Galveston",
+      country: "United States",
+      coordinates: { latitude: 29.301348, longitude: -94.797695 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 14590,
@@ -45,26 +77,51 @@ export const galvestonVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Marine evacuation systems (MES)","Satellite emergency notification devices","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Infrared camera systems","Inland ECDIS"],
-      communicationEquipment: ["Marine radio telephony","Global Maritime Distress Safety System (GMDSS)","Digital selective calling equipment"],
-      entertainmentEquipment: ["Library and educational facilities","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Accessible medical facilities","Roll-in showers","Braille signage throughout"],
-      environmentalFeatures: ["Food waste digesters","Biodegradable hydraulic fluids","Energy-efficient appliances","Heat recovery systems"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Satellite emergency notification devices",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: ["Infrared camera systems", "Inland ECDIS"],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Roll-in showers",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Biodegradable hydraulic fluids",
+        "Energy-efficient appliances",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Galveston Princess",
-    description: "Sailing from the picturesque port of Galveston, the RV Galveston Princess represents a new era in cruise experiences. This remarkable boutique cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Galveston, the RV Galveston Princess represents a new era in cruise experiences. This remarkable boutique cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "boutique-cruise-ship",
     capacity: 1786,
     length: 457,
     width: 78,
     speed: 25,
     yearBuilt: 2016,
-    homePort: {"city":"Galveston","country":"United States","coordinates":{"latitude":29.301348,"longitude":-94.797695}},
+    homePort: {
+      city: "Galveston",
+      country: "United States",
+      coordinates: { latitude: 29.301348, longitude: -94.797695 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 17820,
@@ -72,26 +129,56 @@ export const galvestonVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "China Classification Society B",
-      safetyEquipment: ["Rescue boats and life rafts","Life jackets with integrated GPS","Survival craft VHF radios"],
-      navigationEquipment: ["Autopilot systems with track control","Automatic identification systems (AIS)","Infrared camera systems","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Maritime VHF radio systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Observation lounges with panoramic views","Cinema with latest releases"],
-      accessibilityFeatures: ["Accessible entertainment venues","Accessible medical facilities","Transfer chairs for pool access"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Shore power connectivity","Exhaust gas cleaning systems","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Life jackets with integrated GPS",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Automatic identification systems (AIS)",
+        "Infrared camera systems",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Observation lounges with panoramic views",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Accessible medical facilities",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Shore power connectivity",
+        "Exhaust gas cleaning systems",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Galveston Legend",
-    description: "The RMS Galveston Legend offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The RMS Galveston Legend offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "polar-expedition-ship",
     capacity: 1060,
     length: 312,
     width: 56,
     speed: 24,
     yearBuilt: 2024,
-    homePort: {"city":"Galveston","country":"United States","coordinates":{"latitude":29.301348,"longitude":-94.797695}},
+    homePort: {
+      city: "Galveston",
+      country: "United States",
+      coordinates: { latitude: 29.301348, longitude: -94.797695 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 8730,
@@ -99,26 +186,58 @@ export const galvestonVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Thermal imaging cameras","Digital safety monitoring systems","Rescue boats and life rafts","Radar reflectors","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Inland ECDIS","Gyrocompasses and magnetic compasses","Integrated bridge systems"],
-      communicationEquipment: ["Marine radio telephony","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Casino with table games and slot machines","Immersive simulation experiences"],
-      accessibilityFeatures: ["Visual alarm systems","Accessible shore excursion options","Assistive listening devices","Wheelchair accessible cabins"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Recyclable material management systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Digital safety monitoring systems",
+        "Rescue boats and life rafts",
+        "Radar reflectors",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Inland ECDIS",
+        "Gyrocompasses and magnetic compasses",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Casino with table games and slot machines",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Accessible shore excursion options",
+        "Assistive listening devices",
+        "Wheelchair accessible cabins",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Recyclable material management systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "PS Galveston Jewel",
-    description: "The PS Galveston Jewel offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This boutique cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The PS Galveston Jewel offers an unparalleled cruising experience from Galveston, combining luxury amenities with state-of-the-art navigation technology. This boutique cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "boutique-cruise-ship",
     capacity: 842,
     length: 268,
     width: 50,
     speed: 26,
     yearBuilt: 2024,
-    homePort: {"city":"Galveston","country":"United States","coordinates":{"latitude":29.301348,"longitude":-94.797695}},
+    homePort: {
+      city: "Galveston",
+      country: "United States",
+      coordinates: { latitude: 29.301348, longitude: -94.797695 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 6700,
@@ -126,14 +245,41 @@ export const galvestonVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Life jackets with integrated GPS","Searchlights and rescue equipment","Water purification systems","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Navigation data management systems","Voyage data recorders (VDRs)","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Digital selective calling equipment","Public address systems"],
-      entertainmentEquipment: ["Children's entertainment areas","Observation lounges with panoramic views","Cinema with latest releases","Multiple swimming pools and water features","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible shore excursion options","Accessible medical facilities","Visual alarm systems"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Heat recovery systems","Solar panel supplementation","Ballast water management technology"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Searchlights and rescue equipment",
+        "Water purification systems",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Voyage data recorders (VDRs)",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+        "Cinema with latest releases",
+        "Multiple swimming pools and water features",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Accessible medical facilities",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Heat recovery systems",
+        "Solar panel supplementation",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

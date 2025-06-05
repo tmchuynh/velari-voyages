@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const melbourneVessels: Vessels[] = [
   {
     name: "MY Melbourne Explorer",
-    description: "Sailing from the picturesque port of Melbourne, the MY Melbourne Explorer represents a new era in cruise experiences. This remarkable party cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Melbourne, the MY Melbourne Explorer represents a new era in cruise experiences. This remarkable party cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "party-cruise-ship",
     capacity: 1160,
     length: 332,
     width: 59,
     speed: 28,
     yearBuilt: 2023,
-    homePort: {"city":"Melbourne","country":"Australia","coordinates":{"latitude":-37.8136,"longitude":144.9631}},
+    homePort: {
+      city: "Melbourne",
+      country: "Australia",
+      coordinates: { latitude: -37.8136, longitude: 144.9631 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 9790,
@@ -18,26 +23,60 @@ export const melbourneVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Emergency escape breathing devices","Comprehensive medical facilities","Tactical response equipment","Thermal imaging cameras"],
-      navigationEquipment: ["Autopilot systems with track control","Integrated bridge systems","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Satellite communication systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Children's entertainment areas","Full-service spa and fitness center","Art gallery and auction facilities","Climbing walls and sports courts","Cinema with latest releases"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Visual alarm systems","Braille signage throughout"],
-      environmentalFeatures: ["Solar panel supplementation","Marine ecosystem monitoring equipment","Recyclable material management systems","Dynamic routing to optimize fuel usage","Food waste digesters"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Emergency escape breathing devices",
+        "Comprehensive medical facilities",
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Integrated bridge systems",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Full-service spa and fitness center",
+        "Art gallery and auction facilities",
+        "Climbing walls and sports courts",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Visual alarm systems",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Marine ecosystem monitoring equipment",
+        "Recyclable material management systems",
+        "Dynamic routing to optimize fuel usage",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Melbourne Voyager",
-    description: "Setting sail from the beautiful port of Melbourne, the TS Melbourne Voyager is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Melbourne, the TS Melbourne Voyager is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "mid-size-cruise-ship",
     capacity: 854,
     length: 270,
     width: 50,
     speed: 24,
     yearBuilt: 2010,
-    homePort: {"city":"Melbourne","country":"Australia","coordinates":{"latitude":-37.8136,"longitude":144.9631}},
+    homePort: {
+      city: "Melbourne",
+      country: "Australia",
+      coordinates: { latitude: -37.8136, longitude: 144.9631 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 6750,
@@ -45,26 +84,48 @@ export const melbourneVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Man overboard detection systems","Hyperbaric treatment chambers","Digital safety monitoring systems","Personal locator beacons","Life jackets with integrated GPS"],
-      navigationEquipment: ["River radar systems","Infrared camera systems"],
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Man overboard detection systems",
+        "Hyperbaric treatment chambers",
+        "Digital safety monitoring systems",
+        "Personal locator beacons",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: ["River radar systems", "Infrared camera systems"],
       communicationEquipment: ["Ship-to-shore communication links"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Full-service spa and fitness center","Multi-purpose event spaces","Library and educational facilities","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Braille signage throughout","Roll-in showers"],
-      environmentalFeatures: ["Energy-efficient appliances","Shore power connectivity","Heat recovery systems"]
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Full-service spa and fitness center",
+        "Multi-purpose event spaces",
+        "Library and educational facilities",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: ["Braille signage throughout", "Roll-in showers"],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Shore power connectivity",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Melbourne Princess",
-    description: "Experience the epitome of maritime excellence aboard the SS Melbourne Princess, a premier party cruise ship sailing from Melbourne. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the SS Melbourne Princess, a premier party cruise ship sailing from Melbourne. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "party-cruise-ship",
     capacity: 1180,
     length: 336,
     width: 60,
     speed: 23,
     yearBuilt: 2018,
-    homePort: {"city":"Melbourne","country":"Australia","coordinates":{"latitude":-37.8136,"longitude":144.9631}},
+    homePort: {
+      city: "Melbourne",
+      country: "Australia",
+      coordinates: { latitude: -37.8136, longitude: 144.9631 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 10080,
@@ -72,26 +133,55 @@ export const melbourneVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Composite Materials",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Comprehensive medical facilities","Searchlights and rescue equipment","Emergency escape breathing devices","Advanced fire detection and suppression systems","Rescue boats and life rafts"],
-      navigationEquipment: ["Inland ECDIS","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Public address systems","Digital selective calling equipment","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Dance clubs and live music venues","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Accessible entertainment venues","Elevator access to all public decks"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Searchlights and rescue equipment",
+        "Emergency escape breathing devices",
+        "Advanced fire detection and suppression systems",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Digital selective calling equipment",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Dance clubs and live music venues",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Accessible entertainment venues",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MY Melbourne Legend",
-    description: "Setting sail from the beautiful port of Melbourne, the MY Melbourne Legend is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Melbourne, the MY Melbourne Legend is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 1593,
     length: 418,
     width: 72,
     speed: 15,
     yearBuilt: 2019,
-    homePort: {"city":"Melbourne","country":"Australia","coordinates":{"latitude":-37.8136,"longitude":144.9631}},
+    homePort: {
+      city: "Melbourne",
+      country: "Australia",
+      coordinates: { latitude: -37.8136, longitude: 144.9631 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 15040,
@@ -99,26 +189,54 @@ export const melbourneVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Comprehensive medical facilities","Emergency escape breathing devices","Man overboard detection systems"],
-      navigationEquipment: ["Echo sounders and sonar systems","Inland ECDIS","Infrared camera systems"],
-      communicationEquipment: ["Internal crew communication network","Public address systems","Satellite communication systems"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Full-service spa and fitness center","Cinema with latest releases"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Elevator access to all public decks"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Shore power connectivity","Recyclable material management systems"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Emergency escape breathing devices",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Inland ECDIS",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Public address systems",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Full-service spa and fitness center",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Shore power connectivity",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RV Melbourne Jewel",
-    description: "Sailing from the picturesque port of Melbourne, the RV Melbourne Jewel represents a new era in cruise experiences. This remarkable ultra luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Melbourne, the RV Melbourne Jewel represents a new era in cruise experiences. This remarkable ultra luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ultra-luxury-cruise-ship",
     capacity: 656,
     length: 231,
     width: 44,
     speed: 24,
     yearBuilt: 2015,
-    homePort: {"city":"Melbourne","country":"Australia","coordinates":{"latitude":-37.8136,"longitude":144.9631}},
+    homePort: {
+      city: "Melbourne",
+      country: "Australia",
+      coordinates: { latitude: -37.8136, longitude: 144.9631 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 5080,
@@ -126,14 +244,38 @@ export const melbourneVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Emergency escape breathing devices","Weather monitoring stations","Advanced fire detection and suppression systems","Tactical response equipment","Automated external defibrillators (AEDs)","Comprehensive medical facilities"],
-      navigationEquipment: ["Infrared camera systems","Gyrocompasses and magnetic compasses","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Digital selective calling equipment","Marine radio telephony"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Immersive simulation experiences"],
-      accessibilityFeatures: ["Roll-in showers","Braille signage throughout","Accessible entertainment venues"],
-      environmentalFeatures: ["Heat recovery systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Weather monitoring stations",
+        "Advanced fire detection and suppression systems",
+        "Tactical response equipment",
+        "Automated external defibrillators (AEDs)",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Gyrocompasses and magnetic compasses",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Roll-in showers",
+        "Braille signage throughout",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

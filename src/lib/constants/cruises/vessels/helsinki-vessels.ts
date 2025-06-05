@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const helsinkiVessels: Vessels[] = [
   {
     name: "SS Helsinki Explorer",
-    description: "The SS Helsinki Explorer stands as a testament to luxury and innovation on the high seas. Departing from Helsinki, this sophisticated ice class ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS Helsinki Explorer stands as a testament to luxury and innovation on the high seas. Departing from Helsinki, this sophisticated ice class ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "ice-class-ship",
     capacity: 973,
     length: 294,
     width: 54,
     speed: 27,
     yearBuilt: 2013,
-    homePort: {"city":"Helsinki","country":"Finland","coordinates":{"latitude":60.1695,"longitude":24.9354}},
+    homePort: {
+      city: "Helsinki",
+      country: "Finland",
+      coordinates: { latitude: 60.1695, longitude: 24.9354 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 7930,
@@ -18,26 +23,52 @@ export const helsinkiVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Personal locator beacons","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Weather routing systems","Infrared camera systems"],
-      communicationEquipment: ["Satellite communication systems","Public address systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Immersive simulation experiences"],
-      accessibilityFeatures: ["Accessible dining facilities","Tactile guidance systems","Accessible medical facilities","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Solar panel supplementation","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Public address systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Tactile guidance systems",
+        "Accessible medical facilities",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY Helsinki Voyager",
-    description: "The magnificent MY Helsinki Voyager offers a perfect blend of adventure and relaxation for travelers departing from Helsinki. This outstanding family cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Northern Europe region.",
+    description:
+      "The magnificent MY Helsinki Voyager offers a perfect blend of adventure and relaxation for travelers departing from Helsinki. This outstanding family cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Northern Europe region.",
     type: "family-cruise-ship",
     capacity: 683,
     length: 236,
     width: 45,
     speed: 15,
     yearBuilt: 2023,
-    homePort: {"city":"Helsinki","country":"Finland","coordinates":{"latitude":60.1695,"longitude":24.9354}},
+    homePort: {
+      city: "Helsinki",
+      country: "Finland",
+      coordinates: { latitude: 60.1695, longitude: 24.9354 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 5310,
@@ -45,26 +76,54 @@ export const helsinkiVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Hyperbaric treatment chambers","Marine evacuation systems (MES)","Water purification systems","Satellite emergency notification devices","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Autopilot systems with track control","Integrated bridge systems","Voyage data recorders (VDRs)"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Public address systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Accessible shore excursion options","Roll-in showers","Hearing augmentation systems"],
-      environmentalFeatures: ["Ballast water management technology","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+        "Water purification systems",
+        "Satellite emergency notification devices",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Integrated bridge systems",
+        "Voyage data recorders (VDRs)",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Roll-in showers",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Helsinki Princess",
-    description: "Setting sail from the beautiful port of Helsinki, the RMS Helsinki Princess is a floating paradise designed for the discerning traveler. This remarkable zodiac equipped vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Helsinki, the RMS Helsinki Princess is a floating paradise designed for the discerning traveler. This remarkable zodiac equipped vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "zodiac-equipped-vessel",
     capacity: 1977,
     length: 495,
     width: 84,
     speed: 19,
     yearBuilt: 2006,
-    homePort: {"city":"Helsinki","country":"Finland","coordinates":{"latitude":60.1695,"longitude":24.9354}},
+    homePort: {
+      city: "Helsinki",
+      country: "Finland",
+      coordinates: { latitude: 60.1695, longitude: 24.9354 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 20790,
@@ -72,26 +131,56 @@ export const helsinkiVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Rescue boats and life rafts","Emergency escape breathing devices","Water purification systems","Radar reflectors","Personal locator beacons","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Bridge alert management systems","Long-range identification and tracking (LRIT)","Weather routing systems"],
-      communicationEquipment: ["Satellite communication systems","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Accessible dining facilities","Hearing augmentation systems","Elevator access to all public decks","Service animal accommodations"],
-      environmentalFeatures: ["Recyclable material management systems","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Emergency escape breathing devices",
+        "Water purification systems",
+        "Radar reflectors",
+        "Personal locator beacons",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Long-range identification and tracking (LRIT)",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Hearing augmentation systems",
+        "Elevator access to all public decks",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SS Helsinki Legend",
-    description: "Experience the epitome of maritime excellence aboard the SS Helsinki Legend, a premier small ocean ship sailing from Helsinki. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the SS Helsinki Legend, a premier small ocean ship sailing from Helsinki. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "small-ocean-ship",
     capacity: 666,
     length: 233,
     width: 44,
     speed: 17,
     yearBuilt: 2008,
-    homePort: {"city":"Helsinki","country":"Finland","coordinates":{"latitude":60.1695,"longitude":24.9354}},
+    homePort: {
+      city: "Helsinki",
+      country: "Finland",
+      coordinates: { latitude: 60.1695, longitude: 24.9354 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 5120,
@@ -99,26 +188,57 @@ export const helsinkiVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Water purification systems","Thermal imaging cameras","Weather monitoring stations","Man overboard detection systems","Life jackets with integrated GPS","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Dynamic positioning systems","Bridge alert management systems","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Immersive simulation experiences"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Roll-in showers","Accessible medical facilities"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Biodegradable hydraulic fluids","Recyclable material management systems"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Thermal imaging cameras",
+        "Weather monitoring stations",
+        "Man overboard detection systems",
+        "Life jackets with integrated GPS",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Bridge alert management systems",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Roll-in showers",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Biodegradable hydraulic fluids",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Helsinki Jewel",
-    description: "Sailing from the picturesque port of Helsinki, the RMS Helsinki Jewel represents a new era in cruise experiences. This remarkable eco friendly hybrid ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Helsinki, the RMS Helsinki Jewel represents a new era in cruise experiences. This remarkable eco friendly hybrid ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "eco-friendly-hybrid-ship",
     capacity: 654,
     length: 230,
     width: 44,
     speed: 16,
     yearBuilt: 2011,
-    homePort: {"city":"Helsinki","country":"Finland","coordinates":{"latitude":60.1695,"longitude":24.9354}},
+    homePort: {
+      city: "Helsinki",
+      country: "Finland",
+      coordinates: { latitude: 60.1695, longitude: 24.9354 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 5060,
@@ -126,14 +246,37 @@ export const helsinkiVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Marine evacuation systems (MES)","Weather monitoring stations","Searchlights and rescue equipment","Personal locator beacons","Comprehensive medical facilities","Radar reflectors"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Radar and automatic radar plotting aids (ARPAs)","Integrated navigation system displays","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment","Public address systems"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Library and educational facilities"],
-      accessibilityFeatures: ["Roll-in showers","Braille signage throughout"],
-      environmentalFeatures: ["Heat recovery systems","Shore power connectivity","Food waste digesters"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+        "Searchlights and rescue equipment",
+        "Personal locator beacons",
+        "Comprehensive medical facilities",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Integrated navigation system displays",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: ["Roll-in showers", "Braille signage throughout"],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Shore power connectivity",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

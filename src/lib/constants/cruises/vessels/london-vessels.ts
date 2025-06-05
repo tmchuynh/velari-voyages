@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const londonVessels: Vessels[] = [
   {
     name: "RMS London Explorer",
-    description: "Combining traditional maritime charm with modern amenities, the RMS London Explorer promises an extraordinary voyage from its home port of London. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the RMS London Explorer promises an extraordinary voyage from its home port of London. This impressive ice class ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "ice-class-ship",
     capacity: 1801,
     length: 460,
     width: 79,
     speed: 22,
     yearBuilt: 2018,
-    homePort: {"city":"London","country":"United Kingdom","coordinates":{"latitude":51.5074,"longitude":-0.1278}},
+    homePort: {
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5074, longitude: -0.1278 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 18170,
@@ -18,26 +23,54 @@ export const londonVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Life jackets with integrated GPS","Weather monitoring stations","Searchlights and rescue equipment","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Doppler speed logs","Echo sounders and sonar systems"],
-      communicationEquipment: ["Internal crew communication network","Satellite communication systems","Digital selective calling equipment"],
-      entertainmentEquipment: ["Library and educational facilities","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Visual alarm systems","Elevator access to all public decks"],
-      environmentalFeatures: ["Solar panel supplementation","Exhaust gas cleaning systems","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Weather monitoring stations",
+        "Searchlights and rescue equipment",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Doppler speed logs",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Satellite communication systems",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Exhaust gas cleaning systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV London Voyager",
-    description: "Sailing from the picturesque port of London, the MV London Voyager represents a new era in cruise experiences. This remarkable luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of London, the MV London Voyager represents a new era in cruise experiences. This remarkable luxury cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "luxury-cruise-ship",
     capacity: 313,
     length: 162,
     width: 34,
     speed: 16,
     yearBuilt: 2010,
-    homePort: {"city":"London","country":"United Kingdom","coordinates":{"latitude":51.5074,"longitude":-0.1278}},
+    homePort: {
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5074, longitude: -0.1278 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 2750,
@@ -45,26 +78,58 @@ export const londonVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Digital safety monitoring systems","Life jackets with integrated GPS","Automated external defibrillators (AEDs)","Water purification systems","Weather monitoring stations"],
-      navigationEquipment: ["Navigation data management systems","Gyrocompasses and magnetic compasses","Automatic identification systems (AIS)","River radar systems"],
-      communicationEquipment: ["Internal crew communication network","Satellite communication systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Children's entertainment areas","Casino with table games and slot machines","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible shore excursion options","Service animal accommodations","Elevator access to all public decks"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Marine ecosystem monitoring equipment","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Life jackets with integrated GPS",
+        "Automated external defibrillators (AEDs)",
+        "Water purification systems",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Gyrocompasses and magnetic compasses",
+        "Automatic identification systems (AIS)",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Satellite communication systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Casino with table games and slot machines",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Service animal accommodations",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Marine ecosystem monitoring equipment",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS London Princess",
-    description: "The PS London Princess offers an unparalleled cruising experience from London, combining luxury amenities with state-of-the-art navigation technology. This short hop ferry features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
+    description:
+      "The PS London Princess offers an unparalleled cruising experience from London, combining luxury amenities with state-of-the-art navigation technology. This short hop ferry features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
     type: "short-hop-ferry",
     capacity: 1038,
     length: 307,
     width: 56,
     speed: 15,
     yearBuilt: 2021,
-    homePort: {"city":"London","country":"United Kingdom","coordinates":{"latitude":51.5074,"longitude":-0.1278}},
+    homePort: {
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5074, longitude: -0.1278 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 8590,
@@ -72,26 +137,53 @@ export const londonVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Tactical response equipment","Weather monitoring stations","Searchlights and rescue equipment","Marine evacuation systems (MES)","Man overboard detection systems","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Night vision systems","Bridge alert management systems"],
-      communicationEquipment: ["Satellite communication systems","Internal crew communication network"],
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Weather monitoring stations",
+        "Searchlights and rescue equipment",
+        "Marine evacuation systems (MES)",
+        "Man overboard detection systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Night vision systems",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Internal crew communication network",
+      ],
       entertainmentEquipment: ["Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Service animal accommodations","Elevator access to all public decks","Accessible entertainment venues"],
-      environmentalFeatures: ["Solar panel supplementation","Energy-efficient appliances","Recyclable material management systems","LED lighting throughout"]
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Elevator access to all public decks",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Energy-efficient appliances",
+        "Recyclable material management systems",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS London Legend",
-    description: "With its distinctive profile and luxurious appointments, the PS London Legend stands as a jewel in the London harbor. This prestigious expedition ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the PS London Legend stands as a jewel in the London harbor. This prestigious expedition ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "expedition-ship",
     capacity: 1865,
     length: 473,
     width: 80,
     speed: 18,
     yearBuilt: 2016,
-    homePort: {"city":"London","country":"United Kingdom","coordinates":{"latitude":51.5074,"longitude":-0.1278}},
+    homePort: {
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5074, longitude: -0.1278 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 18920,
@@ -99,26 +191,53 @@ export const londonVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Life jackets with integrated GPS","Marine evacuation systems (MES)","Weather monitoring stations"],
-      navigationEquipment: ["Doppler speed logs","Night vision systems","Echo sounders and sonar systems","Infrared camera systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Culinary demonstration kitchens","Cinema with latest releases"],
-      accessibilityFeatures: ["Elevator access to all public decks","Assistive listening devices"],
-      environmentalFeatures: ["Energy-efficient appliances","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Night vision systems",
+        "Echo sounders and sonar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Culinary demonstration kitchens",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY London Jewel",
-    description: "Experience the epitome of maritime excellence aboard the MY London Jewel, a premier river cruise ship sailing from London. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MY London Jewel, a premier river cruise ship sailing from London. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "river-cruise-ship",
     capacity: 1273,
     length: 354,
     width: 63,
     speed: 16,
     yearBuilt: 2012,
-    homePort: {"city":"London","country":"United Kingdom","coordinates":{"latitude":51.5074,"longitude":-0.1278}},
+    homePort: {
+      city: "London",
+      country: "United Kingdom",
+      coordinates: { latitude: 51.5074, longitude: -0.1278 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 11150,
@@ -126,14 +245,40 @@ export const londonVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "China Classification Society B",
-      safetyEquipment: ["Thermal imaging cameras","Digital safety monitoring systems","Radar reflectors","Water purification systems","Hyperbaric treatment chambers","Searchlights and rescue equipment","Survival craft VHF radios"],
-      navigationEquipment: ["Infrared camera systems","Inland ECDIS","Doppler speed logs"],
-      communicationEquipment: ["Broadband internet throughout","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Children's entertainment areas","Art gallery and auction facilities","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Accessible medical facilities","Service animal accommodations"],
-      environmentalFeatures: ["Shore power connectivity","Energy-efficient appliances","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Digital safety monitoring systems",
+        "Radar reflectors",
+        "Water purification systems",
+        "Hyperbaric treatment chambers",
+        "Searchlights and rescue equipment",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Inland ECDIS",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Art gallery and auction facilities",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Energy-efficient appliances",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

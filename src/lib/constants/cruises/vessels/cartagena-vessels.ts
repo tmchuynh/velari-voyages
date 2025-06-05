@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const cartagenaVessels: Vessels[] = [
   {
     name: "RMS Cartagena Explorer",
-    description: "Setting sail from the beautiful port of Cartagena, the RMS Cartagena Explorer is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Cartagena, the RMS Cartagena Explorer is a floating paradise designed for the discerning traveler. This remarkable luxury cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "luxury-cruise-ship",
     capacity: 355,
     length: 171,
     width: 35,
     speed: 23,
     yearBuilt: 2022,
-    homePort: {"city":"Cartagena","country":"Colombia","coordinates":{"latitude":10.391,"longitude":-75.4794}},
+    homePort: {
+      city: "Cartagena",
+      country: "Colombia",
+      coordinates: { latitude: 10.391, longitude: -75.4794 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 2990,
@@ -18,26 +23,54 @@ export const cartagenaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Comprehensive medical facilities","Survival craft VHF radios","Emergency escape breathing devices","Radar reflectors"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Dynamic positioning systems","Doppler speed logs","Inland ECDIS","Integrated navigation system displays"],
-      communicationEquipment: ["Digital selective calling equipment","Marine radio telephony"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Hearing augmentation systems"],
-      environmentalFeatures: ["Ballast water management technology","Solar panel supplementation"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Survival craft VHF radios",
+        "Emergency escape breathing devices",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Dynamic positioning systems",
+        "Doppler speed logs",
+        "Inland ECDIS",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Cartagena Voyager",
-    description: "The PS Cartagena Voyager offers an unparalleled cruising experience from Cartagena, combining luxury amenities with state-of-the-art navigation technology. This catamaran features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The PS Cartagena Voyager offers an unparalleled cruising experience from Cartagena, combining luxury amenities with state-of-the-art navigation technology. This catamaran features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "catamaran",
     capacity: 1931,
     length: 486,
     width: 82,
     speed: 28,
     yearBuilt: 2015,
-    homePort: {"city":"Cartagena","country":"Colombia","coordinates":{"latitude":10.391,"longitude":-75.4794}},
+    homePort: {
+      city: "Cartagena",
+      country: "Colombia",
+      coordinates: { latitude: 10.391, longitude: -75.4794 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 19920,
@@ -45,26 +78,62 @@ export const cartagenaVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Life jackets with integrated GPS","Weather monitoring stations","Automated external defibrillators (AEDs)","Emergency position indicating radio beacons (EPIRBs)","Survival craft VHF radios","Digital safety monitoring systems","Thermal imaging cameras"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Global navigation satellite systems (GNSS)","Echo sounders and sonar systems","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Maritime VHF radio systems","Broadband internet throughout","Digital selective calling equipment"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Library and educational facilities","Virtual reality gaming center","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Tactile guidance systems","Service animal accommodations","Accessible shore excursion options"],
-      environmentalFeatures: ["Ballast water management technology","Dynamic routing to optimize fuel usage","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Weather monitoring stations",
+        "Automated external defibrillators (AEDs)",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Survival craft VHF radios",
+        "Digital safety monitoring systems",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Global navigation satellite systems (GNSS)",
+        "Echo sounders and sonar systems",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Broadband internet throughout",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Library and educational facilities",
+        "Virtual reality gaming center",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Tactile guidance systems",
+        "Service animal accommodations",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Dynamic routing to optimize fuel usage",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Cartagena Princess",
-    description: "Sailing from the picturesque port of Cartagena, the MV Cartagena Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Cartagena, the MV Cartagena Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ice-class-ship",
     capacity: 584,
     length: 216,
     width: 42,
     speed: 19,
     yearBuilt: 2009,
-    homePort: {"city":"Cartagena","country":"Colombia","coordinates":{"latitude":10.391,"longitude":-75.4794}},
+    homePort: {
+      city: "Cartagena",
+      country: "Colombia",
+      coordinates: { latitude: 10.391, longitude: -75.4794 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4530,
@@ -72,26 +141,52 @@ export const cartagenaVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Marine evacuation systems (MES)","Emergency escape breathing devices"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Night vision systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Virtual reality gaming center","Children's entertainment areas","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Tactile guidance systems","Elevator access to all public decks","Accessible entertainment venues"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Virtual reality gaming center",
+        "Children's entertainment areas",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Elevator access to all public decks",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Cartagena Legend",
-    description: "The SS Cartagena Legend stands as a testament to luxury and innovation on the high seas. Departing from Cartagena, this sophisticated polar expedition ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS Cartagena Legend stands as a testament to luxury and innovation on the high seas. Departing from Cartagena, this sophisticated polar expedition ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "polar-expedition-ship",
     capacity: 812,
     length: 262,
     width: 49,
     speed: 26,
     yearBuilt: 2015,
-    homePort: {"city":"Cartagena","country":"Colombia","coordinates":{"latitude":10.391,"longitude":-75.4794}},
+    homePort: {
+      city: "Cartagena",
+      country: "Colombia",
+      coordinates: { latitude: 10.391, longitude: -75.4794 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 6410,
@@ -99,26 +194,55 @@ export const cartagenaVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Digital safety monitoring systems","Advanced fire detection and suppression systems","Searchlights and rescue equipment","Emergency position indicating radio beacons (EPIRBs)","Satellite emergency notification devices","Comprehensive medical facilities"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Digital selective calling equipment","Satellite communication systems"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Accessible entertainment venues","Braille signage throughout"],
-      environmentalFeatures: ["Ballast water management technology","Exhaust gas cleaning systems","LED lighting throughout","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Advanced fire detection and suppression systems",
+        "Searchlights and rescue equipment",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Satellite emergency notification devices",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Exhaust gas cleaning systems",
+        "LED lighting throughout",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SY Cartagena Jewel",
-    description: "The SY Cartagena Jewel invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional superyacht, based in Cartagena, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The SY Cartagena Jewel invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional superyacht, based in Cartagena, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "superyacht",
     capacity: 1303,
     length: 360,
     width: 64,
     speed: 16,
     yearBuilt: 2021,
-    homePort: {"city":"Cartagena","country":"Colombia","coordinates":{"latitude":10.391,"longitude":-75.4794}},
+    homePort: {
+      city: "Cartagena",
+      country: "Colombia",
+      coordinates: { latitude: 10.391, longitude: -75.4794 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 11520,
@@ -126,14 +250,39 @@ export const cartagenaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Digital safety monitoring systems","Survival craft VHF radios","Satellite emergency notification devices","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Echo sounders and sonar systems","Navigation data management systems"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network"],
-      entertainmentEquipment: ["Cinema with latest releases","Virtual reality gaming center"],
-      accessibilityFeatures: ["Assistive listening devices","Visual alarm systems","Hearing augmentation systems","Accessible entertainment venues"],
-      environmentalFeatures: ["Heat recovery systems","Recyclable material management systems","Optimized hull design for reduced fuel consumption","LED lighting throughout","Solar panel supplementation"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Survival craft VHF radios",
+        "Satellite emergency notification devices",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Navigation data management systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Visual alarm systems",
+        "Hearing augmentation systems",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Recyclable material management systems",
+        "Optimized hull design for reduced fuel consumption",
+        "LED lighting throughout",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

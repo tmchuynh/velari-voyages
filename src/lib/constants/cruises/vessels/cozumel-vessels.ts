@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const cozumelVessels: Vessels[] = [
   {
     name: "RV Cozumel Explorer",
-    description: "The RV Cozumel Explorer offers an unparalleled cruising experience from Cozumel, combining luxury amenities with state-of-the-art navigation technology. This luxury cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The RV Cozumel Explorer offers an unparalleled cruising experience from Cozumel, combining luxury amenities with state-of-the-art navigation technology. This luxury cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "luxury-cruise-ship",
     capacity: 329,
     length: 165,
     width: 34,
     speed: 20,
     yearBuilt: 2017,
-    homePort: {"city":"Cozumel","country":"Mexico","coordinates":{"latitude":20.4233,"longitude":-86.9212}},
+    homePort: {
+      city: "Cozumel",
+      country: "Mexico",
+      coordinates: { latitude: 20.4233, longitude: -86.9212 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 2800,
@@ -18,26 +23,56 @@ export const cozumelVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Emergency escape breathing devices","Hyperbaric treatment chambers","Satellite emergency notification devices","Life jackets with integrated GPS"],
-      navigationEquipment: ["Weather routing systems","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Ship-to-shore communication links","Broadband internet throughout","Internal crew communication network"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Theater with Broadway-style productions","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Service animal accommodations","Transfer chairs for pool access","Accessible shore excursion options","Tactile guidance systems"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Biodegradable hydraulic fluids","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Hyperbaric treatment chambers",
+        "Satellite emergency notification devices",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Broadband internet throughout",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Theater with Broadway-style productions",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Transfer chairs for pool access",
+        "Accessible shore excursion options",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Biodegradable hydraulic fluids",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MS Cozumel Voyager",
-    description: "The majestic MS Cozumel Voyager represents the pinnacle of maritime engineering and hospitality. Based in Cozumel, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
+    description:
+      "The majestic MS Cozumel Voyager represents the pinnacle of maritime engineering and hospitality. Based in Cozumel, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
     type: "ice-class-ship",
     capacity: 527,
     length: 205,
     width: 40,
     speed: 15,
     yearBuilt: 2009,
-    homePort: {"city":"Cozumel","country":"Mexico","coordinates":{"latitude":20.4233,"longitude":-86.9212}},
+    homePort: {
+      city: "Cozumel",
+      country: "Mexico",
+      coordinates: { latitude: 20.4233, longitude: -86.9212 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 4100,
@@ -45,26 +80,56 @@ export const cozumelVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Water purification systems","Marine evacuation systems (MES)","Digital safety monitoring systems","Personal locator beacons","Survival craft VHF radios"],
-      navigationEquipment: ["Bridge alert management systems","Doppler speed logs","Electronic chart display information systems (ECDIS)","Infrared camera systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Ship-to-shore communication links","Public address systems"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Elevator access to all public decks","Accessible dining facilities","Roll-in showers"],
-      environmentalFeatures: ["LED lighting throughout","Heat recovery systems"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Marine evacuation systems (MES)",
+        "Digital safety monitoring systems",
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Doppler speed logs",
+        "Electronic chart display information systems (ECDIS)",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Ship-to-shore communication links",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Accessible dining facilities",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Cozumel Princess",
-    description: "The magnificent RMS Cozumel Princess offers a perfect blend of adventure and relaxation for travelers departing from Cozumel. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
+    description:
+      "The magnificent RMS Cozumel Princess offers a perfect blend of adventure and relaxation for travelers departing from Cozumel. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
     type: "zodiac-equipped-vessel",
     capacity: 912,
     length: 282,
     width: 52,
     speed: 17,
     yearBuilt: 2019,
-    homePort: {"city":"Cozumel","country":"Mexico","coordinates":{"latitude":20.4233,"longitude":-86.9212}},
+    homePort: {
+      city: "Cozumel",
+      country: "Mexico",
+      coordinates: { latitude: 20.4233, longitude: -86.9212 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 7330,
@@ -72,26 +137,56 @@ export const cozumelVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Composite Materials",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Searchlights and rescue equipment","Marine evacuation systems (MES)","Life jackets with integrated GPS","Personal locator beacons","Thermal imaging cameras","Man overboard detection systems","Water purification systems"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Radar and automatic radar plotting aids (ARPAs)","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Internal crew communication network","Satellite communication systems"],
-      entertainmentEquipment: ["Virtual reality gaming center","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Accessible entertainment venues","Accessible dining facilities"],
-      environmentalFeatures: ["Ballast water management technology","LED lighting throughout","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Marine evacuation systems (MES)",
+        "Life jackets with integrated GPS",
+        "Personal locator beacons",
+        "Thermal imaging cameras",
+        "Man overboard detection systems",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "LED lighting throughout",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Cozumel Legend",
-    description: "Experience the epitome of maritime excellence aboard the MV Cozumel Legend, a premier short hop ferry sailing from Cozumel. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MV Cozumel Legend, a premier short hop ferry sailing from Cozumel. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "short-hop-ferry",
     capacity: 1871,
     length: 474,
     width: 81,
     speed: 15,
     yearBuilt: 2006,
-    homePort: {"city":"Cozumel","country":"Mexico","coordinates":{"latitude":20.4233,"longitude":-86.9212}},
+    homePort: {
+      city: "Cozumel",
+      country: "Mexico",
+      coordinates: { latitude: 20.4233, longitude: -86.9212 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 19190,
@@ -99,26 +194,58 @@ export const cozumelVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Water purification systems","Automated external defibrillators (AEDs)","Emergency position indicating radio beacons (EPIRBs)","Comprehensive medical facilities"],
-      navigationEquipment: ["Echo sounders and sonar systems","Infrared camera systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Satellite communication systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Library and educational facilities","Casino with table games and slot machines","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Braille signage throughout","Elevator access to all public decks","Assistive listening devices","Service animal accommodations"],
-      environmentalFeatures: ["Solar panel supplementation","Advanced water treatment systems","Optimized hull design for reduced fuel consumption","Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Automated external defibrillators (AEDs)",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Satellite communication systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Casino with table games and slot machines",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Elevator access to all public decks",
+        "Assistive listening devices",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Cozumel Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the MV Cozumel Jewel promises an extraordinary voyage from its home port of Cozumel. This impressive party cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Cozumel Jewel promises an extraordinary voyage from its home port of Cozumel. This impressive party cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "party-cruise-ship",
     capacity: 1806,
     length: 461,
     width: 79,
     speed: 16,
     yearBuilt: 2017,
-    homePort: {"city":"Cozumel","country":"Mexico","coordinates":{"latitude":20.4233,"longitude":-86.9212}},
+    homePort: {
+      city: "Cozumel",
+      country: "Mexico",
+      coordinates: { latitude: 20.4233, longitude: -86.9212 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 18200,
@@ -126,14 +253,37 @@ export const cozumelVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Water purification systems","Man overboard detection systems","Weather monitoring stations"],
-      navigationEquipment: ["Weather routing systems","Integrated bridge systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Casino with table games and slot machines","Climbing walls and sports courts","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Accessible shore excursion options"],
-      environmentalFeatures: ["LED lighting throughout","Food waste digesters","Recyclable material management systems"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Man overboard detection systems",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Casino with table games and slot machines",
+        "Climbing walls and sports courts",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Food waste digesters",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const bermudaVessels: Vessels[] = [
   {
     name: "MV Bermuda Explorer",
-    description: "The MV Bermuda Explorer offers an unparalleled cruising experience from Bermuda, combining luxury amenities with state-of-the-art navigation technology. This superyacht features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The MV Bermuda Explorer offers an unparalleled cruising experience from Bermuda, combining luxury amenities with state-of-the-art navigation technology. This superyacht features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "superyacht",
     capacity: 1684,
     length: 436,
     width: 75,
     speed: 19,
     yearBuilt: 2024,
-    homePort: {"city":"Bermuda","country":"Bermuda","coordinates":{"latitude":32.3214,"longitude":-64.75737}},
+    homePort: {
+      city: "Bermuda",
+      country: "Bermuda",
+      coordinates: { latitude: 32.3214, longitude: -64.75737 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 16350,
@@ -18,26 +23,55 @@ export const bermudaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Satellite emergency notification devices","Weather monitoring stations","Water purification systems","Survival craft VHF radios"],
-      navigationEquipment: ["Echo sounders and sonar systems","Night vision systems"],
-      communicationEquipment: ["Broadband internet throughout","Digital selective calling equipment"],
-      entertainmentEquipment: ["Virtual reality gaming center","Cinema with latest releases","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Accessible entertainment venues","Visual alarm systems"],
-      environmentalFeatures: ["Heat recovery systems","Noise reduction technology to minimize impact on marine life","Dynamic routing to optimize fuel usage","Ballast water management technology"]
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Satellite emergency notification devices",
+        "Weather monitoring stations",
+        "Water purification systems",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Cinema with latest releases",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Dynamic routing to optimize fuel usage",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Bermuda Voyager",
-    description: "The RMS Bermuda Voyager invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional adults only ship, based in Bermuda, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The RMS Bermuda Voyager invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional adults only ship, based in Bermuda, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 698,
     length: 239,
     width: 45,
     speed: 25,
     yearBuilt: 2012,
-    homePort: {"city":"Bermuda","country":"Bermuda","coordinates":{"latitude":32.3214,"longitude":-64.75737}},
+    homePort: {
+      city: "Bermuda",
+      country: "Bermuda",
+      coordinates: { latitude: 32.3214, longitude: -64.75737 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 5370,
@@ -45,26 +79,55 @@ export const bermudaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Personal locator beacons","Survival craft VHF radios","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Integrated navigation system displays","Bridge alert management systems","Doppler speed logs"],
-      communicationEquipment: ["Internal crew communication network","Public address systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Multiple swimming pools and water features","Observation lounges with panoramic views","Virtual reality gaming center"],
-      accessibilityFeatures: ["Accessible dining facilities","Accessible entertainment venues"],
-      environmentalFeatures: ["Shore power connectivity","Ballast water management technology","LED lighting throughout"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Bridge alert management systems",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Public address systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Multiple swimming pools and water features",
+        "Observation lounges with panoramic views",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Ballast water management technology",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Bermuda Princess",
-    description: "The majestic RV Bermuda Princess represents the pinnacle of maritime engineering and hospitality. Based in Bermuda, this exceptional river cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
+    description:
+      "The majestic RV Bermuda Princess represents the pinnacle of maritime engineering and hospitality. Based in Bermuda, this exceptional river cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
     type: "river-cruise-ship",
     capacity: 527,
     length: 205,
     width: 40,
     speed: 17,
     yearBuilt: 2011,
-    homePort: {"city":"Bermuda","country":"Bermuda","coordinates":{"latitude":32.3214,"longitude":-64.75737}},
+    homePort: {
+      city: "Bermuda",
+      country: "Bermuda",
+      coordinates: { latitude: 32.3214, longitude: -64.75737 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 4100,
@@ -72,26 +135,53 @@ export const bermudaVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Thermal imaging cameras","Weather monitoring stations","Survival craft VHF radios"],
-      navigationEquipment: ["Integrated navigation system displays","Dynamic positioning systems","Echo sounders and sonar systems","Global navigation satellite systems (GNSS)","Navigation data management systems"],
-      communicationEquipment: ["Internal crew communication network","Digital selective calling equipment","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Observation lounges with panoramic views"],
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Weather monitoring stations",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Dynamic positioning systems",
+        "Echo sounders and sonar systems",
+        "Global navigation satellite systems (GNSS)",
+        "Navigation data management systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Digital selective calling equipment",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Observation lounges with panoramic views",
+      ],
       accessibilityFeatures: ["Elevator access to all public decks"],
-      environmentalFeatures: ["Heat recovery systems","Advanced water treatment systems","Energy-efficient appliances","LED lighting throughout"]
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Advanced water treatment systems",
+        "Energy-efficient appliances",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Bermuda Legend",
-    description: "Setting sail from the beautiful port of Bermuda, the MV Bermuda Legend is a floating paradise designed for the discerning traveler. This remarkable short hop ferry boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Bermuda, the MV Bermuda Legend is a floating paradise designed for the discerning traveler. This remarkable short hop ferry boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "short-hop-ferry",
     capacity: 810,
     length: 262,
     width: 49,
     speed: 16,
     yearBuilt: 2016,
-    homePort: {"city":"Bermuda","country":"Bermuda","coordinates":{"latitude":32.3214,"longitude":-64.75737}},
+    homePort: {
+      city: "Bermuda",
+      country: "Bermuda",
+      coordinates: { latitude: 32.3214, longitude: -64.75737 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 6410,
@@ -99,26 +189,59 @@ export const bermudaVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Life jackets with integrated GPS","Comprehensive medical facilities","Searchlights and rescue equipment","Man overboard detection systems","Radar reflectors"],
-      navigationEquipment: ["Doppler speed logs","Dynamic positioning systems","Infrared camera systems","Echo sounders and sonar systems","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Digital selective calling equipment","Marine radio telephony","Satellite communication systems"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Observation lounges with panoramic views","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Assistive listening devices","Hearing augmentation systems","Wheelchair accessible cabins","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Solar panel supplementation","Recyclable material management systems"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Comprehensive medical facilities",
+        "Searchlights and rescue equipment",
+        "Man overboard detection systems",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Dynamic positioning systems",
+        "Infrared camera systems",
+        "Echo sounders and sonar systems",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Observation lounges with panoramic views",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Hearing augmentation systems",
+        "Wheelchair accessible cabins",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Bermuda Jewel",
-    description: "The RMS Bermuda Jewel stands as a testament to luxury and innovation on the high seas. Departing from Bermuda, this sophisticated chartered vessel features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Bermuda Jewel stands as a testament to luxury and innovation on the high seas. Departing from Bermuda, this sophisticated chartered vessel features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "chartered-vessel",
     capacity: 829,
     length: 265,
     width: 49,
     speed: 28,
     yearBuilt: 2018,
-    homePort: {"city":"Bermuda","country":"Bermuda","coordinates":{"latitude":32.3214,"longitude":-64.75737}},
+    homePort: {
+      city: "Bermuda",
+      country: "Bermuda",
+      coordinates: { latitude: 32.3214, longitude: -64.75737 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 6490,
@@ -126,14 +249,42 @@ export const bermudaVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Marine-Grade Steel",
       classification: "China Classification Society B",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Comprehensive medical facilities","Rescue boats and life rafts","Radar reflectors","Tactical response equipment","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Dynamic positioning systems","Electronic chart display information systems (ECDIS)","Night vision systems"],
-      communicationEquipment: ["Broadband internet throughout","Emergency position-indicating radio beacons","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Culinary demonstration kitchens","Full-service spa and fitness center","Cinema with latest releases"],
-      accessibilityFeatures: ["Visual alarm systems","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Shore power connectivity","Dynamic routing to optimize fuel usage","Food waste digesters","Ballast water management technology"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Comprehensive medical facilities",
+        "Rescue boats and life rafts",
+        "Radar reflectors",
+        "Tactical response equipment",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Electronic chart display information systems (ECDIS)",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Emergency position-indicating radio beacons",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Culinary demonstration kitchens",
+        "Full-service spa and fitness center",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Dynamic routing to optimize fuel usage",
+        "Food waste digesters",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

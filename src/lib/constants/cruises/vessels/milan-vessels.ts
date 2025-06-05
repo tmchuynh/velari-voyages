@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const milanVessels: Vessels[] = [
   {
     name: "MV Milan Explorer",
-    description: "Setting sail from the beautiful port of Milan, the MV Milan Explorer is a floating paradise designed for the discerning traveler. This remarkable small ocean ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Milan, the MV Milan Explorer is a floating paradise designed for the discerning traveler. This remarkable small ocean ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "small-ocean-ship",
     capacity: 1010,
     length: 302,
     width: 55,
     speed: 19,
     yearBuilt: 2011,
-    homePort: {"city":"Milan","country":"Italy","coordinates":{"latitude":45.4642,"longitude":9.19}},
+    homePort: {
+      city: "Milan",
+      country: "Italy",
+      coordinates: { latitude: 45.4642, longitude: 9.19 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 8300,
@@ -18,26 +23,54 @@ export const milanVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "China Classification Society B",
-      safetyEquipment: ["Digital safety monitoring systems","Tactical response equipment","Thermal imaging cameras"],
-      navigationEquipment: ["Autopilot systems with track control","Automatic identification systems (AIS)","River radar systems"],
-      communicationEquipment: ["Internal crew communication network","Broadband internet throughout"],
-      entertainmentEquipment: ["Immersive simulation experiences","Virtual reality gaming center","Multiple swimming pools and water features","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Assistive listening devices","Elevator access to all public decks","Braille signage throughout"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Automatic identification systems (AIS)",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Immersive simulation experiences",
+        "Virtual reality gaming center",
+        "Multiple swimming pools and water features",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Elevator access to all public decks",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Milan Voyager",
-    description: "The majestic MV Milan Voyager represents the pinnacle of maritime engineering and hospitality. Based in Milan, this exceptional zodiac equipped vessel features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
+    description:
+      "The majestic MV Milan Voyager represents the pinnacle of maritime engineering and hospitality. Based in Milan, this exceptional zodiac equipped vessel features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
     type: "zodiac-equipped-vessel",
     capacity: 1108,
     length: 321,
     width: 58,
     speed: 16,
     yearBuilt: 2008,
-    homePort: {"city":"Milan","country":"Italy","coordinates":{"latitude":45.4642,"longitude":9.19}},
+    homePort: {
+      city: "Milan",
+      country: "Italy",
+      coordinates: { latitude: 45.4642, longitude: 9.19 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 9300,
@@ -45,26 +78,56 @@ export const milanVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Searchlights and rescue equipment","Automated external defibrillators (AEDs)","Survival craft VHF radios","Marine evacuation systems (MES)","Personal locator beacons"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Night vision systems","Weather routing systems"],
-      communicationEquipment: ["Internal crew communication network","Public address systems"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Accessible dining facilities","Roll-in showers"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Heat recovery systems","Solar panel supplementation","Shore power connectivity"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Automated external defibrillators (AEDs)",
+        "Survival craft VHF radios",
+        "Marine evacuation systems (MES)",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Night vision systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Accessible dining facilities",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Heat recovery systems",
+        "Solar panel supplementation",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SY Milan Princess",
-    description: "The SY Milan Princess stands as a testament to luxury and innovation on the high seas. Departing from Milan, this sophisticated polar expedition ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SY Milan Princess stands as a testament to luxury and innovation on the high seas. Departing from Milan, this sophisticated polar expedition ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "polar-expedition-ship",
     capacity: 1243,
     length: 348,
     width: 62,
     speed: 16,
     yearBuilt: 2015,
-    homePort: {"city":"Milan","country":"Italy","coordinates":{"latitude":45.4642,"longitude":9.19}},
+    homePort: {
+      city: "Milan",
+      country: "Italy",
+      coordinates: { latitude: 45.4642, longitude: 9.19 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 10780,
@@ -72,26 +135,54 @@ export const milanVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Weather monitoring stations","Water purification systems","Emergency position indicating radio beacons (EPIRBs)","Personal locator beacons"],
-      navigationEquipment: ["Integrated navigation system displays","Weather routing systems","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Broadband internet throughout","Marine radio telephony"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Multiple swimming pools and water features","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Accessible dining facilities","Tactile guidance systems"],
-      environmentalFeatures: ["Heat recovery systems","Marine ecosystem monitoring equipment","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Water purification systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Weather routing systems",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Multiple swimming pools and water features",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Marine ecosystem monitoring equipment",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Milan Legend",
-    description: "The RV Milan Legend stands as a testament to luxury and innovation on the high seas. Departing from Milan, this sophisticated luxury cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RV Milan Legend stands as a testament to luxury and innovation on the high seas. Departing from Milan, this sophisticated luxury cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "luxury-cruise-ship",
     capacity: 742,
     length: 248,
     width: 47,
     speed: 19,
     yearBuilt: 2015,
-    homePort: {"city":"Milan","country":"Italy","coordinates":{"latitude":45.4642,"longitude":9.19}},
+    homePort: {
+      city: "Milan",
+      country: "Italy",
+      coordinates: { latitude: 45.4642, longitude: 9.19 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 5820,
@@ -99,26 +190,58 @@ export const milanVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Tactical response equipment","Emergency escape breathing devices","Automated external defibrillators (AEDs)","Radar reflectors"],
-      navigationEquipment: ["Night vision systems","Bridge alert management systems"],
-      communicationEquipment: ["Broadband internet throughout","Digital selective calling equipment","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Dance clubs and live music venues","Casino with table games and slot machines","Theater with Broadway-style productions","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Elevator access to all public decks","Visual alarm systems","Tactile guidance systems","Accessible medical facilities"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Dynamic routing to optimize fuel usage","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Emergency escape breathing devices",
+        "Automated external defibrillators (AEDs)",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Night vision systems",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Digital selective calling equipment",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+        "Casino with table games and slot machines",
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Visual alarm systems",
+        "Tactile guidance systems",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Dynamic routing to optimize fuel usage",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Milan Jewel",
-    description: "Experience the epitome of maritime excellence aboard the PS Milan Jewel, a premier boutique cruise ship sailing from Milan. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the PS Milan Jewel, a premier boutique cruise ship sailing from Milan. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "boutique-cruise-ship",
     capacity: 1218,
     length: 343,
     width: 61,
     speed: 27,
     yearBuilt: 2019,
-    homePort: {"city":"Milan","country":"Italy","coordinates":{"latitude":45.4642,"longitude":9.19}},
+    homePort: {
+      city: "Milan",
+      country: "Italy",
+      coordinates: { latitude: 45.4642, longitude: 9.19 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 10460,
@@ -126,14 +249,42 @@ export const milanVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Searchlights and rescue equipment","Satellite emergency notification devices","Advanced fire detection and suppression systems","Man overboard detection systems","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Doppler speed logs","Infrared camera systems","Bridge alert management systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Satellite communication systems"],
-      entertainmentEquipment: ["Cinema with latest releases","Observation lounges with panoramic views","Library and educational facilities","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Elevator access to all public decks","Roll-in showers","Accessible shore excursion options"],
-      environmentalFeatures: ["Advanced water treatment systems","Marine ecosystem monitoring equipment","Ballast water management technology","LED lighting throughout","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Satellite emergency notification devices",
+        "Advanced fire detection and suppression systems",
+        "Man overboard detection systems",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Infrared camera systems",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Observation lounges with panoramic views",
+        "Library and educational facilities",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Roll-in showers",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Marine ecosystem monitoring equipment",
+        "Ballast water management technology",
+        "LED lighting throughout",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const dublinVessels: Vessels[] = [
   {
     name: "MS Dublin Explorer",
-    description: "The MS Dublin Explorer invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional adults only ship, based in Dublin, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MS Dublin Explorer invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional adults only ship, based in Dublin, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 794,
     length: 258,
     width: 48,
     speed: 27,
     yearBuilt: 2007,
-    homePort: {"city":"Dublin","country":"Ireland","coordinates":{"latitude":53.349805,"longitude":-6.26031}},
+    homePort: {
+      city: "Dublin",
+      country: "Ireland",
+      coordinates: { latitude: 53.349805, longitude: -6.26031 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 6190,
@@ -18,26 +23,56 @@ export const dublinVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Digital safety monitoring systems","Emergency position indicating radio beacons (EPIRBs)","Life jackets with integrated GPS","Emergency escape breathing devices","Rescue boats and life rafts"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Weather routing systems"],
-      communicationEquipment: ["Internal crew communication network","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Immersive simulation experiences","Multi-purpose event spaces","Multiple swimming pools and water features","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Elevator access to all public decks"],
-      environmentalFeatures: ["Shore power connectivity","Energy-efficient appliances","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Life jackets with integrated GPS",
+        "Emergency escape breathing devices",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Immersive simulation experiences",
+        "Multi-purpose event spaces",
+        "Multiple swimming pools and water features",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Energy-efficient appliances",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Dublin Voyager",
-    description: "The SS Dublin Voyager stands as a testament to luxury and innovation on the high seas. Departing from Dublin, this sophisticated mid size cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS Dublin Voyager stands as a testament to luxury and innovation on the high seas. Departing from Dublin, this sophisticated mid size cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mid-size-cruise-ship",
     capacity: 1779,
     length: 455,
     width: 78,
     speed: 24,
     yearBuilt: 2016,
-    homePort: {"city":"Dublin","country":"Ireland","coordinates":{"latitude":53.349805,"longitude":-6.26031}},
+    homePort: {
+      city: "Dublin",
+      country: "Ireland",
+      coordinates: { latitude: 53.349805, longitude: -6.26031 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 17740,
@@ -45,26 +80,54 @@ export const dublinVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Water purification systems","Tactical response equipment"],
-      navigationEquipment: ["Bridge alert management systems","Integrated navigation system displays"],
-      communicationEquipment: ["Satellite communication systems","Ship-to-shore communication links","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Climbing walls and sports courts","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Assistive listening devices","Elevator access to all public decks"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Noise reduction technology to minimize impact on marine life","Solar panel supplementation","Ballast water management technology"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Ship-to-shore communication links",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Climbing walls and sports courts",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Assistive listening devices",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Noise reduction technology to minimize impact on marine life",
+        "Solar panel supplementation",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RV Dublin Princess",
-    description: "The magnificent RV Dublin Princess offers a perfect blend of adventure and relaxation for travelers departing from Dublin. This outstanding ice class ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Northern Europe region.",
+    description:
+      "The magnificent RV Dublin Princess offers a perfect blend of adventure and relaxation for travelers departing from Dublin. This outstanding ice class ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Northern Europe region.",
     type: "ice-class-ship",
     capacity: 1160,
     length: 332,
     width: 59,
     speed: 27,
     yearBuilt: 2007,
-    homePort: {"city":"Dublin","country":"Ireland","coordinates":{"latitude":53.349805,"longitude":-6.26031}},
+    homePort: {
+      city: "Dublin",
+      country: "Ireland",
+      coordinates: { latitude: 53.349805, longitude: -6.26031 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 9790,
@@ -72,26 +135,57 @@ export const dublinVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Water purification systems","Emergency position indicating radio beacons (EPIRBs)","Searchlights and rescue equipment"],
-      navigationEquipment: ["Integrated navigation system displays","Automatic identification systems (AIS)","Autopilot systems with track control","Radar and automatic radar plotting aids (ARPAs)","Night vision systems"],
-      communicationEquipment: ["Broadband internet throughout","Ship-to-shore communication links","Public address systems"],
-      entertainmentEquipment: ["Library and educational facilities","Culinary demonstration kitchens","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Height-adjustable furniture in select cabins","Accessible medical facilities","Braille signage throughout"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Heat recovery systems"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Automatic identification systems (AIS)",
+        "Autopilot systems with track control",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Ship-to-shore communication links",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Culinary demonstration kitchens",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Height-adjustable furniture in select cabins",
+        "Accessible medical facilities",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Dublin Legend",
-    description: "Combining traditional maritime charm with modern amenities, the MV Dublin Legend promises an extraordinary voyage from its home port of Dublin. This impressive small ocean ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Dublin Legend promises an extraordinary voyage from its home port of Dublin. This impressive small ocean ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "small-ocean-ship",
     capacity: 954,
     length: 290,
     width: 53,
     speed: 23,
     yearBuilt: 2024,
-    homePort: {"city":"Dublin","country":"Ireland","coordinates":{"latitude":53.349805,"longitude":-6.26031}},
+    homePort: {
+      city: "Dublin",
+      country: "Ireland",
+      coordinates: { latitude: 53.349805, longitude: -6.26031 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 7680,
@@ -99,26 +193,61 @@ export const dublinVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Thermal imaging cameras","Man overboard detection systems","Rescue boats and life rafts"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Integrated bridge systems","Gyrocompasses and magnetic compasses","Echo sounders and sonar systems","Infrared camera systems"],
-      communicationEquipment: ["Marine radio telephony","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Casino with table games and slot machines","Immersive simulation experiences","Children's entertainment areas","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Accessible entertainment venues","Visual alarm systems","Transfer chairs for pool access","Accessible shore excursion options"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Food waste digesters","Shore power connectivity","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Thermal imaging cameras",
+        "Man overboard detection systems",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Integrated bridge systems",
+        "Gyrocompasses and magnetic compasses",
+        "Echo sounders and sonar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Casino with table games and slot machines",
+        "Immersive simulation experiences",
+        "Children's entertainment areas",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Visual alarm systems",
+        "Transfer chairs for pool access",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Food waste digesters",
+        "Shore power connectivity",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Dublin Jewel",
-    description: "Sailing from the picturesque port of Dublin, the TS Dublin Jewel represents a new era in cruise experiences. This remarkable mega yacht combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Dublin, the TS Dublin Jewel represents a new era in cruise experiences. This remarkable mega yacht combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "mega-yacht",
     capacity: 1125,
     length: 325,
     width: 58,
     speed: 21,
     yearBuilt: 2018,
-    homePort: {"city":"Dublin","country":"Ireland","coordinates":{"latitude":53.349805,"longitude":-6.26031}},
+    homePort: {
+      city: "Dublin",
+      country: "Ireland",
+      coordinates: { latitude: 53.349805, longitude: -6.26031 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 9420,
@@ -126,14 +255,41 @@ export const dublinVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Satellite emergency notification devices","Automated external defibrillators (AEDs)","Emergency escape breathing devices","Searchlights and rescue equipment","Tactical response equipment","Rescue boats and life rafts","Survival craft VHF radios"],
-      navigationEquipment: ["Dynamic positioning systems","River radar systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Internal crew communication network"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Children's entertainment areas","Multiple swimming pools and water features","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Tactile guidance systems","Braille signage throughout","Transfer chairs for pool access"],
-      environmentalFeatures: ["LED lighting throughout","Recyclable material management systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Automated external defibrillators (AEDs)",
+        "Emergency escape breathing devices",
+        "Searchlights and rescue equipment",
+        "Tactical response equipment",
+        "Rescue boats and life rafts",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Children's entertainment areas",
+        "Multiple swimming pools and water features",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Braille signage throughout",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Recyclable material management systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

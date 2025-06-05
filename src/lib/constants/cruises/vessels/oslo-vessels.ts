@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const osloVessels: Vessels[] = [
   {
     name: "MV Oslo Explorer",
-    description: "With its distinctive profile and luxurious appointments, the MV Oslo Explorer stands as a jewel in the Oslo harbor. This prestigious eco friendly hybrid ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MV Oslo Explorer stands as a jewel in the Oslo harbor. This prestigious eco friendly hybrid ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1747,
     length: 449,
     width: 77,
     speed: 24,
     yearBuilt: 2011,
-    homePort: {"city":"Oslo","country":"Norway","coordinates":{"latitude":59.9139,"longitude":10.7522}},
+    homePort: {
+      city: "Oslo",
+      country: "Norway",
+      coordinates: { latitude: 59.9139, longitude: 10.7522 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 17280,
@@ -18,26 +23,55 @@ export const osloVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Weather monitoring stations","Rescue boats and life rafts","Life jackets with integrated GPS","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Infrared camera systems"],
-      communicationEquipment: ["Internal crew communication network","Public address systems"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Observation lounges with panoramic views","Climbing walls and sports courts","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Elevator access to all public decks","Accessible shore excursion options"],
-      environmentalFeatures: ["Recyclable material management systems","Noise reduction technology to minimize impact on marine life","Biodegradable hydraulic fluids","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Rescue boats and life rafts",
+        "Life jackets with integrated GPS",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Observation lounges with panoramic views",
+        "Climbing walls and sports courts",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Biodegradable hydraulic fluids",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Oslo Voyager",
-    description: "Setting sail from the beautiful port of Oslo, the SY Oslo Voyager is a floating paradise designed for the discerning traveler. This remarkable resort style ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Oslo, the SY Oslo Voyager is a floating paradise designed for the discerning traveler. This remarkable resort style ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "resort-style-ship",
     capacity: 1386,
     length: 377,
     width: 66,
     speed: 26,
     yearBuilt: 2016,
-    homePort: {"city":"Oslo","country":"Norway","coordinates":{"latitude":59.9139,"longitude":10.7522}},
+    homePort: {
+      city: "Oslo",
+      country: "Norway",
+      coordinates: { latitude: 59.9139, longitude: 10.7522 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 12440,
@@ -45,26 +79,54 @@ export const osloVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Personal locator beacons","Digital safety monitoring systems","Survival craft VHF radios","Satellite emergency notification devices"],
-      navigationEquipment: ["Doppler speed logs","Gyrocompasses and magnetic compasses","Integrated bridge systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Marine radio telephony"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Library and educational facilities","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Braille signage throughout","Tactile guidance systems"],
-      environmentalFeatures: ["Solar panel supplementation","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Personal locator beacons",
+        "Digital safety monitoring systems",
+        "Survival craft VHF radios",
+        "Satellite emergency notification devices",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Gyrocompasses and magnetic compasses",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Library and educational facilities",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Oslo Princess",
-    description: "Sailing from the picturesque port of Oslo, the SY Oslo Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Oslo, the SY Oslo Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ice-class-ship",
     capacity: 1292,
     length: 358,
     width: 63,
     speed: 20,
     yearBuilt: 2006,
-    homePort: {"city":"Oslo","country":"Norway","coordinates":{"latitude":59.9139,"longitude":10.7522}},
+    homePort: {
+      city: "Oslo",
+      country: "Norway",
+      coordinates: { latitude: 59.9139, longitude: 10.7522 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 11270,
@@ -72,26 +134,53 @@ export const osloVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "China Classification Society B",
-      safetyEquipment: ["Rescue boats and life rafts","Hyperbaric treatment chambers","Personal locator beacons"],
-      navigationEquipment: ["Bridge alert management systems","Echo sounders and sonar systems","Dynamic positioning systems","Infrared camera systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Digital selective calling equipment"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Roll-in showers"],
-      environmentalFeatures: ["Food waste digesters","Optimized hull design for reduced fuel consumption","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Hyperbaric treatment chambers",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Echo sounders and sonar systems",
+        "Dynamic positioning systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Optimized hull design for reduced fuel consumption",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Oslo Legend",
-    description: "With its distinctive profile and luxurious appointments, the MV Oslo Legend stands as a jewel in the Oslo harbor. This prestigious ocean liner offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MV Oslo Legend stands as a jewel in the Oslo harbor. This prestigious ocean liner offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "ocean-liner",
     capacity: 1053,
     length: 310,
     width: 56,
     speed: 16,
     yearBuilt: 2022,
-    homePort: {"city":"Oslo","country":"Norway","coordinates":{"latitude":59.9139,"longitude":10.7522}},
+    homePort: {
+      city: "Oslo",
+      country: "Norway",
+      coordinates: { latitude: 59.9139, longitude: 10.7522 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 8680,
@@ -99,26 +188,56 @@ export const osloVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Water purification systems","Life jackets with integrated GPS","Personal locator beacons","Emergency escape breathing devices"],
-      navigationEquipment: ["Dynamic positioning systems","Integrated navigation system displays"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Virtual reality gaming center","Art gallery and auction facilities","Immersive simulation experiences"],
-      accessibilityFeatures: ["Assistive listening devices","Height-adjustable furniture in select cabins","Accessible dining facilities"],
-      environmentalFeatures: ["Heat recovery systems","Solar panel supplementation","Recyclable material management systems","Food waste digesters","Ballast water management technology"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Life jackets with integrated GPS",
+        "Personal locator beacons",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Art gallery and auction facilities",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Height-adjustable furniture in select cabins",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Solar panel supplementation",
+        "Recyclable material management systems",
+        "Food waste digesters",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Oslo Jewel",
-    description: "The MV Oslo Jewel offers an unparalleled cruising experience from Oslo, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
+    description:
+      "The MV Oslo Jewel offers an unparalleled cruising experience from Oslo, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
     type: "polar-expedition-ship",
     capacity: 1445,
     length: 389,
     width: 68,
     speed: 28,
     yearBuilt: 2005,
-    homePort: {"city":"Oslo","country":"Norway","coordinates":{"latitude":59.9139,"longitude":10.7522}},
+    homePort: {
+      city: "Oslo",
+      country: "Norway",
+      coordinates: { latitude: 59.9139, longitude: 10.7522 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 13220,
@@ -126,14 +245,35 @@ export const osloVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Personal locator beacons","Survival craft VHF radios","Water purification systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS"],
-      communicationEquipment: ["Digital selective calling equipment","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible shore excursion options","Visual alarm systems","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Dynamic routing to optimize fuel usage","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Visual alarm systems",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Dynamic routing to optimize fuel usage",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

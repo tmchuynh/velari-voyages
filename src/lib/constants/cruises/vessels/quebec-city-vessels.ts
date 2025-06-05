@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const quebecCityVessels: Vessels[] = [
   {
     name: "MY Quebec City Explorer",
-    description: "The MY Quebec City Explorer stands as a testament to luxury and innovation on the high seas. Departing from Quebec City, this sophisticated adults only ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MY Quebec City Explorer stands as a testament to luxury and innovation on the high seas. Departing from Quebec City, this sophisticated adults only ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "adults-only-ship",
     capacity: 843,
     length: 268,
     width: 50,
     speed: 23,
     yearBuilt: 2011,
-    homePort: {"city":"Quebec City","country":"Canada","coordinates":{"latitude":46.8139,"longitude":-71.2082}},
+    homePort: {
+      city: "Quebec City",
+      country: "Canada",
+      coordinates: { latitude: 46.8139, longitude: -71.2082 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 6700,
@@ -18,26 +23,57 @@ export const quebecCityVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Comprehensive medical facilities","Man overboard detection systems","Satellite emergency notification devices","Rescue boats and life rafts","Water purification systems","Life jackets with integrated GPS"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Infrared camera systems","Dynamic positioning systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Satellite communication systems"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Immersive simulation experiences","Library and educational facilities","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Tactile guidance systems","Accessible shore excursion options"],
-      environmentalFeatures: ["Energy-efficient appliances","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Man overboard detection systems",
+        "Satellite emergency notification devices",
+        "Rescue boats and life rafts",
+        "Water purification systems",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Infrared camera systems",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Immersive simulation experiences",
+        "Library and educational facilities",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Tactile guidance systems",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Quebec City Voyager",
-    description: "With its distinctive profile and luxurious appointments, the TS Quebec City Voyager stands as a jewel in the Quebec City harbor. This prestigious resort style ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the TS Quebec City Voyager stands as a jewel in the Quebec City harbor. This prestigious resort style ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "resort-style-ship",
     capacity: 1316,
     length: 363,
     width: 64,
     speed: 21,
     yearBuilt: 2011,
-    homePort: {"city":"Quebec City","country":"Canada","coordinates":{"latitude":46.8139,"longitude":-71.2082}},
+    homePort: {
+      city: "Quebec City",
+      country: "Canada",
+      coordinates: { latitude: 46.8139, longitude: -71.2082 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 11610,
@@ -45,26 +81,54 @@ export const quebecCityVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Water purification systems","Automated external defibrillators (AEDs)","Weather monitoring stations"],
-      navigationEquipment: ["Bridge alert management systems","Integrated navigation system displays","Autopilot systems with track control","River radar systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Virtual reality gaming center","Climbing walls and sports courts","Art gallery and auction facilities"],
-      accessibilityFeatures: ["Roll-in showers","Assistive listening devices"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life","LED lighting throughout"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Automated external defibrillators (AEDs)",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Integrated navigation system displays",
+        "Autopilot systems with track control",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Virtual reality gaming center",
+        "Climbing walls and sports courts",
+        "Art gallery and auction facilities",
+      ],
+      accessibilityFeatures: ["Roll-in showers", "Assistive listening devices"],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Quebec City Princess",
-    description: "Combining traditional maritime charm with modern amenities, the TS Quebec City Princess promises an extraordinary voyage from its home port of Quebec City. This impressive chartered vessel offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the TS Quebec City Princess promises an extraordinary voyage from its home port of Quebec City. This impressive chartered vessel offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "chartered-vessel",
     capacity: 1067,
     length: 313,
     width: 56,
     speed: 28,
     yearBuilt: 2023,
-    homePort: {"city":"Quebec City","country":"Canada","coordinates":{"latitude":46.8139,"longitude":-71.2082}},
+    homePort: {
+      city: "Quebec City",
+      country: "Canada",
+      coordinates: { latitude: 46.8139, longitude: -71.2082 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 8760,
@@ -72,26 +136,56 @@ export const quebecCityVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Satellite emergency notification devices","Advanced fire detection and suppression systems","Emergency position indicating radio beacons (EPIRBs)","Man overboard detection systems"],
-      navigationEquipment: ["Navigation data management systems","River radar systems","Global navigation satellite systems (GNSS)","Echo sounders and sonar systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Global Maritime Distress Safety System (GMDSS)","Digital selective calling equipment"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Immersive simulation experiences","Children's entertainment areas"],
-      accessibilityFeatures: ["Service animal accommodations","Transfer chairs for pool access"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Optimized hull design for reduced fuel consumption","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Advanced fire detection and suppression systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "River radar systems",
+        "Global navigation satellite systems (GNSS)",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Immersive simulation experiences",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Optimized hull design for reduced fuel consumption",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Quebec City Legend",
-    description: "The RV Quebec City Legend invites travelers to explore the treasures of East Coast Canada in unmatched comfort. This exceptional chartered vessel, based in Quebec City, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The RV Quebec City Legend invites travelers to explore the treasures of East Coast Canada in unmatched comfort. This exceptional chartered vessel, based in Quebec City, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "chartered-vessel",
     capacity: 1191,
     length: 338,
     width: 60,
     speed: 24,
     yearBuilt: 2006,
-    homePort: {"city":"Quebec City","country":"Canada","coordinates":{"latitude":46.8139,"longitude":-71.2082}},
+    homePort: {
+      city: "Quebec City",
+      country: "Canada",
+      coordinates: { latitude: 46.8139, longitude: -71.2082 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 10140,
@@ -99,26 +193,53 @@ export const quebecCityVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Radar reflectors","Hyperbaric treatment chambers","Personal locator beacons","Man overboard detection systems"],
-      navigationEquipment: ["Integrated bridge systems","Infrared camera systems","Gyrocompasses and magnetic compasses","Electronic chart display information systems (ECDIS)"],
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Radar reflectors",
+        "Hyperbaric treatment chambers",
+        "Personal locator beacons",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Infrared camera systems",
+        "Gyrocompasses and magnetic compasses",
+        "Electronic chart display information systems (ECDIS)",
+      ],
       communicationEquipment: ["Internal crew communication network"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Roll-in showers","Tactile guidance systems"],
-      environmentalFeatures: ["Recyclable material management systems","Marine ecosystem monitoring equipment","LED lighting throughout"]
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Roll-in showers",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Marine ecosystem monitoring equipment",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Quebec City Jewel",
-    description: "With its distinctive profile and luxurious appointments, the RV Quebec City Jewel stands as a jewel in the Quebec City harbor. This prestigious ocean liner offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the RV Quebec City Jewel stands as a jewel in the Quebec City harbor. This prestigious ocean liner offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "ocean-liner",
     capacity: 1787,
     length: 457,
     width: 78,
     speed: 18,
     yearBuilt: 2013,
-    homePort: {"city":"Quebec City","country":"Canada","coordinates":{"latitude":46.8139,"longitude":-71.2082}},
+    homePort: {
+      city: "Quebec City",
+      country: "Canada",
+      coordinates: { latitude: 46.8139, longitude: -71.2082 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 17820,
@@ -126,14 +247,46 @@ export const quebecCityVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Searchlights and rescue equipment","Comprehensive medical facilities","Radar reflectors","Personal locator beacons","Water purification systems"],
-      navigationEquipment: ["Navigation data management systems","Echo sounders and sonar systems","Inland ECDIS","Voyage data recorders (VDRs)","Integrated navigation system displays"],
-      communicationEquipment: ["Public address systems","Satellite communication systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Immersive simulation experiences","Dance clubs and live music venues","Observation lounges with panoramic views","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible dining facilities","Elevator access to all public decks","Accessible shore excursion options"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Advanced water treatment systems","Recyclable material management systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Searchlights and rescue equipment",
+        "Comprehensive medical facilities",
+        "Radar reflectors",
+        "Personal locator beacons",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Echo sounders and sonar systems",
+        "Inland ECDIS",
+        "Voyage data recorders (VDRs)",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Satellite communication systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Immersive simulation experiences",
+        "Dance clubs and live music venues",
+        "Observation lounges with panoramic views",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible dining facilities",
+        "Elevator access to all public decks",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

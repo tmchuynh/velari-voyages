@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const juneauVessels: Vessels[] = [
   {
     name: "MS Juneau Explorer",
-    description: "The majestic MS Juneau Explorer represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
+    description:
+      "The majestic MS Juneau Explorer represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
     type: "ice-class-ship",
     capacity: 870,
     length: 274,
     width: 51,
     speed: 23,
     yearBuilt: 2018,
-    homePort: {"city":"Juneau","country":"United States","coordinates":{"latitude":58.3019,"longitude":-134.4197}},
+    homePort: {
+      city: "Juneau",
+      country: "United States",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 6980,
@@ -18,26 +23,58 @@ export const juneauVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Life jackets with integrated GPS","Water purification systems","Emergency escape breathing devices","Searchlights and rescue equipment","Thermal imaging cameras"],
-      navigationEquipment: ["Integrated bridge systems","Global navigation satellite systems (GNSS)","Infrared camera systems","Integrated navigation system displays","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Public address systems","Marine radio telephony"],
-      entertainmentEquipment: ["Library and educational facilities","Children's entertainment areas"],
-      accessibilityFeatures: ["Visual alarm systems","Transfer chairs for pool access","Wheelchair accessible cabins"],
-      environmentalFeatures: ["Heat recovery systems","Shore power connectivity","Ballast water management technology","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Water purification systems",
+        "Emergency escape breathing devices",
+        "Searchlights and rescue equipment",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Global navigation satellite systems (GNSS)",
+        "Infrared camera systems",
+        "Integrated navigation system displays",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Transfer chairs for pool access",
+        "Wheelchair accessible cabins",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Shore power connectivity",
+        "Ballast water management technology",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Juneau Voyager",
-    description: "The RMS Juneau Voyager stands as a testament to luxury and innovation on the high seas. Departing from Juneau, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Juneau Voyager stands as a testament to luxury and innovation on the high seas. Departing from Juneau, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mega-yacht",
     capacity: 517,
     length: 203,
     width: 40,
     speed: 15,
     yearBuilt: 2015,
-    homePort: {"city":"Juneau","country":"United States","coordinates":{"latitude":58.3019,"longitude":-134.4197}},
+    homePort: {
+      city: "Juneau",
+      country: "United States",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 4060,
@@ -45,26 +82,60 @@ export const juneauVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Rescue boats and life rafts","Survival craft VHF radios","Thermal imaging cameras","Personal locator beacons","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Navigation data management systems","Automatic identification systems (AIS)","Gyrocompasses and magnetic compasses","Bridge alert management systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Satellite communication systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Art gallery and auction facilities","Dance clubs and live music venues","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Accessible dining facilities","Visual alarm systems","Accessible shore excursion options","Roll-in showers"],
-      environmentalFeatures: ["Heat recovery systems","Optimized hull design for reduced fuel consumption","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Survival craft VHF radios",
+        "Thermal imaging cameras",
+        "Personal locator beacons",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Automatic identification systems (AIS)",
+        "Gyrocompasses and magnetic compasses",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Satellite communication systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Art gallery and auction facilities",
+        "Dance clubs and live music venues",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Visual alarm systems",
+        "Accessible shore excursion options",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SY Juneau Princess",
-    description: "The majestic SY Juneau Princess represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional river cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
+    description:
+      "The majestic SY Juneau Princess represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional river cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
     type: "river-cruise-ship",
     capacity: 1636,
     length: 427,
     width: 74,
     speed: 16,
     yearBuilt: 2012,
-    homePort: {"city":"Juneau","country":"United States","coordinates":{"latitude":58.3019,"longitude":-134.4197}},
+    homePort: {
+      city: "Juneau",
+      country: "United States",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 15790,
@@ -72,26 +143,52 @@ export const juneauVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Hyperbaric treatment chambers","Satellite emergency notification devices","Radar reflectors","Life jackets with integrated GPS"],
-      navigationEquipment: ["Weather routing systems","Voyage data recorders (VDRs)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Library and educational facilities"],
-      accessibilityFeatures: ["Service animal accommodations","Accessible entertainment venues","Accessible shore excursion options"],
-      environmentalFeatures: ["Heat recovery systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Satellite emergency notification devices",
+        "Radar reflectors",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Voyage data recorders (VDRs)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Accessible entertainment venues",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Juneau Legend",
-    description: "The majestic MV Juneau Legend represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional small ocean ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
+    description:
+      "The majestic MV Juneau Legend represents the pinnacle of maritime engineering and hospitality. Based in Juneau, this exceptional small ocean ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
     type: "small-ocean-ship",
     capacity: 1274,
     length: 354,
     width: 63,
     speed: 25,
     yearBuilt: 2009,
-    homePort: {"city":"Juneau","country":"United States","coordinates":{"latitude":58.3019,"longitude":-134.4197}},
+    homePort: {
+      city: "Juneau",
+      country: "United States",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 11150,
@@ -99,26 +196,56 @@ export const juneauVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Survival craft VHF radios","Emergency escape breathing devices","Marine evacuation systems (MES)","Weather monitoring stations"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Infrared camera systems","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Satellite communication systems"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Multiple swimming pools and water features","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible shore excursion options","Height-adjustable furniture in select cabins","Service animal accommodations"],
-      environmentalFeatures: ["Ballast water management technology","Recyclable material management systems","Solar panel supplementation","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Emergency escape breathing devices",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Infrared camera systems",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Multiple swimming pools and water features",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Height-adjustable furniture in select cabins",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Recyclable material management systems",
+        "Solar panel supplementation",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Juneau Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the MV Juneau Jewel promises an extraordinary voyage from its home port of Juneau. This impressive mid size cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Juneau Jewel promises an extraordinary voyage from its home port of Juneau. This impressive mid size cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "mid-size-cruise-ship",
     capacity: 1017,
     length: 303,
     width: 55,
     speed: 19,
     yearBuilt: 2012,
-    homePort: {"city":"Juneau","country":"United States","coordinates":{"latitude":58.3019,"longitude":-134.4197}},
+    homePort: {
+      city: "Juneau",
+      country: "United States",
+      coordinates: { latitude: 58.3019, longitude: -134.4197 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 8330,
@@ -126,14 +253,40 @@ export const juneauVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Thermal imaging cameras","Searchlights and rescue equipment","Emergency escape breathing devices","Weather monitoring stations","Personal locator beacons","Comprehensive medical facilities"],
-      navigationEquipment: ["Integrated bridge systems","Global navigation satellite systems (GNSS)","Radar and automatic radar plotting aids (ARPAs)","Night vision systems"],
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Searchlights and rescue equipment",
+        "Emergency escape breathing devices",
+        "Weather monitoring stations",
+        "Personal locator beacons",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Global navigation satellite systems (GNSS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Night vision systems",
+      ],
       communicationEquipment: ["Maritime VHF radio systems"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Observation lounges with panoramic views","Children's entertainment areas","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Accessible entertainment venues","Tactile guidance systems"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Advanced water treatment systems","Recyclable material management systems","Dynamic routing to optimize fuel usage"]
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Observation lounges with panoramic views",
+        "Children's entertainment areas",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Accessible entertainment venues",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

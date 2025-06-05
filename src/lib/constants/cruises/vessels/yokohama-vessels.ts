@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const yokohamaVessels: Vessels[] = [
   {
     name: "RMS Yokohama Explorer",
-    description: "The RMS Yokohama Explorer stands as a testament to luxury and innovation on the high seas. Departing from Yokohama, this sophisticated mid size cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Yokohama Explorer stands as a testament to luxury and innovation on the high seas. Departing from Yokohama, this sophisticated mid size cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mid-size-cruise-ship",
     capacity: 1041,
     length: 308,
     width: 56,
     speed: 17,
     yearBuilt: 2020,
-    homePort: {"city":"Yokohama","country":"Japan","coordinates":{"latitude":35.4437,"longitude":139.638}},
+    homePort: {
+      city: "Yokohama",
+      country: "Japan",
+      coordinates: { latitude: 35.4437, longitude: 139.638 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 8620,
@@ -18,26 +23,55 @@ export const yokohamaVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Hyperbaric treatment chambers","Tactical response equipment","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Autopilot systems with track control","Night vision systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Ship-to-shore communication links","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Cinema with latest releases","Culinary demonstration kitchens","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Tactile guidance systems","Wheelchair accessible cabins"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Optimized hull design for reduced fuel consumption","Biodegradable hydraulic fluids","Food waste digesters"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Tactical response equipment",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Night vision systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Culinary demonstration kitchens",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Tactile guidance systems",
+        "Wheelchair accessible cabins",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Biodegradable hydraulic fluids",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SY Yokohama Voyager",
-    description: "The SY Yokohama Voyager invites travelers to explore the treasures of Asia Pacific in unmatched comfort. This exceptional zodiac equipped vessel, based in Yokohama, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The SY Yokohama Voyager invites travelers to explore the treasures of Asia Pacific in unmatched comfort. This exceptional zodiac equipped vessel, based in Yokohama, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "zodiac-equipped-vessel",
     capacity: 1698,
     length: 439,
     width: 75,
     speed: 20,
     yearBuilt: 2021,
-    homePort: {"city":"Yokohama","country":"Japan","coordinates":{"latitude":35.4437,"longitude":139.638}},
+    homePort: {
+      city: "Yokohama",
+      country: "Japan",
+      coordinates: { latitude: 35.4437, longitude: 139.638 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 16460,
@@ -45,26 +79,55 @@ export const yokohamaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Satellite emergency notification devices","Tactical response equipment","Personal locator beacons","Rescue boats and life rafts"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Radar and automatic radar plotting aids (ARPAs)","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Virtual reality gaming center","Library and educational facilities","Immersive simulation experiences"],
-      accessibilityFeatures: ["Braille signage throughout","Elevator access to all public decks"],
-      environmentalFeatures: ["Shore power connectivity","Solar panel supplementation","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Satellite emergency notification devices",
+        "Tactical response equipment",
+        "Personal locator beacons",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Library and educational facilities",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Solar panel supplementation",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Yokohama Princess",
-    description: "Combining traditional maritime charm with modern amenities, the MV Yokohama Princess promises an extraordinary voyage from its home port of Yokohama. This impressive catamaran offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Yokohama Princess promises an extraordinary voyage from its home port of Yokohama. This impressive catamaran offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "catamaran",
     capacity: 1303,
     length: 360,
     width: 64,
     speed: 26,
     yearBuilt: 2011,
-    homePort: {"city":"Yokohama","country":"Japan","coordinates":{"latitude":35.4437,"longitude":139.638}},
+    homePort: {
+      city: "Yokohama",
+      country: "Japan",
+      coordinates: { latitude: 35.4437, longitude: 139.638 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 11520,
@@ -72,26 +135,53 @@ export const yokohamaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "China Classification Society B",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Thermal imaging cameras","Tactical response equipment"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Integrated bridge systems","Weather routing systems"],
-      communicationEquipment: ["Digital selective calling equipment","Marine radio telephony","Public address systems"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Children's entertainment areas","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Tactile guidance systems","Accessible medical facilities"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Thermal imaging cameras",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Integrated bridge systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Children's entertainment areas",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Yokohama Legend",
-    description: "Setting sail from the beautiful port of Yokohama, the MV Yokohama Legend is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Yokohama, the MV Yokohama Legend is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 763,
     length: 252,
     width: 47,
     speed: 28,
     yearBuilt: 2024,
-    homePort: {"city":"Yokohama","country":"Japan","coordinates":{"latitude":35.4437,"longitude":139.638}},
+    homePort: {
+      city: "Yokohama",
+      country: "Japan",
+      coordinates: { latitude: 35.4437, longitude: 139.638 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 5920,
@@ -99,26 +189,60 @@ export const yokohamaVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Thermal imaging cameras","Digital safety monitoring systems","Radar reflectors","Emergency escape breathing devices","Survival craft VHF radios"],
-      navigationEquipment: ["Echo sounders and sonar systems","Integrated bridge systems","Dynamic positioning systems","Global navigation satellite systems (GNSS)","Doppler speed logs"],
-      communicationEquipment: ["Maritime VHF radio systems","Digital selective calling equipment"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Theater with Broadway-style productions","Casino with table games and slot machines","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Tactile guidance systems","Transfer chairs for pool access"],
-      environmentalFeatures: ["Solar panel supplementation","Food waste digesters","Dynamic routing to optimize fuel usage","Energy-efficient appliances","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Digital safety monitoring systems",
+        "Radar reflectors",
+        "Emergency escape breathing devices",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Integrated bridge systems",
+        "Dynamic positioning systems",
+        "Global navigation satellite systems (GNSS)",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Theater with Broadway-style productions",
+        "Casino with table games and slot machines",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Food waste digesters",
+        "Dynamic routing to optimize fuel usage",
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SS Yokohama Jewel",
-    description: "Sailing from the picturesque port of Yokohama, the SS Yokohama Jewel represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Yokohama, the SS Yokohama Jewel represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ice-class-ship",
     capacity: 872,
     length: 274,
     width: 51,
     speed: 20,
     yearBuilt: 2008,
-    homePort: {"city":"Yokohama","country":"Japan","coordinates":{"latitude":35.4437,"longitude":139.638}},
+    homePort: {
+      city: "Yokohama",
+      country: "Japan",
+      coordinates: { latitude: 35.4437, longitude: 139.638 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 6980,
@@ -126,14 +250,36 @@ export const yokohamaVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Emergency escape breathing devices","Digital safety monitoring systems","Satellite emergency notification devices"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Long-range identification and tracking (LRIT)","Doppler speed logs"],
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Digital safety monitoring systems",
+        "Satellite emergency notification devices",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Long-range identification and tracking (LRIT)",
+        "Doppler speed logs",
+      ],
       communicationEquipment: ["Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Children's entertainment areas","Virtual reality gaming center","Climbing walls and sports courts","Cinema with latest releases"],
-      accessibilityFeatures: ["Roll-in showers","Service animal accommodations","Accessible entertainment venues"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Shore power connectivity","Noise reduction technology to minimize impact on marine life"]
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Children's entertainment areas",
+        "Virtual reality gaming center",
+        "Climbing walls and sports courts",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Roll-in showers",
+        "Service animal accommodations",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Shore power connectivity",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

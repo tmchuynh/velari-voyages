@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const charlestonVessels: Vessels[] = [
   {
     name: "PS Charleston Explorer",
-    description: "With its distinctive profile and luxurious appointments, the PS Charleston Explorer stands as a jewel in the Charleston harbor. This prestigious zodiac equipped vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the PS Charleston Explorer stands as a jewel in the Charleston harbor. This prestigious zodiac equipped vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "zodiac-equipped-vessel",
     capacity: 1511,
     length: 402,
     width: 70,
     speed: 24,
     yearBuilt: 2017,
-    homePort: {"city":"Charleston","country":"United States","coordinates":{"latitude":32.77657,"longitude":-79.93092}},
+    homePort: {
+      city: "Charleston",
+      country: "United States",
+      coordinates: { latitude: 32.77657, longitude: -79.93092 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 14070,
@@ -18,26 +23,51 @@ export const charlestonVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Tactical response equipment","Life jackets with integrated GPS","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Infrared camera systems","Radar and automatic radar plotting aids (ARPAs)"],
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Life jackets with integrated GPS",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
       communicationEquipment: ["Satellite communication systems"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Assistive listening devices","Transfer chairs for pool access","Elevator access to all public decks","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Shore power connectivity","Ballast water management technology","Energy-efficient appliances","Heat recovery systems"]
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Transfer chairs for pool access",
+        "Elevator access to all public decks",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Ballast water management technology",
+        "Energy-efficient appliances",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "PS Charleston Voyager",
-    description: "Setting sail from the beautiful port of Charleston, the PS Charleston Voyager is a floating paradise designed for the discerning traveler. This remarkable catamaran boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Charleston, the PS Charleston Voyager is a floating paradise designed for the discerning traveler. This remarkable catamaran boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "catamaran",
     capacity: 787,
     length: 257,
     width: 48,
     speed: 17,
     yearBuilt: 2011,
-    homePort: {"city":"Charleston","country":"United States","coordinates":{"latitude":32.77657,"longitude":-79.93092}},
+    homePort: {
+      city: "Charleston",
+      country: "United States",
+      coordinates: { latitude: 32.77657, longitude: -79.93092 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 6160,
@@ -45,26 +75,60 @@ export const charlestonVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Satellite emergency notification devices","Radar reflectors","Digital safety monitoring systems","Thermal imaging cameras","Emergency position indicating radio beacons (EPIRBs)","Searchlights and rescue equipment","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["River radar systems","Autopilot systems with track control","Infrared camera systems","Echo sounders and sonar systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Cinema with latest releases","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Roll-in showers","Accessible shore excursion options","Transfer chairs for pool access","Accessible medical facilities"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","LED lighting throughout","Ballast water management technology","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Radar reflectors",
+        "Digital safety monitoring systems",
+        "Thermal imaging cameras",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Searchlights and rescue equipment",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Autopilot systems with track control",
+        "Infrared camera systems",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Roll-in showers",
+        "Accessible shore excursion options",
+        "Transfer chairs for pool access",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "LED lighting throughout",
+        "Ballast water management technology",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Charleston Princess",
-    description: "The MV Charleston Princess stands as a testament to luxury and innovation on the high seas. Departing from Charleston, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MV Charleston Princess stands as a testament to luxury and innovation on the high seas. Departing from Charleston, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mega-yacht",
     capacity: 1469,
     length: 393,
     width: 68,
     speed: 16,
     yearBuilt: 2007,
-    homePort: {"city":"Charleston","country":"United States","coordinates":{"latitude":32.77657,"longitude":-79.93092}},
+    homePort: {
+      city: "Charleston",
+      country: "United States",
+      coordinates: { latitude: 32.77657, longitude: -79.93092 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 13360,
@@ -72,26 +136,59 @@ export const charlestonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Water purification systems","Man overboard detection systems","Radar reflectors","Tactical response equipment","Hyperbaric treatment chambers","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Doppler speed logs","Dynamic positioning systems"],
-      communicationEquipment: ["Internal crew communication network","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Virtual reality gaming center","Children's entertainment areas","Full-service spa and fitness center","Immersive simulation experiences"],
-      accessibilityFeatures: ["Visual alarm systems","Wheelchair accessible cabins","Accessible dining facilities","Accessible entertainment venues"],
-      environmentalFeatures: ["Recyclable material management systems","Energy-efficient appliances","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Man overboard detection systems",
+        "Radar reflectors",
+        "Tactical response equipment",
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Virtual reality gaming center",
+        "Children's entertainment areas",
+        "Full-service spa and fitness center",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Wheelchair accessible cabins",
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Charleston Legend",
-    description: "Sailing from the picturesque port of Charleston, the RV Charleston Legend represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Charleston, the RV Charleston Legend represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ice-class-ship",
     capacity: 1711,
     length: 442,
     width: 76,
     speed: 16,
     yearBuilt: 2012,
-    homePort: {"city":"Charleston","country":"United States","coordinates":{"latitude":32.77657,"longitude":-79.93092}},
+    homePort: {
+      city: "Charleston",
+      country: "United States",
+      coordinates: { latitude: 32.77657, longitude: -79.93092 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 16790,
@@ -99,26 +196,55 @@ export const charlestonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Weather monitoring stations","Searchlights and rescue equipment","Survival craft VHF radios","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Echo sounders and sonar systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Public address systems","Internal crew communication network"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Cinema with latest releases","Library and educational facilities","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Accessible entertainment venues","Hearing augmentation systems"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","LED lighting throughout","Ballast water management technology"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Searchlights and rescue equipment",
+        "Survival craft VHF radios",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Public address systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Cinema with latest releases",
+        "Library and educational facilities",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "LED lighting throughout",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Charleston Jewel",
-    description: "Sailing from the picturesque port of Charleston, the MV Charleston Jewel represents a new era in cruise experiences. This remarkable party cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Charleston, the MV Charleston Jewel represents a new era in cruise experiences. This remarkable party cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "party-cruise-ship",
     capacity: 770,
     length: 254,
     width: 48,
     speed: 17,
     yearBuilt: 2014,
-    homePort: {"city":"Charleston","country":"United States","coordinates":{"latitude":32.77657,"longitude":-79.93092}},
+    homePort: {
+      city: "Charleston",
+      country: "United States",
+      coordinates: { latitude: 32.77657, longitude: -79.93092 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 6090,
@@ -126,14 +252,41 @@ export const charlestonVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Thermal imaging cameras","Life jackets with integrated GPS","Rescue boats and life rafts","Comprehensive medical facilities","Tactical response equipment","Weather monitoring stations"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Bridge alert management systems","Integrated bridge systems","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Digital selective calling equipment","Public address systems"],
-      entertainmentEquipment: ["Children's entertainment areas","Observation lounges with panoramic views","Full-service spa and fitness center","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Accessible dining facilities","Roll-in showers"],
-      environmentalFeatures: ["Heat recovery systems","Advanced water treatment systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Life jackets with integrated GPS",
+        "Rescue boats and life rafts",
+        "Comprehensive medical facilities",
+        "Tactical response equipment",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Bridge alert management systems",
+        "Integrated bridge systems",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+        "Full-service spa and fitness center",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Advanced water treatment systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

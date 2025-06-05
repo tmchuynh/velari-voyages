@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const nassauVessels: Vessels[] = [
   {
     name: "RMS Nassau Explorer",
-    description: "The RMS Nassau Explorer stands as a testament to luxury and innovation on the high seas. Departing from Nassau, this sophisticated superyacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Nassau Explorer stands as a testament to luxury and innovation on the high seas. Departing from Nassau, this sophisticated superyacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "superyacht",
     capacity: 697,
     length: 239,
     width: 45,
     speed: 20,
     yearBuilt: 2016,
-    homePort: {"city":"Nassau","country":"Bahamas","coordinates":{"latitude":25.0582,"longitude":-77.3432}},
+    homePort: {
+      city: "Nassau",
+      country: "Bahamas",
+      coordinates: { latitude: 25.0582, longitude: -77.3432 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 5370,
@@ -18,26 +23,56 @@ export const nassauVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Emergency escape breathing devices","Thermal imaging cameras","Personal locator beacons","Emergency position indicating radio beacons (EPIRBs)","Life jackets with integrated GPS"],
-      navigationEquipment: ["Inland ECDIS","Integrated bridge systems","Navigation data management systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Satellite communication systems"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Art gallery and auction facilities","Climbing walls and sports courts","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Service animal accommodations","Transfer chairs for pool access"],
-      environmentalFeatures: ["Heat recovery systems","Energy-efficient appliances","Solar panel supplementation"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Thermal imaging cameras",
+        "Personal locator beacons",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Integrated bridge systems",
+        "Navigation data management systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Art gallery and auction facilities",
+        "Climbing walls and sports courts",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Energy-efficient appliances",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Nassau Voyager",
-    description: "Setting sail from the beautiful port of Nassau, the MV Nassau Voyager is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Nassau, the MV Nassau Voyager is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "boutique-cruise-ship",
     capacity: 1054,
     length: 310,
     width: 56,
     speed: 24,
     yearBuilt: 2018,
-    homePort: {"city":"Nassau","country":"Bahamas","coordinates":{"latitude":25.0582,"longitude":-77.3432}},
+    homePort: {
+      city: "Nassau",
+      country: "Bahamas",
+      coordinates: { latitude: 25.0582, longitude: -77.3432 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 8680,
@@ -45,26 +80,59 @@ export const nassauVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Survival craft VHF radios","Man overboard detection systems","Rescue boats and life rafts","Satellite emergency notification devices","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Night vision systems","Weather routing systems","Dynamic positioning systems","Doppler speed logs"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Observation lounges with panoramic views","Theater with Broadway-style productions","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Braille signage throughout","Tactile guidance systems","Hearing augmentation systems"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Solar panel supplementation","LED lighting throughout"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Man overboard detection systems",
+        "Rescue boats and life rafts",
+        "Satellite emergency notification devices",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Night vision systems",
+        "Weather routing systems",
+        "Dynamic positioning systems",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Observation lounges with panoramic views",
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Solar panel supplementation",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Nassau Princess",
-    description: "The PS Nassau Princess stands as a testament to luxury and innovation on the high seas. Departing from Nassau, this sophisticated small ocean ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The PS Nassau Princess stands as a testament to luxury and innovation on the high seas. Departing from Nassau, this sophisticated small ocean ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "small-ocean-ship",
     capacity: 1432,
     length: 386,
     width: 67,
     speed: 27,
     yearBuilt: 2024,
-    homePort: {"city":"Nassau","country":"Bahamas","coordinates":{"latitude":25.0582,"longitude":-77.3432}},
+    homePort: {
+      city: "Nassau",
+      country: "Bahamas",
+      coordinates: { latitude: 25.0582, longitude: -77.3432 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 12930,
@@ -72,26 +140,53 @@ export const nassauVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Weather monitoring stations","Comprehensive medical facilities","Emergency escape breathing devices"],
-      navigationEquipment: ["Navigation data management systems","Integrated bridge systems","Long-range identification and tracking (LRIT)","Inland ECDIS","Doppler speed logs"],
-      communicationEquipment: ["Internal crew communication network","Marine radio telephony","Digital selective calling equipment"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Full-service spa and fitness center"],
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Weather monitoring stations",
+        "Comprehensive medical facilities",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Integrated bridge systems",
+        "Long-range identification and tracking (LRIT)",
+        "Inland ECDIS",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Marine radio telephony",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Full-service spa and fitness center",
+      ],
       accessibilityFeatures: ["Visual alarm systems"],
-      environmentalFeatures: ["Food waste digesters","Advanced water treatment systems","Recyclable material management systems"]
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Nassau Legend",
-    description: "The majestic RV Nassau Legend represents the pinnacle of maritime engineering and hospitality. Based in Nassau, this exceptional mid size cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
+    description:
+      "The majestic RV Nassau Legend represents the pinnacle of maritime engineering and hospitality. Based in Nassau, this exceptional mid size cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
     type: "mid-size-cruise-ship",
     capacity: 1989,
     length: 497,
     width: 84,
     speed: 28,
     yearBuilt: 2012,
-    homePort: {"city":"Nassau","country":"Bahamas","coordinates":{"latitude":25.0582,"longitude":-77.3432}},
+    homePort: {
+      city: "Nassau",
+      country: "Bahamas",
+      coordinates: { latitude: 25.0582, longitude: -77.3432 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 20870,
@@ -99,26 +194,53 @@ export const nassauVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Composite Materials",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Weather monitoring stations","Radar reflectors","Digital safety monitoring systems","Personal locator beacons"],
-      navigationEquipment: ["Weather routing systems","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Ship-to-shore communication links","Internal crew communication network","Public address systems"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Immersive simulation experiences"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible medical facilities","Tactile guidance systems"],
-      environmentalFeatures: ["LED lighting throughout","Food waste digesters"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Radar reflectors",
+        "Digital safety monitoring systems",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Internal crew communication network",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible medical facilities",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Nassau Jewel",
-    description: "The majestic MV Nassau Jewel represents the pinnacle of maritime engineering and hospitality. Based in Nassau, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
+    description:
+      "The majestic MV Nassau Jewel represents the pinnacle of maritime engineering and hospitality. Based in Nassau, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Caribbean region.",
     type: "luxury-cruise-ship",
     capacity: 552,
     length: 210,
     width: 41,
     speed: 18,
     yearBuilt: 2018,
-    homePort: {"city":"Nassau","country":"Bahamas","coordinates":{"latitude":25.0582,"longitude":-77.3432}},
+    homePort: {
+      city: "Nassau",
+      country: "Bahamas",
+      coordinates: { latitude: 25.0582, longitude: -77.3432 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4300,
@@ -126,14 +248,42 @@ export const nassauVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Weather monitoring stations","Life jackets with integrated GPS","Rescue boats and life rafts","Emergency position indicating radio beacons (EPIRBs)","Advanced fire detection and suppression systems","Satellite emergency notification devices"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Bridge alert management systems","Integrated navigation system displays","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Marine radio telephony","Public address systems"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Theater with Broadway-style productions","Observation lounges with panoramic views","Virtual reality gaming center"],
-      accessibilityFeatures: ["Accessible shore excursion options","Tactile guidance systems"],
-      environmentalFeatures: ["Ballast water management technology","Exhaust gas cleaning systems","Dynamic routing to optimize fuel usage","Shore power connectivity"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Life jackets with integrated GPS",
+        "Rescue boats and life rafts",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Advanced fire detection and suppression systems",
+        "Satellite emergency notification devices",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Bridge alert management systems",
+        "Integrated navigation system displays",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Theater with Broadway-style productions",
+        "Observation lounges with panoramic views",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Exhaust gas cleaning systems",
+        "Dynamic routing to optimize fuel usage",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

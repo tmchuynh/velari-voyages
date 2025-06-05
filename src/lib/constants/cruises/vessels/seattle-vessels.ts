@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const seattleVessels: Vessels[] = [
   {
     name: "SY Seattle Explorer",
-    description: "The SY Seattle Explorer offers an unparalleled cruising experience from Seattle, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
+    description:
+      "The SY Seattle Explorer offers an unparalleled cruising experience from Seattle, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
     type: "polar-expedition-ship",
     capacity: 1665,
     length: 433,
     width: 74,
     speed: 15,
     yearBuilt: 2011,
-    homePort: {"city":"Seattle","country":"United States","coordinates":{"latitude":47.6062,"longitude":-122.3321}},
+    homePort: {
+      city: "Seattle",
+      country: "United States",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 16020,
@@ -18,26 +23,55 @@ export const seattleVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Searchlights and rescue equipment","Life jackets with integrated GPS","Emergency position indicating radio beacons (EPIRBs)","Digital safety monitoring systems"],
-      navigationEquipment: ["Navigation data management systems","Weather routing systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Digital selective calling equipment"],
-      entertainmentEquipment: ["Library and educational facilities","Art gallery and auction facilities","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Accessible medical facilities","Assistive listening devices","Braille signage throughout"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Shore power connectivity","Recyclable material management systems"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Life jackets with integrated GPS",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Digital safety monitoring systems",
+      ],
+      navigationEquipment: [
+        "Navigation data management systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Art gallery and auction facilities",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Accessible medical facilities",
+        "Assistive listening devices",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Shore power connectivity",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RV Seattle Voyager",
-    description: "The majestic RV Seattle Voyager represents the pinnacle of maritime engineering and hospitality. Based in Seattle, this exceptional mainstream cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
+    description:
+      "The majestic RV Seattle Voyager represents the pinnacle of maritime engineering and hospitality. Based in Seattle, this exceptional mainstream cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
     type: "mainstream-cruise-ship",
     capacity: 1071,
     length: 314,
     width: 57,
     speed: 20,
     yearBuilt: 2011,
-    homePort: {"city":"Seattle","country":"United States","coordinates":{"latitude":47.6062,"longitude":-122.3321}},
+    homePort: {
+      city: "Seattle",
+      country: "United States",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 8940,
@@ -45,26 +79,56 @@ export const seattleVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Survival craft VHF radios","Man overboard detection systems","Rescue boats and life rafts","Searchlights and rescue equipment"],
-      navigationEquipment: ["Bridge alert management systems","Doppler speed logs","Dynamic positioning systems","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Theater with Broadway-style productions","Virtual reality gaming center","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Accessible shore excursion options","Transfer chairs for pool access"],
-      environmentalFeatures: ["Heat recovery systems","Exhaust gas cleaning systems","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Man overboard detection systems",
+        "Rescue boats and life rafts",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Doppler speed logs",
+        "Dynamic positioning systems",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Theater with Broadway-style productions",
+        "Virtual reality gaming center",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Exhaust gas cleaning systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MS Seattle Princess",
-    description: "The MS Seattle Princess invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ice class ship, based in Seattle, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MS Seattle Princess invites travelers to explore the treasures of Alaska in unmatched comfort. This exceptional ice class ship, based in Seattle, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "ice-class-ship",
     capacity: 1875,
     length: 475,
     width: 81,
     speed: 29,
     yearBuilt: 2010,
-    homePort: {"city":"Seattle","country":"United States","coordinates":{"latitude":47.6062,"longitude":-122.3321}},
+    homePort: {
+      city: "Seattle",
+      country: "United States",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 19230,
@@ -72,26 +136,57 @@ export const seattleVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Digital safety monitoring systems","Comprehensive medical facilities","Satellite emergency notification devices"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Voyage data recorders (VDRs)","Bridge alert management systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Marine radio telephony"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Dance clubs and live music venues","Casino with table games and slot machines","Observation lounges with panoramic views","Children's entertainment areas"],
-      accessibilityFeatures: ["Accessible shore excursion options","Accessible medical facilities","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Solar panel supplementation","Shore power connectivity","Food waste digesters"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Comprehensive medical facilities",
+        "Satellite emergency notification devices",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Voyage data recorders (VDRs)",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+        "Casino with table games and slot machines",
+        "Observation lounges with panoramic views",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Accessible medical facilities",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Solar panel supplementation",
+        "Shore power connectivity",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "PS Seattle Legend",
-    description: "The PS Seattle Legend stands as a testament to luxury and innovation on the high seas. Departing from Seattle, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The PS Seattle Legend stands as a testament to luxury and innovation on the high seas. Departing from Seattle, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mega-yacht",
     capacity: 1257,
     length: 351,
     width: 62,
     speed: 22,
     yearBuilt: 2015,
-    homePort: {"city":"Seattle","country":"United States","coordinates":{"latitude":47.6062,"longitude":-122.3321}},
+    homePort: {
+      city: "Seattle",
+      country: "United States",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 10880,
@@ -99,26 +194,58 @@ export const seattleVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Digital safety monitoring systems","Searchlights and rescue equipment"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Night vision systems","Autopilot systems with track control","Weather routing systems"],
-      communicationEquipment: ["Broadband internet throughout","Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Cinema with latest releases","Dance clubs and live music venues","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Roll-in showers","Hearing augmentation systems"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","Energy-efficient appliances","Ballast water management technology","Heat recovery systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Digital safety monitoring systems",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Night vision systems",
+        "Autopilot systems with track control",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Dance clubs and live music venues",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Roll-in showers",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "Energy-efficient appliances",
+        "Ballast water management technology",
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MS Seattle Jewel",
-    description: "Sailing from the picturesque port of Seattle, the MS Seattle Jewel represents a new era in cruise experiences. This remarkable small ocean ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Seattle, the MS Seattle Jewel represents a new era in cruise experiences. This remarkable small ocean ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "small-ocean-ship",
     capacity: 1185,
     length: 337,
     width: 60,
     speed: 26,
     yearBuilt: 2014,
-    homePort: {"city":"Seattle","country":"United States","coordinates":{"latitude":47.6062,"longitude":-122.3321}},
+    homePort: {
+      city: "Seattle",
+      country: "United States",
+      coordinates: { latitude: 47.6062, longitude: -122.3321 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 10110,
@@ -126,14 +253,37 @@ export const seattleVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Searchlights and rescue equipment","Radar reflectors","Rescue boats and life rafts","Personal locator beacons","Life jackets with integrated GPS","Survival craft VHF radios"],
-      navigationEquipment: ["River radar systems","Weather routing systems","Voyage data recorders (VDRs)"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible dining facilities"],
-      environmentalFeatures: ["Food waste digesters","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Radar reflectors",
+        "Rescue boats and life rafts",
+        "Personal locator beacons",
+        "Life jackets with integrated GPS",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Weather routing systems",
+        "Voyage data recorders (VDRs)",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

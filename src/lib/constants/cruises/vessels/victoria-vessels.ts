@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const victoriaVessels: Vessels[] = [
   {
     name: "MS Victoria Explorer",
-    description: "The MS Victoria Explorer offers an unparalleled cruising experience from Victoria, combining luxury amenities with state-of-the-art navigation technology. This ice class ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
+    description:
+      "The MS Victoria Explorer offers an unparalleled cruising experience from Victoria, combining luxury amenities with state-of-the-art navigation technology. This ice class ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Alaska hospitality.",
     type: "ice-class-ship",
     capacity: 848,
     length: 269,
     width: 50,
     speed: 22,
     yearBuilt: 2010,
-    homePort: {"city":"Victoria","country":"Canada","coordinates":{"latitude":48.4284,"longitude":-123.3656}},
+    homePort: {
+      city: "Victoria",
+      country: "Canada",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 6720,
@@ -18,26 +23,52 @@ export const victoriaVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Personal locator beacons","Survival craft VHF radios","Water purification systems","Life jackets with integrated GPS","Searchlights and rescue equipment"],
-      navigationEquipment: ["Weather routing systems","Long-range identification and tracking (LRIT)","Dynamic positioning systems"],
-      communicationEquipment: ["Digital selective calling equipment","Marine radio telephony"],
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+        "Water purification systems",
+        "Life jackets with integrated GPS",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Long-range identification and tracking (LRIT)",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+      ],
       entertainmentEquipment: ["Cinema with latest releases"],
-      accessibilityFeatures: ["Visual alarm systems","Assistive listening devices"],
-      environmentalFeatures: ["Solar panel supplementation","Optimized hull design for reduced fuel consumption","Heat recovery systems","Marine ecosystem monitoring equipment"]
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Optimized hull design for reduced fuel consumption",
+        "Heat recovery systems",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SY Victoria Voyager",
-    description: "The majestic SY Victoria Voyager represents the pinnacle of maritime engineering and hospitality. Based in Victoria, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
+    description:
+      "The majestic SY Victoria Voyager represents the pinnacle of maritime engineering and hospitality. Based in Victoria, this exceptional ice class ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Alaska region.",
     type: "ice-class-ship",
     capacity: 1157,
     length: 331,
     width: 59,
     speed: 21,
     yearBuilt: 2021,
-    homePort: {"city":"Victoria","country":"Canada","coordinates":{"latitude":48.4284,"longitude":-123.3656}},
+    homePort: {
+      city: "Victoria",
+      country: "Canada",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 9760,
@@ -45,26 +76,55 @@ export const victoriaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Personal locator beacons","Radar reflectors","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Night vision systems","Echo sounders and sonar systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Satellite communication systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Climbing walls and sports courts","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Accessible shore excursion options","Visual alarm systems","Accessible dining facilities","Service animal accommodations"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Radar reflectors",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Night vision systems",
+        "Echo sounders and sonar systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Climbing walls and sports courts",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Visual alarm systems",
+        "Accessible dining facilities",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Victoria Princess",
-    description: "With its distinctive profile and luxurious appointments, the MV Victoria Princess stands as a jewel in the Victoria harbor. This prestigious catamaran offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MV Victoria Princess stands as a jewel in the Victoria harbor. This prestigious catamaran offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "catamaran",
     capacity: 561,
     length: 212,
     width: 41,
     speed: 15,
     yearBuilt: 2012,
-    homePort: {"city":"Victoria","country":"Canada","coordinates":{"latitude":48.4284,"longitude":-123.3656}},
+    homePort: {
+      city: "Victoria",
+      country: "Canada",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 4340,
@@ -72,26 +132,57 @@ export const victoriaVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Rescue boats and life rafts","Digital safety monitoring systems","Tactical response equipment"],
-      navigationEquipment: ["Autopilot systems with track control","River radar systems"],
-      communicationEquipment: ["Marine radio telephony","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Casino with table games and slot machines","Library and educational facilities","Multiple swimming pools and water features","Immersive simulation experiences"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Height-adjustable furniture in select cabins","Accessible entertainment venues"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Ballast water management technology","Food waste digesters","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Rescue boats and life rafts",
+        "Digital safety monitoring systems",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Casino with table games and slot machines",
+        "Library and educational facilities",
+        "Multiple swimming pools and water features",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Height-adjustable furniture in select cabins",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Ballast water management technology",
+        "Food waste digesters",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY Victoria Legend",
-    description: "Sailing from the picturesque port of Victoria, the MY Victoria Legend represents a new era in cruise experiences. This remarkable catamaran combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Victoria, the MY Victoria Legend represents a new era in cruise experiences. This remarkable catamaran combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "catamaran",
     capacity: 843,
     length: 268,
     width: 50,
     speed: 29,
     yearBuilt: 2005,
-    homePort: {"city":"Victoria","country":"Canada","coordinates":{"latitude":48.4284,"longitude":-123.3656}},
+    homePort: {
+      city: "Victoria",
+      country: "Canada",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 6700,
@@ -99,26 +190,58 @@ export const victoriaVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Emergency escape breathing devices","Thermal imaging cameras","Survival craft VHF radios","Comprehensive medical facilities","Personal locator beacons","Weather monitoring stations"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Weather routing systems","Bridge alert management systems","Echo sounders and sonar systems"],
-      communicationEquipment: ["Internal crew communication network","Marine radio telephony","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Service animal accommodations","Tactile guidance systems","Hearing augmentation systems"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Dynamic routing to optimize fuel usage","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Thermal imaging cameras",
+        "Survival craft VHF radios",
+        "Comprehensive medical facilities",
+        "Personal locator beacons",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Weather routing systems",
+        "Bridge alert management systems",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Dynamic routing to optimize fuel usage",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Victoria Jewel",
-    description: "Setting sail from the beautiful port of Victoria, the SS Victoria Jewel is a floating paradise designed for the discerning traveler. This remarkable zodiac equipped vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Victoria, the SS Victoria Jewel is a floating paradise designed for the discerning traveler. This remarkable zodiac equipped vessel boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "zodiac-equipped-vessel",
     capacity: 925,
     length: 285,
     width: 52,
     speed: 20,
     yearBuilt: 2012,
-    homePort: {"city":"Victoria","country":"Canada","coordinates":{"latitude":48.4284,"longitude":-123.3656}},
+    homePort: {
+      city: "Victoria",
+      country: "Canada",
+      coordinates: { latitude: 48.4284, longitude: -123.3656 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 7410,
@@ -126,14 +249,37 @@ export const victoriaVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Survival craft VHF radios","Searchlights and rescue equipment","Emergency position indicating radio beacons (EPIRBs)","Emergency escape breathing devices"],
-      navigationEquipment: ["Night vision systems","Integrated navigation system displays","Infrared camera systems"],
-      communicationEquipment: ["Public address systems","Maritime VHF radio systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Cinema with latest releases","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible entertainment venues"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Searchlights and rescue equipment",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Night vision systems",
+        "Integrated navigation system displays",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Maritime VHF radio systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Cinema with latest releases",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

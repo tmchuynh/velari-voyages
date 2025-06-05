@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const newOrleansVessels: Vessels[] = [
   {
     name: "RMS New Orleans Explorer",
-    description: "The RMS New Orleans Explorer invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional luxury cruise ship, based in New Orleans, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The RMS New Orleans Explorer invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional luxury cruise ship, based in New Orleans, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "luxury-cruise-ship",
     capacity: 510,
     length: 202,
     width: 40,
     speed: 29,
     yearBuilt: 2021,
-    homePort: {"city":"New Orleans","country":"United States","coordinates":{"latitude":29.9511,"longitude":-90.0715}},
+    homePort: {
+      city: "New Orleans",
+      country: "United States",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4040,
@@ -18,26 +23,54 @@ export const newOrleansVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "China Classification Society B",
-      safetyEquipment: ["Comprehensive medical facilities","Marine evacuation systems (MES)","Weather monitoring stations","Man overboard detection systems"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Autopilot systems with track control"],
-      communicationEquipment: ["Ship-to-shore communication links","Broadband internet throughout"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Full-service spa and fitness center","Virtual reality gaming center"],
-      accessibilityFeatures: ["Assistive listening devices","Wheelchair accessible cabins","Elevator access to all public decks"],
-      environmentalFeatures: ["Energy-efficient appliances","Recyclable material management systems","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Full-service spa and fitness center",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Wheelchair accessible cabins",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Recyclable material management systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS New Orleans Voyager",
-    description: "Setting sail from the beautiful port of New Orleans, the TS New Orleans Voyager is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of New Orleans, the TS New Orleans Voyager is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "mid-size-cruise-ship",
     capacity: 1166,
     length: 333,
     width: 59,
     speed: 17,
     yearBuilt: 2011,
-    homePort: {"city":"New Orleans","country":"United States","coordinates":{"latitude":29.9511,"longitude":-90.0715}},
+    homePort: {
+      city: "New Orleans",
+      country: "United States",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 9820,
@@ -45,26 +78,59 @@ export const newOrleansVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Tactical response equipment","Thermal imaging cameras","Emergency escape breathing devices","Satellite emergency notification devices","Man overboard detection systems","Searchlights and rescue equipment"],
-      navigationEquipment: ["Autopilot systems with track control","Weather routing systems","Inland ECDIS","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Children's entertainment areas"],
-      accessibilityFeatures: ["Elevator access to all public decks","Braille signage throughout","Visual alarm systems"],
-      environmentalFeatures: ["Food waste digesters","Dynamic routing to optimize fuel usage","Noise reduction technology to minimize impact on marine life","Advanced water treatment systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+        "Emergency escape breathing devices",
+        "Satellite emergency notification devices",
+        "Man overboard detection systems",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Weather routing systems",
+        "Inland ECDIS",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Braille signage throughout",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Dynamic routing to optimize fuel usage",
+        "Noise reduction technology to minimize impact on marine life",
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS New Orleans Princess",
-    description: "The RMS New Orleans Princess offers an unparalleled cruising experience from New Orleans, combining luxury amenities with state-of-the-art navigation technology. This chartered vessel features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The RMS New Orleans Princess offers an unparalleled cruising experience from New Orleans, combining luxury amenities with state-of-the-art navigation technology. This chartered vessel features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "chartered-vessel",
     capacity: 687,
     length: 237,
     width: 45,
     speed: 16,
     yearBuilt: 2018,
-    homePort: {"city":"New Orleans","country":"United States","coordinates":{"latitude":29.9511,"longitude":-90.0715}},
+    homePort: {
+      city: "New Orleans",
+      country: "United States",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 5330,
@@ -72,26 +138,52 @@ export const newOrleansVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Life jackets with integrated GPS","Hyperbaric treatment chambers","Rescue boats and life rafts"],
-      navigationEquipment: ["Autopilot systems with track control","Integrated navigation system displays"],
-      communicationEquipment: ["Public address systems","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Cinema with latest releases","Art gallery and auction facilities"],
-      accessibilityFeatures: ["Assistive listening devices","Elevator access to all public decks","Accessible shore excursion options"],
-      environmentalFeatures: ["Energy-efficient appliances","Ballast water management technology"]
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Life jackets with integrated GPS",
+        "Hyperbaric treatment chambers",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Art gallery and auction facilities",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Elevator access to all public decks",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY New Orleans Legend",
-    description: "The SY New Orleans Legend invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional mid size cruise ship, based in New Orleans, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The SY New Orleans Legend invites travelers to explore the treasures of Caribbean in unmatched comfort. This exceptional mid size cruise ship, based in New Orleans, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "mid-size-cruise-ship",
     capacity: 1245,
     length: 349,
     width: 62,
     speed: 21,
     yearBuilt: 2009,
-    homePort: {"city":"New Orleans","country":"United States","coordinates":{"latitude":29.9511,"longitude":-90.0715}},
+    homePort: {
+      city: "New Orleans",
+      country: "United States",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 10810,
@@ -99,26 +191,58 @@ export const newOrleansVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Composite Materials",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Survival craft VHF radios","Comprehensive medical facilities","Man overboard detection systems","Life jackets with integrated GPS","Emergency escape breathing devices"],
-      navigationEquipment: ["Bridge alert management systems","Dynamic positioning systems","Voyage data recorders (VDRs)"],
-      communicationEquipment: ["Maritime VHF radio systems","Marine radio telephony"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Children's entertainment areas"],
-      accessibilityFeatures: ["Accessible dining facilities","Service animal accommodations","Assistive listening devices","Roll-in showers"],
-      environmentalFeatures: ["Food waste digesters","Ballast water management technology","Energy-efficient appliances","Noise reduction technology to minimize impact on marine life","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Comprehensive medical facilities",
+        "Man overboard detection systems",
+        "Life jackets with integrated GPS",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Dynamic positioning systems",
+        "Voyage data recorders (VDRs)",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Service animal accommodations",
+        "Assistive listening devices",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Ballast water management technology",
+        "Energy-efficient appliances",
+        "Noise reduction technology to minimize impact on marine life",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS New Orleans Jewel",
-    description: "The magnificent RMS New Orleans Jewel offers a perfect blend of adventure and relaxation for travelers departing from New Orleans. This outstanding boutique cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
+    description:
+      "The magnificent RMS New Orleans Jewel offers a perfect blend of adventure and relaxation for travelers departing from New Orleans. This outstanding boutique cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
     type: "boutique-cruise-ship",
     capacity: 1647,
     length: 429,
     width: 74,
     speed: 27,
     yearBuilt: 2006,
-    homePort: {"city":"New Orleans","country":"United States","coordinates":{"latitude":29.9511,"longitude":-90.0715}},
+    homePort: {
+      city: "New Orleans",
+      country: "United States",
+      coordinates: { latitude: 29.9511, longitude: -90.0715 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 15870,
@@ -126,14 +250,42 @@ export const newOrleansVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "China Classification Society B",
-      safetyEquipment: ["Emergency escape breathing devices","Personal locator beacons","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Dynamic positioning systems","River radar systems","Echo sounders and sonar systems","Inland ECDIS"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network","Satellite communication systems"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Dance clubs and live music venues","Casino with table games and slot machines","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Tactile guidance systems","Assistive listening devices"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Ballast water management technology","Biodegradable hydraulic fluids","Heat recovery systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Personal locator beacons",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "River radar systems",
+        "Echo sounders and sonar systems",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Dance clubs and live music venues",
+        "Casino with table games and slot machines",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Tactile guidance systems",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Ballast water management technology",
+        "Biodegradable hydraulic fluids",
+        "Heat recovery systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

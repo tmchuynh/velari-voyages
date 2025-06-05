@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const bostonVessels: Vessels[] = [
   {
     name: "MS Boston Explorer",
-    description: "With its distinctive profile and luxurious appointments, the MS Boston Explorer stands as a jewel in the Boston harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MS Boston Explorer stands as a jewel in the Boston harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "chartered-vessel",
     capacity: 1049,
     length: 309,
     width: 56,
     speed: 25,
     yearBuilt: 2010,
-    homePort: {"city":"Boston","country":"United States","coordinates":{"latitude":42.361145,"longitude":-71.057083}},
+    homePort: {
+      city: "Boston",
+      country: "United States",
+      coordinates: { latitude: 42.361145, longitude: -71.057083 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 8650,
@@ -18,26 +23,57 @@ export const bostonVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Hyperbaric treatment chambers","Marine evacuation systems (MES)","Man overboard detection systems"],
-      navigationEquipment: ["Automatic identification systems (AIS)","River radar systems","Weather routing systems","Autopilot systems with track control"],
-      communicationEquipment: ["Ship-to-shore communication links","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Children's entertainment areas","Culinary demonstration kitchens","Multiple swimming pools and water features","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Service animal accommodations","Hearing augmentation systems"],
-      environmentalFeatures: ["Energy-efficient appliances","Biodegradable hydraulic fluids","Heat recovery systems","Food waste digesters"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "River radar systems",
+        "Weather routing systems",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Culinary demonstration kitchens",
+        "Multiple swimming pools and water features",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Service animal accommodations",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+        "Heat recovery systems",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Boston Voyager",
-    description: "With its distinctive profile and luxurious appointments, the MV Boston Voyager stands as a jewel in the Boston harbor. This prestigious luxury cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MV Boston Voyager stands as a jewel in the Boston harbor. This prestigious luxury cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "luxury-cruise-ship",
     capacity: 748,
     length: 249,
     width: 47,
     speed: 17,
     yearBuilt: 2017,
-    homePort: {"city":"Boston","country":"United States","coordinates":{"latitude":42.361145,"longitude":-71.057083}},
+    homePort: {
+      city: "Boston",
+      country: "United States",
+      coordinates: { latitude: 42.361145, longitude: -71.057083 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 5850,
@@ -45,26 +81,55 @@ export const bostonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Personal locator beacons","Thermal imaging cameras","Comprehensive medical facilities","Advanced fire detection and suppression systems","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Automatic identification systems (AIS)","Global navigation satellite systems (GNSS)","Weather routing systems"],
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Personal locator beacons",
+        "Thermal imaging cameras",
+        "Comprehensive medical facilities",
+        "Advanced fire detection and suppression systems",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Automatic identification systems (AIS)",
+        "Global navigation satellite systems (GNSS)",
+        "Weather routing systems",
+      ],
       communicationEquipment: ["Public address systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Children's entertainment areas","Culinary demonstration kitchens","Cinema with latest releases"],
-      accessibilityFeatures: ["Accessible shore excursion options","Elevator access to all public decks","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Ballast water management technology"]
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Children's entertainment areas",
+        "Culinary demonstration kitchens",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Elevator access to all public decks",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Boston Princess",
-    description: "Combining traditional maritime charm with modern amenities, the TS Boston Princess promises an extraordinary voyage from its home port of Boston. This impressive eco friendly hybrid ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the TS Boston Princess promises an extraordinary voyage from its home port of Boston. This impressive eco friendly hybrid ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1824,
     length: 464,
     width: 79,
     speed: 26,
     yearBuilt: 2005,
-    homePort: {"city":"Boston","country":"United States","coordinates":{"latitude":42.361145,"longitude":-71.057083}},
+    homePort: {
+      city: "Boston",
+      country: "United States",
+      coordinates: { latitude: 42.361145, longitude: -71.057083 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 18320,
@@ -72,26 +137,56 @@ export const bostonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Life jackets with integrated GPS","Tactical response equipment","Water purification systems","Satellite emergency notification devices","Searchlights and rescue equipment"],
-      navigationEquipment: ["Infrared camera systems","Voyage data recorders (VDRs)"],
-      communicationEquipment: ["Marine radio telephony","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Library and educational facilities","Immersive simulation experiences"],
-      accessibilityFeatures: ["Visual alarm systems","Accessible medical facilities"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Energy-efficient appliances","Biodegradable hydraulic fluids","Heat recovery systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Tactical response equipment",
+        "Water purification systems",
+        "Satellite emergency notification devices",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Voyage data recorders (VDRs)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Library and educational facilities",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+        "Heat recovery systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Boston Legend",
-    description: "Combining traditional maritime charm with modern amenities, the MV Boston Legend promises an extraordinary voyage from its home port of Boston. This impressive ultra luxury cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Boston Legend promises an extraordinary voyage from its home port of Boston. This impressive ultra luxury cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "ultra-luxury-cruise-ship",
     capacity: 608,
     length: 221,
     width: 43,
     speed: 22,
     yearBuilt: 2022,
-    homePort: {"city":"Boston","country":"United States","coordinates":{"latitude":42.361145,"longitude":-71.057083}},
+    homePort: {
+      city: "Boston",
+      country: "United States",
+      coordinates: { latitude: 42.361145, longitude: -71.057083 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 4750,
@@ -99,26 +194,57 @@ export const bostonVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Radar reflectors","Water purification systems","Thermal imaging cameras"],
-      navigationEquipment: ["Echo sounders and sonar systems","Gyrocompasses and magnetic compasses","Navigation data management systems","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Marine radio telephony","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Children's entertainment areas","Observation lounges with panoramic views","Library and educational facilities","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Elevator access to all public decks","Accessible medical facilities"],
-      environmentalFeatures: ["LED lighting throughout","Energy-efficient appliances","Biodegradable hydraulic fluids","Solar panel supplementation"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Water purification systems",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Gyrocompasses and magnetic compasses",
+        "Navigation data management systems",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+        "Library and educational facilities",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Elevator access to all public decks",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Energy-efficient appliances",
+        "Biodegradable hydraulic fluids",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Boston Jewel",
-    description: "The SS Boston Jewel invites travelers to explore the treasures of East Coast USA in unmatched comfort. This exceptional luxury cruise ship, based in Boston, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The SS Boston Jewel invites travelers to explore the treasures of East Coast USA in unmatched comfort. This exceptional luxury cruise ship, based in Boston, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "luxury-cruise-ship",
     capacity: 974,
     length: 294,
     width: 54,
     speed: 29,
     yearBuilt: 2005,
-    homePort: {"city":"Boston","country":"United States","coordinates":{"latitude":42.361145,"longitude":-71.057083}},
+    homePort: {
+      city: "Boston",
+      country: "United States",
+      coordinates: { latitude: 42.361145, longitude: -71.057083 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 7930,
@@ -126,14 +252,39 @@ export const bostonVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Emergency escape breathing devices","Hyperbaric treatment chambers","Man overboard detection systems"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Voyage data recorders (VDRs)","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Satellite communication systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Library and educational facilities","Multi-purpose event spaces","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Service animal accommodations","Visual alarm systems","Braille signage throughout"],
-      environmentalFeatures: ["LED lighting throughout","Advanced water treatment systems","Optimized hull design for reduced fuel consumption","Ballast water management technology"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Hyperbaric treatment chambers",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Voyage data recorders (VDRs)",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Library and educational facilities",
+        "Multi-purpose event spaces",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Visual alarm systems",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const vancouverVessels: Vessels[] = [
   {
     name: "MS Vancouver Explorer",
-    description: "With its distinctive profile and luxurious appointments, the MS Vancouver Explorer stands as a jewel in the Vancouver harbor. This prestigious family cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MS Vancouver Explorer stands as a jewel in the Vancouver harbor. This prestigious family cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "family-cruise-ship",
     capacity: 1487,
     length: 397,
     width: 69,
     speed: 21,
     yearBuilt: 2005,
-    homePort: {"city":"Vancouver","country":"Canada","coordinates":{"latitude":49.2827,"longitude":-123.1207}},
+    homePort: {
+      city: "Vancouver",
+      country: "Canada",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 13690,
@@ -18,26 +23,55 @@ export const vancouverVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Personal locator beacons","Comprehensive medical facilities","Weather monitoring stations"],
-      navigationEquipment: ["Infrared camera systems","Electronic chart display information systems (ECDIS)","Dynamic positioning systems"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Art gallery and auction facilities","Cinema with latest releases"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Braille signage throughout"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","LED lighting throughout","Ballast water management technology","Dynamic routing to optimize fuel usage","Food waste digesters"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Comprehensive medical facilities",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Electronic chart display information systems (ECDIS)",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Art gallery and auction facilities",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "LED lighting throughout",
+        "Ballast water management technology",
+        "Dynamic routing to optimize fuel usage",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Vancouver Voyager",
-    description: "The magnificent TS Vancouver Voyager offers a perfect blend of adventure and relaxation for travelers departing from Vancouver. This outstanding eco friendly hybrid ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Alaska region.",
+    description:
+      "The magnificent TS Vancouver Voyager offers a perfect blend of adventure and relaxation for travelers departing from Vancouver. This outstanding eco friendly hybrid ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Alaska region.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1098,
     length: 319,
     width: 57,
     speed: 27,
     yearBuilt: 2016,
-    homePort: {"city":"Vancouver","country":"Canada","coordinates":{"latitude":49.2827,"longitude":-123.1207}},
+    homePort: {
+      city: "Vancouver",
+      country: "Canada",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 9090,
@@ -45,26 +79,56 @@ export const vancouverVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Personal locator beacons","Satellite emergency notification devices","Searchlights and rescue equipment","Rescue boats and life rafts","Digital safety monitoring systems"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Multiple swimming pools and water features","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Visual alarm systems","Accessible medical facilities","Braille signage throughout","Service animal accommodations"],
-      environmentalFeatures: ["Advanced water treatment systems","Heat recovery systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Satellite emergency notification devices",
+        "Searchlights and rescue equipment",
+        "Rescue boats and life rafts",
+        "Digital safety monitoring systems",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Multiple swimming pools and water features",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Accessible medical facilities",
+        "Braille signage throughout",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Heat recovery systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Vancouver Princess",
-    description: "With its distinctive profile and luxurious appointments, the SY Vancouver Princess stands as a jewel in the Vancouver harbor. This prestigious river cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the SY Vancouver Princess stands as a jewel in the Vancouver harbor. This prestigious river cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "river-cruise-ship",
     capacity: 1538,
     length: 407,
     width: 71,
     speed: 16,
     yearBuilt: 2024,
-    homePort: {"city":"Vancouver","country":"Canada","coordinates":{"latitude":49.2827,"longitude":-123.1207}},
+    homePort: {
+      city: "Vancouver",
+      country: "Canada",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 14440,
@@ -72,26 +136,52 @@ export const vancouverVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Digital safety monitoring systems","Thermal imaging cameras","Satellite emergency notification devices","Marine evacuation systems (MES)","Searchlights and rescue equipment"],
-      navigationEquipment: ["Integrated bridge systems","Inland ECDIS","Radar and automatic radar plotting aids (ARPAs)","Integrated navigation system displays"],
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Thermal imaging cameras",
+        "Satellite emergency notification devices",
+        "Marine evacuation systems (MES)",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Inland ECDIS",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Integrated navigation system displays",
+      ],
       communicationEquipment: ["Satellite communication systems"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Immersive simulation experiences","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Service animal accommodations","Accessible dining facilities"],
-      environmentalFeatures: ["Heat recovery systems","Energy-efficient appliances"]
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Immersive simulation experiences",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Vancouver Legend",
-    description: "Setting sail from the beautiful port of Vancouver, the SS Vancouver Legend is a floating paradise designed for the discerning traveler. This remarkable superyacht boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Vancouver, the SS Vancouver Legend is a floating paradise designed for the discerning traveler. This remarkable superyacht boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "superyacht",
     capacity: 1696,
     length: 439,
     width: 75,
     speed: 24,
     yearBuilt: 2012,
-    homePort: {"city":"Vancouver","country":"Canada","coordinates":{"latitude":49.2827,"longitude":-123.1207}},
+    homePort: {
+      city: "Vancouver",
+      country: "Canada",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 16460,
@@ -99,26 +189,54 @@ export const vancouverVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Satellite emergency notification devices","Comprehensive medical facilities"],
-      navigationEquipment: ["Echo sounders and sonar systems","Weather routing systems","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Ship-to-shore communication links","Marine radio telephony"],
-      entertainmentEquipment: ["Virtual reality gaming center","Climbing walls and sports courts","Art gallery and auction facilities","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Tactile guidance systems","Hearing augmentation systems"],
-      environmentalFeatures: ["Shore power connectivity","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Satellite emergency notification devices",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Weather routing systems",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Climbing walls and sports courts",
+        "Art gallery and auction facilities",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MS Vancouver Jewel",
-    description: "The MS Vancouver Jewel stands as a testament to luxury and innovation on the high seas. Departing from Vancouver, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MS Vancouver Jewel stands as a testament to luxury and innovation on the high seas. Departing from Vancouver, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "eco-friendly-hybrid-ship",
     capacity: 609,
     length: 221,
     width: 43,
     speed: 22,
     yearBuilt: 2024,
-    homePort: {"city":"Vancouver","country":"Canada","coordinates":{"latitude":49.2827,"longitude":-123.1207}},
+    homePort: {
+      city: "Vancouver",
+      country: "Canada",
+      coordinates: { latitude: 49.2827, longitude: -123.1207 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 4750,
@@ -126,14 +244,39 @@ export const vancouverVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Emergency escape breathing devices","Advanced fire detection and suppression systems","Digital safety monitoring systems","Survival craft VHF radios","Radar reflectors"],
-      navigationEquipment: ["Integrated bridge systems","Weather routing systems"],
-      communicationEquipment: ["Broadband internet throughout","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Climbing walls and sports courts","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Braille signage throughout","Tactile guidance systems","Hearing augmentation systems"],
-      environmentalFeatures: ["LED lighting throughout","Shore power connectivity","Solar panel supplementation"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Advanced fire detection and suppression systems",
+        "Digital safety monitoring systems",
+        "Survival craft VHF radios",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Braille signage throughout",
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Shore power connectivity",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

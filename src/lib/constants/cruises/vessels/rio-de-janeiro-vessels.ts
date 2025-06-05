@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const rioDeJaneiroVessels: Vessels[] = [
   {
     name: "SY Rio De Janeiro Explorer",
-    description: "The magnificent SY Rio De Janeiro Explorer offers a perfect blend of adventure and relaxation for travelers departing from Rio De Janeiro. This outstanding short hop ferry features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the South America region.",
+    description:
+      "The magnificent SY Rio De Janeiro Explorer offers a perfect blend of adventure and relaxation for travelers departing from Rio De Janeiro. This outstanding short hop ferry features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the South America region.",
     type: "short-hop-ferry",
     capacity: 1779,
     length: 455,
     width: 78,
     speed: 17,
     yearBuilt: 2019,
-    homePort: {"city":"Rio De Janeiro","country":"Brazil","coordinates":{"latitude":-22.9068,"longitude":-43.1729}},
+    homePort: {
+      city: "Rio De Janeiro",
+      country: "Brazil",
+      coordinates: { latitude: -22.9068, longitude: -43.1729 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 17740,
@@ -18,26 +23,57 @@ export const rioDeJaneiroVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Reinforced Aluminum",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Marine evacuation systems (MES)","Digital safety monitoring systems","Emergency position indicating radio beacons (EPIRBs)","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Echo sounders and sonar systems","Voyage data recorders (VDRs)","Night vision systems","Navigation data management systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Broadband internet throughout","Digital selective calling equipment"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Virtual reality gaming center","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Assistive listening devices","Accessible medical facilities","Accessible entertainment venues"],
-      environmentalFeatures: ["Advanced water treatment systems","Noise reduction technology to minimize impact on marine life","Shore power connectivity"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Digital safety monitoring systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Voyage data recorders (VDRs)",
+        "Night vision systems",
+        "Navigation data management systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Broadband internet throughout",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Virtual reality gaming center",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Accessible medical facilities",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Rio De Janeiro Voyager",
-    description: "Setting sail from the beautiful port of Rio De Janeiro, the MV Rio De Janeiro Voyager is a floating paradise designed for the discerning traveler. This remarkable expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Rio De Janeiro, the MV Rio De Janeiro Voyager is a floating paradise designed for the discerning traveler. This remarkable expedition ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "expedition-ship",
     capacity: 824,
     length: 264,
     width: 49,
     speed: 20,
     yearBuilt: 2018,
-    homePort: {"city":"Rio De Janeiro","country":"Brazil","coordinates":{"latitude":-22.9068,"longitude":-43.1729}},
+    homePort: {
+      city: "Rio De Janeiro",
+      country: "Brazil",
+      coordinates: { latitude: -22.9068, longitude: -43.1729 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 6460,
@@ -45,26 +81,57 @@ export const rioDeJaneiroVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Radar reflectors","Marine evacuation systems (MES)","Comprehensive medical facilities","Advanced fire detection and suppression systems","Survival craft VHF radios","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Inland ECDIS","Radar and automatic radar plotting aids (ARPAs)","Weather routing systems","Navigation data management systems"],
+      safetyEquipment: [
+        "Radar reflectors",
+        "Marine evacuation systems (MES)",
+        "Comprehensive medical facilities",
+        "Advanced fire detection and suppression systems",
+        "Survival craft VHF radios",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Weather routing systems",
+        "Navigation data management systems",
+      ],
       communicationEquipment: ["Satellite communication systems"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Children's entertainment areas","Immersive simulation experiences","Culinary demonstration kitchens","Library and educational facilities"],
-      accessibilityFeatures: ["Elevator access to all public decks","Hearing augmentation systems"],
-      environmentalFeatures: ["Solar panel supplementation","LED lighting throughout","Dynamic routing to optimize fuel usage","Noise reduction technology to minimize impact on marine life"]
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Children's entertainment areas",
+        "Immersive simulation experiences",
+        "Culinary demonstration kitchens",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "LED lighting throughout",
+        "Dynamic routing to optimize fuel usage",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Rio De Janeiro Princess",
-    description: "Experience the epitome of maritime excellence aboard the RV Rio De Janeiro Princess, a premier river cruise ship sailing from Rio De Janeiro. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the RV Rio De Janeiro Princess, a premier river cruise ship sailing from Rio De Janeiro. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "river-cruise-ship",
     capacity: 1090,
     length: 318,
     width: 57,
     speed: 23,
     yearBuilt: 2017,
-    homePort: {"city":"Rio De Janeiro","country":"Brazil","coordinates":{"latitude":-22.9068,"longitude":-43.1729}},
+    homePort: {
+      city: "Rio De Janeiro",
+      country: "Brazil",
+      coordinates: { latitude: -22.9068, longitude: -43.1729 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 9060,
@@ -72,26 +139,50 @@ export const rioDeJaneiroVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Survival craft VHF radios","Hyperbaric treatment chambers","Searchlights and rescue equipment"],
-      navigationEquipment: ["River radar systems","Bridge alert management systems"],
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Hyperbaric treatment chambers",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Bridge alert management systems",
+      ],
       communicationEquipment: ["Marine radio telephony"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Immersive simulation experiences","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Accessible medical facilities","Accessible entertainment venues","Service animal accommodations"],
-      environmentalFeatures: ["LED lighting throughout","Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life"]
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Immersive simulation experiences",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Accessible entertainment venues",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY Rio De Janeiro Legend",
-    description: "With its distinctive profile and luxurious appointments, the MY Rio De Janeiro Legend stands as a jewel in the Rio De Janeiro harbor. This prestigious river cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MY Rio De Janeiro Legend stands as a jewel in the Rio De Janeiro harbor. This prestigious river cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "river-cruise-ship",
     capacity: 1098,
     length: 319,
     width: 57,
     speed: 26,
     yearBuilt: 2006,
-    homePort: {"city":"Rio De Janeiro","country":"Brazil","coordinates":{"latitude":-22.9068,"longitude":-43.1729}},
+    homePort: {
+      city: "Rio De Janeiro",
+      country: "Brazil",
+      coordinates: { latitude: -22.9068, longitude: -43.1729 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 9090,
@@ -99,26 +190,57 @@ export const rioDeJaneiroVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Life jackets with integrated GPS","Marine evacuation systems (MES)","Weather monitoring stations","Satellite emergency notification devices","Survival craft VHF radios","Searchlights and rescue equipment"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Gyrocompasses and magnetic compasses","Night vision systems"],
-      communicationEquipment: ["Marine radio telephony","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Full-service spa and fitness center","Dance clubs and live music venues","Theater with Broadway-style productions","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Braille signage throughout","Elevator access to all public decks"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Recyclable material management systems"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+        "Satellite emergency notification devices",
+        "Survival craft VHF radios",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Gyrocompasses and magnetic compasses",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Rio De Janeiro Jewel",
-    description: "With its distinctive profile and luxurious appointments, the TS Rio De Janeiro Jewel stands as a jewel in the Rio De Janeiro harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the TS Rio De Janeiro Jewel stands as a jewel in the Rio De Janeiro harbor. This prestigious chartered vessel offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "chartered-vessel",
     capacity: 1389,
     length: 377,
     width: 66,
     speed: 17,
     yearBuilt: 2014,
-    homePort: {"city":"Rio De Janeiro","country":"Brazil","coordinates":{"latitude":-22.9068,"longitude":-43.1729}},
+    homePort: {
+      city: "Rio De Janeiro",
+      country: "Brazil",
+      coordinates: { latitude: -22.9068, longitude: -43.1729 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 12440,
@@ -126,14 +248,38 @@ export const rioDeJaneiroVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Digital safety monitoring systems","Thermal imaging cameras","Radar reflectors","Man overboard detection systems","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Bridge alert management systems","Integrated navigation system displays"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Marine radio telephony"],
-      entertainmentEquipment: ["Cinema with latest releases","Dance clubs and live music venues","Full-service spa and fitness center","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Accessible shore excursion options","Height-adjustable furniture in select cabins","Roll-in showers"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Ballast water management technology"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Thermal imaging cameras",
+        "Radar reflectors",
+        "Man overboard detection systems",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Dance clubs and live music venues",
+        "Full-service spa and fitness center",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Height-adjustable furniture in select cabins",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

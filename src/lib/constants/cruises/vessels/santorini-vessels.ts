@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const santoriniVessels: Vessels[] = [
   {
     name: "SS Santorini Explorer",
-    description: "Sailing from the picturesque port of Santorini, the SS Santorini Explorer represents a new era in cruise experiences. This remarkable catamaran combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Santorini, the SS Santorini Explorer represents a new era in cruise experiences. This remarkable catamaran combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "catamaran",
     capacity: 1291,
     length: 358,
     width: 63,
     speed: 20,
     yearBuilt: 2012,
-    homePort: {"city":"Santorini","country":"Greece","coordinates":{"latitude":36.3932,"longitude":25.4615}},
+    homePort: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4615 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 11270,
@@ -18,26 +23,57 @@ export const santoriniVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Searchlights and rescue equipment","Hyperbaric treatment chambers","Advanced fire detection and suppression systems","Weather monitoring stations","Man overboard detection systems","Rescue boats and life rafts","Radar reflectors"],
-      navigationEquipment: ["Doppler speed logs","Integrated navigation system displays","Navigation data management systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Broadband internet throughout","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Braille signage throughout"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Solar panel supplementation","Food waste digesters"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Hyperbaric treatment chambers",
+        "Advanced fire detection and suppression systems",
+        "Weather monitoring stations",
+        "Man overboard detection systems",
+        "Rescue boats and life rafts",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Integrated navigation system displays",
+        "Navigation data management systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Broadband internet throughout",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Solar panel supplementation",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Santorini Voyager",
-    description: "With its distinctive profile and luxurious appointments, the MV Santorini Voyager stands as a jewel in the Santorini harbor. This prestigious ultra luxury cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the MV Santorini Voyager stands as a jewel in the Santorini harbor. This prestigious ultra luxury cruise ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "ultra-luxury-cruise-ship",
     capacity: 810,
     length: 262,
     width: 49,
     speed: 15,
     yearBuilt: 2024,
-    homePort: {"city":"Santorini","country":"Greece","coordinates":{"latitude":36.3932,"longitude":25.4615}},
+    homePort: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4615 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 6410,
@@ -45,26 +81,58 @@ export const santoriniVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Survival craft VHF radios","Personal locator beacons","Weather monitoring stations","Thermal imaging cameras","Life jackets with integrated GPS"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Weather routing systems","River radar systems","Integrated bridge systems","Echo sounders and sonar systems"],
-      communicationEquipment: ["Marine radio telephony","Broadband internet throughout"],
-      entertainmentEquipment: ["Library and educational facilities","Art gallery and auction facilities","Children's entertainment areas","Observation lounges with panoramic views","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible shore excursion options","Transfer chairs for pool access"],
-      environmentalFeatures: ["Food waste digesters","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Personal locator beacons",
+        "Weather monitoring stations",
+        "Thermal imaging cameras",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Weather routing systems",
+        "River radar systems",
+        "Integrated bridge systems",
+        "Echo sounders and sonar systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Art gallery and auction facilities",
+        "Children's entertainment areas",
+        "Observation lounges with panoramic views",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Santorini Princess",
-    description: "Sailing from the picturesque port of Santorini, the SY Santorini Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Santorini, the SY Santorini Princess represents a new era in cruise experiences. This remarkable ice class ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ice-class-ship",
     capacity: 1885,
     length: 477,
     width: 81,
     speed: 20,
     yearBuilt: 2009,
-    homePort: {"city":"Santorini","country":"Greece","coordinates":{"latitude":36.3932,"longitude":25.4615}},
+    homePort: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4615 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 19310,
@@ -72,26 +140,56 @@ export const santoriniVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Hyperbaric treatment chambers","Marine evacuation systems (MES)","Comprehensive medical facilities","Man overboard detection systems","Tactical response equipment","Advanced fire detection and suppression systems","Thermal imaging cameras"],
-      navigationEquipment: ["Weather routing systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Virtual reality gaming center","Climbing walls and sports courts","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Hearing augmentation systems"],
-      environmentalFeatures: ["Food waste digesters","Energy-efficient appliances","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+        "Comprehensive medical facilities",
+        "Man overboard detection systems",
+        "Tactical response equipment",
+        "Advanced fire detection and suppression systems",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Climbing walls and sports courts",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Energy-efficient appliances",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Santorini Legend",
-    description: "The majestic MV Santorini Legend represents the pinnacle of maritime engineering and hospitality. Based in Santorini, this exceptional small ocean ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
+    description:
+      "The majestic MV Santorini Legend represents the pinnacle of maritime engineering and hospitality. Based in Santorini, this exceptional small ocean ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
     type: "small-ocean-ship",
     capacity: 597,
     length: 219,
     width: 42,
     speed: 18,
     yearBuilt: 2022,
-    homePort: {"city":"Santorini","country":"Greece","coordinates":{"latitude":36.3932,"longitude":25.4615}},
+    homePort: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4615 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4590,
@@ -99,26 +197,57 @@ export const santoriniVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Digital safety monitoring systems","Radar reflectors","Thermal imaging cameras","Advanced fire detection and suppression systems","Searchlights and rescue equipment"],
-      navigationEquipment: ["Integrated navigation system displays","Night vision systems"],
-      communicationEquipment: ["Public address systems","Digital selective calling equipment"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Children's entertainment areas","Virtual reality gaming center","Culinary demonstration kitchens","Cinema with latest releases"],
-      accessibilityFeatures: ["Accessible shore excursion options","Height-adjustable furniture in select cabins","Hearing augmentation systems","Service animal accommodations"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Radar reflectors",
+        "Thermal imaging cameras",
+        "Advanced fire detection and suppression systems",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Children's entertainment areas",
+        "Virtual reality gaming center",
+        "Culinary demonstration kitchens",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Height-adjustable furniture in select cabins",
+        "Hearing augmentation systems",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Santorini Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the PS Santorini Jewel promises an extraordinary voyage from its home port of Santorini. This impressive ocean liner offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the PS Santorini Jewel promises an extraordinary voyage from its home port of Santorini. This impressive ocean liner offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "ocean-liner",
     capacity: 892,
     length: 278,
     width: 51,
     speed: 15,
     yearBuilt: 2011,
-    homePort: {"city":"Santorini","country":"Greece","coordinates":{"latitude":36.3932,"longitude":25.4615}},
+    homePort: {
+      city: "Santorini",
+      country: "Greece",
+      coordinates: { latitude: 36.3932, longitude: 25.4615 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 7080,
@@ -126,14 +255,40 @@ export const santoriniVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Rescue boats and life rafts","Satellite emergency notification devices","Personal locator beacons"],
-      navigationEquipment: ["Dynamic positioning systems","Electronic chart display information systems (ECDIS)","Doppler speed logs"],
-      communicationEquipment: ["Satellite communication systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Immersive simulation experiences","Virtual reality gaming center","Library and educational facilities","Cinema with latest releases","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Braille signage throughout","Visual alarm systems","Service animal accommodations"],
-      environmentalFeatures: ["Food waste digesters","Recyclable material management systems","Biodegradable hydraulic fluids","Solar panel supplementation"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Satellite emergency notification devices",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Electronic chart display information systems (ECDIS)",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Immersive simulation experiences",
+        "Virtual reality gaming center",
+        "Library and educational facilities",
+        "Cinema with latest releases",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Visual alarm systems",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Recyclable material management systems",
+        "Biodegradable hydraulic fluids",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

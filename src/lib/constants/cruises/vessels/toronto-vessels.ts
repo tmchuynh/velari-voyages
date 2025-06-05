@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const torontoVessels: Vessels[] = [
   {
     name: "MV Toronto Explorer",
-    description: "Experience the epitome of maritime excellence aboard the MV Toronto Explorer, a premier party cruise ship sailing from Toronto. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MV Toronto Explorer, a premier party cruise ship sailing from Toronto. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "party-cruise-ship",
     capacity: 989,
     length: 297,
     width: 54,
     speed: 26,
     yearBuilt: 2005,
-    homePort: {"city":"Toronto","country":"Canada","coordinates":{"latitude":43.6532,"longitude":-79.3832}},
+    homePort: {
+      city: "Toronto",
+      country: "Canada",
+      coordinates: { latitude: 43.6532, longitude: -79.3832 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 8010,
@@ -18,26 +23,56 @@ export const torontoVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Personal locator beacons","Life jackets with integrated GPS","Radar reflectors"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Integrated bridge systems","River radar systems","Infrared camera systems"],
-      communicationEquipment: ["Satellite communication systems","Emergency position-indicating radio beacons","Digital selective calling equipment"],
-      entertainmentEquipment: ["Children's entertainment areas","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Braille signage throughout","Accessible shore excursion options","Accessible entertainment venues"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","Exhaust gas cleaning systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Life jackets with integrated GPS",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Integrated bridge systems",
+        "River radar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Braille signage throughout",
+        "Accessible shore excursion options",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "Exhaust gas cleaning systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Toronto Voyager",
-    description: "Experience the epitome of maritime excellence aboard the RMS Toronto Voyager, a premier eco friendly hybrid ship sailing from Toronto. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the RMS Toronto Voyager, a premier eco friendly hybrid ship sailing from Toronto. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1526,
     length: 405,
     width: 70,
     speed: 29,
     yearBuilt: 2015,
-    homePort: {"city":"Toronto","country":"Canada","coordinates":{"latitude":43.6532,"longitude":-79.3832}},
+    homePort: {
+      city: "Toronto",
+      country: "Canada",
+      coordinates: { latitude: 43.6532, longitude: -79.3832 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 14170,
@@ -45,26 +80,56 @@ export const torontoVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Emergency escape breathing devices","Satellite emergency notification devices","Rescue boats and life rafts","Personal locator beacons","Hyperbaric treatment chambers"],
-      navigationEquipment: ["River radar systems","Integrated bridge systems","Infrared camera systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Library and educational facilities","Children's entertainment areas"],
-      accessibilityFeatures: ["Assistive listening devices","Wheelchair accessible cabins","Visual alarm systems","Roll-in showers"],
-      environmentalFeatures: ["Heat recovery systems","LED lighting throughout","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Satellite emergency notification devices",
+        "Rescue boats and life rafts",
+        "Personal locator beacons",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Integrated bridge systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Wheelchair accessible cabins",
+        "Visual alarm systems",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "LED lighting throughout",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Toronto Princess",
-    description: "Setting sail from the beautiful port of Toronto, the RV Toronto Princess is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Toronto, the RV Toronto Princess is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 566,
     length: 213,
     width: 41,
     speed: 15,
     yearBuilt: 2014,
-    homePort: {"city":"Toronto","country":"Canada","coordinates":{"latitude":43.6532,"longitude":-79.3832}},
+    homePort: {
+      city: "Toronto",
+      country: "Canada",
+      coordinates: { latitude: 43.6532, longitude: -79.3832 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 4360,
@@ -72,26 +137,59 @@ export const torontoVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Man overboard detection systems","Water purification systems","Survival craft VHF radios","Life jackets with integrated GPS","Digital safety monitoring systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Doppler speed logs","Night vision systems","River radar systems","Infrared camera systems"],
-      communicationEquipment: ["Internal crew communication network","Satellite communication systems"],
-      entertainmentEquipment: ["Library and educational facilities","Theater with Broadway-style productions","Observation lounges with panoramic views","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Service animal accommodations","Accessible shore excursion options","Assistive listening devices","Accessible dining facilities"],
-      environmentalFeatures: ["LED lighting throughout","Recyclable material management systems"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Water purification systems",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+        "Digital safety monitoring systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Doppler speed logs",
+        "Night vision systems",
+        "River radar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Theater with Broadway-style productions",
+        "Observation lounges with panoramic views",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Accessible shore excursion options",
+        "Assistive listening devices",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Toronto Legend",
-    description: "The MV Toronto Legend invites travelers to explore the treasures of East Coast Canada in unmatched comfort. This exceptional resort style ship, based in Toronto, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MV Toronto Legend invites travelers to explore the treasures of East Coast Canada in unmatched comfort. This exceptional resort style ship, based in Toronto, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "resort-style-ship",
     capacity: 945,
     length: 289,
     width: 53,
     speed: 21,
     yearBuilt: 2009,
-    homePort: {"city":"Toronto","country":"Canada","coordinates":{"latitude":43.6532,"longitude":-79.3832}},
+    homePort: {
+      city: "Toronto",
+      country: "Canada",
+      coordinates: { latitude: 43.6532, longitude: -79.3832 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 7650,
@@ -99,26 +197,56 @@ export const torontoVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Composite Materials",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Marine evacuation systems (MES)","Rescue boats and life rafts","Weather monitoring stations"],
-      navigationEquipment: ["Inland ECDIS","Automatic identification systems (AIS)","River radar systems"],
-      communicationEquipment: ["Public address systems","Global Maritime Distress Safety System (GMDSS)","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Immersive simulation experiences","Dance clubs and live music venues","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Hearing augmentation systems","Tactile guidance systems","Height-adjustable furniture in select cabins","Transfer chairs for pool access"],
-      environmentalFeatures: ["Ballast water management technology","Food waste digesters","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Rescue boats and life rafts",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Automatic identification systems (AIS)",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Immersive simulation experiences",
+        "Dance clubs and live music venues",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Hearing augmentation systems",
+        "Tactile guidance systems",
+        "Height-adjustable furniture in select cabins",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Food waste digesters",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Toronto Jewel",
-    description: "Setting sail from the beautiful port of Toronto, the SY Toronto Jewel is a floating paradise designed for the discerning traveler. This remarkable small ocean ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Toronto, the SY Toronto Jewel is a floating paradise designed for the discerning traveler. This remarkable small ocean ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "small-ocean-ship",
     capacity: 1380,
     length: 376,
     width: 66,
     speed: 23,
     yearBuilt: 2016,
-    homePort: {"city":"Toronto","country":"Canada","coordinates":{"latitude":43.6532,"longitude":-79.3832}},
+    homePort: {
+      city: "Toronto",
+      country: "Canada",
+      coordinates: { latitude: 43.6532, longitude: -79.3832 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 12400,
@@ -126,14 +254,37 @@ export const torontoVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Rescue boats and life rafts","Tactical response equipment","Hyperbaric treatment chambers","Digital safety monitoring systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Maritime VHF radio systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Children's entertainment areas","Climbing walls and sports courts","Immersive simulation experiences"],
-      accessibilityFeatures: ["Service animal accommodations","Braille signage throughout"],
-      environmentalFeatures: ["Shore power connectivity","Marine ecosystem monitoring equipment","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Tactical response equipment",
+        "Hyperbaric treatment chambers",
+        "Digital safety monitoring systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Maritime VHF radio systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Climbing walls and sports courts",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Marine ecosystem monitoring equipment",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

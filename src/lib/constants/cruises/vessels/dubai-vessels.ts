@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const dubaiVessels: Vessels[] = [
   {
     name: "TS Dubai Explorer",
-    description: "The majestic TS Dubai Explorer represents the pinnacle of maritime engineering and hospitality. Based in Dubai, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Middle East region.",
+    description:
+      "The majestic TS Dubai Explorer represents the pinnacle of maritime engineering and hospitality. Based in Dubai, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Middle East region.",
     type: "luxury-cruise-ship",
     capacity: 452,
     length: 190,
     width: 38,
     speed: 28,
     yearBuilt: 2008,
-    homePort: {"city":"Dubai","country":"United Arab Emirates","coordinates":{"latitude":25.276987,"longitude":55.296249}},
+    homePort: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.276987, longitude: 55.296249 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 3610,
@@ -18,26 +23,58 @@ export const dubaiVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Radar reflectors","Water purification systems","Hyperbaric treatment chambers","Weather monitoring stations"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Radar and automatic radar plotting aids (ARPAs)","Automatic identification systems (AIS)","Doppler speed logs"],
-      communicationEquipment: ["Broadband internet throughout","Maritime VHF radio systems","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Multiple swimming pools and water features","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible entertainment venues","Height-adjustable furniture in select cabins","Elevator access to all public decks"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Dynamic routing to optimize fuel usage","Food waste digesters","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Water purification systems",
+        "Hyperbaric treatment chambers",
+        "Weather monitoring stations",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Automatic identification systems (AIS)",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Maritime VHF radio systems",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Multiple swimming pools and water features",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Height-adjustable furniture in select cabins",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Dynamic routing to optimize fuel usage",
+        "Food waste digesters",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "PS Dubai Voyager",
-    description: "Sailing from the picturesque port of Dubai, the PS Dubai Voyager represents a new era in cruise experiences. This remarkable ocean liner combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Dubai, the PS Dubai Voyager represents a new era in cruise experiences. This remarkable ocean liner combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "ocean-liner",
     capacity: 934,
     length: 286,
     width: 52,
     speed: 19,
     yearBuilt: 2011,
-    homePort: {"city":"Dubai","country":"United Arab Emirates","coordinates":{"latitude":25.276987,"longitude":55.296249}},
+    homePort: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.276987, longitude: 55.296249 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 7430,
@@ -45,26 +82,54 @@ export const dubaiVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Rescue boats and life rafts","Weather monitoring stations","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Doppler speed logs","River radar systems"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Dance clubs and live music venues","Full-service spa and fitness center","Immersive simulation experiences"],
-      accessibilityFeatures: ["Accessible entertainment venues","Wheelchair accessible cabins","Accessible medical facilities"],
-      environmentalFeatures: ["Heat recovery systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Weather monitoring stations",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Doppler speed logs",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Dance clubs and live music venues",
+        "Full-service spa and fitness center",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Wheelchair accessible cabins",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Dubai Princess",
-    description: "Experience the epitome of maritime excellence aboard the TS Dubai Princess, a premier expedition ship sailing from Dubai. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the TS Dubai Princess, a premier expedition ship sailing from Dubai. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "expedition-ship",
     capacity: 1899,
     length: 479,
     width: 81,
     speed: 21,
     yearBuilt: 2005,
-    homePort: {"city":"Dubai","country":"United Arab Emirates","coordinates":{"latitude":25.276987,"longitude":55.296249}},
+    homePort: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.276987, longitude: 55.296249 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 19390,
@@ -72,26 +137,59 @@ export const dubaiVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Marine-Grade Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Weather monitoring stations","Emergency escape breathing devices","Rescue boats and life rafts","Automated external defibrillators (AEDs)","Water purification systems","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Dynamic positioning systems","Integrated bridge systems","Weather routing systems"],
-      communicationEquipment: ["Internal crew communication network","Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Full-service spa and fitness center","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Service animal accommodations","Accessible dining facilities","Elevator access to all public decks"],
-      environmentalFeatures: ["Advanced water treatment systems","Ballast water management technology","Optimized hull design for reduced fuel consumption","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Emergency escape breathing devices",
+        "Rescue boats and life rafts",
+        "Automated external defibrillators (AEDs)",
+        "Water purification systems",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Integrated bridge systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Full-service spa and fitness center",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Accessible dining facilities",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Ballast water management technology",
+        "Optimized hull design for reduced fuel consumption",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MY Dubai Legend",
-    description: "Experience the epitome of maritime excellence aboard the MY Dubai Legend, a premier family cruise ship sailing from Dubai. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MY Dubai Legend, a premier family cruise ship sailing from Dubai. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "family-cruise-ship",
     capacity: 1055,
     length: 311,
     width: 56,
     speed: 19,
     yearBuilt: 2023,
-    homePort: {"city":"Dubai","country":"United Arab Emirates","coordinates":{"latitude":25.276987,"longitude":55.296249}},
+    homePort: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.276987, longitude: 55.296249 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 8700,
@@ -99,26 +197,55 @@ export const dubaiVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "China Classification Society B",
-      safetyEquipment: ["Life jackets with integrated GPS","Radar reflectors","Man overboard detection systems","Comprehensive medical facilities"],
-      navigationEquipment: ["Integrated bridge systems","Inland ECDIS","Integrated navigation system displays"],
-      communicationEquipment: ["Ship-to-shore communication links","Internal crew communication network","Satellite communication systems"],
-      entertainmentEquipment: ["Children's entertainment areas","Library and educational facilities","Virtual reality gaming center"],
-      accessibilityFeatures: ["Hearing augmentation systems","Accessible dining facilities"],
-      environmentalFeatures: ["LED lighting throughout","Recyclable material management systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Radar reflectors",
+        "Man overboard detection systems",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Inland ECDIS",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Internal crew communication network",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Children's entertainment areas",
+        "Library and educational facilities",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Hearing augmentation systems",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Recyclable material management systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Dubai Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the MV Dubai Jewel promises an extraordinary voyage from its home port of Dubai. This impressive adults only ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Dubai Jewel promises an extraordinary voyage from its home port of Dubai. This impressive adults only ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "adults-only-ship",
     capacity: 1171,
     length: 334,
     width: 60,
     speed: 22,
     yearBuilt: 2013,
-    homePort: {"city":"Dubai","country":"United Arab Emirates","coordinates":{"latitude":25.276987,"longitude":55.296249}},
+    homePort: {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      coordinates: { latitude: 25.276987, longitude: 55.296249 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 10020,
@@ -126,14 +253,40 @@ export const dubaiVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Man overboard detection systems","Personal locator beacons","Automated external defibrillators (AEDs)","Comprehensive medical facilities"],
-      navigationEquipment: ["Integrated navigation system displays","Radar and automatic radar plotting aids (ARPAs)","Voyage data recorders (VDRs)","Autopilot systems with track control","River radar systems"],
-      communicationEquipment: ["Satellite communication systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Culinary demonstration kitchens","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Accessible medical facilities","Hearing augmentation systems"],
-      environmentalFeatures: ["LED lighting throughout","Solar panel supplementation","Heat recovery systems","Food waste digesters"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Personal locator beacons",
+        "Automated external defibrillators (AEDs)",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Voyage data recorders (VDRs)",
+        "Autopilot systems with track control",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Culinary demonstration kitchens",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Solar panel supplementation",
+        "Heat recovery systems",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

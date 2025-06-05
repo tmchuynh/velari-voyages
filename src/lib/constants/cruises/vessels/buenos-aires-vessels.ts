@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const buenosAiresVessels: Vessels[] = [
   {
     name: "MS Buenos Aires Explorer",
-    description: "The majestic MS Buenos Aires Explorer represents the pinnacle of maritime engineering and hospitality. Based in Buenos Aires, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the South America region.",
+    description:
+      "The majestic MS Buenos Aires Explorer represents the pinnacle of maritime engineering and hospitality. Based in Buenos Aires, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the South America region.",
     type: "luxury-cruise-ship",
     capacity: 276,
     length: 155,
     width: 33,
     speed: 15,
     yearBuilt: 2024,
-    homePort: {"city":"Buenos Aires","country":"Argentina","coordinates":{"latitude":-34.603722,"longitude":-58.381592}},
+    homePort: {
+      city: "Buenos Aires",
+      country: "Argentina",
+      coordinates: { latitude: -34.603722, longitude: -58.381592 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 2550,
@@ -18,26 +23,58 @@ export const buenosAiresVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Hyperbaric treatment chambers","Man overboard detection systems","Searchlights and rescue equipment","Advanced fire detection and suppression systems","Rescue boats and life rafts"],
-      navigationEquipment: ["Weather routing systems","Navigation data management systems","Dynamic positioning systems","Bridge alert management systems","Automatic identification systems (AIS)"],
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Man overboard detection systems",
+        "Searchlights and rescue equipment",
+        "Advanced fire detection and suppression systems",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Navigation data management systems",
+        "Dynamic positioning systems",
+        "Bridge alert management systems",
+        "Automatic identification systems (AIS)",
+      ],
       communicationEquipment: ["Satellite communication systems"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Art gallery and auction facilities","Multiple swimming pools and water features","Cinema with latest releases","Children's entertainment areas"],
-      accessibilityFeatures: ["Assistive listening devices","Transfer chairs for pool access","Visual alarm systems"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life","Biodegradable hydraulic fluids","Solar panel supplementation"]
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Art gallery and auction facilities",
+        "Multiple swimming pools and water features",
+        "Cinema with latest releases",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Transfer chairs for pool access",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Biodegradable hydraulic fluids",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Buenos Aires Voyager",
-    description: "The RMS Buenos Aires Voyager stands as a testament to luxury and innovation on the high seas. Departing from Buenos Aires, this sophisticated small ocean ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Buenos Aires Voyager stands as a testament to luxury and innovation on the high seas. Departing from Buenos Aires, this sophisticated small ocean ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "small-ocean-ship",
     capacity: 1073,
     length: 314,
     width: 57,
     speed: 19,
     yearBuilt: 2024,
-    homePort: {"city":"Buenos Aires","country":"Argentina","coordinates":{"latitude":-34.603722,"longitude":-58.381592}},
+    homePort: {
+      city: "Buenos Aires",
+      country: "Argentina",
+      coordinates: { latitude: -34.603722, longitude: -58.381592 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 8940,
@@ -45,26 +82,53 @@ export const buenosAiresVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Weather monitoring stations","Advanced fire detection and suppression systems","Thermal imaging cameras","Survival craft VHF radios","Life jackets with integrated GPS"],
-      navigationEquipment: ["Inland ECDIS","Long-range identification and tracking (LRIT)"],
+      safetyEquipment: [
+        "Weather monitoring stations",
+        "Advanced fire detection and suppression systems",
+        "Thermal imaging cameras",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+      ],
+      navigationEquipment: [
+        "Inland ECDIS",
+        "Long-range identification and tracking (LRIT)",
+      ],
       communicationEquipment: ["Maritime VHF radio systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Elevator access to all public decks","Hearing augmentation systems","Accessible medical facilities","Braille signage throughout"],
-      environmentalFeatures: ["Shore power connectivity","Energy-efficient appliances","Exhaust gas cleaning systems","Advanced water treatment systems"]
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Hearing augmentation systems",
+        "Accessible medical facilities",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Energy-efficient appliances",
+        "Exhaust gas cleaning systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "PS Buenos Aires Princess",
-    description: "The PS Buenos Aires Princess offers an unparalleled cruising experience from Buenos Aires, combining luxury amenities with state-of-the-art navigation technology. This luxury cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of South America hospitality.",
+    description:
+      "The PS Buenos Aires Princess offers an unparalleled cruising experience from Buenos Aires, combining luxury amenities with state-of-the-art navigation technology. This luxury cruise ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of South America hospitality.",
     type: "luxury-cruise-ship",
     capacity: 768,
     length: 253,
     width: 47,
     speed: 17,
     yearBuilt: 2018,
-    homePort: {"city":"Buenos Aires","country":"Argentina","coordinates":{"latitude":-34.603722,"longitude":-58.381592}},
+    homePort: {
+      city: "Buenos Aires",
+      country: "Argentina",
+      coordinates: { latitude: -34.603722, longitude: -58.381592 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 5940,
@@ -72,26 +136,57 @@ export const buenosAiresVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Comprehensive medical facilities","Emergency escape breathing devices","Thermal imaging cameras"],
-      navigationEquipment: ["Infrared camera systems","Automatic identification systems (AIS)","Voyage data recorders (VDRs)","Electronic chart display information systems (ECDIS)"],
-      communicationEquipment: ["Marine radio telephony","Digital selective calling equipment","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Climbing walls and sports courts","Culinary demonstration kitchens"],
-      accessibilityFeatures: ["Tactile guidance systems","Accessible entertainment venues","Roll-in showers","Accessible dining facilities"],
-      environmentalFeatures: ["Ballast water management technology","Recyclable material management systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Emergency escape breathing devices",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Automatic identification systems (AIS)",
+        "Voyage data recorders (VDRs)",
+        "Electronic chart display information systems (ECDIS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Digital selective calling equipment",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Climbing walls and sports courts",
+        "Culinary demonstration kitchens",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Accessible entertainment venues",
+        "Roll-in showers",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Recyclable material management systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Buenos Aires Legend",
-    description: "The magnificent RMS Buenos Aires Legend offers a perfect blend of adventure and relaxation for travelers departing from Buenos Aires. This outstanding adults only ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the South America region.",
+    description:
+      "The magnificent RMS Buenos Aires Legend offers a perfect blend of adventure and relaxation for travelers departing from Buenos Aires. This outstanding adults only ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the South America region.",
     type: "adults-only-ship",
     capacity: 1930,
     length: 486,
     width: 82,
     speed: 22,
     yearBuilt: 2006,
-    homePort: {"city":"Buenos Aires","country":"Argentina","coordinates":{"latitude":-34.603722,"longitude":-58.381592}},
+    homePort: {
+      city: "Buenos Aires",
+      country: "Argentina",
+      coordinates: { latitude: -34.603722, longitude: -58.381592 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 19920,
@@ -99,26 +194,48 @@ export const buenosAiresVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Comprehensive medical facilities","Life jackets with integrated GPS","Survival craft VHF radios","Advanced fire detection and suppression systems"],
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Life jackets with integrated GPS",
+        "Survival craft VHF radios",
+        "Advanced fire detection and suppression systems",
+      ],
       navigationEquipment: ["Integrated bridge systems"],
-      communicationEquipment: ["Satellite communication systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Cinema with latest releases","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Assistive listening devices","Accessible entertainment venues"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Ballast water management technology"]
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS Buenos Aires Jewel",
-    description: "The RMS Buenos Aires Jewel stands as a testament to luxury and innovation on the high seas. Departing from Buenos Aires, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The RMS Buenos Aires Jewel stands as a testament to luxury and innovation on the high seas. Departing from Buenos Aires, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "eco-friendly-hybrid-ship",
     capacity: 612,
     length: 222,
     width: 43,
     speed: 29,
     yearBuilt: 2024,
-    homePort: {"city":"Buenos Aires","country":"Argentina","coordinates":{"latitude":-34.603722,"longitude":-58.381592}},
+    homePort: {
+      city: "Buenos Aires",
+      country: "Argentina",
+      coordinates: { latitude: -34.603722, longitude: -58.381592 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 4770,
@@ -126,14 +243,41 @@ export const buenosAiresVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Digital safety monitoring systems","Marine evacuation systems (MES)","Thermal imaging cameras","Survival craft VHF radios","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Dynamic positioning systems","Bridge alert management systems","Long-range identification and tracking (LRIT)","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Internal crew communication network","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Cinema with latest releases","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Accessible dining facilities","Visual alarm systems"],
-      environmentalFeatures: ["Recyclable material management systems","Marine ecosystem monitoring equipment","Shore power connectivity","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Marine evacuation systems (MES)",
+        "Thermal imaging cameras",
+        "Survival craft VHF radios",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Bridge alert management systems",
+        "Long-range identification and tracking (LRIT)",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Cinema with latest releases",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Accessible dining facilities",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Marine ecosystem monitoring equipment",
+        "Shore power connectivity",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

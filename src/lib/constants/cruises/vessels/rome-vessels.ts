@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const romeVessels: Vessels[] = [
   {
     name: "RMS Rome Explorer",
-    description: "Experience the epitome of maritime excellence aboard the RMS Rome Explorer, a premier catamaran sailing from Rome. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the RMS Rome Explorer, a premier catamaran sailing from Rome. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "catamaran",
     capacity: 1697,
     length: 439,
     width: 75,
     speed: 26,
     yearBuilt: 2024,
-    homePort: {"city":"Rome","country":"Italy","coordinates":{"latitude":41.9028,"longitude":12.4964}},
+    homePort: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 16460,
@@ -18,26 +23,58 @@ export const romeVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Survival craft VHF radios","Emergency escape breathing devices","Life jackets with integrated GPS","Hyperbaric treatment chambers","Water purification systems"],
-      navigationEquipment: ["Bridge alert management systems","Night vision systems","Autopilot systems with track control"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Virtual reality gaming center","Culinary demonstration kitchens","Theater with Broadway-style productions","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Tactile guidance systems","Hearing augmentation systems","Braille signage throughout","Roll-in showers"],
-      environmentalFeatures: ["LED lighting throughout","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Emergency escape breathing devices",
+        "Life jackets with integrated GPS",
+        "Hyperbaric treatment chambers",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Night vision systems",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Virtual reality gaming center",
+        "Culinary demonstration kitchens",
+        "Theater with Broadway-style productions",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+        "Braille signage throughout",
+        "Roll-in showers",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Rome Voyager",
-    description: "Sailing from the picturesque port of Rome, the SY Rome Voyager represents a new era in cruise experiences. This remarkable zodiac equipped vessel combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Rome, the SY Rome Voyager represents a new era in cruise experiences. This remarkable zodiac equipped vessel combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "zodiac-equipped-vessel",
     capacity: 1314,
     length: 362,
     width: 64,
     speed: 16,
     yearBuilt: 2023,
-    homePort: {"city":"Rome","country":"Italy","coordinates":{"latitude":41.9028,"longitude":12.4964}},
+    homePort: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 11580,
@@ -45,26 +82,58 @@ export const romeVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Searchlights and rescue equipment","Tactical response equipment","Man overboard detection systems","Radar reflectors"],
-      navigationEquipment: ["Echo sounders and sonar systems","Dynamic positioning systems","Navigation data management systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Public address systems","Internal crew communication network"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Dance clubs and live music venues","Casino with table games and slot machines","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible dining facilities","Accessible medical facilities","Elevator access to all public decks"],
-      environmentalFeatures: ["Recyclable material management systems","LED lighting throughout","Heat recovery systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Tactical response equipment",
+        "Man overboard detection systems",
+        "Radar reflectors",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Dynamic positioning systems",
+        "Navigation data management systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Dance clubs and live music venues",
+        "Casino with table games and slot machines",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Accessible medical facilities",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "LED lighting throughout",
+        "Heat recovery systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Rome Princess",
-    description: "The MV Rome Princess stands as a testament to luxury and innovation on the high seas. Departing from Rome, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MV Rome Princess stands as a testament to luxury and innovation on the high seas. Departing from Rome, this sophisticated eco friendly hybrid ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1260,
     length: 352,
     width: 62,
     speed: 15,
     yearBuilt: 2014,
-    homePort: {"city":"Rome","country":"Italy","coordinates":{"latitude":41.9028,"longitude":12.4964}},
+    homePort: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 10910,
@@ -72,26 +141,60 @@ export const romeVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Marine-Grade Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Tactical response equipment","Searchlights and rescue equipment","Automated external defibrillators (AEDs)","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Weather routing systems","Automatic identification systems (AIS)","Long-range identification and tracking (LRIT)","Global navigation satellite systems (GNSS)","Autopilot systems with track control"],
-      communicationEquipment: ["Satellite communication systems","Internal crew communication network"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Culinary demonstration kitchens","Immersive simulation experiences","Dance clubs and live music venues","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Accessible dining facilities","Accessible entertainment venues","Wheelchair accessible cabins","Assistive listening devices"],
-      environmentalFeatures: ["Solar panel supplementation","Noise reduction technology to minimize impact on marine life","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Searchlights and rescue equipment",
+        "Automated external defibrillators (AEDs)",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Automatic identification systems (AIS)",
+        "Long-range identification and tracking (LRIT)",
+        "Global navigation satellite systems (GNSS)",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Culinary demonstration kitchens",
+        "Immersive simulation experiences",
+        "Dance clubs and live music venues",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+        "Wheelchair accessible cabins",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Noise reduction technology to minimize impact on marine life",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MS Rome Legend",
-    description: "The majestic MS Rome Legend represents the pinnacle of maritime engineering and hospitality. Based in Rome, this exceptional polar expedition ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
+    description:
+      "The majestic MS Rome Legend represents the pinnacle of maritime engineering and hospitality. Based in Rome, this exceptional polar expedition ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
     type: "polar-expedition-ship",
     capacity: 683,
     length: 236,
     width: 45,
     speed: 22,
     yearBuilt: 2014,
-    homePort: {"city":"Rome","country":"Italy","coordinates":{"latitude":41.9028,"longitude":12.4964}},
+    homePort: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 5310,
@@ -99,26 +202,59 @@ export const romeVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Radar reflectors","Thermal imaging cameras","Emergency escape breathing devices","Automated external defibrillators (AEDs)","Hyperbaric treatment chambers","Tactical response equipment","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Gyrocompasses and magnetic compasses","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Satellite communication systems","Public address systems"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Immersive simulation experiences","Cinema with latest releases","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Braille signage throughout","Hearing augmentation systems","Service animal accommodations"],
-      environmentalFeatures: ["Shore power connectivity","Recyclable material management systems","Food waste digesters","Advanced water treatment systems"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Thermal imaging cameras",
+        "Emergency escape breathing devices",
+        "Automated external defibrillators (AEDs)",
+        "Hyperbaric treatment chambers",
+        "Tactical response equipment",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Gyrocompasses and magnetic compasses",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Immersive simulation experiences",
+        "Cinema with latest releases",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Hearing augmentation systems",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Recyclable material management systems",
+        "Food waste digesters",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Rome Jewel",
-    description: "The MV Rome Jewel invites travelers to explore the treasures of Mediterranean in unmatched comfort. This exceptional eco friendly hybrid ship, based in Rome, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MV Rome Jewel invites travelers to explore the treasures of Mediterranean in unmatched comfort. This exceptional eco friendly hybrid ship, based in Rome, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1553,
     length: 410,
     width: 71,
     speed: 17,
     yearBuilt: 2008,
-    homePort: {"city":"Rome","country":"Italy","coordinates":{"latitude":41.9028,"longitude":12.4964}},
+    homePort: {
+      city: "Rome",
+      country: "Italy",
+      coordinates: { latitude: 41.9028, longitude: 12.4964 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 14550,
@@ -126,14 +262,39 @@ export const romeVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Water purification systems","Thermal imaging cameras","Comprehensive medical facilities"],
-      navigationEquipment: ["Autopilot systems with track control","Global navigation satellite systems (GNSS)","Weather routing systems","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Public address systems","Internal crew communication network"],
-      entertainmentEquipment: ["Library and educational facilities","Multi-purpose event spaces","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Tactile guidance systems","Height-adjustable furniture in select cabins","Service animal accommodations"],
-      environmentalFeatures: ["Food waste digesters","Exhaust gas cleaning systems","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Thermal imaging cameras",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Global navigation satellite systems (GNSS)",
+        "Weather routing systems",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Multi-purpose event spaces",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Tactile guidance systems",
+        "Height-adjustable furniture in select cabins",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Exhaust gas cleaning systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

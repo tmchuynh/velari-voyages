@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const copenhagenVessels: Vessels[] = [
   {
     name: "MY Copenhagen Explorer",
-    description: "Sailing from the picturesque port of Copenhagen, the MY Copenhagen Explorer represents a new era in cruise experiences. This remarkable zodiac equipped vessel combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Copenhagen, the MY Copenhagen Explorer represents a new era in cruise experiences. This remarkable zodiac equipped vessel combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "zodiac-equipped-vessel",
     capacity: 952,
     length: 290,
     width: 53,
     speed: 19,
     yearBuilt: 2020,
-    homePort: {"city":"Copenhagen","country":"Denmark","coordinates":{"latitude":55.6761,"longitude":12.5683}},
+    homePort: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: { latitude: 55.6761, longitude: 12.5683 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 7680,
@@ -18,26 +23,59 @@ export const copenhagenVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Composite Materials",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Tactical response equipment","Thermal imaging cameras","Man overboard detection systems","Emergency escape breathing devices"],
-      navigationEquipment: ["Infrared camera systems","Doppler speed logs","Night vision systems","Weather routing systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Immersive simulation experiences","Library and educational facilities","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Accessible medical facilities","Visual alarm systems","Elevator access to all public decks"],
-      environmentalFeatures: ["Solar panel supplementation","Heat recovery systems","Food waste digesters","Ballast water management technology","LED lighting throughout"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Thermal imaging cameras",
+        "Man overboard detection systems",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Infrared camera systems",
+        "Doppler speed logs",
+        "Night vision systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Immersive simulation experiences",
+        "Library and educational facilities",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Visual alarm systems",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Solar panel supplementation",
+        "Heat recovery systems",
+        "Food waste digesters",
+        "Ballast water management technology",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Copenhagen Voyager",
-    description: "The majestic SS Copenhagen Voyager represents the pinnacle of maritime engineering and hospitality. Based in Copenhagen, this exceptional boutique cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Northern Europe region.",
+    description:
+      "The majestic SS Copenhagen Voyager represents the pinnacle of maritime engineering and hospitality. Based in Copenhagen, this exceptional boutique cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Northern Europe region.",
     type: "boutique-cruise-ship",
     capacity: 1540,
     length: 408,
     width: 71,
     speed: 28,
     yearBuilt: 2019,
-    homePort: {"city":"Copenhagen","country":"Denmark","coordinates":{"latitude":55.6761,"longitude":12.5683}},
+    homePort: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: { latitude: 55.6761, longitude: 12.5683 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 14480,
@@ -45,26 +83,52 @@ export const copenhagenVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Digital safety monitoring systems","Personal locator beacons","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Dynamic positioning systems","Infrared camera systems","Gyrocompasses and magnetic compasses"],
-      communicationEquipment: ["Public address systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Library and educational facilities","Climbing walls and sports courts"],
-      accessibilityFeatures: ["Roll-in showers","Height-adjustable furniture in select cabins","Assistive listening devices"],
-      environmentalFeatures: ["Food waste digesters","Shore power connectivity"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Personal locator beacons",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Infrared camera systems",
+        "Gyrocompasses and magnetic compasses",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Climbing walls and sports courts",
+      ],
+      accessibilityFeatures: [
+        "Roll-in showers",
+        "Height-adjustable furniture in select cabins",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Copenhagen Princess",
-    description: "Experience the epitome of maritime excellence aboard the MV Copenhagen Princess, a premier catamaran sailing from Copenhagen. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MV Copenhagen Princess, a premier catamaran sailing from Copenhagen. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "catamaran",
     capacity: 1901,
     length: 480,
     width: 82,
     speed: 21,
     yearBuilt: 2009,
-    homePort: {"city":"Copenhagen","country":"Denmark","coordinates":{"latitude":55.6761,"longitude":12.5683}},
+    homePort: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: { latitude: 55.6761, longitude: 12.5683 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 19680,
@@ -72,26 +136,52 @@ export const copenhagenVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Marine evacuation systems (MES)","Man overboard detection systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Infrared camera systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Digital selective calling equipment","Internal crew communication network"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Assistive listening devices","Accessible entertainment venues"],
-      environmentalFeatures: ["Food waste digesters","Solar panel supplementation","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Marine evacuation systems (MES)",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Digital selective calling equipment",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Assistive listening devices",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Solar panel supplementation",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MV Copenhagen Legend",
-    description: "The MV Copenhagen Legend stands as a testament to luxury and innovation on the high seas. Departing from Copenhagen, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The MV Copenhagen Legend stands as a testament to luxury and innovation on the high seas. Departing from Copenhagen, this sophisticated mega yacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mega-yacht",
     capacity: 1228,
     length: 345,
     width: 61,
     speed: 29,
     yearBuilt: 2006,
-    homePort: {"city":"Copenhagen","country":"Denmark","coordinates":{"latitude":55.6761,"longitude":12.5683}},
+    homePort: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: { latitude: 55.6761, longitude: 12.5683 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 10520,
@@ -99,26 +189,59 @@ export const copenhagenVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Personal locator beacons","Marine evacuation systems (MES)","Emergency escape breathing devices","Man overboard detection systems","Thermal imaging cameras","Water purification systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Global navigation satellite systems (GNSS)","Gyrocompasses and magnetic compasses","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Broadband internet throughout","Internal crew communication network"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Art gallery and auction facilities","Multiple swimming pools and water features"],
-      accessibilityFeatures: ["Elevator access to all public decks","Hearing augmentation systems"],
-      environmentalFeatures: ["Ballast water management technology","Advanced water treatment systems","Food waste digesters","Biodegradable hydraulic fluids","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Marine evacuation systems (MES)",
+        "Emergency escape breathing devices",
+        "Man overboard detection systems",
+        "Thermal imaging cameras",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Global navigation satellite systems (GNSS)",
+        "Gyrocompasses and magnetic compasses",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Art gallery and auction facilities",
+        "Multiple swimming pools and water features",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Advanced water treatment systems",
+        "Food waste digesters",
+        "Biodegradable hydraulic fluids",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Copenhagen Jewel",
-    description: "Combining traditional maritime charm with modern amenities, the MV Copenhagen Jewel promises an extraordinary voyage from its home port of Copenhagen. This impressive eco friendly hybrid ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the MV Copenhagen Jewel promises an extraordinary voyage from its home port of Copenhagen. This impressive eco friendly hybrid ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1326,
     length: 365,
     width: 64,
     speed: 21,
     yearBuilt: 2018,
-    homePort: {"city":"Copenhagen","country":"Denmark","coordinates":{"latitude":55.6761,"longitude":12.5683}},
+    homePort: {
+      city: "Copenhagen",
+      country: "Denmark",
+      coordinates: { latitude: 55.6761, longitude: 12.5683 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 11680,
@@ -126,14 +249,41 @@ export const copenhagenVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Reinforced Aluminum",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Automated external defibrillators (AEDs)","Comprehensive medical facilities","Survival craft VHF radios","Life jackets with integrated GPS","Water purification systems"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Night vision systems"],
-      communicationEquipment: ["Public address systems","Satellite communication systems","Digital selective calling equipment"],
-      entertainmentEquipment: ["Virtual reality gaming center","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Transfer chairs for pool access","Hearing augmentation systems"],
-      environmentalFeatures: ["Food waste digesters","Marine ecosystem monitoring equipment","Heat recovery systems","Energy-efficient appliances","LED lighting throughout"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Automated external defibrillators (AEDs)",
+        "Comprehensive medical facilities",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Satellite communication systems",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Transfer chairs for pool access",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Marine ecosystem monitoring equipment",
+        "Heat recovery systems",
+        "Energy-efficient appliances",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

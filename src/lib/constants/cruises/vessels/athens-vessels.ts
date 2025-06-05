@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const athensVessels: Vessels[] = [
   {
     name: "SY Athens Explorer",
-    description: "With its distinctive profile and luxurious appointments, the SY Athens Explorer stands as a jewel in the Athens harbor. This prestigious ice class ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the SY Athens Explorer stands as a jewel in the Athens harbor. This prestigious ice class ship offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "ice-class-ship",
     capacity: 1326,
     length: 365,
     width: 64,
     speed: 17,
     yearBuilt: 2015,
-    homePort: {"city":"Athens","country":"Greece","coordinates":{"latitude":37.9838,"longitude":23.7275}},
+    homePort: {
+      city: "Athens",
+      country: "Greece",
+      coordinates: { latitude: 37.9838, longitude: 23.7275 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 11680,
@@ -18,26 +23,53 @@ export const athensVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "China Classification Society B",
-      safetyEquipment: ["Digital safety monitoring systems","Advanced fire detection and suppression systems","Satellite emergency notification devices","Automated external defibrillators (AEDs)","Personal locator beacons","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Electronic chart display information systems (ECDIS)","Integrated navigation system displays"],
-      communicationEquipment: ["Ship-to-shore communication links","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Accessible dining facilities","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Ballast water management technology","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Advanced fire detection and suppression systems",
+        "Satellite emergency notification devices",
+        "Automated external defibrillators (AEDs)",
+        "Personal locator beacons",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Electronic chart display information systems (ECDIS)",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Athens Voyager",
-    description: "The magnificent SS Athens Voyager offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding mainstream cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
+    description:
+      "The magnificent SS Athens Voyager offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding mainstream cruise ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
     type: "mainstream-cruise-ship",
     capacity: 2721,
     length: 644,
     width: 106,
     speed: 23,
     yearBuilt: 2015,
-    homePort: {"city":"Athens","country":"Greece","coordinates":{"latitude":37.9838,"longitude":23.7275}},
+    homePort: {
+      city: "Athens",
+      country: "Greece",
+      coordinates: { latitude: 37.9838, longitude: 23.7275 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 34130,
@@ -45,26 +77,57 @@ export const athensVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Searchlights and rescue equipment","Satellite emergency notification devices","Man overboard detection systems","Radar reflectors","Weather monitoring stations","Thermal imaging cameras"],
-      navigationEquipment: ["Integrated bridge systems","Autopilot systems with track control"],
-      communicationEquipment: ["Public address systems","Digital selective calling equipment","Marine radio telephony"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Children's entertainment areas","Virtual reality gaming center","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Assistive listening devices","Visual alarm systems"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Recyclable material management systems","Solar panel supplementation"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Satellite emergency notification devices",
+        "Man overboard detection systems",
+        "Radar reflectors",
+        "Weather monitoring stations",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Digital selective calling equipment",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Children's entertainment areas",
+        "Virtual reality gaming center",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Recyclable material management systems",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY Athens Princess",
-    description: "The magnificent MY Athens Princess offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding resort style ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
+    description:
+      "The magnificent MY Athens Princess offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding resort style ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
     type: "resort-style-ship",
     capacity: 1439,
     length: 387,
     width: 68,
     speed: 19,
     yearBuilt: 2021,
-    homePort: {"city":"Athens","country":"Greece","coordinates":{"latitude":37.9838,"longitude":23.7275}},
+    homePort: {
+      city: "Athens",
+      country: "Greece",
+      coordinates: { latitude: 37.9838, longitude: 23.7275 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 13150,
@@ -72,26 +135,57 @@ export const athensVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Reinforced Aluminum",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Water purification systems","Rescue boats and life rafts","Life jackets with integrated GPS","Thermal imaging cameras","Searchlights and rescue equipment"],
-      navigationEquipment: ["Autopilot systems with track control","Echo sounders and sonar systems","Dynamic positioning systems","Bridge alert management systems"],
-      communicationEquipment: ["Digital selective calling equipment","Global Maritime Distress Safety System (GMDSS)","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Immersive simulation experiences","Multi-purpose event spaces","Art gallery and auction facilities"],
-      accessibilityFeatures: ["Visual alarm systems","Accessible medical facilities"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Recyclable material management systems"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Water purification systems",
+        "Rescue boats and life rafts",
+        "Life jackets with integrated GPS",
+        "Thermal imaging cameras",
+        "Searchlights and rescue equipment",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Echo sounders and sonar systems",
+        "Dynamic positioning systems",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Immersive simulation experiences",
+        "Multi-purpose event spaces",
+        "Art gallery and auction facilities",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Athens Legend",
-    description: "The magnificent SS Athens Legend offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
+    description:
+      "The magnificent SS Athens Legend offers a perfect blend of adventure and relaxation for travelers departing from Athens. This outstanding zodiac equipped vessel features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Mediterranean region.",
     type: "zodiac-equipped-vessel",
     capacity: 1358,
     length: 371,
     width: 65,
     speed: 18,
     yearBuilt: 2016,
-    homePort: {"city":"Athens","country":"Greece","coordinates":{"latitude":37.9838,"longitude":23.7275}},
+    homePort: {
+      city: "Athens",
+      country: "Greece",
+      coordinates: { latitude: 37.9838, longitude: 23.7275 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 12050,
@@ -99,26 +193,59 @@ export const athensVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "China Classification Society B",
-      safetyEquipment: ["Emergency escape breathing devices","Marine evacuation systems (MES)","Man overboard detection systems","Tactical response equipment","Digital safety monitoring systems","Hyperbaric treatment chambers"],
-      navigationEquipment: ["Automatic identification systems (AIS)","Night vision systems","Radar and automatic radar plotting aids (ARPAs)","Integrated navigation system displays"],
-      communicationEquipment: ["Satellite communication systems","Marine radio telephony","Internal crew communication network"],
-      entertainmentEquipment: ["Cinema with latest releases","Children's entertainment areas","Virtual reality gaming center"],
-      accessibilityFeatures: ["Tactile guidance systems","Wheelchair accessible cabins","Accessible medical facilities"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Marine ecosystem monitoring equipment","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Marine evacuation systems (MES)",
+        "Man overboard detection systems",
+        "Tactical response equipment",
+        "Digital safety monitoring systems",
+        "Hyperbaric treatment chambers",
+      ],
+      navigationEquipment: [
+        "Automatic identification systems (AIS)",
+        "Night vision systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Marine radio telephony",
+        "Internal crew communication network",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Children's entertainment areas",
+        "Virtual reality gaming center",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Wheelchair accessible cabins",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Marine ecosystem monitoring equipment",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Athens Jewel",
-    description: "Setting sail from the beautiful port of Athens, the SS Athens Jewel is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Athens, the SS Athens Jewel is a floating paradise designed for the discerning traveler. This remarkable mid size cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "mid-size-cruise-ship",
     capacity: 717,
     length: 243,
     width: 46,
     speed: 27,
     yearBuilt: 2006,
-    homePort: {"city":"Athens","country":"Greece","coordinates":{"latitude":37.9838,"longitude":23.7275}},
+    homePort: {
+      city: "Athens",
+      country: "Greece",
+      coordinates: { latitude: 37.9838, longitude: 23.7275 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 5580,
@@ -126,14 +253,39 @@ export const athensVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Water purification systems","Hyperbaric treatment chambers","Rescue boats and life rafts"],
-      navigationEquipment: ["River radar systems","Integrated navigation system displays"],
-      communicationEquipment: ["Internal crew communication network","Global Maritime Distress Safety System (GMDSS)","Marine radio telephony"],
-      entertainmentEquipment: ["Cinema with latest releases","Multiple swimming pools and water features","Culinary demonstration kitchens","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Accessible dining facilities","Service animal accommodations","Visual alarm systems"],
-      environmentalFeatures: ["Energy-efficient appliances","Solar panel supplementation","Marine ecosystem monitoring equipment","Shore power connectivity"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Hyperbaric treatment chambers",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Integrated navigation system displays",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Global Maritime Distress Safety System (GMDSS)",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Multiple swimming pools and water features",
+        "Culinary demonstration kitchens",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Service animal accommodations",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Solar panel supplementation",
+        "Marine ecosystem monitoring equipment",
+        "Shore power connectivity",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

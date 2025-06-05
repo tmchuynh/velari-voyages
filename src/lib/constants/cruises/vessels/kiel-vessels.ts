@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const kielVessels: Vessels[] = [
   {
     name: "MY Kiel Explorer",
-    description: "Setting sail from the beautiful port of Kiel, the MY Kiel Explorer is a floating paradise designed for the discerning traveler. This remarkable ice class ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Kiel, the MY Kiel Explorer is a floating paradise designed for the discerning traveler. This remarkable ice class ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "ice-class-ship",
     capacity: 842,
     length: 268,
     width: 50,
     speed: 25,
     yearBuilt: 2011,
-    homePort: {"city":"Kiel","country":"Germany","coordinates":{"latitude":54.3233,"longitude":10.1228}},
+    homePort: {
+      city: "Kiel",
+      country: "Germany",
+      coordinates: { latitude: 54.3233, longitude: 10.1228 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 6700,
@@ -18,26 +23,58 @@ export const kielVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Marine-Grade Steel",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Hyperbaric treatment chambers","Rescue boats and life rafts","Digital safety monitoring systems","Marine evacuation systems (MES)","Man overboard detection systems","Survival craft VHF radios"],
-      navigationEquipment: ["Echo sounders and sonar systems","Gyrocompasses and magnetic compasses","Electronic chart display information systems (ECDIS)","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Marine radio telephony","Internal crew communication network","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Theater with Broadway-style productions","Cinema with latest releases"],
-      accessibilityFeatures: ["Visual alarm systems","Braille signage throughout","Service animal accommodations"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Energy-efficient appliances","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Rescue boats and life rafts",
+        "Digital safety monitoring systems",
+        "Marine evacuation systems (MES)",
+        "Man overboard detection systems",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Gyrocompasses and magnetic compasses",
+        "Electronic chart display information systems (ECDIS)",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Internal crew communication network",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Theater with Broadway-style productions",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Braille signage throughout",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Energy-efficient appliances",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Kiel Voyager",
-    description: "The RMS Kiel Voyager offers an unparalleled cruising experience from Kiel, combining luxury amenities with state-of-the-art navigation technology. This chartered vessel features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
+    description:
+      "The RMS Kiel Voyager offers an unparalleled cruising experience from Kiel, combining luxury amenities with state-of-the-art navigation technology. This chartered vessel features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
     type: "chartered-vessel",
     capacity: 1784,
     length: 456,
     width: 78,
     speed: 28,
     yearBuilt: 2016,
-    homePort: {"city":"Kiel","country":"Germany","coordinates":{"latitude":54.3233,"longitude":10.1228}},
+    homePort: {
+      city: "Kiel",
+      country: "Germany",
+      coordinates: { latitude: 54.3233, longitude: 10.1228 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 17780,
@@ -45,26 +82,57 @@ export const kielVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Hyperbaric treatment chambers","Marine evacuation systems (MES)"],
-      navigationEquipment: ["Echo sounders and sonar systems","Integrated navigation system displays","Bridge alert management systems","River radar systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Maritime VHF radio systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Multiple swimming pools and water features","Climbing walls and sports courts","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Elevator access to all public decks","Assistive listening devices","Accessible dining facilities","Accessible entertainment venues"],
-      environmentalFeatures: ["Heat recovery systems","Energy-efficient appliances","Food waste digesters"]
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Hyperbaric treatment chambers",
+        "Marine evacuation systems (MES)",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Integrated navigation system displays",
+        "Bridge alert management systems",
+        "River radar systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Multiple swimming pools and water features",
+        "Climbing walls and sports courts",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Assistive listening devices",
+        "Accessible dining facilities",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Heat recovery systems",
+        "Energy-efficient appliances",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Kiel Princess",
-    description: "The SY Kiel Princess stands as a testament to luxury and innovation on the high seas. Departing from Kiel, this sophisticated ocean liner features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SY Kiel Princess stands as a testament to luxury and innovation on the high seas. Departing from Kiel, this sophisticated ocean liner features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "ocean-liner",
     capacity: 707,
     length: 241,
     width: 46,
     speed: 17,
     yearBuilt: 2020,
-    homePort: {"city":"Kiel","country":"Germany","coordinates":{"latitude":54.3233,"longitude":10.1228}},
+    homePort: {
+      city: "Kiel",
+      country: "Germany",
+      coordinates: { latitude: 54.3233, longitude: 10.1228 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 5540,
@@ -72,26 +140,51 @@ export const kielVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Tactical response equipment","Personal locator beacons","Man overboard detection systems"],
-      navigationEquipment: ["Dynamic positioning systems","Inland ECDIS","Electronic chart display information systems (ECDIS)","Bridge alert management systems","Night vision systems"],
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Personal locator beacons",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Inland ECDIS",
+        "Electronic chart display information systems (ECDIS)",
+        "Bridge alert management systems",
+        "Night vision systems",
+      ],
       communicationEquipment: ["Ship-to-shore communication links"],
-      entertainmentEquipment: ["Library and educational facilities","Multi-purpose event spaces"],
-      accessibilityFeatures: ["Braille signage throughout","Accessible dining facilities"],
-      environmentalFeatures: ["Exhaust gas cleaning systems","Advanced water treatment systems","Biodegradable hydraulic fluids"]
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Multi-purpose event spaces",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Accessible dining facilities",
+      ],
+      environmentalFeatures: [
+        "Exhaust gas cleaning systems",
+        "Advanced water treatment systems",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MS Kiel Legend",
-    description: "The MS Kiel Legend invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional boutique cruise ship, based in Kiel, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MS Kiel Legend invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional boutique cruise ship, based in Kiel, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "boutique-cruise-ship",
     capacity: 569,
     length: 213,
     width: 41,
     speed: 18,
     yearBuilt: 2024,
-    homePort: {"city":"Kiel","country":"Germany","coordinates":{"latitude":54.3233,"longitude":10.1228}},
+    homePort: {
+      city: "Kiel",
+      country: "Germany",
+      coordinates: { latitude: 54.3233, longitude: 10.1228 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4360,
@@ -99,26 +192,59 @@ export const kielVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Tactical response equipment","Survival craft VHF radios","Water purification systems","Emergency position indicating radio beacons (EPIRBs)"],
-      navigationEquipment: ["Integrated bridge systems","Long-range identification and tracking (LRIT)","Weather routing systems","Night vision systems","Doppler speed logs"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Ship-to-shore communication links","Marine radio telephony"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Visual alarm systems","Assistive listening devices","Tactile guidance systems","Accessible entertainment venues"],
-      environmentalFeatures: ["Recyclable material management systems","Advanced water treatment systems","Exhaust gas cleaning systems","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Survival craft VHF radios",
+        "Water purification systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+      ],
+      navigationEquipment: [
+        "Integrated bridge systems",
+        "Long-range identification and tracking (LRIT)",
+        "Weather routing systems",
+        "Night vision systems",
+        "Doppler speed logs",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Ship-to-shore communication links",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Assistive listening devices",
+        "Tactile guidance systems",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Advanced water treatment systems",
+        "Exhaust gas cleaning systems",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RMS Kiel Jewel",
-    description: "Setting sail from the beautiful port of Kiel, the RMS Kiel Jewel is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Kiel, the RMS Kiel Jewel is a floating paradise designed for the discerning traveler. This remarkable adults only ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "adults-only-ship",
     capacity: 1427,
     length: 385,
     width: 67,
     speed: 22,
     yearBuilt: 2018,
-    homePort: {"city":"Kiel","country":"Germany","coordinates":{"latitude":54.3233,"longitude":10.1228}},
+    homePort: {
+      city: "Kiel",
+      country: "Germany",
+      coordinates: { latitude: 54.3233, longitude: 10.1228 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 12890,
@@ -126,14 +252,39 @@ export const kielVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "China Classification Society B",
-      safetyEquipment: ["Water purification systems","Man overboard detection systems","Tactical response equipment","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Gyrocompasses and magnetic compasses","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Marine radio telephony","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Art gallery and auction facilities","Cinema with latest releases"],
-      accessibilityFeatures: ["Accessible shore excursion options","Assistive listening devices"],
-      environmentalFeatures: ["LED lighting throughout","Energy-efficient appliances","Dynamic routing to optimize fuel usage","Advanced water treatment systems","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Water purification systems",
+        "Man overboard detection systems",
+        "Tactical response equipment",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Gyrocompasses and magnetic compasses",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Art gallery and auction facilities",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Accessible shore excursion options",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Energy-efficient appliances",
+        "Dynamic routing to optimize fuel usage",
+        "Advanced water treatment systems",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

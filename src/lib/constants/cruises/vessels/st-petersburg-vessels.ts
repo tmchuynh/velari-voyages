@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const stPetersburgVessels: Vessels[] = [
   {
     name: "MY St Petersburg Explorer",
-    description: "The MY St Petersburg Explorer invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional zodiac equipped vessel, based in St Petersburg, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
+    description:
+      "The MY St Petersburg Explorer invites travelers to explore the treasures of Northern Europe in unmatched comfort. This exceptional zodiac equipped vessel, based in St Petersburg, features curated excursions, immersive cultural programs, and luxurious accommodations that ensure an unforgettable journey.",
     type: "zodiac-equipped-vessel",
     capacity: 975,
     length: 295,
     width: 54,
     speed: 25,
     yearBuilt: 2019,
-    homePort: {"city":"St Petersburg","country":"Russia","coordinates":{"latitude":59.9343,"longitude":30.3351}},
+    homePort: {
+      city: "St Petersburg",
+      country: "Russia",
+      coordinates: { latitude: 59.9343, longitude: 30.3351 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 7960,
@@ -18,26 +23,59 @@ export const stPetersburgVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Survival craft VHF radios","Searchlights and rescue equipment","Emergency escape breathing devices","Man overboard detection systems"],
-      navigationEquipment: ["Dynamic positioning systems","Echo sounders and sonar systems","Night vision systems","Long-range identification and tracking (LRIT)","Automatic identification systems (AIS)"],
-      communicationEquipment: ["Internal crew communication network","Broadband internet throughout"],
-      entertainmentEquipment: ["Multi-purpose event spaces","Casino with table games and slot machines","Children's entertainment areas","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Service animal accommodations","Wheelchair accessible cabins","Tactile guidance systems"],
-      environmentalFeatures: ["Ballast water management technology","Optimized hull design for reduced fuel consumption","Recyclable material management systems"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Survival craft VHF radios",
+        "Searchlights and rescue equipment",
+        "Emergency escape breathing devices",
+        "Man overboard detection systems",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Echo sounders and sonar systems",
+        "Night vision systems",
+        "Long-range identification and tracking (LRIT)",
+        "Automatic identification systems (AIS)",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Multi-purpose event spaces",
+        "Casino with table games and slot machines",
+        "Children's entertainment areas",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Wheelchair accessible cabins",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Ballast water management technology",
+        "Optimized hull design for reduced fuel consumption",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "SS St Petersburg Voyager",
-    description: "The SS St Petersburg Voyager stands as a testament to luxury and innovation on the high seas. Departing from St Petersburg, this sophisticated mainstream cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS St Petersburg Voyager stands as a testament to luxury and innovation on the high seas. Departing from St Petersburg, this sophisticated mainstream cruise ship features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "mainstream-cruise-ship",
     capacity: 2064,
     length: 512,
     width: 86,
     speed: 24,
     yearBuilt: 2009,
-    homePort: {"city":"St Petersburg","country":"Russia","coordinates":{"latitude":59.9343,"longitude":30.3351}},
+    homePort: {
+      city: "St Petersburg",
+      country: "Russia",
+      coordinates: { latitude: 59.9343, longitude: 30.3351 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 22010,
@@ -45,26 +83,55 @@ export const stPetersburgVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Advanced fire detection and suppression systems","Life jackets with integrated GPS","Water purification systems"],
-      navigationEquipment: ["Weather routing systems","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Broadband internet throughout","Emergency position-indicating radio beacons","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Cinema with latest releases","Observation lounges with panoramic views","Full-service spa and fitness center","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Visual alarm systems","Roll-in showers","Wheelchair accessible cabins"],
-      environmentalFeatures: ["Food waste digesters","Shore power connectivity","Recyclable material management systems"]
+      safetyEquipment: [
+        "Advanced fire detection and suppression systems",
+        "Life jackets with integrated GPS",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Emergency position-indicating radio beacons",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Observation lounges with panoramic views",
+        "Full-service spa and fitness center",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Roll-in showers",
+        "Wheelchair accessible cabins",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Shore power connectivity",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "RV St Petersburg Princess",
-    description: "The majestic RV St Petersburg Princess represents the pinnacle of maritime engineering and hospitality. Based in St Petersburg, this exceptional chartered vessel features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Northern Europe region.",
+    description:
+      "The majestic RV St Petersburg Princess represents the pinnacle of maritime engineering and hospitality. Based in St Petersburg, this exceptional chartered vessel features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Northern Europe region.",
     type: "chartered-vessel",
     capacity: 1774,
     length: 454,
     width: 78,
     speed: 19,
     yearBuilt: 2020,
-    homePort: {"city":"St Petersburg","country":"Russia","coordinates":{"latitude":59.9343,"longitude":30.3351}},
+    homePort: {
+      city: "St Petersburg",
+      country: "Russia",
+      coordinates: { latitude: 59.9343, longitude: 30.3351 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 17700,
@@ -72,26 +139,56 @@ export const stPetersburgVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Digital safety monitoring systems","Water purification systems","Rescue boats and life rafts","Thermal imaging cameras"],
-      navigationEquipment: ["Bridge alert management systems","Dynamic positioning systems","Navigation data management systems","Weather routing systems"],
-      communicationEquipment: ["Internal crew communication network","Broadband internet throughout","Digital selective calling equipment"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Multi-purpose event spaces","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible entertainment venues","Accessible medical facilities"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Shore power connectivity","Optimized hull design for reduced fuel consumption"]
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Water purification systems",
+        "Rescue boats and life rafts",
+        "Thermal imaging cameras",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Dynamic positioning systems",
+        "Navigation data management systems",
+        "Weather routing systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Broadband internet throughout",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Multi-purpose event spaces",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible entertainment venues",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Shore power connectivity",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RMS St Petersburg Legend",
-    description: "Experience the epitome of maritime excellence aboard the RMS St Petersburg Legend, a premier mega yacht sailing from St Petersburg. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the RMS St Petersburg Legend, a premier mega yacht sailing from St Petersburg. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "mega-yacht",
     capacity: 1366,
     length: 373,
     width: 65,
     speed: 25,
     yearBuilt: 2020,
-    homePort: {"city":"St Petersburg","country":"Russia","coordinates":{"latitude":59.9343,"longitude":30.3351}},
+    homePort: {
+      city: "St Petersburg",
+      country: "Russia",
+      coordinates: { latitude: 59.9343, longitude: 30.3351 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 12120,
@@ -99,26 +196,52 @@ export const stPetersburgVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Satellite emergency notification devices","Survival craft VHF radios","Life jackets with integrated GPS","Comprehensive medical facilities"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Integrated navigation system displays","Infrared camera systems","Voyage data recorders (VDRs)","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Broadband internet throughout","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Casino with table games and slot machines","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Braille signage throughout","Hearing augmentation systems"],
-      environmentalFeatures: ["Heat recovery systems","Food waste digesters"]
+      safetyEquipment: [
+        "Satellite emergency notification devices",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Integrated navigation system displays",
+        "Infrared camera systems",
+        "Voyage data recorders (VDRs)",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Casino with table games and slot machines",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Hearing augmentation systems",
+      ],
+      environmentalFeatures: ["Heat recovery systems", "Food waste digesters"],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY St Petersburg Jewel",
-    description: "The SY St Petersburg Jewel offers an unparalleled cruising experience from St Petersburg, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
+    description:
+      "The SY St Petersburg Jewel offers an unparalleled cruising experience from St Petersburg, combining luxury amenities with state-of-the-art navigation technology. This polar expedition ship features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Northern Europe hospitality.",
     type: "polar-expedition-ship",
     capacity: 1692,
     length: 438,
     width: 75,
     speed: 26,
     yearBuilt: 2012,
-    homePort: {"city":"St Petersburg","country":"Russia","coordinates":{"latitude":59.9343,"longitude":30.3351}},
+    homePort: {
+      city: "St Petersburg",
+      country: "Russia",
+      coordinates: { latitude: 59.9343, longitude: 30.3351 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 16420,
@@ -126,14 +249,40 @@ export const stPetersburgVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Tactical response equipment","Emergency escape breathing devices","Digital safety monitoring systems","Life jackets with integrated GPS","Water purification systems"],
-      navigationEquipment: ["Echo sounders and sonar systems","Dynamic positioning systems"],
-      communicationEquipment: ["Broadband internet throughout","Ship-to-shore communication links"],
-      entertainmentEquipment: ["Cinema with latest releases","Virtual reality gaming center","Theater with Broadway-style productions","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Accessible shore excursion options"],
-      environmentalFeatures: ["LED lighting throughout","Advanced water treatment systems","Noise reduction technology to minimize impact on marine life","Solar panel supplementation","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Tactical response equipment",
+        "Emergency escape breathing devices",
+        "Digital safety monitoring systems",
+        "Life jackets with integrated GPS",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Dynamic positioning systems",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Ship-to-shore communication links",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Virtual reality gaming center",
+        "Theater with Broadway-style productions",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Advanced water treatment systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Solar panel supplementation",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

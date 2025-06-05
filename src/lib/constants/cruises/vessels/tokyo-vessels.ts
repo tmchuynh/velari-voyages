@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const tokyoVessels: Vessels[] = [
   {
     name: "SS Tokyo Explorer",
-    description: "The SS Tokyo Explorer stands as a testament to luxury and innovation on the high seas. Departing from Tokyo, this sophisticated ocean liner features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS Tokyo Explorer stands as a testament to luxury and innovation on the high seas. Departing from Tokyo, this sophisticated ocean liner features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "ocean-liner",
     capacity: 1040,
     length: 308,
     width: 56,
     speed: 26,
     yearBuilt: 2010,
-    homePort: {"city":"Tokyo","country":"Japan","coordinates":{"latitude":35.6895,"longitude":139.6917}},
+    homePort: {
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6895, longitude: 139.6917 },
+    },
     specifications: {
       engineType: "Podded Propulsion",
       fuelCapacity: 8620,
@@ -18,26 +23,54 @@ export const tokyoVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Personal locator beacons","Man overboard detection systems","Tactical response equipment","Emergency escape breathing devices","Searchlights and rescue equipment","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Autopilot systems with track control","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Maritime VHF radio systems","Satellite communication systems"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Culinary demonstration kitchens","Multi-purpose event spaces"],
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Man overboard detection systems",
+        "Tactical response equipment",
+        "Emergency escape breathing devices",
+        "Searchlights and rescue equipment",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Autopilot systems with track control",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Culinary demonstration kitchens",
+        "Multi-purpose event spaces",
+      ],
       accessibilityFeatures: ["Elevator access to all public decks"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","Marine ecosystem monitoring equipment","Biodegradable hydraulic fluids","Ballast water management technology","Recyclable material management systems"]
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "Marine ecosystem monitoring equipment",
+        "Biodegradable hydraulic fluids",
+        "Ballast water management technology",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Tokyo Voyager",
-    description: "The SS Tokyo Voyager stands as a testament to luxury and innovation on the high seas. Departing from Tokyo, this sophisticated superyacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
+    description:
+      "The SS Tokyo Voyager stands as a testament to luxury and innovation on the high seas. Departing from Tokyo, this sophisticated superyacht features immersive entertainment, wellness facilities, and exquisite cuisine prepared by internationally renowned chefs.",
     type: "superyacht",
     capacity: 1255,
     length: 351,
     width: 62,
     speed: 16,
     yearBuilt: 2015,
-    homePort: {"city":"Tokyo","country":"Japan","coordinates":{"latitude":35.6895,"longitude":139.6917}},
+    homePort: {
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6895, longitude: 139.6917 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 10880,
@@ -45,26 +78,54 @@ export const tokyoVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Comprehensive medical facilities","Marine evacuation systems (MES)","Water purification systems"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","River radar systems"],
-      communicationEquipment: ["Maritime VHF radio systems","Emergency position-indicating radio beacons","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Immersive simulation experiences"],
-      accessibilityFeatures: ["Hearing augmentation systems","Transfer chairs for pool access"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Recyclable material management systems","Dynamic routing to optimize fuel usage","Heat recovery systems"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Comprehensive medical facilities",
+        "Marine evacuation systems (MES)",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Maritime VHF radio systems",
+        "Emergency position-indicating radio beacons",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Hearing augmentation systems",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Recyclable material management systems",
+        "Dynamic routing to optimize fuel usage",
+        "Heat recovery systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SY Tokyo Princess",
-    description: "The majestic SY Tokyo Princess represents the pinnacle of maritime engineering and hospitality. Based in Tokyo, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Asia Pacific region.",
+    description:
+      "The majestic SY Tokyo Princess represents the pinnacle of maritime engineering and hospitality. Based in Tokyo, this exceptional luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Asia Pacific region.",
     type: "luxury-cruise-ship",
     capacity: 376,
     length: 175,
     width: 36,
     speed: 15,
     yearBuilt: 2005,
-    homePort: {"city":"Tokyo","country":"Japan","coordinates":{"latitude":35.6895,"longitude":139.6917}},
+    homePort: {
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6895, longitude: 139.6917 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 3150,
@@ -72,26 +133,57 @@ export const tokyoVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Emergency position indicating radio beacons (EPIRBs)","Rescue boats and life rafts","Personal locator beacons"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Automatic identification systems (AIS)","Inland ECDIS","Weather routing systems","Infrared camera systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Public address systems","Marine radio telephony"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Tactile guidance systems","Hearing augmentation systems","Wheelchair accessible cabins","Elevator access to all public decks"],
-      environmentalFeatures: ["Recyclable material management systems","Biodegradable hydraulic fluids","Food waste digesters"]
+      safetyEquipment: [
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Rescue boats and life rafts",
+        "Personal locator beacons",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Automatic identification systems (AIS)",
+        "Inland ECDIS",
+        "Weather routing systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Public address systems",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+        "Wheelchair accessible cabins",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Recyclable material management systems",
+        "Biodegradable hydraulic fluids",
+        "Food waste digesters",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MY Tokyo Legend",
-    description: "Experience the epitome of maritime excellence aboard the MY Tokyo Legend, a premier zodiac equipped vessel sailing from Tokyo. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the MY Tokyo Legend, a premier zodiac equipped vessel sailing from Tokyo. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "zodiac-equipped-vessel",
     capacity: 527,
     length: 205,
     width: 40,
     speed: 18,
     yearBuilt: 2022,
-    homePort: {"city":"Tokyo","country":"Japan","coordinates":{"latitude":35.6895,"longitude":139.6917}},
+    homePort: {
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6895, longitude: 139.6917 },
+    },
     specifications: {
       engineType: "Diesel-Electric Propulsion",
       fuelCapacity: 4100,
@@ -99,26 +191,53 @@ export const tokyoVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Composite Materials",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Digital safety monitoring systems","Automated external defibrillators (AEDs)","Water purification systems","Hyperbaric treatment chambers","Thermal imaging cameras","Satellite emergency notification devices"],
-      navigationEquipment: ["Doppler speed logs","Integrated bridge systems","Inland ECDIS"],
-      communicationEquipment: ["Satellite communication systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Multi-purpose event spaces","Climbing walls and sports courts"],
+      safetyEquipment: [
+        "Digital safety monitoring systems",
+        "Automated external defibrillators (AEDs)",
+        "Water purification systems",
+        "Hyperbaric treatment chambers",
+        "Thermal imaging cameras",
+        "Satellite emergency notification devices",
+      ],
+      navigationEquipment: [
+        "Doppler speed logs",
+        "Integrated bridge systems",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Satellite communication systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Multi-purpose event spaces",
+        "Climbing walls and sports courts",
+      ],
       accessibilityFeatures: ["Wheelchair accessible cabins"],
-      environmentalFeatures: ["Energy-efficient appliances","Shore power connectivity","Dynamic routing to optimize fuel usage"]
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Shore power connectivity",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Tokyo Jewel",
-    description: "The magnificent RV Tokyo Jewel offers a perfect blend of adventure and relaxation for travelers departing from Tokyo. This outstanding ice class ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Asia Pacific region.",
+    description:
+      "The magnificent RV Tokyo Jewel offers a perfect blend of adventure and relaxation for travelers departing from Tokyo. This outstanding ice class ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Asia Pacific region.",
     type: "ice-class-ship",
     capacity: 579,
     length: 215,
     width: 42,
     speed: 28,
     yearBuilt: 2014,
-    homePort: {"city":"Tokyo","country":"Japan","coordinates":{"latitude":35.6895,"longitude":139.6917}},
+    homePort: {
+      city: "Tokyo",
+      country: "Japan",
+      coordinates: { latitude: 35.6895, longitude: 139.6917 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4510,
@@ -126,14 +245,37 @@ export const tokyoVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Composite Materials",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Man overboard detection systems","Life jackets with integrated GPS","Personal locator beacons","Comprehensive medical facilities"],
-      navigationEquipment: ["Echo sounders and sonar systems","Night vision systems","Long-range identification and tracking (LRIT)"],
-      communicationEquipment: ["Internal crew communication network","Broadband internet throughout","Marine radio telephony"],
-      entertainmentEquipment: ["Virtual reality gaming center","Full-service spa and fitness center","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Tactile guidance systems","Elevator access to all public decks"],
-      environmentalFeatures: ["Optimized hull design for reduced fuel consumption","LED lighting throughout"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Life jackets with integrated GPS",
+        "Personal locator beacons",
+        "Comprehensive medical facilities",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Night vision systems",
+        "Long-range identification and tracking (LRIT)",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Broadband internet throughout",
+        "Marine radio telephony",
+      ],
+      entertainmentEquipment: [
+        "Virtual reality gaming center",
+        "Full-service spa and fitness center",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Optimized hull design for reduced fuel consumption",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

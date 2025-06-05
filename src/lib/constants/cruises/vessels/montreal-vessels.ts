@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const montrealVessels: Vessels[] = [
   {
     name: "MV Montreal Explorer",
-    description: "The magnificent MV Montreal Explorer offers a perfect blend of adventure and relaxation for travelers departing from Montreal. This outstanding small ocean ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the East Coast Canada region.",
+    description:
+      "The magnificent MV Montreal Explorer offers a perfect blend of adventure and relaxation for travelers departing from Montreal. This outstanding small ocean ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the East Coast Canada region.",
     type: "small-ocean-ship",
     capacity: 846,
     length: 269,
     width: 50,
     speed: 29,
     yearBuilt: 2013,
-    homePort: {"city":"Montreal","country":"Canada","coordinates":{"latitude":45.5017,"longitude":-73.5673}},
+    homePort: {
+      city: "Montreal",
+      country: "Canada",
+      coordinates: { latitude: 45.5017, longitude: -73.5673 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 6720,
@@ -18,26 +23,58 @@ export const montrealVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Thermal imaging cameras","Water purification systems","Automated external defibrillators (AEDs)"],
-      navigationEquipment: ["Long-range identification and tracking (LRIT)","Radar and automatic radar plotting aids (ARPAs)","Inland ECDIS"],
-      communicationEquipment: ["Digital selective calling equipment","Public address systems","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Cinema with latest releases","Library and educational facilities","Art gallery and auction facilities","Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Braille signage throughout","Height-adjustable furniture in select cabins","Visual alarm systems","Accessible medical facilities"],
-      environmentalFeatures: ["Shore power connectivity","Biodegradable hydraulic fluids","Ballast water management technology","Marine ecosystem monitoring equipment"]
+      safetyEquipment: [
+        "Thermal imaging cameras",
+        "Water purification systems",
+        "Automated external defibrillators (AEDs)",
+      ],
+      navigationEquipment: [
+        "Long-range identification and tracking (LRIT)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Inland ECDIS",
+      ],
+      communicationEquipment: [
+        "Digital selective calling equipment",
+        "Public address systems",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Cinema with latest releases",
+        "Library and educational facilities",
+        "Art gallery and auction facilities",
+        "Observation lounges with panoramic views",
+      ],
+      accessibilityFeatures: [
+        "Braille signage throughout",
+        "Height-adjustable furniture in select cabins",
+        "Visual alarm systems",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Shore power connectivity",
+        "Biodegradable hydraulic fluids",
+        "Ballast water management technology",
+        "Marine ecosystem monitoring equipment",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Montreal Voyager",
-    description: "With its distinctive profile and luxurious appointments, the TS Montreal Voyager stands as a jewel in the Montreal harbor. This prestigious short hop ferry offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
+    description:
+      "With its distinctive profile and luxurious appointments, the TS Montreal Voyager stands as a jewel in the Montreal harbor. This prestigious short hop ferry offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.",
     type: "short-hop-ferry",
     capacity: 935,
     length: 287,
     width: 53,
     speed: 16,
     yearBuilt: 2012,
-    homePort: {"city":"Montreal","country":"Canada","coordinates":{"latitude":45.5017,"longitude":-73.5673}},
+    homePort: {
+      city: "Montreal",
+      country: "Canada",
+      coordinates: { latitude: 45.5017, longitude: -73.5673 },
+    },
     specifications: {
       engineType: "Hybrid Power System",
       fuelCapacity: 7600,
@@ -45,26 +82,56 @@ export const montrealVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "RINA Green Star Plus",
-      safetyEquipment: ["Hyperbaric treatment chambers","Man overboard detection systems","Comprehensive medical facilities","Emergency position indicating radio beacons (EPIRBs)","Life jackets with integrated GPS","Automated external defibrillators (AEDs)","Tactical response equipment"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Radar and automatic radar plotting aids (ARPAs)","Infrared camera systems"],
-      communicationEquipment: ["Ship-to-shore communication links","Digital selective calling equipment"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Height-adjustable furniture in select cabins","Accessible entertainment venues"],
-      environmentalFeatures: ["Dynamic routing to optimize fuel usage","Energy-efficient appliances","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Hyperbaric treatment chambers",
+        "Man overboard detection systems",
+        "Comprehensive medical facilities",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Life jackets with integrated GPS",
+        "Automated external defibrillators (AEDs)",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Ship-to-shore communication links",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Height-adjustable furniture in select cabins",
+        "Accessible entertainment venues",
+      ],
+      environmentalFeatures: [
+        "Dynamic routing to optimize fuel usage",
+        "Energy-efficient appliances",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Montreal Princess",
-    description: "The majestic MV Montreal Princess represents the pinnacle of maritime engineering and hospitality. Based in Montreal, this exceptional mid size cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the East Coast Canada region.",
+    description:
+      "The majestic MV Montreal Princess represents the pinnacle of maritime engineering and hospitality. Based in Montreal, this exceptional mid size cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the East Coast Canada region.",
     type: "mid-size-cruise-ship",
     capacity: 1523,
     length: 404,
     width: 70,
     speed: 17,
     yearBuilt: 2013,
-    homePort: {"city":"Montreal","country":"Canada","coordinates":{"latitude":45.5017,"longitude":-73.5673}},
+    homePort: {
+      city: "Montreal",
+      country: "Canada",
+      coordinates: { latitude: 45.5017, longitude: -73.5673 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 14140,
@@ -72,26 +139,52 @@ export const montrealVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Composite Materials",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Personal locator beacons","Satellite emergency notification devices","Man overboard detection systems","Tactical response equipment"],
-      navigationEquipment: ["River radar systems","Gyrocompasses and magnetic compasses","Echo sounders and sonar systems"],
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Satellite emergency notification devices",
+        "Man overboard detection systems",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "River radar systems",
+        "Gyrocompasses and magnetic compasses",
+        "Echo sounders and sonar systems",
+      ],
       communicationEquipment: ["Internal crew communication network"],
-      entertainmentEquipment: ["Art gallery and auction facilities","Library and educational facilities"],
-      accessibilityFeatures: ["Elevator access to all public decks","Service animal accommodations","Braille signage throughout"],
-      environmentalFeatures: ["Food waste digesters","Recyclable material management systems","Heat recovery systems","Advanced water treatment systems"]
+      entertainmentEquipment: [
+        "Art gallery and auction facilities",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Elevator access to all public decks",
+        "Service animal accommodations",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Food waste digesters",
+        "Recyclable material management systems",
+        "Heat recovery systems",
+        "Advanced water treatment systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MY Montreal Legend",
-    description: "Setting sail from the beautiful port of Montreal, the MY Montreal Legend is a floating paradise designed for the discerning traveler. This remarkable superyacht boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Montreal, the MY Montreal Legend is a floating paradise designed for the discerning traveler. This remarkable superyacht boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "superyacht",
     capacity: 1052,
     length: 310,
     width: 56,
     speed: 16,
     yearBuilt: 2006,
-    homePort: {"city":"Montreal","country":"Canada","coordinates":{"latitude":45.5017,"longitude":-73.5673}},
+    homePort: {
+      city: "Montreal",
+      country: "Canada",
+      coordinates: { latitude: 45.5017, longitude: -73.5673 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 8680,
@@ -99,26 +192,50 @@ export const montrealVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "Marine-Grade Steel",
       classification: "Lloyd's Register Class 1",
-      safetyEquipment: ["Personal locator beacons","Life jackets with integrated GPS","Survival craft VHF radios"],
-      navigationEquipment: ["Voyage data recorders (VDRs)","Electronic chart display information systems (ECDIS)","Inland ECDIS","Global navigation satellite systems (GNSS)"],
-      communicationEquipment: ["Broadband internet throughout","Marine radio telephony"],
+      safetyEquipment: [
+        "Personal locator beacons",
+        "Life jackets with integrated GPS",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Voyage data recorders (VDRs)",
+        "Electronic chart display information systems (ECDIS)",
+        "Inland ECDIS",
+        "Global navigation satellite systems (GNSS)",
+      ],
+      communicationEquipment: [
+        "Broadband internet throughout",
+        "Marine radio telephony",
+      ],
       entertainmentEquipment: ["Observation lounges with panoramic views"],
-      accessibilityFeatures: ["Accessible medical facilities","Accessible shore excursion options"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Exhaust gas cleaning systems","Optimized hull design for reduced fuel consumption"]
+      accessibilityFeatures: [
+        "Accessible medical facilities",
+        "Accessible shore excursion options",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Exhaust gas cleaning systems",
+        "Optimized hull design for reduced fuel consumption",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Montreal Jewel",
-    description: "Experience the epitome of maritime excellence aboard the TS Montreal Jewel, a premier mega yacht sailing from Montreal. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
+    description:
+      "Experience the epitome of maritime excellence aboard the TS Montreal Jewel, a premier mega yacht sailing from Montreal. With its elegant design, state-of-the-art technology, and exceptional service, every journey promises unforgettable moments and unparalleled comfort.",
     type: "mega-yacht",
     capacity: 1329,
     length: 365,
     width: 64,
     speed: 26,
     yearBuilt: 2010,
-    homePort: {"city":"Montreal","country":"Canada","coordinates":{"latitude":45.5017,"longitude":-73.5673}},
+    homePort: {
+      city: "Montreal",
+      country: "Canada",
+      coordinates: { latitude: 45.5017, longitude: -73.5673 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 11680,
@@ -126,14 +243,37 @@ export const montrealVessels: Vessels[] = [
       propulsionType: "Conventional Shaft Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Man overboard detection systems","Digital safety monitoring systems"],
-      navigationEquipment: ["Echo sounders and sonar systems","Night vision systems","River radar systems","Radar and automatic radar plotting aids (ARPAs)"],
-      communicationEquipment: ["Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Library and educational facilities","Cinema with latest releases"],
-      accessibilityFeatures: ["Transfer chairs for pool access","Braille signage throughout","Service animal accommodations"],
-      environmentalFeatures: ["LED lighting throughout","Optimized hull design for reduced fuel consumption","Biodegradable hydraulic fluids","Solar panel supplementation"]
+      safetyEquipment: [
+        "Man overboard detection systems",
+        "Digital safety monitoring systems",
+      ],
+      navigationEquipment: [
+        "Echo sounders and sonar systems",
+        "Night vision systems",
+        "River radar systems",
+        "Radar and automatic radar plotting aids (ARPAs)",
+      ],
+      communicationEquipment: [
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Library and educational facilities",
+        "Cinema with latest releases",
+      ],
+      accessibilityFeatures: [
+        "Transfer chairs for pool access",
+        "Braille signage throughout",
+        "Service animal accommodations",
+      ],
+      environmentalFeatures: [
+        "LED lighting throughout",
+        "Optimized hull design for reduced fuel consumption",
+        "Biodegradable hydraulic fluids",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
-  }
+    isPetFriendly: false,
+  },
 ];

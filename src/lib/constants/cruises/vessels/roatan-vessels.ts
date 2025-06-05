@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const roatanVessels: Vessels[] = [
   {
     name: "PS Roatan Explorer",
-    description: "Sailing from the picturesque port of Roatan, the PS Roatan Explorer represents a new era in cruise experiences. This remarkable boutique cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Roatan, the PS Roatan Explorer represents a new era in cruise experiences. This remarkable boutique cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "boutique-cruise-ship",
     capacity: 555,
     length: 211,
     width: 41,
     speed: 27,
     yearBuilt: 2009,
-    homePort: {"city":"Roatan","country":"Honduras","coordinates":{"latitude":16.3181,"longitude":-86.5277}},
+    homePort: {
+      city: "Roatan",
+      country: "Honduras",
+      coordinates: { latitude: 16.3181, longitude: -86.5277 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 4320,
@@ -18,26 +23,59 @@ export const roatanVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "American Bureau of Shipping A1",
-      safetyEquipment: ["Survival craft VHF radios","Digital safety monitoring systems","Automated external defibrillators (AEDs)","Emergency escape breathing devices"],
-      navigationEquipment: ["Dynamic positioning systems","Integrated navigation system displays","Echo sounders and sonar systems","Bridge alert management systems"],
-      communicationEquipment: ["Public address systems","Digital selective calling equipment","Maritime VHF radio systems"],
-      entertainmentEquipment: ["Dance clubs and live music venues","Art gallery and auction facilities","Library and educational facilities"],
-      accessibilityFeatures: ["Accessible dining facilities","Roll-in showers","Tactile guidance systems"],
-      environmentalFeatures: ["Energy-efficient appliances","Ballast water management technology","Solar panel supplementation","Advanced water treatment systems","Recyclable material management systems"]
+      safetyEquipment: [
+        "Survival craft VHF radios",
+        "Digital safety monitoring systems",
+        "Automated external defibrillators (AEDs)",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "Integrated navigation system displays",
+        "Echo sounders and sonar systems",
+        "Bridge alert management systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Digital selective calling equipment",
+        "Maritime VHF radio systems",
+      ],
+      entertainmentEquipment: [
+        "Dance clubs and live music venues",
+        "Art gallery and auction facilities",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Accessible dining facilities",
+        "Roll-in showers",
+        "Tactile guidance systems",
+      ],
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "Ballast water management technology",
+        "Solar panel supplementation",
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "SS Roatan Voyager",
-    description: "The magnificent SS Roatan Voyager offers a perfect blend of adventure and relaxation for travelers departing from Roatan. This outstanding polar expedition ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
+    description:
+      "The magnificent SS Roatan Voyager offers a perfect blend of adventure and relaxation for travelers departing from Roatan. This outstanding polar expedition ship features panoramic ocean views, specialized dining experiences, and enriching activities that connect guests with the wonders of the Caribbean region.",
     type: "polar-expedition-ship",
     capacity: 1710,
     length: 442,
     width: 76,
     speed: 18,
     yearBuilt: 2015,
-    homePort: {"city":"Roatan","country":"Honduras","coordinates":{"latitude":16.3181,"longitude":-86.5277}},
+    homePort: {
+      city: "Roatan",
+      country: "Honduras",
+      coordinates: { latitude: 16.3181, longitude: -86.5277 },
+    },
     specifications: {
       engineType: "Gas Turbine Powerplant",
       fuelCapacity: 16790,
@@ -45,26 +83,57 @@ export const roatanVessels: Vessels[] = [
       propulsionType: "Z-Drive Propulsion",
       hullMaterial: "Composite Materials",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Comprehensive medical facilities","Radar reflectors","Emergency escape breathing devices"],
-      navigationEquipment: ["Global navigation satellite systems (GNSS)","Bridge alert management systems","Integrated bridge systems","River radar systems","Infrared camera systems"],
-      communicationEquipment: ["Emergency position-indicating radio beacons","Public address systems"],
-      entertainmentEquipment: ["Library and educational facilities","Dance clubs and live music venues","Theater with Broadway-style productions","Full-service spa and fitness center"],
-      accessibilityFeatures: ["Wheelchair accessible cabins","Accessible entertainment venues","Assistive listening devices"],
-      environmentalFeatures: ["Marine ecosystem monitoring equipment","Solar panel supplementation","Energy-efficient appliances"]
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Radar reflectors",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Global navigation satellite systems (GNSS)",
+        "Bridge alert management systems",
+        "Integrated bridge systems",
+        "River radar systems",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Emergency position-indicating radio beacons",
+        "Public address systems",
+      ],
+      entertainmentEquipment: [
+        "Library and educational facilities",
+        "Dance clubs and live music venues",
+        "Theater with Broadway-style productions",
+        "Full-service spa and fitness center",
+      ],
+      accessibilityFeatures: [
+        "Wheelchair accessible cabins",
+        "Accessible entertainment venues",
+        "Assistive listening devices",
+      ],
+      environmentalFeatures: [
+        "Marine ecosystem monitoring equipment",
+        "Solar panel supplementation",
+        "Energy-efficient appliances",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Roatan Princess",
-    description: "Setting sail from the beautiful port of Roatan, the MV Roatan Princess is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Roatan, the MV Roatan Princess is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "boutique-cruise-ship",
     capacity: 1749,
     length: 449,
     width: 77,
     speed: 23,
     yearBuilt: 2006,
-    homePort: {"city":"Roatan","country":"Honduras","coordinates":{"latitude":16.3181,"longitude":-86.5277}},
+    homePort: {
+      city: "Roatan",
+      country: "Honduras",
+      coordinates: { latitude: 16.3181, longitude: -86.5277 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 17280,
@@ -72,26 +141,56 @@ export const roatanVessels: Vessels[] = [
       propulsionType: "Water Jets",
       hullMaterial: "Reinforced Aluminum",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Automated external defibrillators (AEDs)","Weather monitoring stations","Rescue boats and life rafts"],
-      navigationEquipment: ["Bridge alert management systems","Night vision systems","Navigation data management systems","Gyrocompasses and magnetic compasses","Infrared camera systems"],
-      communicationEquipment: ["Marine radio telephony","Digital selective calling equipment"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Culinary demonstration kitchens","Casino with table games and slot machines"],
-      accessibilityFeatures: ["Tactile guidance systems","Height-adjustable furniture in select cabins","Braille signage throughout"],
-      environmentalFeatures: ["Advanced water treatment systems","Optimized hull design for reduced fuel consumption","LED lighting throughout"]
+      safetyEquipment: [
+        "Automated external defibrillators (AEDs)",
+        "Weather monitoring stations",
+        "Rescue boats and life rafts",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Night vision systems",
+        "Navigation data management systems",
+        "Gyrocompasses and magnetic compasses",
+        "Infrared camera systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Digital selective calling equipment",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Culinary demonstration kitchens",
+        "Casino with table games and slot machines",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Height-adjustable furniture in select cabins",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Optimized hull design for reduced fuel consumption",
+        "LED lighting throughout",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "RV Roatan Legend",
-    description: "The RV Roatan Legend offers an unparalleled cruising experience from Roatan, combining luxury amenities with state-of-the-art navigation technology. This ocean liner features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
+    description:
+      "The RV Roatan Legend offers an unparalleled cruising experience from Roatan, combining luxury amenities with state-of-the-art navigation technology. This ocean liner features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of Caribbean hospitality.",
     type: "ocean-liner",
     capacity: 1471,
     length: 394,
     width: 69,
     speed: 24,
     yearBuilt: 2015,
-    homePort: {"city":"Roatan","country":"Honduras","coordinates":{"latitude":16.3181,"longitude":-86.5277}},
+    homePort: {
+      city: "Roatan",
+      country: "Honduras",
+      coordinates: { latitude: 16.3181, longitude: -86.5277 },
+    },
     specifications: {
       engineType: "LNG-Powered Engines",
       fuelCapacity: 13590,
@@ -99,26 +198,58 @@ export const roatanVessels: Vessels[] = [
       propulsionType: "Counter-Rotating Propellers",
       hullMaterial: "Hybrid Steel-Composite",
       classification: "DNV GL High Speed & Light Craft",
-      safetyEquipment: ["Radar reflectors","Survival craft VHF radios","Life jackets with integrated GPS","Advanced fire detection and suppression systems","Comprehensive medical facilities","Emergency position indicating radio beacons (EPIRBs)","Emergency escape breathing devices"],
-      navigationEquipment: ["Dynamic positioning systems","River radar systems"],
-      communicationEquipment: ["Public address systems","Broadband internet throughout"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Full-service spa and fitness center","Children's entertainment areas"],
-      accessibilityFeatures: ["Tactile guidance systems","Hearing augmentation systems","Elevator access to all public decks"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","LED lighting throughout","Solar panel supplementation","Biodegradable hydraulic fluids"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Survival craft VHF radios",
+        "Life jackets with integrated GPS",
+        "Advanced fire detection and suppression systems",
+        "Comprehensive medical facilities",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Emergency escape breathing devices",
+      ],
+      navigationEquipment: [
+        "Dynamic positioning systems",
+        "River radar systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Broadband internet throughout",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Full-service spa and fitness center",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Hearing augmentation systems",
+        "Elevator access to all public decks",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "LED lighting throughout",
+        "Solar panel supplementation",
+        "Biodegradable hydraulic fluids",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "MS Roatan Jewel",
-    description: "Setting sail from the beautiful port of Roatan, the MS Roatan Jewel is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Roatan, the MS Roatan Jewel is a floating paradise designed for the discerning traveler. This remarkable boutique cruise ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "boutique-cruise-ship",
     capacity: 1020,
     length: 304,
     width: 55,
     speed: 16,
     yearBuilt: 2018,
-    homePort: {"city":"Roatan","country":"Honduras","coordinates":{"latitude":16.3181,"longitude":-86.5277}},
+    homePort: {
+      city: "Roatan",
+      country: "Honduras",
+      coordinates: { latitude: 16.3181, longitude: -86.5277 },
+    },
     specifications: {
       engineType: "Azimuth Thrusters",
       fuelCapacity: 8360,
@@ -126,14 +257,30 @@ export const roatanVessels: Vessels[] = [
       propulsionType: "Voith Schneider Propellers",
       hullMaterial: "Reinforced Aluminum",
       classification: "China Classification Society B",
-      safetyEquipment: ["Comprehensive medical facilities","Marine evacuation systems (MES)","Weather monitoring stations"],
+      safetyEquipment: [
+        "Comprehensive medical facilities",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+      ],
       navigationEquipment: ["Infrared camera systems"],
       communicationEquipment: ["Internal crew communication network"],
-      entertainmentEquipment: ["Climbing walls and sports courts","Multiple swimming pools and water features","Art gallery and auction facilities","Theater with Broadway-style productions"],
-      accessibilityFeatures: ["Visual alarm systems","Hearing augmentation systems","Transfer chairs for pool access"],
-      environmentalFeatures: ["Noise reduction technology to minimize impact on marine life","Solar panel supplementation"]
+      entertainmentEquipment: [
+        "Climbing walls and sports courts",
+        "Multiple swimming pools and water features",
+        "Art gallery and auction facilities",
+        "Theater with Broadway-style productions",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Hearing augmentation systems",
+        "Transfer chairs for pool access",
+      ],
+      environmentalFeatures: [
+        "Noise reduction technology to minimize impact on marine life",
+        "Solar panel supplementation",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];

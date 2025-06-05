@@ -3,14 +3,19 @@ import { Vessels } from "@/lib/interfaces/services/cruises";
 export const lisbonVessels: Vessels[] = [
   {
     name: "SY Lisbon Explorer",
-    description: "The majestic SY Lisbon Explorer represents the pinnacle of maritime engineering and hospitality. Based in Lisbon, this exceptional ultra luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
+    description:
+      "The majestic SY Lisbon Explorer represents the pinnacle of maritime engineering and hospitality. Based in Lisbon, this exceptional ultra luxury cruise ship features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the Mediterranean region.",
     type: "ultra-luxury-cruise-ship",
     capacity: 865,
     length: 273,
     width: 50,
     speed: 15,
     yearBuilt: 2015,
-    homePort: {"city":"Lisbon","country":"Portugal","coordinates":{"latitude":38.7169,"longitude":-9.1399}},
+    homePort: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7169, longitude: -9.1399 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 6820,
@@ -18,26 +23,58 @@ export const lisbonVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Marine-Grade Steel",
       classification: "Russian Maritime Register of Shipping KM",
-      safetyEquipment: ["Emergency escape breathing devices","Digital safety monitoring systems","Water purification systems"],
-      navigationEquipment: ["Radar and automatic radar plotting aids (ARPAs)","Infrared camera systems","Autopilot systems with track control"],
-      communicationEquipment: ["Marine radio telephony","Satellite communication systems"],
-      entertainmentEquipment: ["Culinary demonstration kitchens","Climbing walls and sports courts","Observation lounges with panoramic views","Immersive simulation experiences"],
-      accessibilityFeatures: ["Tactile guidance systems","Visual alarm systems","Roll-in showers","Accessible medical facilities"],
-      environmentalFeatures: ["Advanced water treatment systems","Recyclable material management systems","Ballast water management technology","Exhaust gas cleaning systems","Noise reduction technology to minimize impact on marine life"]
+      safetyEquipment: [
+        "Emergency escape breathing devices",
+        "Digital safety monitoring systems",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Radar and automatic radar plotting aids (ARPAs)",
+        "Infrared camera systems",
+        "Autopilot systems with track control",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Culinary demonstration kitchens",
+        "Climbing walls and sports courts",
+        "Observation lounges with panoramic views",
+        "Immersive simulation experiences",
+      ],
+      accessibilityFeatures: [
+        "Tactile guidance systems",
+        "Visual alarm systems",
+        "Roll-in showers",
+        "Accessible medical facilities",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Recyclable material management systems",
+        "Ballast water management technology",
+        "Exhaust gas cleaning systems",
+        "Noise reduction technology to minimize impact on marine life",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MS Lisbon Voyager",
-    description: "Setting sail from the beautiful port of Lisbon, the MS Lisbon Voyager is a floating paradise designed for the discerning traveler. This remarkable ice class ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Lisbon, the MS Lisbon Voyager is a floating paradise designed for the discerning traveler. This remarkable ice class ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "ice-class-ship",
     capacity: 739,
     length: 247,
     width: 47,
     speed: 29,
     yearBuilt: 2018,
-    homePort: {"city":"Lisbon","country":"Portugal","coordinates":{"latitude":38.7169,"longitude":-9.1399}},
+    homePort: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7169, longitude: -9.1399 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 5800,
@@ -45,26 +82,53 @@ export const lisbonVessels: Vessels[] = [
       propulsionType: "Podded Propulsion Units",
       hullMaterial: "High-Tensile Steel Alloy",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Life jackets with integrated GPS","Digital safety monitoring systems","Personal locator beacons","Survival craft VHF radios","Advanced fire detection and suppression systems"],
-      navigationEquipment: ["Integrated navigation system displays","Integrated bridge systems","Night vision systems"],
-      communicationEquipment: ["Public address systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Art gallery and auction facilities","Casino with table games and slot machines","Multiple swimming pools and water features"],
+      safetyEquipment: [
+        "Life jackets with integrated GPS",
+        "Digital safety monitoring systems",
+        "Personal locator beacons",
+        "Survival craft VHF radios",
+        "Advanced fire detection and suppression systems",
+      ],
+      navigationEquipment: [
+        "Integrated navigation system displays",
+        "Integrated bridge systems",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Art gallery and auction facilities",
+        "Casino with table games and slot machines",
+        "Multiple swimming pools and water features",
+      ],
       accessibilityFeatures: ["Transfer chairs for pool access"],
-      environmentalFeatures: ["Energy-efficient appliances","LED lighting throughout","Recyclable material management systems"]
+      environmentalFeatures: [
+        "Energy-efficient appliances",
+        "LED lighting throughout",
+        "Recyclable material management systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "TS Lisbon Princess",
-    description: "Combining traditional maritime charm with modern amenities, the TS Lisbon Princess promises an extraordinary voyage from its home port of Lisbon. This impressive party cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
+    description:
+      "Combining traditional maritime charm with modern amenities, the TS Lisbon Princess promises an extraordinary voyage from its home port of Lisbon. This impressive party cruise ship offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.",
     type: "party-cruise-ship",
     capacity: 1482,
     length: 396,
     width: 69,
     speed: 17,
     yearBuilt: 2008,
-    homePort: {"city":"Lisbon","country":"Portugal","coordinates":{"latitude":38.7169,"longitude":-9.1399}},
+    homePort: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7169, longitude: -9.1399 },
+    },
     specifications: {
       engineType: "Solar-Assisted Electric",
       fuelCapacity: 13660,
@@ -72,26 +136,62 @@ export const lisbonVessels: Vessels[] = [
       propulsionType: "Cycloidal Drive",
       hullMaterial: "Composite Materials",
       classification: "Bureau Veritas Star Class",
-      safetyEquipment: ["Searchlights and rescue equipment","Satellite emergency notification devices","Digital safety monitoring systems","Marine evacuation systems (MES)","Weather monitoring stations","Survival craft VHF radios"],
-      navigationEquipment: ["Bridge alert management systems","Echo sounders and sonar systems","Integrated navigation system displays","Integrated bridge systems"],
-      communicationEquipment: ["Public address systems","Satellite communication systems","Global Maritime Distress Safety System (GMDSS)"],
-      entertainmentEquipment: ["Full-service spa and fitness center","Cinema with latest releases","Children's entertainment areas","Dance clubs and live music venues"],
-      accessibilityFeatures: ["Assistive listening devices","Accessible dining facilities","Height-adjustable furniture in select cabins"],
-      environmentalFeatures: ["Advanced water treatment systems","Food waste digesters","Noise reduction technology to minimize impact on marine life","Biodegradable hydraulic fluids","Ballast water management technology"]
+      safetyEquipment: [
+        "Searchlights and rescue equipment",
+        "Satellite emergency notification devices",
+        "Digital safety monitoring systems",
+        "Marine evacuation systems (MES)",
+        "Weather monitoring stations",
+        "Survival craft VHF radios",
+      ],
+      navigationEquipment: [
+        "Bridge alert management systems",
+        "Echo sounders and sonar systems",
+        "Integrated navigation system displays",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Public address systems",
+        "Satellite communication systems",
+        "Global Maritime Distress Safety System (GMDSS)",
+      ],
+      entertainmentEquipment: [
+        "Full-service spa and fitness center",
+        "Cinema with latest releases",
+        "Children's entertainment areas",
+        "Dance clubs and live music venues",
+      ],
+      accessibilityFeatures: [
+        "Assistive listening devices",
+        "Accessible dining facilities",
+        "Height-adjustable furniture in select cabins",
+      ],
+      environmentalFeatures: [
+        "Advanced water treatment systems",
+        "Food waste digesters",
+        "Noise reduction technology to minimize impact on marine life",
+        "Biodegradable hydraulic fluids",
+        "Ballast water management technology",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: false
+    isPetFriendly: false,
   },
   {
     name: "MV Lisbon Legend",
-    description: "Setting sail from the beautiful port of Lisbon, the MV Lisbon Legend is a floating paradise designed for the discerning traveler. This remarkable eco friendly hybrid ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
+    description:
+      "Setting sail from the beautiful port of Lisbon, the MV Lisbon Legend is a floating paradise designed for the discerning traveler. This remarkable eco friendly hybrid ship boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.",
     type: "eco-friendly-hybrid-ship",
     capacity: 1381,
     length: 376,
     width: 66,
     speed: 20,
     yearBuilt: 2012,
-    homePort: {"city":"Lisbon","country":"Portugal","coordinates":{"latitude":38.7169,"longitude":-9.1399}},
+    homePort: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7169, longitude: -9.1399 },
+    },
     specifications: {
       engineType: "Integrated Power Systems",
       fuelCapacity: 12400,
@@ -99,26 +199,56 @@ export const lisbonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Composite Materials",
       classification: "China Classification Society B",
-      safetyEquipment: ["Rescue boats and life rafts","Advanced fire detection and suppression systems","Emergency position indicating radio beacons (EPIRBs)","Hyperbaric treatment chambers","Water purification systems"],
-      navigationEquipment: ["Weather routing systems","Gyrocompasses and magnetic compasses","Echo sounders and sonar systems","Night vision systems"],
-      communicationEquipment: ["Marine radio telephony","Emergency position-indicating radio beacons","Satellite communication systems"],
-      entertainmentEquipment: ["Casino with table games and slot machines","Children's entertainment areas"],
-      accessibilityFeatures: ["Visual alarm systems","Braille signage throughout"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Solar panel supplementation","Exhaust gas cleaning systems"]
+      safetyEquipment: [
+        "Rescue boats and life rafts",
+        "Advanced fire detection and suppression systems",
+        "Emergency position indicating radio beacons (EPIRBs)",
+        "Hyperbaric treatment chambers",
+        "Water purification systems",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Gyrocompasses and magnetic compasses",
+        "Echo sounders and sonar systems",
+        "Night vision systems",
+      ],
+      communicationEquipment: [
+        "Marine radio telephony",
+        "Emergency position-indicating radio beacons",
+        "Satellite communication systems",
+      ],
+      entertainmentEquipment: [
+        "Casino with table games and slot machines",
+        "Children's entertainment areas",
+      ],
+      accessibilityFeatures: [
+        "Visual alarm systems",
+        "Braille signage throughout",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Solar panel supplementation",
+        "Exhaust gas cleaning systems",
+      ],
     },
     isLuxuryVessel: true,
-    isPetFriendly: true
+    isPetFriendly: true,
   },
   {
     name: "TS Lisbon Jewel",
-    description: "Sailing from the picturesque port of Lisbon, the TS Lisbon Jewel represents a new era in cruise experiences. This remarkable mainstream cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
+    description:
+      "Sailing from the picturesque port of Lisbon, the TS Lisbon Jewel represents a new era in cruise experiences. This remarkable mainstream cruise ship combines innovative design with thoughtful amenities, creating an atmosphere of refined elegance and warm hospitality.",
     type: "mainstream-cruise-ship",
     capacity: 1387,
     length: 377,
     width: 66,
     speed: 15,
     yearBuilt: 2021,
-    homePort: {"city":"Lisbon","country":"Portugal","coordinates":{"latitude":38.7169,"longitude":-9.1399}},
+    homePort: {
+      city: "Lisbon",
+      country: "Portugal",
+      coordinates: { latitude: 38.7169, longitude: -9.1399 },
+    },
     specifications: {
       engineType: "Dual-Fuel Marine Engines",
       fuelCapacity: 12440,
@@ -126,14 +256,40 @@ export const lisbonVessels: Vessels[] = [
       propulsionType: "Azipod Electric Propulsion",
       hullMaterial: "Ice-Strengthened Steel",
       classification: "ClassNK NS* (Special Purpose Ship)",
-      safetyEquipment: ["Radar reflectors","Rescue boats and life rafts","Tactical response equipment"],
-      navigationEquipment: ["Weather routing systems","Voyage data recorders (VDRs)","Integrated bridge systems"],
-      communicationEquipment: ["Internal crew communication network","Emergency position-indicating radio beacons"],
-      entertainmentEquipment: ["Observation lounges with panoramic views","Multiple swimming pools and water features","Full-service spa and fitness center","Art gallery and auction facilities","Library and educational facilities"],
-      accessibilityFeatures: ["Service animal accommodations","Accessible medical facilities","Visual alarm systems"],
-      environmentalFeatures: ["Biodegradable hydraulic fluids","Advanced water treatment systems","Noise reduction technology to minimize impact on marine life","Dynamic routing to optimize fuel usage"]
+      safetyEquipment: [
+        "Radar reflectors",
+        "Rescue boats and life rafts",
+        "Tactical response equipment",
+      ],
+      navigationEquipment: [
+        "Weather routing systems",
+        "Voyage data recorders (VDRs)",
+        "Integrated bridge systems",
+      ],
+      communicationEquipment: [
+        "Internal crew communication network",
+        "Emergency position-indicating radio beacons",
+      ],
+      entertainmentEquipment: [
+        "Observation lounges with panoramic views",
+        "Multiple swimming pools and water features",
+        "Full-service spa and fitness center",
+        "Art gallery and auction facilities",
+        "Library and educational facilities",
+      ],
+      accessibilityFeatures: [
+        "Service animal accommodations",
+        "Accessible medical facilities",
+        "Visual alarm systems",
+      ],
+      environmentalFeatures: [
+        "Biodegradable hydraulic fluids",
+        "Advanced water treatment systems",
+        "Noise reduction technology to minimize impact on marine life",
+        "Dynamic routing to optimize fuel usage",
+      ],
     },
     isLuxuryVessel: false,
-    isPetFriendly: true
-  }
+    isPetFriendly: true,
+  },
 ];
