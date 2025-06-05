@@ -248,5 +248,160 @@ export const quebecCityRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Italian Raw Bar",
+    "description": "Experience authentic American cuisine with a local twist, featuring local ingredients served in an atmosphere of artisan markets overlooking downtown.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-418-9848",
+      "contactEmail": "care@canadianchophousequebec-city.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "French Smokehouse",
+    "description": "A culinary gem serving Mediterranean specialties including farm-to-table meals, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-19:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-310-2228",
+      "contactEmail": "hi@americancollectivequebec-city.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "French Trattoria",
+    "description": "A charming Mediterranean restaurant near downtown, offering gourmet street food and other local favorites in a setting with live street performances.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-111-5050",
+      "contactEmail": "communications@frenchtapasbarquebec-city.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Bistro",
+    "description": "A culinary gem serving Mediterranean specialties including regional wines, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-909-7641",
+      "contactEmail": "clientservices@canadianbrasseriequebec-city.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Canadian Lounge",
+    "description": "This popular Italian establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with live street performances.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-555-904-6472",
+      "contactEmail": "clientservices@canadianartisanquebec-city.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

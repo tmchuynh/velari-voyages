@@ -1,20 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Mediterranean Parlor in quebec-city
+ * Menu data for Canadian Lounge in quebec-city
  */
-export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
+export const quebecCitycanadianLoungeMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Our kitchen presents an array of delicious offerings from across the American spectrum",
+    "description": "Where comforting creativity meets timeless Italian inspiration",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Distinctive creations that have become synonymous with our name—prepared with precision and purpose.",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
         "items": [
           {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 35.24,
+            "name": "Chef’s Wild Game Selection",
+            "price": 24.2,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -22,68 +22,26 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Special Surf and Turf",
-            "price": 36.61,
+            "name": "Local Bounty Harvest Plate (Vegetarian)",
+            "price": 36.9,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Platter",
-            "price": 25.45,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 29.3,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Founder's Family Recipe Pasta",
-            "price": 32.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 25.91,
-            "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Molecular Gastronomy Showcase Tasting",
-            "price": 37.89,
+            "name": "Signature Truffle Pasta with Aged Pecorino",
+            "price": 30.08,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
-          }
-        ]
-      },
-      {
-        "name": "Chef's Specials",
-        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for American.",
-        "items": [
+          },
           {
-            "name": "Lobster Thermidor",
-            "price": 36.32,
+            "name": "Wood-Fired Peking Duck with Plum Sauce",
+            "price": 28.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,8 +49,8 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Smoked and Slow-Roasted Heritage Meat",
-            "price": 37.48,
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 30.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -100,8 +58,32 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Live-Fire Grilled Feature",
-            "price": 26.74,
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 35.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 24.8,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          }
+        ]
+      },
+      {
+        "name": "Chef's Specials",
+        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "items": [
+          {
+            "name": "Premium Grilled Crispy Skin Sea Bass",
+            "price": 30.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,8 +91,8 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Custom Tasting Menu Based on Guest Preferences",
-            "price": 30.82,
+            "name": "Authentic Succulent Seasonal Truffle Risotto",
+            "price": 28.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,8 +100,26 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Charcoal-Grilled Wagyu Beef",
-            "price": 33.4,
+            "name": "Authentic Delectable Tableside Flambé Preparation",
+            "price": 27.86,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Succulent Black Garlic Marinated Octopus",
+            "price": 32.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spicy Smoked and Slow-Roasted Heritage Meat",
+            "price": 38.37,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -130,38 +130,11 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "An inviting mix of light fare and bold starters crafted to excite the palate.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Classic Grilled Mini Sliders",
-            "price": 12.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Wholesome Potato Skins",
-            "price": 8.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Succulent Charcuterie Board",
-            "price": 12.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Aromatic Mini Empanadas",
-            "price": 8.54,
+            "name": "Homestyle Crunchy Deviled Eggs",
+            "price": 15.49,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,26 +142,35 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Luscious Nachos",
-            "price": 14.44,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Spicy Arancini",
-            "price": 11.24,
+            "name": "Gourmet Golden Calamari",
+            "price": 10.31,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Premium Comforting Nachos",
+            "price": 14.71,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Sweet Potato Fries",
-            "price": 15.32,
+            "name": "Authentic Irresistible Crostini",
+            "price": 13.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Spiced Stuffed Peppers",
+            "price": 14.3,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -196,32 +178,59 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Authentic Marinated Prawn Toast",
-            "price": 15.52,
+            "name": "Handcrafted Fried Bruschetta",
+            "price": 10.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Tuna Tartare",
+            "price": 12.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Stuffed Stuffed Avocado",
+            "price": 14.08,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Classic and modern takes on soup that reflect our culinary roots and creative spirit.",
         "items": [
           {
-            "name": "Homestyle Comforting Broccoli Cheddar Soup",
-            "price": 7.56,
+            "name": "Broccoli Cheddar Soup",
+            "price": 11.57,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "House Special Luscious Miso Soup",
-            "price": 9.94,
+            "name": "Cabbage Soup",
+            "price": 11.14,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Egg Drop Soup",
+            "price": 8.88,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -229,20 +238,11 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Sautéed Mushroom Soup",
-            "price": 13.86,
+            "name": "Gumbo",
+            "price": 11.16,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Juicy Split Pea Soup",
-            "price": 12.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,47 +250,47 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Fresh-picked greens, vibrant produce, and house dressings made in-house daily.",
+        "description": "Lively salads combining texture, temperature, and taste for a refreshing start or light meal.",
         "items": [
           {
-            "name": "Cobb Salad",
-            "price": 10.94,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 14.55,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Salad",
-            "price": 14.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Beet Salad",
-            "price": 14.43,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Greek Salad",
-            "price": 10.96,
+            "price": 12.65,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Quinoa Salad",
+            "price": 14.99,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 9.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Chickpea Salad",
+            "price": 11.55,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Caesar Salad",
+            "price": 13.51,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,20 +301,20 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "A journey through American flavors, expertly prepared and beautifully presented.",
+        "description": "From farm to table, our mains are a reflection of our commitment to quality and flavor.",
         "items": [
           {
-            "name": "Steak",
-            "price": 23.87,
+            "name": "Lamb Chops",
+            "price": 31.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
+            "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Vegetable Stir-Fry",
-            "price": 26.32,
+            "name": "Stir-fry",
+            "price": 22.38,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -322,27 +322,45 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Katsu Curry",
-            "price": 25.75,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Fajitas",
+            "price": 20.77,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Stuffed Peppers",
-            "price": 27.98,
+            "name": "Jambalaya",
+            "price": 31.22,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Grilled Chicken",
-            "price": 26.13,
+            "name": "Fish and Chips",
+            "price": 27.87,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Thai Curry",
+            "price": 23.34,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pesto Pasta",
+            "price": 22.13,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -350,26 +368,8 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
           },
           {
             "name": "Tagine",
-            "price": 24.6,
+            "price": 21.05,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pulled Pork Sandwich",
-            "price": 22.35,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Coq au Vin",
-            "price": 26.57,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -379,62 +379,80 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "Prepared with simplicity to let the freshness of the sea speak for itself.",
+        "description": "Expertly prepared seafood that highlights the natural flavors of the ocean.",
         "items": [
           {
-            "name": "Grilled Lobster with Lemon Butter",
-            "price": 24.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Italian Cioppino",
-            "price": 24.92,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Lobster Thermidor with Gruyère Crust",
-            "price": 29.46,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Grilled Swordfish with Mango Chutney",
-            "price": 28.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Provençal Bouillabaisse",
-            "price": 31.54,
-            "isVegetarian": false,
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 30.89,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Crab-Stuffed Mushrooms",
+            "price": 23.39,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Grilled Spanish Octopus with Smoked Paprika",
+            "price": 28.23,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Pan-Seared Scallops with Pea Purée",
+            "price": 30.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Shrimp Scampi over Linguine",
+            "price": 33.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "A selection of thoughtfully prepared sides that bring out the best in our mains.",
+        "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Garlic Bread with Herb Butter",
-            "price": 7.81,
+            "name": "Authentic Comforting Roasted Root Vegetables",
+            "price": 7.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Spiced Provencal Ratatouille",
+            "price": 6.3,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Seasonal Grilled Creamed Spinach with Nutmeg",
+            "price": 6.22,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -442,17 +460,8 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Wild Rice Pilaf",
-            "price": 5.82,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 7.57,
+            "name": "Premium Spiced Maple-Glazed Baby Carrots",
+            "price": 9.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -460,8 +469,8 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 9.32,
+            "name": "Fresh Flavorful Corn on the Cob with Chili Lime Butter",
+            "price": 8.59,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -469,20 +478,11 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Flaky Cheddar and Chive Biscuits",
-            "price": 7.99,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Seasonal Roasted Yukon Gold Potato Gratin",
+            "price": 5.42,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Quinoa Pilaf with Herbs",
-            "price": 5.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -493,8 +493,17 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
         "description": "Sophisticated non-alcoholic choices made to complement any dish.",
         "items": [
           {
-            "name": "Gourmet Zesty Lemonade",
-            "price": 4.95,
+            "name": "Authentic Zesty Milkshake",
+            "price": 6.44,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Creamy Iced Tea",
+            "price": 6.12,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -502,8 +511,17 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Juice",
-            "price": 6.06,
+            "name": "Fresh Pan-seared Coffee",
+            "price": 6.66,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Sweet Tea",
+            "price": 7.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,36 +529,18 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Aromatic Tea",
-            "price": 6.36,
+            "name": "Deluxe Smoked Smoothie",
+            "price": 7.13,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Marinated Water",
-            "price": 5,
-            "isVegetarian": true,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Deluxe Creamy Coffee",
-            "price": 4.39,
+            "name": "Homestyle Juicy Hot Chocolate",
+            "price": 7.72,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spiced Smoothie",
-            "price": 4.85,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -552,33 +552,15 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our dessert menu features delicious selections to satisfy every craving",
+    "description": "Handcrafted gooey desserts that celebrate Italian traditions",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Comforting, handmade goods perfect for breakfast, dessert, or anytime in between.",
+        "description": "Artisanal baked items showcasing skill, tradition, and a touch of creativity.",
         "items": [
           {
-            "name": "Traditional Succulent Madeleines",
-            "price": 7.86,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Juicy Pain au Chocolat",
-            "price": 9.27,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Creamy Apple Pie",
-            "price": 6.9,
+            "name": "Apple Pie",
+            "price": 8.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -586,19 +568,37 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Crunchy Berry Tart",
-            "price": 6.04,
+            "name": "Carrot Cake",
+            "price": 8.21,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Berry Tart",
+            "price": 7.13,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Satisfying Banana Bread",
-            "price": 6.15,
+            "name": "Muffins",
+            "price": 7.61,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Galette",
+            "price": 7.26,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -607,38 +607,29 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Indulge in our selection of frozen delights, perfect for any time of year.",
+        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
         "items": [
           {
-            "name": "Baked Alaska",
-            "price": 10,
-            "isVegetarian": false,
+            "name": "Frozen Pie",
+            "price": 10.21,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Custard",
-            "price": 7.63,
-            "isVegetarian": false,
+            "name": "Granita",
+            "price": 9.46,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Frozen Pudding",
-            "price": 11.96,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Frozen Fruit Bars",
-            "price": 11.38,
+            "name": "Frozen Yogurt",
+            "price": 10.03,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -647,7 +638,16 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
           },
           {
             "name": "Gelato",
-            "price": 9.53,
+            "price": 11.27,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Kulfi",
+            "price": 9.82,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,52 +660,52 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "From wines to spirits: fine choices for every palate",
+    "description": "Our bar showcases inviting spirits from around the globe",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "A blend of tradition and innovation, our cocktails are designed to surprise and delight.",
+        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
         "items": [
           {
-            "name": "Whiskey Sour",
-            "price": 11.39,
-            "isVegetarian": false,
+            "name": "Mojito",
+            "price": 14.58,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Negroni",
-            "price": 14.93,
+            "name": "Cosmopolitan",
+            "price": 13.09,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Margarita",
+            "price": 10.17,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Bloody Mary",
-            "price": 14.93,
+            "price": 11.35,
             "isVegetarian": true,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mojito",
-            "price": 11.16,
+            "name": "Martini",
+            "price": 13.88,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 13.1,
-            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -713,18 +713,18 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
           },
           {
             "name": "Manhattan",
-            "price": 14.07,
-            "isVegetarian": true,
+            "price": 15.02,
+            "isVegetarian": false,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 11.39,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Mai Tai",
+            "price": 14.93,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,38 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "Explore our wine list, where each bottle is a testament to craftsmanship and tradition.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Chardonnay",
-            "price": 10.45,
+            "name": "Authentic Tender Dolcetto",
+            "price": 12.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Sizzling Merlot",
+            "price": 10.79,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Roasted Moscato",
+            "price": 13.91,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Aromatic Champagne/Sparkling Wine",
+            "price": 9.85,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,47 +772,20 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chenin Blanc",
-            "price": 12.17,
-            "isVegetarian": false,
+            "name": "Deluxe Spicy Grenache",
+            "price": 13.94,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sauvignon Blanc",
-            "price": 11.42,
+            "name": "Deluxe Tangy Prosecco",
+            "price": 11.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Roussanne",
-            "price": 11.5,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Riesling",
-            "price": 10.02,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gewürztraminer",
-            "price": 8.82,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,20 +793,11 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Start or finish your night with a pour that lingers in memory.",
+        "description": "From classic cocktails to sipping spirits, our bar is stocked with quality and character.",
         "items": [
           {
-            "name": "Classic Crunchy Mezcal",
-            "price": 14.7,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Zingy Frangelico",
-            "price": 15.54,
+            "name": "Hearty Delectable Tequila",
+            "price": 14.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -814,28 +805,37 @@ export const quebecCitymediterraneanParlorMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Sizzling Rum",
-            "price": 16.48,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Juicy Coffee Liqueur",
-            "price": 11.53,
+            "name": "Seasonal Satisfying Rum",
+            "price": 11.16,
             "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Juicy Baileys Irish Cream",
+            "price": 15.81,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Grilled Campari",
-            "price": 13.64,
+            "name": "Authentic Flavorful Kahlúa",
+            "price": 17.03,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Hearty Coffee Liqueur",
+            "price": 17.18,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
