@@ -1,20 +1,20 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for The Lounge in victoria
+ * Menu data for Golden Workshop in victoria
  */
-export const victoriatheLoungeMenu: RestaurantMenu[] = [
+export const victoriagoldenWorkshopMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where delicious creativity meets timeless American inspiration",
+    "description": "Our kitchen presents an array of delicious offerings from across the Mediterranean spectrum",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
+        "description": "Celebrated dishes crafted with premium ingredients and exceptional care, designed to leave a lasting impression.",
         "items": [
           {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 35.24,
+            "name": "Homestyle Zingy Celebrity Favorite Lobster Dish",
+            "price": 25.26,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -22,17 +22,8 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Chef's Childhood Inspired Creation",
-            "price": 26.83,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Sous Vide Perfected Wagyu",
-            "price": 35.9,
+            "name": "Handcrafted Delectable Founder's Family Recipe Pasta",
+            "price": 35.86,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -40,17 +31,17 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Award-Winning Seafood Boil",
-            "price": 37.5,
+            "name": "Deluxe Comforting Wood-Fired Peking Duck with Plum Sauce",
+            "price": 25.23,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
           },
           {
-            "name": "Local Bounty Harvest Plate (Vegetarian)",
-            "price": 24.48,
+            "name": "Hearty Smoked Executive Chef's Daily Inspiration Entrée",
+            "price": 36.63,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -58,8 +49,17 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Restaurant's Namesake Signature Entrée",
-            "price": 28.97,
+            "name": "Homestyle Delectable Molecular Gastronomy Showcase Tasting",
+            "price": 37.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Roasted Charcoal Grilled Iberico Pork",
+            "price": 25.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -67,23 +67,23 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Tasting Menu Experience",
-            "price": 25.54,
+            "name": "Authentic Smoked Black Garlic Glazed Beef Tenderloin",
+            "price": 33.98,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Seasonal offerings crafted by our executive chef, available for a limited time to reflect peak freshness.",
         "items": [
           {
-            "name": "Hearty Grilled Custom Tasting Menu Based on Guest Preferences",
-            "price": 31.07,
+            "name": "Seasonal Truffle Risotto",
+            "price": 38.2,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -91,26 +91,8 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Juicy Tableside Flambé Preparation",
-            "price": 34.26,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Spicy Lobster Thermidor",
-            "price": 37.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Irresistible Heirloom Recipe from Chef's Family",
-            "price": 32.26,
+            "name": "Sous Vide Perfection with Molecular Gastronomy Elements",
+            "price": 36.71,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,11 +100,29 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Flavorful Whole Animal Butchery Showcase",
-            "price": 32.24,
+            "name": "Hand-Selected Wine Pairing Experience",
+            "price": 39.23,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Garlic Marinated Octopus",
+            "price": 30.63,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fire-Roasted Seasonal Centerpiece",
+            "price": 38.32,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -130,76 +130,76 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Appetizers",
-        "description": "Traditional and reimagined American appetizers made for sharing or solo indulgence.",
+        "description": "Traditional and reimagined Mediterranean appetizers made for sharing or solo indulgence.",
         "items": [
           {
-            "name": "Authentic Comforting Edamame",
-            "price": 15.87,
+            "name": "Organic Zingy Lettuce Wraps",
+            "price": 9.67,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Stuffed Shrimp Cocktail",
+            "price": 11.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Hearty Fried Mini Empanadas",
-            "price": 12.17,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Hearty Hearty Antipasto Platter",
-            "price": 8.06,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Zingy Meatballs",
-            "price": 14.44,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Crunchy Cheese Platter",
-            "price": 13.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Sizzling Garlic Knots",
-            "price": 8.1,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Sautéed Spinach Artichoke Dip",
-            "price": 10.18,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Sweet Stuffed Mushrooms",
-            "price": 14.38,
+            "name": "Fresh Spiced Spinach Puffs",
+            "price": 12.95,
             "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Herbed Bruschetta",
+            "price": 14.96,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Fried Edamame",
+            "price": 9.91,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Juicy Mini Tacos",
+            "price": 14.33,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Pan-seared Potato Skins",
+            "price": 12.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Tempura",
+            "price": 12.98,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -208,39 +208,39 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Soups",
-        "description": "Warm, nourishing soups that reflect the heart of American cooking—perfect for any season.",
+        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
         "items": [
           {
-            "name": "Authentic Tangy Lobster Bisque",
-            "price": 11.26,
+            "name": "Organic Crunchy Thai Coconut Soup",
+            "price": 13.44,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Succulent Hot and Sour Soup",
-            "price": 9.64,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Seasonal Enticing Pumpkin Soup",
-            "price": 11.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Traditional Spiced Peanut Soup (West African)",
-            "price": 9.17,
+            "name": "Authentic Steamed Pumpkin Soup",
+            "price": 13.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Deluxe Spiced Hot and Sour Soup",
+            "price": 10.97,
             "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Pan-seared Clam Chowder",
+            "price": 13.13,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -250,47 +250,47 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Each salad is a work of art, designed to nourish and delight.",
+        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
         "items": [
           {
-            "name": "Waldorf Salad",
-            "price": 13.38,
+            "name": "Kale Salad",
+            "price": 9.96,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 14.56,
-            "isVegetarian": false,
+            "name": "Spinach Salad",
+            "price": 9.51,
+            "isVegetarian": true,
             "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 9.36,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Garden Salad",
+            "price": 10.86,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Fruit Salad",
-            "price": 12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 12.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 11.33,
+            "price": 13.25,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,76 +301,76 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Timeless main courses crafted for bold palates and lasting impressions.",
+        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
         "items": [
           {
-            "name": "Thai Curry",
-            "price": 28.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "Classic Fried Vegetable Stir-Fry",
+            "price": 27.77,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Salmon",
-            "price": 21.97,
+            "name": "Deluxe Sweet Tacos",
+            "price": 29.94,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Smoked Paella",
+            "price": 18.56,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Katsu Curry",
+            "price": 23.93,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Fried Shakshuka",
+            "price": 26.76,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Steak",
-            "price": 25.19,
+            "name": "Organic Luscious Shish Kebabs",
+            "price": 31.7,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Pesto Pasta",
-            "price": 18.14,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Burrito",
-            "price": 31.86,
+            "name": "Organic Juicy Quiche",
+            "price": 20.71,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ramen",
-            "price": 27.83,
+            "name": "Deluxe Marinated Coq au Vin",
+            "price": 19.46,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Stuffed Zucchini Boats",
-            "price": 29.72,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Pasta Primavera",
-            "price": 23.21,
-            "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -382,17 +382,8 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
         "description": "Ocean-inspired dishes crafted with respect for delicate textures and bold seasoning.",
         "items": [
           {
-            "name": "Homestyle Flavorful Seared Tuna Steak with Sesame Crust",
-            "price": 29.23,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Fresh Hearty Basa Fillet with Dill Cream Sauce",
-            "price": 24.02,
+            "name": "Alaskan King Crab Legs with Drawn Butter",
+            "price": 29.6,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -400,8 +391,26 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Creamy Classic British Fish and Chips",
-            "price": 27.21,
+            "name": "Prawn Curry in Coconut Masala",
+            "price": 24.38,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Steamed Littleneck Clams in Garlic Broth",
+            "price": 29.61,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Miso-Marinated Chilean Sea Bass",
+            "price": 30.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -409,18 +418,9 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Tangy Prawn Curry in Coconut Masala",
-            "price": 22.8,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Herbed Crab-Stuffed Mushrooms",
-            "price": 32.07,
-            "isVegetarian": false,
+            "name": "Sushi-Grade Sashimi Platter",
+            "price": 23.41,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -433,44 +433,44 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
         "description": "Perfectly balanced additions that elevate your dining experience.",
         "items": [
           {
-            "name": "Sweet Corn and Cheddar Fritters",
-            "price": 7.62,
+            "name": "Grilled Zucchini and Peppers",
+            "price": 5.04,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Quinoa Pilaf with Herbs",
-            "price": 7.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
+            "name": "French Fries",
+            "price": 7.34,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 5.21,
-            "isVegetarian": false,
+            "name": "Fragrant Basmati Rice Pilaf",
+            "price": 5.7,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Sautéed Garlic Mushrooms",
-            "price": 7.05,
-            "isVegetarian": false,
+            "name": "Corn on the Cob with Chili Lime Butter",
+            "price": 9.93,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Braised Red Cabbage with Apple",
-            "price": 9.1,
+            "name": "Crispy Zucchini Fritters",
+            "price": 6.93,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,11 +478,11 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crispy Zucchini Fritters",
-            "price": 9.02,
-            "isVegetarian": false,
+            "name": "Buttered Egg Noodles",
+            "price": 8.19,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -493,44 +493,35 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
         "description": "Cold-pressed, house-infused, and always refreshing.",
         "items": [
           {
-            "name": "Traditional Smoked Milkshake",
-            "price": 6.82,
-            "isVegetarian": false,
+            "name": "Fresh Herbed Juice",
+            "price": 4.03,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Crispy Coffee",
-            "price": 5.35,
-            "isVegetarian": false,
+            "name": "Homestyle Marinated Soda",
+            "price": 7.01,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Smoked Hot Chocolate",
-            "price": 6.47,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Smoked Tea",
-            "price": 6.79,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Delicious Juice",
-            "price": 4.58,
+            "name": "Authentic Pan-seared Tea",
+            "price": 7.88,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "House Special Satisfying Iced Tea",
+            "price": 4.29,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -538,13 +529,22 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Sweet Water",
-            "price": 7.34,
+            "name": "Authentic Herbed Coffee",
+            "price": 5.7,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Aromatic Hot Chocolate",
+            "price": 7.67,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       }
@@ -552,54 +552,54 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "A freshly prepared selection of desserts that celebrate the art of pastry",
+    "description": "Delight in our crowd-pleasing desserts prepared fresh daily",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "A selection of artisanal breads and pastries, baked fresh daily.",
+        "description": "A selection of sweet and savory baked delights, crafted with love and care.",
         "items": [
           {
-            "name": "Pumpkin Pie",
-            "price": 6.68,
+            "name": "Gourmet Pan-seared Chocolate Chip Cookies",
+            "price": 8.34,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Pain au Chocolat",
-            "price": 6.23,
+            "name": "Premium Tender Macarons",
+            "price": 8.27,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Portuguese Custard Tarts",
-            "price": 8.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Soufflé",
-            "price": 9.65,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Red Velvet Cake",
-            "price": 7.47,
+            "name": "Traditional Aromatic Donuts",
+            "price": 9.5,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Sweet Vanilla Cake",
+            "price": 8.15,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Pan-seared Pain au Chocolat",
+            "price": 6.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,20 +607,20 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Icy, sweet finishes with flavor that lingers beyond the chill.",
+        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
         "items": [
           {
-            "name": "Authentic Appetizing Frozen Banana",
-            "price": 8.76,
+            "name": "Authentic Tender Frozen Mousse",
+            "price": 7.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Gourmet Savory Ice Cream Cake",
-            "price": 11.49,
+            "name": "Gourmet Herbed Frozen Yogurt",
+            "price": 8.69,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,31 +628,31 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Frozen Yogurt",
-            "price": 9.17,
-            "isVegetarian": false,
+            "name": "Homestyle Pan-seared Ice Cream Cake",
+            "price": 9.4,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Homestyle Crunchy Frozen Custard",
-            "price": 11.83,
-            "isVegetarian": true,
+            "name": "Authentic Aromatic Frozen Banana",
+            "price": 8.68,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Authentic Spiced Ice Cream",
-            "price": 8.17,
-            "isVegetarian": false,
+            "name": "Deluxe Enticing Gelato",
+            "price": 8.63,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       }
@@ -660,15 +660,33 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A inviting selection of alcoholic beverages to complement your meal",
+    "description": "Our bartenders' quality creations to complete your meal",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each sip tells a story—of ingredients, technique, and passion for mixology.",
+        "description": "Crafted with precision, our cocktails are designed to elevate your dining experience.",
         "items": [
           {
-            "name": "Martini",
-            "price": 10.74,
+            "name": "Gourmet Tangy Manhattan",
+            "price": 13.98,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Tender Bloody Mary",
+            "price": 10.97,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Pan-seared Cosmopolitan",
+            "price": 12.92,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,56 +694,38 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 14.19,
-            "isVegetarian": false,
+            "name": "House Special Mouthwatering Martini",
+            "price": 12.51,
+            "isVegetarian": true,
             "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Spicy Old Fashioned",
+            "price": 12.49,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Old Fashioned",
-            "price": 10.24,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Manhattan",
-            "price": 11.14,
+            "name": "Gourmet Roasted Mai Tai",
+            "price": 11.07,
             "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Margarita",
-            "price": 15.29,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mai Tai",
-            "price": 14.41,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Negroni",
-            "price": 11.09,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Flavorful Mojito",
+            "price": 13.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,11 +733,11 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "New World energy meets Old World elegance in our diverse selection.",
+        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
         "items": [
           {
-            "name": "Deluxe Golden Zinfandel",
-            "price": 10.59,
+            "name": "Vermentino",
+            "price": 9.95,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -745,46 +745,46 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Chardonnay",
-            "price": 12.48,
-            "isVegetarian": false,
+            "name": "Cabernet Franc",
+            "price": 11.92,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flavorful Moscato",
-            "price": 8.46,
+            "name": "Pinot Noir",
+            "price": 13.52,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 13.17,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Champagne/Sparkling Wine",
+            "price": 8.23,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tangy Cabernet Franc",
-            "price": 11.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Steamed Petit Verdot",
-            "price": 9.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Homestyle Luscious Grenache",
-            "price": 8.74,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Riesling",
+            "price": 12.16,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -793,29 +793,29 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Ideal for slow sipping or celebratory toasts—each bottle has a story.",
+        "description": "A curated collection of fine spirits and artisan liqueurs from around the world.",
         "items": [
           {
-            "name": "Tequila",
-            "price": 11.03,
-            "isVegetarian": false,
+            "name": "Premium Herbed St-Germain",
+            "price": 15.72,
+            "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Rum",
-            "price": 10.33,
-            "isVegetarian": true,
+            "name": "Handcrafted Sautéed Absinthe",
+            "price": 17.1,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey",
-            "price": 11.65,
+            "name": "Seasonal Marinated Chartreuse",
+            "price": 13.18,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -823,20 +823,20 @@ export const victoriatheLoungeMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Limoncello",
-            "price": 15.25,
-            "isVegetarian": false,
-            "isVegan": false,
+            "name": "Homestyle Zingy Whiskey",
+            "price": 17.12,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mezcal",
-            "price": 15.55,
-            "isVegetarian": false,
+            "name": "Traditional Spiced Calvados",
+            "price": 12.13,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }

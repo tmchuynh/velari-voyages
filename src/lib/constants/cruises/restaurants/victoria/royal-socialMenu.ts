@@ -1,65 +1,56 @@
 import { RestaurantMenu } from "@/lib/types/types";
 
 /**
- * Menu data for Grand Eatery + Bar in victoria
+ * Menu data for Royal Social in victoria
  */
-export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
+export const victoriaroyalSocialMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Where flavorful creativity meets timeless French inspiration",
+    "description": "A thoughtfully curated lineup of simple American dishes to suit every palate",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "Unforgettable signatures that define who we are and what we serve, crafted to perfection.",
         "items": [
           {
-            "name": "Flambéed Tableside Specialty",
-            "price": 35.61,
+            "name": "Authentic Irresistible Chef's Special Surf and Turf",
+            "price": 30.15,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Savory Age-Old Recipe Osso Buco with Gremolata",
+            "price": 36.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Appetizing Seasonal Tasting Menu Experience",
+            "price": 25.42,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Sautéed Black Garlic Glazed Beef Tenderloin",
+            "price": 35.36,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Seasonal Tasting Platter",
-            "price": 37.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Age-Old Recipe Osso Buco with Gremolata",
-            "price": 26.48,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Whole Roasted Heritage Chicken",
-            "price": 34.84,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Secret Recipe Bouillabaisse",
-            "price": 33.05,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Signature Truffle Pasta with Aged Pecorino",
-            "price": 35.66,
+            "name": "Fresh Luscious Sous Vide Perfected Wagyu",
+            "price": 29.19,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -67,41 +58,32 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Celebrity Favorite Lobster Dish",
-            "price": 28.73,
+            "name": "Homestyle Steamed Crusted Rack of Lamb with Dijon Herb Crust",
+            "price": 37.48,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "House Special Zesty Signature Truffle Pasta with Aged Pecorino",
+            "price": 27.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Chef's Specials",
-        "description": "A hand-picked menu selection that reflects the chef’s current inspirations and exceptional skill.",
+        "description": "A rotating selection of dishes that highlight the chef's creativity and passion for American.",
         "items": [
           {
-            "name": "Tableside Prepared Tartare",
-            "price": 37.79,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Farm-to-Table Vegetable Plate",
-            "price": 27.89,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cedar Plank Salmon",
-            "price": 30.75,
+            "name": "Lobster and Crab Stuffed Ravioli",
+            "price": 39.81,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -109,8 +91,26 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
+            "name": "Sous Vide Pork Tenderloin",
+            "price": 32.27,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
             "name": "High-End Ingredient Showcase",
-            "price": 35.85,
+            "price": 39.9,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Black Garlic Marinated Octopus",
+            "price": 29.17,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -118,13 +118,13 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Duck Confit with Roasted Root Vegetables",
-            "price": 37.46,
+            "name": "Lobster Thermidor",
+            "price": 29.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           }
         ]
       },
@@ -133,26 +133,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
         "description": "Mouthwatering previews of what's to come—crafted to tease and please.",
         "items": [
           {
-            "name": "Traditional Comforting Shrimp Cocktail",
-            "price": 13.01,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Traditional Smoked Caprese Salad",
-            "price": 15.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Traditional Appetizing Samosas",
-            "price": 8.15,
+            "name": "Organic Pan-seared Bruschetta",
+            "price": 13.3,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,17 +142,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Tangy Spring Rolls",
-            "price": 14.33,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Herbed Spinach Artichoke Dip",
-            "price": 11.52,
+            "name": "Fresh Marinated Dumplings",
+            "price": 8.67,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -178,41 +151,86 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Hearty Spicy Falafel",
-            "price": 13.79,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Organic Exquisite Garlic Knots",
-            "price": 13.03,
-            "isVegetarian": true,
+            "name": "Homestyle Herbed Spinach Puffs",
+            "price": 10.93,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Baba Ganoush",
-            "price": 10.34,
+            "name": "Deluxe Zesty Potstickers",
+            "price": 13.53,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Enticing Zucchini Fries",
+            "price": 10.22,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Pan-seared Calamari",
+            "price": 10.12,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
+          },
+          {
+            "name": "House Special Grilled Sweet Potato Fries",
+            "price": 15.45,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Flaky Mini Empanadas",
+            "price": 15.98,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Crafted with care, our soups are a celebration of French flavors and traditions.",
+        "description": "Crafted with care, our soups are a celebration of American flavors and traditions.",
         "items": [
           {
-            "name": "Split Pea Soup",
-            "price": 9.51,
+            "name": "Deluxe Zesty Beef Stew",
+            "price": 12.45,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Hearty Roasted Broccoli Cheddar Soup",
+            "price": 7.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Luscious Tomato Soup",
+            "price": 11.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -220,26 +238,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Beef Stew",
-            "price": 12.57,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Tomato Soup",
-            "price": 12.16,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chicken Noodle Soup",
-            "price": 12.61,
+            "name": "Authentic Savory Chicken Noodle Soup",
+            "price": 13.33,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -250,47 +250,47 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "Crafted with care, our salads are a celebration of freshness and flavor.",
+        "description": "A seasonal showcase of the garden’s bounty—thoughtfully composed and artfully arranged.",
         "items": [
           {
+            "name": "Waldorf Salad",
+            "price": 11.19,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Fruit Salad",
+            "price": 14.77,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
             "name": "Spinach Salad",
-            "price": 9.34,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caprese Salad",
-            "price": 15.08,
+            "price": 14.68,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Orzo Salad",
-            "price": 15.63,
+            "name": "Garden Salad",
+            "price": 9.22,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mango Avocado Salad",
-            "price": 10.06,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Broccoli Crunch Salad",
-            "price": 14,
+            "name": "Thai Green Papaya Salad",
+            "price": 14.56,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -301,56 +301,20 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "From the kitchen to your table, our mains are crafted to delight and satisfy.",
+        "description": "Each plate tells a story—of heritage, ingredients, and expert execution.",
         "items": [
           {
-            "name": "Organic Comforting Paella",
-            "price": 31.41,
+            "name": "Chicken Parmesan",
+            "price": 25.87,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": true
+            "isKosher": false
           },
           {
-            "name": "Hearty Tangy Tacos",
-            "price": 25.07,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Spicy Seafood Platter",
-            "price": 30.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Tender Shish Kebabs",
-            "price": 25.54,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Juicy Burrito",
-            "price": 29.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Satisfying Risotto",
-            "price": 24.97,
+            "name": "Spaghetti Bolognese",
+            "price": 29.02,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -358,8 +322,17 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Grilled Bibimbap",
-            "price": 21.85,
+            "name": "Vegetable Stir-Fry",
+            "price": 18.58,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Risotto",
+            "price": 24.61,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,10 +340,37 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Exquisite Fish and Chips",
-            "price": 21.42,
+            "name": "Grilled Tofu",
+            "price": 27.4,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Katsu Curry",
+            "price": 19.15,
             "isVegetarian": false,
             "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Beef Burger",
+            "price": 19.02,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Chili con Carne",
+            "price": 21.71,
+            "isVegetarian": true,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -379,11 +379,20 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Seafood Specialties",
-        "description": "From the sea to your plate—each dish is a tribute to the ocean’s bounty.",
+        "description": "Celebrations of the sea—light, flavorful, and handled with the utmost care.",
         "items": [
           {
-            "name": "Traditional Hearty Pan-Seared Scallops with Pea Purée",
-            "price": 33.36,
+            "name": "Traditional Zesty Alaskan King Crab Legs with Drawn Butter",
+            "price": 26.28,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Traditional Crispy Shrimp Scampi over Linguine",
+            "price": 23.62,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -391,17 +400,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Seasonal Mouthwatering Sushi-Grade Sashimi Platter",
-            "price": 23.84,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Homestyle Zesty Traditional Provençal Bouillabaisse",
-            "price": 27.78,
+            "name": "Classic Stuffed Stuffed Flounder with Crab and Spinach",
+            "price": 24.7,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,41 +409,32 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Tangy Stuffed Flounder with Crab and Spinach",
-            "price": 33.09,
+            "name": "Gourmet Hearty Seafood Risotto with Saffron",
+            "price": 23.15,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Organic Grilled Alaskan King Crab Legs with Drawn Butter",
-            "price": 24.12,
+            "name": "Authentic Baked Cajun Shrimp and Grits",
+            "price": 23.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Side Dishes",
-        "description": "From roasted vegetables to artisanal grains, our sides are a perfect match for any dish.",
+        "description": "Crafted to enhance your main course, these sides are anything but ordinary.",
         "items": [
           {
-            "name": "Deluxe Tangy Grilled Asparagus with Lemon Zest",
-            "price": 7.19,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Flaky Macaroni and Aged Cheddar",
-            "price": 6.09,
+            "name": "Fresh Irresistible Sweet Potato Wedges with Smoked Paprika",
+            "price": 9.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -451,17 +442,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Traditional Golden Wild Mushroom Risotto",
-            "price": 6.76,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Deluxe Sautéed Mashed Potatoes",
-            "price": 7.7,
+            "name": "Hearty Irresistible Garlic Bread with Herb Butter",
+            "price": 9.8,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -469,8 +451,17 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Savory Crispy Beer-Battered Onion Rings",
-            "price": 9.64,
+            "name": "Hearty Herbed French Fries",
+            "price": 9.12,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Deluxe Marinated Chili Lime Roasted Chickpeas",
+            "price": 7.03,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -478,51 +469,60 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fresh Stuffed Yukon Gold Potato Gratin",
-            "price": 5.98,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Traditional Golden Scalloped Potatoes with Thyme",
+            "price": 5.09,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Authentic Braised Creamy Colcannon (Irish Potato Mash)",
+            "price": 5.18,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Sophisticated non-alcoholic choices made to complement any dish.",
+        "description": "Handcrafted drinks designed to hydrate and delight—no spirits necessary.",
         "items": [
           {
-            "name": "Coffee",
-            "price": 6.19,
+            "name": "Tea",
+            "price": 7.15,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Juice",
-            "price": 7.72,
+            "name": "Water",
+            "price": 5.41,
             "isVegetarian": false,
-            "isVegan": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Lemonade",
-            "price": 6.21,
+            "price": 4.03,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Iced Tea",
-            "price": 4.89,
-            "isVegetarian": false,
+            "name": "Smoothie",
+            "price": 6.95,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
@@ -530,16 +530,16 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
           },
           {
             "name": "Milkshake",
-            "price": 7.34,
+            "price": 5.61,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Soda",
-            "price": 6.23,
+            "name": "Juice",
+            "price": 4.25,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -552,7 +552,7 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Finish on a high note with our crowd-pleasing and memorable sweets",
+    "description": "Our delicious dessert offerings crafted with the finest ingredients",
     "category": [
       {
         "name": "Baked Goods",
@@ -560,7 +560,34 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
         "items": [
           {
             "name": "Pumpkin Pie",
-            "price": 7.7,
+            "price": 9.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Cobbler",
+            "price": 7.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Crumb Cake",
+            "price": 10.03,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Strawberry Shortcake",
+            "price": 7.99,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -568,35 +595,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Muffins",
-            "price": 8.68,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Berry Tart",
-            "price": 9.61,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Danish Pastries",
-            "price": 10.6,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Brownies",
-            "price": 6.31,
+            "name": "Soufflé",
+            "price": 6.34,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -607,11 +607,20 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "Crafted with the finest ingredients, our frozen desserts are a treat for the senses.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Fresh Comforting Frozen Banana",
-            "price": 8.52,
+            "name": "Authentic Zingy Frozen Pie",
+            "price": 7.24,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Fresh Zingy Frozen Yogurt",
+            "price": 10.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -619,8 +628,8 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Classic Fried Popsicles",
-            "price": 9.24,
+            "name": "Gourmet Juicy Ice Cream",
+            "price": 7.99,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -628,26 +637,17 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Organic Flavorful Sherbet",
-            "price": 8.7,
-            "isVegetarian": true,
+            "name": "Gourmet Satisfying Frozen Banana",
+            "price": 8.17,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Handcrafted Appetizing Frozen Fruit Bars",
-            "price": 9.97,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Creamy Frozen Yogurt",
-            "price": 7.99,
+            "name": "Gourmet Exquisite Frozen Fruit Bars",
+            "price": 9,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -660,15 +660,15 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "A quality array of beverages specially selected by our sommeliers",
+    "description": "Indulge in our fine drinks menu crafted to accentuate flavors",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "From reinvented classics to bold new creations, every glass is an experience.",
+        "description": "Sophisticated beverages with depth, character, and a dash of creativity.",
         "items": [
           {
-            "name": "Negroni",
-            "price": 10,
+            "name": "Deluxe Spicy Martini",
+            "price": 13.65,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -676,8 +676,17 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 15.63,
+            "name": "Authentic Comforting Manhattan",
+            "price": 10.84,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": false,
+            "isKosher": false
+          },
+          {
+            "name": "Homestyle Crunchy Negroni",
+            "price": 10.71,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -685,46 +694,37 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Manhattan",
-            "price": 11.27,
+            "name": "Authentic Herbed Whiskey Sour",
+            "price": 13.31,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
+          },
+          {
+            "name": "Classic Juicy Old Fashioned",
+            "price": 13.68,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Sizzling Bloody Mary",
+            "price": 14.67,
             "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Cosmopolitan",
-            "price": 12.41,
-            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Mai Tai",
-            "price": 15.45,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Mojito",
-            "price": 10.5,
-            "isVegetarian": false,
+            "name": "Deluxe Zesty Cosmopolitan",
+            "price": 14.49,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Bloody Mary",
-            "price": 13.16,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
@@ -733,11 +733,38 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "An expertly curated wine list featuring standout bottles from around the globe.",
+        "description": "A diverse collection of varietals and vintages, chosen for quality and character.",
         "items": [
           {
-            "name": "Classic Smoked Roussanne",
-            "price": 12.98,
+            "name": "Verdicchio",
+            "price": 9.25,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Grigio",
+            "price": 11.49,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Albariño",
+            "price": 12.86,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Merlot",
+            "price": 13.79,
             "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
@@ -745,47 +772,20 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Spiced Viognier",
-            "price": 8.93,
+            "name": "Vouvray",
+            "price": 9.1,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Authentic Flaky Vouvray",
-            "price": 12.7,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Handcrafted Juicy Chenin Blanc",
-            "price": 11.12,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "House Special Crispy Albariño",
-            "price": 8.75,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Mouthwatering Petit Verdot",
-            "price": 12.65,
+            "name": "Syrah/Shiraz",
+            "price": 9.68,
             "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -793,11 +793,11 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "Crafted for those who appreciate the art of distillation—each pour is a journey.",
+        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
         "items": [
           {
-            "name": "Kahlúa",
-            "price": 14.49,
+            "name": "Sambuca",
+            "price": 17.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,36 +805,36 @@ export const victoriagrandEateryBarMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Pisco",
-            "price": 16.46,
+            "name": "Baileys Irish Cream",
+            "price": 17.69,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gin",
+            "price": 15.98,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "St-Germain",
-            "price": 10.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Maraschino",
-            "price": 15.56,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Scotch",
-            "price": 13.32,
+            "name": "Limoncello",
+            "price": 11.33,
             "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Whiskey",
+            "price": 16.53,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
