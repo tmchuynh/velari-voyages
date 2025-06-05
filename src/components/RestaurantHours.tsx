@@ -78,7 +78,7 @@ export default function RestaurantHours({
         {days.map((day) => (
           <p
             key={day.name}
-            className={cn("", {
+            className={cn("m-0", {
               "font-extrabold uppercase": currentDay === day.name,
               "text-tertiary": isDarkMode && currentDay === day.name,
               "text-accent": !isDarkMode && currentDay === day.name,
