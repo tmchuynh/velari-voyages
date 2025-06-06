@@ -501,7 +501,7 @@ export default function CrewMembers() {
                       className="flex flex-col justify-between p-0 h-full overflow-hidden"
                     >
                       <CardContent className="p-6">
-                        <div className="flex gap-3">
+                        <div className="flex gap-3 mb-3">
                           <Image
                             src={member.profileImage}
                             alt={member.name}
@@ -556,7 +556,7 @@ export default function CrewMembers() {
                             onClick={() =>
                               handlePageChange(
                                 role,
-                                Math.max(1, currentPage - 1),
+                                Math.max(1, currentPage - 1)
                               )
                             }
                             className={
@@ -584,7 +584,7 @@ export default function CrewMembers() {
                             onClick={() =>
                               handlePageChange(
                                 role,
-                                Math.min(totalPages, currentPage + 1),
+                                Math.min(totalPages, currentPage + 1)
                               )
                             }
                             className={
