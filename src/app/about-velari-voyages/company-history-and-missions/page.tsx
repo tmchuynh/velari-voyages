@@ -68,10 +68,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>1994</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Velari Voyages is Founded
-              </h3>
-              <p className="text-lg">
+              <h3>Velari Voyages is Founded</h3>
+              <p>
                 We launch with a mission to provide custom, luxury travel
                 experiences that place the traveler—not the destination—at the
                 heart of every journey.
@@ -81,7 +79,7 @@ export default function CompanyHistoryAndMissionsPage() {
                 className="mt-2"
                 onClick={() =>
                   router.push(
-                    "/about-velari-voyages/company-history-and-missions/founding-story",
+                    "/about-velari-voyages/company-history-and-missions/founding-story"
                   )
                 }
               >
@@ -93,10 +91,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>1998</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Expansion into South America & the Mediterranean
-              </h3>
-              <p className="text-lg">
+              <h3>Expansion into South America & the Mediterranean</h3>
+              <p>
                 Driven by client demand, we begin curating in-depth itineraries
                 in Argentina, Peru, Morocco, and Southern Europe, expanding our
                 footprint while maintaining our boutique approach.
@@ -107,10 +103,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2005</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Launch of "Private Cultural Access" Program
-              </h3>
-              <p className="text-lg">
+              <h3>Launch of "Private Cultural Access" Program</h3>
+              <p>
                 We pioneer exclusive experiences, offering our travelers rare
                 access to historic landmarks, artisan workshops, and privately
                 hosted cultural events—far beyond the reach of standard tourism.
@@ -121,10 +115,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2010</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                First Major Industry Recognition
-              </h3>
-              <p className="text-lg">
+              <h3>First Major Industry Recognition</h3>
+              <p>
                 Named Best Custom Travel Designer by Luxury Travel Weekly and
                 featured in Condé Nast Traveler's prestigious Specialist List,
                 establishing Velari as a global leader in bespoke travel.
@@ -144,10 +136,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2014</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Serving Over 10,000 Global Travelers
-              </h3>
-              <p className="text-lg">
+              <h3>Serving Over 10,000 Global Travelers</h3>
+              <p>
                 Our clientele now includes family offices, creative
                 professionals, and business leaders—individuals who value
                 privacy, depth, and intentionality.
@@ -158,10 +148,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2017</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Launch of the Sustainability & Heritage Commitment
-              </h3>
-              <p className="text-lg">
+              <h3>Launch of the Sustainability & Heritage Commitment</h3>
+              <p>
                 We formalize our environmental and ethical travel framework,
                 working exclusively with eco-conscious suppliers and supporting
                 locally led initiatives around heritage conservation.
@@ -172,10 +160,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2020</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Reinvention Through Private, Flexible Travel
-              </h3>
-              <p className="text-lg">
+              <h3>Reinvention Through Private, Flexible Travel</h3>
+              <p>
                 Amid global uncertainty, we adapt with agility—offering longer
                 stays, wellness-centric retreats, and fully private travel
                 solutions that provide both peace of mind and personal freedom.
@@ -186,10 +172,8 @@ export default function CompanyHistoryAndMissionsPage() {
           <div className="flex gap-6">
             <h1>2023</h1>
             <div>
-              <h3 className="mb-2 font-semibold text-xl">
-                Named a Top 10 Bespoke Travel Brand
-              </h3>
-              <p className="text-lg">
+              <h3>Named a Top 10 Bespoke Travel Brand</h3>
+              <p>
                 Travel & Leisure recognizes Velari for design excellence,
                 exceptional service, and destination innovation—cementing our
                 reputation among the most respected names in luxury travel.
@@ -243,46 +227,46 @@ export default function CompanyHistoryAndMissionsPage() {
       <section>
         <h2>Our Core Values</h2>
         <div className="gap-6 grid md:grid-cols-2">
-          <Card className="p-6">
-            <h3 className="mb-2 font-semibold text-xl">Intentionality</h3>
-            <p className="text-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
+            <h3>Intentionality</h3>
+            <p>
               Every journey is custom-designed around you. Nothing is
               off-the-shelf—because you're not.
             </p>
-          </Card>
+          </div>
 
-          <Card className="p-6">
-            <h3 className="mb-2 font-semibold text-xl">Excellence</h3>
-            <p className="text-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
+            <h3>Excellence</h3>
+            <p>
               We uphold the highest standards in every detail—from our
               destination partners to our planning ethos.
             </p>
-          </Card>
+          </div>
 
-          <Card className="p-6">
-            <h3 className="mb-2 font-semibold text-xl">Authenticity</h3>
-            <p className="text-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
+            <h3>Authenticity</h3>
+            <p>
               Luxury is not about excess. It's about substance, context, and
               soul.
             </p>
-          </Card>
+          </div>
 
-          <Card className="p-6">
-            <h3 className="mb-2 font-semibold text-xl">Sustainability</h3>
-            <p className="text-lg">
+          <div className="bg-card shadow-sm p-5 border border-border rounded-lg">
+            <h3>Sustainability</h3>
+            <p>
               We protect what we celebrate. Our travel practices reflect a
               long-term commitment to environmental stewardship and cultural
               preservation.
             </p>
-          </Card>
+          </div>
 
-          <Card className="md:col-span-2 p-6">
-            <h3 className="mb-2 font-semibold text-xl">Discretion</h3>
-            <p className="text-lg">
+          <div className="md:col-span-2 bg-card shadow-sm p-5 border border-border rounded-lg">
+            <h3>Discretion</h3>
+            <p>
               Your privacy is not a feature—it's a foundation. We serve quietly,
               intentionally, and with complete respect for your personal space.
             </p>
-          </Card>
+          </div>
         </div>
       </section>
 
