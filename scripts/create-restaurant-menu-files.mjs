@@ -2967,7 +2967,13 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         const cityVar = toCamelCase(cityDir);
         const restaurantVar = toCamelCase(restaurant.name);
 
-        const newFileContent = `import { RestaurantMenu } from "@/lib/types/types";
+        const newFileContent = `
+        // This file is auto-generated
+    // Do not edit manually.
+    // City: ${capitalizeWords(city)}
+    // Generated on: ${new Date().toISOString()}
+        
+        import { RestaurantMenu } from "@/lib/types/types";
 
         /**
          * Menu data for ${restaurant.name} in ${cityDir}
@@ -2975,7 +2981,7 @@ function createMenuFileForRestaurant(cityDir, restaurant) {
         export const ${cityVar}${restaurantVar}Menu: RestaurantMenu[] = ${JSON.stringify(
           menuData,
           null,
-          2,
+          2
         )};
         `;
 
