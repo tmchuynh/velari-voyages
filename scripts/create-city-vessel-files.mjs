@@ -11,6 +11,7 @@ import {
   cityCountryMap,
   cityToRegionMap,
 } from "./utils/geo-utils.mjs";
+import { countryNamePhrases } from "./utils/name-utils.mjs";
 
 /**
  * City Vessel Generator Script
@@ -257,7 +258,10 @@ function listVesselsForCity(cityName, sortOption = "none") {
 // Generate vessel names
 function generateVesselName(cityName, index) {
   const cityDisplayName = capitalizeWords(cityName);
-  const regionName = cityToRegionMap[cityName] || "";
+  const countryName = cityCountryMap[cityName] || "";
+  const phrasesMap = countryNamePhrases[countryName] || [];
+  const randomPhrase =
+    phrasesMap[Math.floor(Math.random() * phrasesMap.length)] || "";
 
   const prefixes = [
     "MS",
@@ -279,57 +283,51 @@ function generateVesselName(cityName, index) {
   ];
 
   const vesselNames = [
-    `${cityDisplayName} Explorer`,
+    `${randomPhrase} Explorer`,
     `${cityDisplayName} Voyager`,
-    `${cityDisplayName} Princess`,
+    `${randomPhrase} of the Deep`,
+    `The ${randomPhrase} Mariner`,
+    `${randomPhrase} Gale`,
+    `${randomPhrase} Odyssey`,
+    `The ${randomPhrase} Empress`,
+    `The ${randomPhrase} Throne`,
     `${cityDisplayName} Legend`,
-    `${cityDisplayName} Jewel`,
-    `${cityDisplayName} Majesty`,
+    `${randomPhrase} Crest`,
+    `The ${randomPhrase} Tide`,
+    `The ${randomPhrase} Oracle`,
+    `${randomPhrase} of Shadows`,
+    `${randomPhrase} Tide`,
+    `The ${randomPhrase}`,
+    `${randomPhrase} Serenity`,
+    `${randomPhrase} Whisperer`,
+    `The ${randomPhrase} Myth`,
+    `The ${randomPhrase} Helm`,
+    `Runeship ${countryName}`,
+    `The ${randomPhrase} of Twilight`,
+    `${randomPhrase} Jewel`,
+    `${randomPhrase} Majesty`,
     `${cityDisplayName} Enchantment`,
-    `${cityDisplayName} Discovery`,
-    `${cityDisplayName} Serenity`,
-    `${cityDisplayName} Horizon`,
+    `${randomPhrase} Crest Voyager`,
+    `${randomPhrase} Discovery`,
+    `${randomPhrase} Horizon`,
     `${cityDisplayName} Splendor`,
-    `${cityDisplayName} Mirage`,
+    `${randomPhrase} Mirage`,
+    `The ${randomPhrase} Tryst`,
     `${cityDisplayName} Sun`,
-    `${cityDisplayName} Pearl`,
-    `${cityDisplayName} Odyssey`,
-    `${cityDisplayName} Nova`,
-    `${cityDisplayName} Mariner`,
+    `${randomPhrase} Pearl`,
+    `${randomPhrase} Nova`,
+    `${randomPhrase} Mariner`,
     `${cityDisplayName} Infinity`,
     `${cityDisplayName} Destiny`,
-    `${cityDisplayName} Symphony`,
+    `${randomPhrase} Symphony`,
     `The Arcane Wave`,
     `The Gilded Leviathan`,
-    `The Obsidian Tide`,
-    `Wyrm’s Wake`,
+    `${randomPhrase} Wake`,
     `The Elven Horizon`,
-    `Mystic Pearl`,
     `Celestial Voyager`,
-    `The Faelight Queen`,
-    `Thalassian Spirit`,
-    `The Azure Griffin`,
-    `The Phoenix Crest`,
-    `Sea of Shadows`,
-    `Isle Whisperer`,
-    `The Wandering Myth`,
-    `The Starlit Helm`,
-    `Runeship ${regionName}`,
-    `The Crown of Twilight`,
-    `The Sapphire Oracle`,
-    `Eclipse of the Deep`,
-    `The Runevein Mariner`,
-    `Wings of the Sea King`,
-    `Twilight Gale`,
-    `The Frostwake Empress`,
-    `Stormborn Oracle`,
-    `The Sunken Throne`,
-    `Lunar Crest Voyager`,
-    `The Siren’s Tryst`,
-    `Myth of the Seven Tides`,
-    `The Aetherwind`,
-    `Throne of the Abyss`,
-    `The Sylvan Tide`,
+    `${randomPhrase} Queen`,
+    `${randomPhrase} Spirit`,
+    `${randomPhrase} Griffin`,
   ];
 
   // For vessels beyond our pre-defined list, generate a numbered name
