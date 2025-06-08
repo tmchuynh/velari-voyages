@@ -1,5 +1,11 @@
 import fs from "fs";
 import path from "path";
+import { getRandomName } from "./utils/name-utils.mjs";
+import {
+  positiveAdjectives,
+  serviceAdjectives,
+  positiveAdjectives,
+} from "./utils/description-utils.mjs";
 import { fileURLToPath } from "url";
 
 // // Basic usage (replaces existing testimonials, generates 6 per restaurant)
@@ -40,7 +46,7 @@ const restaurantsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants",
+  "restaurants"
 );
 
 // Output directory for testimonial files (write to here)
@@ -51,7 +57,7 @@ const testimonialsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials",
+  "testimonials"
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -68,7 +74,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase(),
+      index === 0 ? word.toLowerCase() : word.toUpperCase()
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -157,231 +163,6 @@ function generateTestimonials(restaurantName, count = 5) {
     "Culinary Blogger",
   ];
 
-  const authorFirstNames = [
-    "John",
-    "Emma",
-    "Michael",
-    "Sarah",
-    "David",
-    "Lisa",
-    "Jessica",
-    "Emily",
-    "Andrew",
-    "Laura",
-    "Joshua",
-    "Ashley",
-    "Matthew",
-    "Samantha",
-    "Christopher",
-    "Isabella",
-    "Anthony",
-    "Mia",
-    "Joshua",
-    "Ava",
-    "Ryan",
-    "Charlotte",
-    "Jacob",
-    "Olivia",
-    "Nicholas",
-    "Sophia",
-    "Alexander",
-    "Grace",
-    "Daniel",
-    "Hannah",
-    "James",
-    "Madison",
-    "Ethan",
-    "Abigail",
-    "Benjamin",
-    "Chloe",
-    "William",
-    "Aiden",
-    "Olivia",
-    "Michael",
-    "Emma",
-    "David",
-    "Liam",
-    "Sophia",
-    "Joseph",
-    "Ava",
-    "Samuel",
-    "Isabella",
-    "Matthew",
-    "Emily",
-    "Joshua",
-    "Mia",
-    "Andrew",
-    "Charlotte",
-    "Christopher",
-    "Amelia",
-    "Daniel",
-    "Ella",
-    "Robert",
-    "Jennifer",
-    "William",
-    "Maria",
-    "James",
-    "Sophia",
-    "Daniel",
-    "Olivia",
-    "Matthew",
-    "Elizabeth",
-    "Christopher",
-    "Emily",
-    "Thomas",
-    "Ava",
-    "Alexander",
-    "Grace",
-    "Benjamin",
-    "Chloe",
-    "Ethan",
-    "Hannah",
-    "Lucas",
-    "Madison",
-    "Nathan",
-    "Abigail",
-  ];
-
-  const authorLastNames = [
-    "Smith",
-    "Johnson",
-    "Brown",
-    "Jones",
-    "Garcia",
-    "Miller",
-    "Davis",
-    "Rodriguez",
-    "Martinez",
-    "Hernandez",
-    "Lopez",
-    "Wilson",
-    "Anderson",
-    "Taylor",
-    "Moore",
-    "Jackson",
-    "Martin",
-    "Thompson",
-    "White",
-    "Lee",
-    "Perez",
-    "Thompson",
-    "White",
-    "Clark",
-    "Lewis",
-    "Robinson",
-    "Walker",
-    "Hall",
-    "Allen",
-    "Young",
-    "King",
-    "Wright",
-    "Scott",
-    "Green",
-    "Baker",
-    "Adams",
-    "Nelson",
-    "Carter",
-    "Mitchell",
-    "Perez",
-    "Roberts",
-    "Turner",
-    "Phillips",
-    "Campbell",
-    "Parker",
-    "Evans",
-    "Edwards",
-    "Collins",
-    "Stewart",
-    "Sanchez",
-    "Morris",
-    "Rogers",
-    "Reed",
-    "Cook",
-    "Morgan",
-    "Bell",
-    "Murphy",
-    "Bailey",
-    "Rivera",
-    "Cooper",
-    "Richardson",
-    "Lewis",
-    "Walker",
-    "Young",
-    "Allen",
-    "King",
-    "Wright",
-    "Scott",
-    "Green",
-    "Baker",
-  ];
-
-  const positiveAdjectives = [
-    "amazing",
-    "delicious",
-    "outstanding",
-    "excellent",
-    "incredible",
-    "perfect",
-    "wonderful",
-    "fantastic",
-    "superb",
-    "delightful",
-    "impressive",
-    "exceptional",
-    "remarkable",
-    "fabulous",
-    "spectacular",
-    "brilliant",
-    "awesome",
-    "tasty",
-    "yummy",
-    "satisfying",
-    "appetizing",
-    "mouthwatering",
-    "scrumptious",
-    "delectable",
-    "flavorful",
-    "savory",
-    "succulent",
-    "luscious",
-    "sumptuous",
-    "heavenly",
-    "divine",
-    "irresistible",
-    "tempting",
-    "enchanting",
-    "captivating",
-    "charming",
-    "engaging",
-    "enjoyable",
-    "pleasurable",
-    "refreshing",
-    "inviting",
-    "enticing",
-    "appealing",
-    "seductive",
-    "alluring",
-    "enticing",
-    "seductive",
-    "pleasing",
-    "enjoyable",
-    "sublime",
-    "exquisite",
-    "marvelous",
-    "great",
-    "delectable",
-    "scrumptious",
-    "mouthwatering",
-    "flavorful",
-    "sumptuous",
-    "tempting",
-    "exquisite",
-    "tantalizing",
-    "divine",
-    "heavenly",
-    "satisfying",
-  ];
-
   const foodNouns = [
     "food",
     "meal",
@@ -428,134 +209,9 @@ function generateTestimonials(restaurantName, count = 5) {
     "snacks",
   ];
 
-  const serviceAdjectives = [
-    "attentive",
-    "friendly",
-    "professional",
-    "excellent",
-    "prompt",
-    "efficient",
-    "polite",
-    "courteous",
-    "helpful",
-    "kind",
-    "thoughtful",
-    "accommodating",
-    "responsive",
-    "welcoming",
-    "exceptional",
-    "superb",
-    "remarkable",
-    "outstanding",
-    "impressive",
-    "dedicated",
-    "knowledgeable",
-    "skilled",
-    "charming",
-    "gracious",
-    "respectful",
-    "warm",
-    "inviting",
-    "friendly",
-    "supportive",
-    "engaging",
-    "enthusiastic",
-    "approachable",
-    "efficient",
-    "reliable",
-    "trustworthy",
-    "dependable",
-    "punctual",
-    "diligent",
-    "meticulous",
-    "thorough",
-    "exemplary",
-    "stellar",
-    "top-notch",
-    "first-rate",
-    "superior",
-    "impeccable",
-    "outstanding",
-    "fantastic",
-    "courteous",
-    "helpful",
-    "prompt",
-    "knowledgeable",
-    "exceptional",
-    "wonderful",
-    "superb",
-    "efficient",
-    "gracious",
-    "respectful",
-    "welcoming",
-    "dedicated",
-    "considerate",
-    "timely",
-    "pleasant",
-    "personalized",
-    "thoughtful",
-  ];
-
-  const atmosphereAdjectives = [
-    "cozy",
-    "elegant",
-    "charming",
-    "vibrant",
-    "relaxing",
-    "inviting",
-    "lively",
-    "stylish",
-    "sophisticated",
-    "warm",
-    "welcoming",
-    "intimate",
-    "stylish",
-    "comfortable",
-    "pleasant",
-    "appealing",
-    "delightful",
-    "ambient",
-    "serene",
-    "peaceful",
-    "chic",
-    "sophisticated",
-    "casual",
-    "upscale",
-    "luxurious",
-    "rustic",
-    "chic",
-    "elegant",
-    "modern",
-    "traditional",
-    "artistic",
-    "bohemian",
-    "whimsical",
-    "charming",
-    "inviting",
-    "relaxed",
-    "intimate",
-    "bustling",
-    "energetic",
-    "vibrant",
-    "tranquil",
-    "romantic",
-    "modern",
-    "classic",
-    "refined",
-    "airy",
-    "spacious",
-    "rustic",
-    "lively",
-  ];
-
   const testimonials = [];
 
   for (let i = 0; i < count; i++) {
-    const firstName =
-      authorFirstNames[Math.floor(Math.random() * authorFirstNames.length)];
-    const lastName =
-      authorLastNames[Math.floor(Math.random() * authorLastNames.length)];
-    const fullName = `${firstName} ${lastName}`;
     const title =
       professionalTitles[Math.floor(Math.random() * professionalTitles.length)];
 
@@ -638,7 +294,7 @@ function generateTestimonials(restaurantName, count = 5) {
     // Create a testimonial that matches the interface
     const testimonial = {
       quote: templates[Math.floor(Math.random() * templates.length)],
-      author: fullName,
+      author: getRandomName(),
       title: title,
       // Add image for some testimonials (30% chance)
       ...(Math.random() < 0.3 && {
@@ -668,14 +324,14 @@ function extractExistingTestimonials(filePath) {
       console.log(`DEBUG: File exists: ${fs.existsSync(filePath)}`);
       console.log(`DEBUG: File size: ${content.length} bytes`);
       console.log(
-        `DEBUG: File content preview: ${content.substring(0, 100)}...`,
+        `DEBUG: File content preview: ${content.substring(0, 100)}...`
       );
     }
 
     // Try to extract the array portion of the file with a more robust regex
     // This looks for the export statement and captures everything between the array brackets
     const arrayMatch = content.match(
-      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/,
+      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/
     );
 
     if (!arrayMatch) {
@@ -702,7 +358,7 @@ function extractExistingTestimonials(filePath) {
 
       if (DEBUG_MODE) {
         console.log(
-          `DEBUG: Successfully parsed ${parsedData.length} testimonials`,
+          `DEBUG: Successfully parsed ${parsedData.length} testimonials`
         );
       }
 
@@ -722,7 +378,7 @@ function extractExistingTestimonials(filePath) {
 
         if (DEBUG_MODE) {
           console.log(
-            `DEBUG: Fallback method successful, found ${result.length} testimonials`,
+            `DEBUG: Fallback method successful, found ${result.length} testimonials`
           );
         }
 
@@ -742,7 +398,7 @@ function extractExistingTestimonials(filePath) {
 function generateTestimonialFileContent(
   cityName,
   restaurantName,
-  existingTestimonials = [],
+  existingTestimonials = []
 ) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
@@ -750,7 +406,7 @@ function generateTestimonialFileContent(
   // Generate new testimonials
   const newTestimonials = generateTestimonials(
     restaurantName,
-    parseInt(TESTIMONIAL_COUNT),
+    parseInt(TESTIMONIAL_COUNT)
   );
 
   // Combine with existing testimonials if in append mode
@@ -763,16 +419,23 @@ function generateTestimonialFileContent(
     const expectedCount = existingTestimonials.length + newTestimonials.length;
     if (testimonials.length !== expectedCount) {
       console.error(
-        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`,
+        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`
       );
     } else if (DEBUG_MODE) {
       console.log(
-        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`,
+        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`
       );
     }
   }
 
-  return `import { Testimonial } from "@/lib/interfaces/services/testimonials";
+  return `
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: ${capitalizeWords(city)}
+    // Generated on: ${new Date().toISOString()}
+  
+  import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
 /**
  * Testimonial data for ${restaurantName} in ${cityName}
@@ -780,7 +443,7 @@ function generateTestimonialFileContent(
 export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = ${JSON.stringify(
     testimonials,
     null,
-    2,
+    2
   )};
 `;
 }
