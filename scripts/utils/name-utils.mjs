@@ -151,6 +151,7 @@ export const feminineNames = [
   "Victoria",
   "Riley",
   "Aria",
+  "Joshua",
   "Lily",
   "Hannah",
   "Layla",
@@ -161,6 +162,7 @@ export const feminineNames = [
   "Leah",
   "Savannah",
   "Audrey",
+  "Christopher",
   "Claire",
   "Eleanor",
   "Skylar",
@@ -173,6 +175,7 @@ export const feminineNames = [
   "Genesis",
   "Aaliyah",
   "Kennedy",
+  "Matthew",
   "Kinsley",
   "Allison",
   "Maya",
@@ -219,7 +222,9 @@ export const feminineNames = [
   "Pamela",
   "Nicole",
   "Samantha",
+  "Alexander",
   "Katherine",
+  "Nicholas",
   "Christine",
   "Janet",
   "Catherine",
@@ -247,6 +252,7 @@ export const lastNames = [
   "Coleman",
   "Collins",
   "Cooper",
+  "Charlotte",
   "Crawford",
   "Curtis",
   "Day",
@@ -254,6 +260,7 @@ export const lastNames = [
   "Dixon",
   "Douglas",
   "Dunn",
+  "Olivia",
   "Ellis",
   "Fisher",
   "Fletcher",
@@ -303,6 +310,8 @@ export const lastNames = [
   "Wells",
   "West",
 ];
+
+
 
 /**
  * Get a random name
