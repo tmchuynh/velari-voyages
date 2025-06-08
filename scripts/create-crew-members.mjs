@@ -1,10 +1,69 @@
+/**
+ * @fileoverview Script to generate or update crew member data for Velari Voyages.
+ *
+ * This script creates JSON files for crew members, organized by city of origin.
+ * It can generate a complete set of crew members for all designated cities or
+ * target a specific city. It also supports adding more crew members to an
+ * existing city's roster, optionally filtering by department and role.
+ *
+ * Generated crew members have names, gender, languages spoken (based on their
+ * country of origin), a unique ID, a randomly generated bio, and assigned
+ * department and role based on a predefined structure.
+ *
+ * Usage:
+ *
+ * 1. Basic Generation (All Cities):
+ *    Generates crew members for all cities defined in `cityFiles`.
+ *    If crew files already exist, they will be skipped unless `--force=true` is used.
+ *    $ node scripts/create-crew-members.mjs
+ *
+ * 2. Generate/Overwrite for a Specific City:
+ *    Generates crew for "Miami" and overwrites if `miami.json` already exists.
+ *    $ node scripts/create-crew-members.mjs --city=miami --force=true
+ *
+ * 3. Add More Crew to a Specific City & Department:
+ *    Adds more crew members to "Miami" specifically for the "Engineering Department".
+ *    The number of crew added will be based on the `departmentStructure` or a default.
+ *    $ node scripts/create-crew-members.mjs --city=miami --department="Engineering Department"
+ *
+ * 4. Add Specific Number of Crew to a City, Department & Role:
+ *    Adds 2 "Mechanical Engineer"s to the "Engineering Department" in "Miami".
+ *    $ node scripts/create-crew-members.mjs --city=miami --department="Engineering Department" --role="Mechanical Engineer" --count=2
+ *
+ * Command-Line Arguments:
+ *   --city=<city-name>       (Optional) Target a specific city (e.g., "miami", "new-york-city").
+ *                            If omitted, processes all cities.
+ *   --force=<true|false>     (Optional) If true, overwrites existing crew files. Default is false.
+ *   --department="<Dept Name>" (Optional) Target a specific department for adding crew.
+ *                            Requires --city. (e.g., "Deck Department")
+ *   --role="<Role Name>"       (Optional) Target a specific role for adding crew.
+ *                            Requires --city and --department. (e.g., "Captain")
+ *   --count=<number>         (Optional) Number of crew members to add.
+ *                            Requires --city. Used with --department and --role for specificity.
+ *                            If adding to a department without a role, this count is per department.
+ *                            If adding to a role, this is the count for that specific role.
+ *
+ * File Structure:
+ *   - Output files are saved in `src/lib/constants/crew/<city-name>.json`
+ *   - Each JSON file contains an array of crew member objects.
+ *
+ * Dependencies:
+ *   - `fs`, `path`, `url`: Node.js built-in modules for file system operations.
+ *   - `./utils/file-utils.mjs`: For `getCityFiles` to list available cities.
+ *   - `./utils/geo-utils.mjs`: For `cityCountryMap` (city to country mapping) and
+ *     `cityToRegionMap` (city to broader region mapping).
+ *   - `./data-generator.mjs`: For `getRandomInt`.
+ *   - `./utils/name-utils.mjs`: For `getRandomName` to generate realistic names.
+ *   - `./utils/language-utils.mjs`: For `getRandomLanguages` to assign languages based on country/region.
+ */
 import fs from "fs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 import { getCityFiles } from "./utils/file-utils.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
+import { getRandomInt } from "./data-generator.mjs";
+import { getRandomName } from "./utils/name-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
-import { feminineNames, masculineNames } from "./utils/name-utils.mjs";
 
 // // Basic usage
 // node scripts/create-crew-members.mjs
@@ -286,11 +345,11 @@ let cruiseDepartureLocations = [];
 try {
   const cityTsFile = fs.readFileSync(
     path.join(__dirname, "../src/lib/constants/info/city.ts"),
-    "utf8",
+    "utf8"
   );
   // Extract the cruiseDepartureLocations array using regex
   const locationsMatch = cityTsFile.match(
-    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/,
+    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/
   );
   if (locationsMatch && locationsMatch[1]) {
     // Basic string manipulation to make it valid JSON (remove type annotations and convert to proper JSON)
@@ -1185,16 +1244,17 @@ function determineGenderFromName(firstName) {
 }
 
 // Function to generate a crew member
-function generateCrewMember(city, department, role, index) {
-  // Get city data from cruiseDepartureLocations
-  const cityData = cruiseDepartureLocations.find(
-    (location) =>
-      location.city.toLowerCase() ===
-      formatKebebToTitleCase(city).toLowerCase(),
+function generateCrewMember(city) {
+  const useFeminineName = Math.random() > 0.5;
+  const name = getRandomName(useFeminineName);
+  const gender = useFeminineName ? "women" : "men";
+  const country = cityCountryMap[city.toLowerCase().replace(/ /g, "-")];
+  const languages = getRandomLanguages(
+    getRandomInt(3, 5),
+    country ||
+      cityToRegionMap[city.toLowerCase().replace(/ /g, "-")] ||
+      "global"
   );
-
-  const countryName = cityCountryMap[city] || "";
-  const regionName = cityToRegionMap[city] || "";
 
   // If city not found in cruiseDepartureLocations, use a default
   const defaultLocation = {
@@ -1215,59 +1275,9 @@ function generateCrewMember(city, department, role, index) {
     namesByRegion.global.last[
       Math.floor(Math.random() * namesByRegion.global.last.length)
     ];
-  const name = `${firstName} ${lastName}`;
+  const fullName = `${firstName} ${lastName}`;
 
   const experienceYears = Math.floor(Math.random() * 20) + 3; // 5-20 years
-
-  // Generate random languages based on region
-  const region = cityToRegionMap[city] || "";
-  let regionForLanguages;
-
-  // Map maritime regions to language regions
-  switch (region) {
-    case "Mediterranean":
-    case "Northern Europe":
-    case "Western Europe":
-      regionForLanguages = "europe";
-      break;
-
-    case "Asia Pacific":
-      regionForLanguages = "asia";
-      break;
-
-    case "Caribbean":
-    case "East Coast USA":
-    case "West Coast USA":
-    case "East Coast Canada":
-    case "South America":
-      regionForLanguages = "americas";
-      break;
-
-    case "Middle East":
-      regionForLanguages = "middleEast";
-      break;
-
-    case "Africa":
-      regionForLanguages = "africa";
-      break;
-
-    default:
-      regionForLanguages = "global";
-      break;
-  }
-
-  // Get appropriate languages for crew member
-  const languageCount = Math.floor(Math.random() * 3) + 2; // 2-4 languages
-  const selectedLanguages = getRandomLanguages(
-    languageCount,
-    regionForLanguages,
-  );
-  const languages = selectedLanguages.map((lang) => lang.name);
-
-  // For simplicity, always include English if not already
-  if (!languages.includes("English")) {
-    languages.push("English");
-  }
 
   // Generate bio using templates based on role
   let bio;
@@ -1276,7 +1286,7 @@ function generateCrewMember(city, department, role, index) {
 
   // Fill in bio template variables
   bio = template
-    .replace("{name}", name)
+    .replace("{name}", fullName)
     .replace("{lastName}", lastName)
     .replace("{experience}", experienceYears)
     .replace("{role}", role)
@@ -1286,7 +1296,7 @@ function generateCrewMember(city, department, role, index) {
   if (bio.includes("{background}")) {
     bio = bio.replace(
       "{background}",
-      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)],
+      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)]
     );
   }
 
@@ -1295,25 +1305,24 @@ function generateCrewMember(city, department, role, index) {
       "{specialty}",
       engineeringSpecialties[
         Math.floor(Math.random() * engineeringSpecialties.length)
-      ],
+      ]
     );
   }
 
   if (bio.includes("{cuisine}")) {
     bio = bio.replace(
       "{cuisine}",
-      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)],
+      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)]
     );
   }
 
   // Generate profile image using randomuser.me
   // Determine gender based on first name
-  const gender = decision ? "women" : "men";
   const randomId = Math.floor(Math.random() * 99); // Random number for the image
   const profileImage = `https://randomuser.me/api/portraits/${gender}/${randomId}.jpg`;
 
   return {
-    name,
+    name: fullName,
     role,
     department,
     bio,
@@ -1332,7 +1341,7 @@ function generateCityCrewMembers(
   city,
   specificDepartment = null,
   specificRole = null,
-  count = 1,
+  count = 1
 ) {
   const crewMembers = [];
 
@@ -1365,14 +1374,14 @@ function readExistingCrewMembers(city) {
   const filePath = path.join(
     __dirname,
     "../src/lib/constants/crewMembers",
-    `${city}.ts`,
+    `${city}.ts`
   );
 
   if (fs.existsSync(filePath)) {
     try {
       const fileContent = fs.readFileSync(filePath, "utf8");
       const match = fileContent.match(
-        /export const [a-zA-Z0-9_]+ = (\[[\s\S]*\]);/,
+        /export const [a-zA-Z0-9_]+ = (\[[\s\S]*\]);/
       );
       if (match && match[1]) {
         return JSON.parse(match[1]);
@@ -1398,17 +1407,23 @@ function writeCrewMembersToFile(city, crewMembers, append = false) {
       // Combine existing and new crew members
       crewMembers = [...existingCrewMembers, ...crewMembers];
       console.log(
-        `Added ${crewMembers.length - existingCrewMembers.length} new crew members to existing ${existingCrewMembers.length} for ${city}`,
+        `Added ${crewMembers.length - existingCrewMembers.length} new crew members to existing ${existingCrewMembers.length} for ${city}`
       );
     }
   }
 
-  const fileContent = `import { CrewMember } from "@/lib/interfaces/people/staff";
+  const fileContent = `
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: ${capitalizeWords(city)}
+    // Generated on: ${new Date().toISOString()}
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
     crewMembers,
     null,
-    2,
+    2
   )};
 `;
 
@@ -1419,7 +1434,7 @@ export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
 
   fs.writeFileSync(filePath, fileContent);
   console.log(
-    `Generated crew members file for ${city} with ${crewMembers.length} members`,
+    `Generated crew members file for ${city} with ${crewMembers.length} members`
   );
 }
 
@@ -1450,7 +1465,7 @@ async function main() {
     const filePath = path.join(
       __dirname,
       "../src/lib/constants/crewMembers",
-      `${specificCity}.ts`,
+      `${specificCity}.ts`
     );
 
     const fileExists = fs.existsSync(filePath);
@@ -1462,7 +1477,7 @@ async function main() {
         specificCity,
         specificDepartment,
         specificRole,
-        count,
+        count
       );
       writeCrewMembersToFile(specificCity, crewMembers, true);
     } else if (!fileExists || force) {
@@ -1471,7 +1486,7 @@ async function main() {
       writeCrewMembersToFile(specificCity, crewMembers, false);
     } else {
       console.log(
-        `Crew file for ${specificCity} already exists. Use --force=true to overwrite or specify department/role to add more.`,
+        `Crew file for ${specificCity} already exists. Use --force=true to overwrite or specify department/role to add more.`
       );
     }
   } else {
@@ -1480,7 +1495,7 @@ async function main() {
       const filePath = path.join(
         __dirname,
         "../src/lib/constants/crewMembers",
-        `${city}.ts`,
+        `${city}.ts`
       );
 
       if (!fs.existsSync(filePath) || force) {
@@ -1488,7 +1503,7 @@ async function main() {
         writeCrewMembersToFile(city, crewMembers, false);
       } else {
         console.log(
-          `Skipping ${city} - crew file already exists. Use --force=true to overwrite.`,
+          `Skipping ${city} - crew file already exists. Use --force=true to overwrite.`
         );
       }
     }
