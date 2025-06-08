@@ -210,12 +210,18 @@ const generateRestaurantsForCity = (cityName) => {
     newCount,
   ) => {
     // Generate the file content
-    const fileContent = `import { Restaurant } from "@/lib/types/types";
+    const fileContent = `
+    // This file is auto-generated
+    // Do not edit manually.
+    // City: ${capitalizeWords(city)}
+    // Generated on: ${new Date().toISOString()}
+    
+    import { Restaurant } from "@/lib/types/types";
 
 export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       restaurants,
       null,
-      2,
+      2
     )};
 `;
 
