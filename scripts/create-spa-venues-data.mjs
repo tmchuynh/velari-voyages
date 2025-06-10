@@ -85,6 +85,7 @@ import {
   getRandomInt,
   getRandomBool,
   generateRandomEmail,
+  generateRandomPhoneNumber,
 } from "./utils/data-generator.mjs";
 import {
   getCityFiles,
@@ -865,31 +866,387 @@ const spaNameThemes = {
 
 // Regional spa specialties
 const regionalSpecialties = {
-  "Northern Europe": [
-    "Hot Stone Therapy",
-    "Nordic Sauna Rituals",
-    "Ice Therapy",
+  "Greek Islands": [
+    "Aegean Sea Salt Scrub",
+    "Olive Oil Body Wrap",
+    "Volcanic Mud Therapy",
   ],
-  Mediterranean: [
-    "Olive Oil Treatments",
-    "Sea Salt Therapies",
-    "Thermal Treatments",
+  "Mainland Greece": [
+    "Thalassotherapy",
+    "Herbal Steam Ritual",
+    "Ancient Greek Bath Rituals",
   ],
-  Caribbean: [
+
+  "Southern Italy": [
+    "Lemon Zest Scrub",
+    "Mediterranean Clay Wrap",
+    "Thermal Mineral Baths",
+  ],
+  "Central Italy": [
+    "Tuscan Wine Therapy",
+    "Etruscan Mud Wrap",
+    "Rosemary & Olive Oil Massage",
+  ],
+  "Northern Italy": [
+    "Alpine Herb Compress",
+    "Thermal Spring Soak",
+    "Truffle Facial Treatments",
+  ],
+
+  Catalonia: [
+    "Mediterranean Sea Salt Polish",
+    "Catalan Wine Body Wrap",
+    "Olive Oil Scalp Treatment",
+  ],
+  "Southern Spain": [
+    "Andalusian Orange Blossom Facial",
+    "Moorish Hammam Ritual",
+    "Hot Sand Massage",
+  ],
+  "Western Spain": [
+    "Madrid Herbal Infusions",
+    "Sea Salt Foot Soak",
+    "Thermal Spring Therapy",
+  ],
+
+  Portugal: [
+    "Azorean Volcanic Stone Massage",
+    "Portuguese Cork Body Scrub",
+    "Port Wine Infused Facial",
+  ],
+
+  "French Riviera": [
+    "Lavender Oil Massage",
+    "Sea Breeze Mineral Wrap",
+    "Côte d’Azur Clay Mask",
+  ],
+  France: [
+    "Champagne Body Treatment",
+    "Provence Lavender Ritual",
+    "Grape Seed Exfoliation",
+  ],
+
+  "Croatian Coast": [
+    "Adriatic Sea Mud Wrap",
+    "Lavender Compress",
+    "Olive Stone Exfoliation",
+  ],
+  Croatia: [
+    "Thermal Spring Facial",
+    "Mountain Herb Massage",
+    "Sea Salt Therapy",
+  ],
+  "Bosnia and Herzegovina": [
+    "Dinaric Mineral Soak",
+    "River Stone Massage",
+    "Forest Herb Steam",
+  ],
+  Serbia: ["Vojvodina Mud Mask", "Thermal Spring Bath", "Local Herb Compress"],
+  Georgia: ["Wine Grape Facial", "Sulfur Bath Ritual", "Caucasus Honey Wrap"],
+
+  Malta: [
+    "Sea Breeze Exfoliation",
+    "Maltese Honey Mask",
+    "Mediterranean Algae Wrap",
+  ],
+  Netherlands: [
+    "Dutch Mud Therapy",
+    "Tulip Oil Massage",
+    "North Sea Salt Scrub",
+  ],
+  England: ["Cotswold Lavender Wrap", "Epsom Salt Soak", "Tea Infused Facial"],
+  Scotland: [
+    "Highland Heather Wrap",
+    "Lochside Stone Therapy",
+    "Whisky Infused Skin Treatment",
+  ],
+  Ireland: ["Seaweed Bath Ritual", "Irish Moss Facial", "Celtic Herb Compress"],
+
+  Germany: [
+    "Bavarian Beer Body Mask",
+    "Black Forest Herbal Wrap",
+    "Mineral Spring Soak",
+  ],
+  Scandinavia: [
+    "Nordic Sauna Cycle",
+    "Glacial Ice Therapy",
+    "Lingonberry Facial",
+  ],
+  Denmark: ["Sea Kelp Wrap", "Nordic Massage", "Salt Island Scrub"],
+  Norway: [
+    "Fjord Water Therapy",
+    "Birch Bark Sauna",
+    "Arctic Cloudberry Facial",
+  ],
+  Finland: ["Traditional Smoke Sauna", "Arctic Peat Mask", "Ice Bath Recovery"],
+  Iceland: [
+    "Blue Lagoon Silica Mask",
+    "Geothermal Mud Treatment",
+    "Volcanic Ash Scrub",
+  ],
+  Russia: [
+    "Banya Steam Ritual",
+    "Siberian Pine Oil Massage",
+    "Amber Stone Therapy",
+  ],
+  Latvia: [
+    "Baltic Sea Salt Wrap",
+    "Amber Facial",
+    "Birch Whisk Sauna Treatment",
+  ],
+  Austria: ["Alpine Meadow Wrap", "Mountain Salt Therapy", "Thermal Spa Bath"],
+  "Czech Republic": [
+    "Karlovy Vary Mud Treatment",
+    "Beer Spa Therapy",
+    "Bohemian Herb Infusion",
+  ],
+  Hungary: [
+    "Budapest Thermal Bath",
+    "Paprika Detox Wrap",
+    "Hungarian Mud Facial",
+  ],
+
+  Japan: ["Onsen Soak", "Sakura Blossom Facial", "Green Tea Detox Mask"],
+  China: [
+    "Jade Stone Massage",
+    "Ginseng Rejuvenation Facial",
+    "Tui Na Body Therapy",
+  ],
+  "South Korea": [
+    "Jeju Volcanic Mask",
+    "Korean Scrub Ritual",
+    "Snail Mucin Facial",
+  ],
+  Taiwan: ["Hot Spring Therapy", "Oolong Tea Wrap", "Taiwanese Herbal Facial"],
+  Thailand: [
+    "Thai Herbal Compress",
     "Coconut Oil Massage",
-    "Tropical Fruit Facials",
-    "Aloe Treatments",
+    "Tamarind Body Polish",
   ],
-  "Asia Pacific": [
-    "Traditional Asian Massage",
-    "Green Tea Treatments",
-    "Jade Stone Therapy",
+  Vietnam: ["Mekong Mud Wrap", "Rice Milk Facial", "Lotus Leaf Steam"],
+  Cambodia: [
+    "Khmer Herb Compress",
+    "Tropical Fruit Scrub",
+    "Temple Stone Therapy",
   ],
-  "North America": [
-    "Native Botanical Treatments",
-    "Seasonal Wellness Programs",
+  Nepal: [
+    "Himalayan Salt Stone Massage",
+    "Bodhi Tree Ritual",
+    "Yak Milk Moisture Mask",
   ],
-  "South America": ["Amazonian Plant Therapies", "Andean Stone Treatments"],
+  India: [
+    "Ayurvedic Abhyanga Massage",
+    "Turmeric Detox Wrap",
+    "Shirodhara Therapy",
+  ],
+  Indonesia: [
+    "Balinese Boreh Wrap",
+    "Jamu Herbal Facial",
+    "Frangipani Oil Massage",
+  ],
+  Singapore: [
+    "Orchid Infusion Facial",
+    "Urban Detox Wrap",
+    "Botanical Steam Treatment",
+  ],
+  "French Polynesia": [
+    "Monoi Oil Massage",
+    "Tiare Flower Facial",
+    "Lagoon Mud Wrap",
+  ],
+  Fiji: ["Coconut Husk Scrub", "Sugar Cane Exfoliation", "Kava Root Mask"],
+  Vanuatu: [
+    "Island Volcano Mud Wrap",
+    "Tropical Fruit Mask",
+    "Rainforest Steam Therapy",
+  ],
+  Australia: ["Eucalyptus Oil Massage", "Desert Clay Wrap", "Tea Tree Facial"],
+  "New Zealand": [
+    "Rotorua Mud Therapy",
+    "Manuka Honey Mask",
+    "Thermal Spring Soak",
+  ],
+
+  California: [
+    "Wine Country Grape Peel",
+    "Sea Kelp Detox Wrap",
+    "Golden State Citrus Facial",
+  ],
+  "Pacific Northwest": [
+    "Rainforest Herbal Wrap",
+    "Evergreen Steam Ritual",
+    "Cedarwood Oil Massage",
+  ],
+  Texas: [
+    "Hill Country Lavender Wrap",
+    "Desert Mineral Mask",
+    "Mesquite Honey Facial",
+  ],
+  Nevada: [
+    "Desert Clay Body Wrap",
+    "Hot Stone Canyon Therapy",
+    "Cactus Blossom Facial",
+  ],
+  Florida: [
+    "Citrus Peel Body Polish",
+    "Everglades Herbal Wrap",
+    "Seashell Massage",
+  ],
+  "East Coast USA": [
+    "Atlantic Seaweed Wrap",
+    "Colonial Garden Herb Facial",
+    "Urban Detox Mask",
+  ],
+  "Southeast USA": [
+    "Magnolia Oil Massage",
+    "Sweet Tea Scrub",
+    "Peach Blossom Facial",
+  ],
+  "Midwest USA": [
+    "Prairie Herb Infusion",
+    "Cornflower Facial",
+    "Great Lakes Mineral Bath",
+  ],
+
+  Alaska: [
+    "Glacial Stone Massage",
+    "Aurora Borealis Facial",
+    "Tundra Moss Wrap",
+  ],
+  "British Columbia": [
+    "Cedar Forest Sauna",
+    "Pacific Ocean Salt Scrub",
+    "Sea Kelp Facial",
+  ],
+  Hawaii: ["Lomi Lomi Massage", "Plumeria Body Wrap", "Volcanic Clay Facial"],
+
+  Ontario: [
+    "Maple Sugar Scrub",
+    "Niagara Mist Therapy",
+    "Urban Renewal Facial",
+  ],
+  Quebec: ["Nordic Spa Cycle", "Ice Wine Facial", "Thermal Stone Massage"],
+
+  Mexico: ["Mayan Clay Wrap", "Cacao Body Polish", "Agave Nectar Facial"],
+  Panama: [
+    "Canal Mud Mask",
+    "Tropical Rainforest Body Scrub",
+    "Coffee Infusion Wrap",
+  ],
+  Colombia: [
+    "Coffee Bean Scrub",
+    "Amazon Herb Facial",
+    "Emerald Stone Therapy",
+  ],
+  Peru: [
+    "Inca Gold Mask",
+    "Sacred Valley Stone Massage",
+    "Coca Leaf Body Wrap",
+  ],
+  Ecuador: [
+    "Andean Volcanic Mud Mask",
+    "Rainforest Steam Wrap",
+    "Galápagos Mineral Scrub",
+  ],
+  Chile: [
+    "Atacama Salt Wrap",
+    "Patagonian Herb Infusion",
+    "Thermal Spring Therapy",
+  ],
+  Argentina: [
+    "Malbec Grape Facial",
+    "Andes Stone Therapy",
+    "Pampas Grass Wrap",
+  ],
+  Uruguay: ["Atlantic Sea Mud Mask", "Yerba Mate Scrub", "Coastal Wind Wrap"],
+  Brazil: [
+    "Amazon Rainforest Wrap",
+    "Acai Berry Facial",
+    "Coconut & Lime Polish",
+  ],
+
+  "Cayman Islands": [
+    "Coral Sand Exfoliation",
+    "Coconut Oil Massage",
+    "Sea Salt Wrap",
+  ],
+  Bahamas: ["Conch Shell Massage", "Ocean Mist Wrap", "Bahama Berry Facial"],
+  Jamaica: [
+    "Blue Mountain Coffee Scrub",
+    "Reggae Rhythm Massage",
+    "Tropical Island Wrap",
+  ],
+  "US Virgin Islands": [
+    "Island Fruit Facial",
+    "Sea Breeze Stone Therapy",
+    "Coconut Milk Wrap",
+  ],
+  "Puerto Rico": [
+    "El Yunque Mud Mask",
+    "Caribbean Citrus Polish",
+    "Rum Infused Wrap",
+  ],
+  "Sint Maarten": [
+    "Island Spice Scrub",
+    "Dutch-Caribbean Massage",
+    "Sun-Kissed Sea Wrap",
+  ],
+  "Dominican Republic": [
+    "Amber Stone Facial",
+    "Tropical Fruit Body Scrub",
+    "Cacao Wrap",
+  ],
+  Bermuda: ["Pink Sand Scrub", "Coral Clay Mask", "Bermuda Breeze Facial"],
+  Honduras: [
+    "Rainforest Herbal Mask",
+    "Bay Island Wrap",
+    "Coconut Infused Massage",
+  ],
+  "Mexico Caribbean": [
+    "Cenote Mineral Soak",
+    "Tulum Clay Wrap",
+    "Mayan Jungle Scrub",
+  ],
+
+  Morocco: ["Argan Oil Massage", "Rhassoul Clay Wrap", "Orange Blossom Facial"],
+  Egypt: [
+    "Nile River Mud Mask",
+    "Papyrus Steam Treatment",
+    "Desert Sand Polish",
+  ],
+  Jordan: ["Dead Sea Salt Scrub", "Rose Water Facial", "Petra Stone Therapy"],
+  "South Africa": [
+    "Cape Aloe Wrap",
+    "Rooibos Tea Facial",
+    "Safari Stone Massage",
+  ],
+  Tanzania: [
+    "Baobab Oil Massage",
+    "Zanzibar Spice Scrub",
+    "Savannah Clay Mask",
+  ],
+  Kenya: [
+    "Masai Mara Mud Wrap",
+    "Acacia Honey Facial",
+    "Great Rift Valley Soak",
+  ],
+  Uganda: [
+    "Rainforest Herb Steam",
+    "Lake Victoria Mud Mask",
+    "Gorilla Leaf Wrap",
+  ],
+
+  "United Arab Emirates": [
+    "Frankincense & Myrrh Wrap",
+    "Gold Leaf Facial",
+    "Date Palm Oil Massage",
+  ],
+
+  Default: [
+    "Global Aromatherapy",
+    "Steam & Stone Ritual",
+    "Full Body Rejuvenation",
+  ],
 };
 
 // FAQ templates for spas
@@ -1115,7 +1472,7 @@ function generateSpaForVessel(vessel, cityName, region) {
     imageUrl: `/images/spas/${vessel.type}-spa.jpg`,
     hours: hours,
     contact: {
-      contactNumber: `+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}`,
+      contactNumber: generateRandomPhoneNumber(cityToRegionMap[cityName]),
       contactEmail: generateRandomEmail("spa.velarivoyages.com"),
     },
     services: services,
@@ -1135,7 +1492,7 @@ function generateSpasForCity(cityName) {
     return [];
   }
 
-  const region = cityToRegionMap(cityName);
+  const region = cityToRegionMap[cityName];
   const spas = [];
 
   vessels.forEach((vessel) => {
