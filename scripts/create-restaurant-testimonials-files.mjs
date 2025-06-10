@@ -53,7 +53,11 @@ import fs from "fs";
 import path from "path";
 import { getRandomName, determineGenderFromName } from "./utils/name-utils.mjs";
 import { capitalize } from "./utils/file-utils.mjs";
-import { getRandomRating } from "./utils/data-generator.mjs";
+import {
+  getRandomRating,
+  generateRandomDate,
+} from "./utils/data-generator.mjs";
+import { formatDate } from "./utils/file-utils.mjs";
 import {
   positiveAdjectives,
   serviceAdjectives,
@@ -84,7 +88,7 @@ const restaurantsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants",
+  "restaurants"
 );
 
 // Output directory for testimonial files (write to here)
@@ -95,7 +99,7 @@ const testimonialsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials",
+  "testimonials"
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -112,7 +116,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase(),
+      index === 0 ? word.toLowerCase() : word.toUpperCase()
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -367,8 +371,7 @@ function generateTestimonials(restaurantName, count = 5) {
     const title =
       professionalTitles[Math.floor(Math.random() * professionalTitles.length)];
 
-    const date = new Date();
-    date.setDate(date.getDate() - Math.floor(Math.random() * 730)); // Up to 2 years ago
+    const date = generateRandomDate(); // Up to 2 years ago
 
     const positiveAdj =
       positiveAdjectives[Math.floor(Math.random() * positiveAdjectives.length)];
@@ -449,6 +452,7 @@ function generateTestimonials(restaurantName, count = 5) {
       author: fullName,
       image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
       title: title,
+      date: formatDate(date),
       rating: getRandomRating(), // Random rating between 4 and 5
       // Add image for some testimonials (30% chance)
       ...(Math.random() < 0.3 && {
