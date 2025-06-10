@@ -4,18 +4,22 @@ import { getConfig } from "./utils/config.mjs";
 import { parseArgs } from "./utils/file-utils.mjs";
 import { getLogger } from "./utils/logger.mjs";
 
-// Import and register commands
+
 import CreateCityCruiseFiles from "./commands/create-city-cruise-files.mjs";
 import CreateRestaurantData from "./commands/create-restaurant-data.mjs";
 import CreateRestaurantMenus from "./commands/create-restaurant-menus.mjs";
 import CreateRestaurantTestimonials from "./commands/create-restaurant-testimonials.mjs";
 import DeleteRestaurantMenuFiles from "./delete-restaurant-menu-files.mjs";
+import CreateCityVesselFiles from "./create-city-vessel-files.mjs";
+import CreateCrewMembers from "./create-crew-members.mjs";
+import DeleteCrewMembers from "./delete-crew-members.mjs";
+import DeleteCruiseFiles from "./delete-cruise-files.mjs";
+import DeleteRestaurantTestimonialsFiles from "./delete-restaurant-testimonials-files.mjs";
 
 const registry = getCommandRegistry();
 const logger = getLogger();
 const config = getConfig();
 
-// Register commands
 registry.register({
   name: "delete-restaurant-menus",
   description: "Delete restaurant menu files",
@@ -56,7 +60,46 @@ registry.register({
   handler: CreateCityCruiseFiles,
 });
 
-// Parse arguments
+registry.register({
+  name: "create-vessels",
+  description: "Create city vessel data files",
+  aliases: ["vessels", "city-vessels"],
+  category: "cruise",
+  handler: CreateCityVesselFiles,
+});
+
+registry.register({
+  name: "create-crew",
+  description: "Create crew member data files",
+  aliases: ["crew-members", "crew"],
+  category: "crew",
+  handler: CreateCrewMembers,
+});
+
+registry.register({
+  name: "delete-crew",
+  description: "Delete crew member data files",
+  aliases: ["delete-crew-members", "rm-crew"],
+  category: "crew",
+  handler: DeleteCrewMembers,
+});
+
+registry.register({
+  name: "delete-city-cruises",
+  description: "Delete city cruise data files",
+  aliases: ["rm-city-cruises", "rm-cruises"],
+  category: "cruise",
+  handler: DeleteCruiseFiles,
+});
+
+registry.register({
+  name: "delete-testimonials",
+  description: "Delete restaurant testimonial files",
+  aliases: ["delete-restaurant-testimonials", "rm-testimonials"],
+  category: "restaurant",
+  handler: DeleteRestaurantTestimonialsFiles,
+});
+
 const args = parseArgs(process.argv.slice(2), {
   boolean: ["help", "h", "version", "v", "debug", "d"],
   alias: {
@@ -66,13 +109,11 @@ const args = parseArgs(process.argv.slice(2), {
   },
 });
 
-// Show version if requested
 if (args.version) {
   console.log(`Velari Voyages CLI v${config.get("version", "1.0.0")}`);
   process.exit(0);
 }
 
-// Show help if requested or no command provided
 if (args.help || args._.length === 0) {
   console.log(`
 Velari Voyages CLI
@@ -93,18 +134,16 @@ For command-specific help, run:
   process.exit(0);
 }
 
-// Get the command
 const commandName = args._[0];
 const command = registry.get(commandName);
 
-// Check if command exists
 if (!command) {
   logger.error(`Unknown command: ${commandName}`);
   console.log(`Run 'npx vvcli --help' to see available commands.`);
   process.exit(1);
 }
 
-// Execute command
+
 try {
   logger.debug(`Executing command: ${commandName}`, { args });
   registry
