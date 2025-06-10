@@ -87,6 +87,7 @@ import {
   getRandomInt,
   getRandomBool,
   generateRandomEmail,
+  generateRandomDate,
 } from "./utils/data-generator.mjs";
 import {
   getCityFiles,
@@ -111,7 +112,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`,
+  }`
 );
 console.log(
   `Will ${
@@ -120,7 +121,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } entertainment files`,
+  } entertainment files`
 );
 
 // Entertainment types from the interface
@@ -824,8 +825,6 @@ const faqTemplates = {
   ],
 };
 
-
-
 // Generate entertainment operating hours
 function generateEntertainmentHours(categoryType) {
   let startHour, endHour, description;
@@ -892,7 +891,7 @@ function generateTestimonials(
   showName,
   performer,
   categoryType,
-  count = getRandomInt(5, 10),
+  count = getRandomInt(5, 10)
 ) {
   const testimonials = [];
   const templates =
@@ -916,10 +915,12 @@ function generateTestimonials(
         "Cruise Passenger",
         "Traveler",
         "Vacationer",
+        "Entertainment Enthusiast",
+        "Music Lover",
       ]),
       image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
       rating: getRandomInt(4, 5), // 4 or 5 stars
-      date: `2024-${getRandomInt(1, 12).toString().padStart(2, "0")}-${getRandomInt(1, 28).toString().padStart(2, "0")}`,
+      date: generateRandomDate(),
     };
 
     testimonials.push(testimonial);
@@ -980,7 +981,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`,
+    `${cityName}-vessels.ts`
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -1014,7 +1015,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
     );
     return [];
   }
@@ -1087,7 +1088,7 @@ function generateEntertainmentShows(category, vessel, cityName, region) {
       testimonials: generateTestimonials(
         showName,
         `${performer.firstName} ${performer.lastName}`,
-        category.type,
+        category.type
       ),
       hasVIPSeating: getRandomBool(0.4), // 40% chance
       hasAccessibleSeating: getRandomBool(0.9), // 90% chance
@@ -1115,7 +1116,7 @@ function generateEntertainmentForVessel(vessel, cityName, region) {
       category,
       vessel,
       cityName,
-      region,
+      region
     );
     entertainmentShows.push({
       category: category,
@@ -1145,7 +1146,7 @@ function createEntertainmentCategoriesFileContent(categories) {
     hasBar: ${category.hasBar},
     hasFoodService: ${category.hasFoodService},
     hasAccessibleSeating: ${category.hasAccessibleSeating},
-  }`,
+  }`
     )
     .join(",\n");
 
@@ -1200,7 +1201,7 @@ ${show.testimonials
           image: "${testimonial.image}",
           rating: ${testimonial.rating},
           date: "${testimonial.date}",
-        }`,
+        }`
   )
   .join(",\n")}
       ],
@@ -1216,19 +1217,19 @@ ${show.testimonials
     faqs: [
 ${getRandomItems(
   faqTemplates[categoryType] || faqTemplates["Live Music"],
-  getRandomInt(3, 5),
+  getRandomInt(3, 5)
 )
   .map(
     (faq) =>
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`,
+      }`
   )
   .join(",\n")}
     ],
     isPopular: ${getRandomBool(0.3)}
-  }`,
+  }`
     )
     .join(",\n");
 
@@ -1254,7 +1255,7 @@ async function generateEntertainmentFiles() {
     "lib",
     "constants",
     "venues",
-    "entertainment",
+    "entertainment"
   );
 
   // Create base directory if it doesn't exist
@@ -1276,7 +1277,7 @@ async function generateEntertainmentFiles() {
       continue;
     }
 
-    const region = cityToRegionMap(city);
+    const region = cityToRegionMap[city];
     const cityDir = path.join(entertainmentDir, city);
 
     // Create city directory
@@ -1288,7 +1289,7 @@ async function generateEntertainmentFiles() {
     for (const vessel of vessels) {
       const vesselDir = path.join(
         cityDir,
-        vessel.name.toLowerCase().replace(/\s+/g, "-"),
+        vessel.name.toLowerCase().replace(/\s+/g, "-")
       );
 
       // Create vessel directory
@@ -1301,7 +1302,7 @@ async function generateEntertainmentFiles() {
         const entertainmentData = generateEntertainmentForVessel(
           vessel,
           city,
-          region,
+          region
         );
 
         // Create entertainment.ts file with categories
@@ -1310,18 +1311,18 @@ async function generateEntertainmentFiles() {
 
         if (!categoriesFileExists || REWRITE_MODE || APPEND_MODE) {
           const categoriesContent = createEntertainmentCategoriesFileContent(
-            entertainmentData.categories,
+            entertainmentData.categories
           );
           fs.writeFileSync(categoriesFilePath, categoriesContent);
 
           if (categoriesFileExists) {
             console.log(
-              `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`,
+              `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`
             );
             filesAppended++;
           } else {
             console.log(
-              `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`,
+              `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`
             );
             filesCreated++;
           }
@@ -1337,7 +1338,7 @@ async function generateEntertainmentFiles() {
             .replace(/\s+/g, "-");
           const showsFilePath = path.join(
             vesselDir,
-            `${fileNameSuffix}-entertainment.ts`,
+            `${fileNameSuffix}-entertainment.ts`
           );
           const showsFileExists = fs.existsSync(showsFilePath);
 
@@ -1345,18 +1346,18 @@ async function generateEntertainmentFiles() {
             const showsContent = createEntertainmentShowsFileContent(
               categoryType,
               entertainmentCategory.shows,
-              entertainmentCategory.category.id,
+              entertainmentCategory.category.id
             );
             fs.writeFileSync(showsFilePath, showsContent);
 
             if (showsFileExists) {
               console.log(
-                `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
+                `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
               );
               filesAppended++;
             } else {
               console.log(
-                `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
+                `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`
               );
               filesCreated++;
             }
@@ -1366,7 +1367,7 @@ async function generateEntertainmentFiles() {
         });
       } catch (error) {
         console.error(
-          `❌ Error processing ${vessel.name} in ${city}: ${error.message}`,
+          `❌ Error processing ${vessel.name} in ${city}: ${error.message}`
         );
       }
     }
