@@ -18,6 +18,7 @@ export const cityCountryMap = {
   lisbon: "Portugal",
   london: "United Kingdom",
   "los-angeles": "United States",
+  matla: "Malta",
   melbourne: "Australia",
   miami: "United States",
   milan: "Italy",
@@ -165,13 +166,14 @@ export const cityCountryMap = {
   nairobi: "Kenya",
   moscow: "Russia",
   "panama-city": "Panama",
-  stockholm: "Sweden",
+  stockholm: "Scandinavia",
   "hong-kong": "Hong Kong",
   malta: "Malta",
   southampton: "England",
 };
 
 export const cityToRegionMap = {
+  malta: "Malta",
   naples: "Southern Italy",
   matera: "Southern Italy",
 
@@ -190,6 +192,9 @@ export const cityToRegionMap = {
   athens: "Mainland Greece",
   piraeus: "Mainland Greece",
   thessaloniki: "Mainland Greece",
+  southampton: "England",
+
+  "hong-kong": "Hong Kong",
 
   seville: "Southern Spain",
 
@@ -220,7 +225,7 @@ export const cityToRegionMap = {
   dublin: "Ireland",
 
   copenhagen: "Denmark",
-  stockholm: "Sweden",
+  stockholm: "Scandinavia",
   oslo: "Norway",
   helsinki: "Finland",
   reykjavik: "Iceland",
@@ -291,11 +296,11 @@ export const cityToRegionMap = {
   "san-francisco": "California",
   "san-diego": "California",
   sacramento: "California",
-  portland: "Oregon",
-  seattle: "Washington",
+  portland: "Pacific Northwest",
+  seattle: "Pacific Northwest",
 
-  boston: "Massachusetts",
-  "new-york-city": "New York",
+  boston: "East Coast USA",
+  "new-york-city": "East Coast USA",
   washington: "District of Columbia",
   charleston: "South Carolina",
 
@@ -327,7 +332,7 @@ export const cityToRegionMap = {
   miami: "Florida",
   "fort-lauderdale": "Florida",
   tampa: "Florida",
-  "new-orleans": "Louisiana",
+  "new-orleans": "East Coast USA",
   galveston: "Texas",
   "san-juan": "Puerto Rico",
   bermuda: "Bermuda",
@@ -399,6 +404,7 @@ export const cityCoordinates = {
   lisbon: { latitude: 38.7169, longitude: -9.1399 },
   london: { latitude: 51.5074, longitude: -0.1278 },
   "los-angeles": { latitude: 34.0522, longitude: -118.2437 },
+  malta: { latitude: 35.9375, longitude: 14.3754 },
   melbourne: { latitude: -37.8136, longitude: 144.9631 },
   miami: { latitude: 25.7617, longitude: -80.1918 },
   milan: { latitude: 45.4642, longitude: 9.19 },
@@ -571,14 +577,17 @@ export const regionalDestinations = {
   Serbia: ["belgrade"],
   Georgia: ["tbilisi", "svaneti-region"],
 
+  Malta: ["malta"],
   France: ["paris"],
   Netherlands: ["amsterdam", "rotterdam"],
-  England: ["london"],
+  England: ["london", "southampton"],
   Scotland: ["edinburgh", "glasgow"],
   Ireland: ["dublin"],
 
   Germany: ["berlin", "kiel", "munich"],
-  Scandinavia: ["copenhagen", "stockholm", "oslo"],
+  Scandinavia: ["stockholm"],
+  Denmark: ["copenhagen"],
+  Norway: ["oslo"],
   Finland: ["helsinki"],
   Iceland: ["reykjavik"],
   Russia: ["st-petersburg", "moscow"],
@@ -625,7 +634,16 @@ export const regionalDestinations = {
   Texas: ["austin", "galveston"],
   Nevada: ["las-vegas"],
   Florida: ["miami", "fort-lauderdale", "tampa"],
-  "East Coast USA": ["new-york-city", "boston", "washington", "charleston"],
+  "East Coast USA": [
+    "new-york-city",
+    "boston",
+    "washington",
+    "charleston",
+    "new-orleans",
+  ],
+  "Hong Kong": [
+    "hong-kong", // Optional to make its own if you want to group separately
+  ],
   "Southeast USA": ["atlanta", "savannah"],
   "Midwest USA": ["chicago"],
 
