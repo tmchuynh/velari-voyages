@@ -84,17 +84,18 @@ export interface CruiseVessel {
   capacity: number;
   amenities: string[];
   length: string;
-  topSpeed: string;
   yearBuilt: number;
   description: string;
-  imageUrl: string;
 }
 
 export interface Vessels {
+  id: string;
   name: string;
   description: string;
+  imageUrl?: string;
   type: CruiseShipType;
   capacity: number;
+  topSpeed: number;
   length: number;
   width: number;
   speed: number;
