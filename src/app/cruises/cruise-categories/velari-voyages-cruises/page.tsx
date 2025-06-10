@@ -22,6 +22,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { Switch } from "@/components/ui/switch";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { ChevronDownIcon, FilterIcon, XIcon } from "lucide-react";
 import { cruiseDepartureLocations } from "@/lib/constants/info/city";
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { getAllCruises } from "@/lib/utils/get/cruises";
@@ -36,6 +44,8 @@ export default function Cruises() {
   const [sortBy, setSortBy] = useState("city");
   const [popularSort, setPopularSort] = useState("first"); // "first", "last", "none"
   const [loading, setLoading] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -85,7 +95,7 @@ export default function Cruises() {
     true,
     false,
     false,
-    true,
+    true
   );
 
   // Then apply popularity sorting if selected
@@ -186,63 +196,116 @@ export default function Cruises() {
         <ContactDepartmentCard department="Shore Excursions & Transfers" />
       </section>
 
-      <div className="space-y-4 mb-8">
-        <div className="flex md:flex-row flex-col justify-between items-start gap-4">
-          <div className="w-full">
-            <Label>
-              <strong>Search</strong>
-            </Label>
-            <Input
-              type="text"
-              className="mt-2"
-              placeholder="Search by city, country, or region..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
+      {/* Main Content Area with Sidebar */}
+      <div className="relative flex gap-6">
+        {/* Sidebar Overlay for Mobile */}
+        {isSidebarOpen && (
+          <div
+            className="z-40 fixed inset-0 lg:hidden bg-black/50"
+            onClick={() => setIsSidebarOpen(false)}
+          />
+        )}
+
+        {/* Sidebar */}
+        <div
+          className={`
+          fixed lg:sticky top-0 left-0 h-screen lg:h-fit z-50 lg:z-auto
+          w-80 lg:w-72 bg-background border-r lg:border-r-0 lg:border border-border rounded-lg
+          transform lg:transform-none transition-transform duration-300 ease-in-out
+          ${isSidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
+          p-6 overflow-y-auto
+        `}
+        >
+          {/* Sidebar Header */}
+          <div className="flex justify-between items-center mb-6">
+            <h3 className="font-semibold text-lg">Viewing Options</h3>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="lg:hidden"
+              onClick={() => setIsSidebarOpen(false)}
+            >
+              <XIcon className="w-4 h-4" />
+            </Button>
           </div>
 
-          <div className="flex md:flex-row flex-col gap-4">
-            <div className="space-y-2">
-              <Label>
-                <strong>Sort by:</strong>
-              </Label>
+          {/* View Mode Tabs */}
+          <div className="mb-6">
+            <Tabs
+              value={viewMode}
+              onValueChange={(value) => setViewMode(value as "grid" | "list")}
+            >
+              <TabsList className="grid grid-cols-2 w-full">
+                <TabsTrigger value="grid">Grid</TabsTrigger>
+                <TabsTrigger value="list">List</TabsTrigger>
+              </TabsList>
+            </Tabs>
+          </div>
+
+          {/* Recent Dropdown */}
+          <div className="mb-6">
+            <Collapsible defaultOpen>
+              <CollapsibleTrigger className="flex justify-between items-center w-full text-left">
+                <span className="font-medium">Recent</span>
+                <ChevronDownIcon className="w-4 h-4" />
+              </CollapsibleTrigger>
+              <CollapsibleContent className="mt-2">
+                <Select value={popularSort} onValueChange={setPopularSort}>
+                  <SelectTrigger>
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="none">No priority</SelectItem>
+                    <SelectItem value="first">Show first</SelectItem>
+                    <SelectItem value="last">Show last</SelectItem>
+                  </SelectContent>
+                </Select>
+              </CollapsibleContent>
+            </Collapsible>
+          </div>
+        </div>
+
+        {/* Main Content */}
+        <div className="flex-1 min-w-0">
+          {/* Filter Toggle Button and Search */}
+          <div className="flex items-center gap-4 mb-6">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+              className="lg:hidden"
+            >
+              <FilterIcon className="mr-2 w-4 h-4" />
+              Filters
+            </Button>
+
+            <div className="flex-1">
+              <Input
+                type="text"
+                placeholder="Search by city, country, or region..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="w-full"
+              />
+            </div>
+
+            <div className="flex gap-2">
               <Select value={sortBy} onValueChange={setSortBy}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select sort option" />
+                <SelectTrigger className="w-32">
+                  <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="city">City</SelectItem>
                   <SelectItem value="country">Country</SelectItem>
                 </SelectContent>
               </Select>
-            </div>
 
-            <div className="space-y-2">
-              <Label>
-                <strong>Popular:</strong>
-              </Label>
-              <Select value={popularSort} onValueChange={setPopularSort}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select popularity filter" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="none">No priority</SelectItem>
-                  <SelectItem value="first">Show first</SelectItem>
-                  <SelectItem value="last">Show last</SelectItem>
-                </SelectContent>
-              </Select>
-            </div>
-
-            <div className="space-y-2">
-              <Label>
-                <strong>Display:</strong>
-              </Label>
               <Select
                 value={itemsPerPage.toString()}
                 onValueChange={(value) => setItemsPerPage(Number(value))}
               >
-                <SelectTrigger>
-                  <SelectValue placeholder="Items per page" />
+                <SelectTrigger className="w-32">
+                  <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="8">8 per page</SelectItem>
@@ -254,121 +317,140 @@ export default function Cruises() {
               </Select>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {currentPageItems.map((item, index) => (
+          {/* Results Grid/List */}
           <div
-            key={index}
-            className="group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden"
+            className={`gap-6 ${
+              viewMode === "grid"
+                ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
+                : "flex flex-col space-y-4"
+            }`}
           >
-            <h2
-              className="w-2/3 font-semibold text-2xl underline-offset-2 hover:underline cursor-pointer"
-              onClick={() => {
-                // Use query parameters instead of path parameters
-                const queryParams = new URLSearchParams({
-                  departureLocationCity: item.city,
-                  departureLocationCountry: item.country,
-                });
-
-                router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
-                    item.city
-                  }?${queryParams.toString()}`
-                );
-              }}
-            >
-              {item.city}
-            </h2>
-
-            {item.isPopular && (
-              <Badge
-                size={"sm"}
-                variant={"outline"}
-                className="top-4 right-4 absolute uppercase"
+            {currentPageItems.map((item, index) => (
+              <div
+                key={index}
+                className={`group relative shadow-md hover:shadow-lg p-6 border border-border rounded-lg transition-shadow duration-300 overflow-hidden ${
+                  viewMode === "list" ? "flex items-center gap-4" : ""
+                }`}
               >
-                Popular
-              </Badge>
-            )}
+                <div className={viewMode === "list" ? "flex-1" : ""}>
+                  <h2
+                    className={`font-semibold text-2xl underline-offset-2 hover:underline cursor-pointer ${
+                      viewMode === "list" ? "w-full" : "w-2/3"
+                    }`}
+                    onClick={() => {
+                      const queryParams = new URLSearchParams({
+                        departureLocationCity: item.city,
+                        departureLocationCountry: item.country,
+                      });
 
-            <Button
-              size={"sm"}
-              className="mt-7"
-              onClick={() =>
-                router.push(
-                  `/cruises/cruise-categories/velari-voyages-cruises/${item.country}/${item.city}?city=${item.city}&country=${item.country}`,
-                )
-              }
-            >
-              View All Cruises
-            </Button>
-          </div>
-        ))}
-      </div>
-
-      {/* Pagination Controls */}
-      {totalPages > 1 && (
-        <div className="mt-8">
-          <div className="flex justify-between items-center">
-            <p className="text-muted-foreground text-sm">
-              Showing {startIndex + 1}-{endIndex} of {totalItems} destinations
-            </p>
-
-            <Pagination>
-              <PaginationContent>
-                <PaginationItem>
-                  <PaginationPrevious
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      if (currentPage > 1) setCurrentPage(currentPage - 1);
+                      router.push(
+                        `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
+                          item.city
+                        }?${queryParams.toString()}`
+                      );
                     }}
-                    className={
-                      currentPage === 1 ? "pointer-events-none opacity-50" : ""
-                    }
-                  />
-                </PaginationItem>
+                  >
+                    {item.city}
+                  </h2>
 
-                {getPageNumbers().map((page, i) => (
-                  <PaginationItem key={i}>
-                    {page === "ellipsis" ? (
-                      <PaginationEllipsis />
-                    ) : (
-                      <PaginationLink
+                  {item.isPopular && (
+                    <Badge
+                      size={"sm"}
+                      variant={"outline"}
+                      className={`uppercase ${
+                        viewMode === "list"
+                          ? "ml-2 inline-block"
+                          : "top-4 right-4 absolute"
+                      }`}
+                    >
+                      Popular
+                    </Badge>
+                  )}
+
+                  <Button
+                    size={"sm"}
+                    className={viewMode === "list" ? "mt-2" : "mt-7"}
+                    onClick={() =>
+                      router.push(
+                        `/cruises/cruise-categories/velari-voyages-cruises/${item.country}/${item.city}?city=${item.city}&country=${item.country}`
+                      )
+                    }
+                  >
+                    View All Cruises
+                  </Button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="mt-8">
+              <div className="flex justify-between items-center">
+                <p className="text-muted-foreground text-sm">
+                  Showing {startIndex + 1}-{endIndex} of {totalItems}{" "}
+                  destinations
+                </p>
+
+                <Pagination>
+                  <PaginationContent>
+                    <PaginationItem>
+                      <PaginationPrevious
                         href="#"
-                        isActive={page === currentPage}
                         onClick={(e) => {
                           e.preventDefault();
-                          setCurrentPage(page as number);
+                          if (currentPage > 1) setCurrentPage(currentPage - 1);
                         }}
-                      >
-                        {page}
-                      </PaginationLink>
-                    )}
-                  </PaginationItem>
-                ))}
+                        className={
+                          currentPage === 1
+                            ? "pointer-events-none opacity-50"
+                            : ""
+                        }
+                      />
+                    </PaginationItem>
 
-                <PaginationItem>
-                  <PaginationNext
-                    href="#"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      if (currentPage < totalPages)
-                        setCurrentPage(currentPage + 1);
-                    }}
-                    className={
-                      currentPage === totalPages
-                        ? "pointer-events-none opacity-50"
-                        : ""
-                    }
-                  />
-                </PaginationItem>
-              </PaginationContent>
-            </Pagination>
-          </div>
+                    {getPageNumbers().map((page, i) => (
+                      <PaginationItem key={i}>
+                        {page === "ellipsis" ? (
+                          <PaginationEllipsis />
+                        ) : (
+                          <PaginationLink
+                            href="#"
+                            isActive={page === currentPage}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setCurrentPage(page as number);
+                            }}
+                          >
+                            {page}
+                          </PaginationLink>
+                        )}
+                      </PaginationItem>
+                    ))}
+
+                    <PaginationItem>
+                      <PaginationNext
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          if (currentPage < totalPages)
+                            setCurrentPage(currentPage + 1);
+                        }}
+                        className={
+                          currentPage === totalPages
+                            ? "pointer-events-none opacity-50"
+                            : ""
+                        }
+                      />
+                    </PaginationItem>
+                  </PaginationContent>
+                </Pagination>
+              </div>
+            </div>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }
