@@ -263,7 +263,6 @@ export function formatTitleToKebabCase(title) {
     .replace(/[^a-z0-9-]/g, ""); // Remove any non-alphanumeric characters except hyphens
 }
 
-
 export const capitalize = (str) => {
   if (!str) return "";
 
