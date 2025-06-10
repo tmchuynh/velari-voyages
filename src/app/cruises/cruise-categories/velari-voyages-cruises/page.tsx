@@ -275,7 +275,7 @@ export default function Cruises() {
                 router.push(
                   `/cruises/cruise-categories/velari-voyages-cruises/cruise/${
                     item.city
-                  }?${queryParams.toString()}`,
+                  }?${queryParams.toString()}`
                 );
               }}
             >
