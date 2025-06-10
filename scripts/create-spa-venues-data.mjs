@@ -77,7 +77,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
@@ -288,12 +288,578 @@ const spaServiceCategories = {
 
 // Spa name themes by region
 const spaNameThemes = {
-  "Northern Europe": ["Nordic", "Fjord", "Aurora", "Glacial", "Arctic"],
-  Mediterranean: ["Azure", "Riviera", "Coastal", "Mediterranean", "Sunset"],
-  Caribbean: ["Tropical", "Paradise", "Island", "Oasis", "Coral"],
-  "Asia Pacific": ["Zen", "Harmony", "Serenity", "Bamboo", "Lotus"],
-  "North America": ["Summit", "Harbor", "Coastal", "Skyline", "Urban"],
-  "South America": ["Andes", "Amazonia", "Patagonia", "Tropical", "Vista"],
+  "Greek Islands": ["Aegean", "Mythos", "Olive Grove", "Cycladic", "Nautilus"],
+  "Mainland Greece": ["Hellenic", "Agora", "Acropolis", "Athena", "Thermae"],
+
+  "Southern Italy": [
+    "Mediterrana",
+    "Citrus Bloom",
+    "Sunstone",
+    "Amalfi",
+    "Vita",
+  ],
+  "Central Italy": [
+    "Tuscan",
+    "Etruscan",
+    "Chiaro",
+    "Renaissance",
+    "Tranquillo",
+  ],
+  "Northern Italy": ["Dolce Vita", "Lago", "Alpine", "Velluto", "Eleganza"],
+
+  Catalonia: [
+    "Catalan Calm",
+    "Montserrat",
+    "Gaia",
+    "Rosa del Mar",
+    "Costa Bliss",
+  ],
+  "Southern Spain": [
+    "Andalus",
+    "Solaria",
+    "Sevillana",
+    "Cobre",
+    "Desert Bloom",
+  ],
+  "Western Spain": ["Castilian", "Sierra", "Retiro", "Brisa", "Vino Verde"],
+
+  Portugal: ["Lusitana", "Fado", "Azulejo", "Algarve", "Porto Sol"],
+
+  "French Riviera": [
+    "Côte d’Or",
+    "Provence Breeze",
+    "Azure Bliss",
+    "Lavande",
+    "Mistral",
+  ],
+  France: ["Parfum", "Éclat", "Jardin", "Rivière", "Château Serenity"],
+
+  "Croatian Coast": ["Adriatica", "Dubrava", "Stari Grad", "Karst", "Iskrica"],
+  Croatia: ["Dalmatian", "Jadran", "Plitvice", "Biser", "Zagorje"],
+  "Bosnia and Herzegovina": [
+    "Balkan Bloom",
+    "Mostar Mist",
+    "River Stone",
+    "Blagaj Spring",
+    "Dinaric",
+  ],
+  Serbia: ["Danube Drift", "Serenika", "Vardar", "Belgravia", "Kopaonik"],
+  Georgia: [
+    "Tbilisi Tranquil",
+    "Svaneti Sky",
+    "Caucasus Calm",
+    "Wine Valley",
+    "Silk Spa",
+  ],
+
+  Malta: [
+    "Maltese Glow",
+    "Mdina Mist",
+    "Gozo Grace",
+    "Island Stone",
+    "Calypso Spa",
+  ],
+  Netherlands: [
+    "Canal Calm",
+    "Tulip Breeze",
+    "Golden Age",
+    "Dutch Drift",
+    "Windmill Wellness",
+  ],
+  England: [
+    "Harbour Mist",
+    "Meadow Bloom",
+    "Tea & Thyme",
+    "Cotswold Calm",
+    "Regent",
+  ],
+  Scotland: [
+    "Highland Haven",
+    "Loch Serenity",
+    "Thistle Spa",
+    "Tartan Mist",
+    "Cairn Wellness",
+  ],
+  Ireland: [
+    "Emerald Essence",
+    "Celtic Calm",
+    "Shamrock Spa",
+    "Wicklow Waters",
+    "Druidic Drift",
+  ],
+
+  Germany: [
+    "Bavarian Bliss",
+    "Spaetzle Serenity",
+    "Forest Stone",
+    "Black Forest Mist",
+    "Heimat",
+  ],
+  Scandinavia: [
+    "Nordic Light",
+    "Lumen",
+    "Lagom",
+    "Hygge Haven",
+    "Fjord Essence",
+  ],
+  Denmark: [
+    "Scandi Calm",
+    "Copenhagen Bloom",
+    "Little Mermaid Mist",
+    "Skagen Drift",
+    "Havfrue",
+  ],
+  Norway: ["Aurora", "Oslo Drift", "Midnight Sun", "Fjord Spa", "Nordlys"],
+  Finland: [
+    "Sauna Glow",
+    "Lapland Light",
+    "Helsinki Calm",
+    "Arctic Steam",
+    "Birch Haven",
+  ],
+  Iceland: [
+    "Geothermal",
+    "Glacier Spa",
+    "Lava Stone",
+    "Blue Lagoon",
+    "Northern Light",
+  ],
+  Russia: [
+    "Tsarina Spa",
+    "Amber Room",
+    "Volga Drift",
+    "Dacha Serenity",
+    "Samovar Steam",
+  ],
+  Latvia: [
+    "Baltic Bliss",
+    "Riga Radiance",
+    "Forest Glow",
+    "Amber Spa",
+    "Daugava Drift",
+  ],
+  Austria: [
+    "Alpine Calm",
+    "Viennese Mist",
+    "Mozart Bloom",
+    "Habsburg Harmony",
+    "Danube Drift",
+  ],
+  "Czech Republic": [
+    "Bohemian",
+    "Prague Peace",
+    "Spa Karlovy",
+    "Crystal Calm",
+    "Moravia",
+  ],
+  Hungary: [
+    "Thermal Bliss",
+    "Budapest Bath",
+    "Danube Essence",
+    "Paprika Glow",
+    "Pannonian Mist",
+  ],
+
+  Japan: [
+    "Onsen Serenity",
+    "Sakura Bloom",
+    "Koi Drift",
+    "Zen Harmony",
+    "Mt. Fuji Mist",
+  ],
+  China: [
+    "Jade Harmony",
+    "Bamboo Grove",
+    "Lotus Drift",
+    "Silken Spa",
+    "Celestial Calm",
+  ],
+  "South Korea": [
+    "Hanok Haven",
+    "Jeju Mist",
+    "Soju Spa",
+    "K-Glow",
+    "Lotus Bay",
+  ],
+  Taiwan: [
+    "Formosa Bliss",
+    "Hot Spring Drift",
+    "Taipei Calm",
+    "Tea Leaf Serenity",
+    "Alishan Aroma",
+  ],
+  Thailand: [
+    "Siam Serenity",
+    "Thai Bloom",
+    "Golden Temple",
+    "Lemongrass Mist",
+    "Chiang Calm",
+  ],
+  Vietnam: [
+    "Mekong Drift",
+    "Halong Haven",
+    "Jasmine Spa",
+    "Hue Harmony",
+    "Indochine Calm",
+  ],
+  Cambodia: [
+    "Angkor Mist",
+    "Khmer Calm",
+    "Lotus Spa",
+    "Jungle Essence",
+    "Siem Serenity",
+  ],
+  Nepal: [
+    "Himalayan Mist",
+    "Panauti Peace",
+    "Sherpa Drift",
+    "Everest Glow",
+    "Bodhi",
+  ],
+  India: [
+    "Ayurveda Bliss",
+    "Spice Retreat",
+    "Lotus Grove",
+    "Namaste",
+    "Kerala Drift",
+  ],
+  Indonesia: [
+    "Balinese Bloom",
+    "Java Serenity",
+    "Ubud Essence",
+    "Tropical Drift",
+    "Island Soul",
+  ],
+  Singapore: [
+    "Merlion Mist",
+    "Orchid Haven",
+    "Urban Oasis",
+    "Marina Glow",
+    "Zenport",
+  ],
+  "French Polynesia": [
+    "Lagoon Blue",
+    "Tahiti Tranquil",
+    "Coral Bloom",
+    "Moana Essence",
+    "Pacific Drift",
+  ],
+  Fiji: [
+    "Bula Bliss",
+    "Island Drift",
+    "Coconut Grove",
+    "Reef Glow",
+    "Nadi Nectar",
+  ],
+  Vanuatu: [
+    "Melanesian Mist",
+    "Island Spring",
+    "Port Calm",
+    "Volcanic Glow",
+    "Pacific Peace",
+  ],
+  Australia: [
+    "Bushland Bliss",
+    "Coral Coast",
+    "Uluru Glow",
+    "Southern Drift",
+    "Byron Calm",
+  ],
+  "New Zealand": [
+    "Rotorua Steam",
+    "Aotearoa Aura",
+    "Kiwi Calm",
+    "Milford Drift",
+    "Waiheke Wellness",
+  ],
+
+  California: [
+    "Sierra Serenity",
+    "Pacific Breeze",
+    "Wine Country Glow",
+    "Golden Drift",
+    "Laguna Mist",
+  ],
+  "Pacific Northwest": [
+    "Rainforest Retreat",
+    "Cedar Mist",
+    "Sound Drift",
+    "Evergreen Glow",
+    "Cascade Calm",
+  ],
+  Texas: [
+    "Hill Country Haven",
+    "Lone Star Drift",
+    "Rio Glow",
+    "Desert Bloom",
+    "Austin Aura",
+  ],
+  Nevada: [
+    "Desert Mirage",
+    "Sagebrush Spa",
+    "Oasis Glow",
+    "Silver State Serenity",
+    "Vegas Mist",
+  ],
+  Florida: [
+    "Everglade Essence",
+    "Citrus Bloom",
+    "Gulf Drift",
+    "Sunshine Spa",
+    "Coastal Calm",
+  ],
+  "East Coast USA": [
+    "Harbor Haven",
+    "Atlantic Drift",
+    "Historic Calm",
+    "Colonial Bloom",
+    "Skyline Serenity",
+  ],
+  "Southeast USA": [
+    "Southern Charm",
+    "Magnolia Mist",
+    "Bayou Bliss",
+    "Savannah Glow",
+    "Peach Calm",
+  ],
+  "Midwest USA": [
+    "Great Lakes Drift",
+    "Prairie Bloom",
+    "Heartland Haven",
+    "Lakeview Spa",
+    "Rustic Calm",
+  ],
+
+  Alaska: [
+    "Glacier Glow",
+    "Northern Light",
+    "Tundra Mist",
+    "Denali Drift",
+    "Salmon Berry",
+  ],
+  "British Columbia": [
+    "Rainforest Drift",
+    "Mountain Mist",
+    "Coastal Calm",
+    "Pacific Bloom",
+    "Tofino Tranquil",
+  ],
+  Hawaii: [
+    "Island Bloom",
+    "Volcano Mist",
+    "Aloha Calm",
+    "Hula Haven",
+    "Lava Drift",
+  ],
+
+  Ontario: [
+    "Maple Mist",
+    "Niagara Serenity",
+    "Lake Ontario Drift",
+    "Urban Glow",
+    "Cottage Calm",
+  ],
+  Quebec: [
+    "Laurentian Bloom",
+    "St. Lawrence Drift",
+    "Old World Charm",
+    "French Canada Calm",
+    "Montréal Mist",
+  ],
+
+  Mexico: [
+    "Mayan Mist",
+    "Aztec Glow",
+    "Cenote Serenity",
+    "Pueblo Calm",
+    "Desert Bloom",
+  ],
+  Panama: [
+    "Canal Drift",
+    "Tropical Calm",
+    "Rainforest Spa",
+    "Isthmus Glow",
+    "Cocobolo",
+  ],
+  Colombia: [
+    "Cartagena Calm",
+    "Coffee Bloom",
+    "Andes Drift",
+    "Amazon Serenity",
+    "Bogotá Glow",
+  ],
+  Peru: [
+    "Andean Mist",
+    "Sacred Valley",
+    "Llama Drift",
+    "Inca Spa",
+    "Amazon Essence",
+  ],
+  Ecuador: [
+    "Quito Calm",
+    "Volcano Bloom",
+    "Galápagos Drift",
+    "Amazon Serenity",
+    "Equator Glow",
+  ],
+  Chile: [
+    "Atacama Aura",
+    "Andean Glow",
+    "Patagonia Drift",
+    "Valparaíso Breeze",
+    "Santiago Serenity",
+  ],
+  Argentina: [
+    "Pampas Calm",
+    "Malbec Mist",
+    "Tango Drift",
+    "Andean Retreat",
+    "Buenos Glow",
+  ],
+  Uruguay: [
+    "Montevideo Mist",
+    "Atlantic Calm",
+    "River Plate Drift",
+    "Spa del Este",
+    "Colonia Bloom",
+  ],
+  Brazil: [
+    "Copacabana Calm",
+    "Amazon Drift",
+    "Rio Glow",
+    "Samba Spa",
+    "Ipanema Mist",
+  ],
+
+  "Cayman Islands": [
+    "Caribbean Drift",
+    "Reef Glow",
+    "Island Bliss",
+    "Tropical Essence",
+    "George Town Calm",
+  ],
+  Bahamas: [
+    "Nassau Glow",
+    "Coral Calm",
+    "Bahamian Breeze",
+    "Island Drift",
+    "Aqua Haven",
+  ],
+  Jamaica: [
+    "Reggae Relax",
+    "Blue Mountain Mist",
+    "Island Bloom",
+    "Montego Calm",
+    "Jamaican Drift",
+  ],
+  "US Virgin Islands": [
+    "St. Thomas Drift",
+    "Tropical Glow",
+    "Caribbean Calm",
+    "Island Essence",
+    "Sea Breeze",
+  ],
+  "Puerto Rico": [
+    "El Yunque Mist",
+    "San Juan Serenity",
+    "Island Rhythm",
+    "Caribbean Bloom",
+    "Coquí Calm",
+  ],
+  "Sint Maarten": [
+    "Dutch Drift",
+    "Island Essence",
+    "Tropical Glow",
+    "Caribbean Bloom",
+    "Marina Mist",
+  ],
+  "Dominican Republic": [
+    "Quisqueya Calm",
+    "Island Breeze",
+    "Caribbean Drift",
+    "Santo Spa",
+    "Amber Coast",
+  ],
+  Bermuda: [
+    "Pink Sand Calm",
+    "Island Drift",
+    "Coral Mist",
+    "Tropical Glow",
+    "Atlantic Bliss",
+  ],
+  Honduras: [
+    "Bay Island Bliss",
+    "Roatan Drift",
+    "Tropical Calm",
+    "Mayan Mist",
+    "Rainforest Breeze",
+  ],
+  "Mexico Caribbean": [
+    "Cozumel Calm",
+    "Island Glow",
+    "Maya Drift",
+    "Tulum Bloom",
+    "Reef Mist",
+  ],
+
+  Morocco: [
+    "Desert Rose",
+    "Casbah Calm",
+    "Atlas Drift",
+    "Spice Oasis",
+    "Sahara Mist",
+  ],
+  Egypt: [
+    "Nile Serenity",
+    "Pharaoh’s Glow",
+    "Pyramid Drift",
+    "Sands of Time",
+    "Papyrus Spa",
+  ],
+  Jordan: [
+    "Petra Glow",
+    "Red Rock Calm",
+    "Wadi Drift",
+    "Desert Bloom",
+    "Aqaba Breeze",
+  ],
+  "South Africa": [
+    "Safari Mist",
+    "Cape Calm",
+    "Protea Bloom",
+    "Winelands Drift",
+    "Zulu Serenity",
+  ],
+  Tanzania: [
+    "Serengeti Spa",
+    "Zanzibar Drift",
+    "Savannah Calm",
+    "Kilimanjaro Glow",
+    "Ngorongoro Mist",
+  ],
+  Kenya: [
+    "Maasai Mist",
+    "Savannah Drift",
+    "Nairobi Glow",
+    "Equator Calm",
+    "Safari Spa",
+  ],
+  Uganda: [
+    "Gorilla Drift",
+    "Pearl of Africa",
+    "Jungle Calm",
+    "Kampala Glow",
+    "Rainforest Spa",
+  ],
+
+  "United Arab Emirates": [
+    "Desert Bloom",
+    "Oasis Calm",
+    "Burj Drift",
+    "Luxury Glow",
+    "Arabian Essence",
+  ],
+
   Default: ["Tranquil", "Serene", "Blissful", "Peaceful", "Rejuvenating"],
 };
 
@@ -359,56 +925,6 @@ const spaFAQTemplates = [
       "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
   },
 ];
-
-// Get region for a city
-function getRegionForCity(cityName) {
-  const countryName = cityCountryMap[cityName];
-  if (!countryName) return "Default";
-
-  const regionMap = {
-    Norway: "Northern Europe",
-    Finland: "Northern Europe",
-    Sweden: "Northern Europe",
-    Denmark: "Northern Europe",
-    Iceland: "Northern Europe",
-    "United Kingdom": "Northern Europe",
-    Netherlands: "Northern Europe",
-    Germany: "Northern Europe",
-    Spain: "Mediterranean",
-    Italy: "Mediterranean",
-    France: "Mediterranean",
-    Greece: "Mediterranean",
-    Croatia: "Mediterranean",
-    Malta: "Mediterranean",
-    Portugal: "Mediterranean",
-    Bahamas: "Caribbean",
-    "US Virgin Islands": "Caribbean",
-    "Sint Maarten": "Caribbean",
-    "Cayman Islands": "Caribbean",
-    Honduras: "Caribbean",
-    "Puerto Rico": "Caribbean",
-    Bermuda: "Caribbean",
-    Japan: "Asia Pacific",
-    Singapore: "Asia Pacific",
-    China: "Asia Pacific",
-    "Hong Kong": "Asia Pacific",
-    Thailand: "Asia Pacific",
-    Vietnam: "Asia Pacific",
-    Indonesia: "Asia Pacific",
-    Australia: "Asia Pacific",
-    "New Zealand": "Asia Pacific",
-    "United States": "North America",
-    Canada: "North America",
-    Brazil: "South America",
-    Argentina: "South America",
-    Chile: "South America",
-    Uruguay: "South America",
-    Peru: "South America",
-    Colombia: "South America",
-  };
-
-  return regionMap[countryName] || "Default";
-}
 
 // Generate spa services based on vessel type and region
 function generateSpaServices(vesselType, region, count = null) {
@@ -505,7 +1021,7 @@ function generateSpaHours() {
 }
 
 // Generate spa name
-function generateSpaName(cityName, vesselName, region) {
+function generateSpaName(vesselName, region) {
   const themes = spaNameThemes[region] || spaNameThemes.Default;
   const theme = getRandomElement(themes);
 
@@ -586,7 +1102,7 @@ function getVesselDataForCity(cityName) {
 
 // Generate spa data for a specific vessel
 function generateSpaForVessel(vessel, cityName, region) {
-  const spaName = generateSpaName(cityName, vessel.name, region);
+  const spaName = generateSpaName(vessel.name, region);
   const services = generateSpaServices(vessel.type, region);
   const hours = generateSpaHours();
   const faqs = getRandomItems(spaFAQTemplates, getRandomInt(3, 5));
@@ -619,7 +1135,7 @@ function generateSpasForCity(cityName) {
     return [];
   }
 
-  const region = getRegionForCity(cityName);
+  const region = cityToRegionMap(cityName);
   const spas = [];
 
   vessels.forEach((vessel) => {
