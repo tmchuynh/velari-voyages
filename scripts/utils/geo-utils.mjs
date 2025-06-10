@@ -1189,7 +1189,6 @@ export function getCityCountryPriceMultiplier(_city, country) {
   return rate;
 }
 
-
 export const cityDialingMap = {
   auckland: "+64‑9",
   amsterdam: "+31‑20",
