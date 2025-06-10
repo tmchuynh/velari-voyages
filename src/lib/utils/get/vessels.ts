@@ -73,7 +73,7 @@ const cityVesselsMap: Record<string, Vessels[]> = {
  */
 export function getVesselForCruise(
   departureCity: string,
-  cruiseCategory: string
+  cruiseCategory: string,
 ): Vessels | null {
   // Get vessels for the departure city
   const cityVessels = cityVesselsMap[departureCity];
@@ -88,7 +88,7 @@ export function getVesselForCruise(
 
   // Find the first vessel in this city that has a compatible type
   const matchingVessel = cityVessels.find((vessel) =>
-    compatibleVesselTypes.includes(vessel.type)
+    compatibleVesselTypes.includes(vessel.type),
   );
 
   if (!matchingVessel) return null;
