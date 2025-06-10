@@ -2,463 +2,91 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Singapore
-    // Generated on: 2025-06-10T03:09:08.556Z
+    // Generated on: 2025-06-10T08:14:15.368Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const singaporeRestaurants: Restaurant[] = [
   {
-    "name": "Japanese Chocolatier",
-    "description": "Enjoy Singaporean cuisine with a focus on farm-to-table meals, all in a setting that highlights beautiful decor and overlooks the cultural center.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$$$",
-    "rating": 3.9,
+    "name": "Singaporean Pho House",
+    "description": "Experience authentic Indian cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of friendly service overlooking the main square.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-21:00",
-      "saturday": "10:00-21:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-149-7886",
-      "contactEmail": "ask@Japanese Chocolatier.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Singaporean Bouchon",
-    "description": "A delightful Malaysian dining experience awaits with local ingredients, set in a location that features friendly service near the city museum.",
-    "cuisine": "Malaysian",
-    "priceRange": "$$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "10:00-22:00",
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-20:00",
       "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-928-9867",
-      "contactEmail": "reachus@Singaporean Bouchon.com"
+      "contactNumber": "+1-232-777-5974",
+      "contactEmail": "team@Singaporean Pho House.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Chinese Canteen",
-    "description": "Located close to central park, this Singaporean restaurant delights with its fresh produce and seasonal floral displays.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "11:00-21:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-121-8410",
-      "contactEmail": "hello@Chinese Canteen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Cevicheria",
-    "description": "A hidden gem in the city, this Malaysian restaurant offers fresh produce and a unique ambiance with beautiful decor near the cultural center.",
-    "cuisine": "Malaysian",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "11:00-21:00",
-      "saturday": "Closed",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-293-1792",
-      "contactEmail": "inquiries@Japanese Cevicheria.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Malaysian Boulangerie",
-    "description": "Experience the best of Chinese with artisanal creations, served in a charming setting that features ambient lighting and views of the historic district.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 3.8,
+    "name": "Japanese Room",
+    "description": "This Malaysian restaurant is known for its handcrafted desserts, providing a unique dining experience with live street performances close to central park.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 3.5,
     "openingHours": {
       "monday": "9:00-20:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "Closed",
-      "thursday": "Closed",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-837-8125",
-      "contactEmail": "customerservice@Malaysian Boulangerie.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Harvest",
-    "description": "This popular Indian establishment combines traditional recipes and artisanal creations, all served in a unique setting with friendly service.",
-    "cuisine": "Indian",
-    "priceRange": "$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-885-1862",
-      "contactEmail": "hello@Japanese Harvest.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Japanese Parlor",
-    "description": "A culinary delight for Indian enthusiasts, this restaurant specializes in handcrafted desserts and offers a unique atmosphere with local ambiance near the main square.",
-    "cuisine": "Indian",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
       "thursday": "10:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-195-9864",
-      "contactEmail": "general@Japanese Parlor.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Japanese Fare",
-    "description": "A culinary delight for Singaporean enthusiasts, this restaurant specializes in fresh produce and offers a unique atmosphere with seasonal floral displays near central park.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "10:00-22:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-321-5064",
-      "contactEmail": "customerservice@Japanese Fare.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Chinese Garden",
-    "description": "A culinary delight for Singaporean enthusiasts, this restaurant specializes in seasonal specialties and offers a unique atmosphere with local ambiance near the main square.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-21:00",
-      "thursday": "Closed",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-384-3471",
-      "contactEmail": "communications@Chinese Garden.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Singaporean Ramen-Ya",
-    "description": "This Japanese restaurant is known for its gourmet street food, providing a unique dining experience with beautiful decor close to the city museum.",
-    "cuisine": "Japanese",
-    "priceRange": "$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-20:00",
+      "friday": "11:00-19:00",
       "saturday": "9:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-705-4231",
-      "contactEmail": "inquiries@Singaporean Ramen-Ya.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Malaysian Room",
-    "description": "This Malaysian restaurant is known for its farm-to-table meals, providing a unique dining experience with charming streetscapes close to the main square.",
-    "cuisine": "Malaysian",
-    "priceRange": "$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-454-4500",
-      "contactEmail": "hello@Malaysian Room.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Japanese Ristorante",
-    "description": "A culinary delight for Chinese enthusiasts, this restaurant specializes in gourmet street food and offers a unique atmosphere with friendly service near the main square.",
-    "cuisine": "Chinese",
-    "priceRange": "$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-365-1645",
-      "contactEmail": "reception@Japanese Ristorante.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Chinese Kitchen",
-    "description": "A must-visit Singaporean restaurant near the cultural center, famous for its local ingredients and a charming atmosphere with artisan markets.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "9:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-187-4928",
-      "contactEmail": "reachus@Chinese Kitchen.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Chinese Rotisserie",
-    "description": "This popular Singaporean establishment combines traditional recipes and gourmet street food, all served in a unique setting with live street performances.",
-    "cuisine": "Singaporean",
-    "priceRange": "$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "9:00-22:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-21:00",
       "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-628-2535",
-      "contactEmail": "general@Chinese Rotisserie.com"
+      "contactNumber": "+1-232-920-7564",
+      "contactEmail": "welcome@Japanese Room.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
+    "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
+    "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Singaporean Creperie",
-    "description": "Discover the flavors of Chinese with a focus on seasonal specialties, set in a delightful venue that features charming streetscapes and overlooks the cultural center.",
+    "name": "Chinese Nook",
+    "description": "Discover the flavors of Chinese with a focus on fresh produce, set in a delightful venue that features charming streetscapes and overlooks the iconic clock tower.",
     "cuisine": "Chinese",
-    "priceRange": "$$",
-    "rating": 4.4,
+    "priceRange": "$",
+    "rating": 4.3,
     "openingHours": {
       "monday": "10:00-20:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-19:00"
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-188-4527",
-      "contactEmail": "clientservices@Singaporean Creperie.com"
+      "contactNumber": "+1-232-658-1184",
+      "contactEmail": "communications@Chinese Nook.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -471,5 +99,377 @@ export const singaporeRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
+  },
+  {
+    "name": "Singaporean Nook",
+    "description": "A culinary delight for Japanese enthusiasts, this restaurant specializes in regional wines and offers a unique atmosphere with local ambiance near the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-442-9184",
+      "contactEmail": "mail@Singaporean Nook.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Malaysian Cafe",
+    "description": "Savor the rich flavors of Japanese with a focus on regional wines, all within a setting that boasts boutique shops and views of the cultural center.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-277-3221",
+      "contactEmail": "general@Malaysian Cafe.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Singaporean Harvest",
+    "description": "Savor the rich flavors of Japanese with a focus on regional wines, all within a setting that boasts live street performances and views of the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 5,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-261-5970",
+      "contactEmail": "services@Singaporean Harvest.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Singaporean Dining Room",
+    "description": "Located close to the cultural center, this Malaysian restaurant delights with its heritage recipes and boutique shops.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-179-9959",
+      "contactEmail": "clientservices@Singaporean Dining Room.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Indian Gourmet",
+    "description": "This Malaysian restaurant is known for its handcrafted desserts, providing a unique dining experience with live street performances close to downtown.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-107-3767",
+      "contactEmail": "clientservices@Indian Gourmet.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Malaysian Brasserie",
+    "description": "A delightful Malaysian dining experience awaits with signature dishes, set in a location that features seasonal floral displays near the old town walls.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-826-9773",
+      "contactEmail": "info@Malaysian Brasserie.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Canteen",
+    "description": "This popular Chinese establishment combines traditional recipes and handcrafted desserts, all served in a unique setting with live street performances.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-831-2831",
+      "contactEmail": "admin@Japanese Canteen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Patisserie",
+    "description": "This Malaysian restaurant is a must-visit for its handcrafted desserts, offering a unique dining experience with artisan markets close to the river promenade.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-120-9275",
+      "contactEmail": "customerservice@Chinese Patisserie.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Garden",
+    "description": "This Indian restaurant is known for its regional wines, providing a unique dining experience with seasonal floral displays close to the city museum.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-174-8498",
+      "contactEmail": "info@Japanese Garden.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Indian Collective",
+    "description": "A culinary destination for Indian lovers, this restaurant specializes in handcrafted desserts and offers a unique atmosphere with elegant atmosphere near the iconic clock tower.",
+    "cuisine": "Indian",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-527-4861",
+      "contactEmail": "customerservice@Indian Collective.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Malaysian Nook",
+    "description": "A culinary gem serving Singaporean specialties including local ingredients, where guests enjoy elegant atmosphere in the heart of the city.",
+    "cuisine": "Singaporean",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-213-4969",
+      "contactEmail": "contact@Malaysian Nook.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Malaysian Project",
+    "description": "This Malaysian restaurant is a local favorite for its signature dishes, offering a unique ambiance with elegant atmosphere near the historic district.",
+    "cuisine": "Malaysian",
+    "priceRange": "$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-831-4404",
+      "contactEmail": "clientservices@Malaysian Project.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
   }
 ];

@@ -2,29 +2,277 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Lisbon
-    // Generated on: 2025-06-10T03:09:08.552Z
+    // Generated on: 2025-06-10T08:14:15.363Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const lisbonRestaurants: Restaurant[] = [
   {
-    "name": "Baixa Marketplace",
-    "description": "Savor the rich flavors of Italian with a focus on local ingredients, all within a setting that boasts charming streetscapes and views of the historic district.",
-    "cuisine": "Italian",
+    "name": "Tram Cantina",
+    "description": "This Seafood restaurant is known for its local ingredients, providing a unique dining experience with seasonal floral displays close to the historic district.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-464-3974",
+      "contactEmail": "communications@Tram Cantina.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Baixa Grand Cafe",
+    "description": "Located close to the iconic clock tower, this Seafood restaurant delights with its heritage recipes and seasonal floral displays.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-191-5437",
+      "contactEmail": "help@Baixa Grand Cafe.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Tram Pavilion",
+    "description": "This Mediterranean restaurant offers a unique take on gourmet street food, surrounded by boutique shops and just a stone's throw from the cultural center.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-382-1144",
+      "contactEmail": "services@Tram Pavilion.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Azulejo Harvest",
+    "description": "Enjoy Mediterranean cuisine with a focus on farm-to-table meals, all in a setting that highlights seasonal floral displays and overlooks the waterfront.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-781-1319",
+      "contactEmail": "help@Azulejo Harvest.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Saudade Culinary",
+    "description": "This Seafood restaurant is known for its artisanal creations, offering a unique dining experience with beautiful decor near the cultural center.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-297-8430",
+      "contactEmail": "support@Saudade Culinary.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Castelo Craft",
+    "description": "Indulge in the best of Portuguese with seasonal specialties, all in a setting that highlights artisan markets and views of downtown.",
+    "cuisine": "Portuguese",
     "priceRange": "$",
     "rating": 4.5,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-22:00",
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-20:00",
       "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-116-4536",
-      "contactEmail": "hello@Baixa Marketplace.com"
+      "contactNumber": "+1-232-781-6870",
+      "contactEmail": "clientservices@Castelo Craft.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Baixa Gelateria",
+    "description": "Indulge in the best of Brazilian with farm-to-table meals, all in a setting that highlights friendly service and views of the main square.",
+    "cuisine": "Brazilian",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-450-6576",
+      "contactEmail": "clientservices@Baixa Gelateria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Alfama House",
+    "description": "Experience the best of Seafood with seasonal specialties, served in a charming setting that features beautiful decor and views of central park.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-683-4476",
+      "contactEmail": "welcome@Alfama House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Explorer Parlor",
+    "description": "Enjoy Portuguese cuisine with a focus on local ingredients, all in a setting that highlights friendly service and overlooks the main square.",
+    "cuisine": "Portuguese",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-796-7853",
+      "contactEmail": "connect@Explorer Parlor.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -35,27 +283,89 @@ export const lisbonRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Miradouro Gathering",
+    "description": "A charming Brazilian restaurant near the waterfront, offering signature dishes and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "Brazilian",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-368-4132",
+      "contactEmail": "care@Miradouro Gathering.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Atlantic Buffet",
+    "description": "Experience authentic Seafood cuisine with a local twist, featuring farm-to-table meals served in an atmosphere of elegant atmosphere overlooking the old town walls.",
+    "cuisine": "Seafood",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "Closed",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-224-5861",
+      "contactEmail": "clientservices@Atlantic Buffet.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Tagus Cookhouse",
-    "description": "Discover the flavors of Mediterranean with a focus on local ingredients, set in a delightful venue that features ambient lighting and overlooks the river promenade.",
-    "cuisine": "Mediterranean",
+    "name": "Lisbon Table",
+    "description": "A hidden gem in the city, this Italian restaurant offers signature dishes and a unique ambiance with beautiful decor near the waterfront.",
+    "cuisine": "Italian",
     "priceRange": "$",
-    "rating": 4.5,
+    "rating": 3.9,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-22:00",
+      "monday": "10:00-20:00",
+      "tuesday": "Closed",
       "wednesday": "11:00-22:00",
-      "thursday": "10:00-22:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-21:00"
+      "thursday": "11:00-21:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-370-1629",
-      "contactEmail": "support@Tagus Cookhouse.com"
+      "contactNumber": "+1-232-684-5806",
+      "contactEmail": "info@Lisbon Table.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -70,58 +380,27 @@ export const lisbonRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Tagus Ramen-Ya",
-    "description": "Located close to the old town walls, this Portuguese restaurant delights with its regional wines and beautiful decor.",
-    "cuisine": "Portuguese",
+    "name": "Atlantic Rooftop",
+    "description": "A culinary delight for Mediterranean enthusiasts, this restaurant specializes in fresh produce and offers a unique atmosphere with live street performances near the old town walls.",
+    "cuisine": "Mediterranean",
     "priceRange": "$",
-    "rating": 4.9,
+    "rating": 4.8,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-488-1200",
-      "contactEmail": "connect@Tagus Ramen-Ya.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Port Lab",
-    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in handcrafted desserts and offers a unique atmosphere with boutique shops near the city museum.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-20:00",
       "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-922-1346",
-      "contactEmail": "communications@Port Lab.com"
+      "contactNumber": "+1-232-924-4096",
+      "contactEmail": "support@Atlantic Rooftop.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -129,343 +408,64 @@ export const lisbonRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Belém Revival",
-    "description": "This Italian restaurant is a must-visit for its gourmet street food, offering a unique dining experience with friendly service close to the old town walls.",
-    "cuisine": "Italian",
+    "name": "Atlantic Sushi Bar",
+    "description": "This popular Portuguese establishment combines traditional recipes and signature dishes, all served in a unique setting with elegant atmosphere.",
+    "cuisine": "Portuguese",
     "priceRange": "$",
-    "rating": 5,
+    "rating": 4.7,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-19:00",
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-19:00",
       "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-791-7130",
-      "contactEmail": "support@Belém Revival.com"
+      "contactNumber": "+1-232-287-1824",
+      "contactEmail": "support@Atlantic Sushi Bar.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
-    "isKosherFriendly": true,
+    "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Belém Society",
-    "description": "This Portuguese restaurant is known for its gourmet street food, providing a unique dining experience with ambient lighting close to the city museum.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-21:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-203-9214",
-      "contactEmail": "contact@Belém Society.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Miradouro Creamery",
-    "description": "Located close to the iconic clock tower, this Portuguese restaurant delights with its fresh produce and beautiful decor.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-22:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-22:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-611-5341",
-      "contactEmail": "customerservice@Miradouro Creamery.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Baixa Fare",
-    "description": "This Brazilian restaurant is known for its signature dishes, offering a unique dining experience with beautiful decor near central park.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$",
-    "rating": 5,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-999-4461",
-      "contactEmail": "clientservices@Baixa Fare.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Atlantic Grand Cafe",
-    "description": "A culinary destination for Italian lovers, this restaurant specializes in regional wines and offers a unique atmosphere with artisan markets near the iconic clock tower.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-414-6016",
-      "contactEmail": "welcome@Atlantic Grand Cafe.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Miradouro Parlor",
-    "description": "Enjoy Portuguese cuisine with a focus on heritage recipes, all in a setting that highlights boutique shops and overlooks the iconic clock tower.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 4.9,
+    "name": "Castelo Marketplace",
+    "description": "Enjoy Mediterranean cuisine with a focus on gourmet street food, all in a setting that highlights live street performances and overlooks the main square.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 3.9,
     "openingHours": {
       "monday": "10:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-20:00",
-      "friday": "Closed",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-979-5347",
-      "contactEmail": "info@Miradouro Parlor.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Lisbon Gelateria",
-    "description": "This popular Seafood establishment combines traditional recipes and seasonal specialties, all served in a unique setting with beautiful decor.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-19:00",
-      "saturday": "11:00-22:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-119-6903",
-      "contactEmail": "reception@Lisbon Gelateria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Azulejo Tiki Lounge",
-    "description": "A charming Seafood restaurant near the old town walls, offering gourmet street food and other local favorites in a setting with elegant atmosphere.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-20:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-445-1681",
-      "contactEmail": "hi@Azulejo Tiki Lounge.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Alfama Tea House",
-    "description": "A hidden gem in the city, this Mediterranean restaurant offers handcrafted desserts and a unique ambiance with elegant atmosphere near the cultural center.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-22:00",
-      "thursday": "10:00-20:00",
-      "friday": "Closed",
-      "saturday": "Closed",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-183-1302",
-      "contactEmail": "general@Alfama Tea House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Atlantic Izakaya",
-    "description": "Indulge in the best of Portuguese with local ingredients, all in a setting that highlights beautiful decor and views of central park.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "10:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-22:00",
       "friday": "10:00-21:00",
       "saturday": "11:00-19:00",
       "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-276-2230",
-      "contactEmail": "connect@Atlantic Izakaya.com"
+      "contactNumber": "+1-232-733-3938",
+      "contactEmail": "inquiries@Castelo Marketplace.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Atlantic Canteen",
-    "description": "Savor the rich flavors of Brazilian with a focus on handcrafted desserts, all within a setting that boasts seasonal floral displays and views of the iconic clock tower.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-281-3313",
-      "contactEmail": "hi@Atlantic Canteen.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,

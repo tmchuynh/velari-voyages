@@ -2,474 +2,474 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: New York City
-    // Generated on: 2025-06-10T03:09:08.554Z
+    // Generated on: 2025-06-10T08:14:15.365Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const newYorkCityRestaurants: Restaurant[] = [
   {
-    "name": "Chinese Creperie",
-    "description": "A charming French restaurant near the city museum, offering gourmet street food and other local favorites in a setting with artisan markets.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "10:00-21:00",
-      "friday": "Closed",
-      "saturday": "9:00-20:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-843-1569",
-      "contactEmail": "inquiries@Chinese Creperie.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Italian Local",
-    "description": "Savor the rich flavors of French with a focus on artisanal creations, all within a setting that boasts local ambiance and views of the historic district.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-572-5613",
-      "contactEmail": "help@Italian Local.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Italian Tavern",
-    "description": "Indulge in the best of Chinese with regional wines, all in a setting that highlights beautiful decor and views of the main square.",
+    "name": "Japanese Provisions",
+    "description": "A culinary delight for Chinese enthusiasts, this restaurant specializes in artisanal creations and offers a unique atmosphere with live street performances near downtown.",
     "cuisine": "Chinese",
-    "priceRange": "$$$$",
+    "priceRange": "$$$",
     "rating": 3.8,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-346-5324",
-      "contactEmail": "help@Italian Tavern.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Italian Salumeria",
-    "description": "A hidden gem in the city, this Chinese restaurant offers farm-to-table meals and a unique ambiance with beautiful decor near the iconic clock tower.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-19:00",
-      "friday": "Closed",
-      "saturday": "Closed",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-628-1274",
-      "contactEmail": "care@Italian Salumeria.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Japanese Patisserie",
-    "description": "A must-visit Japanese restaurant near the iconic clock tower, famous for its farm-to-table meals and a charming atmosphere with live street performances.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.1,
     "openingHours": {
       "monday": "9:00-20:00",
       "tuesday": "Closed",
-      "wednesday": "11:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-678-7705",
-      "contactEmail": "welcome@Japanese Patisserie.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Italian Workshop",
-    "description": "A charming Japanese restaurant near the cultural center, offering regional wines and other local favorites in a setting with live street performances.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-757-7686",
-      "contactEmail": "general@Italian Workshop.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Maison",
-    "description": "A culinary delight for Japanese enthusiasts, this restaurant specializes in signature dishes and offers a unique atmosphere with seasonal floral displays near the city museum.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-416-3139",
-      "contactEmail": "ask@Japanese Maison.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "American Canteen",
-    "description": "Discover the essence of American dining with handcrafted desserts and more, set against the backdrop of the waterfront and elegant atmosphere.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
       "thursday": "11:00-22:00",
-      "friday": "Closed",
-      "saturday": "10:00-22:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
       "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-274-4374",
-      "contactEmail": "info@American Canteen.com"
+      "contactNumber": "+1-232-238-7896",
+      "contactEmail": "ask@Japanese Provisions.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "French Taproom",
-    "description": "Indulge in Chinese cuisine featuring signature dishes, set in a delightful venue with ambient lighting close to the city museum.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "10:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-369-8095",
-      "contactEmail": "admin@French Taproom.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Italian Chophouse",
-    "description": "Experience authentic American cuisine with a local twist, featuring local ingredients served in an atmosphere of beautiful decor overlooking the river promenade.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-254-6900",
-      "contactEmail": "clientservices@Italian Chophouse.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Garden",
+    "description": "Enjoy Chinese cuisine with a focus on signature dishes, all in a setting that highlights artisan markets and overlooks the main square.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-846-3854",
+      "contactEmail": "team@Chinese Garden.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "French Pavilion",
+    "description": "A hidden gem in the city, this Japanese restaurant offers farm-to-table meals and a unique ambiance with ambient lighting near the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-371-8464",
+      "contactEmail": "feedback@French Pavilion.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "French Project",
+    "description": "This Chinese restaurant offers a unique take on seasonal specialties, surrounded by seasonal floral displays and just a stone's throw from central park.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-504-6194",
+      "contactEmail": "clientservices@French Project.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Italian Revival",
-    "description": "Savor the rich flavors of Italian with a focus on farm-to-table meals, all within a setting that boasts beautiful decor and views of downtown.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.7,
+    "name": "Japanese Atelier",
+    "description": "Discover the flavors of American with a focus on handcrafted desserts, set in a delightful venue that features live street performances and overlooks the river promenade.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-387-7784",
-      "contactEmail": "welcome@Italian Revival.com"
+      "contactNumber": "+1-232-816-7178",
+      "contactEmail": "clientservices@Japanese Atelier.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Lab",
+    "description": "This French restaurant is a local favorite for its seasonal specialties, offering a unique ambiance with seasonal floral displays near the city museum.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-980-3029",
+      "contactEmail": "feedback@Chinese Lab.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
     "isPopular": false
   },
   {
-    "name": "Japanese Nook",
-    "description": "A culinary delight for French enthusiasts, this restaurant specializes in gourmet street food and offers a unique atmosphere with local ambiance near the old town walls.",
+    "name": "Japanese Raw Bar",
+    "description": "This French restaurant is a must-visit for its artisanal creations, offering a unique dining experience with ambient lighting close to the waterfront.",
     "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 3.8,
+    "priceRange": "$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-22:00",
-      "saturday": "9:00-21:00",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-21:00",
       "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-257-6257",
-      "contactEmail": "reception@Japanese Nook.com"
+      "contactNumber": "+1-232-124-5125",
+      "contactEmail": "mail@Japanese Raw Bar.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Izakaya",
+    "description": "Discover the flavors of American with a focus on artisanal creations, set in a delightful venue that features elegant atmosphere and overlooks the old town walls.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-19:00",
+      "saturday": "Closed",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-346-9159",
+      "contactEmail": "hi@Italian Izakaya.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Japanese Tapas Bar",
+    "description": "Discover the flavors of Italian with a focus on local ingredients, set in a delightful venue that features boutique shops and overlooks the river promenade.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-735-2507",
+      "contactEmail": "hi@Japanese Tapas Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Canteen",
+    "description": "Indulge in the best of Italian with signature dishes, all in a setting that highlights friendly service and views of the river promenade.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-162-9198",
+      "contactEmail": "info@Italian Canteen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Nook",
+    "description": "Discover the flavors of Chinese with a focus on local ingredients, set in a delightful venue that features local ambiance and overlooks the cultural center.",
+    "cuisine": "Chinese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-481-7461",
+      "contactEmail": "ask@Italian Nook.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Chinese Local",
+    "description": "A culinary gem serving French specialties including artisanal creations, where guests enjoy seasonal floral displays in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-449-1740",
+      "contactEmail": "communications@Chinese Local.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Chinese Inn",
+    "description": "Discover the flavors of Japanese with a focus on seasonal specialties, set in a delightful venue that features live street performances and overlooks the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-288-9505",
+      "contactEmail": "inquiries@Chinese Inn.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Chinese Club",
-    "description": "A hidden gem in the city, this Japanese restaurant offers fresh produce and a unique ambiance with charming streetscapes near the old town walls.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4,
+    "name": "Chinese Boulangerie",
+    "description": "This popular French establishment combines traditional recipes and gourmet street food, all served in a unique setting with charming streetscapes.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-976-8992",
+      "contactEmail": "welcome@Chinese Boulangerie.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Restaurant",
+    "description": "Indulge in the best of French with regional wines, all in a setting that highlights seasonal floral displays and views of the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.5,
     "openingHours": {
       "monday": "Closed",
-      "tuesday": "10:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "9:00-20:00",
-      "friday": "Closed",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-710-3765",
-      "contactEmail": "team@Chinese Club.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "French Eatery",
-    "description": "Indulge in Chinese cuisine featuring farm-to-table meals, set in a delightful venue with elegant atmosphere close to the main square.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "11:00-21:00",
+      "tuesday": "9:00-21:00",
       "wednesday": "11:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-19:00"
+      "thursday": "9:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-707-4095",
-      "contactEmail": "ask@French Eatery.com"
+      "contactNumber": "+1-232-834-1137",
+      "contactEmail": "connect@Italian Restaurant.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Italian Trattoria",
-    "description": "A hidden gem in the city, this Italian restaurant offers heritage recipes and a unique ambiance with artisan markets near the historic district.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-848-6539",
-      "contactEmail": "info@Italian Trattoria.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": false
   }
 ];

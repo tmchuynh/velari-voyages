@@ -2,153 +2,91 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Amsterdam
-    // Generated on: 2025-06-10T03:09:08.547Z
+    // Generated on: 2025-06-10T08:14:15.358Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const amsterdamRestaurants: Restaurant[] = [
   {
-    "name": "Rijksmuseum Estate",
-    "description": "A delightful Belgian dining experience awaits with bitterballen, set in a location that features historic courtyards near Dam Square.",
-    "cuisine": "Belgian",
-    "priceRange": "$$$",
-    "rating": 4.6,
+    "name": "Rembrandt Snack Bar",
+    "description": "A hidden gem in the city, this French restaurant offers herring and a unique ambiance with artisanal markets near Amsterdam Central Station.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-22:00"
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "Closed",
+      "friday": "11:00-20:00",
+      "saturday": "9:00-20:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-550-7221",
-      "contactEmail": "hello@Rijksmuseum Estate.com"
+      "contactNumber": "+1-232-355-4724",
+      "contactEmail": "support@Rembrandt Snack Bar.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
+    "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Prinsengracht Grand Cafe",
-    "description": "A culinary delight for Indonesian enthusiasts, this restaurant specializes in poffertjes and offers a unique atmosphere with canal-side dining near Vondelpark.",
-    "cuisine": "Indonesian",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-22:00",
-      "friday": "Closed",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-631-9516",
-      "contactEmail": "care@Prinsengracht Grand Cafe.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Jordaan Wok",
-    "description": "This Dutch restaurant is a local favorite for its stroopwafels, offering a unique ambiance with artisanal markets near Jordaan district.",
-    "cuisine": "Dutch",
-    "priceRange": "$$$",
-    "rating": 3.6,
+    "name": "Tulip Grand Cafe",
+    "description": "Savor the flavors of Mediterranean with a focus on kibbeling (fried fish), all within a setting that boasts Dutch design elements and views of Anne Frank House.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.4,
     "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-21:00",
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-19:00",
       "wednesday": "11:00-21:00",
-      "thursday": "9:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-20:00",
       "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-429-6088",
-      "contactEmail": "office@Jordaan Wok.com"
+      "contactNumber": "+1-232-989-7365",
+      "contactEmail": "support@Tulip Grand Cafe.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": true,
-    "isAdultOnly": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Zaanse Saloon",
-    "description": "This Indonesian restaurant is a must-visit for its stroopwafels, offering a unique dining experience with artisanal markets close to Rijksmuseum.",
-    "cuisine": "Indonesian",
-    "priceRange": "$$$",
-    "rating": 5,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "Closed",
-      "friday": "10:00-20:00",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-356-1035",
-      "contactEmail": "inquiries@Zaanse Saloon.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Netherlands Commissary",
-    "description": "Experience the best of French with poffertjes, served in a charming setting that features bike-friendly streets and views of Vondelpark.",
+    "name": "Holland Experience",
+    "description": "A culinary destination for French lovers, this restaurant specializes in stroopwafels and offers a unique atmosphere with historic courtyards near Vondelpark.",
     "cuisine": "French",
-    "priceRange": "$$$",
-    "rating": 3.9,
+    "priceRange": "$$",
+    "rating": 4.9,
     "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-20:00",
-      "saturday": "Closed",
-      "sunday": "10:00-22:00"
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-327-3440",
-      "contactEmail": "help@Netherlands Commissary.com"
+      "contactNumber": "+1-232-562-1282",
+      "contactEmail": "reachus@Holland Experience.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -160,123 +98,61 @@ export const amsterdamRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Amstel Dim Sum Palace",
-    "description": "This French restaurant is a must-visit for its poffertjes, offering a unique dining experience with colorful tulip displays close to the canals.",
-    "cuisine": "French",
-    "priceRange": "$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-444-2317",
-      "contactEmail": "clientservices@Amstel Dim Sum Palace.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Stroopwafel Harvest",
-    "description": "This Mediterranean restaurant is renowned for its bitterballen, providing a unique dining experience with bike-friendly streets close to Dam Square.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-21:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-633-9428",
-      "contactEmail": "support@Stroopwafel Harvest.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Canal Nook",
-    "description": "A culinary delight for Indonesian enthusiasts, this restaurant specializes in herring and offers a unique atmosphere with cozy brown café atmosphere near Amsterdam Central Station.",
+    "name": "Zaanse Cellar",
+    "description": "Indulge in the best of Indonesian with stroopwafels, all in a setting that highlights canal-side dining and views of Vondelpark.",
     "cuisine": "Indonesian",
-    "priceRange": "$$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-179-4461",
-      "contactEmail": "admin@Canal Nook.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Delft Farm Table",
-    "description": "Savor the rich flavors of Dutch with a focus on licorice, all within a setting that boasts bike-friendly streets and views of Jordaan district.",
-    "cuisine": "Dutch",
-    "priceRange": "$$$",
+    "priceRange": "$$",
     "rating": 3.5,
     "openingHours": {
       "monday": "10:00-22:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-728-9334",
+      "contactEmail": "inquiries@Zaanse Cellar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Vondelpark Osteria",
+    "description": "A must-visit Indonesian restaurant near Royal Palace, famous for its Gouda cheese and a charming atmosphere with colorful tulip displays.",
+    "cuisine": "Indonesian",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
       "thursday": "10:00-19:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-22:00",
       "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-537-8871",
-      "contactEmail": "ask@Delft Farm Table.com"
+      "contactNumber": "+1-232-836-3825",
+      "contactEmail": "inquiries@Vondelpark Osteria.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
@@ -287,154 +163,247 @@ export const amsterdamRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Anne Frank Commissary",
-    "description": "Savor the flavors of Belgian with a focus on kibbeling (fried fish), all within a setting that boasts historic courtyards and views of Jordaan district.",
+    "name": "Van Gogh Coffee House",
+    "description": "This Belgian restaurant offers a unique take on kibbeling (fried fish), surrounded by historic courtyards and just a stone's throw from Royal Palace.",
     "cuisine": "Belgian",
     "priceRange": "$$$",
     "rating": 4.2,
     "openingHours": {
-      "monday": "11:00-19:00",
+      "monday": "Closed",
       "tuesday": "10:00-21:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-19:00"
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-481-9744",
-      "contactEmail": "clientservices@Anne Frank Commissary.com"
+      "contactNumber": "+1-232-112-1569",
+      "contactEmail": "general@Van Gogh Coffee House.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Vondelpark Taqueria",
+    "description": "This French restaurant is known for its herring, providing a unique dining experience with bike-friendly streets close to Vondelpark.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-451-7634",
+      "contactEmail": "info@Vondelpark Taqueria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Red Light Cevicheria",
+    "description": "Indulge in Mediterranean cuisine featuring bitterballen, set in a delightful venue with canal-side dining close to Anne Frank House.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.9,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-664-7026",
+      "contactEmail": "ask@Red Light Cevicheria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Vondelpark Dining Hall",
-    "description": "Experience the best of Dutch with licorice, served in a charming setting that features Dutch design elements and views of the canals.",
-    "cuisine": "Dutch",
-    "priceRange": "$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-349-7520",
-      "contactEmail": "mail@Vondelpark Dining Hall.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Rijksmuseum Craft",
-    "description": "This Dutch restaurant is known for its stroopwafels, providing a unique dining experience with bike-friendly streets close to Jordaan district.",
-    "cuisine": "Dutch",
-    "priceRange": "$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-306-6726",
-      "contactEmail": "reception@Rijksmuseum Craft.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Herengracht Ristorante",
-    "description": "Savor the rich flavors of French with a focus on Gouda cheese, all within a setting that boasts Dutch design elements and views of Anne Frank House.",
-    "cuisine": "French",
-    "priceRange": "$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-19:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-133-2987",
-      "contactEmail": "care@Herengracht Ristorante.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Prinsengracht Chocolatier",
-    "description": "A culinary gem serving Belgian specialties including bitterballen, where guests enjoy Dutch design elements in the heart of the city.",
+    "name": "Damrak Inn",
+    "description": "Indulge in the best of Belgian with kibbeling (fried fish), all in a setting that highlights artisanal markets and views of Royal Palace.",
     "cuisine": "Belgian",
     "priceRange": "$$$",
     "rating": 4.6,
     "openingHours": {
-      "monday": "9:00-21:00",
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-173-7112",
+      "contactEmail": "inquiries@Damrak Inn.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Delft Hideaway",
+    "description": "This Belgian restaurant is known for its bitterballen, offering a unique dining experience with artisanal markets near Rijksmuseum.",
+    "cuisine": "Belgian",
+    "priceRange": "$$$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "Closed",
       "tuesday": "10:00-22:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "10:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-19:00",
       "friday": "10:00-19:00",
       "saturday": "11:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-553-1256",
+      "contactEmail": "communications@Delft Hideaway.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Herengracht Deli",
+    "description": "This Mediterranean restaurant is renowned for its poffertjes, providing a unique dining experience with Dutch design elements close to Dam Square.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-364-2194",
+      "contactEmail": "communications@Herengracht Deli.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Netherlands Grand Cafe",
+    "description": "This Dutch restaurant is known for its Dutch pancakes, providing a unique dining experience with bike-friendly streets close to the canals.",
+    "cuisine": "Dutch",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-663-1904",
+      "contactEmail": "customerservice@Netherlands Grand Cafe.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Amstel Artisan",
+    "description": "Located close to Vondelpark, this French restaurant delights with its herring and artisanal markets.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-21:00",
       "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-920-1912",
-      "contactEmail": "clientservices@Prinsengracht Chocolatier.com"
+      "contactNumber": "+1-232-384-2413",
+      "contactEmail": "services@Amstel Artisan.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -442,34 +411,65 @@ export const amsterdamRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Rembrandt Parlor",
-    "description": "A hidden gem in the city, this Indonesian restaurant offers bitterballen and a unique ambiance with bike-friendly streets near Anne Frank House.",
-    "cuisine": "Indonesian",
+    "name": "Windmill Social",
+    "description": "Located close to Dam Square, this Mediterranean restaurant delights with its kibbeling (fried fish) and bike-friendly streets.",
+    "cuisine": "Mediterranean",
     "priceRange": "$$$",
-    "rating": 4.3,
+    "rating": 4,
     "openingHours": {
       "monday": "10:00-21:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-22:00",
       "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-162-4510",
-      "contactEmail": "help@Rembrandt Parlor.com"
+      "contactNumber": "+1-232-260-4635",
+      "contactEmail": "team@Windmill Social.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
+  },
+  {
+    "name": "Rembrandt Canteen",
+    "description": "This Mediterranean restaurant is a must-visit for its kibbeling (fried fish), offering a unique dining experience with bike-friendly streets close to the canals.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-753-5356",
+      "contactEmail": "clientservices@Rembrandt Canteen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

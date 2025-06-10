@@ -2,34 +2,127 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Boston
-    // Generated on: 2025-06-10T03:09:08.549Z
+    // Generated on: 2025-06-10T08:14:15.360Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const bostonRestaurants: Restaurant[] = [
   {
-    "name": "Tea Party Steakhouse",
-    "description": "A hidden gem in the city, this Italian restaurant offers lobster rolls and a unique ambiance with historic setting near New England Aquarium.",
-    "cuisine": "Italian",
+    "name": "Fenway Snack Shack",
+    "description": "Savor the rich flavors of American with a focus on Boston cream pie, all within a setting that boasts New England charm and views of Boston Harbor.",
+    "cuisine": "American",
     "priceRange": "$",
-    "rating": 4.4,
+    "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-21:00"
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-994-9962",
-      "contactEmail": "ask@Tea Party Steakhouse.com"
+      "contactNumber": "+1-232-510-2917",
+      "contactEmail": "general@Fenway Snack Shack.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "New England Eatery + Bar",
+    "description": "Discover the essence of Italian dining with scrod and more, set against the backdrop of Fenway Park and brick-lined streets.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-477-1674",
+      "contactEmail": "clientservices@New England Eatery + Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Atlantic Epicurean",
+    "description": "This Mediterranean restaurant is a local favorite for its stuffed quahogs, offering a unique ambiance with academic ambiance near Fenway Park.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-758-5234",
+      "contactEmail": "clientservices@Atlantic Epicurean.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Tea Party Barbecue",
+    "description": "A culinary destination for Italian lovers, this restaurant specializes in oysters and offers a unique atmosphere with waterfront views near Faneuil Hall.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-274-3450",
+      "contactEmail": "general@Tea Party Barbecue.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
@@ -39,23 +132,147 @@ export const bostonRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Maritime Bar & Kitchen",
-    "description": "A hidden gem in the city, this Irish restaurant offers scrod and a unique ambiance with waterfront views near Beacon Hill.",
-    "cuisine": "Irish",
+    "name": "Atlantic Fish House",
+    "description": "This Seafood restaurant is a local favorite for its cranberry desserts, offering a unique ambiance with academic ambiance near Freedom Trail.",
+    "cuisine": "Seafood",
     "priceRange": "$",
-    "rating": 4.6,
+    "rating": 4.1,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "Closed",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-21:00",
-      "friday": "Closed",
-      "saturday": "9:00-19:00",
-      "sunday": "9:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "Closed",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-905-3300",
-      "contactEmail": "reception@Maritime Bar & Kitchen.com"
+      "contactNumber": "+1-232-267-3101",
+      "contactEmail": "reception@Atlantic Fish House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Boston Tea House",
+    "description": "Experience the best of American with scrod, served in a charming setting that features waterfront views and views of Fenway Park.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "Closed",
+      "friday": "Closed",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-839-4081",
+      "contactEmail": "general@Boston Tea House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Atlantic Juice Bar",
+    "description": "This American restaurant is renowned for its baked beans, providing a unique dining experience with academic ambiance close to Boston Common.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-843-3379",
+      "contactEmail": "clientservices@Atlantic Juice Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Paul Revere Creamery",
+    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in stuffed quahogs and offers a unique atmosphere with colonial architecture near Faneuil Hall.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-234-5693",
+      "contactEmail": "communications@Paul Revere Creamery.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Maritime House",
+    "description": "This Mediterranean restaurant is known for its stuffed quahogs, providing a unique dining experience with New England charm close to Fenway Park.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.9,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-875-9988",
+      "contactEmail": "customerservice@Maritime House.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -66,95 +283,33 @@ export const bostonRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Atlantic Gelateria",
-    "description": "Indulge in the best of Irish with baked beans, all in a setting that highlights academic ambiance and views of Fenway Park.",
-    "cuisine": "Irish",
-    "priceRange": "$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-320-7367",
-      "contactEmail": "inquiries@Atlantic Gelateria.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Revolution Club",
-    "description": "This Italian restaurant is a must-visit for its stuffed quahogs, offering a unique dining experience with historic setting close to Harvard University.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.3,
+    "name": "Boston Collective",
+    "description": "A hidden gem in the city, this Seafood restaurant offers baked beans and a unique ambiance with academic ambiance near Boston Harbor.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 5,
     "openingHours": {
       "monday": "9:00-21:00",
-      "tuesday": "9:00-22:00",
+      "tuesday": "11:00-21:00",
       "wednesday": "Closed",
-      "thursday": "9:00-20:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "9:00-20:00"
+      "thursday": "11:00-19:00",
+      "friday": "Closed",
+      "saturday": "10:00-19:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-581-9039",
-      "contactEmail": "clientservices@Revolution Club.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Atlantic Sushi Bar",
-    "description": "A hidden gem in the city, this American restaurant offers clam chowder and a unique ambiance with seafood shacks near New England Aquarium.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 3.5,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-20:00",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-573-3972",
-      "contactEmail": "care@Atlantic Sushi Bar.com"
+      "contactNumber": "+1-232-974-9975",
+      "contactEmail": "admin@Boston Collective.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
@@ -163,185 +318,123 @@ export const bostonRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Charles River & Co.",
-    "description": "This Seafood restaurant offers a unique take on scrod, surrounded by New England charm and just a stone's throw from Fenway Park.",
+    "name": "Cambridge Coffee House",
+    "description": "This popular Seafood establishment combines traditional recipes and cranberry desserts, all served in a unique setting with academic ambiance.",
     "cuisine": "Seafood",
-    "priceRange": "$$$$",
-    "rating": 4.5,
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "Closed",
-      "saturday": "10:00-21:00",
+      "monday": "9:00-19:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-22:00",
       "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-765-1347",
-      "contactEmail": "hi@Charles River & Co..com"
+      "contactNumber": "+1-232-885-1056",
+      "contactEmail": "office@Cambridge Coffee House.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Cambridge & Sons",
-    "description": "A culinary gem serving Seafood specialties including lobster rolls, where guests enjoy historic setting in the heart of the city.",
-    "cuisine": "Seafood",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "Closed",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-345-4553",
-      "contactEmail": "help@Cambridge & Sons.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Seaport Parlor",
-    "description": "Located close to Boston Harbor, this Italian restaurant delights with its lobster rolls and old-world pubs.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
+    "name": "Quincy Social",
+    "description": "Savor the rich flavors of Irish with a focus on stuffed quahogs, all within a setting that boasts waterfront views and views of Beacon Hill.",
+    "cuisine": "Irish",
+    "priceRange": "$$",
     "rating": 3.7,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-21:00",
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-21:00",
       "thursday": "9:00-20:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-805-3641",
-      "contactEmail": "help@Seaport Parlor.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Revolution Cantina",
-    "description": "A hidden gem in the city, this Irish restaurant offers stuffed quahogs and a unique ambiance with academic ambiance near Boston Harbor.",
-    "cuisine": "Irish",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "Closed",
       "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-799-5598",
-      "contactEmail": "care@Revolution Cantina.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "New England Artisan",
-    "description": "Indulge in the best of Italian with clam chowder, all in a setting that highlights historic setting and views of Beacon Hill.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-779-2076",
-      "contactEmail": "contact@New England Artisan.com"
+      "contactNumber": "+1-232-242-1705",
+      "contactEmail": "general@Quincy Social.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Quincy Artisan",
-    "description": "A culinary delight for American enthusiasts, this restaurant specializes in Boston cream pie and offers a unique atmosphere with colonial architecture near Fenway Park.",
+    "name": "Quincy Noodle Bar",
+    "description": "A culinary destination for American lovers, this restaurant specializes in Boston cream pie and offers a unique atmosphere with waterfront views near Boston Common.",
     "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.3,
+    "priceRange": "$$",
+    "rating": 4,
     "openingHours": {
       "monday": "11:00-20:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-22:00",
       "saturday": "9:00-19:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-521-9863",
+      "contactEmail": "ask@Quincy Noodle Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "New England Taqueria",
+    "description": "Indulge in the best of Seafood with clam chowder, all in a setting that highlights brick-lined streets and views of Harvard University.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "9:00-21:00",
       "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-980-8980",
-      "contactEmail": "contact@Quincy Artisan.com"
+      "contactNumber": "+1-232-328-2841",
+      "contactEmail": "contact@New England Taqueria.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -349,123 +442,30 @@ export const bostonRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "New England Saloon",
-    "description": "Enjoy Irish cuisine with a focus on scrod, all in a setting that highlights academic ambiance and overlooks Fenway Park.",
+    "name": "Freedom Tea House",
+    "description": "This Irish restaurant is a must-visit for its clam chowder, offering a unique dining experience with academic ambiance close to New England Aquarium.",
     "cuisine": "Irish",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-21:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-605-3585",
-      "contactEmail": "info@New England Saloon.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Fenway Workshop",
-    "description": "This American restaurant is known for its scrod, providing a unique dining experience with colonial architecture close to Harvard University.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
+    "priceRange": "$$",
     "rating": 4.2,
     "openingHours": {
       "monday": "11:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "10:00-19:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-301-2285",
-      "contactEmail": "hi@Fenway Workshop.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "New England Pho House",
-    "description": "Indulge in the best of Mediterranean with scrod, all in a setting that highlights old-world pubs and views of Harvard University.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
       "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-976-8317",
-      "contactEmail": "reception@New England Pho House.com"
+      "contactNumber": "+1-232-409-3117",
+      "contactEmail": "general@Freedom Tea House.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Atlantic Hideaway",
-    "description": "A charming Irish restaurant near New England Aquarium, offering Boston cream pie and other local favorites in a setting with academic ambiance.",
-    "cuisine": "Irish",
-    "priceRange": "$$$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "Closed",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-714-8364",
-      "contactEmail": "support@Atlantic Hideaway.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,

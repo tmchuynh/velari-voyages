@@ -2,160 +2,67 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Victoria
-    // Generated on: 2025-06-10T03:09:08.558Z
+    // Generated on: 2025-06-10T08:14:15.372Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const victoriaRestaurants: Restaurant[] = [
   {
-    "name": "Grand Gallery",
-    "description": "Savor the rich flavors of French with a focus on signature dishes, all within a setting that boasts friendly service and views of the city museum.",
-    "cuisine": "French",
-    "priceRange": "$$$",
-    "rating": 5,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-22:00",
-      "friday": "Closed",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-398-4300",
-      "contactEmail": "clientservices@Grand Gallery.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "The Bistro",
-    "description": "Indulge in Japanese cuisine featuring fresh produce, set in a delightful venue with live street performances close to the cultural center.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 3.9,
+    "name": "The Club",
+    "description": "This Mediterranean restaurant is a must-visit for its handcrafted desserts, offering a unique dining experience with elegant atmosphere close to the river promenade.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.9,
     "openingHours": {
       "monday": "11:00-21:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-563-8254",
-      "contactEmail": "connect@The Bistro.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Patisserie",
-    "description": "This Italian restaurant is known for its signature dishes, offering a unique dining experience with friendly service near central park.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "11:00-19:00",
       "tuesday": "10:00-19:00",
-      "wednesday": "9:00-20:00",
+      "wednesday": "9:00-22:00",
       "thursday": "11:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-19:00"
+      "friday": "9:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-617-2036",
-      "contactEmail": "feedback@Blue Patisserie.com"
+      "contactNumber": "+1-232-588-5200",
+      "contactEmail": "hello@The Club.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Cevicheria",
-    "description": "Indulge in the best of Italian with handcrafted desserts, all in a setting that highlights artisan markets and views of the historic district.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-235-7538",
-      "contactEmail": "customerservice@Grand Cevicheria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "The Gourmet",
-    "description": "A must-visit American restaurant near the cultural center, famous for its heritage recipes and a charming atmosphere with elegant atmosphere.",
-    "cuisine": "American",
-    "priceRange": "$$$",
+    "name": "Royal Tea House",
+    "description": "Discover the essence of Mediterranean dining with regional wines and more, set against the backdrop of the city museum and elegant atmosphere.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
     "rating": 4.2,
     "openingHours": {
       "monday": "Closed",
-      "tuesday": "9:00-21:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "9:00-22:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-22:00",
-      "sunday": "9:00-21:00"
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-534-9627",
-      "contactEmail": "admin@The Gourmet.com"
+      "contactNumber": "+1-232-279-2289",
+      "contactEmail": "admin@Royal Tea House.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -163,271 +70,333 @@ export const victoriaRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Fish House",
-    "description": "Savor the rich flavors of Japanese with a focus on handcrafted desserts, all within a setting that boasts elegant atmosphere and views of the iconic clock tower.",
-    "cuisine": "Japanese",
-    "priceRange": "$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-19:00",
-      "saturday": "11:00-22:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-820-4344",
-      "contactEmail": "info@Golden Fish House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Farm Table",
-    "description": "This Italian restaurant is a local favorite for its farm-to-table meals, offering a unique ambiance with charming streetscapes near central park.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-150-2519",
-      "contactEmail": "services@Golden Farm Table.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Boulangerie",
-    "description": "This Mediterranean restaurant is known for its fresh produce, providing a unique dining experience with boutique shops close to the main square.",
-    "cuisine": "Mediterranean",
+    "name": "Royal Inn",
+    "description": "This French restaurant is known for its heritage recipes, providing a unique dining experience with artisan markets close to the historic district.",
+    "cuisine": "French",
     "priceRange": "$",
     "rating": 4,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "Closed",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-761-8491",
-      "contactEmail": "contact@The Boulangerie.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Ristorante",
-    "description": "A culinary destination for American lovers, this restaurant specializes in artisanal creations and offers a unique atmosphere with boutique shops near the iconic clock tower.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "9:00-21:00",
+      "monday": "9:00-21:00",
+      "tuesday": "9:00-22:00",
       "wednesday": "11:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-106-4824",
-      "contactEmail": "admin@Royal Ristorante.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Cevicheria",
-    "description": "A culinary delight for Mediterranean enthusiasts, this restaurant specializes in artisanal creations and offers a unique atmosphere with artisan markets near the old town walls.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-22:00",
-      "thursday": "9:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-345-4476",
-      "contactEmail": "general@Royal Cevicheria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Pizzeria",
-    "description": "Indulge in the best of French with seasonal specialties, all in a setting that highlights ambient lighting and views of the city museum.",
-    "cuisine": "French",
-    "priceRange": "$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-194-2782",
-      "contactEmail": "info@Royal Pizzeria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Bouchon",
-    "description": "Savor the flavors of American with a focus on local ingredients, all within a setting that boasts charming streetscapes and views of the city museum.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "11:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-21:00",
       "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-548-6913",
-      "contactEmail": "admin@Golden Bouchon.com"
+      "contactNumber": "+1-232-292-7666",
+      "contactEmail": "clientservices@Royal Inn.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Cevicheria",
+    "description": "Indulge in the best of French with fresh produce, all in a setting that highlights friendly service and views of the city museum.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "Closed",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-903-2885",
+      "contactEmail": "services@Royal Cevicheria.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Golden Snack Bar",
-    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in gourmet street food and offers a unique atmosphere with live street performances near the iconic clock tower.",
-    "cuisine": "Italian",
+    "name": "The Coffee House",
+    "description": "A hidden gem in the city, this French restaurant offers handcrafted desserts and a unique ambiance with friendly service near the main square.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-607-7910",
+      "contactEmail": "general@The Coffee House.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Atelier",
+    "description": "A hidden gem in the city, this American restaurant offers fresh produce and a unique ambiance with seasonal floral displays near the river promenade.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-586-8940",
+      "contactEmail": "admin@Grand Atelier.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Cerveceria",
+    "description": "This French restaurant is known for its artisanal creations, providing a unique dining experience with ambient lighting close to the historic district.",
+    "cuisine": "French",
     "priceRange": "$",
     "rating": 3.9,
     "openingHours": {
       "monday": "Closed",
-      "tuesday": "9:00-19:00",
+      "tuesday": "9:00-21:00",
       "wednesday": "11:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "Closed",
-      "sunday": "9:00-22:00"
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-164-5652",
-      "contactEmail": "welcome@Golden Snack Bar.com"
+      "contactNumber": "+1-232-515-2878",
+      "contactEmail": "contact@Royal Cerveceria.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Dim Sum Palace",
+    "description": "This Japanese restaurant is a must-visit for its fresh produce, offering a unique dining experience with elegant atmosphere close to central park.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-373-7617",
+      "contactEmail": "customerservice@Royal Dim Sum Palace.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Canteen",
+    "description": "A culinary delight for Japanese enthusiasts, this restaurant specializes in artisanal creations and offers a unique atmosphere with live street performances near central park.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "Closed",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-246-1007",
+      "contactEmail": "clientservices@Blue Canteen.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Hideaway",
+    "description": "A culinary gem serving Japanese specialties including local ingredients, where guests enjoy local ambiance in the heart of the city.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-21:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-901-4923",
+      "contactEmail": "services@Golden Hideaway.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Blue Sushi Bar",
-    "description": "A hidden gem in the city, this Italian restaurant offers farm-to-table meals and a unique ambiance with friendly service near the old town walls.",
+    "name": "Royal Izakaya",
+    "description": "Indulge in the best of Italian with regional wines, all in a setting that highlights local ambiance and views of the historic district.",
     "cuisine": "Italian",
     "priceRange": "$",
-    "rating": 3.5,
+    "rating": 3.8,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "10:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-22:00"
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-320-9497",
-      "contactEmail": "connect@Blue Sushi Bar.com"
+      "contactNumber": "+1-232-839-8041",
+      "contactEmail": "contact@Royal Izakaya.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Steakhouse",
+    "description": "A hidden gem in the city, this American restaurant offers gourmet street food and a unique ambiance with seasonal floral displays near the main square.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-995-8229",
+      "contactEmail": "mail@Golden Steakhouse.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Buffet",
+    "description": "Savor the rich flavors of Italian with a focus on regional wines, all within a setting that boasts charming streetscapes and views of the cultural center.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-615-9448",
+      "contactEmail": "mail@Grand Buffet.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -438,38 +407,69 @@ export const victoriaRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
   },
   {
-    "name": "Royal Wok",
-    "description": "This Italian restaurant is known for its seasonal specialties, offering a unique dining experience with beautiful decor near downtown.",
-    "cuisine": "Italian",
+    "name": "The Culinary",
+    "description": "Discover the flavors of Japanese with a focus on gourmet street food, set in a delightful venue that features boutique shops and overlooks central park.",
+    "cuisine": "Japanese",
     "priceRange": "$",
-    "rating": 4.3,
+    "rating": 3.9,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "9:00-20:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-20:00"
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-605-6798",
-      "contactEmail": "team@Royal Wok.com"
+      "contactNumber": "+1-232-946-5720",
+      "contactEmail": "services@The Culinary.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "The Terrace",
+    "description": "Savor the rich flavors of American with a focus on handcrafted desserts, all within a setting that boasts ambient lighting and views of the main square.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-488-9847",
+      "contactEmail": "reception@The Terrace.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

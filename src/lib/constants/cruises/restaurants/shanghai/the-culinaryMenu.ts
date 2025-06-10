@@ -6,72 +6,72 @@ import { RestaurantMenu } from "@/lib/types/types";
 export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
   {
     "title": "Main Course Menu",
-    "description": "Taste the depth of Japanese culture through our simple preparations",
+    "description": "A menu designed to highlight the comforting essence of Mediterranean",
     "category": [
       {
         "name": "Signature Dishes",
-        "description": "Crafted daily based on what’s freshest and most inspiring at the market.",
+        "description": "Our chef's pride—carefully selected Mediterranean specialties that define our culinary identity, honed through years of experience and passion.",
         "items": [
           {
-            "name": "Gourmet Grilled Secret Recipe Bouillabaisse",
-            "price": 27.76,
+            "name": "Seasonal Tasting Platter",
+            "price": 27.61,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Enticing Whole Roasted Heritage Chicken",
-            "price": 36.11,
+            "name": "Caribbean-Style Jerk Duck with Mango Slaw",
+            "price": 30.52,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Luscious Signature Truffle Pasta with Aged Pecorino",
-            "price": 35.54,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Stuffed Black Garlic Glazed Beef Tenderloin",
-            "price": 37.5,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Flavorful Chef's Special Surf and Turf",
-            "price": 26.71,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Roasted Award-Winning Seafood Boil",
-            "price": 27.28,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": false
           },
           {
-            "name": "Fresh Creamy Founder's Family Recipe Pasta",
-            "price": 34.23,
+            "name": "Sous Vide Perfected Wagyu",
+            "price": 33.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Executive Chef's Daily Inspiration Entrée",
+            "price": 32.89,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Restaurant's Namesake Signature Entrée",
+            "price": 31.01,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Korean BBQ Short Ribs with Kimchi Rice",
+            "price": 31.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
+          },
+          {
+            "name": "Chef’s Wild Game Selection",
+            "price": 29.84,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -79,71 +79,62 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Chef's Specials",
-        "description": "A showcase of our chef's creativity, featuring dishes that are as unique as they are delicious.",
+        "description": "Unique culinary compositions that rotate frequently to keep each visit fresh and surprising.",
         "items": [
           {
-            "name": "Seasonal Appetizing Aged and House-Cured Charcuterie Selection",
-            "price": 27.38,
+            "name": "Tableside Flambé Preparation",
+            "price": 36.64,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": false,
             "isKosher": false
           },
           {
-            "name": "Authentic Comforting Deconstructed Classic with Modern Technique",
-            "price": 36.48,
-            "isVegetarian": false,
+            "name": "Heritage Breed Porchetta",
+            "price": 38.87,
+            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Classic Braised Grilled Venison with Juniper Berry Sauce",
-            "price": 39.76,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Premium Mouthwatering Charcoal-Grilled Wagyu Beef",
-            "price": 24.69,
-            "isVegetarian": false,
+            "name": "Off-Menu Secret Preparation",
+            "price": 38.93,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "High-End Ingredient Showcase",
+            "price": 27.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Sweet Sous Vide Pork Tenderloin",
-            "price": 35.83,
+            "name": "Truffle-Infused Filet Mignon",
+            "price": 30.84,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Appetizers",
-        "description": "Traditional and reimagined Japanese appetizers made for sharing or solo indulgence.",
+        "description": "Small bites designed to awaken your senses and set the tone for your dining journey.",
         "items": [
           {
-            "name": "Chicken Wings",
-            "price": 9.91,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": true
-          },
-          {
-            "name": "Bruschetta",
-            "price": 14.04,
+            "name": "Deluxe Aromatic Potato Skins",
+            "price": 12.74,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -151,8 +142,8 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Cheese Platter",
-            "price": 15.32,
+            "name": "Hearty Flavorful Garlic Knots",
+            "price": 9.17,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -160,8 +151,8 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Stuffed Avocado",
-            "price": 9.96,
+            "name": "Seasonal Crispy Sweet Potato Fries",
+            "price": 14.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -169,17 +160,17 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Crostini",
-            "price": 15.93,
-            "isVegetarian": false,
+            "name": "Traditional Fried Dumplings",
+            "price": 10.22,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Ceviche",
-            "price": 13.28,
+            "name": "Handcrafted Steamed Cheese Nachos",
+            "price": 9.16,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -187,62 +178,71 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Arancini",
-            "price": 13.16,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Deluxe Sautéed Deviled Eggs",
+            "price": 15.82,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Potato Skins",
-            "price": 13.16,
-            "isVegetarian": true,
+            "name": "Classic Hearty Tzatziki with Pita",
+            "price": 11.19,
+            "isVegetarian": false,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
+          },
+          {
+            "name": "Premium Roasted Calamari",
+            "price": 15.57,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           }
         ]
       },
       {
         "name": "Soups",
-        "description": "Each spoonful offers depth, comfort, and craftsmanship.",
+        "description": "Crafted with care, our soups are a celebration of Mediterranean flavors and traditions.",
         "items": [
           {
-            "name": "Authentic Marinated Black Bean Soup",
-            "price": 8.13,
+            "name": "Deluxe Sweet Cabbage Soup",
+            "price": 9.7,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Homestyle Sautéed Gumbo",
-            "price": 13.64,
-            "isVegetarian": false,
-            "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fresh Tangy Turkey and Wild Rice Soup",
-            "price": 10.85,
+            "name": "Seasonal Satisfying Italian Wedding Soup",
+            "price": 9.43,
             "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Gourmet Pan-seared Lentil Soup",
-            "price": 11.64,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "name": "Deluxe Sizzling Pho",
+            "price": 13.35,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zesty Thai Coconut Soup",
+            "price": 10.51,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -250,48 +250,48 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Salads",
-        "description": "A blend of local and organic ingredients, thoughtfully combined for maximum flavor.",
+        "description": "Each salad is a celebration of freshness and flavor, designed to nourish and delight.",
         "items": [
           {
-            "name": "Southwest Black Bean Salad",
-            "price": 13.61,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Watermelon Feta Salad",
+            "price": 9.12,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Nicoise Salad",
-            "price": 10.97,
-            "isVegetarian": true,
+            "price": 14.87,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Thai Green Papaya Salad",
-            "price": 13.58,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Potato Salad",
-            "price": 9.63,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Caesar Salad",
-            "price": 14.99,
+            "name": "Beet Salad",
+            "price": 9.82,
             "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Broccoli Crunch Salad",
+            "price": 9.07,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Farro Salad",
+            "price": 10.42,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
@@ -301,65 +301,38 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Main Courses",
-        "description": "Crafted with the finest ingredients, our mains are a testament to our culinary philosophy.",
+        "description": "A journey through Mediterranean flavors, expertly prepared and beautifully presented.",
         "items": [
           {
-            "name": "Gourmet Pan-seared Stir-fry",
-            "price": 19.07,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Premium Enticing Quiche",
-            "price": 20.85,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Handcrafted Satisfying Thai Curry",
-            "price": 28.62,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Sizzling Risotto",
-            "price": 18.57,
-            "isVegetarian": true,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Seasonal Smoked Chili con Carne",
-            "price": 21.59,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Authentic Golden Mac and Cheese",
-            "price": 23.34,
+            "name": "Organic Juicy Lamb Chops",
+            "price": 26.02,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": false,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "House Special Wholesome Spaghetti Bolognese",
-            "price": 28.95,
+            "name": "Gourmet Flavorful Pizza",
+            "price": 28.46,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Classic Stuffed Lentil Stew",
+            "price": 30.48,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Handcrafted Zingy Korma",
+            "price": 26.95,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -367,32 +340,59 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Authentic Mouthwatering Burrito",
-            "price": 28.01,
+            "name": "Gourmet Zesty Stir-fry",
+            "price": 21.49,
             "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Hearty Fried Lasagna",
+            "price": 23.28,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Premium Delicious Coq au Vin",
+            "price": 19.26,
+            "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Braised Paella",
+            "price": 25.66,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
+            "isKosher": true
           }
         ]
       },
       {
         "name": "Seafood Specialties",
-        "description": "From raw bar selections to grilled specialties, our seafood dishes are a must-try.",
+        "description": "Sourced from local fisheries, our seafood dishes are as fresh as they come.",
         "items": [
           {
-            "name": "Crab-Stuffed Mushrooms",
-            "price": 28.25,
+            "name": "Organic Herbed Shrimp Scampi over Linguine",
+            "price": 25.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
-            "isKosher": false
+            "isKosher": true
           },
           {
-            "name": "Cajun Shrimp and Grits",
-            "price": 24.69,
+            "name": "Organic Spiced Pan-Seared Scallops with Pea Purée",
+            "price": 32.83,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -400,8 +400,8 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Tempura Soft Shell Crab",
-            "price": 32.4,
+            "name": "Authentic Zesty Classic British Fish and Chips",
+            "price": 30.97,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -409,17 +409,17 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": false
           },
           {
-            "name": "Lemon-Herb Calamari Steak",
-            "price": 26.55,
+            "name": "Hearty Smoked Oysters Rockefeller with Pernod Cream",
+            "price": 24.81,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": true
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": false
           },
           {
-            "name": "Classic British Fish and Chips",
-            "price": 22.6,
+            "name": "Fresh Marinated Crab-Stuffed Mushrooms",
+            "price": 22.46,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -430,11 +430,20 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Side Dishes",
-        "description": "From classic to contemporary, our sides are designed to complement and surprise.",
+        "description": "Flavorful companions that round out your meal with harmony and flair.",
         "items": [
           {
-            "name": "French Fries",
-            "price": 8,
+            "name": "Green Beans Almondine",
+            "price": 8.64,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Mashed Potatoes",
+            "price": 6.51,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
@@ -442,17 +451,17 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Roasted Root Vegetables",
-            "price": 5.3,
-            "isVegetarian": true,
-            "isVegan": true,
-            "isGlutenFree": true,
+            "name": "Macaroni and Aged Cheddar",
+            "price": 6.41,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Crispy Zucchini Fritters",
-            "price": 8.21,
+            "name": "Baked Idaho Potato with Sour Cream",
+            "price": 6.1,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
@@ -461,28 +470,19 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Quinoa Pilaf with Herbs",
-            "price": 9.38,
-            "isVegetarian": true,
+            "price": 8.86,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Fragrant Basmati Rice Pilaf",
-            "price": 5.81,
+            "name": "Flaky Cheddar and Chive Biscuits",
+            "price": 7.51,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Baked Idaho Potato with Sour Cream",
-            "price": 7.75,
-            "isVegetarian": true,
             "isVegan": false,
-            "isGlutenFree": true,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -490,11 +490,11 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Non-Alcoholic Beverages",
-        "description": "Bright, invigorating options that cleanse the palate and refresh the spirit.",
+        "description": "Mocktails and specialty drinks made with the same care as our cocktails.",
         "items": [
           {
-            "name": "Handcrafted Mouthwatering Smoothie",
-            "price": 7.54,
+            "name": "Deluxe Golden Hot Chocolate",
+            "price": 5.15,
             "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
@@ -502,8 +502,8 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Homestyle Spicy Soda",
-            "price": 6.46,
+            "name": "Deluxe Golden Coffee",
+            "price": 5.15,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -511,26 +511,17 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Deluxe Irresistible Iced Tea",
-            "price": 7.85,
+            "name": "Authentic Exquisite Water",
+            "price": 5.11,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
+            "isHalal": false,
+            "isKosher": false
           },
           {
-            "name": "Fresh Spiced Juice",
-            "price": 6.91,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Hearty Creamy Lemonade",
-            "price": 7.15,
+            "name": "Deluxe Marinated Tea",
+            "price": 7.46,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -538,12 +529,21 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Gourmet Tender Milkshake",
-            "price": 7.26,
+            "name": "Premium Tangy Soda",
+            "price": 5.41,
             "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Authentic Savory Juice",
+            "price": 5.6,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": false,
             "isKosher": true
           }
         ]
@@ -552,42 +552,15 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Dessert Menu",
-    "description": "Our flavorful desserts are a celebration of flavor and creativity",
+    "description": "A comforting selection of desserts that will leave you wanting more",
     "category": [
       {
         "name": "Baked Goods",
-        "description": "Warm, fragrant creations baked fresh daily with premium ingredients.",
+        "description": "A rotating selection of baked indulgences from sweet to savory.",
         "items": [
           {
-            "name": "Banana Bread",
-            "price": 7.25,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Eclairs",
-            "price": 10.85,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
             "name": "Berry Tart",
-            "price": 6.56,
-            "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Chocolate Chip Cookies",
-            "price": 8.26,
+            "price": 9.75,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -595,11 +568,38 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Fruit Galette",
-            "price": 6.7,
+            "name": "Cinnamon Rolls",
+            "price": 6.4,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Soufflé",
+            "price": 8.16,
+            "isVegetarian": true,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Tiramisu",
+            "price": 7.62,
             "isVegetarian": false,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Apple Pie",
+            "price": 9.48,
+            "isVegetarian": true,
+            "isVegan": false,
+            "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           }
@@ -607,38 +607,20 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Frozen Desserts",
-        "description": "From creamy gelato to fruity sorbet, our frozen desserts are a must-try.",
+        "description": "Chilled, house-crafted desserts offering a perfect ending to your meal.",
         "items": [
           {
-            "name": "Hearty Smoked Frozen Yogurt",
-            "price": 11.38,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Gourmet Exquisite Sorbet",
-            "price": 8.2,
+            "name": "Granita",
+            "price": 8.79,
             "isVegetarian": true,
-            "isVegan": false,
+            "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Homestyle Golden Ice Cream Cake",
-            "price": 7.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Zingy Sherbet",
-            "price": 9.21,
+            "name": "Ice Cream Cake",
+            "price": 11.39,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -646,11 +628,29 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Handcrafted Grilled Frozen Banana",
-            "price": 8.88,
+            "name": "Frozen Mousse",
+            "price": 8.2,
             "isVegetarian": false,
             "isVegan": true,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Baked Alaska",
+            "price": 8.11,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gelato",
+            "price": 11.37,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -660,15 +660,15 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
   },
   {
     "title": "Drinks Menu",
-    "description": "Elevate your dining experience with our hearty beverage options",
+    "description": "A fresh array of beverages specially curated for our guests",
     "category": [
       {
         "name": "Signature Cocktails",
-        "description": "Each cocktail tells a story—bold, balanced, and unmistakably ours.",
+        "description": "Custom-designed drinks created exclusively by our mixologists to complement our menu.",
         "items": [
           {
-            "name": "Mojito",
-            "price": 11.44,
+            "name": "Negroni",
+            "price": 15.62,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -676,26 +676,26 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Margarita",
-            "price": 13.77,
-            "isVegetarian": false,
-            "isVegan": true,
+            "name": "Mojito",
+            "price": 12.14,
+            "isVegetarian": true,
+            "isVegan": false,
             "isGlutenFree": false,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Cosmopolitan",
-            "price": 12.18,
-            "isVegetarian": true,
+            "name": "Whiskey Sour",
+            "price": 14.55,
+            "isVegetarian": false,
             "isVegan": false,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Whiskey Sour",
-            "price": 13.6,
+            "name": "Cosmopolitan",
+            "price": 11.96,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -704,28 +704,28 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
           },
           {
             "name": "Bloody Mary",
-            "price": 10.77,
+            "price": 13.44,
             "isVegetarian": false,
-            "isVegan": true,
-            "isGlutenFree": false,
+            "isVegan": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
             "name": "Manhattan",
-            "price": 12.24,
-            "isVegetarian": true,
+            "price": 14.74,
+            "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Martini",
-            "price": 15.77,
+            "name": "Old Fashioned",
+            "price": 13.22,
             "isVegetarian": true,
             "isVegan": true,
-            "isGlutenFree": false,
+            "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           }
@@ -733,47 +733,47 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Wine Selection",
-        "description": "From crisp whites to structured reds, our wine list offers something for every palate.",
+        "description": "A journey through the world of wine, with options to suit every taste and occasion.",
         "items": [
           {
-            "name": "Gourmet Smoked Nebbiolo",
-            "price": 9.74,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Fresh Appetizing Cabernet Franc",
-            "price": 10.13,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": true,
-            "isKosher": true
-          },
-          {
-            "name": "Classic Spicy Malbec",
-            "price": 9.82,
-            "isVegetarian": false,
+            "name": "Malbec",
+            "price": 8.7,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": true,
             "isHalal": true,
             "isKosher": true
           },
           {
-            "name": "Gourmet Zingy Champagne/Sparkling Wine",
-            "price": 9.41,
+            "name": "Sémillon",
+            "price": 10.88,
             "isVegetarian": false,
             "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
           },
           {
-            "name": "Premium Roasted Fiano",
-            "price": 8.95,
+            "name": "Chardonnay",
+            "price": 9.04,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Syrah/Shiraz",
+            "price": 10.5,
+            "isVegetarian": false,
+            "isVegan": true,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Pinot Noir",
+            "price": 11.19,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": true,
@@ -781,9 +781,9 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Seasonal Succulent Verdicchio",
-            "price": 8.68,
-            "isVegetarian": false,
+            "name": "Cabernet Franc",
+            "price": 10.78,
+            "isVegetarian": true,
             "isVegan": true,
             "isGlutenFree": false,
             "isHalal": true,
@@ -793,11 +793,38 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
       },
       {
         "name": "Spirits and Liqueurs",
-        "description": "A refined range of aged whiskeys, fine brandies, and international specialties.",
+        "description": "Crafted for those who appreciate the finer things in life—our spirits selection.",
         "items": [
           {
-            "name": "Homestyle Spiced Brandy",
-            "price": 16.79,
+            "name": "Homestyle Sweet Absinthe",
+            "price": 11.25,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Organic Spicy Galliano",
+            "price": 14.47,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": true,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Gourmet Herbed St-Germain",
+            "price": 15.67,
+            "isVegetarian": false,
+            "isVegan": false,
+            "isGlutenFree": false,
+            "isHalal": true,
+            "isKosher": true
+          },
+          {
+            "name": "Homestyle Herbed Whiskey",
+            "price": 15.92,
             "isVegetarian": true,
             "isVegan": false,
             "isGlutenFree": false,
@@ -805,40 +832,13 @@ export const shanghaitheCulinaryMenu: RestaurantMenu[] = [
             "isKosher": true
           },
           {
-            "name": "Premium Exquisite Campari",
-            "price": 16.71,
-            "isVegetarian": true,
-            "isVegan": true,
+            "name": "Authentic Roasted Frangelico",
+            "price": 15.59,
+            "isVegetarian": false,
+            "isVegan": false,
             "isGlutenFree": true,
-            "isHalal": true,
+            "isHalal": false,
             "isKosher": true
-          },
-          {
-            "name": "Authentic Aromatic Anisette",
-            "price": 10.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": false,
-            "isKosher": false
-          },
-          {
-            "name": "Authentic Crunchy Absinthe",
-            "price": 14.29,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": true,
-            "isHalal": true,
-            "isKosher": false
-          },
-          {
-            "name": "Deluxe Grilled Chambord",
-            "price": 12.32,
-            "isVegetarian": false,
-            "isVegan": false,
-            "isGlutenFree": false,
-            "isHalal": false,
-            "isKosher": false
           }
         ]
       }

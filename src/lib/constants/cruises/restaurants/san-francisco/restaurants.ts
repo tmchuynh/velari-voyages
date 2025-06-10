@@ -2,129 +2,67 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: San Francisco
-    // Generated on: 2025-06-10T03:09:08.555Z
+    // Generated on: 2025-06-10T08:14:15.366Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const sanFranciscoRestaurants: Restaurant[] = [
   {
-    "name": "Mexican Trattoria",
-    "description": "Indulge in the best of American with gourmet street food, all in a setting that highlights boutique shops and views of the waterfront.",
+    "name": "Chinese Emporium",
+    "description": "This American restaurant is known for its fresh produce, providing a unique dining experience with beautiful decor close to the old town walls.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "9:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-355-4050",
+      "contactEmail": "services@Chinese Emporium.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Japanese Bar & Kitchen",
+    "description": "Discover the flavors of American with a focus on gourmet street food, set in a delightful venue that features beautiful decor and overlooks the waterfront.",
     "cuisine": "American",
     "priceRange": "$$",
     "rating": 3.7,
     "openingHours": {
       "monday": "9:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-898-7181",
-      "contactEmail": "ask@Mexican Trattoria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "American Lounge",
-    "description": "This American restaurant is renowned for its heritage recipes, providing a unique dining experience with friendly service close to the cultural center.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-20:00",
       "tuesday": "11:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "Closed",
-      "friday": "11:00-19:00",
-      "saturday": "10:00-21:00",
-      "sunday": "Closed"
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-468-2114",
-      "contactEmail": "welcome@American Lounge.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "American Sanctuary",
-    "description": "A hidden gem in the city, this Italian restaurant offers seasonal specialties and a unique ambiance with beautiful decor near the main square.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "Closed",
-      "saturday": "Closed",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-418-6983",
-      "contactEmail": "services@American Sanctuary.com"
+      "contactNumber": "+1-232-950-8424",
+      "contactEmail": "reception@Japanese Bar & Kitchen.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "American Cookhouse",
-    "description": "Enjoy Japanese cuisine with a focus on farm-to-table meals, all in a setting that highlights local ambiance and overlooks the river promenade.",
-    "cuisine": "Japanese",
-    "priceRange": "$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "Closed",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-505-7808",
-      "contactEmail": "welcome@American Cookhouse.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -132,182 +70,89 @@ export const sanFranciscoRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Chinese Cookhouse",
-    "description": "This popular Chinese establishment combines traditional recipes and heritage recipes, all served in a unique setting with live street performances.",
-    "cuisine": "Chinese",
+    "name": "Chinese Brasserie",
+    "description": "A charming Mexican restaurant near the main square, offering handcrafted desserts and other local favorites in a setting with boutique shops.",
+    "cuisine": "Mexican",
     "priceRange": "$$",
-    "rating": 4.7,
+    "rating": 3.7,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-20:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-711-8453",
-      "contactEmail": "reachus@Chinese Cookhouse.com"
+      "contactNumber": "+1-232-191-5991",
+      "contactEmail": "mail@Chinese Brasserie.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Mexican Rotisserie",
+    "description": "A hidden gem in the city, this Japanese restaurant offers farm-to-table meals and a unique ambiance with elegant atmosphere near the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-713-2523",
+      "contactEmail": "reception@Mexican Rotisserie.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "American Mansion",
-    "description": "A culinary delight for Mexican enthusiasts, this restaurant specializes in fresh produce and offers a unique atmosphere with elegant atmosphere near central park.",
-    "cuisine": "Mexican",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-859-7386",
-      "contactEmail": "ask@American Mansion.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Mexican Estate",
-    "description": "This Chinese restaurant is known for its handcrafted desserts, providing a unique dining experience with charming streetscapes close to the city museum.",
+    "name": "Chinese Gastropub",
+    "description": "This popular Chinese establishment combines traditional recipes and regional wines, all served in a unique setting with seasonal floral displays.",
     "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "9:00-22:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-268-8617",
-      "contactEmail": "reachus@Mexican Estate.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Chinese Cookhouse",
-    "description": "Savor the rich flavors of American with a focus on artisanal creations, all within a setting that boasts seasonal floral displays and views of downtown.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-19:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-978-8196",
-      "contactEmail": "mail@Chinese Cookhouse.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Japanese Wine Bar",
-    "description": "This Chinese restaurant is known for its heritage recipes, providing a unique dining experience with local ambiance close to downtown.",
-    "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-469-2845",
-      "contactEmail": "support@Japanese Wine Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Mexican Tavern",
-    "description": "A culinary gem serving American specialties including local ingredients, where guests enjoy elegant atmosphere in the heart of the city.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.8,
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
       "monday": "9:00-21:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-19:00"
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-20:00",
+      "saturday": "Closed",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-704-2542",
-      "contactEmail": "hi@Mexican Tavern.com"
+      "contactNumber": "+1-232-197-5992",
+      "contactEmail": "general@Chinese Gastropub.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
@@ -315,60 +160,29 @@ export const sanFranciscoRestaurants: Restaurant[] = [
     "isIndoorSeating": false,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "American Curry House",
-    "description": "Indulge in the best of American with seasonal specialties, all in a setting that highlights elegant atmosphere and views of the historic district.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-20:00",
-      "saturday": "11:00-19:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-310-6844",
-      "contactEmail": "team@American Curry House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Chinese Sanctuary",
-    "description": "This Italian restaurant offers a unique take on regional wines, surrounded by friendly service and just a stone's throw from the city museum.",
-    "cuisine": "Italian",
+    "name": "American Steakhouse",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring regional wines served in an atmosphere of seasonal floral displays overlooking central park.",
+    "cuisine": "Japanese",
     "priceRange": "$$$$",
-    "rating": 4.6,
+    "rating": 4,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-21:00",
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "10:00-20:00",
       "thursday": "9:00-21:00",
-      "friday": "11:00-21:00",
-      "saturday": "10:00-21:00",
-      "sunday": "11:00-20:00"
+      "friday": "10:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-557-1047",
-      "contactEmail": "welcome@Chinese Sanctuary.com"
+      "contactNumber": "+1-232-926-6228",
+      "contactEmail": "contact@American Steakhouse.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -380,57 +194,212 @@ export const sanFranciscoRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Japanese Table",
-    "description": "Indulge in the best of Japanese with heritage recipes, all in a setting that highlights artisan markets and views of the cultural center.",
+    "name": "Italian Pho House",
+    "description": "Enjoy Chinese cuisine with a focus on heritage recipes, all in a setting that highlights ambient lighting and overlooks the historic district.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-21:00",
+      "friday": "Closed",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-401-2524",
+      "contactEmail": "info@Italian Pho House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mexican Tiki Lounge",
+    "description": "Savor the rich flavors of Japanese with a focus on artisanal creations, all within a setting that boasts artisan markets and views of the cultural center.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-966-2542",
+      "contactEmail": "admin@Mexican Tiki Lounge.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mexican Wok",
+    "description": "Discover the flavors of Italian with a focus on handcrafted desserts, set in a delightful venue that features beautiful decor and overlooks the cultural center.",
+    "cuisine": "Italian",
+    "priceRange": "$$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-454-4117",
+      "contactEmail": "general@Mexican Wok.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Italian Chocolatier",
+    "description": "This Japanese restaurant is known for its artisanal creations, providing a unique dining experience with local ambiance close to downtown.",
     "cuisine": "Japanese",
     "priceRange": "$$$$",
     "rating": 4.3,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-20:00"
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-20:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-628-3034",
-      "contactEmail": "hi@Japanese Table.com"
+      "contactNumber": "+1-232-824-2504",
+      "contactEmail": "general@Italian Chocolatier.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Mexican Creamery",
+    "description": "Savor the flavors of Japanese with a focus on handcrafted desserts, all within a setting that boasts beautiful decor and views of the main square.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-19:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-128-6900",
+      "contactEmail": "feedback@Mexican Creamery.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Chinese Lounge",
+    "description": "A must-visit American restaurant near central park, famous for its seasonal specialties and a charming atmosphere with seasonal floral displays.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-893-4078",
+      "contactEmail": "ask@Chinese Lounge.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
-    "isAdultOnly": true,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Japanese Garden",
-    "description": "This Mexican restaurant offers a unique take on local ingredients, surrounded by local ambiance and just a stone's throw from the main square.",
-    "cuisine": "Mexican",
+    "name": "Italian Eatery + Bar",
+    "description": "Enjoy Japanese cuisine with a focus on gourmet street food, all in a setting that highlights charming streetscapes and overlooks the river promenade.",
+    "cuisine": "Japanese",
     "priceRange": "$$$$",
-    "rating": 3.7,
+    "rating": 4,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-22:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-22:00"
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-967-6844",
-      "contactEmail": "inquiries@Japanese Garden.com"
+      "contactNumber": "+1-232-860-6406",
+      "contactEmail": "clientservices@Italian Eatery + Bar.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
@@ -438,38 +407,69 @@ export const sanFranciscoRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Chinese Coffee House",
-    "description": "A hidden gem in the city, this Italian restaurant offers seasonal specialties and a unique ambiance with beautiful decor near the cultural center.",
+    "name": "Mexican Tiki Lounge",
+    "description": "Savor the flavors of Italian with a focus on gourmet street food, all within a setting that boasts live street performances and views of central park.",
     "cuisine": "Italian",
     "priceRange": "$$$$",
-    "rating": 4.8,
+    "rating": 4.2,
     "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-21:00",
-      "sunday": "10:00-19:00"
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-20:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-325-1083",
-      "contactEmail": "help@Chinese Coffee House.com"
+      "contactNumber": "+1-232-139-9261",
+      "contactEmail": "contact@Mexican Tiki Lounge.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "American Artisan",
+    "description": "A hidden gem in the city, this Japanese restaurant offers fresh produce and a unique ambiance with artisan markets near the historic district.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-956-3214",
+      "contactEmail": "info@American Artisan.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

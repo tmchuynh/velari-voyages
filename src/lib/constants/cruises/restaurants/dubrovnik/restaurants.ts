@@ -2,36 +2,67 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Dubrovnik
-    // Generated on: 2025-06-10T03:09:08.551Z
+    // Generated on: 2025-06-10T08:14:15.360Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const dubrovnikRestaurants: Restaurant[] = [
   {
-    "name": "Grand Bodega",
-    "description": "This American restaurant is renowned for its artisanal creations, providing a unique dining experience with local ambiance close to the river promenade.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.2,
+    "name": "Golden Sanctuary",
+    "description": "Experience the best of Mediterranean with heritage recipes, served in a charming setting that features seasonal floral displays and views of the main square.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4.4,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-21:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-22:00"
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-285-3147",
-      "contactEmail": "clientservices@Grand Bodega.com"
+      "contactNumber": "+1-232-778-4377",
+      "contactEmail": "info@Golden Sanctuary.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Tea House",
+    "description": "Savor the rich flavors of French with a focus on gourmet street food, all within a setting that boasts live street performances and views of the iconic clock tower.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 5,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-176-4555",
+      "contactEmail": "customerservice@The Tea House.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -39,121 +70,121 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Grand Cafe",
-    "description": "A hidden gem in the city, this Japanese restaurant offers regional wines and a unique ambiance with elegant atmosphere near downtown.",
-    "cuisine": "Japanese",
-    "priceRange": "$",
-    "rating": 4.7,
+    "name": "Golden Parlor",
+    "description": "This American restaurant offers a unique take on artisanal creations, surrounded by local ambiance and just a stone's throw from downtown.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.4,
     "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "Closed",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-21:00"
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-278-2137",
-      "contactEmail": "admin@Grand Grand Cafe.com"
+      "contactNumber": "+1-232-736-4798",
+      "contactEmail": "ask@Golden Parlor.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Biergarten",
+    "description": "A must-visit Mediterranean restaurant near the iconic clock tower, famous for its artisanal creations and a charming atmosphere with seasonal floral displays.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "Closed",
+      "friday": "9:00-21:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-706-9886",
+      "contactEmail": "clientservices@The Biergarten.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Supper Club",
-    "description": "Savor the rich flavors of American with a focus on farm-to-table meals, all within a setting that boasts boutique shops and views of the river promenade.",
-    "cuisine": "American",
-    "priceRange": "$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-330-6840",
-      "contactEmail": "hi@Blue Supper Club.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Blue Seafood Shack",
-    "description": "Enjoy Mediterranean cuisine with a focus on local ingredients, all in a setting that highlights friendly service and overlooks central park.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$",
-    "rating": 3.6,
+    "name": "Grand Ristorante",
+    "description": "This French restaurant is a must-visit for its heritage recipes, offering a unique dining experience with seasonal floral displays close to the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-19:00",
-      "saturday": "Closed",
-      "sunday": "11:00-21:00"
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-932-2178",
-      "contactEmail": "welcome@Blue Seafood Shack.com"
+      "contactNumber": "+1-232-112-2896",
+      "contactEmail": "contact@Grand Ristorante.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Blue Hideaway",
-    "description": "Experience authentic Japanese cuisine with a local twist, featuring artisanal creations served in an atmosphere of charming streetscapes overlooking the waterfront.",
-    "cuisine": "Japanese",
-    "priceRange": "$",
-    "rating": 3.9,
+    "name": "Royal Grill",
+    "description": "Experience the best of Italian with gourmet street food, served in a charming setting that features elegant atmosphere and views of the iconic clock tower.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 5,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-19:00",
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-20:00",
       "saturday": "11:00-20:00",
-      "sunday": "9:00-20:00"
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-690-2921",
-      "contactEmail": "admin@Blue Hideaway.com"
+      "contactNumber": "+1-232-993-9014",
+      "contactEmail": "office@Royal Grill.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": false,
     "isAdultOnly": false,
@@ -163,26 +194,88 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Royal Room",
-    "description": "This French restaurant is known for its farm-to-table meals, providing a unique dining experience with artisan markets close to downtown.",
-    "cuisine": "French",
+    "name": "Blue Osteria",
+    "description": "This popular American establishment combines traditional recipes and signature dishes, all served in a unique setting with boutique shops.",
+    "cuisine": "American",
     "priceRange": "$$",
-    "rating": 4.1,
+    "rating": 3.6,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-22:00"
+      "monday": "9:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-330-1937",
-      "contactEmail": "support@Royal Room.com"
+      "contactNumber": "+1-232-867-3797",
+      "contactEmail": "connect@Blue Osteria.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Fare",
+    "description": "Discover the flavors of French with a focus on signature dishes, set in a delightful venue that features friendly service and overlooks the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-238-5245",
+      "contactEmail": "inquiries@Royal Fare.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Craft",
+    "description": "A culinary delight for Mediterranean enthusiasts, this restaurant specializes in local ingredients and offers a unique atmosphere with artisan markets near central park.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-533-5780",
+      "contactEmail": "general@Golden Craft.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -194,58 +287,58 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "The Biergarten",
-    "description": "Savor the rich flavors of Italian with a focus on farm-to-table meals, all within a setting that boasts charming streetscapes and views of the main square.",
-    "cuisine": "Italian",
+    "name": "Grand Pho House",
+    "description": "A charming Japanese restaurant near the historic district, offering heritage recipes and other local favorites in a setting with beautiful decor.",
+    "cuisine": "Japanese",
     "priceRange": "$$",
-    "rating": 3.6,
+    "rating": 3.5,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "11:00-21:00",
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "Closed",
       "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-700-9687",
-      "contactEmail": "customerservice@The Biergarten.com"
+      "contactNumber": "+1-232-531-8636",
+      "contactEmail": "admin@Grand Pho House.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "The Chocolatier",
-    "description": "This French restaurant is known for its signature dishes, providing a unique dining experience with live street performances close to the main square.",
-    "cuisine": "French",
+    "name": "Blue Fare",
+    "description": "Savor the rich flavors of Italian with a focus on regional wines, all within a setting that boasts artisan markets and views of the main square.",
+    "cuisine": "Italian",
     "priceRange": "$$",
-    "rating": 4.9,
+    "rating": 4.1,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-19:00",
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-22:00",
       "thursday": "11:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-20:00"
+      "friday": "9:00-21:00",
+      "saturday": "11:00-20:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-439-1706",
-      "contactEmail": "general@The Chocolatier.com"
+      "contactNumber": "+1-232-153-1865",
+      "contactEmail": "hello@Blue Fare.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -253,123 +346,30 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "The Craft",
-    "description": "A must-visit Mediterranean restaurant near downtown, famous for its local ingredients and a charming atmosphere with live street performances.",
-    "cuisine": "Mediterranean",
+    "name": "Royal Club",
+    "description": "A delightful American dining experience awaits with heritage recipes, set in a location that features friendly service near the cultural center.",
+    "cuisine": "American",
     "priceRange": "$$",
-    "rating": 4.2,
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-21:00",
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-20:00",
       "saturday": "9:00-21:00",
       "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-124-9114",
-      "contactEmail": "services@The Craft.com"
+      "contactNumber": "+1-232-497-1185",
+      "contactEmail": "mail@Royal Club.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Tapas Bar",
-    "description": "A culinary destination for French lovers, this restaurant specializes in farm-to-table meals and offers a unique atmosphere with charming streetscapes near the historic district.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-560-2163",
-      "contactEmail": "team@Golden Tapas Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Rotisserie",
-    "description": "Savor the rich flavors of Mediterranean with a focus on handcrafted desserts, all within a setting that boasts local ambiance and views of the city museum.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-987-7930",
-      "contactEmail": "ask@Blue Rotisserie.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "The Raw Bar",
-    "description": "Savor the rich flavors of French with a focus on artisanal creations, all within a setting that boasts boutique shops and views of the cultural center.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "9:00-19:00",
-      "friday": "Closed",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-149-6424",
-      "contactEmail": "ask@The Raw Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": false,
@@ -377,30 +377,61 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Royal Maison",
-    "description": "Discover the essence of Italian dining with regional wines and more, set against the backdrop of the historic district and seasonal floral displays.",
+    "name": "Blue Sushi Bar",
+    "description": "A must-visit Italian restaurant near the waterfront, famous for its fresh produce and a charming atmosphere with boutique shops.",
     "cuisine": "Italian",
     "priceRange": "$$",
-    "rating": 4.1,
+    "rating": 4.5,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-21:00",
-      "friday": "Closed",
-      "saturday": "10:00-19:00",
-      "sunday": "Closed"
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-111-3203",
-      "contactEmail": "mail@Royal Maison.com"
+      "contactNumber": "+1-232-817-7749",
+      "contactEmail": "inquiries@Blue Sushi Bar.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Maison",
+    "description": "A hidden gem in the city, this Mediterranean restaurant offers signature dishes and a unique ambiance with elegant atmosphere near the city museum.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-835-6383",
+      "contactEmail": "inquiries@Grand Maison.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -408,67 +439,36 @@ export const dubrovnikRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Grand & Co.",
-    "description": "A culinary destination for American lovers, this restaurant specializes in regional wines and offers a unique atmosphere with artisan markets near the waterfront.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "10:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-101-4248",
-      "contactEmail": "mail@Grand & Co..com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Grand Bouchon",
-    "description": "Located close to the river promenade, this Japanese restaurant delights with its heritage recipes and charming streetscapes.",
-    "cuisine": "Japanese",
+    "name": "Grand Cevicheria",
+    "description": "This American restaurant is known for its handcrafted desserts, offering a unique dining experience with ambient lighting near central park.",
+    "cuisine": "American",
     "priceRange": "$$",
-    "rating": 4.9,
+    "rating": 4.3,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "Closed",
-      "saturday": "9:00-19:00",
-      "sunday": "9:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-833-3341",
-      "contactEmail": "support@Grand Bouchon.com"
+      "contactNumber": "+1-232-127-3464",
+      "contactEmail": "services@Grand Cevicheria.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
-    "isAdultOnly": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isReservationsAccepted": false,
     "isRomantic": false,
     "isPopular": false
   }

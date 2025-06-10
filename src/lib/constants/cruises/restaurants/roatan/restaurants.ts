@@ -2,308 +2,29 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Roatan
-    // Generated on: 2025-06-10T03:09:08.555Z
+    // Generated on: 2025-06-10T08:14:15.366Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const roatanRestaurants: Restaurant[] = [
   {
-    "name": "Royal Mansion",
-    "description": "This Japanese restaurant is known for its artisanal creations, providing a unique dining experience with local ambiance close to downtown.",
+    "name": "Grand Grill",
+    "description": "Discover the flavors of Japanese with a focus on farm-to-table meals, set in a delightful venue that features boutique shops and overlooks the river promenade.",
     "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-398-4949",
-      "contactEmail": "contact@Royal Mansion.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Parlor",
-    "description": "This Japanese restaurant is a local favorite for its artisanal creations, offering a unique ambiance with seasonal floral displays near the old town walls.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-186-2012",
-      "contactEmail": "feedback@Blue Parlor.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Fine Dining",
-    "description": "This Italian restaurant is a must-visit for its heritage recipes, offering a unique dining experience with elegant atmosphere close to the city museum.",
-    "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-893-4905",
-      "contactEmail": "team@Golden Fine Dining.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Smokehouse",
-    "description": "A must-visit Mediterranean restaurant near the iconic clock tower, famous for its gourmet street food and a charming atmosphere with ambient lighting.",
-    "cuisine": "Mediterranean",
     "priceRange": "$$$",
     "rating": 4.6,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "10:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-20:00",
+      "monday": "10:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
       "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-473-1515",
-      "contactEmail": "inquiries@Blue Smokehouse.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Creperie",
-    "description": "Savor the flavors of Japanese with a focus on gourmet street food, all within a setting that boasts elegant atmosphere and views of the waterfront.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 5,
-    "openingHours": {
-      "monday": "11:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-20:00",
-      "thursday": "Closed",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-360-4912",
-      "contactEmail": "services@Royal Creperie.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "The Fine Dining",
-    "description": "A culinary gem serving Italian specialties including heritage recipes, where guests enjoy artisan markets in the heart of the city.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-529-4738",
-      "contactEmail": "inquiries@The Fine Dining.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Public House",
-    "description": "Enjoy Italian cuisine with a focus on local ingredients, all in a setting that highlights charming streetscapes and overlooks the main square.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "Closed",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-19:00",
-      "sunday": "10:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-256-8478",
-      "contactEmail": "mail@Royal Public House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Mansion",
-    "description": "This French restaurant is a must-visit for its seasonal specialties, offering a unique dining experience with friendly service close to the waterfront.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-612-5493",
-      "contactEmail": "general@Blue Mansion.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Curry House",
-    "description": "A hidden gem in the city, this Italian restaurant offers seasonal specialties and a unique ambiance with live street performances near the old town walls.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-682-3404",
-      "contactEmail": "contact@Golden Curry House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Emporium",
-    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in heritage recipes and offers a unique atmosphere with artisan markets near downtown.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-19:00",
-      "friday": "Closed",
-      "saturday": "10:00-22:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-703-4186",
-      "contactEmail": "contact@Grand Emporium.com"
+      "contactNumber": "+1-232-857-1585",
+      "contactEmail": "info@Grand Grill.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -313,28 +34,59 @@ export const roatanRestaurants: Restaurant[] = [
     "isFineDining": true,
     "isAdultOnly": true,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Grand Gathering",
-    "description": "Indulge in the best of French with local ingredients, all in a setting that highlights artisan markets and views of the waterfront.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.6,
+    "name": "Golden Commissary",
+    "description": "Discover the essence of American dining with artisanal creations and more, set against the backdrop of downtown and seasonal floral displays.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 3.6,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "10:00-20:00",
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
       "friday": "9:00-22:00",
-      "saturday": "9:00-19:00",
+      "saturday": "Closed",
       "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-637-2060",
-      "contactEmail": "hi@Grand Gathering.com"
+      "contactNumber": "+1-232-224-8626",
+      "contactEmail": "services@Golden Commissary.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Saloon",
+    "description": "This American restaurant is a local favorite for its farm-to-table meals, offering a unique ambiance with live street performances near the iconic clock tower.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.9,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-699-3067",
+      "contactEmail": "communications@Golden Saloon.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -346,26 +98,57 @@ export const roatanRestaurants: Restaurant[] = [
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Grand Harvest",
+    "description": "Indulge in the best of American with gourmet street food, all in a setting that highlights boutique shops and views of the waterfront.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-133-9669",
+      "contactEmail": "admin@Grand Harvest.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Royal Gathering",
-    "description": "This Mediterranean restaurant is a must-visit for its gourmet street food, offering a unique dining experience with friendly service close to the cultural center.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 4.8,
+    "name": "Golden Sanctuary",
+    "description": "A culinary delight for French enthusiasts, this restaurant specializes in seasonal specialties and offers a unique atmosphere with live street performances near the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.2,
     "openingHours": {
-      "monday": "11:00-22:00",
+      "monday": "9:00-19:00",
       "tuesday": "11:00-20:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-22:00",
-      "friday": "Closed",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-20:00"
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-20:00",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-486-7262",
-      "contactEmail": "welcome@Royal Gathering.com"
+      "contactNumber": "+1-232-581-7811",
+      "contactEmail": "communications@Golden Sanctuary.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -373,68 +156,254 @@ export const roatanRestaurants: Restaurant[] = [
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Trading Co.",
+    "description": "A hidden gem in the city, this Mediterranean restaurant offers fresh produce and a unique ambiance with local ambiance near the historic district.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-553-3015",
+      "contactEmail": "feedback@Golden Trading Co..com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Boulangerie",
+    "description": "A must-visit French restaurant near the main square, famous for its gourmet street food and a charming atmosphere with friendly service.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-749-3503",
+      "contactEmail": "inquiries@Golden Boulangerie.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Eatery",
+    "description": "A must-visit Japanese restaurant near central park, famous for its regional wines and a charming atmosphere with boutique shops.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-847-1691",
+      "contactEmail": "reception@The Eatery.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Wine Bar",
+    "description": "A delightful Mediterranean dining experience awaits with seasonal specialties, set in a location that features friendly service near the river promenade.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-323-4131",
+      "contactEmail": "support@Grand Wine Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Gathering",
+    "description": "A culinary gem serving French specialties including farm-to-table meals, where guests enjoy ambient lighting in the heart of the city.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-305-2576",
+      "contactEmail": "welcome@Royal Gathering.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Project",
+    "description": "Enjoy French cuisine with a focus on artisanal creations, all in a setting that highlights artisan markets and overlooks the waterfront.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-544-4264",
+      "contactEmail": "admin@The Project.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Golden Rotisserie",
-    "description": "This American restaurant is a local favorite for its handcrafted desserts, offering a unique ambiance with live street performances near the historic district.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.2,
+    "name": "Blue Maison",
+    "description": "A hidden gem in the city, this Italian restaurant offers heritage recipes and a unique ambiance with elegant atmosphere near downtown.",
+    "cuisine": "Italian",
+    "priceRange": "$",
+    "rating": 4.9,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "Closed",
-      "sunday": "11:00-21:00"
+      "monday": "9:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "9:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-527-9675",
-      "contactEmail": "admin@Golden Rotisserie.com"
+      "contactNumber": "+1-232-963-2401",
+      "contactEmail": "feedback@Blue Maison.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "The Provisions",
-    "description": "A culinary delight for Japanese enthusiasts, this restaurant specializes in local ingredients and offers a unique atmosphere with artisan markets near the historic district.",
+    "name": "Blue Brasserie",
+    "description": "Experience authentic Japanese cuisine with a local twist, featuring handcrafted desserts served in an atmosphere of seasonal floral displays overlooking the main square.",
     "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 3.5,
+    "priceRange": "$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-22:00"
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-153-9263",
-      "contactEmail": "communications@The Provisions.com"
+      "contactNumber": "+1-232-839-5996",
+      "contactEmail": "services@Blue Brasserie.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -442,30 +411,61 @@ export const roatanRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Royal Pizzeria",
-    "description": "This Japanese restaurant is a must-visit for its signature dishes, offering a unique dining experience with elegant atmosphere close to downtown.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.2,
+    "name": "Golden Smokehouse",
+    "description": "A must-visit French restaurant near the waterfront, famous for its heritage recipes and a charming atmosphere with live street performances.",
+    "cuisine": "French",
+    "priceRange": "$",
+    "rating": 4.5,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "11:00-21:00",
-      "saturday": "9:00-19:00",
-      "sunday": "9:00-21:00"
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-396-8197",
-      "contactEmail": "info@Royal Pizzeria.com"
+      "contactNumber": "+1-232-954-2405",
+      "contactEmail": "care@Golden Smokehouse.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Dining Hall",
+    "description": "Indulge in the best of Japanese with artisanal creations, all in a setting that highlights ambient lighting and views of the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-975-1950",
+      "contactEmail": "ask@Royal Dining Hall.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,

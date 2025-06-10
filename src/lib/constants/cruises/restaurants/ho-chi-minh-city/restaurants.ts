@@ -2,284 +2,67 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Ho Chi Minh City
-    // Generated on: 2025-06-10T03:09:08.551Z
+    // Generated on: 2025-06-10T08:14:15.362Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const hoChiMinhCityRestaurants: Restaurant[] = [
   {
-    "name": "Golden Lab",
-    "description": "Discover the flavors of Mediterranean with a focus on gourmet street food, set in a delightful venue that features friendly service and overlooks the city museum.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-523-1139",
-      "contactEmail": "office@Golden Lab.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "The Creperie",
-    "description": "Discover the essence of Italian dining with artisanal creations and more, set against the backdrop of the waterfront and artisan markets.",
+    "name": "Golden Fine Dining",
+    "description": "Savor the rich flavors of Italian with a focus on handcrafted desserts, all within a setting that boasts seasonal floral displays and views of the main square.",
     "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-21:00",
-      "friday": "Closed",
-      "saturday": "10:00-22:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-970-7282",
-      "contactEmail": "inquiries@The Creperie.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Tiki Lounge",
-    "description": "Experience the best of Japanese with seasonal specialties, served in a charming setting that features artisan markets and views of the historic district.",
-    "cuisine": "Japanese",
-    "priceRange": "$$",
-    "rating": 3.8,
+    "priceRange": "$$$",
+    "rating": 3.9,
     "openingHours": {
       "monday": "11:00-20:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-20:00",
-      "saturday": "11:00-20:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-641-2929",
-      "contactEmail": "admin@Golden Tiki Lounge.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Cellar",
-    "description": "A must-visit Italian restaurant near the old town walls, famous for its farm-to-table meals and a charming atmosphere with ambient lighting.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "9:00-20:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-19:00",
       "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-102-9915",
-      "contactEmail": "inquiries@Grand Cellar.com"
+      "contactNumber": "+1-232-318-3753",
+      "contactEmail": "office@Golden Fine Dining.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Royal Harvest",
-    "description": "Indulge in the best of Italian with seasonal specialties, all in a setting that highlights ambient lighting and views of downtown.",
+    "name": "Golden Farm Table",
+    "description": "A hidden gem in the city, this Italian restaurant offers artisanal creations and a unique ambiance with boutique shops near downtown.",
     "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4.1,
+    "priceRange": "$$$",
+    "rating": 4,
     "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "11:00-22:00",
+      "monday": "10:00-19:00",
+      "tuesday": "11:00-21:00",
       "wednesday": "Closed",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-510-2727",
-      "contactEmail": "hi@Royal Harvest.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Grand Cafe",
-    "description": "A culinary gem serving Mediterranean specialties including gourmet street food, where guests enjoy elegant atmosphere in the heart of the city.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "10:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-488-7795",
-      "contactEmail": "reception@Grand Grand Cafe.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Provisions",
-    "description": "Savor the rich flavors of Italian with a focus on heritage recipes, all within a setting that boasts friendly service and views of the city museum.",
-    "cuisine": "Italian",
-    "priceRange": "$$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "Closed",
       "saturday": "10:00-19:00",
       "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-790-5280",
-      "contactEmail": "care@Blue Provisions.com"
+      "contactNumber": "+1-232-216-6177",
+      "contactEmail": "customerservice@Golden Farm Table.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Salumeria",
-    "description": "Indulge in the best of American with gourmet street food, all in a setting that highlights local ambiance and views of the river promenade.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 3.5,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-594-3215",
-      "contactEmail": "team@Golden Salumeria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Tiki Lounge",
-    "description": "Discover the flavors of American with a focus on handcrafted desserts, set in a delightful venue that features elegant atmosphere and overlooks the city museum.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "9:00-20:00",
-      "friday": "Closed",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-331-1055",
-      "contactEmail": "support@Blue Tiki Lounge.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -287,123 +70,123 @@ export const hoChiMinhCityRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Golden Snack Bar",
-    "description": "A hidden gem in the city, this American restaurant offers artisanal creations and a unique ambiance with beautiful decor near the river promenade.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
-    "rating": 4.7,
+    "name": "Blue Garden",
+    "description": "This Mediterranean restaurant is a must-visit for its fresh produce, offering a unique dining experience with beautiful decor close to the historic district.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$",
+    "rating": 4.9,
     "openingHours": {
-      "monday": "9:00-22:00",
+      "monday": "9:00-20:00",
       "tuesday": "11:00-20:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "11:00-19:00"
+      "wednesday": "Closed",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-877-9540",
-      "contactEmail": "hi@Golden Snack Bar.com"
+      "contactNumber": "+1-232-643-9839",
+      "contactEmail": "clientservices@Blue Garden.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
+    "isRomantic": true,
+    "isPopular": true
   },
   {
-    "name": "Blue & Sons",
-    "description": "This Mediterranean restaurant is a must-visit for its farm-to-table meals, offering a unique dining experience with ambient lighting close to the river promenade.",
+    "name": "Blue Buffet",
+    "description": "A culinary delight for Mediterranean enthusiasts, this restaurant specializes in heritage recipes and offers a unique atmosphere with boutique shops near central park.",
     "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 3.8,
+    "priceRange": "$$$",
+    "rating": 3.7,
     "openingHours": {
-      "monday": "9:00-22:00",
+      "monday": "11:00-20:00",
       "tuesday": "Closed",
       "wednesday": "11:00-21:00",
-      "thursday": "9:00-22:00",
-      "friday": "10:00-20:00",
-      "saturday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-566-9464",
+      "contactEmail": "services@Blue Buffet.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Commissary",
+    "description": "A must-visit American restaurant near the iconic clock tower, famous for its regional wines and a charming atmosphere with beautiful decor.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-721-4489",
+      "contactEmail": "welcome@Golden Commissary.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Oyster Bar",
+    "description": "Savor the rich flavors of French with a focus on artisanal creations, all within a setting that boasts seasonal floral displays and views of central park.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
       "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-717-8073",
-      "contactEmail": "welcome@Blue & Sons.com"
+      "contactNumber": "+1-232-157-9084",
+      "contactEmail": "customerservice@Golden Oyster Bar.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Cerveceria",
-    "description": "Discover the flavors of Mediterranean with a focus on fresh produce, set in a delightful venue that features charming streetscapes and overlooks the historic district.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-942-9186",
-      "contactEmail": "support@Golden Cerveceria.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Society",
-    "description": "Located close to the cultural center, this French restaurant delights with its farm-to-table meals and artisan markets.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "11:00-22:00",
-      "friday": "11:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-753-2966",
-      "contactEmail": "clientservices@The Society.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -411,30 +194,154 @@ export const hoChiMinhCityRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Chocolatier",
-    "description": "Savor the rich flavors of American with a focus on gourmet street food, all within a setting that boasts local ambiance and views of the main square.",
-    "cuisine": "American",
-    "priceRange": "$$$$",
+    "name": "Blue Wine Bar",
+    "description": "This Japanese restaurant is known for its regional wines, offering a unique dining experience with ambient lighting near the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-424-3337",
+      "contactEmail": "hi@Blue Wine Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Artisan",
+    "description": "Enjoy Japanese cuisine with a focus on signature dishes, all in a setting that highlights elegant atmosphere and overlooks the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
     "rating": 4.6,
     "openingHours": {
       "monday": "11:00-20:00",
       "tuesday": "11:00-20:00",
-      "wednesday": "9:00-19:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-19:00"
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-381-2447",
-      "contactEmail": "mail@Grand Chocolatier.com"
+      "contactNumber": "+1-232-807-2356",
+      "contactEmail": "help@Golden Artisan.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Ristorante",
+    "description": "Indulge in Mediterranean cuisine featuring farm-to-table meals, set in a delightful venue with seasonal floral displays close to downtown.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-128-9062",
+      "contactEmail": "hello@Golden Ristorante.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Bistro",
+    "description": "A delightful Japanese dining experience awaits with handcrafted desserts, set in a location that features beautiful decor near central park.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-222-8663",
+      "contactEmail": "welcome@The Bistro.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Ristorante",
+    "description": "This Japanese restaurant is known for its regional wines, providing a unique dining experience with elegant atmosphere close to the waterfront.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-462-5824",
+      "contactEmail": "contact@Royal Ristorante.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -442,34 +349,127 @@ export const hoChiMinhCityRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Grand Gelateria",
-    "description": "This Mediterranean restaurant is known for its farm-to-table meals, providing a unique dining experience with seasonal floral displays close to the historic district.",
+    "name": "Grand Society",
+    "description": "Savor the rich flavors of Mediterranean with a focus on regional wines, all within a setting that boasts boutique shops and views of the waterfront.",
     "cuisine": "Mediterranean",
-    "priceRange": "$$$$",
-    "rating": 3.9,
+    "priceRange": "$$",
+    "rating": 3.8,
     "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "11:00-20:00",
+      "monday": "9:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-19:00",
+      "friday": "9:00-22:00",
       "saturday": "9:00-21:00",
-      "sunday": "9:00-20:00"
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-851-5820",
-      "contactEmail": "services@Grand Gelateria.com"
+      "contactNumber": "+1-232-420-7669",
+      "contactEmail": "help@Grand Society.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "The Dining Room",
+    "description": "A culinary delight for French enthusiasts, this restaurant specializes in local ingredients and offers a unique atmosphere with beautiful decor near the river promenade.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "Closed",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-629-9339",
+      "contactEmail": "welcome@The Dining Room.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
+  },
+  {
+    "name": "The Bouchon",
+    "description": "This American restaurant is known for its fresh produce, providing a unique dining experience with elegant atmosphere close to downtown.",
+    "cuisine": "American",
+    "priceRange": "$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-424-2762",
+      "contactEmail": "reachus@The Bouchon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Cookhouse",
+    "description": "A hidden gem in the city, this Mediterranean restaurant offers heritage recipes and a unique ambiance with charming streetscapes near central park.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$",
+    "rating": 5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-153-1113",
+      "contactEmail": "ask@Golden Cookhouse.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

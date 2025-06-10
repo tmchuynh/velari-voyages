@@ -2,160 +2,98 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Mykonos
-    // Generated on: 2025-06-10T03:09:08.554Z
+    // Generated on: 2025-06-10T08:14:15.364Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const mykonosRestaurants: Restaurant[] = [
   {
-    "name": "Royal Bistro",
-    "description": "A culinary delight for French enthusiasts, this restaurant specializes in heritage recipes and offers a unique atmosphere with artisan markets near the main square.",
+    "name": "Golden Fine Dining",
+    "description": "Savor the rich flavors of French with a focus on regional wines, all within a setting that boasts boutique shops and views of downtown.",
     "cuisine": "French",
-    "priceRange": "$",
-    "rating": 4.8,
+    "priceRange": "$$$$",
+    "rating": 4.7,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "10:00-19:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-595-5698",
-      "contactEmail": "contact@Royal Bistro.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": true,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Atelier",
-    "description": "Enjoy Italian cuisine with a focus on local ingredients, all in a setting that highlights artisan markets and overlooks the main square.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "10:00-21:00",
-      "saturday": "10:00-22:00",
-      "sunday": "10:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-722-2930",
-      "contactEmail": "services@Blue Atelier.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Grand Snack Bar",
-    "description": "A hidden gem in the city, this Mediterranean restaurant offers fresh produce and a unique ambiance with boutique shops near the city museum.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-20:00",
-      "friday": "10:00-21:00",
-      "saturday": "11:00-19:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-770-2348",
-      "contactEmail": "mail@Grand Snack Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Golden Epicurean",
-    "description": "This Italian restaurant is known for its signature dishes, providing a unique dining experience with charming streetscapes close to the main square.",
-    "cuisine": "Italian",
-    "priceRange": "$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-19:00",
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-20:00",
       "wednesday": "10:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "10:00-19:00",
-      "saturday": "10:00-19:00",
-      "sunday": "11:00-21:00"
+      "thursday": "Closed",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-20:00",
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-621-2663",
-      "contactEmail": "connect@Golden Epicurean.com"
+      "contactNumber": "+1-232-268-1154",
+      "contactEmail": "help@Golden Fine Dining.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
     "name": "Grand Izakaya",
-    "description": "Indulge in Japanese cuisine featuring artisanal creations, set in a delightful venue with seasonal floral displays close to the historic district.",
-    "cuisine": "Japanese",
-    "priceRange": "$",
+    "description": "This Mediterranean restaurant is known for its fresh produce, providing a unique dining experience with friendly service close to the iconic clock tower.",
+    "cuisine": "Mediterranean",
+    "priceRange": "$$$$",
     "rating": 4,
     "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-20:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-19:00"
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-241-7712",
-      "contactEmail": "mail@Grand Izakaya.com"
+      "contactNumber": "+1-232-494-9873",
+      "contactEmail": "care@Grand Izakaya.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Cafe",
+    "description": "Indulge in the best of American with signature dishes, all in a setting that highlights beautiful decor and views of the iconic clock tower.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-19:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-22:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-949-7222",
+      "contactEmail": "info@Blue Cafe.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
@@ -163,54 +101,116 @@ export const mykonosRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Golden Harvest",
-    "description": "A must-visit American restaurant near the historic district, famous for its regional wines and a charming atmosphere with friendly service.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4.8,
+    "name": "Blue Culinary",
+    "description": "Enjoy Japanese cuisine with a focus on gourmet street food, all in a setting that highlights ambient lighting and overlooks the old town walls.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$$",
+    "rating": 3.8,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "Closed",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-19:00",
-      "saturday": "10:00-19:00",
-      "sunday": "11:00-19:00"
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "Closed",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-825-1513",
-      "contactEmail": "support@Golden Harvest.com"
+      "contactNumber": "+1-232-864-8254",
+      "contactEmail": "help@Blue Culinary.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": false,
+    "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "The Emporium",
-    "description": "Savor the rich flavors of Mediterranean with a focus on signature dishes, all within a setting that boasts elegant atmosphere and views of the cultural center.",
+    "name": "Royal Marketplace",
+    "description": "A hidden gem in the city, this Mediterranean restaurant offers local ingredients and a unique ambiance with seasonal floral displays near the cultural center.",
     "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.9,
+    "priceRange": "$$$$",
+    "rating": 3.5,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "Closed",
-      "thursday": "10:00-21:00",
-      "friday": "10:00-19:00",
-      "saturday": "Closed",
-      "sunday": "11:00-21:00"
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "9:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-515-9887",
-      "contactEmail": "care@The Emporium.com"
+      "contactNumber": "+1-232-465-5398",
+      "contactEmail": "contact@Royal Marketplace.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Mansion",
+    "description": "A hidden gem in the city, this American restaurant offers signature dishes and a unique ambiance with elegant atmosphere near the city museum.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-498-2250",
+      "contactEmail": "admin@Royal Mansion.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Rooftop",
+    "description": "A delightful Japanese dining experience awaits with heritage recipes, set in a location that features charming streetscapes near downtown.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-222-6925",
+      "contactEmail": "support@Golden Rooftop.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -220,28 +220,28 @@ export const mykonosRestaurants: Restaurant[] = [
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Grand Taqueria",
-    "description": "Discover the flavors of Italian with a focus on fresh produce, set in a delightful venue that features beautiful decor and overlooks the main square.",
+    "name": "Blue Saloon",
+    "description": "Located close to central park, this Italian restaurant delights with its fresh produce and elegant atmosphere.",
     "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 3.8,
+    "priceRange": "$",
+    "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-21:00",
-      "saturday": "10:00-21:00",
+      "monday": "Closed",
+      "tuesday": "10:00-20:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "Closed",
       "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-563-6459",
-      "contactEmail": "admin@Grand Taqueria.com"
+      "contactNumber": "+1-232-849-2118",
+      "contactEmail": "care@Blue Saloon.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -251,214 +251,214 @@ export const mykonosRestaurants: Restaurant[] = [
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Bouchon",
+    "description": "This American restaurant is known for its gourmet street food, providing a unique dining experience with live street performances close to the cultural center.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "10:00-20:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-167-9846",
+      "contactEmail": "hi@Blue Bouchon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Golden Ramen-Ya",
+    "description": "Savor the flavors of Japanese with a focus on seasonal specialties, all within a setting that boasts local ambiance and views of the waterfront.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-361-1987",
+      "contactEmail": "communications@Golden Ramen-Ya.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Nook",
+    "description": "This American restaurant offers a unique take on seasonal specialties, surrounded by beautiful decor and just a stone's throw from the main square.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 3.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "9:00-22:00",
+      "saturday": "9:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-546-1471",
+      "contactEmail": "admin@Blue Nook.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Royal Patisserie",
+    "description": "This Japanese restaurant is a must-visit for its artisanal creations, offering a unique dining experience with beautiful decor close to the city museum.",
+    "cuisine": "Japanese",
+    "priceRange": "$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "9:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-571-8376",
+      "contactEmail": "clientservices@Royal Patisserie.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Coffee House",
+    "description": "A culinary gem serving American specialties including signature dishes, where guests enjoy beautiful decor in the heart of the city.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "9:00-21:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-22:00",
+      "thursday": "11:00-20:00",
+      "friday": "9:00-19:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-627-1735",
+      "contactEmail": "feedback@Blue Coffee House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "The Lab",
+    "description": "This American restaurant is a must-visit for its signature dishes, offering a unique dining experience with boutique shops close to the waterfront.",
+    "cuisine": "American",
+    "priceRange": "$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-19:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-601-5042",
+      "contactEmail": "hi@The Lab.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Royal Experience",
-    "description": "A hidden gem in the city, this American restaurant offers seasonal specialties and a unique ambiance with live street performances near the iconic clock tower.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-19:00",
-      "saturday": "10:00-21:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-582-2448",
-      "contactEmail": "support@Royal Experience.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Nook",
-    "description": "A culinary destination for Mediterranean lovers, this restaurant specializes in fresh produce and offers a unique atmosphere with beautiful decor near the main square.",
+    "name": "Royal Bakery",
+    "description": "A hidden gem in the city, this Mediterranean restaurant offers seasonal specialties and a unique ambiance with boutique shops near the iconic clock tower.",
     "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 3.9,
+    "priceRange": "$",
+    "rating": 3.6,
     "openingHours": {
-      "monday": "9:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-21:00",
+      "monday": "11:00-20:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
       "friday": "9:00-19:00",
-      "saturday": "9:00-20:00",
+      "saturday": "10:00-20:00",
       "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-425-1127",
-      "contactEmail": "clientservices@Blue Nook.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Blue Fare",
-    "description": "Experience authentic French cuisine with a local twist, featuring gourmet street food served in an atmosphere of elegant atmosphere overlooking the cultural center.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-352-6008",
-      "contactEmail": "reachus@Blue Fare.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Atelier",
-    "description": "Indulge in American cuisine featuring handcrafted desserts, set in a delightful venue with elegant atmosphere close to the main square.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-21:00",
-      "saturday": "Closed",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-575-6423",
-      "contactEmail": "contact@Royal Atelier.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Ristorante",
-    "description": "This American restaurant offers a unique take on artisanal creations, surrounded by elegant atmosphere and just a stone's throw from the city museum.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-210-6649",
-      "contactEmail": "customerservice@Royal Ristorante.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Royal Maison",
-    "description": "A hidden gem in the city, this American restaurant offers seasonal specialties and a unique ambiance with local ambiance near the iconic clock tower.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-19:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-19:00",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-811-4766",
-      "contactEmail": "reachus@Royal Maison.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Dining Hall",
-    "description": "Indulge in the best of American with heritage recipes, all in a setting that highlights boutique shops and views of the historic district.",
-    "cuisine": "American",
-    "priceRange": "$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "9:00-22:00",
-      "friday": "Closed",
-      "saturday": "10:00-22:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-975-4478",
-      "contactEmail": "reception@Royal Dining Hall.com"
+      "contactNumber": "+1-232-965-1724",
+      "contactEmail": "customerservice@Royal Bakery.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -467,9 +467,9 @@ export const mykonosRestaurants: Restaurant[] = [
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
+    "isRomantic": true,
+    "isPopular": true
   }
 ];

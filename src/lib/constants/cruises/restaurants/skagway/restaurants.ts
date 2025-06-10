@@ -2,91 +2,60 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Skagway
-    // Generated on: 2025-06-10T03:09:08.556Z
+    // Generated on: 2025-06-10T08:14:15.368Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const skagwayRestaurants: Restaurant[] = [
   {
-    "name": "Grand Cantina",
-    "description": "A culinary delight for Japanese enthusiasts, this restaurant specializes in artisanal creations and offers a unique atmosphere with seasonal floral displays near the cultural center.",
-    "cuisine": "Japanese",
+    "name": "Blue Fine Dining",
+    "description": "A hidden gem in the city, this Italian restaurant offers regional wines and a unique ambiance with boutique shops near downtown.",
+    "cuisine": "Italian",
     "priceRange": "$$$$",
-    "rating": 4.1,
+    "rating": 4.8,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "11:00-19:00",
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-22:00",
       "wednesday": "11:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "Closed",
-      "saturday": "11:00-22:00",
-      "sunday": "10:00-20:00"
+      "thursday": "10:00-21:00",
+      "friday": "10:00-22:00",
+      "saturday": "11:00-19:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-531-3380",
-      "contactEmail": "help@Grand Cantina.com"
+      "contactNumber": "+1-232-128-9926",
+      "contactEmail": "reception@Blue Fine Dining.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Blue Project",
-    "description": "A hidden gem in the city, this American restaurant offers fresh produce and a unique ambiance with boutique shops near the waterfront.",
-    "cuisine": "American",
+    "name": "Grand Bouchon",
+    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in heritage recipes and offers a unique atmosphere with beautiful decor near the city museum.",
+    "cuisine": "Italian",
     "priceRange": "$$$$",
-    "rating": 4.4,
+    "rating": 3.6,
     "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-20:00",
+      "monday": "11:00-20:00",
+      "tuesday": "Closed",
+      "wednesday": "9:00-19:00",
+      "thursday": "9:00-20:00",
       "friday": "9:00-21:00",
-      "saturday": "9:00-20:00",
+      "saturday": "10:00-19:00",
       "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-587-5980",
-      "contactEmail": "info@Blue Project.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Restaurant",
-    "description": "This Japanese restaurant is a must-visit for its fresh produce, offering a unique dining experience with beautiful decor close to the city museum.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "9:00-22:00",
-      "friday": "9:00-19:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-743-2520",
-      "contactEmail": "office@Blue Restaurant.com"
+      "contactNumber": "+1-232-790-2142",
+      "contactEmail": "clientservices@Grand Bouchon.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -95,66 +64,35 @@ export const skagwayRestaurants: Restaurant[] = [
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
+    "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": false
   },
   {
-    "name": "Blue Snack Bar",
-    "description": "A culinary destination for Mediterranean lovers, this restaurant specializes in regional wines and offers a unique atmosphere with artisan markets near the old town walls.",
-    "cuisine": "Mediterranean",
+    "name": "Grand Kebab House",
+    "description": "A culinary delight for American enthusiasts, this restaurant specializes in regional wines and offers a unique atmosphere with friendly service near the historic district.",
+    "cuisine": "American",
     "priceRange": "$$$$",
-    "rating": 4.7,
+    "rating": 3.7,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "9:00-22:00",
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-22:00",
+      "wednesday": "Closed",
       "thursday": "Closed",
-      "friday": "Closed",
-      "saturday": "9:00-22:00",
-      "sunday": "10:00-21:00"
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-601-9306",
-      "contactEmail": "reception@Blue Snack Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Inn",
-    "description": "Discover the flavors of French with a focus on heritage recipes, set in a delightful venue that features seasonal floral displays and overlooks the river promenade.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.2,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-22:00",
-      "saturday": "Closed",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-761-8729",
-      "contactEmail": "inquiries@Royal Inn.com"
+      "contactNumber": "+1-232-237-4980",
+      "contactEmail": "services@Grand Kebab House.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
@@ -163,27 +101,120 @@ export const skagwayRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Blue Dining Room",
-    "description": "A culinary delight for Italian enthusiasts, this restaurant specializes in seasonal specialties and offers a unique atmosphere with live street performances near the waterfront.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 4,
+    "name": "Blue Izakaya",
+    "description": "Indulge in the best of American with regional wines, all in a setting that highlights ambient lighting and views of central park.",
+    "cuisine": "American",
+    "priceRange": "$$$$",
+    "rating": 4.1,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "Closed",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "9:00-20:00"
+      "monday": "11:00-19:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "Closed",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-22:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-497-3142",
-      "contactEmail": "clientservices@Blue Dining Room.com"
+      "contactNumber": "+1-232-838-4515",
+      "contactEmail": "welcome@Blue Izakaya.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Blue Kitchen",
+    "description": "A charming French restaurant near central park, offering handcrafted desserts and other local favorites in a setting with boutique shops.",
+    "cuisine": "French",
+    "priceRange": "$$$$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "10:00-19:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-229-5759",
+      "contactEmail": "admin@Blue Kitchen.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Pho House",
+    "description": "A culinary destination for Italian lovers, this restaurant specializes in heritage recipes and offers a unique atmosphere with elegant atmosphere near the cultural center.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 3.8,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-602-6762",
+      "contactEmail": "hello@Royal Pho House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "The Oyster Bar",
+    "description": "A culinary delight for French enthusiasts, this restaurant specializes in fresh produce and offers a unique atmosphere with charming streetscapes near the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "11:00-20:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "9:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-436-8860",
+      "contactEmail": "services@The Oyster Bar.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": false,
@@ -194,26 +225,212 @@ export const skagwayRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Golden Buffet",
-    "description": "This Italian restaurant is a must-visit for its regional wines, offering a unique dining experience with local ambiance close to the waterfront.",
+    "name": "Blue Restaurant",
+    "description": "Experience the best of Italian with artisanal creations, served in a charming setting that features ambient lighting and views of the cultural center.",
     "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 5,
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-19:00",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-414-7404",
+      "contactEmail": "hello@Blue Restaurant.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Taqueria",
+    "description": "A culinary destination for Italian lovers, this restaurant specializes in heritage recipes and offers a unique atmosphere with charming streetscapes near downtown.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.8,
+    "openingHours": {
+      "monday": "11:00-20:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-532-4147",
+      "contactEmail": "team@Blue Taqueria.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Grand Tiki Lounge",
+    "description": "This Japanese restaurant is known for its regional wines, providing a unique dining experience with ambient lighting close to central park.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.3,
     "openingHours": {
       "monday": "10:00-21:00",
       "tuesday": "Closed",
-      "wednesday": "9:00-20:00",
-      "thursday": "11:00-21:00",
-      "friday": "11:00-20:00",
-      "saturday": "9:00-22:00",
-      "sunday": "9:00-19:00"
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "10:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-935-5876",
-      "contactEmail": "general@Golden Buffet.com"
+      "contactNumber": "+1-232-950-8993",
+      "contactEmail": "general@Grand Tiki Lounge.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Saloon",
+    "description": "Located close to the main square, this American restaurant delights with its handcrafted desserts and live street performances.",
+    "cuisine": "American",
+    "priceRange": "$$$",
+    "rating": 4.3,
+    "openingHours": {
+      "monday": "11:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "9:00-22:00",
+      "friday": "11:00-19:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-515-6919",
+      "contactEmail": "office@Blue Saloon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Blue Garden",
+    "description": "Located close to the old town walls, this Italian restaurant delights with its heritage recipes and live street performances.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 3.9,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-20:00",
+      "thursday": "10:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "Closed",
+      "sunday": "11:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-199-8988",
+      "contactEmail": "help@Blue Garden.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Royal Project",
+    "description": "This Italian restaurant is a must-visit for its artisanal creations, offering a unique dining experience with charming streetscapes close to the main square.",
+    "cuisine": "Italian",
+    "priceRange": "$$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-22:00",
+      "friday": "10:00-19:00",
+      "saturday": "9:00-19:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-758-3492",
+      "contactEmail": "hello@Royal Project.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Golden Snack Shack",
+    "description": "A culinary delight for French enthusiasts, this restaurant specializes in regional wines and offers a unique atmosphere with live street performances near the old town walls.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "9:00-19:00",
+      "saturday": "10:00-20:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-688-4544",
+      "contactEmail": "reception@Golden Snack Shack.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
@@ -221,247 +438,30 @@ export const skagwayRestaurants: Restaurant[] = [
     "isAdultOnly": true,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Golden Workshop",
-    "description": "Experience authentic Mediterranean cuisine with a local twist, featuring signature dishes served in an atmosphere of local ambiance overlooking the main square.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.1,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "Closed",
-      "wednesday": "11:00-20:00",
-      "thursday": "10:00-20:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-341-8413",
-      "contactEmail": "ask@Golden Workshop.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": true
   },
   {
-    "name": "Golden Biergarten",
-    "description": "A culinary delight for Mediterranean enthusiasts, this restaurant specializes in heritage recipes and offers a unique atmosphere with friendly service near the waterfront.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 4.3,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-19:00",
-      "saturday": "10:00-21:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-955-8535",
-      "contactEmail": "hello@Golden Biergarten.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Grand Ramen-Ya",
-    "description": "This Mediterranean restaurant is a local favorite for its signature dishes, offering a unique ambiance with artisan markets near the main square.",
-    "cuisine": "Mediterranean",
-    "priceRange": "$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-19:00",
-      "thursday": "10:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-637-1300",
-      "contactEmail": "hello@Grand Ramen-Ya.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Oyster Bar",
-    "description": "This Italian restaurant is a must-visit for its fresh produce, offering a unique dining experience with friendly service close to the old town walls.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 3.9,
+    "name": "The Club",
+    "description": "Discover the essence of Japanese dining with seasonal specialties and more, set against the backdrop of the iconic clock tower and boutique shops.",
+    "cuisine": "Japanese",
+    "priceRange": "$$$",
+    "rating": 4.2,
     "openingHours": {
       "monday": "Closed",
-      "tuesday": "11:00-21:00",
-      "wednesday": "Closed",
-      "thursday": "10:00-19:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-21:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-156-3545",
-      "contactEmail": "reception@The Oyster Bar.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "The Enoteca",
-    "description": "Savor the rich flavors of Italian with a focus on handcrafted desserts, all within a setting that boasts elegant atmosphere and views of the city museum.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "10:00-21:00",
-      "tuesday": "11:00-21:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-499-2024",
-      "contactEmail": "help@The Enoteca.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Blue Trading Co.",
-    "description": "A hidden gem in the city, this Japanese restaurant offers fresh produce and a unique ambiance with friendly service near the city museum.",
-    "cuisine": "Japanese",
-    "priceRange": "$$",
-    "rating": 4.5,
-    "openingHours": {
-      "monday": "10:00-19:00",
-      "tuesday": "Closed",
+      "tuesday": "10:00-19:00",
       "wednesday": "11:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-20:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-297-1436",
-      "contactEmail": "services@Blue Trading Co..com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Royal Society",
-    "description": "Located close to downtown, this French restaurant delights with its heritage recipes and boutique shops.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "10:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-347-8599",
-      "contactEmail": "admin@Royal Society.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "The Wok",
-    "description": "This Italian restaurant is known for its fresh produce, providing a unique dining experience with artisan markets close to the river promenade.",
-    "cuisine": "Italian",
-    "priceRange": "$$",
-    "rating": 3.5,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "11:00-21:00",
-      "friday": "10:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-20:00",
       "saturday": "10:00-20:00",
       "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-556-9343",
-      "contactEmail": "ask@The Wok.com"
+      "contactNumber": "+1-232-932-8581",
+      "contactEmail": "reachus@The Club.com"
     },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
@@ -469,7 +469,7 @@ export const skagwayRestaurants: Restaurant[] = [
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
-    "isRomantic": true,
+    "isRomantic": false,
     "isPopular": true
   }
 ];

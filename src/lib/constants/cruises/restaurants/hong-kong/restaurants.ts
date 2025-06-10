@@ -2,215 +2,184 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Hong Kong
-    // Generated on: 2025-06-10T03:09:08.551Z
+    // Generated on: 2025-06-10T08:14:15.362Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const hongKongRestaurants: Restaurant[] = [
   {
-    "name": "Pearl Grand Cafe",
-    "description": "Located close to Tian Tan Buddha, this Japanese restaurant delights with its pineapple buns and neon-lit streets.",
+    "name": "Junk Boat Artisan",
+    "description": "Discover the essence of Japanese dining with wonton noodles and more, set against the backdrop of Kowloon and rooftop dining.",
     "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.7,
-    "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "10:00-19:00",
-      "thursday": "Closed",
-      "friday": "9:00-22:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-502-7140",
-      "contactEmail": "hi@Pearl Grand Cafe.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Neon Nook",
-    "description": "This Thai restaurant offers a unique take on pineapple buns, surrounded by fusion of East and West and just a stone's throw from Kowloon.",
-    "cuisine": "Thai",
-    "priceRange": "$$$$",
+    "priceRange": "$$$",
     "rating": 3.9,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-22:00",
-      "wednesday": "10:00-20:00",
-      "thursday": "10:00-19:00",
+      "monday": "9:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "Closed",
+      "thursday": "9:00-22:00",
       "friday": "11:00-19:00",
-      "saturday": "10:00-19:00",
-      "sunday": "11:00-19:00"
+      "saturday": "10:00-21:00",
+      "sunday": "10:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-726-8803",
-      "contactEmail": "customerservice@Neon Nook.com"
+      "contactNumber": "+1-232-223-4215",
+      "contactEmail": "feedback@Junk Boat Artisan.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
+    "isKosherFriendly": false,
     "isFineDining": true,
-    "isAdultOnly": true,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Star Ferry Kebab House",
-    "description": "This French restaurant is known for its egg tarts, providing a unique dining experience with urban parks close to Kowloon.",
-    "cuisine": "French",
-    "priceRange": "$$$$",
-    "rating": 4.4,
+    "name": "Dragon Rotisserie",
+    "description": "A culinary gem serving Chinese specialties including egg tarts, where guests enjoy bustling markets in the heart of the city.",
+    "cuisine": "Chinese",
+    "priceRange": "$$$",
+    "rating": 3.8,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-22:00",
+      "monday": "10:00-20:00",
+      "tuesday": "Closed",
       "wednesday": "Closed",
-      "thursday": "10:00-20:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-22:00",
-      "sunday": "11:00-22:00"
+      "thursday": "9:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-959-1653",
-      "contactEmail": "hello@Star Ferry Kebab House.com"
+      "contactNumber": "+1-232-810-6758",
+      "contactEmail": "welcome@Dragon Rotisserie.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Harbor Wine Bar",
+    "description": "Savor the rich flavors of French with a focus on congee, all within a setting that boasts harbor views and views of Tian Tan Buddha.",
+    "cuisine": "French",
+    "priceRange": "$$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "Closed",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-256-3756",
+      "contactEmail": "connect@Harbor Wine Bar.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Dragon Tiki Lounge",
+    "description": "This Cantonese restaurant is known for its roast goose, providing a unique dining experience with harbor views close to Star Ferry.",
+    "cuisine": "Cantonese",
+    "priceRange": "$$$",
+    "rating": 3.6,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "Closed",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-19:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-563-6069",
+      "contactEmail": "clientservices@Dragon Tiki Lounge.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
     "isRomantic": true,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Harbor Pho House",
-    "description": "Savor the rich flavors of Japanese with a focus on dim sum, all within a setting that boasts neon-lit streets and views of Star Ferry.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "10:00-19:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "Closed",
-      "friday": "Closed",
-      "saturday": "9:00-19:00",
-      "sunday": "9:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-831-8165",
-      "contactEmail": "communications@Harbor Pho House.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Causeway Wine Bar",
-    "description": "Savor the rich flavors of Chinese with a focus on dim sum, all within a setting that boasts rooftop dining and views of Ngong Ping 360.",
+    "name": "Victoria Charcuterie",
+    "description": "This Chinese restaurant offers a unique take on snake soup, surrounded by rooftop dining and just a stone's throw from Tian Tan Buddha.",
     "cuisine": "Chinese",
-    "priceRange": "$$$$",
-    "rating": 3.6,
+    "priceRange": "$$$",
+    "rating": 4.5,
     "openingHours": {
-      "monday": "Closed",
-      "tuesday": "Closed",
+      "monday": "10:00-19:00",
+      "tuesday": "9:00-22:00",
       "wednesday": "11:00-19:00",
-      "thursday": "9:00-21:00",
+      "thursday": "11:00-22:00",
       "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-21:00"
+      "saturday": "9:00-20:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-175-9836",
-      "contactEmail": "ask@Causeway Wine Bar.com"
+      "contactNumber": "+1-232-724-2963",
+      "contactEmail": "hello@Victoria Charcuterie.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": true,
     "isFineDining": true,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Lan Kwai Coffee House",
-    "description": "This Thai restaurant is a must-visit for its snake soup, offering a unique dining experience with dim sum carts close to Lan Kwai Fong.",
-    "cuisine": "Thai",
-    "priceRange": "$$",
-    "rating": 4,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "9:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-22:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-280-9879",
-      "contactEmail": "reachus@Lan Kwai Coffee House.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": false,
     "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
+    "isRomantic": false,
+    "isPopular": false
   },
   {
-    "name": "Lantau Restaurant",
-    "description": "This popular Chinese establishment combines traditional recipes and milk tea, all served in a unique setting with fusion of East and West.",
-    "cuisine": "Chinese",
+    "name": "Lantau Cellar",
+    "description": "This popular Cantonese establishment combines traditional recipes and snake soup, all served in a unique setting with rooftop dining.",
+    "cuisine": "Cantonese",
     "priceRange": "$$",
-    "rating": 3.8,
+    "rating": 4.9,
     "openingHours": {
-      "monday": "10:00-22:00",
+      "monday": "11:00-22:00",
       "tuesday": "11:00-20:00",
-      "wednesday": "11:00-20:00",
+      "wednesday": "10:00-20:00",
       "thursday": "9:00-21:00",
-      "friday": "9:00-22:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-22:00"
+      "friday": "11:00-19:00",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-248-5062",
-      "contactEmail": "inquiries@Lantau Restaurant.com"
+      "contactNumber": "+1-232-387-3888",
+      "contactEmail": "care@Lantau Cellar.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -220,245 +189,183 @@ export const hongKongRestaurants: Restaurant[] = [
     "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": true,
+    "isReservationsAccepted": false,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Victoria Hideaway",
-    "description": "This Thai restaurant is known for its roast goose, providing a unique dining experience with skyscraper skyline close to Kowloon.",
-    "cuisine": "Thai",
+    "name": "Dynasty & Co.",
+    "description": "This Japanese restaurant is renowned for its egg tarts, providing a unique dining experience with dim sum carts close to Temple Street Night Market.",
+    "cuisine": "Japanese",
     "priceRange": "$$",
-    "rating": 4.5,
+    "rating": 4.2,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-21:00",
-      "thursday": "10:00-20:00",
-      "friday": "9:00-19:00",
-      "saturday": "9:00-21:00",
-      "sunday": "10:00-20:00"
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-440-9109",
-      "contactEmail": "feedback@Victoria Hideaway.com"
+      "contactNumber": "+1-232-823-6452",
+      "contactEmail": "help@Dynasty & Co..com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Junk Boat Dining Room",
+    "description": "This Thai restaurant is a must-visit for its pineapple buns, offering a unique dining experience with dim sum carts close to Tian Tan Buddha.",
+    "cuisine": "Thai",
+    "priceRange": "$$",
+    "rating": 3.7,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "11:00-22:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-688-8057",
+      "contactEmail": "mail@Junk Boat Dining Room.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Dragon Coffee House",
+    "description": "Indulge in Thai cuisine featuring dim sum, set in a delightful venue with harbor views close to Tian Tan Buddha.",
+    "cuisine": "Thai",
+    "priceRange": "$$",
+    "rating": 4.6,
+    "openingHours": {
+      "monday": "11:00-22:00",
+      "tuesday": "Closed",
+      "wednesday": "10:00-21:00",
+      "thursday": "10:00-20:00",
+      "friday": "Closed",
+      "saturday": "11:00-20:00",
+      "sunday": "11:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-549-1894",
+      "contactEmail": "reception@Dragon Coffee House.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
-    "isKosherFriendly": false,
+    "isKosherFriendly": true,
     "isFineDining": false,
-    "isAdultOnly": true,
+    "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
     "isPopular": false
   },
   {
-    "name": "Junk Boat Bar & Kitchen",
-    "description": "This Chinese restaurant is known for its milk tea, providing a unique dining experience with rooftop dining close to Kowloon.",
-    "cuisine": "Chinese",
-    "priceRange": "$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-22:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-20:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-385-9716",
-      "contactEmail": "support@Junk Boat Bar & Kitchen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Lan Kwai Canteen",
-    "description": "This Japanese restaurant is known for its pineapple buns, offering a unique dining experience with neon-lit streets near Star Ferry.",
-    "cuisine": "Japanese",
-    "priceRange": "$$",
-    "rating": 3.9,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "9:00-19:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "9:00-19:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-537-1887",
-      "contactEmail": "info@Lan Kwai Canteen.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Lan Kwai Provisions",
-    "description": "This Thai restaurant is a must-visit for its pineapple buns, offering a unique dining experience with skyscraper skyline close to Lan Kwai Fong.",
-    "cuisine": "Thai",
-    "priceRange": "$$",
-    "rating": 4.9,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-21:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "Closed",
-      "friday": "10:00-22:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-444-4266",
-      "contactEmail": "hello@Lan Kwai Provisions.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Canton Buffet",
-    "description": "Discover the flavors of Chinese with a focus on wonton noodles, set in a delightful venue that features bustling markets and overlooks The Peak.",
-    "cuisine": "Chinese",
-    "priceRange": "$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "11:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "11:00-19:00",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-228-9673",
-      "contactEmail": "connect@Canton Buffet.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Mid-Levels Local",
-    "description": "This French restaurant is renowned for its roast goose, providing a unique dining experience with fusion of East and West close to Kowloon.",
-    "cuisine": "French",
-    "priceRange": "$$",
-    "rating": 3.7,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "9:00-19:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "9:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-19:00",
-      "sunday": "10:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-899-2296",
-      "contactEmail": "ask@Mid-Levels Local.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": true,
-    "isKosherFriendly": false,
-    "isFineDining": false,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Hong Kong Buffet",
-    "description": "Indulge in the best of Cantonese with snake soup, all in a setting that highlights skyscraper skyline and views of Kowloon.",
+    "name": "Victoria Dining Hall",
+    "description": "This Cantonese restaurant is a must-visit for its pineapple buns, offering a unique dining experience with bustling markets close to Temple Street Night Market.",
     "cuisine": "Cantonese",
     "priceRange": "$$",
-    "rating": 4.9,
+    "rating": 5,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "10:00-19:00",
+      "monday": "Closed",
+      "tuesday": "9:00-19:00",
       "wednesday": "11:00-19:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-21:00",
-      "saturday": "9:00-20:00",
-      "sunday": "10:00-20:00"
+      "thursday": "11:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "11:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-310-6211",
-      "contactEmail": "ask@Hong Kong Buffet.com"
+      "contactNumber": "+1-232-665-3040",
+      "contactEmail": "care@Victoria Dining Hall.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": false,
     "isAdultOnly": false,
-    "isIndoorSeating": false,
-    "isReservationsAccepted": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
   },
   {
-    "name": "Junk Boat Parlor",
-    "description": "Indulge in Chinese cuisine featuring egg tarts, set in a delightful venue with neon-lit streets close to Temple Street Night Market.",
-    "cuisine": "Chinese",
+    "name": "Mid-Levels Bouchon",
+    "description": "A culinary delight for French enthusiasts, this restaurant specializes in milk tea and offers a unique atmosphere with bustling markets near Victoria Harbour.",
+    "cuisine": "French",
     "priceRange": "$$",
-    "rating": 4.1,
+    "rating": 3.5,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-22:00",
-      "friday": "10:00-19:00",
-      "saturday": "11:00-21:00",
-      "sunday": "9:00-20:00"
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "10:00-21:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-882-1474",
-      "contactEmail": "help@Junk Boat Parlor.com"
+      "contactNumber": "+1-232-781-7092",
+      "contactEmail": "help@Mid-Levels Bouchon.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Neon Fine Dining",
+    "description": "A hidden gem in the city, this French restaurant offers milk tea and a unique ambiance with fusion of East and West near Victoria Harbour.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.9,
+    "openingHours": {
+      "monday": "10:00-19:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "10:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-730-2089",
+      "contactEmail": "reception@Neon Fine Dining.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
@@ -471,5 +378,98 @@ export const hongKongRestaurants: Restaurant[] = [
     "isReservationsAccepted": true,
     "isRomantic": false,
     "isPopular": true
+  },
+  {
+    "name": "Neon & Co.",
+    "description": "A charming Chinese restaurant near Tian Tan Buddha, offering roast goose and other local favorites in a setting with skyscraper skyline.",
+    "cuisine": "Chinese",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "Closed",
+      "tuesday": "10:00-21:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-573-5381",
+      "contactEmail": "feedback@Neon & Co..com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Pearl Canteen",
+    "description": "A culinary destination for French lovers, this restaurant specializes in milk tea and offers a unique atmosphere with rooftop dining near Victoria Harbour.",
+    "cuisine": "French",
+    "priceRange": "$$",
+    "rating": 4.1,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "9:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "11:00-21:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "11:00-19:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-820-5687",
+      "contactEmail": "office@Pearl Canteen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Star Ferry Kitchen",
+    "description": "A must-visit Japanese restaurant near Ngong Ping 360, famous for its wonton noodles and a charming atmosphere with skyscraper skyline.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.7,
+    "openingHours": {
+      "monday": "9:00-22:00",
+      "tuesday": "10:00-21:00",
+      "wednesday": "10:00-19:00",
+      "thursday": "10:00-20:00",
+      "friday": "11:00-22:00",
+      "saturday": "11:00-22:00",
+      "sunday": "11:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-931-1105",
+      "contactEmail": "ask@Star Ferry Kitchen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": true,
+    "isFineDining": false,
+    "isAdultOnly": true,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
   }
 ];

@@ -2,60 +2,29 @@
     // This file is auto-generated
     // Do not edit manually.
     // City: Rio De Janeiro
-    // Generated on: 2025-06-10T03:09:08.555Z
+    // Generated on: 2025-06-10T08:14:15.366Z
     
     import { Restaurant } from "@/lib/types/types";
 
 export const rioDeJaneiroRestaurants: Restaurant[] = [
   {
-    "name": "Italian Collective",
-    "description": "A culinary destination for Portuguese lovers, this restaurant specializes in fresh produce and offers a unique atmosphere with friendly service near the waterfront.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 4.4,
-    "openingHours": {
-      "monday": "9:00-22:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "9:00-22:00",
-      "saturday": "10:00-21:00",
-      "sunday": "11:00-21:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-505-4929",
-      "contactEmail": "services@Italian Collective.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Brazilian Gourmet",
-    "description": "Experience the best of Japanese with seasonal specialties, served in a charming setting that features artisan markets and views of the river promenade.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 3.5,
+    "name": "Japanese Brasserie",
+    "description": "This Seafood restaurant offers a unique take on heritage recipes, surrounded by charming streetscapes and just a stone's throw from the cultural center.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 5,
     "openingHours": {
       "monday": "11:00-21:00",
-      "tuesday": "11:00-19:00",
-      "wednesday": "Closed",
-      "thursday": "10:00-21:00",
-      "friday": "11:00-22:00",
-      "saturday": "9:00-19:00",
-      "sunday": "9:00-19:00"
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "9:00-21:00",
+      "saturday": "Closed",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-827-5817",
-      "contactEmail": "mail@Brazilian Gourmet.com"
+      "contactNumber": "+1-232-733-5324",
+      "contactEmail": "inquiries@Japanese Brasserie.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
@@ -70,182 +39,120 @@ export const rioDeJaneiroRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Italian Club",
-    "description": "Located close to the historic district, this Japanese restaurant delights with its artisanal creations and ambient lighting.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$",
-    "rating": 4.7,
+    "name": "Japanese Cafe",
+    "description": "This Seafood restaurant is a must-visit for its seasonal specialties, offering a unique dining experience with seasonal floral displays close to the main square.",
+    "cuisine": "Seafood",
+    "priceRange": "$$$$",
+    "rating": 3.7,
     "openingHours": {
-      "monday": "9:00-21:00",
+      "monday": "9:00-22:00",
       "tuesday": "10:00-22:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "11:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-20:00",
-      "sunday": "10:00-19:00"
+      "wednesday": "9:00-21:00",
+      "thursday": "11:00-20:00",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-845-4145",
-      "contactEmail": "clientservices@Italian Club.com"
+      "contactNumber": "+1-232-511-9790",
+      "contactEmail": "connect@Japanese Cafe.com"
     },
     "isVegetarianFriendly": true,
     "isVeganFriendly": true,
-    "isGlutenFreeFriendly": true,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": true,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Brazilian Wine Bar",
+    "description": "A culinary delight for Brazilian enthusiasts, this restaurant specializes in gourmet street food and offers a unique atmosphere with seasonal floral displays near the city museum.",
+    "cuisine": "Brazilian",
+    "priceRange": "$$$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-19:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-102-7117",
+      "contactEmail": "contact@Brazilian Wine Bar.com"
+    },
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": false,
     "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": false
+    "isPopular": true
   },
   {
-    "name": "Seafood Coffee House",
-    "description": "A hidden gem in the city, this Italian restaurant offers farm-to-table meals and a unique ambiance with ambient lighting near the main square.",
+    "name": "Portuguese Cerveceria",
+    "description": "A charming Italian restaurant near the old town walls, offering gourmet street food and other local favorites in a setting with live street performances.",
     "cuisine": "Italian",
-    "priceRange": "$$$",
-    "rating": 4.6,
-    "openingHours": {
-      "monday": "11:00-21:00",
-      "tuesday": "9:00-21:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "9:00-22:00",
-      "friday": "Closed",
-      "saturday": "10:00-20:00",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-423-9419",
-      "contactEmail": "connect@Seafood Coffee House.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": true
-  },
-  {
-    "name": "Seafood Wok",
-    "description": "Savor the rich flavors of Portuguese with a focus on local ingredients, all within a setting that boasts ambient lighting and views of the iconic clock tower.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "Closed",
-      "tuesday": "11:00-20:00",
-      "wednesday": "10:00-22:00",
-      "thursday": "11:00-21:00",
-      "friday": "9:00-20:00",
-      "saturday": "Closed",
-      "sunday": "11:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-623-7833",
-      "contactEmail": "welcome@Seafood Wok.com"
-    },
-    "isVegetarianFriendly": true,
-    "isVeganFriendly": true,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": true,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Italian Garden",
-    "description": "A culinary gem serving Portuguese specialties including gourmet street food, where guests enjoy beautiful decor in the heart of the city.",
-    "cuisine": "Portuguese",
     "priceRange": "$$$$",
-    "rating": 3.6,
+    "rating": 3.7,
     "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "11:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "11:00-19:00",
-      "saturday": "9:00-22:00",
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "Closed",
+      "thursday": "Closed",
+      "friday": "11:00-22:00",
+      "saturday": "9:00-20:00",
       "sunday": "11:00-21:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-484-8332",
-      "contactEmail": "contact@Italian Garden.com"
+      "contactNumber": "+1-232-666-1932",
+      "contactEmail": "welcome@Portuguese Cerveceria.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": true
-  },
-  {
-    "name": "Portuguese Local",
-    "description": "This Japanese restaurant is renowned for its fresh produce, providing a unique dining experience with charming streetscapes close to the city museum.",
-    "cuisine": "Japanese",
-    "priceRange": "$$$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "9:00-19:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "11:00-22:00",
-      "thursday": "Closed",
-      "friday": "10:00-19:00",
-      "saturday": "9:00-20:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-638-2189",
-      "contactEmail": "admin@Portuguese Local.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
     "isFineDining": true,
     "isAdultOnly": true,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
-    "isRomantic": false,
-    "isPopular": true
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   },
   {
-    "name": "Japanese Cellar",
-    "description": "A charming Seafood restaurant near the cultural center, offering gourmet street food and other local favorites in a setting with ambient lighting.",
-    "cuisine": "Seafood",
+    "name": "Italian Kebab House",
+    "description": "A charming Brazilian restaurant near downtown, offering handcrafted desserts and other local favorites in a setting with seasonal floral displays.",
+    "cuisine": "Brazilian",
     "priceRange": "$$$$",
-    "rating": 4.7,
+    "rating": 4.9,
     "openingHours": {
-      "monday": "11:00-19:00",
-      "tuesday": "10:00-21:00",
-      "wednesday": "11:00-21:00",
-      "thursday": "11:00-19:00",
-      "friday": "11:00-19:00",
-      "saturday": "11:00-19:00",
-      "sunday": "9:00-22:00"
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-21:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "9:00-20:00",
+      "friday": "10:00-20:00",
+      "saturday": "10:00-22:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-526-8440",
-      "contactEmail": "ask@Japanese Cellar.com"
+      "contactNumber": "+1-232-379-7491",
+      "contactEmail": "feedback@Italian Kebab House.com"
     },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
+    "isVegetarianFriendly": true,
+    "isVeganFriendly": true,
+    "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
     "isFineDining": true,
@@ -256,30 +163,123 @@ export const rioDeJaneiroRestaurants: Restaurant[] = [
     "isPopular": true
   },
   {
-    "name": "Portuguese Artisan",
-    "description": "Savor the rich flavors of Brazilian with a focus on handcrafted desserts, all within a setting that boasts friendly service and views of the city museum.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$$",
-    "rating": 3.5,
+    "name": "Italian Workshop",
+    "description": "This Italian restaurant offers a unique take on gourmet street food, surrounded by elegant atmosphere and just a stone's throw from central park.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4,
     "openingHours": {
-      "monday": "9:00-19:00",
+      "monday": "11:00-21:00",
       "tuesday": "9:00-22:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "10:00-21:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "10:00-20:00",
       "friday": "10:00-21:00",
-      "saturday": "Closed",
-      "sunday": "9:00-19:00"
+      "saturday": "9:00-19:00",
+      "sunday": "10:00-19:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-572-9201",
-      "contactEmail": "connect@Portuguese Artisan.com"
+      "contactNumber": "+1-232-605-8005",
+      "contactEmail": "feedback@Italian Workshop.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Taproom",
+    "description": "This Italian restaurant is known for its seasonal specialties, providing a unique dining experience with friendly service close to the city museum.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4,
+    "openingHours": {
+      "monday": "10:00-20:00",
+      "tuesday": "9:00-19:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-19:00",
+      "friday": "10:00-21:00",
+      "saturday": "11:00-21:00",
+      "sunday": "10:00-20:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-677-2624",
+      "contactEmail": "clientservices@Italian Taproom.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": false,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": true
+  },
+  {
+    "name": "Brazilian Kitchen",
+    "description": "Indulge in the best of Portuguese with regional wines, all in a setting that highlights local ambiance and views of the iconic clock tower.",
+    "cuisine": "Portuguese",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-20:00",
+      "thursday": "11:00-22:00",
+      "friday": "9:00-21:00",
+      "saturday": "11:00-22:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-560-7618",
+      "contactEmail": "reception@Brazilian Kitchen.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": false,
+    "isPopular": false
+  },
+  {
+    "name": "Portuguese Marketplace",
+    "description": "This Japanese restaurant is known for its regional wines, providing a unique dining experience with seasonal floral displays close to the iconic clock tower.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 5,
+    "openingHours": {
+      "monday": "10:00-22:00",
+      "tuesday": "11:00-19:00",
+      "wednesday": "10:00-22:00",
+      "thursday": "9:00-21:00",
+      "friday": "9:00-21:00",
+      "saturday": "9:00-20:00",
+      "sunday": "10:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-194-3990",
+      "contactEmail": "clientservices@Portuguese Marketplace.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": false,
@@ -287,189 +287,189 @@ export const rioDeJaneiroRestaurants: Restaurant[] = [
     "isPopular": false
   },
   {
-    "name": "Seafood Creamery",
-    "description": "Enjoy Brazilian cuisine with a focus on signature dishes, all in a setting that highlights ambient lighting and overlooks the river promenade.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$$",
-    "rating": 4.5,
+    "name": "Italian Grand Cafe",
+    "description": "This Seafood restaurant is a must-visit for its fresh produce, offering a unique dining experience with charming streetscapes close to downtown.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 3.8,
     "openingHours": {
-      "monday": "10:00-22:00",
-      "tuesday": "11:00-22:00",
-      "wednesday": "9:00-20:00",
-      "thursday": "9:00-21:00",
-      "friday": "10:00-21:00",
-      "saturday": "11:00-21:00",
-      "sunday": "10:00-21:00"
+      "monday": "10:00-21:00",
+      "tuesday": "10:00-20:00",
+      "wednesday": "9:00-22:00",
+      "thursday": "11:00-19:00",
+      "friday": "10:00-20:00",
+      "saturday": "11:00-19:00",
+      "sunday": "Closed"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-529-3009",
-      "contactEmail": "team@Seafood Creamery.com"
+      "contactNumber": "+1-232-957-3985",
+      "contactEmail": "reception@Italian Grand Cafe.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": true,
+    "isHalalFriendly": true,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": false,
+    "isRomantic": true,
+    "isPopular": true
+  },
+  {
+    "name": "Seafood Estate",
+    "description": "Enjoy Italian cuisine with a focus on gourmet street food, all in a setting that highlights elegant atmosphere and overlooks the river promenade.",
+    "cuisine": "Italian",
+    "priceRange": "$$",
+    "rating": 4.5,
+    "openingHours": {
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-19:00",
+      "wednesday": "11:00-22:00",
+      "thursday": "Closed",
+      "friday": "10:00-19:00",
+      "saturday": "10:00-21:00",
+      "sunday": "9:00-21:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-412-1441",
+      "contactEmail": "customerservice@Seafood Estate.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Brazilian Sushi Bar",
-    "description": "This Portuguese restaurant is a must-visit for its signature dishes, offering a unique dining experience with artisan markets close to the main square.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$$",
-    "rating": 3.5,
+    "name": "Brazilian Club",
+    "description": "A charming Japanese restaurant near the historic district, offering local ingredients and other local favorites in a setting with local ambiance.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.8,
     "openingHours": {
-      "monday": "11:00-20:00",
-      "tuesday": "9:00-22:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "11:00-22:00",
+      "monday": "9:00-19:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "11:00-21:00",
+      "thursday": "9:00-21:00",
       "friday": "10:00-22:00",
       "saturday": "9:00-22:00",
       "sunday": "11:00-22:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-934-9767",
-      "contactEmail": "office@Brazilian Sushi Bar.com"
+      "contactNumber": "+1-232-421-1356",
+      "contactEmail": "connect@Brazilian Club.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
+    "isHalalFriendly": true,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
     "isReservationsAccepted": true,
     "isRomantic": true,
-    "isPopular": true
+    "isPopular": false
   },
   {
-    "name": "Japanese Local",
-    "description": "This Seafood restaurant is known for its fresh produce, offering a unique dining experience with seasonal floral displays near the old town walls.",
+    "name": "Brazilian Canteen",
+    "description": "Discover the essence of Seafood dining with regional wines and more, set against the backdrop of the waterfront and ambient lighting.",
     "cuisine": "Seafood",
-    "priceRange": "$$$$",
-    "rating": 3.6,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "Closed",
-      "wednesday": "9:00-20:00",
-      "thursday": "10:00-22:00",
-      "friday": "10:00-20:00",
-      "saturday": "Closed",
-      "sunday": "11:00-22:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-136-1790",
-      "contactEmail": "ask@Japanese Local.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": true,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Mansion",
-    "description": "A culinary delight for Portuguese enthusiasts, this restaurant specializes in local ingredients and offers a unique atmosphere with friendly service near downtown.",
-    "cuisine": "Portuguese",
-    "priceRange": "$$$$",
-    "rating": 3.8,
-    "openingHours": {
-      "monday": "10:00-20:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-21:00",
-      "thursday": "11:00-22:00",
-      "friday": "9:00-20:00",
-      "saturday": "10:00-20:00",
-      "sunday": "Closed"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-613-1587",
-      "contactEmail": "connect@Japanese Mansion.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": false,
-    "isHalalFriendly": false,
-    "isKosherFriendly": true,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Barbecue",
-    "description": "Discover the flavors of Brazilian with a focus on regional wines, set in a delightful venue that features friendly service and overlooks downtown.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$$",
-    "rating": 4.8,
-    "openingHours": {
-      "monday": "9:00-21:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "10:00-21:00",
-      "thursday": "9:00-22:00",
-      "friday": "11:00-22:00",
-      "saturday": "11:00-20:00",
-      "sunday": "9:00-19:00"
-    },
-    "contactInfo": {
-      "contactNumber": "+1-232-400-9053",
-      "contactEmail": "communications@Japanese Barbecue.com"
-    },
-    "isVegetarianFriendly": false,
-    "isVeganFriendly": false,
-    "isGlutenFreeFriendly": true,
-    "isHalalFriendly": false,
-    "isKosherFriendly": false,
-    "isFineDining": true,
-    "isAdultOnly": false,
-    "isIndoorSeating": true,
-    "isReservationsAccepted": true,
-    "isRomantic": false,
-    "isPopular": false
-  },
-  {
-    "name": "Japanese Lab",
-    "description": "This Brazilian restaurant is a must-visit for its farm-to-table meals, offering a unique dining experience with beautiful decor close to the city museum.",
-    "cuisine": "Brazilian",
-    "priceRange": "$$$$",
-    "rating": 3.6,
+    "priceRange": "$$",
+    "rating": 4.6,
     "openingHours": {
       "monday": "11:00-19:00",
-      "tuesday": "10:00-20:00",
-      "wednesday": "9:00-22:00",
-      "thursday": "9:00-19:00",
-      "friday": "10:00-22:00",
-      "saturday": "10:00-22:00",
-      "sunday": "Closed"
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-20:00",
+      "thursday": "11:00-20:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "11:00-20:00"
     },
     "contactInfo": {
-      "contactNumber": "+1-232-422-3384",
-      "contactEmail": "reachus@Japanese Lab.com"
+      "contactNumber": "+1-232-953-1473",
+      "contactEmail": "team@Brazilian Canteen.com"
     },
     "isVegetarianFriendly": false,
     "isVeganFriendly": false,
     "isGlutenFreeFriendly": true,
     "isHalalFriendly": false,
     "isKosherFriendly": false,
-    "isFineDining": true,
+    "isFineDining": false,
     "isAdultOnly": false,
     "isIndoorSeating": true,
-    "isReservationsAccepted": false,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
+  },
+  {
+    "name": "Italian Coffee House",
+    "description": "This Japanese restaurant is renowned for its handcrafted desserts, providing a unique dining experience with boutique shops close to the waterfront.",
+    "cuisine": "Japanese",
+    "priceRange": "$$",
+    "rating": 4.4,
+    "openingHours": {
+      "monday": "9:00-20:00",
+      "tuesday": "10:00-22:00",
+      "wednesday": "9:00-19:00",
+      "thursday": "11:00-22:00",
+      "friday": "Closed",
+      "saturday": "9:00-22:00",
+      "sunday": "Closed"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-826-6642",
+      "contactEmail": "team@Italian Coffee House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
     "isRomantic": false,
-    "isPopular": true
+    "isPopular": false
+  },
+  {
+    "name": "Portuguese Kebab House",
+    "description": "This Seafood restaurant is a must-visit for its heritage recipes, offering a unique dining experience with seasonal floral displays close to the historic district.",
+    "cuisine": "Seafood",
+    "priceRange": "$$",
+    "rating": 4.2,
+    "openingHours": {
+      "monday": "11:00-21:00",
+      "tuesday": "11:00-20:00",
+      "wednesday": "9:00-21:00",
+      "thursday": "10:00-22:00",
+      "friday": "11:00-21:00",
+      "saturday": "9:00-21:00",
+      "sunday": "10:00-22:00"
+    },
+    "contactInfo": {
+      "contactNumber": "+1-232-930-5754",
+      "contactEmail": "feedback@Portuguese Kebab House.com"
+    },
+    "isVegetarianFriendly": false,
+    "isVeganFriendly": false,
+    "isGlutenFreeFriendly": false,
+    "isHalalFriendly": false,
+    "isKosherFriendly": false,
+    "isFineDining": false,
+    "isAdultOnly": false,
+    "isIndoorSeating": true,
+    "isReservationsAccepted": true,
+    "isRomantic": true,
+    "isPopular": false
   }
 ];
