@@ -73,8 +73,8 @@ const cityVesselsMap: Record<string, Vessels[]> = {
  */
 export function getVesselForCruise(
   departureCity: string,
-  cruiseCategory: string,
-): CruiseVessel | null {
+  cruiseCategory: string
+): Vessels | null {
   // Get vessels for the departure city
   const cityVessels = cityVesselsMap[departureCity];
   if (!cityVessels) return null;
@@ -88,28 +88,52 @@ export function getVesselForCruise(
 
   // Find the first vessel in this city that has a compatible type
   const matchingVessel = cityVessels.find((vessel) =>
-    compatibleVesselTypes.includes(vessel.type),
+    compatibleVesselTypes.includes(vessel.type)
   );
 
   if (!matchingVessel) return null;
 
   // Convert from Vessels type to CruiseVessel type
-  const cruiseVessel: CruiseVessel = {
+  const cruiseVessel: Vessels = {
     id: matchingVessel.type,
     name: matchingVessel.name,
     type: matchingVessel.type,
     capacity: matchingVessel.capacity,
-    length: `${matchingVessel.length} feet`,
-    topSpeed: `${matchingVessel.speed} knots`,
+    length: matchingVessel.length,
+    topSpeed: matchingVessel.speed,
     yearBuilt: matchingVessel.yearBuilt,
     description: matchingVessel.description,
     imageUrl: `/images/vessels/${matchingVessel.type}.jpg`,
-    amenities: [
-      // Extract entertainment equipment as amenities
-      ...(matchingVessel.specifications.entertainmentEquipment || []),
-      // Add some accessibility features as amenities too
-      ...(matchingVessel.specifications.accessibilityFeatures || []),
-    ].slice(0, 5), // Limit to 5 amenities
+    specifications: {
+      engineType: matchingVessel.specifications.engineType,
+      fuelCapacity: matchingVessel.specifications.fuelCapacity,
+      waterCapacity: matchingVessel.specifications.waterCapacity,
+      propulsionType: matchingVessel.specifications.propulsionType,
+      hullMaterial: matchingVessel.specifications.hullMaterial,
+      classification: matchingVessel.specifications.classification,
+      safetyEquipment: matchingVessel.specifications.safetyEquipment,
+      navigationEquipment: matchingVessel.specifications.navigationEquipment,
+      communicationEquipment:
+        matchingVessel.specifications.communicationEquipment,
+      entertainmentEquipment:
+        matchingVessel.specifications.entertainmentEquipment,
+      accessibilityFeatures:
+        matchingVessel.specifications.accessibilityFeatures,
+      environmentalFeatures:
+        matchingVessel.specifications.environmentalFeatures,
+    },
+    isLuxuryVessel: matchingVessel.isLuxuryVessel,
+    isPetFriendly: matchingVessel.isPetFriendly,
+    homePort: {
+      city: matchingVessel.homePort.city,
+      country: matchingVessel.homePort.country,
+      coordinates: {
+        latitude: matchingVessel.homePort.coordinates.latitude,
+        longitude: matchingVessel.homePort.coordinates.longitude,
+      },
+    },
+    speed: matchingVessel.speed,
+    width: matchingVessel.width,
   };
 
   return cruiseVessel;
