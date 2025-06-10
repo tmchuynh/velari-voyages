@@ -1,61 +1,50 @@
 /**
- * @fileoverview Script to generate or update crew member data for Velari Voyages.
+ * Crew Members Generator Script
+ * =============================
  *
- * This script creates JSON files for crew members, organized by city of origin.
- * It can generate a complete set of crew members for all designated cities or
- * target a specific city. It also supports adding more crew members to an
- * existing city's roster, optionally filtering by department and role.
+ * This script generates crew member data for cities in the Velari Voyages project.
+ * It creates or modifies files with the naming convention: "{city-name}.ts"
+ * Each file exports an array variable named "{cityName}TeamMembers" with crew member data.
  *
- * Generated crew members have names, gender, languages spoken (based on their
- * country of origin), a unique ID, a randomly generated bio, and assigned
- * department and role based on a predefined structure.
+ * Features:
+ * - Creates comprehensive crew rosters with realistic member profiles
+ * - Generates crew members across 11 different ship departments
+ * - Assigns appropriate roles, experience levels, and biographical information
+ * - Creates region-appropriate names and languages based on city of origin
+ * - Supports targeted generation by department and role
+ * - Supports appending to existing files or rewriting them completely
  *
- * Usage:
+ * Usage Examples:
+ * --------------
+ * # Default: generates crew for all cities (skips existing files)
+ * node scripts/create-crew-members.mjs
  *
- * 1. Basic Generation (All Cities):
- *    Generates crew members for all cities defined in `cityFiles`.
- *    If crew files already exist, they will be skipped unless `--force=true` is used.
- *    $ node scripts/create-crew-members.mjs
+ * # Generate crew for a specific city, overwriting existing file
+ * node scripts/create-crew-members.mjs --city=miami --rewrite
  *
- * 2. Generate/Overwrite for a Specific City:
- *    Generates crew for "Miami" and overwrites if `miami.json` already exists.
- *    $ node scripts/create-crew-members.mjs --city=miami --force=true
+ * # Add crew to a specific department in a city
+ * node scripts/create-crew-members.mjs --city=miami --department="Engineering Department"
  *
- * 3. Add More Crew to a Specific City & Department:
- *    Adds more crew members to "Miami" specifically for the "Engineering Department".
- *    The number of crew added will be based on the `departmentStructure` or a default.
- *    $ node scripts/create-crew-members.mjs --city=miami --department="Engineering Department"
+ * # Add specific number of crew to a specific role
+ * node scripts/create-crew-members.mjs --city=miami --department="Engineering Department" --role="Mechanical Engineer" --count=2
  *
- * 4. Add Specific Number of Crew to a City, Department & Role:
- *    Adds 2 "Mechanical Engineer"s to the "Engineering Department" in "Miami".
- *    $ node scripts/create-crew-members.mjs --city=miami --department="Engineering Department" --role="Mechanical Engineer" --count=2
+ * Command-line Options:
+ * --------------------
+ * --city=CITY_NAME         Target a specific city (e.g., "miami", "new-york-city")
+ * --rewrite               Overwrite existing crew files
+ * --department=DEPT_NAME   Target a specific department for adding crew
+ * --role=ROLE_NAME         Target a specific role within a department
+ * --count=NUMBER           Number of crew members to add for the specified role
  *
- * Command-Line Arguments:
- *   --city=<city-name>       (Optional) Target a specific city (e.g., "miami", "new-york-city").
- *                            If omitted, processes all cities.
- *   --force=<true|false>     (Optional) If true, overwrites existing crew files. Default is false.
- *   --department="<Dept Name>" (Optional) Target a specific department for adding crew.
- *                            Requires --city. (e.g., "Deck Department")
- *   --role="<Role Name>"       (Optional) Target a specific role for adding crew.
- *                            Requires --city and --department. (e.g., "Captain")
- *   --count=<number>         (Optional) Number of crew members to add.
- *                            Requires --city. Used with --department and --role for specificity.
- *                            If adding to a department without a role, this count is per department.
- *                            If adding to a role, this is the count for that specific role.
+ * Output Files:
+ * ------------
+ * The script generates TypeScript files in:
+ * src/lib/constants/crewMembers/{city-name}.ts
  *
- * File Structure:
- *   - Output files are saved in `src/lib/constants/crew/<city-name>.json`
- *   - Each JSON file contains an array of crew member objects.
- *
- * Dependencies:
- *   - `fs`, `path`, `url`: Node.js built-in modules for file system operations.
- *   - `./utils/file-utils.mjs`: For `getCityFiles` to list available cities.
- *   - `./utils/geo-utils.mjs`: For `cityCountryMap` (city to country mapping) and
- *     `cityToRegionMap` (city to broader region mapping).
- *   - `./utils/data-generator.mjs`: For `getRandomInt` and `generateUniqueId`.
- *   - `./utils/name-utils.mjs`: For `getRandomName` to generate realistic names.
- *   - `./utils/language-utils.mjs`: For `getRandomLanguages` to assign languages based on country/region.
+ * Each file exports a typed array of crew member objects compatible with the
+ * CrewMember interface defined in src/lib/interfaces/people/staff.ts
  */
+
 import fs from "fs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
@@ -68,7 +57,6 @@ import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 import { getRandomInt, generateUniqueId } from "./utils/data-generator.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
-
 
 function formatKebebToTitleCase(str) {
   return str
@@ -85,7 +73,12 @@ function parseArgs() {
   process.argv.slice(2).forEach((arg) => {
     if (arg.startsWith("--")) {
       const [key, value] = arg.slice(2).split("=");
-      args[key] = value;
+      if (value) {
+        args[key] = value;
+      } else {
+        // Handle flags without values (like --rewrite)
+        args[key] = true;
+      }
     }
   });
   return args;
@@ -610,7 +603,7 @@ async function main() {
   const specificDepartment = args.department;
   const specificRole = args.role;
   const count = args.count ? parseInt(args.count) : 1;
-  const force = args.force === "true";
+  const rewrite = args.rewrite === true;
 
   if (
     !fs.existsSync(path.join(__dirname, "../src/lib/constants/crewMembers"))
@@ -636,7 +629,7 @@ async function main() {
     const fileExists = fs.existsSync(filePath);
 
     // If we're adding specific crew or forcing overwrite
-    if ((specificDepartment || specificRole) && fileExists && !force) {
+    if ((specificDepartment || specificRole) && fileExists && !rewrite) {
       // Generate only the specific crew members and append
       const crewMembers = generateCityCrewMembers(
         specificCity,
@@ -645,13 +638,13 @@ async function main() {
         count
       );
       writeCrewMembersToFile(specificCity, crewMembers, true);
-    } else if (!fileExists || force) {
+    } else if (!fileExists || rewrite) {
       // Generate all crew members for the city
       const crewMembers = generateCityCrewMembers(specificCity);
       writeCrewMembersToFile(specificCity, crewMembers, false);
     } else {
       console.log(
-        `Crew file for ${specificCity} already exists. Use --force=true to overwrite or specify department/role to add more.`
+        `Crew file for ${specificCity} already exists. Use --rewrite to overwrite or specify department/role to add more.`
       );
     }
   } else {
@@ -663,12 +656,12 @@ async function main() {
         `${city}.ts`
       );
 
-      if (!fs.existsSync(filePath) || force) {
+      if (!fs.existsSync(filePath) || rewrite) {
         const crewMembers = generateCityCrewMembers(city);
         writeCrewMembersToFile(city, crewMembers, false);
       } else {
         console.log(
-          `Skipping ${city} - crew file already exists. Use --force=true to overwrite.`
+          `Skipping ${city} - crew file already exists. Use --rewrite to overwrite.`
         );
       }
     }
