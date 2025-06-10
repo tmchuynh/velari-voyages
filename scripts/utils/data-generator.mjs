@@ -1,5 +1,6 @@
 import crypto from "crypto";
 import { generalEmailStarters } from "./general-util.mjs";
+import { cityDialingMap } from "./geo-utils.mjs";
 
 /**
  * Utility functions for generating random data
@@ -106,4 +107,19 @@ export const generateUniqueId = () => {
 export const generateRandomEmail = (domain = "velarivoyages.com") => {
   const randomStarter = getRandomElement(generalEmailStarters);
   return `${randomStarter}@${domain}`;
+};
+
+export const generateRandomPhoneNumber = (region = "US") => {
+  const areaCode =
+    cityDialingMap[region] || Math.floor(Math.random() * 900 + 100);
+  const centralOfficeCode = Math.floor(Math.random() * 900 + 100);
+  const lineNumber = Math.floor(Math.random() * 9000 + 1000);
+  return `(${areaCode}) ${centralOfficeCode}-${lineNumber}`;
+};
+
+export const generateRandomDate = (maxInYears = "3") => {
+  const today = new Date();
+  const max = 365 * parseInt(maxInYears, 10); // Convert years to days
+
+  return today.getDate() - Math.floor(Math.random() * max);
 };
