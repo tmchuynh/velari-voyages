@@ -64,3 +64,34 @@ export const getRandomElement = (array) => {
   if (!array || !Array.isArray(array) || array.length === 0) return null;
   return array[Math.floor(Math.random() * array.length)];
 };
+
+export const getRandomHours = () => {
+  const days = [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday",
+  ];
+  const hours = {};
+
+  days.forEach((day) => {
+    const isOpen = Math.random() > 0.1; // 90% chance of being open
+    if (isOpen) {
+      const openHour = Math.floor(Math.random() * 3) + 9; // 9am to 11am
+      const closeHour = Math.floor(Math.random() * 4) + 19; // 7pm to 10pm
+      hours[day] = `${openHour}:00-${closeHour}:00`;
+    } else {
+      hours[day] = "Closed";
+    }
+  });
+
+  return hours;
+};
+
+export const getRandomPrice = () => {
+  const prices = ["$", "$$", "$$$", "$$$$"];
+  return prices[Math.floor(Math.random() * prices.length)];
+};
