@@ -1,3 +1,5 @@
+import { cityCountryMap } from "./geo-utils.mjs";
+
 /**
  * Shared name data and utilities for generating personnel information
  */
@@ -1885,3 +1887,86 @@ export const restaurantNameSuffix = [
   "Sanctuary",
   "Emporium",
 ];
+
+export function generateVesselName(cityName, index) {
+  const cityDisplayName = capitalizeWords(cityName);
+  const countryName = cityCountryMap[cityName] || "";
+  const phrasesMap = countryNamePhrases[countryName] || [];
+  const randomPhrase =
+    phrasesMap[Math.floor(Math.random() * phrasesMap.length)] || "";
+
+  const prefixes = [
+    "MS",
+    "MV",
+    "SS",
+    "RMS",
+    "SY",
+    "MY",
+    "RV",
+    "TS",
+    "PS",
+    "HMS",
+    "SV", // Sailing Vessel
+    "CS", // Cruise Ship
+    "FV", // Fishing Vessel (used for stylization)
+    "NB", // Narrow Boat
+    "LY", // Luxury Yacht
+    "NX", // NextGen Cruise (futuristic branding)
+  ];
+
+  const vesselNames = [
+    `${randomPhrase} Explorer`,
+    `${cityDisplayName} Voyager`,
+    `${randomPhrase} of the Deep`,
+    `The ${randomPhrase} Mariner`,
+    `${randomPhrase} Gale`,
+    `${randomPhrase} Odyssey`,
+    `The ${randomPhrase} Empress`,
+    `The ${randomPhrase} Throne`,
+    `${cityDisplayName} Legend`,
+    `${randomPhrase} Crest`,
+    `The ${randomPhrase} Tide`,
+    `The ${randomPhrase} Oracle`,
+    `${randomPhrase} of Shadows`,
+    `${randomPhrase} Tide`,
+    `The ${randomPhrase}`,
+    `${randomPhrase} Serenity`,
+    `${randomPhrase} Whisperer`,
+    `The ${randomPhrase} Myth`,
+    `The ${randomPhrase} Helm`,
+    `Runeship ${countryName}`,
+    `The ${randomPhrase} of Twilight`,
+    `${randomPhrase} Jewel`,
+    `${randomPhrase} Majesty`,
+    `${cityDisplayName} Enchantment`,
+    `${randomPhrase} Crest Voyager`,
+    `${randomPhrase} Discovery`,
+    `${randomPhrase} Horizon`,
+    `${cityDisplayName} Splendor`,
+    `${randomPhrase} Mirage`,
+    `The ${randomPhrase} Tryst`,
+    `${cityDisplayName} Sun`,
+    `${randomPhrase} Pearl`,
+    `${randomPhrase} Nova`,
+    `${randomPhrase} Mariner`,
+    `${cityDisplayName} Infinity`,
+    `${cityDisplayName} Destiny`,
+    `${randomPhrase} Symphony`,
+    `The Arcane Wave`,
+    `The Gilded Leviathan`,
+    `${randomPhrase} Wake`,
+    `The Elven Horizon`,
+    `Celestial Voyager`,
+    `${randomPhrase} Queen`,
+    `${randomPhrase} Spirit`,
+    `${randomPhrase} Griffin`,
+  ];
+
+  // For vessels beyond our pre-defined list, generate a numbered name
+  if (index >= vesselNames.length) {
+    return `${cityDisplayName} Voyager ${(index % vesselNames.length) + 1}`;
+  }
+
+  const prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
+  return `${prefix} ${vesselNames[index]}`;
+}
