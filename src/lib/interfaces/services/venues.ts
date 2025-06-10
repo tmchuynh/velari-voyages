@@ -1,6 +1,7 @@
 import { ContactInfo, Details, FAQs, TimePeriod } from "@/lib/types/types";
 import { Vessels } from "./cruises";
 import { TeamMember } from "../people/staff";
+import { Testimonial } from "./testimonials";
 
 interface BaseVenue {
   id: string;
@@ -93,7 +94,7 @@ export interface Shopping {
   }[];
 }
 
-export interface Entertainment {
+export interface EntertainmentCategory {
   id: string;
   vesselId: Vessels["id"];
   type:
@@ -105,6 +106,18 @@ export interface Entertainment {
     | "Karaoke"
     | "Magic Show"
     | "Nightclub";
+  location: {
+    deck: number;
+    area: string;
+  };
+  hasBar?: boolean;
+  hasFoodService?: boolean;
+  hasAccessibleSeating?: boolean;
+}
+
+export interface Entertainment extends BaseVenue {
+  id: EntertainmentCategory["id"];
+  category: EntertainmentCategory["type"];
   shows: {
     id: string;
     title: string;
@@ -118,10 +131,18 @@ export interface Entertainment {
     duration: string;
     schedule: TimePeriod[];
     performers: TeamMember[];
+    testimonials: Testimonial[];
+    hasVIPSeating?: boolean;
+    hasAccessibleSeating?: boolean;
+    hasMerchandise: boolean;
+    merchandise?: {
+      id: string;
+      name: string;
+      description: string;
+      price: number;
+      currency: string;
+    };
   }[];
-  hasBar?: boolean;
-  hasFoodService?: boolean;
-  hasAccessibleSeating?: boolean;
 }
 
 export interface ArtGallery extends BaseVenue {
@@ -139,6 +160,12 @@ export interface Library extends BaseVenue {
   hasStudyAreas?: boolean;
   hasComputers?: boolean;
   libraryCardRequired?: boolean;
+  restrictions?: string[];
+  donationPolicy?:
+    | "Permanent Collection Donations"
+    | "'Take a Book/Leave a Book' Programs"
+    | "Military Library Donations"
+    | "No Donation Policy";
   hasEvents?: boolean;
   events: Details[];
   hasBookClubs?: boolean;
