@@ -12,6 +12,7 @@ import {
   cityToRegionMap,
 } from "./utils/geo-utils.mjs";
 import { countryNamePhrases } from "./utils/name-utils.mjs";
+import { positiveAdjectives } from "./utils/description-utils.mjs";
 
 /**
  * City Vessel Generator Script
@@ -343,13 +344,15 @@ function generateVesselName(cityName, index) {
 function generateVesselDescription(name, type, cityName) {
   const cityDisplayName = capitalizeWords(cityName);
   const regionName = cityToRegionMap[cityName] || "world";
+  const adj =
+    positiveAdjectives[Math.floor(Math.random() * positiveAdjectives.length)];
 
   const descriptions = [
     `The ${name} offers an unparalleled cruising experience from ${cityDisplayName}, combining luxury amenities with state-of-the-art navigation technology. This ${type.toLowerCase()} features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of ${regionName} hospitality.`,
 
-    `Setting sail from the beautiful port of ${cityDisplayName}, the ${name} is a floating paradise designed for the discerning traveler. This remarkable ${type.toLowerCase()} boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.`,
+    `Setting sail from the beautiful port of ${cityDisplayName}, the ${name} is a floating paradise designed for the discerning traveler. This ${adj} ${type.toLowerCase()} boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.`,
 
-    `The majestic ${name} represents the pinnacle of maritime engineering and hospitality. Based in ${cityDisplayName}, this exceptional ${type.toLowerCase()} features elegant interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the ${regionName} region.`,
+    `The majestic ${name} represents the pinnacle of maritime engineering and hospitality. Based in ${cityDisplayName}, this exceptional ${type.toLowerCase()} features ${adj} interiors, cutting-edge facilities, and carefully curated experiences that celebrate the unique culture of the ${regionName} region.`,
 
     `Combining traditional maritime charm with modern amenities, the ${name} promises an extraordinary voyage from its home port of ${cityDisplayName}. This impressive ${type.toLowerCase()} offers spacious accommodations, diverse dining options, and engaging activities for travelers of all ages.`,
 

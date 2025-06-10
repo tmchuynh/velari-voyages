@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { getRandomName } from "./utils/name-utils.mjs";
+import { getRandomName, determineGenderFromName } from "./utils/name-utils.mjs";
 import {
   positiveAdjectives,
   serviceAdjectives,
@@ -114,7 +114,121 @@ function ensureDirectoryExists(dirPath) {
 }
 
 // Generate random testimonial data that matches the Testimonial interface
-function generateTestimonials(restaurantName, count = 5) {
+
+export const foodAdjectives = [
+  "amazing",
+  "delicious",
+  "outstanding",
+  "excellent",
+  "incredible",
+  "perfect",
+  "wonderful",
+  "fantastic",
+  "superb",
+  "delightful",
+  "impressive",
+  "exceptional",
+  "remarkable",
+  "fabulous",
+  "spectacular",
+  "brilliant",
+  "awesome",
+  "tasty",
+  "yummy",
+  "satisfying",
+  "appetizing",
+  "mouthwatering",
+  "scrumptious",
+  "delectable",
+  "flavorful",
+  "savory",
+  "succulent",
+  "luscious",
+  "sumptuous",
+  "heavenly",
+  "divine",
+  "irresistible",
+  "tempting",
+  "enchanting",
+  "captivating",
+  "charming",
+  "engaging",
+  "enjoyable",
+  "pleasurable",
+  "refreshing",
+  "inviting",
+  "enticing",
+  "appealing",
+  "seductive",
+  "alluring",
+  "enticing",
+  "seductive",
+  "pleasing",
+  "enjoyable",
+  "sublime",
+  "exquisite",
+  "marvelous",
+  "great",
+  "delectable",
+  "scrumptious",
+  "mouthwatering",
+  "flavorful",
+  "sumptuous",
+  "tempting",
+  "exquisite",
+  "tantalizing",
+  "divine",
+  "heavenly",
+  "satisfying",
+];
+
+export const foodNouns = [
+  "food",
+  "meal",
+  "dishes",
+  "cuisine",
+  "flavors",
+  "menu items",
+  "specialties",
+  "entrees",
+  "desserts",
+  "drinks",
+  "beverages",
+  "appetizers",
+  "courses",
+  "offerings",
+  "delicacies",
+  "fare",
+  "platters",
+  "selections",
+  "tapas",
+  "treats",
+  "delights",
+  "treats",
+  "snacks",
+  "bites",
+  "nibbles",
+  "savors",
+  "flavors",
+  "culinary delights",
+  "gastronomic wonders",
+  "gastronomic delights",
+  "culinary creations",
+  "culinary masterpieces",
+  "culinary wonders",
+  "gastronomic experiences",
+  "gastronomic sensations",
+  "gastronomic delights",
+  "gastronomic pleasures",
+  "gastronomic treats",
+  "tastes",
+  "recipes",
+  "creations",
+  "treats",
+  "snacks",
+];
+
+function generateTestimonials(_restaurantName, count = 5) {
   const professionalTitles = [
     "Food Critic",
     "Culinary Expert",
@@ -163,145 +277,33 @@ function generateTestimonials(restaurantName, count = 5) {
     "Culinary Blogger",
   ];
 
-  const foodNouns = [
-    "food",
-    "meal",
-    "dishes",
-    "cuisine",
-    "flavors",
-    "menu items",
-    "specialties",
-    "entrees",
-    "desserts",
-    "drinks",
-    "beverages",
-    "appetizers",
-    "courses",
-    "offerings",
-    "delicacies",
-    "fare",
-    "platters",
-    "selections",
-    "tapas",
-    "treats",
-    "delights",
-    "treats",
-    "snacks",
-    "bites",
-    "nibbles",
-    "savors",
-    "flavors",
-    "culinary delights",
-    "gastronomic wonders",
-    "gastronomic delights",
-    "culinary creations",
-    "culinary masterpieces",
-    "culinary wonders",
-    "gastronomic experiences",
-    "gastronomic sensations",
-    "gastronomic delights",
-    "gastronomic pleasures",
-    "gastronomic treats",
-    "tastes",
-    "recipes",
-    "creations",
-    "treats",
-    "snacks",
-  ];
-
   const testimonials = [];
 
   for (let i = 0; i < count; i++) {
     const title =
       professionalTitles[Math.floor(Math.random() * professionalTitles.length)];
 
-    // Randomize rating between 4-5 stars (mostly positive testimonials)
-    const rating = Math.floor(Math.random() * 2) + 4;
+    const rating = Math.floor(Math.random() * 2) + 3; // 3, 4, or 5 stars
 
     // Generate random date within the last year
     const date = new Date();
     date.setDate(date.getDate() - Math.floor(Math.random() * 365));
 
-    const positiveAdj =
-      positiveAdjectives[Math.floor(Math.random() * positiveAdjectives.length)];
-    const foodNoun = foodNouns[Math.floor(Math.random() * foodNouns.length)];
-    const serviceAdj =
-      serviceAdjectives[Math.floor(Math.random() * serviceAdjectives.length)];
-    const atmosphereAdj =
-      atmosphereAdjectives[
-        Math.floor(Math.random() * atmosphereAdjectives.length)
-      ];
-
-    // Generate testimonial text
-    const templates = [
-      `The ${foodNoun} at ${restaurantName} were absolutely ${positiveAdj}! The service was ${serviceAdj} and the atmosphere was ${atmosphereAdj}. Highly recommend!`,
-      `What a ${positiveAdj} dining experience at ${restaurantName}! The ${foodNoun} exceeded our expectations, and the staff was ${serviceAdj}. Will definitely return!`,
-      `${restaurantName} has the most ${positiveAdj} ${foodNoun} I've ever tasted. The ${atmosphereAdj} atmosphere made our evening special, and the service was ${serviceAdj}.`,
-      `I can't say enough about the ${positiveAdj} ${foodNoun} at ${restaurantName}. The ${serviceAdj} service and ${atmosphereAdj} ambiance made for a perfect night out.`,
-      `Our visit to ${restaurantName} was outstanding. The ${foodNoun} were ${positiveAdj}, the staff ${serviceAdj}, and the atmosphere ${atmosphereAdj}. A must-visit!`,
-      `Dining at ${restaurantName} was a ${positiveAdj} experience from start to finish. The ${foodNoun} delighted our palates, the service was ${serviceAdj}, and the ${atmosphereAdj} setting completed the evening.`,
-      `If you're looking for ${positiveAdj} ${foodNoun}, ${restaurantName} delivers with impeccable ${serviceAdj} service and a ${atmosphereAdj} environment.`,
-      `${restaurantName} offers a ${positiveAdj} menu and an equally ${serviceAdj} staff. The ${atmosphereAdj} vibe makes it perfect for any occasion.`,
-      `Every dish we tried at ${restaurantName} was ${positiveAdj}, paired perfectly with ${serviceAdj} service and a ${atmosphereAdj} atmosphere that invites relaxation.`,
-      `From the ${positiveAdj} ${foodNoun} to the ${serviceAdj} hospitality, ${restaurantName} provides a ${atmosphereAdj} dining experience worth savoring.`,
-      `The ${foodNoun} selection at ${restaurantName} is simply ${positiveAdj}. Combined with ${serviceAdj} staff and a ${atmosphereAdj} setting, it’s a top choice for discerning diners.`,
-      `Exceptional ${foodNoun} and ${serviceAdj} service come standard at ${restaurantName}. The ${atmosphereAdj} ambiance only adds to the appeal.`,
-      `We were impressed by the ${positiveAdj} quality of the ${foodNoun} and the ${serviceAdj} attention from staff at ${restaurantName}. The ${atmosphereAdj} environment was the cherry on top.`,
-      `For ${positiveAdj} ${foodNoun} served with ${serviceAdj} care in a ${atmosphereAdj} space, ${restaurantName} is unmatched.`,
-      `At ${restaurantName}, the ${foodNoun} are ${positiveAdj} and the ${serviceAdj} team ensures your visit is complemented by a ${atmosphereAdj} atmosphere.`,
-      `The ${positiveAdj} ${foodNoun} at ${restaurantName} kept us coming back for more, complemented perfectly by ${serviceAdj} staff and a ${atmosphereAdj} setting.`,
-      `From the first bite to the last, the ${foodNoun} at ${restaurantName} impressed with ${positiveAdj} flavors, matched by ${serviceAdj} service and a ${atmosphereAdj} ambiance.`,
-      `Our experience at ${restaurantName} was elevated by ${positiveAdj} ${foodNoun}, ${serviceAdj} hospitality, and a ${atmosphereAdj} dining room.`,
-      `Every visit to ${restaurantName} delivers ${positiveAdj} ${foodNoun}, attentive ${serviceAdj} staff, and a ${atmosphereAdj} environment that welcomes you.`,
-      `Exceptional ${foodNoun} paired with ${serviceAdj} service and a ${atmosphereAdj} atmosphere make ${restaurantName} a standout choice.`,
-      `For those who appreciate ${positiveAdj} cuisine, ${restaurantName} offers ${foodNoun} that satisfy, alongside ${serviceAdj} service and a ${atmosphereAdj} vibe.`,
-      `At ${restaurantName}, ${positiveAdj} ${foodNoun} combine seamlessly with ${serviceAdj} professionalism and a ${atmosphereAdj} space designed for comfort.`,
-      `The ${foodNoun} here are ${positiveAdj}, prepared with care and served by ${serviceAdj} staff in a ${atmosphereAdj} setting.`,
-      `You’ll find ${positiveAdj} ${foodNoun} at ${restaurantName}, supported by ${serviceAdj} staff and a ${atmosphereAdj} atmosphere that invites relaxation.`,
-      `Dining at ${restaurantName} means enjoying ${positiveAdj} ${foodNoun}, ${serviceAdj} attention, and a ${atmosphereAdj} environment tailored for a memorable meal.`,
-      `The ${foodNoun} at ${restaurantName} are consistently ${positiveAdj}, matched by ${serviceAdj} service and a ${atmosphereAdj} ambiance.`,
-      `Every dish at ${restaurantName} was ${positiveAdj}, complemented by ${serviceAdj} staff and a ${atmosphereAdj} atmosphere.`,
-      `The ${positiveAdj} ${foodNoun} paired perfectly with the ${serviceAdj} service and ${atmosphereAdj} ambiance at ${restaurantName}.`,
-      `At ${restaurantName}, the ${foodNoun} impressed with ${positiveAdj} quality, alongside ${serviceAdj} hospitality and a ${atmosphereAdj} setting.`,
-      `Our meal at ${restaurantName} featured ${positiveAdj} ${foodNoun}, attentive ${serviceAdj} staff, and a warm, ${atmosphereAdj} environment.`,
-      `From appetizers to desserts, ${restaurantName} offers ${positiveAdj} ${foodNoun} in a ${atmosphereAdj} space with ${serviceAdj} service.`,
-      `The combination of ${positiveAdj} ${foodNoun}, ${serviceAdj} attention, and a ${atmosphereAdj} vibe makes ${restaurantName} exceptional.`,
-      `At ${restaurantName}, expect ${positiveAdj} ${foodNoun} served by ${serviceAdj} professionals in a ${atmosphereAdj} setting.`,
-      `Our dining experience at ${restaurantName} was marked by ${positiveAdj} cuisine, ${serviceAdj} service, and a ${atmosphereAdj} atmosphere.`,
-      `${restaurantName} consistently delivers ${positiveAdj} ${foodNoun}, attentive staff, and a ${atmosphereAdj} ambiance to enjoy.`,
-      `The ${foodNoun} at ${restaurantName} are thoughtfully prepared, ${positiveAdj}, and complemented by ${serviceAdj} staff and a ${atmosphereAdj} space.`,
-      `You’ll find a delightful selection of ${positiveAdj} ${foodNoun}, paired with ${serviceAdj} service and a ${atmosphereAdj} environment at ${restaurantName}.`,
-      `Every visit to ${restaurantName} offers ${positiveAdj} ${foodNoun}, ${serviceAdj} hospitality, and a welcoming ${atmosphereAdj} atmosphere.`,
-      `The ${positiveAdj} flavors of the ${foodNoun} at ${restaurantName} are matched by ${serviceAdj} service and a ${atmosphereAdj} dining room.`,
-      `Experience ${positiveAdj} ${foodNoun} and ${serviceAdj} staff in a ${atmosphereAdj} setting when you visit ${restaurantName}.`,
-      `The ${foodNoun} selection at ${restaurantName} is ${positiveAdj}, served with ${serviceAdj} care in a ${atmosphereAdj} ambiance.`,
-      `For a memorable dining experience, ${restaurantName} offers ${positiveAdj} ${foodNoun}, ${serviceAdj} service, and a ${atmosphereAdj} environment.`,
-      `Enjoy ${positiveAdj} dishes and ${serviceAdj} attention in a ${atmosphereAdj} atmosphere at ${restaurantName}.`,
-      `From the moment we arrived, ${restaurantName} impressed with ${positiveAdj} ${foodNoun}, attentive service, and a ${atmosphereAdj} ambiance.`,
-      `${restaurantName} delivers ${positiveAdj} ${foodNoun}, supported by ${serviceAdj} staff and a ${atmosphereAdj} atmosphere perfect for any occasion.`,
-      `The ${foodNoun} at ${restaurantName} are consistently ${positiveAdj}, accompanied by ${serviceAdj} staff and a ${atmosphereAdj} setting.`,
-      `${restaurantName} combines ${positiveAdj} dishes with ${serviceAdj} hospitality in a ${atmosphereAdj} setting, perfect for any occasion.`,
-      `Whether it's the ${foodNoun} or the ${serviceAdj} staff, everything at ${restaurantName} is ${positiveAdj} and enhanced by a ${atmosphereAdj} environment.`,
-      `The ${foodNoun} selection at ${restaurantName} is ${positiveAdj}, complemented by ${serviceAdj} service and a ${atmosphereAdj} ambiance that impresses.`,
-      `You’ll enjoy ${positiveAdj} ${foodNoun} and ${serviceAdj} service, all within a ${atmosphereAdj} space at ${restaurantName}.`,
-      `At ${restaurantName}, every detail from ${positiveAdj} ${foodNoun} to ${serviceAdj} service and ${atmosphereAdj} atmosphere is thoughtfully crafted.`,
-      `The ${foodNoun} at ${restaurantName} are ${positiveAdj}, and the ${serviceAdj} service creates an inviting ${atmosphereAdj} experience.`,
-      `If you value ${positiveAdj} ${foodNoun} with ${serviceAdj} staff and a ${atmosphereAdj} ambiance, ${restaurantName} delivers.`,
-      `From start to finish, ${restaurantName} offers ${positiveAdj} ${foodNoun}, attentive ${serviceAdj} service, and a ${atmosphereAdj} environment.`,
-      `For a ${positiveAdj} meal with ${serviceAdj} service in a ${atmosphereAdj} setting, ${restaurantName} is the place to be.`,
-    ];
+    const name = getRandomName();
+    const firstName = name.split(" ")[0];
+    const gender = determineGenderFromName(firstName);
 
     // Create a testimonial that matches the interface
     const testimonial = {
-      quote: templates[Math.floor(Math.random() * templates.length)],
+      quote:
+        restaurantTestimonialsTemplate[
+          Math.floor(Math.random() * restaurantTestimonialsTemplate.length)
+        ],
       author: getRandomName(),
       title: title,
-      // Add image for some testimonials (30% chance)
-      ...(Math.random() < 0.3 && {
-        image: `/images/testimonials/person-${
-          Math.floor(Math.random() * 12) + 1
-        }.jpg`,
-      }),
+      rating: rating,
+      date: date.toISOString().split("T")[0], // Format as YYYY-MM-DD
+      image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
     };
 
     testimonials.push(testimonial);

@@ -1,28 +1,99 @@
+/**
+ * Restaurant Data Generator Script
+ * ================================
+ *
+ * This script generates TypeScript files containing restaurant data for various cities
+ * in the Velari Voyages project.
+ * It creates or modifies files within a city-specific directory:
+ * "src/lib/constants/cruises/restaurants/{cityName}/restaurants.ts"
+ * Each file exports an array variable named "{camelCaseCityName}Restaurants"
+ * with restaurant data.
+ *
+ * Features:
+ * - Generates randomized restaurant details including name, description, cuisine,
+ *   price range, rating, opening hours, and contact information.
+ * - Customizes cuisine types and restaurant name prefixes based on the city.
+ * - Supports different operational modes:
+ *   - Create: Only generates files if they don't already exist (default).
+ *   - Append: Adds new restaurant data to existing files.
+ *   - Rewrite: Overwrites existing files with new data.
+ * - Allows specifying the number of restaurants to generate or append.
+ * - Includes a debug mode for verbose logging output.
+ *
+ * Usage Examples:
+ * --------------
+ * # Default: creates files with 5 restaurants per city, only for new city files
+ * node scripts/create-restaurant-data.mjs
+ *
+ * # Append 3 new restaurants to existing files (or create with 3 if file doesn't exist)
+ * node scripts/create-restaurant-data.mjs --append --append-count=3
+ * # Shorter version:
+ * node scripts/create-restaurant-data.mjs -a -ac=3
+ *
+ * # Rewrite all restaurant files with 10 restaurants each (discards existing data)
+ * node scripts/create-restaurant-data.mjs --rewrite --count=10
+ * # Shorter version:
+ * node scripts/create-restaurant-data.mjs -r --count=10
+ *
+ * # Generate 7 restaurants per city (for new files or when rewriting)
+ * node scripts/create-restaurant-data.mjs --count=7
+ *
+ * # Enable debug mode
+ * node scripts/create-restaurant-data.mjs --debug
+ * # Shorter version:
+ * node scripts/create-restaurant-data.mjs -d
+ *
+ * Command-line Options:
+ * ------------------
+ * --append, -a             Enable Append mode. Adds new restaurants to existing files.
+ *                          If a file doesn't exist, it's created.
+ *
+ * --rewrite, -r            Enable Rewrite mode. Overwrites existing restaurant files.
+ *                          If a file doesn't exist, it's created.
+ *
+ * --count=<NUMBER>         Sets the number of restaurants to generate per city.
+ *                          Used in Create mode (if file doesn't exist) or Rewrite mode.
+ *                          Default: 5.
+ *                          Example: --count=10
+ *
+ * --append-count=<NUMBER>  Sets the number of new restaurants to add per city in Append mode.
+ * -ac=<NUMBER>             If not specified, defaults to the value of --count (or 5 if
+ *                          --count is also not set).
+ *                          Example: --append-count=3 or -ac=3
+ *
+ * --debug, -d              Enable debug mode for more detailed console output.
+ *
+ * Note: If neither --append nor --rewrite is specified, the script runs in
+ * "Create new only" mode, skipping cities where restaurant files already exist.
+ *
+ * Output Files:
+ * ------------
+ * The script generates TypeScript files in:
+ * src/lib/constants/cruises/restaurants/{cityName}/restaurants.ts
+ * (e.g., src/lib/constants/cruises/restaurants/london/restaurants.ts)
+ *
+ * Each file exports a typed array of restaurant objects:
+ * export const {camelCaseCityName}Restaurants: Restaurant[] = [ ... ];
+ *
+ * The `Restaurant` type is expected to be imported from "@/lib/types/types".
+ */
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { getCityFiles } from "./utils/file-utils.mjs";
-
-// Basic usage (only creates new restaurant data files, skips existing):
-// node scripts/create-restaurant-data.mjs
-
-// Append mode (adds new restaurants to existing files):
-// node scripts/create-restaurant-data.mjs --append
-// node scripts/create-restaurant-data.mjs -a
-
-// Rewrite mode (overwrites existing restaurant files):
-// node scripts/create-restaurant-data.mjs --rewrite
-// node scripts/create-restaurant-data.mjs -r
-
-// Specify number of restaurants to generate:
-// node scripts/create-restaurant-data.mjs --count=10
-
-// Specify number of restaurants to append:
-// node scripts/create-restaurant-data.mjs --append --append-count=3
-// node scripts/create-restaurant-data.mjs -a -ac=3
-
-// Combine options:
-// node scripts/create-restaurant-data.mjs --rewrite --count=15
+import {
+  getRandomRating,
+  getRandomBool,
+  getRandomHours,
+  getRandomPrice,
+} from "./utils/data-generator.mjs";
+import { generalEmailStarters } from "./utils/general-util.mjs";
+import {
+  restaurantNamePrefix,
+  restaurantNameSuffix,
+} from "./utils/name-utils.mjs";
+import { restaurantTemplate } from "./utils/template-util.mjs";
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -34,25 +105,25 @@ const APPEND_MODE = args.includes("--append") || args.includes("-a");
 const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
 const RESTAURANT_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--count="))?.split("=")[1] || "5",
-  10,
+  10
 );
 const APPEND_COUNT = parseInt(
   args.find((arg) => arg.startsWith("--append-count="))?.split("=")[1] ||
     args.find((arg) => arg.startsWith("-ac="))?.split("=")[1] ||
     RESTAURANT_COUNT.toString(),
-  10,
+  10
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`,
+  }`
 );
 console.log(
   `${APPEND_MODE ? "Appending" : "Generating"} ${
     APPEND_MODE ? APPEND_COUNT : RESTAURANT_COUNT
-  } restaurants per city`,
+  } restaurants per city`
 );
 console.log(
   `Will ${
@@ -61,7 +132,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } restaurant files`,
+  } restaurant files`
 );
 
 // Generate restaurant data for a given city
@@ -70,7 +141,7 @@ const generateRestaurantsForCity = (cityName) => {
   const camelCaseCityName = cityName
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
     )
     .join("");
 
@@ -84,7 +155,7 @@ const generateRestaurantsForCity = (cityName) => {
     "cruises",
     "restaurants",
     cityName,
-    "restaurants.ts",
+    "restaurants.ts"
   );
 
   // Create directory if it doesn't exist
@@ -97,7 +168,7 @@ const generateRestaurantsForCity = (cityName) => {
   if (fs.existsSync(filePath)) {
     if (!APPEND_MODE && !REWRITE_MODE) {
       console.log(
-        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`,
+        `Skipping ${cityName} - restaurant file already exists. Use --append or --rewrite to modify.`
       );
       return;
     }
@@ -117,7 +188,7 @@ const generateRestaurantsForCity = (cityName) => {
       // Extract array from existing file using an improved regex
       // This pattern is more flexible with whitespace and formatting
       const match = content.match(
-        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/,
+        /export\s+const\s+\w+Restaurants\s*:\s*Restaurant\[\]\s*=\s*(\[[\s\S]*?\]);/
       );
 
       if (match && match[1]) {
@@ -139,18 +210,18 @@ const generateRestaurantsForCity = (cityName) => {
           // Parse the extracted array
           existingRestaurants = JSON.parse(processedContent);
           console.log(
-            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`,
+            `Found ${existingRestaurants.length} existing restaurants for ${cityName}`
           );
         } catch (e) {
           console.error(
             `Error parsing existing restaurants for ${cityName}:`,
-            e,
+            e
           );
           console.error(
             `Failed JSON content (first 200 chars): ${match[1].substring(
               0,
-              200,
-            )}...`,
+              200
+            )}...`
           );
 
           // Fall back to an alternative approach using eval in a controlled way
@@ -161,7 +232,7 @@ const generateRestaurantsForCity = (cityName) => {
             const safeEval = new Function(`return ${arrayContent}`);
             existingRestaurants = safeEval();
             console.log(
-              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`,
+              `Successfully recovered ${existingRestaurants.length} restaurants using alternative method`
             );
           } catch (evalError) {
             console.error("Alternative parsing also failed:", evalError);
@@ -175,7 +246,7 @@ const generateRestaurantsForCity = (cityName) => {
     } catch (e) {
       console.error(
         `Error reading existing restaurant file for ${cityName}:`,
-        e,
+        e
       );
     }
   }
@@ -189,14 +260,14 @@ const generateRestaurantsForCity = (cityName) => {
   // Validate we're actually appending if in append mode
   if (APPEND_MODE && existingRestaurants.length > 0) {
     console.log(
-      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`,
+      `Append validation: ${existingRestaurants.length} existing + ${newRestaurants.length} new = ${restaurants.length} total`
     );
     if (
       restaurants.length !==
       existingRestaurants.length + newRestaurants.length
     ) {
       console.error(
-        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!",
+        "WARNING: Final restaurant count doesn't match expected total. Append may not be working correctly!"
       );
     }
   }
@@ -207,7 +278,7 @@ const generateRestaurantsForCity = (cityName) => {
     camelCaseCityName,
     restaurants,
     existingCount,
-    newCount,
+    newCount
   ) => {
     // Generate the file content
     const fileContent = `
@@ -230,15 +301,15 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
 
     if (existingCount > 0) {
       console.log(
-        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`,
+        `Updated restaurant data for ${camelCaseCityName}: ${existingCount} existing + ${newCount} new = ${restaurants.length} total`
       );
     } else if (REWRITE_MODE) {
       console.log(
-        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
+        `Rewrote restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
       );
     } else {
       console.log(
-        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`,
+        `Created new restaurant data for ${camelCaseCityName}: ${restaurants.length} restaurants`
       );
     }
   };
@@ -250,7 +321,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       existingRestaurants.length,
-      newRestaurants.length,
+      newRestaurants.length
     );
   } else {
     // Generate new restaurants with default count (either new file or rewrite mode)
@@ -260,7 +331,7 @@ export const ${camelCaseCityName}Restaurants: Restaurant[] = ${JSON.stringify(
       camelCaseCityName,
       restaurants,
       0,
-      restaurants.length,
+      restaurants.length
     );
   }
 };
@@ -364,609 +435,8 @@ const generateRandomRestaurants = (cityName, count) => {
   ];
   const cityCuisines = cuisinesByRegion[cityName] || defaultCuisines;
 
-  // Restaurant names by region/city
-  const namePrefix = {
-    auckland: [
-      "Harbour",
-      "Kiwi",
-      "Maori",
-      "Coromandel",
-      "Pacific",
-      "Auckland",
-      "North Island",
-      "Wellington",
-      "Skyline",
-      "Rotorua",
-      "Tasman",
-      "Waitemata",
-      "Bay of Islands",
-      "Northland",
-      "Southern Cross",
-      "Sky Tower",
-      "Hauraki",
-      "Seabreeze",
-      "Island Hopping",
-      "Pohutukawa",
-      "Wairarapa",
-      "Taupo",
-      "Manuka",
-      "Kauri",
-      "Kea",
-      "Hobbiton",
-      "Pounamu",
-      "Fiordland",
-      "Whangarei",
-      "Waikato",
-    ],
-    amsterdam: [
-      "Canal",
-      "Dutch",
-      "Amsterdam",
-      "Tulip",
-      "Rembrandt",
-      "Grachten",
-      "Windmill",
-      "Van Gogh",
-      "Anne Frank",
-      "Holland",
-      "Damrak",
-      "Keizersgracht",
-      "Bicycle",
-      "Zaanse",
-      "Red Light",
-      "Gouda",
-      "Netherlands",
-      "Rijksmuseum",
-      "Herengracht",
-      "Delft",
-      "Stroopwafel",
-      "Prinsengracht",
-      "Polder",
-      "Jordaan",
-      "Heineken",
-      "Leidseplein",
-      "Vondelpark",
-      "Amstel",
-      "Houseboat",
-      "Orange",
-    ],
-    barcelona: [
-      "Barcelona",
-      "Catalonia",
-      "Gaudi",
-      "Modernista",
-      "Mosaic",
-      "Rambla",
-      "Picasso",
-      "Sagrada",
-      "Mediterranean",
-      "Tapas",
-      "Barri Gòtic",
-      "Montserrat",
-      "Sunlit",
-      "Cava",
-      "Costa Brava",
-      "Eixample",
-      "Tibidabo",
-    ],
-    berlin: [
-      "Berlin",
-      "Brandenburg",
-      "Rhine",
-      "Bavarian",
-      "Deutsche",
-      "Reichstag",
-      "Spree",
-      "Unter den Linden",
-      "Checkpoint",
-      "Wall",
-      "Tiergarten",
-      "Prussian",
-      "Museum Island",
-      "Kreuzberg",
-      "Charlottenburg",
-      "Alexanderplatz",
-    ],
-    boston: [
-      "Boston",
-      "Harbor",
-      "Colonial",
-      "Atlantic",
-      "Freedom",
-      "Quincy",
-      "Fenway",
-      "Beacon",
-      "Tea Party",
-      "Cambridge",
-      "Seaport",
-      "Paul Revere",
-      "Maritime",
-      "Revolution",
-      "Charles River",
-      "New England",
-    ],
-    "buenos-aires": [
-      "Buenos Aires",
-      "Tango",
-      "Gaucho",
-      "San Telmo",
-      "Pampas",
-      "Evita",
-      "Recoleta",
-      "Río de la Plata",
-      "La Boca",
-      "Obelisco",
-      "Argentina",
-      "Plaza",
-      "Estancia",
-      "Andes",
-      "Mate",
-      "Carnaval",
-      "Paraná",
-    ],
-    "cape-town": [
-      "Cape",
-      "Safari",
-      "Table Mountain",
-      "Vineyard",
-      "Atlantic",
-      "Winelands",
-      "Seabreeze",
-      "South Seas",
-      "Penguin",
-      "Robben Island",
-      "Boulders",
-      "Cape Point",
-      "Western Cape",
-      "Signal Hill",
-      "Twelve Apostles",
-      "Bo-Kaap",
-      "Victoria Wharf",
-    ],
-    charleston: [
-      "Charleston",
-      "Palmetto",
-      "Southern",
-      "Magnolia",
-      "Harbor",
-      "Sea Island",
-      "Spanish Moss",
-      "Coastal",
-      "Lowcountry",
-      "Historic",
-      "Battery",
-      "Rainbow Row",
-      "Sweet Tea",
-      "Fort Sumter",
-      "Ashley River",
-      "Gullah",
-    ],
-    copenhagen: [
-      "Copenhagen",
-      "Viking",
-      "Scandi",
-      "Nyhavn",
-      "Little Mermaid",
-      "Tivoli",
-      "Rosenborg",
-      "Oresund",
-      "Hygge",
-      "Nordic",
-      "Canal",
-      "Baltic",
-      "Frederik",
-      "Carlsberg",
-      "Amalienborg",
-      "Cinnamon Roll",
-      "Christiania",
-    ],
-    dubai: [
-      "Dubai",
-      "Gold",
-      "Desert",
-      "Emirates",
-      "Palm",
-      "Burj",
-      "Arabian",
-      "Marina",
-      "Souk",
-      "Spice",
-      "Skyline",
-      "Miracle",
-      "Creek",
-      "Dhow",
-      "Sheikh Zayed",
-      "Sands",
-    ],
-    dublin: [
-      "Dublin",
-      "Emerald",
-      "Celtic",
-      "Lone Star",
-      "Liffey",
-      "Shamrock",
-      "Temple Bar",
-      "Irish",
-      "Cliffs",
-      "Saint Patrick",
-      "Guinness",
-      "Trinity",
-      "Wicklow",
-      "Jameson",
-      "Ha'penny",
-      "Grafton",
-      "Blarney",
-      "Green Isle",
-      "Fáilte",
-    ],
-    florence: [
-      "Florence",
-      "Tuscany",
-      "Renaissance",
-      "Piazza",
-      "Michelangelo",
-      "Villa",
-      "Luxury",
-      "Arno",
-      "Medici",
-      "Duomo",
-      "Uffizi",
-      "Chianti",
-      "Ponte Vecchio",
-      "David",
-      "Firenze",
-      "Artisan",
-      "Oltrarno",
-    ],
-    "fort-lauderdale": [
-      "Fort Lauderdale",
-      "Sunshine",
-      "Everglades",
-      "Yacht",
-      "Palm",
-      "Intracoastal",
-      "Beachfront",
-      "Luxury",
-      "Atlantic",
-      "Cruise Port",
-      "Gulfstream",
-      "Broward",
-      "Coral Ridge",
-      "Oceanfront",
-      "Tropical",
-      "Marina Mile",
-      "A1A",
-    ],
-    galveston: [
-      "Galveston",
-      "Texas",
-      "Gulf",
-      "Lone Star",
-      "West Bay",
-      "Cruiseport",
-      "Seaside",
-      "Island",
-      "Port",
-      "Historic Strand",
-      "Pier",
-      "Kemah",
-      "Shrimp",
-      "Surfside",
-      "Bay",
-      "Moody",
-      "Bolivar",
-    ],
-    "hong-kong": [
-      "Hong Kong",
-      "Victoria",
-      "Pearl",
-      "Dynasty",
-      "Harbor",
-      "Junk Boat",
-      "Dragon",
-      "Kowloon",
-      "Lantern",
-      "Causeway",
-      "Neon",
-      "Lan Kwai",
-      "Mid-Levels",
-      "Lantau",
-      "Dim Sum",
-      "Canton",
-      "Neon",
-      "Star Ferry",
-    ],
-    kiel: [
-      "Kiel",
-      "Baltic",
-      "Hanseatic",
-      "Schleswig",
-      "Fjord",
-      "Harbor",
-      "Marine",
-      "Lighthouse",
-      "Yachting",
-      "Germany",
-      "North Sea",
-      "Cruise Gate",
-      "Ostseekai",
-      "Sailing",
-      "Warft",
-      "Laboe",
-      "Navy",
-    ],
-    kyoto: [
-      "Kyoto",
-      "Zen",
-      "Geisha",
-      "Bamboo",
-      "Temple",
-      "Shrine",
-      "Gion",
-      "Pagoda",
-      "Imperial",
-      "Matcha",
-      "Gion",
-      "Torii",
-      "Fushimi",
-      "Kaiseki",
-      "Kinkakuji",
-      "Arashiyama",
-      "Shrine",
-      "Blossom",
-      "Higashiyama",
-      "Nishiki",
-    ],
-    lisbon: [
-      "Lisbon",
-      "Tagus",
-      "Explorer",
-      "Fado",
-      "Port",
-      "Tram",
-      "Alfama",
-      "Belém",
-      "Atlantic",
-      "Azulejo",
-      "Belém",
-      "Saudade",
-      "Pastel",
-      "Atlantic",
-      "Castelo",
-      "Miradouro",
-      "Baixa",
-    ],
-    london: [
-      "London",
-      "Thames",
-      "Royal",
-      "Crown",
-      "Piccadilly",
-      "Britannia",
-      "Big Ben",
-      "Underground",
-      "Westminster",
-      "Tower Bridge",
-      "Soho",
-      "London Eye",
-      "Camden",
-      "Piccadilly",
-      "Foggy",
-      "Tea Time",
-      "Kensington",
-      "Notting Hill",
-      "Covent Garden",
-      "Savoy",
-      "Shoreditch",
-      "Greenwich",
-      "Hackney",
-      "Mayfair",
-      "Chelsea",
-      "Marylebone",
-      "Buckingham",
-      "British Museum",
-      "Abbey Road",
-      "Hyde Park",
-    ],
-    "los-angeles": [
-      "Los Angeles",
-      "Hollywood",
-      "Pacific",
-      "Sunset",
-      "Coastal",
-      "Boardwalk",
-      "Venice",
-      "Santa Monica",
-      "Beverly",
-      "Malibu",
-      "Palm Tree",
-      "Rodeo",
-      "LA Live",
-      "Griffith",
-      "Metro Goldwyn",
-      "Baywatch",
-      "Silver Lake",
-      "Echo Park",
-      "Downtown",
-      "Pasadena",
-      "Brentwood",
-      "Studio",
-      "Angels",
-      "Dodgers",
-      "Westside",
-      "Melrose",
-      "Wilshire",
-      "Mulholland",
-      "Arts District",
-    ],
-    melbourne: ["Australian", "Italian", "Greek", "Chinese", "Vietnamese"],
-    miami: ["Cuban", "American", "Caribbean", "Peruvian", "Italian"],
-    milan: ["Italian", "Mediterranean", "French", "Japanese", "Fusion"],
-    montreal: ["French", "Canadian", "Italian", "Mediterranean", "American"],
-    "new-orleans": ["Cajun", "Creole", "American", "French", "Italian"],
-    "new-york-city": ["American", "Italian", "Chinese", "Japanese", "French"],
-    paris: ["French", "Italian", "Japanese", "Mediterranean", "Middle Eastern"],
-    "quebec-city": [
-      "French",
-      "Canadian",
-      "Italian",
-      "American",
-      "Mediterranean",
-    ],
-    "rio-de-janeiro": [
-      "Brazilian",
-      "Portuguese",
-      "Italian",
-      "Japanese",
-      "Seafood",
-    ],
-    rome: ["Italian", "Mediterranean", "Roman", "Japanese", "French"],
-    "san-francisco": ["American", "Chinese", "Mexican", "Japanese", "Italian"],
-    "san-juan": ["Puerto Rican", "Caribbean", "Spanish", "American", "Seafood"],
-    seattle: ["American", "Seafood", "Japanese", "Italian", "Thai"],
-    singapore: ["Singaporean", "Chinese", "Malaysian", "Indian", "Japanese"],
-    southampton: ["British", "Italian", "Indian", "French", "Mediterranean"],
-    sydney: ["Australian", "Seafood", "Italian", "Asian", "Mediterranean"],
-    tampa: ["American", "Cuban", "Seafood", "Italian", "Spanish"],
-    tokyo: ["Japanese", "Italian", "French", "Chinese", "Korean"],
-    toronto: ["Canadian", "Italian", "Chinese", "Indian", "Japanese"],
-    vancouver: ["Canadian", "Asian", "Seafood", "Italian", "Mediterranean"],
-    venice: ["Italian", "Venetian", "Mediterranean", "Seafood", "Japanese"],
-    yokohama: ["Japanese", "Chinese", "Italian", "French", "American"],
-  };
-
   const defaultPrefix = ["The", "Royal", "Blue", "Golden", "Grand"];
-  const cityPrefix = namePrefix[cityName] || defaultPrefix;
-
-  // Generic restaurant name suffixes
-  const nameSuffix = [
-    // Classic suffixes
-    "Bistro",
-    "Cafe",
-    "Restaurant",
-    "Grill",
-    "Eatery",
-    "Kitchen",
-    "Table",
-    "House",
-    "Garden",
-    "Terrace",
-    "Brasserie",
-    "Dining Room",
-    "Tavern",
-    "Bar & Kitchen",
-    "Lounge",
-    "Room",
-    "Deli",
-    "Cantina",
-    "Saloon",
-    "Trattoria",
-    "Inn",
-    "Cellar",
-    "Bakery",
-    "Gastropub",
-    "Steakhouse",
-    "Barbecue",
-    "Ristorante",
-    "Pizzeria",
-    "Chophouse",
-    "Buffet",
-    "Canteen",
-    "Snack Bar",
-    "Taproom",
-    "Coffee House",
-    "Osteria",
-    "Fish House",
-    "Supper Club",
-    "Nook",
-    "Snack Shack",
-    "Dining Hall",
-
-    // International cuisine suffixes
-    "Izakaya",
-    "Biergarten",
-    "Bodega",
-    "Taqueria",
-    "Ramen-Ya",
-    "Curry House",
-    "Sushi Bar",
-    "Enoteca",
-    "Tapas Bar",
-    "Brasserie",
-    "Pho House",
-    "Dim Sum Palace",
-    "Tiki Lounge",
-    "Cerveceria",
-    "Wok",
-    "Kebab House",
-    "Noodle Bar",
-    "Cevicheria",
-
-    // Specialized & artisanal suffixes
-    "Creperie",
-    "Chocolatier",
-    "Gelateria",
-    "Raw Bar",
-    "Wine Bar",
-    "Tea House",
-    "Juice Bar",
-    "Salumeria",
-    "Seafood Shack",
-    "Patisserie",
-    "Boulangerie",
-    "Rotisserie",
-    "Smokehouse",
-    "Creamery",
-    "Oyster Bar",
-    "Charcuterie",
-
-    // Contemporary & trendy suffixes
-    "Social",
-    "Local",
-    "Collective",
-    "Project",
-    "Provisions",
-    "Public House",
-    "Workshop",
-    "Marketplace",
-    "Trading Co.",
-    "Commissary",
-    "Revival",
-    "& Co.",
-    "Artisan",
-    "Craft",
-    "& Sons",
-    "Lab",
-    "Society",
-    "Experience",
-    "Farm Table",
-    "Harvest",
-    "Cookhouse",
-    "Eatery + Bar",
-    "Fare",
-    "Gathering",
-
-    // Luxury & specialty suffixes
-    "Fine Dining",
-    "Gourmet",
-    "Grand Cafe",
-    "Chateau",
-    "Epicurean",
-    "Bouchon",
-    "Culinary",
-    "Atelier",
-    "Maison",
-    "Estate",
-    "Mansion",
-    "Parlor",
-    "Club",
-    "Gallery",
-    "Pavilion",
-    "Rooftop",
-    "Hideaway",
-    "Sanctuary",
-    "Emporium",
-  ];
+  const cityPrefix = restaurantNamePrefix[cityName] || defaultPrefix;
 
   // Generate 'count' restaurants for this city instead of a random number
   const restaurants = [];
@@ -977,656 +447,14 @@ const generateRandomRestaurants = (cityName, count) => {
     return cuisines[Math.floor(Math.random() * cuisines.length)];
   };
 
-  const getRandomRating = () => {
-    return (Math.floor(Math.random() * 10) / 10 + 3.9).toFixed(1);
-  };
-
-  const getRandomPrice = () => {
-    const prices = ["$", "$$", "$$$", "$$$$"];
-    return prices[Math.floor(Math.random() * prices.length)];
-  };
-
   const getRandomName = () => {
     const prefix = cityPrefix[Math.floor(Math.random() * cityPrefix.length)];
-    const suffix = nameSuffix[Math.floor(Math.random() * nameSuffix.length)];
+    const suffix =
+      restaurantNameSuffix[
+        Math.floor(Math.random() * restaurantNameSuffix.length)
+      ];
     return `${prefix} ${suffix}`;
   };
-
-  const getRandomHours = () => {
-    const days = [
-      "monday",
-      "tuesday",
-      "wednesday",
-      "thursday",
-      "friday",
-      "saturday",
-      "sunday",
-    ];
-    const hours = {};
-
-    days.forEach((day) => {
-      const isOpen = Math.random() > 0.1; // 90% chance of being open
-      if (isOpen) {
-        const openHour = Math.floor(Math.random() * 3) + 9; // 9am to 11am
-        const closeHour = Math.floor(Math.random() * 4) + 19; // 7pm to 10pm
-        hours[day] = `${openHour}:00-${closeHour}:00`;
-      } else {
-        hours[day] = "Closed";
-      }
-    });
-
-    return hours;
-  };
-
-  const getRandomBool = (probability = 0.5) => {
-    return Math.random() < probability;
-  };
-
-  // City-specific description elements
-  const cityDescriptions = {
-    auckland: {
-      landmarks: [
-        "Auckland Harbour Bridge",
-        "Sky Tower",
-        "Waitemata Harbour",
-        "Rangitoto Island",
-        "Auckland Domain",
-        "Mount Eden",
-        "Viaduct Harbour",
-        "Waiheke Island",
-      ],
-      features: [
-        "harbor views",
-        "Pacific-inspired decor",
-        "Kiwi hospitality",
-        "locally-sourced seafood",
-        "Maori cultural influences",
-        "outdoor dining",
-        "lush native greenery",
-        "laid-back coastal vibe",
-      ],
-      specialties: [
-        "green-lipped mussels",
-        "lamb dishes",
-        "pavlova",
-        "hangi",
-        "manuka honey",
-        "whitebait fritters",
-        "Kina (sea urchin)",
-        "seafood chowder",
-      ],
-    },
-    amsterdam: {
-      landmarks: [
-        "the canals",
-        "Vondelpark",
-        "Jordaan district",
-        "Dam Square",
-        "Anne Frank House",
-        "Rijksmuseum",
-        "Royal Palace",
-        "Amsterdam Central Station",
-      ],
-      features: [
-        "canal-side dining",
-        "17th century building",
-        "cozy brown café atmosphere",
-        "Dutch design elements",
-        "bike-friendly streets",
-        "artisanal markets",
-        "historic courtyards",
-        "colorful tulip displays",
-      ],
-      specialties: [
-        "stroopwafels",
-        "bitterballen",
-        "Dutch pancakes",
-        "herring",
-        "Gouda cheese",
-        "poffertjes",
-        "licorice",
-        "kibbeling (fried fish)",
-      ],
-    },
-    barcelona: {
-      landmarks: [
-        "La Rambla",
-        "Sagrada Familia",
-        "Gothic Quarter",
-        "Barceloneta Beach",
-        "Park Güell",
-        "Casa Batlló",
-        "Montjuïc",
-        "Magic Fountain",
-      ],
-      features: [
-        "Gaudi-inspired decor",
-        "Catalonian charm",
-        "mosaic details",
-        "Mediterranean terrace",
-        "vibrant street art",
-        "seaside promenades",
-        "historic plazas",
-        "open-air markets",
-      ],
-      specialties: [
-        "paella",
-        "tapas",
-        "jamón ibérico",
-        "pan con tomate",
-        "crema catalana",
-        "escalivada",
-        "bombas",
-        "cava",
-      ],
-    },
-    berlin: {
-      landmarks: [
-        "Brandenburg Gate",
-        "Museum Island",
-        "Tiergarten",
-        "East Side Gallery",
-        "Berlin Wall Memorial",
-        "Checkpoint Charlie",
-        "Reichstag Building",
-        "Alexanderplatz",
-      ],
-      features: [
-        "industrial chic decor",
-        "beer garden",
-        "historic building",
-        "avant-garde atmosphere",
-        "street art culture",
-        "modernist architecture",
-        "techno club scene",
-        "green parks",
-      ],
-      specialties: [
-        "currywurst",
-        "döner kebab",
-        "schnitzel",
-        "pretzels",
-        "German beer",
-        "Kartoffelsalat",
-        "Berliner Pfannkuchen",
-        "Eisbein",
-      ],
-    },
-    boston: {
-      landmarks: [
-        "Faneuil Hall",
-        "Boston Harbor",
-        "Beacon Hill",
-        "Fenway Park",
-        "Boston Common",
-        "Freedom Trail",
-        "New England Aquarium",
-        "Harvard University",
-      ],
-      features: [
-        "historic setting",
-        "New England charm",
-        "waterfront views",
-        "colonial architecture",
-        "brick-lined streets",
-        "seafood shacks",
-        "old-world pubs",
-        "academic ambiance",
-      ],
-      specialties: [
-        "clam chowder",
-        "lobster rolls",
-        "Boston cream pie",
-        "oysters",
-        "baked beans",
-        "scrod",
-        "stuffed quahogs",
-        "cranberry desserts",
-      ],
-    },
-    "buenos-aires": {
-      landmarks: [
-        "La Boca",
-        "Recoleta",
-        "Plaza de Mayo",
-        "Puerto Madero",
-        "Teatro Colón",
-        "Palermo Soho",
-        "San Telmo Market",
-        "Caminito Street",
-      ],
-      features: [
-        "tango shows",
-        "parilla-style grill",
-        "European elegance",
-        "vibrant atmosphere",
-        "historic cafés",
-        "art nouveau architecture",
-        "street murals",
-        "nightlife hotspots",
-      ],
-      specialties: [
-        "asado",
-        "empanadas",
-        "dulce de leche",
-        "Malbec wine",
-        "mate",
-        "choripán",
-        "medialunas",
-        "provoleta",
-      ],
-    },
-    "cape-town": {
-      landmarks: [
-        "Table Mountain",
-        "V&A Waterfront",
-        "Robben Island",
-        "Cape Peninsula",
-        "Kirstenbosch Botanical Gardens",
-        "Bo-Kaap",
-        "Signal Hill",
-        "Cape Winelands",
-      ],
-      features: [
-        "panoramic mountain views",
-        "African-inspired decor",
-        "vineyard setting",
-        "ocean views",
-        "multicultural influences",
-        "beachfront cafes",
-        "artisan markets",
-        "historic slave lodge",
-      ],
-      specialties: [
-        "bobotie",
-        "biltong",
-        "Cape Malay curry",
-        "Pinotage wine",
-        "fresh seafood",
-        "snoek fish",
-        "malva pudding",
-        "roosterkoek",
-      ],
-    },
-    charleston: {
-      landmarks: [
-        "Rainbow Row",
-        "Charleston Harbor",
-        "The Battery",
-        "French Quarter",
-        "Fort Sumter",
-        "Magnolia Plantation",
-        "King Street",
-        "Angel Oak Tree",
-      ],
-      features: [
-        "Southern hospitality",
-        "antebellum architecture",
-        "courtyard dining",
-        "plantation charm",
-        "historic cobblestone streets",
-        "oak-lined avenues",
-        "waterfront promenades",
-        "garden tours",
-      ],
-      specialties: [
-        "shrimp and grits",
-        "she-crab soup",
-        "oysters",
-        "biscuits",
-        "sweet tea",
-        "frogmore stew",
-        "pecan pie",
-        "Lowcountry boil",
-      ],
-    },
-    copenhagen: {
-      landmarks: [
-        "Nyhavn",
-        "Tivoli Gardens",
-        "The Little Mermaid",
-        "Christiansborg Palace",
-        "Rosenborg Castle",
-        "Frederiksborg Castle",
-        "Amalienborg Palace",
-        "Strøget",
-      ],
-      features: [
-        "hygge atmosphere",
-        "Nordic design",
-        "waterfront dining",
-        "minimalist elegance",
-        "eco-friendly spaces",
-        "bicycle culture",
-        "artisan bakeries",
-        "seasonal menus",
-      ],
-      specialties: [
-        "smørrebrød",
-        "Danish pastries",
-        "herring",
-        "frikadeller",
-        "new Nordic cuisine",
-        "rødgrød med fløde",
-        "Æbleskiver",
-        "flæskesteg",
-      ],
-    },
-    dubai: {
-      landmarks: [
-        "Burj Khalifa",
-        "Palm Jumeirah",
-        "Dubai Marina",
-        "Dubai Mall",
-        "Burj Al Arab",
-        "Dubai Creek",
-        "Dubai Frame",
-        "Al Fahidi Historic District",
-      ],
-      features: [
-        "luxurious setting",
-        "skyline views",
-        "opulent decor",
-        "air-conditioned terraces",
-        "desert backdrop",
-        "high-end shopping",
-        "fusion cuisines",
-        "modern architecture",
-      ],
-      specialties: [
-        "mezze",
-        "shawarma",
-        "lamb ouzi",
-        "date desserts",
-        "camel milk specialties",
-        "falafel",
-        "kebabs",
-        "saffron rice",
-      ],
-    },
-    dublin: {
-      landmarks: [
-        "Temple Bar",
-        "Trinity College",
-        "Dublin Castle",
-        "St. Stephen's Green",
-        "Guinness Storehouse",
-        "Phoenix Park",
-        "Christ Church Cathedral",
-        "Ha'penny Bridge",
-      ],
-      features: [
-        "traditional Irish pub atmosphere",
-        "live music",
-        "historic stone walls",
-        "cozy fireplaces",
-        "literary heritage",
-        "cobblestone alleys",
-        "pub quizzes",
-        "green parks",
-      ],
-      specialties: [
-        "Irish stew",
-        "boxty",
-        "colcannon",
-        "soda bread",
-        "Guinness",
-        "black pudding",
-        "seafood chowder",
-        "coddle",
-      ],
-    },
-    "hong-kong": {
-      landmarks: [
-        "Victoria Harbour",
-        "The Peak",
-        "Lan Kwai Fong",
-        "Kowloon",
-        "Tian Tan Buddha",
-        "Ngong Ping 360",
-        "Star Ferry",
-        "Temple Street Night Market",
-      ],
-      features: [
-        "harbor views",
-        "rooftop dining",
-        "dim sum carts",
-        "fusion of East and West",
-        "neon-lit streets",
-        "bustling markets",
-        "skyscraper skyline",
-        "urban parks",
-      ],
-      specialties: [
-        "dim sum",
-        "roast goose",
-        "wonton noodles",
-        "pineapple buns",
-        "milk tea",
-        "egg tarts",
-        "congee",
-        "snake soup",
-      ],
-    },
-    florence: {
-      landmarks: [
-        "Duomo",
-        "Ponte Vecchio",
-        "Uffizi Gallery",
-        "Piazza della Signoria",
-        "Boboli Gardens",
-        "Santa Croce",
-        "Palazzo Pitti",
-        "Michelangelo's David",
-      ],
-      features: [
-        "Renaissance architecture",
-        "terrace dining",
-        "Tuscan countryside views",
-        "historic palazzo setting",
-        "artisan workshops",
-        "cobblestone streets",
-        "river views",
-        "open-air markets",
-      ],
-      specialties: [
-        "bistecca alla fiorentina",
-        "ribollita",
-        "pappardelle with wild boar",
-        "Chianti wine",
-        "cantucci",
-        "truffle dishes",
-        "lampredotto",
-        "crostini",
-      ],
-    },
-    "fort-lauderdale": {
-      landmarks: [
-        "Las Olas Boulevard",
-        "Fort Lauderdale Beach",
-        "Intracoastal Waterway",
-        "Riverwalk",
-        "Bonnet House Museum",
-        "NSU Art Museum",
-        "Hollywood Beach",
-        "Everglades National Park",
-      ],
-      features: [
-        "waterfront dining",
-        "yacht views",
-        "tropical ambiance",
-        "outdoor patios",
-        "boating culture",
-        "vibrant nightlife",
-        "palm-lined streets",
-        "art deco elements",
-      ],
-      specialties: [
-        "fresh seafood",
-        "stone crab",
-        "key lime pie",
-        "tropical cocktails",
-        "fusion cuisine",
-        "conch fritters",
-        "grouper sandwiches",
-        "caribbean jerk",
-      ],
-    },
-    galveston: {
-      landmarks: [
-        "Historic Pleasure Pier",
-        "Galveston Seawall",
-        "Moody Gardens",
-        "Bishop's Palace",
-        "The Strand Historic District",
-        "Galveston Island State Park",
-        "Schlitterbahn Waterpark",
-        "Ocean Star Offshore Drilling Rig Museum",
-      ],
-      features: [
-        "beach town vibe",
-        "Victorian architecture",
-        "boardwalk dining",
-        "sea breeze",
-        "family-friendly",
-        "fishing piers",
-        "maritime heritage",
-        "colorful cottages",
-      ],
-      specialties: [
-        "Gulf shrimp",
-        "blackened fish",
-        "shrimp gumbo",
-        "pecan pie",
-        "fried oysters",
-        "red snapper",
-        "cajun spices",
-        "peach cobbler",
-      ],
-    },
-    honolulu: {
-      landmarks: [
-        "Waikiki Beach",
-        "Diamond Head",
-        "Pearl Harbor",
-        "Iolani Palace",
-        "Hanauma Bay",
-        "Punchbowl Crater",
-        "Kahala",
-        "Ala Moana Center",
-      ],
-      features: [
-        "tropical gardens",
-        "oceanfront views",
-        "Polynesian decor",
-        "surf culture",
-        "luau events",
-        "volcanic landscapes",
-        "beachside cafes",
-        "rainforest backdrop",
-      ],
-      specialties: [
-        "poke",
-        "kalua pork",
-        "haupia",
-        "shave ice",
-        "spam musubi",
-        "loco moco",
-        "malasadas",
-        "fresh coconut",
-      ],
-    },
-  };
-
-  const defaultCityDesc = {
-    landmarks: [
-      "downtown",
-      "the waterfront",
-      "the historic district",
-      "the main square",
-      "central park",
-      "the city museum",
-      "the old town walls",
-      "the cultural center",
-      "the river promenade",
-      "the iconic clock tower",
-    ],
-    features: [
-      "elegant atmosphere",
-      "beautiful decor",
-      "friendly service",
-      "local ambiance",
-      "charming streetscapes",
-      "seasonal floral displays",
-      "artisan markets",
-      "live street performances",
-      "ambient lighting",
-      "boutique shops",
-    ],
-    specialties: [
-      "signature dishes",
-      "local ingredients",
-      "fresh produce",
-      "artisanal creations",
-      "handcrafted desserts",
-      "regional wines",
-      "farm-to-table meals",
-      "seasonal specialties",
-      "heritage recipes",
-      "gourmet street food",
-    ],
-  };
-
-  // Get city-specific description or use default
-  const cityDesc = cityDescriptions[cityName] || defaultCityDesc;
-
-  // Function to generate varied descriptions based on city and cuisine
-  const generateDescription = (cuisine, city) => {
-    const landmark =
-      cityDesc.landmarks[Math.floor(Math.random() * cityDesc.landmarks.length)];
-    const feature =
-      cityDesc.features[Math.floor(Math.random() * cityDesc.features.length)];
-    const specialty =
-      cityDesc.specialties[
-        Math.floor(Math.random() * cityDesc.specialties.length)
-      ];
-
-    const templates = [
-      `A charming ${cuisine} restaurant near ${landmark}, offering ${specialty} and other local favorites in a setting with ${feature}.`,
-      `Experience authentic ${cuisine} cuisine with a local twist, featuring ${specialty} served in an atmosphere of ${feature} overlooking ${landmark}.`,
-      `This popular ${cuisine} establishment combines traditional recipes and ${specialty}, all served in a unique setting with ${feature}.`,
-      `Located close to ${landmark}, this ${cuisine} restaurant delights with its ${specialty} and ${feature}.`,
-      `A culinary gem serving ${cuisine} specialties including ${specialty}, where guests enjoy ${feature} in the heart of the city.`,
-    ];
-
-    return templates[Math.floor(Math.random() * templates.length)];
-  };
-
-  const generalEmailStarters = [
-    "info",
-    "contact",
-    "hello",
-    "hi",
-    "support",
-    "help",
-    "team",
-    "office",
-    "admin",
-    "inquiries",
-    "connect",
-    "reachus",
-    "services",
-    "customerservice",
-    "clientservices",
-    "feedback",
-    "general",
-    "communications",
-    "reception",
-    "mail",
-    "welcome",
-    "ask",
-    "care",
-  ];
 
   const emailStarter =
     generalEmailStarters[
@@ -1659,10 +487,13 @@ const generateRandomRestaurants = (cityName, count) => {
 
     restaurants.push({
       name: getRandomName(),
-      description: generateDescription(cuisine, cityName),
+      description:
+        restaurantTemplate[
+          Math.floor(Math.random() * restaurantTemplate.length)
+        ],
       cuisine,
       priceRange: `${priceRange}`,
-      rating: parseFloat(getRandomRating()),
+      rating: getRandomRating(),
       openingHours: getRandomHours(),
       contactInfo: {
         contactNumber: `+1-555-${Math.floor(Math.random() * 900) + 100}-${
@@ -1705,12 +536,12 @@ console.log(`Processed ${cityFiles.length} cities`);
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`,
+  }`
 );
 console.log(
   `${APPEND_MODE ? "Appended" : "Generated"} ${
     APPEND_MODE ? APPEND_COUNT : RESTAURANT_COUNT
-  } restaurants per city`,
+  } restaurants per city`
 );
 console.log("Restaurant data generation completed for all cities");
 console.log(`Debug mode: ${DEBUG_MODE ? "On" : "Off"}`);
