@@ -83,7 +83,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
@@ -390,46 +390,6 @@ const casinoFAQTemplates = [
   },
 ];
 
-// Get region for a city
-function getRegionForCity(cityName) {
-  const countryName = cityCountryMap[cityName] || "";
-  const regionMap = {
-    "United States": "North America",
-    Canada: "North America",
-    Mexico: "North America",
-    "United Kingdom": "Europe",
-    France: "Europe",
-    Spain: "Europe",
-    Italy: "Europe",
-    Germany: "Europe",
-    Netherlands: "Europe",
-    Norway: "Europe",
-    Sweden: "Europe",
-    Denmark: "Europe",
-    Finland: "Europe",
-    Russia: "Europe",
-    Japan: "Asia",
-    China: "Asia",
-    "South Korea": "Asia",
-    Singapore: "Asia",
-    Thailand: "Asia",
-    Vietnam: "Asia",
-    India: "Asia",
-    Australia: "Oceania",
-    "New Zealand": "Oceania",
-    Brazil: "South America",
-    Argentina: "South America",
-    Chile: "South America",
-    Uruguay: "South America",
-    Peru: "South America",
-    Colombia: "South America",
-    Malta: "Europe",
-    Ireland: "Europe",
-  };
-
-  return regionMap[countryName] || "Default";
-}
-
 // Generate casino games based on casino type and features
 function generateCasinoGames(
   hasSlotMachines,
@@ -706,7 +666,7 @@ function generateCasinosForCity(cityName) {
     return [];
   }
 
-  const region = getRegionForCity(cityName);
+  const region = cityToRegionMap(cityName);
   const casinos = [];
 
   vessels.forEach((vessel) => {
