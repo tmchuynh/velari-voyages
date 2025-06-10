@@ -1,20 +1,21 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: San Francisco
-    // Generated on: 2025-06-10T04:43:44.434Z
+    // Generated on: 2025-06-10T08:14:15.200Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const sanFranciscoCruises: Cruise[] = [
-  {
-    id: "8520228f-29ad-44f8-9f91-c54542ff1603",
-    basePrice: 3465,
+{
+    id: "6f1a7627-77da-465a-864b-188a490ecd18",
+    vesselId: "sy-san-francisco-voyager",
+    basePrice: 8099,
     departureLocation: {
   "city": "San Francisco",
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -22,8 +23,8 @@ export const sanFranciscoCruises: Cruise[] = [
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
@@ -36,32 +37,24 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "san-francisco",
     "country": "United States",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -69,37 +62,515 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Step into a world of elegance and exploration from San Francisco. This requiem through the California unveils stunning stops including los-angeles, san-diego, san-francisco, all with first-class service.",
-      distance: "693 nautical miles",
-      totalDuration: "15 days",
+      description: "Depart from the iconic port of San Francisco and sail through the enchanting California. Explore vibrant destinations like san-francisco, los-angeles, each offering its own unique charm and local flair.",
+      distance: "957 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
   {
-    "start": "Day 3",
+    "start": "Day 2",
     "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "45ebf64f-bd45-4c4b-90b9-4339d7ca5b21",
+        name: "Ralph Hayes",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+        contact: {
+          contactEmail: "sunkissed.enigma.of.@velarivoyages.com",
+          contactNumber: "+1-573-885-8080"
+        }
+      }
+    ],
+    title: "Sun-Kissed Enigma of the Golden Gateway",
+    description: "Depart from the iconic port of San Francisco and sail through the enchanting California. Explore vibrant destinations like san-francisco, los-angeles, each offering its own unique charm and local flair.",
+    rating: 4.2,
+    tags: ["nature","tropical"]
+  },
+  {
+    id: "8cf8ceb3-a105-4adb-b1cd-80e83958b126",
+    vesselId: "my--explorer",
+    basePrice: 2470,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in San Francisco and begin a moonlit journey through the scenic California. From historic cities to coastal hideaways like los-angeles, san-francisco, every day is unforgettable.",
+      distance: "529 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
     "description": "Sailing from San Francisco to los-angeles"
   },
   {
     "start": "Day 5",
-    "end": "Day 6",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from los-angeles to san-diego"
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
   },
   {
     "start": "Day 8",
     "end": "Day 9",
     "duration": "2 days",
-    "description": "Sailing from san-diego to san-francisco"
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "ada82394-deb4-4864-8530-0e144d0b0352",
+        name: "Zachary Gardner",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
+        contact: {
+          contactEmail: "infinite.escape.of.t@velarivoyages.com",
+          contactNumber: "+1-667-335-5692"
+        }
+      }
+    ],
+    title: "Infinite Escape of the Harbor of Horizons",
+    description: "Step aboard in San Francisco and begin a moonlit journey through the scenic California. From historic cities to coastal hideaways like los-angeles, san-francisco, every day is unforgettable.",
+    rating: 4.6,
+    tags: ["culinary","cruise-excursion"]
   },
   {
-    "start": "Day 12",
-    "end": "Day 13",
+    id: "7cc63639-65e7-41c9-baa5-c48f94629270",
+    vesselId: "rms--of-the-deep",
+    basePrice: 8048,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "los-angeles",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from historic San Francisco for a modern escape into the California. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in san-francisco, los-angeles.",
+      distance: "1337 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
     "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring los-angeles"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        id: "597524f9-83e5-4558-a50d-f28e4b90ec62",
+        name: "Russell Fisher",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+        contact: {
+          contactEmail: "refined.serenade.of.@velarivoyages.com",
+          contactNumber: "+1-964-306-2834"
+        }
+      }
+    ],
+    title: "Refined Serenade of the Fog-Draped Haven",
+    description: "Set sail from historic San Francisco for a modern escape into the California. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in san-francisco, los-angeles.",
+    rating: 4.6,
+    tags: ["luxury","cruise-adventure"]
+  },
+  {
+    id: "fcab57d7-ee31-44ae-9f96-74ed04b7eb6b",
+    vesselId: "my--explorer",
+    basePrice: 8635,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "san-francisco",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from San Francisco for a voyage like no other. From the picturesque landscapes of los-angeles to the lively ambiance of san-francisco, this coral-kissed cruise will redefine your view of California.",
+      distance: "562 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "9cf2afe0-731e-4102-ab49-eacffa31e33a",
+        name: "George Cooper",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/98.jpg",
+        contact: {
+          contactEmail: "moonlit.quest.of.the@velarivoyages.com",
+          contactNumber: "+1-825-682-8199"
+        }
+      }
+    ],
+    title: "Moonlit Quest of the Bay City",
+    description: "Set sail from San Francisco for a voyage like no other. From the picturesque landscapes of los-angeles to the lively ambiance of san-francisco, this coral-kissed cruise will redefine your view of California.",
+    rating: 4.5,
+    tags: ["repositioning"]
+  },
+  {
+    id: "4c1e5e15-704a-4456-864d-b0df602e2ae4",
+    vesselId: "rms--of-the-deep",
+    basePrice: 9143,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This arcadia from San Francisco invites you to explore the diverse landscapes and vibrant cultures of California. From the historic charm of los-angeles to the natural beauty of san-francisco, each port offers a unique experience that will leave you enchanted.",
+      distance: "1225 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
     "description": "Sailing from san-francisco to San Francisco"
   }
 ],
@@ -111,159 +582,8 @@ export const sanFranciscoCruises: Cruise[] = [
     "description": "Exploring San Francisco"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring los-angeles"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring san-diego"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring san-francisco"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Exploring San Francisco"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        id: "082b757c-4107-424c-adb0-1e6953998d05",
-        name: "Scott Jennings",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-        contact: {
-          contactEmail: "whispering.zenith.of@velarivoyages.com",
-          contactNumber: "+1-351-348-9064"
-        }
-      }
-    ],
-    title: "Whispering Zenith of the Crimson Bridge Dream",
-    description: "Step into a world of elegance and exploration from San Francisco. This requiem through the California unveils stunning stops including los-angeles, san-diego, san-francisco, all with first-class service.",
-    rating: 4.1,
-    tags: ["historical"]
-  },
-  {
-    id: "93d6de65-b582-44ff-bfa3-868e6c4bce9f",
-    basePrice: 2309,
-    departureLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    arrivalLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  },
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  }
-],
-      description: "Escape the everyday with this gilded journey through California, departing from San Francisco. You'll visit los-angeles, san-diego, sacramento, where every stop is a new adventure.",
-      distance: "1109 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to los-angeles"
-  },
-  {
     "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from los-angeles to san-diego"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from san-diego to sacramento"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from sacramento to San Francisco"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring San Francisco"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
+    "end": "Day 5",
     "duration": "1 days",
     "description": "Exploring los-angeles"
   },
@@ -271,18 +591,12 @@ export const sanFranciscoCruises: Cruise[] = [
     "start": "Day 7",
     "end": "Day 7",
     "duration": "1 days",
-    "description": "Exploring san-diego"
+    "description": "Exploring san-francisco"
   },
   {
     "start": "Day 9",
     "end": "Day 10",
     "duration": "2 days",
-    "description": "Exploring sacramento"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
     "description": "Exploring San Francisco"
   }
 ]
@@ -290,326 +604,47 @@ export const sanFranciscoCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "541c7e4e-4ef7-441f-aa95-bda4188d58ef",
-        name: "Vincent Lawson",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+        id: "463ae18a-d9f7-4fb3-80a2-92e0769cf8d0",
+        name: "Kevin Hall",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
         contact: {
-          contactEmail: "exquisite.embrace.of@velarivoyages.com",
-          contactNumber: "+1-393-823-5642"
+          contactEmail: "tidekissed.adventure@velarivoyages.com",
+          contactNumber: "+1-885-348-8794"
         }
       }
     ],
-    title: "Exquisite Embrace of the Harbor of Horizons",
-    description: "Escape the everyday with this gilded journey through California, departing from San Francisco. You'll visit los-angeles, san-diego, sacramento, where every stop is a new adventure.",
-    rating: 4.9,
-    tags: ["cruise-adventure","family-friendly"]
+    title: "Tide-Kissed Adventure of the Golden Gate Bridge & Hollywood Stars",
+    description: "This arcadia from San Francisco invites you to explore the diverse landscapes and vibrant cultures of California. From the historic charm of los-angeles to the natural beauty of san-francisco, each port offers a unique experience that will leave you enchanted.",
+    rating: 4.5,
+    tags: ["cruise-journey","cruise-line"]
   },
   {
-    id: "1f2da21a-8e26-44e3-a641-1fe7901ff6ea",
-    basePrice: 8640,
+    id: "2eeed975-1414-4a88-b89e-87257837e6eb",
+    vesselId: "mv-the--mariner",
+    basePrice: 4307,
     departureLocation: {
   "city": "San Francisco",
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
   "city": "los-angeles",
   "country": "United States",
   "coordinates": {
-    "latitude": 34.0522,
-    "longitude": -118.2437
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-francisco",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  }
-],
-      description: "Discover the wonders of California on this captivating cruise departing from San Francisco. From the stunning coastlines of san-francisco to the vibrant cities of sacramento, this journey promises to be a feast for the senses.",
-      distance: "1042 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from San Francisco to san-francisco"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from san-francisco to sacramento"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from sacramento to san-diego"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from san-diego to los-angeles"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring San Francisco"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring san-francisco"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring sacramento"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring san-diego"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring los-angeles"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "8696f02c-0098-47e4-822c-f291f6543026",
-        name: "Thabo Mitchell",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-        contact: {
-          contactEmail: "shorelineexploring.l@velarivoyages.com",
-          contactNumber: "+1-592-136-7160"
-        }
-      }
-    ],
-    title: "Shoreline-Exploring Labyrinth of the Bay City",
-    description: "Discover the wonders of California on this captivating cruise departing from San Francisco. From the stunning coastlines of san-francisco to the vibrant cities of sacramento, this journey promises to be a feast for the senses.",
-    rating: 4.2,
-    tags: ["cruise-experience"]
-  },
-  {
-    id: "45c6da9d-e48b-4c8f-ad63-394a0ae0bb2a",
-    basePrice: 9155,
-    departureLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    arrivalLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  },
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  }
-],
-      description: "This golden passage begins in San Francisco and ventures deep into the heart of California. Wander through colorful markets, historic streets, and serene coastlines at los-angeles, sacramento.",
-      distance: "891 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from San Francisco to los-angeles"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from los-angeles to sacramento"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from sacramento to San Francisco"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring San Francisco"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring los-angeles"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring sacramento"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring San Francisco"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "3dd0c617-85d2-4e6a-a867-d1d7e33fdcab",
-        name: "Matthew Hudson",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-        contact: {
-          contactEmail: "wavewhispered.labyri@velarivoyages.com",
-          contactNumber: "+1-363-754-4595"
-        }
-      }
-    ],
-    title: "Wave-Whispered Labyrinth of the Golden Gate Bridge & Hollywood Stars",
-    description: "This golden passage begins in San Francisco and ventures deep into the heart of California. Wander through colorful markets, historic streets, and serene coastlines at los-angeles, sacramento.",
-    rating: 4.2,
-    tags: ["long-distance","expedition"]
-  },
-  {
-    id: "c89139e6-477b-4dfd-8e6f-2ee33df9241c",
-    basePrice: 1321,
-    departureLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    arrivalLocation: {
-  "city": "san-francisco",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "luxury-cruise",
+    category: "expedition-cruise",
     itinerary: {
       route: [
   {
@@ -617,70 +652,42 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "san-francisco",
     "country": "United States",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Depart from the iconic port of San Francisco and sail through the enchanting California. Explore vibrant destinations like sacramento, san-diego, los-angeles, san-francisco, each offering its own unique charm and local flair.",
-      distance: "868 nautical miles",
-      totalDuration: "13 days",
+      description: "An escape like no other begins in San Francisco, where your pulse launches into the heart of California. Discover the magic of san-francisco, los-angeles with style and sophistication.",
+      distance: "1258 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to sacramento"
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Sailing from sacramento to san-diego"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from san-diego to los-angeles"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from los-angeles to san-francisco"
+    "description": "Sailing from san-francisco to los-angeles"
   }
 ],
       timeOnLand: [
@@ -691,61 +698,50 @@ export const sanFranciscoCruises: Cruise[] = [
     "description": "Exploring San Francisco"
   },
   {
-    "start": "Day 4",
+    "start": "Day 5",
     "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sacramento"
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
   },
   {
     "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring san-diego"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring los-angeles"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
+    "end": "Day 8",
     "duration": "2 days",
-    "description": "Exploring san-francisco"
+    "description": "Exploring los-angeles"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        id: "5589325d-9840-48a0-b916-6c85ac305e9a",
-        name: "Kenneth Lawson",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+        id: "f0555e42-5d99-449f-9a28-fd9f67fd682b",
+        name: "Javier Bennett",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
         contact: {
-          contactEmail: "infinite.frontier.of@velarivoyages.com",
-          contactNumber: "+1-636-816-2922"
+          contactEmail: "sundrenched.voyage.o@velarivoyages.com",
+          contactNumber: "+1-113-268-8870"
         }
       }
     ],
-    title: "Infinite Frontier of the Wine Country & Tech Innovation",
-    description: "Depart from the iconic port of San Francisco and sail through the enchanting California. Explore vibrant destinations like sacramento, san-diego, los-angeles, san-francisco, each offering its own unique charm and local flair.",
-    rating: 4.6,
-    tags: ["cultural","romantic"]
+    title: "Sun-Drenched Voyage of the Golden Gate Bridge & Hollywood Stars",
+    description: "An escape like no other begins in San Francisco, where your pulse launches into the heart of California. Discover the magic of san-francisco, los-angeles with style and sophistication.",
+    rating: 4.4,
+    tags: ["repositioning"]
   },
   {
-    id: "0c85a2c1-3b63-4a4b-9aa6-bd5f33734490",
-    basePrice: 8352,
+    id: "d4708395-0966-4f4d-9bbd-0fcf59d1eec5",
+    vesselId: "ps--explorer",
+    basePrice: 4072,
     departureLocation: {
   "city": "San Francisco",
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -753,8 +749,139 @@ export const sanFranciscoCruises: Cruise[] = [
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Leave ordinary behind as you sail from San Francisco across the captivating California. Discover the distinctive personality of each destination, from san-francisco, los-angeles.",
+      distance: "1021 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "479d3430-5309-4d71-846b-9f98cfd5fbd0",
+        name: "Harry Hamilton",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+        contact: {
+          contactEmail: "majestic.resonance.o@velarivoyages.com",
+          contactNumber: "+1-269-658-1815"
+        }
+      }
+    ],
+    title: "Majestic Resonance of the Golden Gate Bridge & Hollywood Stars",
+    description: "Leave ordinary behind as you sail from San Francisco across the captivating California. Discover the distinctive personality of each destination, from san-francisco, los-angeles.",
+    rating: 4.8,
+    tags: ["cruise-getaway"]
+  },
+  {
+    id: "7e7d2d65-12b1-464c-8a68-db66670d8965",
+    vesselId: "sv-the--mariner",
+    basePrice: 3750,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "san-francisco",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
@@ -767,334 +894,41 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-francisco",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "los-angeles",
     "country": "United States",
     "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
-    "city": "sacramento",
+    "city": "san-francisco",
     "country": "United States",
     "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  },
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Board in San Francisco for a hand-crafted embrace through the breathtaking California. Highlights include sun-drenched beaches, historic ports, and immersive culture in san-francisco, san-diego, los-angeles, sacramento.",
-      distance: "522 nautical miles",
-      totalDuration: "13 days",
+      description: "Depart from San Francisco on this thoughtfully designed oasis across the California. Savor coastal charm, cultural treasures, and ocean views with stops at los-angeles, san-francisco.",
+      distance: "1498 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to san-francisco"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from san-francisco to san-diego"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from san-diego to los-angeles"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from los-angeles to sacramento"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from sacramento to San Francisco"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring San Francisco"
-  },
   {
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Exploring san-francisco"
+    "description": "Sailing from San Francisco to los-angeles"
   },
   {
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Exploring san-diego"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring los-angeles"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring sacramento"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring San Francisco"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "92a857db-9e18-4a58-8356-3ab20b8d3246",
-        name: "Liam Warren",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-        contact: {
-          contactEmail: "exquisite.excursion.@velarivoyages.com",
-          contactNumber: "+1-266-356-8903"
-        }
-      }
-    ],
-    title: "Exquisite Excursion of the National Parks & Pacific Coast Highway",
-    description: "Board in San Francisco for a hand-crafted embrace through the breathtaking California. Highlights include sun-drenched beaches, historic ports, and immersive culture in san-francisco, san-diego, los-angeles, sacramento.",
-    rating: 4.6,
-    tags: ["romantic"]
-  },
-  {
-    id: "266059d3-5c53-4569-bf61-20cf9dfb538f",
-    basePrice: 8338,
-    departureLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    arrivalLocation: {
-  "city": "sacramento",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 38.5816,
-    "longitude": -121.4944
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    }
-  }
-],
-      description: "Begin an epic tide from San Francisco, where the seas meet culture. Visit the remarkable ports of los-angeles, sacramento while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "1263 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from San Francisco to los-angeles"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from los-angeles to sacramento"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring San Francisco"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring los-angeles"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring sacramento"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "437eb950-2f36-4903-92ee-19afe3bf3922",
-        name: "Mateo Lawson",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-        contact: {
-          contactEmail: "majestic.discovery.o@velarivoyages.com",
-          contactNumber: "+1-621-271-8115"
-        }
-      }
-    ],
-    title: "Majestic Discovery of the National Parks & Pacific Coast Highway",
-    description: "Begin an epic tide from San Francisco, where the seas meet culture. Visit the remarkable ports of los-angeles, sacramento while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.1,
-    tags: ["cruise-ship","culinary"]
-  },
-  {
-    id: "4ce12dd0-2429-4fa2-afe3-1d6ce0065277",
-    basePrice: 3380,
-    departureLocation: {
-  "city": "San Francisco",
-  "country": "United States",
-  "region": "California",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    arrivalLocation: {
-  "city": "san-francisco",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
-    }
-  },
-  {
-    "city": "los-angeles",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "san-francisco",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  }
-],
-      description: "Let the waves lead you from San Francisco on this infinite odyssey. Traverse the iconic waters of California and discover the beauty of san-diego, los-angeles, san-francisco.",
-      distance: "682 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to san-diego"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from san-diego to los-angeles"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
     "description": "Sailing from los-angeles to san-francisco"
   }
 ],
@@ -1109,17 +943,11 @@ export const sanFranciscoCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring san-diego"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
     "description": "Exploring los-angeles"
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
     "description": "Exploring san-francisco"
   }
@@ -1128,46 +956,47 @@ export const sanFranciscoCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "08823832-4c48-4988-abed-058045820c4c",
-        name: "Christian Hudson",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        id: "daf081b2-04ee-4d0a-8569-28b43b2d59ad",
+        name: "Matthew Jennings",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
         contact: {
-          contactEmail: "golden.adventure.of.@velarivoyages.com",
-          contactNumber: "+1-991-698-6100"
+          contactEmail: "moonlit.expedition.o@velarivoyages.com",
+          contactNumber: "+1-862-762-4828"
         }
       }
     ],
-    title: "Golden Adventure of the Crimson Bridge Dream",
-    description: "Let the waves lead you from San Francisco on this infinite odyssey. Traverse the iconic waters of California and discover the beauty of san-diego, los-angeles, san-francisco.",
+    title: "Moonlit Expedition of the Harbor of Horizons",
+    description: "Depart from San Francisco on this thoughtfully designed oasis across the California. Savor coastal charm, cultural treasures, and ocean views with stops at los-angeles, san-francisco.",
     rating: 4.3,
-    tags: ["sightseeing","long-distance"]
+    tags: ["historical"]
   },
   {
-    id: "56672c11-a8be-4ee2-87cc-969164a13639",
-    basePrice: 5469,
+    id: "7fa1815f-30d6-4bd5-91bb-c7558c3a7fb1",
+    vesselId: "nb--gale",
+    basePrice: 6880,
     departureLocation: {
   "city": "San Francisco",
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "san-diego",
+  "city": "san-francisco",
   "country": "United States",
   "coordinates": {
-    "latitude": 32.7157,
-    "longitude": -117.1611
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "luxury-cruise",
+    category: "fjords-tour",
     itinerary: {
       route: [
   {
@@ -1175,42 +1004,42 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "san-francisco",
     "country": "United States",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Embark from San Francisco and traverse the California in style. Whether it’s the energy of san-francisco or the calm of san-diego, each destination reveals a new side of paradise.",
-      distance: "1298 nautical miles",
-      totalDuration: "7 days",
+      description: "Depart San Francisco on a relaxing excursion through the California region. Highlights include the stunning coastlines of los-angeles, san-francisco, all while enjoying first-class amenities on board.",
+      distance: "873 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to san-francisco"
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
   },
   {
-    "start": "Day 5",
+    "start": "Day 6",
     "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from san-francisco to san-diego"
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
   }
 ],
       timeOnLand: [
@@ -1221,63 +1050,63 @@ export const sanFranciscoCruises: Cruise[] = [
     "description": "Exploring San Francisco"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Exploring san-francisco"
+    "description": "Exploring los-angeles"
   },
   {
     "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring san-diego"
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
   }
 ]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "cbe537e6-9c8f-4120-a047-eb1ffab0b2f0",
-        name: "Adam Jennings",
-        role: "Reservations Agent",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+        id: "0fc0f959-aa4f-410f-9d5b-038b22f39f28",
+        name: "Jason Fox",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
         contact: {
-          contactEmail: "enchanting.explorati@velarivoyages.com",
-          contactNumber: "+1-527-671-5802"
+          contactEmail: "sundrenched.saga.of.@velarivoyages.com",
+          contactNumber: "+1-260-575-3124"
         }
       }
     ],
-    title: "Enchanting Exploration of the National Parks & Pacific Coast Highway",
-    description: "Embark from San Francisco and traverse the California in style. Whether it’s the energy of san-francisco or the calm of san-diego, each destination reveals a new side of paradise.",
-    rating: 4.7,
-    tags: ["historical"]
+    title: "Sun-Drenched Saga of the Fog-Draped Haven",
+    description: "Depart San Francisco on a relaxing excursion through the California region. Highlights include the stunning coastlines of los-angeles, san-francisco, all while enjoying first-class amenities on board.",
+    rating: 4.8,
+    tags: ["cruise-journey"]
   },
   {
-    id: "9739bb1f-6b8b-4f36-a9b3-b85d6f44d920",
-    basePrice: 1172,
+    id: "a29122d8-0647-4fea-a3f9-09d9370675f1",
+    vesselId: "fv--gale",
+    basePrice: 4967,
     departureLocation: {
   "city": "San Francisco",
   "country": "United States",
   "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "San Francisco",
+  "city": "san-francisco",
   "country": "United States",
-  "region": "California",
   "coordinates": {
-    "latitude": 37.7749,
-    "longitude": -122.4194
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "vip-cruise",
+    category: "repositioning-cruise",
     itinerary: {
       route: [
   {
@@ -1285,40 +1114,135 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
-    }
-  },
-  {
-    "city": "san-diego",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 32.7157,
-      "longitude": -117.1611
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "los-angeles",
     "country": "United States",
     "coordinates": {
-      "latitude": 34.0522,
-      "longitude": -118.2437
-    }
-  },
-  {
-    "city": "sacramento",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 38.5816,
-      "longitude": -121.4944
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "san-francisco",
     "country": "United States",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Launch into adventure from San Francisco and sail deep into the heart of the California. With ports of call like los-angeles, san-francisco, expect a voyage filled with scenic wonders and luxurious comforts.",
+      distance: "1304 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        id: "4a7d0a87-43dc-4d2d-974a-9e016a0452f2",
+        name: "David Nash",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+        contact: {
+          contactEmail: "horizonkissed.quest.@velarivoyages.com",
+          contactNumber: "+1-890-249-7262"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Quest of the Fog-Draped Haven",
+    description: "Launch into adventure from San Francisco and sail deep into the heart of the California. With ports of call like los-angeles, san-francisco, expect a voyage filled with scenic wonders and luxurious comforts.",
+    rating: 5.0,
+    tags: ["luxury"]
+  },
+  {
+    id: "27146903-0ecd-4942-9c7d-f096562dca47",
+    vesselId: "mv-the--mariner",
+    basePrice: 2206,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -1326,43 +1250,537 @@ export const sanFranciscoCruises: Cruise[] = [
     "country": "United States",
     "region": "California",
     "coordinates": {
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Enjoy seamless luxury on this verdant sanctuary beginning in San Francisco. Visit breathtaking California locales such as san-diego, los-angeles, sacramento, san-francisco on this unforgettable itinerary.",
-      distance: "599 nautical miles",
-      totalDuration: "15 days",
+      description: "Embark on an unforgettable drift from the vibrant port of San Francisco, where you'll discover hidden gems and iconic landmarks across the California region. With stops at los-angeles, san-francisco, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "912 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from San Francisco to san-diego"
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
   },
   {
     "start": "Day 5",
     "end": "Day 5",
     "duration": "1 days",
-    "description": "Sailing from san-diego to los-angeles"
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "a404477f-8f42-42f7-91d2-fdba1b444bd4",
+        name: "Joel Nash",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+        contact: {
+          contactEmail: "mythic.excursion.of.@velarivoyages.com",
+          contactNumber: "+1-947-781-3534"
+        }
+      }
+    ],
+    title: "Mythic Excursion of the Harbor of Horizons",
+    description: "Embark on an unforgettable drift from the vibrant port of San Francisco, where you'll discover hidden gems and iconic landmarks across the California region. With stops at los-angeles, san-francisco, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.7,
+    tags: ["wellness"]
+  },
+  {
+    id: "1667ea92-1576-487c-815e-0cd00c5b90ec",
+    vesselId: "rms--of-the-deep",
+    basePrice: 5603,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your tide begins in San Francisco, where the spirit of exploration meets modern luxury. From the sun-drenched shores of san-francisco to the historic streets of los-angeles, each stop in the California will leave a lasting impression.",
+      distance: "925 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
   },
   {
     "start": "Day 8",
     "end": "Day 8",
     "duration": "1 days",
-    "description": "Sailing from los-angeles to sacramento"
-  },
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
   {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from sacramento to san-francisco"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
+    "start": "Day 1",
+    "end": "Day 2",
     "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "1a54cad5-1443-47a0-8d83-c01e0745e371",
+        name: "Austin Jennings",
+        role: "Loyalty Program Representative",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+        contact: {
+          contactEmail: "sundrenched.panorama@velarivoyages.com",
+          contactNumber: "+1-672-798-5622"
+        }
+      }
+    ],
+    title: "Sun-Drenched Panorama of the Cable-Laced Wonder",
+    description: "Your tide begins in San Francisco, where the spirit of exploration meets modern luxury. From the sun-drenched shores of san-francisco to the historic streets of los-angeles, each stop in the California will leave a lasting impression.",
+    rating: 4.4,
+    tags: ["weekend-cruise","historical","glacier-cruise"]
+  },
+  {
+    id: "75494345-7302-47a0-999f-175f143a2ca5",
+    vesselId: "mv-the--mariner",
+    basePrice: 1048,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "los-angeles",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set course from San Francisco for an inspiring dusk-kissed journey across California. Whether exploring ancient ruins in san-francisco or soaking up coastal views in los-angeles, every day offers a perfect mix of discovery and relaxation.",
+      distance: "630 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "614b40c7-4288-4f66-81af-31b492735cc9",
+        name: "Robert Morgan",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+        contact: {
+          contactEmail: "coralembraced.enigma@velarivoyages.com",
+          contactNumber: "+1-193-761-5189"
+        }
+      }
+    ],
+    title: "Coral-Embraced Enigma of the Golden Gate Bridge & Hollywood Stars",
+    description: "Set course from San Francisco for an inspiring dusk-kissed journey across California. Whether exploring ancient ruins in san-francisco or soaking up coastal views in los-angeles, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.0,
+    tags: ["sightseeing","general","seasonal"]
+  },
+  {
+    id: "2d330e23-8b43-4479-b081-42f6246ebaaa",
+    vesselId: "sy-san-francisco-voyager",
+    basePrice: 5940,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "An escape like no other begins in San Francisco, where your haven launches into the heart of California. Discover the magic of los-angeles, san-francisco with style and sophistication.",
+      distance: "727 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from san-francisco to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "71bc2185-8066-4f78-81cc-eb4d104732cd",
+        name: "Willie Spencer",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+        contact: {
+          contactEmail: "majestic.legacy.of.t@velarivoyages.com",
+          contactNumber: "+1-246-866-5363"
+        }
+      }
+    ],
+    title: "Majestic Legacy of the Cable-Laced Wonder",
+    description: "An escape like no other begins in San Francisco, where your haven launches into the heart of California. Discover the magic of los-angeles, san-francisco with style and sophistication.",
+    rating: 4.8,
+    tags: ["historical"]
+  },
+  {
+    id: "212eccf6-6ec5-484a-b86e-bdf618668a99",
+    vesselId: "nb--gale",
+    basePrice: 7717,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Escape the everyday with this luxurious journey through California, departing from San Francisco. You'll visit los-angeles, san-francisco, where every stop is a new adventure.",
+      distance: "535 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
     "description": "Sailing from san-francisco to San Francisco"
   }
 ],
@@ -1377,7 +1795,777 @@ export const sanFranciscoCruises: Cruise[] = [
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Exploring san-diego"
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "f2446c97-c15f-4947-8559-640b6f8854c9",
+        name: "Lucas Knight",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
+        contact: {
+          contactEmail: "harmonic.mystique.of@velarivoyages.com",
+          contactNumber: "+1-555-368-6697"
+        }
+      }
+    ],
+    title: "Harmonic Mystique of the Bay City",
+    description: "Escape the everyday with this luxurious journey through California, departing from San Francisco. You'll visit los-angeles, san-francisco, where every stop is a new adventure.",
+    rating: 4.8,
+    tags: ["general","expedition","wellness"]
+  },
+  {
+    id: "734d9b81-3ecd-4b8d-8124-2ced2cd7ce55",
+    vesselId: "ps--explorer",
+    basePrice: 3200,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "san-francisco",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "A voyage of contrasts awaits from San Francisco. Discover the historical and natural richness of California as you cruise to spectacular destinations like los-angeles, san-francisco.",
+      distance: "587 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "6a4fe730-0764-4fa7-a68f-20832aeed9bf",
+        name: "Jonathan Watson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+        contact: {
+          contactEmail: "serene.oasis.of.the.@velarivoyages.com",
+          contactNumber: "+1-450-827-6748"
+        }
+      }
+    ],
+    title: "Serene Oasis of the Wine Country & Tech Innovation",
+    description: "A voyage of contrasts awaits from San Francisco. Discover the historical and natural richness of California as you cruise to spectacular destinations like los-angeles, san-francisco.",
+    rating: 4.4,
+    tags: ["general"]
+  },
+  {
+    id: "bfbfb426-50e1-4805-9523-ae7de00be6b8",
+    vesselId: "sy-san-francisco-voyager",
+    basePrice: 1784,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set course from San Francisco for an inspiring serendipitous journey across California. Whether exploring ancient ruins in los-angeles or soaking up coastal views in san-francisco, every day offers a perfect mix of discovery and relaxation.",
+      distance: "1040 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from san-francisco to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "f2565d7a-b464-482f-9c80-1e07a2e8d3c8",
+        name: "Willie Porter",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
+        contact: {
+          contactEmail: "secret.odyssey.of.th@velarivoyages.com",
+          contactNumber: "+1-830-159-4239"
+        }
+      }
+    ],
+    title: "Secret Odyssey of the Harbor of Horizons",
+    description: "Set course from San Francisco for an inspiring serendipitous journey across California. Whether exploring ancient ruins in los-angeles or soaking up coastal views in san-francisco, every day offers a perfect mix of discovery and relaxation.",
+    rating: 4.8,
+    tags: ["expedition","cruise-experience"]
+  },
+  {
+    id: "4df3db34-6244-4862-8691-e647bb44ab0e",
+    vesselId: "mv-the--mariner",
+    basePrice: 4696,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this refined symphony departing San Francisco. Savor local cuisine and uncover regional beauty from los-angeles to san-francisco.",
+      distance: "945 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from san-francisco to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "e455f5be-2cb9-49a4-b66c-c648db2cfe9a",
+        name: "Gerald Collins",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+        contact: {
+          contactEmail: "whispering.escape.of@velarivoyages.com",
+          contactNumber: "+1-279-171-5966"
+        }
+      }
+    ],
+    title: "Whispering Escape of the Golden Gate Bridge & Hollywood Stars",
+    description: "Cruise into cultural richness aboard this refined symphony departing San Francisco. Savor local cuisine and uncover regional beauty from los-angeles to san-francisco.",
+    rating: 4.1,
+    tags: ["cruise-ship"]
+  },
+  {
+    id: "7a897cf8-2c29-44dd-8d48-8cf34d57b7e8",
+    vesselId: "sy-san-francisco-voyager",
+    basePrice: 7603,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "From the lively departure port of San Francisco, this curated discovery showcases the finest of California. With visits to san-francisco, los-angeles, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "794 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "7e9dcc7e-43f2-44c6-b2c5-96e85d8402f0",
+        name: "Roy Lawson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "coastal.tide.of.the.@velarivoyages.com",
+          contactNumber: "+1-827-179-6888"
+        }
+      }
+    ],
+    title: "Coastal Tide of the Wine Country & Tech Innovation",
+    description: "From the lively departure port of San Francisco, this curated discovery showcases the finest of California. With visits to san-francisco, los-angeles, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.8,
+    tags: ["seasonal"]
+  },
+  {
+    id: "de54c1b4-5d80-4e74-9ea3-7533a37d06b1",
+    vesselId: "sy-san-francisco-voyager",
+    basePrice: 1403,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Join us in San Francisco for a sojourn of a lifetime. Sail across the serene waters of California, stopping at ports like san-francisco, los-angeles where timeless traditions meet modern luxuries.",
+      distance: "1070 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "4047f97f-c982-4410-ab15-36802756b13b",
+        name: "Gerald Gibson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
+        contact: {
+          contactEmail: "alluring.reflection.@velarivoyages.com",
+          contactNumber: "+1-419-297-2687"
+        }
+      }
+    ],
+    title: "Alluring Reflection of the Fog-Draped Haven",
+    description: "Join us in San Francisco for a sojourn of a lifetime. Sail across the serene waters of California, stopping at ports like san-francisco, los-angeles where timeless traditions meet modern luxuries.",
+    rating: 4.4,
+    tags: ["romantic","historical"]
+  },
+  {
+    id: "2d66127a-7fa5-4061-ba41-e1123a946785",
+    vesselId: "ts-san-francisco-voyager",
+    basePrice: 1427,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience coastal elegance on this mythos from San Francisco, where the journey through California includes stops in san-francisco, los-angeles, each more enchanting than the last.",
+      distance: "1394 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to san-francisco"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from san-francisco to los-angeles"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from los-angeles to San Francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring san-francisco"
   },
   {
     "start": "Day 6",
@@ -1386,43 +2574,141 @@ export const sanFranciscoCruises: Cruise[] = [
     "description": "Exploring los-angeles"
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
+    "start": "Day 10",
+    "end": "Day 10",
     "duration": "1 days",
-    "description": "Exploring sacramento"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring san-francisco"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
     "description": "Exploring San Francisco"
   }
 ]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        id: "abd48ba3-5faf-44de-9ae6-b3249c08262a",
-        name: "Ryan Dean",
-        role: "Reservations Agent",
+        id: "76502f00-16a8-46ba-b6be-7728c45caea6",
+        name: "Oliver Grant",
+        role: "Sales Consultant",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
         contact: {
-          contactEmail: "lavish.drift.of.the.@velarivoyages.com",
-          contactNumber: "+1-179-428-8578"
+          contactEmail: "timeless.quest.of.th@velarivoyages.com",
+          contactNumber: "+1-717-100-7022"
         }
       }
     ],
-    title: "Lavish Drift of the National Parks & Pacific Coast Highway",
-    description: "Enjoy seamless luxury on this verdant sanctuary beginning in San Francisco. Visit breathtaking California locales such as san-diego, los-angeles, sacramento, san-francisco on this unforgettable itinerary.",
-    rating: 4.8,
-    tags: ["weekend-cruise","luxury","wellness"]
+    title: "Timeless Quest of the Bay City",
+    description: "Experience coastal elegance on this mythos from San Francisco, where the journey through California includes stops in san-francisco, los-angeles, each more enchanting than the last.",
+    rating: 4.1,
+    tags: ["cruise-experience","themed-cruise"]
+  },
+  {
+    id: "ce98d587-e2c2-4287-b9e0-bcfdf0c22520",
+    vesselId: "ms--of-the-deep",
+    basePrice: 7995,
+    departureLocation: {
+  "city": "San Francisco",
+  "country": "United States",
+  "region": "California",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "san-francisco",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "los-angeles",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "san-francisco",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail away from the charming harbor of San Francisco on this ethereal journey across California. Uncover the beauty and history of los-angeles, san-francisco with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "853 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from San Francisco to los-angeles"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from los-angeles to san-francisco"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring San Francisco"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring los-angeles"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring san-francisco"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "1b16fec1-ac75-4136-b712-3c212792831f",
+        name: "Steven Cooper",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+        contact: {
+          contactEmail: "panoramic.sanctuary.@velarivoyages.com",
+          contactNumber: "+1-244-538-1679"
+        }
+      }
+    ],
+    title: "Panoramic Sanctuary of the Cable-Laced Wonder",
+    description: "Sail away from the charming harbor of San Francisco on this ethereal journey across California. Uncover the beauty and history of los-angeles, san-francisco with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.0,
+    tags: ["fall-cruise"]
   }
 ];

@@ -1,20 +1,21 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Shanghai
-    // Generated on: 2025-06-10T04:43:44.436Z
+    // Generated on: 2025-06-10T08:14:15.203Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const shanghaiCruises: Cruise[] = [
-  {
-    id: "1afd5e9a-863e-459d-a9e9-067f2f04b676",
-    basePrice: 8979,
+{
+    id: "1e224d36-71bc-4dca-bb0e-29069a62c8cb",
+    vesselId: "hms--of-the-deep",
+    basePrice: 3609,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -22,11 +23,11 @@ export const shanghaiCruises: Cruise[] = [
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "weekend-cruise",
     itinerary: {
@@ -36,32 +37,8 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -69,225 +46,82 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Experience the magic of China on this tranquil cruise departing from Shanghai. From the vibrant culture of chengdu to the breathtaking landscapes of xi-an, this journey promises unforgettable moments and lasting memories.",
-      distance: "659 nautical miles",
-      totalDuration: "14 days",
+      description: "This handpicked zenith begins in Shanghai and travels through China's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
+      distance: "1378 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
-    "start": "Day 3",
+    "start": "Day 2",
     "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to chengdu"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
     "duration": "2 days",
-    "description": "Sailing from chengdu to xi-an"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from xi-an to beijing"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from beijing to Shanghai"
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Shanghai"
   },
   {
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
     "description": "Exploring Shanghai"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        id: "7451d331-ee13-4364-b759-16d0ca8b9081",
-        name: "John Porter",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+        id: "ca1ec96e-684c-42de-9aa8-e55521a03c04",
+        name: "Tyler Wells",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
         contact: {
-          contactEmail: "tidekissed.sanctuary@velarivoyages.com",
-          contactNumber: "+1-904-744-6580"
+          contactEmail: "unforgettable.labyri@velarivoyages.com",
+          contactNumber: "+1-426-489-6219"
         }
       }
     ],
-    title: "Tide-Kissed Sanctuary of the Futuristic Skyline",
-    description: "Experience the magic of China on this tranquil cruise departing from Shanghai. From the vibrant culture of chengdu to the breathtaking landscapes of xi-an, this journey promises unforgettable moments and lasting memories.",
-    rating: 4.5,
-    tags: ["romantic","nature","fall-cruise"]
+    title: "Unforgettable Labyrinth of the Futuristic Skyline",
+    description: "This handpicked zenith begins in Shanghai and travels through China's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
+    rating: 4.8,
+    tags: ["expedition","sightseeing","cruise"]
   },
   {
-    id: "b87931a1-ee9b-494d-aaf6-23b7b5fa13e9",
-    basePrice: 2193,
+    id: "6433d490-13e3-4fc0-a138-305914559013",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 4794,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "xi-an",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 34.3416,
-    "longitude": 108.9398
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Shanghai",
-    "country": "China",
-    "region": "China",
-    "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  }
-],
-      description: "This extraordinary escape from Shanghai offers the ultimate China exploration. Immerse yourself in the rich cultures and stunning landscapes of beijing and xi-an, creating memories that will last a lifetime.",
-      distance: "837 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to beijing"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from beijing to xi-an"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        id: "8dc31f39-b25e-4a73-850d-48d1dc412540",
-        name: "Benjamin Palmer",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-        contact: {
-          contactEmail: "gilded.retreat.of.th@velarivoyages.com",
-          contactNumber: "+1-304-907-8918"
-        }
-      }
-    ],
-    title: "Gilded Retreat of the Terracotta Warriors & Giant Pandas",
-    description: "This extraordinary escape from Shanghai offers the ultimate China exploration. Immerse yourself in the rich cultures and stunning landscapes of beijing and xi-an, creating memories that will last a lifetime.",
-    rating: 4.6,
-    tags: ["cruise-excursion","tropical"]
-  },
-  {
-    id: "364090c2-579c-4efc-871b-ee4e5f9825eb",
-    basePrice: 3497,
-    departureLocation: {
-  "city": "Shanghai",
-  "country": "China",
-  "region": "China",
-  "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
-  }
-},
-    arrivalLocation: {
-  "city": "xi-an",
-  "country": "China",
-  "coordinates": {
-    "latitude": 34.3416,
-    "longitude": 108.9398
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "repositioning-cruise",
+    category: "fall-foliage-cruise",
     itinerary: {
       route: [
   {
@@ -295,115 +129,55 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "This hand-selected serendipitous cruise offers a true taste of China. Depart from Shanghai and explore ports like chengdu, beijing, xi-an, each telling a story through food, music, and tradition.",
-      distance: "944 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to chengdu"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from chengdu to beijing"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from beijing to xi-an"
-  }
-],
+      description: "Set sail from Shanghai on this forbidden escape through the heart of China. Experience the perfect blend of relaxation and adventure as you explore , with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1141 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
       timeOnLand: [
   {
     "start": "Day 1",
     "end": "Day 1",
     "duration": "1 days",
     "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
   }
 ]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "weekend-cruise",
     contactPersonnel: [
       {
-        id: "e71d3e9e-fe1e-4450-9086-9283ef155de7",
-        name: "Jordan Wells",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        id: "ab1daee6-f443-4e34-a660-492d012a3e88",
+        name: "Jonathan Jennings",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
         contact: {
-          contactEmail: "mystical.symphony.of@velarivoyages.com",
-          contactNumber: "+1-876-336-2035"
+          contactEmail: "serendipitous.renais@velarivoyages.com",
+          contactNumber: "+1-842-998-2986"
         }
       }
     ],
-    title: "Mystical Symphony of the Paris of the East",
-    description: "This hand-selected serendipitous cruise offers a true taste of China. Depart from Shanghai and explore ports like chengdu, beijing, xi-an, each telling a story through food, music, and tradition.",
-    rating: 4.1,
-    tags: ["luxury"]
+    title: "Serendipitous Renaissance of the Paris of the East",
+    description: "Set sail from Shanghai on this forbidden escape through the heart of China. Experience the perfect blend of relaxation and adventure as you explore , with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.6,
+    tags: ["weekend-cruise","seasonal","themed-cruise"]
   },
   {
-    id: "22bb1418-10e8-4bec-a44f-f8cd19d5cdb7",
-    basePrice: 6368,
+    id: "ab4bf746-8dba-49b9-8c13-acef603395ce",
+    vesselId: "sv--explorer",
+    basePrice: 7139,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -411,8 +185,8 @@ export const shanghaiCruises: Cruise[] = [
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
@@ -425,24 +199,8 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -450,32 +208,20 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Embark on a majestic horizon from Shanghai, where the wonders of China await. With stops at beijing, chengdu, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-      distance: "1349 nautical miles",
-      totalDuration: "13 days",
+      description: "This floating cruise from Shanghai is your ticket to the captivating charm of the China. Discover the delights of  with enriching excursions and award-winning service.",
+      distance: "814 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Shanghai to beijing"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from beijing to chengdu"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from chengdu to Shanghai"
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
@@ -489,18 +235,6 @@ export const shanghaiCruises: Cruise[] = [
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
     "description": "Exploring Shanghai"
   }
 ]
@@ -508,46 +242,48 @@ export const shanghaiCruises: Cruise[] = [
     tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        id: "12e62ebb-4ba2-41f3-bae4-b1f5e8bb948f",
-        name: "Ryan Baker",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
+        id: "dde7078a-5405-41b5-bd76-f08da9bfe361",
+        name: "Alan Bennett",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
         contact: {
-          contactEmail: "whispering.labyrinth@velarivoyages.com",
-          contactNumber: "+1-960-902-1827"
+          contactEmail: "panoramic.pulse.of.t@velarivoyages.com",
+          contactNumber: "+1-956-236-5137"
         }
       }
     ],
-    title: "Whispering Labyrinth of the Pearl of the Orient (Modern)",
-    description: "Embark on a majestic horizon from Shanghai, where the wonders of China await. With stops at beijing, chengdu, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-    rating: 4.7,
-    tags: ["VIP","historical","long-distance"]
+    title: "Panoramic Pulse of the Pearl of the Orient (Modern)",
+    description: "This floating cruise from Shanghai is your ticket to the captivating charm of the China. Discover the delights of  with enriching excursions and award-winning service.",
+    rating: 4.1,
+    tags: ["VIP","cruise-journey","cruise-vacation"]
   },
   {
-    id: "b7e8e720-f952-4369-a701-1fb1fa63d57c",
-    basePrice: 9450,
+    id: "3dc551f3-741e-4f0f-aacb-b4ad48b75e0d",
+    vesselId: "mv--gale",
+    basePrice: 8193,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "beijing",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 39.9042,
-    "longitude": 116.4074
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition-cruise",
+    category: "glacier-cruise",
     itinerary: {
       route: [
   {
@@ -555,115 +291,77 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
-    "city": "chengdu",
+    "city": "Shanghai",
     "country": "China",
+    "region": "China",
     "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Explore a new side of China with this riveting arcadia starting in Shanghai. Visit charming ports such as chengdu, xi-an, beijing, each offering its own unique rhythm.",
-      distance: "1286 nautical miles",
-      totalDuration: "13 days",
+      description: "Begin your journey in Shanghai, where tradition meets travel. This immersive pilgrimage reveals the finest of China, from the beaches of undefined to the streets of undefined.",
+      distance: "953 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to chengdu"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from chengdu to xi-an"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from xi-an to beijing"
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Shanghai"
   },
   {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring beijing"
+    "description": "Exploring Shanghai"
   }
 ]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "44b1b115-864f-45ee-a805-87727f6434ac",
-        name: "Juan West",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        id: "53b25631-70a7-492d-80d3-39fbaa9e941d",
+        name: "Joe Mitchell",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
         experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
         contact: {
-          contactEmail: "immersive.horizon.of@velarivoyages.com",
-          contactNumber: "+1-795-383-8393"
+          contactEmail: "harmonic.oasis.of.th@velarivoyages.com",
+          contactNumber: "+1-612-640-3213"
         }
       }
     ],
-    title: "Immersive Horizon of the Paris of the East",
-    description: "Explore a new side of China with this riveting arcadia starting in Shanghai. Visit charming ports such as chengdu, xi-an, beijing, each offering its own unique rhythm.",
-    rating: 4.4,
-    tags: ["general","cruise-adventure","cruise"]
+    title: "Harmonic Oasis of the Great Wall & Forbidden City",
+    description: "Begin your journey in Shanghai, where tradition meets travel. This immersive pilgrimage reveals the finest of China, from the beaches of undefined to the streets of undefined.",
+    rating: 4.7,
+    tags: ["themed-cruise"]
   },
   {
-    id: "75a3245c-66e8-4fb5-9f44-49d61da20e4d",
-    basePrice: 7523,
+    id: "62c915ec-fa6f-48d6-99cc-3aeb813c22a0",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 7925,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -671,11 +369,313 @@ export const shanghaiCruises: Cruise[] = [
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let this azure voyage redefine your idea of travel. From Shanghai, explore the China in luxurious comfort, stopping at  where every port offers a new chapter.",
+      distance: "1288 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "629f0bae-59eb-41e6-96fc-9f00245a6144",
+        name: "Victor Foster",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
+        contact: {
+          contactEmail: "duskkissed.reverie.o@velarivoyages.com",
+          contactNumber: "+1-330-352-4910"
+        }
+      }
+    ],
+    title: "Dusk-Kissed Reverie of the Dynamic Metropolis",
+    description: "Let this azure voyage redefine your idea of travel. From Shanghai, explore the China in luxurious comfort, stopping at  where every port offers a new chapter.",
+    rating: 4.6,
+    tags: ["anniversary-cruise","sightseeing"]
+  },
+  {
+    id: "b86bf676-6d20-4692-a004-df2fba9c426b",
+    vesselId: "mv--of-the-deep",
+    basePrice: 9695,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Your elevation begins in Shanghai, where every sunset on the China horizon promises another day of discovery—from  to hidden ports of charm.",
+      distance: "740 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "2d9aba52-617a-4eda-b11e-ed632b21e801",
+        name: "Randy Dean",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
+        contact: {
+          contactEmail: "transcendent.legacy.@velarivoyages.com",
+          contactNumber: "+1-544-613-9915"
+        }
+      }
+    ],
+    title: "Transcendent Legacy of the Pearl of the Orient (Modern)",
+    description: "Your elevation begins in Shanghai, where every sunset on the China horizon promises another day of discovery—from  to hidden ports of charm.",
+    rating: 4.1,
+    tags: ["tropical","fall-cruise","cruise-journey"]
+  },
+  {
+    id: "de14841c-070e-40d3-b671-97799382ad72",
+    vesselId: "mv--of-the-deep",
+    basePrice: 4140,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Embark on an unforgettable labyrinth from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the China region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+      distance: "783 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "e7f6744e-0a11-4b4b-b163-6782cc2c6a6d",
+        name: "Russell Watson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+        contact: {
+          contactEmail: "golden.reunion.of.th@velarivoyages.com",
+          contactNumber: "+1-271-468-3235"
+        }
+      }
+    ],
+    title: "Golden Reunion of the Terracotta Warriors & Giant Pandas",
+    description: "Embark on an unforgettable labyrinth from the vibrant port of Shanghai, where you'll discover hidden gems and iconic landmarks across the China region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.4,
+    tags: ["repositioning","cruise-ship"]
+  },
+  {
+    id: "4516f019-2308-4c96-918f-b6f163438de8",
+    vesselId: "mv--of-the-deep",
+    basePrice: 4730,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the allure of China on this ocean-embracing cruise departing from Shanghai. With stops at , you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+      distance: "1305 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "6204c8fa-701c-4632-b02b-6a17f393e822",
+        name: "Kevin Curtis",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
+        contact: {
+          contactEmail: "whimsical.arcadia.of@velarivoyages.com",
+          contactNumber: "+1-388-150-1534"
+        }
+      }
+    ],
+    title: "Whimsical Arcadia of the Pearl of the Orient (Modern)",
+    description: "Experience the allure of China on this ocean-embracing cruise departing from Shanghai. With stops at , you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+    rating: 4.4,
+    tags: ["cruise-ship"]
+  },
+  {
+    id: "046a40a9-bb49-43c4-bc99-576181e4da13",
+    vesselId: "mv--of-the-deep",
+    basePrice: 2506,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "glacier-cruise",
     itinerary: {
@@ -685,149 +685,69 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
-    }
-  },
-  {
-    "city": "Shanghai",
-    "country": "China",
-    "region": "China",
-    "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Cruise into cultural richness aboard this mythic infinite departing Shanghai. Savor local cuisine and uncover regional beauty from chengdu to xi-an.",
-      distance: "616 nautical miles",
-      totalDuration: "17 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Shanghai to chengdu"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from chengdu to xi-an"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from xi-an to beijing"
-  },
-  {
-    "start": "Day 14",
-    "end": "Day 15",
-    "duration": "2 days",
-    "description": "Sailing from beijing to Shanghai"
-  }
-],
+      description: "This hand-selected velvet cruise offers a true taste of China. Depart from Shanghai and explore ports like , each telling a story through food, music, and tradition.",
+      distance: "1483 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
       timeOnLand: [
   {
     "start": "Day 1",
     "end": "Day 2",
     "duration": "2 days",
     "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "e5211e19-f930-495e-b359-86e1b4c54a38",
-        name: "Keith Hunter",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
+        id: "edcf3a10-a7eb-4510-b413-76f070ad4231",
+        name: "Willie Reeves",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
         contact: {
-          contactEmail: "azure.awakening.of.t@velarivoyages.com",
-          contactNumber: "+1-978-961-7400"
+          contactEmail: "mythic.realm.of.the.@velarivoyages.com",
+          contactNumber: "+1-256-569-8185"
         }
       }
     ],
-    title: "Azure Awakening of the Paris of the East",
-    description: "Cruise into cultural richness aboard this mythic infinite departing Shanghai. Savor local cuisine and uncover regional beauty from chengdu to xi-an.",
-    rating: 4.9,
-    tags: ["cruise-experience","long-distance"]
+    title: "Mythic Realm of the Great Wall & Forbidden City",
+    description: "This hand-selected velvet cruise offers a true taste of China. Depart from Shanghai and explore ports like , each telling a story through food, music, and tradition.",
+    rating: 4.4,
+    tags: ["cruise-adventure","seasonal","cruise-line"]
   },
   {
-    id: "a05270f1-1c80-46e7-81a6-57950a17b750",
-    basePrice: 9345,
+    id: "1cab172c-dad0-4c43-a68a-4c78799a32f8",
+    vesselId: "sv--explorer",
+    basePrice: 2814,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "beijing",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 39.9042,
-    "longitude": 116.4074
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition-cruise",
+    category: "anniversary-cruise",
     itinerary: {
       route: [
   {
@@ -835,56 +755,309 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "This hand-selected serendipitous cruise offers a true taste of China. Depart from Shanghai and explore ports like chengdu, xi-an, beijing, each telling a story through food, music, and tradition.",
-      distance: "1243 nautical miles",
-      totalDuration: "10 days",
+      description: "Let this harmonious voyage redefine your idea of travel. From Shanghai, explore the China in luxurious comfort, stopping at  where every port offers a new chapter.",
+      distance: "1440 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "c31b632d-94f2-4173-a8a6-7850a84e9d7c",
+        name: "Nathan Fox",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+        contact: {
+          contactEmail: "horizonkissed.labyri@velarivoyages.com",
+          contactNumber: "+1-336-969-9420"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Labyrinth of the Paris of the East",
+    description: "Let this harmonious voyage redefine your idea of travel. From Shanghai, explore the China in luxurious comfort, stopping at  where every port offers a new chapter.",
+    rating: 4.1,
+    tags: ["cruise-experience","romantic"]
+  },
+  {
+    id: "09900e7c-0d39-427d-a693-e3cd2fb64d26",
+    vesselId: "sv--explorer",
+    basePrice: 7076,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Shanghai and begin a horizon-kissed journey through the scenic China. From historic cities to coastal hideaways like , every day is unforgettable.",
+      distance: "1278 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "84312ea6-857b-46ba-be62-ddf8cbe02c3f",
+        name: "Kyle Watson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+        contact: {
+          contactEmail: "radiant.requiem.of.t@velarivoyages.com",
+          contactNumber: "+1-355-173-9737"
+        }
+      }
+    ],
+    title: "Radiant Requiem of the The Bund",
+    description: "Step aboard in Shanghai and begin a horizon-kissed journey through the scenic China. From historic cities to coastal hideaways like , every day is unforgettable.",
+    rating: 4.3,
+    tags: ["cruise-vacation","VIP","repositioning"]
+  },
+  {
+    id: "4713d064-f797-4d7d-9f39-dc0ef5f4dead",
+    vesselId: "ps-shanghai-voyager",
+    basePrice: 8764,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Start in the vibrant city of Shanghai and venture into the iconic China. Discover authentic local cultures, cuisine, and coastal wonders in .",
+      distance: "1455 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "e67d77d3-2ff3-49d2-8a4e-5146f52358a8",
+        name: "Lawrence Mitchell",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/91.jpg",
+        contact: {
+          contactEmail: "lavish.renaissance.o@velarivoyages.com",
+          contactNumber: "+1-843-115-7997"
+        }
+      }
+    ],
+    title: "Lavish Renaissance of the The Bund",
+    description: "Start in the vibrant city of Shanghai and venture into the iconic China. Discover authentic local cultures, cuisine, and coastal wonders in .",
+    rating: 4.3,
+    tags: ["general","cruise-vacation","family-friendly"]
+  },
+  {
+    id: "7a7904e6-87db-4632-8cc9-736ee7f08134",
+    vesselId: "mv--gale",
+    basePrice: 9074,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Join us in Shanghai for a mirage of a lifetime. Sail across the serene waters of China, stopping at ports like  where timeless traditions meet modern luxuries.",
+      distance: "1420 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "08117eb4-06fa-4e23-90ef-ad76a765afbe",
+        name: "Lucas Keller",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
+        contact: {
+          contactEmail: "majestic.embrace.of.@velarivoyages.com",
+          contactNumber: "+1-637-142-8702"
+        }
+      }
+    ],
+    title: "Majestic Embrace of the Terracotta Warriors & Giant Pandas",
+    description: "Join us in Shanghai for a mirage of a lifetime. Sail across the serene waters of China, stopping at ports like  where timeless traditions meet modern luxuries.",
+    rating: 4.5,
+    tags: ["tropical"]
+  },
+  {
+    id: "6a96aadb-b0df-4826-ad7a-f212285b79b2",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 4031,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart from Shanghai on this thoughtfully designed excursion across the China. Savor coastal charm, cultural treasures, and ocean views with stops at .",
+      distance: "722 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 3",
     "duration": "2 days",
-    "description": "Sailing from Shanghai to chengdu"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from chengdu to xi-an"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from xi-an to beijing"
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
@@ -898,63 +1071,145 @@ export const shanghaiCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring beijing"
+    "description": "Exploring Shanghai"
   }
 ]
     },
     tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        id: "638c3c2d-9542-428f-bbaa-4b881596e817",
-        name: "Harold Hawkins",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+        id: "84fc9d15-efff-408d-8c7f-b5f7b0eb32b7",
+        name: "Mark Griffin",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
         contact: {
-          contactEmail: "moonlit.sojourn.of.t@velarivoyages.com",
-          contactNumber: "+1-803-535-9103"
+          contactEmail: "radiancedrenched.ody@velarivoyages.com",
+          contactNumber: "+1-263-653-5022"
         }
       }
     ],
-    title: "Moonlit Sojourn of the Paris of the East",
-    description: "This hand-selected serendipitous cruise offers a true taste of China. Depart from Shanghai and explore ports like chengdu, xi-an, beijing, each telling a story through food, music, and tradition.",
-    rating: 4.4,
-    tags: ["romantic","cruise-journey"]
+    title: "Radiance-Drenched Odyssey of the Pearl of the Orient (Modern)",
+    description: "Depart from Shanghai on this thoughtfully designed excursion across the China. Savor coastal charm, cultural treasures, and ocean views with stops at .",
+    rating: 4.5,
+    tags: ["anniversary-cruise","cruise-vacation"]
   },
   {
-    id: "bc5188ae-fd27-4b4e-91e5-bda29f668386",
-    basePrice: 8057,
+    id: "81074ea2-d024-4068-bd0b-122834f758b4",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 1828,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "beijing",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 39.9042,
-    "longitude": 116.4074
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected ornate cruise offers a true taste of China. Depart from Shanghai and explore ports like , each telling a story through food, music, and tradition.",
+      distance: "1370 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "1c514714-0d48-490a-9710-c84ba6b9f288",
+        name: "Keith Chambers",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+        contact: {
+          contactEmail: "enchanting.drift.of.@velarivoyages.com",
+          contactNumber: "+1-660-485-2403"
+        }
+      }
+    ],
+    title: "Enchanting Drift of the Great Wall & Forbidden City",
+    description: "This hand-selected ornate cruise offers a true taste of China. Depart from Shanghai and explore ports like , each telling a story through food, music, and tradition.",
+    rating: 4.2,
+    tags: ["short-getaway"]
+  },
+  {
+    id: "1470bfc4-7bf3-4b9b-8512-6eb944078a98",
+    vesselId: "ps-shanghai-voyager",
+    basePrice: 7937,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "fall-foliage-cruise",
     itinerary: {
@@ -964,128 +1219,69 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Embark from Shanghai and traverse the China in style. Whether it’s the energy of xi-an or the calm of chengdu, each destination reveals a new side of paradise.",
-      distance: "1139 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Shanghai to xi-an"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from xi-an to chengdu"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from chengdu to beijing"
-  }
-],
+      description: "Set off on a tranquility from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+      distance: "651 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Shanghai"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
+    "end": "Day 1",
     "duration": "1 days",
-    "description": "Exploring chengdu"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring beijing"
+    "description": "Exploring Shanghai"
   }
 ]
     },
-    tourCategoryId: "theme-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "b840cad9-f377-44a1-bdb7-cbd242103186",
-        name: "Diego Carpenter",
-        role: "Marketing Coordinator",
+        id: "27d1763b-3760-4e6c-ac9b-0bbab66020d4",
+        name: "Justin Harper",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
         contact: {
-          contactEmail: "starstudded.odyssey.@velarivoyages.com",
-          contactNumber: "+1-176-921-2477"
+          contactEmail: "pristine.reflection.@velarivoyages.com",
+          contactNumber: "+1-786-693-2541"
         }
       }
     ],
-    title: "Star-Studded Odyssey of the Dynamic Metropolis",
-    description: "Embark from Shanghai and traverse the China in style. Whether it’s the energy of xi-an or the calm of chengdu, each destination reveals a new side of paradise.",
-    rating: 4.4,
-    tags: ["themed-cruise"]
+    title: "Pristine Reflection of the Paris of the East",
+    description: "Set off on a tranquility from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+    rating: 4.1,
+    tags: ["sightseeing","holiday-cruise","cruise-ship"]
   },
   {
-    id: "30ef90b8-5fab-48dc-b381-3ecbd88dc5d5",
-    basePrice: 7793,
+    id: "36896c3e-c160-41f1-bfb4-de946a11bd7f",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 1725,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "beijing",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 39.9042,
-    "longitude": 116.4074
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury-cruise",
+    hasPopularDestination: true,
+    category: "expedition-cruise",
     itinerary: {
       route: [
   {
@@ -1093,56 +1289,239 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
-    }
-  },
-  {
-    "city": "xi-an",
-    "country": "China",
-    "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Join us for a coral-kissed tide from Shanghai, where the journey through China is as enriching as the destinations themselves. Visit xi-an, chengdu, beijing and create memories that will last a lifetime.",
+      description: "Experience coastal elegance on this escape from Shanghai, where the journey through China includes stops in , each more enchanting than the last.",
+      distance: "1482 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "ba0aff7c-bb85-4715-9639-7ec13c84a18b",
+        name: "Benjamin Hunter",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
+        contact: {
+          contactEmail: "hidden.zenith.of.the@velarivoyages.com",
+          contactNumber: "+1-682-676-4556"
+        }
+      }
+    ],
+    title: "Hidden Zenith of the The Bund",
+    description: "Experience coastal elegance on this escape from Shanghai, where the journey through China includes stops in , each more enchanting than the last.",
+    rating: 4.5,
+    tags: ["cultural","romantic","holiday-cruise"]
+  },
+  {
+    id: "e0829d43-652a-4706-9c6e-3d6e76d8404f",
+    vesselId: "ms-the--mariner",
+    basePrice: 7580,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin a captivating retreat through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+      distance: "674 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "ff3180c3-be17-4e49-a456-885f9b49292b",
+        name: "Mark Hayes",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+        contact: {
+          contactEmail: "tranquil.tide.of.the@velarivoyages.com",
+          contactNumber: "+1-667-464-9163"
+        }
+      }
+    ],
+    title: "Tranquil Tide of the Pearl of the Orient (Modern)",
+    description: "Begin a captivating retreat through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+    rating: 4.4,
+    tags: ["tropical"]
+  },
+  {
+    id: "57cb8a71-ee0c-43bf-94e8-73c6ca96e593",
+    vesselId: "mv--of-the-deep",
+    basePrice: 7100,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a solstice from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+      distance: "860 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "c6d32d78-c290-4bdc-84c9-7505c5c04b5c",
+        name: "Bruce Morgan",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/91.jpg",
+        contact: {
+          contactEmail: "islandembraced.enigm@velarivoyages.com",
+          contactNumber: "+1-475-657-9173"
+        }
+      }
+    ],
+    title: "Island-Embraced Enigma of the Great Wall & Forbidden City",
+    description: "Set off on a solstice from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+    rating: 4.4,
+    tags: ["cruise-getaway","wellness","wildlife"]
+  },
+  {
+    id: "1d3d35c3-1425-423b-8bf9-b896bbf3d334",
+    vesselId: "sv--explorer",
+    basePrice: 9243,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set sail from Shanghai on a forbidden odyssey that explores the hidden gems of China. From the bustling streets of undefined to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
       distance: "854 nautical miles",
-      totalDuration: "9 days",
+      totalDuration: "5 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Sailing from Shanghai to xi-an"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from xi-an to chengdu"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from chengdu to beijing"
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
@@ -1154,67 +1533,149 @@ export const shanghaiCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "0f4072b7-ca87-45b6-9083-9cd0b16bb672",
+        name: "Roger Lawson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
+        contact: {
+          contactEmail: "majestic.infinite.of@velarivoyages.com",
+          contactNumber: "+1-666-828-7641"
+        }
+      }
+    ],
+    title: "Majestic Infinite of the The Bund",
+    description: "Set sail from Shanghai on a forbidden odyssey that explores the hidden gems of China. From the bustling streets of undefined to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
+    rating: 4.7,
+    tags: ["cultural"]
   },
   {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring chengdu"
+    id: "1f222b6c-996d-4973-b355-34f507a92cdd",
+    vesselId: "hms--of-the-deep",
+    basePrice: 9495,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin a captivating tranquility through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+      distance: "977 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
     "duration": "1 days",
-    "description": "Exploring beijing"
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
   }
 ]
     },
     tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        id: "51a27daf-78e5-4fa9-a761-124a6e47fa7f",
-        name: "Austin Gibson",
-        role: "Marketing Coordinator",
+        id: "3081ea7e-6712-4b89-a18d-7f2bb11806e3",
+        name: "Ronald Harper",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
         contact: {
-          contactEmail: "whimsical.tranquilit@velarivoyages.com",
-          contactNumber: "+1-622-151-1964"
+          contactEmail: "dawnembraced.zenith.@velarivoyages.com",
+          contactNumber: "+1-381-727-2590"
         }
       }
     ],
-    title: "Whimsical Tranquility of the Paris of the East",
-    description: "Join us for a coral-kissed tide from Shanghai, where the journey through China is as enriching as the destinations themselves. Visit xi-an, chengdu, beijing and create memories that will last a lifetime.",
-    rating: 4.1,
-    tags: ["luxury","cruise","cultural"]
+    title: "Dawn-Embraced Zenith of the Paris of the East",
+    description: "Begin a captivating tranquility through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+    rating: 4.6,
+    tags: ["luxury","wildlife","fall-cruise"]
   },
   {
-    id: "f098a0ac-00b5-4356-976e-fd94a7b87a66",
-    basePrice: 6062,
+    id: "57a8b36c-f1df-44eb-a52d-b27def3301ab",
+    vesselId: "hms--of-the-deep",
+    basePrice: 8764,
     departureLocation: {
   "city": "Shanghai",
   "country": "China",
   "region": "China",
   "coordinates": {
-    "latitude": 31.2304,
-    "longitude": 121.4737
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "chengdu",
+  "city": "Shanghai",
   "country": "China",
+  "region": "China",
   "coordinates": {
-    "latitude": 30.5728,
-    "longitude": 104.0668
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
     itinerary: {
       route: [
   {
@@ -1222,56 +1683,213 @@ export const shanghaiCruises: Cruise[] = [
     "country": "China",
     "region": "China",
     "coordinates": {
-      "latitude": 31.2304,
-      "longitude": 121.4737
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
-    "city": "xi-an",
+    "city": "Shanghai",
     "country": "China",
+    "region": "China",
     "coordinates": {
-      "latitude": 34.3416,
-      "longitude": 108.9398
-    }
-  },
-  {
-    "city": "beijing",
-    "country": "China",
-    "coordinates": {
-      "latitude": 39.9042,
-      "longitude": 116.4074
-    }
-  },
-  {
-    "city": "chengdu",
-    "country": "China",
-    "coordinates": {
-      "latitude": 30.5728,
-      "longitude": 104.0668
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Discover the wonders of China aboard this radiant cruise departing from Shanghai. Journey through crystal waters to explore the treasures of xi-an, beijing, chengdu, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-      distance: "1046 nautical miles",
-      totalDuration: "11 days",
+      description: "Begin a captivating mythos through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+      distance: "1057 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "dfc4e1fc-ac84-4438-a899-11b5fc30334f",
+        name: "Bobby Charlotte",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
+        contact: {
+          contactEmail: "dreamlike.tranquilit@velarivoyages.com",
+          contactNumber: "+1-171-934-1943"
+        }
+      }
+    ],
+    title: "Dreamlike Tranquility of the Great Wall & Forbidden City",
+    description: "Begin a captivating mythos through the China, departing Shanghai. With visits to , each day brings a new adventure and deeper connection to the region.",
+    rating: 4.5,
+    tags: ["holiday-cruise"]
+  },
+  {
+    id: "55e76134-97be-4399-a960-40f211dce6c0",
+    vesselId: "cs-shanghai-voyager",
+    basePrice: 6607,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Set off on a tide from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+      distance: "1332 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "2b006ded-d8c7-4a4f-ac40-e41cfde55872",
+        name: "Benjamin Mason",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+        contact: {
+          contactEmail: "dawnembraced.renaiss@velarivoyages.com",
+          contactNumber: "+1-738-773-8804"
+        }
+      }
+    ],
+    title: "Dawn-Embraced Renaissance of the Futuristic Skyline",
+    description: "Set off on a tide from Shanghai that captures the essence of China. Discover cultural gems and culinary delights across .",
+    rating: 4.9,
+    tags: ["family-friendly","romantic"]
+  },
+  {
+    id: "7c6ed32c-4330-45a1-9b4a-25d14816f09b",
+    vesselId: "mv--gale",
+    basePrice: 4057,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the allure of China on this whispering cruise departing from Shanghai. With stops at , you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+      distance: "858 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Sailing from Shanghai to xi-an"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from xi-an to beijing"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from beijing to chengdu"
+    "description": "Sailing from Shanghai to Shanghai"
   }
 ],
       timeOnLand: [
@@ -1283,42 +1901,122 @@ export const shanghaiCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring xi-an"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
+    "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring beijing"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring chengdu"
+    "description": "Exploring Shanghai"
   }
 ]
     },
-    tourCategoryId: "anniversary-cruise",
+    tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        id: "49bcfc68-8817-47c7-8d9a-e5099f1720ee",
-        name: "Louis Charlotte",
-        role: "Marketing Coordinator",
+        id: "24f30b97-2c6f-49c9-af50-db460e00d91d",
+        name: "Christian Reed",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
         contact: {
-          contactEmail: "sundrenched.saga.of.@velarivoyages.com",
-          contactNumber: "+1-695-416-7835"
+          contactEmail: "secluded.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-499-559-9108"
         }
       }
     ],
-    title: "Sun-Drenched Saga of the East Meets West",
-    description: "Discover the wonders of China aboard this radiant cruise departing from Shanghai. Journey through crystal waters to explore the treasures of xi-an, beijing, chengdu, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-    rating: 4.2,
-    tags: ["anniversary-cruise","family-friendly","cruise-journey"]
+    title: "Secluded Odyssey of the Diverse Landscapes & Ancient Dynasties",
+    description: "Experience the allure of China on this whispering cruise departing from Shanghai. With stops at , you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+    rating: 4.1,
+    tags: ["tropical","relaxation"]
+  },
+  {
+    id: "28bd0d3b-d61d-4e9d-a160-1a596f65f40b",
+    vesselId: "ly--explorer",
+    basePrice: 5943,
+    departureLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Shanghai",
+  "country": "China",
+  "region": "China",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this pearlescent tide through China, starting from the illustrious port of Shanghai. From  to , each destination offers its own story, culture, and breathtaking views.",
+      distance: "645 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Shanghai to Shanghai"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Shanghai"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "5fa73922-7ceb-4db7-bf15-b36d0f5cb9c7",
+        name: "Russell Watson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"zh","name":"Chinese"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
+        contact: {
+          contactEmail: "serene.awakening.of.@velarivoyages.com",
+          contactNumber: "+1-310-373-8318"
+        }
+      }
+    ],
+    title: "Serene Awakening of the Futuristic Skyline",
+    description: "Experience the elegance of the seas on this pearlescent tide through China, starting from the illustrious port of Shanghai. From  to , each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.5,
+    tags: ["wellness"]
   }
 ];

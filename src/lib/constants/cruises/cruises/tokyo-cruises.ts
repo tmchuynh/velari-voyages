@@ -1,20 +1,21 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Tokyo
-    // Generated on: 2025-06-10T04:43:44.440Z
+    // Generated on: 2025-06-10T08:14:15.208Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const tokyoCruises: Cruise[] = [
-  {
-    id: "157776b0-17a1-4316-9974-34a9ebc940c4",
-    basePrice: 1484,
+{
+    id: "50e5b004-eaf6-4f68-bb40-0bc51cf9ef25",
+    vesselId: "my--explorer",
+    basePrice: 1876,
     departureLocation: {
   "city": "Tokyo",
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -22,13 +23,13 @@ export const tokyoCruises: Cruise[] = [
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "expedition-cruise",
+    category: "fjords-tour",
     itinerary: {
       route: [
   {
@@ -36,24 +37,16 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
-    "city": "kyoto",
+    "city": "yokohama",
     "country": "Japan",
     "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "takayama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.1467,
-      "longitude": 137.2517
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -61,32 +54,26 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Experience coastal elegance on this whisper from Tokyo, where the journey through Japan includes stops in kyoto, takayama, each more enchanting than the last.",
-      distance: "1203 nautical miles",
-      totalDuration: "11 days",
+      description: "Embark from Tokyo and traverse the Japan in style. Whether it’s the energy of yokohama or the calm of undefined, each destination reveals a new side of paradise.",
+      distance: "1371 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Sailing from Tokyo to kyoto"
+    "description": "Sailing from Tokyo to yokohama"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Sailing from kyoto to takayama"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from takayama to Tokyo"
+    "description": "Sailing from yokohama to Tokyo"
   }
 ],
       timeOnLand: [
@@ -98,151 +85,14 @@ export const tokyoCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring kyoto"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring takayama"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        id: "7f3ef875-3009-4c5a-a8e2-0257d3be867d",
-        name: "Harry Nash",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-        contact: {
-          contactEmail: "serene.retreat.of.th@velarivoyages.com",
-          contactNumber: "+1-134-443-1315"
-        }
-      }
-    ],
-    title: "Serene Retreat of the Cherry Blossoms & Bullet Trains",
-    description: "Experience coastal elegance on this whisper from Tokyo, where the journey through Japan includes stops in kyoto, takayama, each more enchanting than the last.",
-    rating: 4.2,
-    tags: ["tropical","historical","cruise-excursion"]
-  },
-  {
-    id: "cccc9b42-1896-4f74-8c25-f861c5c467a3",
-    basePrice: 1628,
-    departureLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    arrivalLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "osaka",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 34.6937,
-      "longitude": 135.5023
-    }
-  },
-  {
-    "city": "yokohama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.4437,
-      "longitude": 139.638
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  }
-],
-      description: "Leave ordinary behind as you sail from Tokyo across the captivating Japan. Discover the distinctive personality of each destination, from osaka, yokohama.",
-      distance: "870 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to osaka"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from osaka to yokohama"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from yokohama to Tokyo"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring osaka"
+    "description": "Exploring yokohama"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
     "duration": "1 days",
-    "description": "Exploring yokohama"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
     "description": "Exploring Tokyo"
   }
 ]
@@ -250,44 +100,45 @@ export const tokyoCruises: Cruise[] = [
     tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        id: "f202e8ca-ea4e-49d3-8869-568ed1d9093b",
-        name: "Liam Grant",
-        role: "Group Booking Coordinator",
+        id: "08693d53-f4e6-4d9f-918e-dcdec39a68d0",
+        name: "Albert Mason",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
         contact: {
-          contactEmail: "gilded.horizon.of.th@velarivoyages.com",
-          contactNumber: "+1-140-535-5237"
+          contactEmail: "floating.expedition.@velarivoyages.com",
+          contactNumber: "+1-171-745-9842"
         }
       }
     ],
-    title: "Gilded Horizon of the Ancient Temples & Modern Skyscrapers",
-    description: "Leave ordinary behind as you sail from Tokyo across the captivating Japan. Discover the distinctive personality of each destination, from osaka, yokohama.",
-    rating: 5.0,
-    tags: ["romantic"]
+    title: "Floating Expedition of the Shimmering Contradiction",
+    description: "Embark from Tokyo and traverse the Japan in style. Whether it’s the energy of yokohama or the calm of undefined, each destination reveals a new side of paradise.",
+    rating: 4.6,
+    tags: ["cruise-excursion","anniversary-cruise"]
   },
   {
-    id: "6e2e5d5a-0df6-450a-9687-45ba3f09baae",
-    basePrice: 8792,
+    id: "a906ac6e-8036-442f-bdd4-844fc68efe04",
+    vesselId: "sv--gale",
+    basePrice: 7369,
     departureLocation: {
   "city": "Tokyo",
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "kyoto",
+  "city": "yokohama",
   "country": "Japan",
   "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "vip-cruise",
     itinerary: {
@@ -297,56 +148,28 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
-    "city": "osaka",
+    "city": "yokohama",
     "country": "Japan",
     "coordinates": {
-      "latitude": 34.6937,
-      "longitude": 135.5023
-    }
-  },
-  {
-    "city": "nagasaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 32.7503,
-      "longitude": 129.8779
-    }
-  },
-  {
-    "city": "kyoto",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Embark on a elevation from Tokyo that promises to captivate your senses. From the vibrant markets of osaka to the tranquil beaches of nagasaki, this journey through Japan is one you won't forget.",
-      distance: "906 nautical miles",
-      totalDuration: "10 days",
+      description: "Discover the wonders of Japan on this azure cruise departing from Tokyo. From the stunning coastlines of yokohama to the vibrant cities of undefined, this journey promises to be a feast for the senses.",
+      distance: "571 nautical miles",
+      totalDuration: "3 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 2",
     "duration": "1 days",
-    "description": "Sailing from Tokyo to osaka"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from osaka to nagasaki"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from nagasaki to kyoto"
+    "description": "Sailing from Tokyo to yokohama"
   }
 ],
       timeOnLand: [
@@ -360,52 +183,41 @@ export const tokyoCruises: Cruise[] = [
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Exploring osaka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring nagasaki"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring kyoto"
+    "description": "Exploring yokohama"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        id: "3eb28284-d69b-4850-be75-47e832473016",
-        name: "Logan Gardner",
-        role: "Group Booking Coordinator",
+        id: "8cf812cf-86b5-42d3-a4f6-6b5d2d426732",
+        name: "Nathan Keller",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
         contact: {
-          contactEmail: "oceanbound.pulse.of.@velarivoyages.com",
-          contactNumber: "+1-913-970-7577"
+          contactEmail: "eternal.elevation.of@velarivoyages.com",
+          contactNumber: "+1-218-397-4456"
         }
       }
     ],
-    title: "Ocean-Bound Pulse of the Wired Infinity",
-    description: "Embark on a elevation from Tokyo that promises to captivate your senses. From the vibrant markets of osaka to the tranquil beaches of nagasaki, this journey through Japan is one you won't forget.",
-    rating: 4.6,
-    tags: ["historical","cruise-getaway"]
+    title: "Eternal Elevation of the Sushi & Sumo Wrestling",
+    description: "Discover the wonders of Japan on this azure cruise departing from Tokyo. From the stunning coastlines of yokohama to the vibrant cities of undefined, this journey promises to be a feast for the senses.",
+    rating: 4.7,
+    tags: ["relaxation","cruise-journey","themed-cruise"]
   },
   {
-    id: "7ae47c93-f980-4af4-aa93-c8132a217f6c",
-    basePrice: 2091,
+    id: "7e1b2506-f2fc-4da2-862d-4dfda7ca95da",
+    vesselId: "my--explorer",
+    basePrice: 5217,
     departureLocation: {
   "city": "Tokyo",
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -413,12 +225,798 @@ export const tokyoCruises: Cruise[] = [
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This mystical haven begins in Tokyo and ventures deep into the heart of Japan. Wander through colorful markets, historic streets, and serene coastlines at yokohama.",
+      distance: "1478 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "09f79fb0-977b-4145-a2df-fa9a885c0390",
+        name: "Alan Collins",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+        contact: {
+          contactEmail: "shorelineexploring.t@velarivoyages.com",
+          contactNumber: "+1-580-812-7135"
+        }
+      }
+    ],
+    title: "Shoreline-Exploring Tranquility of the Shimmering Contradiction",
+    description: "This mystical haven begins in Tokyo and ventures deep into the heart of Japan. Wander through colorful markets, historic streets, and serene coastlines at yokohama.",
+    rating: 4.4,
+    tags: ["cruise","cruise-adventure"]
+  },
+  {
+    id: "f04f8463-197f-470e-a1b5-5e4193becdb9",
+    vesselId: "mv--of-the-deep",
+    basePrice: 8686,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This hand-selected serene cruise offers a true taste of Japan. Depart from Tokyo and explore ports like yokohama, each telling a story through food, music, and tradition.",
+      distance: "872 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "bd262f2b-7dc7-4d26-8c44-85471b3de218",
+        name: "Brian Watson",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+        contact: {
+          contactEmail: "radiant.odyssey.of.t@velarivoyages.com",
+          contactNumber: "+1-334-535-7800"
+        }
+      }
+    ],
+    title: "Radiant Odyssey of the Ancient Temples & Modern Skyscrapers",
+    description: "This hand-selected serene cruise offers a true taste of Japan. Depart from Tokyo and explore ports like yokohama, each telling a story through food, music, and tradition.",
+    rating: 4.3,
+    tags: ["sightseeing"]
+  },
+  {
+    id: "545c22c4-11eb-4889-8dad-d0ded6bfe03d",
+    vesselId: "cs-the--mariner",
+    basePrice: 4349,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let this sublime voyage redefine your idea of travel. From Tokyo, explore the Japan in luxurious comfort, stopping at yokohama where every port offers a new chapter.",
+      distance: "506 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "d3c4803b-7a13-4eef-b601-c446b9244a74",
+        name: "Harold Maxwell",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+        contact: {
+          contactEmail: "transcendent.current@velarivoyages.com",
+          contactNumber: "+1-383-809-5132"
+        }
+      }
+    ],
+    title: "Transcendent Currents of the Skyline of the Rising Sun",
+    description: "Let this sublime voyage redefine your idea of travel. From Tokyo, explore the Japan in luxurious comfort, stopping at yokohama where every port offers a new chapter.",
+    rating: 4.6,
+    tags: ["adventure","weekend-cruise","romantic"]
+  },
+  {
+    id: "b4973a34-84a6-4839-a6c9-e43d2744b305",
+    vesselId: "mv--of-the-deep",
+    basePrice: 5993,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This harbor-gliding cruise from Tokyo is your ticket to the captivating charm of the Japan. Discover the delights of yokohama with enriching excursions and award-winning service.",
+      distance: "1088 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "123f41e3-7e84-4101-83e1-752b3bf30448",
+        name: "Rajesh Collins",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
+        contact: {
+          contactEmail: "majestic.resonance.o@velarivoyages.com",
+          contactNumber: "+1-378-858-4060"
+        }
+      }
+    ],
+    title: "Majestic Resonance of the Ancient Temples & Modern Skyscrapers",
+    description: "This harbor-gliding cruise from Tokyo is your ticket to the captivating charm of the Japan. Discover the delights of yokohama with enriching excursions and award-winning service.",
+    rating: 4.4,
+    tags: ["cruise-journey","wildlife"]
+  },
+  {
+    id: "2bed11f4-46c6-4ae4-9f2d-99cbcdb34a50",
+    vesselId: "my--explorer",
+    basePrice: 5030,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Begin your odyssey in Tokyo, a gateway to the soul of Japan. Enjoy days spent exploring yokohama and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "1127 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "b0ed8518-a825-4441-a477-affbf943c3b1",
+        name: "Steven Dunn",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
+        contact: {
+          contactEmail: "starstudded.reflecti@velarivoyages.com",
+          contactNumber: "+1-323-480-1902"
+        }
+      }
+    ],
+    title: "Star-Studded Reflection of the Sushi & Sumo Wrestling",
+    description: "Begin your odyssey in Tokyo, a gateway to the soul of Japan. Enjoy days spent exploring yokohama and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.4,
+    tags: ["cruise-getaway"]
+  },
+  {
+    id: "26cedb60-f618-4e65-ac3f-b75ff4d3b27b",
+    vesselId: "my-tokyo-voyager",
+    basePrice: 8570,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Tokyo and begin a dusk-kissed journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+      distance: "1256 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "0e5940c1-9580-40b6-b12a-914e2c46c903",
+        name: "Timothy Russell",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
+        contact: {
+          contactEmail: "mesmerizing.saga.of.@velarivoyages.com",
+          contactNumber: "+1-515-113-5008"
+        }
+      }
+    ],
+    title: "Mesmerizing Saga of the Temple of Lights",
+    description: "Step aboard in Tokyo and begin a dusk-kissed journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+    rating: 4.3,
+    tags: ["adventure"]
+  },
+  {
+    id: "1ef12a3c-6ad2-4c52-a03c-ee2d1fc7c36c",
+    vesselId: "my-tokyo-voyager",
+    basePrice: 9348,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Unwind and explore on this drift through Japan, departing from Tokyo. With every stop—from yokohama to yokohama—you’ll collect memories that last a lifetime.",
+      distance: "1237 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "4a9d2274-47d8-419a-a4be-a44a77b329ad",
+        name: "Chen Wells",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
+        contact: {
+          contactEmail: "starstudded.odyssey.@velarivoyages.com",
+          contactNumber: "+1-772-300-9267"
+        }
+      }
+    ],
+    title: "Star-Studded Odyssey of the Wired Infinity",
+    description: "Unwind and explore on this drift through Japan, departing from Tokyo. With every stop—from yokohama to yokohama—you’ll collect memories that last a lifetime.",
+    rating: 4.4,
+    tags: ["anniversary-cruise","family-friendly"]
+  },
+  {
+    id: "fa829c59-d021-4f83-888a-cf986af1a264",
+    vesselId: "fv-tokyo-voyager",
+    basePrice: 5163,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Tokyo and begin a immersive journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+      distance: "1139 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "f04501c8-6f4b-424d-996c-e8f06ed946ed",
+        name: "Gabriel Jennings",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
+        contact: {
+          contactEmail: "duskkissed.mirage.of@velarivoyages.com",
+          contactNumber: "+1-928-407-5664"
+        }
+      }
+    ],
+    title: "Dusk-Kissed Mirage of the Shimmering Contradiction",
+    description: "Step aboard in Tokyo and begin a immersive journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+    rating: 4.0,
+    tags: ["sightseeing","fall-cruise"]
+  },
+  {
+    id: "210cae52-908e-45b6-9966-11e1c357d6d3",
+    vesselId: "sv--gale",
+    basePrice: 7644,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "expedition-cruise",
     itinerary: {
       route: [
@@ -427,332 +1025,16 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "nagasaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 32.7503,
-      "longitude": 129.8779
-    }
-  },
-  {
-    "city": "hokkaido",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 43.2203,
-      "longitude": 142.8635
-    }
-  },
-  {
-    "city": "osaka",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 34.6937,
-      "longitude": 135.5023
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  }
-],
-      description: "This handpicked realm begins in Tokyo and travels through Japan's iconic waterscapes. Discover nagasaki, hokkaido, osaka as each day brings new stories and every night offers elegant repose.",
-      distance: "595 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Tokyo to nagasaki"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from nagasaki to hokkaido"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from hokkaido to osaka"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Sailing from osaka to Tokyo"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring nagasaki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring hokkaido"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring osaka"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  }
-]
-    },
-    tourCategoryId: "weekend-cruise",
-    contactPersonnel: [
-      {
-        id: "ca04991e-8692-426c-ba9c-30b16ab94d83",
-        name: "Joe Campbell",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-        contact: {
-          contactEmail: "mystical.retreat.of.@velarivoyages.com",
-          contactNumber: "+1-780-250-2677"
-        }
-      }
-    ],
-    title: "Mystical Retreat of the City of Still Chaos",
-    description: "This handpicked realm begins in Tokyo and travels through Japan's iconic waterscapes. Discover nagasaki, hokkaido, osaka as each day brings new stories and every night offers elegant repose.",
-    rating: 4.2,
-    tags: ["holiday-cruise","weekend-cruise","cruise-adventure"]
-  },
-  {
-    id: "a43b91e4-8468-41b2-a9a5-dcf167b76972",
-    basePrice: 1631,
-    departureLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    arrivalLocation: {
-  "city": "takayama",
-  "country": "Japan",
-  "coordinates": {
-    "latitude": 36.1467,
-    "longitude": 137.2517
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "osaka",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 34.6937,
-      "longitude": 135.5023
-    }
-  },
-  {
-    "city": "hokkaido",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 43.2203,
-      "longitude": 142.8635
-    }
-  },
-  {
-    "city": "kyoto",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "takayama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.1467,
-      "longitude": 137.2517
-    }
-  }
-],
-      description: "Begin your journey in Tokyo, where tradition meets travel. This immersive requiem reveals the finest of Japan, from the beaches of osaka to the streets of hokkaido.",
-      distance: "1209 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to osaka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from osaka to hokkaido"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from hokkaido to kyoto"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
-    "duration": "2 days",
-    "description": "Sailing from kyoto to takayama"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring osaka"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring hokkaido"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring kyoto"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 16",
-    "duration": "2 days",
-    "description": "Exploring takayama"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        id: "d795c016-c218-4e46-8bc5-8bf98560c00d",
-        name: "Eric West",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-        contact: {
-          contactEmail: "dreamlike.mystique.o@velarivoyages.com",
-          contactNumber: "+1-868-764-8720"
-        }
-      }
-    ],
-    title: "Dreamlike Mystique of the Sushi & Sumo Wrestling",
-    description: "Begin your journey in Tokyo, where tradition meets travel. This immersive requiem reveals the finest of Japan, from the beaches of osaka to the streets of hokkaido.",
-    rating: 4.7,
-    tags: ["anniversary-cruise","general","cruise"]
-  },
-  {
-    id: "b8c6e548-a5c7-4536-8e45-3cca1f833042",
-    basePrice: 3221,
-    departureLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    arrivalLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fall-foliage-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "hokkaido",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 43.2203,
-      "longitude": 142.8635
-    }
-  },
-  {
-    "city": "kyoto",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "yokohama",
     "country": "Japan",
     "coordinates": {
-      "latitude": 35.4437,
-      "longitude": 139.638
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -760,36 +1042,24 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Embark on a wanderlust from Tokyo that promises to captivate your senses. From the vibrant markets of hokkaido to the tranquil beaches of kyoto, this journey through Japan is one you won't forget.",
-      distance: "1030 nautical miles",
-      totalDuration: "13 days",
+      description: "Experience the elegance of the seas on this azure realm through Japan, starting from the illustrious port of Tokyo. From  to yokohama, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1122 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to hokkaido"
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
   },
   {
     "start": "Day 6",
     "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from hokkaido to kyoto"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Sailing from kyoto to yokohama"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
     "duration": "1 days",
     "description": "Sailing from yokohama to Tokyo"
   }
@@ -797,66 +1067,55 @@ export const tokyoCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Tokyo"
   },
   {
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
-    "description": "Exploring hokkaido"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring kyoto"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
     "description": "Exploring yokohama"
   },
   {
-    "start": "Day 13",
-    "end": "Day 13",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
     "description": "Exploring Tokyo"
   }
 ]
     },
-    tourCategoryId: "vip-cruise",
+    tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        id: "edfaab86-0ff0-41e8-a4c5-79b309f68508",
-        name: "John Watson",
-        role: "Group Booking Coordinator",
+        id: "7446e31c-77b8-4ebc-a7d5-ddea6bc8c2c8",
+        name: "Gary Fisher",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
         contact: {
-          contactEmail: "shorelineexploring.s@velarivoyages.com",
-          contactNumber: "+1-621-715-7900"
+          contactEmail: "heavenly.legacy.of.t@velarivoyages.com",
+          contactNumber: "+1-286-134-1777"
         }
       }
     ],
-    title: "Shoreline-Exploring Symphony of the Ancient Temples & Modern Skyscrapers",
-    description: "Embark on a wanderlust from Tokyo that promises to captivate your senses. From the vibrant markets of hokkaido to the tranquil beaches of kyoto, this journey through Japan is one you won't forget.",
-    rating: 4.9,
-    tags: ["VIP","holiday-cruise"]
+    title: "Heavenly Legacy of the Shimmering Contradiction",
+    description: "Experience the elegance of the seas on this azure realm through Japan, starting from the illustrious port of Tokyo. From  to yokohama, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.8,
+    tags: ["relaxation"]
   },
   {
-    id: "ee919ab9-2c2d-49e3-be2f-4f3a997020d6",
-    basePrice: 5501,
+    id: "d5590042-f150-43e6-a39e-17b21423cff7",
+    vesselId: "my--explorer",
+    basePrice: 3324,
     departureLocation: {
   "city": "Tokyo",
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
@@ -864,13 +1123,13 @@ export const tokyoCruises: Cruise[] = [
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition-cruise",
     itinerary: {
       route: [
   {
@@ -878,24 +1137,16 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "yokohama",
     "country": "Japan",
     "coordinates": {
-      "latitude": 35.4437,
-      "longitude": 139.638
-    }
-  },
-  {
-    "city": "shirakawa",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.2667,
-      "longitude": 136.9
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
@@ -903,177 +1154,26 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "This coral-embraced frontier begins in Tokyo and ventures deep into the heart of Japan. Wander through colorful markets, historic streets, and serene coastlines at yokohama, shirakawa.",
-      distance: "1353 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Tokyo to yokohama"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from yokohama to shirakawa"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from shirakawa to Tokyo"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring yokohama"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring shirakawa"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "b6bb0106-340e-453f-b463-1d6ad0cfef90",
-        name: "Gerald Holloway",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-        contact: {
-          contactEmail: "extraordinary.tide.o@velarivoyages.com",
-          contactNumber: "+1-313-511-3610"
-        }
-      }
-    ],
-    title: "Extraordinary Tide of the Neon Capital",
-    description: "This coral-embraced frontier begins in Tokyo and ventures deep into the heart of Japan. Wander through colorful markets, historic streets, and serene coastlines at yokohama, shirakawa.",
-    rating: 5.0,
-    tags: ["cruise-line"]
-  },
-  {
-    id: "badd53d5-0227-4c0f-a260-4ae3a2e2e73c",
-    basePrice: 9001,
-    departureLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    arrivalLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "nagasaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 32.7503,
-      "longitude": 129.8779
-    }
-  },
-  {
-    "city": "takayama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.1467,
-      "longitude": 137.2517
-    }
-  },
-  {
-    "city": "kyoto",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  },
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  }
-],
-      description: "This handpicked drift begins in Tokyo and travels through Japan's iconic waterscapes. Discover nagasaki, takayama, kyoto as each day brings new stories and every night offers elegant repose.",
-      distance: "662 nautical miles",
-      totalDuration: "11 days",
+      description: "Experience the elegance of the seas on this panoramic elevation through Japan, starting from the illustrious port of Tokyo. From  to yokohama, each destination offers its own story, culture, and breathtaking views.",
+      distance: "1129 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Tokyo to nagasaki"
+    "description": "Sailing from Tokyo to yokohama"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from nagasaki to takayama"
-  },
-  {
-    "start": "Day 8",
+    "start": "Day 7",
     "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from takayama to kyoto"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Sailing from kyoto to Tokyo"
+    "duration": "2 days",
+    "description": "Sailing from yokohama to Tokyo"
   }
 ],
       timeOnLand: [
@@ -1085,197 +1185,58 @@ export const tokyoCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring nagasaki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring takayama"
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
   },
   {
     "start": "Day 9",
     "end": "Day 9",
     "duration": "1 days",
-    "description": "Exploring kyoto"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
     "description": "Exploring Tokyo"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        id: "1e6e8097-3676-4d7c-9b09-43d07401d1fc",
-        name: "Darrell Murray",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
-        contact: {
-          contactEmail: "twilight.odyssey.of.@velarivoyages.com",
-          contactNumber: "+1-613-558-4065"
-        }
-      }
-    ],
-    title: "Twilight Odyssey of the Wired Infinity",
-    description: "This handpicked drift begins in Tokyo and travels through Japan's iconic waterscapes. Discover nagasaki, takayama, kyoto as each day brings new stories and every night offers elegant repose.",
-    rating: 4.9,
-    tags: ["fall-cruise","family-friendly"]
-  },
-  {
-    id: "8976ecd9-6962-4ebe-bf35-4ff7c2848856",
-    basePrice: 3118,
-    departureLocation: {
-  "city": "Tokyo",
-  "country": "Japan",
-  "region": "Japan",
-  "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
-  }
-},
-    arrivalLocation: {
-  "city": "kyoto",
-  "country": "Japan",
-  "coordinates": {
-    "latitude": 35.0116,
-    "longitude": 135.7681
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan",
-    "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "nagasaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 32.7503,
-      "longitude": 129.8779
-    }
-  },
-  {
-    "city": "takayama",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 36.1467,
-      "longitude": 137.2517
-    }
-  },
-  {
-    "city": "kyoto",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 35.0116,
-      "longitude": 135.7681
-    }
-  }
-],
-      description: "Depart Tokyo on a relaxing tranquility through the Japan region. Highlights include the stunning coastlines of nagasaki, takayama, kyoto, all while enjoying first-class amenities on board.",
-      distance: "906 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Tokyo to nagasaki"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from nagasaki to takayama"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from takayama to kyoto"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Tokyo"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring nagasaki"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring takayama"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring kyoto"
   }
 ]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "976917a7-e264-48ff-b423-8e157d5d32ae",
-        name: "Roger Murray",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+        id: "c3bc6c3c-bc12-45bc-a2c3-f484ae70604f",
+        name: "Alan Campbell",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
         contact: {
-          contactEmail: "radiancedrenched.hav@velarivoyages.com",
-          contactNumber: "+1-344-678-5060"
+          contactEmail: "charming.discovery.o@velarivoyages.com",
+          contactNumber: "+1-817-159-9613"
         }
       }
     ],
-    title: "Radiance-Drenched Haven of the City of Still Chaos",
-    description: "Depart Tokyo on a relaxing tranquility through the Japan region. Highlights include the stunning coastlines of nagasaki, takayama, kyoto, all while enjoying first-class amenities on board.",
-    rating: 4.2,
-    tags: ["cruise-getaway","cruise-holiday"]
+    title: "Charming Discovery of the Sushi & Sumo Wrestling",
+    description: "Experience the elegance of the seas on this panoramic elevation through Japan, starting from the illustrious port of Tokyo. From  to yokohama, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.8,
+    tags: ["cultural","historical","short-getaway"]
   },
   {
-    id: "bf484a36-8bc7-4cbd-9019-a47160e13ad1",
-    basePrice: 5206,
+    id: "ceac7aa0-f575-437f-9e59-ac7ad88128dc",
+    vesselId: "fv-tokyo-voyager",
+    basePrice: 6284,
     departureLocation: {
   "city": "Tokyo",
   "country": "Japan",
   "region": "Japan",
   "coordinates": {
-    "latitude": 35.6895,
-    "longitude": 139.6917
+    "latitude": 0,
+    "longitude": 0
   }
 },
     arrivalLocation: {
-  "city": "yokohama",
+  "city": "Tokyo",
   "country": "Japan",
+  "region": "Japan",
   "coordinates": {
-    "latitude": 35.4437,
-    "longitude": 139.638
+    "latitude": 0,
+    "longitude": 0
   }
 },
     isPopular: false, // Make fewer cruises "popular"
@@ -1288,56 +1249,767 @@ export const tokyoCruises: Cruise[] = [
     "country": "Japan",
     "region": "Japan",
     "coordinates": {
-      "latitude": 35.6895,
-      "longitude": 139.6917
-    }
-  },
-  {
-    "city": "nagasaki",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 32.7503,
-      "longitude": 129.8779
-    }
-  },
-  {
-    "city": "hokkaido",
-    "country": "Japan",
-    "coordinates": {
-      "latitude": 43.2203,
-      "longitude": 142.8635
+      "latitude": 0,
+      "longitude": 0
     }
   },
   {
     "city": "yokohama",
     "country": "Japan",
     "coordinates": {
-      "latitude": 35.4437,
-      "longitude": 139.638
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
     }
   }
 ],
-      description: "Experience the elegance of the seas on this mythic tide through Japan, starting from the illustrious port of Tokyo. From nagasaki, hokkaido to yokohama, each destination offers its own story, culture, and breathtaking views.",
-      distance: "726 nautical miles",
-      totalDuration: "10 days",
+      description: "Embark on a legacy from Tokyo that promises to captivate your senses. From the vibrant markets of yokohama to the tranquil beaches of undefined, this journey through Japan is one you won't forget.",
+      distance: "686 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
     "duration": "2 days",
-    "description": "Sailing from Tokyo to nagasaki"
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "14843560-38a2-4f95-91f1-5c01898d7cb9",
+        name: "Elijah Cooper",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+        contact: {
+          contactEmail: "seaside.wanderlust.o@velarivoyages.com",
+          contactNumber: "+1-274-608-3177"
+        }
+      }
+    ],
+    title: "Seaside Wanderlust of the Skyline of the Rising Sun",
+    description: "Embark on a legacy from Tokyo that promises to captivate your senses. From the vibrant markets of yokohama to the tranquil beaches of undefined, this journey through Japan is one you won't forget.",
+    rating: 4.3,
+    tags: ["weekend-cruise","general"]
+  },
+  {
+    id: "bc488cea-e936-48e4-b971-4679bcb5f8fd",
+    vesselId: "my-tokyo-voyager",
+    basePrice: 1032,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Explore a new side of Japan with this tide-washed currents starting in Tokyo. Visit charming ports such as yokohama, each offering its own unique rhythm.",
+      distance: "641 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
   },
   {
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Sailing from nagasaki to hokkaido"
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
   },
   {
-    "start": "Day 9",
-    "end": "Day 9",
+    "start": "Day 4",
+    "end": "Day 4",
     "duration": "1 days",
-    "description": "Sailing from hokkaido to yokohama"
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "19ced9ba-3795-4fc0-a393-6850e3fd40f0",
+        name: "Chen West",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
+        contact: {
+          contactEmail: "moonlit.panorama.of.@velarivoyages.com",
+          contactNumber: "+1-303-324-9675"
+        }
+      }
+    ],
+    title: "Moonlit Panorama of the City of Still Chaos",
+    description: "Explore a new side of Japan with this tide-washed currents starting in Tokyo. Visit charming ports such as yokohama, each offering its own unique rhythm.",
+    rating: 4.1,
+    tags: ["romantic","cruise-journey","culinary"]
+  },
+  {
+    id: "023b9258-6f71-48c0-be8f-4bd9eb595c0b",
+    vesselId: "ss-the--mariner",
+    basePrice: 5037,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "This panoramic cruise from Tokyo is your ticket to the captivating charm of the Japan. Discover the delights of yokohama with enriching excursions and award-winning service.",
+      distance: "1227 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "ec940955-d898-491c-9ec0-397f1197c0ee",
+        name: "Gabriel West",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
+        contact: {
+          contactEmail: "pristine.adventure.o@velarivoyages.com",
+          contactNumber: "+1-716-650-3429"
+        }
+      }
+    ],
+    title: "Pristine Adventure of the Temple of Lights",
+    description: "This panoramic cruise from Tokyo is your ticket to the captivating charm of the Japan. Discover the delights of yokohama with enriching excursions and award-winning service.",
+    rating: 4.8,
+    tags: ["luxury","VIP","expedition"]
+  },
+  {
+    id: "28d16ac9-102d-4de6-8621-4e68b6ea4587",
+    vesselId: "my--explorer",
+    basePrice: 6710,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Depart Tokyo on a relaxing realm through the Japan region. Highlights include the stunning coastlines of yokohama, all while enjoying first-class amenities on board.",
+      distance: "1313 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "d19d3a78-4f36-4c3c-87ba-78245cf03c9e",
+        name: "Mark Warren",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
+        contact: {
+          contactEmail: "duskkissed.elevation@velarivoyages.com",
+          contactNumber: "+1-327-114-2942"
+        }
+      }
+    ],
+    title: "Dusk-Kissed Elevation of the Neon Capital",
+    description: "Depart Tokyo on a relaxing realm through the Japan region. Highlights include the stunning coastlines of yokohama, all while enjoying first-class amenities on board.",
+    rating: 5.0,
+    tags: ["cruise-vacation","cruise-holiday"]
+  },
+  {
+    id: "9a5c82da-a2da-4279-9b65-92976312bb5a",
+    vesselId: "mv--of-the-deep",
+    basePrice: 2644,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this pearlescent drift departing Tokyo. Savor local cuisine and uncover regional beauty from yokohama to undefined.",
+      distance: "1057 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        id: "2b730526-fe1f-4de2-a327-f3fa648a1d4a",
+        name: "Larry Holloway",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+        contact: {
+          contactEmail: "forbidden.eclipse.of@velarivoyages.com",
+          contactNumber: "+1-314-653-4186"
+        }
+      }
+    ],
+    title: "Forbidden Eclipse of the City of Still Chaos",
+    description: "Cruise into cultural richness aboard this pearlescent drift departing Tokyo. Savor local cuisine and uncover regional beauty from yokohama to undefined.",
+    rating: 4.2,
+    tags: ["themed-cruise","general"]
+  },
+  {
+    id: "3702c7f5-9fe1-4117-8fc2-140b2972afb2",
+    vesselId: "ss-the--mariner",
+    basePrice: 7726,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Let the waves lead you from Tokyo on this sublime expedition. Traverse the iconic waters of Japan and discover the beauty of yokohama.",
+      distance: "712 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "b39f3078-4fb5-47e2-813f-6c25022ac8ed",
+        name: "Elijah Griffin",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        contact: {
+          contactEmail: "seascapediscovering.@velarivoyages.com",
+          contactNumber: "+1-994-905-6893"
+        }
+      }
+    ],
+    title: "Seascape-Discovering Enigma of the Skyline of the Rising Sun",
+    description: "Let the waves lead you from Tokyo on this sublime expedition. Traverse the iconic waters of Japan and discover the beauty of yokohama.",
+    rating: 4.2,
+    tags: ["cruise-vacation","cultural"]
+  },
+  {
+    id: "fe546b0e-b188-4d7c-8517-f93c67c50059",
+    vesselId: "my-tokyo-voyager",
+    basePrice: 2054,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step into a world of elegance and exploration from Tokyo. This tranquility through the Japan unveils stunning stops including yokohama, all with first-class service.",
+      distance: "1062 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from yokohama to Tokyo"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring yokohama"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Tokyo"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "7fe5140b-ae33-402e-8c0a-08675e2b5523",
+        name: "Aiden Harper",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
+        contact: {
+          contactEmail: "starlit.whisper.of.t@velarivoyages.com",
+          contactNumber: "+1-697-639-9578"
+        }
+      }
+    ],
+    title: "Starlit Whisper of the Skyline of the Rising Sun",
+    description: "Step into a world of elegance and exploration from Tokyo. This tranquility through the Japan unveils stunning stops including yokohama, all with first-class service.",
+    rating: 4.5,
+    tags: ["adventure"]
+  },
+  {
+    id: "38f8924b-334d-4c62-ae78-f2bc52aa2a50",
+    vesselId: "rv--of-the-deep",
+    basePrice: 2984,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  },
+  {
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Sail into splendor from Tokyo on a extraordinary voyage through Japan. Let each stop—from yokohama to undefined—reveal the unique flavors and colors of the region.",
+      distance: "612 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Tokyo to yokohama"
   }
 ],
       timeOnLand: [
@@ -1351,17 +2023,95 @@ export const tokyoCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
-    "description": "Exploring nagasaki"
+    "description": "Exploring yokohama"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "5e1461e1-c0c8-4be6-a041-ebd3ddf8be29",
+        name: "Keith Price",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
+        contact: {
+          contactEmail: "harmonic.escape.of.t@velarivoyages.com",
+          contactNumber: "+1-507-535-4509"
+        }
+      }
+    ],
+    title: "Harmonic Escape of the Shimmering Contradiction",
+    description: "Sail into splendor from Tokyo on a extraordinary voyage through Japan. Let each stop—from yokohama to undefined—reveal the unique flavors and colors of the region.",
+    rating: 4.1,
+    tags: ["cruise-adventure"]
   },
   {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring hokkaido"
+    id: "79d632d5-cead-4779-9465-5c9a836cfeaa",
+    vesselId: "mv--gale",
+    basePrice: 1317,
+    departureLocation: {
+  "city": "Tokyo",
+  "country": "Japan",
+  "region": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    arrivalLocation: {
+  "city": "yokohama",
+  "country": "Japan",
+  "coordinates": {
+    "latitude": 0,
+    "longitude": 0
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
   },
   {
-    "start": "Day 10",
-    "end": "Day 10",
+    "city": "yokohama",
+    "country": "Japan",
+    "coordinates": {
+      "latitude": 0,
+      "longitude": 0
+    }
+  }
+],
+      description: "Step aboard in Tokyo and begin a radiant journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+      distance: "876 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Tokyo to yokohama"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Tokyo"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
     "duration": "1 days",
     "description": "Exploring yokohama"
   }
@@ -1370,21 +2120,21 @@ export const tokyoCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "7b8d7c45-b231-4e7e-ba30-2a8f6d6e951c",
-        name: "Steven Watson",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"ja","name":"Japanese"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
+        id: "9e228504-5dd8-49d8-aabe-7489380b4abb",
+        name: "Henry Day",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
         contact: {
-          contactEmail: "exquisite.sojourn.of@velarivoyages.com",
-          contactNumber: "+1-911-538-4049"
+          contactEmail: "tidewhispered.pilgri@velarivoyages.com",
+          contactNumber: "+1-895-504-6668"
         }
       }
     ],
-    title: "Exquisite Sojourn of the Neon Capital",
-    description: "Experience the elegance of the seas on this mythic tide through Japan, starting from the illustrious port of Tokyo. From nagasaki, hokkaido to yokohama, each destination offers its own story, culture, and breathtaking views.",
-    rating: 4.4,
-    tags: ["cruise-line"]
+    title: "Tide-Whispered Pilgrimage of the Temple of Lights",
+    description: "Step aboard in Tokyo and begin a radiant journey through the scenic Japan. From historic cities to coastal hideaways like yokohama, every day is unforgettable.",
+    rating: 4.3,
+    tags: ["cultural"]
   }
 ];
