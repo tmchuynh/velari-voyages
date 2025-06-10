@@ -173,95 +173,245 @@ export const cityCountryMap = {
 };
 
 export const cityToRegionMap = {
-  malta: "Malta",
-  naples: "Southern Italy",
-  matera: "Southern Italy",
+  // New Zealand
+  auckland: "New Zealand",
 
-  rome: "Central Italy",
-  tuscany: "Central Italy",
-  florence: "Central Italy",
+  // Netherlands
+  amsterdam: "Netherlands",
 
-  venice: "Northern Italy",
-  milan: "Northern Italy",
-  bologna: "Northern Italy",
-
-  santorini: "Greek Islands",
-  mykonos: "Greek Islands",
-  heraklion: "Greek Islands",
-
+  // Greece
   athens: "Mainland Greece",
-  piraeus: "Mainland Greece",
-  thessaloniki: "Mainland Greece",
-  southampton: "England",
 
+  // Thailand
+  bangkok: "Thailand",
+
+  // Spain
+  barcelona: "Catalonia",
+
+  // Atlantic Ocean
+  bermuda: "Bermuda",
+
+  // United States - East Coast
+  boston: "East Coast USA",
+
+  // Argentina
+  "buenos-aires": "Argentina",
+
+  // Colombia
+  cartagena: "Colombia",
+
+  // Denmark
+  copenhagen: "Denmark",
+
+  // Croatia
+  dubrovnik: "Croatian Coast",
+
+  // United States - Florida
+  "fort-lauderdale": "Florida",
+
+  // United States - Texas
+  galveston: "Texas",
+
+  // Cayman Islands
+  "george-town": "Cayman Islands",
+
+  // United States - Alaska
+  "glacier-bay": "Alaska",
+
+  // Germany
+  hamburg: "Germany",
+
+  // Finland
+  helsinki: "Finland",
+
+  // Vietnam
+  "ho-chi-minh-city": "Vietnam",
+
+  // Hong Kong
   "hong-kong": "Hong Kong",
 
-  seville: "Southern Spain",
+  // Turkey
+  istanbul: "Turkey",
 
-  madrid: "Western Spain",
+  // United States - Alaska
+  juneau: "Alaska",
 
+  // United States - Alaska
+  ketchikan: "Alaska",
+
+  // Germany
+  kiel: "Germany",
+
+  // Portugal
   lisbon: "Portugal",
-  porto: "Portugal",
 
+  // United Kingdom
+  london: "England",
+
+  // United States - California
+  "los-angeles": "California",
+
+  // Malta
+  malta: "Malta",
+
+  // Australia
+  melbourne: "Australia",
+
+  // United States - Florida
+  miami: "Florida",
+
+  // Canada - Quebec
+  montreal: "Quebec",
+
+  // Uruguay
+  montevideo: "Uruguay",
+
+  // Greece
+  mykonos: "Greek Islands",
+
+  // Bahamas
+  nassau: "Bahamas",
+
+  // United States - Louisiana
+  "new-orleans": "East Coast USA",
+
+  // United States - New York
+  "new-york-city": "East Coast USA",
+
+  // France
+  nice: "French Riviera",
+
+  // Norway
+  oslo: "Norway",
+
+  // Spain
+  "palma-de-mallorca": "Balearic Islands",
+
+  // Sint Maarten
+  philipsburg: "Sint Maarten",
+
+  // United Kingdom
+  portsmouth: "England",
+
+  // Canada - Quebec
+  "quebec-city": "Quebec",
+
+  // Iceland
+  reykjavik: "Iceland",
+
+  // Brazil
+  "rio-de-janeiro": "Brazil",
+
+  // Honduras
+  roatan: "Honduras",
+
+  // Italy
+  rome: "Central Italy",
+
+  // United States - California
+  "san-francisco": "California",
+
+  // Puerto Rico
+  "san-juan": "Puerto Rico",
+
+  // Greece
+  santorini: "Greek Islands",
+
+  // United States - Washington
+  seattle: "Pacific Northwest",
+
+  // China
+  shanghai: "China",
+
+  // Singapore
+  singapore: "Singapore",
+
+  // United States - Alaska
+  sitka: "Alaska",
+
+  // United States - Alaska
+  skagway: "Alaska",
+
+  // United Kingdom
+  southampton: "England",
+
+  // Russia
+  "st-petersburg": "Russia",
+
+  // US Virgin Islands
+  "st-thomas": "US Virgin Islands",
+
+  // Sweden
+  stockholm: "Scandinavia",
+
+  // Australia
+  sydney: "Australia",
+
+  // United States - Florida
+  tampa: "Florida",
+
+  // Japan
+  tokyo: "Japan",
+
+  // Canada - British Columbia
+  vancouver: "British Columbia",
+
+  // Italy
+  venice: "Northern Italy",
+
+  // Canada - British Columbia
+  victoria: "British Columbia",
+
+  // Japan
+  yokohama: "Japan",
+
+  // Legacy entries (keeping for backward compatibility)
+  naples: "Southern Italy",
+  matera: "Southern Italy",
+  tuscany: "Central Italy",
+  florence: "Central Italy",
+  milan: "Northern Italy",
+  bologna: "Northern Italy",
+  heraklion: "Greek Islands",
+  piraeus: "Mainland Greece",
+  thessaloniki: "Mainland Greece",
+  seville: "Southern Spain",
+  madrid: "Western Spain",
+  porto: "Portugal",
   cannes: "French Riviera",
   monaco: "French Riviera",
-
-  dubrovnik: "Croatian Coast",
   zagreb: "Croatia",
   mostar: "Bosnia and Herzegovina",
   blagaj: "Bosnia and Herzegovina",
   belgrade: "Serbia",
   "svaneti-region": "Georgia",
   tbilisi: "Georgia",
-
-  barcelona: "Catalonia",
   paris: "France",
-  amsterdam: "Netherlands",
   rotterdam: "Netherlands",
-
-  london: "England",
   edinburgh: "Scotland",
   glasgow: "Scotland",
   dublin: "Ireland",
-
-  copenhagen: "Denmark",
-  stockholm: "Scandinavia",
-  oslo: "Norway",
-  helsinki: "Finland",
-  reykjavik: "Iceland",
-
   riga: "Latvia",
-
   vienna: "Austria",
   prague: "Czech Republic",
   munich: "Germany",
   berlin: "Germany",
-  kiel: "Germany",
   budapest: "Hungary",
   moscow: "Russia",
-  "st-petersburg": "Russia",
-
-  tokyo: "Japan",
   kyoto: "Japan",
   osaka: "Japan",
   hokkaido: "Japan",
   shirakawa: "Japan",
   takayama: "Japan",
   nagasaki: "Japan",
-  yokohama: "Japan",
-
-  bangkok: "Thailand",
   phuket: "Thailand",
   "chiang-mai": "Thailand",
-  "ho-chi-minh-city": "Vietnam",
   "da-nang": "Vietnam",
   "hoi-an": "Vietnam",
   sapa: "Vietnam",
   "nha-trang": "Vietnam",
   "mekong-delta": "Vietnam",
   "phnom-penh": "Cambodia",
-
-  singapore: "Singapore",
   bali: "Indonesia",
   denpasar: "Indonesia",
   "port-vila": "Vanuatu",
@@ -274,95 +424,44 @@ export const cityToRegionMap = {
   panauti: "Nepal",
   bhaktapur: "Nepal",
   bandipur: "Nepal",
-
   beijing: "China",
-  shanghai: "China",
   chengdu: "China",
   "xi-an": "China",
-
   seoul: "South Korea",
-
   taipei: "Taiwan",
-
-  sydney: "Australia",
-  melbourne: "Australia",
-  auckland: "New Zealand",
   queenstown: "New Zealand",
   tahiti: "French Polynesia",
   "bora-bora": "French Polynesia",
   fiji: "Fiji",
-
-  "los-angeles": "California",
-  "san-francisco": "California",
   "san-diego": "California",
   sacramento: "California",
   portland: "Pacific Northwest",
-  seattle: "Pacific Northwest",
-
-  boston: "East Coast USA",
-  "new-york-city": "East Coast USA",
   washington: "District of Columbia",
   charleston: "South Carolina",
-
   atlanta: "Georgia",
   savannah: "Georgia",
-
   austin: "Texas",
   "las-vegas": "Nevada",
-
   chicago: "Illinois",
-
-  montreal: "Quebec",
-  "quebec-city": "Quebec",
   toronto: "Ontario",
-
-  vancouver: "British Columbia",
-  juneau: "Alaska",
-  ketchikan: "Alaska",
-  skagway: "Alaska",
-  sitka: "Alaska",
-  victoria: "British Columbia",
-  "glacier-bay": "Alaska",
   denali: "Alaska",
   anchorage: "Alaska",
-
   honolulu: "Oahu",
   maui: "Maui",
-
-  miami: "Florida",
-  "fort-lauderdale": "Florida",
-  tampa: "Florida",
-  "new-orleans": "East Coast USA",
-  galveston: "Texas",
-  "san-juan": "Puerto Rico",
-  bermuda: "Bermuda",
-  nassau: "Bahamas",
-  "st-thomas": "US Virgin Islands",
   cozumel: "Mexico",
-  "george-town": "Cayman Islands",
-  roatan: "Honduras",
-  philipsburg: "Sint Maarten",
-  cartagena: "Colombia",
   jamaica: "Jamaica",
   "punta-cana": "Dominican Republic",
-
   "mexico-city": "Mexico",
   "puerto-escondido": "Mexico",
   "puerto-vallarta": "Mexico",
   "panama-city": "Panama",
-
   lima: "Peru",
   quito: "Ecuador",
   santiago: "Chile",
   puno: "Peru",
   pucallpa: "Peru",
   "galapagos-islands": "Ecuador",
-
-  "buenos-aires": "Argentina",
-  montevideo: "Uruguay",
   patagonia: "Chile",
-  "rio-de-janeiro": "Brazil",
-
   cairo: "Egypt",
   casablanca: "Morocco",
   fez: "Morocco",
@@ -371,89 +470,90 @@ export const cityToRegionMap = {
   marrakech: "Morocco",
   ouarzazate: "Morocco",
   "atlas-mountains": "Morocco",
-
   kampala: "Uganda",
   zanzibar: "Tanzania",
   nairobi: "Kenya",
-
   "cape-town": "South Africa",
-
   "mto-wa-mbu-village": "Tanzania",
-
   dubai: "United Arab Emirates",
   petra: "Jordan",
 };
 
 export const cityCoordinates = {
+  // Cities from cityFiles
   auckland: { latitude: -36.848461, longitude: 174.763336 },
   amsterdam: { latitude: 52.377956, longitude: 4.89707 },
+  athens: { latitude: 37.9838, longitude: 23.7275 },
+  bangkok: { latitude: 13.7563, longitude: 100.5018 },
   barcelona: { latitude: 41.390205, longitude: 2.154007 },
-  berlin: { latitude: 52.520008, longitude: 13.404954 },
+  bermuda: { latitude: 32.3214, longitude: -64.75737 },
   boston: { latitude: 42.361145, longitude: -71.057083 },
   "buenos-aires": { latitude: -34.603722, longitude: -58.381592 },
-  "cape-town": { latitude: -33.918861, longitude: 18.4233 },
-  charleston: { latitude: 32.77657, longitude: -79.93092 },
+  cartagena: { latitude: 10.391, longitude: -75.4794 },
   copenhagen: { latitude: 55.6761, longitude: 12.5683 },
-  dubai: { latitude: 25.276987, longitude: 55.296249 },
-  dublin: { latitude: 53.349805, longitude: -6.26031 },
-  florence: { latitude: 43.769562, longitude: 11.255814 },
+  dubrovnik: { latitude: 42.6507, longitude: 18.0944 },
   "fort-lauderdale": { latitude: 26.122439, longitude: -80.137317 },
   galveston: { latitude: 29.301348, longitude: -94.797695 },
+  "george-town": { latitude: 19.2855, longitude: -81.2546 },
+  "glacier-bay": { latitude: 58.8017, longitude: -135.5828 },
+  hamburg: { latitude: 53.5511, longitude: 9.9937 },
+  helsinki: { latitude: 60.1695, longitude: 24.9354 },
+  "ho-chi-minh-city": { latitude: 10.8231, longitude: 106.6297 },
+  "hong-kong": { latitude: 22.3193, longitude: 114.1694 },
+  istanbul: { latitude: 41.0082, longitude: 28.9784 },
+  juneau: { latitude: 58.3019, longitude: -134.4197 },
+  ketchikan: { latitude: 55.3422, longitude: -131.6476 },
   kiel: { latitude: 54.3233, longitude: 10.1228 },
-  kyoto: { latitude: 35.0116, longitude: 135.7681 },
   lisbon: { latitude: 38.7169, longitude: -9.1399 },
   london: { latitude: 51.5074, longitude: -0.1278 },
   "los-angeles": { latitude: 34.0522, longitude: -118.2437 },
   malta: { latitude: 35.9375, longitude: 14.3754 },
   melbourne: { latitude: -37.8136, longitude: 144.9631 },
   miami: { latitude: 25.7617, longitude: -80.1918 },
-  milan: { latitude: 45.4642, longitude: 9.19 },
   montreal: { latitude: 45.5017, longitude: -73.5673 },
+  montevideo: { latitude: -34.9011, longitude: -56.1645 },
+  mykonos: { latitude: 37.4467, longitude: 25.3289 },
+  nassau: { latitude: 25.0582, longitude: -77.3432 },
   "new-orleans": { latitude: 29.9511, longitude: -90.0715 },
   "new-york-city": { latitude: 40.7128, longitude: -74.006 },
-  paris: { latitude: 48.8566, longitude: 2.3522 },
+  nice: { latitude: 43.7102, longitude: 7.2620 },
+  oslo: { latitude: 59.9139, longitude: 10.7522 },
+  "palma-de-mallorca": { latitude: 39.5696, longitude: 2.6502 },
+  philipsburg: { latitude: 18.0167, longitude: -63.0587 },
+  portsmouth: { latitude: 50.8198, longitude: -1.0880 },
   "quebec-city": { latitude: 46.8139, longitude: -71.2082 },
+  reykjavik: { latitude: 64.1466, longitude: -21.9426 },
   "rio-de-janeiro": { latitude: -22.9068, longitude: -43.1729 },
+  roatan: { latitude: 16.3181, longitude: -86.5277 },
   rome: { latitude: 41.9028, longitude: 12.4964 },
   "san-francisco": { latitude: 37.7749, longitude: -122.4194 },
   "san-juan": { latitude: 18.4655, longitude: -66.1057 },
+  santorini: { latitude: 36.3932, longitude: 25.4615 },
   seattle: { latitude: 47.6062, longitude: -122.3321 },
+  shanghai: { latitude: 31.2304, longitude: 121.4737 },
   singapore: { latitude: 1.3521, longitude: 103.8198 },
+  sitka: { latitude: 57.0531, longitude: -135.3304 },
+  skagway: { latitude: 59.4569, longitude: -135.3123 },
+  southampton: { latitude: 50.9097, longitude: -1.4044 },
+  "st-petersburg": { latitude: 59.9343, longitude: 30.3351 },
+  "st-thomas": { latitude: 18.3419, longitude: -64.9307 },
+  stockholm: { latitude: 59.3293, longitude: 18.0686 },
   sydney: { latitude: -33.8688, longitude: 151.2093 },
   tampa: { latitude: 27.9506, longitude: -82.4572 },
   tokyo: { latitude: 35.6895, longitude: 139.6917 },
-  toronto: { latitude: 43.6532, longitude: -79.3832 },
   vancouver: { latitude: 49.2827, longitude: -123.1207 },
   venice: { latitude: 45.4408, longitude: 12.3155 },
-  yokohama: { latitude: 35.4437, longitude: 139.638 },
-  bali: { latitude: -8.409518, longitude: 115.188919 },
-  bermuda: { latitude: 32.3214, longitude: -64.75737 },
-  helsinki: { latitude: 60.1695, longitude: 24.9354 },
-  "st-petersburg": { latitude: 59.9343, longitude: 30.3351 },
-  nassau: { latitude: 25.0582, longitude: -77.3432 },
-  "st-thomas": { latitude: 18.3419, longitude: -64.9307 },
-  cozumel: { latitude: 20.4233, longitude: -86.9212 },
-  "george-town": { latitude: 19.2855, longitude: -81.2546 },
-  roatan: { latitude: 16.3181, longitude: -86.5277 },
-  philipsburg: { latitude: 18.0167, longitude: -63.0587 },
-  athens: { latitude: 37.9838, longitude: 23.7275 },
-  santorini: { latitude: 36.3932, longitude: 25.4615 },
-  mykonos: { latitude: 37.4467, longitude: 25.3289 },
-  dubrovnik: { latitude: 42.6507, longitude: 18.0944 },
-  juneau: { latitude: 58.3019, longitude: -134.4197 },
-  ketchikan: { latitude: 55.3422, longitude: -131.6476 },
-  skagway: { latitude: 59.4569, longitude: -135.3123 },
-  sitka: { latitude: 57.0531, longitude: -135.3304 },
   victoria: { latitude: 48.4284, longitude: -123.3656 },
-  "glacier-bay": { latitude: 58.8017, longitude: -135.5828 },
-  montevideo: { latitude: -34.9011, longitude: -56.1645 },
+  yokohama: { latitude: 35.4437, longitude: 139.638 },
+
+  // Legacy coordinates (keeping for backward compatibility)
+  florence: { latitude: 43.769562, longitude: 11.255814 },
+  milan: { latitude: 45.4642, longitude: 9.19 },
+  bali: { latitude: -8.409518, longitude: 115.188919 },
+  piraeus: { latitude: 37.9421, longitude: 23.6465 },
+  cozumel: { latitude: 20.4233, longitude: -86.9212 },
   lima: { latitude: -12.0464, longitude: -77.0428 },
-  cartagena: { latitude: 10.391, longitude: -75.4794 },
   santiago: { latitude: -33.4489, longitude: -70.6693 },
-  bangkok: { latitude: 13.7563, longitude: 100.5018 },
-  "ho-chi-minh-city": { latitude: 10.8231, longitude: 106.6297 },
-  shanghai: { latitude: 31.2304, longitude: 121.4737 },
-  oslo: { latitude: 59.9139, longitude: 10.7522 },
   anchorage: { latitude: 61.2181, longitude: -149.9003 },
   atlanta: { latitude: 33.749, longitude: -84.388 },
   "atlas-mountains": { latitude: 31.057, longitude: -7.1306 },
@@ -468,15 +568,19 @@ export const cityCoordinates = {
   budapest: { latitude: 47.4979, longitude: 19.0402 },
   cairo: { latitude: 30.0444, longitude: 31.2357 },
   cannes: { latitude: 43.5528, longitude: 7.0174 },
+  "cape-town": { latitude: -33.918861, longitude: 18.4233 },
   casablanca: { latitude: 33.5731, longitude: -7.5898 },
+  charleston: { latitude: 32.77657, longitude: -79.93092 },
   chefchaouen: { latitude: 35.1688, longitude: -5.2636 },
   chengdu: { latitude: 30.5728, longitude: 104.0668 },
-  chicago: { latitude: 41.8781, longitude: -87.6298 },
   "chiang-mai": { latitude: 18.7883, longitude: 98.9853 },
+  chicago: { latitude: 41.8781, longitude: -87.6298 },
   coorg: { latitude: 12.3375, longitude: 75.8069 },
   "da-nang": { latitude: 16.0544, longitude: 108.2022 },
   denali: { latitude: 63.1148, longitude: -151.1926 },
   denpasar: { latitude: -8.6705, longitude: 115.2126 },
+  dubai: { latitude: 25.276987, longitude: 55.296249 },
+  dublin: { latitude: 53.349805, longitude: -6.26031 },
   edinburgh: { latitude: 55.9533, longitude: -3.1883 },
   fez: { latitude: 34.0181, longitude: -5.0078 },
   fiji: { latitude: -17.7134, longitude: 178.065 },
@@ -490,6 +594,7 @@ export const cityCoordinates = {
   jaipur: { latitude: 26.9124, longitude: 75.7873 },
   jamaica: { latitude: 18.1096, longitude: -77.2975 },
   kampala: { latitude: 0.3476, longitude: 32.5825 },
+  kyoto: { latitude: 35.0116, longitude: 135.7681 },
   "las-vegas": { latitude: 36.1699, longitude: -115.1398 },
   leh: { latitude: 34.1526, longitude: 77.5771 },
   madrid: { latitude: 40.4168, longitude: -3.7038 },
@@ -499,31 +604,38 @@ export const cityCoordinates = {
   "mekong-delta": { latitude: 10.0333, longitude: 105.7833 },
   "mexico-city": { latitude: 19.4326, longitude: -99.1332 },
   monaco: { latitude: 43.7384, longitude: 7.4246 },
+  moscow: { latitude: 55.7558, longitude: 37.6173 },
   mostar: { latitude: 43.3438, longitude: 17.8078 },
   "mto-wa-mbu-village": { latitude: -3.3667, longitude: 35.8667 },
   mumbai: { latitude: 19.076, longitude: 72.8777 },
   munich: { latitude: 48.1351, longitude: 11.582 },
+  nagasaki: { latitude: 32.7503, longitude: 129.8779 },
+  nairobi: { latitude: -1.2921, longitude: 36.8219 },
   naples: { latitude: 40.8518, longitude: 14.2681 },
   "nha-trang": { latitude: 12.2388, longitude: 109.1967 },
   osaka: { latitude: 34.6937, longitude: 135.5023 },
   ouarzazate: { latitude: 30.9335, longitude: -6.937 },
+  "panama-city": { latitude: 8.9936, longitude: -79.5199 },
   panauti: { latitude: 27.5786, longitude: 85.5106 },
+  paris: { latitude: 48.8566, longitude: 2.3522 },
   patagonia: { latitude: -45.7692, longitude: -71.999 },
   petra: { latitude: 30.3285, longitude: 35.4444 },
   "phnom-penh": { latitude: 11.5564, longitude: 104.9282 },
   phuket: { latitude: 7.8804, longitude: 98.3923 },
-  piraeus: { latitude: 37.9421, longitude: 23.6465 },
   portland: { latitude: 45.5051, longitude: -122.675 },
   porto: { latitude: 41.1579, longitude: -8.6291 },
   "port-vila": { latitude: -17.7333, longitude: 168.3167 },
   prague: { latitude: 50.0755, longitude: 14.4378 },
   pucallpa: { latitude: -8.3791, longitude: -74.5539 },
   "puerto-escondido": { latitude: 15.8719, longitude: -97.0736 },
+  "puerto-vallarta": { latitude: 20.6534, longitude: -105.2253 },
   puno: { latitude: -15.8402, longitude: -70.0219 },
+  "punta-cana": { latitude: 18.5601, longitude: -68.3725 },
   queenstown: { latitude: -45.0312, longitude: 168.6626 },
   quito: { latitude: -0.1807, longitude: -78.4678 },
-  reykjavik: { latitude: 64.1466, longitude: -21.9426 },
   riga: { latitude: 56.9496, longitude: 24.1052 },
+  rotterdam: { latitude: 51.9244, longitude: 4.4777 },
+  sacramento: { latitude: 38.5816, longitude: -121.4944 },
   "san-diego": { latitude: 32.7157, longitude: -117.1611 },
   sapa: { latitude: 22.3402, longitude: 103.8448 },
   savannah: { latitude: 32.0809, longitude: -81.0912 },
@@ -532,8 +644,12 @@ export const cityCoordinates = {
   shirakawa: { latitude: 36.2667, longitude: 136.9 },
   "svaneti-region": { latitude: 42.911, longitude: 43.011 },
   tahiti: { latitude: -17.6509, longitude: -149.426 },
+  taipei: { latitude: 25.033, longitude: 121.5654 },
   takayama: { latitude: 36.1467, longitude: 137.2517 },
+  tangier: { latitude: 35.7673, longitude: -5.7998 },
+  tbilisi: { latitude: 41.7151, longitude: 44.8271 },
   thessaloniki: { latitude: 40.6401, longitude: 22.9444 },
+  toronto: { latitude: 43.6532, longitude: -79.3832 },
   tuscany: { latitude: 43.7711, longitude: 11.2486 },
   udaipur: { latitude: 24.5854, longitude: 73.7125 },
   vienna: { latitude: 48.2082, longitude: 16.3738 },
@@ -541,62 +657,48 @@ export const cityCoordinates = {
   "xi-an": { latitude: 34.3416, longitude: 108.9398 },
   zagreb: { latitude: 45.815, longitude: 15.9819 },
   zanzibar: { latitude: -6.1659, longitude: 39.2026 },
-  nagasaki: { latitude: 32.7503, longitude: 129.8779 },
-  nairobi: { latitude: -1.2921, longitude: 36.8219 },
-  moscow: { latitude: 55.7558, longitude: 37.6173 },
-  "panama-city": { latitude: 8.9936, longitude: -79.5199 },
-  "puerto-vallarta": { latitude: 20.6534, longitude: -105.2253 },
-  "punta-cana": { latitude: 18.5601, longitude: -68.3725 },
-  rotterdam: { latitude: 51.9244, longitude: 4.4777 },
-  sacramento: { latitude: 38.5816, longitude: -121.4944 },
-  taipei: { latitude: 25.033, longitude: 121.5654 },
-  tangier: { latitude: 35.7673, longitude: -5.7998 },
-  tbilisi: { latitude: 41.7151, longitude: 44.8271 },
-  stockholm: { latitude: 59.3293, longitude: 18.0686 },
+  berlin: { latitude: 52.520008, longitude: 13.404954 },
 };
 
 export const regionalDestinations = {
+  // Europe
   "Greek Islands": ["santorini", "mykonos", "heraklion"],
   "Mainland Greece": ["athens", "piraeus", "thessaloniki"],
-
   "Southern Italy": ["naples", "matera"],
   "Central Italy": ["rome", "tuscany", "florence"],
   "Northern Italy": ["venice", "milan", "bologna"],
-
-  Catalonia: ["barcelona"],
+  "Balearic Islands": ["palma-de-mallorca"],
+  "Catalonia": ["barcelona"],
   "Southern Spain": ["seville"],
   "Western Spain": ["madrid"],
-
-  Portugal: ["lisbon", "porto"],
-
-  "French Riviera": ["monaco", "cannes"],
-
+  "Portugal": ["lisbon", "porto"],
+  "French Riviera": ["monaco", "cannes", "nice"],
   "Croatian Coast": ["dubrovnik"],
-  Croatia: ["zagreb"],
+  "Croatia": ["zagreb"],
   "Bosnia and Herzegovina": ["mostar", "blagaj"],
-  Serbia: ["belgrade"],
-  Georgia: ["tbilisi", "svaneti-region"],
-
-  Malta: ["malta"],
-  France: ["paris"],
-  Netherlands: ["amsterdam", "rotterdam"],
-  England: ["london", "southampton"],
-  Scotland: ["edinburgh", "glasgow"],
-  Ireland: ["dublin"],
-
-  Germany: ["berlin", "kiel", "munich"],
-  Scandinavia: ["stockholm"],
-  Denmark: ["copenhagen"],
-  Norway: ["oslo"],
-  Finland: ["helsinki"],
-  Iceland: ["reykjavik"],
-  Russia: ["st-petersburg", "moscow"],
-  Latvia: ["riga"],
-  Austria: ["vienna"],
+  "Serbia": ["belgrade"],
+  "Georgia": ["tbilisi", "svaneti-region"],
+  "Turkey": ["istanbul"],
+  "Malta": ["malta"],
+  "France": ["paris"],
+  "Netherlands": ["amsterdam", "rotterdam"],
+  "England": ["london", "southampton", "portsmouth"],
+  "Scotland": ["edinburgh", "glasgow"],
+  "Ireland": ["dublin"],
+  "Germany": ["berlin", "kiel", "munich", "hamburg"],
+  "Scandinavia": ["stockholm"],
+  "Denmark": ["copenhagen"],
+  "Norway": ["oslo"],
+  "Finland": ["helsinki"],
+  "Iceland": ["reykjavik"],
+  "Russia": ["st-petersburg", "moscow"],
+  "Latvia": ["riga"],
+  "Austria": ["vienna"],
   "Czech Republic": ["prague"],
-  Hungary: ["budapest"],
+  "Hungary": ["budapest"],
 
-  Japan: [
+  // Asia-Pacific
+  "Japan": [
     "tokyo",
     "kyoto",
     "osaka",
@@ -606,11 +708,11 @@ export const regionalDestinations = {
     "shirakawa",
     "takayama",
   ],
-  China: ["shanghai", "beijing", "chengdu", "xi-an"],
+  "China": ["shanghai", "beijing", "chengdu", "xi-an"],
   "South Korea": ["seoul"],
-  Taiwan: ["taipei"],
-  Thailand: ["bangkok", "phuket", "chiang-mai"],
-  Vietnam: [
+  "Taiwan": ["taipei"],
+  "Thailand": ["bangkok", "phuket", "chiang-mai"],
+  "Vietnam": [
     "ho-chi-minh-city",
     "da-nang",
     "hoi-an",
@@ -618,22 +720,24 @@ export const regionalDestinations = {
     "nha-trang",
     "mekong-delta",
   ],
-  Cambodia: ["phnom-penh"],
-  Nepal: ["panauti", "bhaktapur", "bandipur"],
-  India: ["mumbai", "fort-kochi", "coorg", "udaipur", "jaipur", "leh"],
-  Indonesia: ["bali", "denpasar"],
-  Singapore: ["singapore"],
+  "Cambodia": ["phnom-penh"],
+  "Nepal": ["panauti", "bhaktapur", "bandipur"],
+  "India": ["mumbai", "fort-kochi", "coorg", "udaipur", "jaipur", "leh"],
+  "Indonesia": ["bali", "denpasar"],
+  "Singapore": ["singapore"],
   "French Polynesia": ["tahiti", "bora-bora"],
-  Fiji: ["fiji"],
-  Vanuatu: ["port-vila"],
-  Australia: ["sydney", "melbourne"],
+  "Fiji": ["fiji"],
+  "Vanuatu": ["port-vila"],
+  "Australia": ["sydney", "melbourne"],
   "New Zealand": ["auckland", "queenstown"],
+  "Hong Kong": ["hong-kong"],
 
-  California: ["los-angeles", "san-francisco", "san-diego", "sacramento"],
+  // North America
+  "California": ["los-angeles", "san-francisco", "san-diego", "sacramento"],
   "Pacific Northwest": ["portland", "seattle"],
-  Texas: ["austin", "galveston"],
-  Nevada: ["las-vegas"],
-  Florida: ["miami", "fort-lauderdale", "tampa"],
+  "Texas": ["austin", "galveston"],
+  "Nevada": ["las-vegas"],
+  "Florida": ["miami", "fort-lauderdale", "tampa"],
   "East Coast USA": [
     "new-york-city",
     "boston",
@@ -641,13 +745,9 @@ export const regionalDestinations = {
     "charleston",
     "new-orleans",
   ],
-  "Hong Kong": [
-    "hong-kong", // Optional to make its own if you want to group separately
-  ],
   "Southeast USA": ["atlanta", "savannah"],
   "Midwest USA": ["chicago"],
-
-  Alaska: [
+  "Alaska": [
     "juneau",
     "ketchikan",
     "skagway",
@@ -657,35 +757,35 @@ export const regionalDestinations = {
     "anchorage",
   ],
   "British Columbia": ["vancouver", "victoria"],
+  "Hawaii": ["honolulu", "maui"],
+  "Ontario": ["toronto"],
+  "Quebec": ["montreal", "quebec-city"],
 
-  Hawaii: ["honolulu", "maui"],
-
-  Ontario: ["toronto"],
-  Quebec: ["montreal", "quebec-city"],
-
-  Mexico: ["mexico-city", "puerto-vallarta", "puerto-escondido"],
-  Panama: ["panama-city"],
-
-  Colombia: ["cartagena"],
-  Peru: ["lima", "pucallpa", "puno"],
-  Ecuador: ["quito", "galapagos-islands"],
-  Chile: ["santiago"],
-  Argentina: ["buenos-aires", "patagonia"],
-  Uruguay: ["montevideo"],
-  Brazil: ["rio-de-janeiro"],
-
+  // Caribbean & Central America
+  "Mexico": ["mexico-city", "puerto-vallarta", "puerto-escondido"],
+  "Panama": ["panama-city"],
   "Cayman Islands": ["george-town"],
-  Bahamas: ["nassau"],
-  Jamaica: ["jamaica"],
+  "Bahamas": ["nassau"],
+  "Jamaica": ["jamaica"],
   "US Virgin Islands": ["st-thomas"],
   "Puerto Rico": ["san-juan"],
   "Sint Maarten": ["philipsburg"],
   "Dominican Republic": ["punta-cana"],
-  Bermuda: ["bermuda"],
-  Honduras: ["roatan"],
+  "Bermuda": ["bermuda"],
+  "Honduras": ["roatan"],
   "Mexico Caribbean": ["cozumel"],
 
-  Morocco: [
+  // South America
+  "Colombia": ["cartagena"],
+  "Peru": ["lima", "pucallpa", "puno"],
+  "Ecuador": ["quito", "galapagos-islands"],
+  "Chile": ["santiago"],
+  "Argentina": ["buenos-aires", "patagonia"],
+  "Uruguay": ["montevideo"],
+  "Brazil": ["rio-de-janeiro"],
+
+  // Africa & Middle East
+  "Morocco": [
     "marrakech",
     "ouarzazate",
     "casablanca",
@@ -693,14 +793,86 @@ export const regionalDestinations = {
     "tangier",
     "fez",
   ],
-  Egypt: ["cairo"],
-  Jordan: ["petra"],
+  "Egypt": ["cairo"],
+  "Jordan": ["petra"],
   "South Africa": ["cape-town"],
-  Tanzania: ["zanzibar", "mto-wa-mbu-village"],
-  Kenya: ["nairobi"],
-  Uganda: ["kampala"],
-
+  "Tanzania": ["zanzibar", "mto-wa-mbu-village"],
+  "Kenya": ["nairobi"],
+  "Uganda": ["kampala"],
   "United Arab Emirates": ["dubai"],
+};
+
+export const countryCurrencyMap = {
+  "New Zealand": "NZD",
+  "Netherlands": "EUR",
+  "Greece": "EUR",
+  "Thailand": "THB",
+  "Spain": "EUR",
+  "Bermuda": "BMD",
+  "United States": "USD",
+  "Argentina": "ARS",
+  "Colombia": "COP",
+  "Denmark": "DKK",
+  "Croatia": "EUR",
+  "Germany": "EUR",
+  "Finland": "EUR",
+  "Vietnam": "VND",
+  "Hong Kong": "HKD",
+  "Turkey": "TRY",
+  "Portugal": "EUR",
+  "United Kingdom": "GBP",
+  "Malta": "EUR",
+  "Australia": "AUD",
+  "Canada": "CAD",
+  "Uruguay": "UYU",
+  "Bahamas": "BSD",
+  "France": "EUR",
+  "Norway": "NOK",
+  "Iceland": "ISK",
+  "Russia": "RUB",
+  "Latvia": "EUR",
+  "Austria": "EUR",
+  "Czech Republic": "CZK",
+  "Hungary": "HUF",
+  "Japan": "JPY",
+  "China": "CNY",
+  "South Korea": "KRW",
+  "Taiwan": "TWD",
+  "Cambodia": "KHR",
+  "Nepal": "NPR",
+  "India": "INR",
+  "Indonesia": "IDR",
+  "Singapore": "SGD",
+  "French Polynesia": "XPF",
+  "Fiji": "FJD",
+  "Vanuatu": "VUV",
+  "Mexico": "MXN",
+  "Panama": "PAB",
+  "Cayman Islands": "KYD",
+  "Jamaica": "JMD",
+  "US Virgin Islands": "USD",
+  "Puerto Rico": "USD",
+  "Sint Maarten": "ANG",
+  "Dominican Republic": "DOP",
+  "Honduras": "HNL",
+  "Peru": "PEN",
+  "Ecuador": "USD",
+  "Chile": "CLP",
+  "Brazil": "BRL",
+  "Morocco": "MAD",
+  "Egypt": "EGP",
+  "Jordan": "JOD",
+  "South Africa": "ZAR",
+  "Tanzania": "TZS",
+  "Kenya": "KES",
+  "Uganda": "UGX",
+  "United Arab Emirates": "AED",
+  "Italy": "EUR",
+  "Sweden": "SEK",
+  "Bosnia and Herzegovina": "BAM",
+  "Serbia": "RSD",
+  "Georgia": "GEL",
+  "Malaysia": "MYR",
 };
 
 export const currenciesMap = [
@@ -916,52 +1088,54 @@ export function getCityCountryPriceMultiplier(_city, country) {
 }
 
 export const cityDialingMap = {
+  // Cities from cityFiles
   auckland: "+64‑9",
   amsterdam: "+31‑20",
   athens: "+30‑21",
-  bali: "+62‑361",
   bangkok: "+66‑2",
   barcelona: "+34‑93",
   bermuda: "+1‑441",
   boston: "+1‑617",
-  "buenos‑aires": "+54‑11",
+  "buenos-aires": "+54‑11",
   cartagena: "+57‑5",
-  florence: "+39‑055",
-  galveston: "+1‑409",
-  "george‑town": "+1‑345", // Cayman Islands area code
-  "glacier‑bay": "+1‑907", // Alaska statewide code
-  helsinki: "+358‑9",
-  "ho‑chi‑minh‑city": "+84‑28",
+  copenhagen: "+45",
   dubrovnik: "+385‑20",
-  "hong‑kong": "+852", // no local area code
+  "fort-lauderdale": "+1‑954",
+  galveston: "+1‑409",
+  "george-town": "+1‑345",
+  "glacier-bay": "+1‑907",
+  hamburg: "+49‑40",
+  helsinki: "+358‑9",
+  "ho-chi-minh-city": "+84‑28",
+  "hong-kong": "+852",
+  istanbul: "+90‑212",
   juneau: "+1‑907",
   ketchikan: "+1‑907",
   kiel: "+49‑431",
-  kyoto: "+81‑75",
-  lima: "+51‑1",
   lisbon: "+351‑21",
   london: "+44‑20",
-  "los‑angeles": "+1‑213",
+  "los-angeles": "+1‑213",
   malta: "+356",
   melbourne: "+61‑3",
   miami: "+1‑305",
-  milan: "+39‑02",
   montreal: "+1‑514",
   montevideo: "+598‑2",
   mykonos: "+30‑2289",
   nassau: "+1‑242",
-  "new‑orleans": "+1‑504",
-  "new‑york‑city": "+1‑212",
+  "new-orleans": "+1‑504",
+  "new-york-city": "+1‑212",
+  nice: "+33‑4",
   oslo: "+47‑22",
-  paris: "+33‑1",
+  "palma-de-mallorca": "+34‑971",
   philipsburg: "+1‑721",
-  "quebec‑city": "+1‑418",
-  "rio‑de‑janeiro": "+55‑21",
-  roatan: "+504‑3", // Honduras country code + area
+  portsmouth: "+44‑23",
+  "quebec-city": "+1‑418",
+  reykjavik: "+354",
+  "rio-de-janeiro": "+55‑21",
+  roatan: "+504‑3",
   rome: "+39‑06",
-  "san‑francisco": "+1‑415",
-  "san‑juan": "+1‑787",
-  santiago: "+56‑2",
+  "san-francisco": "+1‑415",
+  "san-juan": "+1‑787",
   santorini: "+30‑2286",
   seattle: "+1‑206",
   shanghai: "+86‑21",
@@ -969,14 +1143,21 @@ export const cityDialingMap = {
   sitka: "+1‑907",
   skagway: "+1‑907",
   southampton: "+44‑23",
-  "st‑petersburg": "+7‑812",
-  "st‑thomas": "+1‑340",
+  "st-petersburg": "+7‑812",
+  "st-thomas": "+1‑340",
+  stockholm: "+46‑8",
   sydney: "+61‑2",
   tampa: "+1‑813",
   tokyo: "+81‑3",
-  toronto: "+1‑416",
   vancouver: "+1‑604",
   venice: "+39‑041",
   victoria: "+1‑250",
   yokohama: "+81‑45",
+
+  // Legacy entries for backward compatibility
+  bali: "+62‑361",
+  florence: "+39‑055",
+  kyoto: "+81‑75",
+  lima: "+51‑1",
+  paris: "+33‑1",
 };
