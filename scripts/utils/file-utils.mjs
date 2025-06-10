@@ -243,6 +243,18 @@ export function formatKebebToTitleCase(str) {
     .join(" ");
 }
 
+export function formatKebabToCamelCase(str) {
+  return str
+    .split("-")
+    .map((word, index) => {
+      if (index === 0) {
+        return word;
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join("");
+}
+
 export function formatTitleToKebabCase(title) {
   return title
     .split(" ")
