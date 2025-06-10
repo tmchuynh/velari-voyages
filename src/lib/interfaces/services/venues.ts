@@ -1,7 +1,10 @@
 import { ContactInfo, Details, FAQs, TimePeriod } from "@/lib/types/types";
+import { Vessels } from "./cruises";
+import { TeamMember } from "../people/staff";
 
 interface BaseVenue {
   id: string;
+  vesselId: Vessels["id"];
   contact: ContactInfo;
   name: string;
   imageUrl?: string;
@@ -20,7 +23,27 @@ export interface Casino extends BaseVenue {
   minimumAge: number;
   dressCode?: string;
   freeDrinks?: boolean;
-  rewardProgram?: {
+  prohibitedItems?: string[];
+  prohibitedActions?: string[];
+  winningRedepmtion: {
+    minimumWageringAmount: number;
+    maximumWageringAmount: number;
+    wageringMethods: string[];
+    redemptionMethods: string[];
+  };
+  hasHighRollerRoom: boolean;
+  hasPokerRoom: boolean;
+  hasSlotMachines: boolean;
+  hasTableGames: boolean;
+  hasLiveDealerGames: boolean;
+  hasVIPArea: boolean;
+  hasEntertainment: boolean;
+  hasDiningOptions: boolean;
+  tippingRequired: string;
+  tippingAmount: number;
+  hasBar: boolean;
+  hasSmokingArea: boolean;
+  rewardProgram: {
     name: string;
     benefits: string[];
     pointsSystem: string;
@@ -47,42 +70,77 @@ export interface FitnessCenter extends BaseVenue {
   hasChildcareServices?: boolean;
 }
 
-export interface ShoppingArea extends BaseVenue {
-  stores: Details[];
-  hasDutyFree?: boolean;
-  hasLuxuryBrands?: boolean;
-  hasLocalCrafts?: boolean;
-  hasSouvenirShops?: boolean;
-  hasElectronicsStores?: boolean;
-  hasClothingStores?: boolean;
-  hasJewelryStores?: boolean;
-  hasCosmeticsStores?: boolean;
-  hasGourmetFoodStores?: boolean;
+export interface Shopping {
+  id: string;
+  vesselId: Vessels["id"];
+  type:
+    | "Duty-Free"
+    | "Jewelry and Watches"
+    | "Fashion and Accessories"
+    | "Electronics and Gadgets"
+    | "Souvenirs and Gifts"
+    | "Health and Beauty"
+    | "Sports and Outdoor"
+    | "Home and Living";
+  stores: {
+    id: string;
+    name: string;
+    description: string;
+    hours: TimePeriod;
+    contact: ContactInfo;
+    hasSales?: boolean;
+    isPopular?: boolean;
+  }[];
 }
 
-export interface EntertainmentVenue extends BaseVenue {
-  shows: Details[];
+export interface Entertainment {
+  id: string;
+  vesselId: Vessels["id"];
+  type:
+    | "Live Music"
+    | "Dancing"
+    | "Comedy"
+    | "Game Show"
+    | "Movie Theater"
+    | "Karaoke"
+    | "Magic Show"
+    | "Nightclub";
+  shows: {
+    id: string;
+    title: string;
+    description: string;
+    tickets: {
+      isRequired: boolean;
+      price: number;
+      currency: string;
+    };
+    isAdultOnly?: boolean;
+    duration: string;
+    schedule: TimePeriod[];
+    performers: TeamMember[];
+  }[];
+  hasBar?: boolean;
+  hasFoodService?: boolean;
+  hasAccessibleSeating?: boolean;
 }
+
 export interface ArtGallery extends BaseVenue {
-  exhibitions: Details[];
-  hasGuidedTours?: boolean;
-  hasWorkshops?: boolean;
-  hasArtClasses?: boolean;
-  hasGiftShop?: boolean;
-  hasCafé?: boolean;
+  artists: string[];
+  hasExhibitions?: boolean;
+  hasGuidedTours: boolean;
+  tours: Details[];
+  hasArtClasses: boolean;
+  artClasses: Details[];
 }
 
 export interface Library extends BaseVenue {
+  libraryType: "Digital" | "Physical";
   hasReadingRooms?: boolean;
   hasStudyAreas?: boolean;
-  hasComputerAccess?: boolean;
-  hasWiFi?: boolean;
-  hasPrintingServices?: boolean;
-  hasCopyingServices?: boolean;
-  hasScanningServices?: boolean;
-  hasMeetingRooms?: boolean;
-  hasChildrensArea?: boolean;
-  hasTeenArea?: boolean;
-  hasAdultArea?: boolean;
-  hasSpecialCollections?: boolean;
+  hasComputers?: boolean;
+  libraryCardRequired?: boolean;
+  hasEvents?: boolean;
+  events: Details[];
+  hasBookClubs?: boolean;
+  bookClubs: Details[];
 }
