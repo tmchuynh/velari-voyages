@@ -81,19 +81,23 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getCityFiles } from "./utils/file-utils.mjs";
+import { getCityFiles, capitalize } from "./utils/file-utils.mjs";
 import {
   getRandomRating,
   getRandomBool,
   getRandomHours,
   getRandomPrice,
 } from "./utils/data-generator.mjs";
+import { generateRandomEmail } from "./utils/data-generator.mjs";
+import {
+  cityDescriptions,
+  defaultCityDesc,
+} from "./utils/description-utils.mjs";
 import { generalEmailStarters } from "./utils/general-util.mjs";
 import {
   restaurantNamePrefix,
   restaurantNameSuffix,
 } from "./utils/name-utils.mjs";
-import { restaurantTemplate } from "./utils/template-util.mjs";
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -284,7 +288,7 @@ const generateRestaurantsForCity = (cityName) => {
     const fileContent = `
     // This file is auto-generated
     // Do not edit manually.
-    // City: ${capitalizeWords(city)}
+    // City: ${capitalize(cityName)}
     // Generated on: ${new Date().toISOString()}
     
     import { Restaurant } from "@/lib/types/types";
@@ -485,8 +489,62 @@ const generateRandomRestaurants = (cityName, count) => {
   for (let i = 0; i < count; i++) {
     const cuisine = getRandomCuisine();
 
+    const cityDesc = cityDescriptions[cityName] || defaultCityDesc;
+
+    const landmark =
+      cityDesc.landmarks[Math.floor(Math.random() * cityDesc.landmarks.length)];
+    const feature =
+      cityDesc.features[Math.floor(Math.random() * cityDesc.features.length)];
+    const specialty =
+      cityDesc.specialties[
+        Math.floor(Math.random() * cityDesc.specialties.length)
+      ];
+
+    const restaurantTemplate = [
+      `A charming ${cuisine} restaurant near ${landmark}, offering ${specialty} and other local favorites in a setting with ${feature}.`,
+      `Experience authentic ${cuisine} cuisine with a local twist, featuring ${specialty} served in an atmosphere of ${feature} overlooking ${landmark}.`,
+      `This popular ${cuisine} establishment combines traditional recipes and ${specialty}, all served in a unique setting with ${feature}.`,
+      `Located close to ${landmark}, this ${cuisine} restaurant delights with its ${specialty} and ${feature}.`,
+      `A culinary gem serving ${cuisine} specialties including ${specialty}, where guests enjoy ${feature} in the heart of the city.`,
+      `Discover the essence of ${cuisine} dining with ${specialty} and more, set against the backdrop of ${landmark} and ${feature}.`,
+      `This ${cuisine} restaurant is known for its ${specialty}, offering a unique dining experience with ${feature} near ${landmark}.`,
+      `Savor the flavors of ${cuisine} with a focus on ${specialty}, all within a setting that boasts ${feature} and views of ${landmark}.`,
+      `A must-visit ${cuisine} restaurant near ${landmark}, famous for its ${specialty} and a charming atmosphere with ${feature}.`,
+      `Indulge in ${cuisine} cuisine featuring ${specialty}, set in a delightful venue with ${feature} close to ${landmark}.`,
+      `This ${cuisine} restaurant offers a unique take on ${specialty}, surrounded by ${feature} and just a stone's throw from ${landmark}.`,
+      `A delightful ${cuisine} dining experience awaits with ${specialty}, set in a location that features ${feature} near ${landmark}.`,
+      `Enjoy ${cuisine} cuisine with a focus on ${specialty}, all in a setting that highlights ${feature} and overlooks ${landmark}.`,
+      `This ${cuisine} restaurant is a local favorite for its ${specialty}, offering a unique ambiance with ${feature} near ${landmark}.`,
+      `Experience the best of ${cuisine} with ${specialty}, served in a charming setting that features ${feature} and views of ${landmark}.`,
+      `A culinary destination for ${cuisine} lovers, this restaurant specializes in ${specialty} and offers a unique atmosphere with ${feature} near ${landmark}.`,
+      `This ${cuisine} restaurant is renowned for its ${specialty}, providing a unique dining experience with ${feature} close to ${landmark}.`,
+      `Savor the rich flavors of ${cuisine} with a focus on ${specialty}, all within a setting that boasts ${feature} and views of ${landmark}.`,
+      `A hidden gem in the city, this ${cuisine} restaurant offers ${specialty} and a unique ambiance with ${feature} near ${landmark}.`,
+      `Discover the flavors of ${cuisine} with a focus on ${specialty}, set in a delightful venue that features ${feature} and overlooks ${landmark}.`,
+      `This ${cuisine} restaurant is a must-visit for its ${specialty}, offering a unique dining experience with ${feature} close to ${landmark}.`,
+      `Indulge in the best of ${cuisine} with ${specialty}, all in a setting that highlights ${feature} and views of ${landmark}.`,
+      `A culinary delight for ${cuisine} enthusiasts, this restaurant specializes in ${specialty} and offers a unique atmosphere with ${feature} near ${landmark}.`,
+      `This ${cuisine} restaurant is known for its ${specialty}, providing a unique dining experience with ${feature} close to ${landmark}.`,
+      `Savor the rich flavors of ${cuisine} with a focus on ${specialty}, all within a setting that boasts ${feature} and views of ${landmark}.`,
+      `A hidden gem in the city, this ${cuisine} restaurant offers ${specialty} and a unique ambiance with ${feature} near ${landmark}.`,
+      `Discover the flavors of ${cuisine} with a focus on ${specialty}, set in a delightful venue that features ${feature} and overlooks ${landmark}.`,
+      `This ${cuisine} restaurant is a must-visit for its ${specialty}, offering a unique dining experience with ${feature} close to ${landmark}.`,
+      `Indulge in the best of ${cuisine} with ${specialty}, all in a setting that highlights ${feature} and views of ${landmark}.`,
+      `A culinary delight for ${cuisine} enthusiasts, this restaurant specializes in ${specialty} and offers a unique atmosphere with ${feature} near ${landmark}.`,
+      `This ${cuisine} restaurant is known for its ${specialty}, providing a unique dining experience with ${feature} close to ${landmark}.`,
+      `Savor the rich flavors of ${cuisine} with a focus on ${specialty}, all within a setting that boasts ${feature} and views of ${landmark}.`,
+      `A hidden gem in the city, this ${cuisine} restaurant offers ${specialty} and a unique ambiance with ${feature} near ${landmark}.`,
+      `Discover the flavors of ${cuisine} with a focus on ${specialty}, set in a delightful venue that features ${feature} and overlooks ${landmark}.`,
+      `This ${cuisine} restaurant is a must-visit for its ${specialty}, offering a unique dining experience with ${feature} close to ${landmark}.`,
+      `Indulge in the best of ${cuisine} with ${specialty}, all in a setting that highlights ${feature} and views of ${landmark}.`,
+      `A culinary delight for ${cuisine} enthusiasts, this restaurant specializes in ${specialty} and offers a unique atmosphere with ${feature} near ${landmark}.`,
+      `This ${cuisine} restaurant is known for its ${specialty}, providing a unique dining experience with ${feature} close to ${landmark}.`,
+    ];
+
+    const name = getRandomName();
+
     restaurants.push({
-      name: getRandomName(),
+      name: name,
       description:
         restaurantTemplate[
           Math.floor(Math.random() * restaurantTemplate.length)
@@ -496,12 +554,10 @@ const generateRandomRestaurants = (cityName, count) => {
       rating: getRandomRating(),
       openingHours: getRandomHours(),
       contactInfo: {
-        contactNumber: `+1-555-${Math.floor(Math.random() * 900) + 100}-${
+        contactNumber: `+1-232-${Math.floor(Math.random() * 900) + 100}-${
           Math.floor(Math.random() * 9000) + 1000
         }`,
-        contactEmail: `${emailStarter}@${formatTitleToCamelCase(getRandomName())
-          .toLowerCase()
-          .replace(/ /g, "")}${cityName}.com`,
+        contactEmail: generateRandomEmail(`${name}.com`),
       },
       isVegetarianFriendly: vegetarianFriendly,
       isVeganFriendly: veganFriendly,
