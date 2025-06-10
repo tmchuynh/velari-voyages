@@ -5,16 +5,17 @@ import { parseArgs } from "./utils/file-utils.mjs";
 import { getLogger } from "./utils/logger.mjs";
 
 
-import CreateCityCruiseFiles from "./commands/create-city-cruise-files.mjs";
-import CreateRestaurantData from "./commands/create-restaurant-data.mjs";
-import CreateRestaurantMenus from "./commands/create-restaurant-menus.mjs";
-import CreateRestaurantTestimonials from "./commands/create-restaurant-testimonials.mjs";
+import CreateCityCruiseFiles from "./create-city-cruise-files.mjs";
+import CreateRestaurantData from "./create-restaurant-data.mjs";
+import CreateRestaurantMenus from "./create-restaurant-menu-files.mjs";
+import CreateRestaurantTestimonials from "./create-restaurant-testimonials-files.mjs";
 import DeleteRestaurantMenuFiles from "./delete-restaurant-menu-files.mjs";
 import CreateCityVesselFiles from "./create-city-vessel-files.mjs";
 import CreateCrewMembers from "./create-crew-members.mjs";
-import DeleteCrewMembers from "./delete-crew-members.mjs";
-import DeleteCruiseFiles from "./delete-cruise-files.mjs";
-import DeleteRestaurantTestimonialsFiles from "./delete-restaurant-testimonials-files.mjs";
+import DeleteCrewMembers from "./commands/delete-crew-members.mjs";
+import DeleteCruiseFiles from "./commands/delete-cruise-files.mjs";
+import DeleteRestaurantTestimonialsFiles from "./commands/delete-restaurant-testimonials-files.mjs";
+import CreateShoppingStores from "./create-shopping-stores.mjs";
 
 const registry = getCommandRegistry();
 const logger = getLogger();
@@ -98,6 +99,14 @@ registry.register({
   aliases: ["delete-restaurant-testimonials", "rm-testimonials"],
   category: "restaurant",
   handler: DeleteRestaurantTestimonialsFiles,
+});
+
+registry.register({
+  name: "create-shopping-stores",
+  description: "Create shopping store venue files",
+  aliases: ["shopping-stores", "shopping", "stores"],
+  category: "venue",
+  handler: CreateShoppingStores,
 });
 
 const args = parseArgs(process.argv.slice(2), {
