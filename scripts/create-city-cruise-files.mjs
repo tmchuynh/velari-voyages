@@ -52,7 +52,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { getCityFiles } from "./utils/file-utils.mjs";
+import {
+  getCityFiles,
+  capitalize,
+  formatKebabToCamelCase,
+} from "./utils/file-utils.mjs";
 import {
   cruiseAdjectives,
   cityDescriptors,
@@ -64,7 +68,10 @@ import {
   cityToRegionMap,
   regionalDestinations,
 } from "./utils/geo-utils.mjs";
-import { getRandomLanguages } from "./utils/language-utils.mjs";
+import {
+  countryLanguagesMap,
+  getRandomLanguages,
+} from "./utils/language-utils.mjs";
 import {
   feminineNames,
   lastNames,
@@ -122,21 +129,6 @@ console.log(`Running with options:
 }
 `);
 
-// Function to convert kebab case to camelCase
-function kebabToCamelCase(str) {
-  return str
-    .split("-")
-    .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
-    )
-    .join("");
-}
-
-// Function to capitalize first letter of each word
-function capitalizeWords(str) {
-  return str.replace(/-/g, " ").replace(/(^\w|\s\w)/g, (m) => m.toUpperCase());
-}
-
 // Base directory for cruise files
 const cruisesDir = path.join(
   __dirname,
@@ -165,7 +157,7 @@ function getDestinationsForCity(cityName) {
   let possibleDestinations =
     regionalDestinations[region] || regionalDestinations["Mediterranean"];
   possibleDestinations = possibleDestinations.filter(
-    (dest) => dest.toLowerCase() !== capitalizeWords(cityName).toLowerCase()
+    (dest) => dest.toLowerCase() !== capitalize(cityName).toLowerCase()
   );
 
   // Get 2-4 random destinations
@@ -183,7 +175,7 @@ function getDestinationsForCity(cityName) {
 
 // Generate realistic cruise itinerary with sequential days
 function generateCruiseData(cityName, vesselId) {
-  const cityDisplayName = capitalizeWords(cityName);
+  const cityDisplayName = capitalize(cityName);
   const countryName = cityCountryMap[cityName] || "";
   const regionName = cityToRegionMap[cityName] || "";
   const cityCoordinatesData = cityCoordinates[cityName] || {
@@ -342,7 +334,7 @@ function generateCruiseData(cityName, vesselId) {
     cruiseAdjectives[Math.floor(Math.random() * cruiseAdjectives.length)];
   const experience =
     cruiseExperiences[Math.floor(Math.random() * cruiseExperiences.length)];
-  const regionType = cityToRegionMap[cityName] || capitalizeWords(cityName);
+  const regionType = cityToRegionMap[cityName] || capitalize(cityName);
 
   const cruiseTitle = generateEnticingCruiseTitle(cityName);
 
@@ -667,6 +659,7 @@ function generateCruiseData(cityName, vesselId) {
     tourCategoryId: "general-cruise", // Default category, can be updated
     contactPersonnel: [
       {
+        id: generateUniqueId(),
         name: contactName,
         role: contactRole,
         languages: [],
@@ -818,7 +811,7 @@ const personnelRoles = [
 ];
 
 for (const city of cityFiles) {
-  const camelCaseCity = kebabToCamelCase(city);
+  const camelCaseCity = formatKebabToCamelCase(city);
   const cruiseFilePath = path.join(cruisesDir, `${city}-cruises.ts`);
   let existingCruises = [];
   let cruisesToAdd = cruisesToAppend; // Use the command-line argument value
@@ -882,49 +875,17 @@ for (const city of cityFiles) {
       personnelRoles[Math.floor(Math.random() * personnelRoles.length)];
 
     // Get region-specific languages for the personnel
-    const region = cityToRegionMap[city] || "";
-    let regionForLanguages;
+    const country = cityCountryMap[city] || "";
+    const languagesCount = Math.floor(Math.random() * 2) + 1; // 1-3 languages
 
-    // Map maritime regions to language regions
-    switch (region) {
-      case "Mediterranean":
-      case "Northern Europe":
-      case "Western Europe":
-        regionForLanguages = "europe";
-        break;
+    // Use the language utility function to get random languages for the country
+    const personnelLanguages = getRandomLanguages(languagesCount, country);
 
-      case "Asia Pacific":
-        regionForLanguages = "asia";
-        break;
-
-      case "Caribbean":
-      case "East Coast USA":
-      case "West Coast USA":
-      case "East Coast Canada":
-      case "South America":
-        regionForLanguages = "americas";
-        break;
-
-      case "Middle East":
-        regionForLanguages = "middleEast";
-        break;
-
-      case "Africa":
-        regionForLanguages = "africa";
-        break;
-
-      default:
-        regionForLanguages = "global";
-        break;
-    }
-
-    // Update to generate 3-5 languages instead of 1-3
-    const languagesCount = Math.floor(Math.random() * 3) + 3; // 3-5 languages per personnel
-    const personnelLanguages = getRandomLanguages(
-      languagesCount,
-      regionForLanguages
-    );
-    const languagesList = personnelLanguages.map((lang) => `"${lang.name}"`);
+    // Ensure we have languages (fallback to English if none found)
+    const finalLanguages =
+      personnelLanguages.length > 0
+        ? personnelLanguages
+        : [{ code: "en", name: "English" }];
 
     // Determine which vessels are available for this city
     // This requires reading the corresponding {city}-vessels.ts file
@@ -1086,9 +1047,10 @@ for (const city of cityFiles) {
     tourCategoryId: "${tourCategoryId}",
     contactPersonnel: [
       {
+        id: "${generateUniqueId()}",
         name: "${getName()}",
         role: "${role}",
-        languages: [${languagesList}], // Use the properly generated languages list
+        languages: ${JSON.stringify(finalLanguages)},
         experienceYears: ${5 + Math.floor(Math.random() * 15)},
         profileImage: "${profileImage}",
         contact: {
@@ -1124,7 +1086,7 @@ for (const city of cityFiles) {
 
     const fileContent = `// This file is auto-generated
     // Do not edit manually.
-    // City: ${capitalizeWords(city)}
+    // City: ${capitalize(city)}
     // Generated on: ${new Date().toISOString()}
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
