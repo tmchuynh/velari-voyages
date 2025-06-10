@@ -88,7 +88,7 @@ import {
   getCityFiles,
   formatKebabToCamelCase,
 } from "./utils/file-utils.mjs";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -249,7 +249,7 @@ const tourTypes = [
     duration: "45 minutes",
     schedule: "Daily at 10:00 AM and 2:00 PM",
     maxParticipants: 15,
-    price: 25,
+    ticketPrice: 25,
   },
   {
     title: "Artist Spotlight Tour",
@@ -258,7 +258,7 @@ const tourTypes = [
     duration: "30 minutes",
     schedule: "Tuesdays and Thursdays at 11:00 AM",
     maxParticipants: 12,
-    price: 20,
+    ticketPrice: 20,
   },
   {
     title: "Behind the Scenes Tour",
@@ -267,7 +267,7 @@ const tourTypes = [
     duration: "60 minutes",
     schedule: "Weekends at 3:00 PM",
     maxParticipants: 8,
-    price: 35,
+    ticketPrice: 35,
   },
 ];
 
@@ -281,7 +281,7 @@ const artClassTypes = [
     skillLevel: "Beginner to Intermediate",
     materialsIncluded: true,
     maxParticipants: 12,
-    price: 45,
+    ticketPrice: 45,
   },
   {
     title: "Portrait Drawing Fundamentals",
@@ -291,7 +291,7 @@ const artClassTypes = [
     skillLevel: "All Levels",
     materialsIncluded: true,
     maxParticipants: 10,
-    price: 35,
+    ticketPrice: 35,
   },
   {
     title: "Abstract Painting Workshop",
@@ -301,7 +301,7 @@ const artClassTypes = [
     skillLevel: "Intermediate",
     materialsIncluded: true,
     maxParticipants: 8,
-    price: 55,
+    ticketPrice: 55,
   },
   {
     title: "Digital Art Creation",
@@ -311,7 +311,7 @@ const artClassTypes = [
     skillLevel: "Beginner",
     materialsIncluded: false,
     maxParticipants: 6,
-    price: 50,
+    ticketPrice: 50,
   },
   {
     title: "Sculpture with Clay",
@@ -321,7 +321,7 @@ const artClassTypes = [
     skillLevel: "All Levels",
     materialsIncluded: true,
     maxParticipants: 8,
-    price: 65,
+    ticketPrice: 65,
   },
   {
     title: "Photography Composition",
@@ -331,7 +331,7 @@ const artClassTypes = [
     skillLevel: "Beginner to Intermediate",
     materialsIncluded: false,
     maxParticipants: 15,
-    price: 40,
+    ticketPrice: 40,
   },
   {
     title: "Printmaking Basics",
@@ -341,7 +341,7 @@ const artClassTypes = [
     skillLevel: "Intermediate to Advanced",
     materialsIncluded: true,
     maxParticipants: 6,
-    price: 60,
+    ticketPrice: 60,
   },
   {
     title: "Mixed Media Collage",
@@ -351,7 +351,7 @@ const artClassTypes = [
     skillLevel: "All Levels",
     materialsIncluded: true,
     maxParticipants: 10,
-    price: 45,
+    ticketPrice: 45,
   },
   {
     title: "Calligraphy and Lettering",
@@ -361,7 +361,7 @@ const artClassTypes = [
     skillLevel: "Beginner",
     materialsIncluded: true,
     maxParticipants: 12,
-    price: 30,
+    ticketPrice: 30,
   },
   {
     title: "Jewelry Making Workshop",
@@ -371,7 +371,7 @@ const artClassTypes = [
     skillLevel: "Beginner to Intermediate",
     materialsIncluded: true,
     maxParticipants: 8,
-    price: 70,
+    ticketPrice: 70,
   },
 ];
 
@@ -419,46 +419,6 @@ const artGalleryFAQTemplates = [
   },
 ];
 
-// Get region for a city
-function getRegionForCity(cityName) {
-  const countryName = cityCountryMap[cityName] || "";
-  const regionMap = {
-    "United States": "North America",
-    Canada: "North America",
-    Mexico: "North America",
-    "United Kingdom": "Europe",
-    France: "Europe",
-    Spain: "Europe",
-    Italy: "Europe",
-    Germany: "Europe",
-    Netherlands: "Europe",
-    Norway: "Europe",
-    Sweden: "Europe",
-    Denmark: "Europe",
-    Finland: "Europe",
-    Russia: "Europe",
-    Japan: "Asia",
-    China: "Asia",
-    "South Korea": "Asia",
-    Singapore: "Asia",
-    Thailand: "Asia",
-    Vietnam: "Asia",
-    India: "Asia",
-    Australia: "Oceania",
-    "New Zealand": "Oceania",
-    Brazil: "South America",
-    Argentina: "South America",
-    Chile: "South America",
-    Uruguay: "South America",
-    Peru: "South America",
-    Colombia: "South America",
-    Malta: "Europe",
-    Ireland: "Europe",
-  };
-
-  return regionMap[countryName] || "Default";
-}
-
 // Generate artists list based on vessel type and region
 function generateArtistsList(vesselType, region) {
   const artists = [];
@@ -495,7 +455,7 @@ function generateExhibitions(hasExhibitions) {
 
   selectedThemes.forEach((theme) => {
     exhibitions.push({
-      name: theme.title,
+      title: theme.title,
       description: theme.description,
       duration: theme.duration,
       type: theme.type,
@@ -512,12 +472,12 @@ function generateTours(hasGuidedTours) {
   if (!hasGuidedTours) return undefined;
 
   return getRandomItems(tourTypes, 3).map((tour) => ({
-    name: tour.title,
+    title: tour.title,
     description: tour.description,
     duration: tour.duration,
     schedule: tour.schedule,
     maxParticipants: tour.maxParticipants,
-    price: tour.price,
+    ticketPrice: tour.price,
     currency: "USD",
     bookingRequired: true,
   }));
@@ -528,13 +488,13 @@ function generateArtClasses(hasArtClasses) {
   if (!hasArtClasses) return undefined;
 
   return getRandomItems(artClassTypes, 10).map((artClass) => ({
-    name: artClass.title,
+    title: artClass.title,
     description: artClass.description,
     duration: artClass.duration,
     skillLevel: artClass.skillLevel,
     materialsIncluded: artClass.materialsIncluded,
     maxParticipants: artClass.maxParticipants,
-    price: artClass.price,
+    ticketPrice: artClass.price,
     currency: "USD",
     bookingRequired: true,
     ageRestriction: getRandomBool(0.2) ? "12+" : "All ages", // 20% chance of age restriction
@@ -716,7 +676,7 @@ function generateArtGalleriesForCity(cityName) {
     return [];
   }
 
-  const region = getRegionForCity(cityName);
+  const region = cityToRegionMap(cityName);
   const artGalleries = [];
 
   // Generate one art gallery per vessel
