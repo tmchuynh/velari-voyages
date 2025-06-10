@@ -330,11 +330,11 @@ let cruiseDepartureLocations = [];
 try {
   const cityTsFile = fs.readFileSync(
     path.join(__dirname, "../src/lib/constants/info/city.ts"),
-    "utf8"
+    "utf8",
   );
   // Extract the cruiseDepartureLocations array using regex
   const locationsMatch = cityTsFile.match(
-    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/
+    /export const cruiseDepartureLocations: Location\[\] = (\[[\s\S]*?\n\];)/,
   );
   if (locationsMatch && locationsMatch[1]) {
     // Basic string manipulation to make it valid JSON (remove type annotations and convert to proper JSON)
@@ -421,7 +421,7 @@ function generateCrewMember(city, department, role, index = 0) {
     getRandomInt(3, 5),
     country ||
       cityToRegionMap[city.toLowerCase().replace(/ /g, "-")] ||
-      "global"
+      "global",
   );
 
   // Get city data from mapping
@@ -458,7 +458,7 @@ function generateCrewMember(city, department, role, index = 0) {
   if (bio.includes("{background}")) {
     bio = bio.replace(
       "{background}",
-      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)]
+      backgroundOptions[Math.floor(Math.random() * backgroundOptions.length)],
     );
   }
 
@@ -467,14 +467,14 @@ function generateCrewMember(city, department, role, index = 0) {
       "{specialty}",
       engineeringSpecialties[
         Math.floor(Math.random() * engineeringSpecialties.length)
-      ]
+      ],
     );
   }
 
   if (bio.includes("{cuisine}")) {
     bio = bio.replace(
       "{cuisine}",
-      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)]
+      cuisineTypes[Math.floor(Math.random() * cuisineTypes.length)],
     );
   }
 
@@ -499,7 +499,7 @@ function generateCityCrewMembers(
   city,
   specificDepartment = null,
   specificRole = null,
-  count = 1
+  count = 1,
 ) {
   const crewMembers = [];
 
@@ -532,14 +532,14 @@ function readExistingCrewMembers(city) {
   const filePath = path.join(
     __dirname,
     "../src/lib/constants/crewMembers",
-    `${city}.ts`
+    `${city}.ts`,
   );
 
   if (fs.existsSync(filePath)) {
     try {
       const fileContent = fs.readFileSync(filePath, "utf8");
       const match = fileContent.match(
-        /export const [a-zA-Z0-9_]+ = (\[[\s\S]*\]);/
+        /export const [a-zA-Z0-9_]+ = (\[[\s\S]*\]);/,
       );
       if (match && match[1]) {
         return JSON.parse(match[1]);
@@ -565,7 +565,7 @@ function writeCrewMembersToFile(city, crewMembers, append = false) {
       // Combine existing and new crew members
       crewMembers = [...existingCrewMembers, ...crewMembers];
       console.log(
-        `Added ${crewMembers.length - existingCrewMembers.length} new crew members to existing ${existingCrewMembers.length} for ${city}`
+        `Added ${crewMembers.length - existingCrewMembers.length} new crew members to existing ${existingCrewMembers.length} for ${city}`,
       );
     }
   }
@@ -581,7 +581,7 @@ function writeCrewMembersToFile(city, crewMembers, append = false) {
 export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
     crewMembers,
     null,
-    2
+    2,
   )};
 `;
 
@@ -592,7 +592,7 @@ export const ${cityVarName}: CrewMember[] = ${JSON.stringify(
 
   fs.writeFileSync(filePath, fileContent);
   console.log(
-    `Generated crew members file for ${city} with ${crewMembers.length} members`
+    `Generated crew members file for ${city} with ${crewMembers.length} members`,
   );
 }
 
@@ -623,7 +623,7 @@ async function main() {
     const filePath = path.join(
       __dirname,
       "../src/lib/constants/crewMembers",
-      `${specificCity}.ts`
+      `${specificCity}.ts`,
     );
 
     const fileExists = fs.existsSync(filePath);
@@ -635,7 +635,7 @@ async function main() {
         specificCity,
         specificDepartment,
         specificRole,
-        count
+        count,
       );
       writeCrewMembersToFile(specificCity, crewMembers, true);
     } else if (!fileExists || rewrite) {
@@ -644,7 +644,7 @@ async function main() {
       writeCrewMembersToFile(specificCity, crewMembers, false);
     } else {
       console.log(
-        `Crew file for ${specificCity} already exists. Use --rewrite to overwrite or specify department/role to add more.`
+        `Crew file for ${specificCity} already exists. Use --rewrite to overwrite or specify department/role to add more.`,
       );
     }
   } else {
@@ -653,7 +653,7 @@ async function main() {
       const filePath = path.join(
         __dirname,
         "../src/lib/constants/crewMembers",
-        `${city}.ts`
+        `${city}.ts`,
       );
 
       if (!fs.existsSync(filePath) || rewrite) {
@@ -661,7 +661,7 @@ async function main() {
         writeCrewMembersToFile(city, crewMembers, false);
       } else {
         console.log(
-          `Skipping ${city} - crew file already exists. Use --rewrite to overwrite.`
+          `Skipping ${city} - crew file already exists. Use --rewrite to overwrite.`,
         );
       }
     }

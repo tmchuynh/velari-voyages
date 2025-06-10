@@ -147,7 +147,7 @@ function kebabToCamelCase(str) {
   return str
     .split("-")
     .map((part, index) =>
-      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1)
+      index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1),
     )
     .join("");
 }
@@ -165,7 +165,7 @@ const vesselsDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "vessels"
+  "vessels",
 );
 
 // Ensure the vessels directory exists
@@ -199,7 +199,7 @@ function listVesselsForCity(cityName, sortOption = "none") {
   try {
     const fileContent = fs.readFileSync(vesselFilePath, "utf8");
     const arrayMatch = fileContent.match(
-      /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/
+      /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/,
     );
 
     if (!arrayMatch || !arrayMatch[1]) {
@@ -239,7 +239,7 @@ function listVesselsForCity(cityName, sortOption = "none") {
     }
 
     console.log(
-      `\nVessels in ${capitalizeWords(cityName)} (${vessels.length} total):`
+      `\nVessels in ${capitalizeWords(cityName)} (${vessels.length} total):`,
     );
     console.log("=".repeat(50));
     vessels.forEach((vessel, index) => {
@@ -534,7 +534,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   // Validate the vessel type is in our allowed list
   if (!vesselTypes.includes(formatTitleToKebabCase(type))) {
     console.warn(
-      `Warning: Invalid vessel type "${formatTitleToKebabCase(type)}" specified. Using default selection.`
+      `Warning: Invalid vessel type "${formatTitleToKebabCase(type)}" specified. Using default selection.`,
     );
     type = vesselTypes[Math.floor(Math.random() * vesselTypes.length)];
   }
@@ -660,7 +660,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedEnvFeatures = [];
   for (let i = 0; i < numEnvFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * environmentalFeatures.length
+      Math.random() * environmentalFeatures.length,
     );
     if (!selectedEnvFeatures.includes(environmentalFeatures[randomIndex])) {
       selectedEnvFeatures.push(environmentalFeatures[randomIndex]);
@@ -691,7 +691,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedAccessFeatures = [];
   for (let i = 0; i < numAccessFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * accessibilityFeatures.length
+      Math.random() * accessibilityFeatures.length,
     );
     if (!selectedAccessFeatures.includes(accessibilityFeatures[randomIndex])) {
       selectedAccessFeatures.push(accessibilityFeatures[randomIndex]);
@@ -726,7 +726,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedEntFeatures = [];
   for (let i = 0; i < numEntFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * entertainmentEquipment.length
+      Math.random() * entertainmentEquipment.length,
     );
     if (!selectedEntFeatures.includes(entertainmentEquipment[randomIndex])) {
       selectedEntFeatures.push(entertainmentEquipment[randomIndex]);
@@ -752,7 +752,7 @@ function generateVesselData(cityName, index, forcedVesselType = null) {
   const selectedCommFeatures = [];
   for (let i = 0; i < numCommFeatures; i++) {
     const randomIndex = Math.floor(
-      Math.random() * communicationEquipment.length
+      Math.random() * communicationEquipment.length,
     );
     if (!selectedCommFeatures.includes(communicationEquipment[randomIndex])) {
       selectedCommFeatures.push(communicationEquipment[randomIndex]);
@@ -840,7 +840,7 @@ for (const city of citiesToProcess) {
 
       // Extract the existing array
       const arrayMatch = existingContent.match(
-        /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/
+        /export const \w+Vessels: Vessels\[\] = \[([\s\S]*?)\];/,
       );
       if (arrayMatch && arrayMatch[1]) {
         try {
@@ -849,7 +849,7 @@ for (const city of citiesToProcess) {
           if (objectMatches) {
             const existingObjectCount = objectMatches.length;
             console.log(
-              `Found ${existingObjectCount} existing vessels in ${city}-vessels.ts`
+              `Found ${existingObjectCount} existing vessels in ${city}-vessels.ts`,
             );
 
             // Keep the existing content untouched
@@ -860,7 +860,7 @@ for (const city of citiesToProcess) {
         } catch (parseError) {
           console.error(
             `Error parsing existing vessels in ${city}-vessels.ts:`,
-            parseError
+            parseError,
           );
         }
       }
@@ -944,7 +944,7 @@ ${combinedVessels}
     fs.writeFileSync(vesselFilePath, fileContent);
     totalVesselsCreated += vesselObjects.length;
     console.log(
-      `${fileAction} file: ${vesselFilePath} with ${vesselObjects.length} new vessels`
+      `${fileAction} file: ${vesselFilePath} with ${vesselObjects.length} new vessels`,
     );
   } catch (error) {
     console.error(`Error processing vessel file for ${city}:`, error);

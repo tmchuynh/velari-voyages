@@ -71,7 +71,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
@@ -102,7 +102,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -111,7 +111,7 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } fitness center files`
+  } fitness center files`,
 );
 
 // Fitness equipment categories
@@ -127,6 +127,19 @@ const fitnessEquipment = {
     "Recumbent Bikes",
     "Air Bikes",
     "VersaClimber",
+    "SkiErg",
+    "Battle Ropes",
+    "Jump Ropes",
+    "Punching Bags",
+    "Agility Hurdles",
+    "Boxing Equipment",
+    "Cardio Kickboxing Bags",
+    "Cardio Step Platforms",
+    "Cardio Gliders",
+    "Cardio Punching Bags",
+    "Cardio Resistance Bands",
+    "Cardio Medicine Balls",
+    "Cardio Kettlebells",
   ],
   strength: [
     "Free Weights",
@@ -142,6 +155,107 @@ const fitnessEquipment = {
     "Lat Pulldown",
     "Leg Curl Machine",
     "Shoulder Press Machine",
+    "Chest Press Machine",
+    "Seated Row Machine",
+    "Bicep Curl Machine",
+    "Tricep Extension Machine",
+    "Abdominal Crunch Machine",
+    "Back Extension Machine",
+    "Calf Raise Machine",
+    "Cable Crossover Machine",
+    "Smith Machine",
+    "Multi-Gym Systems",
+    "Plate Loaded Machines",
+    "Functional Trainers",
+    "Smith Machines",
+    "Leg Extension Machine",
+    "Leg Press Machine",
+    "Chest Fly Machine",
+    "Cable Row Machine",
+    "Cable Lateral Raise Machine",
+    "Cable Tricep Pushdown Machine",
+    "Cable Bicep Curl Machine",
+    "Cable Ab Crunch Machine",
+    "Cable Back Extension Machine",
+    "Cable Calf Raise Machine",
+    "Cable Glute Kickback Machine",
+    "Cable Face Pull Machine",
+    "Cable Woodchopper Machine",
+    "Cable Reverse Fly Machine",
+    "Cable Upright Row Machine",
+    "Cable Shrug Machine",
+    "Cable Lunge Machine",
+    "Cable Squat Machine",
+    "Cable Deadlift Machine",
+    "Cable Hip Thrust Machine",
+    "Cable Plank Machine",
+    "Cable Russian Twist Machine",
+    "Cable Pallof Press Machine",
+    "Cable Single Arm Row Machine",
+    "Cable Single Arm Chest Press Machine",
+    "Cable Single Arm Shoulder Press Machine",
+    "Cable Single Arm Lat Pulldown Machine",
+    "Cable Single Arm Tricep Extension Machine",
+    "Cable Single Arm Bicep Curl Machine",
+    "Cable Single Arm Ab Crunch Machine",
+    "Cable Single Arm Back Extension Machine",
+    "Cable Single Arm Calf Raise Machine",
+    "Cable Single Arm Glute Kickback Machine",
+    "Cable Single Arm Face Pull Machine",
+    "Cable Single Arm Woodchopper Machine",
+    "Cable Single Arm Reverse Fly Machine",
+    "Cable Single Arm Upright Row Machine",
+    "Cable Single Arm Shrug Machine",
+    "Cable Single Arm Lunge Machine",
+    "Cable Single Arm Squat Machine",
+    "Cable Single Arm Deadlift Machine",
+    "Cable Single Arm Hip Thrust Machine",
+    "Cable Single Arm Plank Machine",
+    "Cable Single Arm Russian Twist Machine",
+    "Cable Single Arm Pallof Press Machine",
+    "Cable Single Arm Single Leg Deadlift Machine",
+    "Cable Single Arm Single Leg Squat Machine",
+    "Cable Single Arm Single Leg Glute Kickback Machine",
+    "Cable Single Arm Single Leg Calf Raise Machine",
+    "Cable Single Arm Single Leg Lunge Machine",
+    "Cable Single Arm Single Leg Hip Thrust Machine",
+    "Cable Single Arm Single Leg Plank Machine",
+    "Cable Single Arm Single Leg Russian Twist Machine",
+    "Cable Single Arm Single Leg Pallof Press Machine",
+    "Cable Single Arm Single Leg Woodchopper Machine",
+    "Cable Single Arm Single Leg Reverse Fly Machine",
+    "Cable Single Arm Single Leg Upright Row Machine",
+    "Cable Single Arm Single Leg Shrug Machine",
+    "Cable Single Arm Single Leg Lateral Raise Machine",
+    "Cable Single Arm Single Leg Front Raise Machine",
+    "Cable Single Arm Single Leg Rear Delt Fly Machine",
+    "Cable Single Arm Single Leg Tricep Extension Machine",
+    "Cable Single Arm Single Leg Bicep Curl Machine",
+    "Cable Single Arm Single Leg Ab Crunch Machine",
+    "Cable Single Arm Single Leg Back Extension Machine",
+    "Cable Single Arm Single Leg Calf Raise Machine",
+    "Cable Single Arm Single Leg Glute Kickback Machine",
+    "Cable Single Arm Single Leg Face Pull Machine",
+    "Cable Single Arm Single Leg Woodchopper Machine",
+    "Cable Single Arm Single Leg Reverse Fly Machine",
+    "Cable Single Arm Single Leg Upright Row Machine",
+    "Cable Single Arm Single Leg Shrug Machine",
+    "Cable Single Arm Single Leg Lunge Machine",
+    "Cable Single Arm Single Leg Squat Machine",
+    "Cable Single Arm Single Leg Deadlift Machine",
+    "Cable Single Arm Single Leg Hip Thrust Machine",
+    "Cable Single Arm Single Leg Plank Machine",
+    "Cable Single Arm Single Leg Russian Twist Machine",
+    "Cable Single Arm Single Leg Pallof Press Machine",
+    "Cable Single Arm Single Leg Woodchopper Machine",
+    "Cable Single Arm Single Leg Reverse Fly Machine",
+    "Cable Single Arm Single Leg Upright Row Machine",
+    "Cable Single Arm Single Leg Shrug Machine",
+    "Cable Single Arm Single Leg Lateral Raise Machine",
+    "Cable Single Arm Single Leg Front Raise Machine",
+    "Cable Single Arm Single Leg Rear Delt Fly Machine",
+    "Cable Single Arm Single Leg Tricep Extension Machine",
+    "Cable Single Arm Single Leg Bicep Curl Machine",
   ],
   functional: [
     "Kettlebells",
@@ -154,16 +268,53 @@ const fitnessEquipment = {
     "Foam Rollers",
     "Yoga Mats",
     "Balance Boards",
+    "Agility Cones",
+    "Agility Hurdles",
+    "Agility Poles",
+    "Agility Dots",
+    "Agility Markers",
     "Agility Ladders",
     "Plyo Boxes",
+    "Slam Balls",
+    "Sandbags",
+    "Weighted Vests",
+    "Sledgehammers",
+    "Tire Flips",
+    "Jump Boxes",
+    "Speed Hurdles",
+    "Speed Cones",
+    "Speed Ladders",
+    "Speed Parachutes",
+    "Speed Resistors",
+    "Speed Sleds",
+    "Speed Harnesses",
+    "Speed Bands",
+    "Speed Cords",
   ],
   specialized: [
     "Pilates Reformers",
     "Barre Equipment",
+    "Yoga Equipment",
+    "Spinning Bikes",
+    "Aqua Fitness Equipment",
+    "Boxing Equipment",
+    "Kickboxing Equipment",
+    "Dance Fitness Equipment",
+    "Functional Training Equipment",
+    "CrossFit Equipment",
+    "TRX Suspension Trainers",
     "Stretching Stations",
     "Recovery Tools",
     "Massage Chairs",
     "Compression Therapy",
+    "HydroMassage Beds",
+    "Infrared Therapy",
+    "Cryotherapy Chambers",
+    "Float Tanks",
+    "Yoga Blocks",
+    "Yoga Straps",
+    "Yoga Wheels",
+    "Yoga Bolsters",
     "Infrared Sauna",
     "Cryotherapy Chamber",
   ],
@@ -175,10 +326,13 @@ const trainerSpecialties = [
   "Fitness Nutrition Specialist",
   "Yoga Instructor",
   "Pilates Instructor",
+  "Group Fitness Instructor",
+  "Strength and Conditioning Coach",
   "Spinning Instructor",
   "Aqua Fitness Instructor",
   "Strength Training Specialist",
   "Senior Fitness Specialist",
+  "Youth Fitness Specialist",
   "Corrective Exercise Specialist",
   "Group Fitness Instructor",
 ];
@@ -195,6 +349,8 @@ const fitnessAmenities = [
   "Hair Dryers",
   "Toiletries",
   "Fresh Fruit Bar",
+  "Smoothie Bar",
+  "Nutrition Counseling",
   "Protein Shakes",
   "Equipment Orientation",
   "Workout Programs",
@@ -218,6 +374,8 @@ const groupClasses = [
   "Dance Fitness",
   "Core Strengthening",
   "Flexibility Training",
+  "Cardio Kickboxing",
+  "Functional Training",
 ];
 
 // FAQ templates for fitness centers
@@ -264,69 +422,29 @@ const fitnessFAQTemplates = [
   },
 ];
 
-// Get region for a city
-function getRegionForCity(cityName) {
-  const countryName = cityCountryMap[cityName] || "";
-  const regionMap = {
-    "United States": "North America",
-    Canada: "North America",
-    Mexico: "North America",
-    "United Kingdom": "Europe",
-    France: "Europe",
-    Spain: "Europe",
-    Italy: "Europe",
-    Germany: "Europe",
-    Netherlands: "Europe",
-    Norway: "Europe",
-    Sweden: "Europe",
-    Denmark: "Europe",
-    Finland: "Europe",
-    Russia: "Europe",
-    Japan: "Asia",
-    China: "Asia",
-    "South Korea": "Asia",
-    Singapore: "Asia",
-    Thailand: "Asia",
-    Vietnam: "Asia",
-    India: "Asia",
-    Australia: "Oceania",
-    "New Zealand": "Oceania",
-    Brazil: "South America",
-    Argentina: "South America",
-    Chile: "South America",
-    Uruguay: "South America",
-    Peru: "South America",
-    Colombia: "South America",
-    Malta: "Europe",
-    Ireland: "Europe",
-  };
-
-  return regionMap[countryName] || "Default";
-}
-
 // Generate fitness center equipment based on vessel type
 function generateFitnessEquipment(vesselType) {
   const equipment = [];
 
   // Always include basic cardio and strength equipment
   equipment.push(
-    ...getRandomItems(fitnessEquipment.cardio, getRandomInt(6, 10))
+    ...getRandomItems(fitnessEquipment.cardio, getRandomInt(6, 10)),
   );
   equipment.push(
-    ...getRandomItems(fitnessEquipment.strength, getRandomInt(8, 12))
+    ...getRandomItems(fitnessEquipment.strength, getRandomInt(8, 12)),
   );
   equipment.push(
-    ...getRandomItems(fitnessEquipment.functional, getRandomInt(5, 8))
+    ...getRandomItems(fitnessEquipment.functional, getRandomInt(5, 8)),
   );
 
   // Add specialized equipment based on vessel type
   if (vesselType.includes("luxury") || vesselType.includes("vip")) {
     equipment.push(
-      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(3, 6))
+      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(3, 6)),
     );
   } else {
     equipment.push(
-      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(1, 3))
+      ...getRandomItems(fitnessEquipment.specialized, getRandomInt(1, 3)),
     );
   }
 
@@ -349,7 +467,7 @@ function generateFitnessAmenities(vesselType) {
   if (vesselType.includes("luxury") || vesselType.includes("vip")) {
     const luxuryAmenities = getRandomItems(
       fitnessAmenities,
-      getRandomInt(3, 5)
+      getRandomInt(3, 5),
     );
     return [...new Set([...baseAmenities, ...luxuryAmenities])];
   }
@@ -393,7 +511,7 @@ function generateFitnessDescription(
   vesselName,
   cityName,
   region,
-  features
+  features,
 ) {
   const specialFeatures = [];
   if (features.hasPool) specialFeatures.push("pool area");
@@ -429,7 +547,7 @@ function getVesselDataForCity(cityName) {
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -463,7 +581,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -520,7 +638,7 @@ function generateFitnessCenterForVessel(vessel, cityName, region) {
       vessel.name,
       cityName,
       region,
-      features
+      features,
     ),
     imageUrl: `/images/fitness/${vessel.type}-fitness-center.jpg`,
     hours: hours,
@@ -547,19 +665,19 @@ function generateFitnessCentersForCity(cityName) {
     return [];
   }
 
-  const region = getRegionForCity(cityName);
+  const region = cityToRegionMap(cityName);
   const fitnessCenters = [];
 
   // Generate one fitness center per vessel
   vessels.forEach((vessel) => {
     fitnessCenters.push(
-      generateFitnessCenterForVessel(vessel, cityName, region)
+      generateFitnessCenterForVessel(vessel, cityName, region),
     );
   });
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${fitnessCenters.length} fitness centers for ${cityName} (${vessels.length} vessels)`
+      `Generated ${fitnessCenters.length} fitness centers for ${cityName} (${vessels.length} vessels)`,
     );
   }
 
@@ -614,12 +732,12 @@ ${fitness.faqs
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
     isPopular: ${fitness.isPopular}
-  }`
+  }`,
     )
     .join(",\n");
 
@@ -644,7 +762,7 @@ async function generateFitnessFiles() {
     "lib",
     "constants",
     "venues",
-    "fitness"
+    "fitness",
   );
 
   // Create directories if they don't exist
@@ -686,7 +804,7 @@ async function generateFitnessFiles() {
         try {
           const existingContent = fs.readFileSync(fitnessFilePath, "utf8");
           const existingFitnessMatch = existingContent.match(
-            /export const \w+FitnessCenters: FitnessCenter\[\] = \[([\s\S]*?)\];/
+            /export const \w+FitnessCenters: FitnessCenter\[\] = \[([\s\S]*?)\];/,
           );
 
           if (existingFitnessMatch) {
@@ -695,7 +813,7 @@ async function generateFitnessFiles() {
           }
         } catch (error) {
           console.warn(
-            `⚠️  Could not parse existing fitness center file for ${city}: ${error.message}`
+            `⚠️  Could not parse existing fitness center file for ${city}: ${error.message}`,
           );
         }
       }
@@ -708,11 +826,11 @@ async function generateFitnessFiles() {
 
       if (APPEND_MODE && fileExists) {
         console.log(
-          `✅ Updated fitness center file for ${capitalize(city)} (${allFitnessCenters.length} fitness centers)`
+          `✅ Updated fitness center file for ${capitalize(city)} (${allFitnessCenters.length} fitness centers)`,
         );
       } else {
         console.log(
-          `✅ Created fitness center file for ${capitalize(city)} (${allFitnessCenters.length} fitness centers)`
+          `✅ Created fitness center file for ${capitalize(city)} (${allFitnessCenters.length} fitness centers)`,
         );
         filesCreated++;
       }

@@ -137,7 +137,7 @@ const cruisesDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "cruises"
+  "cruises",
 );
 
 // Ensure the cruises directory exists
@@ -157,7 +157,7 @@ function getDestinationsForCity(cityName) {
   let possibleDestinations =
     regionalDestinations[region] || regionalDestinations["Mediterranean"];
   possibleDestinations = possibleDestinations.filter(
-    (dest) => dest.toLowerCase() !== capitalize(cityName).toLowerCase()
+    (dest) => dest.toLowerCase() !== capitalize(cityName).toLowerCase(),
   );
 
   // Get 2-4 random destinations
@@ -341,29 +341,29 @@ function generateCruiseData(cityName, vesselId) {
   // Generate more descriptive descriptions
   const descriptions = [
     `Embark on an unforgettable ${experience.toLowerCase()} from the vibrant port of ${cityDisplayName}, where you'll discover hidden gems and iconic landmarks across the ${regionType} region. With stops at ${destinations.join(
-      ", "
+      ", ",
     )}, this journey combines cultural immersion with breathtaking scenery.`,
 
     `Set sail from ${cityDisplayName} on this ${adjective.toLowerCase()} ${experience.toLowerCase()} through the heart of ${regionType}. Experience the perfect blend of relaxation and adventure as you explore ${destinations.join(
-      " and "
+      " and ",
     )}, with personalized service and unforgettable experiences awaiting at every port.`,
 
     `Discover the wonders of ${regionType} aboard this ${adjective.toLowerCase()} cruise departing from ${cityDisplayName}. Journey through crystal waters to explore the treasures of ${destinations.join(
-      ", "
+      ", ",
     )}, where each day brings new adventures and evenings are filled with elegant dining and entertainment.`,
 
     `This extraordinary ${experience.toLowerCase()} from ${cityDisplayName} offers the ultimate ${regionType} exploration. Immerse yourself in the rich cultures and stunning landscapes of ${destinations
       .slice(0, -1)
       .join(", ")} and ${destinations.slice(
-      -1
+      -1,
     )}, creating memories that will last a lifetime.`,
 
     `Begin your ${experience.toLowerCase()} in ${cityDisplayName}, a gateway to the soul of ${regionType}. Enjoy days spent exploring ${destinations.join(
-      ", "
+      ", ",
     )} and evenings immersed in onboard luxury, fine dining, and panoramic sea views.`,
 
     `Sail away from the charming harbor of ${cityDisplayName} on this ${adjective.toLowerCase()} journey across ${regionType}. Uncover the beauty and history of ${destinations.join(
-      ", "
+      ", ",
     )} with curated excursions, world-class cuisine, and exceptional service.`,
 
     `Your ${experience.toLowerCase()} begins in ${cityDisplayName}, where the spirit of exploration meets modern luxury. From the sun-drenched shores of ${
@@ -375,11 +375,11 @@ function generateCruiseData(cityName, vesselId) {
     `Experience the elegance of the seas on this ${adjective.toLowerCase()} ${experience.toLowerCase()} through ${regionType}, starting from the illustrious port of ${cityDisplayName}. From ${destinations
       .slice(0, -1)
       .join(", ")} to ${destinations.slice(
-      -1
+      -1,
     )}, each destination offers its own story, culture, and breathtaking views.`,
 
     `From the lively departure port of ${cityDisplayName}, this curated ${experience.toLowerCase()} showcases the finest of ${regionType}. With visits to ${destinations.join(
-      ", "
+      ", ",
     )}, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.`,
 
     `Set course from ${cityDisplayName} for an inspiring ${adjective.toLowerCase()} journey across ${regionType}. Whether exploring ancient ruins in ${
@@ -389,15 +389,15 @@ function generateCruiseData(cityName, vesselId) {
     }, every day offers a perfect mix of discovery and relaxation.`,
 
     `Launch into adventure from ${cityDisplayName} and sail deep into the heart of the ${regionType}. With ports of call like ${destinations.join(
-      ", "
+      ", ",
     )}, expect a voyage filled with scenic wonders and luxurious comforts.`,
 
     `This ${adjective.toLowerCase()} cruise from ${cityDisplayName} is your ticket to the captivating charm of the ${regionType}. Discover the delights of ${destinations.join(
-      ", "
+      ", ",
     )} with enriching excursions and award-winning service.`,
 
     `Begin an epic ${experience.toLowerCase()} from ${cityDisplayName}, where the seas meet culture. Visit the remarkable ports of ${destinations.join(
-      ", "
+      ", ",
     )} while indulging in fine dining, entertainment, and unmatched hospitality.`,
 
     `Sail into splendor from ${cityDisplayName} on a ${adjective.toLowerCase()} voyage through ${regionType}. Let each stop—from ${
@@ -407,15 +407,15 @@ function generateCruiseData(cityName, vesselId) {
     }—reveal the unique flavors and colors of the region.`,
 
     `Depart from ${cityDisplayName} on this thoughtfully designed ${experience.toLowerCase()} across the ${regionType}. Savor coastal charm, cultural treasures, and ocean views with stops at ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Escape into the calm waters of ${regionType} with this ${adjective.toLowerCase()} journey from ${cityDisplayName}. Explore vibrant markets, sun-soaked beaches, and architectural marvels at ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `This handpicked ${experience.toLowerCase()} begins in ${cityDisplayName} and travels through ${regionType}'s iconic waterscapes. Discover ${destinations.join(
-      ", "
+      ", ",
     )} as each day brings new stories and every night offers elegant repose.`,
 
     `Set sail from ${cityDisplayName} for a voyage like no other. From the picturesque landscapes of ${
@@ -429,135 +429,135 @@ function generateCruiseData(cityName, vesselId) {
     } to ${destinations[1]}.`,
 
     `Depart ${cityDisplayName} on a relaxing ${experience.toLowerCase()} through the ${regionType} region. Highlights include the stunning coastlines of ${destinations.join(
-      ", "
+      ", ",
     )}, all while enjoying first-class amenities on board.`,
 
     `This ${experience.toLowerCase()} takes you beyond the ordinary, starting in ${cityDisplayName}. With breathtaking stops in ${destinations.join(
-      ", "
+      ", ",
     )}, your cruise delivers immersive moments and unforgettable vistas.`,
 
     `Escape the everyday with this ${adjective.toLowerCase()} journey through ${regionType}, departing from ${cityDisplayName}. You'll visit ${destinations.join(
-      ", "
+      ", ",
     )}, where every stop is a new adventure.`,
 
     `Let the winds of the ${regionType} carry you from ${cityDisplayName} to the most stunning ports in the region. With destinations like ${destinations.join(
-      ", "
+      ", ",
     )}, this ${experience.toLowerCase()} redefines luxury travel.`,
 
     `Depart from iconic ${cityDisplayName} and traverse the ${regionType} with visits to ${destinations.join(
-      ", "
+      ", ",
     )}. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.`,
 
     `An unforgettable ${experience.toLowerCase()} awaits as you cruise from ${cityDisplayName} across ${regionType}. Dive into history, flavor, and culture with stops including ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Depart from the iconic port of ${cityDisplayName} and sail through the enchanting ${regionType}. Explore vibrant destinations like ${destinations.join(
-      ", "
+      ", ",
     )}, each offering its own unique charm and local flair.`,
 
     `Step aboard in ${cityDisplayName} and begin a ${adjective.toLowerCase()} journey through the scenic ${regionType}. From historic cities to coastal hideaways like ${destinations.join(
-      ", "
+      ", ",
     )}, every day is unforgettable.`,
 
     `Set off on a ${experience.toLowerCase()} from ${cityDisplayName} that captures the essence of ${regionType}. Discover cultural gems and culinary delights across ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Your journey through the ${regionType} begins in ${cityDisplayName}, where elegance meets adventure. Explore the shores of ${destinations.join(
-      ", "
+      ", ",
     )}, with curated excursions and luxurious onboard amenities.`,
 
     `Board in ${cityDisplayName} for a hand-crafted ${experience.toLowerCase()} through the breathtaking ${regionType}. Highlights include sun-drenched beaches, historic ports, and immersive culture in ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Escape to sea from ${cityDisplayName} on a ${adjective.toLowerCase()} voyage exploring the magic of ${regionType}. Visit unforgettable locales like ${destinations.join(
-      ", "
+      ", ",
     )}, where each stop inspires awe.`,
 
     `Experience coastal elegance on this ${experience.toLowerCase()} from ${cityDisplayName}, where the journey through ${regionType} includes stops in ${destinations.join(
-      ", "
+      ", ",
     )}, each more enchanting than the last.`,
 
     `Leave ordinary behind as you sail from ${cityDisplayName} across the captivating ${regionType}. Discover the distinctive personality of each destination, from ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `This ${adjective.toLowerCase()} ${experience.toLowerCase()} begins in ${cityDisplayName} and ventures deep into the heart of ${regionType}. Wander through colorful markets, historic streets, and serene coastlines at ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Join us in ${cityDisplayName} for a ${experience.toLowerCase()} of a lifetime. Sail across the serene waters of ${regionType}, stopping at ports like ${destinations.join(
-      ", "
+      ", ",
     )} where timeless traditions meet modern luxuries.`,
 
     `Sail away from ${cityDisplayName} into the beautiful expanse of ${regionType}. Along the way, enjoy rich cultural experiences in ${destinations.join(
-      ", "
+      ", ",
     )}, where history, nature, and cuisine collide.`,
 
     `This inspiring ${experience.toLowerCase()} departs from ${cityDisplayName}, navigating the diverse landscapes and vibrant cities of ${regionType}. Must-see stops include ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Explore a new side of ${regionType} with this ${adjective.toLowerCase()} ${experience.toLowerCase()} starting in ${cityDisplayName}. Visit charming ports such as ${destinations.join(
-      ", "
+      ", ",
     )}, each offering its own unique rhythm.`,
 
     `Unwind and explore on this ${experience.toLowerCase()} through ${regionType}, departing from ${cityDisplayName}. With every stop—from ${
       destinations[0]
     } to ${destinations.slice(
-      -1
+      -1,
     )}—you’ll collect memories that last a lifetime.`,
 
     `Let the spirit of exploration guide your ${adjective.toLowerCase()} journey from ${cityDisplayName}. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Start in the vibrant city of ${cityDisplayName} and venture into the iconic ${regionType}. Discover authentic local cultures, cuisine, and coastal wonders in ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Savor each moment of this ${adjective.toLowerCase()} escape through ${regionType}, starting in ${cityDisplayName}. Visit renowned locations like ${destinations.join(
-      ", "
+      ", ",
     )}, where adventure and relaxation intertwine.`,
 
     `Your ${experience.toLowerCase()} begins in ${cityDisplayName}, where every sunset on the ${regionType} horizon promises another day of discovery—from ${destinations.join(
-      ", "
+      ", ",
     )} to hidden ports of charm.`,
 
     `Leave stress behind with this curated ${experience.toLowerCase()} from ${cityDisplayName}. Sail across the best of ${regionType} and explore treasures like ${destinations.join(
-      ", "
+      ", ",
     )} with comfort and style.`,
 
     `A voyage of contrasts awaits from ${cityDisplayName}. Discover the historical and natural richness of ${regionType} as you cruise to spectacular destinations like ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Embark from ${cityDisplayName} and traverse the ${regionType} in style. Whether it’s the energy of ${destinations[0]} or the calm of ${destinations[1]}, each destination reveals a new side of paradise.`,
 
     `Begin a captivating ${experience.toLowerCase()} through the ${regionType}, departing ${cityDisplayName}. With visits to ${destinations.join(
-      ", "
+      ", ",
     )}, each day brings a new adventure and deeper connection to the region.`,
 
     `This hand-selected ${adjective.toLowerCase()} cruise offers a true taste of ${regionType}. Depart from ${cityDisplayName} and explore ports like ${destinations.join(
-      ", "
+      ", ",
     )}, each telling a story through food, music, and tradition.`,
 
     `Step into a world of elegance and exploration from ${cityDisplayName}. This ${experience.toLowerCase()} through the ${regionType} unveils stunning stops including ${destinations.join(
-      ", "
+      ", ",
     )}, all with first-class service.`,
 
     `Enjoy seamless luxury on this ${adjective.toLowerCase()} ${experience.toLowerCase()} beginning in ${cityDisplayName}. Visit breathtaking ${regionType} locales such as ${destinations.join(
-      ", "
+      ", ",
     )} on this unforgettable itinerary.`,
 
     `Set sail from historic ${cityDisplayName} for a modern escape into the ${regionType}. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Let the waves lead you from ${cityDisplayName} on this ${adjective.toLowerCase()} ${experience.toLowerCase()}. Traverse the iconic waters of ${regionType} and discover the beauty of ${destinations.join(
-      ", "
+      ", ",
     )}.`,
 
     `Begin your journey in ${cityDisplayName}, where tradition meets travel. This immersive ${experience.toLowerCase()} reveals the finest of ${regionType}, from the beaches of ${
@@ -565,23 +565,23 @@ function generateCruiseData(cityName, vesselId) {
     } to the streets of ${destinations[1]}.`,
 
     `From bustling ${cityDisplayName} to serene ${regionType} shores, this cruise invites you to relax, explore, and indulge. Stops at ${destinations.join(
-      ", "
+      ", ",
     )} deliver a balanced blend of culture and comfort.`,
 
     `Sail from ${cityDisplayName} into a world of wonder. The ${regionType} beckons with unforgettable ports like ${destinations.join(
-      ", "
+      ", ",
     )}, where every view is picture-perfect and every moment is priceless.`,
 
     `Let this ${adjective.toLowerCase()} voyage redefine your idea of travel. From ${cityDisplayName}, explore the ${regionType} in luxurious comfort, stopping at ${destinations.join(
-      ", "
+      ", ",
     )} where every port offers a new chapter.`,
 
     `An escape like no other begins in ${cityDisplayName}, where your ${experience.toLowerCase()} launches into the heart of ${regionType}. Discover the magic of ${destinations.join(
-      ", "
+      ", ",
     )} with style and sophistication.`,
 
     `This ${adjective.toLowerCase()} cruise from ${cityDisplayName} is your gateway to the wonders of ${regionType}. Experience the best of coastal life with stops at ${destinations.join(
-      ", "
+      ", ",
     )}, where each destination is a treasure waiting to be explored.`,
     `Embark on a ${experience.toLowerCase()} from ${cityDisplayName} that promises to captivate your senses. From the vibrant markets of ${
       destinations[0]
@@ -589,7 +589,7 @@ function generateCruiseData(cityName, vesselId) {
       destinations[1]
     }, this journey through ${regionType} is one you won't forget.`,
     `Experience the allure of ${regionType} on this ${adjective.toLowerCase()} cruise departing from ${cityDisplayName}. With stops at ${destinations.join(
-      ", "
+      ", ",
     )}, you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.`,
     `Set sail from ${cityDisplayName} on a ${adjective.toLowerCase()} ${experience.toLowerCase()} that explores the hidden gems of ${regionType}. From the bustling streets of ${
       destinations[0]
@@ -597,10 +597,10 @@ function generateCruiseData(cityName, vesselId) {
       destinations[1]
     }, each stop offers a unique glimpse into the heart of this enchanting region.`,
     `Join us for a ${adjective.toLowerCase()} ${experience.toLowerCase()} from ${cityDisplayName}, where the journey through ${regionType} is as enriching as the destinations themselves. Visit ${destinations.join(
-      ", "
+      ", ",
     )} and create memories that will last a lifetime.`,
     `Discover the beauty of ${regionType} on this ${adjective.toLowerCase()} cruise from ${cityDisplayName}. With stops at ${destinations.join(
-      ", "
+      ", ",
     )}, you'll experience a perfect blend of relaxation, adventure, and cultural immersion.`,
     `This ${experience.toLowerCase()} from ${cityDisplayName} invites you to explore the diverse landscapes and vibrant cultures of ${regionType}. From the historic charm of ${
       destinations[0]
@@ -608,7 +608,7 @@ function generateCruiseData(cityName, vesselId) {
       destinations[1]
     }, each port offers a unique experience that will leave you enchanted.`,
     `Embark on a ${adjective.toLowerCase()} ${experience.toLowerCase()} from ${cityDisplayName}, where the wonders of ${regionType} await. With stops at ${destinations.join(
-      ", "
+      ", ",
     )}, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.`,
     `Experience the magic of ${regionType} on this ${adjective.toLowerCase()} cruise departing from ${cityDisplayName}. From the vibrant culture of ${
       destinations[0]
@@ -616,7 +616,7 @@ function generateCruiseData(cityName, vesselId) {
       destinations[1]
     }, this journey promises unforgettable moments and lasting memories.`,
     `Set sail from ${cityDisplayName} on a ${adjective.toLowerCase()} ${experience.toLowerCase()} that takes you through the heart of ${regionType}. With stops at ${destinations.join(
-      ", "
+      ", ",
     )}, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.`,
 
     `Discover the wonders of ${regionType} on this ${adjective.toLowerCase()} cruise departing from ${cityDisplayName}. From the stunning coastlines of ${
@@ -836,7 +836,7 @@ for (const city of cityFiles) {
 
       // Extract the existing array
       const arrayMatch = existingContent.match(
-        /export const \w+Cruises: Cruise\[\] = \[([\s\S]*?)\];/
+        /export const \w+Cruises: Cruise\[\] = \[([\s\S]*?)\];/,
       );
       if (arrayMatch && arrayMatch[1]) {
         try {
@@ -845,7 +845,7 @@ for (const city of cityFiles) {
           if (objectMatches) {
             const existingObjectCount = objectMatches.length;
             console.log(
-              `Found ${existingObjectCount} existing cruises in ${city}-cruises.ts`
+              `Found ${existingObjectCount} existing cruises in ${city}-cruises.ts`,
             );
 
             // Keep the existing content untouched
@@ -856,7 +856,7 @@ for (const city of cityFiles) {
         } catch (parseError) {
           console.error(
             `Error parsing existing cruises in ${city}-cruises.ts:`,
-            parseError
+            parseError,
           );
         }
       }
@@ -901,7 +901,7 @@ for (const city of cityFiles) {
       "constants",
       "cruises",
       "vessels", // Corrected path to vessels directory
-      `${city}-vessels.ts`
+      `${city}-vessels.ts`,
     );
 
     if (fs.existsSync(vesselFilePath)) {
@@ -915,14 +915,14 @@ for (const city of cityFiles) {
         }
       } catch (e) {
         console.warn(
-          `Could not read or parse vessel file for ${city}: ${e.message}`
+          `Could not read or parse vessel file for ${city}: ${e.message}`,
         );
       }
     }
 
     if (availableVesselIds.length === 0) {
       console.warn(
-        `No vessels found for city ${city}. Skipping cruise generation for this city.`
+        `No vessels found for city ${city}. Skipping cruise generation for this city.`,
       );
       // continue; // Skip to the next city if no vessels are available
     }
@@ -1001,7 +1001,7 @@ for (const city of cityFiles) {
 
       const tourCategoryId = getTourCategoryId(
         parseInt(cruiseData.itinerary.totalDuration, 10),
-        tags
+        tags,
       );
 
       // Generate contact email based on cruise title
@@ -1099,7 +1099,7 @@ ${combinedCruises}
     fs.writeFileSync(cruiseFilePath, fileContent);
     totalCruisesCreated += cruiseObjects.length;
     console.log(
-      `${fileAction} file: ${cruiseFilePath} with ${cruiseObjects.length} new cruises`
+      `${fileAction} file: ${cruiseFilePath} with ${cruiseObjects.length} new cruises`,
     );
   } catch (error) {
     console.error(`Error processing cruise file for ${city}:`, error);

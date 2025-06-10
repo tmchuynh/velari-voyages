@@ -82,7 +82,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { cityToRegionMap } from "./utils/geo-utils.mjs";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
@@ -412,10 +412,8 @@ const shoppingFAQTemplates = [
   },
 ];
 
-// Get region for a city
-function getRegionForCity(cityName) {
-  return cityToRegionMap[cityName] || "Default";
-}
+
+
 
 // Generate shopping store name
 function generateStoreName(storeType, cityName, vesselName, region) {
@@ -586,7 +584,7 @@ function generateShoppingCategoriesForCity(cityName) {
     return [];
   }
 
-  const region = getRegionForCity(cityName);
+  const region = cityToRegionMap(cityName);
   const shoppingCategories = [];
 
   vessels.forEach((vessel) => {

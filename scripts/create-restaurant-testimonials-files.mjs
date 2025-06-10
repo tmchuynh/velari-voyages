@@ -84,7 +84,7 @@ const restaurantsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "restaurants"
+  "restaurants",
 );
 
 // Output directory for testimonial files (write to here)
@@ -95,7 +95,7 @@ const testimonialsBaseDir = path.join(
   "lib",
   "constants",
   "cruises",
-  "testimonials"
+  "testimonials",
 );
 
 // Function to convert a string to kebab-case for file naming
@@ -112,7 +112,7 @@ function toKebabCase(str) {
 function toCamelCase(str) {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word, index) =>
-      index === 0 ? word.toLowerCase() : word.toUpperCase()
+      index === 0 ? word.toLowerCase() : word.toUpperCase(),
     )
     .replace(/\s+/g, "") // Remove spaces
     .replace(/[^\w\s]/g, ""); // Remove special characters
@@ -478,14 +478,14 @@ function extractExistingTestimonials(filePath) {
       console.log(`DEBUG: File exists: ${fs.existsSync(filePath)}`);
       console.log(`DEBUG: File size: ${content.length} bytes`);
       console.log(
-        `DEBUG: File content preview: ${content.substring(0, 100)}...`
+        `DEBUG: File content preview: ${content.substring(0, 100)}...`,
       );
     }
 
     // Try to extract the array portion of the file with a more robust regex
     // This looks for the export statement and captures everything between the array brackets
     const arrayMatch = content.match(
-      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/
+      /export\s+const\s+\w+Testimonials\s*:\s*Testimonial\[\]\s*=\s*(\[[\s\S]*?\]);/,
     );
 
     if (!arrayMatch) {
@@ -495,50 +495,59 @@ function extractExistingTestimonials(filePath) {
       return [];
     }
 
-    // Try to parse the array as JSON
+    // Use Function constructor to safely evaluate the TypeScript array
+    // This is safer than eval and handles TypeScript syntax better than JSON.parse
     try {
-      // Clean up the extracted content to make it more JSON-friendly
-      let jsonStr = arrayMatch[1]
+      // Clean up the extracted content
+      let cleanedStr = arrayMatch[1]
         .replace(/\/\/.*$/gm, "") // Remove single-line comments
         .replace(/\/\*[\s\S]*?\*\//g, "") // Remove multi-line comments
-        .replace(/,\s*]/g, "]") // Remove trailing commas
         .trim();
 
       if (DEBUG_MODE) {
-        console.log(`DEBUG: Cleaned JSON: ${jsonStr.substring(0, 100)}...`);
+        console.log(`DEBUG: Attempting to parse testimonials array...`);
       }
 
-      const parsedData = JSON.parse(jsonStr);
+      // Use Function constructor to safely evaluate the array
+      const safeEval = new Function(`return ${cleanedStr}`);
+      const result = safeEval();
 
       if (DEBUG_MODE) {
-        console.log(
-          `DEBUG: Successfully parsed ${parsedData.length} testimonials`
-        );
+        console.log(`DEBUG: Successfully parsed ${result.length} testimonials`);
       }
 
-      return parsedData;
+      return result;
     } catch (parseError) {
       console.error(`Error parsing testimonials from ${filePath}:`, parseError);
 
       if (DEBUG_MODE) {
-        console.log(`DEBUG: JSON parse error details: ${parseError.message}`);
-        console.log(`DEBUG: Attempting fallback method...`);
+        console.log(`DEBUG: Parse error details: ${parseError.message}`);
+        console.log(`DEBUG: Attempting JSON fallback...`);
       }
 
-      // Fallback method using Function constructor (safer than eval)
+      // JSON fallback (less reliable but sometimes works)
       try {
-        const safeEval = new Function(`return ${arrayMatch[1]}`);
-        const result = safeEval();
+        let jsonStr = arrayMatch[1]
+          .replace(/\/\/.*$/gm, "") // Remove single-line comments
+          .replace(/\/\*[\s\S]*?\*\//g, "") // Remove multi-line comments
+          .replace(/,\s*]/g, "]") // Remove trailing commas
+          .replace(/,\s*}/g, "}") // Remove trailing commas in objects
+          .trim();
+
+        const parsedData = JSON.parse(jsonStr);
 
         if (DEBUG_MODE) {
           console.log(
-            `DEBUG: Fallback method successful, found ${result.length} testimonials`
+            `DEBUG: JSON fallback successful, found ${parsedData.length} testimonials`,
           );
         }
 
-        return result;
-      } catch (fallbackError) {
-        console.error("Fallback parsing also failed:", fallbackError);
+        return parsedData;
+      } catch (jsonError) {
+        console.error("JSON fallback also failed:", jsonError);
+        console.warn(
+          `Skipping testimonials from ${filePath} due to parsing errors`,
+        );
         return [];
       }
     }
@@ -552,7 +561,7 @@ function extractExistingTestimonials(filePath) {
 function generateTestimonialFileContent(
   cityName,
   restaurantName,
-  existingTestimonials = []
+  existingTestimonials = [],
 ) {
   const cityVar = toCamelCase(cityName);
   const restaurantVar = toCamelCase(restaurantName);
@@ -560,7 +569,7 @@ function generateTestimonialFileContent(
   // Generate new testimonials
   const newTestimonials = generateTestimonials(
     restaurantName,
-    parseInt(TESTIMONIAL_COUNT)
+    parseInt(TESTIMONIAL_COUNT),
   );
 
   // Combine with existing testimonials if in append mode
@@ -573,11 +582,11 @@ function generateTestimonialFileContent(
     const expectedCount = existingTestimonials.length + newTestimonials.length;
     if (testimonials.length !== expectedCount) {
       console.error(
-        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`
+        `WARNING: Expected ${expectedCount} testimonials but got ${testimonials.length}. Append may not be working correctly!`,
       );
     } else if (DEBUG_MODE) {
       console.log(
-        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`
+        `DEBUG: Successfully combined ${existingTestimonials.length} existing + ${newTestimonials.length} new = ${testimonials.length} testimonials`,
       );
     }
   }
@@ -597,7 +606,7 @@ function generateTestimonialFileContent(
 export const ${cityVar}${restaurantVar}Testimonials: Testimonial[] = ${JSON.stringify(
     testimonials,
     null,
-    2
+    2,
   )};
 `;
 }
@@ -655,8 +664,8 @@ cityDirs.forEach((cityDir) => {
           generateTestimonialFileContent(
             cityDir,
             restaurantName,
-            existingTestimonials
-          )
+            existingTestimonials,
+          ),
         );
 
         if (!hadExistingFile) {
@@ -664,7 +673,7 @@ cityDirs.forEach((cityDir) => {
           totalCreated++;
         } else if (APPEND_MODE) {
           console.log(
-            `Appended ${TESTIMONIAL_COUNT} testimonials to: ${filePath}`
+            `Appended ${TESTIMONIAL_COUNT} testimonials to: ${filePath}`,
           );
           totalUpdated++;
         } else {
@@ -674,7 +683,7 @@ cityDirs.forEach((cityDir) => {
       } catch (err) {
         console.error(
           `Error creating testimonial file for ${restaurantName}:`,
-          err
+          err,
         );
         totalFailed++;
       }
