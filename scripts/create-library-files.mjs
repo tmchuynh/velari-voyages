@@ -83,6 +83,8 @@ import {
   getRandomItems,
   generateUniqueId,
   generateRandomEmail,
+  generateRandomPhoneNumber,
+  generateRandomDate,
 } from "./utils/data-generator.mjs";
 import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import { popularBooks } from "./data/book-data.mjs";
@@ -377,14 +379,15 @@ const libraryFAQTemplates = [
 ];
 
 // Generate contact information
-function generateContactInfo() {
+function generateContactInfo(cityName) {
   const includePhone = Math.random() < 0.7; // 70% chance
   const includeEmail = Math.random() < 0.8; // 80% chance
+  const region = cityToRegionMap[cityName];
 
   const contact = {};
 
   if (includePhone) {
-    contact.contactNumber = `+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}`;
+    contact.contactNumber = generateRandomPhoneNumber(region);
   }
 
   if (includeEmail) {
@@ -565,7 +568,8 @@ function generateLibraryEvents() {
 }
 
 // Generate book clubs (3 clubs)
-function generateBookClubs() {
+function generateBookClubs(cityName) {
+  const region = cityToRegionMap[cityName];
   return getRandomItems(bookClubThemes, 3).map((club) => {
     return {
       ...club,
@@ -573,7 +577,7 @@ function generateBookClubs() {
       description: club.description,
       tags: ["book club", "reading", "discussion", "community"],
       rating: Math.round((Math.random() * 1.0 + 4.0) * 10) / 10, // 4.0-5.0 rating
-      contact: generateContactInfo(),
+      contact: generateContactInfo(region),
     };
   });
 }
@@ -606,7 +610,7 @@ function generateLibrary(vessel, cityName, region) {
   const library = {
     id: generateUniqueId(),
     vesselId: vessel.id,
-    contact: generateContactInfo(),
+    contact: generateContactInfo(cityName),
     name: libraryName,
     imageUrl: `/images/venues/libraries/library-${getRandomInt(1, 12)}.jpg`,
     description: generateLibraryDescription(
@@ -628,7 +632,7 @@ function generateLibrary(vessel, cityName, region) {
     hasEvents,
     ...(hasEvents && { events: generateLibraryEvents() }),
     hasBookClubs,
-    ...(hasBookClubs && { bookClubs: generateBookClubs() }),
+    ...(hasBookClubs && { bookClubs: generateBookClubs(cityName) }),
   };
 
   return library;
@@ -686,7 +690,7 @@ function getVesselDataForCity(cityName) {
 
 // Generate libraries for a city
 function generateLibrariesForCity(cityName, vessels) {
-  const region = cityToRegionMap(cityName);
+  const region = cityToRegionMap[cityName];
   const libraries = [];
 
   if (DEBUG_MODE) {
