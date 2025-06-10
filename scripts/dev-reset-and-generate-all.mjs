@@ -105,7 +105,12 @@ const scripts = [
   "node scripts/create-restaurant-menu-files.mjs --items 10 --append --append-count=10",
   "node scripts/create-crew-members.mjs",
   "node scripts/create-spa-venues-data.mjs",
+  "node scripts/create-casino-venues-data.mjs",
   "node scripts/create-shopping-stores.mjs",
+  "node scripts/create-entertainment-files.mjs",
+  "node scripts/create-fitness-files.mjs",
+  "node scripts/create-library-files.mjs",
+  "node scripts/create-art-gallery-files.mjs",
   "node scripts/create-restaurant-testimonials-files.mjs",
   "node scripts/create-restaurant-testimonials-files.mjs --append --count=8",
 ];
