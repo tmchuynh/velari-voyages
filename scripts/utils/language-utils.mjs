@@ -202,60 +202,59 @@ export const languageNameToCode = Object.entries(languageCodeToName).reduce(
 
 // Languages spoken in a country, including common second languages for tourism/business
 export const countryLanguagesMap = {
-  "Argentina": [
+  Argentina: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
     { code: "it", name: "Italian" },
   ],
-  "Australia": [
-    { code: "en", name: "English" },
-  ],
-  "Austria": [
+  Australia: [{ code: "en", name: "English" }],
+  Austria: [
     { code: "de", name: "German" },
     { code: "en", name: "English" },
   ],
-  "Bahamas": [
+  Bahamas: [{ code: "en", name: "English" }],
+  Bermuda: [
+    // British Overseas Territory
     { code: "en", name: "English" },
   ],
-  "Bermuda": [ // British Overseas Territory
-    { code: "en", name: "English" },
-  ],
-  "Bosnia": [ // Bosnia and Herzegovina
+  Bosnia: [
+    // Bosnia and Herzegovina
     { code: "bs", name: "Bosnian" },
     { code: "hr", name: "Croatian" },
     { code: "sr", name: "Serbian" },
     { code: "en", name: "English" },
   ],
-  "Brazil": [
+  Brazil: [
     { code: "pt", name: "Portuguese" },
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Cambodia": [
+  Cambodia: [
     { code: "km", name: "Central Khmer" },
     { code: "en", name: "English" },
     { code: "fr", name: "French" },
   ],
-  "Canada": [
+  Canada: [
     { code: "en", name: "English" },
     { code: "fr", name: "French" },
   ],
-  "Cayman Islands": [ // British Overseas Territory
+  "Cayman Islands": [
+    // British Overseas Territory
     { code: "en", name: "English" },
   ],
-  "Chile": [
+  Chile: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "China": [
+  China: [
     { code: "zh", name: "Chinese" }, // Mandarin is official
     { code: "en", name: "English" }, // Widely taught
   ],
-  "Colombia": [
+  Colombia: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Croatia": [
+  Croatia: [
     { code: "hr", name: "Croatian" },
     { code: "en", name: "English" },
     { code: "de", name: "German" },
@@ -266,7 +265,7 @@ export const countryLanguagesMap = {
     { code: "sk", name: "Slovak" },
     { code: "en", name: "English" },
   ],
-  "Denmark": [
+  Denmark: [
     { code: "da", name: "Danish" },
     { code: "en", name: "English" },
     { code: "de", name: "German" },
@@ -275,66 +274,68 @@ export const countryLanguagesMap = {
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Ecuador": [
+  Ecuador: [
     { code: "es", name: "Spanish" },
     { code: "qu", name: "Quechua" },
     { code: "en", name: "English" },
   ],
-  "Egypt": [
+  Egypt: [
     { code: "ar", name: "Arabic" },
     { code: "en", name: "English" },
     { code: "fr", name: "French" },
   ],
-  "Fiji": [
+  Fiji: [
     { code: "en", name: "English" },
     { code: "fj", name: "Fijian" },
     { code: "hi", name: "Hindi" }, // Fiji Hindi
   ],
-  "Finland": [
+  Finland: [
     { code: "fi", name: "Finnish" },
     { code: "sv", name: "Swedish" },
     { code: "en", name: "English" },
   ],
-  "France": [
+  France: [
     { code: "fr", name: "French" },
     { code: "en", name: "English" },
   ],
-  "French Polynesia": [ // Overseas collectivity of France
+  "French Polynesia": [
+    // Overseas collectivity of France
     { code: "fr", name: "French" },
     { code: "ty", name: "Tahitian" },
     { code: "en", name: "English" },
   ],
-  "Georgia": [
+  Georgia: [
     { code: "ka", name: "Georgian" },
     { code: "ru", name: "Russian" },
     { code: "en", name: "English" },
   ],
-  "Germany": [
+  Germany: [
     { code: "de", name: "German" },
     { code: "en", name: "English" },
   ],
-  "Greece": [
+  Greece: [
     { code: "el", name: "Greek" },
     { code: "en", name: "English" },
   ],
-  "Honduras": [
+  Honduras: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Hong Kong": [ // SAR of China
+  "Hong Kong": [
+    // SAR of China
     { code: "zh", name: "Chinese" }, // Cantonese is common
     { code: "en", name: "English" },
   ],
-  "Hungary": [
+  Hungary: [
     { code: "hu", name: "Hungarian" },
     { code: "en", name: "English" },
   ],
-  "Iceland": [
+  Iceland: [
     { code: "is", name: "Icelandic" },
     { code: "en", name: "English" },
     { code: "da", name: "Danish" },
   ],
-  "India": [
+  India: [
     { code: "hi", name: "Hindi" },
     { code: "en", name: "English" },
     { code: "bn", name: "Bengali" },
@@ -342,63 +343,63 @@ export const countryLanguagesMap = {
     { code: "mr", name: "Marathi" },
     { code: "ta", name: "Tamil" },
   ],
-  "Indonesia": [
+  Indonesia: [
     { code: "id", name: "Indonesian" },
     { code: "en", name: "English" },
     { code: "jv", name: "Javanese" },
   ],
-  "Ireland": [
+  Ireland: [
     { code: "en", name: "English" },
     { code: "ga", name: "Irish" },
   ],
-  "Italy": [
+  Italy: [
     { code: "it", name: "Italian" },
     { code: "en", name: "English" },
   ],
-  "Jamaica": [
+  Jamaica: [
     { code: "en", name: "English" }, // Jamaican Patois is also spoken
   ],
-  "Japan": [
+  Japan: [
     { code: "ja", name: "Japanese" },
     { code: "en", name: "English" },
   ],
-  "Jordan": [
+  Jordan: [
     { code: "ar", name: "Arabic" },
     { code: "en", name: "English" },
   ],
-  "Kenya": [
+  Kenya: [
     { code: "sw", name: "Swahili" },
     { code: "en", name: "English" },
   ],
-  "Latvia": [
+  Latvia: [
     { code: "lv", name: "Latvian" },
     { code: "ru", name: "Russian" },
     { code: "en", name: "English" },
   ],
-  "Malta": [
+  Malta: [
     { code: "mt", name: "Maltese" },
     { code: "en", name: "English" },
   ],
-  "Mexico": [
+  Mexico: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Monaco": [
+  Monaco: [
     { code: "fr", name: "French" },
     { code: "en", name: "English" },
     { code: "it", name: "Italian" },
   ],
-  "Morocco": [
+  Morocco: [
     { code: "ar", name: "Arabic" }, // Moroccan Arabic (Darija)
     { code: "fr", name: "French" }, // Berber languages also official
     { code: "en", name: "English" },
     { code: "es", name: "Spanish" },
   ],
-  "Nepal": [
+  Nepal: [
     { code: "ne", name: "Nepali" },
     { code: "en", name: "English" },
   ],
-  "Netherlands": [
+  Netherlands: [
     { code: "nl", name: "Dutch" },
     { code: "en", name: "English" },
     { code: "fy", name: "Western Frisian" },
@@ -407,44 +408,46 @@ export const countryLanguagesMap = {
     { code: "en", name: "English" },
     { code: "mi", name: "Maori" },
   ],
-  "Norway": [
+  Norway: [
     { code: "no", name: "Norwegian" }, // Bokmål and Nynorsk
     { code: "en", name: "English" },
   ],
-  "Panama": [
+  Panama: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Peru": [
+  Peru: [
     { code: "es", name: "Spanish" },
     { code: "qu", name: "Quechua" },
     { code: "ay", name: "Aymara" },
     { code: "en", name: "English" },
   ],
-  "Portugal": [
+  Portugal: [
     { code: "pt", name: "Portuguese" },
     { code: "en", name: "English" },
     { code: "es", name: "Spanish" },
   ],
-  "Puerto Rico": [ // Territory of US
+  "Puerto Rico": [
+    // Territory of US
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "Russia": [
+  Russia: [
     { code: "ru", name: "Russian" },
     { code: "en", name: "English" }, // Common for business/tourism
   ],
-  "Serbia": [
+  Serbia: [
     { code: "sr", name: "Serbian" },
     { code: "en", name: "English" },
   ],
-  "Singapore": [
+  Singapore: [
     { code: "en", name: "English" },
     { code: "ms", name: "Malay" },
     { code: "zh", name: "Chinese" }, // Mandarin
     { code: "ta", name: "Tamil" },
   ],
-  "Sint Maarten": [ // Constituent country of the Kingdom of the Netherlands
+  "Sint Maarten": [
+    // Constituent country of the Kingdom of the Netherlands
     { code: "nl", name: "Dutch" },
     { code: "en", name: "English" }, // Predominant
   ],
@@ -459,30 +462,31 @@ export const countryLanguagesMap = {
     { code: "ko", name: "Korean" },
     { code: "en", name: "English" },
   ],
-  "Spain": [
+  Spain: [
     { code: "es", name: "Spanish" },
     { code: "ca", name: "Catalan" },
     { code: "eu", name: "Basque" },
     { code: "gl", name: "Galician" },
     { code: "en", name: "English" },
   ],
-  "Sweden": [
+  Sweden: [
     { code: "sv", name: "Swedish" },
     { code: "en", name: "English" },
   ],
-  "Taiwan": [ // Republic of China
+  Taiwan: [
+    // Republic of China
     { code: "zh", name: "Chinese" }, // Mandarin
     { code: "en", name: "English" }, // Taiwanese Hokkien, Hakka also spoken
   ],
-  "Tanzania": [
+  Tanzania: [
     { code: "sw", name: "Swahili" },
     { code: "en", name: "English" },
   ],
-  "Thailand": [
+  Thailand: [
     { code: "th", name: "Thai" },
     { code: "en", name: "English" },
   ],
-  "Uganda": [
+  Uganda: [
     { code: "en", name: "English" },
     { code: "sw", name: "Swahili" },
     { code: "lg", name: "Ganda" },
@@ -500,19 +504,20 @@ export const countryLanguagesMap = {
     { code: "en", name: "English" },
     { code: "es", name: "Spanish" },
   ],
-  "Uruguay": [
+  Uruguay: [
     { code: "es", name: "Spanish" },
     { code: "en", name: "English" },
   ],
-  "US Virgin Islands": [ // Territory of US
+  "US Virgin Islands": [
+    // Territory of US
     { code: "en", name: "English" },
   ],
-  "Vanuatu": [
+  Vanuatu: [
     { code: "bi", name: "Bislama" },
     { code: "en", name: "English" },
     { code: "fr", name: "French" },
   ],
-  "Vietnam": [
+  Vietnam: [
     { code: "vi", name: "Vietnamese" },
     { code: "en", name: "English" },
     { code: "fr", name: "French" },
@@ -659,7 +664,7 @@ export function getRandomLanguages(count = 3, sourceKey = "global") {
 
   // Create a copy to avoid modifying original array and remove English if already added
   const availableLanguages = [...sourceList].filter(
-    (lang) => lang.code !== "en"
+    (lang) => lang.code !== "en",
   );
 
   // Ensure we respect the requested count (between 1-5, as English might be one)
@@ -685,7 +690,8 @@ export function getRandomLanguages(count = 3, sourceKey = "global") {
 
   // Ensure unique languages, just in case a source list had duplicates (though unlikely with current setup)
   const uniqueLanguages = selectedLanguages.filter(
-    (lang, index, self) => index === self.findIndex((l) => l.code === lang.code)
+    (lang, index, self) =>
+      index === self.findIndex((l) => l.code === lang.code),
   );
 
   return uniqueLanguages;
