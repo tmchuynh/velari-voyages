@@ -4,7 +4,6 @@ import { getConfig } from "./utils/config.mjs";
 import { parseArgs } from "./utils/file-utils.mjs";
 import { getLogger } from "./utils/logger.mjs";
 
-
 import CreateCityCruiseFiles from "./create-city-cruise-files.mjs";
 import CreateRestaurantData from "./create-restaurant-data.mjs";
 import CreateRestaurantMenus from "./create-restaurant-menu-files.mjs";
@@ -151,7 +150,6 @@ if (!command) {
   console.log(`Run 'npx vvcli --help' to see available commands.`);
   process.exit(1);
 }
-
 
 try {
   logger.debug(`Executing command: ${commandName}`, { args });
