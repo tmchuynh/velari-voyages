@@ -97,8 +97,9 @@ console.log("--- Running generation scripts in order ---");
 
 const scripts = [
   "node scripts/create-city-vessel-files.mjs",
+  "node scripts/create-city-vessel-files.mjs --append --append-count=15",
   "node scripts/create-city-cruise-files.mjs",
-  "node scripts/create-city-cruise-files.mjs --append 9",
+  "node scripts/create-city-cruise-files.mjs --append 10",
   "node scripts/create-restaurant-data.mjs",
   "node scripts/create-restaurant-data.mjs --append --append-count=10",
   "node scripts/create-restaurant-menu-files.mjs",
