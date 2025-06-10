@@ -91,6 +91,7 @@ import {
   getRandomInt,
   getRandomBool,
   generateRandomEmail,
+  generateRandomPhoneNumber,
 } from "./utils/data-generator.mjs";
 import {
   getCityFiles,
@@ -617,7 +618,7 @@ function generateCasinosForVessel(vessel, cityName, region, casinoCount) {
       imageUrl: `/images/casinos/${vessel.type}-casino-${i + 1}.jpg`,
       hours: hours,
       contact: {
-        contactNumber: `+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}`,
+        contactNumber: generateRandomPhoneNumber(region),
         contactEmail: generateRandomEmail("casino.velarivoyages.com"),
       },
       games: generateCasinoGames(
@@ -666,7 +667,7 @@ function generateCasinosForCity(cityName) {
     return [];
   }
 
-  const region = cityToRegionMap(cityName);
+  const region = cityToRegionMap[cityName];
   const casinos = [];
 
   vessels.forEach((vessel) => {
