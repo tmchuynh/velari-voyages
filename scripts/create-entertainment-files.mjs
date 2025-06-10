@@ -954,11 +954,10 @@ function generatePerformer(categoryType) {
 
   return {
     id: generateUniqueId(),
-    firstName: firstName,
-    lastName: fullName.split(" ")[1],
+    name: fullName,
     role: getRandomElement(specialties),
     bio: `Professional ${getRandomElement(specialties).toLowerCase()} with years of cruise ship entertainment experience.`,
-    imageUrl: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
+    image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
     contact: {
       contactEmail: generateRandomEmail("entertainment.velarivoyages.com"),
     },
