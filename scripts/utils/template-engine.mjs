@@ -48,7 +48,7 @@ export class TemplateEngine {
     let template = this.loadTemplate(templateName);
 
     // Replace placeholders with data values
-    return template.replace(/\{\{([^}]+)\}\}/g, (match, key) => {
+    return template.replace(/\{\{([^}]+)\}\}/g, (_match, key) => {
       const trimmedKey = key.trim();
       const value = this.getNestedValue(data, trimmedKey);
 
