@@ -147,27 +147,68 @@ export interface Entertainment extends BaseVenue {
 
 export interface ArtGallery extends BaseVenue {
   artists: string[];
-  hasExhibitions?: boolean;
+  hasExhibitions: boolean;
+  exhibitions?: EventDetails[];
   hasGuidedTours: boolean;
-  tours: Details[];
+  tours?: EventDetails[];
   hasArtClasses: boolean;
-  artClasses: Details[];
+  artClasses?: ArtClassDetails[];
 }
 
+type EventDetails = tour & Details & BasicDetails;
+type ArtClassDetails = classDetails & Details & BasicDetails;
+
+type tour = {
+  duration: string;
+  type?: string;
+  featured?: boolean;
+  schedule?: string;
+  maxParticipants?: number;
+};
+
+type classDetails = {
+  duration: string;
+  skillLevel: string;
+  maxParticipants?: number;
+  materialsIncluded?: boolean;
+  ageRestriction?: string;
+};
+
+type BasicDetails = {
+  currency?: string;
+  bookingRequired?: boolean;
+  ticketPrice?: number;
+};
+
 export interface Library extends BaseVenue {
-  libraryType: "Digital" | "Physical";
-  hasReadingRooms?: boolean;
   hasStudyAreas?: boolean;
   hasComputers?: boolean;
-  libraryCardRequired?: boolean;
-  restrictions?: string[];
   donationPolicy?:
     | "Permanent Collection Donations"
     | "'Take a Book/Leave a Book' Programs"
     | "Military Library Donations"
     | "No Donation Policy";
-  hasEvents?: boolean;
-  events: Details[];
-  hasBookClubs?: boolean;
-  bookClubs: Details[];
+
+  featuredBooks: {
+    title: string;
+    author: string;
+    description: string;
+    tags: string[];
+    ageGroup: "12-16" | "14-18" | "18+" | "Adults Only" | "Mature Audiences";
+  }[];
+  hasMovieRentals?: boolean;
+  hasEvents: boolean;
+  events?: EventDetails[];
+  hasBookClubs: boolean;
+  bookClubs?: BookClubDetails[];
 }
+
+type club = {
+  name: string;
+  description: string;
+  meetingFrequency: string;
+  membershipRequirements?: string;
+  contact: ContactInfo;
+};
+
+type BookClubDetails = club & Details;
