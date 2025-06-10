@@ -1,11 +1,12 @@
-import { ContactInfo } from "@/lib/types/types";
+import { ContactInfo, Language } from "@/lib/types/types";
 
 export interface TeamMember {
+  id: string;
   name: string;
   role: string;
   bio?: string;
   description?: string;
-  languages: string[];
+  languages: Language[];
   experienceYears?: number;
   profileImage: string;
 }
