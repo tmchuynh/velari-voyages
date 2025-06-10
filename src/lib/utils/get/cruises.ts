@@ -6,6 +6,10 @@ import {
 import { Cruise, Vessels } from "@/lib/interfaces/services/cruises";
 import { Location, Package } from "@/lib/types/types";
 import {
+  ensureCruiseVesselAssignment,
+  validateAllCruiseVesselAssignments,
+} from "../cruise-vessel-validation";
+import {
   formatKebabToCamelCase,
   formatKebebToTitleCase,
   formatTitleToCamelCase,
@@ -115,21 +119,50 @@ export async function getCruises(city: string): Promise<Cruise[]> {
     const cruiseModule = await import(
       `@/lib/constants/cruises/cruises/${sluggedCity}`
     );
+
+    let cruises: Cruise[] = [];
+
     // Return the specific named export that matches cruiseID
     if (cruiseModule[cruiseID]) {
-      return cruiseModule[cruiseID];
+      cruises = cruiseModule[cruiseID];
     } else {
       // Try alternate naming conventions
       const alternateCruiseID = `${sluggedCity}Cruises`;
       if (cruiseModule[alternateCruiseID]) {
-        return cruiseModule[alternateCruiseID];
+        cruises = cruiseModule[alternateCruiseID];
+      } else {
+        console.error(
+          `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`
+        );
+        return [];
       }
-
-      console.error(
-        `Export not found in module. Looking for: ${cruiseID} or ${alternateCruiseID}`
-      );
-      return [];
     }
+
+    // Validate vessel assignments for all cruises
+    const isValidVesselAssignments =
+      validateAllCruiseVesselAssignments(cruises);
+    if (!isValidVesselAssignments) {
+      console.warn(`Some cruises in ${city} have invalid vessel assignments`);
+    }
+
+    // Filter out cruises without valid vessel assignments and ensure others have proper assignments
+    const validCruises = cruises
+      .map((cruise) => {
+        if (!cruise.vesselId || cruise.vesselId.trim() === "") {
+          console.warn(
+            `Cruise ${cruise.id} in ${city} missing vesselId, assigning default`
+          );
+          return ensureCruiseVesselAssignment(
+            cruise,
+            `default-vessel-${formatToSlug(city)}`,
+            city
+          );
+        }
+        return cruise;
+      })
+      .filter((cruise) => cruise.vesselId && cruise.vesselId.trim() !== "");
+
+    return validCruises;
   } catch (error) {
     console.error(
       `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/cruises/${sluggedCity} with export ${cruiseID}`
@@ -277,4 +310,47 @@ export async function getCruiseById(cruiseId: string): Promise<Cruise | null> {
   const allCruises = await getAllCruises();
   const cruise = allCruises.find((c) => c.id === cruiseId);
   return cruise || null;
+}
+
+/**
+ * Retrieves cruises for a city with guaranteed valid vessel assignments
+ * This function ensures that all returned cruises have valid vessel IDs
+ *
+ * @param city - The name of the city for which to retrieve cruises
+ * @returns A promise that resolves to an array of cruises with guaranteed vessel assignments
+ */
+export async function getCruisesWithValidVessels(
+  city: string
+): Promise<Cruise[]> {
+  const cruises = await getCruises(city);
+
+  // Filter cruises that have valid vessel assignments
+  return cruises.filter((cruise) => {
+    return (
+      cruise.vesselId != null &&
+      typeof cruise.vesselId === "string" &&
+      cruise.vesselId.trim().length > 0
+    );
+  });
+}
+
+/**
+ * Gets all cruises from all cities with vessel validation
+ * This ensures that every cruise has a valid vessel assignment
+ *
+ * @returns A promise that resolves to an array of all cruises with valid vessel assignments
+ */
+export async function getAllCruisesWithValidVessels(): Promise<Cruise[]> {
+  const allCruises: Cruise[] = [];
+
+  for (const city of cityFiles) {
+    try {
+      const cityCruises = await getCruisesWithValidVessels(city);
+      allCruises.push(...cityCruises);
+    } catch (error) {
+      console.error(`Error loading cruises for city "${city}":`, error);
+    }
+  }
+
+  return allCruises;
 }
