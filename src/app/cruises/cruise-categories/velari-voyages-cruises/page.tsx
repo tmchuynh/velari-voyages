@@ -36,9 +36,11 @@ import { getAllCruises } from "@/lib/utils/get/cruises";
 import { groupAndSortByProperties } from "@/lib/utils/sort";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import useMediumScreen from "@/hooks/useMediumScreen";
 
 export default function Cruises() {
   const router = useRouter();
+  const isMediumScreen = useMediumScreen();
   const [allCruises, setAllCruises] = useState<Cruise[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("city");
@@ -46,6 +48,7 @@ export default function Cruises() {
   const [loading, setLoading] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const [cruiseCounts, setCruiseCounts] = useState<Record<string, number>>({});
 
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -61,6 +64,18 @@ export default function Cruises() {
       try {
         const data = await getAllCruises();
         setAllCruises(data);
+
+        // Calculate cruise counts for each city
+        const counts: Record<string, number> = {};
+        cruiseDepartureLocations.forEach((location) => {
+          const cityName = location.city.toLowerCase();
+          const cityCount = data.filter(
+            (cruise) =>
+              cruise.departureLocation?.city?.toLowerCase() === cityName
+          ).length;
+          counts[location.city] = cityCount;
+        });
+        setCruiseCounts(counts);
       } catch (error) {
         console.error("Failed to load cruises:", error);
       } finally {
@@ -87,16 +102,27 @@ export default function Cruises() {
   // Determine secondary sort field
   const secondarySortField = sortBy === "country" ? "region" : "country";
 
-  // First sort by the selected criterion (city or country)
-  const sortedDestinations = groupAndSortByProperties(
-    filteredDestinations,
-    sortBy as keyof (typeof cruiseDepartureLocations)[0],
-    secondarySortField as keyof (typeof cruiseDepartureLocations)[0],
-    true,
-    false,
-    false,
-    true
-  );
+  // First sort by the selected criterion (city, country, or cruise count)
+  let sortedDestinations = [];
+  if (sortBy === "cruiseCount") {
+    // Sort by number of cruises offered in each city
+    sortedDestinations = [...filteredDestinations].sort((a, b) => {
+      const countA = cruiseCounts[a.city] || 0;
+      const countB = cruiseCounts[b.city] || 0;
+      // Sort in descending order (most cruises first)
+      return countB - countA;
+    });
+  } else {
+    sortedDestinations = groupAndSortByProperties(
+      filteredDestinations,
+      sortBy as keyof (typeof cruiseDepartureLocations)[0],
+      secondarySortField as keyof (typeof cruiseDepartureLocations)[0],
+      true,
+      false,
+      false,
+      true
+    );
+  }
 
   // Then apply popularity sorting if selected
   if (popularSort !== "none") {
@@ -242,24 +268,62 @@ export default function Cruises() {
             </Tabs>
           </div>
 
-          {/* Recent Dropdown */}
+          {/* Filter Options */}
           <div className="mb-6">
             <Collapsible defaultOpen>
               <CollapsibleTrigger className="flex justify-between items-center w-full text-left">
-                <span className="font-medium">Recent</span>
+                <span className="font-medium">Status</span>
                 <ChevronDownIcon className="w-4 h-4" />
               </CollapsibleTrigger>
-              <CollapsibleContent className="mt-2">
-                <Select value={popularSort} onValueChange={setPopularSort}>
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="none">No priority</SelectItem>
-                    <SelectItem value="first">Show first</SelectItem>
-                    <SelectItem value="last">Show last</SelectItem>
-                  </SelectContent>
-                </Select>
+              <CollapsibleContent className="space-y-3 mt-3">
+                <div className="flex justify-between items-center">
+                  <Label htmlFor="status-available" className="text-sm">
+                    Popular Destinations
+                  </Label>
+                  <Switch
+                    id="status-available"
+                    checked={popularSort === "first"}
+                    onCheckedChange={(checked) =>
+                      setPopularSort(checked ? "first" : "none")
+                    }
+                  />
+                </div>
+                <div className="flex justify-between items-center">
+                  <Label htmlFor="status-date" className="text-sm">
+                    Sort by City
+                  </Label>
+                  <Switch
+                    id="status-date"
+                    checked={sortBy === "city"}
+                    onCheckedChange={(checked) =>
+                      setSortBy(checked ? "city" : "country")
+                    }
+                  />
+                </div>
+                <div className="flex justify-between items-center">
+                  <Label htmlFor="status-date" className="text-sm">
+                    Sort by Country
+                  </Label>
+                  <Switch
+                    id="status-date"
+                    checked={sortBy === "country"}
+                    onCheckedChange={(checked) =>
+                      setSortBy(checked ? "country" : "city")
+                    }
+                  />
+                </div>
+                <div className="flex justify-between items-center">
+                  <Label htmlFor="status-date" className="text-sm">
+                    Sort by Cruise Count
+                  </Label>
+                  <Switch
+                    id="status-date"
+                    checked={sortBy === "cruiseCount"}
+                    onCheckedChange={(checked) =>
+                      setSortBy(checked ? "cruiseCount" : "city")
+                    }
+                  />
+                </div>
               </CollapsibleContent>
             </Collapsible>
           </div>
@@ -297,6 +361,7 @@ export default function Cruises() {
                 <SelectContent>
                   <SelectItem value="city">City</SelectItem>
                   <SelectItem value="country">Country</SelectItem>
+                  <SelectItem value="cruiseCount">Cruise Count</SelectItem>
                 </SelectContent>
               </Select>
 
@@ -354,15 +419,27 @@ export default function Cruises() {
                     {item.city}
                   </h2>
 
+                  <p className="mb-2 text-muted-foreground text-sm">
+                    {cruiseCounts[item.city] || 0} cruise
+                    {(cruiseCounts[item.city] || 0) !== 1 ? "s" : ""} available
+                  </p>
+
+                  {/* Additional information for list view */}
+                  {viewMode === "list" && (
+                    <div className="mb-4">
+                      {isMediumScreen && item.quote ? (
+                        <blockquote>{item.quote}</blockquote>
+                      ) : (
+                        item.additionalInfo && <p>{item.additionalInfo}</p>
+                      )}
+                    </div>
+                  )}
+
                   {item.isPopular && (
                     <Badge
                       size={"sm"}
                       variant={"outline"}
-                      className={`uppercase ${
-                        viewMode === "list"
-                          ? "ml-2 inline-block"
-                          : "top-4 right-4 absolute"
-                      }`}
+                      className="top-4 right-4 absolute uppercase"
                     >
                       Popular
                     </Badge>
