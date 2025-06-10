@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Rome
-    // Generated on: 2025-06-10T03:42:11.660Z
+    // Generated on: 2025-06-10T08:14:19.106Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const romeitalianCookhouseTestimonials: Testimonial[] = [
   {
-    "quote": "The treats selection at Italian Cookhouse is opulent, complemented by welcoming service and a artistic ambiance that impresses.",
-    "author": "Rachel Murray",
-    "image": "/images/testimonials/person-1.jpg",
-    "title": "Food & Wine Connoisseur",
-    "rating": 4.1
-  },
-  {
-    "quote": "The treats selection at Italian Cookhouse is exceptional, served with trustworthy care in a romantic ambiance.",
-    "author": "Jesse Coleman",
-    "image": "https://randomuser.me/api/portraits/men/10.jpg",
-    "title": "Food & Wine Connoisseur",
-    "rating": 3.9
-  },
-  {
-    "quote": "What a distinguished dining experience at Italian Cookhouse! The flavors exceeded our expectations, and the staff was superb. Will definitely return!",
-    "author": "Angela Fox",
-    "image": "https://randomuser.me/api/portraits/women/55.jpg",
-    "title": "Food Enthusiast",
-    "rating": 4.4
-  },
-  {
-    "quote": "Every dish at Italian Cookhouse was luminous, complemented by friendly staff and a bustling atmosphere.",
-    "author": "Joan Reed",
-    "image": "https://randomuser.me/api/portraits/women/20.jpg",
-    "title": "Luxury Travel Consultant",
+    "quote": "The selections selection at Italian Cookhouse is elegant, served with pleasant care in a bustling ambiance.",
+    "author": "Barbara Hall",
+    "image": "https://randomuser.me/api/portraits/women/31.jpg",
+    "title": "Culinary Enthusiast",
+    "date": "December 31, 1969",
     "rating": 4.3
   },
   {
-    "quote": "Every dish at Italian Cookhouse was heavenly, complemented by superb staff and a artistic atmosphere.",
-    "author": "Aaliyah Stewart",
-    "image": "https://randomuser.me/api/portraits/women/11.jpg",
-    "title": "Lifestyle Influencer",
-    "rating": 4.7
+    "quote": "At Italian Cookhouse, expect enchanting treats served by kind professionals in a comfortable setting.",
+    "author": "Ashley Olivia",
+    "image": "https://randomuser.me/api/portraits/women/72.jpg",
+    "title": "Culinary Explorer",
+    "date": "December 31, 1969",
+    "rating": 3.7
   },
   {
-    "quote": "Italian Cookhouse combines serene dishes with dedicated hospitality in a modern setting, perfect for any occasion.",
-    "author": "Ronald Dixon",
-    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "quote": "The recipes at Italian Cookhouse are refined, and the enthusiastic service creates an inviting elegant experience.",
+    "author": "Alice Knight",
+    "image": "/images/testimonials/person-10.jpg",
+    "title": "Food Writer",
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "At Italian Cookhouse, the treats impressed with exquisite quality, alongside polite hospitality and a pleasant setting.",
+    "author": "James Baker",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Culinary Expert",
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "Experience exquisite appetizers and approachable staff in a classic setting when you visit Italian Cookhouse.",
+    "author": "Sophia Russell",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
     "title": "Food Journalist",
-    "rating": 4.2
+    "date": "December 31, 1969",
+    "rating": 3.6
+  },
+  {
+    "quote": "You’ll find a delightful selection of regal entrees, paired with exceptional service and a airy environment at Italian Cookhouse.",
+    "author": "Mary Reed",
+    "image": "https://randomuser.me/api/portraits/women/26.jpg",
+    "title": "Food Critic",
+    "date": "December 31, 1969",
+    "rating": 3.7
+  },
+  {
+    "quote": "Every dish at Italian Cookhouse was heavenly, complemented by helpful staff and a airy atmosphere.",
+    "author": "Juan Foster",
+    "image": "https://randomuser.me/api/portraits/men/46.jpg",
+    "title": "Culinary Critic",
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "Every dish at Italian Cookhouse was enchanted, complemented by efficient staff and a comfortable atmosphere.",
+    "author": "Ethan Graves",
+    "image": "https://randomuser.me/api/portraits/men/55.jpg",
+    "title": "Travel Writer",
+    "date": "December 31, 1969",
+    "rating": 4.6
   }
 ];

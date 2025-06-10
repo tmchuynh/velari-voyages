@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Shanghai
-    // Generated on: 2025-06-10T03:42:11.664Z
+    // Generated on: 2025-06-10T08:14:19.142Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const shanghaitheCulinaryTestimonials: Testimonial[] = [
   {
-    "quote": "For a memorable dining experience, The Culinary offers exquisite bites, approachable service, and a modern environment.",
-    "author": "Janet Reeves",
-    "image": "https://randomuser.me/api/portraits/women/25.jpg",
+    "quote": "Our visit to The Culinary was outstanding. The courses were sublime, the staff outstanding, and the atmosphere rustic. A must-visit!",
+    "author": "Rachel Maxwell",
+    "image": "https://randomuser.me/api/portraits/women/30.jpg",
+    "title": "Travel Writer",
+    "date": "December 31, 1969",
+    "rating": 3.7
+  },
+  {
+    "quote": "The lavish flavors at The Culinary kept us coming back for more, complemented perfectly by exemplary staff and a inviting setting.",
+    "author": "Rachel Curtis",
+    "image": "https://randomuser.me/api/portraits/women/10.jpg",
     "title": "Epicurean Specialist",
-    "rating": 3.9
+    "date": "December 31, 1969",
+    "rating": 4.9
   },
   {
-    "quote": "Experience heartwarming culinary masterpieces and attentive staff in a comfortable setting when you visit The Culinary.",
-    "author": "Christian West",
-    "image": "https://randomuser.me/api/portraits/men/69.jpg",
-    "title": "Culinary Reviewer",
-    "rating": 3.9
+    "quote": "Experience charming specialties and responsive staff in a sophisticated setting when you visit The Culinary.",
+    "author": "Charlotte Hayes",
+    "image": "https://randomuser.me/api/portraits/women/38.jpg",
+    "title": "Culinary Advisor",
+    "date": "December 31, 1969",
+    "rating": 4.6
   },
   {
-    "quote": "Our experience at The Culinary was elevated by vivid offerings, knowledgeable hospitality, and a rustic dining room.",
-    "author": "Barbara Hudson",
-    "image": "https://randomuser.me/api/portraits/women/43.jpg",
-    "title": "Cruise Traveler",
+    "quote": "You’ll enjoy pristine selections and dedicated service, all within a energetic space at The Culinary.",
+    "author": "Ryan Graves",
+    "image": "/images/testimonials/person-6.jpg",
+    "title": "Food Enthusiast",
+    "date": "December 31, 1969",
     "rating": 3.6
   },
   {
-    "quote": "Our meal at The Culinary featured refined gastronomic treats, attentive dependable staff, and a warm, refined environment.",
-    "author": "Lily Marshall",
-    "image": "https://randomuser.me/api/portraits/women/57.jpg",
-    "title": "Gastronomy Enthusiast",
+    "quote": "The flavors selection at The Culinary is pristine, served with approachable care in a rustic ambiance.",
+    "author": "Rebecca Fox",
+    "image": "/images/testimonials/person-8.jpg",
+    "title": "Culinary Critic",
+    "date": "December 31, 1969",
+    "rating": 4.6
+  },
+  {
+    "quote": "Every visit to The Culinary offers exclusive culinary delights, impressive hospitality, and a welcoming romantic atmosphere.",
+    "author": "Harry Baker",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Travel Writer",
+    "date": "December 31, 1969",
     "rating": 4.3
   },
   {
-    "quote": "Whether it's the treats or the top-notch staff, everything at The Culinary is enchanting and enhanced by a charming environment.",
-    "author": "Aaliyah Fletcher",
-    "image": "https://randomuser.me/api/portraits/women/4.jpg",
-    "title": "Culinary Expert",
-    "rating": 4.6
+    "quote": "You’ll find a delightful selection of pristine specialties, paired with friendly service and a vibrant environment at The Culinary.",
+    "author": "Nicole Graves",
+    "image": "https://randomuser.me/api/portraits/women/22.jpg",
+    "title": "Food Scientist",
+    "date": "December 31, 1969",
+    "rating": 3.9
   },
   {
-    "quote": "From the first bite to the last, the cuisine at The Culinary impressed with grand flavors, matched by outstanding service and a elegant ambiance.",
-    "author": "Evelyn Maxwell",
-    "image": "/images/testimonials/person-8.jpg",
-    "title": "Food Historian",
-    "rating": 4.6
+    "quote": "From start to finish, The Culinary offers glorious culinary creations, attentive welcoming service, and a chic environment.",
+    "author": "Zachary Knight",
+    "image": "https://randomuser.me/api/portraits/men/23.jpg",
+    "title": "Wine Sommelier",
+    "date": "December 31, 1969",
+    "rating": 3.6
   }
 ];

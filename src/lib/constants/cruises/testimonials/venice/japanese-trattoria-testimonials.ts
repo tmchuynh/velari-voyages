@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Venice
-    // Generated on: 2025-06-10T03:42:11.673Z
+    // Generated on: 2025-06-10T08:14:19.235Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const venicejapaneseTrattoriaTestimonials: Testimonial[] = [
   {
-    "quote": "Exceptional gastronomic treats and remarkable service come standard at Japanese Trattoria. The cozy ambiance only adds to the appeal.",
-    "author": "Mia Hudson",
-    "image": "https://randomuser.me/api/portraits/women/67.jpg",
-    "title": "Food Scientist",
-    "rating": 3.6
+    "quote": "If you're looking for flawless culinary masterpieces, Japanese Trattoria delivers with impeccable meticulous service and a artistic environment.",
+    "author": "Grace Stewart",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "title": "Travel Blogger",
+    "date": "December 31, 1969",
+    "rating": 4.9
   },
   {
-    "quote": "Exceptional courses paired with diligent service and a casual atmosphere make Japanese Trattoria a standout choice.",
-    "author": "Evelyn Price",
-    "image": "https://randomuser.me/api/portraits/women/36.jpg",
-    "title": "Culinary Reviewer",
-    "rating": 4
-  },
-  {
-    "quote": "You’ll find blissful platters at Japanese Trattoria, supported by reliable staff and a inviting atmosphere that invites relaxation.",
-    "author": "Jordan Payne",
-    "image": "/images/testimonials/person-2.jpg",
-    "title": "Culinary Consultant",
+    "quote": "The euphoric fare paired perfectly with the impeccable service and bohemian ambiance at Japanese Trattoria.",
+    "author": "Claire Hudson",
+    "image": "/images/testimonials/person-11.jpg",
+    "title": "Gastronomic Writer",
+    "date": "December 31, 1969",
     "rating": 4.7
   },
   {
-    "quote": "Every dish we tried at Japanese Trattoria was divine, paired perfectly with impressive service and a stylish atmosphere that invites relaxation.",
-    "author": "Donna Spencer",
-    "image": "https://randomuser.me/api/portraits/women/44.jpg",
-    "title": "Cooking Aficionado",
-    "rating": 5
+    "quote": "For magnificent flavors served with kind care in a inviting space, Japanese Trattoria is unmatched.",
+    "author": "Gregory Graham",
+    "image": "https://randomuser.me/api/portraits/men/14.jpg",
+    "title": "Gastronomy Enthusiast",
+    "date": "December 31, 1969",
+    "rating": 3.9
   },
   {
-    "quote": "At Japanese Trattoria, exclusive culinary delights combine seamlessly with remarkable professionalism and a serene space designed for comfort.",
-    "author": "Anna Spencer",
-    "image": "https://randomuser.me/api/portraits/women/20.jpg",
-    "title": "Lifestyle Influencer",
-    "rating": 3.6
+    "quote": "At Japanese Trattoria, regal dishes combine seamlessly with welcoming professionalism and a elegant space designed for comfort.",
+    "author": "Steven Jennings",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Food Stylist",
+    "date": "December 31, 1969",
+    "rating": 4.9
   },
   {
-    "quote": "From start to finish, Japanese Trattoria offers sublime cuisine, attentive top-notch service, and a artistic environment.",
-    "author": "Philip Knight",
-    "image": "https://randomuser.me/api/portraits/men/36.jpg",
+    "quote": "We were impressed by the exquisite quality of the savors and the impressive attention from staff at Japanese Trattoria. The bustling environment was the cherry on top.",
+    "author": "Paul Grant",
+    "image": "https://randomuser.me/api/portraits/men/80.jpg",
+    "title": "Culinary Blogger",
+    "date": "December 31, 1969",
+    "rating": 4
+  },
+  {
+    "quote": "Exceptional culinary creations and reliable service come standard at Japanese Trattoria. The airy ambiance only adds to the appeal.",
+    "author": "Maya Fisher",
+    "image": "/images/testimonials/person-8.jpg",
+    "title": "Culinary Consultant",
+    "date": "December 31, 1969",
+    "rating": 4.9
+  },
+  {
+    "quote": "You’ll find a delightful selection of heavenly gastronomic treats, paired with supportive service and a luxurious environment at Japanese Trattoria.",
+    "author": "Christian Dean",
+    "image": "https://randomuser.me/api/portraits/men/54.jpg",
     "title": "Travel Writer",
-    "rating": 4.1
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "From the moment we arrived, Japanese Trattoria impressed with marvelous culinary wonders, attentive service, and a elegant ambiance.",
+    "author": "Stella Murray",
+    "image": "https://randomuser.me/api/portraits/women/71.jpg",
+    "title": "Lifestyle Influencer",
+    "date": "December 31, 1969",
+    "rating": 4.5
   }
 ];

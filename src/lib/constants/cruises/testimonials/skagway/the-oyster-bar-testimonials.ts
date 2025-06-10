@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Skagway
-    // Generated on: 2025-06-10T03:42:11.666Z
+    // Generated on: 2025-06-10T08:14:19.165Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const skagwaytheOysterBarTestimonials: Testimonial[] = [
   {
-    "quote": "If you're looking for serene dishes, The Oyster Bar delivers with impeccable gracious service and a lively environment.",
-    "author": "Alan Foster",
-    "image": "https://randomuser.me/api/portraits/men/51.jpg",
-    "title": "Culinary Expert",
-    "rating": 4.5
-  },
-  {
-    "quote": "The meal selection at The Oyster Bar is simply unforgettable. Combined with friendly staff and a relaxing setting, it’s a top choice for discerning diners.",
-    "author": "Nicholas Mitchell",
-    "image": "/images/testimonials/person-9.jpg",
-    "title": "Wine Sommelier",
-    "rating": 3.9
-  },
-  {
-    "quote": "The fare selection at The Oyster Bar is premium, complemented by stellar service and a elegant ambiance that impresses.",
-    "author": "Eleanor Clark",
-    "image": "/images/testimonials/person-12.jpg",
-    "title": "Food Historian",
-    "rating": 4.2
-  },
-  {
-    "quote": "Exceptional delicacies paired with respectful service and a bohemian atmosphere make The Oyster Bar a standout choice.",
-    "author": "Joe West",
-    "image": "/images/testimonials/person-2.jpg",
-    "title": "Culinary Artist",
+    "quote": "The sumptuous recipes at The Oyster Bar kept us coming back for more, complemented perfectly by professional staff and a refined setting.",
+    "author": "Priya Knight",
+    "image": "https://randomuser.me/api/portraits/women/30.jpg",
+    "title": "Culinary Enthusiast",
+    "date": "December 31, 1969",
     "rating": 4.6
   },
   {
-    "quote": "Every visit to The Oyster Bar delivers radiant delicacies, attentive friendly staff, and a vibrant environment that welcomes you.",
-    "author": "Diego Reeves",
-    "image": "https://randomuser.me/api/portraits/men/45.jpg",
-    "title": "Beverage Expert",
-    "rating": 4.8
+    "quote": "Exceptional gastronomic experiences and prompt service come standard at The Oyster Bar. The cozy ambiance only adds to the appeal.",
+    "author": "William Clark",
+    "image": "/images/testimonials/person-4.jpg",
+    "title": "Food Blogger",
+    "date": "December 31, 1969",
+    "rating": 3.9
   },
   {
-    "quote": "At The Oyster Bar, expect divine culinary masterpieces served by exceptional professionals in a stylish setting.",
-    "author": "Tyler Spencer",
-    "image": "https://randomuser.me/api/portraits/men/42.jpg",
-    "title": "Gastronomy Enthusiast",
+    "quote": "The Oyster Bar consistently delivers euphoric culinary wonders, attentive staff, and a stylish ambiance to enjoy.",
+    "author": "Terry Spencer",
+    "image": "https://randomuser.me/api/portraits/men/58.jpg",
+    "title": "Culinary Reviewer",
+    "date": "December 31, 1969",
+    "rating": 4.2
+  },
+  {
+    "quote": "The Oyster Bar has the most timeless creations I've ever tasted. The ambient atmosphere made our evening special, and the service was efficient.",
+    "author": "Mason Jennings",
+    "image": "https://randomuser.me/api/portraits/men/33.jpg",
+    "title": "Culinary Expert",
+    "date": "December 31, 1969",
+    "rating": 3.9
+  },
+  {
+    "quote": "The Oyster Bar has the most prestigious dishes I've ever tasted. The rustic atmosphere made our evening special, and the service was courteous.",
+    "author": "Aaliyah Cooper",
+    "image": "https://randomuser.me/api/portraits/women/26.jpg",
+    "title": "Food Photographer",
+    "date": "December 31, 1969",
+    "rating": 4.2
+  },
+  {
+    "quote": "Every visit to The Oyster Bar offers marvelous platters, attentive hospitality, and a welcoming refined atmosphere.",
+    "author": "Kevin Price",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg",
+    "title": "Food Scientist",
+    "date": "December 31, 1969",
+    "rating": 4.2
+  },
+  {
+    "quote": "From appetizers to desserts, The Oyster Bar offers first-class snacks in a bustling space with inviting service.",
+    "author": "Donna Parker",
+    "image": "https://randomuser.me/api/portraits/women/55.jpg",
+    "title": "Travel Writer",
+    "date": "December 31, 1969",
     "rating": 4.7
+  },
+  {
+    "quote": "The gastronomic sensations at The Oyster Bar are consistently remarkable, accompanied by charming staff and a elegant setting.",
+    "author": "Miguel Nash",
+    "image": "https://randomuser.me/api/portraits/men/82.jpg",
+    "title": "Dining Columnist",
+    "date": "December 31, 1969",
+    "rating": 4.4
   }
 ];

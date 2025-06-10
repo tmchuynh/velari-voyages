@@ -6,309 +6,177 @@ import { Spa } from "@/lib/interfaces/services/venues";
 
 export const mykonosSpas: Spa[] = [
   {
-    id: "fe4749f8-948c-4870-80a4-b96dd5bf7d52",
-    vesselId: "ss--explorer",
-    name: "Sunset Wellness Retreat",
-    description: "Welcome to Sunset Wellness Retreat, an oasis of tranquility aboard the SS  Explorer. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
-    imageUrl: "/images/spas/ultra-luxury-cruise-ship-spa.jpg",
+    id: "cedf0fcb-a13b-443a-855a-f299b1e5497f",
+    vesselId: "ly--explorer",
+    name: "Serenity Olive Grove Spa",
+    description: "Serenity Olive Grove Spa provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/zodiac-equipped-vessel-spa.jpg",
     hours: {
       start: "08:00",
-      end: "19:00",
-      duration: "11 hours",
+      end: "22:00",
+      duration: "14 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-373-157-7187",
-      contactEmail: "inquiries@spa.velarivoyages.com",
+      contactNumber: "(562) 160-8365",
+      contactEmail: "reachus@spa.velarivoyages.com",
     },
     services: [
       {
-        title: "Thai Massage",
-        description: "Traditional stretching and pressure point massage",
-        tags: ["massage", "relaxation", "therapeutic", "luxury"],
-        rating: 4.1,
+        title: "Eyelash Extensions",
+        description: "Individual lash extensions for fuller, longer lashes",
+        tags: [],
+        rating: 4.4,
       },
       {
-        title: "Thermal Treatments",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: ["luxury", "premium"],
-        rating: 3.8,
+        title: "Classic European Facial",
+        description: "Deep cleansing and hydrating facial for all skin types",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4,
       },
       {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty", "luxury"],
-        rating: 4.3,
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4,
       },
       {
-        title: "Aromatherapy Massage",
-        description: "Soothing massage with essential oils tailored to your mood",
-        tags: ["massage", "relaxation", "therapeutic", "luxury"],
-        rating: 4.1,
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4,
       },
       {
-        title: "Shiatsu Massage",
-        description: "Japanese finger pressure massage for energy balance",
-        tags: ["massage", "relaxation", "therapeutic", "luxury"],
-        rating: 5,
-      },
-      {
-        title: "Anti-Aging Facial",
-        description: "Advanced treatment targeting fine lines and wrinkles",
-        tags: ["facial", "skincare", "beauty", "luxury"],
-        rating: 3.5,
-      },
-      {
-        title: "Sea Salt Therapies",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: ["luxury", "premium"],
-        rating: 3.7,
-      },
-      {
-        title: "Olive Oil Treatments",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: ["luxury", "premium"],
-        rating: 4.1,
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.9,
       },
       {
         title: "Sugar Scrub",
         description: "Gentle exfoliation with natural sugar crystals",
-        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
-        rating: 3.8,
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 3.5,
       },
       {
-        title: "Purifying Facial",
-        description: "Deep pore cleansing treatment for oily and acne-prone skin",
-        tags: ["facial", "skincare", "beauty", "luxury"],
-        rating: 4.3,
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
+      },
+      {
+        title: "Thai Massage",
+        description: "Traditional stretching and pressure point massage",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.2,
       }
     ],
     isPopular: true,
     faqs: [
       {
-        question: "What should I wear to my spa appointment?",
-        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
-      },
-      {
-        question: "How early should I arrive for my appointment?",
-        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       },
       {
         question: "Are your products suitable for sensitive skin?",
         answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
       },
       {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
-      }
-    ],
-  },
-  {
-    id: "c11185b8-b1ad-4d37-99d0-30d801111beb",
-    vesselId: "ts-mykonos-voyager",
-    name: "The Mediterranean Sanctuary",
-    description: "Welcome to The Mediterranean Sanctuary, an oasis of tranquility aboard the TS Mykonos Voyager. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
-    imageUrl: "/images/spas/zodiac-equipped-vessel-spa.jpg",
-    hours: {
-      start: "08:00",
-      end: "20:00",
-      duration: "12 hours",
-      description: "Daily spa hours may vary during port days and sea days",
-    },
-    contact: {
-      contactNumber: "+1-943-731-5346",
-      contactEmail: "support@spa.velarivoyages.com",
-    },
-    services: [
-      {
-        title: "Reflexology",
-        description: "Therapeutic foot massage focusing on pressure points",
-        tags: [],
-        rating: 3.6,
-      },
-      {
-        title: "Classic European Facial",
-        description: "Deep cleansing and hydrating facial for all skin types",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.6,
-      },
-      {
-        title: "Salt Scrub",
-        description: "Exfoliating treatment using mineral-rich sea salts",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4.4,
-      },
-      {
-        title: "Eyebrow Shaping",
-        description: "Professional eyebrow grooming and shaping",
-        tags: [],
-        rating: 4.3,
-      },
-      {
-        title: "Thermal Treatments",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: [],
-        rating: 3.8,
-      },
-      {
-        title: "Swedish Massage",
-        description: "Classic full-body relaxation massage with gentle, flowing strokes",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.9,
-      },
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 3.9,
-      },
-      {
-        title: "Deep Tissue Massage",
-        description: "Therapeutic massage targeting deep muscle tension and knots",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.8,
-      },
-      {
-        title: "Purifying Facial",
-        description: "Deep pore cleansing treatment for oily and acne-prone skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.3,
-      },
-      {
-        title: "Sunless Tanning",
-        description: "Professional spray tan application for a golden glow",
-        tags: [],
-        rating: 4.7,
-      }
-    ],
-    isPopular: true,
-    faqs: [
-      {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
       },
       {
         question: "What should I wear to my spa appointment?",
         answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
       },
       {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       }
     ],
   },
   {
-    id: "0ecdf17f-a11f-4695-a3e3-909a55fa9359",
-    vesselId: "ts-mykonos-voyager",
-    name: "The Coastal Sanctuary",
-    description: "The Coastal Sanctuary provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    id: "53068762-75cb-4e41-bd9b-d153610171cd",
+    vesselId: "ly--explorer",
+    name: "The Mythos Sanctuary",
+    description: "Welcome to The Mythos Sanctuary, an oasis of tranquility aboard the LY  Explorer. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
     imageUrl: "/images/spas/zodiac-equipped-vessel-spa.jpg",
     hours: {
-      start: "07:00",
-      end: "19:00",
+      start: "09:00",
+      end: "21:00",
       duration: "12 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-989-795-6905",
-      contactEmail: "mail@spa.velarivoyages.com",
+      contactNumber: "(496) 114-8942",
+      contactEmail: "hi@spa.velarivoyages.com",
     },
     services: [
+      {
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.7,
+      },
       {
         title: "Swedish Massage",
         description: "Classic full-body relaxation massage with gentle, flowing strokes",
         tags: ["massage", "relaxation", "therapeutic"],
-        rating: 5,
-      },
-      {
-        title: "LED Light Therapy",
-        description: "Non-invasive light treatment for various skin concerns",
-        tags: [],
-        rating: 4.2,
-      },
-      {
-        title: "Anti-Aging Facial",
-        description: "Advanced treatment targeting fine lines and wrinkles",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 5,
-      },
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
         rating: 4.5,
-      },
-      {
-        title: "Olive Oil Treatments",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: [],
-        rating: 3.9,
-      },
-      {
-        title: "Deep Tissue Massage",
-        description: "Therapeutic massage targeting deep muscle tension and knots",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.3,
-      },
-      {
-        title: "Sports Massage",
-        description: "Specialized massage for athletic recovery and performance",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4,
-      },
-      {
-        title: "Yoga Class",
-        description: "Gentle yoga practice suitable for all levels",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4,
-      },
-      {
-        title: "Prenatal Massage",
-        description: "Gentle, specialized massage for expecting mothers",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.7,
-      },
-      {
-        title: "Eyebrow Shaping",
-        description: "Professional eyebrow grooming and shaping",
-        tags: [],
-        rating: 3.6,
       },
       {
         title: "Reflexology",
         description: "Therapeutic foot massage focusing on pressure points",
         tags: [],
-        rating: 3.7,
+        rating: 4.2,
       },
       {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
+        title: "Olive Oil Body Wrap",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.9,
+      },
+      {
+        title: "Eyelash Extensions",
+        description: "Individual lash extensions for fuller, longer lashes",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Sports Massage",
+        description: "Specialized massage for athletic recovery and performance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.8,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox"],
         rating: 4.9,
       }
     ],
     isPopular: false,
     faqs: [
       {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
-      {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       },
       {
         question: "How early should I arrive for my appointment?",
         answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
       }
     ],
   },
   {
-    id: "33a7385d-7772-4d0c-b0df-3468be3775c1",
-    vesselId: "nb--of-the-deep",
-    name: "The Mediterranean Sanctuary",
-    description: "The Mediterranean Sanctuary provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
-    imageUrl: "/images/spas/ocean-liner-spa.jpg",
+    id: "e0cc6552-11c6-4e0a-b3cb-e81f9c4617ee",
+    vesselId: "sv-mykonos-voyager",
+    name: "The Nautilus Sanctuary",
+    description: "The Nautilus Sanctuary provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/ice-class-ship-spa.jpg",
     hours: {
       start: "08:00",
       end: "20:00",
@@ -316,74 +184,56 @@ export const mykonosSpas: Spa[] = [
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-857-426-6170",
-      contactEmail: "services@spa.velarivoyages.com",
+      contactNumber: "(405) 285-3935",
+      contactEmail: "ask@spa.velarivoyages.com",
     },
     services: [
       {
-        title: "Cellulite Treatment",
-        description: "Specialized treatment targeting skin texture and firmness",
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4,
+      },
+      {
+        title: "Acupuncture",
+        description: "Traditional Chinese medicine using fine needles for healing",
         tags: [],
+        rating: 3.5,
+      },
+      {
+        title: "Hydrating Facial",
+        description: "Intensive moisture therapy for dry and dehydrated skin",
+        tags: ["facial", "skincare", "beauty"],
         rating: 4.4,
       },
       {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
+        title: "Eyebrow Shaping",
+        description: "Professional eyebrow grooming and shaping",
         tags: [],
-        rating: 3.9,
+        rating: 3.8,
       },
       {
-        title: "Sea Salt Therapies",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
-        tags: [],
-        rating: 4.7,
-      },
-      {
-        title: "Sunless Tanning",
-        description: "Professional spray tan application for a golden glow",
-        tags: [],
+        title: "Mud Wrap",
+        description: "Purifying treatment using therapeutic mineral mud",
+        tags: ["body-treatment", "exfoliation", "detox"],
         rating: 4.3,
       },
       {
-        title: "Meditation Session",
-        description: "Guided meditation for stress relief and mindfulness",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4.7,
-      },
-      {
-        title: "Wellness Consultation",
-        description: "Personalized health and wellness guidance",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4.5,
-      },
-      {
-        title: "Aromatherapy Massage",
-        description: "Soothing massage with essential oils tailored to your mood",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.9,
-      },
-      {
-        title: "Thermal Treatments",
-        description: "Specialized regional treatment featuring traditional mediterranean techniques and ingredients",
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
         tags: [],
-        rating: 3.9,
-      },
-      {
-        title: "Hot Stone Massage",
-        description: "Luxurious massage using heated volcanic stones for deep relaxation",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.8,
+        rating: 4.1,
       }
     ],
     isPopular: false,
     faqs: [
       {
-        question: "How early should I arrive for my appointment?",
-        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
       },
       {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
       },
       {
         question: "Do you offer treatments for men?",
@@ -394,81 +244,335 @@ export const mykonosSpas: Spa[] = [
         answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       },
       {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "d116bf3b-0c19-4bc2-9b1c-1272023578b2",
+    vesselId: "hms--of-the-deep",
+    name: "Aegean Wellness Retreat",
+    description: "Experience ultimate relaxation at Aegean Wellness Retreat, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Greek Islands healing traditions.",
+    imageUrl: "/images/spas/ultra-luxury-cruise-ship-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "22:00",
+      duration: "14 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(724) 217-6552",
+      contactEmail: "hi@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic", "luxury"],
+        rating: 3.7,
+      },
+      {
+        title: "Purifying Facial",
+        description: "Deep pore cleansing treatment for oily and acne-prone skin",
+        tags: ["facial", "skincare", "beauty", "luxury"],
+        rating: 3.9,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: ["luxury", "premium"],
+        rating: 4.9,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 4.4,
+      },
+      {
+        title: "Manicure",
+        description: "Complete nail care including shaping, cuticle care, and polish",
+        tags: ["luxury", "premium"],
+        rating: 4.8,
+      },
+      {
+        title: "Prenatal Massage",
+        description: "Gentle, specialized massage for expecting mothers",
+        tags: ["massage", "relaxation", "therapeutic", "luxury"],
+        rating: 3.9,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty", "luxury"],
+        rating: 5,
+      },
+      {
+        title: "Hot Stone Massage",
+        description: "Luxurious massage using heated volcanic stones for deep relaxation",
+        tags: ["massage", "relaxation", "therapeutic", "luxury"],
+        rating: 3.5,
+      },
+      {
+        title: "Volcanic Mud Therapy",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["luxury", "premium"],
+        rating: 4.8,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
         question: "What is your cancellation policy?",
         answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       }
     ],
   },
   {
-    id: "3670cda3-a14a-4f37-acf6-5a37bcf2cfc8",
-    vesselId: "rv-the--mariner",
-    name: "Mediterranean Waters Spa",
-    description: "Welcome to Mediterranean Waters Spa, an oasis of tranquility aboard the RV The  Mariner. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
-    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    id: "872ea415-4612-474e-8228-46c074f12e62",
+    vesselId: "my-the--mariner",
+    name: "Olive Grove Rejuvenation Center",
+    description: "Olive Grove Rejuvenation Center provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/eco-friendly-hybrid-ship-spa.jpg",
     hours: {
-      start: "07:00",
-      end: "22:00",
-      duration: "15 hours",
+      start: "09:00",
+      end: "20:00",
+      duration: "11 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-580-293-7156",
-      contactEmail: "contact@spa.velarivoyages.com",
+      contactNumber: "(170) 108-7807",
+      contactEmail: "inquiries@spa.velarivoyages.com",
     },
     services: [
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.8,
-      },
-      {
-        title: "Manicure",
-        description: "Complete nail care including shaping, cuticle care, and polish",
-        tags: [],
-        rating: 4,
-      },
-      {
-        title: "Shiatsu Massage",
-        description: "Japanese finger pressure massage for energy balance",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.9,
-      },
-      {
-        title: "Purifying Facial",
-        description: "Deep pore cleansing treatment for oily and acne-prone skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 3.5,
-      },
       {
         title: "Aromatherapy Massage",
         description: "Soothing massage with essential oils tailored to your mood",
         tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.3,
+        rating: 4.7,
+      },
+      {
+        title: "Eyebrow Shaping",
+        description: "Professional eyebrow grooming and shaping",
+        tags: [],
+        rating: 4.7,
+      },
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 3.9,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.9,
+      },
+      {
+        title: "Gel Manicure",
+        description: "Long-lasting gel polish application",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 3.9,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      }
+    ],
+  },
+  {
+    id: "bf4acb15-b185-44b3-b3b6-a984a0b607c5",
+    vesselId: "ts--gale",
+    name: "Mythos Waters Spa",
+    description: "Mythos Waters Spa provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/luxury-cruise-ship-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "20:00",
+      duration: "12 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(432) 600-3822",
+      contactEmail: "hello@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Meditation Session",
+        description: "Guided meditation for stress relief and mindfulness",
+        tags: ["wellness", "mindfulness", "holistic", "luxury"],
+        rating: 4.2,
+      },
+      {
+        title: "Hot Stone Massage",
+        description: "Luxurious massage using heated volcanic stones for deep relaxation",
+        tags: ["massage", "relaxation", "therapeutic", "luxury"],
+        rating: 3.9,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic", "luxury"],
+        rating: 4.7,
+      },
+      {
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
+        tags: ["luxury", "premium"],
+        rating: 4.9,
+      },
+      {
+        title: "Hydrating Facial",
+        description: "Intensive moisture therapy for dry and dehydrated skin",
+        tags: ["facial", "skincare", "beauty", "luxury"],
+        rating: 4.7,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 3.9,
+      },
+      {
+        title: "Reiki Healing",
+        description: "Energy healing treatment for balance and relaxation",
+        tags: ["luxury", "premium"],
+        rating: 3.8,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 3.7,
+      },
+      {
+        title: "Sugar Scrub",
+        description: "Gentle exfoliation with natural sugar crystals",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 4.7,
+      },
+      {
+        title: "Anti-Aging Facial",
+        description: "Advanced treatment targeting fine lines and wrinkles",
+        tags: ["facial", "skincare", "beauty", "luxury"],
+        rating: 4,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      }
+    ],
+  },
+  {
+    id: "3a94af26-2eea-48ce-b593-948e3ec00bc1",
+    vesselId: "fv--explorer",
+    name: "Olive Grove Spa & Wellness",
+    description: "Experience ultimate relaxation at Olive Grove Spa & Wellness, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Greek Islands healing traditions.",
+    imageUrl: "/images/spas/small-ocean-ship-spa.jpg",
+    hours: {
+      start: "09:00",
+      end: "21:00",
+      duration: "12 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(969) 488-7489",
+      contactEmail: "mail@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Acupuncture",
+        description: "Traditional Chinese medicine using fine needles for healing",
+        tags: [],
+        rating: 3.8,
+      },
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.7,
+      },
+      {
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
+        tags: [],
+        rating: 4.8,
       },
       {
         title: "Salt Scrub",
         description: "Exfoliating treatment using mineral-rich sea salts",
         tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4,
+        rating: 4.5,
       },
       {
-        title: "Thai Massage",
-        description: "Traditional stretching and pressure point massage",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.2,
-      },
-      {
-        title: "Reiki Healing",
-        description: "Energy healing treatment for balance and relaxation",
-        tags: [],
-        rating: 3.7,
+        title: "Meditation Session",
+        description: "Guided meditation for stress relief and mindfulness",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.7,
       },
       {
         title: "Oxygen Infusion Facial",
         description: "Rejuvenating treatment that infuses pure oxygen into the skin",
         tags: ["facial", "skincare", "beauty"],
-        rating: 4.6,
+        rating: 3.5,
       },
       {
         title: "Cellulite Treatment",
@@ -477,15 +581,205 @@ export const mykonosSpas: Spa[] = [
         rating: 4.1,
       },
       {
-        title: "Microdermabrasion",
-        description: "Exfoliating treatment for smoother, brighter skin",
+        title: "Yoga Class",
+        description: "Gentle yoga practice suitable for all levels",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.5,
+      },
+      {
+        title: "Aegean Sea Salt Scrub",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.1,
+      }
+    ],
+    isPopular: true,
+    faqs: [
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "eded9074-edd8-4371-9494-a4f85b9877dd",
+    vesselId: "nb-mykonos-voyager",
+    name: "Nautilus Waters Spa",
+    description: "Welcome to Nautilus Waters Spa, an oasis of tranquility aboard the NB Mykonos Voyager. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
+    imageUrl: "/images/spas/mega-yacht-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "21:00",
+      duration: "13 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(638) 592-1785",
+      contactEmail: "customerservice@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Aegean Sea Salt Scrub",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.3,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.2,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.4,
+      },
+      {
+        title: "Mud Wrap",
+        description: "Purifying treatment using therapeutic mineral mud",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 3.6,
+      },
+      {
+        title: "Eyebrow Shaping",
+        description: "Professional eyebrow grooming and shaping",
         tags: [],
+        rating: 4,
+      },
+      {
+        title: "Anti-Aging Facial",
+        description: "Advanced treatment targeting fine lines and wrinkles",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.6,
+      },
+      {
+        title: "Thai Massage",
+        description: "Traditional stretching and pressure point massage",
+        tags: ["massage", "relaxation", "therapeutic"],
         rating: 4.8,
       },
       {
-        title: "Hot Stone Massage",
-        description: "Luxurious massage using heated volcanic stones for deep relaxation",
+        title: "Purifying Facial",
+        description: "Deep pore cleansing treatment for oily and acne-prone skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.9,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      }
+    ],
+  },
+  {
+    id: "8f3a4e59-9360-4349-bb09-d53191109d38",
+    vesselId: "mv--of-the-deep",
+    name: "Olive Grove Waters Spa",
+    description: "Discover your personal sanctuary at Olive Grove Waters Spa. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/eco-friendly-hybrid-ship-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "21:00",
+      duration: "13 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(837) 201-4014",
+      contactEmail: "hello@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 5,
+      },
+      {
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
+        tags: [],
+        rating: 4.1,
+      },
+      {
+        title: "Olive Oil Body Wrap",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 3.6,
+      },
+      {
+        title: "Manicure",
+        description: "Complete nail care including shaping, cuticle care, and polish",
+        tags: [],
+        rating: 3.5,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 3.8,
+      },
+      {
+        title: "Gel Manicure",
+        description: "Long-lasting gel polish application",
+        tags: [],
+        rating: 4.2,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
         tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.7,
+      },
+      {
+        title: "Meditation Session",
+        description: "Guided meditation for stress relief and mindfulness",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.4,
+      },
+      {
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.5,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 3.7,
+      },
+      {
+        title: "Hydrating Facial",
+        description: "Intensive moisture therapy for dry and dehydrated skin",
+        tags: ["facial", "skincare", "beauty"],
         rating: 4.1,
       }
     ],
@@ -496,6 +790,92 @@ export const mykonosSpas: Spa[] = [
         answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       },
       {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      }
+    ],
+  },
+  {
+    id: "cd7ca869-6b0f-4438-b3c3-1b48b553ae13",
+    vesselId: "sy-the--mariner",
+    name: "Nautilus Spa & Wellness",
+    description: "Discover your personal sanctuary at Nautilus Spa & Wellness. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/polar-expedition-ship-spa.jpg",
+    hours: {
+      start: "07:00",
+      end: "21:00",
+      duration: "14 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(299) 513-3951",
+      contactEmail: "customerservice@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Yoga Class",
+        description: "Gentle yoga practice suitable for all levels",
+        tags: ["wellness", "mindfulness", "holistic", "recovery"],
+        rating: 3.8,
+      },
+      {
+        title: "Microdermabrasion",
+        description: "Exfoliating treatment for smoother, brighter skin",
+        tags: ["recovery", "active-lifestyle"],
+        rating: 4.3,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox", "recovery"],
+        rating: 3.5,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: ["recovery", "active-lifestyle"],
+        rating: 3.8,
+      },
+      {
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic", "recovery"],
+        rating: 4.2,
+      },
+      {
+        title: "Sports Massage",
+        description: "Specialized massage for athletic recovery and performance",
+        tags: ["massage", "relaxation", "therapeutic", "recovery"],
+        rating: 4.2,
+      },
+      {
+        title: "Volcanic Mud Therapy",
+        description: "Specialized regional treatment featuring traditional greek islands techniques and ingredients",
+        tags: ["recovery", "active-lifestyle"],
+        rating: 3.9,
+      },
+      {
+        title: "Thai Massage",
+        description: "Traditional stretching and pressure point massage",
+        tags: ["massage", "relaxation", "therapeutic", "recovery"],
+        rating: 4,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
         question: "How early should I arrive for my appointment?",
         answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
       },
@@ -504,190 +884,90 @@ export const mykonosSpas: Spa[] = [
         answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
       },
       {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
-      {
         question: "What should I wear to my spa appointment?",
         answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
       }
     ],
   },
   {
-    id: "8afcf72a-a5fe-41f4-aaad-535ec6e15282",
-    vesselId: "fv--gale",
-    name: "FV  Gale Coastal Spa",
-    description: "Welcome to FV  Gale Coastal Spa, an oasis of tranquility aboard the FV  Gale. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
-    imageUrl: "/images/spas/small-ocean-ship-spa.jpg",
+    id: "e2a2e6fc-61bb-4546-82ae-04d0f8b55dfc",
+    vesselId: "ss--gale",
+    name: "Cycladic Spa & Wellness",
+    description: "Welcome to Cycladic Spa & Wellness, an oasis of tranquility aboard the SS  Gale. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Mykonos.",
+    imageUrl: "/images/spas/catamaran-spa.jpg",
     hours: {
-      start: "07:00",
-      end: "19:00",
+      start: "09:00",
+      end: "21:00",
       duration: "12 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-741-119-6851",
-      contactEmail: "communications@spa.velarivoyages.com",
+      contactNumber: "(863) 438-3543",
+      contactEmail: "inquiries@spa.velarivoyages.com",
     },
     services: [
       {
-        title: "Salt Scrub",
-        description: "Exfoliating treatment using mineral-rich sea salts",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4.5,
-      },
-      {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.2,
-      },
-      {
-        title: "LED Light Therapy",
-        description: "Non-invasive light treatment for various skin concerns",
-        tags: [],
-        rating: 4.8,
-      },
-      {
-        title: "Hot Stone Massage",
-        description: "Luxurious massage using heated volcanic stones for deep relaxation",
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
         tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.1,
-      },
-      {
-        title: "Yoga Class",
-        description: "Gentle yoga practice suitable for all levels",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 5,
-      },
-      {
-        title: "Purifying Facial",
-        description: "Deep pore cleansing treatment for oily and acne-prone skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4,
-      },
-      {
-        title: "Eyebrow Shaping",
-        description: "Professional eyebrow grooming and shaping",
-        tags: [],
-        rating: 4.3,
-      }
-    ],
-    isPopular: false,
-    faqs: [
-      {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
-      },
-      {
-        question: "What should I wear to my spa appointment?",
-        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
-      },
-      {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      }
-    ],
-  },
-  {
-    id: "b28b21c0-11b2-4cee-b698-9f309eb3a394",
-    vesselId: "fv--gale",
-    name: "Coastal Wellness Retreat",
-    description: "Discover your personal sanctuary at Coastal Wellness Retreat. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
-    imageUrl: "/images/spas/small-ocean-ship-spa.jpg",
-    hours: {
-      start: "09:00",
-      end: "22:00",
-      duration: "13 hours",
-      description: "Daily spa hours may vary during port days and sea days",
-    },
-    contact: {
-      contactNumber: "+1-253-675-9318",
-      contactEmail: "welcome@spa.velarivoyages.com",
-    },
-    services: [
-      {
-        title: "Sunless Tanning",
-        description: "Professional spray tan application for a golden glow",
-        tags: [],
-        rating: 4.9,
-      },
-      {
-        title: "Eyelash Extensions",
-        description: "Individual lash extensions for fuller, longer lashes",
-        tags: [],
-        rating: 4,
-      },
-      {
-        title: "Salt Scrub",
-        description: "Exfoliating treatment using mineral-rich sea salts",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4.1,
-      },
-      {
-        title: "Reflexology",
-        description: "Therapeutic foot massage focusing on pressure points",
-        tags: [],
-        rating: 4.1,
-      },
-      {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
-        tags: [],
-        rating: 4.3,
-      },
-      {
-        title: "Cellulite Treatment",
-        description: "Specialized treatment targeting skin texture and firmness",
-        tags: [],
-        rating: 4.1,
-      },
-      {
-        title: "Classic European Facial",
-        description: "Deep cleansing and hydrating facial for all skin types",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.3,
-      },
-      {
-        title: "Swedish Massage",
-        description: "Classic full-body relaxation massage with gentle, flowing strokes",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4,
-      },
-      {
-        title: "Eyebrow Shaping",
-        description: "Professional eyebrow grooming and shaping",
-        tags: [],
-        rating: 4.5,
+        rating: 4.7,
       },
       {
         title: "Manicure",
         description: "Complete nail care including shaping, cuticle care, and polish",
         tags: [],
-        rating: 5,
+        rating: 4.5,
       },
       {
-        title: "Body Wrap",
-        description: "Detoxifying and slimming full-body treatment",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 5,
-      },
-      {
-        title: "Shiatsu Massage",
-        description: "Japanese finger pressure massage for energy balance",
+        title: "Sports Massage",
+        description: "Specialized massage for athletic recovery and performance",
         tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.8,
+        rating: 4,
+      },
+      {
+        title: "Prenatal Massage",
+        description: "Gentle, specialized massage for expecting mothers",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.9,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 3.9,
+      },
+      {
+        title: "Couples Massage",
+        description: "Romantic side-by-side massage experience for two",
+        tags: ["massage", "relaxation", "therapeutic", "couples"],
+        rating: 3.9,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.9,
+      },
+      {
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
+        tags: [],
+        rating: 4,
       }
     ],
-    isPopular: false,
+    isPopular: true,
     faqs: [
       {
         question: "Are your products suitable for sensitive skin?",
         answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
-      },
-      {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
       },
       {
         question: "What should I wear to my spa appointment?",
@@ -696,6 +976,10 @@ export const mykonosSpas: Spa[] = [
       {
         question: "How early should I arrive for my appointment?",
         answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
       },
       {
         question: "What is your cancellation policy?",

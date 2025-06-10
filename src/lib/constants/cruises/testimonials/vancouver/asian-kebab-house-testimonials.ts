@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Vancouver
-    // Generated on: 2025-06-10T03:42:11.673Z
+    // Generated on: 2025-06-10T08:14:19.226Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const vancouverasianKebabHouseTestimonials: Testimonial[] = [
   {
-    "quote": "Asian Kebab House delivers ornate offerings, supported by thoughtful staff and a whimsical atmosphere perfect for any occasion.",
-    "author": "Cynthia Collins",
-    "image": "https://randomuser.me/api/portraits/women/12.jpg",
-    "title": "Gourmet Explorer",
-    "rating": 4
-  },
-  {
-    "quote": "From the first bite to the last, the appetizers at Asian Kebab House impressed with golden flavors, matched by meticulous service and a cozy ambiance.",
-    "author": "Dennis Charlotte",
-    "image": "https://randomuser.me/api/portraits/men/52.jpg",
-    "title": "Restaurant Reviewer",
-    "rating": 3.6
-  },
-  {
-    "quote": "For those who appreciate majestic cuisine, Asian Kebab House offers gastronomic experiences that satisfy, alongside remarkable service and a serene vibe.",
-    "author": "Lerato Olivia",
-    "image": "https://randomuser.me/api/portraits/women/3.jpg",
-    "title": "Culinary Journalist",
-    "rating": 3.8
-  },
-  {
-    "quote": "Asian Kebab House combines gilded dishes with accommodating hospitality in a sophisticated setting, perfect for any occasion.",
-    "author": "Bella Hamilton",
-    "image": "/images/testimonials/person-1.jpg",
+    "quote": "From appetizers to desserts, Asian Kebab House offers distinguished specialties in a chic space with attentive service.",
+    "author": "Kinsley Hunter",
+    "image": "https://randomuser.me/api/portraits/women/36.jpg",
     "title": "Menu Analyst",
-    "rating": 4.1
+    "date": "December 31, 1969",
+    "rating": 4.7
   },
   {
-    "quote": "From the first bite to the last, the specialties at Asian Kebab House impressed with golden flavors, matched by meticulous service and a relaxed ambiance.",
-    "author": "Audrey Griffin",
-    "image": "https://randomuser.me/api/portraits/women/35.jpg",
-    "title": "Food Photographer",
+    "quote": "Exceptional specialties and respectful service come standard at Asian Kebab House. The sophisticated ambiance only adds to the appeal.",
+    "author": "Alexa Dixon",
+    "image": "/images/testimonials/person-7.jpg",
+    "title": "Lifestyle Influencer",
+    "date": "December 31, 1969",
     "rating": 4.2
   },
   {
-    "quote": "For grand fare served with responsive care in a artistic space, Asian Kebab House is unmatched.",
-    "author": "Wayne Ellis",
-    "image": "https://randomuser.me/api/portraits/men/12.jpg",
-    "title": "Travel Writer",
-    "rating": 4.5
+    "quote": "Every dish at Asian Kebab House was vivid, complemented by responsive staff and a artistic atmosphere.",
+    "author": "Louis Reeves",
+    "image": "/images/testimonials/person-8.jpg",
+    "title": "Culinary Instructor",
+    "date": "December 31, 1969",
+    "rating": 4.9
+  },
+  {
+    "quote": "Asian Kebab House has the most divine nibbles I've ever tasted. The tranquil atmosphere made our evening special, and the service was thoughtful.",
+    "author": "Katherine Marshall",
+    "image": "https://randomuser.me/api/portraits/women/79.jpg",
+    "title": "Culinary Consultant",
+    "date": "December 31, 1969",
+    "rating": 4.6
+  },
+  {
+    "quote": "Exceptional delicacies paired with remarkable service and a vibrant atmosphere make Asian Kebab House a standout choice.",
+    "author": "Amanda Keller",
+    "image": "/images/testimonials/person-1.jpg",
+    "title": "Culinary Instructor",
+    "date": "December 31, 1969",
+    "rating": 3.9
+  },
+  {
+    "quote": "Asian Kebab House has the most radiant gastronomic pleasures I've ever tasted. The sophisticated atmosphere made our evening special, and the service was stellar.",
+    "author": "Jonathan Gardner",
+    "image": "/images/testimonials/person-8.jpg",
+    "title": "Culinary Blogger",
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "You’ll find a delightful selection of heartwarming delicacies, paired with timely service and a delightful environment at Asian Kebab House.",
+    "author": "Steven Marshall",
+    "image": "/images/testimonials/person-11.jpg",
+    "title": "Food Photographer",
+    "date": "December 31, 1969",
+    "rating": 4.9
+  },
+  {
+    "quote": "Asian Kebab House offers a remarkable menu and an equally warm staff. The airy vibe makes it perfect for any occasion.",
+    "author": "Marcus Campbell",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Lifestyle Influencer",
+    "date": "December 31, 1969",
+    "rating": 4.4
   }
 ];

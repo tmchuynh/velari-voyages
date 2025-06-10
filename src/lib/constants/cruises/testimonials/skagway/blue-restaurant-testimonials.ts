@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Skagway
-    // Generated on: 2025-06-10T03:42:11.666Z
+    // Generated on: 2025-06-10T08:14:19.165Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const skagwayblueRestaurantTestimonials: Testimonial[] = [
   {
-    "quote": "From the timeless snacks to the dependable hospitality, Blue Restaurant provides a upscale dining experience worth savoring.",
-    "author": "James Charlotte",
-    "image": "/images/testimonials/person-11.jpg",
-    "title": "Food Writer",
+    "quote": "Our experience at Blue Restaurant was elevated by heartwarming meal, efficient hospitality, and a ambient dining room.",
+    "author": "Mia Wallace",
+    "image": "https://randomuser.me/api/portraits/women/61.jpg",
+    "title": "Epicurean Specialist",
+    "date": "December 31, 1969",
+    "rating": 4
+  },
+  {
+    "quote": "For golden flavors served with personalized care in a warm space, Blue Restaurant is unmatched.",
+    "author": "Aiden Bennett",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Culinary Artist",
+    "date": "December 31, 1969",
+    "rating": 4.2
+  },
+  {
+    "quote": "From appetizers to desserts, Blue Restaurant offers exclusive delights in a elegant space with kind service.",
+    "author": "Virginia Warren",
+    "image": "https://randomuser.me/api/portraits/women/79.jpg",
+    "title": "Luxury Travel Consultant",
+    "date": "December 31, 1969",
+    "rating": 4.9
+  },
+  {
+    "quote": "For a ornate meal with respectful service in a intimate setting, Blue Restaurant is the place to be.",
+    "author": "Betty Dixon",
+    "image": "https://randomuser.me/api/portraits/women/68.jpg",
+    "title": "Culinary Reviewer",
+    "date": "December 31, 1969",
     "rating": 3.6
   },
   {
-    "quote": "Our visit to Blue Restaurant was outstanding. The drinks were opulent, the staff exceptional, and the atmosphere relaxed. A must-visit!",
-    "author": "Ashley Price",
-    "image": "https://randomuser.me/api/portraits/women/4.jpg",
-    "title": "Menu Analyst",
-    "rating": 3.9
-  },
-  {
-    "quote": "The culinary wonders at Blue Restaurant are premium, and the gracious service creates an inviting casual experience.",
-    "author": "Matthew Hamilton",
-    "image": "/images/testimonials/person-4.jpg",
-    "title": "Food Writer",
+    "quote": "The entrees at Blue Restaurant are consistently sublime, accompanied by approachable staff and a bohemian setting.",
+    "author": "Terry Gardner",
+    "image": "https://randomuser.me/api/portraits/men/15.jpg",
+    "title": "Food & Wine Connoisseur",
+    "date": "December 31, 1969",
     "rating": 3.8
   },
   {
-    "quote": "The food selection at Blue Restaurant is simply sublime. Combined with remarkable staff and a artistic setting, it’s a top choice for discerning diners.",
-    "author": "Joan Hawkins",
-    "image": "https://randomuser.me/api/portraits/women/2.jpg",
-    "title": "Culinary Advisor",
-    "rating": 4.4
-  },
-  {
-    "quote": "Our meal at Blue Restaurant featured luxurious meal, attentive prompt staff, and a warm, vibrant environment.",
-    "author": "Emma Gardner",
-    "image": "https://randomuser.me/api/portraits/women/46.jpg",
-    "title": "Menu Analyst",
-    "rating": 4.1
-  },
-  {
-    "quote": "Our meal at Blue Restaurant featured first-class cuisine, attentive skilled staff, and a warm, pleasant environment.",
-    "author": "Genesis Cooper",
-    "image": "/images/testimonials/person-4.jpg",
+    "quote": "Every visit to Blue Restaurant offers sophisticated flavors, first-rate hospitality, and a welcoming chic atmosphere.",
+    "author": "Abigail Coleman",
+    "image": "https://randomuser.me/api/portraits/women/66.jpg",
     "title": "Culinary Enthusiast",
+    "date": "December 31, 1969",
     "rating": 4
+  },
+  {
+    "quote": "For a memorable dining experience, Blue Restaurant offers vivid gastronomic delights, superb service, and a serene environment.",
+    "author": "Betty Wells",
+    "image": "https://randomuser.me/api/portraits/women/83.jpg",
+    "title": "Food Stylist",
+    "date": "December 31, 1969",
+    "rating": 3.9
+  },
+  {
+    "quote": "Our experience at Blue Restaurant was elevated by celestial creations, supportive hospitality, and a luxurious dining room.",
+    "author": "Willie Nash",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Restaurant Reviewer",
+    "date": "December 31, 1969",
+    "rating": 4.7
   }
 ];

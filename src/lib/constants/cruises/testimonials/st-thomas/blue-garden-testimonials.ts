@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: St Thomas
-    // Generated on: 2025-06-10T03:42:11.669Z
+    // Generated on: 2025-06-10T08:14:19.185Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const stThomasblueGardenTestimonials: Testimonial[] = [
   {
-    "quote": "The culinary delights at Blue Garden are thoughtfully prepared, exclusive, and complemented by remarkable staff and a elegant space.",
-    "author": "Gregory Harper",
-    "image": "https://randomuser.me/api/portraits/men/22.jpg",
-    "title": "Travel Blogger",
-    "rating": 4.4
-  },
-  {
-    "quote": "From appetizers to desserts, Blue Garden offers marvelous recipes in a intimate space with exceptional service.",
-    "author": "Lucas Marshall",
-    "image": "https://randomuser.me/api/portraits/men/42.jpg",
-    "title": "Restaurant Reviewer",
-    "rating": 3.7
-  },
-  {
-    "quote": "The majestic snacks at Blue Garden kept us coming back for more, complemented perfectly by prompt staff and a airy setting.",
-    "author": "Gabriel Clark",
+    "quote": "Blue Garden has the most venerable meal I've ever tasted. The elegant atmosphere made our evening special, and the service was prompt.",
+    "author": "Kyle Fisher",
     "image": "/images/testimonials/person-5.jpg",
-    "title": "Restaurant Reviewer",
-    "rating": 4.7
-  },
-  {
-    "quote": "We were impressed by the sublime quality of the delicacies and the charming attention from staff at Blue Garden. The bohemian environment was the cherry on top.",
-    "author": "Adeline Foster",
-    "image": "https://randomuser.me/api/portraits/women/11.jpg",
-    "title": "Culinary Adventurer",
+    "title": "Culinary Artist",
+    "date": "December 31, 1969",
     "rating": 4.2
   },
   {
-    "quote": "At Blue Garden, blissful cuisine combine seamlessly with efficient professionalism and a spacious space designed for comfort.",
-    "author": "Kinsley Carpenter",
-    "image": "https://randomuser.me/api/portraits/women/53.jpg",
-    "title": "Culinary Journalist",
-    "rating": 4.7
+    "quote": "Blue Garden offers a glorious menu and an equally friendly staff. The charming vibe makes it perfect for any occasion.",
+    "author": "Thomas Palmer",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Culinary Specialist",
+    "date": "December 31, 1969",
+    "rating": 4.5
   },
   {
-    "quote": "Exceptional culinary wonders and polite service come standard at Blue Garden. The vibrant ambiance only adds to the appeal.",
-    "author": "Christian Murray",
-    "image": "https://randomuser.me/api/portraits/men/20.jpg",
-    "title": "Culinary Expert",
-    "rating": 3.9
+    "quote": "Exceptional menu items and courteous service come standard at Blue Garden. The artistic ambiance only adds to the appeal.",
+    "author": "Jeffrey Day",
+    "image": "https://randomuser.me/api/portraits/men/11.jpg",
+    "title": "Food Photographer",
+    "date": "December 31, 1969",
+    "rating": 4.4
+  },
+  {
+    "quote": "We were impressed by the world-class quality of the platters and the dedicated attention from staff at Blue Garden. The relaxed environment was the cherry on top.",
+    "author": "Roger Porter",
+    "image": "https://randomuser.me/api/portraits/men/54.jpg",
+    "title": "Food Historian",
+    "date": "December 31, 1969",
+    "rating": 4.4
+  },
+  {
+    "quote": "At Blue Garden, expect divine menu items served by welcoming professionals in a serene setting.",
+    "author": "Antonio Watson",
+    "image": "/images/testimonials/person-3.jpg",
+    "title": "Food Writer",
+    "date": "December 31, 1969",
+    "rating": 4.9
+  },
+  {
+    "quote": "Blue Garden consistently delivers deluxe appetizers, attentive staff, and a rustic ambiance to enjoy.",
+    "author": "Chloe Collins",
+    "image": "/images/testimonials/person-5.jpg",
+    "title": "Culinary Specialist",
+    "date": "December 31, 1969",
+    "rating": 4.8
+  },
+  {
+    "quote": "Blue Garden has the most prestigious gastronomic treats I've ever tasted. The charming atmosphere made our evening special, and the service was approachable.",
+    "author": "Jose Hayes",
+    "image": "https://randomuser.me/api/portraits/men/54.jpg",
+    "title": "Culinary Enthusiast",
+    "date": "December 31, 1969",
+    "rating": 3.8
+  },
+  {
+    "quote": "Blue Garden has the most world-class snacks I've ever tasted. The stylish atmosphere made our evening special, and the service was efficient.",
+    "author": "Nicholas Lawson",
+    "image": "https://randomuser.me/api/portraits/men/36.jpg",
+    "title": "Culinary Consultant",
+    "date": "December 31, 1969",
+    "rating": 4.9
   }
 ];

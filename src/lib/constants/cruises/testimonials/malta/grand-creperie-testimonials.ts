@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Malta
-    // Generated on: 2025-06-10T03:42:11.644Z
+    // Generated on: 2025-06-10T08:14:18.964Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const maltagrandCreperieTestimonials: Testimonial[] = [
   {
-    "quote": "Every visit to Grand Creperie offers ornate culinary masterpieces, attentive hospitality, and a welcoming lively atmosphere.",
-    "author": "Jonathan West",
-    "image": "/images/testimonials/person-4.jpg",
-    "title": "Culinary Expert",
-    "rating": 3.8
-  },
-  {
-    "quote": "The combination of lavish treats, courteous attention, and a whimsical vibe makes Grand Creperie exceptional.",
-    "author": "Christopher Spencer",
-    "image": "https://randomuser.me/api/portraits/men/35.jpg",
-    "title": "Culinary Critic",
+    "quote": "The courses at Grand Creperie are consistently enchanted, accompanied by remarkable staff and a elegant setting.",
+    "author": "Jose Parker",
+    "image": "https://randomuser.me/api/portraits/men/23.jpg",
+    "title": "Food & Wine Connoisseur",
+    "date": "December 31, 1969",
     "rating": 4.8
   },
   {
-    "quote": "The fare at Grand Creperie are divine, and the thoughtful service creates an inviting inviting experience.",
-    "author": "Justin Chambers",
-    "image": "/images/testimonials/person-8.jpg",
-    "title": "Beverage Expert",
-    "rating": 4.3
-  },
-  {
-    "quote": "What a exquisite dining experience at Grand Creperie! The gastronomic pleasures exceeded our expectations, and the staff was outstanding. Will definitely return!",
-    "author": "Sophia Collins",
-    "image": "https://randomuser.me/api/portraits/women/47.jpg",
-    "title": "Recipe Developer",
+    "quote": "What a divine dining experience at Grand Creperie! The culinary creations exceeded our expectations, and the staff was considerate. Will definitely return!",
+    "author": "Timothy Mitchell",
+    "image": "/images/testimonials/person-11.jpg",
+    "title": "Culinary Critic",
+    "date": "December 31, 1969",
     "rating": 4.9
   },
   {
-    "quote": "Exceptional menu items paired with respectful service and a classic atmosphere make Grand Creperie a standout choice.",
-    "author": "Harry Olivia",
-    "image": "/images/testimonials/person-12.jpg",
-    "title": "Dining Columnist",
-    "rating": 4.1
+    "quote": "Every visit to Grand Creperie delivers charming savors, attentive approachable staff, and a bohemian environment that welcomes you.",
+    "author": "Edward Dixon",
+    "image": "/images/testimonials/person-6.jpg",
+    "title": "Gourmet Explorer",
+    "date": "December 31, 1969",
+    "rating": 3.5
   },
   {
-    "quote": "The delicacies here are refined, prepared with care and served by superior staff in a comfortable setting.",
-    "author": "Lucas Bennett",
-    "image": "https://randomuser.me/api/portraits/men/47.jpg",
-    "title": "Culinary Reviewer",
-    "rating": 4.1
+    "quote": "From the heavenly flavors to the dedicated hospitality, Grand Creperie provides a elegant dining experience worth savoring.",
+    "author": "Rajesh West",
+    "image": "/images/testimonials/person-5.jpg",
+    "title": "Cooking Aficionado",
+    "date": "December 31, 1969",
+    "rating": 3.5
+  },
+  {
+    "quote": "At Grand Creperie, expect pristine beverages served by superior professionals in a comfortable setting.",
+    "author": "Jerry Lawson",
+    "image": "https://randomuser.me/api/portraits/men/66.jpg",
+    "title": "Food Stylist",
+    "date": "December 31, 1969",
+    "rating": 5
+  },
+  {
+    "quote": "The first-class flavors of the culinary wonders at Grand Creperie are matched by first-rate service and a refined dining room.",
+    "author": "Susan Hall",
+    "image": "/images/testimonials/person-9.jpg",
+    "title": "Luxury Travel Consultant",
+    "date": "December 31, 1969",
+    "rating": 3.6
+  },
+  {
+    "quote": "Grand Creperie delivers euphoric snacks, supported by efficient staff and a ambient atmosphere perfect for any occasion.",
+    "author": "Anthony Palmer",
+    "image": "/images/testimonials/person-7.jpg",
+    "title": "Cooking Aficionado",
+    "date": "December 31, 1969",
+    "rating": 4.8
+  },
+  {
+    "quote": "Exceptional offerings and exceptional service come standard at Grand Creperie. The stylish ambiance only adds to the appeal.",
+    "author": "Henry Montgomery",
+    "image": "https://randomuser.me/api/portraits/men/69.jpg",
+    "title": "Food Scientist",
+    "date": "December 31, 1969",
+    "rating": 3.6
   }
 ];

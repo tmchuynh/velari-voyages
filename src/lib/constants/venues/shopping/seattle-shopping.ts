@@ -1,37 +1,20 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Seattle
-    // Generated on: 2025-06-10T03:46:59.934Z
+    // Generated on: 2025-06-10T08:14:17.650Z
 
 import { Shopping } from "@/lib/interfaces/services/venues";
 
 export const seattleShopping: Shopping[] = [
   {
-    id: "0f04ca37-6139-4647-a128-9e6bfb5c2d75",
-    vesselId: "cs--explorer",
+    id: "49f61e43-9d73-4aba-b974-110515939024",
+    vesselId: "nb--explorer",
     type: "Duty-Free",
     stores: [
       {
-        id: "d9f91ff6-c6fc-4f71-a1da-3d5a55c73620",
+        id: "25e29d94-7d83-4311-9bee-a1def49bb50c",
         name: "Cruise Collection Duty Free",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-374-284-3223",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "81bc0785-f6f4-4952-b259-caa3b8784ee7",
-        name: "Seabound Duty Free",
-        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
         hours: {
           start: "09:00",
           end: "23:00",
@@ -39,620 +22,33 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-977-482-5291",
-          contactEmail: "inquiries@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "0ff3d852-d708-4931-9558-e72f67590de3",
-        name: "CS  Explorer Maritime Duty Free",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-825-579-7784",
-          contactEmail: "admin@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "1170568f-41ca-46b8-a691-9ac68fdc6505",
-    vesselId: "cs--explorer",
-    type: "Jewelry and Watches",
-    stores: [
-      {
-        id: "927b68bc-669f-4709-89be-41c5dfc5a99b",
-        name: "CS  Explorer Precious Waves",
-        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
-        hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-739-743-4043",
-          contactEmail: "inquiries@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "a924d9ac-367b-47cb-b5db-2ced15ed5730",
-        name: "Coastal Collections",
-        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-398-280-1410",
-          contactEmail: "communications@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "1b42336a-4296-4e3f-b9fc-bb8188a83dab",
-        name: "CS  Explorer Nautical Gems",
-        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
-        hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-843-293-1349",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "a0ddac4b-36c2-4225-b652-9ed41369968f",
-    vesselId: "cs--explorer",
-    type: "Fashion and Accessories",
-    stores: [
-      {
-        id: "2cf25408-bccf-4d8e-8211-f06491c57570",
-        name: "Maritime Mode",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
-        hours: {
-          start: "10:00",
-          end: "20:00",
-          duration: "10 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-567-911-2113",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "349a5ce1-f573-494c-bd36-b197e3834636",
-        name: "Seaworthy Style",
-        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-592-421-3273",
-          contactEmail: "support@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "e88c8fd9-3237-4286-9486-c03e18bd02f5",
-        name: "Maritime Mode",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-259-453-2951",
-          contactEmail: "info@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "8deaa7ec-5550-44ed-bb96-493404774ebd",
-    vesselId: "cs--explorer",
-    type: "Electronics and Gadgets",
-    stores: [
-      {
-        id: "9bc16fb9-8bd8-4ce6-bff1-89edfc258de0",
-        name: "Modern Maritime",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-843-606-5097",
-          contactEmail: "inquiries@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "012ddcd8-6b2e-42b3-8829-73b4044a4939",
-        name: "Gadget Gallery",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-427-932-6450",
-          contactEmail: "admin@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "a726a6d2-0c2d-47a7-bc63-7e4845974c28",
-        name: "Modern Maritime",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-254-825-8047",
-          contactEmail: "team@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "7ea0d02a-cac9-4b81-9eac-9a4e63a89cd3",
-    vesselId: "cs--explorer",
-    type: "Souvenirs and Gifts",
-    stores: [
-      {
-        id: "61de6f1c-870a-4869-bd1e-f93db0e2200c",
-        name: "Memento Maritime",
-        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-811-797-7952",
-          contactEmail: "customerservice@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "87376e41-cd50-47db-bbc2-ef4c390ec07b",
-        name: "Gift Gallery",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
-        hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-640-972-4750",
-          contactEmail: "ask@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "7c5b1cfb-bf36-4539-aab7-9b2650d25419",
-        name: "Memory Makers",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-268-925-6172",
-          contactEmail: "office@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "6f71756a-b7bf-416b-b7be-318f06e34150",
-    vesselId: "cs--explorer",
-    type: "Health and Beauty",
-    stores: [
-      {
-        id: "53922ede-1328-4e6c-9a6e-ed3745510084",
-        name: "Ocean Beauty",
-        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-693-771-7756",
-          contactEmail: "connect@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "1513f938-9d53-404b-b431-e167666e502f",
-        name: "Seattle Maritime Glow",
-        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-464-731-3271",
-          contactEmail: "office@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "f9408086-5e22-4c36-ac86-304a66576e24",
-        name: "CS  Explorer Coastal Care",
-        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-981-431-6227",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "28df3a17-42d5-4c09-8764-62b4032a3559",
-    vesselId: "cs--explorer",
-    type: "Sports and Outdoor",
-    stores: [
-      {
-        id: "8450c708-12e1-490e-8849-752acf188871",
-        name: "Seattle Active Ocean",
-        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-893-890-3942",
-          contactEmail: "services@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "6a19b783-bd29-49e5-8d2e-622cb3a30ac9",
-        name: "Fitness Fleet",
-        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-556-396-5436",
-          contactEmail: "admin@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "a4d969e2-1dde-4ed2-a654-579ed62c1cf5",
-        name: "CS  Explorer Deck Athletics",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-578-780-6597",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "135ebd9f-7b30-4ab1-8b20-f0affde80852",
-    vesselId: "cs--explorer",
-    type: "Home and Living",
-    stores: [
-      {
-        id: "c5c71971-432a-4652-a471-a1e011bc2333",
-        name: "Seattle Domestic Deck",
-        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-554-935-2584",
-          contactEmail: "reception@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "ce33363d-5139-44d9-b2f8-9fb199b9bc9f",
-        name: "Ocean Home",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
-        hours: {
-          start: "08:00",
-          end: "23:00",
-          duration: "15 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-939-585-2806",
-          contactEmail: "ask@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "7edd3956-8062-4196-b6fd-d180e9137349",
-        name: "CS  Explorer Ocean Home",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-600-361-8825",
-          contactEmail: "ask@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "23630195-f871-4128-8576-d0a047953158",
-    vesselId: "ss-seattle-voyager",
-    type: "Duty-Free",
-    stores: [
-      {
-        id: "dee980b8-9ba9-4471-8319-7ca4ad05935f",
-        name: "Cruise Collection Duty Free",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-372-511-7034",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "14dc0b34-1857-4a9e-8749-59fc54427b95",
-        name: "SS Seattle Voyager Ocean Tax Free Shop",
-        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-893-710-4277",
-          contactEmail: "team@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "338ab467-3fcc-4f94-a6da-72c03cd60955",
-        name: "Maritime Duty Free",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-965-725-4839",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "855e06da-7ff8-4d60-944d-88e76fd59f56",
-    vesselId: "ss-seattle-voyager",
-    type: "Jewelry and Watches",
-    stores: [
-      {
-        id: "f414aacf-2dea-47d1-8a54-c434faed68b0",
-        name: "Luxury Time & Gems",
-        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-802-292-8924",
-          contactEmail: "reachus@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "ca8741c4-1bd4-4714-97a3-3d9cc7c528eb",
-        name: "Seattle Maritime Timepieces",
-        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-631-101-7757",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "25820cbd-a2b6-403a-81bb-ab17bbadbdd7",
-        name: "Ocean Jewelers",
-        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-887-117-9873",
-          contactEmail: "info@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "945c3daa-198f-4f6a-b584-83cb308a8dd0",
-    vesselId: "ss-seattle-voyager",
-    type: "Fashion and Accessories",
-    stores: [
-      {
-        id: "519c91e2-65d5-4d4f-a81b-84fa7faf1faf",
-        name: "Coastal Chic",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
-        hours: {
-          start: "09:00",
-          end: "22:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-586-429-9855",
-          contactEmail: "support@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "e041a603-45d7-470b-b2ce-be3e04a6f33b",
-        name: "Seattle Cruise Couture",
-        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-453-914-4640",
+          contactNumber: "(874) 290-9680",
           contactEmail: "welcome@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "734eea4f-cbbb-481d-a11c-0f3cf51ec027",
-        name: "Seaside Style",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        id: "1ce5bfbd-3dbc-42ef-bf93-dafd280da525",
+        name: "Seattle International Selections",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
         hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-750-559-1398",
-          contactEmail: "team@shopping.velarivoyages.com",
+          contactNumber: "(670) 601-8337",
+          contactEmail: "welcome@shopping.velarivoyages.com",
         },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "3526ae77-c376-4142-af22-cf34ddbc38fd",
-    vesselId: "ss-seattle-voyager",
-    type: "Electronics and Gadgets",
-    stores: [
+        hasSales: false,
+        isPopular: false,
+      },
       {
-        id: "00df9646-5d54-42c8-b568-ac8cd972fae7",
-        name: "Digital Deck",
-        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        id: "68b50a65-cfa2-4b46-a206-1242c850e55e",
+        name: "Maritime Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
         hours: {
           start: "09:00",
           end: "23:00",
@@ -660,33 +56,139 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-839-859-9553",
-          contactEmail: "inquiries@shopping.velarivoyages.com",
+          contactNumber: "(653) 131-9938",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "1cbb2741-8245-405a-97dc-b279f2fa735f",
+    vesselId: "nb--explorer",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "d9f16e4e-2db0-4d23-970d-0661cf94ef57",
+        name: "Seattle Luxury Time & Gems",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(415) 510-9355",
+          contactEmail: "help@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "b262cc17-d913-4a86-ac4b-3a0933cfdf20",
-        name: "Innovation Station",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        id: "19d04202-673b-4d49-9fb8-71d81a4b384c",
+        name: "Sea Glass Jewelry",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
         hours: {
-          start: "10:00",
+          start: "08:00",
           end: "22:00",
-          duration: "12 hours",
+          duration: "14 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-226-806-3123",
-          contactEmail: "connect@shopping.velarivoyages.com",
+          contactNumber: "(524) 486-6454",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "550bab27-de4f-4bd0-bf5e-6e159cea50b4",
+        name: "Coastal Collections",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(364) 107-5284",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "056a21dc-c169-4390-81c0-14b97a42dadd",
+    vesselId: "nb--explorer",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "01bcc78c-3023-4396-8cf5-472fb7855181",
+        name: "NB  Explorer Seaside Style",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(254) 180-2740",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
       },
       {
-        id: "d7ec2a80-df56-4271-91dd-20d1668c0c9f",
-        name: "SS Seattle Voyager Electronic Essentials",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        id: "0c49ff58-359a-420a-b7aa-6619b9ba66ac",
+        name: "Coastal Chic",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(524) 502-1636",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "90e85255-0f4d-48de-8f46-df8a0572568c",
+        name: "NB  Explorer Nautical Threads",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(108) 946-9338",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "3d1c5d91-99ae-40c0-8a0d-a37604fe9a0f",
+    vesselId: "nb--explorer",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "7316a225-8a76-45dd-80b1-6e34d43b5440",
+        name: "Electronic Essentials",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
         hours: {
           start: "08:00",
           end: "21:00",
@@ -694,22 +196,520 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-680-326-3140",
-          contactEmail: "hi@shopping.velarivoyages.com",
+          contactNumber: "(592) 918-2879",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
         },
         hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "455b646b-2780-476d-a2aa-687457921368",
+        name: "Digital Deck",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(209) 149-5604",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a62f5ab4-b520-4776-8104-c884a757f21b",
+        name: "NB  Explorer Digital Deck",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(133) 358-3287",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "b41c351b-acbb-4a57-85bb-fc270d54fcd5",
+    vesselId: "nb--explorer",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "291fadba-2e8e-4a14-a1f1-cd906dd73060",
+        name: "Souvenir Seas",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(367) 699-9321",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "6959c1a9-d1dc-46b0-bbf0-5b39e46dde69",
+        name: "Cultural Collections",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(268) 621-6114",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "406c9539-9236-4223-9524-9f60c599a7e4",
+        name: "NB  Explorer Treasure Trove",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(268) 135-3100",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: true,
         isPopular: true,
       }
     ],
   },
   {
-    id: "2f80b51b-75c2-4f3a-a5df-e2b73a566644",
-    vesselId: "ss-seattle-voyager",
+    id: "d6c610b2-ad06-4cb7-9fdb-fe16d274ad99",
+    vesselId: "nb--explorer",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "61bb3b80-0061-4910-be45-0c8a0b4b4903",
+        name: "NB  Explorer Wellness Waves",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(919) 852-4209",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a17db57f-cf04-40e5-a862-a8825279f6c1",
+        name: "NB  Explorer Rejuvenation Station",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(275) 922-5860",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ec84770b-660d-4e53-abc3-888fe8133403",
+        name: "Maritime Glow",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(571) 775-2275",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "adf66a70-145c-4174-a0dd-83ced33075f5",
+    vesselId: "nb--explorer",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "8566a8fb-48d7-4fce-a371-07e6e202cb64",
+        name: "NB  Explorer Active Ocean",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(251) 334-4452",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "9811f9ac-44db-485b-91db-2c96a29e218e",
+        name: "Athletic Voyage",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(814) 920-7376",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "b9779b4b-c2a8-4864-b086-7d5708cf2b75",
+        name: "Athletic Voyage",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(879) 400-1048",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "8dd4951e-6d13-4845-a8f1-98ae2ff7a52b",
+    vesselId: "nb--explorer",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "742cbfb6-82d1-4817-85b6-b7b366201e70",
+        name: "Nautical Nest",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(937) 997-3310",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "811cd31e-2b00-4eca-afa1-cad3f7679406",
+        name: "Coastal Comforts",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(449) 330-8100",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "4cf08197-3d42-4541-9d78-e619205041cc",
+        name: "Ocean Home",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(955) 973-4772",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "62adafe7-c1ba-4283-84ba-6cac878980c4",
+    vesselId: "hms-seattle-voyager",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "e6e6f5d5-7782-454b-9094-56c15cd70dfd",
+        name: "Global Goods Gallery",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(415) 296-7999",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "cedd8043-c4f0-4105-9941-4adc10b94514",
+        name: "HMS Seattle Voyager Maritime Duty Free",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(439) 828-8337",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "17a00108-3517-4e35-b4c0-5b7e7e14978f",
+        name: "Seattle Global Goods Gallery",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(783) 622-7245",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "5351d29b-603f-42c1-ac6c-4ba21c19afa7",
+    vesselId: "hms-seattle-voyager",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "b1f94067-fb52-48be-94de-7228e0938eb3",
+        name: "Sea Glass Jewelry",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(953) 408-2021",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "74c5e75d-836e-4f40-9f6c-2c193d33fd35",
+        name: "Coastal Collections",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(716) 580-1665",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "53200760-4b23-4634-97ee-449c42b680ac",
+        name: "Coastal Collections",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(169) 723-5795",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "37e9cce5-664e-43f8-84b4-2218fc0f67aa",
+    vesselId: "hms-seattle-voyager",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "9d27e214-857a-4643-8b9d-7ac0648a8d19",
+        name: "HMS Seattle Voyager Voyage Wardrobe",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(852) 913-8920",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "701b0aec-8b5a-4aa9-86f5-aec03a6e61ae",
+        name: "Nautical Threads",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(279) 416-7117",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "5d0b0ea8-a7d8-4394-aa88-5b324f559fb3",
+        name: "Seattle Coastal Chic",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(899) 588-1796",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "0e9b6054-315f-4b89-b8aa-f32c9ab3e6b3",
+    vesselId: "hms-seattle-voyager",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "c92cc59d-769b-497a-bc8e-7486f544de2e",
+        name: "Digital Discoveries",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(391) 575-6579",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "f90412bb-3dff-4942-93bc-9faba2d8d5ac",
+        name: "Seattle Innovation Station",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(501) 780-4661",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "c4fb5c50-72ce-4f4e-ac06-bb989aaf9383",
+        name: "HMS Seattle Voyager Modern Maritime",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(594) 928-9110",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "4e4697df-d7ad-4920-9de2-d50dcdd3bd58",
+    vesselId: "hms-seattle-voyager",
     type: "Souvenirs and Gifts",
     stores: [
       {
-        id: "febb0a39-ae91-405e-887e-347d739001d4",
-        name: "Keepsake Corner",
+        id: "0ea2dff9-0705-4860-9530-6a88b46ba339",
+        name: "Souvenir Seas",
         description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
         hours: {
           start: "09:00",
@@ -718,33 +718,16 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-705-937-5687",
-          contactEmail: "contact@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "9606ce49-1df4-4da5-8020-109af70ec95a",
-        name: "Regional Treasures",
-        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-797-216-2195",
-          contactEmail: "communications@shopping.velarivoyages.com",
+          contactNumber: "(577) 657-6853",
+          contactEmail: "info@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "6f65294b-36c5-4d4c-b86e-aad8846ba482",
-        name: "Seattle Souvenir Seas",
-        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        id: "0b971e00-85a6-427a-8c4c-6bc28496a76c",
+        name: "Seattle Voyage Memories",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
         hours: {
           start: "09:00",
           end: "20:00",
@@ -752,8 +735,25 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-710-306-9188",
-          contactEmail: "hi@shopping.velarivoyages.com",
+          contactNumber: "(250) 306-3250",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "d3243528-5bb3-40df-94de-8e86dd5231b6",
+        name: "Gift Gallery",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(611) 888-1388",
+          contactEmail: "feedback@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
@@ -761,89 +761,31 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "1e070fbd-bc10-4588-ac6b-921f734db8b9",
-    vesselId: "ss-seattle-voyager",
+    id: "6c348f36-8202-4abb-9b75-9c6b70cb3678",
+    vesselId: "hms-seattle-voyager",
     type: "Health and Beauty",
     stores: [
       {
-        id: "706432d7-1f01-442c-a38b-4a972ac60ccb",
-        name: "Coastal Care",
+        id: "2af7f204-fefc-4028-92d3-09c3332f0e71",
+        name: "Maritime Glow",
         description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
         hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-810-525-2035",
-          contactEmail: "care@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "0f061f97-513e-4e04-9f1d-9e11202ff3db",
-        name: "SS Seattle Voyager Coastal Care",
-        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-729-718-3334",
-          contactEmail: "care@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "599d7ace-eb33-4db2-bb3a-9acbc2b5ff0e",
-        name: "Beauty & Wellness",
-        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-342-216-4884",
-          contactEmail: "mail@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "4bc026a2-c8d4-4fa7-bfb3-ee62057ebe9b",
-    vesselId: "ss-seattle-voyager",
-    type: "Sports and Outdoor",
-    stores: [
-      {
-        id: "cd5bdafc-3ce1-4970-b58a-af888eb7b5f1",
-        name: "Maritime Sports",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
-        hours: {
           start: "10:00",
-          end: "20:00",
-          duration: "10 hours",
+          end: "22:00",
+          duration: "12 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-876-136-2292",
-          contactEmail: "connect@shopping.velarivoyages.com",
+          contactNumber: "(199) 874-2749",
+          contactEmail: "general@shopping.velarivoyages.com",
         },
-        hasSales: false,
-        isPopular: true,
+        hasSales: true,
+        isPopular: false,
       },
       {
-        id: "9afd5611-d484-42f3-a675-8433ff7c76af",
-        name: "Outdoor Oceanic",
-        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
+        id: "de9fe848-b034-4421-8a29-d850abff860d",
+        name: "Seattle Nautical Naturals",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
         hours: {
           start: "08:00",
           end: "21:00",
@@ -851,16 +793,57 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-326-209-8658",
-          contactEmail: "mail@shopping.velarivoyages.com",
+          contactNumber: "(790) 371-4596",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "eac0e2ce-a981-499c-bc1d-cb1c642a55ae",
+        name: "Seattle Wellness Waves",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(343) 716-3185",
+          contactEmail: "office@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "6dd3cf3f-3f5b-4cce-98bd-22d6a18942dd",
+    vesselId: "hms-seattle-voyager",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "0c6f7b24-5451-4bba-82a4-85b400ddde59",
+        name: "HMS Seattle Voyager Deck Athletics",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(691) 339-4013",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
       },
       {
-        id: "320ed57d-2f63-4b93-8346-ff57d4d316d6",
-        name: "Sports Seas",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        id: "e8280668-3bbf-4d21-8d07-4415ba26068e",
+        name: "HMS Seattle Voyager Outdoor Oceanic",
+        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
         hours: {
           start: "08:00",
           end: "22:00",
@@ -868,81 +851,16 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-635-306-8704",
-          contactEmail: "hello@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "d274dbbc-43bb-49f1-9552-e6da6979b9bc",
-    vesselId: "ss-seattle-voyager",
-    type: "Home and Living",
-    stores: [
-      {
-        id: "e51d54bc-679c-466d-a3e0-5c7d5e31c7e3",
-        name: "SS Seattle Voyager Nautical Nest",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-369-114-6200",
-          contactEmail: "info@shopping.velarivoyages.com",
+          contactNumber: "(127) 246-6075",
+          contactEmail: "care@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "a0a52e20-6142-4f3e-b078-ee5d85971302",
-        name: "Nautical Nest",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
-        hours: {
-          start: "08:00",
-          end: "23:00",
-          duration: "15 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-707-386-1965",
-          contactEmail: "office@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "37c7da9c-46b6-49ef-9271-497b1a9ac82d",
-        name: "SS Seattle Voyager Home Harbor",
-        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-417-787-5035",
-          contactEmail: "contact@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "cde2c529-0974-40aa-b83a-5cb05692ff9b",
-    vesselId: "my--of-the-deep",
-    type: "Duty-Free",
-    stores: [
-      {
-        id: "2cec25fb-7e19-47c0-8e01-51cac56087c1",
-        name: "Global Goods Gallery",
-        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        id: "9a98f34a-a7c5-424b-afd4-7e0e27c824cc",
+        name: "HMS Seattle Voyager Active Ocean",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
         hours: {
           start: "09:00",
           end: "23:00",
@@ -950,90 +868,138 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-884-262-7273",
-          contactEmail: "mail@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "86025d64-ab1e-4d9a-b1ac-f38b3ca22fa9",
-        name: "Duty Free Treasures",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-686-134-9290",
-          contactEmail: "inquiries@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "6c84d2e5-8bdb-46ed-b36f-bffc4ac1e8bc",
-        name: "MY  of the Deep Duty Free Treasures",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-313-750-4165",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "2f3247af-390e-496f-a0d2-0fac0af3c3f3",
-    vesselId: "my--of-the-deep",
-    type: "Jewelry and Watches",
-    stores: [
-      {
-        id: "79e1d2d6-0a70-460a-bdd6-3ccde2b26f51",
-        name: "Nautical Gems",
-        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-684-522-9364",
+          contactNumber: "(488) 871-5315",
           contactEmail: "clientservices@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
-      },
+      }
+    ],
+  },
+  {
+    id: "cb20a2d4-989b-4612-9938-7bc7bc19b071",
+    vesselId: "hms-seattle-voyager",
+    type: "Home and Living",
+    stores: [
       {
-        id: "4c8b500d-4788-4190-90ac-58657b1060f5",
-        name: "Nautical Gems",
-        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        id: "66e58ca0-9661-441c-9e0e-4d63777849f9",
+        name: "Coastal Comforts",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
         hours: {
           start: "08:00",
-          end: "23:00",
-          duration: "15 hours",
+          end: "22:00",
+          duration: "14 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-901-372-8556",
-          contactEmail: "hello@shopping.velarivoyages.com",
+          contactNumber: "(521) 657-5666",
+          contactEmail: "office@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "641eff7b-44f3-4890-9bf3-6432de43ba90",
-        name: "Ocean Jewelers",
+        id: "cc837f75-dbb5-437a-8a64-882cf6331c0d",
+        name: "HMS Seattle Voyager Home Harbor",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(602) 464-6366",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "b2b114ef-a9b0-455b-8e96-a15d3344552f",
+        name: "Maritime Living",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(838) 616-7454",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "2e48adc9-463b-4e53-9738-e9efc7957516",
+    vesselId: "my--of-the-deep",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "f76dfa3e-4b7f-42f6-aff9-538c66cadae4",
+        name: "MY  of the Deep Global Goods Gallery",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(120) 864-8133",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "935a69b3-c583-417a-a546-f8e4727ea4ba",
+        name: "Seattle Cruise Collection Duty Free",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(270) 417-7736",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "f9d8ceae-b40a-4c32-9a23-3f22782d789b",
+        name: "MY  of the Deep Duty Free Treasures",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(902) 183-2532",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "fde899e7-6660-4668-978c-e27158b67e4d",
+    vesselId: "my--of-the-deep",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "c5eedc44-a6bf-49f5-84a7-b1414bf7fbfb",
+        name: "Seattle Coastal Collections",
         description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
         hours: {
           start: "08:00",
@@ -1042,8 +1008,274 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-928-642-5930",
+          contactNumber: "(513) 416-2973",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "4935139b-6e35-485d-8bef-0adea9c7899e",
+        name: "Ocean Jewelers",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(195) 954-5185",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "20ab467e-5a97-48f0-a37d-a8cd445acd6e",
+        name: "Luxury Time & Gems",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(159) 660-2267",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "2d8d8298-0979-4ec3-a80d-ae6a1134a48b",
+    vesselId: "my--of-the-deep",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "c8acf7a5-a1c1-448a-af5d-70722ed2917c",
+        name: "Voyage Wardrobe",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(627) 261-7581",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "be7a6804-55d2-4983-87cd-b30668191752",
+        name: "Cruise Couture",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(378) 216-8626",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "88b8aa14-5e55-4685-b500-87777d8c5c65",
+        name: "Voyage Wardrobe",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(683) 697-2709",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "cd7c7373-8bc7-4a82-bf13-6fecf53c498e",
+    vesselId: "my--of-the-deep",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "608054b1-3dc6-459e-9e9d-fea48626199a",
+        name: "Seattle Innovation Station",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(806) 903-4862",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "e89b2495-edc1-4807-be3b-04fba8b036c2",
+        name: "MY  of the Deep Innovation Station",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(700) 717-2131",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "643ae5d2-197d-405d-b12e-2db3ae2a2b06",
+        name: "Digital Deck",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(198) 143-9383",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "6be96b8a-9fd1-48f5-a959-3c1b9da5ecd2",
+    vesselId: "my--of-the-deep",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "630eebcf-1560-424b-b695-7eaaa8d8b39c",
+        name: "Souvenir Seas",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(647) 139-4453",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "125a38a8-ea84-4d9a-bf45-ed68156da38d",
+        name: "Memory Makers",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(683) 194-3020",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "2b840294-ee8f-49d8-abf9-3171a2888228",
+        name: "MY  of the Deep Local Legends",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(697) 986-9896",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "47940cee-1cbd-4638-b681-7cce6ab224cf",
+    vesselId: "my--of-the-deep",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "ca8d59d2-204f-48c5-96ef-5ce1da7e309c",
+        name: "MY  of the Deep Rejuvenation Station",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(900) 681-7309",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "d57beaf3-6316-4b3a-92e8-55f7548ea2c1",
+        name: "Seattle Sea Spa Essentials",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(894) 971-5617",
           contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "7fb3a77a-e7bf-43e6-92a5-07911b7b0692",
+        name: "Rejuvenation Station",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(661) 420-4684",
+          contactEmail: "communications@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: true,
@@ -1051,31 +1283,31 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "a63edd94-86e0-4e6e-a663-0688098dfe72",
+    id: "33f9c491-f5a6-4e7e-bca4-e92ccafcbb03",
     vesselId: "my--of-the-deep",
-    type: "Fashion and Accessories",
+    type: "Sports and Outdoor",
     stores: [
       {
-        id: "50d839dc-2f06-4919-b0f7-af88b04b08d0",
-        name: "Seaworthy Style",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        id: "ed070c9d-1828-4a83-9d09-128a25c7de62",
+        name: "MY  of the Deep Sports Seas",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
         hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-664-369-4713",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
+          contactNumber: "(265) 601-9246",
+          contactEmail: "hi@shopping.velarivoyages.com",
         },
-        hasSales: false,
+        hasSales: true,
         isPopular: false,
       },
       {
-        id: "f9baf176-60c1-45fb-9e3a-feeff69109bd",
-        name: "Seattle Seaside Style",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        id: "71e457d3-b59f-4128-977e-d6a73d0781f3",
+        name: "Outdoor Oceanic",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
         hours: {
           start: "10:00",
           end: "21:00",
@@ -1083,16 +1315,74 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-855-929-9332",
-          contactEmail: "communications@shopping.velarivoyages.com",
+          contactNumber: "(125) 688-9818",
+          contactEmail: "general@shopping.velarivoyages.com",
         },
-        hasSales: false,
+        hasSales: true,
         isPopular: true,
       },
       {
-        id: "b261f537-2115-4d7b-a35f-dc24bd16df8e",
-        name: "Coastal Chic",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        id: "5689e896-38f0-4f53-bef3-8af60a76e41f",
+        name: "Fitness Fleet",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(512) 792-6864",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "54f3ba61-28b1-47be-96f9-17af32fe3ec1",
+    vesselId: "my--of-the-deep",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "8fff87eb-dd54-4c31-8ccb-17f4599c1240",
+        name: "MY  of the Deep Coastal Comforts",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(806) 830-6287",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "8e30d35b-dc43-487c-b0d8-e3d9682b4dff",
+        name: "MY  of the Deep Maritime Living",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(212) 153-6780",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "6d4b38fb-d4c4-4355-8fa8-4a84a584e16f",
+        name: "Ocean Home",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
         hours: {
           start: "09:00",
           end: "22:00",
@@ -1100,7 +1390,181 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-620-787-5315",
+          contactNumber: "(156) 696-5988",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "abb1419e-82d3-447d-b332-f4ba406cde94",
+    vesselId: "ss-the--mariner",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "c7a952a5-22ab-4b08-aba5-55a4f66607d1",
+        name: "Maritime Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(597) 527-8586",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "e0af5fe2-bc85-4a9d-a595-d490efc17f72",
+        name: "International Selections",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(198) 121-9182",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "e1f72e42-3108-490c-8160-50a8ac097ba0",
+        name: "Global Goods Gallery",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(240) 349-2744",
+          contactEmail: "help@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "e2e9c116-6a97-46c4-9d21-4bf192bd312a",
+    vesselId: "ss-the--mariner",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "cb80a40a-c241-4595-895b-4e28c3ad24e6",
+        name: "Luxury Time & Gems",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(124) 553-4592",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ad8ded51-bad9-4f15-8b45-1a1356f16724",
+        name: "Coastal Collections",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(268) 101-8737",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "eafb76da-1bea-4e89-a1e3-b742ffa7daa2",
+        name: "SS The  Mariner Precious Waves",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(189) 336-9516",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "b5638ba5-a801-4c6d-8e9c-a71583b33368",
+    vesselId: "ss-the--mariner",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "a2e293f9-89bd-4a0b-a39b-f19c0935341a",
+        name: "Voyage Wardrobe",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(984) 790-5584",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a637cf05-2321-4ad5-b916-65f4bd741a1f",
+        name: "Seaside Style",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(209) 617-5737",
+          contactEmail: "help@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "7832c722-fe46-4440-97b0-788e6882f8ef",
+        name: "Seattle Cruise Couture",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(945) 870-1691",
           contactEmail: "connect@shopping.velarivoyages.com",
         },
         hasSales: false,
@@ -1109,30 +1573,30 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "dd6a075e-43e3-4d69-89dc-16dd4714cd11",
-    vesselId: "my--of-the-deep",
+    id: "f34d675e-8603-461c-9709-61218e495870",
+    vesselId: "ss-the--mariner",
     type: "Electronics and Gadgets",
     stores: [
       {
-        id: "46f6c5dc-bd3c-4dc0-93aa-b76ba446c735",
-        name: "Modern Maritime",
-        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        id: "f276a6be-aed9-45b2-a2f8-5b96a7a2e737",
+        name: "SS The  Mariner Gadget Gallery",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
         hours: {
-          start: "09:00",
-          end: "22:00",
+          start: "10:00",
+          end: "23:00",
           duration: "13 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-681-699-6692",
-          contactEmail: "support@shopping.velarivoyages.com",
+          contactNumber: "(782) 378-2055",
+          contactEmail: "connect@shopping.velarivoyages.com",
         },
         hasSales: true,
-        isPopular: false,
+        isPopular: true,
       },
       {
-        id: "8e7ccd6b-e5ca-486d-87a9-018af1ad9045",
-        name: "Seattle Digital Deck",
+        id: "2cde42de-e74d-4093-82d7-50cac486f90a",
+        name: "SS The  Mariner Innovation Station",
         description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
         hours: {
           start: "09:00",
@@ -1141,25 +1605,25 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-792-507-1799",
-          contactEmail: "feedback@shopping.velarivoyages.com",
+          contactNumber: "(626) 444-1507",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
         },
-        hasSales: false,
-        isPopular: true,
+        hasSales: true,
+        isPopular: false,
       },
       {
-        id: "cb161915-08ea-48f3-bff9-d3c4c6f9d5c2",
-        name: "Electronic Essentials",
+        id: "0470cbb3-7886-4034-b079-852bee106b0c",
+        name: "SS The  Mariner Digital Deck",
         description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
         hours: {
           start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
+          end: "20:00",
+          duration: "10 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-574-278-6001",
-          contactEmail: "feedback@shopping.velarivoyages.com",
+          contactNumber: "(193) 832-3718",
+          contactEmail: "support@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
@@ -1167,14 +1631,31 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "3a7158b2-197d-4513-9395-ea852c849dc8",
-    vesselId: "my--of-the-deep",
+    id: "3b7be297-a496-4470-ac01-41d2da802ec6",
+    vesselId: "ss-the--mariner",
     type: "Souvenirs and Gifts",
     stores: [
       {
-        id: "7b3b3131-d4c0-4c64-8e18-2e50aae90555",
-        name: "Gift Gallery",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        id: "37b3e7b9-017c-46e5-a1bb-4f285884e675",
+        name: "SS The  Mariner Memento Maritime",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(169) 381-1536",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ae0d82b6-8093-4cf2-9b25-a44121140198",
+        name: "SS The  Mariner Cruise Keepsakes",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
         hours: {
           start: "08:00",
           end: "23:00",
@@ -1182,16 +1663,115 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-896-558-3847",
-          contactEmail: "general@shopping.velarivoyages.com",
+          contactNumber: "(821) 665-4469",
+          contactEmail: "support@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "94fe4263-9436-4a05-9f8a-eb4e5bd418d0",
-        name: "Native Gifts",
-        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        id: "f71716ee-5be0-4d40-a39c-aa2ed7dc2a40",
+        name: "Cruise Keepsakes",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(452) 499-8055",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "d32fb370-a047-4467-97ff-04aff3c83c91",
+    vesselId: "ss-the--mariner",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "a0d40129-d2dd-4adf-bf72-5b47d4dcd392",
+        name: "Nautical Naturals",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(366) 685-8027",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "56ce8842-aab7-483a-a142-868d33718d50",
+        name: "Maritime Glow",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(193) 529-4348",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "ffcf2ba2-5735-4dae-bd33-d22e4fb8e418",
+        name: "Seattle Sea Spa Essentials",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(898) 138-1078",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "9dab44b7-3643-4252-8744-0ed15c58c64a",
+    vesselId: "ss-the--mariner",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "44064c44-0e5f-4cfe-8034-a2172a07ad4b",
+        name: "SS The  Mariner Deck Athletics",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(656) 909-1775",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "659385dc-be45-4428-a9e4-cad8cc03d64b",
+        name: "Adventure Gear",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
         hours: {
           start: "08:00",
           end: "22:00",
@@ -1199,154 +1779,38 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-577-527-9283",
-          contactEmail: "team@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "cd18cbc6-77ca-416e-b9e0-51c2ac4f40a5",
-        name: "MY  of the Deep Memory Makers",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
-        hours: {
-          start: "08:00",
-          end: "23:00",
-          duration: "15 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-464-486-5370",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "05ecf655-cec8-480b-9954-c84283341962",
-    vesselId: "my--of-the-deep",
-    type: "Health and Beauty",
-    stores: [
-      {
-        id: "b3df5a6f-7f8e-4830-aae1-ced961e30d85",
-        name: "Nautical Naturals",
-        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
-        hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-346-108-7251",
-          contactEmail: "reachus@shopping.velarivoyages.com",
+          contactNumber: "(268) 186-6950",
+          contactEmail: "welcome@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "53788e7d-7dee-42b4-abb8-0ee4d2ea8174",
-        name: "Maritime Glow",
-        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-385-961-8139",
-          contactEmail: "communications@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "607d979b-08e4-4704-9c7a-95504c5c54b0",
-        name: "Sea Spa Essentials",
-        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-872-558-7519",
-          contactEmail: "ask@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "f1ba4ea7-f3aa-441f-8c9a-09fd2a6fd4c9",
-    vesselId: "my--of-the-deep",
-    type: "Sports and Outdoor",
-    stores: [
-      {
-        id: "170e37ae-4ecd-48ac-b7f7-22826276c573",
-        name: "MY  of the Deep Active Ocean",
-        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-391-164-7692",
-          contactEmail: "care@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "ecaebbab-c11f-49d2-a557-df3bb578ff51",
-        name: "Deck Athletics",
+        id: "9fb036d7-cc26-4878-9856-581f7989b852",
+        name: "SS The  Mariner Athletic Voyage",
         description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
         hours: {
           start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
+          end: "21:00",
+          duration: "12 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-934-201-4252",
-          contactEmail: "team@shopping.velarivoyages.com",
+          contactNumber: "(950) 199-4423",
+          contactEmail: "feedback@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
-      },
-      {
-        id: "f295755b-227c-4bb0-89fa-b4f869eceada",
-        name: "Seattle Sports Seas",
-        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-821-849-2109",
-          contactEmail: "communications@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
       }
     ],
   },
   {
-    id: "1b807b2b-b6a8-4fd5-ab4c-97f363beb9f5",
-    vesselId: "my--of-the-deep",
+    id: "c9d7e86c-cbad-44e2-9985-3f0d921f6c9f",
+    vesselId: "ss-the--mariner",
     type: "Home and Living",
     stores: [
       {
-        id: "24900170-f0a8-4b03-98e8-50108fad8211",
+        id: "b8f8b48f-d4cf-4cb1-a90f-79846722780a",
         name: "Home Harbor",
         description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
         hours: {
@@ -1356,505 +1820,41 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-923-713-9734",
-          contactEmail: "communications@shopping.velarivoyages.com",
+          contactNumber: "(718) 510-5690",
+          contactEmail: "care@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: true,
       },
       {
-        id: "2ae51402-5756-4e01-a5b7-264001cf0c0a",
-        name: "Seattle Domestic Deck",
+        id: "d59f3630-832f-41a1-b6a2-93902c6a170a",
+        name: "SS The  Mariner Seaside Spaces",
         description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
-        hours: {
-          start: "09:00",
-          end: "22:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-776-590-9002",
-          contactEmail: "connect@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "bafedca7-fb07-43ff-8ab5-c62f381f35df",
-        name: "MY  of the Deep Seaside Spaces",
-        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-761-109-8248",
-          contactEmail: "office@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "50527f19-a519-47e4-afd5-b3d94abc044a",
-    vesselId: "my-the--mariner",
-    type: "Duty-Free",
-    stores: [
-      {
-        id: "799ef7a5-384b-4c76-b008-0eb5cf5a2a67",
-        name: "Voyage Duty Free",
-        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
         hours: {
           start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
+          end: "20:00",
+          duration: "10 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-638-641-8024",
+          contactNumber: "(587) 107-4946",
           contactEmail: "team@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: true,
       },
       {
-        id: "0ddaeaed-11f2-4475-a60a-84c284021283",
-        name: "Maritime Duty Free",
-        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-502-747-3873",
-          contactEmail: "info@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "8ce959df-8fa2-4d94-bf4a-83f70ec031ca",
-        name: "International Selections",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-462-912-5418",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "ab4af677-607e-455a-b818-78d401d06511",
-    vesselId: "my-the--mariner",
-    type: "Jewelry and Watches",
-    stores: [
-      {
-        id: "bd64290e-f810-4e47-a5f1-661be1ac0273",
-        name: "MY The  Mariner Nautical Gems",
-        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-731-145-7061",
-          contactEmail: "connect@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "ebcc7568-b9a3-4f56-a620-0981aae559a7",
-        name: "Timeless Treasures",
-        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-884-740-7089",
-          contactEmail: "reachus@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "ddb3a79f-c008-4a6c-a1ad-452467066e39",
-        name: "Ocean Jewelers",
-        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-778-818-1651",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "fa10c798-210d-40b5-b2eb-145d5e4517a8",
-    vesselId: "my-the--mariner",
-    type: "Fashion and Accessories",
-    stores: [
-      {
-        id: "b1a68968-98a2-4203-a127-085cee5f731f",
-        name: "Cruise Couture",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-743-319-6136",
-          contactEmail: "customerservice@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: true,
-      },
-      {
-        id: "07cc2dc1-9e39-43f6-ac84-d0e4a0b8d729",
-        name: "Cruise Couture",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-743-314-7210",
-          contactEmail: "reception@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "b25f2871-ba50-4f99-a7f5-8d31db6ebbca",
-        name: "Voyage Wardrobe",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-566-619-1376",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "b34f6120-74ac-4003-9a5b-926785e1bc83",
-    vesselId: "my-the--mariner",
-    type: "Electronics and Gadgets",
-    stores: [
-      {
-        id: "94caba06-df8a-4f81-bf64-c127588750c0",
-        name: "MY The  Mariner Cruise Tech",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-752-280-8358",
-          contactEmail: "communications@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "0cf6d941-ec04-4fed-88b5-ef65c753d28b",
-        name: "Digital Discoveries",
-        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-364-526-6150",
-          contactEmail: "customerservice@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "c0133ef6-9c8a-48a3-ad78-a44e8eff5312",
-        name: "Cruise Tech",
-        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-996-952-4527",
-          contactEmail: "welcome@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "9eaf3e2d-1bf5-492e-a539-080a5d2b1400",
-    vesselId: "my-the--mariner",
-    type: "Souvenirs and Gifts",
-    stores: [
-      {
-        id: "1763f500-98bb-49d1-b690-662705c5bd2e",
-        name: "Cruise Keepsakes",
-        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-523-539-2109",
-          contactEmail: "hello@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "ecbdd5e7-e115-491e-9c3f-03579f5487c9",
-        name: "MY The  Mariner Memento Maritime",
-        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
-        hours: {
-          start: "10:00",
-          end: "22:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-749-953-9733",
-          contactEmail: "general@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "7f98cc3e-c5b7-4033-a96a-6f969ff37d75",
-        name: "Local Legends",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-220-739-6277",
-          contactEmail: "reachus@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "b3d3985c-b9f5-4045-b296-005725c5531e",
-    vesselId: "my-the--mariner",
-    type: "Health and Beauty",
-    stores: [
-      {
-        id: "4997ba28-fecd-49f0-aa00-c3513bbebe72",
-        name: "Sea Spa Essentials",
-        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-670-708-8743",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "7650bdd5-3bfb-4359-baed-de9012821004",
-        name: "MY The  Mariner Sea Spa Essentials",
-        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-860-165-5269",
-          contactEmail: "mail@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "e7f169ff-7325-4fd2-8b64-2949a89411b0",
-        name: "MY The  Mariner Nautical Naturals",
-        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
-        hours: {
-          start: "09:00",
-          end: "22:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-629-678-9968",
-          contactEmail: "contact@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "91de77ce-4c7e-4953-981a-55952caacae7",
-    vesselId: "my-the--mariner",
-    type: "Sports and Outdoor",
-    stores: [
-      {
-        id: "dc9f498c-12b2-4fe6-8d21-81588183bdf2",
-        name: "MY The  Mariner Outdoor Oceanic",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-509-682-1957",
-          contactEmail: "services@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "485638c3-1040-4c05-8c96-1ebdeae09233",
-        name: "MY The  Mariner Fitness Fleet",
-        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-781-150-5571",
-          contactEmail: "clientservices@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "45a9964a-a5e0-4767-9b05-a9f2179be7bd",
-        name: "Fitness Fleet",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
-        hours: {
-          start: "09:00",
-          end: "21:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-907-862-7515",
-          contactEmail: "ask@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "06b65bac-1555-4996-bb72-40c62ca81189",
-    vesselId: "my-the--mariner",
-    type: "Home and Living",
-    stores: [
-      {
-        id: "53ceae18-c232-4d74-adb5-d21bd30359be",
-        name: "MY The  Mariner Maritime Living",
-        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-376-361-6201",
-          contactEmail: "general@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "02e09032-ba3c-4c4e-8de4-b41ac5f9305e",
-        name: "Domestic Deck",
+        id: "3110a52d-dd7f-49ad-8abf-27121d927108",
+        name: "Home Harbor",
         description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
         hours: {
           start: "09:00",
-          end: "22:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-777-669-8203",
-          contactEmail: "team@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "29890368-2d57-4308-89e6-4c9feac3608b",
-        name: "Domestic Deck",
-        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
-        hours: {
-          start: "10:00",
-          end: "21:00",
+          end: "20:00",
           duration: "11 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-924-586-7998",
+          contactNumber: "(456) 645-8277",
           contactEmail: "support@shopping.velarivoyages.com",
         },
         hasSales: true,
@@ -1863,14 +1863,31 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "584e3a88-0db6-4735-9981-096183880d70",
-    vesselId: "ly--gale",
+    id: "7deafebf-f444-4ac2-ba0b-e7e9bebc9bec",
+    vesselId: "nb--gale",
     type: "Duty-Free",
     stores: [
       {
-        id: "baa28343-5f5c-4ade-9f33-700a9743fae1",
-        name: "LY  Gale Voyage Duty Free",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        id: "7f77cf0f-ab5b-49a5-ba1f-f2d1c8188e6d",
+        name: "International Selections",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(744) 554-9635",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "19fb33b8-82cf-4edf-9b2c-583a5ca6dd0c",
+        name: "NB  Gale Seabound Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
         hours: {
           start: "10:00",
           end: "23:00",
@@ -1878,15 +1895,926 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-431-683-5360",
+          contactNumber: "(425) 713-1338",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "02b6d39e-049c-4e29-8381-8f8f25bcbf68",
+        name: "NB  Gale Global Goods Gallery",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(855) 675-4911",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "d4ba4e77-513f-4b9b-bc23-cbdeb45e7aea",
+    vesselId: "nb--gale",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "657f5dfd-0d00-4cd0-a7f8-df451096fc27",
+        name: "Seattle Precious Waves",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(591) 663-2833",
           contactEmail: "hi@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "448430fa-c261-4ee3-819a-28095c943b08",
-        name: "Global Goods Gallery",
+        id: "4225803a-d3c8-4a36-8a6c-ae00e91a5549",
+        name: "Luxury Time & Gems",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(396) 521-8794",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "22af2aae-afc5-425e-80d2-70ac50dd7853",
+        name: "Maritime Timepieces",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(493) 759-7291",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "36603d41-e33a-42e3-b6b6-ba8cf0bb7ff1",
+    vesselId: "nb--gale",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "dfb28896-b23f-458f-b9bc-1f6b29bda148",
+        name: "Ocean Fashion",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(938) 316-6561",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "ad429a42-9392-444f-9fc4-e044e2f8f79b",
+        name: "NB  Gale Nautical Threads",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(766) 631-8138",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "6076be78-fd34-44c2-9ae0-f6ac283ff532",
+        name: "Ocean Fashion",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(349) 671-2973",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "d7829e23-5647-4b4e-a0b3-de0573b09bb6",
+    vesselId: "nb--gale",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "f4d1aced-112a-480d-97ef-8cf16b23c121",
+        name: "NB  Gale Gadget Gallery",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(906) 785-8657",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ea907151-3f03-4fd4-a480-454d95c41862",
+        name: "Digital Deck",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(320) 727-8071",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "52b57df6-0fe0-4bc5-b701-eb8bb90b0a28",
+        name: "Seattle Gadget Gallery",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(317) 732-4999",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "b278f9fc-235d-4aca-9d67-6affe96c92c6",
+    vesselId: "nb--gale",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "f85f12dd-e70b-456d-82f0-062d4f9a13aa",
+        name: "Seattle Local Legends",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(791) 703-5343",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "8bab22cc-2dde-4cdc-8acf-4819a846845d",
+        name: "Native Gifts",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(873) 126-3182",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "9418d2b4-9ac2-4d64-add4-a1ecc94819bd",
+        name: "Local Legends",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(715) 388-5650",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "b1fb9642-c365-4a1b-958c-4245fcce275f",
+    vesselId: "nb--gale",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "fe806e0a-de33-4589-bc4c-53a2d448c168",
+        name: "Beauty & Wellness",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(673) 386-6679",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "1f55f077-0594-4259-aa3d-1f2e01e4d7cd",
+        name: "Maritime Glow",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(624) 146-5105",
+          contactEmail: "help@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "9f5374f2-cfa7-4cd5-9079-920c5210101f",
+        name: "NB  Gale Sea Spa Essentials",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(626) 696-5676",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "455ffc9f-6071-43d1-b825-63c722c40ef0",
+    vesselId: "nb--gale",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "02209b7e-ae73-4b86-818d-f4083a178b73",
+        name: "Maritime Sports",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(231) 481-3459",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "6c61a1e3-6428-4852-9bb4-d67fee164406",
+        name: "Fitness Fleet",
+        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(283) 578-9877",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "7942e45a-a8a5-4a80-a315-017f0aef5a95",
+        name: "NB  Gale Athletic Voyage",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(425) 377-8709",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "61f88230-d94d-462c-9cd9-b921016f3ebd",
+    vesselId: "nb--gale",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "35dd50fa-5170-4c76-8e99-507807a4c397",
+        name: "Ocean Home",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(900) 285-7661",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "31f8204c-6c5e-4468-8d62-6672ce6e204b",
+        name: "Seaside Spaces",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(193) 782-4727",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "77e0ea37-1a55-476d-bdfc-ff88beb599c4",
+        name: "Ocean Home",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(715) 183-5153",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "0c9a238f-6a93-49d6-bb27-196cfe9e8565",
+    vesselId: "my--explorer",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "39392955-b8a4-47b5-8d26-e02bcf880f6f",
+        name: "Cruise Collection Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(575) 224-3486",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "08df528f-0324-4cf2-a70d-c91c957feff9",
+        name: "MY  Explorer Maritime Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(215) 419-6994",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "879451bc-91cf-4711-b7aa-885c9cdb1227",
+        name: "MY  Explorer Ocean Tax Free Shop",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(605) 527-5984",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "21b1c3d2-67d2-40c9-913a-6808658885af",
+    vesselId: "my--explorer",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "f4b4a46b-7a83-4998-a02c-9ce7afebb2e7",
+        name: "MY  Explorer Sea Glass Jewelry",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(834) 417-1768",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "d6d2045c-0ae8-4263-9c52-92e9a11fa4c3",
+        name: "Maritime Timepieces",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(341) 215-4269",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "f2fe2cec-7d89-4e58-a0a0-870c847b94cb",
+        name: "Maritime Timepieces",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(801) 622-7122",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "f09f8cec-d564-4f93-a3fe-e5ea47816cb6",
+    vesselId: "my--explorer",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "387589a0-af29-4830-9bbe-e954ad9b7fbf",
+        name: "Ocean Fashion",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(599) 855-9754",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "cae1c4d0-f5cd-4d02-bd58-4ef6be7e4d2f",
+        name: "MY  Explorer Cruise Couture",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(154) 939-4697",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "b7619a7c-f7db-4752-9605-04fe3f2326c5",
+        name: "Ocean Fashion",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(781) 874-3617",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "266959f2-b2a9-4c9f-9f46-1d8f86ad4f3e",
+    vesselId: "my--explorer",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "82dd5a12-79ac-4dfc-8d18-a349822b3fb4",
+        name: "MY  Explorer Innovation Station",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(465) 932-2798",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "04842fc2-9524-42d4-aa33-a20fd639adea",
+        name: "Modern Maritime",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(235) 268-2291",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "c20f397b-15a0-4985-bf95-21b3aba757af",
+        name: "Tech Treasures",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(729) 576-9802",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "e4620eef-7c77-43f5-8473-66dc03559b2c",
+    vesselId: "my--explorer",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "70ab0701-2b9d-439a-be60-7c2dd5c07e5a",
+        name: "MY  Explorer Regional Treasures",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(598) 263-9131",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "88c2deb9-6a9a-4840-99bb-a044c1c91a5a",
+        name: "Local Legends",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(778) 754-2994",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "51be845a-5ae2-4a2e-b9f6-cc1cff242e49",
+        name: "Gift Gallery",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(128) 259-7934",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "833a31f0-5bb9-4e23-8207-0544d5cc1a3c",
+    vesselId: "my--explorer",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "7ee36d77-e3da-4d39-929e-8c2322473335",
+        name: "Wellness Waves",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(535) 887-6824",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a7583691-114e-4a9f-be05-af89bfe67074",
+        name: "MY  Explorer Nautical Naturals",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(956) 448-8835",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "e8249bac-1f08-4b08-807a-9f71f55a90f4",
+        name: "MY  Explorer Coastal Care",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(581) 357-6613",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "791f9494-a86a-459e-8cea-6d7d6eacca88",
+    vesselId: "my--explorer",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "f8e9c666-f480-4bc8-aa3c-9066f4beceac",
+        name: "Seattle Fitness Fleet",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(376) 543-7324",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "e58cffcb-d733-4dc4-bb97-255666535ec2",
+        name: "MY  Explorer Athletic Voyage",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(828) 598-5718",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "419ea5e9-7567-4bf0-b76a-251ba6bf8e7f",
+        name: "Deck Athletics",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(344) 919-5164",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "32426715-420b-4f22-8d91-86ba8b4344d0",
+    vesselId: "my--explorer",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "eff5c55f-43de-4ee1-a511-9948e0bb67d4",
+        name: "Maritime Living",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(673) 521-3293",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "92d3c10f-f998-4109-9be9-00e53bcd4d15",
+        name: "Nautical Nest",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(276) 359-1448",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "aca673d3-5586-4aa6-ae13-98916a3ab45f",
+        name: "MY  Explorer Coastal Comforts",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(159) 279-7303",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "4dceccbd-682e-4067-80ab-5abfe92b1268",
+    vesselId: "ss-seattle-voyager",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "1e273fb2-64cb-491b-a7c0-bbabebfe7c98",
+        name: "Maritime Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(154) 499-7257",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "98d22956-23ee-42e8-a551-3fb071b09ed4",
+        name: "Ocean Tax Free Shop",
         description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
         hours: {
           start: "08:00",
@@ -1895,25 +2823,25 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-242-846-2935",
+          contactNumber: "(712) 182-9283",
           contactEmail: "communications@shopping.velarivoyages.com",
         },
         hasSales: false,
-        isPopular: true,
+        isPopular: false,
       },
       {
-        id: "4420c1ac-8ecc-4940-b76b-4c4286dfa50f",
-        name: "Ocean Tax Free Shop",
-        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        id: "4035d156-0e66-4822-b843-787523358765",
+        name: "SS Seattle Voyager Maritime Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
         hours: {
           start: "10:00",
-          end: "21:00",
-          duration: "11 hours",
+          end: "23:00",
+          duration: "13 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-293-118-4124",
-          contactEmail: "reachus@shopping.velarivoyages.com",
+          contactNumber: "(126) 460-1221",
+          contactEmail: "hi@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
@@ -1921,231 +2849,231 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "0b80662e-8bc4-4428-ab15-64a79b046ee5",
-    vesselId: "ly--gale",
+    id: "00493d0c-15d2-4844-9b55-beee2f33e918",
+    vesselId: "ss-seattle-voyager",
     type: "Jewelry and Watches",
     stores: [
       {
-        id: "12815837-39b4-4422-82b6-afb0fdcbc8c2",
-        name: "Seattle Timeless Treasures",
+        id: "24f6b625-3d36-4c9a-a128-66d6babafebf",
+        name: "Seattle Luxury Time & Gems",
         description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
         hours: {
-          start: "08:00",
-          end: "21:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-491-709-2587",
-          contactEmail: "general@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      },
-      {
-        id: "ea837642-3f7e-46b4-bd64-ab32f57317d7",
-        name: "Ocean Jewelers",
-        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-598-466-1663",
-          contactEmail: "feedback@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "1ff2336f-149d-42a5-8275-b68e7945605b",
-        name: "Seattle Luxury Time & Gems",
-        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
-        hours: {
-          start: "08:00",
-          end: "22:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-344-846-4646",
-          contactEmail: "general@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "fba258aa-9019-491b-b6c7-80be1eebe6cb",
-    vesselId: "ly--gale",
-    type: "Fashion and Accessories",
-    stores: [
-      {
-        id: "fb34843d-975b-4ee1-a692-d21dbac9c7a0",
-        name: "Seattle Coastal Chic",
-        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
-        hours: {
           start: "09:00",
           end: "20:00",
           duration: "11 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-768-271-5450",
-          contactEmail: "reachus@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "a6f8c809-60ad-42a5-bcec-d1cc54865385",
-        name: "Coastal Chic",
-        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-510-920-9667",
-          contactEmail: "customerservice@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "22c33037-94bd-4187-a457-72c3e808476a",
-        name: "LY  Gale Seaside Style",
-        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-382-372-1955",
-          contactEmail: "reception@shopping.velarivoyages.com",
-        },
-        hasSales: false,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "c619e758-7122-478c-a572-1c299cfdde7d",
-    vesselId: "ly--gale",
-    type: "Electronics and Gadgets",
-    stores: [
-      {
-        id: "cfaf8759-f93c-4b43-af5f-324b68fb8d78",
-        name: "LY  Gale Modern Maritime",
-        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-749-965-8355",
-          contactEmail: "reception@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "de2777ed-9ea0-466a-8139-cad7144fff92",
-        name: "Cruise Tech",
-        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-750-878-4681",
-          contactEmail: "office@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      },
-      {
-        id: "566505ac-8e32-4e3f-a672-68aca879f751",
-        name: "Modern Maritime",
-        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
-        hours: {
-          start: "10:00",
-          end: "23:00",
-          duration: "13 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-566-220-1755",
-          contactEmail: "reachus@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "65b679b0-890b-426b-a7fa-f4c1a356c9ce",
-    vesselId: "ly--gale",
-    type: "Souvenirs and Gifts",
-    stores: [
-      {
-        id: "044c70ba-a7f9-47ed-a58f-0162a854fc2e",
-        name: "Voyage Memories",
-        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
-        hours: {
-          start: "10:00",
-          end: "20:00",
-          duration: "10 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-901-741-5579",
-          contactEmail: "admin@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      },
-      {
-        id: "e7c39a88-ae5e-4634-9f95-479a4c6efce0",
-        name: "Souvenir Seas",
-        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
-        hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-576-867-1562",
+          contactNumber: "(680) 880-6610",
           contactEmail: "ask@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: false,
       },
       {
-        id: "5218e94b-7c23-45a6-9017-4a26439434cd",
-        name: "Cruise Keepsakes",
-        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        id: "81ccd8ab-87cb-43c8-8bd0-a7b1cd531fed",
+        name: "SS Seattle Voyager Nautical Gems",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
         hours: {
-          start: "10:00",
+          start: "08:00",
           end: "20:00",
-          duration: "10 hours",
+          duration: "12 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-584-252-9773",
-          contactEmail: "info@shopping.velarivoyages.com",
+          contactNumber: "(893) 569-1305",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "b00a9723-16ef-40d3-8f5c-2e79fb74b344",
+        name: "Maritime Timepieces",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(628) 929-2703",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "ac41287d-ef96-48e3-aa2b-e7d9c5fd97b7",
+    vesselId: "ss-seattle-voyager",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "2c4991f8-d404-4214-8d21-c9622841db78",
+        name: "Coastal Chic",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(288) 763-8395",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "02947b7d-5fe1-44f2-8856-c9efad987332",
+        name: "SS Seattle Voyager Cruise Couture",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(246) 415-4389",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "7291fade-5993-4192-8612-2e1b34732c74",
+        name: "Voyage Wardrobe",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(184) 452-6671",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "73b3a077-a507-4339-a111-9fa6cce631be",
+    vesselId: "ss-seattle-voyager",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "4770f6d9-56b8-4cf0-bb40-566f79d45a85",
+        name: "Tech Treasures",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(141) 445-8687",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "842eb8c3-96f8-4972-a46f-085fcd58eadc",
+        name: "SS Seattle Voyager Gadget Gallery",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(425) 502-2517",
+          contactEmail: "clientservices@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "5c98a805-d488-4976-aab5-069c9e836a67",
+        name: "Seattle Digital Discoveries",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(231) 325-7480",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "60547574-f59f-4f30-a5e5-a733ff1377b4",
+    vesselId: "ss-seattle-voyager",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "f5dde1ad-adf3-4552-93fa-fb43fd6ddb37",
+        name: "Memory Makers",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(224) 800-7902",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "44b6145a-4de8-442b-9de2-49863e0b62dc",
+        name: "SS Seattle Voyager Cruise Keepsakes",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(560) 132-4836",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "5cc7c3fc-b893-467d-a2ac-baf2bd6f82af",
+        name: "Voyage Memories",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(205) 444-8529",
+          contactEmail: "connect@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: false,
@@ -2153,29 +3081,510 @@ export const seattleShopping: Shopping[] = [
     ],
   },
   {
-    id: "82cc55f2-c15e-421a-9c41-d734d37a0cc4",
-    vesselId: "ly--gale",
+    id: "fb97abd4-3c9a-41aa-bc6b-866b7e229838",
+    vesselId: "ss-seattle-voyager",
     type: "Health and Beauty",
     stores: [
       {
-        id: "aaebba6f-93b1-4609-84a8-40328b3b07a6",
-        name: "Beauty & Wellness",
+        id: "6a8c510f-2827-4d48-b6d1-83b17cfc7bb4",
+        name: "Nautical Naturals",
         description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
         hours: {
-          start: "09:00",
-          end: "23:00",
-          duration: "14 hours",
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-236-686-8592",
-          contactEmail: "hello@shopping.velarivoyages.com",
+          contactNumber: "(158) 492-4413",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "00c26b95-6e7f-436d-8a55-6befdc565493",
+        name: "Wellness Waves",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(629) 108-4767",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "35a145f4-be72-4970-b992-35e088a47b6d",
+        name: "Seattle Coastal Care",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(846) 263-9932",
+          contactEmail: "admin@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "d4f7ecf1-885f-465c-8454-92d4dd3f4ee7",
+    vesselId: "ss-seattle-voyager",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "75675b6e-d4bc-4790-8bb8-a77072948c51",
+        name: "Sports Seas",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(702) 203-4797",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "4c49a569-9660-46f8-be00-7cdd9fbd64b2",
+        name: "SS Seattle Voyager Fitness Fleet",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(801) 788-4997",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "9b4d09f5-8efb-466d-985a-51fd394ed8bb",
+        name: "Maritime Sports",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(478) 318-5095",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "92312701-290a-4d9b-aee5-6903d1c550ed",
+    vesselId: "ss-seattle-voyager",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "f5ebc7cc-f6ef-40d7-968a-d2ea360c5282",
+        name: "Coastal Comforts",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(116) 834-5582",
+          contactEmail: "contact@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: false,
       },
       {
-        id: "db5de47c-f9e5-4f0f-ac36-3897176b0241",
+        id: "3f65488f-96d3-433f-9cab-35b4abebe16b",
+        name: "Seattle Living Seas",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(593) 456-5175",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "93648e39-ffb1-43f3-9c0c-051b0b41c9de",
+        name: "Domestic Deck",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(288) 643-5767",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "ee9b50e0-1b95-42ce-b348-7513008a6e88",
+    vesselId: "sv--of-the-deep",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "0da4f839-d0d4-4d65-9ef2-522a3d6fafa9",
+        name: "Cruise Collection Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(109) 410-4419",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "bc5ea066-9629-4e5d-a398-ac3ebe1374e3",
+        name: "Maritime Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(497) 481-2539",
+          contactEmail: "help@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "5705f7c3-f489-4b37-9aac-22764ffd9027",
+        name: "SV  of the Deep Duty Free Treasures",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(677) 176-3182",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "960b9a63-0145-4040-9a7e-564878701694",
+    vesselId: "sv--of-the-deep",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "aad1a71d-8fd5-4dd7-8301-7ab93fa6e0fa",
+        name: "Seattle Nautical Gems",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(575) 796-1550",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "3191625c-47da-45de-8584-ff8cb19a1036",
+        name: "SV  of the Deep Maritime Timepieces",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(138) 780-5728",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "6b17e6b3-3597-4944-8aa7-727de9e43a36",
+        name: "Maritime Timepieces",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(253) 301-1611",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "11e304a4-045e-4dd0-85e8-bb29b87cc60d",
+    vesselId: "sv--of-the-deep",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "416004a5-984a-4143-b611-00872a393612",
+        name: "Seaside Style",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(570) 483-7089",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a47b6b36-8198-4891-b178-ef73e76280d6",
+        name: "Seaworthy Style",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(336) 949-4160",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "12f23865-231c-4157-b231-c258ba7cd652",
+        name: "SV  of the Deep Coastal Chic",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(945) 970-8466",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "7d9ab4c0-c8bf-4107-a037-fb8047715e81",
+    vesselId: "sv--of-the-deep",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "93eb7ab7-a90c-47f5-8227-81561c3ec858",
+        name: "Seattle Electronic Essentials",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(128) 849-8271",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "9630a8c4-7e11-4fea-8900-ba6f5bbef264",
+        name: "Gadget Gallery",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(388) 364-1891",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "2c546327-364c-4dc9-9955-4a1cb7ce2bc3",
+        name: "Digital Deck",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(262) 106-8762",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "ca7e25eb-f49a-4bcc-966e-c49e995c5fc3",
+    vesselId: "sv--of-the-deep",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "a9fd42b1-9189-4634-a605-5a780e49e6ec",
+        name: "SV  of the Deep Treasure Trove",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(650) 861-7838",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "3ce2ffee-e0c7-4d82-9d05-90598259d09b",
+        name: "Voyage Memories",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(700) 838-3760",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "5d9e5053-68e3-4560-bb22-4d89a99d7eff",
+        name: "Cultural Collections",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(214) 665-8730",
+          contactEmail: "help@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "9e4e1293-c8b7-4fc8-af42-29f36a87cf48",
+    vesselId: "sv--of-the-deep",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "f7b8a78f-4a33-49a4-aa89-da5dcbff4a17",
+        name: "Beauty & Wellness",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(327) 110-7995",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "5c7bf619-8543-4bae-aaff-868efbd8a292",
+        name: "Sea Spa Essentials",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(280) 838-4528",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "7e527d19-7964-4482-8820-c7d50eda0759",
         name: "Seattle Maritime Glow",
         description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
         hours: {
@@ -2185,57 +3594,81 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-239-930-8510",
-          contactEmail: "ask@shopping.velarivoyages.com",
+          contactNumber: "(967) 484-1741",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "1190570e-f563-4efc-9f35-cf3a5fec5b6f",
+    vesselId: "sv--of-the-deep",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "97c8aaaa-e7f1-4db8-9a35-f1f3ed56b4ae",
+        name: "SV  of the Deep Adventure Gear",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(893) 172-6607",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "95f27bff-68bb-4f1f-b1d5-5a9f8410c21c",
+        name: "SV  of the Deep Outdoor Oceanic",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(391) 883-6779",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
         },
         hasSales: false,
         isPopular: false,
       },
       {
-        id: "507d6e0e-8144-4692-a73c-f34dafd7014f",
-        name: "Nautical Naturals",
-        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
-        hours: {
-          start: "09:00",
-          end: "20:00",
-          duration: "11 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-951-797-4966",
-          contactEmail: "admin@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: false,
-      }
-    ],
-  },
-  {
-    id: "bd975740-acf5-41d2-805b-bfb1ae1dd44c",
-    vesselId: "ly--gale",
-    type: "Sports and Outdoor",
-    stores: [
-      {
-        id: "9c65c687-7db1-4aa9-9728-43408651ef2b",
-        name: "Seattle Adventure Gear",
+        id: "e38bf474-a65d-4f92-b4f1-19f09d40fce5",
+        name: "Sports Seas",
         description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
         hours: {
           start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
+          end: "22:00",
+          duration: "14 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-505-178-4937",
-          contactEmail: "hi@shopping.velarivoyages.com",
+          contactNumber: "(328) 509-6454",
+          contactEmail: "reception@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
-      },
+      }
+    ],
+  },
+  {
+    id: "e10dfb0a-dedb-48cb-a22c-063eaee984a1",
+    vesselId: "sv--of-the-deep",
+    type: "Home and Living",
+    stores: [
       {
-        id: "3f87a013-e16d-4bd9-94ca-35eb919c350c",
-        name: "Outdoor Oceanic",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        id: "b8c2a4e8-d52a-4701-9b4c-684e1972d3ec",
+        name: "Seaside Spaces",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
         hours: {
           start: "09:00",
           end: "20:00",
@@ -2243,40 +3676,16 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-849-518-7193",
-          contactEmail: "services@shopping.velarivoyages.com",
+          contactNumber: "(302) 202-6936",
+          contactEmail: "office@shopping.velarivoyages.com",
         },
-        hasSales: true,
+        hasSales: false,
         isPopular: true,
       },
       {
-        id: "f90ea293-5212-4a88-aacc-de4cf90232d3",
-        name: "Seattle Maritime Sports",
-        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
-        hours: {
-          start: "08:00",
-          end: "20:00",
-          duration: "12 hours",
-          description: "Store hours may vary during port days and special events",
-        },
-        contact: {
-          contactNumber: "+1-662-263-6538",
-          contactEmail: "help@shopping.velarivoyages.com",
-        },
-        hasSales: true,
-        isPopular: true,
-      }
-    ],
-  },
-  {
-    id: "2fa97b60-675f-40f8-ae59-d86e5c722722",
-    vesselId: "ly--gale",
-    type: "Home and Living",
-    stores: [
-      {
-        id: "3d1dade2-7e0b-418a-aab0-b4cc48709ae0",
-        name: "Ocean Home",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        id: "1f97b3eb-c598-4e59-bcb3-9eb3c177124f",
+        name: "SV  of the Deep Coastal Comforts",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
         hours: {
           start: "08:00",
           end: "21:00",
@@ -2284,33 +3693,214 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-418-562-3287",
-          contactEmail: "care@shopping.velarivoyages.com",
+          contactNumber: "(385) 754-7283",
+          contactEmail: "mail@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "e95c07a5-511d-465a-bbf2-dea493fed8f1",
-        name: "Living Seas",
-        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        id: "2c56fdd7-5a7d-4df4-ae2a-531c49c85946",
+        name: "SV  of the Deep Seaside Spaces",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
         hours: {
-          start: "08:00",
+          start: "10:00",
           end: "23:00",
-          duration: "15 hours",
+          duration: "13 hours",
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-513-109-3138",
+          contactNumber: "(882) 649-2197",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "da9eb235-6238-4fd8-9d52-aa0370a87cb8",
+    vesselId: "ts-the--mariner",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "c025aef2-2de3-4d0f-b090-ea19bc7e0ea0",
+        name: "Maritime Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(182) 623-7227",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "582b2f2b-abe4-4af4-bb98-6b82c158d087",
+        name: "TS The  Mariner International Selections",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(772) 123-7165",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "dca4d98f-6618-4091-b9c2-a2bc3a45eaea",
+        name: "Seattle Cruise Collection Duty Free",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(528) 314-3906",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "4acbd88f-f02f-4b21-82c2-f26b95c908ff",
+    vesselId: "ts-the--mariner",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "b520a7c1-61cf-4a2a-a4fc-a2414ae58f56",
+        name: "Nautical Gems",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(522) 966-9192",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "32699a7e-53b3-4c6b-8706-ec7c75be0021",
+        name: "Precious Waves",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(213) 257-6866",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "7e38f5f5-f587-4ab8-9366-24266dfc35bb",
+        name: "Nautical Gems",
+        description: "Adorn yourself with treasures from the sea and beyond. Our fine jewelry collection features exquisite pieces inspired by ocean waves and maritime heritage.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(996) 174-1993",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "f790a82c-8afb-4be1-8559-bfc807143b7f",
+    vesselId: "ts-the--mariner",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "ff5356c2-7b1f-47c9-a6ba-831660444f5e",
+        name: "Seattle Seaworthy Style",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(472) 396-9295",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "1e11e7e5-0c0e-44e0-9509-672a1d1c2ffa",
+        name: "TS The  Mariner Seaside Style",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(412) 873-6477",
           contactEmail: "help@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
       },
       {
-        id: "cc19d8f6-e9e2-4ea1-8113-1d70f305d4d9",
-        name: "LY  Gale Domestic Deck",
-        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        id: "57740882-a1cb-475a-b34c-4d1694c2f4f4",
+        name: "Seaworthy Style",
+        description: "Discover your cruise wardrobe essentials and beyond. Our fashion boutique offers everything from resort wear to formal attire and stylish accessories.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(697) 801-5021",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "1b7ad75d-7f79-4353-81ea-aea05f7c9228",
+    vesselId: "ts-the--mariner",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "b75205bf-98cd-40c5-a5e8-ac691db61f71",
+        name: "Seattle Tech Treasures",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
         hours: {
           start: "10:00",
           end: "21:00",
@@ -2318,11 +3908,741 @@ export const seattleShopping: Shopping[] = [
           description: "Store hours may vary during port days and special events",
         },
         contact: {
-          contactNumber: "+1-962-186-9079",
+          contactNumber: "(947) 980-1622",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ec4b7bc8-e31e-46b1-a1fa-91f8a0d3fac9",
+        name: "TS The  Mariner Gadget Gallery",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(768) 907-8336",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "b8eb15fc-5d57-46f7-b57e-7d2832468d49",
+        name: "Gadget Gallery",
+        description: "Keep up with the digital world while at sea. Our tech shop offers everything from smartphones to marine electronics and travel accessories.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(966) 267-4035",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "e0b113da-f7d8-43a9-93ee-47a53287f096",
+    vesselId: "ts-the--mariner",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "5935c2fb-7b18-4eb4-b294-6612939708e4",
+        name: "Souvenir Seas",
+        description: "Commemorate your cruise adventure with our specially curated gift collection. Find the perfect souvenir to remember your voyage or surprise someone special.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(246) 156-9048",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "ee004cec-6ffd-4075-94f6-3f3e6c7b4f20",
+        name: "TS The  Mariner Cultural Collections",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(279) 300-4550",
+          contactEmail: "contact@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "1789e2cd-2dd5-4dce-961d-432479596ce7",
+        name: "Gift Gallery",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(198) 888-5166",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "ab348dc0-b3dd-408d-bf7d-69ca88a19a9c",
+    vesselId: "ts-the--mariner",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "26f0ed28-c5b1-46f8-b9ab-9f3ea602f2c9",
+        name: "Seattle Beauty & Wellness",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(723) 209-6444",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "cbf53e25-d078-4f14-989b-c0c2aa730805",
+        name: "Seattle Wellness Waves",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(980) 293-3300",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "200da02a-a3b6-4cc0-b6ab-c24c8c953aac",
+        name: "Wellness Waves",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(208) 588-6722",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "adec6a71-3035-4198-b87d-39bf63088ffe",
+    vesselId: "ts-the--mariner",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "741a5d0c-6783-4c9c-959e-7fe3da334844",
+        name: "Maritime Sports",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(811) 501-6658",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "75e6c3f9-336c-4264-9c3f-c9bda5a369c4",
+        name: "TS The  Mariner Deck Athletics",
+        description: "Stay active and explore the outdoors with our premium selection of sports equipment and outdoor gear, perfect for cruise activities and shore excursions.",
+        hours: {
+          start: "08:00",
+          end: "22:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(798) 931-2509",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "bad8d6d7-2881-4a8e-b545-5ca2d2da79f8",
+        name: "Deck Athletics",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(122) 160-2984",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "6e7e1c5b-67ea-446e-94a5-595421e7f69a",
+    vesselId: "ts-the--mariner",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "5d6b7a12-6153-4872-8f22-cc429dfcf216",
+        name: "Coastal Comforts",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(541) 840-4396",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "6d50dc28-9571-494e-bdfc-ed6ef82b2218",
+        name: "Home Harbor",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(404) 755-1425",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "8ce767bf-1593-49b1-8068-fd3f89cf4e61",
+        name: "Seattle Seaside Spaces",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(164) 926-4535",
+          contactEmail: "welcome@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "292d7e53-eb82-4881-bc00-1af1a5396b5f",
+    vesselId: "fv--gale",
+    type: "Duty-Free",
+    stores: [
+      {
+        id: "7c240ee5-9240-45df-8485-0e85d7809544",
+        name: "FV  Gale Voyage Duty Free",
+        description: "Discover exceptional values on premium brands from around the world. Our duty-free collection features the finest spirits, perfumes, cosmetics, and luxury goods at sea-exclusive prices.",
+        hours: {
+          start: "08:00",
+          end: "21:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(902) 253-2686",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "eb9e4c3b-65ac-4a7a-b9c2-12dbd76cbb2e",
+        name: "Duty Free Treasures",
+        description: "Your passport to savings on international favorites. Browse our extensive selection of duty-free merchandise including premium liquors, designer fragrances, and luxury chocolates.",
+        hours: {
+          start: "10:00",
+          end: "20:00",
+          duration: "10 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(858) 470-2979",
+          contactEmail: "hi@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "a1eb456c-f9b0-4651-b077-7cbb7e393a6e",
+        name: "FV  Gale Maritime Duty Free",
+        description: "Experience tax-free shopping at its finest with our curated collection of global brands and exclusive cruise-only offers on premium goods.",
+        hours: {
+          start: "10:00",
+          end: "23:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(250) 649-2946",
+          contactEmail: "connect@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "dc763475-193a-4e17-923e-e2b06e59f69a",
+    vesselId: "fv--gale",
+    type: "Jewelry and Watches",
+    stores: [
+      {
+        id: "c58575d0-299a-434b-933d-902d7ec79b81",
+        name: "Seattle Maritime Timepieces",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "21:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(930) 961-6130",
+          contactEmail: "office@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "784241e3-32ca-4c85-a080-a5b0f125b8df",
+        name: "FV  Gale Sea Glass Jewelry",
+        description: "Celebrate special moments with our carefully curated selection of fine jewelry and luxury watches, each piece as unique as your cruise experience.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(402) 563-1552",
+          contactEmail: "care@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "6cedfa2e-2493-4c25-890f-9a58e9b897ad",
+        name: "Seattle Sea Glass Jewelry",
+        description: "Discover timeless elegance in our jewelry and timepiece collection. From stunning statement pieces to classic watches, find the perfect accessory for any occasion.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(903) 883-9567",
+          contactEmail: "mail@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "9b04f1ea-7625-4d28-a53a-a926fb6df202",
+    vesselId: "fv--gale",
+    type: "Fashion and Accessories",
+    stores: [
+      {
+        id: "1732f270-4509-4a79-b5c3-b67dd12bc3b9",
+        name: "FV  Gale Coastal Chic",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(621) 971-7701",
+          contactEmail: "reception@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "57b531f9-4a4a-42cb-8f34-62e99daf1789",
+        name: "FV  Gale Seaworthy Style",
+        description: "Set sail in style with our carefully curated fashion collection. From casual cruise wear to elegant evening attire, find the perfect outfit for every occasion.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(356) 976-7276",
+          contactEmail: "ask@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "642680ef-132e-4439-bd88-a0f40d4d01ac",
+        name: "Nautical Threads",
+        description: "Express your personal style with our diverse collection of fashion and accessories, featuring both timeless classics and contemporary trends.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(317) 559-8688",
+          contactEmail: "support@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "7aa7662f-77bc-48b9-9d18-b2f33859829c",
+    vesselId: "fv--gale",
+    type: "Electronics and Gadgets",
+    stores: [
+      {
+        id: "60080dbb-8afb-4ef9-9f13-47efd50ba6ad",
+        name: "Seattle Electronic Essentials",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(725) 770-2297",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "8d14540c-267d-4d41-b8f7-6fc8e3ef8b6d",
+        name: "FV  Gale Modern Maritime",
+        description: "Discover innovative technology and essential gadgets for the modern traveler. Our electronics store features the latest devices and accessories.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(719) 147-4192",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "67e4158a-a2c5-401a-af2e-5d28e69bff1d",
+        name: "Innovation Station",
+        description: "Stay connected and capture memories with our selection of the latest electronics and gadgets. From cameras to portable chargers, we have your tech needs covered.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(820) 461-5185",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "0d59d337-ecd9-4a20-888b-6d6e9d84ac50",
+    vesselId: "fv--gale",
+    type: "Souvenirs and Gifts",
+    stores: [
+      {
+        id: "7ed781b1-d14a-4405-9702-80ce96d01eb6",
+        name: "Treasure Trove",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(623) 743-7361",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "7b0c9a62-9f6f-40d4-b031-3cc4e9daea2a",
+        name: "Voyage Memories",
+        description: "Discover meaningful mementos and thoughtful gifts in our treasure trove of souvenirs, each item carefully selected to capture the spirit of your cruise experience.",
+        hours: {
+          start: "08:00",
+          end: "20:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(861) 151-5547",
+          contactEmail: "inquiries@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      },
+      {
+        id: "83225075-373f-4684-9a80-69677dc5d794",
+        name: "Memory Makers",
+        description: "Take home a piece of your incredible journey with our unique collection of souvenirs and gifts. From personalized keepsakes to local treasures, create lasting memories.",
+        hours: {
+          start: "08:00",
+          end: "23:00",
+          duration: "15 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(547) 831-7826",
+          contactEmail: "feedback@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "d4bacfe9-caa8-4bc1-91dc-0aaa3d763638",
+    vesselId: "fv--gale",
+    type: "Health and Beauty",
+    stores: [
+      {
+        id: "9513de3b-732b-47b3-b9e8-c5b73a24b540",
+        name: "Coastal Care",
+        description: "Pamper yourself with our premium selection of health and beauty products. From spa-quality skincare to essential wellness items, maintain your glow at sea.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(617) 688-1424",
+          contactEmail: "hello@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: false,
+      },
+      {
+        id: "5509943c-f1c0-4866-bb99-2be8432bfa28",
+        name: "Wellness Waves",
+        description: "Enhance your natural beauty and well-being with our carefully selected health and beauty products, perfect for maintaining your vacation glow.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(305) 933-5227",
           contactEmail: "ask@shopping.velarivoyages.com",
         },
         hasSales: true,
         isPopular: false,
+      },
+      {
+        id: "a2b1be67-3089-4c4c-ae42-b5a78a32c49f",
+        name: "Wellness Waves",
+        description: "Indulge in self-care with our comprehensive collection of beauty and wellness products, featuring both luxury brands and cruise essentials.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(578) 646-7221",
+          contactEmail: "reachus@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      }
+    ],
+  },
+  {
+    id: "e406f501-7cfb-41ec-a3ac-88fe6a214e69",
+    vesselId: "fv--gale",
+    type: "Sports and Outdoor",
+    stores: [
+      {
+        id: "03a3f076-ae86-48fd-b938-7a12ea6a94be",
+        name: "FV  Gale Fitness Fleet",
+        description: "Embrace the active lifestyle at sea with our sports and outdoor collection. Find quality gear for fitness, recreation, and maritime adventures.",
+        hours: {
+          start: "09:00",
+          end: "23:00",
+          duration: "14 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(653) 145-8868",
+          contactEmail: "services@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ec6e0677-ef10-49ae-b721-cf626b69238f",
+        name: "Sports Seas",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "10:00",
+          end: "21:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(805) 772-4553",
+          contactEmail: "info@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "6200c5ff-6d32-429b-a505-a4cad4e7b712",
+        name: "FV  Gale Outdoor Oceanic",
+        description: "Gear up for adventure with our comprehensive selection of sports and outdoor equipment. From deck games to water sports, we have everything for the active cruiser.",
+        hours: {
+          start: "09:00",
+          end: "22:00",
+          duration: "13 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(262) 625-9569",
+          contactEmail: "customerservice@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
+      }
+    ],
+  },
+  {
+    id: "78e4a4f0-4599-4e3a-a67a-7ce20664d0da",
+    vesselId: "fv--gale",
+    type: "Home and Living",
+    stores: [
+      {
+        id: "946df08d-7851-43f2-9f40-d9406a6db2bd",
+        name: "FV  Gale Seaside Spaces",
+        description: "Transform your living space with our selection of home goods and decorative items, each piece inspired by the beauty and sophistication of life at sea.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(186) 901-3235",
+          contactEmail: "team@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: false,
+      },
+      {
+        id: "ab0dc233-77e8-4757-acaa-50c05805b2f5",
+        name: "Domestic Deck",
+        description: "Discover home essentials and decorative treasures that capture the spirit of maritime elegance and bring cruise luxury to your everyday life.",
+        hours: {
+          start: "09:00",
+          end: "20:00",
+          duration: "11 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(613) 482-8344",
+          contactEmail: "general@shopping.velarivoyages.com",
+        },
+        hasSales: false,
+        isPopular: true,
+      },
+      {
+        id: "34b868a1-2932-4b49-9e5c-eb4def2373d8",
+        name: "Living Seas",
+        description: "Bring the elegance of cruise living to your home with our curated collection of home decor and living essentials, featuring nautical themes and luxury touches.",
+        hours: {
+          start: "10:00",
+          end: "22:00",
+          duration: "12 hours",
+          description: "Store hours may vary during port days and special events",
+        },
+        contact: {
+          contactNumber: "(726) 752-5336",
+          contactEmail: "communications@shopping.velarivoyages.com",
+        },
+        hasSales: true,
+        isPopular: true,
       }
     ],
   }

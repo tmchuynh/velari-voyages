@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Glacier Bay
-    // Generated on: 2025-06-10T03:42:11.631Z
+    // Generated on: 2025-06-10T08:14:18.863Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const glacierBaygoldenSaloonTestimonials: Testimonial[] = [
   {
-    "quote": "At Golden Saloon, expect vivid specialties served by approachable professionals in a chic setting.",
-    "author": "Scott Bennett",
-    "image": "/images/testimonials/person-3.jpg",
-    "title": "Food Stylist",
+    "quote": "The heavenly meal paired perfectly with the dedicated service and welcoming ambiance at Golden Saloon.",
+    "author": "Valentina Mitchell",
+    "image": "https://randomuser.me/api/portraits/women/6.jpg",
+    "title": "Lifestyle Influencer",
+    "date": "December 31, 1969",
     "rating": 5
   },
   {
-    "quote": "Golden Saloon delivers whimsical platters, supported by prompt staff and a cozy atmosphere perfect for any occasion.",
-    "author": "Leah Parker",
-    "image": "https://randomuser.me/api/portraits/women/9.jpg",
-    "title": "Epicurean Specialist",
-    "rating": 3.5
+    "quote": "You’ll enjoy first-class courses and respectful service, all within a vibrant space at Golden Saloon.",
+    "author": "Ralph Hayes",
+    "image": "https://randomuser.me/api/portraits/men/13.jpg",
+    "title": "Food Journalist",
+    "date": "December 31, 1969",
+    "rating": 3.6
   },
   {
-    "quote": "Exceptional recipes paired with helpful service and a vibrant atmosphere make Golden Saloon a standout choice.",
-    "author": "Samantha Campbell",
-    "image": "https://randomuser.me/api/portraits/women/13.jpg",
-    "title": "Gastronomic Critic",
+    "quote": "You’ll enjoy enchanted delights and efficient service, all within a artistic space at Golden Saloon.",
+    "author": "Amina Grant",
+    "image": "/images/testimonials/person-10.jpg",
+    "title": "Food Historian",
+    "date": "December 31, 1969",
+    "rating": 4.7
+  },
+  {
+    "quote": "Exceptional offerings and exemplary service come standard at Golden Saloon. The whimsical ambiance only adds to the appeal.",
+    "author": "Maya Maxwell",
+    "image": "https://randomuser.me/api/portraits/women/38.jpg",
+    "title": "Beverage Expert",
+    "date": "December 31, 1969",
+    "rating": 4.2
+  },
+  {
+    "quote": "The delights at Golden Saloon are consistently elegant, accompanied by trustworthy staff and a delightful setting.",
+    "author": "Bella Griffin",
+    "image": "/images/testimonials/person-11.jpg",
+    "title": "Food Critic",
+    "date": "December 31, 1969",
+    "rating": 3.6
+  },
+  {
+    "quote": "Golden Saloon has the most heavenly treats I've ever tasted. The luxurious atmosphere made our evening special, and the service was punctual.",
+    "author": "Thomas Price",
+    "image": "https://randomuser.me/api/portraits/men/44.jpg",
+    "title": "Culinary Expert",
+    "date": "December 31, 1969",
     "rating": 4.3
   },
   {
-    "quote": "Our dining experience at Golden Saloon was marked by golden cuisine, kind service, and a relaxing atmosphere.",
-    "author": "Frank Wells",
-    "image": "https://randomuser.me/api/portraits/men/27.jpg",
-    "title": "Gastronomic Writer",
-    "rating": 4.4
-  },
-  {
-    "quote": "Every dish we tried at Golden Saloon was regal, paired perfectly with helpful service and a relaxed atmosphere that invites relaxation.",
-    "author": "Wayne Hunter",
-    "image": "https://randomuser.me/api/portraits/men/71.jpg",
-    "title": "Travel Writer",
+    "quote": "At Golden Saloon, expect sublime gastronomic pleasures served by diligent professionals in a relaxed setting.",
+    "author": "Daniel Hudson",
+    "image": "https://randomuser.me/api/portraits/men/82.jpg",
+    "title": "Epicurean Specialist",
+    "date": "December 31, 1969",
     "rating": 4.5
   },
   {
-    "quote": "The beverages selection at Golden Saloon is divine, served with gracious care in a elegant ambiance.",
-    "author": "Virginia Sutton",
-    "image": "https://randomuser.me/api/portraits/women/18.jpg",
-    "title": "Luxury Travel Consultant",
-    "rating": 4.1
+    "quote": "Exceptional gastronomic experiences and trustworthy service come standard at Golden Saloon. The stylish ambiance only adds to the appeal.",
+    "author": "Roger Curtis",
+    "image": "https://randomuser.me/api/portraits/men/82.jpg",
+    "title": "Food & Wine Connoisseur",
+    "date": "December 31, 1969",
+    "rating": 3.8
   }
 ];

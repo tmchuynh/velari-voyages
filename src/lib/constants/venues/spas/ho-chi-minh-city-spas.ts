@@ -6,131 +6,45 @@ import { Spa } from "@/lib/interfaces/services/venues";
 
 export const hoChiMinhCitySpas: Spa[] = [
   {
-    id: "2e870460-cd68-4b82-929b-5a8c50a82da6",
-    vesselId: "sv--explorer",
-    name: "Bamboo Spa & Wellness",
-    description: "Bamboo Spa & Wellness provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
-    imageUrl: "/images/spas/short-hop-ferry-spa.jpg",
-    hours: {
-      start: "08:00",
-      end: "22:00",
-      duration: "14 hours",
-      description: "Daily spa hours may vary during port days and sea days",
-    },
-    contact: {
-      contactNumber: "+1-729-188-9188",
-      contactEmail: "reception@spa.velarivoyages.com",
-    },
-    services: [
-      {
-        title: "Thai Massage",
-        description: "Traditional stretching and pressure point massage",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.4,
-      },
-      {
-        title: "Traditional Asian Massage",
-        description: "Specialized regional treatment featuring traditional asia pacific techniques and ingredients",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.6,
-      },
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.3,
-      },
-      {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
-        tags: [],
-        rating: 4.3,
-      },
-      {
-        title: "Gel Manicure",
-        description: "Long-lasting gel polish application",
-        tags: [],
-        rating: 3.8,
-      },
-      {
-        title: "Cellulite Treatment",
-        description: "Specialized treatment targeting skin texture and firmness",
-        tags: [],
-        rating: 4.4,
-      }
-    ],
-    isPopular: false,
-    faqs: [
-      {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
-      },
-      {
-        question: "Can I book treatments for multiple people?",
-        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
-      },
-      {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
-      },
-      {
-        question: "How early should I arrive for my appointment?",
-        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
-      }
-    ],
-  },
-  {
-    id: "96361dd5-7d9a-45ad-8c13-c3808e79b035",
-    vesselId: "nx-ho-chi-minh-city-voyager",
-    name: "Serenity Bamboo Spa",
-    description: "Welcome to Serenity Bamboo Spa, an oasis of tranquility aboard the NX Ho Chi Minh City Voyager. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    id: "94bba05d-4e1b-420b-94f2-352e3003e134",
+    vesselId: "fv--explorer",
+    name: "Indochine Calm Rejuvenation Center",
+    description: "Discover your personal sanctuary at Indochine Calm Rejuvenation Center. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
     imageUrl: "/images/spas/resort-style-ship-spa.jpg",
     hours: {
       start: "09:00",
-      end: "19:00",
-      duration: "10 hours",
+      end: "22:00",
+      duration: "13 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-264-199-5948",
-      contactEmail: "services@spa.velarivoyages.com",
+      contactNumber: "(172) 930-9413",
+      contactEmail: "help@spa.velarivoyages.com",
     },
     services: [
       {
         title: "Purifying Facial",
         description: "Deep pore cleansing treatment for oily and acne-prone skin",
         tags: ["facial", "skincare", "beauty"],
-        rating: 4.2,
+        rating: 3.6,
       },
       {
-        title: "Acupuncture",
-        description: "Traditional Chinese medicine using fine needles for healing",
-        tags: [],
-        rating: 5,
-      },
-      {
-        title: "Thai Massage",
-        description: "Traditional stretching and pressure point massage",
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
         tags: ["massage", "relaxation", "therapeutic"],
         rating: 3.8,
       },
       {
-        title: "Couples Massage",
-        description: "Romantic side-by-side massage experience for two",
-        tags: ["massage", "relaxation", "therapeutic", "couples"],
-        rating: 3.5,
-      },
-      {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
-        tags: [],
-        rating: 4.3,
-      },
-      {
-        title: "Wellness Consultation",
-        description: "Personalized health and wellness guidance",
+        title: "Meditation Session",
+        description: "Guided meditation for stress relief and mindfulness",
         tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4.4,
+        rating: 4.7,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.6,
       },
       {
         title: "Shiatsu Massage",
@@ -139,14 +53,94 @@ export const hoChiMinhCitySpas: Spa[] = [
         rating: 4.3,
       },
       {
-        title: "Eyelash Extensions",
-        description: "Individual lash extensions for fuller, longer lashes",
+        title: "Prenatal Massage",
+        description: "Gentle, specialized massage for expecting mothers",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.6,
+      },
+      {
+        title: "Couples Massage",
+        description: "Romantic side-by-side massage experience for two",
+        tags: ["massage", "relaxation", "therapeutic", "couples"],
+        rating: 4.3,
+      }
+    ],
+    isPopular: true,
+    faqs: [
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "88ed10b6-bb70-4d62-a61c-2fb19e54bae4",
+    vesselId: "fv--explorer",
+    name: "Halong Haven Rejuvenation Center",
+    description: "Halong Haven Rejuvenation Center provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/resort-style-ship-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "22:00",
+      duration: "14 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(503) 240-9994",
+      contactEmail: "info@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Hydrating Facial",
+        description: "Intensive moisture therapy for dry and dehydrated skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.5,
+      },
+      {
+        title: "Reiki Healing",
+        description: "Energy healing treatment for balance and relaxation",
+        tags: [],
+        rating: 4.9,
+      },
+      {
+        title: "Mekong Mud Wrap",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.2,
+      },
+      {
+        title: "Prenatal Massage",
+        description: "Gentle, specialized massage for expecting mothers",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
+      },
+      {
+        title: "Lotus Leaf Steam",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
         tags: [],
         rating: 4.6,
+      },
+      {
+        title: "Sunless Tanning",
+        description: "Professional spray tan application for a golden glow",
+        tags: [],
+        rating: 4.3,
       }
     ],
     isPopular: false,
     faqs: [
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
       {
         question: "What is your cancellation policy?",
         answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
@@ -156,67 +150,231 @@ export const hoChiMinhCitySpas: Spa[] = [
         answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
       },
       {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
-      {
         question: "Can I book treatments for multiple people?",
         answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       }
     ],
   },
   {
-    id: "4541430b-5b10-4573-9bf0-5b855d5e3f90",
-    vesselId: "fv--of-the-deep",
-    name: "The Zen Sanctuary",
-    description: "Discover your personal sanctuary at The Zen Sanctuary. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
-    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    id: "e81fbdcb-9df6-4881-bd87-bbf5413d0d01",
+    vesselId: "rms-ho-chi-minh-city-voyager",
+    name: "Mekong Drift Wellness Retreat",
+    description: "Discover your personal sanctuary at Mekong Drift Wellness Retreat. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/luxury-cruise-ship-spa.jpg",
     hours: {
       start: "08:00",
-      end: "22:00",
-      duration: "14 hours",
+      end: "21:00",
+      duration: "13 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-920-664-8481",
-      contactEmail: "support@spa.velarivoyages.com",
+      contactNumber: "(295) 804-4419",
+      contactEmail: "feedback@spa.velarivoyages.com",
     },
     services: [
       {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 3.6,
+      },
+      {
         title: "Reflexology",
         description: "Therapeutic foot massage focusing on pressure points",
-        tags: [],
+        tags: ["luxury", "premium"],
         rating: 4.6,
+      },
+      {
+        title: "Gel Manicure",
+        description: "Long-lasting gel polish application",
+        tags: ["luxury", "premium"],
+        rating: 5,
+      },
+      {
+        title: "Sugar Scrub",
+        description: "Gentle exfoliation with natural sugar crystals",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 3.7,
+      },
+      {
+        title: "Mekong Mud Wrap",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox", "luxury"],
+        rating: 3.6,
+      },
+      {
+        title: "Pedicure",
+        description: "Relaxing foot treatment with nail care and massage",
+        tags: ["luxury", "premium"],
+        rating: 4.3,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      }
+    ],
+  },
+  {
+    id: "4c359059-da47-4369-ab3b-907dce01ba2c",
+    vesselId: "my--of-the-deep",
+    name: "The Indochine Calm Sanctuary",
+    description: "Discover your personal sanctuary at The Indochine Calm Sanctuary. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "20:00",
+      duration: "12 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(364) 282-6591",
+      contactEmail: "office@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.1,
       },
       {
         title: "Classic European Facial",
         description: "Deep cleansing and hydrating facial for all skin types",
         tags: ["facial", "skincare", "beauty"],
+        rating: 4.6,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.6,
+      },
+      {
+        title: "Microdermabrasion",
+        description: "Exfoliating treatment for smoother, brighter skin",
+        tags: [],
         rating: 4.2,
       },
       {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 3.9,
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
       },
       {
         title: "Couples Massage",
         description: "Romantic side-by-side massage experience for two",
         tags: ["massage", "relaxation", "therapeutic", "couples"],
-        rating: 4.1,
+        rating: 4.3,
       },
       {
-        title: "Sports Massage",
-        description: "Specialized massage for athletic recovery and performance",
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.3,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      }
+    ],
+  },
+  {
+    id: "b09724ce-083d-44c7-9a3f-9452d31c4cf7",
+    vesselId: "my--of-the-deep",
+    name: "Indochine Calm Spa & Wellness",
+    description: "Welcome to Indochine Calm Spa & Wellness, an oasis of tranquility aboard the MY  of the Deep. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "20:00",
+      duration: "12 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(445) 633-5760",
+      contactEmail: "help@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Hot Stone Massage",
+        description: "Luxurious massage using heated volcanic stones for deep relaxation",
         tags: ["massage", "relaxation", "therapeutic"],
         rating: 4.9,
       },
       {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.8,
+      },
+      {
+        title: "Mekong Mud Wrap",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
         rating: 4.7,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.1,
+      },
+      {
+        title: "Eyelash Extensions",
+        description: "Individual lash extensions for fuller, longer lashes",
+        tags: [],
+        rating: 4.3,
+      },
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.1,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 3.7,
+      },
+      {
+        title: "Mud Wrap",
+        description: "Purifying treatment using therapeutic mineral mud",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.8,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 3.8,
       }
     ],
     isPopular: true,
@@ -232,200 +390,212 @@ export const hoChiMinhCitySpas: Spa[] = [
       {
         question: "How early should I arrive for my appointment?",
         answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
-      },
-      {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
-      {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       }
     ],
   },
   {
-    id: "0ded3bd8-550f-434b-8245-1e3d9ef94e9a",
-    vesselId: "fv--of-the-deep",
-    name: "Harmony Waters Spa",
-    description: "Experience ultimate relaxation at Harmony Waters Spa, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Asia Pacific healing traditions.",
-    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    id: "67cb4efa-61ab-4c78-9af8-4a68f7943f76",
+    vesselId: "ps-the--mariner",
+    name: "Jasmine Spa Spa & Wellness",
+    description: "Discover your personal sanctuary at Jasmine Spa Spa & Wellness. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/catamaran-spa.jpg",
     hours: {
-      start: "08:00",
-      end: "19:00",
-      duration: "11 hours",
+      start: "09:00",
+      end: "21:00",
+      duration: "12 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-866-830-3531",
-      contactEmail: "mail@spa.velarivoyages.com",
+      contactNumber: "(461) 294-9109",
+      contactEmail: "help@spa.velarivoyages.com",
     },
     services: [
       {
-        title: "Body Wrap",
-        description: "Detoxifying and slimming full-body treatment",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4.7,
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.9,
       },
       {
-        title: "Acupuncture",
-        description: "Traditional Chinese medicine using fine needles for healing",
-        tags: [],
-        rating: 4.2,
+        title: "Prenatal Massage",
+        description: "Gentle, specialized massage for expecting mothers",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.9,
       },
       {
-        title: "Jade Stone Therapy",
-        description: "Specialized regional treatment featuring traditional asia pacific techniques and ingredients",
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
         tags: [],
-        rating: 4.7,
+        rating: 4.6,
       },
       {
         title: "Thai Massage",
         description: "Traditional stretching and pressure point massage",
         tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4,
-      },
-      {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
-        tags: [],
-        rating: 3.9,
-      },
-      {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.5,
-      },
-      {
-        title: "Eyelash Extensions",
-        description: "Individual lash extensions for fuller, longer lashes",
-        tags: [],
-        rating: 4.2,
-      },
-      {
-        title: "Eyebrow Shaping",
-        description: "Professional eyebrow grooming and shaping",
-        tags: [],
         rating: 4.6,
-      },
-      {
-        title: "Aromatherapy Massage",
-        description: "Soothing massage with essential oils tailored to your mood",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.3,
-      }
-    ],
-    isPopular: false,
-    faqs: [
-      {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
-      {
-        question: "Can I book treatments for multiple people?",
-        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
-      },
-      {
-        question: "How early should I arrive for my appointment?",
-        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
-      }
-    ],
-  },
-  {
-    id: "da6202e5-db5e-48b3-9038-9b362a62cedd",
-    vesselId: "fv-the--mariner",
-    name: "Zen Rejuvenation Center",
-    description: "Zen Rejuvenation Center provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
-    imageUrl: "/images/spas/catamaran-spa.jpg",
-    hours: {
-      start: "08:00",
-      end: "21:00",
-      duration: "13 hours",
-      description: "Daily spa hours may vary during port days and sea days",
-    },
-    contact: {
-      contactNumber: "+1-226-913-3535",
-      contactEmail: "contact@spa.velarivoyages.com",
-    },
-    services: [
-      {
-        title: "Deep Tissue Massage",
-        description: "Therapeutic massage targeting deep muscle tension and knots",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.4,
-      },
-      {
-        title: "LED Light Therapy",
-        description: "Non-invasive light treatment for various skin concerns",
-        tags: [],
-        rating: 4.5,
-      },
-      {
-        title: "Manicure",
-        description: "Complete nail care including shaping, cuticle care, and polish",
-        tags: [],
-        rating: 3.8,
-      },
-      {
-        title: "Swedish Massage",
-        description: "Classic full-body relaxation massage with gentle, flowing strokes",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4,
-      },
-      {
-        title: "Hair Styling",
-        description: "Professional hair cut, color, and styling services",
-        tags: [],
-        rating: 4.7,
       },
       {
         title: "Hydrating Facial",
         description: "Intensive moisture therapy for dry and dehydrated skin",
         tags: ["facial", "skincare", "beauty"],
+        rating: 3.7,
+      },
+      {
+        title: "Couples Massage",
+        description: "Romantic side-by-side massage experience for two",
+        tags: ["massage", "relaxation", "therapeutic", "couples"],
         rating: 4.9,
       },
       {
-        title: "Aromatherapy Massage",
-        description: "Soothing massage with essential oils tailored to your mood",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.2,
+        title: "Reiki Healing",
+        description: "Energy healing treatment for balance and relaxation",
+        tags: [],
+        rating: 4.6,
       },
       {
-        title: "Shiatsu Massage",
-        description: "Japanese finger pressure massage for energy balance",
-        tags: ["massage", "relaxation", "therapeutic"],
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: [],
         rating: 3.6,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Meditation Session",
+        description: "Guided meditation for stress relief and mindfulness",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.7,
       }
     ],
-    isPopular: false,
+    isPopular: true,
     faqs: [
-      {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
-      },
-      {
-        question: "Can I book treatments for multiple people?",
-        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
-      },
-      {
-        question: "Do you offer treatments for men?",
-        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
-      },
       {
         question: "How early should I arrive for my appointment?",
         answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
       },
       {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       }
     ],
   },
   {
-    id: "4c4099ff-97c5-4005-b55d-eccf4eaf5a8d",
-    vesselId: "fv-the--mariner",
-    name: "FV The  Mariner Harmony Spa",
-    description: "Experience ultimate relaxation at FV The  Mariner Harmony Spa, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Asia Pacific healing traditions.",
+    id: "d1d80a03-b7e8-4b79-a145-137e39c6dff2",
+    vesselId: "sv--gale",
+    name: "Serenity Hue Harmony Spa",
+    description: "Experience ultimate relaxation at Serenity Hue Harmony Spa, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Vietnam healing traditions.",
+    imageUrl: "/images/spas/catamaran-spa.jpg",
+    hours: {
+      start: "07:00",
+      end: "19:00",
+      duration: "12 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(338) 706-1191",
+      contactEmail: "mail@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: [],
+        rating: 4.5,
+      },
+      {
+        title: "Reiki Healing",
+        description: "Energy healing treatment for balance and relaxation",
+        tags: [],
+        rating: 5,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4,
+      },
+      {
+        title: "Classic European Facial",
+        description: "Deep cleansing and hydrating facial for all skin types",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 3.9,
+      },
+      {
+        title: "Eyelash Extensions",
+        description: "Individual lash extensions for fuller, longer lashes",
+        tags: [],
+        rating: 4.5,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 4.2,
+      },
+      {
+        title: "Acupuncture",
+        description: "Traditional Chinese medicine using fine needles for healing",
+        tags: [],
+        rating: 4.8,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 4.1,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.7,
+      },
+      {
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 3.8,
+      },
+      {
+        title: "Sugar Scrub",
+        description: "Gentle exfoliation with natural sugar crystals",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.1,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      }
+    ],
+  },
+  {
+    id: "25b34767-acc1-40a1-a674-4f1452eda2ef",
+    vesselId: "sv--gale",
+    name: "Hue Harmony Rejuvenation Center",
+    description: "Welcome to Hue Harmony Rejuvenation Center, an oasis of tranquility aboard the SV  Gale. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
     imageUrl: "/images/spas/catamaran-spa.jpg",
     hours: {
       start: "09:00",
@@ -434,82 +604,244 @@ export const hoChiMinhCitySpas: Spa[] = [
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-414-877-9497",
-      contactEmail: "services@spa.velarivoyages.com",
+      contactNumber: "(460) 896-5796",
+      contactEmail: "reachus@spa.velarivoyages.com",
     },
     services: [
       {
-        title: "Manicure",
-        description: "Complete nail care including shaping, cuticle care, and polish",
-        tags: [],
-        rating: 4.8,
-      },
-      {
-        title: "Swedish Massage",
-        description: "Classic full-body relaxation massage with gentle, flowing strokes",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.1,
-      },
-      {
-        title: "Prenatal Massage",
-        description: "Gentle, specialized massage for expecting mothers",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.5,
-      },
-      {
-        title: "Wellness Consultation",
-        description: "Personalized health and wellness guidance",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4.5,
-      },
-      {
-        title: "Purifying Facial",
-        description: "Deep pore cleansing treatment for oily and acne-prone skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.7,
-      },
-      {
-        title: "Pedicure",
-        description: "Relaxing foot treatment with nail care and massage",
+        title: "Sunless Tanning",
+        description: "Professional spray tan application for a golden glow",
         tags: [],
         rating: 3.8,
       },
       {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 3.7,
+        title: "Sugar Scrub",
+        description: "Gentle exfoliation with natural sugar crystals",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 3.6,
       },
       {
         title: "Classic European Facial",
         description: "Deep cleansing and hydrating facial for all skin types",
         tags: ["facial", "skincare", "beauty"],
+        rating: 4.1,
+      },
+      {
+        title: "Mekong Mud Wrap",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.1,
+      },
+      {
+        title: "Pedicure",
+        description: "Relaxing foot treatment with nail care and massage",
+        tags: [],
+        rating: 4.9,
+      },
+      {
+        title: "Sports Massage",
+        description: "Specialized massage for athletic recovery and performance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.7,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 3.5,
+      },
+      {
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
+      },
+      {
+        title: "Microdermabrasion",
+        description: "Exfoliating treatment for smoother, brighter skin",
+        tags: [],
         rating: 3.9,
       },
       {
-        title: "Deep Tissue Massage",
-        description: "Therapeutic massage targeting deep muscle tension and knots",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.6,
-      },
-      {
-        title: "Yoga Class",
-        description: "Gentle yoga practice suitable for all levels",
-        tags: ["wellness", "mindfulness", "holistic"],
+        title: "Gel Manicure",
+        description: "Long-lasting gel polish application",
+        tags: [],
         rating: 4.2,
       },
       {
-        title: "Green Tea Treatments",
-        description: "Specialized regional treatment featuring traditional asia pacific techniques and ingredients",
+        title: "Manicure",
+        description: "Complete nail care including shaping, cuticle care, and polish",
         tags: [],
-        rating: 4,
+        rating: 3.7,
       }
     ],
     isPopular: true,
     faqs: [
       {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
         question: "Do you offer treatments for men?",
         answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      }
+    ],
+  },
+  {
+    id: "c48feee7-021a-4ae9-81c8-778133c92fb2",
+    vesselId: "rms--explorer",
+    name: "Hue Harmony Spa & Wellness",
+    description: "Discover your personal sanctuary at Hue Harmony Spa & Wellness. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "21:00",
+      duration: "13 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(897) 676-7378",
+      contactEmail: "clientservices@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.2,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.6,
+      },
+      {
+        title: "Sugar Scrub",
+        description: "Gentle exfoliation with natural sugar crystals",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.4,
+      },
+      {
+        title: "Hair Styling",
+        description: "Professional hair cut, color, and styling services",
+        tags: [],
+        rating: 3.6,
+      },
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.1,
+      },
+      {
+        title: "Eyebrow Shaping",
+        description: "Professional eyebrow grooming and shaping",
+        tags: [],
+        rating: 4.6,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "b878b2eb-ae63-43c2-98cb-37d8e981aa23",
+    vesselId: "rms--explorer",
+    name: "Jasmine Spa Wellness Retreat",
+    description: "Welcome to Jasmine Spa Wellness Retreat, an oasis of tranquility aboard the RMS  Explorer. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "22:00",
+      duration: "14 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(216) 975-2588",
+      contactEmail: "inquiries@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Lotus Leaf Steam",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Yoga Class",
+        description: "Gentle yoga practice suitable for all levels",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.7,
+      },
+      {
+        title: "Couples Massage",
+        description: "Romantic side-by-side massage experience for two",
+        tags: ["massage", "relaxation", "therapeutic", "couples"],
+        rating: 3.8,
+      },
+      {
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
+      },
+      {
+        title: "Eyelash Extensions",
+        description: "Individual lash extensions for fuller, longer lashes",
+        tags: [],
+        rating: 5,
+      },
+      {
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: [],
+        rating: 4.1,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.7,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.6,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       },
       {
         question: "How early should I arrive for my appointment?",
@@ -522,11 +854,11 @@ export const hoChiMinhCitySpas: Spa[] = [
     ],
   },
   {
-    id: "a643bed1-e7cc-4d1e-8f9c-be1371e51fbb",
-    vesselId: "ms--gale",
-    name: "MS  Gale Zen Spa",
-    description: "MS  Gale Zen Spa provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
-    imageUrl: "/images/spas/catamaran-spa.jpg",
+    id: "fee12de7-9661-405b-aad6-f94a73fceae4",
+    vesselId: "ps-ho-chi-minh-city-voyager",
+    name: "PS Ho Chi Minh City Voyager Hue Harmony Spa",
+    description: "Welcome to PS Ho Chi Minh City Voyager Hue Harmony Spa, an oasis of tranquility aboard the PS Ho Chi Minh City Voyager. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    imageUrl: "/images/spas/family-cruise-ship-spa.jpg",
     hours: {
       start: "08:00",
       end: "19:00",
@@ -534,85 +866,87 @@ export const hoChiMinhCitySpas: Spa[] = [
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-459-968-3462",
-      contactEmail: "welcome@spa.velarivoyages.com",
+      contactNumber: "(989) 215-5785",
+      contactEmail: "team@spa.velarivoyages.com",
     },
     services: [
-      {
-        title: "Salt Scrub",
-        description: "Exfoliating treatment using mineral-rich sea salts",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 4.2,
-      },
-      {
-        title: "Aromatherapy Massage",
-        description: "Soothing massage with essential oils tailored to your mood",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.4,
-      },
-      {
-        title: "Hot Stone Massage",
-        description: "Luxurious massage using heated volcanic stones for deep relaxation",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 3.9,
-      },
-      {
-        title: "Oxygen Infusion Facial",
-        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4.6,
-      },
-      {
-        title: "Yoga Class",
-        description: "Gentle yoga practice suitable for all levels",
-        tags: ["wellness", "mindfulness", "holistic"],
-        rating: 4.2,
-      },
-      {
-        title: "Eyelash Extensions",
-        description: "Individual lash extensions for fuller, longer lashes",
-        tags: [],
-        rating: 4.2,
-      },
-      {
-        title: "Classic European Facial",
-        description: "Deep cleansing and hydrating facial for all skin types",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 4,
-      },
-      {
-        title: "Acupuncture",
-        description: "Traditional Chinese medicine using fine needles for healing",
-        tags: [],
-        rating: 4,
-      },
-      {
-        title: "Pedicure",
-        description: "Relaxing foot treatment with nail care and massage",
-        tags: [],
-        rating: 4.7,
-      },
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
-        rating: 3.9,
-      },
       {
         title: "Couples Massage",
         description: "Romantic side-by-side massage experience for two",
         tags: ["massage", "relaxation", "therapeutic", "couples"],
-        rating: 4.6,
+        rating: 3.7,
       },
       {
-        title: "Mud Wrap",
-        description: "Purifying treatment using therapeutic mineral mud",
-        tags: ["body-treatment", "exfoliation", "detox"],
-        rating: 3.9,
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: ["family-friendly"],
+        rating: 4.5,
+      },
+      {
+        title: "Oxygen Infusion Facial",
+        description: "Rejuvenating treatment that infuses pure oxygen into the skin",
+        tags: ["facial", "skincare", "beauty", "family-friendly"],
+        rating: 4.5,
+      },
+      {
+        title: "Hot Stone Massage",
+        description: "Luxurious massage using heated volcanic stones for deep relaxation",
+        tags: ["massage", "relaxation", "therapeutic", "family-friendly"],
+        rating: 4.1,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: ["family-friendly"],
+        rating: 4.9,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic", "family-friendly"],
+        rating: 3.6,
+      },
+      {
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic", "family-friendly"],
+        rating: 3.7,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox", "family-friendly"],
+        rating: 4.5,
+      },
+      {
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic", "family-friendly"],
+        rating: 3.7,
+      },
+      {
+        title: "Microdermabrasion",
+        description: "Exfoliating treatment for smoother, brighter skin",
+        tags: ["family-friendly"],
+        rating: 3.6,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox", "family-friendly"],
+        rating: 5,
       }
     ],
-    isPopular: true,
+    isPopular: false,
     faqs: [
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
       {
         question: "Do you offer treatments for men?",
         answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
@@ -622,8 +956,100 @@ export const hoChiMinhCitySpas: Spa[] = [
         answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       },
       {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      }
+    ],
+  },
+  {
+    id: "8c448811-5888-4213-8ee2-e74345b08382",
+    vesselId: "ms--of-the-deep",
+    name: "Halong Haven Wellness Retreat",
+    description: "Discover your personal sanctuary at Halong Haven Wellness Retreat. Our peaceful spa environment features state-of-the-art facilities and offers an extensive range of therapeutic treatments, perfect for unwinding during your maritime journey.",
+    imageUrl: "/images/spas/river-cruise-ship-spa.jpg",
+    hours: {
+      start: "09:00",
+      end: "19:00",
+      duration: "10 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(144) 556-5635",
+      contactEmail: "info@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.9,
+      },
+      {
+        title: "Purifying Facial",
+        description: "Deep pore cleansing treatment for oily and acne-prone skin",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.2,
+      },
+      {
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.2,
+      },
+      {
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: [],
+        rating: 4.2,
+      },
+      {
+        title: "Anti-Aging Facial",
+        description: "Advanced treatment targeting fine lines and wrinkles",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.5,
+      },
+      {
+        title: "Microdermabrasion",
+        description: "Exfoliating treatment for smoother, brighter skin",
+        tags: [],
+        rating: 4.3,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 4.3,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.2,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 4,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
         question: "Are your products suitable for sensitive skin?",
         answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
       },
       {
         question: "Can I book treatments for multiple people?",
@@ -632,33 +1058,311 @@ export const hoChiMinhCitySpas: Spa[] = [
     ],
   },
   {
-    id: "076da1a3-1620-4479-bfa8-c548d40102ca",
-    vesselId: "ms--gale",
-    name: "Harmony Wellness Retreat",
-    description: "Experience ultimate relaxation at Harmony Wellness Retreat, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Asia Pacific healing traditions.",
-    imageUrl: "/images/spas/catamaran-spa.jpg",
+    id: "9218c544-d8d6-456d-a0a8-4f0ab23a8f59",
+    vesselId: "cs-the--mariner",
+    name: "Mekong Drift Rejuvenation Center",
+    description: "Welcome to Mekong Drift Rejuvenation Center, an oasis of tranquility aboard the CS The  Mariner. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
     hours: {
-      start: "09:00",
-      end: "19:00",
-      duration: "10 hours",
+      start: "07:00",
+      end: "20:00",
+      duration: "13 hours",
       description: "Daily spa hours may vary during port days and sea days",
     },
     contact: {
-      contactNumber: "+1-918-447-3683",
-      contactEmail: "reception@spa.velarivoyages.com",
+      contactNumber: "(593) 361-6173",
+      contactEmail: "customerservice@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Couples Massage",
+        description: "Romantic side-by-side massage experience for two",
+        tags: ["massage", "relaxation", "therapeutic", "couples"],
+        rating: 4.3,
+      },
+      {
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.9,
+      },
+      {
+        title: "Manicure",
+        description: "Complete nail care including shaping, cuticle care, and polish",
+        tags: [],
+        rating: 3.9,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.6,
+      },
+      {
+        title: "Eyebrow Shaping",
+        description: "Professional eyebrow grooming and shaping",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Anti-Aging Facial",
+        description: "Advanced treatment targeting fine lines and wrinkles",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.6,
+      },
+      {
+        title: "Salt Scrub",
+        description: "Exfoliating treatment using mineral-rich sea salts",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.6,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.7,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "efb75839-4be9-4df5-a4fc-e141a51ba1e6",
+    vesselId: "cs-the--mariner",
+    name: "Hue Harmony Wellness Retreat",
+    description: "Hue Harmony Wellness Retreat provides a haven of serenity where guests can escape and rejuvenate. Our skilled wellness professionals offer customized treatments in a luxurious setting, ensuring every guest leaves feeling refreshed and renewed.",
+    imageUrl: "/images/spas/chartered-vessel-spa.jpg",
+    hours: {
+      start: "09:00",
+      end: "20:00",
+      duration: "11 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(490) 304-3744",
+      contactEmail: "inquiries@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Aromatherapy Massage",
+        description: "Soothing massage with essential oils tailored to your mood",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.8,
+      },
+      {
+        title: "Mud Wrap",
+        description: "Purifying treatment using therapeutic mineral mud",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.6,
+      },
+      {
+        title: "Wellness Consultation",
+        description: "Personalized health and wellness guidance",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 3.7,
+      },
+      {
+        title: "Swedish Massage",
+        description: "Classic full-body relaxation massage with gentle, flowing strokes",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 5,
+      },
+      {
+        title: "Gentleman's Facial",
+        description: "Tailored facial treatment designed specifically for men",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.8,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 3.6,
+      },
+      {
+        title: "Sunless Tanning",
+        description: "Professional spray tan application for a golden glow",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
+        tags: [],
+        rating: 4,
+      },
+      {
+        title: "Body Wrap",
+        description: "Detoxifying and slimming full-body treatment",
+        tags: ["body-treatment", "exfoliation", "detox"],
+        rating: 4.8,
+      }
+    ],
+    isPopular: false,
+    faqs: [
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      },
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      }
+    ],
+  },
+  {
+    id: "94b31af1-306c-47df-a70e-c17e042807df",
+    vesselId: "nx--gale",
+    name: "NX  Gale Hue Harmony Spa",
+    description: "Welcome to NX  Gale Hue Harmony Spa, an oasis of tranquility aboard the NX  Gale. Our world-class spa offers a comprehensive menu of rejuvenating treatments designed to restore your mind, body, and spirit while sailing the beautiful waters near Ho Chi Minh City.",
+    imageUrl: "/images/spas/mainstream-cruise-ship-spa.jpg",
+    hours: {
+      start: "09:00",
+      end: "22:00",
+      duration: "13 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(263) 600-3387",
+      contactEmail: "info@spa.velarivoyages.com",
     },
     services: [
       {
         title: "Swedish Massage",
         description: "Classic full-body relaxation massage with gentle, flowing strokes",
         tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.2,
+      },
+      {
+        title: "Sports Massage",
+        description: "Specialized massage for athletic recovery and performance",
+        tags: ["massage", "relaxation", "therapeutic"],
         rating: 3.8,
       },
       {
-        title: "Prenatal Massage",
-        description: "Gentle, specialized massage for expecting mothers",
+        title: "Reiki Healing",
+        description: "Energy healing treatment for balance and relaxation",
+        tags: [],
+        rating: 3.9,
+      },
+      {
+        title: "Deep Tissue Massage",
+        description: "Therapeutic massage targeting deep muscle tension and knots",
         tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.5,
+      },
+      {
+        title: "LED Light Therapy",
+        description: "Non-invasive light treatment for various skin concerns",
+        tags: [],
+        rating: 4.6,
+      },
+      {
+        title: "Yoga Class",
+        description: "Gentle yoga practice suitable for all levels",
+        tags: ["wellness", "mindfulness", "holistic"],
+        rating: 4.5,
+      },
+      {
+        title: "Shiatsu Massage",
+        description: "Japanese finger pressure massage for energy balance",
+        tags: ["massage", "relaxation", "therapeutic"],
+        rating: 4.9,
+      }
+    ],
+    isPopular: true,
+    faqs: [
+      {
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+      },
+      {
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+      },
+      {
+        question: "Can I book treatments for multiple people?",
+        answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
+      },
+      {
+        question: "Are your products suitable for sensitive skin?",
+        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+      }
+    ],
+  },
+  {
+    id: "4218a16e-a659-405e-9ec3-aa18292cc44a",
+    vesselId: "nx--gale",
+    name: "NX  Gale Indochine Calm Spa",
+    description: "Experience ultimate relaxation at NX  Gale Indochine Calm Spa, where traditional wellness meets modern luxury. Our expert therapists provide personalized treatments using premium products and techniques inspired by Vietnam healing traditions.",
+    imageUrl: "/images/spas/mainstream-cruise-ship-spa.jpg",
+    hours: {
+      start: "08:00",
+      end: "21:00",
+      duration: "13 hours",
+      description: "Daily spa hours may vary during port days and sea days",
+    },
+    contact: {
+      contactNumber: "(216) 396-7684",
+      contactEmail: "services@spa.velarivoyages.com",
+    },
+    services: [
+      {
+        title: "Sunless Tanning",
+        description: "Professional spray tan application for a golden glow",
+        tags: [],
+        rating: 3.7,
+      },
+      {
+        title: "Reflexology",
+        description: "Therapeutic foot massage focusing on pressure points",
+        tags: [],
+        rating: 4.3,
+      },
+      {
+        title: "Acupuncture",
+        description: "Traditional Chinese medicine using fine needles for healing",
+        tags: [],
         rating: 4.2,
+      },
+      {
+        title: "Rice Milk Facial",
+        description: "Specialized regional treatment featuring traditional vietnam techniques and ingredients",
+        tags: ["facial", "skincare", "beauty"],
+        rating: 4.4,
       },
       {
         title: "Mud Wrap",
@@ -667,53 +1371,33 @@ export const hoChiMinhCitySpas: Spa[] = [
         rating: 3.6,
       },
       {
-        title: "Microdermabrasion",
-        description: "Exfoliating treatment for smoother, brighter skin",
+        title: "Cellulite Treatment",
+        description: "Specialized treatment targeting skin texture and firmness",
         tags: [],
-        rating: 3.7,
-      },
-      {
-        title: "Jade Stone Therapy",
-        description: "Specialized regional treatment featuring traditional asia pacific techniques and ingredients",
-        tags: [],
-        rating: 4.2,
-      },
-      {
-        title: "Sunless Tanning",
-        description: "Professional spray tan application for a golden glow",
-        tags: [],
-        rating: 3.7,
-      },
-      {
-        title: "Hydrating Facial",
-        description: "Intensive moisture therapy for dry and dehydrated skin",
-        tags: ["facial", "skincare", "beauty"],
         rating: 3.9,
-      },
-      {
-        title: "Shiatsu Massage",
-        description: "Japanese finger pressure massage for energy balance",
-        tags: ["massage", "relaxation", "therapeutic"],
-        rating: 4.8,
       }
     ],
     isPopular: false,
     faqs: [
       {
-        question: "What is your cancellation policy?",
-        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
+        question: "What should I wear to my spa appointment?",
+        answer: "We provide comfortable robes, slippers, and disposable undergarments. You're welcome to undress to your comfort level - our therapists are trained to ensure your privacy and comfort throughout your treatment.",
       },
       {
-        question: "Are your products suitable for sensitive skin?",
-        answer: "Yes, we use premium, hypoallergenic products and can customize treatments for sensitive skin. Please inform us of any allergies or skin concerns when booking.",
+        question: "Do you offer treatments for men?",
+        answer: "Absolutely! We offer specialized treatments for men including sports massage, men's facials, and grooming services. All our therapists are experienced in treating male clients.",
+      },
+      {
+        question: "How early should I arrive for my appointment?",
+        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
       },
       {
         question: "Can I book treatments for multiple people?",
         answer: "Absolutely! We offer couples treatments and can coordinate group bookings. Contact us in advance to ensure availability for your preferred times.",
       },
       {
-        question: "How early should I arrive for my appointment?",
-        answer: "We recommend arriving 15-30 minutes early to check in, change into your robe, and relax in our tranquil waiting area before your treatment begins.",
+        question: "What is your cancellation policy?",
+        answer: "We require 24-hour notice for cancellations to avoid charges. Same-day cancellations and no-shows will be charged the full treatment fee.",
       }
     ],
   }

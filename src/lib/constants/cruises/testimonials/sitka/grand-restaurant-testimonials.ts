@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Sitka
-    // Generated on: 2025-06-10T03:42:11.666Z
+    // Generated on: 2025-06-10T08:14:19.158Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const sitkagrandRestaurantTestimonials: Testimonial[] = [
   {
-    "quote": "Exceptional food paired with remarkable service and a casual atmosphere make Grand Restaurant a standout choice.",
-    "author": "Austin Bennett",
-    "image": "/images/testimonials/person-8.jpg",
+    "quote": "The gastronomic treats at Grand Restaurant were absolutely magnificent! The service was outstanding and the atmosphere was airy. Highly recommend!",
+    "author": "Walter Collins",
+    "image": "https://randomuser.me/api/portraits/men/10.jpg",
     "title": "Food Scientist",
-    "rating": 4.2
+    "date": "December 31, 1969",
+    "rating": 4.3
   },
   {
-    "quote": "The selections here are incredible, prepared with care and served by reliable staff in a stylish setting.",
-    "author": "Thabo Hamilton",
-    "image": "https://randomuser.me/api/portraits/men/5.jpg",
-    "title": "Culinary Journalist",
-    "rating": 3.9
-  },
-  {
-    "quote": "Our meal at Grand Restaurant featured transcendent culinary wonders, attentive punctual staff, and a warm, modern environment.",
-    "author": "Brian Henderson",
-    "image": "https://randomuser.me/api/portraits/men/56.jpg",
+    "quote": "Dining at Grand Restaurant means enjoying luxurious delicacies, impeccable attention, and a vibrant environment tailored for a memorable meal.",
+    "author": "Wei Carpenter",
+    "image": "https://randomuser.me/api/portraits/men/28.jpg",
     "title": "Culinary Explorer",
-    "rating": 4.4
+    "date": "December 31, 1969",
+    "rating": 5
   },
   {
-    "quote": "The beverages selection at Grand Restaurant is luminous, complemented by prompt service and a stylish ambiance that impresses.",
-    "author": "Douglas Keller",
-    "image": "https://randomuser.me/api/portraits/men/29.jpg",
+    "quote": "For distinguished gastronomic delights served with approachable care in a inviting space, Grand Restaurant is unmatched.",
+    "author": "Frank Maxwell",
+    "image": "/images/testimonials/person-1.jpg",
+    "title": "Culinary Artist",
+    "date": "December 31, 1969",
+    "rating": 4.8
+  },
+  {
+    "quote": "The creations selection at Grand Restaurant is simply elite. Combined with helpful staff and a inviting setting, it’s a top choice for discerning diners.",
+    "author": "Nicole Mitchell",
+    "image": "https://randomuser.me/api/portraits/women/82.jpg",
+    "title": "Food Photographer",
+    "date": "December 31, 1969",
+    "rating": 4.3
+  },
+  {
+    "quote": "The divine flavors of the beverages at Grand Restaurant are matched by courteous service and a elegant dining room.",
+    "author": "Elijah Hawkins",
+    "image": "/images/testimonials/person-2.jpg",
     "title": "Lifestyle Influencer",
-    "rating": 4.8
+    "date": "December 31, 1969",
+    "rating": 4.6
   },
   {
-    "quote": "Every visit to Grand Restaurant offers serene tastes, attentive hospitality, and a welcoming upscale atmosphere.",
-    "author": "Frank Griffin",
-    "image": "/images/testimonials/person-10.jpg",
-    "title": "Culinary Explorer",
-    "rating": 4.8
+    "quote": "Dining at Grand Restaurant means enjoying incredible fare, courteous attention, and a stylish environment tailored for a memorable meal.",
+    "author": "Ellie Price",
+    "image": "https://randomuser.me/api/portraits/women/50.jpg",
+    "title": "Restaurant Reviewer",
+    "date": "December 31, 1969",
+    "rating": 4.5
   },
   {
-    "quote": "For those who appreciate transcendent cuisine, Grand Restaurant offers culinary wonders that satisfy, alongside outstanding service and a bohemian vibe.",
-    "author": "Luis Price",
-    "image": "https://randomuser.me/api/portraits/men/49.jpg",
+    "quote": "For a marvelous meal with efficient service in a intimate setting, Grand Restaurant is the place to be.",
+    "author": "Rebecca Spencer",
+    "image": "https://randomuser.me/api/portraits/women/81.jpg",
+    "title": "Food Blogger",
+    "date": "December 31, 1969",
+    "rating": 5
+  },
+  {
+    "quote": "The treats selection at Grand Restaurant is idyllic, complemented by respectful service and a whimsical ambiance that impresses.",
+    "author": "Chloe Russell",
+    "image": "https://randomuser.me/api/portraits/women/45.jpg",
     "title": "Gastronomic Critic",
-    "rating": 4.4
+    "date": "December 31, 1969",
+    "rating": 4.3
   }
 ];

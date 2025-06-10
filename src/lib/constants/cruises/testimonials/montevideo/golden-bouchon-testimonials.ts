@@ -3,7 +3,7 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Montevideo
-    // Generated on: 2025-06-10T03:42:11.647Z
+    // Generated on: 2025-06-10T08:14:18.983Z
   
   import { Testimonial } from "@/lib/interfaces/services/testimonials";
 
@@ -12,45 +12,67 @@
  */
 export const montevideogoldenBouchonTestimonials: Testimonial[] = [
   {
-    "quote": "From the first bite to the last, the culinary wonders at Golden Bouchon impressed with sublime flavors, matched by friendly service and a welcoming ambiance.",
-    "author": "Elijah Wells",
-    "image": "/images/testimonials/person-3.jpg",
-    "title": "Culinary Instructor",
-    "rating": 4.1
-  },
-  {
-    "quote": "At Golden Bouchon, every detail from venerable fare to thorough service and classic atmosphere is thoughtfully crafted.",
-    "author": "Louis Mitchell",
+    "quote": "What a radiating dining experience at Golden Bouchon! The delights exceeded our expectations, and the staff was kind. Will definitely return!",
+    "author": "Marcus Marshall",
     "image": "/images/testimonials/person-6.jpg",
-    "title": "Culinary Journalist",
-    "rating": 4.5
+    "title": "Culinary Artist",
+    "date": "December 31, 1969",
+    "rating": 4.9
   },
   {
-    "quote": "Our dining experience at Golden Bouchon was marked by lavish cuisine, personalized service, and a bohemian atmosphere.",
-    "author": "Alice Fox",
-    "image": "https://randomuser.me/api/portraits/women/18.jpg",
-    "title": "Culinary Historian",
-    "rating": 4.6
-  },
-  {
-    "quote": "The combination of luminous delights, warm attention, and a inviting vibe makes Golden Bouchon exceptional.",
-    "author": "Donna Payne",
-    "image": "/images/testimonials/person-4.jpg",
-    "title": "Travel Writer",
-    "rating": 5
-  },
-  {
-    "quote": "Golden Bouchon has the most sophisticated treats I've ever tasted. The inviting atmosphere made our evening special, and the service was efficient.",
-    "author": "Pamela Parker",
-    "image": "/images/testimonials/person-5.jpg",
-    "title": "Food & Wine Connoisseur",
+    "quote": "We were impressed by the resplendent quality of the treats and the charming attention from staff at Golden Bouchon. The elegant environment was the cherry on top.",
+    "author": "Douglas Price",
+    "image": "/images/testimonials/person-10.jpg",
+    "title": "Food Critic",
+    "date": "December 31, 1969",
     "rating": 4.4
   },
   {
-    "quote": "The selections at Golden Bouchon were absolutely resplendent! The service was welcoming and the atmosphere was lively. Highly recommend!",
-    "author": "Ellie Fox",
-    "image": "/images/testimonials/person-10.jpg",
+    "quote": "The flavors at Golden Bouchon are thoughtfully prepared, marvelous, and complemented by exceptional staff and a sophisticated space.",
+    "author": "Katherine Wallace",
+    "image": "https://randomuser.me/api/portraits/women/1.jpg",
     "title": "Gastronomic Critic",
-    "rating": 4.1
+    "date": "December 31, 1969",
+    "rating": 4.4
+  },
+  {
+    "quote": "The snacks selection at Golden Bouchon is vivid, served with kind care in a vibrant ambiance.",
+    "author": "Lawrence Griffin",
+    "image": "https://randomuser.me/api/portraits/men/37.jpg",
+    "title": "Food Stylist",
+    "date": "December 31, 1969",
+    "rating": 4.8
+  },
+  {
+    "quote": "The meal here are heartwarming, prepared with care and served by welcoming staff in a inviting setting.",
+    "author": "Rebecca Spencer",
+    "image": "https://randomuser.me/api/portraits/women/4.jpg",
+    "title": "Epicurean Specialist",
+    "date": "December 31, 1969",
+    "rating": 4
+  },
+  {
+    "quote": "The luminous specialties at Golden Bouchon kept us coming back for more, complemented perfectly by efficient staff and a airy setting.",
+    "author": "Patricia Knight",
+    "image": "https://randomuser.me/api/portraits/women/19.jpg",
+    "title": "Gastronomy Enthusiast",
+    "date": "December 31, 1969",
+    "rating": 3.7
+  },
+  {
+    "quote": "Dining at Golden Bouchon means enjoying ornate delicacies, dependable attention, and a luxurious environment tailored for a memorable meal.",
+    "author": "Michael Hawkins",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "title": "Food Critic",
+    "date": "December 31, 1969",
+    "rating": 3.9
+  },
+  {
+    "quote": "Golden Bouchon offers a luxurious menu and an equally exceptional staff. The sophisticated vibe makes it perfect for any occasion.",
+    "author": "Peter Fox",
+    "image": "https://randomuser.me/api/portraits/men/6.jpg",
+    "title": "Culinary Explorer",
+    "date": "December 31, 1969",
+    "rating": 4
   }
 ];

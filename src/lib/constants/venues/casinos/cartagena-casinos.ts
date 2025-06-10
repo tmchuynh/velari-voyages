@@ -1,17 +1,17 @@
 // This file is auto-generated
 // Do not edit manually.
 // City: Cartagena
-// Generated on: 2025-06-10T04:02:38.242Z
+// Generated on: 2025-06-10T08:14:17.534Z
 
 import { Casino } from "@/lib/interfaces/services/venues";
 
 export const cartagenaCasinos: Casino[] = [
   {
-    id: "f021d054-9406-4ea1-a875-023334a2edeb",
-    vesselId: "rms--explorer",
-    name: "Captain's Quarters Casino",
-    description: "Captain's Quarters Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features exclusive high-roller room, dedicated poker room, live entertainment.",
-    imageUrl: "/images/casinos/short-hop-ferry-casino-1.jpg",
+    id: "72112070-a1c1-41aa-b961-837479c0acf5",
+    vesselId: "nb--explorer",
+    name: "Lucky Seven Casino",
+    description: "Lucky Seven Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features live dealer games, VIP gaming area.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-1.jpg",
     hours: {
           "start": "10:00",
           "end": "01:00",
@@ -19,750 +19,65 @@ export const cartagenaCasinos: Casino[] = [
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-951-692-4959",
-          "contactEmail": "communications@casino.velarivoyages.com"
+          "contactNumber": "(516) 801-7604",
+          "contactEmail": "services@casino.velarivoyages.com"
     },
     games: [
-          "Theme Slots",
           "Classic Slots",
           "Penny Slots",
-          "Bonus Round Slots",
-          "High Limit Slots",
-          "Video Poker Machines",
-          "Progressive Jackpot Slots",
-          "Blackjack",
-          "Roulette",
-          "Ultimate Texas Hold'em",
-          "Spanish 21",
-          "Let It Ride",
-          "Mississippi Stud",
-          "Casino War",
-          "Pai Gow Poker",
-          "Three Card Poker",
-          "Seven Card Stud",
-          "Razz",
-          "H.O.R.S.E",
-          "Texas Hold'em",
-          "Premium Slot Machines",
-          "High Limit Blackjack",
-          "VIP Baccarat",
-          "Private Dice Games"
-    ],
-    minimumAge: 21,
-    dressCode: "Resort casual attire",
-    freeDrinks: false,
-    prohibitedItems: [
-          "Cameras and recording equipment",
-          "Large bags and backpacks",
-          "Illegal substances",
-          "Weapons of any kind",
-          "Electronic devices at gaming tables",
-          "Marked cards or dice",
-          "Outside food and beverages"
-    ],
-    prohibitedActions: [
-          "Past posting bets",
-          "Using electronic aids",
-          "Underage gambling",
-          "Card counting techniques",
-          "Marking cards or dice",
-          "Collusion between players"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 81,
-          "maximumWageringAmount": 12664,
-          "wageringMethods": [
-                "Cash",
-                "Credit Card",
-                "Casino Chips",
-                "Cruise Card",
-                "Player's Card",
-                "Cashless Gaming Card"
-          ],
-          "redemptionMethods": [
-                "Check by Mail",
-                "Gift Cards",
-                "Merchandise Credits",
-                "Bank Transfer"
-          ]
-    },
-    hasHighRollerRoom: true,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: true,
-    hasDiningOptions: true,
-    tippingRequired: "Yes",
-    tippingAmount: 25,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "High Seas Rewards",
-          "benefits": [
-                "Free internet packages",
-                "Beverage package discounts",
-                "Photo package credits",
-                "Spa treatment discounts",
-                "Shopping credit",
-                "Casino tournament entries",
-                "Meet and greet with officers",
-                "Behind-the-scenes tours"
-          ],
-          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
-    },
-    faqs: [
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          },
-          {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          }
-    ],
-    isPopular: true
-  },
-  {
-    id: "c0affcc8-8c40-4ee4-be1f-9d032819df71",
-    vesselId: "rms--explorer",
-    name: "The Sea Adventure",
-    description: "Discover the excitement at The Sea Adventure, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room.",
-    imageUrl: "/images/casinos/short-hop-ferry-casino-2.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "02:00",
-          "duration": "14 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-576-811-8241",
-          "contactEmail": "customerservice@casino.velarivoyages.com"
-    },
-    games: [
-          "Craps",
-          "Let It Ride",
-          "Baccarat",
-          "Casino War",
-          "Spanish 21",
-          "Pai Gow Poker",
-          "Daily Tournaments",
-          "Five Card Draw",
-          "Texas Hold'em",
-          "Sit & Go Tournaments",
-          "Omaha",
-          "Seven Card Stud"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Illegal substances",
-          "Large bags and backpacks",
-          "Cameras and recording equipment",
-          "Electronic devices at gaming tables",
-          "Professional photography equipment"
-    ],
-    prohibitedActions: [
-          "Past posting bets",
-          "Disruptive behavior",
-          "Marking cards or dice",
-          "Sharing player accounts",
-          "Collusion between players",
-          "Using electronic aids",
-          "Photography without permission"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 147,
-          "maximumWageringAmount": 10871,
-          "wageringMethods": [
-                "Casino Chips",
-                "Player's Card",
-                "Digital Wallet",
-                "Cash",
-                "Cruise Card",
-                "Credit Card"
-          ],
-          "redemptionMethods": [
-                "Cash Payout",
-                "Cruise Credit",
-                "Check by Mail",
-                "Casino Chips"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: true,
-    hasSlotMachines: false,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: false,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "High Seas Rewards",
-          "benefits": [
-                "Free internet packages",
-                "Beverage package discounts",
-                "Photo package credits",
-                "Spa treatment discounts",
-                "Shopping credit",
-                "Casino tournament entries",
-                "Meet and greet with officers",
-                "Behind-the-scenes tours"
-          ],
-          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
-    },
-    faqs: [
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "778c145c-0960-4125-a6a1-e58bc8ba5868",
-    vesselId: "rms--explorer",
-    name: "Sea Adventure Gaming",
-    description: "Welcome to Sea Adventure Gaming, the premier gaming destination aboard the RMS  Explorer. Experience the thrill of casino gaming while cruising the waters near Cartagena.",
-    imageUrl: "/images/casinos/short-hop-ferry-casino-3.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "03:00",
-          "duration": "15 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-836-180-6006",
-          "contactEmail": "team@casino.velarivoyages.com"
-    },
-    games: [
-          "Progressive Jackpot Slots",
-          "Multi-Line Slots",
-          "3D Slots",
-          "High Limit Slots",
-          "Blackjack",
-          "Roulette",
-          "Ultimate Texas Hold'em",
-          "Three Card Poker",
-          "Mississippi Stud",
-          "Spanish 21",
-          "Casino War",
-          "Craps",
-          "Pai Gow Poker"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Illegal substances",
-          "Marked cards or dice",
-          "Counting devices",
-          "Communication devices during play",
-          "Large bags and backpacks",
-          "Outside food and beverages"
-    ],
-    prohibitedActions: [
-          "Sharing player accounts",
-          "Card counting techniques",
-          "Using electronic aids",
-          "Collusion between players",
-          "Photography without permission",
-          "Disruptive behavior",
-          "Intoxicated gambling",
-          "Underage gambling"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 105,
-          "maximumWageringAmount": 24192,
-          "wageringMethods": [
-                "Cruise Card",
-                "Debit Card",
-                "Casino Chips",
-                "Player's Card"
-          ],
-          "redemptionMethods": [
-                "Check by Mail",
-                "Gift Cards",
-                "Merchandise Credits",
-                "Bank Transfer"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: false,
-    hasSmokingArea: false,
-    rewardProgram: {
-          "name": "Fortune Rewards",
-          "benefits": [
-                "Free slot play credits",
-                "Discounted dining at specialty restaurants",
-                "Complimentary valet parking",
-                "Birthday bonus rewards",
-                "Express check-in privileges",
-                "Exclusive gaming promotions",
-                "Cashback on losses",
-                "VIP lounge access"
-          ],
-          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
-    },
-    faqs: [
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "fdf159e5-a15f-4063-b18b-aeaab6391a7f",
-    vesselId: "cs-cartagena-voyager",
-    name: "Golden Palace Club",
-    description: "Discover the excitement at Golden Palace Club, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room.",
-    imageUrl: "/images/casinos/mainstream-cruise-ship-casino-1.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "01:00",
-          "duration": "13 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-675-729-2821",
-          "contactEmail": "connect@casino.velarivoyages.com"
-    },
-    games: [
-          "Classic Slots",
-          "Video Poker Machines",
           "Video Slots",
-          "Progressive Jackpot Slots",
-          "Multi-Line Slots",
+          "3D Slots",
+          "Theme Slots",
           "Craps",
           "Roulette",
-          "Ultimate Texas Hold'em",
+          "Blackjack",
+          "Casino War",
+          "Three Card Poker",
+          "Baccarat",
           "Caribbean Stud Poker",
           "Pai Gow Poker",
-          "Seven Card Stud",
-          "Omaha",
-          "Texas Hold'em",
-          "Razz"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: false,
-    prohibitedItems: [
-          "Communication devices during play",
-          "Marked cards or dice",
-          "Illegal substances",
-          "Weapons of any kind",
-          "Professional photography equipment",
-          "Large bags and backpacks"
-    ],
-    prohibitedActions: [
-          "Underage gambling",
-          "Collusion between players",
-          "Card counting techniques",
-          "Disruptive behavior",
-          "Past posting bets",
-          "Using electronic aids",
-          "Sharing player accounts",
-          "Photography without permission"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 175,
-          "maximumWageringAmount": 14168,
-          "wageringMethods": [
-                "Casino Chips",
-                "Cash",
-                "Cashless Gaming Card",
-                "Digital Wallet",
-                "Credit Card",
-                "Player's Card"
-          ],
-          "redemptionMethods": [
-                "Bank Transfer",
-                "Digital Payment",
-                "Cruise Credit",
-                "Gift Cards"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "Fortune Rewards",
-          "benefits": [
-                "Free slot play credits",
-                "Discounted dining at specialty restaurants",
-                "Complimentary valet parking",
-                "Birthday bonus rewards",
-                "Express check-in privileges",
-                "Exclusive gaming promotions",
-                "Cashback on losses",
-                "VIP lounge access"
-          ],
-          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
-    },
-    faqs: [
-          {
-                "question": "Are drinks complimentary while gaming?",
-                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
-          },
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          },
-          {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
-          }
-    ],
-    isPopular: true
-  },
-  {
-    id: "7f12ac58-2aa3-45c3-8e42-3dba230e020a",
-    vesselId: "cs-cartagena-voyager",
-    name: "CS Cartagena Voyager Atlantic Gaming",
-    description: "Step into CS Cartagena Voyager Atlantic Gaming for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room, dedicated poker room, live entertainment.",
-    imageUrl: "/images/casinos/mainstream-cruise-ship-casino-2.jpg",
-    hours: {
-          "start": "10:00",
-          "end": "04:00",
-          "duration": "18 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-977-120-7319",
-          "contactEmail": "ask@casino.velarivoyages.com"
-    },
-    games: [
-          "Bonus Round Slots",
-          "Theme Slots",
-          "Video Poker Machines",
-          "3D Slots",
-          "Sit & Go Tournaments",
-          "Five Card Draw",
-          "H.O.R.S.E",
-          "Texas Hold'em",
-          "Omaha",
-          "Razz",
-          "Exclusive Poker Tables",
-          "Premium Slot Machines",
-          "High Limit Blackjack",
-          "Private Dice Games"
-    ],
-    minimumAge: 21,
-    dressCode: "Business casual preferred",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Illegal substances",
-          "Cameras and recording equipment",
-          "Large bags and backpacks",
-          "Professional photography equipment",
-          "Weapons of any kind",
-          "Marked cards or dice",
-          "Outside food and beverages"
-    ],
-    prohibitedActions: [
-          "Card counting techniques",
-          "Photography without permission",
-          "Collusion between players",
-          "Using electronic aids",
-          "Sharing player accounts"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 79,
-          "maximumWageringAmount": 17490,
-          "wageringMethods": [
-                "Cash",
-                "Casino Chips",
-                "Cashless Gaming Card",
-                "Digital Wallet"
-          ],
-          "redemptionMethods": [
-                "Merchandise Credits",
-                "Bank Transfer",
-                "Check by Mail",
-                "Cruise Credit"
-          ]
-    },
-    hasHighRollerRoom: true,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: false,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: true,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "Are drinks complimentary while gaming?",
-                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "36346994-5fcd-4585-8e6b-da99d7a91814",
-    vesselId: "cs-cartagena-voyager",
-    name: "Atlantic Gaming Casino",
-    description: "Atlantic Gaming Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
-    imageUrl: "/images/casinos/mainstream-cruise-ship-casino-3.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "01:00",
-          "duration": "13 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-564-593-2561",
-          "contactEmail": "help@casino.velarivoyages.com"
-    },
-    games: [
-          "Bonus Round Slots",
-          "Video Slots",
-          "Video Poker Machines",
-          "High Limit Slots",
-          "Classic Slots",
-          "Theme Slots",
-          "Penny Slots"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Large bags and backpacks",
-          "Illegal substances",
-          "Communication devices during play",
-          "Weapons of any kind",
-          "Counting devices",
-          "Cameras and recording equipment"
-    ],
-    prohibitedActions: [
-          "Underage gambling",
-          "Past posting bets",
-          "Marking cards or dice",
-          "Photography without permission",
-          "Disruptive behavior",
-          "Intoxicated gambling",
-          "Collusion between players"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 59,
-          "maximumWageringAmount": 6443,
-          "wageringMethods": [
-                "Debit Card",
-                "Digital Wallet",
-                "Credit Card",
-                "Player's Card",
-                "Casino Chips"
-          ],
-          "redemptionMethods": [
-                "Digital Payment",
-                "Cash Payout",
-                "Merchandise Credits",
-                "Cruise Credit",
-                "Gift Cards"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
-    hasTableGames: false,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "High Seas Rewards",
-          "benefits": [
-                "Free internet packages",
-                "Beverage package discounts",
-                "Photo package credits",
-                "Spa treatment discounts",
-                "Shopping credit",
-                "Casino tournament entries",
-                "Meet and greet with officers",
-                "Behind-the-scenes tours"
-          ],
-          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
-    },
-    faqs: [
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "fed80a1c-6508-4b7f-80d8-f024f3a180d5",
-    vesselId: "cs-cartagena-voyager",
-    name: "Navigator's Fortune Gaming",
-    description: "Welcome to Navigator's Fortune Gaming, the premier gaming destination aboard the CS Cartagena Voyager. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live dealer games, VIP gaming area.",
-    imageUrl: "/images/casinos/mainstream-cruise-ship-casino-4.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "03:00",
-          "duration": "15 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-698-958-1500",
-          "contactEmail": "welcome@casino.velarivoyages.com"
-    },
-    games: [
-          "Progressive Jackpot Slots",
-          "3D Slots",
-          "Video Poker Machines",
-          "Classic Slots",
-          "High Limit Slots",
-          "Multi-Line Slots",
-          "Pai Gow Poker",
-          "Three Card Poker",
-          "Let It Ride",
-          "Ultimate Texas Hold'em",
-          "Spanish 21",
-          "Craps",
-          "Live Blackjack",
+          "Live Baccarat",
           "Live Roulette",
+          "Live Dream Catcher",
+          "Live Lightning Roulette",
           "Live Immersive Roulette",
-          "Live Baccarat"
+          "Live Caribbean Stud"
     ],
     minimumAge: 21,
-    dressCode: "Resort casual attire",
+    dressCode: "Elegant casual dress code",
     freeDrinks: true,
     prohibitedItems: [
-          "Cameras and recording equipment",
           "Counting devices",
-          "Communication devices during play",
-          "Weapons of any kind",
-          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
           "Large bags and backpacks",
-          "Outside food and beverages"
+          "Outside food and beverages",
+          "Illegal substances",
+          "Professional photography equipment",
+          "Marked cards or dice"
     ],
     prohibitedActions: [
+          "Card counting techniques",
+          "Marking cards or dice",
           "Collusion between players",
-          "Underage gambling",
-          "Photography without permission",
-          "Disruptive behavior",
           "Past posting bets",
-          "Sharing player accounts",
-          "Card counting techniques"
+          "Disruptive behavior",
+          "Using electronic aids"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 118,
-          "maximumWageringAmount": 13767,
+          "minimumWageringAmount": 103,
+          "maximumWageringAmount": 24246,
           "wageringMethods": [
-                "Cash",
-                "Casino Chips",
-                "Credit Card",
-                "Debit Card",
+                "Digital Wallet",
                 "Player's Card",
+                "Cashless Gaming Card",
+                "Casino Chips",
                 "Cruise Card"
           ],
           "redemptionMethods": [
                 "Cash Payout",
                 "Cruise Credit",
+                "Casino Chips",
+                "Check by Mail",
                 "Gift Cards"
           ]
     },
@@ -773,6 +88,1175 @@ export const cartagenaCasinos: Casino[] = [
     hasLiveDealerGames: true,
     hasVIPArea: true,
     hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "Yes",
+    tippingAmount: 12,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "High Seas Rewards",
+          "benefits": [
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
+          ],
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+    },
+    faqs: [
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "c68c7e77-1d6a-4b9a-9a6c-7098bbb4e7a1",
+    vesselId: "nb--explorer",
+    name: "Electric Avenue Casino",
+    description: "Discover the excitement at Electric Avenue Casino, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-2.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "04:00",
+          "duration": "18 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(685) 919-6892",
+          "contactEmail": "mail@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Theme Slots",
+          "High Limit Slots",
+          "Video Slots",
+          "Bonus Round Slots",
+          "Progressive Jackpot Slots",
+          "Blackjack",
+          "Caribbean Stud Poker",
+          "Ultimate Texas Hold'em",
+          "Craps",
+          "Spanish 21"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Large bags and backpacks",
+          "Counting devices",
+          "Weapons of any kind",
+          "Professional photography equipment"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Intoxicated gambling",
+          "Collusion between players",
+          "Marking cards or dice",
+          "Underage gambling",
+          "Past posting bets",
+          "Sharing player accounts",
+          "Disruptive behavior"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 132,
+          "maximumWageringAmount": 13441,
+          "wageringMethods": [
+                "Cruise Card",
+                "Player's Card",
+                "Credit Card",
+                "Casino Chips",
+                "Cash",
+                "Digital Wallet"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Cash Payout",
+                "Digital Payment",
+                "Cruise Credit"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "e74a117d-8529-49d8-939f-a3a072f79553",
+    vesselId: "nb--explorer",
+    name: "Platinum Elite Casino",
+    description: "Step into Platinum Elite Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features dedicated poker room.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-3.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "04:00",
+          "duration": "18 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(832) 700-1547",
+          "contactEmail": "welcome@casino.velarivoyages.com"
+    },
+    games: [
+          "Bonus Round Slots",
+          "3D Slots",
+          "Theme Slots",
+          "Classic Slots",
+          "High Limit Slots",
+          "Multi-Line Slots",
+          "Video Slots",
+          "Video Poker Machines",
+          "Three Card Poker",
+          "Mississippi Stud",
+          "Blackjack",
+          "Craps",
+          "Caribbean Stud Poker",
+          "Pai Gow Poker",
+          "Ultimate Texas Hold'em",
+          "Spanish 21",
+          "Roulette",
+          "Baccarat",
+          "Texas Hold'em",
+          "Sit & Go Tournaments",
+          "Five Card Draw",
+          "Omaha"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Electronic devices at gaming tables",
+          "Weapons of any kind",
+          "Large bags and backpacks",
+          "Communication devices during play",
+          "Professional photography equipment"
+    ],
+    prohibitedActions: [
+          "Underage gambling",
+          "Collusion between players",
+          "Using electronic aids",
+          "Disruptive behavior",
+          "Card counting techniques",
+          "Past posting bets",
+          "Marking cards or dice",
+          "Sharing player accounts"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 121,
+          "maximumWageringAmount": 20471,
+          "wageringMethods": [
+                "Casino Chips",
+                "Credit Card",
+                "Cruise Card",
+                "Player's Card",
+                "Cashless Gaming Card",
+                "Digital Wallet"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Bank Transfer",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: false,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "2eba9235-5bb3-43f7-9b56-faec7ea8f7b2",
+    vesselId: "nb--explorer",
+    name: "Atlantic Gaming Casino",
+    description: "Step into Atlantic Gaming Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room, dedicated poker room.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-4.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "03:00",
+          "duration": "15 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(351) 531-4532",
+          "contactEmail": "hello@casino.velarivoyages.com"
+    },
+    games: [
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
+          "3D Slots",
+          "Penny Slots",
+          "Video Poker Machines",
+          "Classic Slots",
+          "Theme Slots",
+          "Bonus Round Slots",
+          "Craps",
+          "Baccarat",
+          "Pai Gow Poker",
+          "Spanish 21",
+          "Roulette",
+          "Let It Ride",
+          "Blackjack",
+          "Caribbean Stud Poker",
+          "Ultimate Texas Hold'em",
+          "Texas Hold'em",
+          "Sit & Go Tournaments",
+          "Five Card Draw",
+          "Exclusive Poker Tables",
+          "High Stakes Roulette",
+          "VIP Baccarat",
+          "High Limit Blackjack",
+          "Private Dice Games",
+          "Premium Slot Machines"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Weapons of any kind",
+          "Marked cards or dice",
+          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
+          "Professional photography equipment"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Collusion between players",
+          "Disruptive behavior",
+          "Photography without permission",
+          "Intoxicated gambling",
+          "Sharing player accounts"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 134,
+          "maximumWageringAmount": 16896,
+          "wageringMethods": [
+                "Cashless Gaming Card",
+                "Debit Card",
+                "Cash",
+                "Digital Wallet",
+                "Cruise Card"
+          ],
+          "redemptionMethods": [
+                "Bank Transfer",
+                "Gift Cards",
+                "Cash Payout",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "4512efea-8e13-488a-a08c-3b7950d0fdb5",
+    vesselId: "nb--explorer",
+    name: "NB  Explorer Sea Adventure",
+    description: "Welcome to NB  Explorer Sea Adventure, the premier gaming destination aboard the NB  Explorer. Experience the thrill of casino gaming while cruising the waters near Cartagena.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-5.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "04:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(912) 136-1601",
+          "contactEmail": "welcome@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Theme Slots",
+          "High Limit Slots",
+          "Penny Slots",
+          "Video Slots",
+          "Ultimate Texas Hold'em",
+          "Blackjack",
+          "Baccarat",
+          "Craps",
+          "Pai Gow Poker",
+          "Let It Ride"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Communication devices during play",
+          "Illegal substances",
+          "Marked cards or dice",
+          "Outside food and beverages",
+          "Electronic devices at gaming tables"
+    ],
+    prohibitedActions: [
+          "Collusion between players",
+          "Marking cards or dice",
+          "Using electronic aids",
+          "Underage gambling",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 95,
+          "maximumWageringAmount": 16052,
+          "wageringMethods": [
+                "Player's Card",
+                "Casino Chips",
+                "Cruise Card",
+                "Cashless Gaming Card"
+          ],
+          "redemptionMethods": [
+                "Merchandise Credits",
+                "Cash Payout",
+                "Casino Chips"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "0af637e4-265a-493f-ac53-017326a089f8",
+    vesselId: "fv-cartagena-voyager",
+    name: "The Compass Rose",
+    description: "The Compass Rose brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features dedicated poker room, live dealer games.",
+    imageUrl: "/images/casinos/small-ocean-ship-casino-1.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "04:00",
+          "duration": "18 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(176) 540-8802",
+          "contactEmail": "services@casino.velarivoyages.com"
+    },
+    games: [
+          "Penny Slots",
+          "3D Slots",
+          "Bonus Round Slots",
+          "Multi-Line Slots",
+          "Progressive Jackpot Slots",
+          "Video Slots",
+          "Omaha",
+          "Five Card Draw",
+          "Razz",
+          "Sit & Go Tournaments",
+          "Daily Tournaments",
+          "Texas Hold'em",
+          "Live Roulette",
+          "Live Caribbean Stud",
+          "Live Immersive Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
+          "Marked cards or dice",
+          "Large bags and backpacks",
+          "Illegal substances"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Collusion between players",
+          "Marking cards or dice",
+          "Disruptive behavior",
+          "Intoxicated gambling",
+          "Sharing player accounts",
+          "Past posting bets",
+          "Underage gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 86,
+          "maximumWageringAmount": 5955,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Credit Card",
+                "Player's Card",
+                "Cash",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Bank Transfer",
+                "Check by Mail",
+                "Cruise Credit",
+                "Cash Payout"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "Yes",
+    tippingAmount: 14,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "529a3a0b-21b0-4dbd-b489-9aef5cbd113d",
+    vesselId: "fv-cartagena-voyager",
+    name: "The Crown Jewels",
+    description: "The Crown Jewels brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features exclusive high-roller room, dedicated poker room, VIP gaming area.",
+    imageUrl: "/images/casinos/small-ocean-ship-casino-2.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "03:00",
+          "duration": "15 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(411) 482-4344",
+          "contactEmail": "customerservice@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "3D Slots",
+          "Video Slots",
+          "Bonus Round Slots",
+          "Progressive Jackpot Slots",
+          "Video Poker Machines",
+          "Multi-Line Slots",
+          "Texas Hold'em",
+          "Omaha",
+          "Seven Card Stud",
+          "Five Card Draw",
+          "Sit & Go Tournaments",
+          "High Limit Blackjack",
+          "VIP Baccarat",
+          "High Stakes Roulette",
+          "Exclusive Poker Tables"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Counting devices",
+          "Weapons of any kind",
+          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
+          "Illegal substances"
+    ],
+    prohibitedActions: [
+          "Using electronic aids",
+          "Intoxicated gambling",
+          "Past posting bets",
+          "Sharing player accounts",
+          "Photography without permission",
+          "Collusion between players",
+          "Card counting techniques",
+          "Underage gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 130,
+          "maximumWageringAmount": 21957,
+          "wageringMethods": [
+                "Cashless Gaming Card",
+                "Cruise Card",
+                "Casino Chips",
+                "Debit Card",
+                "Player's Card"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Casino Chips",
+                "Cruise Credit",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: true,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: false,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "High Seas Rewards",
+          "benefits": [
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
+          ],
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "cc00a4b5-c814-45e8-a4da-16946b62d30d",
+    vesselId: "fv-cartagena-voyager",
+    name: "Golden Palace Gaming",
+    description: "Welcome to Golden Palace Gaming, the premier gaming destination aboard the FV Cartagena Voyager. Experience the thrill of casino gaming while cruising the waters near Cartagena.",
+    imageUrl: "/images/casinos/small-ocean-ship-casino-3.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "02:00",
+          "duration": "14 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(272) 353-8190",
+          "contactEmail": "connect@casino.velarivoyages.com"
+    },
+    games: [],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Illegal substances",
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
+          "Counting devices"
+    ],
+    prohibitedActions: [
+          "Sharing player accounts",
+          "Past posting bets",
+          "Marking cards or dice",
+          "Photography without permission",
+          "Collusion between players",
+          "Card counting techniques",
+          "Underage gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 176,
+          "maximumWageringAmount": 15943,
+          "wageringMethods": [
+                "Debit Card",
+                "Cash",
+                "Credit Card",
+                "Casino Chips",
+                "Cashless Gaming Card",
+                "Cruise Card"
+          ],
+          "redemptionMethods": [
+                "Check by Mail",
+                "Merchandise Credits",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: false,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "cd0976f7-be8e-4bf4-a63d-97cb7fc9a517",
+    vesselId: "fv-cartagena-voyager",
+    name: "Fortune's Wheel Gaming",
+    description: "Welcome to Fortune's Wheel Gaming, the premier gaming destination aboard the FV Cartagena Voyager. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live entertainment.",
+    imageUrl: "/images/casinos/small-ocean-ship-casino-4.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "04:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(101) 804-3021",
+          "contactEmail": "connect@casino.velarivoyages.com"
+    },
+    games: [
+          "Video Slots",
+          "Classic Slots",
+          "Bonus Round Slots",
+          "3D Slots",
+          "Three Card Poker",
+          "Ultimate Texas Hold'em",
+          "Let It Ride",
+          "Mississippi Stud",
+          "Craps",
+          "Caribbean Stud Poker"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Weapons of any kind",
+          "Counting devices",
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Communication devices during play",
+          "Cameras and recording equipment"
+    ],
+    prohibitedActions: [
+          "Underage gambling",
+          "Card counting techniques",
+          "Collusion between players",
+          "Sharing player accounts",
+          "Photography without permission",
+          "Past posting bets",
+          "Marking cards or dice",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 199,
+          "maximumWageringAmount": 14253,
+          "wageringMethods": [
+                "Player's Card",
+                "Cashless Gaming Card",
+                "Cash",
+                "Credit Card",
+                "Casino Chips",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Merchandise Credits",
+                "Cruise Credit",
+                "Check by Mail",
+                "Gift Cards"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: true,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "d74e87a8-81a0-4db4-95f2-5b7e5a73280c",
+    vesselId: "hms--of-the-deep",
+    name: "HMS  of the Deep Grand Casino",
+    description: "HMS  of the Deep Grand Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features VIP gaming area.",
+    imageUrl: "/images/casinos/luxury-cruise-ship-casino-1.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "02:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(788) 796-5497",
+          "contactEmail": "support@casino.velarivoyages.com"
+    },
+    games: [
+          "Multi-Line Slots",
+          "Theme Slots",
+          "Video Poker Machines",
+          "Penny Slots",
+          "Progressive Jackpot Slots",
+          "Bonus Round Slots",
+          "Mississippi Stud",
+          "Ultimate Texas Hold'em",
+          "Casino War",
+          "Let It Ride",
+          "Caribbean Stud Poker",
+          "Three Card Poker"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Professional photography equipment",
+          "Counting devices",
+          "Cameras and recording equipment"
+    ],
+    prohibitedActions: [
+          "Using electronic aids",
+          "Disruptive behavior",
+          "Photography without permission",
+          "Marking cards or dice",
+          "Underage gambling",
+          "Past posting bets",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 196,
+          "maximumWageringAmount": 21805,
+          "wageringMethods": [
+                "Cashless Gaming Card",
+                "Player's Card",
+                "Cruise Card",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Check by Mail",
+                "Merchandise Credits",
+                "Cruise Credit"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: true,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "High Seas Rewards",
+          "benefits": [
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
+          ],
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+    },
+    faqs: [
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "5407e24e-ba5b-4ab1-9a9b-feffc238f9ed",
+    vesselId: "hms--of-the-deep",
+    name: "The Digital Dreams",
+    description: "The Digital Dreams brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features exclusive high-roller room, live dealer games, live entertainment.",
+    imageUrl: "/images/casinos/luxury-cruise-ship-casino-2.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "04:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(544) 827-6943",
+          "contactEmail": "feedback@casino.velarivoyages.com"
+    },
+    games: [
+          "3D Slots",
+          "Penny Slots",
+          "Multi-Line Slots",
+          "Progressive Jackpot Slots",
+          "Bonus Round Slots",
+          "Video Poker Machines",
+          "Three Card Poker",
+          "Casino War",
+          "Blackjack",
+          "Caribbean Stud Poker",
+          "Roulette",
+          "Pai Gow Poker",
+          "Let It Ride",
+          "Baccarat",
+          "Ultimate Texas Hold'em",
+          "Spanish 21",
+          "Live Blackjack",
+          "Live Caribbean Stud",
+          "Live Dream Catcher",
+          "Live Casino Hold'em",
+          "Live Roulette",
+          "Premium Slot Machines",
+          "Private Dice Games",
+          "Exclusive Poker Tables",
+          "High Stakes Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Large bags and backpacks",
+          "Counting devices",
+          "Weapons of any kind",
+          "Cameras and recording equipment",
+          "Marked cards or dice",
+          "Communication devices during play"
+    ],
+    prohibitedActions: [
+          "Past posting bets",
+          "Underage gambling",
+          "Sharing player accounts",
+          "Photography without permission",
+          "Marking cards or dice"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 91,
+          "maximumWageringAmount": 16668,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Debit Card",
+                "Casino Chips",
+                "Cruise Card",
+                "Credit Card",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Merchandise Credits",
+                "Check by Mail",
+                "Bank Transfer",
+                "Casino Chips"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: true,
     hasDiningOptions: true,
     tippingRequired: "No",
     tippingAmount: 0,
@@ -794,8 +1278,134 @@ export const cartagenaCasinos: Casino[] = [
     },
     faqs: [
           {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "34dd30e5-d7dd-4851-bda2-a281cd7bb027",
+    vesselId: "hms--of-the-deep",
+    name: "HMS  of the Deep Neon Nights",
+    description: "Welcome to HMS  of the Deep Neon Nights, the premier gaming destination aboard the HMS  of the Deep. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room.",
+    imageUrl: "/images/casinos/luxury-cruise-ship-casino-3.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "02:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(746) 951-7346",
+          "contactEmail": "connect@casino.velarivoyages.com"
+    },
+    games: [
+          "Penny Slots",
+          "Video Slots",
+          "High Limit Slots",
+          "Video Poker Machines",
+          "Classic Slots",
+          "Multi-Line Slots",
+          "Three Card Poker",
+          "Let It Ride",
+          "Baccarat",
+          "Mississippi Stud",
+          "Spanish 21",
+          "Caribbean Stud Poker",
+          "Casino War",
+          "Craps",
+          "Pai Gow Poker",
+          "Ultimate Texas Hold'em",
+          "H.O.R.S.E",
+          "Omaha",
+          "Texas Hold'em"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Counting devices",
+          "Outside food and beverages",
+          "Large bags and backpacks",
+          "Marked cards or dice",
+          "Cameras and recording equipment",
+          "Communication devices during play",
+          "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Intoxicated gambling",
+          "Photography without permission",
+          "Using electronic aids",
+          "Card counting techniques",
+          "Collusion between players",
+          "Past posting bets",
+          "Underage gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 126,
+          "maximumWageringAmount": 19431,
+          "wageringMethods": [
+                "Cruise Card",
+                "Digital Wallet",
+                "Credit Card",
+                "Casino Chips",
+                "Cashless Gaming Card"
+          ],
+          "redemptionMethods": [
+                "Cruise Credit",
+                "Gift Cards",
+                "Merchandise Credits",
+                "Bank Transfer",
+                "Digital Payment"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
           },
           {
                 "question": "What is the minimum age to enter the casino?",
@@ -804,16 +1414,255 @@ export const cartagenaCasinos: Casino[] = [
           {
                 "question": "Are drinks complimentary while gaming?",
                 "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
           }
     ],
     isPopular: false
   },
   {
-    id: "697d6df7-f4c2-4294-9f57-7b15e8596509",
-    vesselId: "nb--of-the-deep",
-    name: "Neon Nights Casino",
-    description: "Welcome to Neon Nights Casino, the premier gaming destination aboard the NB  of the Deep. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room, VIP gaming area.",
+    id: "f9370fb7-2e06-4c37-854a-cae4d63708cd",
+    vesselId: "hms--of-the-deep",
+    name: "Atlantic Gaming Club",
+    description: "Atlantic Gaming Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
+    imageUrl: "/images/casinos/luxury-cruise-ship-casino-4.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "04:00",
+          "duration": "18 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(683) 116-7385",
+          "contactEmail": "admin@casino.velarivoyages.com"
+    },
+    games: [
+          "High Limit Slots",
+          "Classic Slots",
+          "3D Slots",
+          "Penny Slots",
+          "Theme Slots",
+          "Video Slots",
+          "Progressive Jackpot Slots"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Weapons of any kind",
+          "Communication devices during play",
+          "Counting devices",
+          "Cameras and recording equipment",
+          "Electronic devices at gaming tables",
+          "Outside food and beverages"
+    ],
+    prohibitedActions: [
+          "Intoxicated gambling",
+          "Using electronic aids",
+          "Disruptive behavior",
+          "Marking cards or dice",
+          "Sharing player accounts",
+          "Past posting bets",
+          "Collusion between players"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 70,
+          "maximumWageringAmount": 19643,
+          "wageringMethods": [
+                "Cash",
+                "Casino Chips",
+                "Digital Wallet",
+                "Cruise Card",
+                "Player's Card"
+          ],
+          "redemptionMethods": [
+                "Bank Transfer",
+                "Cash Payout",
+                "Gift Cards",
+                "Cruise Credit"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "Yes",
+    tippingAmount: 16,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "High Seas Rewards",
+          "benefits": [
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
+          ],
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "366eb7c3-0f86-4aa3-b5cd-038009639b76",
+    vesselId: "fv-the--mariner",
+    name: "The Crystal Palace",
+    description: "Welcome to The Crystal Palace, the premier gaming destination aboard the FV The  Mariner. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features exclusive high-roller room.",
     imageUrl: "/images/casinos/polar-expedition-ship-casino-1.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "02:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(474) 982-9930",
+          "contactEmail": "ask@casino.velarivoyages.com"
+    },
+    games: [
+          "Video Poker Machines",
+          "Classic Slots",
+          "Video Slots",
+          "3D Slots",
+          "Progressive Jackpot Slots",
+          "Theme Slots",
+          "Let It Ride",
+          "Baccarat",
+          "Mississippi Stud",
+          "Caribbean Stud Poker",
+          "Three Card Poker",
+          "Ultimate Texas Hold'em",
+          "Casino War",
+          "Spanish 21",
+          "VIP Baccarat",
+          "High Limit Blackjack",
+          "Exclusive Poker Tables",
+          "Premium Slot Machines"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Counting devices",
+          "Illegal substances",
+          "Cameras and recording equipment"
+    ],
+    prohibitedActions: [
+          "Disruptive behavior",
+          "Photography without permission",
+          "Intoxicated gambling",
+          "Marking cards or dice",
+          "Card counting techniques",
+          "Using electronic aids"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 74,
+          "maximumWageringAmount": 23129,
+          "wageringMethods": [
+                "Credit Card",
+                "Digital Wallet",
+                "Casino Chips",
+                "Cruise Card",
+                "Cashless Gaming Card"
+          ],
+          "redemptionMethods": [
+                "Check by Mail",
+                "Casino Chips",
+                "Cruise Credit",
+                "Digital Payment"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "b2c0a477-bb15-4946-bdb2-7c42e078bff2",
+    vesselId: "fv-the--mariner",
+    name: "The Treasure Island",
+    description: "Step into The Treasure Island for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features dedicated poker room.",
+    imageUrl: "/images/casinos/polar-expedition-ship-casino-2.jpg",
     hours: {
           "start": "11:00",
           "end": "03:00",
@@ -821,67 +1670,66 @@ export const cartagenaCasinos: Casino[] = [
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-331-143-1371",
-          "contactEmail": "help@casino.velarivoyages.com"
+          "contactNumber": "(594) 308-7601",
+          "contactEmail": "customerservice@casino.velarivoyages.com"
     },
     games: [
+          "Video Poker Machines",
+          "3D Slots",
+          "Classic Slots",
           "Video Slots",
           "High Limit Slots",
-          "Bonus Round Slots",
-          "Video Poker Machines",
-          "Multi-Line Slots",
-          "Baccarat",
-          "Mississippi Stud",
-          "Blackjack",
-          "Let It Ride",
-          "Roulette",
           "Seven Card Stud",
-          "Omaha",
-          "Five Card Draw"
+          "Texas Hold'em",
+          "Omaha"
     ],
     minimumAge: 21,
-    dressCode: "Business casual preferred",
-    freeDrinks: true,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: false,
     prohibitedItems: [
-          "Professional photography equipment",
+          "Communication devices during play",
           "Illegal substances",
-          "Marked cards or dice",
-          "Counting devices",
-          "Electronic devices at gaming tables"
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Weapons of any kind",
+          "Counting devices"
     ],
     prohibitedActions: [
           "Card counting techniques",
           "Collusion between players",
+          "Disruptive behavior",
+          "Underage gambling",
           "Past posting bets",
-          "Marking cards or dice",
-          "Photography without permission"
+          "Marking cards or dice"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 170,
-          "maximumWageringAmount": 7036,
+          "minimumWageringAmount": 109,
+          "maximumWageringAmount": 23194,
           "wageringMethods": [
-                "Casino Chips",
                 "Cash",
+                "Casino Chips",
+                "Digital Wallet",
                 "Cruise Card",
-                "Credit Card",
-                "Cashless Gaming Card"
+                "Player's Card",
+                "Credit Card"
           ],
           "redemptionMethods": [
+                "Gift Cards",
+                "Cash Payout",
                 "Bank Transfer",
-                "Merchandise Credits",
-                "Cruise Credit"
+                "Merchandise Credits"
           ]
     },
     hasHighRollerRoom: false,
     hasPokerRoom: true,
     hasSlotMachines: true,
-    hasTableGames: true,
+    hasTableGames: false,
     hasLiveDealerGames: false,
-    hasVIPArea: true,
+    hasVIPArea: false,
     hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "Yes",
-    tippingAmount: 18,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
     hasBar: true,
     hasSmokingArea: false,
     rewardProgram: {
@@ -914,132 +1762,15 @@ export const cartagenaCasinos: Casino[] = [
           {
                 "question": "Do you offer gaming lessons?",
                 "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
           }
     ],
     isPopular: true
   },
   {
-    id: "b754f078-268a-4467-b17d-2e956c0baefa",
-    vesselId: "nb--of-the-deep",
-    name: "Emerald Bay Club",
-    description: "Discover the excitement at Emerald Bay Club, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience.",
-    imageUrl: "/images/casinos/polar-expedition-ship-casino-2.jpg",
-    hours: {
-          "start": "11:00",
-          "end": "04:00",
-          "duration": "17 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-926-845-8943",
-          "contactEmail": "welcome@casino.velarivoyages.com"
-    },
-    games: [
-          "Progressive Jackpot Slots",
-          "High Limit Slots",
-          "Classic Slots",
-          "Bonus Round Slots",
-          "Video Poker Machines",
-          "Multi-Line Slots",
-          "Video Slots",
-          "3D Slots",
-          "Blackjack",
-          "Caribbean Stud Poker",
-          "Roulette",
-          "Spanish 21",
-          "Casino War",
-          "Baccarat",
-          "Pai Gow Poker"
-    ],
-    minimumAge: 21,
-    dressCode: "Elegant casual dress code",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Outside food and beverages",
-          "Cameras and recording equipment",
-          "Electronic devices at gaming tables",
-          "Large bags and backpacks",
-          "Marked cards or dice",
-          "Professional photography equipment",
-          "Weapons of any kind"
-    ],
-    prohibitedActions: [
-          "Sharing player accounts",
-          "Underage gambling",
-          "Collusion between players",
-          "Intoxicated gambling",
-          "Card counting techniques",
-          "Disruptive behavior",
-          "Past posting bets",
-          "Marking cards or dice"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 82,
-          "maximumWageringAmount": 7584,
-          "wageringMethods": [
-                "Cashless Gaming Card",
-                "Digital Wallet",
-                "Cash",
-                "Casino Chips",
-                "Credit Card"
-          ],
-          "redemptionMethods": [
-                "Digital Payment",
-                "Check by Mail",
-                "Cash Payout"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: false,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
-          {
-                "question": "Are drinks complimentary while gaming?",
-                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          },
-          {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "928acbfb-1b7b-4bfa-8ee1-55bace90c044",
-    vesselId: "nb--of-the-deep",
-    name: "The Pirates' Den",
-    description: "Discover the excitement at The Pirates' Den, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room, live dealer games.",
+    id: "975536be-a391-4770-9bb0-ffcd3d899a90",
+    vesselId: "fv-the--mariner",
+    name: "The Royal Fortune",
+    description: "The Royal Fortune brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features live dealer games.",
     imageUrl: "/images/casinos/polar-expedition-ship-casino-3.jpg",
     hours: {
           "start": "12:00",
@@ -1048,410 +1779,64 @@ export const cartagenaCasinos: Casino[] = [
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-648-783-5206",
-          "contactEmail": "info@casino.velarivoyages.com"
+          "contactNumber": "(339) 935-7353",
+          "contactEmail": "communications@casino.velarivoyages.com"
     },
     games: [
-          "3D Slots",
-          "High Limit Slots",
-          "Video Poker Machines",
-          "Bonus Round Slots",
-          "Penny Slots",
-          "Casino War",
-          "Caribbean Stud Poker",
-          "Three Card Poker",
-          "Craps",
-          "Baccarat",
-          "Texas Hold'em",
-          "Daily Tournaments",
-          "Omaha",
-          "Live Caribbean Stud",
-          "Live Baccarat",
-          "Live Dream Catcher",
-          "Live Roulette"
-    ],
-    minimumAge: 21,
-    dressCode: "Resort casual attire",
-    freeDrinks: false,
-    prohibitedItems: [
-          "Electronic devices at gaming tables",
-          "Illegal substances",
-          "Communication devices during play",
-          "Large bags and backpacks",
-          "Outside food and beverages",
-          "Marked cards or dice",
-          "Counting devices",
-          "Cameras and recording equipment"
-    ],
-    prohibitedActions: [
-          "Sharing player accounts",
-          "Intoxicated gambling",
-          "Collusion between players",
-          "Marking cards or dice",
-          "Disruptive behavior",
-          "Using electronic aids",
-          "Card counting techniques"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 183,
-          "maximumWageringAmount": 6165,
-          "wageringMethods": [
-                "Cashless Gaming Card",
-                "Casino Chips",
-                "Credit Card",
-                "Digital Wallet",
-                "Player's Card"
-          ],
-          "redemptionMethods": [
-                "Check by Mail",
-                "Bank Transfer",
-                "Cash Payout",
-                "Digital Payment"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: true,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          },
-          {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          },
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          }
-    ],
-    isPopular: true
-  },
-  {
-    id: "530e4d71-415c-4562-850f-b4d8b0c06d8b",
-    vesselId: "nb--of-the-deep",
-    name: "Virtual Vegas Casino",
-    description: "Step into Virtual Vegas Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room.",
-    imageUrl: "/images/casinos/polar-expedition-ship-casino-4.jpg",
-    hours: {
-          "start": "11:00",
-          "end": "03:00",
-          "duration": "16 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-603-303-8927",
-          "contactEmail": "clientservices@casino.velarivoyages.com"
-    },
-    games: [
-          "Video Poker Machines",
-          "Theme Slots",
-          "High Limit Slots",
-          "Penny Slots",
-          "3D Slots",
-          "Bonus Round Slots",
-          "Multi-Line Slots",
-          "Progressive Jackpot Slots",
-          "Spanish 21",
-          "Casino War",
-          "Ultimate Texas Hold'em",
-          "Blackjack",
-          "Roulette",
-          "Baccarat",
-          "Caribbean Stud Poker",
-          "Craps",
-          "Three Card Poker",
-          "Pai Gow Poker",
-          "Exclusive Poker Tables",
-          "High Stakes Roulette",
-          "Private Dice Games"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Outside food and beverages",
-          "Communication devices during play",
-          "Large bags and backpacks",
-          "Illegal substances",
-          "Weapons of any kind",
-          "Professional photography equipment",
-          "Electronic devices at gaming tables",
-          "Marked cards or dice"
-    ],
-    prohibitedActions: [
-          "Sharing player accounts",
-          "Underage gambling",
-          "Intoxicated gambling",
-          "Disruptive behavior",
-          "Using electronic aids",
-          "Marking cards or dice",
-          "Past posting bets",
-          "Collusion between players"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 63,
-          "maximumWageringAmount": 23194,
-          "wageringMethods": [
-                "Cruise Card",
-                "Player's Card",
-                "Casino Chips",
-                "Cashless Gaming Card"
-          ],
-          "redemptionMethods": [
-                "Bank Transfer",
-                "Cash Payout",
-                "Gift Cards"
-          ]
-    },
-    hasHighRollerRoom: true,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: false,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
-          {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
-          },
-          {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
-          },
-          {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "a6be9761-ea3d-4e7d-ae33-fe6e0a144493",
-    vesselId: "nb--of-the-deep",
-    name: "The Digital Dreams",
-    description: "Welcome to The Digital Dreams, the premier gaming destination aboard the NB  of the Deep. Experience the thrill of casino gaming while cruising the waters near Cartagena.",
-    imageUrl: "/images/casinos/polar-expedition-ship-casino-5.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "01:00",
-          "duration": "13 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-530-618-9147",
-          "contactEmail": "support@casino.velarivoyages.com"
-    },
-    games: [
-          "Classic Slots",
-          "3D Slots",
-          "Theme Slots",
-          "Multi-Line Slots",
-          "Bonus Round Slots",
-          "High Limit Slots",
           "Video Slots",
-          "Progressive Jackpot Slots",
-          "Three Card Poker",
-          "Spanish 21",
-          "Casino War",
-          "Mississippi Stud",
-          "Blackjack"
-    ],
-    minimumAge: 21,
-    dressCode: "Elegant casual dress code",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Large bags and backpacks",
-          "Communication devices during play",
-          "Illegal substances",
-          "Cameras and recording equipment",
-          "Electronic devices at gaming tables",
-          "Counting devices",
-          "Outside food and beverages"
-    ],
-    prohibitedActions: [
-          "Card counting techniques",
-          "Disruptive behavior",
-          "Marking cards or dice",
-          "Underage gambling",
-          "Collusion between players",
-          "Using electronic aids",
-          "Past posting bets",
-          "Sharing player accounts"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 104,
-          "maximumWageringAmount": 24499,
-          "wageringMethods": [
-                "Cash",
-                "Credit Card",
-                "Digital Wallet",
-                "Debit Card"
-          ],
-          "redemptionMethods": [
-                "Cash Payout",
-                "Casino Chips",
-                "Gift Cards",
-                "Bank Transfer",
-                "Cruise Credit"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "Are drinks complimentary while gaming?",
-                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "ad7e8479-3cf6-4a3f-aa67-0c4e6a18a9f0",
-    vesselId: "hms-the--mariner",
-    name: "Grand Casino Gaming",
-    description: "Welcome to Grand Casino Gaming, the premier gaming destination aboard the HMS The  Mariner. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live dealer games, VIP gaming area.",
-    imageUrl: "/images/casinos/resort-style-ship-casino-1.jpg",
-    hours: {
-          "start": "11:00",
-          "end": "01:00",
-          "duration": "14 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-777-264-1128",
-          "contactEmail": "services@casino.velarivoyages.com"
-    },
-    games: [
+          "High Limit Slots",
+          "3D Slots",
           "Multi-Line Slots",
-          "Penny Slots",
-          "Progressive Jackpot Slots",
-          "Bonus Round Slots",
           "Classic Slots",
-          "Casino War",
-          "Blackjack",
-          "Mississippi Stud",
-          "Ultimate Texas Hold'em",
+          "Penny Slots",
+          "Theme Slots",
           "Roulette",
-          "Live Blackjack",
+          "Baccarat",
+          "Three Card Poker",
+          "Caribbean Stud Poker",
+          "Casino War",
           "Live Dream Catcher",
+          "Live Blackjack",
+          "Live Roulette",
           "Live Baccarat",
-          "Live Roulette"
+          "Live Caribbean Stud",
+          "Live Lightning Roulette"
     ],
     minimumAge: 21,
     dressCode: "Elegant casual dress code",
     freeDrinks: true,
     prohibitedItems: [
-          "Weapons of any kind",
-          "Illegal substances",
-          "Marked cards or dice",
-          "Outside food and beverages",
-          "Cameras and recording equipment",
           "Large bags and backpacks",
+          "Counting devices",
+          "Cameras and recording equipment",
+          "Marked cards or dice",
+          "Electronic devices at gaming tables",
+          "Outside food and beverages",
           "Professional photography equipment"
     ],
     prohibitedActions: [
           "Using electronic aids",
           "Marking cards or dice",
-          "Photography without permission",
-          "Disruptive behavior",
-          "Sharing player accounts",
           "Past posting bets",
+          "Collusion between players",
           "Underage gambling",
-          "Collusion between players"
+          "Disruptive behavior",
+          "Intoxicated gambling",
+          "Card counting techniques"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 58,
-          "maximumWageringAmount": 15081,
+          "minimumWageringAmount": 159,
+          "maximumWageringAmount": 21092,
           "wageringMethods": [
-                "Credit Card",
-                "Cruise Card",
                 "Cashless Gaming Card",
-                "Cash",
-                "Digital Wallet"
+                "Cruise Card",
+                "Player's Card",
+                "Credit Card"
           ],
           "redemptionMethods": [
-                "Gift Cards",
-                "Merchandise Credits",
-                "Bank Transfer",
-                "Check by Mail",
-                "Cash Payout"
+                "Cash Payout",
+                "Casino Chips",
+                "Bank Transfer"
           ]
     },
     hasHighRollerRoom: false,
@@ -1459,144 +1844,32 @@ export const cartagenaCasinos: Casino[] = [
     hasSlotMachines: true,
     hasTableGames: true,
     hasLiveDealerGames: true,
-    hasVIPArea: true,
+    hasVIPArea: false,
     hasEntertainment: false,
     hasDiningOptions: true,
     tippingRequired: "No",
     tippingAmount: 0,
-    hasBar: false,
-    hasSmokingArea: true,
+    hasBar: true,
+    hasSmokingArea: false,
     rewardProgram: {
-          "name": "Velari VIP Club",
+          "name": "High Seas Rewards",
           "benefits": [
-                "Complimentary drinks while gaming",
-                "Priority seating at all gaming tables",
-                "Exclusive tournament invitations",
-                "Personalized casino host service",
-                "Room upgrade certificates",
-                "Spa credit rewards",
-                "Dining vouchers",
-                "Priority reservations"
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
           ],
-          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
     },
     faqs: [
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
-          },
           {
                 "question": "Is there a dress code for the casino?",
                 "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
           },
-          {
-                "question": "Are drinks complimentary while gaming?",
-                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "cbc13a18-0977-4085-9c8c-23445ad08f64",
-    vesselId: "hms-the--mariner",
-    name: "Diamond Club Club",
-    description: "Diamond Club Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features exclusive high-roller room, dedicated poker room.",
-    imageUrl: "/images/casinos/resort-style-ship-casino-2.jpg",
-    hours: {
-          "start": "10:00",
-          "end": "01:00",
-          "duration": "15 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-334-800-5060",
-          "contactEmail": "support@casino.velarivoyages.com"
-    },
-    games: [
-          "Classic Slots",
-          "Bonus Round Slots",
-          "Video Slots",
-          "Theme Slots",
-          "Progressive Jackpot Slots",
-          "Multi-Line Slots",
-          "Razz",
-          "Five Card Draw",
-          "Sit & Go Tournaments",
-          "VIP Baccarat",
-          "High Limit Blackjack",
-          "Premium Slot Machines",
-          "Exclusive Poker Tables",
-          "Private Dice Games"
-    ],
-    minimumAge: 21,
-    dressCode: "Resort casual attire",
-    freeDrinks: true,
-    prohibitedItems: [
-          "Outside food and beverages",
-          "Electronic devices at gaming tables",
-          "Cameras and recording equipment",
-          "Communication devices during play",
-          "Large bags and backpacks"
-    ],
-    prohibitedActions: [
-          "Disruptive behavior",
-          "Marking cards or dice",
-          "Using electronic aids",
-          "Underage gambling",
-          "Sharing player accounts"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 79,
-          "maximumWageringAmount": 11425,
-          "wageringMethods": [
-                "Digital Wallet",
-                "Cash",
-                "Casino Chips",
-                "Cruise Card",
-                "Cashless Gaming Card",
-                "Credit Card"
-          ],
-          "redemptionMethods": [
-                "Merchandise Credits",
-                "Cash Payout",
-                "Casino Chips"
-          ]
-    },
-    hasHighRollerRoom: true,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: false,
-    hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: true,
-    hasSmokingArea: true,
-    rewardProgram: {
-          "name": "Captain's Circle",
-          "benefits": [
-                "Free cruise credit",
-                "Complimentary shore excursion",
-                "Specialty dining packages",
-                "Onboard credit bonuses",
-                "Priority tender service",
-                "Exclusive deck parties",
-                "Personal concierge service",
-                "Late checkout privileges"
-          ],
-          "pointsSystem": "Tier-based system with point multipliers based on membership level"
-    },
-    faqs: [
           {
                 "question": "Can I use my players club card from land-based casinos?",
                 "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
@@ -1606,26 +1879,22 @@ export const cartagenaCasinos: Casino[] = [
                 "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
           },
           {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
           },
           {
                 "question": "What forms of payment are accepted?",
                 "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
           }
     ],
     isPopular: false
   },
   {
-    id: "600913ae-98fb-4bf2-a416-66b8e46dd7f8",
-    vesselId: "hms-the--mariner",
-    name: "The Diamond Club",
-    description: "The Diamond Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features dedicated poker room.",
-    imageUrl: "/images/casinos/resort-style-ship-casino-3.jpg",
+    id: "a4a94744-c970-4808-a9a9-9f46d0580d10",
+    vesselId: "fv-the--mariner",
+    name: "FV The  Mariner Compass Rose",
+    description: "Step into FV The  Mariner Compass Rose for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features dedicated poker room, VIP gaming area, live entertainment.",
+    imageUrl: "/images/casinos/polar-expedition-ship-casino-4.jpg",
     hours: {
           "start": "12:00",
           "end": "01:00",
@@ -1633,65 +1902,69 @@ export const cartagenaCasinos: Casino[] = [
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-639-618-5510",
-          "contactEmail": "connect@casino.velarivoyages.com"
+          "contactNumber": "(855) 155-6780",
+          "contactEmail": "customerservice@casino.velarivoyages.com"
     },
     games: [
-          "H.O.R.S.E",
+          "Penny Slots",
+          "Classic Slots",
+          "Video Poker Machines",
+          "Video Slots",
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
           "Texas Hold'em",
-          "Omaha"
+          "Omaha",
+          "Seven Card Stud",
+          "Five Card Draw"
     ],
     minimumAge: 21,
-    dressCode: "Smart casual required",
+    dressCode: "Business casual preferred",
     freeDrinks: true,
     prohibitedItems: [
-          "Communication devices during play",
-          "Illegal substances",
+          "Marked cards or dice",
+          "Counting devices",
+          "Large bags and backpacks",
           "Outside food and beverages",
-          "Cameras and recording equipment",
           "Weapons of any kind",
-          "Large bags and backpacks"
+          "Electronic devices at gaming tables"
     ],
     prohibitedActions: [
-          "Marking cards or dice",
-          "Past posting bets",
           "Sharing player accounts",
-          "Collusion between players",
-          "Disruptive behavior",
+          "Underage gambling",
           "Photography without permission",
-          "Using electronic aids"
+          "Intoxicated gambling",
+          "Using electronic aids",
+          "Marking cards or dice",
+          "Card counting techniques",
+          "Disruptive behavior"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 59,
-          "maximumWageringAmount": 15323,
+          "minimumWageringAmount": 90,
+          "maximumWageringAmount": 20744,
           "wageringMethods": [
-                "Cashless Gaming Card",
                 "Casino Chips",
                 "Digital Wallet",
-                "Player's Card",
-                "Credit Card",
-                "Cruise Card"
+                "Cash",
+                "Cashless Gaming Card"
           ],
           "redemptionMethods": [
                 "Merchandise Credits",
-                "Cruise Credit",
-                "Gift Cards",
-                "Casino Chips",
-                "Cash Payout"
+                "Digital Payment",
+                "Casino Chips"
           ]
     },
     hasHighRollerRoom: false,
     hasPokerRoom: true,
-    hasSlotMachines: false,
+    hasSlotMachines: true,
     hasTableGames: false,
     hasLiveDealerGames: false,
-    hasVIPArea: false,
-    hasEntertainment: false,
+    hasVIPArea: true,
+    hasEntertainment: true,
     hasDiningOptions: true,
-    tippingRequired: "Yes",
-    tippingAmount: 19,
+    tippingRequired: "No",
+    tippingAmount: 0,
     hasBar: true,
-    hasSmokingArea: false,
+    hasSmokingArea: true,
     rewardProgram: {
           "name": "High Seas Rewards",
           "benefits": [
@@ -1712,8 +1985,227 @@ export const cartagenaCasinos: Casino[] = [
                 "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
           },
           {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
                 "question": "What forms of payment are accepted?",
                 "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "b468f5d5-14e8-4558-b0e1-ca27f104f09c",
+    vesselId: "fv-the--mariner",
+    name: "Navigator's Fortune Club",
+    description: "Navigator's Fortune Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
+    imageUrl: "/images/casinos/polar-expedition-ship-casino-5.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "03:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(273) 984-3488",
+          "contactEmail": "office@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Video Slots",
+          "Penny Slots",
+          "Progressive Jackpot Slots",
+          "Caribbean Stud Poker",
+          "Baccarat",
+          "Spanish 21",
+          "Craps",
+          "Mississippi Stud",
+          "Three Card Poker",
+          "Blackjack",
+          "Let It Ride",
+          "Roulette",
+          "Ultimate Texas Hold'em"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Professional photography equipment",
+          "Electronic devices at gaming tables",
+          "Counting devices",
+          "Communication devices during play"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Collusion between players",
+          "Disruptive behavior",
+          "Sharing player accounts",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 139,
+          "maximumWageringAmount": 23913,
+          "wageringMethods": [
+                "Credit Card",
+                "Casino Chips",
+                "Cruise Card",
+                "Cashless Gaming Card",
+                "Player's Card"
+          ],
+          "redemptionMethods": [
+                "Merchandise Credits",
+                "Gift Cards",
+                "Casino Chips",
+                "Digital Payment",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "9ab1c869-b4ba-4d23-8eb3-1888acc37853",
+    vesselId: "my--gale",
+    name: "MY  Gale Lady Luck",
+    description: "Step into MY  Gale Lady Luck for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features live entertainment.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-1.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "03:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(804) 363-5014",
+          "contactEmail": "connect@casino.velarivoyages.com"
+    },
+    games: [
+          "Bonus Round Slots",
+          "High Limit Slots",
+          "Multi-Line Slots",
+          "Video Poker Machines",
+          "Let It Ride",
+          "Casino War",
+          "Pai Gow Poker",
+          "Blackjack",
+          "Mississippi Stud",
+          "Roulette",
+          "Caribbean Stud Poker",
+          "Baccarat",
+          "Craps"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Cameras and recording equipment",
+          "Counting devices",
+          "Electronic devices at gaming tables",
+          "Weapons of any kind",
+          "Communication devices during play",
+          "Large bags and backpacks",
+          "Outside food and beverages"
+    ],
+    prohibitedActions: [
+          "Marking cards or dice",
+          "Photography without permission",
+          "Disruptive behavior",
+          "Card counting techniques",
+          "Sharing player accounts",
+          "Collusion between players",
+          "Past posting bets"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 118,
+          "maximumWageringAmount": 16191,
+          "wageringMethods": [
+                "Cash",
+                "Digital Wallet",
+                "Debit Card",
+                "Player's Card",
+                "Cashless Gaming Card"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Merchandise Credits",
+                "Cruise Credit"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: true,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
           },
           {
                 "question": "Is there a dress code for the casino?",
@@ -1723,11 +2215,243 @@ export const cartagenaCasinos: Casino[] = [
     isPopular: false
   },
   {
-    id: "03d2c92f-ce57-4286-b0ef-f7f6cea7730e",
-    vesselId: "hms-the--mariner",
-    name: "Compass Rose Gaming",
-    description: "Discover the excitement at Compass Rose Gaming, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features live entertainment.",
-    imageUrl: "/images/casinos/resort-style-ship-casino-4.jpg",
+    id: "55cd4be9-76f0-4df2-9783-53d9dedfaa8d",
+    vesselId: "my--gale",
+    name: "Treasure Island Club",
+    description: "Welcome to Treasure Island Club, the premier gaming destination aboard the MY  Gale. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features exclusive high-roller room.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-2.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(665) 889-7357",
+          "contactEmail": "reachus@casino.velarivoyages.com"
+    },
+    games: [
+          "High Limit Slots",
+          "Theme Slots",
+          "3D Slots",
+          "Bonus Round Slots",
+          "Penny Slots",
+          "Multi-Line Slots",
+          "Roulette",
+          "Craps",
+          "Baccarat",
+          "Let It Ride",
+          "Pai Gow Poker",
+          "Ultimate Texas Hold'em",
+          "Exclusive Poker Tables",
+          "High Limit Blackjack",
+          "Premium Slot Machines",
+          "VIP Baccarat",
+          "Private Dice Games"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Counting devices",
+          "Professional photography equipment",
+          "Illegal substances",
+          "Marked cards or dice",
+          "Electronic devices at gaming tables",
+          "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Marking cards or dice",
+          "Past posting bets",
+          "Underage gambling",
+          "Collusion between players",
+          "Photography without permission",
+          "Card counting techniques",
+          "Disruptive behavior"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 166,
+          "maximumWageringAmount": 24682,
+          "wageringMethods": [
+                "Cash",
+                "Cruise Card",
+                "Credit Card",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Gift Cards",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "d17b0bfd-206f-4083-874d-78cb3bafa331",
+    vesselId: "my--gale",
+    name: "Fortune's Wheel Casino",
+    description: "Fortune's Wheel Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features live dealer games.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-3.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "01:00",
+          "duration": "15 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(408) 469-3865",
+          "contactEmail": "feedback@casino.velarivoyages.com"
+    },
+    games: [
+          "Video Slots",
+          "High Limit Slots",
+          "Penny Slots",
+          "Video Poker Machines",
+          "Pai Gow Poker",
+          "Casino War",
+          "Blackjack",
+          "Three Card Poker",
+          "Caribbean Stud Poker",
+          "Roulette",
+          "Baccarat",
+          "Let It Ride",
+          "Craps",
+          "Live Roulette",
+          "Live Dream Catcher",
+          "Live Blackjack",
+          "Live Lightning Roulette",
+          "Live Casino Hold'em"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Communication devices during play",
+          "Weapons of any kind",
+          "Cameras and recording equipment",
+          "Counting devices",
+          "Marked cards or dice",
+          "Illegal substances"
+    ],
+    prohibitedActions: [
+          "Underage gambling",
+          "Intoxicated gambling",
+          "Sharing player accounts",
+          "Card counting techniques",
+          "Collusion between players",
+          "Using electronic aids"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 68,
+          "maximumWageringAmount": 5096,
+          "wageringMethods": [
+                "Player's Card",
+                "Debit Card",
+                "Cashless Gaming Card",
+                "Cruise Card",
+                "Casino Chips"
+          ],
+          "redemptionMethods": [
+                "Digital Payment",
+                "Bank Transfer",
+                "Merchandise Credits",
+                "Casino Chips"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "ef750eb0-31cb-49f5-9a84-331146945cfe",
+    vesselId: "my--gale",
+    name: "MY  Gale Fortune's Wheel",
+    description: "Welcome to MY  Gale Fortune's Wheel, the premier gaming destination aboard the MY  Gale. Experience the thrill of casino gaming while cruising the waters near Cartagena.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-4.jpg",
     hours: {
           "start": "10:00",
           "end": "02:00",
@@ -1735,60 +2459,1457 @@ export const cartagenaCasinos: Casino[] = [
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-340-481-6623",
+          "contactNumber": "(521) 574-2337",
+          "contactEmail": "inquiries@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Video Slots",
+          "Progressive Jackpot Slots",
+          "Theme Slots",
+          "Multi-Line Slots",
+          "Bonus Round Slots"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Professional photography equipment",
+          "Counting devices",
+          "Large bags and backpacks",
+          "Illegal substances",
+          "Outside food and beverages",
+          "Marked cards or dice"
+    ],
+    prohibitedActions: [
+          "Using electronic aids",
+          "Card counting techniques",
+          "Underage gambling",
+          "Sharing player accounts",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 118,
+          "maximumWageringAmount": 21298,
+          "wageringMethods": [
+                "Debit Card",
+                "Credit Card",
+                "Digital Wallet",
+                "Cash",
+                "Player's Card"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Check by Mail",
+                "Digital Payment",
+                "Cruise Credit",
+                "Cash Payout"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "708076c4-9c75-4db1-8cc3-7963f050f29b",
+    vesselId: "cs--explorer",
+    name: "Ocean Explorer Gaming",
+    description: "Ocean Explorer Gaming brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
+    imageUrl: "/images/casinos/expedition-ship-casino-1.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "02:00",
+          "duration": "14 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(952) 725-9616",
           "contactEmail": "support@casino.velarivoyages.com"
     },
     games: [
-          "Bonus Round Slots",
-          "Theme Slots",
-          "Penny Slots",
-          "Video Slots",
           "High Limit Slots",
-          "Multi-Line Slots",
-          "Craps",
-          "Casino War",
+          "Video Slots",
+          "Video Poker Machines",
+          "Classic Slots",
+          "3D Slots",
           "Blackjack",
-          "Caribbean Stud Poker",
-          "Three Card Poker",
-          "Pai Gow Poker",
-          "Let It Ride",
           "Ultimate Texas Hold'em",
-          "Roulette"
+          "Let It Ride",
+          "Roulette",
+          "Craps",
+          "Mississippi Stud",
+          "Spanish 21",
+          "Caribbean Stud Poker",
+          "Pai Gow Poker",
+          "Casino War"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Counting devices",
+          "Large bags and backpacks",
+          "Marked cards or dice",
+          "Cameras and recording equipment",
+          "Illegal substances"
+    ],
+    prohibitedActions: [
+          "Using electronic aids",
+          "Marking cards or dice",
+          "Disruptive behavior",
+          "Sharing player accounts",
+          "Photography without permission"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 101,
+          "maximumWageringAmount": 10330,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Cruise Card",
+                "Player's Card",
+                "Debit Card",
+                "Credit Card"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Cruise Credit",
+                "Merchandise Credits",
+                "Gift Cards"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "974992e6-e077-4662-ba24-76b83085eb9e",
+    vesselId: "cs--explorer",
+    name: "Navigator's Fortune Club",
+    description: "Step into Navigator's Fortune Club for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features live dealer games.",
+    imageUrl: "/images/casinos/expedition-ship-casino-2.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(168) 822-8528",
+          "contactEmail": "reachus@casino.velarivoyages.com"
+    },
+    games: [
+          "Pai Gow Poker",
+          "Three Card Poker",
+          "Mississippi Stud",
+          "Casino War",
+          "Roulette",
+          "Let It Ride",
+          "Spanish 21",
+          "Caribbean Stud Poker",
+          "Ultimate Texas Hold'em",
+          "Live Casino Hold'em",
+          "Live Dream Catcher",
+          "Live Lightning Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Counting devices",
+          "Illegal substances",
+          "Cameras and recording equipment",
+          "Marked cards or dice",
+          "Professional photography equipment",
+          "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Photography without permission",
+          "Collusion between players",
+          "Past posting bets",
+          "Intoxicated gambling",
+          "Underage gambling",
+          "Sharing player accounts",
+          "Using electronic aids",
+          "Card counting techniques"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 149,
+          "maximumWageringAmount": 10484,
+          "wageringMethods": [
+                "Cruise Card",
+                "Player's Card",
+                "Casino Chips",
+                "Cash",
+                "Credit Card",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Check by Mail",
+                "Digital Payment",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: false,
+    hasTableGames: true,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "387bba16-4c0d-4810-9401-98c734db3cfd",
+    vesselId: "cs--explorer",
+    name: "The Jackpot Junction",
+    description: "Welcome to The Jackpot Junction, the premier gaming destination aboard the CS  Explorer. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room.",
+    imageUrl: "/images/casinos/expedition-ship-casino-3.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(907) 430-8474",
+          "contactEmail": "hello@casino.velarivoyages.com"
+    },
+    games: [
+          "Craps",
+          "Blackjack",
+          "Mississippi Stud",
+          "Three Card Poker",
+          "Baccarat",
+          "Casino War",
+          "Ultimate Texas Hold'em",
+          "Roulette",
+          "Caribbean Stud Poker",
+          "Texas Hold'em",
+          "Daily Tournaments",
+          "Omaha",
+          "H.O.R.S.E",
+          "Five Card Draw",
+          "Razz"
     ],
     minimumAge: 21,
     dressCode: "Elegant casual dress code",
     freeDrinks: true,
     prohibitedItems: [
-          "Electronic devices at gaming tables",
-          "Cameras and recording equipment",
-          "Outside food and beverages",
-          "Large bags and backpacks",
-          "Communication devices during play",
           "Professional photography equipment",
+          "Large bags and backpacks",
+          "Cameras and recording equipment",
+          "Electronic devices at gaming tables",
+          "Counting devices",
+          "Marked cards or dice",
           "Illegal substances",
           "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Marking cards or dice",
+          "Intoxicated gambling",
+          "Collusion between players",
+          "Past posting bets",
+          "Sharing player accounts",
+          "Photography without permission",
+          "Using electronic aids",
+          "Disruptive behavior"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 163,
+          "maximumWageringAmount": 20737,
+          "wageringMethods": [
+                "Cashless Gaming Card",
+                "Player's Card",
+                "Cash",
+                "Cruise Card",
+                "Casino Chips"
+          ],
+          "redemptionMethods": [
+                "Cruise Credit",
+                "Merchandise Credits",
+                "Digital Payment",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: false,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "High Seas Rewards",
+          "benefits": [
+                "Free internet packages",
+                "Beverage package discounts",
+                "Photo package credits",
+                "Spa treatment discounts",
+                "Shopping credit",
+                "Casino tournament entries",
+                "Meet and greet with officers",
+                "Behind-the-scenes tours"
+          ],
+          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+    },
+    faqs: [
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "4faa406c-b453-409d-a983-8c6b59f7aaf3",
+    vesselId: "cs--explorer",
+    name: "Jackpot Junction Casino",
+    description: "Step into Jackpot Junction Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room.",
+    imageUrl: "/images/casinos/expedition-ship-casino-4.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "02:00",
+          "duration": "15 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(539) 108-2901",
+          "contactEmail": "admin@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "High Limit Slots",
+          "Video Slots",
+          "Penny Slots",
+          "Theme Slots",
+          "3D Slots",
+          "Video Poker Machines",
+          "Baccarat",
+          "Blackjack",
+          "Roulette",
+          "Casino War",
+          "Craps",
+          "Mississippi Stud",
+          "Three Card Poker",
+          "Pai Gow Poker",
+          "Spanish 21",
+          "Caribbean Stud Poker",
+          "Exclusive Poker Tables",
+          "High Limit Blackjack",
+          "Premium Slot Machines",
+          "VIP Baccarat",
+          "Private Dice Games",
+          "High Stakes Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Counting devices",
+          "Illegal substances",
+          "Weapons of any kind",
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Cameras and recording equipment",
+          "Electronic devices at gaming tables",
+          "Outside food and beverages"
+    ],
+    prohibitedActions: [
+          "Intoxicated gambling",
+          "Marking cards or dice",
+          "Disruptive behavior",
+          "Past posting bets",
+          "Using electronic aids"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 102,
+          "maximumWageringAmount": 7165,
+          "wageringMethods": [
+                "Cashless Gaming Card",
+                "Cash",
+                "Credit Card",
+                "Debit Card",
+                "Cruise Card",
+                "Digital Wallet"
+          ],
+          "redemptionMethods": [
+                "Bank Transfer",
+                "Cruise Credit",
+                "Casino Chips",
+                "Digital Payment",
+                "Gift Cards"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "9bc58665-8f7c-414c-a33f-884398330b0d",
+    vesselId: "ms-cartagena-voyager",
+    name: "Royal Fortune Gaming",
+    description: "Welcome to Royal Fortune Gaming, the premier gaming destination aboard the MS Cartagena Voyager. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room, VIP gaming area.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-1.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(601) 723-5495",
+          "contactEmail": "general@casino.velarivoyages.com"
+    },
+    games: [
+          "3D Slots",
+          "Video Poker Machines",
+          "Bonus Round Slots",
+          "Classic Slots",
+          "Penny Slots",
+          "Video Slots",
+          "Multi-Line Slots",
+          "High Limit Slots",
+          "Five Card Draw",
+          "Razz",
+          "Seven Card Stud",
+          "Daily Tournaments",
+          "Sit & Go Tournaments"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Cameras and recording equipment",
+          "Electronic devices at gaming tables",
+          "Illegal substances",
+          "Marked cards or dice",
+          "Counting devices",
+          "Weapons of any kind",
+          "Professional photography equipment"
+    ],
+    prohibitedActions: [
+          "Underage gambling",
+          "Collusion between players",
+          "Sharing player accounts",
+          "Using electronic aids",
+          "Marking cards or dice",
+          "Card counting techniques"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 157,
+          "maximumWageringAmount": 5180,
+          "wageringMethods": [
+                "Cash",
+                "Credit Card",
+                "Debit Card",
+                "Casino Chips"
+          ],
+          "redemptionMethods": [
+                "Digital Payment",
+                "Merchandise Credits",
+                "Gift Cards",
+                "Cash Payout",
+                "Cruise Credit"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: true,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: false,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "8ed58162-a8b4-4f77-af9d-120b4e49bad5",
+    vesselId: "ms-cartagena-voyager",
+    name: "The Vegas Nights",
+    description: "Discover the excitement at The Vegas Nights, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room, live entertainment.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-2.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(223) 527-5642",
+          "contactEmail": "ask@casino.velarivoyages.com"
+    },
+    games: [
+          "High Limit Slots",
+          "Multi-Line Slots",
+          "Classic Slots",
+          "Penny Slots",
+          "3D Slots",
+          "Let It Ride",
+          "Casino War",
+          "Mississippi Stud",
+          "Blackjack",
+          "Pai Gow Poker",
+          "Spanish 21",
+          "Roulette",
+          "Daily Tournaments",
+          "Texas Hold'em",
+          "Razz"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Communication devices during play",
+          "Professional photography equipment",
+          "Outside food and beverages",
+          "Marked cards or dice",
+          "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Past posting bets",
+          "Collusion between players",
+          "Marking cards or dice",
+          "Underage gambling",
+          "Sharing player accounts",
+          "Intoxicated gambling"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 194,
+          "maximumWageringAmount": 9136,
+          "wageringMethods": [
+                "Cash",
+                "Cruise Card",
+                "Digital Wallet",
+                "Credit Card",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Casino Chips",
+                "Bank Transfer",
+                "Cruise Credit",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: true,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: false,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "abb97d8d-3144-4ce3-910c-86c862871315",
+    vesselId: "ms-cartagena-voyager",
+    name: "Diamond Club Casino",
+    description: "Discover the excitement at Diamond Club Casino, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features live dealer games.",
+    imageUrl: "/images/casinos/ultra-luxury-cruise-ship-casino-3.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "04:00",
+          "duration": "18 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(866) 721-5605",
+          "contactEmail": "reachus@casino.velarivoyages.com"
+    },
+    games: [
+          "Video Poker Machines",
+          "High Limit Slots",
+          "Multi-Line Slots",
+          "Classic Slots",
+          "Video Slots",
+          "Progressive Jackpot Slots",
+          "3D Slots",
+          "Theme Slots",
+          "Spanish 21",
+          "Casino War",
+          "Ultimate Texas Hold'em",
+          "Roulette",
+          "Blackjack",
+          "Pai Gow Poker",
+          "Let It Ride",
+          "Live Immersive Roulette",
+          "Live Caribbean Stud",
+          "Live Dream Catcher",
+          "Live Baccarat",
+          "Live Roulette",
+          "Live Casino Hold'em"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Large bags and backpacks",
+          "Professional photography equipment",
+          "Cameras and recording equipment",
+          "Outside food and beverages",
+          "Counting devices",
+          "Weapons of any kind",
+          "Electronic devices at gaming tables"
+    ],
+    prohibitedActions: [
+          "Collusion between players",
+          "Sharing player accounts",
+          "Card counting techniques",
+          "Using electronic aids",
+          "Photography without permission",
+          "Marking cards or dice"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 196,
+          "maximumWageringAmount": 17756,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Casino Chips",
+                "Cashless Gaming Card",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Digital Payment",
+                "Cash Payout"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "Yes",
+    tippingAmount: 22,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "c8f90e93-adae-4530-9feb-2ead09781841",
+    vesselId: "ts--of-the-deep",
+    name: "TS  of the Deep Neon Nights",
+    description: "Discover the excitement at TS  of the Deep Neon Nights, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room, VIP gaming area.",
+    imageUrl: "/images/casinos/catamaran-casino-1.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "03:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(709) 925-9900",
+          "contactEmail": "contact@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Video Slots",
+          "Penny Slots",
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
+          "Bonus Round Slots",
+          "Craps",
+          "Blackjack",
+          "Mississippi Stud",
+          "Spanish 21",
+          "Caribbean Stud Poker",
+          "Baccarat",
+          "Texas Hold'em",
+          "Omaha",
+          "Seven Card Stud",
+          "Five Card Draw",
+          "Razz",
+          "H.O.R.S.E"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Outside food and beverages",
+          "Electronic devices at gaming tables",
+          "Professional photography equipment",
+          "Cameras and recording equipment",
+          "Weapons of any kind"
+    ],
+    prohibitedActions: [
+          "Disruptive behavior",
+          "Marking cards or dice",
+          "Photography without permission",
+          "Collusion between players",
+          "Underage gambling",
+          "Using electronic aids",
+          "Sharing player accounts"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 108,
+          "maximumWageringAmount": 5129,
+          "wageringMethods": [
+                "Cash",
+                "Credit Card",
+                "Cashless Gaming Card",
+                "Digital Wallet",
+                "Debit Card"
+          ],
+          "redemptionMethods": [
+                "Casino Chips",
+                "Cash Payout",
+                "Cruise Credit",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: true,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "4d63e2a2-92ba-4956-9f21-e7eab189eb27",
+    vesselId: "ts--of-the-deep",
+    name: "Virtual Vegas Casino",
+    description: "Welcome to Virtual Vegas Casino, the premier gaming destination aboard the TS  of the Deep. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live dealer games.",
+    imageUrl: "/images/casinos/catamaran-casino-2.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "03:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(785) 298-7593",
+          "contactEmail": "mail@casino.velarivoyages.com"
+    },
+    games: [
+          "Bonus Round Slots",
+          "Multi-Line Slots",
+          "Classic Slots",
+          "3D Slots",
+          "Video Poker Machines",
+          "Video Slots",
+          "Ultimate Texas Hold'em",
+          "Craps",
+          "Blackjack",
+          "Mississippi Stud",
+          "Baccarat",
+          "Roulette",
+          "Pai Gow Poker",
+          "Casino War",
+          "Live Dream Catcher",
+          "Live Immersive Roulette",
+          "Live Casino Hold'em",
+          "Live Caribbean Stud",
+          "Live Blackjack",
+          "Live Lightning Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Illegal substances",
+          "Cameras and recording equipment",
+          "Large bags and backpacks",
+          "Professional photography equipment",
+          "Communication devices during play",
+          "Electronic devices at gaming tables",
+          "Marked cards or dice"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Photography without permission",
+          "Sharing player accounts",
+          "Collusion between players",
+          "Past posting bets"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 117,
+          "maximumWageringAmount": 19344,
+          "wageringMethods": [
+                "Cash",
+                "Digital Wallet",
+                "Cruise Card",
+                "Debit Card",
+                "Cashless Gaming Card",
+                "Player's Card"
+          ],
+          "redemptionMethods": [
+                "Digital Payment",
+                "Merchandise Credits",
+                "Gift Cards",
+                "Cruise Credit",
+                "Casino Chips"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: true,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Fortune Rewards",
+          "benefits": [
+                "Free slot play credits",
+                "Discounted dining at specialty restaurants",
+                "Complimentary valet parking",
+                "Birthday bonus rewards",
+                "Express check-in privileges",
+                "Exclusive gaming promotions",
+                "Cashback on losses",
+                "VIP lounge access"
+          ],
+          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
+    },
+    faqs: [
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "2435e515-563a-4063-a68e-741c0ac57776",
+    vesselId: "ts--of-the-deep",
+    name: "Future Fortune Casino",
+    description: "Step into Future Fortune Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room, live entertainment.",
+    imageUrl: "/images/casinos/catamaran-casino-3.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "02:00",
+          "duration": "14 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(610) 200-5426",
+          "contactEmail": "services@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "Video Slots",
+          "Video Poker Machines",
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
+          "Bonus Round Slots",
+          "3D Slots",
+          "Private Dice Games",
+          "VIP Baccarat",
+          "High Limit Blackjack",
+          "High Stakes Roulette",
+          "Exclusive Poker Tables"
+    ],
+    minimumAge: 21,
+    dressCode: "Smart casual required",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Professional photography equipment",
+          "Counting devices",
+          "Electronic devices at gaming tables",
+          "Cameras and recording equipment",
+          "Communication devices during play",
+          "Large bags and backpacks",
+          "Weapons of any kind",
+          "Outside food and beverages"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Marking cards or dice",
+          "Disruptive behavior",
+          "Using electronic aids",
+          "Underage gambling",
+          "Collusion between players"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 94,
+          "maximumWageringAmount": 13165,
+          "wageringMethods": [
+                "Player's Card",
+                "Cash",
+                "Credit Card",
+                "Cashless Gaming Card"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Cruise Credit",
+                "Cash Payout"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: true,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "989a4af1-1ced-402d-9592-9bb9b7a86043",
+    vesselId: "ts--of-the-deep",
+    name: "Maritime Fortune Gaming",
+    description: "Discover the excitement at Maritime Fortune Gaming, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience.",
+    imageUrl: "/images/casinos/catamaran-casino-4.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(427) 677-1848",
+          "contactEmail": "admin@casino.velarivoyages.com"
+    },
+    games: [
+          "Classic Slots",
+          "High Limit Slots",
+          "Video Slots",
+          "Progressive Jackpot Slots",
+          "3D Slots",
+          "Penny Slots",
+          "Theme Slots",
+          "Multi-Line Slots",
+          "Roulette",
+          "Craps",
+          "Caribbean Stud Poker",
+          "Blackjack",
+          "Ultimate Texas Hold'em",
+          "Three Card Poker",
+          "Baccarat",
+          "Pai Gow Poker",
+          "Casino War",
+          "Spanish 21"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Weapons of any kind",
+          "Counting devices",
+          "Illegal substances",
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Cameras and recording equipment"
     ],
     prohibitedActions: [
           "Disruptive behavior",
           "Past posting bets",
           "Underage gambling",
+          "Using electronic aids",
+          "Card counting techniques",
+          "Collusion between players",
           "Photography without permission",
-          "Card counting techniques"
+          "Marking cards or dice"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 142,
-          "maximumWageringAmount": 21655,
+          "minimumWageringAmount": 87,
+          "maximumWageringAmount": 22183,
           "wageringMethods": [
-                "Credit Card",
-                "Cash",
-                "Debit Card",
                 "Casino Chips",
-                "Player's Card"
+                "Cruise Card",
+                "Digital Wallet",
+                "Debit Card",
+                "Credit Card",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Bank Transfer",
+                "Gift Cards",
+                "Merchandise Credits"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: true
+  },
+  {
+    id: "fa0f78ce-1327-4461-8873-652f8eccdf28",
+    vesselId: "rms-the--mariner",
+    name: "Diamond Club Casino",
+    description: "Diamond Club Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features live entertainment.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-1.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "04:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(506) 658-9763",
+          "contactEmail": "admin@casino.velarivoyages.com"
+    },
+    games: [
+          "Bonus Round Slots",
+          "Video Slots",
+          "Theme Slots",
+          "3D Slots",
+          "Penny Slots",
+          "Video Poker Machines",
+          "Multi-Line Slots",
+          "Classic Slots",
+          "Blackjack",
+          "Roulette",
+          "Baccarat",
+          "Ultimate Texas Hold'em",
+          "Pai Gow Poker",
+          "Mississippi Stud",
+          "Caribbean Stud Poker",
+          "Craps",
+          "Casino War",
+          "Three Card Poker"
+    ],
+    minimumAge: 21,
+    dressCode: "Business casual preferred",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Electronic devices at gaming tables",
+          "Outside food and beverages",
+          "Illegal substances",
+          "Cameras and recording equipment",
+          "Professional photography equipment",
+          "Large bags and backpacks",
+          "Counting devices"
+    ],
+    prohibitedActions: [
+          "Using electronic aids",
+          "Underage gambling",
+          "Past posting bets",
+          "Sharing player accounts",
+          "Marking cards or dice"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 122,
+          "maximumWageringAmount": 21962,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Credit Card",
+                "Cashless Gaming Card",
+                "Debit Card"
           ],
           "redemptionMethods": [
                 "Gift Cards",
-                "Cruise Credit",
                 "Cash Payout",
+                "Check by Mail",
                 "Merchandise Credits"
           ]
     },
@@ -1799,7 +3920,7 @@ export const cartagenaCasinos: Casino[] = [
     hasLiveDealerGames: false,
     hasVIPArea: false,
     hasEntertainment: true,
-    hasDiningOptions: false,
+    hasDiningOptions: true,
     tippingRequired: "No",
     tippingAmount: 0,
     hasBar: true,
@@ -1820,106 +3941,105 @@ export const cartagenaCasinos: Casino[] = [
     },
     faqs: [
           {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
                 "question": "Is there a dress code for the casino?",
                 "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
           },
           {
                 "question": "Do you offer gaming lessons?",
                 "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          },
-          {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
           }
     ],
     isPopular: false
   },
   {
-    id: "32f48ac1-c333-47c8-9f62-2740e88e5600",
-    vesselId: "ps--gale",
-    name: "PS  Gale Grand Casino",
-    description: "Welcome to PS  Gale Grand Casino, the premier gaming destination aboard the PS  Gale. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room.",
-    imageUrl: "/images/casinos/eco-friendly-hybrid-ship-casino-1.jpg",
+    id: "709c4195-a2aa-4e29-920c-781d6fe346f5",
+    vesselId: "rms-the--mariner",
+    name: "Tech Tower Casino",
+    description: "Welcome to Tech Tower Casino, the premier gaming destination aboard the RMS The  Mariner. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features VIP gaming area.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-2.jpg",
     hours: {
           "start": "10:00",
-          "end": "04:00",
-          "duration": "18 hours",
+          "end": "03:00",
+          "duration": "17 hours",
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-504-662-4553",
-          "contactEmail": "help@casino.velarivoyages.com"
+          "contactNumber": "(288) 600-2393",
+          "contactEmail": "clientservices@casino.velarivoyages.com"
     },
     games: [
-          "3D Slots",
-          "Penny Slots",
+          "Bonus Round Slots",
+          "High Limit Slots",
           "Multi-Line Slots",
-          "Classic Slots",
-          "Ultimate Texas Hold'em",
-          "Let It Ride",
-          "Caribbean Stud Poker",
-          "Baccarat",
-          "Pai Gow Poker",
+          "Progressive Jackpot Slots",
+          "Video Slots",
           "Mississippi Stud",
-          "Daily Tournaments",
-          "Five Card Draw",
-          "Seven Card Stud",
-          "H.O.R.S.E",
-          "Razz",
-          "Omaha"
+          "Baccarat",
+          "Three Card Poker",
+          "Spanish 21",
+          "Pai Gow Poker"
     ],
     minimumAge: 21,
     dressCode: "Business casual preferred",
     freeDrinks: true,
     prohibitedItems: [
-          "Weapons of any kind",
-          "Large bags and backpacks",
+          "Outside food and beverages",
+          "Counting devices",
           "Electronic devices at gaming tables",
-          "Illegal substances",
-          "Professional photography equipment",
-          "Outside food and beverages"
+          "Cameras and recording equipment",
+          "Marked cards or dice",
+          "Illegal substances"
     ],
     prohibitedActions: [
           "Disruptive behavior",
-          "Sharing player accounts",
-          "Marking cards or dice",
-          "Past posting bets",
           "Card counting techniques",
-          "Photography without permission",
-          "Collusion between players"
+          "Intoxicated gambling",
+          "Past posting bets",
+          "Sharing player accounts",
+          "Underage gambling"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 194,
-          "maximumWageringAmount": 15907,
+          "minimumWageringAmount": 187,
+          "maximumWageringAmount": 16948,
           "wageringMethods": [
-                "Player's Card",
-                "Cashless Gaming Card",
                 "Cash",
-                "Digital Wallet"
+                "Credit Card",
+                "Cruise Card",
+                "Digital Wallet",
+                "Player's Card",
+                "Debit Card"
           ],
           "redemptionMethods": [
-                "Merchandise Credits",
                 "Gift Cards",
-                "Cash Payout",
-                "Digital Payment",
-                "Cruise Credit"
+                "Cruise Credit",
+                "Check by Mail",
+                "Bank Transfer",
+                "Merchandise Credits"
           ]
     },
     hasHighRollerRoom: false,
-    hasPokerRoom: true,
+    hasPokerRoom: false,
     hasSlotMachines: true,
     hasTableGames: true,
     hasLiveDealerGames: false,
-    hasVIPArea: false,
+    hasVIPArea: true,
     hasEntertainment: false,
-    hasDiningOptions: false,
-    tippingRequired: "No",
-    tippingAmount: 0,
-    hasBar: false,
+    hasDiningOptions: true,
+    tippingRequired: "Yes",
+    tippingAmount: 24,
+    hasBar: true,
     hasSmokingArea: true,
     rewardProgram: {
           "name": "Velari VIP Club",
@@ -1937,6 +4057,228 @@ export const cartagenaCasinos: Casino[] = [
     },
     faqs: [
           {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "12d4b28a-3ec0-4007-81b4-d11cabfdf388",
+    vesselId: "rms-the--mariner",
+    name: "Atlantic Gaming Casino",
+    description: "Atlantic Gaming Casino brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all. Our casino features exclusive high-roller room.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-3.jpg",
+    hours: {
+          "start": "10:00",
+          "end": "03:00",
+          "duration": "17 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(572) 257-6855",
+          "contactEmail": "mail@casino.velarivoyages.com"
+    },
+    games: [
+          "Multi-Line Slots",
+          "3D Slots",
+          "High Limit Slots",
+          "Bonus Round Slots",
+          "Video Slots",
+          "Penny Slots",
+          "Premium Slot Machines",
+          "High Limit Blackjack",
+          "VIP Baccarat",
+          "High Stakes Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Counting devices",
+          "Outside food and beverages",
+          "Illegal substances",
+          "Large bags and backpacks",
+          "Communication devices during play"
+    ],
+    prohibitedActions: [
+          "Card counting techniques",
+          "Disruptive behavior",
+          "Collusion between players",
+          "Photography without permission",
+          "Using electronic aids",
+          "Past posting bets"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 187,
+          "maximumWageringAmount": 23824,
+          "wageringMethods": [
+                "Digital Wallet",
+                "Cruise Card",
+                "Cashless Gaming Card",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Gift Cards",
+                "Check by Mail",
+                "Casino Chips"
+          ]
+    },
+    hasHighRollerRoom: true,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
+          },
+          {
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          },
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "6d510af7-8d0d-4187-8281-8e671472c6fb",
+    vesselId: "rms-the--mariner",
+    name: "Grand Casino Club",
+    description: "Grand Casino Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-4.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "02:00",
+          "duration": "14 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(840) 944-2903",
+          "contactEmail": "info@casino.velarivoyages.com"
+    },
+    games: [
+          "High Limit Slots",
+          "Penny Slots",
+          "Progressive Jackpot Slots",
+          "Bonus Round Slots",
+          "Multi-Line Slots",
+          "Ultimate Texas Hold'em",
+          "Mississippi Stud",
+          "Blackjack",
+          "Casino War",
+          "Craps",
+          "Roulette"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: false,
+    prohibitedItems: [
+          "Marked cards or dice",
+          "Outside food and beverages",
+          "Communication devices during play",
+          "Electronic devices at gaming tables",
+          "Illegal substances",
+          "Counting devices",
+          "Weapons of any kind",
+          "Professional photography equipment"
+    ],
+    prohibitedActions: [
+          "Underage gambling",
+          "Card counting techniques",
+          "Collusion between players",
+          "Photography without permission",
+          "Past posting bets",
+          "Marking cards or dice"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 183,
+          "maximumWageringAmount": 21962,
+          "wageringMethods": [
+                "Cash",
+                "Credit Card",
+                "Digital Wallet",
+                "Cruise Card"
+          ],
+          "redemptionMethods": [
+                "Cash Payout",
+                "Gift Cards",
+                "Bank Transfer"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: true,
+    hasTableGames: true,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: true,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Captain's Circle",
+          "benefits": [
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
+          ],
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
+    },
+    faqs: [
+          {
                 "question": "What is the minimum age to enter the casino?",
                 "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
           },
@@ -1945,89 +4287,80 @@ export const cartagenaCasinos: Casino[] = [
                 "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
           },
           {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
-          },
-          {
-                "question": "Do you offer gaming lessons?",
-                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
           }
     ],
     isPopular: false
   },
   {
-    id: "4a3efb61-8dfc-455f-9565-ddecc9bc3912",
-    vesselId: "ps--gale",
-    name: "The Future Fortune",
-    description: "Welcome to The Future Fortune, the premier gaming destination aboard the PS  Gale. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live dealer games, VIP gaming area, live entertainment.",
-    imageUrl: "/images/casinos/eco-friendly-hybrid-ship-casino-2.jpg",
+    id: "cb7e0187-21ac-45f6-b57c-44b10c73401d",
+    vesselId: "rms-the--mariner",
+    name: "Platinum Elite Casino",
+    description: "Welcome to Platinum Elite Casino, the premier gaming destination aboard the RMS The  Mariner. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features live dealer games.",
+    imageUrl: "/images/casinos/ice-class-ship-casino-5.jpg",
     hours: {
-          "start": "12:00",
-          "end": "02:00",
-          "duration": "14 hours",
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-921-632-1422",
-          "contactEmail": "help@casino.velarivoyages.com"
+          "contactNumber": "(558) 365-9971",
+          "contactEmail": "communications@casino.velarivoyages.com"
     },
     games: [
-          "Video Slots",
-          "3D Slots",
-          "Classic Slots",
-          "Progressive Jackpot Slots",
           "Theme Slots",
           "Bonus Round Slots",
-          "Spanish 21",
-          "Ultimate Texas Hold'em",
-          "Roulette",
-          "Casino War",
-          "Pai Gow Poker",
-          "Mississippi Stud",
-          "Baccarat",
-          "Blackjack",
-          "Craps",
+          "3D Slots",
+          "Multi-Line Slots",
+          "Video Poker Machines",
+          "Progressive Jackpot Slots",
+          "Video Slots",
+          "Classic Slots",
           "Three Card Poker",
+          "Mississippi Stud",
+          "Craps",
+          "Pai Gow Poker",
+          "Caribbean Stud Poker",
+          "Casino War",
           "Live Baccarat",
-          "Live Roulette",
-          "Live Dream Catcher",
-          "Live Caribbean Stud"
+          "Live Lightning Roulette",
+          "Live Roulette"
     ],
     minimumAge: 21,
-    dressCode: "Resort casual attire",
-    freeDrinks: false,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: true,
     prohibitedItems: [
-          "Cameras and recording equipment",
-          "Electronic devices at gaming tables",
+          "Professional photography equipment",
           "Weapons of any kind",
-          "Large bags and backpacks",
+          "Counting devices",
           "Outside food and beverages",
-          "Professional photography equipment"
+          "Marked cards or dice"
     ],
     prohibitedActions: [
-          "Intoxicated gambling",
           "Disruptive behavior",
-          "Past posting bets",
-          "Sharing player accounts",
-          "Collusion between players",
+          "Marking cards or dice",
           "Using electronic aids",
-          "Card counting techniques"
+          "Card counting techniques",
+          "Collusion between players",
+          "Intoxicated gambling",
+          "Past posting bets"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 82,
-          "maximumWageringAmount": 19924,
+          "minimumWageringAmount": 91,
+          "maximumWageringAmount": 12971,
           "wageringMethods": [
+                "Digital Wallet",
+                "Debit Card",
                 "Cash",
-                "Cashless Gaming Card",
-                "Casino Chips",
                 "Credit Card",
-                "Debit Card"
+                "Casino Chips"
           ],
           "redemptionMethods": [
-                "Merchandise Credits",
-                "Cash Payout",
-                "Cruise Credit",
-                "Check by Mail"
+                "Casino Chips",
+                "Digital Payment",
+                "Bank Transfer"
           ]
     },
     hasHighRollerRoom: false,
@@ -2035,127 +4368,9 @@ export const cartagenaCasinos: Casino[] = [
     hasSlotMachines: true,
     hasTableGames: true,
     hasLiveDealerGames: true,
-    hasVIPArea: true,
-    hasEntertainment: true,
-    hasDiningOptions: true,
-    tippingRequired: "Yes",
-    tippingAmount: 21,
-    hasBar: false,
-    hasSmokingArea: false,
-    rewardProgram: {
-          "name": "Fortune Rewards",
-          "benefits": [
-                "Free slot play credits",
-                "Discounted dining at specialty restaurants",
-                "Complimentary valet parking",
-                "Birthday bonus rewards",
-                "Express check-in privileges",
-                "Exclusive gaming promotions",
-                "Cashback on losses",
-                "VIP lounge access"
-          ],
-          "pointsSystem": "Earn 2 points per $1 wagered, bonus multipliers on weekends"
-    },
-    faqs: [
-          {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
-          },
-          {
-                "question": "Are there smoking areas in the casino?",
-                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
-          },
-          {
-                "question": "Is there a dress code for the casino?",
-                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
-          }
-    ],
-    isPopular: false
-  },
-  {
-    id: "ad512bab-cead-442a-91c9-0dc68c6a0c8a",
-    vesselId: "ps--gale",
-    name: "Digital Dreams Casino",
-    description: "Discover the excitement at Digital Dreams Casino, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room.",
-    imageUrl: "/images/casinos/eco-friendly-hybrid-ship-casino-3.jpg",
-    hours: {
-          "start": "12:00",
-          "end": "03:00",
-          "duration": "15 hours",
-          "description": "Casino hours may vary based on itinerary and port regulations"
-    },
-    contact: {
-          "contactNumber": "+1-487-116-3093",
-          "contactEmail": "admin@casino.velarivoyages.com"
-    },
-    games: [
-          "Classic Slots",
-          "Video Slots",
-          "High Limit Slots",
-          "Progressive Jackpot Slots",
-          "Multi-Line Slots",
-          "Penny Slots",
-          "3D Slots",
-          "Theme Slots",
-          "Spanish 21",
-          "Blackjack",
-          "Roulette",
-          "Let It Ride",
-          "Casino War",
-          "Mississippi Stud",
-          "Caribbean Stud Poker",
-          "Pai Gow Poker",
-          "Baccarat",
-          "Ultimate Texas Hold'em",
-          "Omaha",
-          "Sit & Go Tournaments",
-          "Seven Card Stud",
-          "H.O.R.S.E",
-          "Daily Tournaments"
-    ],
-    minimumAge: 21,
-    dressCode: "Smart casual required",
-    freeDrinks: false,
-    prohibitedItems: [
-          "Outside food and beverages",
-          "Communication devices during play",
-          "Weapons of any kind",
-          "Electronic devices at gaming tables",
-          "Professional photography equipment",
-          "Counting devices"
-    ],
-    prohibitedActions: [
-          "Marking cards or dice",
-          "Underage gambling",
-          "Past posting bets",
-          "Photography without permission",
-          "Disruptive behavior"
-    ],
-    winningRedepmtion: {
-          "minimumWageringAmount": 95,
-          "maximumWageringAmount": 20501,
-          "wageringMethods": [
-                "Cruise Card",
-                "Cash",
-                "Casino Chips",
-                "Credit Card"
-          ],
-          "redemptionMethods": [
-                "Gift Cards",
-                "Cash Payout",
-                "Cruise Credit",
-                "Casino Chips",
-                "Check by Mail"
-          ]
-    },
-    hasHighRollerRoom: false,
-    hasPokerRoom: true,
-    hasSlotMachines: true,
-    hasTableGames: true,
-    hasLiveDealerGames: false,
     hasVIPArea: false,
     hasEntertainment: false,
-    hasDiningOptions: false,
+    hasDiningOptions: true,
     tippingRequired: "No",
     tippingAmount: 0,
     hasBar: true,
@@ -2176,92 +4391,109 @@ export const cartagenaCasinos: Casino[] = [
     },
     faqs: [
           {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
           },
           {
-                "question": "What forms of payment are accepted?",
-                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
           },
           {
-                "question": "Can I use my players club card from land-based casinos?",
-                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
           },
           {
                 "question": "Are drinks complimentary while gaming?",
                 "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
           }
     ],
-    isPopular: false
+    isPopular: true
   },
   {
-    id: "60ada310-3f78-4f78-8e6d-9a27eb304ba3",
-    vesselId: "ps--gale",
-    name: "Royal Fortune Club",
-    description: "Royal Fortune Club brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
-    imageUrl: "/images/casinos/eco-friendly-hybrid-ship-casino-4.jpg",
+    id: "69ade661-4ca1-415c-857a-30db04491735",
+    vesselId: "fv--gale",
+    name: "FV  Gale Cyber Casino",
+    description: "Step into FV  Gale Cyber Casino for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features exclusive high-roller room.",
+    imageUrl: "/images/casinos/river-cruise-ship-casino-1.jpg",
     hours: {
           "start": "11:00",
-          "end": "01:00",
-          "duration": "14 hours",
+          "end": "03:00",
+          "duration": "16 hours",
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-731-874-4308",
-          "contactEmail": "office@casino.velarivoyages.com"
+          "contactNumber": "(874) 624-8272",
+          "contactEmail": "info@casino.velarivoyages.com"
     },
     games: [
-          "3D Slots",
+          "High Limit Slots",
           "Classic Slots",
-          "Video Poker Machines",
           "Video Slots",
-          "Penny Slots"
+          "Theme Slots",
+          "3D Slots",
+          "Video Poker Machines",
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
+          "Blackjack",
+          "Roulette",
+          "Spanish 21",
+          "Ultimate Texas Hold'em",
+          "Let It Ride",
+          "Mississippi Stud",
+          "Baccarat",
+          "Pai Gow Poker",
+          "VIP Baccarat",
+          "High Stakes Roulette",
+          "Exclusive Poker Tables",
+          "Premium Slot Machines",
+          "High Limit Blackjack",
+          "Private Dice Games"
     ],
     minimumAge: 21,
     dressCode: "Business casual preferred",
     freeDrinks: true,
     prohibitedItems: [
-          "Counting devices",
-          "Weapons of any kind",
           "Marked cards or dice",
           "Communication devices during play",
-          "Outside food and beverages",
-          "Large bags and backpacks",
           "Electronic devices at gaming tables",
-          "Illegal substances"
+          "Illegal substances",
+          "Large bags and backpacks",
+          "Outside food and beverages"
     ],
     prohibitedActions: [
-          "Underage gambling",
-          "Marking cards or dice",
-          "Intoxicated gambling",
-          "Photography without permission",
+          "Card counting techniques",
           "Past posting bets",
+          "Using electronic aids",
+          "Intoxicated gambling",
           "Disruptive behavior",
-          "Sharing player accounts"
+          "Collusion between players",
+          "Underage gambling"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 161,
-          "maximumWageringAmount": 13991,
+          "minimumWageringAmount": 107,
+          "maximumWageringAmount": 22840,
           "wageringMethods": [
+                "Cashless Gaming Card",
                 "Digital Wallet",
-                "Casino Chips",
-                "Cash",
-                "Player's Card",
                 "Cruise Card",
-                "Cashless Gaming Card"
+                "Player's Card",
+                "Casino Chips",
+                "Debit Card"
           ],
           "redemptionMethods": [
-                "Casino Chips",
+                "Bank Transfer",
                 "Merchandise Credits",
-                "Check by Mail",
-                "Cruise Credit",
-                "Cash Payout"
+                "Check by Mail"
           ]
     },
-    hasHighRollerRoom: false,
+    hasHighRollerRoom: true,
     hasPokerRoom: false,
     hasSlotMachines: true,
-    hasTableGames: false,
+    hasTableGames: true,
     hasLiveDealerGames: false,
     hasVIPArea: false,
     hasEntertainment: false,
@@ -2286,116 +4518,225 @@ export const cartagenaCasinos: Casino[] = [
     },
     faqs: [
           {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+                "question": "Can I use my players club card from land-based casinos?",
+                "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
           },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+          }
+    ],
+    isPopular: false
+  },
+  {
+    id: "1323cae2-d9b7-4f25-872a-631253c0e52b",
+    vesselId: "fv--gale",
+    name: "Vegas Nights Gaming",
+    description: "Welcome to Vegas Nights Gaming, the premier gaming destination aboard the FV  Gale. Experience the thrill of casino gaming while cruising the waters near Cartagena. Our casino features dedicated poker room.",
+    imageUrl: "/images/casinos/river-cruise-ship-casino-2.jpg",
+    hours: {
+          "start": "11:00",
+          "end": "03:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(124) 567-2875",
+          "contactEmail": "reachus@casino.velarivoyages.com"
+    },
+    games: [
+          "High Limit Slots",
+          "Penny Slots",
+          "Theme Slots",
+          "Classic Slots",
+          "Video Slots",
+          "3D Slots",
+          "Progressive Jackpot Slots",
+          "Multi-Line Slots",
+          "H.O.R.S.E",
+          "Texas Hold'em",
+          "Five Card Draw",
+          "Daily Tournaments"
+    ],
+    minimumAge: 21,
+    dressCode: "Elegant casual dress code",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Marked cards or dice",
+          "Large bags and backpacks",
+          "Counting devices",
+          "Illegal substances",
+          "Outside food and beverages",
+          "Electronic devices at gaming tables"
+    ],
+    prohibitedActions: [
+          "Collusion between players",
+          "Sharing player accounts",
+          "Card counting techniques",
+          "Using electronic aids",
+          "Photography without permission",
+          "Intoxicated gambling",
+          "Past posting bets",
+          "Marking cards or dice"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 198,
+          "maximumWageringAmount": 10643,
+          "wageringMethods": [
+                "Player's Card",
+                "Credit Card",
+                "Casino Chips",
+                "Cash"
+          ],
+          "redemptionMethods": [
+                "Cruise Credit",
+                "Merchandise Credits",
+                "Check by Mail"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: true,
+    hasSlotMachines: true,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: false,
+    hasEntertainment: false,
+    hasDiningOptions: true,
+    tippingRequired: "Yes",
+    tippingAmount: 15,
+    hasBar: true,
+    hasSmokingArea: true,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
           {
                 "question": "Can I use my players club card from land-based casinos?",
                 "answer": "We have our own rewards program. Sign up at the casino host desk to start earning points."
           },
           {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+                "question": "Are drinks complimentary while gaming?",
+                "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
           },
           {
                 "question": "Are there smoking areas in the casino?",
                 "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
           }
     ],
-    isPopular: false
+    isPopular: true
   },
   {
-    id: "35b773a9-b794-4c8b-bcbc-28206afe6d73",
-    vesselId: "ps--gale",
-    name: "Pirates' Den Gaming",
-    description: "Pirates' Den Gaming brings the excitement of world-class gaming to the high seas. Whether you're a seasoned player or trying your luck for the first time, our casino provides entertainment for all.",
-    imageUrl: "/images/casinos/eco-friendly-hybrid-ship-casino-5.jpg",
+    id: "5840bffe-5bfa-4610-8fb2-1d1434338568",
+    vesselId: "fv--gale",
+    name: "FV  Gale Sea Adventure",
+    description: "Discover the excitement at FV  Gale Sea Adventure, where fortune meets the sea. Our professional dealers and modern gaming equipment ensure an exceptional casino experience. Our casino features dedicated poker room, live dealer games, live entertainment.",
+    imageUrl: "/images/casinos/river-cruise-ship-casino-3.jpg",
     hours: {
-          "start": "12:00",
-          "end": "01:00",
-          "duration": "13 hours",
+          "start": "11:00",
+          "end": "04:00",
+          "duration": "17 hours",
           "description": "Casino hours may vary based on itinerary and port regulations"
     },
     contact: {
-          "contactNumber": "+1-237-924-7835",
-          "contactEmail": "hello@casino.velarivoyages.com"
+          "contactNumber": "(339) 849-5931",
+          "contactEmail": "hi@casino.velarivoyages.com"
     },
     games: [
-          "Multi-Line Slots",
-          "Video Poker Machines",
-          "3D Slots",
-          "Bonus Round Slots",
-          "Progressive Jackpot Slots",
-          "Video Slots",
+          "Three Card Poker",
           "Let It Ride",
-          "Pai Gow Poker",
-          "Baccarat",
-          "Roulette",
-          "Casino War",
-          "Mississippi Stud",
-          "Craps",
           "Caribbean Stud Poker",
-          "Spanish 21",
-          "Blackjack"
+          "Pai Gow Poker",
+          "Blackjack",
+          "Roulette",
+          "Craps",
+          "Sit & Go Tournaments",
+          "Daily Tournaments",
+          "H.O.R.S.E",
+          "Razz",
+          "Five Card Draw",
+          "Live Blackjack",
+          "Live Roulette",
+          "Live Baccarat",
+          "Live Dream Catcher",
+          "Live Immersive Roulette",
+          "Live Caribbean Stud"
     ],
     minimumAge: 21,
     dressCode: "Resort casual attire",
-    freeDrinks: true,
+    freeDrinks: false,
     prohibitedItems: [
-          "Weapons of any kind",
-          "Marked cards or dice",
+          "Cameras and recording equipment",
+          "Electronic devices at gaming tables",
+          "Illegal substances",
+          "Communication devices during play",
           "Counting devices",
-          "Large bags and backpacks",
-          "Illegal substances"
+          "Large bags and backpacks"
     ],
     prohibitedActions: [
+          "Card counting techniques",
+          "Collusion between players",
           "Marking cards or dice",
-          "Disruptive behavior",
           "Intoxicated gambling",
-          "Sharing player accounts",
-          "Underage gambling"
+          "Past posting bets",
+          "Sharing player accounts"
     ],
     winningRedepmtion: {
-          "minimumWageringAmount": 119,
-          "maximumWageringAmount": 11607,
+          "minimumWageringAmount": 89,
+          "maximumWageringAmount": 17728,
           "wageringMethods": [
                 "Cash",
+                "Cruise Card",
+                "Digital Wallet",
                 "Credit Card",
                 "Cashless Gaming Card",
-                "Debit Card",
-                "Cruise Card"
+                "Debit Card"
           ],
           "redemptionMethods": [
-                "Bank Transfer",
-                "Merchandise Credits",
-                "Cash Payout"
+                "Cash Payout",
+                "Cruise Credit",
+                "Bank Transfer"
           ]
     },
     hasHighRollerRoom: false,
-    hasPokerRoom: false,
-    hasSlotMachines: true,
+    hasPokerRoom: true,
+    hasSlotMachines: false,
     hasTableGames: true,
-    hasLiveDealerGames: false,
+    hasLiveDealerGames: true,
     hasVIPArea: false,
-    hasEntertainment: false,
-    hasDiningOptions: true,
+    hasEntertainment: true,
+    hasDiningOptions: false,
     tippingRequired: "No",
     tippingAmount: 0,
     hasBar: true,
-    hasSmokingArea: true,
+    hasSmokingArea: false,
     rewardProgram: {
-          "name": "High Seas Rewards",
+          "name": "Captain's Circle",
           "benefits": [
-                "Free internet packages",
-                "Beverage package discounts",
-                "Photo package credits",
-                "Spa treatment discounts",
-                "Shopping credit",
-                "Casino tournament entries",
-                "Meet and greet with officers",
-                "Behind-the-scenes tours"
+                "Free cruise credit",
+                "Complimentary shore excursion",
+                "Specialty dining packages",
+                "Onboard credit bonuses",
+                "Priority tender service",
+                "Exclusive deck parties",
+                "Personal concierge service",
+                "Late checkout privileges"
           ],
-          "pointsSystem": "Points never expire, redeem for cash or cruise credits"
+          "pointsSystem": "Tier-based system with point multipliers based on membership level"
     },
     faqs: [
           {
@@ -2403,18 +4744,121 @@ export const cartagenaCasinos: Casino[] = [
                 "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
           },
           {
-                "question": "What are the casino operating hours?",
-                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
           },
           {
-                "question": "What is the minimum age to enter the casino?",
-                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+                "question": "Is there a dress code for the casino?",
+                "answer": "Smart casual attire is required. No swimwear, tank tops, or flip-flops are permitted."
+          },
+          {
+                "question": "What are the casino operating hours?",
+                "answer": "Casino hours vary by itinerary. We're typically open when the ship is at sea and closed in port."
           },
           {
                 "question": "Are drinks complimentary while gaming?",
                 "answer": "Complimentary beverages are offered to active players at gaming tables and slot machines."
           }
     ],
-    isPopular: true
+    isPopular: false
+  },
+  {
+    id: "168978f5-6aa3-4d74-95f0-cb494fff4653",
+    vesselId: "fv--gale",
+    name: "Atlantic Gaming Club",
+    description: "Step into Atlantic Gaming Club for an unforgettable gaming experience. Our state-of-the-art casino offers exciting games and professional service in an elegant atmosphere. Our casino features VIP gaming area.",
+    imageUrl: "/images/casinos/river-cruise-ship-casino-4.jpg",
+    hours: {
+          "start": "12:00",
+          "end": "04:00",
+          "duration": "16 hours",
+          "description": "Casino hours may vary based on itinerary and port regulations"
+    },
+    contact: {
+          "contactNumber": "(849) 846-5268",
+          "contactEmail": "inquiries@casino.velarivoyages.com"
+    },
+    games: [],
+    minimumAge: 21,
+    dressCode: "Resort casual attire",
+    freeDrinks: true,
+    prohibitedItems: [
+          "Communication devices during play",
+          "Cameras and recording equipment",
+          "Weapons of any kind",
+          "Illegal substances",
+          "Counting devices",
+          "Electronic devices at gaming tables"
+    ],
+    prohibitedActions: [
+          "Marking cards or dice",
+          "Photography without permission",
+          "Card counting techniques",
+          "Underage gambling",
+          "Collusion between players",
+          "Intoxicated gambling",
+          "Disruptive behavior",
+          "Using electronic aids"
+    ],
+    winningRedepmtion: {
+          "minimumWageringAmount": 144,
+          "maximumWageringAmount": 24294,
+          "wageringMethods": [
+                "Cash",
+                "Digital Wallet",
+                "Cashless Gaming Card",
+                "Credit Card"
+          ],
+          "redemptionMethods": [
+                "Bank Transfer",
+                "Merchandise Credits",
+                "Check by Mail"
+          ]
+    },
+    hasHighRollerRoom: false,
+    hasPokerRoom: false,
+    hasSlotMachines: false,
+    hasTableGames: false,
+    hasLiveDealerGames: false,
+    hasVIPArea: true,
+    hasEntertainment: false,
+    hasDiningOptions: false,
+    tippingRequired: "No",
+    tippingAmount: 0,
+    hasBar: false,
+    hasSmokingArea: false,
+    rewardProgram: {
+          "name": "Velari VIP Club",
+          "benefits": [
+                "Complimentary drinks while gaming",
+                "Priority seating at all gaming tables",
+                "Exclusive tournament invitations",
+                "Personalized casino host service",
+                "Room upgrade certificates",
+                "Spa credit rewards",
+                "Dining vouchers",
+                "Priority reservations"
+          ],
+          "pointsSystem": "Earn 1 point per $1 wagered on slots, 1 point per $5 on table games"
+    },
+    faqs: [
+          {
+                "question": "What forms of payment are accepted?",
+                "answer": "We accept cash, major credit cards, and your cruise card for gaming. ATM services are also available."
+          },
+          {
+                "question": "Are there smoking areas in the casino?",
+                "answer": "Designated smoking areas are available. Please ask casino staff for specific locations."
+          },
+          {
+                "question": "What is the minimum age to enter the casino?",
+                "answer": "The minimum age to enter and gamble in our casino is 21 years old. Valid photo identification is required."
+          },
+          {
+                "question": "Do you offer gaming lessons?",
+                "answer": "Yes, we offer complimentary gaming lessons for popular table games during designated times."
+          }
+    ],
+    isPopular: false
   }
 ];
