@@ -1,1384 +1,1897 @@
-import { Cruise } from "@/lib/interfaces/services/cruises";
+// This file is auto-generated
+    // Do not edit manually.
+    // City: Vancouver
+    // Generated on: 2025-06-10T03:09:08.459Z
+  import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const vancouverCruises: Cruise[] = [
-  {
-    basePrice: 1267,
+{
+    id: "d6a1db36-f833-4f11-8e47-515f0ef8dbd0",
+    basePrice: 3400,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Ketchikan",
-      country: "United States",
-      coordinates: {
-        latitude: 55.3422,
-        longitude: -131.6476,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-      ],
-      description:
-        "Depart from Vancouver on this thoughtfully designed mystique across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Glacier Bay, Ketchikan.",
-      distance: "1264 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Glacier Bay",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Sailing from Glacier Bay to Ketchikan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Ketchikan",
-        },
-      ],
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Ella Graham",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-        contact: {
-          contactEmail: "forbidden.drift.of.t@velarivoyages.com",
-          contactNumber: "+1-292-208-6454",
-        },
-      },
-    ],
-    title: "Forbidden Drift of the Glacial Kingdom",
-    description:
-      "Depart from Vancouver on this thoughtfully designed mystique across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at Glacier Bay, Ketchikan.",
-    rating: 4.7,
-    tags: ["tropical", "cruise-excursion", "cruise-holiday"],
-  },
-  {
-    basePrice: 3594,
-    departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    arrivalLocation: {
-      city: "Glacier Bay",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "holiday-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Experience coastal elegance on this panorama from Vancouver, where the journey through Alaska includes stops in Ketchikan, Glacier Bay, each more enchanting than the last.",
-      distance: "578 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Ketchikan",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Ketchikan to Glacier Bay",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Glacier Bay",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Chloe Maxwell",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-        contact: {
-          contactEmail: "luxurious.reverie.of@velarivoyages.com",
-          contactNumber: "+1-786-719-1006",
-        },
-      },
-    ],
-    title: "Luxurious Reverie of the Mountain-Edge Metropolis",
-    description:
-      "Experience coastal elegance on this panorama from Vancouver, where the journey through Alaska includes stops in Ketchikan, Glacier Bay, each more enchanting than the last.",
-    rating: 4.4,
-    tags: ["culinary"],
-  },
-  {
-    basePrice: 8193,
-    departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "An unforgettable odyssey awaits as you cruise from Vancouver across Alaska. Dive into history, flavor, and culture with stops including Sitka, Skagway.",
-      distance: "1476 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Sitka",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Sitka to Skagway",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Skagway to Vancouver",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Cynthia Russell",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-        contact: {
-          contactEmail: "pristine.pulse.of.th@velarivoyages.com",
-          contactNumber: "+1-869-824-6463",
-        },
-      },
-    ],
-    title: "Pristine Pulse of the Misty Fjords",
-    description:
-      "An unforgettable odyssey awaits as you cruise from Vancouver across Alaska. Dive into history, flavor, and culture with stops including Sitka, Skagway.",
-    rating: 4.2,
-    tags: ["cruise-adventure", "family-friendly", "wellness"],
-  },
-  {
-    basePrice: 7353,
-    departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "Depart Vancouver on a relaxing journey through the Alaska region. Highlights include the stunning coastlines of Juneau, Ketchikan, all while enjoying first-class amenities on board.",
-      distance: "860 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Juneau",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Juneau to Ketchikan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Ketchikan to Vancouver",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-      ],
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        name: "Olivia Campbell",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-        contact: {
-          contactEmail: "starlit.panorama.of.@velarivoyages.com",
-          contactNumber: "+1-358-846-2900",
-        },
-      },
-    ],
-    title: "Starlit Panorama of the Sea-Bound Solace",
-    description:
-      "Depart Vancouver on a relaxing journey through the Alaska region. Highlights include the stunning coastlines of Juneau, Ketchikan, all while enjoying first-class amenities on board.",
-    rating: 4.5,
-    tags: ["wellness", "family-friendly", "themed-cruise"],
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
   },
   {
-    basePrice: 1060,
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this riveting expedition departing Vancouver. Savor local cuisine and uncover regional beauty from victoria to undefined.",
+      distance: "773 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "d610db41-7fdd-4b77-a0bf-6cb1ebbaa7e5",
+        name: "Emily Maxwell",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/98.jpg",
+        contact: {
+          contactEmail: "starlit.quest.of.the@velarivoyages.com",
+          contactNumber: "+1-599-628-7561"
+        }
+      }
+    ],
+    title: "Starlit Quest of the Indigenous Culture & Rainforests",
+    description: "Cruise into cultural richness aboard this riveting expedition departing Vancouver. Savor local cuisine and uncover regional beauty from victoria to undefined.",
+    rating: 4.4,
+    tags: ["cruise-experience","cruise-line"]
+  },
+  {
+    id: "4a863935-07dc-4b9b-879e-abce56c4c969",
+    basePrice: 3234,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "fall-foliage-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "Set sail from Vancouver on this luminous sanctum through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Seattle and Glacier Bay and Victoria and Juneau, with personalized service and unforgettable experiences awaiting at every port.",
-      distance: "679 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Seattle",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Seattle to Glacier Bay",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Glacier Bay to Victoria",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Victoria to Juneau",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Sailing from Juneau to Vancouver",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Olivia Dunn",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-        contact: {
-          contactEmail: "golden.currents.of.t@velarivoyages.com",
-          contactNumber: "+1-975-821-3696",
-        },
-      },
-    ],
-    title: "Golden Currents of the Mountain-Edge Metropolis",
-    description:
-      "Set sail from Vancouver on this luminous sanctum through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore Seattle and Glacier Bay and Victoria and Juneau, with personalized service and unforgettable experiences awaiting at every port.",
-    rating: 4.4,
-    tags: ["anniversary-cruise"],
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
   },
   {
-    basePrice: 1377,
-    departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "Begin your journey in Vancouver, where tradition meets travel. This immersive arcadia reveals the finest of Alaska, from the beaches of Ketchikan to the streets of Skagway.",
-      distance: "1433 nautical miles",
-      totalDuration: "20 days",
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Join us for a island-hopping sanctuary from Vancouver, where the journey through British Columbia is as enriching as the destinations themselves. Visit victoria and create memories that will last a lifetime.",
+      distance: "586 nautical miles",
+      totalDuration: "10 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Ketchikan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Ketchikan to Skagway",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Skagway to Seattle",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from Seattle to Glacier Bay",
-        },
-        {
-          start: "Day 18",
-          end: "Day 18",
-          duration: "1 days",
-          description: "Sailing from Glacier Bay to Vancouver",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 19",
-          end: "Day 20",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  }
+]
     },
     tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        name: "Angela Reed",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
+        id: "5cd7d804-4559-48d1-be77-1382c7975e57",
+        name: "Hannah Curtis",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
         contact: {
-          contactEmail: "spectacular.drift.of@velarivoyages.com",
-          contactNumber: "+1-875-724-8469",
-        },
-      },
+          contactEmail: "harborgliding.passag@velarivoyages.com",
+          contactNumber: "+1-215-207-4886"
+        }
+      }
     ],
-    title: "Spectacular Drift of the Echoes of Ice",
-    description:
-      "Begin your journey in Vancouver, where tradition meets travel. This immersive arcadia reveals the finest of Alaska, from the beaches of Ketchikan to the streets of Skagway.",
-    rating: 4.0,
-    tags: ["themed-cruise"],
+    title: "Harbor-Gliding Passage of the Rocky Mountains & Pacific Coast",
+    description: "Join us for a island-hopping sanctuary from Vancouver, where the journey through British Columbia is as enriching as the destinations themselves. Visit victoria and create memories that will last a lifetime.",
+    rating: 4.8,
+    tags: ["luxury"]
   },
   {
-    basePrice: 2742,
+    id: "113ee312-1b5b-442b-bd01-b18a077e0c16",
+    basePrice: 5425,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "weekend-cruise",
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "This zenith takes you beyond the ordinary, starting in Vancouver. With breathtaking stops in Skagway, Ketchikan, Victoria, Sitka, your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "881 nautical miles",
-      totalDuration: "15 days",
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Set sail from Vancouver on this secret oasis through the heart of British Columbia. Experience the perfect blend of relaxation and adventure as you explore victoria, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1345 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Skagway",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Skagway to Ketchikan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Ketchikan to Victoria",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Victoria to Sitka",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Sitka to Vancouver",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Alexa Carpenter",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
+        id: "498b0b00-231e-4ef6-bf0d-772bbd484839",
+        name: "Valentina Wallace",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
         contact: {
-          contactEmail: "captivating.arcadia.@velarivoyages.com",
-          contactNumber: "+1-249-493-1413",
-        },
-      },
+          contactEmail: "islandhopping.odysse@velarivoyages.com",
+          contactNumber: "+1-478-448-5753"
+        }
+      }
     ],
-    title: "Captivating Arcadia of the Glass and Fir",
-    description:
-      "This zenith takes you beyond the ordinary, starting in Vancouver. With breathtaking stops in Skagway, Ketchikan, Victoria, Sitka, your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.8,
-    tags: ["holiday-cruise", "tropical"],
+    title: "Island-Hopping Odyssey of the Sea-Bound Solace",
+    description: "Set sail from Vancouver on this secret oasis through the heart of British Columbia. Experience the perfect blend of relaxation and adventure as you explore victoria, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.7,
+    tags: ["relaxation","repositioning","weekend-cruise"]
   },
   {
-    basePrice: 8201,
+    id: "dc1b51e9-b885-4ba1-87fe-303a3f11025c",
+    basePrice: 3525,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Skagway",
-      country: "United States",
-      coordinates: {
-        latitude: 59.4569,
-        longitude: -135.3123,
-      },
-    },
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition-cruise",
+    hasPopularDestination: true,
+    category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-      ],
-      description:
-        "This hand-selected opulent cruise offers a true taste of Alaska. Depart from Vancouver and explore ports like Victoria, Ketchikan, Skagway, each telling a story through food, music, and tradition.",
-      distance: "1442 nautical miles",
-      totalDuration: "11 days",
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Savor each moment of this tranquil escape through British Columbia, starting in Vancouver. Visit renowned locations like victoria, where adventure and relaxation intertwine.",
+      distance: "1443 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Victoria",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Victoria to Ketchikan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Ketchikan to Skagway",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Skagway",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "38d831cd-17f5-4887-aa01-e20b415d6358",
+        name: "Scarlett Sutton",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
+        contact: {
+          contactEmail: "serene.frontier.of.t@velarivoyages.com",
+          contactNumber: "+1-780-328-1383"
+        }
+      }
+    ],
+    title: "Serene Frontier of the Harbor of Mist",
+    description: "Savor each moment of this tranquil escape through British Columbia, starting in Vancouver. Visit renowned locations like victoria, where adventure and relaxation intertwine.",
+    rating: 5.0,
+    tags: ["exclusive"]
+  },
+  {
+    id: "ba5d468f-24ca-47fb-a697-d073e0b8532f",
+    basePrice: 9450,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Embark on a epic reverie from Vancouver, where the wonders of British Columbia await. With stops at victoria, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+      distance: "1475 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "2bff7a1f-5b00-44f5-a3d3-a31be827bbf0",
+        name: "Lerato Graham",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        contact: {
+          contactEmail: "moonlit.symphony.of.@velarivoyages.com",
+          contactNumber: "+1-621-547-2082"
+        }
+      }
+    ],
+    title: "Moonlit Symphony of the Indigenous Culture & Rainforests",
+    description: "Embark on a epic reverie from Vancouver, where the wonders of British Columbia await. With stops at victoria, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+    rating: 4.8,
+    tags: ["romantic","cultural"]
+  },
+  {
+    id: "1822a71d-7a8f-45d2-b3bb-6a11cfcf26a9",
+    basePrice: 7139,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "From bustling Vancouver to serene British Columbia shores, this cruise invites you to relax, explore, and indulge. Stops at victoria deliver a balanced blend of culture and comfort.",
+      distance: "1142 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "35307853-30bd-4fbd-a34d-7903ff68e4d1",
+        name: "Catherine Hamilton",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        contact: {
+          contactEmail: "harmonious.enigma.of@velarivoyages.com",
+          contactNumber: "+1-180-669-5919"
+        }
+      }
+    ],
+    title: "Harmonious Enigma of the Glass and Fir",
+    description: "From bustling Vancouver to serene British Columbia shores, this cruise invites you to relax, explore, and indulge. Stops at victoria deliver a balanced blend of culture and comfort.",
+    rating: 4.2,
+    tags: ["cruise-getaway"]
+  },
+  {
+    id: "dc29340f-b095-4469-9fe5-0a6e97b66d02",
+    basePrice: 2853,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Depart from the iconic port of Vancouver and sail through the enchanting British Columbia. Explore vibrant destinations like victoria, each offering its own unique charm and local flair.",
+      distance: "978 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Samantha Palmer",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        id: "570ea765-a05c-4b18-88ae-e321a289c624",
+        name: "Rebecca Keller",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
         contact: {
-          contactEmail: "infinite.eclipse.of.@velarivoyages.com",
-          contactNumber: "+1-118-620-8656",
-        },
-      },
+          contactEmail: "forbidden.journey.of@velarivoyages.com",
+          contactNumber: "+1-130-443-1968"
+        }
+      }
     ],
-    title: "Infinite Eclipse of the Harbor of Mist",
-    description:
-      "This hand-selected opulent cruise offers a true taste of Alaska. Depart from Vancouver and explore ports like Victoria, Ketchikan, Skagway, each telling a story through food, music, and tradition.",
-    rating: 4.3,
-    tags: ["glacier-cruise", "cruise-excursion", "cruise-adventure"],
+    title: "Forbidden Journey of the Glass and Fir",
+    description: "Depart from the iconic port of Vancouver and sail through the enchanting British Columbia. Explore vibrant destinations like victoria, each offering its own unique charm and local flair.",
+    rating: 4.5,
+    tags: ["glacier-cruise","cruise-experience"]
   },
   {
-    basePrice: 6997,
+    id: "c12a319e-9d2b-45a7-913d-7cc5e2904a9f",
+    basePrice: 5542,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Glacier Bay",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fall-foliage-cruise",
+    hasPopularDestination: true,
+    category: "weekend-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Enjoy seamless luxury on this alluring tranquility beginning in Vancouver. Visit breathtaking Alaska locales such as Sitka, Victoria, Skagway, Glacier Bay on this unforgettable itinerary.",
-      distance: "980 nautical miles",
-      totalDuration: "13 days",
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Depart from iconic Vancouver and traverse the British Columbia with visits to victoria. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "1356 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Sitka",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Sitka to Victoria",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Victoria to Skagway",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Skagway to Glacier Bay",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Glacier Bay",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "fc3537d3-a9a2-4823-b70f-94bb1194f251",
+        name: "Nora Charlotte",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "ethereal.voyage.of.t@velarivoyages.com",
+          contactNumber: "+1-639-735-1748"
+        }
+      }
+    ],
+    title: "Ethereal Voyage of the Forest-Kissed Skyline",
+    description: "Depart from iconic Vancouver and traverse the British Columbia with visits to victoria. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.7,
+    tags: ["cruise-vacation"]
+  },
+  {
+    id: "ee9213e3-38c5-48ec-b51f-dd3fe316ee1f",
+    basePrice: 2598,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Begin an epic pulse from Vancouver, where the seas meet culture. Visit the remarkable ports of victoria while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1381 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
     },
     tourCategoryId: "tropical-cruise",
     contactPersonnel: [
       {
-        name: "Sophia Mason",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
+        id: "03a07dfe-0ade-467d-89eb-4c646b49534e",
+        name: "Elena Olivia",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
         contact: {
-          contactEmail: "moonlit.discovery.of@velarivoyages.com",
-          contactNumber: "+1-497-711-4759",
-        },
-      },
+          contactEmail: "pearlescent.panorama@velarivoyages.com",
+          contactNumber: "+1-198-146-9227"
+        }
+      }
     ],
-    title: "Moonlit Discovery of the Wilderness Reaches",
-    description:
-      "Enjoy seamless luxury on this alluring tranquility beginning in Vancouver. Visit breathtaking Alaska locales such as Sitka, Victoria, Skagway, Glacier Bay on this unforgettable itinerary.",
-    rating: 4.9,
-    tags: ["tropical", "cruise-adventure", "cruise-getaway"],
+    title: "Pearlescent Panorama of the Mountain-Edge Metropolis",
+    description: "Begin an epic pulse from Vancouver, where the seas meet culture. Visit the remarkable ports of victoria while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.5,
+    tags: ["relaxation","cruise-getaway"]
   },
   {
-    basePrice: 3997,
+    id: "d069bdbc-5136-433b-9d33-18243df4fc7c",
+    basePrice: 3454,
     departureLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      region: "Alaska",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
     arrivalLocation: {
-      city: "Ketchikan",
-      country: "United States",
-      coordinates: {
-        latitude: 55.3422,
-        longitude: -131.6476,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "fall-foliage-cruise",
+    category: "holiday-cruise",
     itinerary: {
       route: [
-        {
-          city: "Vancouver",
-          country: "Canada",
-          region: "Alaska",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-      ],
-      description:
-        "An escape like no other begins in Vancouver, where your sojourn launches into the heart of Alaska. Discover the magic of Glacier Bay, Ketchikan with style and sophistication.",
-      distance: "787 nautical miles",
-      totalDuration: "8 days",
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Start in the vibrant city of Vancouver and venture into the iconic British Columbia. Discover authentic local cultures, cuisine, and coastal wonders in victoria.",
+      distance: "609 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Glacier Bay",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Glacier Bay to Ketchikan",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Ketchikan",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Aria Marshall",
-        role: "Travel Advisor",
-        languages: ["English", "Russian", "Portuguese", "Arabic", "Spanish"], // Use the properly generated languages list
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
+        id: "f437a40d-fe4f-4d64-be51-33ad806eca69",
+        name: "Maya Spencer",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
         contact: {
-          contactEmail: "riveting.drift.of.th@velarivoyages.com",
-          contactNumber: "+1-465-988-3670",
-        },
-      },
+          contactEmail: "opulent.arcadia.of.t@velarivoyages.com",
+          contactNumber: "+1-939-582-2257"
+        }
+      }
     ],
-    title: "Riveting Drift of the Glass and Fir",
-    description:
-      "An escape like no other begins in Vancouver, where your sojourn launches into the heart of Alaska. Discover the magic of Glacier Bay, Ketchikan with style and sophistication.",
-    rating: 4.3,
-    tags: ["wildlife", "sightseeing", "repositioning"],
+    title: "Opulent Arcadia of the Forest-Kissed Skyline",
+    description: "Start in the vibrant city of Vancouver and venture into the iconic British Columbia. Discover authentic local cultures, cuisine, and coastal wonders in victoria.",
+    rating: 4.8,
+    tags: ["expedition","glacier-cruise"]
   },
+  {
+    id: "dabc8aaa-1472-4669-a6ac-648386f82903",
+    basePrice: 8676,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "This ocean-bound oasis begins in Vancouver and ventures deep into the heart of British Columbia. Wander through colorful markets, historic streets, and serene coastlines at victoria.",
+      distance: "1478 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "5cefd112-d836-4b7b-a1a5-75d732beb320",
+        name: "Russell Maxwell",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "legendary.passage.of@velarivoyages.com",
+          contactNumber: "+1-555-879-4802"
+        }
+      }
+    ],
+    title: "Legendary Passage of the Whistler Ski Resort & Stanley Park",
+    description: "This ocean-bound oasis begins in Vancouver and ventures deep into the heart of British Columbia. Wander through colorful markets, historic streets, and serene coastlines at victoria.",
+    rating: 4.8,
+    tags: ["culinary","glacier-cruise","cruise-ship"]
+  },
+  {
+    id: "633d9e7b-efc5-4984-86e2-7d7cd7ccd33f",
+    basePrice: 2432,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Leave stress behind with this curated resonance from Vancouver. Sail across the best of British Columbia and explore treasures like victoria with comfort and style.",
+      distance: "1261 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "5cc7f540-3b52-486f-a8c7-f945051c85bd",
+        name: "Juan Cooper",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
+        contact: {
+          contactEmail: "ornate.renaissance.o@velarivoyages.com",
+          contactNumber: "+1-952-887-5289"
+        }
+      }
+    ],
+    title: "Ornate Renaissance of the Indigenous Culture & Rainforests",
+    description: "Leave stress behind with this curated resonance from Vancouver. Sail across the best of British Columbia and explore treasures like victoria with comfort and style.",
+    rating: 4.4,
+    tags: ["relaxation"]
+  },
+  {
+    id: "6f51b315-0ddf-47b1-8344-a2d7c84d0b30",
+    basePrice: 8991,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "Set off on a escape from Vancouver that captures the essence of British Columbia. Discover cultural gems and culinary delights across victoria.",
+      distance: "561 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "7ef08cbb-7974-4156-9ff3-8222b16e28ed",
+        name: "Daniel Bennett",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
+        contact: {
+          contactEmail: "breathtaking.current@velarivoyages.com",
+          contactNumber: "+1-177-975-9001"
+        }
+      }
+    ],
+    title: "Breathtaking Currents of the Sea-Bound Solace",
+    description: "Set off on a escape from Vancouver that captures the essence of British Columbia. Discover cultural gems and culinary delights across victoria.",
+    rating: 4.9,
+    tags: ["cruise-excursion"]
+  },
+  {
+    id: "8c01b95c-b7c8-46bc-9c4f-7a15ff2ca48b",
+    basePrice: 1704,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "This inspiring infinite departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+      distance: "865 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "dba5bf7e-ef1c-4f0c-9535-2828f1976403",
+        name: "Philip Dunn",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+        contact: {
+          contactEmail: "seaside.odyssey.of.t@velarivoyages.com",
+          contactNumber: "+1-902-730-1714"
+        }
+      }
+    ],
+    title: "Seaside Odyssey of the Glass and Fir",
+    description: "This inspiring infinite departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+    rating: 4.1,
+    tags: ["family-friendly"]
+  },
+  {
+    id: "a73bff4f-7b3e-4368-b8a4-7155dc3f46b4",
+    basePrice: 3579,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "victoria",
+  "country": "Canada",
+  "coordinates": {
+    "latitude": 48.4284,
+    "longitude": -123.3656
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  }
+],
+      description: "From bustling Vancouver to serene British Columbia shores, this cruise invites you to relax, explore, and indulge. Stops at victoria deliver a balanced blend of culture and comfort.",
+      distance: "990 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "9d896729-7606-45c2-be3e-0de911f4bb86",
+        name: "Lawrence Curtis",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "celestial.oasis.of.t@velarivoyages.com",
+          contactNumber: "+1-471-305-4702"
+        }
+      }
+    ],
+    title: "Celestial Oasis of the Pacific Jewel",
+    description: "From bustling Vancouver to serene British Columbia shores, this cruise invites you to relax, explore, and indulge. Stops at victoria deliver a balanced blend of culture and comfort.",
+    rating: 4.8,
+    tags: ["cruise-getaway"]
+  },
+  {
+    id: "3953827e-4cc0-4c02-b3f2-21a63abe589e",
+    basePrice: 8138,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Experience the allure of British Columbia on this azure cruise departing from Vancouver. With stops at victoria, you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+      distance: "968 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "e56fdbf5-4771-41db-956a-fa586f7631ad",
+        name: "Jeremy Holloway",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
+        contact: {
+          contactEmail: "lavish.solstice.of.t@velarivoyages.com",
+          contactNumber: "+1-109-595-2933"
+        }
+      }
+    ],
+    title: "Lavish Solstice of the Whistler Ski Resort & Stanley Park",
+    description: "Experience the allure of British Columbia on this azure cruise departing from Vancouver. With stops at victoria, you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
+    rating: 4.4,
+    tags: ["anniversary-cruise"]
+  },
+  {
+    id: "b26a7b2b-f173-4d25-9d81-b9618532ef8d",
+    basePrice: 3703,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "This inspiring journey departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+      distance: "945 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "f8e8555b-552d-4700-96b3-29829d7bef41",
+        name: "Vincent Gardner",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
+        contact: {
+          contactEmail: "epic.passage.of.the.@velarivoyages.com",
+          contactNumber: "+1-676-616-1451"
+        }
+      }
+    ],
+    title: "Epic Passage of the Indigenous Culture & Rainforests",
+    description: "This inspiring journey departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+    rating: 4.9,
+    tags: ["weekend-cruise","cruise-excursion"]
+  },
+  {
+    id: "cc6a7b5a-c4d0-41b1-a116-1a6f2aacd1df",
+    basePrice: 9791,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "This inspiring odyssey departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+      distance: "1282 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "7e128de8-8c5b-4701-9b1f-4ed41fbef3b8",
+        name: "Jack Dixon",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
+        contact: {
+          contactEmail: "wavecrested.odyssey.@velarivoyages.com",
+          contactNumber: "+1-444-505-3097"
+        }
+      }
+    ],
+    title: "Wave-Crested Odyssey of the Rocky Mountains & Pacific Coast",
+    description: "This inspiring odyssey departs from Vancouver, navigating the diverse landscapes and vibrant cities of British Columbia. Must-see stops include victoria.",
+    rating: 4.1,
+    tags: ["holiday-cruise","cruise-getaway","cruise"]
+  },
+  {
+    id: "d353ad35-0e81-4457-9db5-931865e5b328",
+    basePrice: 5088,
+    departureLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    arrivalLocation: {
+  "city": "Vancouver",
+  "country": "Canada",
+  "region": "British Columbia",
+  "coordinates": {
+    "latitude": 49.2827,
+    "longitude": -123.1207
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  },
+  {
+    "city": "victoria",
+    "country": "Canada",
+    "coordinates": {
+      "latitude": 48.4284,
+      "longitude": -123.3656
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia",
+    "coordinates": {
+      "latitude": 49.2827,
+      "longitude": -123.1207
+    }
+  }
+],
+      description: "Join us for a unforgettable tide from Vancouver, where the journey through British Columbia is as enriching as the destinations themselves. Visit victoria and create memories that will last a lifetime.",
+      distance: "764 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Vancouver to victoria"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from victoria to Vancouver"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring victoria"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring Vancouver"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "29f3b3d7-d30b-4a10-8eaa-2e3760f9e6b9",
+        name: "Daniel Hunter",
+        role: "Guest Services Agent (Shoreside)",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        contact: {
+          contactEmail: "radiant.realm.of.the@velarivoyages.com",
+          contactNumber: "+1-168-989-6375"
+        }
+      }
+    ],
+    title: "Radiant Realm of the Indigenous Culture & Rainforests",
+    description: "Join us for a unforgettable tide from Vancouver, where the journey through British Columbia is as enriching as the destinations themselves. Visit victoria and create memories that will last a lifetime.",
+    rating: 4.3,
+    tags: ["cruise-adventure"]
+  }
 ];

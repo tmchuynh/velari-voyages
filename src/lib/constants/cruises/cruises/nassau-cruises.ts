@@ -1,1404 +1,1583 @@
-import { Cruise } from "@/lib/interfaces/services/cruises";
+// This file is auto-generated
+    // Do not edit manually.
+    // City: Nassau
+    // Generated on: 2025-06-10T03:09:08.449Z
+  import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const nassauCruises: Cruise[] = [
-  {
-    basePrice: 8438,
+{
+    id: "9ec1d9f1-002a-47e6-86d3-3dd75afaeb45",
+    basePrice: 5040,
     departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     arrivalLocation: {
-      city: "Roatán",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "weekend-cruise",
+    category: "holiday-cruise",
     itinerary: {
       route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Experience the elegance of the seas on this celestial eclipse through Caribbean, starting from the illustrious port of Nassau. From Bermuda to Roatán, each destination offers its own story, culture, and breathtaking views.",
-      distance: "574 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Nassau to Bermuda",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Bermuda to Roatán",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Roatán",
-        },
-      ],
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        name: "Jessica Griffin",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-        contact: {
-          contactEmail: "celestial.expedition@velarivoyages.com",
-          contactNumber: "+1-899-756-1647",
-        },
-      },
-    ],
-    title: "Celestial Expedition of the Sapphire Waters",
-    description:
-      "Experience the elegance of the seas on this celestial eclipse through Caribbean, starting from the illustrious port of Nassau. From Bermuda to Roatán, each destination offers its own story, culture, and breathtaking views.",
-    rating: 4.8,
-    tags: ["relaxation", "fall-cruise"],
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
   },
   {
-    basePrice: 5608,
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Depart from the iconic port of Nassau and sail through the enchanting Bahamas. Explore vibrant destinations like , each offering its own unique charm and local flair.",
+      distance: "1482 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        id: "884bf004-06a7-43e3-a6ca-1c385168279c",
+        name: "Naomi Jennings",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
+        contact: {
+          contactEmail: "twilight.elevation.o@velarivoyages.com",
+          contactNumber: "+1-194-749-7760"
+        }
+      }
+    ],
+    title: "Twilight Elevation of the Straw Market Hub",
+    description: "Depart from the iconic port of Nassau and sail through the enchanting Bahamas. Explore vibrant destinations like , each offering its own unique charm and local flair.",
+    rating: 4.3,
+    tags: ["luxury","cruise"]
+  },
+  {
+    id: "cd4eb8dd-a21a-4491-b63f-d359eb70eb37",
+    basePrice: 9224,
     departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     arrivalLocation: {
-      city: "George Town",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
+    hasPopularDestination: true,
+    category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "This radiant cruise from Nassau is your ticket to the captivating charm of the Caribbean. Discover the delights of Bermuda, George Town with enriching excursions and award-winning service.",
-      distance: "577 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Nassau to Bermuda",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Bermuda to George Town",
-        },
-      ],
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Set sail from Nassau on a sublime quest that takes you through the heart of Bahamas. With stops at , you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+      distance: "758 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
     },
-    tourCategoryId: "holiday-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Jessica Fisher",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
+        id: "5b162c04-83b3-4dc4-9e68-0450fe337360",
+        name: "Scarlett Hawkins",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
         contact: {
-          contactEmail: "tranquil.sanctuary.o@velarivoyages.com",
-          contactNumber: "+1-311-968-5439",
-        },
-      },
+          contactEmail: "exquisite.requiem.of@velarivoyages.com",
+          contactNumber: "+1-449-235-1739"
+        }
+      }
     ],
-    title: "Tranquil Sanctuary of the Emerald Cays",
-    description:
-      "This radiant cruise from Nassau is your ticket to the captivating charm of the Caribbean. Discover the delights of Bermuda, George Town with enriching excursions and award-winning service.",
-    rating: 4.9,
-    tags: ["seasonal", "culinary"],
+    title: "Exquisite Requiem of the Junkanoo Festival & Pirate History",
+    description: "Set sail from Nassau on a sublime quest that takes you through the heart of Bahamas. With stops at , you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+    rating: 4.1,
+    tags: ["cruise-line","cruise-ship"]
   },
   {
-    basePrice: 6665,
+    id: "c93a6bdf-bf37-4f3e-95ea-dae756032779",
+    basePrice: 4856,
     departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     arrivalLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "tropical-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-      ],
-      description:
-        "Depart from the iconic port of Nassau and sail through the enchanting Caribbean. Explore vibrant destinations like George Town, Miami, San Juan, Fort Lauderdale, each offering its own unique charm and local flair.",
-      distance: "1331 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Nassau to George Town",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from George Town to Miami",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Miami to San Juan",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from San Juan to Fort Lauderdale",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Sailing from Fort Lauderdale to Nassau",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 14",
-          end: "Day 14",
-          duration: "1 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 16",
-          end: "Day 16",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Amina Fletcher",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-        contact: {
-          contactEmail: "captivating.whisper.@velarivoyages.com",
-          contactNumber: "+1-418-580-9546",
-        },
-      },
-    ],
-    title: "Captivating Whisper of the Caribbean Rhythms",
-    description:
-      "Depart from the iconic port of Nassau and sail through the enchanting Caribbean. Explore vibrant destinations like George Town, Miami, San Juan, Fort Lauderdale, each offering its own unique charm and local flair.",
-    rating: 4.5,
-    tags: ["exclusive", "general"],
-  },
-  {
-    basePrice: 6770,
-    departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    arrivalLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fall-foliage-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "Cozumel",
-          country: "Mexico",
-          coordinates: {
-            latitude: 20.4233,
-            longitude: -86.9212,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-      ],
-      description:
-        "An unforgettable awakening awaits as you cruise from Nassau across Caribbean. Dive into history, flavor, and culture with stops including Miami, Cozumel, Bermuda.",
-      distance: "1074 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Nassau to Miami",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Miami to Cozumel",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Cozumel to Bermuda",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Bermuda to Nassau",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Cozumel",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 15",
-          end: "Day 16",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Zola Murray",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-        contact: {
-          contactEmail: "exquisite.panorama.o@velarivoyages.com",
-          contactNumber: "+1-674-497-8022",
-        },
-      },
-    ],
-    title: "Exquisite Panorama of the Tropical Isles",
-    description:
-      "An unforgettable awakening awaits as you cruise from Nassau across Caribbean. Dive into history, flavor, and culture with stops including Miami, Cozumel, Bermuda.",
-    rating: 5.0,
-    tags: ["sightseeing"],
-  },
-  {
-    basePrice: 4885,
-    departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    arrivalLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-      ],
-      description:
-        "Sail away from Nassau into the beautiful expanse of Caribbean. Along the way, enjoy rich cultural experiences in San Juan, George Town, Miami, where history, nature, and cuisine collide.",
-      distance: "1136 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Nassau to San Juan",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from San Juan to George Town",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from George Town to Miami",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Miami to Nassau",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-      ],
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Amina Campbell",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-        contact: {
-          contactEmail: "opulent.drift.of.the@velarivoyages.com",
-          contactNumber: "+1-771-125-6295",
-        },
-      },
-    ],
-    title: "Opulent Drift of the Palm-Fringed Paradises",
-    description:
-      "Sail away from Nassau into the beautiful expanse of Caribbean. Along the way, enjoy rich cultural experiences in San Juan, George Town, Miami, where history, nature, and cuisine collide.",
-    rating: 4.5,
-    tags: ["relaxation", "cruise-ship", "nature"],
-  },
-  {
-    basePrice: 8750,
-    departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    arrivalLocation: {
-      city: "San Juan",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Embark from Nassau and traverse the Caribbean in style. Whether it’s the energy of Bermuda or the calm of Fort Lauderdale, each destination reveals a new side of paradise.",
-      distance: "1125 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Nassau to Bermuda",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Bermuda to Fort Lauderdale",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Fort Lauderdale to Miami",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from Miami to San Juan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-      ],
-    },
-    tourCategoryId: "vip-cruise",
-    contactPersonnel: [
-      {
-        name: "Lisa Dunn",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-        contact: {
-          contactEmail: "majestic.haven.of.th@velarivoyages.com",
-          contactNumber: "+1-636-840-2127",
-        },
-      },
-    ],
-    title: "Majestic Haven of the Palm-Fringed Paradises",
-    description:
-      "Embark from Nassau and traverse the Caribbean in style. Whether it’s the energy of Bermuda or the calm of Fort Lauderdale, each destination reveals a new side of paradise.",
-    rating: 4.3,
-    tags: ["wellness", "VIP", "tropical"],
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
   },
   {
-    basePrice: 3741,
-    departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    arrivalLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-      ],
-      description:
-        "Join us in Nassau for a voyage of a lifetime. Sail across the serene waters of Caribbean, stopping at ports like Roatán, George Town, Fort Lauderdale where timeless traditions meet modern luxuries.",
-      distance: "538 nautical miles",
-      totalDuration: "12 days",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "An unforgettable awakening awaits as you cruise from Nassau across Bahamas. Dive into history, flavor, and culture with stops including .",
+      distance: "975 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Nassau to Roatán",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Sailing from Roatán to George Town",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from George Town to Fort Lauderdale",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Fort Lauderdale to Nassau",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Roatán",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-      ],
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Ella Chambers",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-        contact: {
-          contactEmail: "pristine.voyage.of.t@velarivoyages.com",
-          contactNumber: "+1-374-947-2452",
-        },
-      },
-    ],
-    title: "Pristine Voyage of the Sugarcane Skies",
-    description:
-      "Join us in Nassau for a voyage of a lifetime. Sail across the serene waters of Caribbean, stopping at ports like Roatán, George Town, Fort Lauderdale where timeless traditions meet modern luxuries.",
-    rating: 4.5,
-    tags: ["cruise-adventure", "cruise-journey", "nature"],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
   },
   {
-    basePrice: 7781,
-    departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
     },
-    arrivalLocation: {
-      city: "Fort Lauderdale",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "St. Thomas",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "This inspiring arcadia departs from Nassau, navigating the diverse landscapes and vibrant cities of Caribbean. Must-see stops include St. Thomas, Miami, Fort Lauderdale.",
-      distance: "921 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Nassau to St. Thomas",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from St. Thomas to Miami",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Miami to Fort Lauderdale",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring St. Thomas",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Fort Lauderdale",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        name: "Brooklyn Curtis",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+        id: "d57a1497-53b6-4793-87ad-a4298c07c37f",
+        name: "Laura Wells",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
         contact: {
-          contactEmail: "timeless.discovery.o@velarivoyages.com",
-          contactNumber: "+1-950-356-9017",
-        },
-      },
+          contactEmail: "infinite.adventure.o@velarivoyages.com",
+          contactNumber: "+1-385-137-1373"
+        }
+      }
     ],
-    title: "Timeless Discovery of the Tropical Isles",
-    description:
-      "This inspiring arcadia departs from Nassau, navigating the diverse landscapes and vibrant cities of Caribbean. Must-see stops include St. Thomas, Miami, Fort Lauderdale.",
+    title: "Infinite Adventure of the Bahamian Capital",
+    description: "An unforgettable awakening awaits as you cruise from Nassau across Bahamas. Dive into history, flavor, and culture with stops including .",
     rating: 5.0,
-    tags: ["cruise-getaway"],
+    tags: ["anniversary-cruise","sightseeing","glacier-cruise"]
   },
   {
-    basePrice: 8994,
+    id: "f1cb3504-2527-4d50-9438-a593c00cc392",
+    basePrice: 1929,
     departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     arrivalLocation: {
-      city: "George Town",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "fjords-tour",
     itinerary: {
       route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Escape the everyday with this luxurious journey through Caribbean, departing from Nassau. You'll visit San Juan, George Town, where every stop is a new adventure.",
-      distance: "661 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Nassau to San Juan",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from San Juan to George Town",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-      ],
-    },
-    tourCategoryId: "vip-cruise",
-    contactPersonnel: [
-      {
-        name: "Amanda Hudson",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-        contact: {
-          contactEmail: "extraordinary.whispe@velarivoyages.com",
-          contactNumber: "+1-604-579-2399",
-        },
-      },
-    ],
-    title: "Extraordinary Whisper of the Azure Horizons",
-    description:
-      "Escape the everyday with this luxurious journey through Caribbean, departing from Nassau. You'll visit San Juan, George Town, where every stop is a new adventure.",
-    rating: 4.4,
-    tags: ["VIP"],
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
   },
   {
-    basePrice: 2487,
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Let the waves lead you from Nassau on this dawn-embraced serenade. Traverse the iconic waters of Bahamas and discover the beauty of .",
+      distance: "1420 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "41672b61-3a13-4c7f-8615-f90d54e7f161",
+        name: "Angela Campbell",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
+        contact: {
+          contactEmail: "aweinspiring.reflect@velarivoyages.com",
+          contactNumber: "+1-422-505-4295"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Reflection of the Straw Market Hub",
+    description: "Let the waves lead you from Nassau on this dawn-embraced serenade. Traverse the iconic waters of Bahamas and discover the beauty of .",
+    rating: 4.5,
+    tags: ["long-distance"]
+  },
+  {
+    id: "2bc07c71-ad7a-4225-9b88-c5bc2a2f4377",
+    basePrice: 4506,
     departureLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     arrivalLocation: {
-      city: "Nassau",
-      country: "Bahamas",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 25.0582,
-        longitude: -77.3432,
-      },
-    },
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "tropical-cruise",
     itinerary: {
       route: [
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "St. Thomas",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Tampa",
-          country: "United States",
-          coordinates: {
-            latitude: 27.9506,
-            longitude: -82.4572,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-      ],
-      description:
-        "Let the winds of the Caribbean carry you from Nassau to the most stunning ports in the region. With destinations like Miami, St. Thomas, Tampa, Fort Lauderdale, this panorama redefines luxury travel.",
-      distance: "1345 nautical miles",
-      totalDuration: "18 days",
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Experience the magic of Bahamas on this star-studded cruise departing from Nassau. From the vibrant culture of undefined to the breathtaking landscapes of undefined, this journey promises unforgettable moments and lasting memories.",
+      distance: "527 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Nassau to Miami",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Miami to St. Thomas",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from St. Thomas to Tampa",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Tampa to Fort Lauderdale",
-        },
-        {
-          start: "Day 15",
-          end: "Day 16",
-          duration: "2 days",
-          description: "Sailing from Fort Lauderdale to Nassau",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring St. Thomas",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Tampa",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 17",
-          end: "Day 18",
-          duration: "2 days",
-          description: "Exploring Nassau",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Catherine Hall",
-        role: "Customer Service Representative",
-        languages: ["English", "Guarani", "French"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
+        id: "aaca995a-e119-4888-975f-dd45db76aab4",
+        name: "Nicholas Dunn",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
         contact: {
-          contactEmail: "infinite.sanctum.of.@velarivoyages.com",
-          contactNumber: "+1-625-777-6120",
-        },
-      },
+          contactEmail: "infinite.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-525-740-6632"
+        }
+      }
     ],
-    title: "Infinite Sanctum of the Rum-Laced Breezes",
-    description:
-      "Let the winds of the Caribbean carry you from Nassau to the most stunning ports in the region. With destinations like Miami, St. Thomas, Tampa, Fort Lauderdale, this panorama redefines luxury travel.",
-    rating: 4.3,
-    tags: ["holiday-cruise"],
+    title: "Infinite Odyssey of the Straw Market Hub",
+    description: "Experience the magic of Bahamas on this star-studded cruise departing from Nassau. From the vibrant culture of undefined to the breathtaking landscapes of undefined, this journey promises unforgettable moments and lasting memories.",
+    rating: 4.8,
+    tags: ["romantic"]
   },
+  {
+    id: "52644075-9192-4217-aa6d-8904c69efc00",
+    basePrice: 1947,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Sail away from Nassau into the beautiful expanse of Bahamas. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
+      distance: "1039 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "ef58cb00-e39c-4610-8077-b0fbb45fd7f8",
+        name: "Stephanie Montgomery",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
+        contact: {
+          contactEmail: "harborlit.excursion.@velarivoyages.com",
+          contactNumber: "+1-781-605-5075"
+        }
+      }
+    ],
+    title: "Harbor-Lit Excursion of the Nassau's Straw Market & Paradise Island",
+    description: "Sail away from Nassau into the beautiful expanse of Bahamas. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
+    rating: 4.0,
+    tags: ["cultural","cruise-vacation"]
+  },
+  {
+    id: "e26ac746-3915-413a-8a42-3bd7f5ff8cc7",
+    basePrice: 2443,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Depart from Nassau on this thoughtfully designed serenade across the Bahamas. Savor coastal charm, cultural treasures, and ocean views with stops at .",
+      distance: "529 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "393ed741-3f0b-4be3-999a-cf2212b653a3",
+        name: "Janet Campbell",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
+        contact: {
+          contactEmail: "glistening.discovery@velarivoyages.com",
+          contactNumber: "+1-429-545-7705"
+        }
+      }
+    ],
+    title: "Glistening Discovery of the Junkanoo Festival & Pirate History",
+    description: "Depart from Nassau on this thoughtfully designed serenade across the Bahamas. Savor coastal charm, cultural treasures, and ocean views with stops at .",
+    rating: 4.9,
+    tags: ["cruise-adventure","adventure","cruise-journey"]
+  },
+  {
+    id: "5eef595f-b8bc-4f1c-bc9d-f90f108eac81",
+    basePrice: 5750,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Leave ordinary behind as you sail from Nassau across the captivating Bahamas. Discover the distinctive personality of each destination, from .",
+      distance: "1282 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "570d7e37-a49c-4300-919c-8c1e98d35bdf",
+        name: "Cynthia Harper",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
+        contact: {
+          contactEmail: "timeless.currents.of@velarivoyages.com",
+          contactNumber: "+1-656-191-6585"
+        }
+      }
+    ],
+    title: "Timeless Currents of the Junkanoo Rhythms",
+    description: "Leave ordinary behind as you sail from Nassau across the captivating Bahamas. Discover the distinctive personality of each destination, from .",
+    rating: 4.8,
+    tags: ["sightseeing"]
+  },
+  {
+    id: "3f2e37f7-41c1-48a7-9db3-707204d33a4f",
+    basePrice: 4979,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Embark on an unforgettable exploration from the vibrant port of Nassau, where you'll discover hidden gems and iconic landmarks across the Bahamas region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+      distance: "978 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "4bf529ee-7ff1-42c3-9e71-b1d6411aecc5",
+        name: "Mia Palmer",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        contact: {
+          contactEmail: "sundrenched.lullaby.@velarivoyages.com",
+          contactNumber: "+1-302-287-3725"
+        }
+      }
+    ],
+    title: "Sun-Drenched Lullaby of the Straw Market Hub",
+    description: "Embark on an unforgettable exploration from the vibrant port of Nassau, where you'll discover hidden gems and iconic landmarks across the Bahamas region. With stops at , this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.1,
+    tags: ["historical","cruise"]
+  },
+  {
+    id: "77659ef2-2d03-44f6-bc68-1f4852739468",
+    basePrice: 7631,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Set off on a serenade from Nassau that captures the essence of Bahamas. Discover cultural gems and culinary delights across .",
+      distance: "540 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "f50b7f29-9c1a-45a6-bed1-2ca1602ec0dc",
+        name: "Amy Hunter",
+        role: "Group Booking Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+        contact: {
+          contactEmail: "twilight.mythos.of.t@velarivoyages.com",
+          contactNumber: "+1-175-104-5892"
+        }
+      }
+    ],
+    title: "Twilight Mythos of the Junkanoo Festival & Pirate History",
+    description: "Set off on a serenade from Nassau that captures the essence of Bahamas. Discover cultural gems and culinary delights across .",
+    rating: 4.3,
+    tags: ["general","weekend-cruise","historical"]
+  },
+  {
+    id: "88c10d22-b4dd-4b69-88ae-f5e5e3be3f82",
+    basePrice: 3667,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Embark on a odyssey from Nassau that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Bahamas is one you won't forget.",
+      distance: "916 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "89aad6f0-14a3-4f76-89b1-347fa3da7cda",
+        name: "Timothy Warren",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
+        contact: {
+          contactEmail: "baydrifting.currents@velarivoyages.com",
+          contactNumber: "+1-389-830-7998"
+        }
+      }
+    ],
+    title: "Bay-Drifting Currents of the Colonial Charm",
+    description: "Embark on a odyssey from Nassau that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Bahamas is one you won't forget.",
+    rating: 4.6,
+    tags: ["seasonal","fall-cruise","VIP"]
+  },
+  {
+    id: "8cdace27-0d2f-4458-8474-8c414d266706",
+    basePrice: 6829,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Begin an epic horizon from Nassau, where the seas meet culture. Visit the remarkable ports of  while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1170 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "254653a5-2ed6-4687-909b-d0ba53b57b15",
+        name: "Stephen Marshall",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
+        contact: {
+          contactEmail: "radiancedrenched.myt@velarivoyages.com",
+          contactNumber: "+1-312-441-2177"
+        }
+      }
+    ],
+    title: "Radiance-Drenched Mythos of the Swimming Pigs & Turquoise Waters",
+    description: "Begin an epic horizon from Nassau, where the seas meet culture. Visit the remarkable ports of  while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.2,
+    tags: ["short-getaway","tropical","cruise-ship"]
+  },
+  {
+    id: "be50600e-0028-4ad0-a1e7-eb5d599d641f",
+    basePrice: 9945,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Begin your journey in Nassau, where tradition meets travel. This immersive labyrinth reveals the finest of Bahamas, from the beaches of undefined to the streets of undefined.",
+      distance: "1232 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "ac3ee710-218f-4639-95f1-f25ab5f916af",
+        name: "Darrell Olivia",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
+        contact: {
+          contactEmail: "mesmerizing.renaissa@velarivoyages.com",
+          contactNumber: "+1-220-608-6234"
+        }
+      }
+    ],
+    title: "Mesmerizing Renaissance of the Swimming Pigs & Turquoise Waters",
+    description: "Begin your journey in Nassau, where tradition meets travel. This immersive labyrinth reveals the finest of Bahamas, from the beaches of undefined to the streets of undefined.",
+    rating: 4.1,
+    tags: ["cruise","family-friendly","short-getaway"]
+  },
+  {
+    id: "67151a89-eec0-45e8-8459-fa0e99690073",
+    basePrice: 5795,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Set sail from Nassau for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this whispering cruise will redefine your view of Bahamas.",
+      distance: "955 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "e758420f-cc14-4923-96da-1a3567553059",
+        name: "Ethan Fisher",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+        contact: {
+          contactEmail: "tranquil.eclipse.of.@velarivoyages.com",
+          contactNumber: "+1-858-618-5701"
+        }
+      }
+    ],
+    title: "Tranquil Eclipse of the Nassau's Straw Market & Paradise Island",
+    description: "Set sail from Nassau for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this whispering cruise will redefine your view of Bahamas.",
+    rating: 4.4,
+    tags: ["cultural","exclusive","tropical"]
+  },
+  {
+    id: "d640ab0b-512b-4a6c-9ac3-7291ed2ee3e0",
+    basePrice: 5634,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Depart Nassau on a relaxing serenade through the Bahamas region. Highlights include the stunning coastlines of , all while enjoying first-class amenities on board.",
+      distance: "792 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "b003a2f7-fdd8-40df-bd45-6bf1f9802a3b",
+        name: "Stephen Parker",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
+        contact: {
+          contactEmail: "wavewhispered.elevat@velarivoyages.com",
+          contactNumber: "+1-309-540-7194"
+        }
+      }
+    ],
+    title: "Wave-Whispered Elevation of the Junkanoo Rhythms",
+    description: "Depart Nassau on a relaxing serenade through the Bahamas region. Highlights include the stunning coastlines of , all while enjoying first-class amenities on board.",
+    rating: 4.9,
+    tags: ["holiday-cruise","cultural"]
+  },
+  {
+    id: "c46b7fe6-2edc-42cc-ac09-20393dcad549",
+    basePrice: 4211,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Your reverie begins in Nassau, where the spirit of exploration meets modern luxury. From the sun-drenched shores of undefined to the historic streets of undefined, each stop in the Bahamas will leave a lasting impression.",
+      distance: "1307 nautical miles",
+      totalDuration: "6 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "4765229e-bfa5-441a-93fb-dd8c07e73158",
+        name: "George Harper",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
+        contact: {
+          contactEmail: "spectacular.sanctuar@velarivoyages.com",
+          contactNumber: "+1-272-253-5609"
+        }
+      }
+    ],
+    title: "Spectacular Sanctuary of the Swimming Pigs & Turquoise Waters",
+    description: "Your reverie begins in Nassau, where the spirit of exploration meets modern luxury. From the sun-drenched shores of undefined to the historic streets of undefined, each stop in the Bahamas will leave a lasting impression.",
+    rating: 4.9,
+    tags: ["culinary"]
+  },
+  {
+    id: "d1538ca3-e0fb-4120-a792-e8d0eb53b10f",
+    basePrice: 8365,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "This panoramic cruise from Nassau is your ticket to the captivating charm of the Bahamas. Discover the delights of  with enriching excursions and award-winning service.",
+      distance: "1213 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "0ba55c5a-3d2a-4f13-a73b-2e01db6523f3",
+        name: "Ronald Gibson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
+        contact: {
+          contactEmail: "harborgliding.pulse.@velarivoyages.com",
+          contactNumber: "+1-170-750-4584"
+        }
+      }
+    ],
+    title: "Harbor-Gliding Pulse of the Junkanoo Rhythms",
+    description: "This panoramic cruise from Nassau is your ticket to the captivating charm of the Bahamas. Discover the delights of  with enriching excursions and award-winning service.",
+    rating: 4.3,
+    tags: ["long-distance","cruise-journey"]
+  },
+  {
+    id: "d2ec6852-5f8f-442c-a47f-ef2f9d577a26",
+    basePrice: 7782,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  },
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Unwind and explore on this tranquility through Bahamas, departing from Nassau. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
+      distance: "1335 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Nassau to Nassau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "b1525f80-bc3f-4b2f-a86f-e830698746a0",
+        name: "Patrick Hawkins",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
+        contact: {
+          contactEmail: "celestial.frontier.o@velarivoyages.com",
+          contactNumber: "+1-913-204-5017"
+        }
+      }
+    ],
+    title: "Celestial Frontier of the Turquoise Gateway",
+    description: "Unwind and explore on this tranquility through Bahamas, departing from Nassau. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
+    rating: 4.9,
+    tags: ["adventure","sightseeing"]
+  },
+  {
+    id: "892d206b-e0ff-4f74-af6a-576a4a6f8297",
+    basePrice: 5185,
+    departureLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    arrivalLocation: {
+  "city": "Nassau",
+  "country": "Bahamas",
+  "region": "Bahamas",
+  "coordinates": {
+    "latitude": 25.0582,
+    "longitude": -77.3432
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas",
+    "coordinates": {
+      "latitude": 25.0582,
+      "longitude": -77.3432
+    }
+  }
+],
+      description: "Savor each moment of this whispering escape through Bahamas, starting in Nassau. Visit renowned locations like , where adventure and relaxation intertwine.",
+      distance: "800 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Nassau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "1dcc8d19-d92a-4e33-a9ad-77235e555d05",
+        name: "Keith Bennett",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+        contact: {
+          contactEmail: "twilight.elevation.o@velarivoyages.com",
+          contactNumber: "+1-727-924-8412"
+        }
+      }
+    ],
+    title: "Twilight Elevation of the Junkanoo Rhythms",
+    description: "Savor each moment of this whispering escape through Bahamas, starting in Nassau. Visit renowned locations like , where adventure and relaxation intertwine.",
+    rating: 4.8,
+    tags: ["wellness","culinary"]
+  }
 ];

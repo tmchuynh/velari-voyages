@@ -1,1524 +1,1941 @@
-import { Cruise } from "@/lib/interfaces/services/cruises";
+// This file is auto-generated
+    // Do not edit manually.
+    // City: St Thomas
+    // Generated on: 2025-06-10T03:09:08.457Z
+  import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const stThomasCruises: Cruise[] = [
-  {
-    basePrice: 5081,
+{
+    id: "f7cc2783-c229-4e19-860c-9d8942c33fa6",
+    basePrice: 3719,
     departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     arrivalLocation: {
-      city: "Philipsburg",
-      country: "Sint Maarten",
-      coordinates: {
-        latitude: 18.0167,
-        longitude: -63.0587,
-      },
-    },
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "fjords-tour",
+    category: "vip-cruise",
     itinerary: {
       route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Philipsburg",
-          country: "Sint Maarten",
-          coordinates: {
-            latitude: 18.0167,
-            longitude: -63.0587,
-          },
-        },
-      ],
-      description:
-        "Let this secret voyage redefine your idea of travel. From St Thomas, explore the Caribbean in luxurious comfort, stopping at George Town, Fort Lauderdale, Philipsburg where every port offers a new chapter.",
-      distance: "846 nautical miles",
-      totalDuration: "9 days",
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Set sail from St Thomas on a breathtaking infinite that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+      distance: "1169 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from St Thomas to George Town",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from George Town to Fort Lauderdale",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Fort Lauderdale to Philipsburg",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Philipsburg",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "49c71f8b-9972-42bb-9f76-252f61f1ed17",
+        name: "Linda Dixon",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
+        contact: {
+          contactEmail: "secret.retreat.of.th@velarivoyages.com",
+          contactNumber: "+1-855-374-7380"
+        }
+      }
+    ],
+    title: "Secret Retreat of the Trunk Bay & Magens Bay",
+    description: "Set sail from St Thomas on a breathtaking infinite that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+    rating: 4.2,
+    tags: ["general","culinary","relaxation"]
+  },
+  {
+    id: "c76fce53-94eb-4433-8e44-1461f055d871",
+    basePrice: 4070,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Let the winds of the US Virgin Islands carry you from St Thomas to the most stunning ports in the region. With destinations like st-thomas, this sanctuary redefines luxury travel.",
+      distance: "1110 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  }
+]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Jennifer Holloway",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 8,
+        id: "7c8f55e8-193e-4335-9844-98fc1d42ad99",
+        name: "Claire Payne",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
+        contact: {
+          contactEmail: "coralkissed.haven.of@velarivoyages.com",
+          contactNumber: "+1-522-622-4079"
+        }
+      }
+    ],
+    title: "Coral-Kissed Haven of the US Virgin Islands Gem",
+    description: "Let the winds of the US Virgin Islands carry you from St Thomas to the most stunning ports in the region. With destinations like st-thomas, this sanctuary redefines luxury travel.",
+    rating: 4.5,
+    tags: ["cruise-adventure","wellness","cruise-experience"]
+  },
+  {
+    id: "550b3ff7-73ba-4ab9-b5b6-4d0bb6c3e076",
+    basePrice: 3649,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Savor each moment of this twilight escape through US Virgin Islands, starting in St Thomas. Visit renowned locations like st-thomas, where adventure and relaxation intertwine.",
+      distance: "1008 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "luxury-cruise",
+    contactPersonnel: [
+      {
+        id: "bfee5c67-9684-4436-859e-48b6e1a37f3c",
+        name: "Harper Palmer",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
         profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
         contact: {
-          contactEmail: "radiancedrenched.esc@velarivoyages.com",
-          contactNumber: "+1-254-819-1221",
-        },
-      },
+          contactEmail: "radiant.mirage.of.th@velarivoyages.com",
+          contactNumber: "+1-346-110-6985"
+        }
+      }
     ],
-    title: "Radiance-Drenched Escape of the Azure Horizons",
-    description:
-      "Let this secret voyage redefine your idea of travel. From St Thomas, explore the Caribbean in luxurious comfort, stopping at George Town, Fort Lauderdale, Philipsburg where every port offers a new chapter.",
-    rating: 4.1,
-    tags: ["exclusive", "sightseeing"],
-  },
-  {
-    basePrice: 3076,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "holiday-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Cozumel",
-          country: "Mexico",
-          coordinates: {
-            latitude: 20.4233,
-            longitude: -86.9212,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-      ],
-      description:
-        "Let the spirit of exploration guide your pearlescent journey from St Thomas. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Cozumel, Roatán, San Juan, Miami.",
-      distance: "1175 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from St Thomas to Cozumel",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Cozumel to Roatán",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Roatán to San Juan",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from San Juan to Miami",
-        },
-        {
-          start: "Day 14",
-          end: "Day 14",
-          duration: "1 days",
-          description: "Sailing from Miami to St Thomas",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Cozumel",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Roatán",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 15",
-          end: "Day 16",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Katherine Dean",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
-        contact: {
-          contactEmail: "starlit.tide.of.the.@velarivoyages.com",
-          contactNumber: "+1-580-941-8897",
-        },
-      },
-    ],
-    title: "Starlit Tide of the Coral Sanctuaries",
-    description:
-      "Let the spirit of exploration guide your pearlescent journey from St Thomas. This cruise offers a balanced mix of luxury and adventure, visiting stunning locales like Cozumel, Roatán, San Juan, Miami.",
+    title: "Radiant Mirage of the Charlotte Amalie Charm",
+    description: "Savor each moment of this twilight escape through US Virgin Islands, starting in St Thomas. Visit renowned locations like st-thomas, where adventure and relaxation intertwine.",
     rating: 4.8,
-    tags: ["cruise-vacation", "expedition", "seasonal"],
+    tags: ["luxury","relaxation","general"]
   },
   {
-    basePrice: 4152,
+    id: "28f830cf-4ba3-42c0-85b5-05112462a8f0",
+    basePrice: 4217,
     departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     arrivalLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "holiday-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Cozumel",
-          country: "Mexico",
-          coordinates: {
-            latitude: 20.4233,
-            longitude: -86.9212,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Nassau",
-          country: "Bahamas",
-          coordinates: {
-            latitude: 25.0582,
-            longitude: -77.3432,
-          },
-        },
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-      ],
-      description:
-        "Begin an epic lullaby from St Thomas, where the seas meet culture. Visit the remarkable ports of Cozumel, Bermuda, San Juan, Nassau while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "960 nautical miles",
-      totalDuration: "19 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from St Thomas to Cozumel",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Cozumel to Bermuda",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Bermuda to San Juan",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from San Juan to Nassau",
-        },
-        {
-          start: "Day 17",
-          end: "Day 18",
-          duration: "2 days",
-          description: "Sailing from Nassau to St Thomas",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Cozumel",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 16",
-          end: "Day 16",
-          duration: "1 days",
-          description: "Exploring Nassau",
-        },
-        {
-          start: "Day 19",
-          end: "Day 19",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Alice Reeves",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-        contact: {
-          contactEmail: "captivating.pulse.of@velarivoyages.com",
-          contactNumber: "+1-206-194-8205",
-        },
-      },
-    ],
-    title: "Captivating Pulse of the Rum-Laced Breezes",
-    description:
-      "Begin an epic lullaby from St Thomas, where the seas meet culture. Visit the remarkable ports of Cozumel, Bermuda, San Juan, Nassau while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.9,
-    tags: ["cruise", "holiday-cruise"],
-  },
-  {
-    basePrice: 5500,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "San Juan",
-      country: "",
-      coordinates: {
-        latitude: 0,
-        longitude: 0,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "weekend-cruise",
+    category: "repositioning-cruise",
     itinerary: {
       route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-      ],
-      description:
-        "Let the waves lead you from St Thomas on this opulent mythos. Traverse the iconic waters of Caribbean and discover the beauty of Roatán, George Town, San Juan.",
-      distance: "1480 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from St Thomas to Roatán",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Roatán to George Town",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from George Town to San Juan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Roatán",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-      ],
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        name: "Joan Ellis",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-        contact: {
-          contactEmail: "ornate.pilgrimage.of@velarivoyages.com",
-          contactNumber: "+1-633-324-2235",
-        },
-      },
-    ],
-    title: "Ornate Pilgrimage of the Coral Sanctuaries",
-    description:
-      "Let the waves lead you from St Thomas on this opulent mythos. Traverse the iconic waters of Caribbean and discover the beauty of Roatán, George Town, San Juan.",
-    rating: 4.3,
-    tags: ["themed-cruise", "short-getaway"],
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
   },
   {
-    basePrice: 8601,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "luxury-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-      ],
-      description:
-        "Let the winds of the Caribbean carry you from St Thomas to the most stunning ports in the region. With destinations like George Town, Bermuda, this sojourn redefines luxury travel.",
-      distance: "680 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from St Thomas to George Town",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from George Town to Bermuda",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Bermuda to St Thomas",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-      ],
-    },
-    tourCategoryId: "weekend-cruise",
-    contactPersonnel: [
-      {
-        name: "Sandra Harper",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-        contact: {
-          contactEmail: "pearlescent.solstice@velarivoyages.com",
-          contactNumber: "+1-999-153-9787",
-        },
-      },
-    ],
-    title: "Pearlescent Solstice of the Azure Horizons",
-    description:
-      "Let the winds of the Caribbean carry you from St Thomas to the most stunning ports in the region. With destinations like George Town, Bermuda, this sojourn redefines luxury travel.",
-    rating: 4.7,
-    tags: ["cruise-adventure", "historical", "weekend-cruise"],
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
   },
   {
-    basePrice: 6560,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "Bermuda",
-      country: "Bermuda",
-      coordinates: {
-        latitude: 32.3214,
-        longitude: -64.75737,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "St. Thomas",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-      ],
-      description:
-        "Embark from St Thomas and traverse the Caribbean in style. Whether it’s the energy of St. Thomas or the calm of Fort Lauderdale, each destination reveals a new side of paradise.",
-      distance: "1197 nautical miles",
-      totalDuration: "14 days",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Cruise into cultural richness aboard this eternal elevation departing St Thomas. Savor local cuisine and uncover regional beauty from st-thomas to undefined.",
+      distance: "621 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from St Thomas to St. Thomas",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from St. Thomas to Fort Lauderdale",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Fort Lauderdale to San Juan",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from San Juan to Bermuda",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring St. Thomas",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 14",
-          end: "Day 14",
-          duration: "1 days",
-          description: "Exploring Bermuda",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Isabella Russell",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-        contact: {
-          contactEmail: "oceanic.sanctum.of.t@velarivoyages.com",
-          contactNumber: "+1-118-663-8600",
-        },
-      },
-    ],
-    title: "Oceanic Sanctum of the Sugarcane Skies",
-    description:
-      "Embark from St Thomas and traverse the Caribbean in style. Whether it’s the energy of St. Thomas or the calm of Fort Lauderdale, each destination reveals a new side of paradise.",
-    rating: 5.0,
-    tags: ["cruise-journey", "long-distance", "historical"],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
   },
   {
-    basePrice: 2813,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "Philipsburg",
-      country: "Sint Maarten",
-      coordinates: {
-        latitude: 18.0167,
-        longitude: -63.0587,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fall-foliage-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "Philipsburg",
-          country: "Sint Maarten",
-          coordinates: {
-            latitude: 18.0167,
-            longitude: -63.0587,
-          },
-        },
-      ],
-      description:
-        "Embark on an unforgettable odyssey from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the Caribbean region. With stops at Roatán, George Town, Miami, Philipsburg, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "878 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from St Thomas to Roatán",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Roatán to George Town",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from George Town to Miami",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Miami to Philipsburg",
-        },
-      ],
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Roatán",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Philipsburg",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Thandiwe Watson",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-        contact: {
-          contactEmail: "timeless.serenade.of@velarivoyages.com",
-          contactNumber: "+1-634-356-4711",
-        },
-      },
-    ],
-    title: "Timeless Serenade of the Pirate Passages",
-    description:
-      "Embark on an unforgettable odyssey from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the Caribbean region. With stops at Roatán, George Town, Miami, Philipsburg, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.9,
-    tags: ["seasonal"],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
   },
   {
-    basePrice: 6337,
-    departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    arrivalLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Roatán",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-        {
-          city: "Tampa",
-          country: "United States",
-          coordinates: {
-            latitude: 27.9506,
-            longitude: -82.4572,
-          },
-        },
-        {
-          city: "Philipsburg",
-          country: "Sint Maarten",
-          coordinates: {
-            latitude: 18.0167,
-            longitude: -63.0587,
-          },
-        },
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-      ],
-      description:
-        "Leave stress behind with this curated discovery from St Thomas. Sail across the best of Caribbean and explore treasures like Roatán, Miami, Tampa, Philipsburg with comfort and style.",
-      distance: "1031 nautical miles",
-      totalDuration: "16 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from St Thomas to Roatán",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Roatán to Miami",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Miami to Tampa",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Tampa to Philipsburg",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Sailing from Philipsburg to St Thomas",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Roatán",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Tampa",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Exploring Philipsburg",
-        },
-        {
-          start: "Day 16",
-          end: "Day 16",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Emily Hawkins",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-        contact: {
-          contactEmail: "legendary.mystique.o@velarivoyages.com",
-          contactNumber: "+1-247-615-6163",
-        },
-      },
-    ],
-    title: "Legendary Mystique of the Pirate Passages",
-    description:
-      "Leave stress behind with this curated discovery from St Thomas. Sail across the best of Caribbean and explore treasures like Roatán, Miami, Tampa, Philipsburg with comfort and style.",
-    rating: 4.2,
-    tags: ["culinary", "relaxation"],
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
   },
   {
-    basePrice: 4354,
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "8ed8f9e2-7d1e-4bcb-90e1-7eb4a603f886",
+        name: "Jessica Coleman",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+        contact: {
+          contactEmail: "captivating.horizon.@velarivoyages.com",
+          contactNumber: "+1-804-991-3197"
+        }
+      }
+    ],
+    title: "Captivating Horizon of the Charlotte Amalie Charm",
+    description: "Cruise into cultural richness aboard this eternal elevation departing St Thomas. Savor local cuisine and uncover regional beauty from st-thomas to undefined.",
+    rating: 4.6,
+    tags: ["cruise-journey","seasonal","themed-cruise"]
+  },
+  {
+    id: "7a2883c1-6519-4532-acae-6fc6df8ea127",
+    basePrice: 2417,
     departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     arrivalLocation: {
-      city: "Miami",
-      country: "United States",
-      coordinates: {
-        latitude: 25.7617,
-        longitude: -80.1918,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "fjords-tour",
+    category: "repositioning-cruise",
     itinerary: {
       route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "George Town",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "San Juan",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "St. Thomas",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Miami",
-          country: "United States",
-          coordinates: {
-            latitude: 25.7617,
-            longitude: -80.1918,
-          },
-        },
-      ],
-      description:
-        "Your frontier begins in St Thomas, where the spirit of exploration meets modern luxury. From the sun-drenched shores of George Town to the historic streets of San Juan, each stop in the Caribbean will leave a lasting impression.",
-      distance: "706 nautical miles",
-      totalDuration: "11 days",
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Let this unforgettable voyage redefine your idea of travel. From St Thomas, explore the US Virgin Islands in luxurious comfort, stopping at st-thomas where every port offers a new chapter.",
+      distance: "646 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from St Thomas to George Town",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from George Town to San Juan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from San Juan to St. Thomas",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Sailing from St. Thomas to Miami",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring George Town",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring San Juan",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring St. Thomas",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Miami",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  }
+]
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        name: "Mary Griffin",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        id: "6509053a-8f35-430f-b1c8-8938cebedbf4",
+        name: "Victoria Mitchell",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
         contact: {
-          contactEmail: "oceanic.pulse.of.the@velarivoyages.com",
-          contactNumber: "+1-737-837-1824",
-        },
-      },
+          contactEmail: "mythic.voyage.of.the@velarivoyages.com",
+          contactNumber: "+1-430-111-8235"
+        }
+      }
     ],
-    title: "Oceanic Pulse of the Pirate Passages",
-    description:
-      "Your frontier begins in St Thomas, where the spirit of exploration meets modern luxury. From the sun-drenched shores of George Town to the historic streets of San Juan, each stop in the Caribbean will leave a lasting impression.",
-    rating: 4.7,
-    tags: ["cruise-adventure", "expedition"],
+    title: "Mythic Voyage of the Trunk Bay & Magens Bay",
+    description: "Let this unforgettable voyage redefine your idea of travel. From St Thomas, explore the US Virgin Islands in luxurious comfort, stopping at st-thomas where every port offers a new chapter.",
+    rating: 4.5,
+    tags: ["general","cruise-ship","expedition"]
   },
   {
-    basePrice: 3294,
+    id: "d883bcd7-a6f3-482b-ab18-56d32f7ab807",
+    basePrice: 3178,
     departureLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
-    },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     arrivalLocation: {
-      city: "St Thomas",
-      country: "U.S. Virgin Islands",
-      region: "Caribbean",
-      coordinates: {
-        latitude: 18.3419,
-        longitude: -64.9307,
-      },
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Embark on an unforgettable pilgrimage from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the US Virgin Islands region. With stops at st-thomas, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "533 nautical miles",
+      totalDuration: "8 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
     },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "96b06788-1e43-4471-afa4-562b307cf650",
+        name: "Ella Mason",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        contact: {
+          contactEmail: "secret.frontier.of.t@velarivoyages.com",
+          contactNumber: "+1-289-763-3106"
+        }
+      }
+    ],
+    title: "Secret Frontier of the Magens Bay Beauty",
+    description: "Embark on an unforgettable pilgrimage from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the US Virgin Islands region. With stops at st-thomas, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.4,
+    tags: ["sightseeing"]
+  },
+  {
+    id: "b01cd270-9218-4265-be64-1d0479831f2f",
+    basePrice: 6446,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Let the waves lead you from St Thomas on this midnight journey. Traverse the iconic waters of US Virgin Islands and discover the beauty of st-thomas.",
+      distance: "1204 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "75677827-cd84-4348-a37d-32e4a64a91f2",
+        name: "Christine Charlotte",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
+        contact: {
+          contactEmail: "lagoonexploring.symp@velarivoyages.com",
+          contactNumber: "+1-987-833-3786"
+        }
+      }
+    ],
+    title: "Lagoon-Exploring Symphony of the Trunk Bay & Magens Bay",
+    description: "Let the waves lead you from St Thomas on this midnight journey. Traverse the iconic waters of US Virgin Islands and discover the beauty of st-thomas.",
+    rating: 4.7,
+    tags: ["cruise"]
+  },
+  {
+    id: "3aaeeabe-2299-42e7-97b4-ae37b0c4521a",
+    basePrice: 6291,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Begin your journey in St Thomas, where tradition meets travel. This immersive elevation reveals the finest of US Virgin Islands, from the beaches of st-thomas to the streets of undefined.",
+      distance: "1341 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "158ace4f-80a7-4601-a79c-c145d152772e",
+        name: "Ariana Carpenter",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+        contact: {
+          contactEmail: "coastlinecruising.le@velarivoyages.com",
+          contactNumber: "+1-904-597-5276"
+        }
+      }
+    ],
+    title: "Coastline-Cruising Legacy of the Magens Bay Beauty",
+    description: "Begin your journey in St Thomas, where tradition meets travel. This immersive elevation reveals the finest of US Virgin Islands, from the beaches of st-thomas to the streets of undefined.",
+    rating: 4.4,
+    tags: ["cruise-ship"]
+  },
+  {
+    id: "ae42031d-e33a-421c-8c9b-919a536dabe8",
+    basePrice: 8730,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Sail away from St Thomas into the beautiful expanse of US Virgin Islands. Along the way, enjoy rich cultural experiences in st-thomas, where history, nature, and cuisine collide.",
+      distance: "905 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "d71108da-ea66-4783-ac6a-a9f853721df3",
+        name: "Samantha Wells",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
+        contact: {
+          contactEmail: "islandembraced.enigm@velarivoyages.com",
+          contactNumber: "+1-702-764-9612"
+        }
+      }
+    ],
+    title: "Island-Embraced Enigma of the Duty-Free Shopping",
+    description: "Sail away from St Thomas into the beautiful expanse of US Virgin Islands. Along the way, enjoy rich cultural experiences in st-thomas, where history, nature, and cuisine collide.",
+    rating: 4.9,
+    tags: ["cruise-vacation","family-friendly"]
+  },
+  {
+    id: "5bd4f859-f701-4fe7-ab7c-39cd5e68f5ee",
+    basePrice: 7847,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Set off on a eclipse from St Thomas that captures the essence of US Virgin Islands. Discover cultural gems and culinary delights across st-thomas.",
+      distance: "1253 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "828a64dd-fe40-49d9-ab52-b555df7f99ad",
+        name: "Carol Lawson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        contact: {
+          contactEmail: "moonlit.requiem.of.t@velarivoyages.com",
+          contactNumber: "+1-435-397-4359"
+        }
+      }
+    ],
+    title: "Moonlit Requiem of the Charlotte Amalie Charm",
+    description: "Set off on a eclipse from St Thomas that captures the essence of US Virgin Islands. Discover cultural gems and culinary delights across st-thomas.",
+    rating: 4.4,
+    tags: ["exclusive"]
+  },
+  {
+    id: "429ebc70-4fc2-4490-a0b7-8c1402038fef",
+    basePrice: 5616,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "fjords-tour",
     itinerary: {
       route: [
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-        {
-          city: "Bermuda",
-          country: "Bermuda",
-          coordinates: {
-            latitude: 32.3214,
-            longitude: -64.75737,
-          },
-        },
-        {
-          city: "Tampa",
-          country: "United States",
-          coordinates: {
-            latitude: 27.9506,
-            longitude: -82.4572,
-          },
-        },
-        {
-          city: "Fort Lauderdale",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Philipsburg",
-          country: "Sint Maarten",
-          coordinates: {
-            latitude: 18.0167,
-            longitude: -63.0587,
-          },
-        },
-        {
-          city: "St Thomas",
-          country: "U.S. Virgin Islands",
-          region: "Caribbean",
-          coordinates: {
-            latitude: 18.3419,
-            longitude: -64.9307,
-          },
-        },
-      ],
-      description:
-        "Begin a captivating mirage through the Caribbean, departing St Thomas. With visits to Bermuda, Tampa, Fort Lauderdale, Philipsburg, each day brings a new adventure and deeper connection to the region.",
-      distance: "571 nautical miles",
-      totalDuration: "17 days",
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Escape into the calm waters of US Virgin Islands with this moonlit journey from St Thomas. Explore vibrant markets, sun-soaked beaches, and architectural marvels at st-thomas.",
+      distance: "967 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from St Thomas to Bermuda",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Bermuda to Tampa",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Tampa to Fort Lauderdale",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Sailing from Fort Lauderdale to Philipsburg",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Sailing from Philipsburg to St Thomas",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring St Thomas",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Bermuda",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Tampa",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Fort Lauderdale",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Exploring Philipsburg",
-        },
-        {
-          start: "Day 16",
-          end: "Day 17",
-          duration: "2 days",
-          description: "Exploring St Thomas",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  }
+]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        name: "Virginia Cooper",
-        role: "Customer Service Representative",
-        languages: ["English", "Aymara", "Haitian", "French"], // Use the properly generated languages list
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
+        id: "770efcbd-f977-4e78-aa3d-0ec8395aa411",
+        name: "Lawrence Murray",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
         contact: {
-          contactEmail: "refined.pulse.of.the@velarivoyages.com",
-          contactNumber: "+1-708-975-7401",
-        },
-      },
+          contactEmail: "oceanembracing.odyss@velarivoyages.com",
+          contactNumber: "+1-656-621-8483"
+        }
+      }
     ],
-    title: "Refined Pulse of the Coral Sanctuaries",
-    description:
-      "Begin a captivating mirage through the Caribbean, departing St Thomas. With visits to Bermuda, Tampa, Fort Lauderdale, Philipsburg, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.6,
-    tags: ["expedition"],
+    title: "Ocean-Embracing Odyssey of the Caribbean Culture & Historic Forts",
+    description: "Escape into the calm waters of US Virgin Islands with this moonlit journey from St Thomas. Explore vibrant markets, sun-soaked beaches, and architectural marvels at st-thomas.",
+    rating: 4.8,
+    tags: ["cultural","exclusive","holiday-cruise"]
   },
+  {
+    id: "eb676fa6-9ec1-459a-bb34-6529a81b3c27",
+    basePrice: 4783,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Depart St Thomas on a relaxing quest through the US Virgin Islands region. Highlights include the stunning coastlines of st-thomas, all while enjoying first-class amenities on board.",
+      distance: "968 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "9717e89e-7662-4fe7-a92d-dbda690d190c",
+        name: "Vincent Dean",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
+        contact: {
+          contactEmail: "spectacular.wanderlu@velarivoyages.com",
+          contactNumber: "+1-739-189-9065"
+        }
+      }
+    ],
+    title: "Spectacular Wanderlust of the Charlotte Amalie Charm",
+    description: "Depart St Thomas on a relaxing quest through the US Virgin Islands region. Highlights include the stunning coastlines of st-thomas, all while enjoying first-class amenities on board.",
+    rating: 4.4,
+    tags: ["short-getaway"]
+  },
+  {
+    id: "7cc7240c-474b-408f-bf5c-233eda71181a",
+    basePrice: 4355,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Step aboard in St Thomas and begin a mythic journey through the scenic US Virgin Islands. From historic cities to coastal hideaways like st-thomas, every day is unforgettable.",
+      distance: "663 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "e4191cd0-c23b-4a9f-bac2-cab0e151bb91",
+        name: "Eugene Charlotte",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "seaside.sanctuary.of@velarivoyages.com",
+          contactNumber: "+1-491-423-4430"
+        }
+      }
+    ],
+    title: "Seaside Sanctuary of the Island Vistas",
+    description: "Step aboard in St Thomas and begin a mythic journey through the scenic US Virgin Islands. From historic cities to coastal hideaways like st-thomas, every day is unforgettable.",
+    rating: 4.4,
+    tags: ["cruise-vacation"]
+  },
+  {
+    id: "58db980b-bd8b-46b0-82f7-dd2ad83d30a5",
+    basePrice: 6240,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Leave stress behind with this curated exploration from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+      distance: "792 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "bc1a2242-57eb-4b95-adf0-f0c343f6ba81",
+        name: "Eugene Holloway",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
+        contact: {
+          contactEmail: "enchanting.retreat.o@velarivoyages.com",
+          contactNumber: "+1-976-543-7304"
+        }
+      }
+    ],
+    title: "Enchanting Retreat of the Island Vistas",
+    description: "Leave stress behind with this curated exploration from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+    rating: 4.4,
+    tags: ["cruise-ship","holiday-cruise"]
+  },
+  {
+    id: "d66ce54f-0b84-4838-af35-aa8a25a60954",
+    basePrice: 8008,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "From the lively departure port of St Thomas, this curated zenith showcases the finest of US Virgin Islands. With visits to st-thomas, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+      distance: "867 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "21611d19-4699-4b4f-a3c6-97f63fdff6e8",
+        name: "Roger Hamilton",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
+        contact: {
+          contactEmail: "luminous.exploration@velarivoyages.com",
+          contactNumber: "+1-454-829-6462"
+        }
+      }
+    ],
+    title: "Luminous Exploration of the Duty-Free Shopping",
+    description: "From the lively departure port of St Thomas, this curated zenith showcases the finest of US Virgin Islands. With visits to st-thomas, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
+    rating: 4.7,
+    tags: ["cruise-getaway","sightseeing"]
+  },
+  {
+    id: "21ddf91d-b8c7-4ab8-8f05-7d9de789c5e1",
+    basePrice: 7307,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Explore a new side of US Virgin Islands with this seascape-discovering elevation starting in St Thomas. Visit charming ports such as st-thomas, each offering its own unique rhythm.",
+      distance: "653 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "0102f0cd-7482-414f-bb2f-ab74ae558ffc",
+        name: "Louis Stewart",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+        contact: {
+          contactEmail: "secret.arcadia.of.th@velarivoyages.com",
+          contactNumber: "+1-528-335-9698"
+        }
+      }
+    ],
+    title: "Secret Arcadia of the Duty-Free Shopping",
+    description: "Explore a new side of US Virgin Islands with this seascape-discovering elevation starting in St Thomas. Visit charming ports such as st-thomas, each offering its own unique rhythm.",
+    rating: 4.5,
+    tags: ["family-friendly","glacier-cruise"]
+  },
+  {
+    id: "358c8a53-2c80-4136-ad04-e518ba04613a",
+    basePrice: 2223,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Sail into splendor from St Thomas on a shoreline-exploring voyage through US Virgin Islands. Let each stop—from st-thomas to undefined—reveal the unique flavors and colors of the region.",
+      distance: "523 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "839e99cb-090b-4624-ab63-2923173f3d88",
+        name: "Austin Dean",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 9,
+        profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
+        contact: {
+          contactEmail: "sublime.reflection.o@velarivoyages.com",
+          contactNumber: "+1-759-967-1391"
+        }
+      }
+    ],
+    title: "Sublime Reflection of the Caribbean Paradise",
+    description: "Sail into splendor from St Thomas on a shoreline-exploring voyage through US Virgin Islands. Let each stop—from st-thomas to undefined—reveal the unique flavors and colors of the region.",
+    rating: 4.4,
+    tags: ["nature"]
+  },
+  {
+    id: "ede71348-46af-4e65-bb8b-447aaa1fdddf",
+    basePrice: 1697,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Leave stress behind with this curated retreat from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+      distance: "1322 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "9da38b58-320f-4f47-8585-85d50a16a167",
+        name: "Gary Reeves",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+        contact: {
+          contactEmail: "oceanbound.excursion@velarivoyages.com",
+          contactNumber: "+1-770-908-2761"
+        }
+      }
+    ],
+    title: "Ocean-Bound Excursion of the Caribbean Culture & Historic Forts",
+    description: "Leave stress behind with this curated retreat from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+    rating: 4.5,
+    tags: ["VIP","cruise-journey","luxury"]
+  },
+  {
+    id: "a745147a-e3a7-408c-bb2d-8b95a0a9f614",
+    basePrice: 1209,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Set sail from St Thomas on a tide-whispered saga that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+      distance: "1200 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "68999c96-09ba-4ebd-a679-4833e1d55f83",
+        name: "Gabriel Gardner",
+        role: "Travel Advisor",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+        contact: {
+          contactEmail: "horizonkissed.passag@velarivoyages.com",
+          contactNumber: "+1-618-675-7349"
+        }
+      }
+    ],
+    title: "Horizon-Kissed Passage of the Caribbean Culture & Historic Forts",
+    description: "Set sail from St Thomas on a tide-whispered saga that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+    rating: 4.6,
+    tags: ["exclusive","cruise"]
+  }
 ];

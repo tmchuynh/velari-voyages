@@ -1,1404 +1,2659 @@
-import { Cruise } from "@/lib/interfaces/services/cruises";
+// This file is auto-generated
+    // Do not edit manually.
+    // City: Juneau
+    // Generated on: 2025-06-10T03:09:08.441Z
+  import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const juneauCruises: Cruise[] = [
-  {
-    basePrice: 9725,
+{
+    id: "4c6d2f60-4ed4-4907-b9f8-0f9e4407adbd",
+    basePrice: 7850,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "weekend-cruise",
+    category: "repositioning-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-      ],
-      description:
-        "Depart from the iconic port of Juneau and sail through the enchanting Alaska. Explore vibrant destinations like Victoria, Seattle, each offering its own unique charm and local flair.",
-      distance: "891 nautical miles",
-      totalDuration: "9 days",
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Begin an epic retreat from Juneau, where the seas meet culture. Visit the remarkable ports of glacier-bay, ketchikan while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "828 nautical miles",
+      totalDuration: "13 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Juneau to Victoria",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Victoria to Seattle",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Seattle to Juneau",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to glacier-bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to Juneau"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "theme-cruise",
+    contactPersonnel: [
+      {
+        id: "eadfa79d-a426-46be-ae32-141502d7296c",
+        name: "Sarah Fisher",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        contact: {
+          contactEmail: "crystalline.mystique@velarivoyages.com",
+          contactNumber: "+1-746-508-9643"
+        }
+      }
+    ],
+    title: "Crystalline Mystique of the Glacier Cruises & Wildlife Viewing",
+    description: "Begin an epic retreat from Juneau, where the seas meet culture. Visit the remarkable ports of glacier-bay, ketchikan while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 4.8,
+    tags: ["themed-cruise"]
+  },
+  {
+    id: "fad1ddcc-48fc-4d72-bc23-3058110794b4",
+    basePrice: 8751,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "ketchikan",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 55.3422,
+    "longitude": -131.6476
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  }
+],
+      description: "Begin a captivating escape through the Alaska, departing Juneau. With visits to denali, anchorage, skagway, ketchikan, each day brings a new adventure and deeper connection to the region.",
+      distance: "636 nautical miles",
+      totalDuration: "15 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to denali"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from denali to anchorage"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to skagway"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Sailing from skagway to ketchikan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring ketchikan"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "55a7d6c4-4107-48fb-a44b-c94f1196981c",
+        name: "Nora Cooper",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+        contact: {
+          contactEmail: "infinite.elevation.o@velarivoyages.com",
+          contactNumber: "+1-279-233-2645"
+        }
+      }
+    ],
+    title: "Infinite Elevation of the Gateway to Glaciers",
+    description: "Begin a captivating escape through the Alaska, departing Juneau. With visits to denali, anchorage, skagway, ketchikan, each day brings a new adventure and deeper connection to the region.",
+    rating: 5.0,
+    tags: ["weekend-cruise","short-getaway","exclusive"]
+  },
+  {
+    id: "88aad4bf-4394-4048-9086-8ee53aa316c6",
+    basePrice: 8137,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "skagway",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 59.4569,
+    "longitude": -135.3123
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  }
+],
+      description: "Depart from iconic Juneau and traverse the Alaska with visits to glacier-bay, ketchikan, skagway. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "1233 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to glacier-bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to ketchikan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from ketchikan to skagway"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Exploring skagway"
+  }
+]
     },
     tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        name: "Emma Bennett",
+        id: "5c93fb08-204f-4099-aeaf-4e57102c80be",
+        name: "Dorothy Reed",
         role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
         contact: {
-          contactEmail: "mythic.odyssey.of.th@velarivoyages.com",
-          contactNumber: "+1-318-389-7742",
-        },
-      },
+          contactEmail: "celestial.arcadia.of@velarivoyages.com",
+          contactNumber: "+1-682-668-5687"
+        }
+      }
     ],
-    title: "Mythic Odyssey of the Frozen Frontiers",
-    description:
-      "Depart from the iconic port of Juneau and sail through the enchanting Alaska. Explore vibrant destinations like Victoria, Seattle, each offering its own unique charm and local flair.",
-    rating: 4.5,
-    tags: ["short-getaway", "seasonal"],
+    title: "Celestial Arcadia of the Alaskan Capital",
+    description: "Depart from iconic Juneau and traverse the Alaska with visits to glacier-bay, ketchikan, skagway. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.3,
+    tags: ["relaxation","cruise-journey","holiday-cruise"]
   },
   {
-    basePrice: 2726,
+    id: "bc11b06e-ffa2-45ba-99f6-f828524e4f10",
+    basePrice: 9961,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "sitka",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 57.0531,
+    "longitude": -135.3304
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "fjords-tour",
+    category: "anniversary-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-      ],
-      description:
-        "This inspiring legacy departs from Juneau, navigating the diverse landscapes and vibrant cities of Alaska. Must-see stops include Victoria, Glacier Bay, Vancouver, Sitka.",
-      distance: "938 nautical miles",
-      totalDuration: "15 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Juneau to Victoria",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Sailing from Victoria to Glacier Bay",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Glacier Bay to Vancouver",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Sitka",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Sitka to Juneau",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        name: "Helen Reed",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-        contact: {
-          contactEmail: "mythic.tide.of.the.f@velarivoyages.com",
-          contactNumber: "+1-589-948-4778",
-        },
-      },
-    ],
-    title: "Mythic Tide of the Frozen Frontiers",
-    description:
-      "This inspiring legacy departs from Juneau, navigating the diverse landscapes and vibrant cities of Alaska. Must-see stops include Victoria, Glacier Bay, Vancouver, Sitka.",
-    rating: 4.4,
-    tags: ["cruise-line", "general"],
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
   },
   {
-    basePrice: 9599,
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  }
+],
+      description: "This ocean-bound cruise from Juneau is your gateway to the wonders of Alaska. Experience the best of coastal life with stops at denali, sitka, where each destination is a treasure waiting to be explored.",
+      distance: "1397 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to denali"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from denali to sitka"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring sitka"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "5643df18-4742-4bb3-98a1-403e47a87dc5",
+        name: "Alexander Coleman",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
+        contact: {
+          contactEmail: "refined.frontier.of.@velarivoyages.com",
+          contactNumber: "+1-647-406-5424"
+        }
+      }
+    ],
+    title: "Refined Frontier of the Gateway to Glaciers",
+    description: "This ocean-bound cruise from Juneau is your gateway to the wonders of Alaska. Experience the best of coastal life with stops at denali, sitka, where each destination is a treasure waiting to be explored.",
+    rating: 4.1,
+    tags: ["cruise-adventure","cultural","cruise-ship"]
+  },
+  {
+    id: "3526266b-d809-4a86-a0f0-04fd8ab227dd",
+    basePrice: 8606,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
+  "city": "ketchikan",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 55.3422,
+    "longitude": -131.6476
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "fall-foliage-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "Step aboard in Juneau and begin a hidden journey through the scenic Alaska. From historic cities to coastal hideaways like Victoria, Vancouver, every day is unforgettable.",
-      distance: "1331 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Juneau to Victoria",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Sailing from Victoria to Vancouver",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Rebecca Campbell",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-        contact: {
-          contactEmail: "floating.horizon.of.@velarivoyages.com",
-          contactNumber: "+1-697-598-1744",
-        },
-      },
-    ],
-    title: "Floating Horizon of the Glacial Kingdom",
-    description:
-      "Step aboard in Juneau and begin a hidden journey through the scenic Alaska. From historic cities to coastal hideaways like Victoria, Vancouver, every day is unforgettable.",
-    rating: 4.4,
-    tags: ["exclusive"],
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
   },
   {
-    basePrice: 3031,
-    departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
-    arrivalLocation: {
-      city: "Vancouver",
-      country: "Canada",
-      coordinates: {
-        latitude: 49.2827,
-        longitude: -123.1207,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-      ],
-      description:
-        "Escape the everyday with this harmonic journey through Alaska, departing from Juneau. You'll visit Sitka, Glacier Bay, Vancouver, where every stop is a new adventure.",
-      distance: "907 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Juneau to Sitka",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Sitka to Glacier Bay",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Glacier Bay to Vancouver",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Samantha Fox",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-        contact: {
-          contactEmail: "sublime.pilgrimage.o@velarivoyages.com",
-          contactNumber: "+1-586-229-8896",
-        },
-      },
-    ],
-    title: "Sublime Pilgrimage of the Frozen Frontiers",
-    description:
-      "Escape the everyday with this harmonic journey through Alaska, departing from Juneau. You'll visit Sitka, Glacier Bay, Vancouver, where every stop is a new adventure.",
-    rating: 4.3,
-    tags: ["sightseeing"],
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
   },
   {
-    basePrice: 4115,
-    departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
-    arrivalLocation: {
-      city: "Sitka",
-      country: "United States",
-      coordinates: {
-        latitude: 57.0531,
-        longitude: -135.3304,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-      ],
-      description:
-        "Embark from Juneau and traverse the Alaska in style. Whether it’s the energy of Skagway or the calm of Victoria, each destination reveals a new side of paradise.",
-      distance: "668 nautical miles",
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  }
+],
+      description: "Embark on an unforgettable currents from the vibrant port of Juneau, where you'll discover hidden gems and iconic landmarks across the Alaska region. With stops at anchorage, glacier-bay, sitka, ketchikan, this journey combines cultural immersion with breathtaking scenery.",
+      distance: "512 nautical miles",
       totalDuration: "15 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Juneau to Skagway",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Skagway to Victoria",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Victoria to Vancouver",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Sailing from Vancouver to Sitka",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to glacier-bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to sitka"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from sitka to ketchikan"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring sitka"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring ketchikan"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Sarah Baker",
+        id: "a371ba85-54ff-46d9-8d57-cb3721c09222",
+        name: "Michelle Gardner",
         role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
         experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
         contact: {
-          contactEmail: "heavenly.enigma.of.t@velarivoyages.com",
-          contactNumber: "+1-140-826-2635",
-        },
-      },
+          contactEmail: "legendary.odyssey.of@velarivoyages.com",
+          contactNumber: "+1-307-775-7878"
+        }
+      }
     ],
-    title: "Heavenly Enigma of the Echoes of Ice",
-    description:
-      "Embark from Juneau and traverse the Alaska in style. Whether it’s the energy of Skagway or the calm of Victoria, each destination reveals a new side of paradise.",
-    rating: 4.4,
-    tags: ["glacier-cruise"],
+    title: "Legendary Odyssey of the Tongass Treasure",
+    description: "Embark on an unforgettable currents from the vibrant port of Juneau, where you'll discover hidden gems and iconic landmarks across the Alaska region. With stops at anchorage, glacier-bay, sitka, ketchikan, this journey combines cultural immersion with breathtaking scenery.",
+    rating: 4.1,
+    tags: ["cruise-line","long-distance","wildlife"]
   },
   {
-    basePrice: 7714,
+    id: "ba357ce5-d2d1-4425-82cb-3d4ce5f58be6",
+    basePrice: 1765,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Depart from Juneau on this thoughtfully designed pulse across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at anchorage, denali.",
+      distance: "1434 nautical miles",
+      totalDuration: "10 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to denali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from denali to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
     },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "937cf8c7-94d3-4678-9527-61895fb4e849",
+        name: "Aria Day",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        contact: {
+          contactEmail: "gilded.odyssey.of.th@velarivoyages.com",
+          contactNumber: "+1-976-951-8243"
+        }
+      }
+    ],
+    title: "Gilded Odyssey of the Gateway to Glaciers",
+    description: "Depart from Juneau on this thoughtfully designed pulse across the Alaska. Savor coastal charm, cultural treasures, and ocean views with stops at anchorage, denali.",
+    rating: 4.1,
+    tags: ["cultural"]
+  },
+  {
+    id: "6a9de888-16a4-4c0a-a693-723351ef57b0",
+    basePrice: 6757,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Embark from Juneau and traverse the Alaska in style. Whether it’s the energy of skagway or the calm of glacier-bay, each destination reveals a new side of paradise.",
+      distance: "923 nautical miles",
+      totalDuration: "19 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to skagway"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from skagway to glacier-bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to ketchikan"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to denali"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 18",
+    "duration": "2 days",
+    "description": "Sailing from denali to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 19",
+    "end": "Day 19",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "81a6079c-ca08-4c4e-8dfd-36e4568f5d7a",
+        name: "Barbara Wells",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        contact: {
+          contactEmail: "aweinspiring.requiem@velarivoyages.com",
+          contactNumber: "+1-492-281-4223"
+        }
+      }
+    ],
+    title: "Awe-Inspiring Requiem of the Gateway to Glaciers",
+    description: "Embark from Juneau and traverse the Alaska in style. Whether it’s the energy of skagway or the calm of glacier-bay, each destination reveals a new side of paradise.",
+    rating: 4.4,
+    tags: ["romantic","exclusive"]
+  },
+  {
+    id: "65c9a7f8-2daf-4145-b971-4b61a555f954",
+    basePrice: 1484,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "An unforgettable odyssey awaits as you cruise from Juneau across Alaska. Dive into history, flavor, and culture with stops including glacier-bay, anchorage, sitka, denali.",
+      distance: "690 nautical miles",
+      totalDuration: "17 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to glacier-bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to anchorage"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to sitka"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 13",
+    "duration": "2 days",
+    "description": "Sailing from sitka to denali"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 16",
+    "duration": "1 days",
+    "description": "Sailing from denali to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring sitka"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "847fbb69-af52-4e99-bab5-e144d73bec01",
+        name: "Maya Foster",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
+        contact: {
+          contactEmail: "dawnembraced.mystiqu@velarivoyages.com",
+          contactNumber: "+1-936-874-5466"
+        }
+      }
+    ],
+    title: "Dawn-Embraced Mystique of the Iditarod Trail & Gold Rush History",
+    description: "An unforgettable odyssey awaits as you cruise from Juneau across Alaska. Dive into history, flavor, and culture with stops including glacier-bay, anchorage, sitka, denali.",
+    rating: 4.5,
+    tags: ["cruise-adventure","fall-cruise","long-distance"]
+  },
+  {
+    id: "bd5cf294-2b25-49e1-aa48-ee9cc757b5ac",
+    basePrice: 9155,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Escape into the calm waters of Alaska with this celestial journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, skagway.",
+      distance: "833 nautical miles",
+      totalDuration: "12 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to skagway"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from skagway to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "1170100d-e5ce-4fe9-941c-aac9d20bddb5",
+        name: "Genesis Charlotte",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
+        contact: {
+          contactEmail: "floating.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-109-651-4140"
+        }
+      }
+    ],
+    title: "Floating Zenith of the Wilderness Port",
+    description: "Escape into the calm waters of Alaska with this celestial journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, skagway.",
+    rating: 4.4,
+    tags: ["sightseeing"]
+  },
+  {
+    id: "c2ba0d45-0e48-4d28-8bcc-af50b13a242e",
+    basePrice: 1156,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "denali",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 63.1148,
+    "longitude": -151.1926
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
     category: "expedition-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-      ],
-      description:
-        "Embark on an unforgettable labyrinth from the vibrant port of Juneau, where you'll discover hidden gems and iconic landmarks across the Alaska region. With stops at Seattle, Skagway, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "1137 nautical miles",
-      totalDuration: "10 days",
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  }
+],
+      description: "Escape into the calm waters of Alaska with this azure journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, denali.",
+      distance: "880 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Juneau to Seattle",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Seattle to Skagway",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Skagway to Juneau",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to denali"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  }
+]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Kinsley Sutton",
+        id: "f25d7a44-6e24-4100-91ca-36aacd368e85",
+        name: "Carol Lawson",
         role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
         contact: {
-          contactEmail: "luminous.infinite.of@velarivoyages.com",
-          contactNumber: "+1-591-538-5482",
-        },
-      },
+          contactEmail: "coralembraced.arcadi@velarivoyages.com",
+          contactNumber: "+1-256-881-2345"
+        }
+      }
     ],
-    title: "Luminous Infinite of the Wilderness Reaches",
-    description:
-      "Embark on an unforgettable labyrinth from the vibrant port of Juneau, where you'll discover hidden gems and iconic landmarks across the Alaska region. With stops at Seattle, Skagway, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.5,
-    tags: ["family-friendly"],
+    title: "Coral-Embraced Arcadia of the Alaskan Capital",
+    description: "Escape into the calm waters of Alaska with this azure journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, denali.",
+    rating: 4.9,
+    tags: ["short-getaway","cruise-experience"]
   },
   {
-    basePrice: 8975,
+    id: "d215661a-f9fa-4df7-b001-3443ac9f8a93",
+    basePrice: 6561,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Ketchikan",
-      country: "United States",
-      coordinates: {
-        latitude: 55.3422,
-        longitude: -131.6476,
-      },
-    },
+  "city": "anchorage",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 61.2181,
+    "longitude": -149.9003
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "repositioning-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Victoria",
-          country: "Canada",
-          coordinates: {
-            latitude: 48.4284,
-            longitude: -123.3656,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Skagway",
-          country: "United States",
-          coordinates: {
-            latitude: 59.4569,
-            longitude: -135.3123,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-      ],
-      description:
-        "Sail into splendor from Juneau on a hidden voyage through Alaska. Let each stop—from Victoria to Vancouver—reveal the unique flavors and colors of the region.",
-      distance: "1114 nautical miles",
-      totalDuration: "15 days",
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  }
+],
+      description: "Discover the wonders of Alaska on this majestic cruise departing from Juneau. From the stunning coastlines of denali to the vibrant cities of glacier-bay, this journey promises to be a feast for the senses.",
+      distance: "1476 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Juneau to Victoria",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Victoria to Vancouver",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Skagway",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Skagway to Ketchikan",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to denali"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from denali to glacier-bay"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to anchorage"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Victoria",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Skagway",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Exploring Ketchikan",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "4516ee97-b78e-411a-88e3-ada14ec9db90",
+        name: "Austin Hawkins",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "refined.whisper.of.t@velarivoyages.com",
+          contactNumber: "+1-822-604-5282"
+        }
+      }
+    ],
+    title: "Refined Whisper of the Mendenhall's Majesty",
+    description: "Discover the wonders of Alaska on this majestic cruise departing from Juneau. From the stunning coastlines of denali to the vibrant cities of glacier-bay, this journey promises to be a feast for the senses.",
+    rating: 4.8,
+    tags: ["historical","cruise-journey"]
+  },
+  {
+    id: "b5b9a9ec-ae1f-4d7b-8f31-edbb26f6e8e0",
+    basePrice: 9149,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Set course from Juneau for an inspiring seaside journey across Alaska. Whether exploring ancient ruins in denali or soaking up coastal views in sitka, every day offers a perfect mix of discovery and relaxation.",
+      distance: "595 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to denali"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from denali to sitka"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from sitka to ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from ketchikan to anchorage"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring sitka"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Nicole Baker",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
+        id: "35802560-3115-4fce-a252-8a8f47a6be0f",
+        name: "Dylan Douglas",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
         contact: {
-          contactEmail: "ornate.odyssey.of.th@velarivoyages.com",
-          contactNumber: "+1-459-592-9178",
-        },
-      },
+          contactEmail: "horizonkissed.wander@velarivoyages.com",
+          contactNumber: "+1-230-830-7570"
+        }
+      }
     ],
-    title: "Ornate Odyssey of the Snow-Crowned Peaks",
-    description:
-      "Sail into splendor from Juneau on a hidden voyage through Alaska. Let each stop—from Victoria to Vancouver—reveal the unique flavors and colors of the region.",
+    title: "Horizon-Kissed Wanderlust of the Denali National Park & Northern Lights",
+    description: "Set course from Juneau for an inspiring seaside journey across Alaska. Whether exploring ancient ruins in denali or soaking up coastal views in sitka, every day offers a perfect mix of discovery and relaxation.",
     rating: 4.9,
-    tags: ["cruise-excursion"],
+    tags: ["wildlife","exclusive"]
   },
   {
-    basePrice: 1639,
+    id: "5fd0b946-5802-4dca-9134-d6fb26fe87ee",
+    basePrice: 3452,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Seattle",
-      country: "United States",
-      coordinates: {
-        latitude: 47.6062,
-        longitude: -122.3321,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Sitka",
-          country: "United States",
-          coordinates: {
-            latitude: 57.0531,
-            longitude: -135.3304,
-          },
-        },
-        {
-          city: "Ketchikan",
-          country: "United States",
-          coordinates: {
-            latitude: 55.3422,
-            longitude: -131.6476,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-      ],
-      description:
-        "This currents takes you beyond the ordinary, starting in Juneau. With breathtaking stops in Sitka, Ketchikan, Seattle, your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "661 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Juneau to Sitka",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Sitka to Ketchikan",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Ketchikan to Seattle",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Sitka",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Exploring Ketchikan",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Seattle",
-        },
-      ],
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        name: "Madelyn Ellis",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-        contact: {
-          contactEmail: "legendary.arcadia.of@velarivoyages.com",
-          contactNumber: "+1-130-544-4907",
-        },
-      },
-    ],
-    title: "Legendary Arcadia of the Misty Fjords",
-    description:
-      "This currents takes you beyond the ordinary, starting in Juneau. With breathtaking stops in Sitka, Ketchikan, Seattle, your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.4,
-    tags: ["cruise-line"],
-  },
-  {
-    basePrice: 4248,
-    departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
-    arrivalLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "glacier-cruise",
+    category: "expedition-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-      ],
-      description:
-        "Step into a world of elegance and exploration from Juneau. This saga through the Alaska unveils stunning stops including Seattle, Glacier Bay, Vancouver, all with first-class service.",
-      distance: "1092 nautical miles",
-      totalDuration: "13 days",
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Set sail from Juneau on this moonlit solstice through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore sitka and anchorage and denali and skagway, with personalized service and unforgettable experiences awaiting at every port.",
+      distance: "1158 nautical miles",
+      totalDuration: "17 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Juneau to Seattle",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Seattle to Glacier Bay",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Glacier Bay to Vancouver",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Juneau",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to sitka"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from sitka to anchorage"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to denali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from denali to skagway"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Sailing from skagway to Juneau"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring sitka"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 17",
+    "end": "Day 17",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "68e4e55c-48eb-43ef-b235-25fb97eb39a1",
+        name: "Willie Graves",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
+        contact: {
+          contactEmail: "seaside.realm.of.the@velarivoyages.com",
+          contactNumber: "+1-814-142-7044"
+        }
+      }
+    ],
+    title: "Seaside Realm of the Tongass Treasure",
+    description: "Set sail from Juneau on this moonlit solstice through the heart of Alaska. Experience the perfect blend of relaxation and adventure as you explore sitka and anchorage and denali and skagway, with personalized service and unforgettable experiences awaiting at every port.",
+    rating: 4.0,
+    tags: ["cruise-excursion"]
+  },
+  {
+    id: "73d43abd-0040-40d6-873c-2a9e51e780dc",
+    basePrice: 7815,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "anchorage",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 61.2181,
+    "longitude": -149.9003
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  }
+],
+      description: "Set sail from Juneau on a wave-whispered whisper that takes you through the heart of Alaska. With stops at glacier-bay, ketchikan, anchorage, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+      distance: "1324 nautical miles",
+      totalDuration: "11 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to glacier-bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 6",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to ketchikan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to anchorage"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  }
+]
     },
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Janet Dixon",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
+        id: "be216335-0707-43ee-9706-70ae00283ce7",
+        name: "Austin Nash",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
         experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
         contact: {
-          contactEmail: "luminous.saga.of.the@velarivoyages.com",
-          contactNumber: "+1-512-747-2153",
-        },
-      },
+          contactEmail: "radiant.pilgrimage.o@velarivoyages.com",
+          contactNumber: "+1-744-278-9041"
+        }
+      }
     ],
-    title: "Luminous Saga of the Frontier Silence",
-    description:
-      "Step into a world of elegance and exploration from Juneau. This saga through the Alaska unveils stunning stops including Seattle, Glacier Bay, Vancouver, all with first-class service.",
-    rating: 4.5,
-    tags: ["relaxation", "cruise-getaway"],
+    title: "Radiant Pilgrimage of the Gateway to Glaciers",
+    description: "Set sail from Juneau on a wave-whispered whisper that takes you through the heart of Alaska. With stops at glacier-bay, ketchikan, anchorage, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
+    rating: 4.1,
+    tags: ["romantic","general"]
   },
   {
-    basePrice: 6879,
+    id: "76dedad9-0485-48a2-b283-ff3d5816bb04",
+    basePrice: 3255,
     departureLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
     arrivalLocation: {
-      city: "Juneau",
-      country: "United States",
-      region: "Alaska",
-      coordinates: {
-        latitude: 58.3019,
-        longitude: -134.4197,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "repositioning-cruise",
+    category: "theme-cruise",
     itinerary: {
       route: [
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-        {
-          city: "Glacier Bay",
-          country: "",
-          coordinates: {
-            latitude: 0,
-            longitude: 0,
-          },
-        },
-        {
-          city: "Seattle",
-          country: "United States",
-          coordinates: {
-            latitude: 47.6062,
-            longitude: -122.3321,
-          },
-        },
-        {
-          city: "Vancouver",
-          country: "Canada",
-          coordinates: {
-            latitude: 49.2827,
-            longitude: -123.1207,
-          },
-        },
-        {
-          city: "Juneau",
-          country: "United States",
-          region: "Alaska",
-          coordinates: {
-            latitude: 58.3019,
-            longitude: -134.4197,
-          },
-        },
-      ],
-      description:
-        "Your pulse begins in Juneau, where every sunset on the Alaska horizon promises another day of discovery—from Glacier Bay, Seattle, Vancouver to hidden ports of charm.",
-      distance: "697 nautical miles",
-      totalDuration: "15 days",
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Escape into the calm waters of Alaska with this floating journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, ketchikan, skagway, denali.",
+      distance: "1209 nautical miles",
+      totalDuration: "17 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Juneau to Glacier Bay",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Glacier Bay to Seattle",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Seattle to Vancouver",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Sailing from Vancouver to Juneau",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to ketchikan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Sailing from ketchikan to skagway"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from skagway to denali"
+  },
+  {
+    "start": "Day 14",
+    "end": "Day 15",
+    "duration": "2 days",
+    "description": "Sailing from denali to Juneau"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Juneau",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Glacier Bay",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Seattle",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Vancouver",
-        },
-        {
-          start: "Day 15",
-          end: "Day 15",
-          duration: "1 days",
-          description: "Exploring Juneau",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 11",
+    "duration": "2 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Stella Fisher",
-        role: "Reservations Agent",
-        languages: ["English", "German", "French", "Italian"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
+        id: "0dc87c91-174d-48f4-b7a1-09e385b90733",
+        name: "Javier Henderson",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
         contact: {
-          contactEmail: "infinite.arcadia.of.@velarivoyages.com",
-          contactNumber: "+1-920-530-8796",
-        },
-      },
+          contactEmail: "baydrifting.odyssey.@velarivoyages.com",
+          contactNumber: "+1-698-527-1385"
+        }
+      }
     ],
-    title: "Infinite Arcadia of the Northern Lights",
-    description:
-      "Your pulse begins in Juneau, where every sunset on the Alaska horizon promises another day of discovery—from Glacier Bay, Seattle, Vancouver to hidden ports of charm.",
-    rating: 4.1,
-    tags: ["luxury"],
+    title: "Bay-Drifting Odyssey of the Wilderness Port",
+    description: "Escape into the calm waters of Alaska with this floating journey from Juneau. Explore vibrant markets, sun-soaked beaches, and architectural marvels at anchorage, ketchikan, skagway, denali.",
+    rating: 4.8,
+    tags: ["glacier-cruise"]
   },
+  {
+    id: "ce2d5049-b0bb-4f4f-bf44-69809642f2d8",
+    basePrice: 7489,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "glacier-bay",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 58.8017,
+    "longitude": -135.5828
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  }
+],
+      description: "This whispering reflection begins in Juneau and ventures deep into the heart of Alaska. Wander through colorful markets, historic streets, and serene coastlines at anchorage, glacier-bay.",
+      distance: "526 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to anchorage"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to glacier-bay"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "1f64ba2c-23cf-4ec7-8352-80431fd743c2",
+        name: "Lawrence Montgomery",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
+        contact: {
+          contactEmail: "shorelineexploring.l@velarivoyages.com",
+          contactNumber: "+1-310-811-4906"
+        }
+      }
+    ],
+    title: "Shoreline-Exploring Labyrinth of the Mendenhall's Majesty",
+    description: "This whispering reflection begins in Juneau and ventures deep into the heart of Alaska. Wander through colorful markets, historic streets, and serene coastlines at anchorage, glacier-bay.",
+    rating: 4.7,
+    tags: ["cruise-ship","cruise-line"]
+  },
+  {
+    id: "98143a06-2cfd-48a5-a2ab-0e4d7b21d03e",
+    basePrice: 7650,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "anchorage",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 61.2181,
+    "longitude": -149.9003
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  }
+],
+      description: "Board in Juneau for a hand-crafted mythos through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in glacier-bay, anchorage.",
+      distance: "985 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to glacier-bay"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to anchorage"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "b88e0388-e19b-4aaf-8e9a-1a69e0f7adf4",
+        name: "Eugene Chambers",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
+        contact: {
+          contactEmail: "riveting.symphony.of@velarivoyages.com",
+          contactNumber: "+1-368-247-2679"
+        }
+      }
+    ],
+    title: "Riveting Symphony of the Denali National Park & Northern Lights",
+    description: "Board in Juneau for a hand-crafted mythos through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in glacier-bay, anchorage.",
+    rating: 4.9,
+    tags: ["expedition"]
+  },
+  {
+    id: "f6b9c6cf-77f7-44f1-9247-c3d6c0704691",
+    basePrice: 9616,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "sitka",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 57.0531,
+      "longitude": -135.3304
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Let this majestic voyage redefine your idea of travel. From Juneau, explore the Alaska in luxurious comfort, stopping at sitka, glacier-bay where every port offers a new chapter.",
+      distance: "1374 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Juneau to sitka"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Sailing from sitka to glacier-bay"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring sitka"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "59dba533-8f03-4ec2-ad74-8d2e153d6198",
+        name: "Nicholas Spencer",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
+        contact: {
+          contactEmail: "azure.symphony.of.th@velarivoyages.com",
+          contactNumber: "+1-657-757-9842"
+        }
+      }
+    ],
+    title: "Azure Symphony of the Denali National Park & Northern Lights",
+    description: "Let this majestic voyage redefine your idea of travel. From Juneau, explore the Alaska in luxurious comfort, stopping at sitka, glacier-bay where every port offers a new chapter.",
+    rating: 4.8,
+    tags: ["general","long-distance"]
+  },
+  {
+    id: "df4e4966-52bf-41a3-93f2-2cffd5dd0986",
+    basePrice: 8755,
+    departureLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    arrivalLocation: {
+  "city": "Juneau",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "skagway",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  }
+],
+      description: "Let this legendary voyage redefine your idea of travel. From Juneau, explore the Alaska in luxurious comfort, stopping at ketchikan, skagway, anchorage where every port offers a new chapter.",
+      distance: "727 nautical miles",
+      totalDuration: "14 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Juneau to ketchikan"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to skagway"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from skagway to anchorage"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to Juneau"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring skagway"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Exploring Juneau"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "5ed7c784-7e38-40eb-8a13-ff55eb93e7dc",
+        name: "Marcus Gardner",
+        role: "Sales Consultant",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        contact: {
+          contactEmail: "ornate.oasis.of.the.@velarivoyages.com",
+          contactNumber: "+1-698-927-5500"
+        }
+      }
+    ],
+    title: "Ornate Oasis of the Mendenhall's Majesty",
+    description: "Let this legendary voyage redefine your idea of travel. From Juneau, explore the Alaska in luxurious comfort, stopping at ketchikan, skagway, anchorage where every port offers a new chapter.",
+    rating: 4.4,
+    tags: ["cultural","holiday-cruise"]
+  }
 ];

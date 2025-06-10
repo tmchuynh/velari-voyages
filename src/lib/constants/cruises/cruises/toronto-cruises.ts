@@ -1,1428 +1,1561 @@
-import { Cruise } from "@/lib/interfaces/services/cruises";
+// This file is auto-generated
+    // Do not edit manually.
+    // City: Toronto
+    // Generated on: 2025-06-10T03:09:08.458Z
+  import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const torontoCruises: Cruise[] = [
-  {
-    basePrice: 7861,
+{
+    id: "75502ad7-97aa-45fe-9b1b-62fa040c5470",
+    basePrice: 2918,
     departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition-cruise",
+    category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "Greece",
-          coordinates: {
-            latitude: 37.4467,
-            longitude: 25.3289,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Mykonos, Venice, with curated excursions and luxurious onboard amenities.",
-      distance: "1131 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Toronto to Mykonos",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Mykonos to Venice",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Venice to Toronto",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        name: "Zola Hayes",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-        contact: {
-          contactEmail: "epic.horizon.of.the.@velarivoyages.com",
-          contactNumber: "+1-863-978-3755",
-        },
-      },
-    ],
-    title: "Epic Horizon of the Lobster Isles",
-    description:
-      "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Mykonos, Venice, with curated excursions and luxurious onboard amenities.",
-    rating: 4.2,
-    tags: ["culinary", "cruise-ship", "nature"],
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
   },
   {
-    basePrice: 6109,
-    departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Lisbon",
-          country: "Portugal",
-          coordinates: {
-            latitude: 38.7169,
-            longitude: -9.1399,
-          },
-        },
-        {
-          city: "Athens",
-          country: "Greece",
-          coordinates: {
-            latitude: 37.9838,
-            longitude: 23.7275,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "Croatia",
-          coordinates: {
-            latitude: 42.6507,
-            longitude: 18.0944,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "Let the winds of the East Coast Canada carry you from Toronto to the most stunning ports in the region. With destinations like Lisbon, Athens, Dubrovnik, this elevation redefines luxury travel.",
-      distance: "1074 nautical miles",
-      totalDuration: "15 days",
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Embark on a coral-kissed mystique from Toronto, where the wonders of Ontario await. With stops at , you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+      distance: "884 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Toronto to Lisbon",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Sailing from Lisbon to Athens",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Sailing from Athens to Dubrovnik",
-        },
-        {
-          start: "Day 13",
-          end: "Day 13",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Toronto",
-        },
-      ],
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Lisbon",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        name: "Maya Reed",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/51.jpg",
+        id: "88f2e1d8-f0df-475c-8d7a-565dee16d3e5",
+        name: "Ellie Campbell",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
         contact: {
-          contactEmail: "midnight.arcadia.of.@velarivoyages.com",
-          contactNumber: "+1-326-982-4230",
-        },
-      },
+          contactEmail: "majestic.haven.of.th@velarivoyages.com",
+          contactNumber: "+1-896-997-7968"
+        }
+      }
     ],
-    title: "Midnight Arcadia of the North Star City",
-    description:
-      "Let the winds of the East Coast Canada carry you from Toronto to the most stunning ports in the region. With destinations like Lisbon, Athens, Dubrovnik, this elevation redefines luxury travel.",
+    title: "Majestic Haven of the North Star City",
+    description: "Embark on a coral-kissed mystique from Toronto, where the wonders of Ontario await. With stops at , you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
     rating: 4.8,
-    tags: ["repositioning", "short-getaway", "culinary"],
+    tags: ["cruise-adventure","wellness"]
   },
   {
-    basePrice: 2336,
+    id: "0a1d8839-5601-4e1d-86ad-b328428cd223",
+    basePrice: 6681,
     departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fall-foliage-cruise",
+    hasPopularDestination: true,
+    category: "weekend-cruise",
     itinerary: {
       route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-        {
-          city: "Athens",
-          country: "Greece",
-          coordinates: {
-            latitude: 37.9838,
-            longitude: 23.7275,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "From bustling Toronto to serene East Coast Canada shores, this cruise invites you to relax, explore, and indulge. Stops at Rome, Athens deliver a balanced blend of culture and comfort.",
-      distance: "534 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Toronto to Rome",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Rome to Athens",
-        },
-        {
-          start: "Day 8",
-          end: "Day 9",
-          duration: "2 days",
-          description: "Sailing from Athens to Toronto",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Athens",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        name: "Michelle Knight",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-        contact: {
-          contactEmail: "floating.tranquility@velarivoyages.com",
-          contactNumber: "+1-861-198-3612",
-        },
-      },
-    ],
-    title: "Floating Tranquility of the Historic Lighthouses",
-    description:
-      "From bustling Toronto to serene East Coast Canada shores, this cruise invites you to relax, explore, and indulge. Stops at Rome, Athens deliver a balanced blend of culture and comfort.",
-    rating: 4.6,
-    tags: ["glacier-cruise", "short-getaway", "family-friendly"],
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
   },
   {
-    basePrice: 3746,
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Set sail from Toronto on a lagoon-exploring symphony that explores the hidden gems of Ontario. From the bustling streets of undefined to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
+      distance: "763 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "36da29e4-dd24-44cb-a0f3-c39a599b9625",
+        name: "Genesis Knight",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
+        contact: {
+          contactEmail: "hidden.horizon.of.th@velarivoyages.com",
+          contactNumber: "+1-433-151-9952"
+        }
+      }
+    ],
+    title: "Hidden Horizon of the Skyline on Ice",
+    description: "Set sail from Toronto on a lagoon-exploring symphony that explores the hidden gems of Ontario. From the bustling streets of undefined to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
+    rating: 4.5,
+    tags: ["cruise-excursion"]
+  },
+  {
+    id: "53ade9bd-9dc6-4de3-a914-d131468b2ca7",
+    basePrice: 5288,
     departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "tropical-cruise",
     itinerary: {
       route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "An escape like no other begins in Toronto, where your symphony launches into the heart of East Coast Canada. Discover the magic of Venice, Florence with style and sophistication.",
-      distance: "700 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Toronto to Venice",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Venice to Florence",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Florence to Toronto",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-      ],
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        name: "Isabella Coleman",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-        contact: {
-          contactEmail: "secret.expedition.of@velarivoyages.com",
-          contactNumber: "+1-356-553-2311",
-        },
-      },
-    ],
-    title: "Secret Expedition of the Autumn Bay",
-    description:
-      "An escape like no other begins in Toronto, where your symphony launches into the heart of East Coast Canada. Discover the magic of Venice, Florence with style and sophistication.",
-    rating: 4.2,
-    tags: ["luxury", "anniversary-cruise"],
-  },
   {
-    basePrice: 9033,
-    departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    arrivalLocation: {
-      city: "Malta",
-      country: "Malta",
-      coordinates: {
-        latitude: 35.9375,
-        longitude: 14.3754,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "Greece",
-          coordinates: {
-            latitude: 36.3932,
-            longitude: 25.4615,
-          },
-        },
-        {
-          city: "Malta",
-          country: "Malta",
-          coordinates: {
-            latitude: 35.9375,
-            longitude: 14.3754,
-          },
-        },
-      ],
-      description:
-        "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Florence, Santorini, Malta, with curated excursions and luxurious onboard amenities.",
-      distance: "885 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Sailing from Toronto to Florence",
-        },
-        {
-          start: "Day 7",
-          end: "Day 7",
-          duration: "1 days",
-          description: "Sailing from Florence to Santorini",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Santorini to Malta",
-        },
-      ],
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Let this island-hopping voyage redefine your idea of travel. From Toronto, explore the Ontario in luxurious comfort, stopping at  where every port offers a new chapter.",
+      distance: "691 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 11",
-          end: "Day 12",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-      ],
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        name: "Gabriella Wells",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-        contact: {
-          contactEmail: "mystical.excursion.o@velarivoyages.com",
-          contactNumber: "+1-288-110-3538",
-        },
-      },
-    ],
-    title: "Mystical Excursion of the Maple-Lit Majesty",
-    description:
-      "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Florence, Santorini, Malta, with curated excursions and luxurious onboard amenities.",
-    rating: 4.6,
-    tags: ["long-distance", "tropical", "anniversary-cruise"],
-  },
   {
-    basePrice: 9732,
-    departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
     },
-    arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Malta",
-          country: "Malta",
-          coordinates: {
-            latitude: 35.9375,
-            longitude: 14.3754,
-          },
-        },
-        {
-          city: "Barcelona",
-          country: "Spain",
-          coordinates: {
-            latitude: 41.390205,
-            longitude: 2.154007,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "Croatia",
-          coordinates: {
-            latitude: 42.6507,
-            longitude: 18.0944,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "Embark on an unforgettable labyrinth from the vibrant port of Toronto, where you'll discover hidden gems and iconic landmarks across the East Coast Canada region. With stops at Malta, Barcelona, Dubrovnik, Florence, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "1185 nautical miles",
-      totalDuration: "18 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Toronto to Malta",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Malta to Barcelona",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Barcelona to Dubrovnik",
-        },
-        {
-          start: "Day 12",
-          end: "Day 12",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Florence",
-        },
-        {
-          start: "Day 15",
-          end: "Day 16",
-          duration: "2 days",
-          description: "Sailing from Florence to Toronto",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Barcelona",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 13",
-          end: "Day 14",
-          duration: "2 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 17",
-          end: "Day 18",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
-    },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        name: "Sofia Price",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-        contact: {
-          contactEmail: "gilded.pilgrimage.of@velarivoyages.com",
-          contactNumber: "+1-918-289-4786",
-        },
-      },
-    ],
-    title: "Gilded Pilgrimage of the Urban Mosaic",
-    description:
-      "Embark on an unforgettable labyrinth from the vibrant port of Toronto, where you'll discover hidden gems and iconic landmarks across the East Coast Canada region. With stops at Malta, Barcelona, Dubrovnik, Florence, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.3,
-    tags: ["themed-cruise", "wildlife"],
-  },
-  {
-    basePrice: 5887,
-    departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    arrivalLocation: {
-      city: "Milan",
-      country: "Italy",
-      coordinates: {
-        latitude: 45.4642,
-        longitude: 9.19,
-      },
-    },
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fall-foliage-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Malta",
-          country: "Malta",
-          coordinates: {
-            latitude: 35.9375,
-            longitude: 14.3754,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "Greece",
-          coordinates: {
-            latitude: 36.3932,
-            longitude: 25.4615,
-          },
-        },
-        {
-          city: "Milan",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4642,
-            longitude: 9.19,
-          },
-        },
-      ],
-      description:
-        "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Malta, Venice, Santorini, Milan, with curated excursions and luxurious onboard amenities.",
-      distance: "1256 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Toronto to Malta",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Sailing from Malta to Venice",
-        },
-        {
-          start: "Day 6",
-          end: "Day 6",
-          duration: "1 days",
-          description: "Sailing from Venice to Santorini",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Santorini to Milan",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 10",
-          end: "Day 10",
-          duration: "1 days",
-          description: "Exploring Milan",
-        },
-      ],
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        name: "Emily Porter",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-        contact: {
-          contactEmail: "luxurious.eclipse.of@velarivoyages.com",
-          contactNumber: "+1-473-984-3733",
-        },
-      },
-    ],
-    title: "Luxurious Eclipse of the Autumn Bay",
-    description:
-      "Your journey through the East Coast Canada begins in Toronto, where elegance meets adventure. Explore the shores of Malta, Venice, Santorini, Milan, with curated excursions and luxurious onboard amenities.",
-    rating: 4.2,
-    tags: ["adventure", "holiday-cruise", "expedition"],
-  },
-  {
-    basePrice: 2829,
-    departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Venice",
-          country: "Italy",
-          coordinates: {
-            latitude: 45.4408,
-            longitude: 12.3155,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "Greece",
-          coordinates: {
-            latitude: 36.3932,
-            longitude: 25.4615,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "Sail into splendor from Toronto on a majestic voyage through East Coast Canada. Let each stop—from Venice to Santorini—reveal the unique flavors and colors of the region.",
-      distance: "986 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 2",
-          duration: "1 days",
-          description: "Sailing from Toronto to Venice",
-        },
-        {
-          start: "Day 5",
-          end: "Day 5",
-          duration: "1 days",
-          description: "Sailing from Venice to Santorini",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Sailing from Santorini to Toronto",
-        },
-      ],
-      timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 3",
-          end: "Day 4",
-          duration: "2 days",
-          description: "Exploring Venice",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        name: "Joan Griffin",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 6,
+        id: "937144a9-b33c-4a7b-ac91-1b3487997ee4",
+        name: "Ella Gardner",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
         profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
         contact: {
-          contactEmail: "starlit.horizon.of.t@velarivoyages.com",
-          contactNumber: "+1-194-182-8403",
-        },
-      },
+          contactEmail: "sublime.zenith.of.th@velarivoyages.com",
+          contactNumber: "+1-104-691-6168"
+        }
+      }
     ],
-    title: "Starlit Horizon of the Urban Mosaic",
-    description:
-      "Sail into splendor from Toronto on a majestic voyage through East Coast Canada. Let each stop—from Venice to Santorini—reveal the unique flavors and colors of the region.",
-    rating: 4.0,
-    tags: ["anniversary-cruise"],
+    title: "Sublime Zenith of the Multicultural Cities & Cottage Country",
+    description: "Let this island-hopping voyage redefine your idea of travel. From Toronto, explore the Ontario in luxurious comfort, stopping at  where every port offers a new chapter.",
+    rating: 4.2,
+    tags: ["adventure","fall-cruise","cultural"]
   },
   {
-    basePrice: 3075,
+    id: "64e24ca3-8844-4486-96a9-e2bffde82b16",
+    basePrice: 3591,
     departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     arrivalLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "fjords-tour",
     itinerary: {
       route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Santorini",
-          country: "Greece",
-          coordinates: {
-            latitude: 36.3932,
-            longitude: 25.4615,
-          },
-        },
-        {
-          city: "Mykonos",
-          country: "Greece",
-          coordinates: {
-            latitude: 37.4467,
-            longitude: 25.3289,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "Croatia",
-          coordinates: {
-            latitude: 42.6507,
-            longitude: 18.0944,
-          },
-        },
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-      ],
-      description:
-        "Begin an epic renaissance from Toronto, where the seas meet culture. Visit the remarkable ports of Santorini, Mykonos, Dubrovnik while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "1187 nautical miles",
-      totalDuration: "15 days",
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "This extraordinary elevation from Toronto offers the ultimate Ontario exploration. Immerse yourself in the rich cultures and stunning landscapes of  and , creating memories that will last a lifetime.",
+      distance: "856 nautical miles",
+      totalDuration: "3 days",
       timeAtSea: [
-        {
-          start: "Day 2",
-          end: "Day 3",
-          duration: "2 days",
-          description: "Sailing from Toronto to Santorini",
-        },
-        {
-          start: "Day 6",
-          end: "Day 7",
-          duration: "2 days",
-          description: "Sailing from Santorini to Mykonos",
-        },
-        {
-          start: "Day 9",
-          end: "Day 10",
-          duration: "2 days",
-          description: "Sailing from Mykonos to Dubrovnik",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from Dubrovnik to Toronto",
-        },
-      ],
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 1",
-          duration: "1 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 4",
-          end: "Day 5",
-          duration: "2 days",
-          description: "Exploring Santorini",
-        },
-        {
-          start: "Day 8",
-          end: "Day 8",
-          duration: "1 days",
-          description: "Exploring Mykonos",
-        },
-        {
-          start: "Day 11",
-          end: "Day 11",
-          duration: "1 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 14",
-          end: "Day 15",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "3ee9ce9e-c8c0-4ea4-ad39-5db972d36efc",
+        name: "Nancy Russell",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
+        contact: {
+          contactEmail: "pearlescent.elevatio@velarivoyages.com",
+          contactNumber: "+1-733-195-8875"
+        }
+      }
+    ],
+    title: "Pearlescent Elevation of the Niagara Falls & CN Tower",
+    description: "This extraordinary elevation from Toronto offers the ultimate Ontario exploration. Immerse yourself in the rich cultures and stunning landscapes of  and , creating memories that will last a lifetime.",
+    rating: 4.0,
+    tags: ["cruise-vacation"]
+  },
+  {
+    id: "b9d765d3-1135-47f2-b36f-79987907fe7b",
+    basePrice: 1238,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Sail away from the charming harbor of Toronto on this velvet journey across Ontario. Uncover the beauty and history of  with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1383 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "44823bf3-51fa-4f00-884c-58bae7abc2a8",
+        name: "Sofia Hamilton",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
+        contact: {
+          contactEmail: "coastlinecruising.le@velarivoyages.com",
+          contactNumber: "+1-308-258-9779"
+        }
+      }
+    ],
+    title: "Coastline-Cruising Legacy of the Niagara Falls & CN Tower",
+    description: "Sail away from the charming harbor of Toronto on this velvet journey across Ontario. Uncover the beauty and history of  with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.8,
+    tags: ["fall-cruise","seasonal","romantic"]
+  },
+  {
+    id: "342d1e7d-429e-4ded-824a-32b53ff2191a",
+    basePrice: 7087,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Enjoy seamless luxury on this moonlit enigma beginning in Toronto. Visit breathtaking Ontario locales such as  on this unforgettable itinerary.",
+      distance: "736 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "a263e6ce-57c7-4c8e-a102-5d5d7c51c0ef",
+        name: "Joan Harper",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
+        contact: {
+          contactEmail: "moonlit.serenade.of.@velarivoyages.com",
+          contactNumber: "+1-750-433-7846"
+        }
+      }
+    ],
+    title: "Moonlit Serenade of the Towered Threshold",
+    description: "Enjoy seamless luxury on this moonlit enigma beginning in Toronto. Visit breathtaking Ontario locales such as  on this unforgettable itinerary.",
+    rating: 4.6,
+    tags: ["cruise-adventure"]
+  },
+  {
+    id: "3bbd5537-b537-4c3f-895b-e06124489ed7",
+    basePrice: 7870,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "This inspiring labyrinth departs from Toronto, navigating the diverse landscapes and vibrant cities of Ontario. Must-see stops include .",
+      distance: "1334 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        name: "Naomi Payne",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
+        id: "95163224-6155-4a54-8ab4-61da9a5c43a8",
+        name: "Samantha Dean",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
         contact: {
-          contactEmail: "moonlit.odyssey.of.t@velarivoyages.com",
-          contactNumber: "+1-520-641-3812",
-        },
-      },
+          contactEmail: "coastal.sanctuary.of@velarivoyages.com",
+          contactNumber: "+1-903-537-7286"
+        }
+      }
     ],
-    title: "Moonlit Odyssey of the Lobster Isles",
-    description:
-      "Begin an epic renaissance from Toronto, where the seas meet culture. Visit the remarkable ports of Santorini, Mykonos, Dubrovnik while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.5,
-    tags: ["general", "wellness"],
+    title: "Coastal Sanctuary of the North Star City",
+    description: "This inspiring labyrinth departs from Toronto, navigating the diverse landscapes and vibrant cities of Ontario. Must-see stops include .",
+    rating: 4.4,
+    tags: ["repositioning","cruise-getaway"]
   },
   {
-    basePrice: 6465,
+    id: "c6c887c5-ec06-465c-85a5-4990688af677",
+    basePrice: 2660,
     departureLocation: {
-      city: "Toronto",
-      country: "Canada",
-      region: "East Coast Canada",
-      coordinates: {
-        latitude: 43.6532,
-        longitude: -79.3832,
-      },
-    },
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
     arrivalLocation: {
-      city: "Rome",
-      country: "Italy",
-      coordinates: {
-        latitude: 41.9028,
-        longitude: 12.4964,
-      },
-    },
-    isPopular: true, // Make fewer cruises "popular"
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury-cruise",
     itinerary: {
       route: [
-        {
-          city: "Toronto",
-          country: "Canada",
-          region: "East Coast Canada",
-          coordinates: {
-            latitude: 43.6532,
-            longitude: -79.3832,
-          },
-        },
-        {
-          city: "Florence",
-          country: "Italy",
-          coordinates: {
-            latitude: 43.769562,
-            longitude: 11.255814,
-          },
-        },
-        {
-          city: "Dubrovnik",
-          country: "Croatia",
-          coordinates: {
-            latitude: 42.6507,
-            longitude: 18.0944,
-          },
-        },
-        {
-          city: "Malta",
-          country: "Malta",
-          coordinates: {
-            latitude: 35.9375,
-            longitude: 14.3754,
-          },
-        },
-        {
-          city: "Rome",
-          country: "Italy",
-          coordinates: {
-            latitude: 41.9028,
-            longitude: 12.4964,
-          },
-        },
-      ],
-      description:
-        "A voyage of contrasts awaits from Toronto. Discover the historical and natural richness of East Coast Canada as you cruise to spectacular destinations like Florence, Dubrovnik, Malta, Rome.",
-      distance: "1241 nautical miles",
-      totalDuration: "14 days",
-      timeAtSea: [
-        {
-          start: "Day 3",
-          end: "Day 3",
-          duration: "1 days",
-          description: "Sailing from Toronto to Florence",
-        },
-        {
-          start: "Day 5",
-          end: "Day 6",
-          duration: "2 days",
-          description: "Sailing from Florence to Dubrovnik",
-        },
-        {
-          start: "Day 9",
-          end: "Day 9",
-          duration: "1 days",
-          description: "Sailing from Dubrovnik to Malta",
-        },
-        {
-          start: "Day 12",
-          end: "Day 13",
-          duration: "2 days",
-          description: "Sailing from Malta to Rome",
-        },
-      ],
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Depart Toronto on a relaxing whisper through the Ontario region. Highlights include the stunning coastlines of , all while enjoying first-class amenities on board.",
+      distance: "700 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
       timeOnLand: [
-        {
-          start: "Day 1",
-          end: "Day 2",
-          duration: "2 days",
-          description: "Exploring Toronto",
-        },
-        {
-          start: "Day 4",
-          end: "Day 4",
-          duration: "1 days",
-          description: "Exploring Florence",
-        },
-        {
-          start: "Day 7",
-          end: "Day 8",
-          duration: "2 days",
-          description: "Exploring Dubrovnik",
-        },
-        {
-          start: "Day 10",
-          end: "Day 11",
-          duration: "2 days",
-          description: "Exploring Malta",
-        },
-        {
-          start: "Day 14",
-          end: "Day 14",
-          duration: "1 days",
-          description: "Exploring Rome",
-        },
-      ],
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        name: "Emma Douglas",
-        role: "Cruise Specialist",
-        languages: ["English", "French", "Guarani", "Haitian"], // Use the properly generated languages list
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
+        id: "94bd7804-448a-42b1-a8ca-dc2ee3a5cd65",
+        name: "Cynthia Dean",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
         contact: {
-          contactEmail: "immersive.sojourn.of@velarivoyages.com",
-          contactNumber: "+1-320-636-8474",
-        },
-      },
+          contactEmail: "heavenly.oasis.of.th@velarivoyages.com",
+          contactNumber: "+1-498-527-1848"
+        }
+      }
     ],
-    title: "Immersive Sojourn of the Acadian Echoes",
-    description:
-      "A voyage of contrasts awaits from Toronto. Discover the historical and natural richness of East Coast Canada as you cruise to spectacular destinations like Florence, Dubrovnik, Malta, Rome.",
-    rating: 4.7,
-    tags: ["luxury", "adventure"],
+    title: "Heavenly Oasis of the Urban Mosaic",
+    description: "Depart Toronto on a relaxing whisper through the Ontario region. Highlights include the stunning coastlines of , all while enjoying first-class amenities on board.",
+    rating: 4.2,
+    tags: ["fall-cruise"]
   },
+  {
+    id: "cae37960-8766-4e53-87d1-e0a396dc1660",
+    basePrice: 4904,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Embark on a wave-whispered frontier from Toronto, where the wonders of Ontario await. With stops at , you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+      distance: "1138 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "glacier-cruise",
+    contactPersonnel: [
+      {
+        id: "189312f3-2f5f-4041-808f-ef5cfdcc0f88",
+        name: "Nomsa Day",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
+        contact: {
+          contactEmail: "seaside.saga.of.the.@velarivoyages.com",
+          contactNumber: "+1-176-607-7747"
+        }
+      }
+    ],
+    title: "Seaside Saga of the Towered Threshold",
+    description: "Embark on a wave-whispered frontier from Toronto, where the wonders of Ontario await. With stops at , you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+    rating: 5.0,
+    tags: ["glacier-cruise"]
+  },
+  {
+    id: "38aeefec-dd64-4348-bcad-1fbeea4a7deb",
+    basePrice: 3156,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "repositioning-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "This handpicked panorama begins in Toronto and travels through Ontario's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
+      distance: "538 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "11d854f2-b297-4129-aff5-5d7e3f4525f9",
+        name: "Kinsley Porter",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
+        contact: {
+          contactEmail: "seaside.currents.of.@velarivoyages.com",
+          contactNumber: "+1-796-761-7791"
+        }
+      }
+    ],
+    title: "Seaside Currents of the Niagara Falls & CN Tower",
+    description: "This handpicked panorama begins in Toronto and travels through Ontario's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
+    rating: 4.7,
+    tags: ["seasonal"]
+  },
+  {
+    id: "569b63a8-4887-47c8-bf28-2cd2aa37f2ed",
+    basePrice: 2246,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Experience the elegance of the seas on this dawn-embraced voyage through Ontario, starting from the illustrious port of Toronto. From  to , each destination offers its own story, culture, and breathtaking views.",
+      distance: "1412 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "e2ab373d-1c37-48b0-b4c7-4eba8b271e81",
+        name: "Adam Dean",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+        contact: {
+          contactEmail: "oceanic.sojourn.of.t@velarivoyages.com",
+          contactNumber: "+1-580-428-4491"
+        }
+      }
+    ],
+    title: "Oceanic Sojourn of the Great Lakes Metropolis",
+    description: "Experience the elegance of the seas on this dawn-embraced voyage through Ontario, starting from the illustrious port of Toronto. From  to , each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.9,
+    tags: ["cruise-adventure","cultural"]
+  },
+  {
+    id: "33430248-489f-45ae-b735-1d8fe8b95ab4",
+    basePrice: 4862,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "This oasis takes you beyond the ordinary, starting in Toronto. With breathtaking stops in , your cruise delivers immersive moments and unforgettable vistas.",
+      distance: "1438 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "1fbcad1f-93a5-4010-af08-8df64aaec889",
+        name: "Philip Wallace",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
+        contact: {
+          contactEmail: "alluring.legacy.of.t@velarivoyages.com",
+          contactNumber: "+1-873-535-5297"
+        }
+      }
+    ],
+    title: "Alluring Legacy of the Great Lakes Metropolis",
+    description: "This oasis takes you beyond the ordinary, starting in Toronto. With breathtaking stops in , your cruise delivers immersive moments and unforgettable vistas.",
+    rating: 4.3,
+    tags: ["historical"]
+  },
+  {
+    id: "53412863-0fd7-42aa-8cbc-2d4df98378ba",
+    basePrice: 3913,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Begin your journey in Toronto, where tradition meets travel. This immersive symphony reveals the finest of Ontario, from the beaches of undefined to the streets of undefined.",
+      distance: "652 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "93c2ea2c-0439-4431-b3c7-b04f868220d4",
+        name: "Carl Wells",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
+        contact: {
+          contactEmail: "starlit.reunion.of.t@velarivoyages.com",
+          contactNumber: "+1-745-269-5358"
+        }
+      }
+    ],
+    title: "Starlit Reunion of the Urban Mosaic",
+    description: "Begin your journey in Toronto, where tradition meets travel. This immersive symphony reveals the finest of Ontario, from the beaches of undefined to the streets of undefined.",
+    rating: 4.3,
+    tags: ["romantic","culinary"]
+  },
+  {
+    id: "92611a41-858b-44ff-8c96-ed005d636ab8",
+    basePrice: 8142,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "luxury-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "This hand-selected seaside cruise offers a true taste of Ontario. Depart from Toronto and explore ports like , each telling a story through food, music, and tradition.",
+      distance: "1110 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "17fd660e-ec25-4271-95fb-33ea69aec678",
+        name: "Paul Griffin",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+        contact: {
+          contactEmail: "luminous.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-987-138-5757"
+        }
+      }
+    ],
+    title: "Luminous Odyssey of the Great Lakes Metropolis",
+    description: "This hand-selected seaside cruise offers a true taste of Ontario. Depart from Toronto and explore ports like , each telling a story through food, music, and tradition.",
+    rating: 4.5,
+    tags: ["VIP","relaxation","short-getaway"]
+  },
+  {
+    id: "32d4204b-ef86-4dc5-8127-f7dac2e04837",
+    basePrice: 5770,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Set sail from Toronto for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this mystical cruise will redefine your view of Ontario.",
+      distance: "888 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "55e1c9c8-99a8-40dd-9950-3d03c3013caa",
+        name: "Diego Jennings",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
+        contact: {
+          contactEmail: "duskkissed.eclipse.o@velarivoyages.com",
+          contactNumber: "+1-255-604-9437"
+        }
+      }
+    ],
+    title: "Dusk-Kissed Eclipse of the Skyline on Ice",
+    description: "Set sail from Toronto for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this mystical cruise will redefine your view of Ontario.",
+    rating: 4.0,
+    tags: ["fall-cruise"]
+  },
+  {
+    id: "98ea0854-1e46-45b2-a7d8-cc82597e0ad9",
+    basePrice: 6297,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Discover the wonders of Ontario aboard this whispering cruise departing from Toronto. Journey through crystal waters to explore the treasures of , where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+      distance: "1034 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "vip-cruise",
+    contactPersonnel: [
+      {
+        id: "fcb009e7-c3b8-4bbd-a6dd-336a5fe9ce8d",
+        name: "Robert Hunter",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "moonlit.tide.of.the.@velarivoyages.com",
+          contactNumber: "+1-145-175-4695"
+        }
+      }
+    ],
+    title: "Moonlit Tide of the Niagara Falls & CN Tower",
+    description: "Discover the wonders of Ontario aboard this whispering cruise departing from Toronto. Journey through crystal waters to explore the treasures of , where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
+    rating: 4.1,
+    tags: ["cruise-ship","VIP","fall-cruise"]
+  },
+  {
+    id: "6a5bbc88-4d00-41f3-9045-0a4cc887b207",
+    basePrice: 9198,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "expedition-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Set sail from Toronto for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this moonlit cruise will redefine your view of Ontario.",
+      distance: "1436 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 3",
+    "duration": "2 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "holiday-cruise",
+    contactPersonnel: [
+      {
+        id: "a951b988-92f2-47e1-b499-0cdb32e3fda8",
+        name: "Matthew Hudson",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
+        contact: {
+          contactEmail: "oceanembracing.zenit@velarivoyages.com",
+          contactNumber: "+1-822-133-9801"
+        }
+      }
+    ],
+    title: "Ocean-Embracing Zenith of the Skyline on Ice",
+    description: "Set sail from Toronto for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this moonlit cruise will redefine your view of Ontario.",
+    rating: 4.9,
+    tags: ["cruise-getaway","seasonal"]
+  },
+  {
+    id: "0985abc6-8b86-4aa9-91a7-8c19eecaec21",
+    basePrice: 1599,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Your escape begins in Toronto, where every sunset on the Ontario horizon promises another day of discovery—from  to hidden ports of charm.",
+      distance: "696 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "5fa8f190-011a-4403-ab2a-b2085acc4b46",
+        name: "Keith Dixon",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
+        contact: {
+          contactEmail: "midnight.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-523-692-1795"
+        }
+      }
+    ],
+    title: "Midnight Zenith of the North Star City",
+    description: "Your escape begins in Toronto, where every sunset on the Ontario horizon promises another day of discovery—from  to hidden ports of charm.",
+    rating: 4.6,
+    tags: ["fall-cruise","cruise-adventure"]
+  },
+  {
+    id: "4d8b3b1d-73b6-41ea-abc5-9d481060efdb",
+    basePrice: 5588,
+    departureLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    arrivalLocation: {
+  "city": "Toronto",
+  "country": "Canada",
+  "region": "Ontario",
+  "coordinates": {
+    "latitude": 43.6532,
+    "longitude": -79.3832
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "tropical-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "Ontario",
+    "coordinates": {
+      "latitude": 43.6532,
+      "longitude": -79.3832
+    }
+  }
+],
+      description: "Depart from the iconic port of Toronto and sail through the enchanting Ontario. Explore vibrant destinations like , each offering its own unique charm and local flair.",
+      distance: "949 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from Toronto to Toronto"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Toronto"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Exploring Toronto"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "d41091b8-544d-4228-b419-001593e3f2ae",
+        name: "Brian Clark",
+        role: "Cruise Specialist",
+        languages: [{"code":"en","name":"English"},{"code":"fr","name":"French"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
+        contact: {
+          contactEmail: "coralkissed.discover@velarivoyages.com",
+          contactNumber: "+1-651-551-8733"
+        }
+      }
+    ],
+    title: "Coral-Kissed Discovery of the Skyline on Ice",
+    description: "Depart from the iconic port of Toronto and sail through the enchanting Ontario. Explore vibrant destinations like , each offering its own unique charm and local flair.",
+    rating: 4.9,
+    tags: ["seasonal","expedition","repositioning"]
+  }
 ];
