@@ -6,6 +6,31 @@ import {
 import { formatToSlug, removeAccents } from "../format";
 
 /**
+ * Helper function to get vessel name from vessel ID by searching through all city vessels
+ */
+async function getVesselNameById(vesselId: string): Promise<string | null> {
+  for (const city of cityFiles) {
+    try {
+      const cityWithoutAccents = removeAccents(city);
+      const vesselFilePath = `@/lib/constants/cruises/vessels/${cityWithoutAccents}-vessels`;
+      const vesselModule = await import(vesselFilePath);
+      
+      const vesselData = vesselModule.default || Object.values(vesselModule)[0];
+      if (Array.isArray(vesselData)) {
+        const vessel = vesselData.find(v => v.id === vesselId);
+        if (vessel) {
+          return vessel.name;
+        }
+      }
+    } catch (error) {
+      // City vessel file doesn't exist, continue searching
+      continue;
+    }
+  }
+  return null;
+}
+
+/**
  * Retrieves entertainment categories for a given city and vessel.
  *
  * This function dynamically imports a module containing entertainment category data specific to the provided city and vessel.
@@ -13,7 +38,7 @@ import { formatToSlug, removeAccents } from "../format";
  * If the module or the specific export is not found, it logs an error and returns an empty array.
  *
  * @param {string} city - The name of the city for which to retrieve entertainment categories.
- * @param {string} vessel - The name of the vessel for which to retrieve entertainment categories.
+ * @param {string} vesselIdOrName - The ID or name of the vessel for which to retrieve entertainment categories.
  * @returns {Promise<EntertainmentCategory[]>} A promise that resolves to an array of entertainment categories for the specified city and vessel.
  *
  * @throws Will log an error if the city/vessel names are invalid, the module cannot be imported, or the expected export is missing.
@@ -24,22 +49,36 @@ import { formatToSlug, removeAccents } from "../format";
  */
 export async function getEntertainmentCategories(
   city: string,
-  vessel: string
+  vesselIdOrName: string
 ): Promise<EntertainmentCategory[]> {
   if (
     !city ||
     typeof city !== "string" ||
-    !vessel ||
-    typeof vessel !== "string"
+    !vesselIdOrName ||
+    typeof vesselIdOrName !== "string"
   ) {
-    console.error("Invalid city or vessel name provided:", { city, vessel });
+    console.error("Invalid city or vessel name provided:", {
+      city,
+      vesselIdOrName,
+    });
     return [];
+  }
+
+  // First, try to get vessel name from vessel ID if needed
+  let vesselName = vesselIdOrName;
+
+  // If it looks like a vessel ID (contains dashes and short format), try to get the actual name
+  if (vesselIdOrName.includes("-") && vesselIdOrName.length < 50) {
+    const actualVesselName = await getVesselNameById(vesselIdOrName);
+    if (actualVesselName) {
+      vesselName = actualVesselName;
+    }
   }
 
   // First remove accents from the entire city name, then format it
   const cityWithoutAccents = removeAccents(city);
   const sluggedCity = formatToSlug(cityWithoutAccents.replace("'", "-"));
-  const sluggedVessel = formatToSlug(vessel);
+  const sluggedVessel = formatToSlug(vesselName);
 
   console.log(
     `Looking for entertainment categories in: @/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`
@@ -57,7 +96,7 @@ export async function getEntertainmentCategories(
       return entertainmentModule.entertainmentCategories;
     } else {
       console.error(
-        `No entertainment categories export found in module for ${city}/${vessel}`
+        `No entertainment categories export found in module for ${city}/${vesselName}`
       );
       return [];
     }
@@ -150,7 +189,6 @@ export async function getEntertainmentShows(
  * Retrieves all entertainment categories from all cities and vessels.
  *
  * This function iterates through all available cities and fetches their entertainment category data.
- * Note: This is a simplified implementation that may need vessel-specific logic.
  *
  * @returns {Promise<EntertainmentCategory[]>} A promise that resolves to an array of all entertainment categories.
  *
@@ -165,11 +203,37 @@ export async function getAllEntertainmentCategories(): Promise<
 
   for (const city of cityFiles) {
     try {
-      // This is a simplified approach - in practice, you'd need to know the vessel names
-      // For now, we'll skip implementation or implement based on your vessel structure
-      console.warn(
-        `Getting all entertainment categories requires vessel information for ${city}`
-      );
+      // Get vessel data for this city to know which vessels exist
+      const vesselFilePath = `@/lib/constants/cruises/vessels/${city}-vessels`;
+      const vesselModule = await import(vesselFilePath);
+
+      // Extract vessel names from the vessel data
+      const vesselData = vesselModule.default || Object.values(vesselModule)[0];
+      if (Array.isArray(vesselData)) {
+        for (const vessel of vesselData) {
+          try {
+            const cityWithoutAccents = removeAccents(city);
+            const sluggedCity = formatToSlug(
+              cityWithoutAccents.replace("'", "-")
+            );
+            const sluggedVessel = formatToSlug(vessel.name);
+
+            const entertainmentModule = await import(
+              `@/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`
+            );
+
+            const categories =
+              entertainmentModule.entertainmentCategories ||
+              entertainmentModule.default;
+            if (categories && Array.isArray(categories)) {
+              allCategories.push(...categories);
+            }
+          } catch (vesselError) {
+            // Vessel entertainment file doesn't exist, skip silently
+            continue;
+          }
+        }
+      }
     } catch (error) {
       console.error(
         `Error loading entertainment categories for ${city}:`,
@@ -185,7 +249,6 @@ export async function getAllEntertainmentCategories(): Promise<
  * Retrieves all entertainment shows from all cities and vessels.
  *
  * This function iterates through all available cities and fetches their entertainment show data.
- * Note: This is a simplified implementation that may need vessel-specific logic.
  *
  * @returns {Promise<Entertainment[]>} A promise that resolves to an array of all entertainment shows.
  *
@@ -198,11 +261,58 @@ export async function getAllEntertainmentShows(): Promise<Entertainment[]> {
 
   for (const city of cityFiles) {
     try {
-      // This is a simplified approach - in practice, you'd need to know the vessel names and categories
-      // For now, we'll skip implementation or implement based on your vessel structure
-      console.warn(
-        `Getting all entertainment shows requires vessel and category information for ${city}`
-      );
+      // Get vessel data for this city to know which vessels exist
+      const vesselFilePath = `@/lib/constants/cruises/vessels/${city}-vessels`;
+      const vesselModule = await import(vesselFilePath);
+
+      // Extract vessel names from the vessel data
+      const vesselData = vesselModule.default || Object.values(vesselModule)[0];
+      if (Array.isArray(vesselData)) {
+        for (const vessel of vesselData) {
+          try {
+            const cityWithoutAccents = removeAccents(city);
+            const sluggedCity = formatToSlug(
+              cityWithoutAccents.replace("'", "-")
+            );
+            const sluggedVessel = formatToSlug(vessel.name);
+
+            // Get entertainment categories first to know which show files exist
+            const entertainmentModule = await import(
+              `@/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/entertainment`
+            );
+
+            const categories =
+              entertainmentModule.entertainmentCategories ||
+              entertainmentModule.default;
+            if (categories && Array.isArray(categories)) {
+              for (const category of categories) {
+                try {
+                  const sluggedCategory = formatToSlug(category.type);
+                  const showModule = await import(
+                    `@/lib/constants/venues/entertainment/${sluggedCity}/${sluggedVessel}/${sluggedCategory}-entertainment`
+                  );
+
+                  // Look for entertainment shows in the module
+                  const shows =
+                    showModule.default ||
+                    showModule[`${formatToSlug(category.type)}Entertainment`] ||
+                    Object.values(showModule).find((exp) => Array.isArray(exp));
+
+                  if (shows && Array.isArray(shows)) {
+                    allShows.push(...shows);
+                  }
+                } catch (showError) {
+                  // Show file doesn't exist for this category, skip silently
+                  continue;
+                }
+              }
+            }
+          } catch (vesselError) {
+            // Vessel entertainment file doesn't exist, skip silently
+            continue;
+          }
+        }
+      }
     } catch (error) {
       console.error(`Error loading entertainment shows for ${city}:`, error);
     }
@@ -215,7 +325,6 @@ export async function getAllEntertainmentShows(): Promise<Entertainment[]> {
  * Finds an entertainment show by its ID.
  *
  * This function searches through entertainment shows to find one with the specified ID.
- * Note: This requires iterating through all cities, vessels, and categories.
  *
  * @param {string} id - The unique identifier of the entertainment show to find.
  * @returns {Promise<Entertainment | null>} A promise that resolves to the entertainment show if found, or null if not found.
@@ -234,12 +343,8 @@ export async function getEntertainmentById(
     return null;
   }
 
-  // This would require iterating through all entertainment shows
-  // Implementation depends on your specific data structure
-  console.warn(
-    "getEntertainmentById requires implementation based on your entertainment data structure"
-  );
-  return null;
+  const allShows = await getAllEntertainmentShows();
+  return allShows.find((show) => show.id === id) || null;
 }
 
 /**
@@ -262,10 +367,24 @@ export async function getEntertainmentByVesselId(
     return [];
   }
 
-  // This would require iterating through all entertainment
-  // Implementation depends on your specific data structure
-  console.warn(
-    "getEntertainmentByVesselId requires implementation based on your entertainment data structure"
+  // First get all entertainment categories for this vessel
+  const allCategories = await getAllEntertainmentCategories();
+  const vesselCategories = allCategories.filter(
+    (category) => category.vesselId === vesselId
   );
-  return [];
+
+  if (vesselCategories.length === 0) {
+    return [];
+  }
+
+  const vesselShows: Entertainment[] = [];
+
+  // For each category of this vessel, get the corresponding entertainment shows
+  for (const category of vesselCategories) {
+    const allShows = await getAllEntertainmentShows();
+    const categoryShows = allShows.filter((show) => show.id === category.id);
+    vesselShows.push(...categoryShows);
+  }
+
+  return vesselShows;
 }
