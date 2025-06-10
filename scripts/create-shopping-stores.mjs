@@ -82,11 +82,10 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { cityToRegionMap } from "./utils/geo-utils.mjs";
-import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
-  getRandomItems,
+  generateRandomPhoneNumber,
   getRandomInt,
   getRandomBool,
   generateRandomEmail,
@@ -412,9 +411,6 @@ const shoppingFAQTemplates = [
   },
 ];
 
-
-
-
 // Generate shopping store name
 function generateStoreName(storeType, cityName, vesselName, region) {
   const typeNames = storeNamesByType[storeType];
@@ -543,7 +539,7 @@ function generateIndividualStore(storeType, cityName, vesselName, region) {
     ),
     hours: hours,
     contact: {
-      contactNumber: `+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}`,
+      contactNumber: generateRandomPhoneNumber(region),
       contactEmail: generateRandomEmail("shopping.velarivoyages.com"),
     },
     hasSales: getRandomBool(0.7), // 70% chance of having sales
@@ -584,7 +580,7 @@ function generateShoppingCategoriesForCity(cityName) {
     return [];
   }
 
-  const region = cityToRegionMap(cityName);
+  const region = cityToRegionMap[cityName];
   const shoppingCategories = [];
 
   vessels.forEach((vessel) => {
@@ -638,8 +634,10 @@ ${category.stores
           description: "${store.hours.description}",
         },
         contact: {
-          contactNumber: "${store.contact.contactNumber}",
-          contactEmail: "${store.contact.contactEmail}",
+          contactNumber: "${generateRandomPhoneNumber(
+            cityToRegionMap[cityName]
+          )}",
+          contactEmail: "${generateRandomEmail("shopping.velarivoyages.com")}",
         },
         hasSales: ${store.hasSales},
         isPopular: ${store.isPopular},
