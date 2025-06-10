@@ -31,11 +31,18 @@ import {
 import { Cruise } from "@/lib/interfaces/services/cruises";
 import { Package } from "@/lib/types/types";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
-import { formatNumberToCurrency } from "@/lib/utils/format.ts";
+import {
+  capitalize,
+  formatKebebToTitleCase,
+  formatNumberToCurrency,
+  formatTitleToKebabCase,
+} from "@/lib/utils/format.ts";
 import {
   getAllCruises,
+  getCruiseById,
   getCruises,
   getCruisesByCategory,
+  getPackagesForCruiseCategory,
 } from "@/lib/utils/get/cruises";
 import { groupAndSortByProperties, sortByProperty } from "@/lib/utils/sort";
 import Image from "next/image";
@@ -45,71 +52,24 @@ import { useEffect, useState } from "react";
 export default function CruiseInformationPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const departureLocationCity = searchParams.get("departureLocationCity");
-  const departureLocationCountry = searchParams.get("departureLocationCountry");
-  const arrivalLocationCity = searchParams.get("arrivalLocationCity");
-  const cruise = searchParams.get("cruise");
+  const cruiseId = searchParams.get("cruiseId");
   const category = searchParams.get("category");
+  const cruiseTitle = searchParams.get("cruise");
+  const cruise = formatKebebToTitleCase(cruiseTitle || "");
+
   const [loading, setLoading] = useState(true);
   const [allCruises, setAllCruises] = useState<Cruise[]>([]);
   const [filteredCruises, setFilteredCruises] = useState<Cruise[]>([]);
 
   const [cruiseData, setCruiseData] = useState<Cruise>();
+  console.log("Cruise ID:", cruiseId);
+  console.log("Cruise Title:", cruiseTitle);
+  console.log("Cruise Category:", category);
+  console.log("Cruise:", cruise);
 
   // Add state for managing selected package
   const [selectedPackage, setSelectedPackage] = useState<Package | null>(null);
   const [availablePackages, setAvailablePackages] = useState<Package[]>([]);
-
-  useEffect(() => {
-    const fetchCruiseData = async () => {
-      try {
-        if (!departureLocationCity) {
-          console.error("No departure city provided");
-          setLoading(false);
-          return;
-        }
-
-        // Get cruise data using the city name
-        const data = await getCruises(departureLocationCity);
-        // Find the specific cruise by title
-        const cruiseInfo = data.find(
-          (c: { title: string }) => c.title === cruise,
-        );
-
-        if (cruiseInfo) {
-          setCruiseData(cruiseInfo);
-        } else {
-          // If not found by title, try to find by additional criteria
-          console.log("Cruise not found by title, trying additional criteria");
-
-          // Try to find by departure and arrival locations
-          const alternativeCruiseInfo = data.find(
-            (c: any) =>
-              c.departureLocation?.city === departureLocationCity &&
-              c.arrivalLocation?.city === arrivalLocationCity,
-          );
-
-          if (alternativeCruiseInfo) {
-            setCruiseData(alternativeCruiseInfo);
-          } else {
-            console.error("Cruise not found with the provided parameters.");
-          }
-        }
-      } catch (error) {
-        console.error("Error fetching cruise data:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchCruiseData();
-  }, [
-    departureLocationCity,
-    departureLocationCountry,
-    arrivalLocationCity,
-    cruise,
-    category,
-  ]);
-
   useEffect(() => {
     const fetchTours = async () => {
       try {
@@ -118,6 +78,8 @@ export default function CruiseInformationPage() {
         if (data.length > 0) {
           const filteredTours = getCruisesByCategory(data, `${category}`);
           setFilteredCruises(filteredTours);
+          const filteredPackages = getPackagesForCruiseCategory(category || "");
+          setAvailablePackages(filteredPackages);
         }
       } catch (error) {
         console.error("Failed to load affirmation cards:", error);
@@ -140,8 +102,31 @@ export default function CruiseInformationPage() {
     }
   }, [cruiseData]);
 
+  useEffect(() => {
+    const fetchCruiseData = async () => {
+      if (cruiseId) {
+        try {
+          const data = await getCruiseById(cruiseId);
+          if (data) {
+            setCruiseData(data);
+            // Set the selected package to the first available package if any
+            if (availablePackages.length > 0) {
+              setSelectedPackage(availablePackages[0]);
+            }
+          } else {
+            console.error("Cruise not found");
+          }
+        } catch (error) {
+          console.error("Failed to fetch cruise data:", error);
+        }
+      }
+    };
+    fetchCruiseData();
+  }, [cruiseId, availablePackages.length]);
+
   console.log("Cruise Data:", cruiseData);
   console.log("Available Packages:", availablePackages);
+  console.log("Filtered Cruises:", filteredCruises);
 
   if (loading) {
     return <Loading />;
@@ -166,7 +151,7 @@ export default function CruiseInformationPage() {
     <div className="mx-auto pt-8 md:pt-12 lg:pt-24 w-10/12 md:w-11/12">
       <header>
         <h1>{cruiseData.title}</h1>
-        <h5>{displayRatingStars(cruiseData.rating)}</h5>
+        {cruiseData.rating && <h5>{displayRatingStars(cruiseData.rating)}</h5>}
         <p>{cruiseData.description}</p>
       </header>
 
@@ -183,7 +168,7 @@ export default function CruiseInformationPage() {
             <div>
               <h5>Arrival Location</h5>
               <p>
-                {cruiseData.arrivalLocation.city},{" "}
+                {capitalize(cruiseData.arrivalLocation.city)},{" "}
                 {cruiseData.arrivalLocation.country}
               </p>
             </div>
@@ -291,7 +276,7 @@ export default function CruiseInformationPage() {
                           router.push(
                             `/cruises/restaurants/${location.city.toLowerCase()}?city=${
                               location.city
-                            }`,
+                            }`
                           )
                         }
                       >
@@ -398,7 +383,7 @@ export default function CruiseInformationPage() {
                             </Button>
                           </div>
                         </div>
-                      ),
+                      )
                     )
                   ) : (
                     <p>No packages available for this cruise category.</p>
@@ -414,6 +399,18 @@ export default function CruiseInformationPage() {
                 </Badge>
               </div>
             )}
+
+            <Button
+              onClick={() =>
+                router.push(
+                  `/cruises/cruise-categories/velari-voyages-cruises/cruise/${formatTitleToKebabCase(cruiseData.title)}/details?cruiseId=${cruiseData.id}&cruise=${cruiseData.title}`
+                )
+              }
+              className="mt-4 w-full"
+              variant={"accent"}
+            >
+              Find Out What's Onboard Your Cruise Ship
+            </Button>
           </section>
 
           <section>
