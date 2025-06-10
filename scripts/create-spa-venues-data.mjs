@@ -59,7 +59,7 @@
  * File Structure:
  * --------------
  * Generated files follow this structure:
- * src/lib/constants/cruises/venues/spas/
+ * src/lib/constants/venues/spas/
  * ├── amsterdam-spas.ts
  * ├── auckland-spas.ts
  * ├── boston-spas.ts
@@ -712,7 +712,6 @@ async function generateSpaFiles() {
     "src",
     "lib",
     "constants",
-    "cruises",
     "venues",
     "spas"
   );
