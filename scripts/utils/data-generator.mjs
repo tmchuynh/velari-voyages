@@ -1,3 +1,4 @@
+import crypto from "crypto";
 import { generalEmailStarters } from "./general-util.mjs";
 
 /**
