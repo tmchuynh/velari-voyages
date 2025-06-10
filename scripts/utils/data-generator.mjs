@@ -1,3 +1,5 @@
+import { generalEmailStarters } from "./general-util.mjs";
+
 /**
  * Utility functions for generating random data
  */
@@ -94,4 +96,13 @@ export const getRandomHours = () => {
 export const getRandomPrice = () => {
   const prices = ["$", "$$", "$$$", "$$$$"];
   return prices[Math.floor(Math.random() * prices.length)];
+};
+
+export const generateUniqueId = () => {
+  return crypto.randomUUID();
+};
+
+export const generateRandomEmail = (domain = "velarivoyages.com") => {
+  const randomStarter = getRandomElement(generalEmailStarters);
+  return `${randomStarter}@${domain}`;
 };
