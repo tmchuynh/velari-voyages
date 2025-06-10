@@ -1,13 +1,13 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Melbourne
-    // Generated on: 2025-06-10T03:09:08.446Z
+    // Generated on: 2025-06-10T04:43:44.425Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const melbourneCruises: Cruise[] = [
-{
-    id: "c1b57ef6-0d3e-4727-bf36-4c6fe5e2e793",
-    basePrice: 6774,
+  {
+    id: "31db7beb-deee-4a8c-9dab-888996d88ece",
+    basePrice: 1855,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -26,97 +26,8 @@ export const melbourneCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "Set sail from Melbourne on a enchanting expedition that explores the hidden gems of Australia. From the bustling streets of sydney to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
-      distance: "1049 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        id: "887fc86e-3301-4137-af73-ec0b4f1c083d",
-        name: "Abigail Hudson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/83.jpg",
-        contact: {
-          contactEmail: "floating.legacy.of.t@velarivoyages.com",
-          contactNumber: "+1-422-867-9243"
-        }
-      }
-    ],
-    title: "Floating Legacy of the Cultural Capital of Australia",
-    description: "Set sail from Melbourne on a enchanting expedition that explores the hidden gems of Australia. From the bustling streets of sydney to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
-    rating: 4.3,
-    tags: ["cruise-holiday"]
-  },
-  {
-    id: "ce4dcded-45a7-41e0-b0cb-c85454c1fa46",
-    basePrice: 5035,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "tropical-cruise",
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -137,103 +48,14 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "Set course from Melbourne for an inspiring tide-washed journey across Australia. Whether exploring ancient ruins in sydney or soaking up coastal views in undefined, every day offers a perfect mix of discovery and relaxation.",
-      distance: "1066 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "b2fd3982-ea80-46f3-9c3a-a2728f1d049d",
-        name: "Jennifer Knight",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
-        contact: {
-          contactEmail: "golden.eclipse.of.th@velarivoyages.com",
-          contactNumber: "+1-414-502-8880"
-        }
-      }
-    ],
-    title: "Golden Eclipse of the Outback Adventures & Unique Wildlife",
-    description: "Set course from Melbourne for an inspiring tide-washed journey across Australia. Whether exploring ancient ruins in sydney or soaking up coastal views in undefined, every day offers a perfect mix of discovery and relaxation.",
-    rating: 4.1,
-    tags: ["expedition","wellness","weekend-cruise"]
-  },
-  {
-    id: "c5f3e6f6-60f8-42bd-bcdc-231b1a5722f0",
-    basePrice: 5100,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "Let the winds of the Australia carry you from Melbourne to the most stunning ports in the region. With destinations like sydney, this haven redefines luxury travel.",
-      distance: "1434 nautical miles",
-      totalDuration: "5 days",
+      description: "Set sail from historic Melbourne for a modern escape into the Australia. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in sydney.",
+      distance: "1024 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
+    "end": "Day 2",
+    "duration": "1 days",
     "description": "Sailing from Melbourne to sydney"
   }
 ],
@@ -245,125 +67,36 @@ export const melbourneCruises: Cruise[] = [
     "description": "Exploring Melbourne"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        id: "8c36e004-d4e0-4ad5-adfd-e52db8a5b929",
-        name: "Kinsley Graham",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-        contact: {
-          contactEmail: "whispering.mirage.of@velarivoyages.com",
-          contactNumber: "+1-289-230-2920"
-        }
-      }
-    ],
-    title: "Whispering Mirage of the Graphite Dreamscape",
-    description: "Let the winds of the Australia carry you from Melbourne to the most stunning ports in the region. With destinations like sydney, this haven redefines luxury travel.",
-    rating: 4.9,
-    tags: ["cruise-experience","repositioning","cruise-vacation"]
-  },
-  {
-    id: "db7fe9d2-8653-49da-be0f-daf509221aff",
-    basePrice: 9529,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fall-foliage-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "Set sail from Melbourne for a voyage like no other. From the picturesque landscapes of sydney to the lively ambiance of undefined, this crystalline cruise will redefine your view of Australia.",
-      distance: "661 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
     "description": "Exploring sydney"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "80b38d3a-ebc1-420c-9a3c-39e487cbee83",
-        name: "Jennifer Price",
-        role: "Guest Services Agent (Shoreside)",
+        id: "72ff4052-446c-4beb-b3c0-c58e2ce3e8c7",
+        name: "Jordan Hayes",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
         contact: {
-          contactEmail: "spectacular.mirage.o@velarivoyages.com",
-          contactNumber: "+1-437-348-7784"
+          contactEmail: "wavecrested.infinite@velarivoyages.com",
+          contactNumber: "+1-983-888-6612"
         }
       }
     ],
-    title: "Spectacular Mirage of the Laneway Wonderland",
-    description: "Set sail from Melbourne for a voyage like no other. From the picturesque landscapes of sydney to the lively ambiance of undefined, this crystalline cruise will redefine your view of Australia.",
-    rating: 4.9,
-    tags: ["fall-cruise","tropical","repositioning"]
+    title: "Wave-Crested Infinite of the Laneway Wonderland",
+    description: "Set sail from historic Melbourne for a modern escape into the Australia. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in sydney.",
+    rating: 4.3,
+    tags: ["cruise-excursion","family-friendly"]
   },
   {
-    id: "fb309895-7a9a-4e04-88d4-8d16b4cbece7",
-    basePrice: 2155,
+    id: "a80bdc82-7b39-4084-936a-16c0ffa7dd54",
+    basePrice: 7795,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -383,7 +116,7 @@ export const melbourneCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "holiday-cruise",
     itinerary: {
       route: [
@@ -414,14 +147,14 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "Start in the vibrant city of Melbourne and venture into the iconic Australia. Discover authentic local cultures, cuisine, and coastal wonders in sydney.",
-      distance: "1479 nautical miles",
-      totalDuration: "9 days",
+      description: "Leave ordinary behind as you sail from Melbourne across the captivating Australia. Discover the distinctive personality of each destination, from sydney.",
+      distance: "1205 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Sailing from Melbourne to sydney"
   },
   {
@@ -439,15 +172,15 @@ export const melbourneCruises: Cruise[] = [
     "description": "Exploring Melbourne"
   },
   {
-    "start": "Day 5",
+    "start": "Day 4",
     "end": "Day 5",
-    "duration": "1 days",
+    "duration": "2 days",
     "description": "Exploring sydney"
   },
   {
     "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
+    "end": "Day 8",
+    "duration": "1 days",
     "description": "Exploring Melbourne"
   }
 ]
@@ -455,26 +188,26 @@ export const melbourneCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "1a7ed7dc-3737-4445-b2c5-f67f730cc653",
-        name: "Gabriella Wallace",
-        role: "Guest Services Agent (Shoreside)",
+        id: "079ad01b-e391-4995-94f3-99e649192ffd",
+        name: "Richard Carpenter",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
         contact: {
-          contactEmail: "eternal.renaissance.@velarivoyages.com",
-          contactNumber: "+1-412-545-5143"
+          contactEmail: "radiant.discovery.of@velarivoyages.com",
+          contactNumber: "+1-859-484-2122"
         }
       }
     ],
-    title: "Eternal Renaissance of the Jazz of the Streets",
-    description: "Start in the vibrant city of Melbourne and venture into the iconic Australia. Discover authentic local cultures, cuisine, and coastal wonders in sydney.",
-    rating: 4.3,
-    tags: ["relaxation","general","cruise-experience"]
+    title: "Radiant Discovery of the Graphite Dreamscape",
+    description: "Leave ordinary behind as you sail from Melbourne across the captivating Australia. Discover the distinctive personality of each destination, from sydney.",
+    rating: 4.7,
+    tags: ["exclusive","historical","cruise-line"]
   },
   {
-    id: "4825f081-dfb1-418f-803e-ab52cb3cd494",
-    basePrice: 6976,
+    id: "e475b376-4a82-4e5a-b9fa-b4ac64a60602",
+    basePrice: 9880,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -493,9 +226,9 @@ export const melbourneCruises: Cruise[] = [
     "longitude": 144.9631
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "weekend-cruise",
     itinerary: {
       route: [
   {
@@ -525,19 +258,19 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "Embark on a verdant mythos from Melbourne, where the wonders of Australia await. With stops at sydney, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-      distance: "566 nautical miles",
-      totalDuration: "8 days",
+      description: "Leave stress behind with this curated reunion from Melbourne. Sail across the best of Australia and explore treasures like sydney with comfort and style.",
+      distance: "1249 nautical miles",
+      totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
     "description": "Sailing from Melbourne to sydney"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
     "description": "Sailing from sydney to Melbourne"
   }
@@ -545,19 +278,130 @@ export const melbourneCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring sydney"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
     "description": "Exploring Melbourne"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "c8adbca0-3098-43cb-bd6c-e582266e9821",
+        name: "Joel Warren",
+        role: "Marketing Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+        contact: {
+          contactEmail: "lavish.sanctuary.of.@velarivoyages.com",
+          contactNumber: "+1-178-424-7582"
+        }
+      }
+    ],
+    title: "Lavish Sanctuary of the Laneway Wonderland",
+    description: "Leave stress behind with this curated reunion from Melbourne. Sail across the best of Australia and explore treasures like sydney with comfort and style.",
+    rating: 4.9,
+    tags: ["family-friendly","exclusive"]
+  },
+  {
+    id: "48a83554-0d6c-4b25-8230-71b8ed04f65d",
+    basePrice: 1416,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Australia",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Australia",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  }
+],
+      description: "This midnight cruise from Melbourne is your ticket to the captivating charm of the Australia. Discover the delights of sydney with enriching excursions and award-winning service.",
+      distance: "1175 nautical miles",
+      totalDuration: "7 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to sydney"
   },
   {
     "start": "Day 5",
     "end": "Day 5",
     "duration": "1 days",
+    "description": "Sailing from sydney to Melbourne"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
     "description": "Exploring sydney"
   },
   {
-    "start": "Day 7",
-    "end": "Day 8",
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
     "description": "Exploring Melbourne"
   }
@@ -566,26 +410,26 @@ export const melbourneCruises: Cruise[] = [
     tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        id: "37931adc-89b4-42a6-85fe-d2d93f177117",
-        name: "Alexa Russell",
-        role: "Guest Services Agent (Shoreside)",
+        id: "6558e951-13ed-4309-ac6c-e3f3a2124709",
+        name: "Patrick Hawkins",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
         contact: {
-          contactEmail: "mesmerizing.pilgrima@velarivoyages.com",
-          contactNumber: "+1-551-256-9304"
+          contactEmail: "aweinspiring.embrace@velarivoyages.com",
+          contactNumber: "+1-965-706-9462"
         }
       }
     ],
-    title: "Mesmerizing Pilgrimage of the Cultural Capital of Australia",
-    description: "Embark on a verdant mythos from Melbourne, where the wonders of Australia await. With stops at sydney, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-    rating: 4.8,
-    tags: ["family-friendly","luxury"]
+    title: "Awe-Inspiring Embrace of the Art on Every Brick",
+    description: "This midnight cruise from Melbourne is your ticket to the captivating charm of the Australia. Discover the delights of sydney with enriching excursions and award-winning service.",
+    rating: 4.7,
+    tags: ["luxury","repositioning"]
   },
   {
-    id: "4f219aa4-632f-4430-8641-566546d2fcf0",
-    basePrice: 4121,
+    id: "64150f80-fe89-4ccd-b7cb-b6b283c8f205",
+    basePrice: 8212,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -604,6 +448,95 @@ export const melbourneCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Melbourne",
+    "country": "Australia",
+    "region": "Australia",
+    "coordinates": {
+      "latitude": -37.8136,
+      "longitude": 144.9631
+    }
+  },
+  {
+    "city": "sydney",
+    "country": "Australia",
+    "coordinates": {
+      "latitude": -33.8688,
+      "longitude": 151.2093
+    }
+  }
+],
+      description: "Escape into the calm waters of Australia with this ornate journey from Melbourne. Explore vibrant markets, sun-soaked beaches, and architectural marvels at sydney.",
+      distance: "1130 nautical miles",
+      totalDuration: "4 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Melbourne to sydney"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Exploring sydney"
+  }
+]
+    },
+    tourCategoryId: "tropical-cruise",
+    contactPersonnel: [
+      {
+        id: "39ba8cdc-5982-4b50-ac19-020bbe75b870",
+        name: "Antonio Wallace",
+        role: "Marketing Coordinator",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
+        contact: {
+          contactEmail: "luminous.requiem.of.@velarivoyages.com",
+          contactNumber: "+1-798-527-6510"
+        }
+      }
+    ],
+    title: "Luminous Requiem of the Rain-Polished Rhythm",
+    description: "Escape into the calm waters of Australia with this ornate journey from Melbourne. Explore vibrant markets, sun-soaked beaches, and architectural marvels at sydney.",
+    rating: 4.3,
+    tags: ["relaxation"]
+  },
+  {
+    id: "89f8c7d5-8d0c-4941-95ec-b0da6627326d",
+    basePrice: 9779,
+    departureLocation: {
+  "city": "Melbourne",
+  "country": "Australia",
+  "region": "Australia",
+  "coordinates": {
+    "latitude": -37.8136,
+    "longitude": 144.9631
+  }
+},
+    arrivalLocation: {
+  "city": "sydney",
+  "country": "Australia",
+  "coordinates": {
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "luxury-cruise",
     itinerary: {
@@ -626,120 +559,15 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "This odyssey takes you beyond the ordinary, starting in Melbourne. With breathtaking stops in sydney, your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "567 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "165c1168-23f4-468c-b0c0-0869dcf5113e",
-        name: "Jane Holloway",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-        contact: {
-          contactEmail: "whispering.reverie.o@velarivoyages.com",
-          contactNumber: "+1-275-967-7949"
-        }
-      }
-    ],
-    title: "Whispering Reverie of the Cultural Capital of Australia",
-    description: "This odyssey takes you beyond the ordinary, starting in Melbourne. With breathtaking stops in sydney, your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.0,
-    tags: ["luxury","short-getaway"]
-  },
-  {
-    id: "55250ed8-227e-4a23-b5a7-29c8ec30f771",
-    basePrice: 1343,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "holiday-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Embark on a captivating wanderlust from Melbourne, where the wonders of Australia await. With stops at sydney, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-      distance: "914 nautical miles",
-      totalDuration: "8 days",
+      description: "Begin your journey in Melbourne, where tradition meets travel. This immersive eclipse reveals the finest of Australia, from the beaches of sydney to the streets of undefined.",
+      distance: "645 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
     "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
   }
 ],
       timeOnLand: [
@@ -748,155 +576,38 @@ export const melbourneCruises: Cruise[] = [
     "end": "Day 2",
     "duration": "2 days",
     "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "3965d5e4-b156-42f6-bfa8-be3cb78b1c52",
-        name: "Joshua Jennings",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-        contact: {
-          contactEmail: "coralembraced.tranqu@velarivoyages.com",
-          contactNumber: "+1-721-450-9925"
-        }
-      }
-    ],
-    title: "Coral-Embraced Tranquility of the Cultural Capital of Australia",
-    description: "Embark on a captivating wanderlust from Melbourne, where the wonders of Australia await. With stops at sydney, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
-    rating: 5.0,
-    tags: ["cruise-getaway","luxury","adventure"]
-  },
-  {
-    id: "378b53c6-34ba-4b85-b87a-bdad97838345",
-    basePrice: 8350,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Join us for a seascape-discovering mystique from Melbourne, where the journey through Australia is as enriching as the destinations themselves. Visit sydney and create memories that will last a lifetime.",
-      distance: "1376 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to sydney"
   },
   {
     "start": "Day 5",
     "end": "Day 6",
     "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
     "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
   }
 ]
     },
-    tourCategoryId: "vip-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "89ee81e3-0e92-429b-ad6b-0bbd000dd161",
-        name: "Elena Lawson",
-        role: "Guest Services Agent (Shoreside)",
+        id: "75047145-046d-491e-832b-95be6b672b60",
+        name: "Johnny Graham",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
         contact: {
-          contactEmail: "luxurious.journey.of@velarivoyages.com",
-          contactNumber: "+1-220-188-7403"
+          contactEmail: "coastlinecruising.pu@velarivoyages.com",
+          contactNumber: "+1-912-863-5009"
         }
       }
     ],
-    title: "Luxurious Journey of the Laneway Wonderland",
-    description: "Join us for a seascape-discovering mystique from Melbourne, where the journey through Australia is as enriching as the destinations themselves. Visit sydney and create memories that will last a lifetime.",
-    rating: 4.8,
-    tags: ["VIP"]
+    title: "Coastline-Cruising Pulse of the Rain-Polished Rhythm",
+    description: "Begin your journey in Melbourne, where tradition meets travel. This immersive eclipse reveals the finest of Australia, from the beaches of sydney to the streets of undefined.",
+    rating: 4.5,
+    tags: ["cruise-journey"]
   },
   {
-    id: "48d666fa-39c0-4c78-a9e1-669e98768aff",
-    basePrice: 4487,
+    id: "115266e6-fb63-43fd-bd3e-3b089b7b2331",
+    basePrice: 2574,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -915,7 +626,7 @@ export const melbourneCruises: Cruise[] = [
     "longitude": 144.9631
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
+    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "weekend-cruise",
     itinerary: {
@@ -947,19 +658,19 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "Escape to sea from Melbourne on a seaside voyage exploring the magic of Australia. Visit unforgettable locales like sydney, where each stop inspires awe.",
-      distance: "896 nautical miles",
+      description: "This mythos from Melbourne invites you to explore the diverse landscapes and vibrant cultures of Australia. From the historic charm of sydney to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
+      distance: "533 nautical miles",
       totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
+    "end": "Day 3",
+    "duration": "2 days",
     "description": "Sailing from Melbourne to sydney"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
     "description": "Sailing from sydney to Melbourne"
   }
@@ -972,15 +683,15 @@ export const melbourneCruises: Cruise[] = [
     "description": "Exploring Melbourne"
   },
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 4",
+    "end": "Day 4",
     "duration": "1 days",
     "description": "Exploring sydney"
   },
   {
-    "start": "Day 5",
+    "start": "Day 6",
     "end": "Day 6",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring Melbourne"
   }
 ]
@@ -988,26 +699,26 @@ export const melbourneCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "21888b81-b0e6-48ed-bb9a-942143949220",
-        name: "Isabella Ellis",
-        role: "Guest Services Agent (Shoreside)",
+        id: "532dece3-829b-4e38-92b0-5c69624d86ad",
+        name: "Gerald Fletcher",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
         contact: {
-          contactEmail: "heavenly.lullaby.of.@velarivoyages.com",
-          contactNumber: "+1-173-711-8585"
+          contactEmail: "oceanic.requiem.of.t@velarivoyages.com",
+          contactNumber: "+1-888-612-9722"
         }
       }
     ],
-    title: "Heavenly Lullaby of the Art on Every Brick",
-    description: "Escape to sea from Melbourne on a seaside voyage exploring the magic of Australia. Visit unforgettable locales like sydney, where each stop inspires awe.",
-    rating: 4.7,
-    tags: ["adventure"]
+    title: "Oceanic Requiem of the Great Barrier Reef & Sydney Opera House",
+    description: "This mythos from Melbourne invites you to explore the diverse landscapes and vibrant cultures of Australia. From the historic charm of sydney to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
+    rating: 4.9,
+    tags: ["cruise-line"]
   },
   {
-    id: "3d66a988-3afd-46af-bdd2-d5b31b7d603b",
-    basePrice: 1160,
+    id: "77c33d1f-295f-4cde-9b3c-64b47ee146a8",
+    basePrice: 1679,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -1027,7 +738,7 @@ export const melbourneCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "repositioning-cruise",
+    category: "luxury-cruise",
     itinerary: {
       route: [
   {
@@ -1048,13 +759,13 @@ export const melbourneCruises: Cruise[] = [
     }
   }
 ],
-      description: "Begin a captivating arcadia through the Australia, departing Melbourne. With visits to sydney, each day brings a new adventure and deeper connection to the region.",
-      distance: "1185 nautical miles",
+      description: "Leave stress behind with this curated symphony from Melbourne. Sail across the best of Australia and explore treasures like sydney with comfort and style.",
+      distance: "1080 nautical miles",
       totalDuration: "4 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
     "description": "Sailing from Melbourne to sydney"
   }
@@ -1062,152 +773,41 @@ export const melbourneCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Melbourne"
   },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "b68fe54c-0c9a-40e0-8953-dd497383d11b",
-        name: "Benjamin Hunter",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-        contact: {
-          contactEmail: "infinite.sanctum.of.@velarivoyages.com",
-          contactNumber: "+1-436-383-6608"
-        }
-      }
-    ],
-    title: "Infinite Sanctum of the Laneway Wonderland",
-    description: "Begin a captivating arcadia through the Australia, departing Melbourne. With visits to sydney, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.4,
-    tags: ["adventure"]
-  },
-  {
-    id: "45278b07-ff28-42bb-aa19-22537a7d5f1c",
-    basePrice: 9601,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Set off on a elevation from Melbourne that captures the essence of Australia. Discover cultural gems and culinary delights across sydney.",
-      distance: "634 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from sydney to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
     "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
   }
 ]
     },
     tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        id: "f7bc6a37-cdc9-4e08-ab16-e47f4a602271",
-        name: "Jason Holloway",
-        role: "Loyalty Program Representative",
+        id: "1ca0c378-128e-45f3-ad9c-0957ae4ff399",
+        name: "Dylan Ellis",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
         contact: {
-          contactEmail: "extraordinary.expedi@velarivoyages.com",
-          contactNumber: "+1-106-591-2434"
+          contactEmail: "wavewhispered.haven.@velarivoyages.com",
+          contactNumber: "+1-532-217-7114"
         }
       }
     ],
-    title: "Extraordinary Expedition of the Graphite Dreamscape",
-    description: "Set off on a elevation from Melbourne that captures the essence of Australia. Discover cultural gems and culinary delights across sydney.",
-    rating: 4.9,
-    tags: ["cruise-journey","nature","cruise-vacation"]
+    title: "Wave-Whispered Haven of the Cultural Capital of Australia",
+    description: "Leave stress behind with this curated symphony from Melbourne. Sail across the best of Australia and explore treasures like sydney with comfort and style.",
+    rating: 4.3,
+    tags: ["expedition"]
   },
   {
-    id: "70c4326e-7a6d-458b-8161-0fbf999aa4e4",
-    basePrice: 6414,
+    id: "bc26f95f-7ec7-4606-bf1a-530f493d90ae",
+    basePrice: 2609,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -1218,17 +818,16 @@ export const melbourneCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Melbourne",
+  "city": "sydney",
   "country": "Australia",
-  "region": "Australia",
   "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
+    "latitude": -33.8688,
+    "longitude": 151.2093
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "weekend-cruise",
+    category: "tropical-cruise",
     itinerary: {
       route: [
   {
@@ -1247,78 +846,57 @@ export const melbourneCruises: Cruise[] = [
       "latitude": -33.8688,
       "longitude": 151.2093
     }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
   }
 ],
-      description: "Set sail from Melbourne for a voyage like no other. From the picturesque landscapes of sydney to the lively ambiance of undefined, this celestial cruise will redefine your view of Australia.",
-      distance: "1101 nautical miles",
-      totalDuration: "8 days",
+      description: "Join us in Melbourne for a odyssey of a lifetime. Sail across the serene waters of Australia, stopping at ports like sydney where timeless traditions meet modern luxuries.",
+      distance: "1228 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 3",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
     "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
+    "end": "Day 2",
     "duration": "2 days",
     "description": "Exploring Melbourne"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring sydney"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        id: "30c66816-2deb-4893-80c9-b104a3f144e9",
-        name: "Javier Fox",
-        role: "Loyalty Program Representative",
+        id: "5773f573-ac45-45d7-8598-cdaf7585e268",
+        name: "Alan Gardner",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
         experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
         contact: {
-          contactEmail: "serendipitous.mythos@velarivoyages.com",
-          contactNumber: "+1-970-765-7037"
+          contactEmail: "moonlit.resonance.of@velarivoyages.com",
+          contactNumber: "+1-872-692-4087"
         }
       }
     ],
-    title: "Serendipitous Mythos of the Rain-Polished Rhythm",
-    description: "Set sail from Melbourne for a voyage like no other. From the picturesque landscapes of sydney to the lively ambiance of undefined, this celestial cruise will redefine your view of Australia.",
-    rating: 4.7,
-    tags: ["cruise-journey","cruise-experience"]
+    title: "Moonlit Resonance of the Great Barrier Reef & Sydney Opera House",
+    description: "Join us in Melbourne for a odyssey of a lifetime. Sail across the serene waters of Australia, stopping at ports like sydney where timeless traditions meet modern luxuries.",
+    rating: 4.4,
+    tags: ["VIP"]
   },
   {
-    id: "590ee602-5062-44cf-9327-2256487d518d",
-    basePrice: 8335,
+    id: "7f9ec628-bda4-4856-981c-9f9bd7c89fda",
+    basePrice: 3923,
     departureLocation: {
   "city": "Melbourne",
   "country": "Australia",
@@ -1329,16 +907,15 @@ export const melbourneCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Melbourne",
+  "city": "sydney",
   "country": "Australia",
-  "region": "Australia",
   "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
+    "latitude": -33.8688,
+    "longitude": 151.2093
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    hasPopularDestination: true,
     category: "fjords-tour",
     itinerary: {
       route: [
@@ -1358,409 +935,10 @@ export const melbourneCruises: Cruise[] = [
       "latitude": -33.8688,
       "longitude": 151.2093
     }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
   }
 ],
-      description: "An unforgettable discovery awaits as you cruise from Melbourne across Australia. Dive into history, flavor, and culture with stops including sydney.",
-      distance: "839 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        id: "16ab0c77-f1d5-4f18-9dd9-1c9f0de1c994",
-        name: "Wayne Collins",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/98.jpg",
-        contact: {
-          contactEmail: "islandembraced.odyss@velarivoyages.com",
-          contactNumber: "+1-888-806-3052"
-        }
-      }
-    ],
-    title: "Island-Embraced Odyssey of the Jazz of the Streets",
-    description: "An unforgettable discovery awaits as you cruise from Melbourne across Australia. Dive into history, flavor, and culture with stops including sydney.",
-    rating: 4.3,
-    tags: ["cruise-excursion","adventure","repositioning"]
-  },
-  {
-    id: "00653ccb-6f27-428c-947e-dccbcbe3d38d",
-    basePrice: 4675,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Step aboard in Melbourne and begin a wave-whispered journey through the scenic Australia. From historic cities to coastal hideaways like sydney, every day is unforgettable.",
-      distance: "1272 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "2f1c7622-2903-45e4-a439-177ca7e2eb03",
-        name: "Thabo Carpenter",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 19,
-        profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-        contact: {
-          contactEmail: "azure.frontier.of.th@velarivoyages.com",
-          contactNumber: "+1-513-840-7714"
-        }
-      }
-    ],
-    title: "Azure Frontier of the Art on Every Brick",
-    description: "Step aboard in Melbourne and begin a wave-whispered journey through the scenic Australia. From historic cities to coastal hideaways like sydney, every day is unforgettable.",
-    rating: 4.6,
-    tags: ["cruise"]
-  },
-  {
-    id: "3fbcdc21-641c-4c27-90a9-4c3ce6799595",
-    basePrice: 6962,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "This wave-crested cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
-      distance: "1148 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        id: "1033e508-909d-469b-8b1e-d029128017f3",
-        name: "Bobby Murray",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
-        contact: {
-          contactEmail: "radiant.saga.of.the.@velarivoyages.com",
-          contactNumber: "+1-671-188-7863"
-        }
-      }
-    ],
-    title: "Radiant Saga of the Laneway Wonderland",
-    description: "This wave-crested cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
-    rating: 4.6,
-    tags: ["historical","family-friendly","themed-cruise"]
-  },
-  {
-    id: "51864877-730b-4a45-a55c-6aa517f2ca6f",
-    basePrice: 3142,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "This extraordinary serenade from Melbourne offers the ultimate Australia exploration. Immerse yourself in the rich cultures and stunning landscapes of  and sydney, creating memories that will last a lifetime.",
-      distance: "552 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Melbourne to sydney"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring sydney"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "60c63526-6e04-47d3-ae81-0f813e6c948d",
-        name: "Joel Hamilton",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
-        contact: {
-          contactEmail: "tidewhispered.lullab@velarivoyages.com",
-          contactNumber: "+1-786-316-8026"
-        }
-      }
-    ],
-    title: "Tide-Whispered Lullaby of the Jazz of the Streets",
-    description: "This extraordinary serenade from Melbourne offers the ultimate Australia exploration. Immerse yourself in the rich cultures and stunning landscapes of  and sydney, creating memories that will last a lifetime.",
-    rating: 4.4,
-    tags: ["cruise"]
-  },
-  {
-    id: "1ec1f722-0546-4670-96c4-563a93d99d68",
-    basePrice: 7833,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "sydney",
-  "country": "Australia",
-  "coordinates": {
-    "latitude": -33.8688,
-    "longitude": 151.2093
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  }
-],
-      description: "This tide-whispered cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
-      distance: "1026 nautical miles",
+      description: "This golden cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
+      distance: "1140 nautical miles",
       totalDuration: "5 days",
       timeAtSea: [
   {
@@ -1785,135 +963,24 @@ export const melbourneCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "theme-cruise",
     contactPersonnel: [
       {
-        id: "b9fe4e79-857f-4ada-b40f-38d7535c3f6f",
-        name: "Mason Dunn",
-        role: "Loyalty Program Representative",
+        id: "9232fc19-afb8-444b-8a0c-d057576eecf8",
+        name: "Wayne Douglas",
+        role: "Marketing Coordinator",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
         contact: {
-          contactEmail: "extraordinary.elevat@velarivoyages.com",
-          contactNumber: "+1-624-699-8651"
+          contactEmail: "ornate.exploration.o@velarivoyages.com",
+          contactNumber: "+1-769-732-9032"
         }
       }
     ],
-    title: "Extraordinary Elevation of the Surfing Beaches & Aboriginal Culture",
-    description: "This tide-whispered cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
-    rating: 4.6,
-    tags: ["romantic"]
-  },
-  {
-    id: "353c0f66-071c-4e68-bd53-8f36d364be14",
-    basePrice: 9695,
-    departureLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    arrivalLocation: {
-  "city": "Melbourne",
-  "country": "Australia",
-  "region": "Australia",
-  "coordinates": {
-    "latitude": -37.8136,
-    "longitude": 144.9631
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  },
-  {
-    "city": "sydney",
-    "country": "Australia",
-    "coordinates": {
-      "latitude": -33.8688,
-      "longitude": 151.2093
-    }
-  },
-  {
-    "city": "Melbourne",
-    "country": "Australia",
-    "region": "Australia",
-    "coordinates": {
-      "latitude": -37.8136,
-      "longitude": 144.9631
-    }
-  }
-],
-      description: "Escape the everyday with this moonlit journey through Australia, departing from Melbourne. You'll visit sydney, where every stop is a new adventure.",
-      distance: "531 nautical miles",
-      totalDuration: "9 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Melbourne to sydney"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from sydney to Melbourne"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Melbourne"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sydney"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring Melbourne"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "d42c19e0-5a86-49f7-aa03-474ac0d4baf1",
-        name: "Benjamin Murray",
-        role: "Loyalty Program Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-        contact: {
-          contactEmail: "mythic.journey.of.th@velarivoyages.com",
-          contactNumber: "+1-723-641-2753"
-        }
-      }
-    ],
-    title: "Mythic Journey of the Great Barrier Reef & Sydney Opera House",
-    description: "Escape the everyday with this moonlit journey through Australia, departing from Melbourne. You'll visit sydney, where every stop is a new adventure.",
-    rating: 4.3,
-    tags: ["short-getaway"]
+    title: "Ornate Exploration of the Surfing Beaches & Aboriginal Culture",
+    description: "This golden cruise from Melbourne is your gateway to the wonders of Australia. Experience the best of coastal life with stops at sydney, where each destination is a treasure waiting to be explored.",
+    rating: 4.7,
+    tags: ["culinary","themed-cruise"]
   }
 ];

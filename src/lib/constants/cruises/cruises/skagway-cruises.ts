@@ -1,13 +1,13 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Skagway
-    // Generated on: 2025-06-10T03:09:08.455Z
+    // Generated on: 2025-06-10T04:43:44.437Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const skagwayCruises: Cruise[] = [
-{
-    id: "cf75f005-0cc4-42a0-8303-c3744b71ea91",
-    basePrice: 8132,
+  {
+    id: "8569814b-0aa3-43a8-af09-893a82d997e1",
+    basePrice: 5985,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -18,16 +18,17 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "anchorage",
+  "city": "Skagway",
   "country": "United States",
+  "region": "Alaska",
   "coordinates": {
-    "latitude": 61.2181,
-    "longitude": -149.9003
+    "latitude": 59.4569,
+    "longitude": -135.3123
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "fall-foliage-cruise",
+    category: "anniversary-cruise",
     itinerary: {
       route: [
   {
@@ -37,14 +38,6 @@ export const skagwayCruises: Cruise[] = [
     "coordinates": {
       "latitude": 59.4569,
       "longitude": -135.3123
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
     }
   },
   {
@@ -62,29 +55,350 @@ export const skagwayCruises: Cruise[] = [
       "latitude": 61.2181,
       "longitude": -149.9003
     }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "juneau",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "Skagway",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
   }
 ],
-      description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like denali, glacier-bay, anchorage, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "921 nautical miles",
-      totalDuration: "10 days",
+      description: "This extraordinary sojourn from Skagway offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of glacier-bay, anchorage, ketchikan and juneau, creating memories that will last a lifetime.",
+      distance: "1439 nautical miles",
+      totalDuration: "16 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Skagway to glacier-bay"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from glacier-bay to anchorage"
+  },
+  {
+    "start": "Day 6",
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from anchorage to ketchikan"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to juneau"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 14",
+    "duration": "2 days",
+    "description": "Sailing from juneau to Skagway"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 5",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring juneau"
+  },
+  {
+    "start": "Day 15",
+    "end": "Day 16",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "a0ee0ddb-0256-434e-8559-0ecc4d7ec579",
+        name: "Vincent Day",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
+        contact: {
+          contactEmail: "wavecrested.discover@velarivoyages.com",
+          contactNumber: "+1-508-262-9606"
+        }
+      }
+    ],
+    title: "Wave-Crested Discovery of the Iditarod Trail & Gold Rush History",
+    description: "This extraordinary sojourn from Skagway offers the ultimate Alaska exploration. Immerse yourself in the rich cultures and stunning landscapes of glacier-bay, anchorage, ketchikan and juneau, creating memories that will last a lifetime.",
+    rating: 4.2,
+    tags: ["family-friendly","themed-cruise","cruise"]
+  },
+  {
+    id: "993c9856-4ff5-482d-96fa-1c4767459125",
+    basePrice: 4677,
+    departureLocation: {
+  "city": "Skagway",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 59.4569,
+    "longitude": -135.3123
+  }
+},
+    arrivalLocation: {
+  "city": "ketchikan",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 55.3422,
+    "longitude": -131.6476
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "vip-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Skagway",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  }
+],
+      description: "Depart from iconic Skagway and traverse the Alaska with visits to glacier-bay, denali, ketchikan. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "857 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Skagway to denali"
+    "description": "Sailing from Skagway to glacier-bay"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to denali"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Sailing from denali to ketchikan"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Exploring ketchikan"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "9f255a40-eb0c-4c5b-987a-069e21181bb4",
+        name: "John Dixon",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 11,
+        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
+        contact: {
+          contactEmail: "verdant.elevation.of@velarivoyages.com",
+          contactNumber: "+1-396-879-6537"
+        }
+      }
+    ],
+    title: "Verdant Elevation of the Gateway to the Klondike",
+    description: "Depart from iconic Skagway and traverse the Alaska with visits to glacier-bay, denali, ketchikan. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.3,
+    tags: ["long-distance","fall-cruise"]
+  },
+  {
+    id: "9c8a6a92-c6d5-4ca9-9fc6-39998dc63899",
+    basePrice: 8869,
+    departureLocation: {
+  "city": "Skagway",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 59.4569,
+    "longitude": -135.3123
+  }
+},
+    arrivalLocation: {
+  "city": "denali",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 63.1148,
+    "longitude": -151.1926
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "anniversary-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Skagway",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "juneau",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  },
+  {
+    "city": "ketchikan",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  }
+],
+      description: "Let the winds of the Alaska carry you from Skagway to the most stunning ports in the region. With destinations like juneau, glacier-bay, ketchikan, denali, this tranquility redefines luxury travel.",
+      distance: "554 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to juneau"
   },
   {
     "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from denali to glacier-bay"
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from juneau to glacier-bay"
   },
   {
     "start": "Day 9",
     "end": "Day 9",
     "duration": "1 days",
-    "description": "Sailing from glacier-bay to anchorage"
+    "description": "Sailing from glacier-bay to ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Sailing from ketchikan to denali"
   }
 ],
       timeOnLand: [
@@ -98,196 +412,51 @@ export const skagwayCruises: Cruise[] = [
     "start": "Day 5",
     "end": "Day 5",
     "duration": "1 days",
-    "description": "Exploring denali"
+    "description": "Exploring juneau"
   },
   {
-    "start": "Day 7",
+    "start": "Day 8",
     "end": "Day 8",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring glacier-bay"
   },
   {
     "start": "Day 10",
     "end": "Day 10",
     "duration": "1 days",
-    "description": "Exploring anchorage"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "c3b7539a-2e97-433b-b274-f74952a1bb6b",
-        name: "Caroline Nash",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-        contact: {
-          contactEmail: "islandhopping.wander@velarivoyages.com",
-          contactNumber: "+1-311-698-8256"
-        }
-      }
-    ],
-    title: "Island-Hopping Wanderlust of the Iditarod Trail & Gold Rush History",
-    description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like denali, glacier-bay, anchorage, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.6,
-    tags: ["glacier-cruise","cruise-experience"]
-  },
-  {
-    id: "12e14583-b67a-4f86-90b7-58fb9cc67a75",
-    basePrice: 1375,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "sitka",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like sitka, juneau, denali, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "1213 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from sitka to juneau"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from juneau to denali"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from denali to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sitka"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring denali"
+    "description": "Exploring ketchikan"
   },
   {
     "start": "Day 13",
     "end": "Day 13",
     "duration": "1 days",
-    "description": "Exploring Skagway"
+    "description": "Exploring denali"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "b6eb366b-1f93-4ba3-8f55-51d2bb6351a4",
-        name: "Genesis Hunter",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
+        id: "efa0e0ed-8209-4e14-8904-295a87a5268c",
+        name: "Mason Reed",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
         contact: {
-          contactEmail: "starlit.sanctuary.of@velarivoyages.com",
-          contactNumber: "+1-159-441-4344"
+          contactEmail: "gilded.mystique.of.t@velarivoyages.com",
+          contactNumber: "+1-362-448-5587"
         }
       }
     ],
-    title: "Starlit Sanctuary of the Gateway to the Klondike",
-    description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like sitka, juneau, denali, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.7,
-    tags: ["fall-cruise"]
+    title: "Gilded Mystique of the Glacier Cruises & Wildlife Viewing",
+    description: "Let the winds of the Alaska carry you from Skagway to the most stunning ports in the region. With destinations like juneau, glacier-bay, ketchikan, denali, this tranquility redefines luxury travel.",
+    rating: 4.3,
+    tags: ["general","cruise-ship"]
   },
   {
-    id: "99682c49-f650-4c8c-9a62-9d041c8f2b86",
-    basePrice: 4917,
+    id: "f04515aa-2f85-47bc-9f39-8333e7ab7da7",
+    basePrice: 6828,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -306,247 +475,8 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "ketchikan",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 55.3422,
-      "longitude": -131.6476
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  }
-],
-      description: "Experience the magic of Alaska on this majestic cruise departing from Skagway. From the vibrant culture of ketchikan to the breathtaking landscapes of denali, this journey promises unforgettable moments and lasting memories.",
-      distance: "1182 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to ketchikan"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from ketchikan to denali"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring ketchikan"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring denali"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "1e5231c6-085e-41f1-a637-909025eeb6ca",
-        name: "Charlotte Curtis",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-        contact: {
-          contactEmail: "duskkissed.passage.o@velarivoyages.com",
-          contactNumber: "+1-486-205-1095"
-        }
-      }
-    ],
-    title: "Dusk-Kissed Passage of the Gold Rush Town",
-    description: "Experience the magic of Alaska on this majestic cruise departing from Skagway. From the vibrant culture of ketchikan to the breathtaking landscapes of denali, this journey promises unforgettable moments and lasting memories.",
-    rating: 4.3,
-    tags: ["long-distance"]
-  },
-  {
-    id: "2666d696-af09-4753-8268-48b52e556d63",
-    basePrice: 5915,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "juneau",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 58.3019,
-    "longitude": -134.4197
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "ketchikan",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 55.3422,
-      "longitude": -131.6476
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  }
-],
-      description: "This hand-selected floating cruise offers a true taste of Alaska. Depart from Skagway and explore ports like glacier-bay, ketchikan, juneau, each telling a story through food, music, and tradition.",
-      distance: "686 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to glacier-bay"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to ketchikan"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from ketchikan to juneau"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Exploring ketchikan"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "549554a8-18f3-46fa-a9ef-be7dcdab490f",
-        name: "Maya Collins",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-        contact: {
-          contactEmail: "secret.eclipse.of.th@velarivoyages.com",
-          contactNumber: "+1-110-951-1099"
-        }
-      }
-    ],
-    title: "Secret Eclipse of the Historic District",
-    description: "This hand-selected floating cruise offers a true taste of Alaska. Depart from Skagway and explore ports like glacier-bay, ketchikan, juneau, each telling a story through food, music, and tradition.",
-    rating: 4.7,
-    tags: ["holiday-cruise","cultural","luxury"]
-  },
-  {
-    id: "d4ae1b6c-c50a-4e9b-a3e8-1479e35d73c7",
-    basePrice: 6291,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "luxury-cruise",
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -567,251 +497,11 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "Experience the magic of Alaska on this twilight cruise departing from Skagway. From the vibrant culture of sitka to the breathtaking landscapes of juneau, this journey promises unforgettable moments and lasting memories.",
-      distance: "573 nautical miles",
-      totalDuration: "11 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to sitka"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from sitka to juneau"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from juneau to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring sitka"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "b9910874-8530-47c5-bccc-42de6ef1121a",
-        name: "Deborah Douglas",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-        contact: {
-          contactEmail: "whispering.legacy.of@velarivoyages.com",
-          contactNumber: "+1-605-126-1278"
-        }
-      }
-    ],
-    title: "Whispering Legacy of the Gateway to the Klondike",
-    description: "Experience the magic of Alaska on this twilight cruise departing from Skagway. From the vibrant culture of sitka to the breathtaking landscapes of juneau, this journey promises unforgettable moments and lasting memories.",
-    rating: 4.4,
-    tags: ["adventure","glacier-cruise"]
-  },
-  {
-    id: "cff32c95-3af8-4529-a341-7342aeacfcf9",
-    basePrice: 5365,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "ketchikan",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 55.3422,
-    "longitude": -131.6476
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
     "city": "ketchikan",
     "country": "United States",
     "coordinates": {
       "latitude": 55.3422,
       "longitude": -131.6476
-    }
-  }
-],
-      description: "Sail away from the charming harbor of Skagway on this ocean-bound journey across Alaska. Uncover the beauty and history of juneau, ketchikan with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "849 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to juneau"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from juneau to ketchikan"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring ketchikan"
-  }
-]
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        id: "1970ed6f-2c92-49ce-9639-c3cba532d073",
-        name: "Linda Maxwell",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-        contact: {
-          contactEmail: "celestial.solstice.o@velarivoyages.com",
-          contactNumber: "+1-847-858-2234"
-        }
-      }
-    ],
-    title: "Celestial Solstice of the Iditarod Trail & Gold Rush History",
-    description: "Sail away from the charming harbor of Skagway on this ocean-bound journey across Alaska. Uncover the beauty and history of juneau, ketchikan with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.9,
-    tags: ["cruise-vacation","cruise-excursion","themed-cruise"]
-  },
-  {
-    id: "e51fb81f-7b28-4062-84c5-67064a245a09",
-    basePrice: 5418,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "tropical-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
     }
   },
   {
@@ -823,193 +513,41 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "Step into a world of elegance and exploration from Skagway. This elevation through the Alaska unveils stunning stops including denali, glacier-bay, anchorage, all with first-class service.",
-      distance: "677 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to denali"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from denali to glacier-bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to anchorage"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Sailing from anchorage to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring denali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Exploring anchorage"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 13",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "a54d5db5-93cb-463f-993f-84c749d7f1c3",
-        name: "Sandra Hunter",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-        contact: {
-          contactEmail: "seaside.excursion.of@velarivoyages.com",
-          contactNumber: "+1-375-461-6708"
-        }
-      }
-    ],
-    title: "Seaside Excursion of the Iditarod Trail & Gold Rush History",
-    description: "Step into a world of elegance and exploration from Skagway. This elevation through the Alaska unveils stunning stops including denali, glacier-bay, anchorage, all with first-class service.",
-    rating: 4.4,
-    tags: ["relaxation","romantic","short-getaway"]
-  },
-  {
-    id: "83a30e6d-0b1c-401a-bad3-1a8e90e69655",
-    basePrice: 9237,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "sitka",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
-    }
-  },
-  {
     "city": "denali",
     "country": "United States",
     "coordinates": {
       "latitude": 63.1148,
       "longitude": -151.1926
     }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
   }
 ],
-      description: "Experience the magic of Alaska on this celestial cruise departing from Skagway. From the vibrant culture of glacier-bay to the breathtaking landscapes of sitka, this journey promises unforgettable moments and lasting memories.",
-      distance: "1108 nautical miles",
-      totalDuration: "16 days",
+      description: "Board in Skagway for a hand-crafted passage through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in sitka, ketchikan, anchorage, denali.",
+      distance: "863 nautical miles",
+      totalDuration: "17 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Skagway to glacier-bay"
+    "description": "Sailing from Skagway to sitka"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
+    "start": "Day 7",
+    "end": "Day 8",
     "duration": "2 days",
-    "description": "Sailing from glacier-bay to sitka"
+    "description": "Sailing from sitka to ketchikan"
   },
   {
-    "start": "Day 10",
-    "end": "Day 11",
+    "start": "Day 11",
+    "end": "Day 12",
     "duration": "2 days",
-    "description": "Sailing from sitka to denali"
+    "description": "Sailing from ketchikan to anchorage"
   },
   {
-    "start": "Day 14",
-    "end": "Day 14",
+    "start": "Day 15",
+    "end": "Day 15",
     "duration": "1 days",
-    "description": "Sailing from denali to Skagway"
+    "description": "Sailing from anchorage to denali"
   }
 ],
       timeOnLand: [
@@ -1021,53 +559,53 @@ export const skagwayCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
+    "end": "Day 6",
     "duration": "2 days",
     "description": "Exploring sitka"
   },
   {
-    "start": "Day 12",
-    "end": "Day 13",
+    "start": "Day 9",
+    "end": "Day 10",
     "duration": "2 days",
-    "description": "Exploring denali"
+    "description": "Exploring ketchikan"
   },
   {
-    "start": "Day 15",
-    "end": "Day 16",
+    "start": "Day 13",
+    "end": "Day 14",
     "duration": "2 days",
-    "description": "Exploring Skagway"
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 16",
+    "end": "Day 17",
+    "duration": "2 days",
+    "description": "Exploring denali"
   }
 ]
     },
     tourCategoryId: "repositioning-cruise",
     contactPersonnel: [
       {
-        id: "8c4a7d9e-a646-4c41-86be-efaa169aa94d",
-        name: "Claire Dixon",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        id: "4832b85b-d2cb-4f83-b03c-bcb11ea0bf4b",
+        name: "Aiden Hamilton",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
         contact: {
-          contactEmail: "majestic.passage.of.@velarivoyages.com",
-          contactNumber: "+1-262-305-5375"
+          contactEmail: "tidewhispered.tide.o@velarivoyages.com",
+          contactNumber: "+1-158-528-2390"
         }
       }
     ],
-    title: "Majestic Passage of the Glacier Cruises & Wildlife Viewing",
-    description: "Experience the magic of Alaska on this celestial cruise departing from Skagway. From the vibrant culture of glacier-bay to the breathtaking landscapes of sitka, this journey promises unforgettable moments and lasting memories.",
-    rating: 4.9,
-    tags: ["seasonal","glacier-cruise","cruise"]
+    title: "Tide-Whispered Tide of the Gateway to the Klondike",
+    description: "Board in Skagway for a hand-crafted passage through the breathtaking Alaska. Highlights include sun-drenched beaches, historic ports, and immersive culture in sitka, ketchikan, anchorage, denali.",
+    rating: 4.2,
+    tags: ["anniversary-cruise","cruise-adventure","tropical"]
   },
   {
-    id: "0f697418-d6a1-4ca6-a0f0-c9f34854e181",
-    basePrice: 3035,
+    id: "0dcf679f-9257-4f5e-99ff-f8fb54fbc364",
+    basePrice: 4436,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -1078,291 +616,11 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "juneau",
+  "city": "denali",
   "country": "United States",
   "coordinates": {
-    "latitude": 58.3019,
-    "longitude": -134.4197
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  },
-  {
-    "city": "sitka",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  }
-],
-      description: "From bustling Skagway to serene Alaska shores, this cruise invites you to relax, explore, and indulge. Stops at denali, sitka, glacier-bay, juneau deliver a balanced blend of culture and comfort.",
-      distance: "1430 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to denali"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from denali to sitka"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Sailing from sitka to glacier-bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to juneau"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring denali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring sitka"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 11",
-    "end": "Day 12",
-    "duration": "2 days",
-    "description": "Exploring juneau"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "36b59851-d3b5-4dd6-b45a-17a93431a7a0",
-        name: "Lily Hall",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-        contact: {
-          contactEmail: "sublime.adventure.of@velarivoyages.com",
-          contactNumber: "+1-330-667-3359"
-        }
-      }
-    ],
-    title: "Sublime Adventure of the Historic District",
-    description: "From bustling Skagway to serene Alaska shores, this cruise invites you to relax, explore, and indulge. Stops at denali, sitka, glacier-bay, juneau deliver a balanced blend of culture and comfort.",
-    rating: 4.8,
-    tags: ["holiday-cruise","cruise-excursion"]
-  },
-  {
-    id: "68fc4353-f1f3-4083-aaef-a77f4d9750ce",
-    basePrice: 6160,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "anchorage",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 61.2181,
-      "longitude": -149.9003
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "This charming cruise from Skagway is your gateway to the wonders of Alaska. Experience the best of coastal life with stops at glacier-bay, anchorage, where each destination is a treasure waiting to be explored.",
-      distance: "763 nautical miles",
-      totalDuration: "10 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to glacier-bay"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to anchorage"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
-    "duration": "2 days",
-    "description": "Sailing from anchorage to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring anchorage"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 10",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "theme-cruise",
-    contactPersonnel: [
-      {
-        id: "e851af47-8d6a-410f-9625-4ac88a04d6ac",
-        name: "Amelia Morgan",
-        role: "Group Booking Coordinator",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-        contact: {
-          contactEmail: "majestic.drift.of.th@velarivoyages.com",
-          contactNumber: "+1-607-121-8614"
-        }
-      }
-    ],
-    title: "Majestic Drift of the Iditarod Trail & Gold Rush History",
-    description: "This charming cruise from Skagway is your gateway to the wonders of Alaska. Experience the best of coastal life with stops at glacier-bay, anchorage, where each destination is a treasure waiting to be explored.",
-    rating: 4.6,
-    tags: ["adventure","themed-cruise","wellness"]
-  },
-  {
-    id: "d32d46d6-f3a2-4645-80a3-8ab72927ee04",
-    basePrice: 9574,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "anchorage",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 61.2181,
-    "longitude": -149.9003
+    "latitude": 63.1148,
+    "longitude": -151.1926
   }
 },
     isPopular: true, // Make fewer cruises "popular"
@@ -1380,152 +638,11 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  },
-  {
     "city": "glacier-bay",
     "country": "United States",
     "coordinates": {
       "latitude": 58.8017,
       "longitude": -135.5828
-    }
-  },
-  {
-    "city": "sitka",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
-    }
-  },
-  {
-    "city": "anchorage",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 61.2181,
-      "longitude": -149.9003
-    }
-  }
-],
-      description: "Experience coastal elegance on this sojourn from Skagway, where the journey through Alaska includes stops in denali, glacier-bay, sitka, anchorage, each more enchanting than the last.",
-      distance: "747 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to denali"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from denali to glacier-bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to sitka"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from sitka to anchorage"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring denali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring sitka"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring anchorage"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "fc5090ac-980c-4595-99f8-daeab78012b0",
-        name: "Aaron Baker",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-        contact: {
-          contactEmail: "twilight.arcadia.of.@velarivoyages.com",
-          contactNumber: "+1-438-419-1316"
-        }
-      }
-    ],
-    title: "Twilight Arcadia of the White Pass Railway",
-    description: "Experience coastal elegance on this sojourn from Skagway, where the journey through Alaska includes stops in denali, glacier-bay, sitka, anchorage, each more enchanting than the last.",
-    rating: 4.7,
-    tags: ["short-getaway"]
-  },
-  {
-    id: "eb012d24-0f5c-440b-ae0d-e3f6f0153d76",
-    basePrice: 3795,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "anchorage",
-  "country": "United States",
-  "coordinates": {
-    "latitude": 61.2181,
-    "longitude": -149.9003
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
     }
   },
   {
@@ -1537,43 +654,35 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "glacier-bay",
+    "city": "denali",
     "country": "United States",
     "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "anchorage",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 61.2181,
-      "longitude": -149.9003
+      "latitude": 63.1148,
+      "longitude": -151.1926
     }
   }
 ],
-      description: "Sail from Skagway into a world of wonder. The Alaska beckons with unforgettable ports like juneau, glacier-bay, anchorage, where every view is picture-perfect and every moment is priceless.",
-      distance: "999 nautical miles",
-      totalDuration: "11 days",
+      description: "Join us for a spectacular journey from Skagway, where the journey through Alaska is as enriching as the destinations themselves. Visit glacier-bay, juneau, denali and create memories that will last a lifetime.",
+      distance: "1483 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 3",
     "duration": "1 days",
-    "description": "Sailing from Skagway to juneau"
+    "description": "Sailing from Skagway to glacier-bay"
   },
   {
-    "start": "Day 6",
+    "start": "Day 5",
     "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from juneau to glacier-bay"
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to juneau"
   },
   {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to anchorage"
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
+    "description": "Sailing from juneau to denali"
   }
 ],
       timeOnLand: [
@@ -1585,47 +694,47 @@ export const skagwayCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
+    "end": "Day 4",
+    "duration": "1 days",
     "description": "Exploring glacier-bay"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
+    "start": "Day 7",
+    "end": "Day 7",
     "duration": "1 days",
-    "description": "Exploring anchorage"
+    "description": "Exploring juneau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring denali"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        id: "4b66c161-0b3f-44cd-8e19-a20a5d03c79f",
-        name: "Roy Griffin",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
+        id: "ca4d94f7-4365-4891-a5b1-fa8aa301d0d5",
+        name: "Andrew Sutton",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
         contact: {
-          contactEmail: "radiant.infinite.of.@velarivoyages.com",
-          contactNumber: "+1-549-791-9732"
+          contactEmail: "tidewhispered.realm.@velarivoyages.com",
+          contactNumber: "+1-236-195-7622"
         }
       }
     ],
-    title: "Radiant Infinite of the Gateway to the Klondike",
-    description: "Sail from Skagway into a world of wonder. The Alaska beckons with unforgettable ports like juneau, glacier-bay, anchorage, where every view is picture-perfect and every moment is priceless.",
-    rating: 4.3,
-    tags: ["cruise-line"]
+    title: "Tide-Whispered Realm of the White Pass Railway",
+    description: "Join us for a spectacular journey from Skagway, where the journey through Alaska is as enriching as the destinations themselves. Visit glacier-bay, juneau, denali and create memories that will last a lifetime.",
+    rating: 4.2,
+    tags: ["VIP","family-friendly"]
   },
   {
-    id: "3b40f2b4-a61e-49de-adf9-bb2736829fcf",
-    basePrice: 6318,
+    id: "ead56311-9359-434b-b8e1-1dfc2dfe722e",
+    basePrice: 5274,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -1645,418 +754,6 @@ export const skagwayCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  }
-],
-      description: "Step aboard in Skagway and begin a golden journey through the scenic Alaska. From historic cities to coastal hideaways like glacier-bay, juneau, every day is unforgettable.",
-      distance: "809 nautical miles",
-      totalDuration: "8 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to glacier-bay"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from glacier-bay to juneau"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Exploring juneau"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "958db881-8e5d-47d7-bd44-60c3e6e6ab7c",
-        name: "Stephen Parker",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
-        contact: {
-          contactEmail: "islandembraced.journ@velarivoyages.com",
-          contactNumber: "+1-233-613-3454"
-        }
-      }
-    ],
-    title: "Island-Embraced Journey of the Iditarod Trail & Gold Rush History",
-    description: "Step aboard in Skagway and begin a golden journey through the scenic Alaska. From historic cities to coastal hideaways like glacier-bay, juneau, every day is unforgettable.",
-    rating: 4.4,
-    tags: ["relaxation","exclusive"]
-  },
-  {
-    id: "1ccda54a-0883-4775-b377-6eac89253f50",
-    basePrice: 6122,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "luxury-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "anchorage",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 61.2181,
-      "longitude": -149.9003
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like juneau, glacier-bay, anchorage, expect a voyage filled with scenic wonders and luxurious comforts.",
-      distance: "1177 nautical miles",
-      totalDuration: "12 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Skagway to juneau"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from juneau to glacier-bay"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
-    "duration": "1 days",
-    "description": "Sailing from glacier-bay to anchorage"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from anchorage to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 7",
-    "duration": "2 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring anchorage"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        id: "92d4b8f5-a244-40ca-bf4c-ced320cd3713",
-        name: "Alan Collins",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-        contact: {
-          contactEmail: "secret.pilgrimage.of@velarivoyages.com",
-          contactNumber: "+1-809-640-9491"
-        }
-      }
-    ],
-    title: "Secret Pilgrimage of the Historic District",
-    description: "Launch into adventure from Skagway and sail deep into the heart of the Alaska. With ports of call like juneau, glacier-bay, anchorage, expect a voyage filled with scenic wonders and luxurious comforts.",
-    rating: 4.8,
-    tags: ["glacier-cruise","anniversary-cruise"]
-  },
-  {
-    id: "6342b91b-f2a3-4306-a876-f76101f240d9",
-    basePrice: 1808,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  },
-  {
-    "city": "denali",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 63.1148,
-      "longitude": -151.1926
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
-    }
-  },
-  {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
-  }
-],
-      description: "Your lullaby begins in Skagway, where the spirit of exploration meets modern luxury. From the sun-drenched shores of denali to the historic streets of glacier-bay, each stop in the Alaska will leave a lasting impression.",
-      distance: "1426 nautical miles",
-      totalDuration: "13 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to denali"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Sailing from denali to glacier-bay"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to juneau"
-  },
-  {
-    "start": "Day 10",
-    "end": "Day 11",
-    "duration": "2 days",
-    "description": "Sailing from juneau to Skagway"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Skagway"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring denali"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
-    "duration": "1 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 13",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "ef75b8e7-e726-40a3-bcdc-fe94b4e9ed5b",
-        name: "Jerry Clark",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-        contact: {
-          contactEmail: "charming.expedition.@velarivoyages.com",
-          contactNumber: "+1-790-556-3243"
-        }
-      }
-    ],
-    title: "Charming Expedition of the Alaskan Adventure Port",
-    description: "Your lullaby begins in Skagway, where the spirit of exploration meets modern luxury. From the sun-drenched shores of denali to the historic streets of glacier-bay, each stop in the Alaska will leave a lasting impression.",
-    rating: 4.5,
-    tags: ["weekend-cruise","expedition","holiday-cruise"]
-  },
-  {
-    id: "b16994f7-f2f0-4b0a-a261-f140843bb92c",
-    basePrice: 5506,
-    departureLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    arrivalLocation: {
-  "city": "Skagway",
-  "country": "United States",
-  "region": "Alaska",
-  "coordinates": {
-    "latitude": 59.4569,
-    "longitude": -135.3123
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
     category: "theme-cruise",
     itinerary: {
       route: [
@@ -2070,27 +767,11 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "ketchikan",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 55.3422,
-      "longitude": -131.6476
-    }
-  },
-  {
     "city": "sitka",
     "country": "United States",
     "coordinates": {
       "latitude": 57.0531,
       "longitude": -135.3304
-    }
-  },
-  {
-    "city": "glacier-bay",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.8017,
-      "longitude": -135.5828
     }
   },
   {
@@ -2100,114 +781,69 @@ export const skagwayCruises: Cruise[] = [
       "latitude": 58.3019,
       "longitude": -134.4197
     }
-  },
-  {
-    "city": "Skagway",
-    "country": "United States",
-    "region": "Alaska",
-    "coordinates": {
-      "latitude": 59.4569,
-      "longitude": -135.3123
-    }
   }
 ],
-      description: "From bustling Skagway to serene Alaska shores, this cruise invites you to relax, explore, and indulge. Stops at ketchikan, sitka, glacier-bay, juneau deliver a balanced blend of culture and comfort.",
-      distance: "1156 nautical miles",
-      totalDuration: "17 days",
+      description: "Sail away from Skagway into the beautiful expanse of Alaska. Along the way, enjoy rich cultural experiences in sitka, juneau, where history, nature, and cuisine collide.",
+      distance: "607 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 3",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
-    "description": "Sailing from Skagway to ketchikan"
+    "description": "Sailing from Skagway to sitka"
   },
   {
     "start": "Day 6",
     "end": "Day 7",
     "duration": "2 days",
-    "description": "Sailing from ketchikan to sitka"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from sitka to glacier-bay"
-  },
-  {
-    "start": "Day 12",
-    "end": "Day 12",
-    "duration": "1 days",
-    "description": "Sailing from glacier-bay to juneau"
-  },
-  {
-    "start": "Day 15",
-    "end": "Day 15",
-    "duration": "1 days",
-    "description": "Sailing from juneau to Skagway"
+    "description": "Sailing from sitka to juneau"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Skagway"
   },
   {
-    "start": "Day 4",
+    "start": "Day 5",
     "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring ketchikan"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 8",
     "duration": "1 days",
     "description": "Exploring sitka"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring glacier-bay"
-  },
-  {
-    "start": "Day 13",
-    "end": "Day 14",
+    "start": "Day 8",
+    "end": "Day 9",
     "duration": "2 days",
     "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 16",
-    "end": "Day 17",
-    "duration": "2 days",
-    "description": "Exploring Skagway"
   }
 ]
     },
-    tourCategoryId: "repositioning-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        id: "fd66f078-a624-4c7d-be53-55562e919f1b",
-        name: "Scott Olivia",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 14,
-        profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+        id: "13e5570c-545e-4b44-868b-98eecccbdce8",
+        name: "William Crawford",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
         contact: {
-          contactEmail: "coralembraced.mystiq@velarivoyages.com",
-          contactNumber: "+1-598-125-5707"
+          contactEmail: "enchanting.currents.@velarivoyages.com",
+          contactNumber: "+1-915-459-6878"
         }
       }
     ],
-    title: "Coral-Embraced Mystique of the Gold Rush Town",
-    description: "From bustling Skagway to serene Alaska shores, this cruise invites you to relax, explore, and indulge. Stops at ketchikan, sitka, glacier-bay, juneau deliver a balanced blend of culture and comfort.",
-    rating: 4.1,
-    tags: ["cruise-getaway"]
+    title: "Enchanting Currents of the Gateway to the Klondike",
+    description: "Sail away from Skagway into the beautiful expanse of Alaska. Along the way, enjoy rich cultural experiences in sitka, juneau, where history, nature, and cuisine collide.",
+    rating: 4.3,
+    tags: ["seasonal","general","cruise-experience"]
   },
   {
-    id: "83554c50-fed8-4746-81a2-8501c0b93f42",
-    basePrice: 4531,
+    id: "0828ef97-aa0c-4bc8-b276-ff8aeab0173f",
+    basePrice: 7364,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -2218,16 +854,16 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "sitka",
+  "city": "anchorage",
   "country": "United States",
   "coordinates": {
-    "latitude": 57.0531,
-    "longitude": -135.3304
+    "latitude": 61.2181,
+    "longitude": -149.9003
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "fall-foliage-cruise",
+    category: "luxury-cruise",
     itinerary: {
       route: [
   {
@@ -2240,6 +876,14 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
     "city": "glacier-bay",
     "country": "United States",
     "coordinates": {
@@ -2248,29 +892,35 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "sitka",
+    "city": "anchorage",
     "country": "United States",
     "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
+      "latitude": 61.2181,
+      "longitude": -149.9003
     }
   }
 ],
-      description: "Begin your journey in Skagway, where tradition meets travel. This immersive mirage reveals the finest of Alaska, from the beaches of glacier-bay to the streets of sitka.",
-      distance: "989 nautical miles",
-      totalDuration: "7 days",
+      description: "Sail away from Skagway into the beautiful expanse of Alaska. Along the way, enjoy rich cultural experiences in denali, glacier-bay, anchorage, where history, nature, and cuisine collide.",
+      distance: "846 nautical miles",
+      totalDuration: "12 days",
       timeAtSea: [
   {
     "start": "Day 2",
     "end": "Day 3",
     "duration": "2 days",
-    "description": "Sailing from Skagway to glacier-bay"
+    "description": "Sailing from Skagway to denali"
   },
   {
     "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from glacier-bay to sitka"
+    "end": "Day 7",
+    "duration": "2 days",
+    "description": "Sailing from denali to glacier-bay"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 10",
+    "duration": "2 days",
+    "description": "Sailing from glacier-bay to anchorage"
   }
 ],
       timeOnLand: [
@@ -2284,39 +934,45 @@ export const skagwayCruises: Cruise[] = [
     "start": "Day 4",
     "end": "Day 5",
     "duration": "2 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 8",
+    "end": "Day 8",
+    "duration": "1 days",
     "description": "Exploring glacier-bay"
   },
   {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring sitka"
+    "start": "Day 11",
+    "end": "Day 12",
+    "duration": "2 days",
+    "description": "Exploring anchorage"
   }
 ]
     },
-    tourCategoryId: "holiday-cruise",
+    tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        id: "d22e479c-309c-4779-916e-0da06c8fa088",
-        name: "Tyler Watson",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
+        id: "ffcbec0e-28af-400e-8fa0-bacc9617355b",
+        name: "Dennis Fletcher",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
         contact: {
-          contactEmail: "forbidden.elevation.@velarivoyages.com",
-          contactNumber: "+1-328-682-9542"
+          contactEmail: "immersive.requiem.of@velarivoyages.com",
+          contactNumber: "+1-953-660-7079"
         }
       }
     ],
-    title: "Forbidden Elevation of the Denali National Park & Northern Lights",
-    description: "Begin your journey in Skagway, where tradition meets travel. This immersive mirage reveals the finest of Alaska, from the beaches of glacier-bay to the streets of sitka.",
-    rating: 4.4,
-    tags: ["cruise","seasonal"]
+    title: "Immersive Requiem of the Alaskan Adventure Port",
+    description: "Sail away from Skagway into the beautiful expanse of Alaska. Along the way, enjoy rich cultural experiences in denali, glacier-bay, anchorage, where history, nature, and cuisine collide.",
+    rating: 4.1,
+    tags: ["luxury","expedition"]
   },
   {
-    id: "3aa53933-9942-497f-ad43-e98913ccdd6e",
-    basePrice: 5257,
+    id: "6c14e55f-401e-4b01-965f-5380b20a40c6",
+    basePrice: 9223,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -2327,15 +983,164 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "sitka",
+  "city": "glacier-bay",
   "country": "United States",
   "coordinates": {
-    "latitude": 57.0531,
-    "longitude": -135.3304
+    "latitude": 58.8017,
+    "longitude": -135.5828
   }
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Skagway",
+    "country": "United States",
+    "region": "Alaska",
+    "coordinates": {
+      "latitude": 59.4569,
+      "longitude": -135.3123
+    }
+  },
+  {
+    "city": "juneau",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
+    }
+  },
+  {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
+    "city": "anchorage",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 61.2181,
+      "longitude": -149.9003
+    }
+  },
+  {
+    "city": "glacier-bay",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.8017,
+      "longitude": -135.5828
+    }
+  }
+],
+      description: "Experience coastal elegance on this lullaby from Skagway, where the journey through Alaska includes stops in juneau, denali, anchorage, glacier-bay, each more enchanting than the last.",
+      distance: "697 nautical miles",
+      totalDuration: "13 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to juneau"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from juneau to denali"
+  },
+  {
+    "start": "Day 10",
+    "end": "Day 10",
+    "duration": "1 days",
+    "description": "Sailing from denali to anchorage"
+  },
+  {
+    "start": "Day 12",
+    "end": "Day 12",
+    "duration": "1 days",
+    "description": "Sailing from anchorage to glacier-bay"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Skagway"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring juneau"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring denali"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring anchorage"
+  },
+  {
+    "start": "Day 13",
+    "end": "Day 13",
+    "duration": "1 days",
+    "description": "Exploring glacier-bay"
+  }
+]
+    },
+    tourCategoryId: "anniversary-cruise",
+    contactPersonnel: [
+      {
+        id: "e90cb960-2be9-4f33-a6b3-2437b6e43d2c",
+        name: "Timothy Chambers",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
+        contact: {
+          contactEmail: "midnight.horizon.of.@velarivoyages.com",
+          contactNumber: "+1-839-778-5964"
+        }
+      }
+    ],
+    title: "Midnight Horizon of the Iditarod Trail & Gold Rush History",
+    description: "Experience coastal elegance on this lullaby from Skagway, where the journey through Alaska includes stops in juneau, denali, anchorage, glacier-bay, each more enchanting than the last.",
+    rating: 4.7,
+    tags: ["anniversary-cruise","romantic"]
+  },
+  {
+    id: "d388215b-f1c1-432e-b06e-1b5bf6495df0",
+    basePrice: 2598,
+    departureLocation: {
+  "city": "Skagway",
+  "country": "United States",
+  "region": "Alaska",
+  "coordinates": {
+    "latitude": 59.4569,
+    "longitude": -135.3123
+  }
+},
+    arrivalLocation: {
+  "city": "juneau",
+  "country": "United States",
+  "coordinates": {
+    "latitude": 58.3019,
+    "longitude": -134.4197
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
     category: "repositioning-cruise",
     itinerary: {
       route: [
@@ -2349,14 +1154,6 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "juneau",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 58.3019,
-      "longitude": -134.4197
-    }
-  },
-  {
     "city": "anchorage",
     "country": "United States",
     "coordinates": {
@@ -2365,35 +1162,43 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
-    "city": "sitka",
+    "city": "ketchikan",
     "country": "United States",
     "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
+      "latitude": 55.3422,
+      "longitude": -131.6476
+    }
+  },
+  {
+    "city": "juneau",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 58.3019,
+      "longitude": -134.4197
     }
   }
 ],
-      description: "Embark on a oasis from Skagway that promises to captivate your senses. From the vibrant markets of juneau to the tranquil beaches of anchorage, this journey through Alaska is one you won't forget.",
-      distance: "1022 nautical miles",
-      totalDuration: "12 days",
+      description: "Step into a world of elegance and exploration from Skagway. This wanderlust through the Alaska unveils stunning stops including anchorage, ketchikan, juneau, all with first-class service.",
+      distance: "1119 nautical miles",
+      totalDuration: "11 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Skagway to juneau"
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from Skagway to anchorage"
   },
   {
-    "start": "Day 6",
+    "start": "Day 7",
     "end": "Day 7",
-    "duration": "2 days",
-    "description": "Sailing from juneau to anchorage"
+    "duration": "1 days",
+    "description": "Sailing from anchorage to ketchikan"
   },
   {
-    "start": "Day 10",
-    "end": "Day 11",
+    "start": "Day 9",
+    "end": "Day 10",
     "duration": "2 days",
-    "description": "Sailing from anchorage to sitka"
+    "description": "Sailing from ketchikan to juneau"
   }
 ],
       timeOnLand: [
@@ -2404,48 +1209,48 @@ export const skagwayCruises: Cruise[] = [
     "description": "Exploring Skagway"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring juneau"
-  },
-  {
-    "start": "Day 8",
-    "end": "Day 9",
+    "start": "Day 5",
+    "end": "Day 6",
     "duration": "2 days",
     "description": "Exploring anchorage"
   },
   {
-    "start": "Day 12",
-    "end": "Day 12",
+    "start": "Day 8",
+    "end": "Day 8",
     "duration": "1 days",
-    "description": "Exploring sitka"
+    "description": "Exploring ketchikan"
+  },
+  {
+    "start": "Day 11",
+    "end": "Day 11",
+    "duration": "1 days",
+    "description": "Exploring juneau"
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "30cf98a5-ac4f-47d4-b91c-64c694d0574f",
-        name: "Jacob Dean",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+        id: "cc469f07-da10-423e-862f-af6d4f7472c7",
+        name: "Vincent Maxwell",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
         contact: {
-          contactEmail: "tidekissed.lullaby.o@velarivoyages.com",
-          contactNumber: "+1-102-249-3263"
+          contactEmail: "idyllic.pulse.of.the@velarivoyages.com",
+          contactNumber: "+1-587-297-5749"
         }
       }
     ],
-    title: "Tide-Kissed Lullaby of the Gateway to the Klondike",
-    description: "Embark on a oasis from Skagway that promises to captivate your senses. From the vibrant markets of juneau to the tranquil beaches of anchorage, this journey through Alaska is one you won't forget.",
-    rating: 4.0,
-    tags: ["cruise-ship","fall-cruise","relaxation"]
+    title: "Idyllic Pulse of the Alaskan Adventure Port",
+    description: "Step into a world of elegance and exploration from Skagway. This wanderlust through the Alaska unveils stunning stops including anchorage, ketchikan, juneau, all with first-class service.",
+    rating: 4.4,
+    tags: ["cruise-ship","relaxation"]
   },
   {
-    id: "bb30c8c2-8107-4371-8ca8-b44ad950183c",
-    basePrice: 6329,
+    id: "f2236d08-28f2-4fb3-a914-6802bb396d75",
+    basePrice: 6709,
     departureLocation: {
   "city": "Skagway",
   "country": "United States",
@@ -2456,16 +1261,16 @@ export const skagwayCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "sitka",
+  "city": "glacier-bay",
   "country": "United States",
   "coordinates": {
-    "latitude": 57.0531,
-    "longitude": -135.3304
+    "latitude": 58.8017,
+    "longitude": -135.5828
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "fall-foliage-cruise",
+    hasPopularDestination: true,
+    category: "theme-cruise",
     itinerary: {
       route: [
   {
@@ -2486,25 +1291,25 @@ export const skagwayCruises: Cruise[] = [
     }
   },
   {
+    "city": "denali",
+    "country": "United States",
+    "coordinates": {
+      "latitude": 63.1148,
+      "longitude": -151.1926
+    }
+  },
+  {
     "city": "glacier-bay",
     "country": "United States",
     "coordinates": {
       "latitude": 58.8017,
       "longitude": -135.5828
     }
-  },
-  {
-    "city": "sitka",
-    "country": "United States",
-    "coordinates": {
-      "latitude": 57.0531,
-      "longitude": -135.3304
-    }
   }
 ],
-      description: "Depart from the iconic port of Skagway and sail through the enchanting Alaska. Explore vibrant destinations like juneau, glacier-bay, sitka, each offering its own unique charm and local flair.",
-      distance: "1077 nautical miles",
-      totalDuration: "11 days",
+      description: "Sail away from the charming harbor of Skagway on this exquisite journey across Alaska. Uncover the beauty and history of juneau, denali, glacier-bay with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "807 nautical miles",
+      totalDuration: "9 days",
       timeAtSea: [
   {
     "start": "Day 2",
@@ -2513,16 +1318,16 @@ export const skagwayCruises: Cruise[] = [
     "description": "Sailing from Skagway to juneau"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from juneau to glacier-bay"
+    "start": "Day 4",
+    "end": "Day 4",
+    "duration": "1 days",
+    "description": "Sailing from juneau to denali"
   },
   {
-    "start": "Day 9",
-    "end": "Day 10",
-    "duration": "2 days",
-    "description": "Sailing from glacier-bay to sitka"
+    "start": "Day 7",
+    "end": "Day 7",
+    "duration": "1 days",
+    "description": "Sailing from denali to glacier-bay"
   }
 ],
       timeOnLand: [
@@ -2534,42 +1339,42 @@ export const skagwayCruises: Cruise[] = [
   },
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Exploring juneau"
   },
   {
-    "start": "Day 7",
-    "end": "Day 8",
+    "start": "Day 5",
+    "end": "Day 6",
     "duration": "2 days",
-    "description": "Exploring glacier-bay"
+    "description": "Exploring denali"
   },
   {
-    "start": "Day 11",
-    "end": "Day 11",
-    "duration": "1 days",
-    "description": "Exploring sitka"
+    "start": "Day 8",
+    "end": "Day 9",
+    "duration": "2 days",
+    "description": "Exploring glacier-bay"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        id: "e62f4c72-1cd9-4732-b68f-0d30dfec319d",
-        name: "Patrick Hawkins",
-        role: "Guest Services Agent (Shoreside)",
-        languages: [{"code":"en","name":"English"}],
+        id: "87cd70c7-a38d-4b22-a7f9-930bec3b1b6f",
+        name: "Steven Griffin",
+        role: "Corporate Concierge",
+        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
         experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
         contact: {
-          contactEmail: "islandembraced.labyr@velarivoyages.com",
-          contactNumber: "+1-520-641-3582"
+          contactEmail: "golden.passage.of.th@velarivoyages.com",
+          contactNumber: "+1-580-694-9616"
         }
       }
     ],
-    title: "Island-Embraced Labyrinth of the Iditarod Trail & Gold Rush History",
-    description: "Depart from the iconic port of Skagway and sail through the enchanting Alaska. Explore vibrant destinations like juneau, glacier-bay, sitka, each offering its own unique charm and local flair.",
-    rating: 4.2,
-    tags: ["cruise-experience","cruise-line"]
+    title: "Golden Passage of the Denali National Park & Northern Lights",
+    description: "Sail away from the charming harbor of Skagway on this exquisite journey across Alaska. Uncover the beauty and history of juneau, denali, glacier-bay with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.7,
+    tags: ["cruise-holiday","exclusive"]
   }
 ];

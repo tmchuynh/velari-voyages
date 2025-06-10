@@ -1,13 +1,13 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Auckland
-    // Generated on: 2025-06-10T03:09:08.431Z
+    // Generated on: 2025-06-10T04:43:44.410Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const aucklandCruises: Cruise[] = [
-{
-    id: "bb8102ab-68be-48ce-bd60-a4b394a8c600",
-    basePrice: 6871,
+  {
+    id: "f317e5bf-da84-46cf-9997-e4af287f34b2",
+    basePrice: 4476,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -18,103 +18,15 @@ export const aucklandCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "queenstown",
+  "city": "Auckland",
   "country": "New Zealand",
+  "region": "New Zealand",
   "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
+    "latitude": -36.848461,
+    "longitude": 174.763336
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "Begin an epic escape from Auckland, where the seas meet culture. Visit the remarkable ports of queenstown while indulging in fine dining, entertainment, and unmatched hospitality.",
-      distance: "1193 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "ed7c29ed-e146-492b-baf6-2a2861f1f8d0",
-        name: "Joshua Hunter",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-        contact: {
-          contactEmail: "radiant.symphony.of.@velarivoyages.com",
-          contactNumber: "+1-932-465-5276"
-        }
-      }
-    ],
-    title: "Radiant Symphony of the City of Sails",
-    description: "Begin an epic escape from Auckland, where the seas meet culture. Visit the remarkable ports of queenstown while indulging in fine dining, entertainment, and unmatched hospitality.",
-    rating: 4.5,
-    tags: ["cruise-adventure","luxury","adventure"]
-  },
-  {
-    id: "53d7e348-a535-481a-a34d-26c9c4e0d263",
-    basePrice: 7882,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "luxury-cruise",
     itinerary: {
@@ -135,96 +47,6 @@ export const aucklandCruises: Cruise[] = [
       "latitude": -45.0312,
       "longitude": 168.6626
     }
-  }
-],
-      description: "Sail into splendor from Auckland on a velvet voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
-      distance: "1369 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        id: "f54fd013-1a1f-4618-9771-f6c5e2648661",
-        name: "Zoe Maxwell",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-        contact: {
-          contactEmail: "sundrenched.reunion.@velarivoyages.com",
-          contactNumber: "+1-261-816-9926"
-        }
-      }
-    ],
-    title: "Sun-Drenched Reunion of the Wind-Danced Waterfront",
-    description: "Sail into splendor from Auckland on a velvet voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
-    rating: 4.3,
-    tags: ["exclusive","relaxation"]
-  },
-  {
-    id: "c2fb7751-9701-4612-98dd-3d533ca24309",
-    basePrice: 8170,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
   },
   {
     "city": "Auckland",
@@ -236,20 +58,20 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Experience the allure of New Zealand on this verdant cruise departing from Auckland. With stops at queenstown, you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
-      distance: "1191 nautical miles",
+      description: "Begin an epic realm from Auckland, where the seas meet culture. Visit the remarkable ports of queenstown while indulging in fine dining, entertainment, and unmatched hospitality.",
+      distance: "1214 nautical miles",
       totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Sailing from Auckland to queenstown"
   },
   {
-    "start": "Day 7",
+    "start": "Day 6",
     "end": "Day 7",
-    "duration": "1 days",
+    "duration": "2 days",
     "description": "Sailing from queenstown to Auckland"
   }
 ],
@@ -261,8 +83,8 @@ export const aucklandCruises: Cruise[] = [
     "description": "Exploring Auckland"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
+    "start": "Day 4",
+    "end": "Day 5",
     "duration": "2 days",
     "description": "Exploring queenstown"
   },
@@ -274,29 +96,29 @@ export const aucklandCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "fall-foliage-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "f1055ae3-e8b8-4f0c-a698-02b321214253",
-        name: "Olivia Coleman",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+        id: "f0c3d233-1e9f-404a-80be-f5aedc862dca",
+        name: "Ralph Dunn",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
         contact: {
-          contactEmail: "heavenly.elevation.o@velarivoyages.com",
-          contactNumber: "+1-812-444-3024"
+          contactEmail: "timeless.reflection.@velarivoyages.com",
+          contactNumber: "+1-662-580-4430"
         }
       }
     ],
-    title: "Heavenly Elevation of the Kiwi Birds & Stunning Fjords",
-    description: "Experience the allure of New Zealand on this verdant cruise departing from Auckland. With stops at queenstown, you'll immerse yourself in the rich tapestry of cultures and landscapes that define this stunning region.",
-    rating: 4.9,
-    tags: ["weekend-cruise","cruise-line","fall-cruise"]
+    title: "Timeless Reflection of the City of Sails",
+    description: "Begin an epic realm from Auckland, where the seas meet culture. Visit the remarkable ports of queenstown while indulging in fine dining, entertainment, and unmatched hospitality.",
+    rating: 5.0,
+    tags: ["cruise-ship","long-distance"]
   },
   {
-    id: "30c53a6a-242c-4a94-868a-0b37e7d95226",
-    basePrice: 9316,
+    id: "47adfccd-0d3e-4f5e-8680-423b9a6d7762",
+    basePrice: 8323,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -314,9 +136,9 @@ export const aucklandCruises: Cruise[] = [
     "longitude": 168.6626
   }
 },
-    isPopular: false, // Make fewer cruises "popular"
+    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "repositioning-cruise",
+    category: "anniversary-cruise",
     itinerary: {
       route: [
   {
@@ -337,13 +159,13 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Sail away from the charming harbor of Auckland on this bay-drifting journey across New Zealand. Uncover the beauty and history of queenstown with curated excursions, world-class cuisine, and exceptional service.",
-      distance: "925 nautical miles",
-      totalDuration: "3 days",
+      description: "Join us for a sublime quest from Auckland, where the journey through New Zealand is as enriching as the destinations themselves. Visit queenstown and create memories that will last a lifetime.",
+      distance: "684 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
+    "start": "Day 3",
+    "end": "Day 3",
     "duration": "1 days",
     "description": "Sailing from Auckland to queenstown"
   }
@@ -351,41 +173,41 @@ export const aucklandCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Auckland"
   },
   {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
     "description": "Exploring queenstown"
   }
 ]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        id: "589536e1-cdd3-4973-9c76-7dc79c4e06f5",
-        name: "Anna Watson",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
+        id: "c1119f8f-3d7a-4924-9a1e-4313d7a1ad79",
+        name: "Matthew Jennings",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
         contact: {
-          contactEmail: "ornate.panorama.of.t@velarivoyages.com",
-          contactNumber: "+1-405-438-6712"
+          contactEmail: "immersive.excursion.@velarivoyages.com",
+          contactNumber: "+1-910-956-5276"
         }
       }
     ],
-    title: "Ornate Panorama of the Lord of the Rings Landscapes & Maori Culture",
-    description: "Sail away from the charming harbor of Auckland on this bay-drifting journey across New Zealand. Uncover the beauty and history of queenstown with curated excursions, world-class cuisine, and exceptional service.",
-    rating: 4.9,
-    tags: ["cruise","luxury"]
+    title: "Immersive Excursion of the Sapphire Mooring",
+    description: "Join us for a sublime quest from Auckland, where the journey through New Zealand is as enriching as the destinations themselves. Visit queenstown and create memories that will last a lifetime.",
+    rating: 4.8,
+    tags: ["cruise-holiday","wildlife"]
   },
   {
-    id: "b9b4b0fc-4e95-4815-9af0-88cf61ffccf3",
-    basePrice: 6973,
+    id: "f1562772-75f7-490f-ab7e-89397ef2e3ef",
+    basePrice: 6361,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -436,569 +258,13 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Begin a captivating tranquility through the New Zealand, departing Auckland. With visits to queenstown, each day brings a new adventure and deeper connection to the region.",
-      distance: "993 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Auckland to queenstown"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from queenstown to Auckland"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring queenstown"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  }
-]
-    },
-    tourCategoryId: "fall-foliage-cruise",
-    contactPersonnel: [
-      {
-        id: "a48d7681-fc32-452b-8223-79bc405a2a77",
-        name: "Margaret Price",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-        contact: {
-          contactEmail: "ornate.legacy.of.the@velarivoyages.com",
-          contactNumber: "+1-851-362-8009"
-        }
-      }
-    ],
-    title: "Ornate Legacy of the Sapphire Mooring",
-    description: "Begin a captivating tranquility through the New Zealand, departing Auckland. With visits to queenstown, each day brings a new adventure and deeper connection to the region.",
-    rating: 4.2,
-    tags: ["general","cruise","fall-cruise"]
-  },
-  {
-    id: "435eb40f-1902-4a75-af72-259423711e15",
-    basePrice: 6336,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "tropical-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "An unforgettable voyage awaits as you cruise from Auckland across New Zealand. Dive into history, flavor, and culture with stops including queenstown.",
-      distance: "1399 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "24a9fd4a-1637-447e-a89c-3efacbab2b70",
-        name: "Ariana Collins",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-        contact: {
-          contactEmail: "golden.enigma.of.the@velarivoyages.com",
-          contactNumber: "+1-493-949-6370"
-        }
-      }
-    ],
-    title: "Golden Enigma of the Harbor Haven",
-    description: "An unforgettable voyage awaits as you cruise from Auckland across New Zealand. Dive into history, flavor, and culture with stops including queenstown.",
-    rating: 4.2,
-    tags: ["historical"]
-  },
-  {
-    id: "c7e76fa5-f75a-46ac-97d5-7f4c299005d2",
-    basePrice: 9843,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "Discover the wonders of New Zealand aboard this radiance-drenched cruise departing from Auckland. Journey through crystal waters to explore the treasures of queenstown, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-      distance: "768 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "199a489a-2f11-4ec9-bdbc-c293ebfa4806",
-        name: "Zola Watson",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-        contact: {
-          contactEmail: "unforgettable.horizo@velarivoyages.com",
-          contactNumber: "+1-338-504-2165"
-        }
-      }
-    ],
-    title: "Unforgettable Horizon of the Lord of the Rings Landscapes & Maori Culture",
-    description: "Discover the wonders of New Zealand aboard this radiance-drenched cruise departing from Auckland. Journey through crystal waters to explore the treasures of queenstown, where each day brings new adventures and evenings are filled with elegant dining and entertainment.",
-    rating: 4.9,
-    tags: ["luxury"]
-  },
-  {
-    id: "c4023c87-7284-4dc9-acd5-27e0e55fe566",
-    basePrice: 8635,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "This coastline-cruising zenith begins in Auckland and ventures deep into the heart of New Zealand. Wander through colorful markets, historic streets, and serene coastlines at queenstown.",
-      distance: "1247 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        id: "c45bfac9-74ee-46dc-b70e-b3f3992861a9",
-        name: "Pamela Ellis",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-        contact: {
-          contactEmail: "transcendent.frontie@velarivoyages.com",
-          contactNumber: "+1-104-500-1937"
-        }
-      }
-    ],
-    title: "Transcendent Frontier of the City of Sails",
-    description: "This coastline-cruising zenith begins in Auckland and ventures deep into the heart of New Zealand. Wander through colorful markets, historic streets, and serene coastlines at queenstown.",
-    rating: 4.1,
-    tags: ["themed-cruise","expedition","anniversary-cruise"]
-  },
-  {
-    id: "264f2c85-7203-45c3-b4a5-9773a4284223",
-    basePrice: 8796,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "Sail into splendor from Auckland on a wave-crested voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
-      distance: "1384 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "c63d1fb2-d31d-4faf-af19-6a70bd4b6f96",
-        name: "Jane West",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-        contact: {
-          contactEmail: "azure.passage.of.the@velarivoyages.com",
-          contactNumber: "+1-122-541-7623"
-        }
-      }
-    ],
-    title: "Azure Passage of the Sapphire Mooring",
-    description: "Sail into splendor from Auckland on a wave-crested voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
-    rating: 4.6,
-    tags: ["general"]
-  },
-  {
-    id: "ce482f63-a472-4190-b43f-104f404d48d4",
-    basePrice: 1184,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "queenstown",
-  "country": "New Zealand",
-  "coordinates": {
-    "latitude": -45.0312,
-    "longitude": 168.6626
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  }
-],
-      description: "Set sail from historic Auckland for a modern escape into the New Zealand. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in queenstown.",
-      distance: "789 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "30b30271-6839-4543-8bbe-e5e43f6d7d20",
-        name: "Hannah Russell",
-        role: "Customer Service Representative",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-        contact: {
-          contactEmail: "oceanic.tide.of.the.@velarivoyages.com",
-          contactNumber: "+1-342-877-6434"
-        }
-      }
-    ],
-    title: "Oceanic Tide of the Harbor Haven",
-    description: "Set sail from historic Auckland for a modern escape into the New Zealand. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in queenstown.",
-    rating: 4.9,
-    tags: ["relaxation","glacier-cruise","weekend-cruise"]
-  },
-  {
-    id: "ee181a12-7469-4219-be8c-1f9ded8ed67c",
-    basePrice: 8545,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  },
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  }
-],
-      description: "Depart from iconic Auckland and traverse the New Zealand with visits to queenstown. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "1257 nautical miles",
+      description: "Set sail from Auckland on a sublime oasis that explores the hidden gems of New Zealand. From the bustling streets of queenstown to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
+      distance: "781 nautical miles",
       totalDuration: "7 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
+    "start": "Day 3",
+    "end": "Day 3",
     "duration": "1 days",
     "description": "Sailing from Auckland to queenstown"
   },
@@ -1012,14 +278,14 @@ export const aucklandCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Auckland"
   },
   {
-    "start": "Day 3",
+    "start": "Day 4",
     "end": "Day 4",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring queenstown"
   },
   {
@@ -1030,29 +296,29 @@ export const aucklandCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "luxury-cruise",
     contactPersonnel: [
       {
-        id: "46eebc31-0582-456e-8f21-268abfd456d5",
-        name: "Javier Hall",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
+        id: "bb77f2bd-4727-4b47-a44c-9f98e01ae08f",
+        name: "Harry Douglas",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
         contact: {
-          contactEmail: "velvet.sojourn.of.th@velarivoyages.com",
-          contactNumber: "+1-336-984-7404"
+          contactEmail: "islandhopping.sanctu@velarivoyages.com",
+          contactNumber: "+1-388-676-1655"
         }
       }
     ],
-    title: "Velvet Sojourn of the Kiwi Birds & Stunning Fjords",
-    description: "Depart from iconic Auckland and traverse the New Zealand with visits to queenstown. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 4.7,
-    tags: ["exclusive","cultural"]
+    title: "Island-Hopping Sanctum of the Lord of the Rings Landscapes & Maori Culture",
+    description: "Set sail from Auckland on a sublime oasis that explores the hidden gems of New Zealand. From the bustling streets of queenstown to the serene shores of undefined, each stop offers a unique glimpse into the heart of this enchanting region.",
+    rating: 4.9,
+    tags: ["luxury"]
   },
   {
-    id: "541d5046-57a1-409d-8d0d-8adf28d3159a",
-    basePrice: 6926,
+    id: "88be5d55-b6b1-4cca-959d-bf4901bbcd4f",
+    basePrice: 5283,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1063,16 +329,15 @@ export const aucklandCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "Auckland",
+  "city": "queenstown",
   "country": "New Zealand",
-  "region": "New Zealand",
   "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
+    "latitude": -45.0312,
+    "longitude": 168.6626
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "luxury-cruise",
     itinerary: {
       route: [
@@ -1092,7 +357,79 @@ export const aucklandCruises: Cruise[] = [
       "latitude": -45.0312,
       "longitude": 168.6626
     }
+  }
+],
+      description: "Escape to sea from Auckland on a dawn-embraced voyage exploring the magic of New Zealand. Visit unforgettable locales like queenstown, where each stop inspires awe.",
+      distance: "722 nautical miles",
+      totalDuration: "3 days",
+      timeAtSea: [
+  {
+    "start": "Day 2",
+    "end": "Day 2",
+    "duration": "1 days",
+    "description": "Sailing from Auckland to queenstown"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
+    "description": "Exploring Auckland"
   },
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Exploring queenstown"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "eb2bf65c-2d16-4f83-b6ef-a51497396cb8",
+        name: "Jordan Lawson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
+        contact: {
+          contactEmail: "charming.wanderlust.@velarivoyages.com",
+          contactNumber: "+1-440-985-1001"
+        }
+      }
+    ],
+    title: "Charming Wanderlust of the Kiwi Birds & Stunning Fjords",
+    description: "Escape to sea from Auckland on a dawn-embraced voyage exploring the magic of New Zealand. Visit unforgettable locales like queenstown, where each stop inspires awe.",
+    rating: 4.7,
+    tags: ["cruise-journey","family-friendly"]
+  },
+  {
+    id: "4777e08e-81c4-4b2c-9b1a-d605bc484b7e",
+    basePrice: 7249,
+    departureLocation: {
+  "city": "Auckland",
+  "country": "New Zealand",
+  "region": "New Zealand",
+  "coordinates": {
+    "latitude": -36.848461,
+    "longitude": 174.763336
+  }
+},
+    arrivalLocation: {
+  "city": "queenstown",
+  "country": "New Zealand",
+  "coordinates": {
+    "latitude": -45.0312,
+    "longitude": 168.6626
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
   {
     "city": "Auckland",
     "country": "New Zealand",
@@ -1101,23 +438,25 @@ export const aucklandCruises: Cruise[] = [
       "latitude": -36.848461,
       "longitude": 174.763336
     }
+  },
+  {
+    "city": "queenstown",
+    "country": "New Zealand",
+    "coordinates": {
+      "latitude": -45.0312,
+      "longitude": 168.6626
+    }
   }
 ],
-      description: "Embark on an unforgettable awakening from the vibrant port of Auckland, where you'll discover hidden gems and iconic landmarks across the New Zealand region. With stops at queenstown, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "576 nautical miles",
-      totalDuration: "9 days",
+      description: "Depart from the iconic port of Auckland and sail through the enchanting New Zealand. Explore vibrant destinations like queenstown, each offering its own unique charm and local flair.",
+      distance: "1312 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
     "start": "Day 3",
     "end": "Day 4",
     "duration": "2 days",
     "description": "Sailing from Auckland to queenstown"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 8",
-    "duration": "2 days",
-    "description": "Sailing from queenstown to Auckland"
   }
 ],
       timeOnLand: [
@@ -1129,41 +468,35 @@ export const aucklandCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Exploring queenstown"
-  },
-  {
-    "start": "Day 9",
-    "end": "Day 9",
+    "end": "Day 5",
     "duration": "1 days",
-    "description": "Exploring Auckland"
+    "description": "Exploring queenstown"
   }
 ]
     },
-    tourCategoryId: "holiday-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        id: "63e9cf8c-ac4c-4bc0-8c05-ad0676813a19",
-        name: "Michael Graham",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
+        id: "1f498fea-bf5c-4890-927f-baf7965bb252",
+        name: "Dylan Parker",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 15,
+        profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
         contact: {
-          contactEmail: "horizonkissed.curren@velarivoyages.com",
-          contactNumber: "+1-149-936-8532"
+          contactEmail: "coralkissed.explorat@velarivoyages.com",
+          contactNumber: "+1-767-579-2960"
         }
       }
     ],
-    title: "Horizon-Kissed Currents of the Ocean-Bound Metropolis",
-    description: "Embark on an unforgettable awakening from the vibrant port of Auckland, where you'll discover hidden gems and iconic landmarks across the New Zealand region. With stops at queenstown, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.4,
-    tags: ["cruise-experience","cruise-holiday","short-getaway"]
+    title: "Coral-Kissed Exploration of the Lord of the Rings Landscapes & Maori Culture",
+    description: "Depart from the iconic port of Auckland and sail through the enchanting New Zealand. Explore vibrant destinations like queenstown, each offering its own unique charm and local flair.",
+    rating: 4.7,
+    tags: ["nature","fall-cruise","romantic"]
   },
   {
-    id: "3b6d41a4-7b39-4ea4-ada4-ab7727369a59",
-    basePrice: 3476,
+    id: "067d6ea6-62cd-4c00-be65-20d78477a6fc",
+    basePrice: 4700,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1204,22 +537,22 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Your journey through the New Zealand begins in Auckland, where elegance meets adventure. Explore the shores of queenstown, with curated excursions and luxurious onboard amenities.",
-      distance: "1060 nautical miles",
+      description: "Depart from the iconic port of Auckland and sail through the enchanting New Zealand. Explore vibrant destinations like queenstown, each offering its own unique charm and local flair.",
+      distance: "1420 nautical miles",
       totalDuration: "4 days",
       timeAtSea: [
   {
-    "start": "Day 2",
+    "start": "Day 3",
     "end": "Day 3",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Sailing from Auckland to queenstown"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Auckland"
   },
   {
@@ -1230,29 +563,29 @@ export const aucklandCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "40bf2a59-a721-4c17-9875-e22da3f25d51",
-        name: "Miguel Morgan",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
+        id: "5c4128ca-95da-4c5e-b799-070ba8da5dc0",
+        name: "Brian Keller",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
         contact: {
-          contactEmail: "coastal.currents.of.@velarivoyages.com",
-          contactNumber: "+1-697-314-5408"
+          contactEmail: "idyllic.serenade.of.@velarivoyages.com",
+          contactNumber: "+1-801-483-3082"
         }
       }
     ],
-    title: "Coastal Currents of the Lord of the Rings Landscapes & Maori Culture",
-    description: "Your journey through the New Zealand begins in Auckland, where elegance meets adventure. Explore the shores of queenstown, with curated excursions and luxurious onboard amenities.",
-    rating: 4.8,
-    tags: ["wildlife","glacier-cruise"]
+    title: "Idyllic Serenade of the Sapphire Mooring",
+    description: "Depart from the iconic port of Auckland and sail through the enchanting New Zealand. Explore vibrant destinations like queenstown, each offering its own unique charm and local flair.",
+    rating: 4.2,
+    tags: ["cruise-adventure"]
   },
   {
-    id: "92740674-84a6-447f-a366-4bd1cafeb28f",
-    basePrice: 1875,
+    id: "a6b075de-c08a-44b5-97d7-27e3b9b41420",
+    basePrice: 6026,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1270,9 +603,9 @@ export const aucklandCruises: Cruise[] = [
     "longitude": 168.6626
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "glacier-cruise",
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -1293,9 +626,9 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Let the winds of the New Zealand carry you from Auckland to the most stunning ports in the region. With destinations like queenstown, this journey redefines luxury travel.",
-      distance: "984 nautical miles",
-      totalDuration: "5 days",
+      description: "Sail into splendor from Auckland on a secret voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
+      distance: "1397 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 3",
@@ -1313,8 +646,8 @@ export const aucklandCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
+    "end": "Day 6",
+    "duration": "2 days",
     "description": "Exploring queenstown"
   }
 ]
@@ -1322,26 +655,26 @@ export const aucklandCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "25b33240-7b96-413a-8dc6-94986589d35b",
-        name: "Victor Murray",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
+        id: "c9f78963-40cf-466d-81a7-f31be3056229",
+        name: "Lawrence Dean",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 13,
+        profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
         contact: {
-          contactEmail: "moonlit.horizon.of.t@velarivoyages.com",
-          contactNumber: "+1-220-259-4277"
+          contactEmail: "celestial.infinite.o@velarivoyages.com",
+          contactNumber: "+1-998-400-8805"
         }
       }
     ],
-    title: "Moonlit Horizon of the City of Sails",
-    description: "Let the winds of the New Zealand carry you from Auckland to the most stunning ports in the region. With destinations like queenstown, this journey redefines luxury travel.",
-    rating: 4.3,
-    tags: ["wildlife"]
+    title: "Celestial Infinite of the Sapphire Mooring",
+    description: "Sail into splendor from Auckland on a secret voyage through New Zealand. Let each stop—from queenstown to undefined—reveal the unique flavors and colors of the region.",
+    rating: 4.7,
+    tags: ["cruise-excursion","family-friendly"]
   },
   {
-    id: "59c47629-c451-47f7-8a3c-678f944b0297",
-    basePrice: 3875,
+    id: "5244866c-3a3f-4d97-b4c6-79044d83f6c2",
+    basePrice: 7886,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1361,7 +694,7 @@ export const aucklandCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    hasPopularDestination: false,
     category: "fall-foliage-cruise",
     itinerary: {
       route: [
@@ -1392,19 +725,19 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Step aboard in Auckland and begin a ethereal journey through the scenic New Zealand. From historic cities to coastal hideaways like queenstown, every day is unforgettable.",
-      distance: "1304 nautical miles",
+      description: "Escape to sea from Auckland on a golden voyage exploring the magic of New Zealand. Visit unforgettable locales like queenstown, where each stop inspires awe.",
+      distance: "874 nautical miles",
       totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
+    "start": "Day 3",
+    "end": "Day 3",
     "duration": "1 days",
     "description": "Sailing from Auckland to queenstown"
   },
   {
-    "start": "Day 5",
-    "end": "Day 6",
+    "start": "Day 6",
+    "end": "Day 7",
     "duration": "2 days",
     "description": "Sailing from queenstown to Auckland"
   }
@@ -1412,20 +745,20 @@ export const aucklandCruises: Cruise[] = [
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Auckland"
   },
   {
-    "start": "Day 3",
-    "end": "Day 4",
+    "start": "Day 4",
+    "end": "Day 5",
     "duration": "2 days",
     "description": "Exploring queenstown"
   },
   {
-    "start": "Day 7",
+    "start": "Day 8",
     "end": "Day 8",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring Auckland"
   }
 ]
@@ -1433,26 +766,26 @@ export const aucklandCruises: Cruise[] = [
     tourCategoryId: "holiday-cruise",
     contactPersonnel: [
       {
-        id: "3b19e254-0808-4544-a743-618befde5b2f",
-        name: "Roger Baker",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
+        id: "e7da8b92-4215-43a7-9458-9e8c4d094e81",
+        name: "Christopher Grant",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
         contact: {
-          contactEmail: "coastal.enigma.of.th@velarivoyages.com",
-          contactNumber: "+1-829-647-4627"
+          contactEmail: "hidden.sanctuary.of.@velarivoyages.com",
+          contactNumber: "+1-981-579-9037"
         }
       }
     ],
-    title: "Coastal Enigma of the City of Sails",
-    description: "Step aboard in Auckland and begin a ethereal journey through the scenic New Zealand. From historic cities to coastal hideaways like queenstown, every day is unforgettable.",
-    rating: 4.3,
+    title: "Hidden Sanctuary of the Sapphire Mooring",
+    description: "Escape to sea from Auckland on a golden voyage exploring the magic of New Zealand. Visit unforgettable locales like queenstown, where each stop inspires awe.",
+    rating: 4.7,
     tags: ["holiday-cruise"]
   },
   {
-    id: "d29ce6d3-a3e1-4d9e-aa09-c5e2f73fc8af",
-    basePrice: 1540,
+    id: "cb16f8b8-c156-4fbd-9bfb-7c793a1548d8",
+    basePrice: 6505,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1472,8 +805,8 @@ export const aucklandCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fall-foliage-cruise",
+    hasPopularDestination: false,
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -1503,8 +836,8 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Enjoy seamless luxury on this crystalline labyrinth beginning in Auckland. Visit breathtaking New Zealand locales such as queenstown on this unforgettable itinerary.",
-      distance: "1401 nautical miles",
+      description: "Experience coastal elegance on this drift from Auckland, where the journey through New Zealand includes stops in queenstown, each more enchanting than the last.",
+      distance: "1027 nautical miles",
       totalDuration: "8 days",
       timeAtSea: [
   {
@@ -1514,9 +847,9 @@ export const aucklandCruises: Cruise[] = [
     "description": "Sailing from Auckland to queenstown"
   },
   {
-    "start": "Day 5",
+    "start": "Day 6",
     "end": "Day 6",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Sailing from queenstown to Auckland"
   }
 ],
@@ -1529,8 +862,8 @@ export const aucklandCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
+    "end": "Day 5",
+    "duration": "2 days",
     "description": "Exploring queenstown"
   },
   {
@@ -1541,251 +874,29 @@ export const aucklandCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "weekend-cruise",
     contactPersonnel: [
       {
-        id: "fc6e859c-2857-46ae-ba49-6a86e77b547a",
-        name: "Willie Porter",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
+        id: "7ddc6d6a-39b0-4435-9d0d-590363c3ec57",
+        name: "Daniel Fletcher",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
         contact: {
-          contactEmail: "pearlescent.voyage.o@velarivoyages.com",
-          contactNumber: "+1-423-659-2622"
+          contactEmail: "radiant.odyssey.of.t@velarivoyages.com",
+          contactNumber: "+1-326-578-5677"
         }
       }
     ],
-    title: "Pearlescent Voyage of the City of Sails",
-    description: "Enjoy seamless luxury on this crystalline labyrinth beginning in Auckland. Visit breathtaking New Zealand locales such as queenstown on this unforgettable itinerary.",
-    rating: 4.3,
-    tags: ["cruise-vacation","cruise","glacier-cruise"]
-  },
-  {
-    id: "58697a1b-4638-47a2-a661-655f9adca020",
-    basePrice: 9973,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  },
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  }
-],
-      description: "Set sail from Auckland on a verdant reflection that takes you through the heart of New Zealand. With stops at queenstown, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-      distance: "646 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from Auckland to queenstown"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from queenstown to Auckland"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring queenstown"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "ae6b98d9-5e66-4f9f-9455-67c532d9b8b3",
-        name: "Marcus Hudson",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-        contact: {
-          contactEmail: "forbidden.passage.of@velarivoyages.com",
-          contactNumber: "+1-184-356-7738"
-        }
-      }
-    ],
-    title: "Forbidden Passage of the Harbor Haven",
-    description: "Set sail from Auckland on a verdant reflection that takes you through the heart of New Zealand. With stops at queenstown, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-    rating: 4.3,
-    tags: ["wellness","cruise-ship","long-distance"]
-  },
-  {
-    id: "6e1070df-12e6-43b1-88a3-5868987c062a",
-    basePrice: 2828,
-    departureLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    arrivalLocation: {
-  "city": "Auckland",
-  "country": "New Zealand",
-  "region": "New Zealand",
-  "coordinates": {
-    "latitude": -36.848461,
-    "longitude": 174.763336
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "fjords-tour",
-    itinerary: {
-      route: [
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  },
-  {
-    "city": "queenstown",
-    "country": "New Zealand",
-    "coordinates": {
-      "latitude": -45.0312,
-      "longitude": 168.6626
-    }
-  },
-  {
-    "city": "Auckland",
-    "country": "New Zealand",
-    "region": "New Zealand",
-    "coordinates": {
-      "latitude": -36.848461,
-      "longitude": 174.763336
-    }
-  }
-],
-      description: "Cruise into cultural richness aboard this idyllic panorama departing Auckland. Savor local cuisine and uncover regional beauty from queenstown to undefined.",
-      distance: "1435 nautical miles",
-      totalDuration: "6 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Auckland to queenstown"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Sailing from queenstown to Auckland"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Auckland"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring queenstown"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Exploring Auckland"
-  }
-]
-    },
-    tourCategoryId: "luxury-cruise",
-    contactPersonnel: [
-      {
-        id: "06bd6a81-e881-44b0-966c-16cca6e960d9",
-        name: "Kevin Olivia",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-        contact: {
-          contactEmail: "radiant.journey.of.t@velarivoyages.com",
-          contactNumber: "+1-398-205-9198"
-        }
-      }
-    ],
-    title: "Radiant Journey of the Kiwi Birds & Stunning Fjords",
-    description: "Cruise into cultural richness aboard this idyllic panorama departing Auckland. Savor local cuisine and uncover regional beauty from queenstown to undefined.",
+    title: "Radiant Odyssey of the Lord of the Rings Landscapes & Maori Culture",
+    description: "Experience coastal elegance on this drift from Auckland, where the journey through New Zealand includes stops in queenstown, each more enchanting than the last.",
     rating: 4.9,
-    tags: ["cruise","luxury","sightseeing"]
+    tags: ["cruise-vacation","weekend-cruise","historical"]
   },
   {
-    id: "b3a39767-5c54-452b-aa3b-ed5bfe406006",
-    basePrice: 7084,
+    id: "1610a639-cead-4da9-a586-b89c37928967",
+    basePrice: 5020,
     departureLocation: {
   "city": "Auckland",
   "country": "New Zealand",
@@ -1804,8 +915,8 @@ export const aucklandCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "weekend-cruise",
+    hasPopularDestination: false,
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -1826,8 +937,8 @@ export const aucklandCruises: Cruise[] = [
     }
   }
 ],
-      description: "Embark from Auckland and traverse the New Zealand in style. Whether it’s the energy of queenstown or the calm of undefined, each destination reveals a new side of paradise.",
-      distance: "1003 nautical miles",
+      description: "Step into a world of elegance and exploration from Auckland. This saga through the New Zealand unveils stunning stops including queenstown, all with first-class service.",
+      distance: "832 nautical miles",
       totalDuration: "3 days",
       timeAtSea: [
   {
@@ -1852,24 +963,24 @@ export const aucklandCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "weekend-cruise",
     contactPersonnel: [
       {
-        id: "59ea22f6-46fd-468b-b20d-041ef8b138cf",
-        name: "Russell Fisher",
-        role: "Cruise Specialist",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
+        id: "6ae1d73d-8b14-4cfa-bed6-19c6452c02ca",
+        name: "Antonio Porter",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"},{"code":"mi","name":"Maori"}],
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
         contact: {
-          contactEmail: "oceanic.lullaby.of.t@velarivoyages.com",
-          contactNumber: "+1-256-119-4168"
+          contactEmail: "enchanting.renaissan@velarivoyages.com",
+          contactNumber: "+1-785-799-8006"
         }
       }
     ],
-    title: "Oceanic Lullaby of the Wind-Danced Waterfront",
-    description: "Embark from Auckland and traverse the New Zealand in style. Whether it’s the energy of queenstown or the calm of undefined, each destination reveals a new side of paradise.",
-    rating: 4.7,
-    tags: ["cruise-ship"]
+    title: "Enchanting Renaissance of the Lord of the Rings Landscapes & Maori Culture",
+    description: "Step into a world of elegance and exploration from Auckland. This saga through the New Zealand unveils stunning stops including queenstown, all with first-class service.",
+    rating: 4.8,
+    tags: ["weekend-cruise"]
   }
 ];

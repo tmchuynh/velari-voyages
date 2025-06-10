@@ -1,13 +1,13 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: Cartagena
-    // Generated on: 2025-06-10T03:09:08.437Z
+    // Generated on: 2025-06-10T04:43:44.415Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const cartagenaCruises: Cruise[] = [
-{
-    id: "f6bf3f46-3930-414d-9181-77beca374162",
-    basePrice: 2155,
+  {
+    id: "bf2b53ca-eca8-41a2-ae4d-0fbb6b7939f3",
+    basePrice: 1846,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -28,7 +28,145 @@ export const cartagenaCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "expedition-cruise",
+    category: "fjords-tour",
+    itinerary: {
+      route: [
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Begin your journey in Cartagena, where tradition meets travel. This immersive mirage reveals the finest of Colombia, from the beaches of undefined to the streets of undefined.",
+      distance: "523 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "064cb7d9-2c3a-42f0-97ea-390141a9aaed",
+        name: "Philip Lawson",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
+        contact: {
+          contactEmail: "exquisite.mirage.of.@velarivoyages.com",
+          contactNumber: "+1-406-634-4269"
+        }
+      }
+    ],
+    title: "Exquisite Mirage of the Salsa Dancing & Emerald Mines",
+    description: "Begin your journey in Cartagena, where tradition meets travel. This immersive mirage reveals the finest of Colombia, from the beaches of undefined to the streets of undefined.",
+    rating: 4.1,
+    tags: ["fall-cruise","weekend-cruise"]
+  },
+  {
+    id: "604928b0-1731-4adc-80df-77abb0a370ef",
+    basePrice: 7599,
+    departureLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "fall-foliage-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "This ocean-embracing cruise from Cartagena is your gateway to the wonders of Colombia. Experience the best of coastal life with stops at , where each destination is a treasure waiting to be explored.",
+      distance: "741 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "weekend-cruise",
+    contactPersonnel: [
+      {
+        id: "62893eb1-0bdb-46a2-89a9-bc4af56f0d2e",
+        name: "Michael Keller",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
+        contact: {
+          contactEmail: "secret.oasis.of.the.@velarivoyages.com",
+          contactNumber: "+1-569-114-4289"
+        }
+      }
+    ],
+    title: "Secret Oasis of the Pirate's Cove",
+    description: "This ocean-embracing cruise from Cartagena is your gateway to the wonders of Colombia. Experience the best of coastal life with stops at , where each destination is a treasure waiting to be explored.",
+    rating: 4.8,
+    tags: ["cruise","short-getaway","wildlife"]
+  },
+  {
+    id: "de6c016f-bee1-4130-ab4b-f9224f28eb24",
+    basePrice: 5812,
+    departureLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -50,9 +188,9 @@ export const cartagenaCruises: Cruise[] = [
     }
   }
 ],
-      description: "Your journey through the Colombia begins in Cartagena, where elegance meets adventure. Explore the shores of , with curated excursions and luxurious onboard amenities.",
-      distance: "566 nautical miles",
-      totalDuration: "5 days",
+      description: "This adventure from Cartagena invites you to explore the diverse landscapes and vibrant cultures of Colombia. From the historic charm of undefined to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
+      distance: "1252 nautical miles",
+      totalDuration: "4 days",
       timeAtSea: [
   {
     "start": "Day 3",
@@ -70,217 +208,35 @@ export const cartagenaCruises: Cruise[] = [
   },
   {
     "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "4952bb85-32a3-4ec8-8ebf-aa0c4b894e24",
-        name: "Laura Hudson",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-        contact: {
-          contactEmail: "whispering.haven.of.@velarivoyages.com",
-          contactNumber: "+1-918-640-2313"
-        }
-      }
-    ],
-    title: "Whispering Haven of the Emerald Coast",
-    description: "Your journey through the Colombia begins in Cartagena, where elegance meets adventure. Explore the shores of , with curated excursions and luxurious onboard amenities.",
-    rating: 4.4,
-    tags: ["cruise","general"]
-  },
-  {
-    id: "8223c487-a278-432d-a44f-78bf2a761cab",
-    basePrice: 5491,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Embark on a tranquility from Cartagena that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Colombia is one you won't forget.",
-      distance: "571 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "db5e1c6c-ca10-453d-ab68-d2771cfbf5ad",
-        name: "Laura Olivia",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-        contact: {
-          contactEmail: "majestic.tranquility@velarivoyages.com",
-          contactNumber: "+1-531-432-4881"
-        }
-      }
-    ],
-    title: "Majestic Tranquility of the Colonial Charm",
-    description: "Embark on a tranquility from Cartagena that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Colombia is one you won't forget.",
-    rating: 4.8,
-    tags: ["cruise-journey","historical","culinary"]
-  },
-  {
-    id: "883274ab-5ccf-45f8-bd0e-6f30c3de74e4",
-    basePrice: 3281,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Discover the beauty of Colombia on this seascape-discovering cruise from Cartagena. With stops at , you'll experience a perfect blend of relaxation, adventure, and cultural immersion.",
-      distance: "1402 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
     "end": "Day 4",
     "duration": "1 days",
     "description": "Exploring Cartagena"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "d9129598-133d-44b7-8712-cead08f6f228",
-        name: "Susan Parker",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
+        id: "ead9c89a-5087-4c70-a29d-57d5022606fb",
+        name: "Oliver Crawford",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
         contact: {
-          contactEmail: "charming.pilgrimage.@velarivoyages.com",
-          contactNumber: "+1-960-844-1633"
+          contactEmail: "harborlit.oasis.of.t@velarivoyages.com",
+          contactNumber: "+1-940-573-5374"
         }
       }
     ],
-    title: "Charming Pilgrimage of the Salsa Dancing & Emerald Mines",
-    description: "Discover the beauty of Colombia on this seascape-discovering cruise from Cartagena. With stops at , you'll experience a perfect blend of relaxation, adventure, and cultural immersion.",
-    rating: 4.6,
-    tags: ["expedition","cruise-adventure","fall-cruise"]
+    title: "Harbor-Lit Oasis of the Salsa Dancing & Emerald Mines",
+    description: "This adventure from Cartagena invites you to explore the diverse landscapes and vibrant cultures of Colombia. From the historic charm of undefined to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
+    rating: 4.8,
+    tags: ["adventure","cruise-adventure","sightseeing"]
   },
   {
-    id: "0e6bbda9-5c8f-4b99-a146-ff76a0bec44c",
-    basePrice: 1581,
+    id: "866b0073-f615-4f2d-94fb-a6a79551b18b",
+    basePrice: 5340,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -300,188 +256,6 @@ export const cartagenaCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "tropical-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Embark on a exploration from Cartagena that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Colombia is one you won't forget.",
-      distance: "1154 nautical miles",
-      totalDuration: "3 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "929d94f8-a0b6-4d4a-9f3e-6bdd47cbb13d",
-        name: "Janet Crawford",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-        contact: {
-          contactEmail: "gilded.quest.of.the.@velarivoyages.com",
-          contactNumber: "+1-955-997-5197"
-        }
-      }
-    ],
-    title: "Gilded Quest of the Amazon Rainforest & Andean Peaks",
-    description: "Embark on a exploration from Cartagena that promises to captivate your senses. From the vibrant markets of undefined to the tranquil beaches of undefined, this journey through Colombia is one you won't forget.",
-    rating: 4.0,
-    tags: ["wellness"]
-  },
-  {
-    id: "fb1a0188-a934-456b-92fa-6e4ad362b1b4",
-    basePrice: 1605,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Set sail from Cartagena for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this whispering cruise will redefine your view of Colombia.",
-      distance: "1202 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "repositioning-cruise",
-    contactPersonnel: [
-      {
-        id: "d6218763-5459-4a6f-a962-da097e4993d2",
-        name: "Ellie Cooper",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-        contact: {
-          contactEmail: "timeless.currents.of@velarivoyages.com",
-          contactNumber: "+1-652-977-5494"
-        }
-      }
-    ],
-    title: "Timeless Currents of the Pirate's Cove",
-    description: "Set sail from Cartagena for a voyage like no other. From the picturesque landscapes of undefined to the lively ambiance of undefined, this whispering cruise will redefine your view of Colombia.",
-    rating: 4.6,
-    tags: ["repositioning","cultural"]
-  },
-  {
-    id: "7e47641a-3916-4a8f-b1d4-288f0acb01d5",
-    basePrice: 4728,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
     category: "glacier-cruise",
     itinerary: {
@@ -496,42 +270,42 @@ export const cartagenaCruises: Cruise[] = [
     }
   }
 ],
-      description: "From bustling Cartagena to serene Colombia shores, this cruise invites you to relax, explore, and indulge. Stops at  deliver a balanced blend of culture and comfort.",
-      distance: "882 nautical miles",
-      totalDuration: "1 days",
+      description: "An unforgettable mirage awaits as you cruise from Cartagena across Colombia. Dive into history, flavor, and culture with stops including .",
+      distance: "1057 nautical miles",
+      totalDuration: "2 days",
       timeAtSea: [],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Cartagena"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "6b090501-f724-4183-9c6f-687106505744",
-        name: "Valentina Day",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
+        id: "8df8f8ea-5cae-47f2-aa99-c1f088393050",
+        name: "Jason Charlotte",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
         contact: {
-          contactEmail: "celestial.drift.of.t@velarivoyages.com",
-          contactNumber: "+1-978-747-3490"
+          contactEmail: "coralembraced.advent@velarivoyages.com",
+          contactNumber: "+1-883-473-6795"
         }
       }
     ],
-    title: "Celestial Drift of the Salsa Dancing & Emerald Mines",
-    description: "From bustling Cartagena to serene Colombia shores, this cruise invites you to relax, explore, and indulge. Stops at  deliver a balanced blend of culture and comfort.",
-    rating: 4.8,
-    tags: ["cruise-adventure","expedition","culinary"]
+    title: "Coral-Embraced Adventure of the Salsa Dancing & Emerald Mines",
+    description: "An unforgettable mirage awaits as you cruise from Cartagena across Colombia. Dive into history, flavor, and culture with stops including .",
+    rating: 4.1,
+    tags: ["sightseeing","cruise-line"]
   },
   {
-    id: "4b967b56-6f65-4d2d-a33d-b6132df3d24c",
-    basePrice: 3249,
+    id: "bb285ae8-1225-4e72-b446-509b93bfecc2",
+    basePrice: 6187,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -550,8 +324,8 @@ export const cartagenaCruises: Cruise[] = [
     "longitude": -75.4794
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
     category: "anniversary-cruise",
     itinerary: {
       route: [
@@ -563,282 +337,6 @@ export const cartagenaCruises: Cruise[] = [
       "latitude": 10.391,
       "longitude": -75.4794
     }
-  }
-],
-      description: "This excursion takes you beyond the ordinary, starting in Cartagena. With breathtaking stops in , your cruise delivers immersive moments and unforgettable vistas.",
-      distance: "773 nautical miles",
-      totalDuration: "1 days",
-      timeAtSea: [],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "395348df-43be-4827-b3e0-5a76368e2936",
-        name: "Elizabeth Dunn",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-        contact: {
-          contactEmail: "pearlescent.pulse.of@velarivoyages.com",
-          contactNumber: "+1-584-438-3093"
-        }
-      }
-    ],
-    title: "Pearlescent Pulse of the Cartagena's Walled City & Coffee Plantations",
-    description: "This excursion takes you beyond the ordinary, starting in Cartagena. With breathtaking stops in , your cruise delivers immersive moments and unforgettable vistas.",
-    rating: 4.1,
-    tags: ["relaxation","short-getaway"]
-  },
-  {
-    id: "3588637a-0a36-450e-9f4e-c0697e61d33f",
-    basePrice: 7365,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Depart from Cartagena on this thoughtfully designed renaissance across the Colombia. Savor coastal charm, cultural treasures, and ocean views with stops at .",
-      distance: "1006 nautical miles",
-      totalDuration: "1 days",
-      timeAtSea: [],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "f03206fe-d126-4ec3-93dd-82eaef02d767",
-        name: "Deborah Clark",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-        contact: {
-          contactEmail: "harborlit.odyssey.of@velarivoyages.com",
-          contactNumber: "+1-865-614-8606"
-        }
-      }
-    ],
-    title: "Harbor-Lit Odyssey of the Caribbean Jewel",
-    description: "Depart from Cartagena on this thoughtfully designed renaissance across the Colombia. Savor coastal charm, cultural treasures, and ocean views with stops at .",
-    rating: 4.8,
-    tags: ["cruise","relaxation"]
-  },
-  {
-    id: "0b850828-e2e7-4212-a829-abf7e63051c3",
-    basePrice: 8451,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "This sanctuary from Cartagena invites you to explore the diverse landscapes and vibrant cultures of Colombia. From the historic charm of undefined to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
-      distance: "942 nautical miles",
-      totalDuration: "2 days",
-      timeAtSea: [],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "1985ea79-e579-4d85-85c9-132a8d762cec",
-        name: "Helen Warren",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-        contact: {
-          contactEmail: "duskkissed.resonance@velarivoyages.com",
-          contactNumber: "+1-424-282-5249"
-        }
-      }
-    ],
-    title: "Dusk-Kissed Resonance of the Salsa Dancing & Emerald Mines",
-    description: "This sanctuary from Cartagena invites you to explore the diverse landscapes and vibrant cultures of Colombia. From the historic charm of undefined to the natural beauty of undefined, each port offers a unique experience that will leave you enchanted.",
-    rating: 4.9,
-    tags: ["general"]
-  },
-  {
-    id: "9631dbf2-8017-47fc-a550-f69f8e803243",
-    basePrice: 8289,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Discover the wonders of Colombia on this velvet cruise departing from Cartagena. From the stunning coastlines of undefined to the vibrant cities of undefined, this journey promises to be a feast for the senses.",
-      distance: "980 nautical miles",
-      totalDuration: "2 days",
-      timeAtSea: [],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        id: "6d95a58f-ee44-45a6-b30d-7176a5e8c135",
-        name: "Scarlett Jennings",
-        role: "Marketing Coordinator",
-        languages: [{"code":"en","name":"English"},{"code":"es","name":"Spanish"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-        contact: {
-          contactEmail: "whimsical.arcadia.of@velarivoyages.com",
-          contactNumber: "+1-238-958-2017"
-        }
-      }
-    ],
-    title: "Whimsical Arcadia of the Colonial Charm",
-    description: "Discover the wonders of Colombia on this velvet cruise departing from Cartagena. From the stunning coastlines of undefined to the vibrant cities of undefined, this journey promises to be a feast for the senses.",
-    rating: 4.3,
-    tags: ["anniversary-cruise","glacier-cruise"]
-  },
-  {
-    id: "50ee95e3-ff24-491e-8c05-0231d29f59c4",
-    basePrice: 4140,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
   },
   {
     "city": "Cartagena",
@@ -850,105 +348,14 @@ export const cartagenaCruises: Cruise[] = [
     }
   }
 ],
-      description: "Experience the magic of Colombia on this dreamlike cruise departing from Cartagena. From the vibrant culture of undefined to the breathtaking landscapes of undefined, this journey promises unforgettable moments and lasting memories.",
-      distance: "1317 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "95d9dc2e-cef1-4396-a40b-dd4531a2726d",
-        name: "John Lawson",
-        role: "Corporate Concierge",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-        contact: {
-          contactEmail: "oceanbound.currents.@velarivoyages.com",
-          contactNumber: "+1-762-757-9043"
-        }
-      }
-    ],
-    title: "Ocean-Bound Currents of the Pirate's Cove",
-    description: "Experience the magic of Colombia on this dreamlike cruise departing from Cartagena. From the vibrant culture of undefined to the breathtaking landscapes of undefined, this journey promises unforgettable moments and lasting memories.",
-    rating: 4.1,
-    tags: ["cultural","general","nature"]
-  },
-  {
-    id: "11eb315b-7759-43db-b3a8-16afeadfaa62",
-    basePrice: 3623,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Let the waves lead you from Cartagena on this panoramic exploration. Traverse the iconic waters of Colombia and discover the beauty of .",
-      distance: "720 nautical miles",
-      totalDuration: "5 days",
+      description: "Unwind and explore on this sanctum through Colombia, departing from Cartagena. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
+      distance: "1474 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
+    "end": "Day 4",
+    "duration": "2 days",
     "description": "Sailing from Cartagena to Cartagena"
   }
 ],
@@ -960,9 +367,78 @@ export const cartagenaCruises: Cruise[] = [
     "description": "Exploring Cartagena"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
+    "start": "Day 5",
+    "end": "Day 6",
     "duration": "2 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "fall-foliage-cruise",
+    contactPersonnel: [
+      {
+        id: "b6a52c44-f37a-4202-8c79-26c085df89a3",
+        name: "Wei Fletcher",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+        contact: {
+          contactEmail: "glistening.labyrinth@velarivoyages.com",
+          contactNumber: "+1-661-757-3909"
+        }
+      }
+    ],
+    title: "Glistening Labyrinth of the Walled City",
+    description: "Unwind and explore on this sanctum through Colombia, departing from Cartagena. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
+    rating: 4.6,
+    tags: ["nature"]
+  },
+  {
+    id: "e62ce1e0-faf2-422c-bafe-13f740cbe6c7",
+    basePrice: 9955,
+    departureLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "glacier-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Leave stress behind with this curated enigma from Cartagena. Sail across the best of Colombia and explore treasures like  with comfort and style.",
+      distance: "1127 nautical miles",
+      totalDuration: "1 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring Cartagena"
   }
 ]
@@ -970,26 +446,26 @@ export const cartagenaCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "5943df05-69c0-47da-9567-bbe4b83b1c1f",
-        name: "Patrick Warren",
-        role: "Corporate Concierge",
+        id: "1f4faf49-a532-47b2-8d8a-c3f72377c3f3",
+        name: "Jonathan Wells",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
+        experienceYears: 16,
+        profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
         contact: {
-          contactEmail: "floating.zenith.of.t@velarivoyages.com",
-          contactNumber: "+1-425-132-6600"
+          contactEmail: "enchanting.odyssey.o@velarivoyages.com",
+          contactNumber: "+1-673-504-9880"
         }
       }
     ],
-    title: "Floating Zenith of the Caribbean Jewel",
-    description: "Let the waves lead you from Cartagena on this panoramic exploration. Traverse the iconic waters of Colombia and discover the beauty of .",
-    rating: 4.1,
-    tags: ["cultural"]
+    title: "Enchanting Odyssey of the Salsa Dancing & Emerald Mines",
+    description: "Leave stress behind with this curated enigma from Cartagena. Sail across the best of Colombia and explore treasures like  with comfort and style.",
+    rating: 4.6,
+    tags: ["cruise-excursion","cultural","cruise-adventure"]
   },
   {
-    id: "41470160-1913-487a-ae7f-4ccc1a98ec70",
-    basePrice: 5018,
+    id: "f35242f8-8243-4055-b43e-e22d3ce1733d",
+    basePrice: 3962,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -1021,199 +497,17 @@ export const cartagenaCruises: Cruise[] = [
       "latitude": 10.391,
       "longitude": -75.4794
     }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
   }
 ],
-      description: "This sun-drenched cruise from Cartagena is your gateway to the wonders of Colombia. Experience the best of coastal life with stops at , where each destination is a treasure waiting to be explored.",
-      distance: "1264 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
+      description: "This inspiring arcadia departs from Cartagena, navigating the diverse landscapes and vibrant cities of Colombia. Must-see stops include .",
+      distance: "518 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
       timeOnLand: [
   {
     "start": "Day 1",
     "end": "Day 2",
     "duration": "2 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        id: "fcdaf380-cc6f-43ff-a2ef-8c42f9ce159f",
-        name: "Robert Mason",
-        role: "Corporate Concierge",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
-        contact: {
-          contactEmail: "lagoonexploring.laby@velarivoyages.com",
-          contactNumber: "+1-857-477-5414"
-        }
-      }
-    ],
-    title: "Lagoon-Exploring Labyrinth of the Salsa Dancing & Emerald Mines",
-    description: "This sun-drenched cruise from Cartagena is your gateway to the wonders of Colombia. Experience the best of coastal life with stops at , where each destination is a treasure waiting to be explored.",
-    rating: 5.0,
-    tags: ["relaxation","cruise-journey"]
-  },
-  {
-    id: "cbe4ba12-7e79-405c-9511-e23f0ed0068d",
-    basePrice: 4725,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Depart from iconic Cartagena and traverse the Colombia with visits to . Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-      distance: "874 nautical miles",
-      totalDuration: "3 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        id: "5562ee01-9794-4c12-9394-420fde94dd1e",
-        name: "Vincent Palmer",
-        role: "Corporate Concierge",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-        contact: {
-          contactEmail: "sublime.quest.of.the@velarivoyages.com",
-          contactNumber: "+1-269-472-9094"
-        }
-      }
-    ],
-    title: "Sublime Quest of the Caribbean Jewel",
-    description: "Depart from iconic Cartagena and traverse the Colombia with visits to . Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
-    rating: 5.0,
-    tags: ["anniversary-cruise"]
-  },
-  {
-    id: "e919217f-ae94-4809-8444-33199578d158",
-    basePrice: 2470,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "weekend-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Unwind and explore on this reunion through Colombia, departing from Cartagena. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
-      distance: "972 nautical miles",
-      totalDuration: "1 days",
-      timeAtSea: [],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
     "description": "Exploring Cartagena"
   }
 ]
@@ -1221,26 +515,95 @@ export const cartagenaCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "d9556499-d263-41ba-8629-8db6226d4f94",
-        name: "Mark Morgan",
-        role: "Corporate Concierge",
+        id: "d4e05594-e77d-427e-a1a0-e6081509656b",
+        name: "Benjamin Sutton",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
         contact: {
-          contactEmail: "sublime.eclipse.of.t@velarivoyages.com",
-          contactNumber: "+1-192-377-8546"
+          contactEmail: "panoramic.lullaby.of@velarivoyages.com",
+          contactNumber: "+1-982-641-7350"
         }
       }
     ],
-    title: "Sublime Eclipse of the Caribbean Jewel",
-    description: "Unwind and explore on this reunion through Colombia, departing from Cartagena. With every stop—from undefined to —you’ll collect memories that last a lifetime.",
+    title: "Panoramic Lullaby of the Amazon Rainforest & Andean Peaks",
+    description: "This inspiring arcadia departs from Cartagena, navigating the diverse landscapes and vibrant cities of Colombia. Must-see stops include .",
     rating: 4.3,
-    tags: ["adventure","historical","cruise"]
+    tags: ["cruise-adventure"]
   },
   {
-    id: "98282563-2208-4e37-863c-4e8a05bdb3c2",
-    basePrice: 1470,
+    id: "df27365b-88c9-4b14-a694-3186485c61ba",
+    basePrice: 9233,
+    departureLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    arrivalLocation: {
+  "city": "Cartagena",
+  "country": "Colombia",
+  "region": "Colombia",
+  "coordinates": {
+    "latitude": 10.391,
+    "longitude": -75.4794
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "theme-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia",
+    "coordinates": {
+      "latitude": 10.391,
+      "longitude": -75.4794
+    }
+  }
+],
+      description: "Begin your labyrinth in Cartagena, a gateway to the soul of Colombia. Enjoy days spent exploring  and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+      distance: "1072 nautical miles",
+      totalDuration: "2 days",
+      timeAtSea: [],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring Cartagena"
+  }
+]
+    },
+    tourCategoryId: "repositioning-cruise",
+    contactPersonnel: [
+      {
+        id: "ee99673f-58a1-4ab1-accb-e807c16eb8fd",
+        name: "Jerry Hunter",
+        role: "Customer Service Representative",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 17,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
+        contact: {
+          contactEmail: "panoramic.enigma.of.@velarivoyages.com",
+          contactNumber: "+1-443-427-1029"
+        }
+      }
+    ],
+    title: "Panoramic Enigma of the Walled City",
+    description: "Begin your labyrinth in Cartagena, a gateway to the soul of Colombia. Enjoy days spent exploring  and evenings immersed in onboard luxury, fine dining, and panoramic sea views.",
+    rating: 4.3,
+    tags: ["long-distance","culinary","repositioning"]
+  },
+  {
+    id: "f0a8124e-a407-4e29-a68d-de941f535686",
+    basePrice: 2702,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -1261,189 +624,7 @@ export const cartagenaCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "glacier-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Enjoy seamless luxury on this secluded frontier beginning in Cartagena. Visit breathtaking Colombia locales such as  on this unforgettable itinerary.",
-      distance: "1229 nautical miles",
-      totalDuration: "3 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "anniversary-cruise",
-    contactPersonnel: [
-      {
-        id: "e21751a0-1738-4b90-bdb1-98409f22a0fc",
-        name: "Christopher Gibson",
-        role: "Corporate Concierge",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-        contact: {
-          contactEmail: "whispering.enigma.of@velarivoyages.com",
-          contactNumber: "+1-150-670-8668"
-        }
-      }
-    ],
-    title: "Whispering Enigma of the Historic Port",
-    description: "Enjoy seamless luxury on this secluded frontier beginning in Cartagena. Visit breathtaking Colombia locales such as  on this unforgettable itinerary.",
-    rating: 4.8,
-    tags: ["anniversary-cruise","cruise-ship","seasonal"]
-  },
-  {
-    id: "957706f2-9883-4b3a-a021-1f923b6577a3",
-    basePrice: 8793,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  },
-  {
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia",
-    "coordinates": {
-      "latitude": 10.391,
-      "longitude": -75.4794
-    }
-  }
-],
-      description: "Sail away from Cartagena into the beautiful expanse of Colombia. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
-      distance: "602 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from Cartagena to Cartagena"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring Cartagena"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "10014992-35ba-4547-8164-9b3e43e6a998",
-        name: "Nicholas Keller",
-        role: "Corporate Concierge",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 6,
-        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-        contact: {
-          contactEmail: "dawnembraced.arcadia@velarivoyages.com",
-          contactNumber: "+1-176-704-8729"
-        }
-      }
-    ],
-    title: "Dawn-Embraced Arcadia of the Historic Port",
-    description: "Sail away from Cartagena into the beautiful expanse of Colombia. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
-    rating: 4.1,
-    tags: ["cruise-vacation","cruise-line"]
-  },
-  {
-    id: "2241af2c-6fdf-499f-97db-e1b3b8dc2325",
-    basePrice: 2407,
-    departureLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    arrivalLocation: {
-  "city": "Cartagena",
-  "country": "Colombia",
-  "region": "Colombia",
-  "coordinates": {
-    "latitude": 10.391,
-    "longitude": -75.4794
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "tropical-cruise",
+    category: "fall-foliage-cruise",
     itinerary: {
       route: [
   {
@@ -1456,8 +637,8 @@ export const cartagenaCruises: Cruise[] = [
     }
   }
 ],
-      description: "Sail away from Cartagena into the beautiful expanse of Colombia. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
-      distance: "1161 nautical miles",
+      description: "Embark from Cartagena and traverse the Colombia in style. Whether it’s the energy of undefined or the calm of undefined, each destination reveals a new side of paradise.",
+      distance: "753 nautical miles",
       totalDuration: "2 days",
       timeAtSea: [],
       timeOnLand: [
@@ -1472,26 +653,26 @@ export const cartagenaCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "3540fdd7-8fda-4df9-8995-6cd9eeeb7167",
-        name: "Matthew Porter",
-        role: "Corporate Concierge",
+        id: "cabaa910-b3f2-4c55-9328-1728bb74b0db",
+        name: "Alexander Grant",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
+        experienceYears: 10,
+        profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
         contact: {
-          contactEmail: "starlit.adventure.of@velarivoyages.com",
-          contactNumber: "+1-313-776-6084"
+          contactEmail: "harmonious.tide.of.t@velarivoyages.com",
+          contactNumber: "+1-602-287-4075"
         }
       }
     ],
-    title: "Starlit Adventure of the Amazon Rainforest & Andean Peaks",
-    description: "Sail away from Cartagena into the beautiful expanse of Colombia. Along the way, enjoy rich cultural experiences in , where history, nature, and cuisine collide.",
-    rating: 4.9,
-    tags: ["cruise"]
+    title: "Harmonious Tide of the Pirate's Cove",
+    description: "Embark from Cartagena and traverse the Colombia in style. Whether it’s the energy of undefined or the calm of undefined, each destination reveals a new side of paradise.",
+    rating: 4.7,
+    tags: ["general","family-friendly"]
   },
   {
-    id: "cb978ddb-d38c-4f8a-ae6c-173e7aace335",
-    basePrice: 4907,
+    id: "26e59c72-0d5b-4272-ad2e-5b7190e4f45a",
+    basePrice: 7365,
     departureLocation: {
   "city": "Cartagena",
   "country": "Colombia",
@@ -1511,8 +692,8 @@ export const cartagenaCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition-cruise",
+    hasPopularDestination: false,
+    category: "fall-foliage-cruise",
     itinerary: {
       route: [
   {
@@ -1534,28 +715,28 @@ export const cartagenaCruises: Cruise[] = [
     }
   }
 ],
-      description: "This handpicked retreat begins in Cartagena and travels through Colombia's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
-      distance: "1399 nautical miles",
-      totalDuration: "3 days",
+      description: "Savor each moment of this transcendent escape through Colombia, starting in Cartagena. Visit renowned locations like , where adventure and relaxation intertwine.",
+      distance: "871 nautical miles",
+      totalDuration: "6 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
     "description": "Sailing from Cartagena to Cartagena"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring Cartagena"
   },
   {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
     "description": "Exploring Cartagena"
   }
 ]
@@ -1563,21 +744,21 @@ export const cartagenaCruises: Cruise[] = [
     tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "e1ffe945-bdf4-4b12-b791-04308eaeae3d",
-        name: "Noah Jennings",
-        role: "Corporate Concierge",
+        id: "fbac5eb3-6743-492e-93a0-8e361d834a93",
+        name: "Darrell Mitchell",
+        role: "Customer Service Representative",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 8,
-        profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
+        experienceYears: 6,
+        profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
         contact: {
-          contactEmail: "mystical.discovery.o@velarivoyages.com",
-          contactNumber: "+1-404-781-1312"
+          contactEmail: "midnight.odyssey.of.@velarivoyages.com",
+          contactNumber: "+1-886-562-7845"
         }
       }
     ],
-    title: "Mystical Discovery of the Emerald Coast",
-    description: "This handpicked retreat begins in Cartagena and travels through Colombia's iconic waterscapes. Discover  as each day brings new stories and every night offers elegant repose.",
-    rating: 4.3,
-    tags: ["exclusive"]
+    title: "Midnight Odyssey of the Historic Port",
+    description: "Savor each moment of this transcendent escape through Colombia, starting in Cartagena. Visit renowned locations like , where adventure and relaxation intertwine.",
+    rating: 4.9,
+    tags: ["cruise-journey","adventure"]
   }
 ];

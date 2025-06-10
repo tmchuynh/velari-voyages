@@ -1,191 +1,13 @@
 // This file is auto-generated
     // Do not edit manually.
     // City: St Thomas
-    // Generated on: 2025-06-10T03:09:08.457Z
+    // Generated on: 2025-06-10T04:43:44.439Z
   import { Cruise } from "@/lib/interfaces/services/cruises";
 
 export const stThomasCruises: Cruise[] = [
-{
-    id: "f7cc2783-c229-4e19-860c-9d8942c33fa6",
-    basePrice: 3719,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "st-thomas",
-  "country": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
   {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Set sail from St Thomas on a breathtaking infinite that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-      distance: "1169 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "tropical-cruise",
-    contactPersonnel: [
-      {
-        id: "49c71f8b-9972-42bb-9f76-252f61f1ed17",
-        name: "Linda Dixon",
-        role: "Sales Consultant",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-        contact: {
-          contactEmail: "secret.retreat.of.th@velarivoyages.com",
-          contactNumber: "+1-855-374-7380"
-        }
-      }
-    ],
-    title: "Secret Retreat of the Trunk Bay & Magens Bay",
-    description: "Set sail from St Thomas on a breathtaking infinite that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-    rating: 4.2,
-    tags: ["general","culinary","relaxation"]
-  },
-  {
-    id: "c76fce53-94eb-4433-8e44-1461f055d871",
-    basePrice: 4070,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "st-thomas",
-  "country": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Let the winds of the US Virgin Islands carry you from St Thomas to the most stunning ports in the region. With destinations like st-thomas, this sanctuary redefines luxury travel.",
-      distance: "1110 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "7c8f55e8-193e-4335-9844-98fc1d42ad99",
-        name: "Claire Payne",
-        role: "Sales Consultant",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 12,
-        profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-        contact: {
-          contactEmail: "coralkissed.haven.of@velarivoyages.com",
-          contactNumber: "+1-522-622-4079"
-        }
-      }
-    ],
-    title: "Coral-Kissed Haven of the US Virgin Islands Gem",
-    description: "Let the winds of the US Virgin Islands carry you from St Thomas to the most stunning ports in the region. With destinations like st-thomas, this sanctuary redefines luxury travel.",
-    rating: 4.5,
-    tags: ["cruise-adventure","wellness","cruise-experience"]
-  },
-  {
-    id: "550b3ff7-73ba-4ab9-b5b6-4d0bb6c3e076",
-    basePrice: 3649,
+    id: "bb91c8e8-62ff-4022-864d-0340dcdd08c0",
+    basePrice: 2006,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -204,8 +26,8 @@ export const stThomasCruises: Cruise[] = [
   }
 },
     isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
+    hasPopularDestination: true,
+    category: "weekend-cruise",
     itinerary: {
       route: [
   {
@@ -226,8 +48,8 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Savor each moment of this twilight escape through US Virgin Islands, starting in St Thomas. Visit renowned locations like st-thomas, where adventure and relaxation intertwine.",
-      distance: "1008 nautical miles",
+      description: "Embark on a pristine currents from St Thomas, where the wonders of US Virgin Islands await. With stops at st-thomas, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+      distance: "1352 nautical miles",
       totalDuration: "5 days",
       timeAtSea: [
   {
@@ -252,29 +74,118 @@ export const stThomasCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "luxury-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "bfee5c67-9684-4436-859e-48b6e1a37f3c",
-        name: "Harper Palmer",
-        role: "Sales Consultant",
+        id: "1034b1a2-151a-41f7-a66f-ec15655f5706",
+        name: "Noah Porter",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 5,
-        profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
         contact: {
-          contactEmail: "radiant.mirage.of.th@velarivoyages.com",
-          contactNumber: "+1-346-110-6985"
+          contactEmail: "eternal.oasis.of.the@velarivoyages.com",
+          contactNumber: "+1-415-946-4171"
         }
       }
     ],
-    title: "Radiant Mirage of the Charlotte Amalie Charm",
-    description: "Savor each moment of this twilight escape through US Virgin Islands, starting in St Thomas. Visit renowned locations like st-thomas, where adventure and relaxation intertwine.",
-    rating: 4.8,
-    tags: ["luxury","relaxation","general"]
+    title: "Eternal Oasis of the Trunk Bay & Magens Bay",
+    description: "Embark on a pristine currents from St Thomas, where the wonders of US Virgin Islands await. With stops at st-thomas, you'll discover the rich history, stunning scenery, and warm hospitality that define this remarkable region.",
+    rating: 4.4,
+    tags: ["cruise-adventure"]
   },
   {
-    id: "28f830cf-4ba3-42c0-85b5-05112462a8f0",
-    basePrice: 4217,
+    id: "2c6c3ad5-a9e5-4098-98bb-131756aa61a4",
+    basePrice: 7566,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "st-thomas",
+  "country": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: true,
+    category: "holiday-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Depart from St Thomas on this thoughtfully designed currents across the US Virgin Islands. Savor coastal charm, cultural treasures, and ocean views with stops at st-thomas.",
+      distance: "1073 nautical miles",
+      totalDuration: "5 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 4",
+    "end": "Day 5",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "421ffab0-6ad6-4b53-958c-ce006e694f65",
+        name: "Christopher Gibson",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 7,
+        profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
+        contact: {
+          contactEmail: "golden.solstice.of.t@velarivoyages.com",
+          contactNumber: "+1-929-291-2311"
+        }
+      }
+    ],
+    title: "Golden Solstice of the Magens Bay Beauty",
+    description: "Depart from St Thomas on this thoughtfully designed currents across the US Virgin Islands. Savor coastal charm, cultural treasures, and ocean views with stops at st-thomas.",
+    rating: 4.6,
+    tags: ["cruise-journey","cruise-experience","cultural"]
+  },
+  {
+    id: "a5b617ef-95a2-4bf9-81bd-e4ff7af41036",
+    basePrice: 2538,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -295,7 +206,7 @@ export const stThomasCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: false,
-    category: "repositioning-cruise",
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -325,67 +236,67 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Cruise into cultural richness aboard this eternal elevation departing St Thomas. Savor local cuisine and uncover regional beauty from st-thomas to undefined.",
-      distance: "621 nautical miles",
-      totalDuration: "7 days",
+      description: "Sail away from the charming harbor of St Thomas on this twilight journey across US Virgin Islands. Uncover the beauty and history of st-thomas with curated excursions, world-class cuisine, and exceptional service.",
+      distance: "1372 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 2",
-    "end": "Day 3",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
     "description": "Sailing from St Thomas to st-thomas"
   },
   {
-    "start": "Day 5",
+    "start": "Day 6",
     "end": "Day 6",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Sailing from st-thomas to St Thomas"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
+    "end": "Day 2",
+    "duration": "2 days",
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 4",
-    "end": "Day 4",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
     "description": "Exploring st-thomas"
   },
   {
     "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
+    "end": "Day 8",
+    "duration": "2 days",
     "description": "Exploring St Thomas"
   }
 ]
     },
-    tourCategoryId: "holiday-cruise",
+    tourCategoryId: "vip-cruise",
     contactPersonnel: [
       {
-        id: "8ed8f9e2-7d1e-4bcb-90e1-7eb4a603f886",
-        name: "Jessica Coleman",
-        role: "Sales Consultant",
+        id: "973f13c1-69d3-44f6-8831-7f4da56963c8",
+        name: "Daniel Murray",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 17,
-        profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
         contact: {
-          contactEmail: "captivating.horizon.@velarivoyages.com",
-          contactNumber: "+1-804-991-3197"
+          contactEmail: "lavish.mirage.of.the@velarivoyages.com",
+          contactNumber: "+1-870-737-5922"
         }
       }
     ],
-    title: "Captivating Horizon of the Charlotte Amalie Charm",
-    description: "Cruise into cultural richness aboard this eternal elevation departing St Thomas. Savor local cuisine and uncover regional beauty from st-thomas to undefined.",
-    rating: 4.6,
-    tags: ["cruise-journey","seasonal","themed-cruise"]
+    title: "Lavish Mirage of the Caribbean Culture & Historic Forts",
+    description: "Sail away from the charming harbor of St Thomas on this twilight journey across US Virgin Islands. Uncover the beauty and history of st-thomas with curated excursions, world-class cuisine, and exceptional service.",
+    rating: 4.1,
+    tags: ["cruise-getaway","cruise-journey","VIP"]
   },
   {
-    id: "7a2883c1-6519-4532-acae-6fc6df8ea127",
-    basePrice: 2417,
+    id: "f05219fe-578e-422b-9f4d-3702401313b4",
+    basePrice: 6551,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -406,7 +317,7 @@ export const stThomasCruises: Cruise[] = [
 },
     isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "repositioning-cruise",
+    category: "expedition-cruise",
     itinerary: {
       route: [
   {
@@ -436,33 +347,33 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Let this unforgettable voyage redefine your idea of travel. From St Thomas, explore the US Virgin Islands in luxurious comfort, stopping at st-thomas where every port offers a new chapter.",
-      distance: "646 nautical miles",
+      description: "Set sail from historic St Thomas for a modern escape into the US Virgin Islands. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in st-thomas.",
+      distance: "1014 nautical miles",
       totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
     "description": "Sailing from St Thomas to st-thomas"
   },
   {
-    "start": "Day 6",
+    "start": "Day 5",
     "end": "Day 6",
-    "duration": "1 days",
+    "duration": "2 days",
     "description": "Sailing from st-thomas to St Thomas"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
+    "start": "Day 3",
+    "end": "Day 4",
     "duration": "2 days",
     "description": "Exploring st-thomas"
   },
@@ -474,29 +385,29 @@ export const stThomasCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "general-cruise",
     contactPersonnel: [
       {
-        id: "6509053a-8f35-430f-b1c8-8938cebedbf4",
-        name: "Victoria Mitchell",
-        role: "Sales Consultant",
+        id: "14cb818f-7d91-426c-a138-87419dd3080b",
+        name: "Louis Henderson",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
+        experienceYears: 14,
+        profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
         contact: {
-          contactEmail: "mythic.voyage.of.the@velarivoyages.com",
-          contactNumber: "+1-430-111-8235"
+          contactEmail: "coralkissed.haven.of@velarivoyages.com",
+          contactNumber: "+1-156-318-8092"
         }
       }
     ],
-    title: "Mythic Voyage of the Trunk Bay & Magens Bay",
-    description: "Let this unforgettable voyage redefine your idea of travel. From St Thomas, explore the US Virgin Islands in luxurious comfort, stopping at st-thomas where every port offers a new chapter.",
-    rating: 4.5,
-    tags: ["general","cruise-ship","expedition"]
+    title: "Coral-Kissed Haven of the Duty-Free Shopping",
+    description: "Set sail from historic St Thomas for a modern escape into the US Virgin Islands. Savor gourmet cuisine, cultural treasures, and beautiful coastlines with stops in st-thomas.",
+    rating: 4.2,
+    tags: ["cruise-excursion","cruise-experience"]
   },
   {
-    id: "d883bcd7-a6f3-482b-ab18-56d32f7ab807",
-    basePrice: 3178,
+    id: "01e6639b-2529-482c-b8cb-098940e8b251",
+    basePrice: 9965,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -516,8 +427,8 @@ export const stThomasCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "tropical-cruise",
+    hasPopularDestination: true,
+    category: "holiday-cruise",
     itinerary: {
       route: [
   {
@@ -547,14 +458,14 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Embark on an unforgettable pilgrimage from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the US Virgin Islands region. With stops at st-thomas, this journey combines cultural immersion with breathtaking scenery.",
-      distance: "533 nautical miles",
+      description: "An unforgettable oasis awaits as you cruise from St Thomas across US Virgin Islands. Dive into history, flavor, and culture with stops including st-thomas.",
+      distance: "643 nautical miles",
       totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
+    "end": "Day 4",
+    "duration": "2 days",
     "description": "Sailing from St Thomas to st-thomas"
   },
   {
@@ -572,9 +483,9 @@ export const stThomasCruises: Cruise[] = [
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 4",
+    "start": "Day 5",
     "end": "Day 5",
-    "duration": "2 days",
+    "duration": "1 days",
     "description": "Exploring st-thomas"
   },
   {
@@ -585,29 +496,140 @@ export const stThomasCruises: Cruise[] = [
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        id: "96b06788-1e43-4471-afa4-562b307cf650",
-        name: "Ella Mason",
-        role: "Sales Consultant",
+        id: "2946fea3-945c-4dd4-9fbe-570d3233e28f",
+        name: "Mateo Dixon",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
+        experienceYears: 18,
+        profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
         contact: {
-          contactEmail: "secret.frontier.of.t@velarivoyages.com",
-          contactNumber: "+1-289-763-3106"
+          contactEmail: "harmonious.realm.of.@velarivoyages.com",
+          contactNumber: "+1-154-134-5274"
         }
       }
     ],
-    title: "Secret Frontier of the Magens Bay Beauty",
-    description: "Embark on an unforgettable pilgrimage from the vibrant port of St Thomas, where you'll discover hidden gems and iconic landmarks across the US Virgin Islands region. With stops at st-thomas, this journey combines cultural immersion with breathtaking scenery.",
-    rating: 4.4,
-    tags: ["sightseeing"]
+    title: "Harmonious Realm of the Caribbean Culture & Historic Forts",
+    description: "An unforgettable oasis awaits as you cruise from St Thomas across US Virgin Islands. Dive into history, flavor, and culture with stops including st-thomas.",
+    rating: 4.7,
+    tags: ["anniversary-cruise","cruise"]
   },
   {
-    id: "b01cd270-9218-4265-be64-1d0479831f2f",
-    basePrice: 6446,
+    id: "16af2819-dd96-419f-9ec0-e3457ee75466",
+    basePrice: 3426,
+    departureLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    arrivalLocation: {
+  "city": "St Thomas",
+  "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
+  "coordinates": {
+    "latitude": 18.3419,
+    "longitude": -64.9307
+  }
+},
+    isPopular: true, // Make fewer cruises "popular"
+    hasPopularDestination: false,
+    category: "weekend-cruise",
+    itinerary: {
+      route: [
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "st-thomas",
+    "country": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
+  }
+],
+      description: "Leave stress behind with this curated reflection from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+      distance: "1346 nautical miles",
+      totalDuration: "9 days",
+      timeAtSea: [
+  {
+    "start": "Day 3",
+    "end": "Day 4",
+    "duration": "2 days",
+    "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Sailing from st-thomas to St Thomas"
+  }
+],
+      timeOnLand: [
+  {
+    "start": "Day 1",
+    "end": "Day 2",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 9",
+    "end": "Day 9",
+    "duration": "1 days",
+    "description": "Exploring St Thomas"
+  }
+]
+    },
+    tourCategoryId: "general-cruise",
+    contactPersonnel: [
+      {
+        id: "3e806d5b-3841-490d-acec-6ab442f193a0",
+        name: "Nicholas Jennings",
+        role: "Reservations Agent",
+        languages: [{"code":"en","name":"English"}],
+        experienceYears: 5,
+        profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
+        contact: {
+          contactEmail: "floating.zenith.of.t@velarivoyages.com",
+          contactNumber: "+1-129-866-6059"
+        }
+      }
+    ],
+    title: "Floating Zenith of the Caribbean Paradise",
+    description: "Leave stress behind with this curated reflection from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+    rating: 4.3,
+    tags: ["exclusive"]
+  },
+  {
+    id: "80352011-2343-46ac-a03d-0b37c0f490a6",
+    basePrice: 5910,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -627,7 +649,7 @@ export const stThomasCruises: Cruise[] = [
 },
     isPopular: false, // Make fewer cruises "popular"
     hasPopularDestination: true,
-    category: "anniversary-cruise",
+    category: "fall-foliage-cruise",
     itinerary: {
       route: [
   {
@@ -648,342 +670,15 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Let the waves lead you from St Thomas on this midnight journey. Traverse the iconic waters of US Virgin Islands and discover the beauty of st-thomas.",
-      distance: "1204 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "75677827-cd84-4348-a37d-32e4a64a91f2",
-        name: "Christine Charlotte",
-        role: "Sales Consultant",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-        contact: {
-          contactEmail: "lagoonexploring.symp@velarivoyages.com",
-          contactNumber: "+1-987-833-3786"
-        }
-      }
-    ],
-    title: "Lagoon-Exploring Symphony of the Trunk Bay & Magens Bay",
-    description: "Let the waves lead you from St Thomas on this midnight journey. Traverse the iconic waters of US Virgin Islands and discover the beauty of st-thomas.",
-    rating: 4.7,
-    tags: ["cruise"]
-  },
-  {
-    id: "3aaeeabe-2299-42e7-97b4-ae37b0c4521a",
-    basePrice: 6291,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Begin your journey in St Thomas, where tradition meets travel. This immersive elevation reveals the finest of US Virgin Islands, from the beaches of st-thomas to the streets of undefined.",
-      distance: "1341 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from st-thomas to St Thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "158ace4f-80a7-4601-a79c-c145d152772e",
-        name: "Ariana Carpenter",
-        role: "Sales Consultant",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-        contact: {
-          contactEmail: "coastlinecruising.le@velarivoyages.com",
-          contactNumber: "+1-904-597-5276"
-        }
-      }
-    ],
-    title: "Coastline-Cruising Legacy of the Magens Bay Beauty",
-    description: "Begin your journey in St Thomas, where tradition meets travel. This immersive elevation reveals the finest of US Virgin Islands, from the beaches of st-thomas to the streets of undefined.",
-    rating: 4.4,
-    tags: ["cruise-ship"]
-  },
-  {
-    id: "ae42031d-e33a-421c-8c9b-919a536dabe8",
-    basePrice: 8730,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "vip-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Sail away from St Thomas into the beautiful expanse of US Virgin Islands. Along the way, enjoy rich cultural experiences in st-thomas, where history, nature, and cuisine collide.",
-      distance: "905 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 6",
-    "duration": "2 days",
-    "description": "Sailing from st-thomas to St Thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "d71108da-ea66-4783-ac6a-a9f853721df3",
-        name: "Samantha Wells",
-        role: "Sales Consultant",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 7,
-        profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
-        contact: {
-          contactEmail: "islandembraced.enigm@velarivoyages.com",
-          contactNumber: "+1-702-764-9612"
-        }
-      }
-    ],
-    title: "Island-Embraced Enigma of the Duty-Free Shopping",
-    description: "Sail away from St Thomas into the beautiful expanse of US Virgin Islands. Along the way, enjoy rich cultural experiences in st-thomas, where history, nature, and cuisine collide.",
-    rating: 4.9,
-    tags: ["cruise-vacation","family-friendly"]
-  },
-  {
-    id: "5bd4f859-f701-4fe7-ab7c-39cd5e68f5ee",
-    basePrice: 7847,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Set off on a eclipse from St Thomas that captures the essence of US Virgin Islands. Discover cultural gems and culinary delights across st-thomas.",
-      distance: "1253 nautical miles",
+      description: "Depart from the iconic port of St Thomas and sail through the enchanting US Virgin Islands. Explore vibrant destinations like st-thomas, each offering its own unique charm and local flair.",
+      distance: "645 nautical miles",
       totalDuration: "5 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
+    "end": "Day 3",
+    "duration": "2 days",
     "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Sailing from st-thomas to St Thomas"
   }
 ],
       timeOnLand: [
@@ -994,42 +689,36 @@ export const stThomasCruises: Cruise[] = [
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 5",
+    "start": "Day 4",
     "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
+    "duration": "2 days",
+    "description": "Exploring st-thomas"
   }
 ]
     },
-    tourCategoryId: "general-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        id: "828a64dd-fe40-49d9-ab52-b555df7f99ad",
-        name: "Carol Lawson",
-        role: "Sales Consultant",
+        id: "f2de3f95-c939-4da9-91c4-1a84b18da274",
+        name: "Miguel Hamilton",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
+        experienceYears: 19,
+        profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
         contact: {
-          contactEmail: "moonlit.requiem.of.t@velarivoyages.com",
-          contactNumber: "+1-435-397-4359"
+          contactEmail: "alluring.expedition.@velarivoyages.com",
+          contactNumber: "+1-969-572-8276"
         }
       }
     ],
-    title: "Moonlit Requiem of the Charlotte Amalie Charm",
-    description: "Set off on a eclipse from St Thomas that captures the essence of US Virgin Islands. Discover cultural gems and culinary delights across st-thomas.",
+    title: "Alluring Expedition of the Charlotte Amalie Charm",
+    description: "Depart from the iconic port of St Thomas and sail through the enchanting US Virgin Islands. Explore vibrant destinations like st-thomas, each offering its own unique charm and local flair.",
     rating: 4.4,
-    tags: ["exclusive"]
+    tags: ["cruise-line","fall-cruise"]
   },
   {
-    id: "429ebc70-4fc2-4490-a0b7-8c1402038fef",
-    basePrice: 5616,
+    id: "2a2007be-31ca-45b7-bb13-139b8af7ddce",
+    basePrice: 6198,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -1040,15 +729,16 @@ export const stThomasCruises: Cruise[] = [
   }
 },
     arrivalLocation: {
-  "city": "st-thomas",
+  "city": "St Thomas",
   "country": "US Virgin Islands",
+  "region": "US Virgin Islands",
   "coordinates": {
     "latitude": 18.3419,
     "longitude": -64.9307
   }
 },
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
+    isPopular: false, // Make fewer cruises "popular"
+    hasPopularDestination: false,
     category: "fjords-tour",
     itinerary: {
       route: [
@@ -1068,57 +758,78 @@ export const stThomasCruises: Cruise[] = [
       "latitude": 18.3419,
       "longitude": -64.9307
     }
+  },
+  {
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands",
+    "coordinates": {
+      "latitude": 18.3419,
+      "longitude": -64.9307
+    }
   }
 ],
-      description: "Escape into the calm waters of US Virgin Islands with this moonlit journey from St Thomas. Explore vibrant markets, sun-soaked beaches, and architectural marvels at st-thomas.",
-      distance: "967 nautical miles",
-      totalDuration: "4 days",
+      description: "Experience the elegance of the seas on this glistening arcadia through US Virgin Islands, starting from the illustrious port of St Thomas. From  to st-thomas, each destination offers its own story, culture, and breathtaking views.",
+      distance: "752 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
-    "start": "Day 3",
-    "end": "Day 3",
+    "start": "Day 2",
+    "end": "Day 2",
     "duration": "1 days",
     "description": "Sailing from St Thomas to st-thomas"
+  },
+  {
+    "start": "Day 5",
+    "end": "Day 6",
+    "duration": "2 days",
+    "description": "Sailing from st-thomas to St Thomas"
   }
 ],
       timeOnLand: [
   {
     "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
+    "end": "Day 1",
+    "duration": "1 days",
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 4",
+    "start": "Day 3",
     "end": "Day 4",
-    "duration": "1 days",
+    "duration": "2 days",
     "description": "Exploring st-thomas"
+  },
+  {
+    "start": "Day 7",
+    "end": "Day 8",
+    "duration": "2 days",
+    "description": "Exploring St Thomas"
   }
 ]
     },
-    tourCategoryId: "holiday-cruise",
+    tourCategoryId: "fall-foliage-cruise",
     contactPersonnel: [
       {
-        id: "770efcbd-f977-4e78-aa3d-0ec8395aa411",
-        name: "Lawrence Murray",
-        role: "Travel Advisor",
+        id: "f525a4dd-9eb9-4d1c-895d-971439c081f1",
+        name: "Lawrence Gardner",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 15,
-        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
         contact: {
-          contactEmail: "oceanembracing.odyss@velarivoyages.com",
-          contactNumber: "+1-656-621-8483"
+          contactEmail: "breathtaking.labyrin@velarivoyages.com",
+          contactNumber: "+1-640-946-9342"
         }
       }
     ],
-    title: "Ocean-Embracing Odyssey of the Caribbean Culture & Historic Forts",
-    description: "Escape into the calm waters of US Virgin Islands with this moonlit journey from St Thomas. Explore vibrant markets, sun-soaked beaches, and architectural marvels at st-thomas.",
-    rating: 4.8,
-    tags: ["cultural","exclusive","holiday-cruise"]
+    title: "Breathtaking Labyrinth of the Caribbean Paradise",
+    description: "Experience the elegance of the seas on this glistening arcadia through US Virgin Islands, starting from the illustrious port of St Thomas. From  to st-thomas, each destination offers its own story, culture, and breathtaking views.",
+    rating: 4.3,
+    tags: ["historical","fall-cruise"]
   },
   {
-    id: "eb676fa6-9ec1-459a-bb34-6529a81b3c27",
-    basePrice: 4783,
+    id: "44baf81f-75aa-4a3a-94e6-16e4c249ff6d",
+    basePrice: 8858,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -1138,517 +849,6 @@ export const stThomasCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "anniversary-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Depart St Thomas on a relaxing quest through the US Virgin Islands region. Highlights include the stunning coastlines of st-thomas, all while enjoying first-class amenities on board.",
-      distance: "968 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from st-thomas to St Thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "9717e89e-7662-4fe7-a92d-dbda690d190c",
-        name: "Vincent Dean",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-        contact: {
-          contactEmail: "spectacular.wanderlu@velarivoyages.com",
-          contactNumber: "+1-739-189-9065"
-        }
-      }
-    ],
-    title: "Spectacular Wanderlust of the Charlotte Amalie Charm",
-    description: "Depart St Thomas on a relaxing quest through the US Virgin Islands region. Highlights include the stunning coastlines of st-thomas, all while enjoying first-class amenities on board.",
-    rating: 4.4,
-    tags: ["short-getaway"]
-  },
-  {
-    id: "7cc7240c-474b-408f-bf5c-233eda71181a",
-    basePrice: 4355,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Step aboard in St Thomas and begin a mythic journey through the scenic US Virgin Islands. From historic cities to coastal hideaways like st-thomas, every day is unforgettable.",
-      distance: "663 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from st-thomas to St Thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "e4191cd0-c23b-4a9f-bac2-cab0e151bb91",
-        name: "Eugene Charlotte",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-        contact: {
-          contactEmail: "seaside.sanctuary.of@velarivoyages.com",
-          contactNumber: "+1-491-423-4430"
-        }
-      }
-    ],
-    title: "Seaside Sanctuary of the Island Vistas",
-    description: "Step aboard in St Thomas and begin a mythic journey through the scenic US Virgin Islands. From historic cities to coastal hideaways like st-thomas, every day is unforgettable.",
-    rating: 4.4,
-    tags: ["cruise-vacation"]
-  },
-  {
-    id: "58db980b-bd8b-46b0-82f7-dd2ad83d30a5",
-    basePrice: 6240,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Leave stress behind with this curated exploration from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
-      distance: "792 nautical miles",
-      totalDuration: "7 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  },
-  {
-    "start": "Day 6",
-    "end": "Day 6",
-    "duration": "1 days",
-    "description": "Sailing from st-thomas to St Thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
-    "description": "Exploring st-thomas"
-  },
-  {
-    "start": "Day 7",
-    "end": "Day 7",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  }
-]
-    },
-    tourCategoryId: "holiday-cruise",
-    contactPersonnel: [
-      {
-        id: "bc1a2242-57eb-4b95-adf0-f0c343f6ba81",
-        name: "Eugene Holloway",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 18,
-        profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-        contact: {
-          contactEmail: "enchanting.retreat.o@velarivoyages.com",
-          contactNumber: "+1-976-543-7304"
-        }
-      }
-    ],
-    title: "Enchanting Retreat of the Island Vistas",
-    description: "Leave stress behind with this curated exploration from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
-    rating: 4.4,
-    tags: ["cruise-ship","holiday-cruise"]
-  },
-  {
-    id: "d66ce54f-0b84-4838-af35-aa8a25a60954",
-    basePrice: 8008,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "st-thomas",
-  "country": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "expedition-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "From the lively departure port of St Thomas, this curated zenith showcases the finest of US Virgin Islands. With visits to st-thomas, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-      distance: "867 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 2",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 3",
-    "end": "Day 4",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "21611d19-4699-4b4f-a3c6-97f63fdff6e8",
-        name: "Roger Hamilton",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 11,
-        profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-        contact: {
-          contactEmail: "luminous.exploration@velarivoyages.com",
-          contactNumber: "+1-454-829-6462"
-        }
-      }
-    ],
-    title: "Luminous Exploration of the Duty-Free Shopping",
-    description: "From the lively departure port of St Thomas, this curated zenith showcases the finest of US Virgin Islands. With visits to st-thomas, you’ll experience a tapestry of flavors, sights, and unforgettable moments both onboard and ashore.",
-    rating: 4.7,
-    tags: ["cruise-getaway","sightseeing"]
-  },
-  {
-    id: "21ddf91d-b8c7-4ab8-8f05-7d9de789c5e1",
-    basePrice: 7307,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "st-thomas",
-  "country": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "theme-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Explore a new side of US Virgin Islands with this seascape-discovering elevation starting in St Thomas. Visit charming ports such as st-thomas, each offering its own unique rhythm.",
-      distance: "653 nautical miles",
-      totalDuration: "4 days",
-      timeAtSea: [
-  {
-    "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 1",
-    "duration": "1 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 4",
-    "duration": "1 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "glacier-cruise",
-    contactPersonnel: [
-      {
-        id: "0102f0cd-7482-414f-bb2f-ab74ae558ffc",
-        name: "Louis Stewart",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 10,
-        profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-        contact: {
-          contactEmail: "secret.arcadia.of.th@velarivoyages.com",
-          contactNumber: "+1-528-335-9698"
-        }
-      }
-    ],
-    title: "Secret Arcadia of the Duty-Free Shopping",
-    description: "Explore a new side of US Virgin Islands with this seascape-discovering elevation starting in St Thomas. Visit charming ports such as st-thomas, each offering its own unique rhythm.",
-    rating: 4.5,
-    tags: ["family-friendly","glacier-cruise"]
-  },
-  {
-    id: "358c8a53-2c80-4136-ad04-e518ba04613a",
-    basePrice: 2223,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: true, // Make fewer cruises "popular"
     hasPopularDestination: false,
     category: "luxury-cruise",
     itinerary: {
@@ -1680,19 +880,19 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Sail into splendor from St Thomas on a shoreline-exploring voyage through US Virgin Islands. Let each stop—from st-thomas to undefined—reveal the unique flavors and colors of the region.",
-      distance: "523 nautical miles",
-      totalDuration: "7 days",
+      description: "Depart from iconic St Thomas and traverse the US Virgin Islands with visits to st-thomas. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+      distance: "500 nautical miles",
+      totalDuration: "5 days",
       timeAtSea: [
   {
     "start": "Day 2",
-    "end": "Day 3",
-    "duration": "2 days",
+    "end": "Day 2",
+    "duration": "1 days",
     "description": "Sailing from St Thomas to st-thomas"
   },
   {
-    "start": "Day 6",
-    "end": "Day 6",
+    "start": "Day 4",
+    "end": "Day 4",
     "duration": "1 days",
     "description": "Sailing from st-thomas to St Thomas"
   }
@@ -1705,42 +905,42 @@ export const stThomasCruises: Cruise[] = [
     "description": "Exploring St Thomas"
   },
   {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
+    "start": "Day 3",
+    "end": "Day 3",
+    "duration": "1 days",
     "description": "Exploring st-thomas"
   },
   {
-    "start": "Day 7",
-    "end": "Day 7",
+    "start": "Day 5",
+    "end": "Day 5",
     "duration": "1 days",
     "description": "Exploring St Thomas"
   }
 ]
     },
-    tourCategoryId: "glacier-cruise",
+    tourCategoryId: "anniversary-cruise",
     contactPersonnel: [
       {
-        id: "839e99cb-090b-4624-ab63-2923173f3d88",
-        name: "Austin Dean",
-        role: "Travel Advisor",
+        id: "ee4429e3-1215-4db3-a7a7-654a2a901748",
+        name: "Thomas Fisher",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 9,
-        profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
+        experienceYears: 8,
+        profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
         contact: {
-          contactEmail: "sublime.reflection.o@velarivoyages.com",
-          contactNumber: "+1-759-967-1391"
+          contactEmail: "coastal.odyssey.of.t@velarivoyages.com",
+          contactNumber: "+1-788-408-5809"
         }
       }
     ],
-    title: "Sublime Reflection of the Caribbean Paradise",
-    description: "Sail into splendor from St Thomas on a shoreline-exploring voyage through US Virgin Islands. Let each stop—from st-thomas to undefined—reveal the unique flavors and colors of the region.",
-    rating: 4.4,
-    tags: ["nature"]
+    title: "Coastal Odyssey of the Trunk Bay & Magens Bay",
+    description: "Depart from iconic St Thomas and traverse the US Virgin Islands with visits to st-thomas. Every day offers fresh discoveries, culinary delights, and moments of pure relaxation.",
+    rating: 4.5,
+    tags: ["anniversary-cruise"]
   },
   {
-    id: "ede71348-46af-4e65-bb8b-447aaa1fdddf",
-    basePrice: 1697,
+    id: "210bcf0c-536d-424e-9768-f0a92e966d3e",
+    basePrice: 6371,
     departureLocation: {
   "city": "St Thomas",
   "country": "US Virgin Islands",
@@ -1760,8 +960,8 @@ export const stThomasCruises: Cruise[] = [
   }
 },
     isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: true,
-    category: "weekend-cruise",
+    hasPopularDestination: false,
+    category: "fjords-tour",
     itinerary: {
       route: [
   {
@@ -1791,9 +991,9 @@ export const stThomasCruises: Cruise[] = [
     }
   }
 ],
-      description: "Leave stress behind with this curated retreat from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
-      distance: "1322 nautical miles",
-      totalDuration: "7 days",
+      description: "This handpicked saga begins in St Thomas and travels through US Virgin Islands's iconic waterscapes. Discover st-thomas as each day brings new stories and every night offers elegant repose.",
+      distance: "720 nautical miles",
+      totalDuration: "8 days",
       timeAtSea: [
   {
     "start": "Day 2",
@@ -1803,8 +1003,8 @@ export const stThomasCruises: Cruise[] = [
   },
   {
     "start": "Day 5",
-    "end": "Day 5",
-    "duration": "1 days",
+    "end": "Day 6",
+    "duration": "2 days",
     "description": "Sailing from st-thomas to St Thomas"
   }
 ],
@@ -1822,120 +1022,31 @@ export const stThomasCruises: Cruise[] = [
     "description": "Exploring st-thomas"
   },
   {
-    "start": "Day 6",
-    "end": "Day 7",
+    "start": "Day 7",
+    "end": "Day 8",
     "duration": "2 days",
     "description": "Exploring St Thomas"
   }
 ]
     },
-    tourCategoryId: "vip-cruise",
+    tourCategoryId: "glacier-cruise",
     contactPersonnel: [
       {
-        id: "9da38b58-320f-4f47-8585-85d50a16a167",
-        name: "Gary Reeves",
-        role: "Travel Advisor",
+        id: "05f6c4d4-47d7-43c4-ae85-3c9f8a4ad076",
+        name: "Michael Dunn",
+        role: "Reservations Agent",
         languages: [{"code":"en","name":"English"}],
-        experienceYears: 13,
-        profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
+        experienceYears: 12,
+        profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
         contact: {
-          contactEmail: "oceanbound.excursion@velarivoyages.com",
-          contactNumber: "+1-770-908-2761"
+          contactEmail: "legendary.embrace.of@velarivoyages.com",
+          contactNumber: "+1-746-911-7948"
         }
       }
     ],
-    title: "Ocean-Bound Excursion of the Caribbean Culture & Historic Forts",
-    description: "Leave stress behind with this curated retreat from St Thomas. Sail across the best of US Virgin Islands and explore treasures like st-thomas with comfort and style.",
+    title: "Legendary Embrace of the Island Vistas",
+    description: "This handpicked saga begins in St Thomas and travels through US Virgin Islands's iconic waterscapes. Discover st-thomas as each day brings new stories and every night offers elegant repose.",
     rating: 4.5,
-    tags: ["VIP","cruise-journey","luxury"]
-  },
-  {
-    id: "a745147a-e3a7-408c-bb2d-8b95a0a9f614",
-    basePrice: 1209,
-    departureLocation: {
-  "city": "St Thomas",
-  "country": "US Virgin Islands",
-  "region": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    arrivalLocation: {
-  "city": "st-thomas",
-  "country": "US Virgin Islands",
-  "coordinates": {
-    "latitude": 18.3419,
-    "longitude": -64.9307
-  }
-},
-    isPopular: false, // Make fewer cruises "popular"
-    hasPopularDestination: false,
-    category: "repositioning-cruise",
-    itinerary: {
-      route: [
-  {
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  },
-  {
-    "city": "st-thomas",
-    "country": "US Virgin Islands",
-    "coordinates": {
-      "latitude": 18.3419,
-      "longitude": -64.9307
-    }
-  }
-],
-      description: "Set sail from St Thomas on a tide-whispered saga that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-      distance: "1200 nautical miles",
-      totalDuration: "5 days",
-      timeAtSea: [
-  {
-    "start": "Day 3",
-    "end": "Day 3",
-    "duration": "1 days",
-    "description": "Sailing from St Thomas to st-thomas"
-  }
-],
-      timeOnLand: [
-  {
-    "start": "Day 1",
-    "end": "Day 2",
-    "duration": "2 days",
-    "description": "Exploring St Thomas"
-  },
-  {
-    "start": "Day 4",
-    "end": "Day 5",
-    "duration": "2 days",
-    "description": "Exploring st-thomas"
-  }
-]
-    },
-    tourCategoryId: "general-cruise",
-    contactPersonnel: [
-      {
-        id: "68999c96-09ba-4ebd-a679-4833e1d55f83",
-        name: "Gabriel Gardner",
-        role: "Travel Advisor",
-        languages: [{"code":"en","name":"English"}],
-        experienceYears: 16,
-        profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-        contact: {
-          contactEmail: "horizonkissed.passag@velarivoyages.com",
-          contactNumber: "+1-618-675-7349"
-        }
-      }
-    ],
-    title: "Horizon-Kissed Passage of the Caribbean Culture & Historic Forts",
-    description: "Set sail from St Thomas on a tide-whispered saga that takes you through the heart of US Virgin Islands. With stops at st-thomas, you'll explore the rich tapestry of cultures, landscapes, and experiences that make this region so special.",
-    rating: 4.6,
-    tags: ["exclusive","cruise"]
+    tags: ["cultural","historical","nature"]
   }
 ];
