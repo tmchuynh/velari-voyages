@@ -17,9 +17,9 @@ export type FAQs = {
   answer: string;
 };
 
-export type FAQSection = {
-  title: string;
-  faqs: FAQs[];
+export type Language = {
+  code: string;
+  name: string;
 };
 
 export type Metrics = {
