@@ -28,7 +28,9 @@ import {
  *          Returns an empty array if `cityInfo` or `cityInfo.city` is invalid,
  *          or if no cruises are found for the given city.
  */
-export async function getCruisesByLocation(cityInfo: Location): Promise<Cruise[]> {
+export async function getCruisesByLocation(
+  cityInfo: Location
+): Promise<Cruise[]> {
   if (!cityInfo || !cityInfo.city) {
     console.error("Invalid city information provided");
     return [];
@@ -111,7 +113,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
 
   try {
     const cruiseModule = await import(
-      `@/lib/constants/cruises//cruises/${sluggedCity}`
+      `@/lib/constants/cruises/cruises/${sluggedCity}`
     );
     // Return the specific named export that matches cruiseID
     if (cruiseModule[cruiseID]) {
@@ -130,7 +132,7 @@ export async function getCruises(city: string): Promise<Cruise[]> {
     }
   } catch (error) {
     console.error(
-      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises//cruises/${sluggedCity} with export ${cruiseID}`
+      `Error loading cruise data: ${error}. Tried: @/lib/constants/cruises/cruises/${sluggedCity} with export ${cruiseID}`
     );
     return [];
   }
@@ -269,4 +271,10 @@ export async function getAllVessels() {
   }
 
   return allVessels;
+}
+
+export async function getCruiseById(cruiseId: string): Promise<Cruise | null> {
+  const allCruises = await getAllCruises();
+  const cruise = allCruises.find((c) => c.id === cruiseId);
+  return cruise || null;
 }
