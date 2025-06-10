@@ -2,17 +2,127 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Boston
-    // Generated on: 2025-06-10T03:41:38.287Z
+    // Generated on: 2025-06-10T08:14:17.422Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const bostonTeamMembers: CrewMember[] = [
   {
-    "id": "9aba817b-20a7-42d9-8769-8c2bfb545be6",
-    "name": "Zola Hawkins",
+    "id": "8fb6b8f4-0b19-4049-81f1-1d7b52869727",
+    "name": "Patricia Maxwell",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Drawing on 5 years of command, Zola Hawkins expertly manages all aspects of vessel operation in Massachusetts, emphasizing crew development and operational excellence.",
+    "bio": "Captain Maxwell's strategic decision-making and crisis management skills, honed over 22 years, ensure smooth and safe voyages throughout East Coast USA.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "1801c905-70ea-4343-a99d-478522f3ac95",
+    "name": "Joan Nash",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 21 years of experience in East Coast USA, Joan Nash is adept at cargo operations, stability calculations, and bridge resource management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "d5b75ee1-d437-47ae-8cf4-1ec67ad6261d",
+    "name": "Matthew Reeves",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Matthew Reeves ensures compliance with navigation protocols and supports bridge team operations, leveraging 21 years in maritime operations across East Coast USA.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "df338a1d-d39b-4d8b-aa55-77cb7153f0d7",
+    "name": "Donna Hunter",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Hunter conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across East Coast USA.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "3e9a1305-de98-4642-9a62-e9030c5d1b02",
+    "name": "Eugene Campbell",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Campbell ensures all navigational equipment is calibrated and fully operational, leveraging 10 years of technical expertise in East Coast USA.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "20859416-5f0a-402f-87e1-c24881dc0c26",
+    "name": "Christian Foster",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 5 years in maritime safety, Christian Foster excels at developing and implementing targeted safety training programs relevant to East Coast USA's specific operational hazards.",
     "languages": [
       {
         "code": "en",
@@ -24,17 +134,17 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "8326e0ae-9d39-4fdd-b08a-8cf7bf2d60fd",
-    "name": "Bobby Gardner",
-    "role": "First Officer",
+    "id": "c7c4ed09-4bab-44db-ba48-1cc28d9a3f44",
+    "name": "William Lawson",
+    "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Bobby Gardner applies comprehensive knowledge of Massachusetts's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "bio": "With a strong commitment to professional growth, William Lawson actively participates in drills and training to build competence for safe vessel operation.",
     "languages": [
       {
         "code": "en",
@@ -45,84 +155,18 @@ export const bostonTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "a6230b98-2e69-4fd4-8f4a-5a51040c02ff",
-    "name": "Alexa Mason",
-    "role": "Second Officer",
+    "id": "4e2707f8-f3cb-4092-a685-8a5ac05c6e6b",
+    "name": "Deborah Bennett",
+    "role": "Bosun",
     "department": "Deck Department",
-    "bio": "Alexa Mason ensures compliance with navigation protocols and supports bridge team operations, leveraging 7 years in maritime operations across Massachusetts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "b66c3e99-5991-4411-85aa-250145fbd19d",
-    "name": "Marcus Jennings",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Marcus Jennings supports communication and lookout duties during watches, maintaining high situational awareness in Massachusetts's maritime environment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "7a60784b-2efb-41ed-a2d5-77873c134c22",
-    "name": "Mateo Olivia",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Mateo Olivia collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to Massachusetts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "38e3c3cc-7bb0-4363-95be-b8f9258d9b66",
-    "name": "Naomi Warren",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With 16 years overseeing maritime safety, Naomi Warren ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Massachusetts.",
+    "bio": "With 16 years managing deck teams, Deborah Bennett coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in East Coast USA.",
     "languages": [
       {
         "code": "en",
@@ -134,61 +178,17 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "14a3f820-0ce1-49e8-a9a4-31a054607496",
-    "name": "Marcus Knight",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "As a dedicated Deck Cadet, Marcus Knight is gaining 7 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Massachusetts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "3ee2124e-2d64-4b26-a0a2-9577317e786d",
-    "name": "Lisa Fisher",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 8 years of seamanship, Bosun Fisher is an expert in rigging, anchoring, and all aspects of deck machinery operation in Massachusetts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "4ec6713c-35cf-4dd9-82e9-fcbfc0371a99",
-    "name": "Matthew Chambers",
+    "id": "fdee8948-36b7-4cd5-aa97-004a5ea7f40c",
+    "name": "Tyler Lawson",
     "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "Matthew Chambers leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 21 years of innovative practice and power management knowledge.",
+    "bio": "Known for strategic problem-solving, Tyler Lawson directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
     "languages": [
       {
         "code": "en",
@@ -199,18 +199,84 @@ export const bostonTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "e7117e07-43c6-4af8-96f0-2d74e8988ae6",
-    "name": "Liam Hamilton",
+    "id": "68d84ba5-bf2c-4594-a4e4-a80579d12645",
+    "name": "Johnny Coleman",
     "role": "First Engineer",
     "department": "Engineering Department",
-    "bio": "First Engineer Hamilton is responsible for the main propulsion machinery and auxiliary systems, bringing 4 years of hands-on expertise.",
+    "bio": "First Engineer Coleman coordinates maintenance and repairs with 15 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "369e64a7-b842-43ef-8e33-52f1c542a221",
+    "name": "Liam Hunter",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Hunter meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 14 years of practical knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "832b364b-6a94-4b38-92e3-a20c01098a92",
+    "name": "Scott Payne",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 14 years, Scott Payne ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "8ccb2422-4ff4-4a55-96bd-dacad54a61a9",
+    "name": "Helen Foster",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Foster specializes in propulsion, HVAC, and auxiliary machinery with 4 years ensuring operational efficiency and reliability.",
     "languages": [
       {
         "code": "en",
@@ -222,83 +288,149 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "7f60b665-9684-4afe-a936-77b1b5be62f1",
-    "name": "Nicholas Cooper",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Nicholas Cooper's 22 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "00be1a37-aafc-42e2-8c75-f2f35cebd4c3",
-    "name": "Wei Murray",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 21 years, Wei Murray ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "413e2c02-0407-47c1-b541-b282d19f4dee",
-    "name": "Katherine Hawkins",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Hawkins specializes in propulsion, HVAC, and auxiliary machinery with 12 years ensuring operational efficiency and reliability.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "9ae32fb2-3aae-41f0-98f3-aa510ac60314",
-    "name": "Ellie Payne",
+    "id": "3bc1eda8-d60d-4f2c-9848-5443cc187cf4",
+    "name": "Genesis Graham",
     "role": "HVAC Engineer",
     "department": "Engineering Department",
-    "bio": "HVAC Engineer Payne coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "bio": "Genesis Graham plays a key role in energy conservation by optimizing HVAC operations, backed by 4 years of specialized experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "560e5ef9-3869-4ba7-b7d2-f8b69cdf7346",
+    "name": "Olivia Keller",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With 19 years focused on sustainability, Olivia Keller develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "8fbd633f-6976-42c3-9944-59ecd382aad0",
+    "name": "Ellie Henderson",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Ellie Henderson manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "706b0e4a-e5f6-4537-8d6c-589dd2a063ee",
+    "name": "Kinsley Graham",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With 14 years leading technical teams, Kinsley Graham ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "8b5a1709-da06-4f27-b02c-be1aa20f9d2c",
+    "name": "Patricia Collins",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Collins troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "91a79e7f-93fd-481c-a044-6c2c45016170",
+    "name": "Samantha Morgan",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Former anti-piracy Samantha Morgan leads our security team with 11 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "6f4692f8-e589-4643-9b7e-94a7f4a7dc77",
+    "name": "Liam Fox",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Liam Fox conducts routine security patrols and enforces safety regulations, backed by 3 years in maritime security operations and incident response.",
     "languages": [
       {
         "code": "en",
@@ -310,17 +442,17 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "e91fd544-1bb5-438c-99ea-3d9ade236146",
-    "name": "Mason Maxwell",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Mason Maxwell applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
+    "id": "bf669645-3786-416f-8b0f-eccb63446c91",
+    "name": "Emma Sutton",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Emma Sutton provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
     "languages": [
       {
         "code": "en",
@@ -331,18 +463,18 @@ export const bostonTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "c8854c23-efe3-47ca-bb02-0173942a7c99",
-    "name": "Kyle Graham",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Kyle Graham integrates complex onboard systems, ensuring operational synergy and reliability with 22 years of maritime engineering expertise.",
+    "id": "885f6b25-b427-4f79-9c9f-400c7f26eb91",
+    "name": "Joel Gardner",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Joel Gardner ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 12 years of focused work.",
     "languages": [
       {
         "code": "en",
@@ -353,18 +485,18 @@ export const bostonTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "ca16f7cc-9cf0-4285-b790-0431d5ef9117",
-    "name": "Jose Gardner",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Known for strong leadership, Jose Gardner fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "id": "967378e2-dc81-42ef-82bf-9faaeea2486a",
+    "name": "Riley Fisher",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Fisher leads risk assessment initiatives and supports vessel security certification processes.",
     "languages": [
       {
         "code": "en",
@@ -376,17 +508,545 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "33ef2904-99f7-4119-858f-d78467481924",
-    "name": "Cynthia Hudson",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Cynthia Hudson meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 22 years of service.",
+    "id": "433eac40-7595-4879-b85c-7a6b989c6ddb",
+    "name": "Robert Hunter",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Hunter plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "2f6b879f-dcda-46ad-9687-ae46bb61f71a",
+    "name": "Patrick Bennett",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Bennett conducts safety audits, training, and inspections to uphold the highest standards throughout vessel operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "c2136459-eaf9-4f58-90a6-d66f943c0d6f",
+    "name": "Peter Reeves",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With 21 years shaping children's experiences at sea, Peter Reeves excels at creating memorable and enriching programs for all age groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "5bb46f09-9b2d-4358-83d1-040cf211e34c",
+    "name": "Antonio Collins",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Collins designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "644651ef-7bca-4cae-8ac1-9979e2be89f9",
+    "name": "Sarah Griffin",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for energetic delivery and adaptability, Sarah Griffin adjusts programming to accommodate different group sizes and interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "431b4903-f3d0-43c0-ae4a-20d8e7202add",
+    "name": "Aaron Reed",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Reed monitors participation and feedback to continuously refine and innovate teen programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "448edf62-6813-4327-ae52-70bcda5d9e31",
+    "name": "Vincent Mitchell",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Known for strong organizational skills, Vincent Mitchell evaluates program effectiveness and implements improvements based on passenger feedback.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "6c61725a-6f60-4608-b352-e8ec1a371f66",
+    "name": "Layla Ellis",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Layla Ellis communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "dbcba79d-a052-4721-b49c-bc9f37326413",
+    "name": "Lerato Mitchell",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Lerato Mitchell manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "a2b531b1-fcad-4527-80e4-cdddf4beca46",
+    "name": "Christian Ellis",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Christian Ellis maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "2fea9011-93d9-4969-bebd-5112dacf6a7a",
+    "name": "Amina Keller",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Keller provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 20 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "30d6dd4f-aeb4-4006-8c25-74c21405f69d",
+    "name": "Antonio Mason",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in vendor relations and itinerary planning, Antonio Mason ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "9a06ac35-1339-41d6-8d31-7337f1d97dec",
+    "name": "Frank Foster",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Frank Foster leads the photo team with 15 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "a8019f16-33b0-45c8-92b4-3125cc170c33",
+    "name": "Oliver Fisher",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Oliver Fisher effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "8da648c0-b4bb-4dc0-a143-b186aa00bc52",
+    "name": "Brooklyn Reeves",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Brooklyn Reeves uses 10 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "bc190650-ee92-4656-850c-3aa8cd1fc583",
+    "name": "Scott Dean",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Scott Dean oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "0d04a16c-330d-4689-b35e-d0d44023dd39",
+    "name": "Christopher Watson",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Watson, drawing from 11 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "efecd460-1a3b-4eb1-9109-de75fad93f9f",
+    "name": "Sophia Ellis",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Ellis supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "c4882506-9867-4a91-b28e-6273a7148878",
+    "name": "Christine Mason",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Mason documents incidents and implements corrective actions to continuously improve onboard safety performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "eab045d2-97fc-48f9-83b8-bbe958ea166d",
+    "name": "Alexander Lawson",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Lawson orchestrates a seamless guest journey, from arrival to departure, leveraging 8 years of expertise in luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "2232966e-3cab-42b1-9160-a243546cd1a5",
+    "name": "Samantha Reeves",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Samantha Reeves coordinates guest services and resolves issues, leveraging 11 years of customer relations expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "0e6002f5-2d11-46be-b1bd-2e8b77f21467",
+    "name": "Olivia Grant",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Grant supervises housekeeping and guest services with 22 years of maritime hospitality experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "94286b43-5b31-4728-b109-6144afec5b4b",
+    "name": "Michael Bennett",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Michael Bennett is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "f989d8d3-5da6-4b67-ba48-87ea4748fe52",
+    "name": "Philip Olivia",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Olivia provides personalized guest services, backed by 14 years of elite hospitality expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "934a02ac-840a-4a68-b1f1-274cb03e0e48",
+    "name": "Blake Murray",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Blake Murray expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 22 years of experience.",
     "languages": [
       {
         "code": "en",
@@ -401,124 +1061,14 @@ export const bostonTeamMembers: CrewMember[] = [
     "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "b24d36ee-d280-4e36-8e32-4a0bcaf6eb2a",
-    "name": "Margaret Hunter",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former security services Margaret Hunter leads our security team with 6 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "079bbbe7-a81d-4850-8d25-c5c40e4828a6",
-    "name": "Nicholas Hudson",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "With 9 years on watch, Nicholas Hudson is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "7ae99e02-f32a-4eb9-9b7c-934a8fffb7de",
-    "name": "Dorothy Dean",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Dean advises senior management on emerging security trends and implements best practices in security operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "91e80d25-1141-46a9-8bc3-a71fc2d06114",
-    "name": "Wayne Knight",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Wayne Knight ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 14 years of focused work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "e4dfe8ee-4346-4d5f-a278-de85ad3afba5",
-    "name": "Carlos Reeves",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Reeves facilitates seamless security operations between ship and shore, a skill honed over 17 years of dedicated service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "61f8bd5b-f7eb-4a65-a880-af838f60dd98",
-    "name": "Stephanie Hunter",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Focused on security integrity, Stephanie Hunter conducts regular audits of access logs and assists in security incident investigations.",
+    "id": "e370e09b-52f5-453b-8735-2562dba8f7ff",
+    "name": "Brian Baker",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Baker leads cleaning teams, maintaining impeccable standards across all guest areas.",
     "languages": [
       {
         "code": "en",
@@ -530,567 +1080,17 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "904ab367-d969-4a6f-9f97-45240013ccf9",
-    "name": "Mark Crawford",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Mark Crawford leads incident investigations and corrective action plans.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "bc694a07-2273-4df3-acc2-fd70fa9b4c79",
-    "name": "Samuel Maxwell",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With 6 years shaping children's experiences at sea, Samuel Maxwell excels at creating memorable and enriching programs for all age groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "691ef2c0-c8e7-458e-a04e-c2048da0ccc6",
-    "name": "Nathan Gardner",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Gardner designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "b8901362-8e97-49f7-b29c-afdf21d2ca7c",
-    "name": "Sarah Reeves",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Sarah Reeves engages young guests with creative entertainment programs, leveraging 8 years in children’s recreational services and event planning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "49ac3913-fa25-4cea-a9ec-ebf5c408109a",
-    "name": "Angela Marshall",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and inclusivity, Angela Marshall maintains open communication with parents and guardians regarding teen program activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0accd64e-5fb6-4b06-b953-3092bf95b990",
-    "name": "Harry Baker",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Educational Program Manager Baker coordinates with external educators and experts to deliver diverse and culturally relevant content.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "27e1cf35-d6fd-46e1-bc76-015391191748",
-    "name": "Douglas Clark",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Douglas Clark manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "fa94da4c-a5e7-49b1-9573-ca6af7382e0f",
-    "name": "Aiden Montgomery",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 13 years in recreation management, Aiden Montgomery curates an exciting and varied daily program of entertainment and activities for all guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "cd2caff2-3242-49f2-82e8-db9efe3e41f4",
-    "name": "Amelia Sutton",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Sutton possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 11 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0a2bf0d2-d602-4e21-885f-19a8cecffc36",
-    "name": "Janet Bennett",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Janet Bennett leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "6cd535e0-d02c-4c32-be85-fb3b4a6bb57b",
-    "name": "Savannah Graves",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Graves prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0a45ee75-8632-4e21-ab7e-4ac1bd72816d",
-    "name": "Ella Mitchell",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, Ella Mitchell collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "081c5d53-1a7d-4219-b4ff-4918fc9481d8",
-    "name": "Matthew Maxwell",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Matthew Maxwell documents ship activities, excursions, and special events, delivering high-quality video content with 19 years of professional videography experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "4d3024b9-474a-4bc8-8893-a13da9f9ca3b",
-    "name": "Joe Hudson",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Hudson is proficient in SEO, content management systems, and digital advertising, skills honed over 14 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "c923b980-fd62-4564-99e2-4b1ebc8e3d14",
-    "name": "Philip Cooper",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Drawing on 13 years as a medical leader, Philip Cooper ensures the ship's medical facility operates to the highest international healthcare standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "942a3f23-f02b-49b1-92d4-3fa6fc522a0c",
-    "name": "Valentina Parker",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Parker collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "071f7e13-f89f-4ee3-becf-9439e107e33f",
-    "name": "Chen Fisher",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "With 17 years of experience, Chen Fisher is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "e2f55d60-7a24-4023-a284-47637d3dde45",
-    "name": "Sarah Dunn",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Dunn works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "ef367c7d-630c-48f4-914a-31016a8f67ef",
-    "name": "Darrell Reeves",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Darrell Reeves is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 22 years of cultivating outstanding hospitality teams.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "929242f9-5af3-4ddb-9bca-13ced2a4dc33",
-    "name": "Christine Coleman",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Christine Coleman champions a guest-first culture, utilizing 12 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0f124691-0c88-4304-a76a-301b4d2f672a",
-    "name": "Daniel Mason",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Mason supervises housekeeping and guest services with 17 years of maritime hospitality experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "275c7a5c-b778-4707-9abd-8bc39888b5de",
-    "name": "Laura Wallace",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Wallace delivers attentive guest services and supports stewardship operations, drawing on 16 years onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "5396008f-7a61-466b-a683-2877233c4795",
-    "name": "Edward Clark",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Edward Clark anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "744f976e-2e5d-4fd9-b226-e53d39a4956b",
-    "name": "Evelyn Campbell",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Evelyn Campbell oversees accommodation services, ensuring comfort and efficiency with 4 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "3b69f05d-5ff1-48b0-b48f-8954a06489ca",
-    "name": "Gabriel Hawkins",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Hawkins is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 19 years of service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "8fa4d728-9ada-4cb2-a022-b8ae620c708d",
-    "name": "Matthew Collins",
+    "id": "6819ef20-a243-47bb-b7ef-e5f8d3bf8903",
+    "name": "Avery Fletcher",
     "role": "Guest Services Specialist",
     "department": "Hospitality Department",
-    "bio": "Matthew Collins assists guests with inquiries and special requests, drawing on 3 years in customer service roles.",
+    "bio": "Guest Services Specialist Fletcher facilitates seamless guest interactions to enhance onboard experiences.",
     "languages": [
       {
         "code": "en",
@@ -1101,722 +1101,18 @@ export const bostonTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "8a65d172-bcf3-4a79-b49d-9236b7ebda4d",
-    "name": "Aria Cooper",
+    "id": "67477a01-4aaa-4504-bd0d-b49164557570",
+    "name": "Leah Bennett",
     "role": "Concierge",
     "department": "Hospitality Department",
-    "bio": "Aria Cooper acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "b3b6d4c4-80f7-4a00-9881-4ef29ec07831",
-    "name": "Mia Nash",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "With 8 years in front office management, Mia Nash ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "ece8f602-039c-4c6d-bb60-f06d6bf489e8",
-    "name": "Stella Dean",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Stella Dean designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "17a6139a-bcf7-4a86-bf1b-099a12bf76fa",
-    "name": "Betty Campbell",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Betty Campbell develops training programs to elevate hospitality team skills, with 3 years in workforce development.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "518feca8-6d43-4ea3-8d63-4acffc4078a7",
-    "name": "Christine Dunn",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Dunn leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 7 years of innovative leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "327e92ca-c339-4e20-a248-5baa1ced10de",
-    "name": "Amy Harper",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Amy Harper trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 11 years of mentorship.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "94828c2a-df8f-4a6a-b52f-b5af15e89ba7",
-    "name": "Jordan Mason",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Jordan Mason blends creativity and technique to deliver memorable pastry experiences for guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "54fe8ad9-7fb2-495a-986f-ede8221b3beb",
-    "name": "Betty Grant",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Betty Grant maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 22 years of discipline.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "90c5500c-3546-44d7-a563-b4413afa7e84",
-    "name": "Janet Hayes",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Janet Hayes specializes in unique culinary styles, offering guests diverse flavors based on 6 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "f4fe5737-20cb-4d4c-b7c0-7a2c96ba727e",
-    "name": "Zoe Keller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Zoe Keller combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "ebfe1970-424a-4807-bb6f-7d1d99f0d19c",
-    "name": "Patricia Hawkins",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 3 years specializing in charcuterie, salads, and elaborate cold platters, Chef Hawkins brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "9d9646ff-c651-4514-be8f-6fb07341f9be",
-    "name": "Gerald Montgomery",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Montgomery ensures quality meat preparation, supported by 16 years of skilled butchery work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "9e31eadb-4177-48ff-8bdf-7454827cea11",
-    "name": "Amy Morgan",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Amy Morgan combines traditional techniques with innovation to delight guests with baked specialties.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "4f8d1923-b495-4429-ae99-50020d00796f",
-    "name": "Steven Price",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Price navigates an extensive cellar to find the perfect wine for every palate and Pacific Rim, drawing on 10 years of oenological expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "cf1539d4-9ee5-4044-be8b-a332a5158e51",
-    "name": "Maya Murray",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Murray crafts creative cocktails, combining flavor expertise with 6 years of bartending skill.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "66beb234-07f2-4ac3-8998-6bb6af284e7e",
-    "name": "Angela Mason",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Angela Mason combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "2dfb915c-1d51-44d7-8078-0ce3c14872d3",
-    "name": "Bryan Murray",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Murray works closely with the culinary team to create wholesome Japanese options that are both flavorful and aligned with wellness goals, drawing on 18 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "2fbca843-4b97-4b1d-8e5b-1b4ee9d1c730",
-    "name": "Jeremy Palmer",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Palmer leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 22 years of industry leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "74e5b77c-d208-41ae-b6c8-ab32fd8dba87",
-    "name": "Susan Wallace",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Susan Wallace's organizational skills, honed over 7 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "94b9a2a4-a679-4722-97e3-bb267e434fe8",
-    "name": "Avery Price",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Avery Price brings charisma and vocal expertise to the ship's entertainment lineup.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "3f43669e-b028-450e-9650-ba54d27d11b8",
-    "name": "Albert Ellis",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "A master of the {instrument}, Albert Ellis brings 15 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "82ce4f14-1bd2-426b-b550-bac093ba4f7d",
-    "name": "Gabriel Campbell",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Campbell delivers energetic and polished routines, drawing on 11 years of dance training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "614ed643-41ff-4972-8ce4-61c97992754f",
-    "name": "Sofia Campbell",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Campbell creates captivating dance routines, blending creativity with 12 years of dance expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "7d6b5a96-d91a-44a7-b0ca-9986d508b815",
-    "name": "Sophia Marshall",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Sophia Marshall entertains guests with humor and timing, backed by 17 years in comedy performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "b390df7f-4ff7-4464-b903-09464c520b24",
-    "name": "Eugene Sutton",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Sutton combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "a7715b54-1da0-484b-aefc-4d7b428ca685",
-    "name": "Keith Fletcher",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 12 years of reading crowds, DJ Fletcher seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0e63b0c0-2775-48d0-8384-279c54995d22",
-    "name": "Patricia Dixon",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Patricia Dixon's keen ear and technical proficiency, developed over 14 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "0a4ac1d5-2123-48fb-b6a6-3ff4a0df7208",
-    "name": "Patricia Fisher",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Patricia Fisher's artistic vision and technical mastery over 9 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "39289bff-2641-45b8-883e-99453afaa657",
-    "name": "Jeremy Foster",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Jeremy Foster supervises stage operations and talent, drawing on 11 years of event management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "6814439d-42e0-4f49-b658-939cf36f93cb",
-    "name": "Evelyn Cooper",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Evelyn Cooper's strategic planning and problem-solving skills, developed over 22 years, are crucial for the successful execution of a high-quality entertainment program.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "e8d82bc9-c8bd-4390-b43f-4628de75b39c",
-    "name": "Helen Wallace",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Wallace creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "4c0d0453-80f4-43c4-93c2-220f22b1b8b4",
-    "name": "Matthew Gibson",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Matthew Gibson promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "eb8c58e8-214a-4b8c-856a-043bbbcdb746",
-    "name": "Stephen Grant",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Stephen Grant captivates audiences with original performances tailored to shipboard entertainment.",
+    "bio": "Leah Bennett acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
     "languages": [
       {
         "code": "en",
@@ -1828,105 +1124,17 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
   },
   {
-    "id": "bc7379d2-21eb-4685-b054-979bd611332d",
-    "name": "Patricia Knight",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Patricia Knight plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 22 years of maritime expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "2e46f075-8f7b-42d7-8314-4f07d221ea80",
-    "name": "Gerald Lawson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 21 years coordinating complex supply chains, Gerald Lawson ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "667c7fcd-565d-4cc7-ba7f-490bd92b2432",
-    "name": "Thomas Holloway",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Inventory Specialist Holloway implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "a64ba2d1-a769-4233-ac78-81b652ed7c69",
-    "name": "Lerato Nash",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Lerato Nash's sharp negotiation skills and 7 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Boston",
-    "country": "United States",
-    "region": "Massachusetts"
-  },
-  {
-    "id": "154f6669-1123-4ec1-8bec-60c540d69ef5",
-    "name": "Barbara Olivia",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Olivia implements green initiatives to minimize environmental impact.",
+    "id": "d508ec41-a423-450f-97d7-5d6206c34e87",
+    "name": "Anna Wallace",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Wallace oversees reception operations, ensuring efficient guest check-in and issue resolution.",
     "languages": [
       {
         "code": "en",
@@ -1938,9 +1146,801 @@ export const bostonTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "595c3d37-117d-40d3-89b6-41a060327409",
+    "name": "Rebecca Baker",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Baker manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
     "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
     "city": "Boston",
     "country": "United States",
-    "region": "Massachusetts"
+    "region": "East Coast USA"
+  },
+  {
+    "id": "7d6351d8-1f9f-4c7c-bd7c-7255c26a853c",
+    "name": "Nancy Henderson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Nancy Henderson develops training programs to elevate hospitality team skills, with 12 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "748411a1-5ef7-425c-bf46-794f11bb7058",
+    "name": "Barbara Charlotte",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Italian, Chef Charlotte expertly manages kitchen hygiene, inventory, and food cost control, honed over 22 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "7a5dd682-6bcf-43b6-82d1-f12a49f6cfa9",
+    "name": "Philip Hawkins",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 14 years in high-volume kitchens, Sous Chef Hawkins is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "ebe3875f-5853-4b02-b2c9-70b63a176582",
+    "name": "Nancy Jennings",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Pacific Rim pastries and innovative dessert creations, Pastry Chef Jennings brings 11 years of refined skill to the culinary team.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "32dc6f59-b0da-404b-848a-65a6d1c4aeb5",
+    "name": "Mia Dean",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the HVAC systems station (e.g., Saucier, Grillardin), Chef de Partie Dean brings 21 years of expertise in preparing precise Continental components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "88bc8587-6d30-4150-87f2-8f08eef786d2",
+    "name": "Alice Douglas",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Douglas brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "4750d4bf-c4fb-4325-95c3-fb6c519bbf7c",
+    "name": "Jeffrey Wells",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Jeffrey Wells combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "672d3901-92de-4c31-aca0-4af27a357f2f",
+    "name": "Genesis Parker",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Genesis Parker is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 7 years of Pan-Asian expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "e739c0cc-00bb-4d46-a2d8-e139a1726843",
+    "name": "Bruce Henderson",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Henderson ensures quality meat preparation, supported by 18 years of skilled butchery work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "cef5164f-eb42-463f-a68f-31efc865fb5f",
+    "name": "Raymond Harper",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Raymond Harper manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 8 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "eda85978-81d9-422a-9421-460341c18db3",
+    "name": "Christian Dunn",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Dunn navigates an extensive cellar to find the perfect wine for every palate and Latin American, drawing on 18 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "334b170f-a531-4d0a-81fa-003bef2a1b29",
+    "name": "Ethan Hunter",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Hunter crafts creative cocktails, combining flavor expertise with 7 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "143556c4-c64d-479b-be08-8c099f80a311",
+    "name": "Elena Marshall",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Marshall ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 17 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "9f0eb98b-ae99-4e96-a911-e13cac2c1c16",
+    "name": "Catherine Porter",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Catherine Porter conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 8 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "918610bd-6557-40ec-9097-fc5f53bf4448",
+    "name": "Vincent Graham",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Graham curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "de9a8893-ab14-4cf2-8b33-00365c8121a2",
+    "name": "Harold Watson",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Harold Watson manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "f668554e-6597-496c-be09-2147a543b08d",
+    "name": "Jane Collins",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Jane Collins consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 20 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "e0a9497b-4edf-4fe6-a15a-6ec62959727d",
+    "name": "Rajesh Curtis",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Curtis performs live music across genres, engaging guests with 6 years of performance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "f613b0f9-5e86-4af8-8bdf-512227e237ec",
+    "name": "Matthew Watson",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Matthew Watson engages audiences with versatile dance styles across entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "56b2e479-6333-42f2-98fc-15a36f490210",
+    "name": "Ryan Chambers",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Chambers creates captivating dance routines, blending creativity with 6 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "e213a0bd-fcd0-4892-96f3-835d43846675",
+    "name": "Christian Dean",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Christian Dean's ability to connect with the audience and improvise, developed over 17 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "b06bf24a-c25b-440a-a801-82c11a0236c6",
+    "name": "George Warren",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "George Warren brings a unique brand of enchantment to the ship's entertainment, drawing on 17 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "953edd2b-a1d0-493e-b7ae-7a6ce70eca1c",
+    "name": "Carol Griffin",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 4 years of reading crowds, DJ Griffin seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "6f8e26fc-9040-4099-a32e-0b715715a5f4",
+    "name": "Nomsa Ellis",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Nomsa Ellis supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "aff1113e-d16d-4d27-a30a-de0e0ea0420c",
+    "name": "David Cooper",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Cooper designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "f16e102f-f5d2-4458-b844-ad8ebe9ee37b",
+    "name": "Chloe Wallace",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Wallace is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "7701a64e-4d8c-4ea0-878e-07465d3f73a7",
+    "name": "Alexander Jennings",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Alexander Jennings's strategic planning and problem-solving skills, developed over 3 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "a0b39b7c-1c19-4121-9cee-77ae19b185f9",
+    "name": "Frank Nash",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Frank Nash combines creativity and craftsmanship with 16 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "88db59da-11c9-4706-bab0-1215daab4f24",
+    "name": "Valentina Reeves",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Reeves collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "2ed1f4b0-0432-4510-97a9-5089a37f3c1b",
+    "name": "Bruce Hawkins",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Bruce Hawkins presents breathtaking and thought-provoking performances honed over 6 years of dedicated artistic exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "9feb8efc-fa69-48f3-a585-b23de6cd4580",
+    "name": "Richard Nash",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Richard Nash plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 11 years of maritime expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "8d61718f-f0dc-4268-892d-4d665307cf13",
+    "name": "Jeremy Harper",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Jeremy Harper leverages 12 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "028cc531-bce2-4172-bfa6-afe5da7c0847",
+    "name": "Riley Mitchell",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Riley Mitchell's analytical skills, honed over 17 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "02f351a0-43bd-48a8-a86b-52fa41946753",
+    "name": "Genesis Maxwell",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Genesis Maxwell applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
+  },
+  {
+    "id": "96c724d2-c8ab-4bb7-bd8a-fcbfc148d103",
+    "name": "Zola Reed",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Reed implements green initiatives to minimize environmental impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Boston",
+    "country": "United States",
+    "region": "East Coast USA"
   }
 ];

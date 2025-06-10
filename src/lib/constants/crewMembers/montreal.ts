@@ -2,479 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Montreal
-    // Generated on: 2025-06-10T03:41:38.297Z
+    // Generated on: 2025-06-10T08:14:17.434Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const montrealTeamMembers: CrewMember[] = [
   {
-    "id": "e6cabe7a-c6c8-46d5-b011-296dbc1b4578",
-    "name": "Olivia Collins",
+    "id": "9778d0e5-7d7d-412a-be27-2aba5dd99700",
+    "name": "Kenneth Porter",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Olivia Collins leads vessel operations with a deep understanding of Quebec's maritime environment, backed by 16 years of commanding large crews and complex vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "25f4b9d8-e314-445a-b9d6-df1b083acd51",
-    "name": "Sarah Henderson",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Sarah Henderson applies comprehensive knowledge of Quebec's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "5b38583a-d13b-4216-9d08-5fe7a9beb45a",
-    "name": "Samantha Dean",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Dean's responsibilities include managing the ship's medical stores and providing medical assistance, drawing on 10 years of maritime service in Quebec.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "044873c4-4b55-4314-a144-991c00d6d564",
-    "name": "Ashley Jennings",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "With 22 years dedicated to bridge operations, Ashley Jennings contributes to seamless voyages through Quebec's waterways by monitoring safety and compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "a977f371-f382-425b-9259-4a71acb18527",
-    "name": "Logan Fox",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "With 19 years dedicated to Quebec routes, Logan Fox excels in dynamic positioning and integrated navigation systems management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "ec18e088-fbb4-40b8-9f3a-8ee5eb11d080",
-    "name": "Elena Day",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With 9 years overseeing maritime safety, Elena Day ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Quebec.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "62c95888-b019-4208-845c-a9e78d25d567",
-    "name": "Mason Dixon",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "As a dedicated Deck Cadet, Mason Dixon is gaining 3 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Quebec.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "754afa21-acc9-4979-b4df-1b23fb3485c9",
-    "name": "Ella Maxwell",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Maxwell supervises deck crew operations with 12 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in Quebec.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "4dec5a9e-218a-4215-a33f-2c3c89acd287",
-    "name": "Deborah Wells",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Known for strategic problem-solving, Deborah Wells directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "ca88e437-e6f4-4d25-acc4-afa7cf39c47c",
-    "name": "Donna Cooper",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 12 years, Donna Cooper takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "61d5bd8f-9c01-413f-94e9-b5877b7008ff",
-    "name": "Elizabeth Day",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Experienced in engine room management, Elizabeth Day brings 12 years ensuring mechanical integrity, safety, and regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "efc15b54-dd75-4c2c-bf40-630be78f8886",
-    "name": "Avery Jennings",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 3 years designing, installing, and maintaining vessel electrical infrastructure, Avery Jennings ensures continuous power supply and safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "4c55b064-a0ff-4bbf-99f9-8c50d6c79d55",
-    "name": "Nicole Bennett",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Nicole Bennett's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 3 years of service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "489cf969-8e39-4c84-ae25-dd277dc0340c",
-    "name": "Lerato Montgomery",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Montgomery coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "373a480a-7248-48a4-b9ca-394f42450a88",
-    "name": "Eric Clark",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With in-depth knowledge of MARPOL regulations, Eric Clark leads training and awareness programs on environmental best practices among crew members.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b101426f-3302-47ef-afb1-bd43c7b180ee",
-    "name": "Virginia Keller",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Virginia Keller integrates complex onboard systems, ensuring operational synergy and reliability with 9 years of maritime engineering expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "75c785b6-e6c8-4866-b0b1-566abd74a22a",
-    "name": "Maya Bennett",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Known for strong leadership, Maya Bennett fosters a culture of technical excellence and cross-functional collaboration onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "51821a8c-0acb-4c4e-a893-b60bf38dd4e3",
-    "name": "Amina Murray",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Amina Murray ensures all vessel machinery operates smoothly and safely, backed by 12 years in preventive and corrective maintenance programs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "6af8f56e-93a1-4431-ac3a-c861a54b8970",
-    "name": "Angela Warren",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Security Director Warren leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "4d14a021-277b-4010-a41f-c1976249e077",
-    "name": "Jennifer Fletcher",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, Jennifer Fletcher collaborates with other departments to enhance overall passenger and crew safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "c000b913-3eac-4d53-8ac0-add8301b87a4",
-    "name": "Ethan Hunter",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Hunter designs and delivers bespoke security training programs for crew members, reflecting 9 years of practical insight.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "254f8506-4cb8-4b75-9fab-a1a03e8df660",
-    "name": "Elena Douglas",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Experienced in compliance with maritime cybersecurity regulations, Elena Douglas conducts training to enhance crew awareness of digital risks.",
+    "bio": "With a distinguished 4-year career, Kenneth Porter ensures the highest standards of safety and seamanship aboard, navigating Quebec with precision and authority.",
     "languages": [
       {
         "code": "en",
@@ -486,259 +24,17 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "f7500d96-1448-4144-b1e3-d7360f7abe36",
-    "name": "Caroline Hall",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Hall facilitates seamless security operations between ship and shore, a skill honed over 17 years of dedicated service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "e58488ad-5535-453f-a11f-3082bc58d427",
-    "name": "Katherine Griffin",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Griffin manages secure boarding and access with 22 years maintaining maritime entry protocols and identification verification.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "3643ef32-a830-4207-9682-d611c5c58735",
-    "name": "Scott Campbell",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Campbell is an expert in ISM, ISPS, and MLC compliance, bringing 15 years of dedicated focus to these areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "006db4dd-f597-4a04-8425-7349c486e516",
-    "name": "Ryan Graves",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Ryan Graves integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "73af502d-1c4a-4feb-80d9-d72b54f48b46",
-    "name": "Maria Morgan",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With strong communication skills, Maria Morgan liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "a49e6d68-bb8c-4d6c-b485-545912a988c9",
-    "name": "Adam Hudson",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, Adam Hudson adjusts programming to accommodate different group sizes and interests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "20387f06-b9f0-4b85-80a7-c2063e0217a5",
-    "name": "Luis Reeves",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Luis Reeves uses 10 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "6c893925-afd4-4cb0-b685-baac7fdcf71f",
-    "name": "Katherine Price",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, Katherine Price evaluates program effectiveness and implements improvements based on passenger feedback.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "f5760a92-0a7d-4808-b698-5730faf861a1",
-    "name": "Jason Knight",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Jason Knight manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "3fefa49c-269c-4da3-86f6-64c9ebe6fd1a",
-    "name": "Wei Curtis",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, Wei Curtis designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "3b16bc2a-1324-44d0-ab15-4fea687b3a05",
-    "name": "Catherine Russell",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Russell ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b1dfc55c-40cb-404b-bf4f-19b1735de619",
-    "name": "Pamela Baker",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on motivation and proper technique, Pamela Baker helps passengers adopt and maintain healthy lifestyles during their voyage.",
+    "id": "a9c6d632-764e-40d6-ac3e-2576f14494c5",
+    "name": "Brian Stewart",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Brian Stewart specializes in Quebec navigation with 13 years of experience managing bridge operations and ensuring adherence to safety standards.",
     "languages": [
       {
         "code": "en",
@@ -750,193 +46,17 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "0c29dba4-c7d6-4d6b-9789-93b9d3f9e0f8",
-    "name": "Angela Collins",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Angela Collins's meticulous planning and attention to detail, developed over 6 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "7df2285e-e72d-4a59-af58-74f8d61bf4ae",
-    "name": "Anna Dunn",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, Anna Dunn collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b7c57da1-ab20-4312-aa3d-d346bea98d93",
-    "name": "Emily Murray",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Murray is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 9 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b39417d9-d312-4cd2-9cfc-28a367a89091",
-    "name": "Philip Palmer",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Known for technical proficiency and creative vision, Philip Palmer collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "7fc2ed87-6322-4788-947d-69355d5cd2d4",
-    "name": "Jose Ellis",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Ellis has 17 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "aa4d91ae-e5bc-479d-8849-0603416f0e7c",
-    "name": "Claire Chambers",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Chambers conducts routine health assessments and manages medical records in compliance with international maritime standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "749ab2b9-2cb1-4046-8341-d2ee0dd93f41",
-    "name": "Lucas Sutton",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Leveraging 7 years in diverse nursing roles, Lucas Sutton excels in triage, wound care, and patient advocacy within the unique maritime environment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "6c6b43cb-1e06-4cc4-908a-47707a950679",
-    "name": "Ethan Reeves",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Leveraging 13 years in maritime safety, Ethan Reeves excels at developing and implementing targeted safety training programs relevant to Quebec's specific operational hazards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "c17da13b-ecde-42fa-9963-3206258ea23d",
-    "name": "Janet Jennings",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Director Jennings orchestrates a seamless guest journey, from arrival to departure, leveraging 21 years of expertise in luxury service.",
+    "id": "25f69ac4-d0a2-4561-9045-5d546cbe3986",
+    "name": "Keith Graves",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Utilizing 21 years of expertise, Keith Graves meticulously maintains navigational charts and publications crucial for safe transit in Quebec.",
     "languages": [
       {
         "code": "en",
@@ -948,171 +68,39 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "c7873a41-e04a-480e-9ac3-81189e4e0eff",
-    "name": "Riley Murray",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 18 years, Riley Murray leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "44aee77b-8789-44a0-9df5-5388488307bd",
-    "name": "Samantha Ellis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Ellis trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 11 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "51f34409-d73d-488a-9737-82827bb7b676",
-    "name": "Joe Collins",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Joe Collins is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b7ce0345-3114-4fa2-bc79-7d9d69751ada",
-    "name": "Thandiwe Douglas",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Thandiwe Douglas crafts unforgettable moments for discerning guests, drawing on 12 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "a218153c-3aa3-4cad-b52f-05cc2eb0dc86",
-    "name": "Sophia Mason",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "With 15 years managing large-scale accommodation facilities, Sophia Mason ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "9e0eeebf-30af-4859-91b8-1a56ac6cbbb4",
-    "name": "Amelia Henderson",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Henderson leads cleaning teams, maintaining impeccable standards across all guest areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "9ac0f0d6-f881-419a-9e7f-40d83eedbd60",
-    "name": "Jacob Jennings",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Jennings facilitates seamless guest interactions to enhance onboard experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 17,
     "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "0c4966a9-7c1f-4f9d-97e3-94e6f0032cf1",
-    "name": "Eric Watson",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Watson's dedication over 20 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
+    "id": "45ed98de-06d7-4e15-8f2f-61880bdcfffa",
+    "name": "Bobby Curtis",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "As a vigilant watchkeeper, Bobby Curtis has 18 years supporting navigation, safety drills, and emergency procedures aboard vessels in Quebec.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "b383afb0-e166-434a-a28c-43e51faf5ec5",
+    "name": "Ralph Stewart",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Ralph Stewart utilizes advanced navigational technology with 20 years ensuring precise route planning and safe passage in Quebec.",
     "languages": [
       {
         "code": "en",
@@ -1124,413 +112,17 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "5b217634-950b-4f41-ae0b-aeb840f24fc3",
-    "name": "Katherine Olivia",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Katherine Olivia leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "707fd2b0-8fb3-4d44-8513-ae188fddf773",
-    "name": "Skylar Crawford",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Skylar Crawford's expertise over 13 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "162b423a-7d0e-4443-9a6c-946630c26e71",
-    "name": "Brenda Russell",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Russell focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "ed1ef0f3-be5a-4937-91f5-098b7508b4ce",
-    "name": "Miguel Reed",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Beyond crafting exquisite Japanese, Chef Reed expertly manages kitchen hygiene, inventory, and food cost control, honed over 7 years in demanding culinary environments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "0bcfa563-8a18-4622-aab1-92119e74d9dc",
-    "name": "Laura Olivia",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Laura Olivia excels in menu execution and team management to maintain high culinary standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "3ca575ce-2891-4a76-832a-83651c5edf3f",
-    "name": "Lisa Harper",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Lisa Harper manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 4 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "508da88a-c39b-42c3-81c6-d04873c18039",
-    "name": "Gabriel Cooper",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Specializing in the marine electronics station (e.g., Saucier, Grillardin), Chef de Partie Cooper brings 8 years of expertise in preparing precise Mediterranean components.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b83dc83b-c163-4b68-a71f-45c54339d747",
-    "name": "Nomsa Harper",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Nomsa Harper specializes in unique culinary styles, offering guests diverse flavors based on 9 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "9ea03e0d-df42-4a61-bf1d-0298e516a678",
-    "name": "Jeffrey Stewart",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Stewart prepares fresh and artistic sushi dishes, drawing on 9 years of Japanese culinary tradition.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "9a430c2f-945d-4ce6-8fe6-b23e32012b8d",
-    "name": "Scarlett Murray",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 13 years specializing in charcuterie, salads, and elaborate cold platters, Chef Murray brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "7a5f0e6d-ae79-4ed2-bcb3-d965262bfa91",
-    "name": "Vincent Price",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Vincent Price maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 22 years in professional butchery.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "e8d83c45-2285-4f9c-ac1f-536d349508b2",
-    "name": "Harold Coleman",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Coleman meticulously prepares a wide array of Pan-Asian-inspired and classic baked goods daily, showcasing skills honed over 5 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "9eec2afb-f100-4e98-9b32-2589eb61a024",
-    "name": "Caroline Price",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Caroline Price enhances dining experiences by sourcing and recommending premium wines.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "fe62d8f8-b6f4-4514-bf1b-6c5e425086a5",
-    "name": "Billy Cooper",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 14 years behind the bar, Billy Cooper designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "b6bb19c7-8f94-43f7-8e7f-45f9aa8b2e84",
-    "name": "Isabella Clark",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Isabella Clark provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 19 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "e094030d-604a-4eed-9a4c-e258f2644fcb",
-    "name": "Amina Palmer",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Amina Palmer conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 18 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "8ff7f481-168b-476a-94f7-a81fe774c8c2",
-    "name": "Riley Gardner",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Riley Gardner constantly seeks innovative entertainment concepts and top-tier talent, leveraging 5 years to keep the onboard experience fresh, exciting, and memorable.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "ff6ee578-2f07-42c7-9084-383baa270c79",
-    "name": "Amy Cooper",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "With 22 years in arts administration, Amy Cooper expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "2094bef4-336b-43a6-b613-7cfb2bb3c9eb",
-    "name": "Aaliyah Graham",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "As a key figure in production shows, Lead Vocalist Graham collaborates with the cast and creative team, bringing 16 years of professional discipline and artistry.",
+    "id": "a4f5743f-ef12-498a-b7dd-d83007c675bd",
+    "name": "Russell Warren",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Russell Warren stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
     "languages": [
       {
         "code": "en",
@@ -1542,281 +134,17 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "a89dc3a7-180c-4f71-bfc9-a8b42d22c5e0",
-    "name": "Amelia Hawkins",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Amelia Hawkins enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "4f14be29-4a8e-40cd-bba2-715c23a5f4ef",
-    "name": "Diego Gibson",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Gibson delivers energetic and polished routines, drawing on 6 years of dance training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "af0f2bb7-4832-46b5-9680-513258bf8ebb",
-    "name": "Stephen Marshall",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Marshall creates captivating dance routines, blending creativity with 19 years of dance expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "a493ee06-649c-4558-8895-f00d001ae6ea",
-    "name": "Nancy Fletcher",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Fletcher delivers engaging and memorable stand-up routines onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "2ef20504-fa7e-4f1d-a481-977bcda5df21",
-    "name": "Peter Knight",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Peter Knight brings a unique brand of enchantment to the ship's entertainment, drawing on 4 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "2135d3b8-2b93-4a88-8060-4ef3234d076c",
-    "name": "Nicole Hawkins",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Hawkins creates vibrant atmospheres with expertly mixed music, drawing on 15 years in live DJing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "bfe469b0-2878-4492-b636-cd96cca3f596",
-    "name": "Scott Montgomery",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Scott Montgomery's keen ear and technical proficiency, developed over 6 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "8aa8e9a4-1673-4187-a72d-ba8a28c820c0",
-    "name": "Philip Keller",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Keller designs and operates lighting systems to enhance onboard shows and events.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "2bac7d66-ec54-4a9e-a821-809d95e87f6c",
-    "name": "Valentina Hall",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "With 11 years in professional stage management, Valentina Hall meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "865618f2-af20-43d3-82c6-e0e1f13e589d",
-    "name": "Cynthia Keller",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Keller oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "f3e5a833-2907-44da-af2b-3edb06e029d5",
-    "name": "Dylan Foster",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Foster creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "432e1347-dbed-4dfb-b695-b479187743da",
-    "name": "George Porter",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Porter collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "287d64c1-de8b-497b-ac56-c092e971649a",
-    "name": "Austin Fisher",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Austin Fisher captivates audiences with original performances tailored to shipboard entertainment.",
+    "id": "193842b1-5312-48a4-9e7c-cf8322bad911",
+    "name": "Aria Baker",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Aria Baker supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Quebec's maritime environment.",
     "languages": [
       {
         "code": "en",
@@ -1828,61 +156,17 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "f15559c7-9db8-4215-848f-322c5b632c80",
-    "name": "Allison Ellis",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Ellis applies 14 years of leadership in maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "3d7bd4d7-5974-4520-8067-b640bf208043",
-    "name": "Emma Lawson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Emma Lawson's expertise in procurement and vendor management, developed over 10 years, ensures cost-effective and reliable sourcing for all vessel needs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "fr",
-        "name": "French"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Montreal",
-    "country": "Canada",
-    "region": "Quebec"
-  },
-  {
-    "id": "7e091459-6e90-4025-9798-7b71ccc3cfa5",
-    "name": "Daniel Morgan",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 17 years in inventory management, Daniel Morgan meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "id": "e8c4e48a-00ea-4827-9203-921231093745",
+    "name": "James Russell",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "James Russell ensures compliance with safety standards during deck operations, fostering teamwork and discipline among crew members across Quebec's vessels.",
     "languages": [
       {
         "code": "en",
@@ -1894,17 +178,567 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "d927b242-097d-4e1a-a310-4ce5fff6c527",
-    "name": "Vincent Dunn",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Dunn manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "id": "3681587e-388a-4389-a0a1-1244aee4a4c7",
+    "name": "Sean Henderson",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Sean Henderson brings 4 years of engineering excellence, leading innovations in sustainable maritime technology and driving continuous improvement in vessel operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "0cd92ab4-31c3-40a7-bcf6-018088567fa6",
+    "name": "Zachary Baker",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Baker manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "f767e2f5-f1c8-48cd-98fe-fafb7c62358d",
+    "name": "Walter Fisher",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Fisher conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "0a8a43ea-ed72-4f13-b72a-5f2bca5b4cf5",
+    "name": "Kimberly Stewart",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Kimberly Stewart manages all electrical systems on board, applying 12 years of expertise in marine electrical engineering and system integration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "caa62eae-1601-41fb-8725-68e29e3fd71d",
+    "name": "Bobby Crawford",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Crawford collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "aa00fee9-52d7-4ae7-b967-36bacf9190a2",
+    "name": "Roger Sutton",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Sutton coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "554deaf6-8bff-4b7c-a478-c30676b754a4",
+    "name": "Vincent Wallace",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 4 years in marine environmental science, Vincent Wallace ensures strict adherence to all international and local environmental laws.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "998a315d-e5d2-4f4e-a8dd-c50f908a061b",
+    "name": "Billy Stewart",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing upon 7 years, Billy Stewart specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "a06ad40b-1a45-4a98-a69b-15d3efd55c4a",
+    "name": "Ronald Hayes",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Hayes oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "079dc64a-b284-4bff-9b3e-e1e430a26920",
+    "name": "Peter Payne",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 20 years, Peter Payne is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "7f834ffd-5816-4b3a-a3e7-7fd29ea4b625",
+    "name": "Skylar Collins",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 22 years and a investigations background, Skylar Collins develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "f9b85674-12c9-4b9b-94cd-8586da95bdb2",
+    "name": "Victor Montgomery",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Victor Montgomery is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "14f200b5-4361-4083-a239-6eb3fa10514d",
+    "name": "Ellie Fisher",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Fisher advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "fdfd5a51-fd6e-4946-8319-73f5da4502bc",
+    "name": "Jessica Hudson",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Jessica Hudson continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "73ac9fd1-2050-4534-b949-8071dd24475a",
+    "name": "Jonathan Olivia",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Olivia leads risk assessment initiatives and supports vessel security certification processes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "cf65a513-dc3b-4507-8696-9b770887b215",
+    "name": "Marcus Chambers",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Chambers plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 15 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "10b89cfb-8196-4e83-9598-ac06f3a3bab8",
+    "name": "Isabella Baker",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Isabella Baker oversees adherence to maritime safety regulations, leveraging 18 years ensuring compliance, risk management, and regulatory audits.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "bb5ca433-29b7-493a-9c41-9b63e297a7eb",
+    "name": "Elizabeth Clark",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Clark manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "bf59cb62-a222-476f-ac45-3547803ec805",
+    "name": "Nora Chambers",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Nora Chambers, with 5 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "b99aaba0-dd5c-47cc-8e1e-e954467ba309",
+    "name": "Aria Sutton",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for energetic delivery and adaptability, Aria Sutton adjusts programming to accommodate different group sizes and interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "30e9e0f2-8087-4e2b-9ee9-9e54c5644e7c",
+    "name": "Lucas Coleman",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Lucas Coleman uses 9 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "6f88812b-4918-4e3f-b17d-dba34d7cfdc1",
+    "name": "Ella Wallace",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Ella Wallace, with 16 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "c0121a6f-42f5-4f7a-8880-dc425147f3ef",
+    "name": "Joan Campbell",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Joan Campbell communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "2cf12e23-1e19-46d8-8676-55399e2c65af",
+    "name": "Juan Gardner",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Juan Gardner, with 4 years in the cruise industry, expertly blends classic cruise activities with fresh, innovative entertainment options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "cd4d6b5f-1090-4a63-8c59-3cbef71fb4fe",
+    "name": "Bella Porter",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in various water sports, Bella Porter provides personalized coaching that accommodates different skill levels and abilities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "5f222da0-72f3-44ab-8248-f22b065a6514",
+    "name": "Thabo Reeves",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 19 years of expertise, Thabo Reeves offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
     "languages": [
       {
         "code": "en",
@@ -1916,17 +750,831 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"
   },
   {
-    "id": "7be7b0d0-fad3-4006-8a3b-1f6bf32889d9",
-    "name": "Patrick Crawford",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Patrick Crawford promotes sustainable practices aligned with maritime environmental standards.",
+    "id": "5df764f4-0cea-465d-b750-75ca25070dd2",
+    "name": "Amanda Hayes",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Amanda Hayes's meticulous planning and attention to detail, developed over 18 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "e0da968b-16d2-4feb-bc08-dd29dc970fa9",
+    "name": "Thomas Dean",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Dean's portfolio showcases 6 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "9ab2ab1d-5d79-4846-9dfd-27dadd99155e",
+    "name": "Nancy Campbell",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Nancy Campbell documents ship activities, excursions, and special events, delivering high-quality video content with 17 years of professional videography experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "3ce9aed1-e326-4f6e-a5cb-1a0974916323",
+    "name": "Roy Porter",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With expertise in social media, video editing, and graphic design, Roy Porter drives effective digital campaigns that promote the voyage experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "8810659a-f90d-4f90-bf87-bd95f387ae93",
+    "name": "Ronald Nash",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Nash maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "7f0f4f07-9340-4f01-a294-97bfe90fbf41",
+    "name": "Mary Grant",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With 18 years practicing medicine in diverse environments, Dr. Grant is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "ae3f5e78-25e1-4cc4-a460-b618d970a25a",
+    "name": "Joel Carpenter",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 3 years of experience, Joel Carpenter is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "2ec0977a-4885-4b87-8d02-1003bc7cbe72",
+    "name": "Lisa Hayes",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 22 years overseeing maritime safety, Lisa Hayes ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Quebec.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "73c82467-8957-4f96-b7b3-3c30d5a494a9",
+    "name": "Dennis Marshall",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Dennis Marshall is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 22 years of cultivating outstanding hospitality teams.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "92d7e943-99e3-454e-8e00-13c2acc8609f",
+    "name": "Jennifer Carpenter",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "With a passion for service excellence developed over 16 years, Jennifer Carpenter leads the guest relations team to anticipate and exceed passenger expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "46c53dab-7d89-4030-b758-0c13654f3cf6",
+    "name": "Logan Graves",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Graves trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 8 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "5a0f7899-1381-4b7b-b3b0-3fb32603367d",
+    "name": "Mason Gardner",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "With 16 years of dedicated service, Senior Steward Gardner ensures guest accommodations are impeccably maintained and personalized to preferences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "cdf1b26b-ca43-42e9-9488-8214bc28d487",
+    "name": "Mateo Gardner",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Gardner is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 22 years in top-tier hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "58b8afbe-9c01-4379-984f-93084ce04b49",
+    "name": "Gabriella Jennings",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 16 years managing large-scale accommodation facilities, Gabriella Jennings ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "5d48d673-cd8d-44c4-89e1-b0b4e0775c8e",
+    "name": "Steven Douglas",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Douglas is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 17 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "40358a7b-1b58-408b-9414-2ca419ce5677",
+    "name": "Dennis Fisher",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Fisher efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "c89714d5-941c-421a-ba08-3b244b46a7e3",
+    "name": "Naomi Griffin",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Griffin offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "cd62ae3e-9626-4243-946e-96b0d3d77a82",
+    "name": "Timothy Cooper",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 10 years in front office management, Timothy Cooper ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "8b3ef76b-8eee-400d-a0c2-829d0134a0d8",
+    "name": "Elena Reeves",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Elena Reeves designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "afe4b192-9465-496c-8299-61c866070012",
+    "name": "Frank Mason",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Mason specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 5 years of industry best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "6dff84f5-61b8-4668-aec1-64f40a3a2fd6",
+    "name": "Kimberly Gardner",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Japanese, Chef Gardner expertly manages kitchen hygiene, inventory, and food cost control, honed over 16 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "4539b64c-41e3-4dac-b716-df18199bdbac",
+    "name": "Eric Charlotte",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Charlotte ensures seamless kitchen workflow and consistent dish quality, drawing on 17 years of hands-on Italian experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "2bd2b8e6-c805-495a-a5d7-88a7c7d9d4bb",
+    "name": "Isabella Spencer",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Spencer continually develops new recipes, delighting guests with 16 years of dedication to the art of patisserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "0812b16a-5258-40c6-b771-e7f96e03a29b",
+    "name": "Eleanor Coleman",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 10 years as a section chef, Eleanor Coleman is responsible for stock control and guiding commis chefs within their designated area of the Pan-Asian kitchen.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "0f07ed5d-0ba9-4c75-aa2b-5fdf3ea84d88",
+    "name": "Mason Day",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Mason Day creates authentic dishes that transport guests to Quebec, drawing on 17 years of dedicated culinary exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "b24559f5-fc0c-43e5-b6e5-dfa4d4226db6",
+    "name": "Thandiwe Bennett",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Thandiwe Bennett combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "2ab77546-9765-4f09-8dbc-38fe5306f612",
+    "name": "Brian Grant",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 10 years specializing in charcuterie, salads, and elaborate cold platters, Chef Grant brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "279014bb-e09b-4559-b573-6247205037f0",
+    "name": "Maria Cooper",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 7 years of expertise, Butcher Cooper expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Asian fusion dishes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "1564e6d6-5f0c-4db4-ae0e-48f499648193",
+    "name": "Eugene Palmer",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Palmer produces fresh breads and baked goods, leveraging 21 years of baking expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "a0bc9829-9b2d-462c-9019-fa1ba1a88f11",
+    "name": "Maya Baker",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Baker navigates an extensive cellar to find the perfect wine for every palate and Caribbean, drawing on 15 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "c29834cd-615c-4621-b7d5-37c9584b7bc5",
+    "name": "Mary Palmer",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Palmer crafts creative cocktails, combining flavor expertise with 4 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "4536dea7-64f6-4334-a3f0-78e90837cc05",
+    "name": "Noah Payne",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Noah Payne combines artistry and technique to serve quality espresso and coffee beverages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "b9f5a950-22a2-4e7d-986a-0e6dd3ebb0fe",
+    "name": "Daniel Hayes",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Hayes works closely with the culinary team to create wholesome Pacific Rim options that are both flavorful and aligned with wellness goals, drawing on 20 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "26d19aa5-ce7d-446e-9aa4-baec9483d84f",
+    "name": "Joseph Hudson",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Hudson curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "c86bc770-87b3-4583-948f-533fb858bbbe",
+    "name": "Thomas Murray",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Thomas Murray's organizational skills, honed over 12 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "844ac122-f9f1-4281-92d5-aeb0943a6734",
+    "name": "Caroline Cooper",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Caroline Cooper brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "04284a45-8e93-4e96-93ce-7a56c180115f",
+    "name": "Michael Fox",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Fox adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 4 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "ffabbb5c-379a-40b6-87db-9046868b21cc",
+    "name": "Grace Chambers",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 14 years of professional training in {danceStyle} and contemporary dance, Grace Chambers executes complex choreography with precision and artistry in mainstage productions.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +1586,359 @@ export const montrealTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "6b44492a-1a72-4e5e-85fa-06571c5f0674",
+    "name": "Ralph Bennett",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Ralph Bennett collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 3 years of experience in stage production.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "e32389a8-725e-4ec4-9655-87a179e84b49",
+    "name": "Maya Spencer",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Spencer masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "6327c162-47bc-4a46-b6f8-cc2e4a76f312",
+    "name": "Dennis Parker",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Dennis Parker blends showmanship and technique to deliver captivating magic shows at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "95c75f76-5ac9-4a3b-8908-12b6be8b8a08",
+    "name": "Alexa Dean",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Dean creates vibrant atmospheres with expertly mixed music, drawing on 7 years in live DJing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "4d4bac2e-9a1a-403f-bb6f-4cf6a8a33d05",
+    "name": "Johnny Knight",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Johnny Knight supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "3ba5b013-6583-405d-996f-8aaed271df14",
+    "name": "Austin Stewart",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Stewart programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "717d6f2a-dad1-4c81-8101-0f7a3af08dea",
+    "name": "Harry Spencer",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Spencer coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "894bb46a-b74b-44fa-8da8-66d3b8b34795",
+    "name": "Stephanie Charlotte",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Stephanie Charlotte's strategic planning and problem-solving skills, developed over 19 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "4210531d-d276-4ceb-a3b9-712ff9d250ab",
+    "name": "Brandon Mitchell",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Brandon Mitchell combines creativity and craftsmanship with 5 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "e1e12fed-e758-42ee-8afa-49ca6370971b",
+    "name": "Jane Dunn",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 9 years in arts and cultural programming, Jane Dunn develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "2370edeb-2181-4665-bae9-f5db3319f821",
+    "name": "Alan Murray",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Alan Murray presents breathtaking and thought-provoking performances honed over 7 years of dedicated artistic exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "b9ddf9ce-39d8-4da6-b5e2-07c1bd35ede6",
+    "name": "Eric Sutton",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Eric Sutton plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 11 years of maritime expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "f5a29d1c-d601-4f29-b1c0-6aa436bfb1ff",
+    "name": "Johnny Gardner",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Johnny Gardner's expertise in procurement and vendor management, developed over 5 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "6f50985d-572e-46bc-94f0-5225aacee1b1",
+    "name": "James Hamilton",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Hamilton implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "5f2efc44-fe8a-4b9e-994f-b02808badb9b",
+    "name": "Sarah Palmer",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Palmer manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Montreal",
+    "country": "Canada",
+    "region": "Quebec"
+  },
+  {
+    "id": "3bf9be88-0e35-4dd8-84a4-62738ebc7ba1",
+    "name": "Gerald Porter",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Gerald Porter promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
     "city": "Montreal",
     "country": "Canada",
     "region": "Quebec"

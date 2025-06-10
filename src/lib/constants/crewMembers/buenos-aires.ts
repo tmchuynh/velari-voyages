@@ -2,1499 +2,43 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Buenos Aires
-    // Generated on: 2025-06-10T03:41:38.288Z
+    // Generated on: 2025-06-10T08:14:17.423Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const buenosairesTeamMembers: CrewMember[] = [
   {
-    "id": "0cba3b15-d27e-40e6-bd40-9cf073df4256",
-    "name": "Antonio Gardner",
+    "id": "d003c486-af8b-4ec9-b81b-d43d3aa6f1a5",
+    "name": "Nomsa Griffin",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Antonio Gardner brings over 11 years of experience navigating Argentina's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
+    "bio": "Nomsa Griffin brings over 18 years of experience navigating Argentina's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       },
       {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
         "code": "es",
         "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
       }
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "79e0f534-e652-42e5-beb1-bac0deb0c45b",
-    "name": "Barbara Griffin",
+    "id": "f1e2f768-66bb-458b-af93-a26053faf0fb",
+    "name": "Jacob Bennett",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Barbara Griffin, with 13 years navigating Argentina, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "d2c9c63d-ed67-441f-a415-7a86923ae0da",
-    "name": "Grace Day",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Grace Day plays a critical role in voyage planning and watchkeeping, backed by 17 years ensuring operational integrity in Argentina.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "0a5e5930-eeab-4062-9c9b-29d8dda94d14",
-    "name": "Walter Fox",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Walter Fox meticulously updates ship's logs and navigational records, ensuring accuracy and compliance during voyages in Argentina over 17 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "15bc8053-6460-4378-9a3f-edf0b519e85e",
-    "name": "Chen Keller",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Chen Keller plays a key role in training junior officers on Argentina-specific navigational challenges and best practices, backed by 4 years of experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "721eadce-d110-45b9-bc4d-6b95a36a666a",
-    "name": "Naomi Russell",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Naomi Russell enforces safety standards and conducts training programs, drawing on 20 years of maritime safety expertise to minimize risks onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "c342a3ed-d0ae-448f-b923-bc3bac8dd86b",
-    "name": "Amina Harper",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Deck Cadet Harper learns shipboard operations under experienced officers, preparing for a future leadership role in Argentina waters.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1f6d4e76-707f-40ac-b490-45203b2a4d75",
-    "name": "Scott Dean",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 8 years of seamanship, Bosun Dean is an expert in rigging, anchoring, and all aspects of deck machinery operation in Argentina.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "81082268-9f36-4b72-b726-1f4783fd1c4d",
-    "name": "Harper Clark",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Harper Clark oversees all vessel systems with 5 years of expertise in maritime engineering, specializing in sustainable technologies and ensuring compliance with safety and environmental regulations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "0bb60b84-02ab-44b8-9d9f-b2df1f4ce5d1",
-    "name": "Walter Jennings",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 14 years, Walter Jennings takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "e554908e-9eac-4350-97ef-84b36a00c489",
-    "name": "Andrew Olivia",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Andrew Olivia's 8 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "45d021cf-71a9-43f8-b656-38fef9ebd71c",
-    "name": "Michael Hall",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Hall conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "63624854-7770-41d2-a861-0ddf56efaa61",
-    "name": "Keith Wallace",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 13 years of mechanical expertise, Keith Wallace maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "e969900d-09cb-402e-bfd5-da56da091dbb",
-    "name": "Tyler Wallace",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Tyler Wallace monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "7df2f9ec-e32b-489a-92fb-1db15e814b00",
-    "name": "Betty Morgan",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Betty Morgan applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "ff958abe-ae9e-4b94-aa8d-698b2b65ecc2",
-    "name": "Donna Marshall",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Donna Marshall is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 15 years of in-depth experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1f910b0c-6d3a-424c-9071-f0b587eca2ff",
-    "name": "Isabella Coleman",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Technical Manager Coleman oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "d0e0c7ff-7b48-4b5f-b368-5f46b99f3c0b",
-    "name": "Nicole Gibson",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Nicole Gibson develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "9ea070de-07e3-4a50-a2f7-7af582ae9d40",
-    "name": "Charlotte Knight",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Known for decisive leadership, Charlotte Knight fosters a culture of vigilance and continuous improvement in maritime security standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "6af62cc1-3d71-47bf-a54d-143c0cccefd0",
-    "name": "Ashley Henderson",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "With keen attention to risk, Ashley Henderson has 14 years experience protecting vessel personnel, property, and critical infrastructure against diverse threats.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "aab17ec4-a50d-4529-90a4-d512287e5e38",
-    "name": "Rajesh Mason",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Mason advises senior management on emerging security trends and implements best practices in security operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1bd00d79-680a-403c-8601-71395f8d2f4d",
-    "name": "Carl Henderson",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Carl Henderson ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 18 years of focused work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "852cecdf-b565-4012-be1b-3f67d882424d",
-    "name": "Melissa Hunter",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Melissa Hunter's 6 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "a5bc141d-9924-450f-8a9b-2353afb09bbe",
-    "name": "Gary Warren",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Warren plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 13 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "3cd725e6-b15e-4013-b600-1c9ba775fa50",
-    "name": "Arthur Keller",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Keller promotes a safety-first culture through continuous education and enforcement of best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "53d5d14a-429f-4989-8f5d-50ffed844dfb",
-    "name": "Samuel Cooper",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Cooper ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 3 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "386d8dd2-2c25-476b-b140-6be879f62b7c",
-    "name": "Harold Jennings",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Jennings is adept at creating a welcoming and fun atmosphere where families can create lasting memories, a skill honed over 3 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "a15e27ed-b7bc-46bf-8a57-8ab63290064c",
-    "name": "Madelyn Morgan",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 10 years of delighting young audiences, Madelyn Morgan brings a unique blend of magic, storytelling, and interactive games to the ship.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "3f63c2e0-ac8d-4411-b3bd-98dfc4c1e60f",
-    "name": "Kinsley Reed",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Reed monitors participation and feedback to continuously refine and innovate teen programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "bcea3840-dfbe-4d32-bd75-1c26eeef84ad",
-    "name": "Rajesh Hawkins",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Educational Program Manager Hawkins coordinates with external educators and experts to deliver diverse and culturally relevant content.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "d78e74d8-a8ca-4a19-bf08-85d08478737d",
-    "name": "Douglas Fletcher",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Fletcher promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1a3e5abb-5722-42d8-89fd-01e55c8461fe",
-    "name": "Brooklyn Knight",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Brooklyn Knight plans and coordinates all recreational activities, utilizing 15 years of event management expertise to create engaging, inclusive programs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "b18596aa-11a2-4fe4-b21a-924b47999607",
-    "name": "Victoria Bennett",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Leveraging 15 years of experience, Victoria Bennett is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "88d7b74a-70d0-4bde-b256-68152540c3c1",
-    "name": "Patrick Warren",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on motivation and proper technique, Patrick Warren helps passengers adopt and maintain healthy lifestyles during their voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "e2135bd7-b630-4e55-a587-3eb3a759aa7d",
-    "name": "Louis Clark",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Louis Clark's meticulous planning and attention to detail, developed over 21 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "73fcd949-fec2-4cb3-851f-ba4c2263cd9b",
-    "name": "Larry Ellis",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Larry Ellis ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "6fc9af05-1e27-4202-ad34-4e0dbe96c51c",
-    "name": "Kennedy Murray",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Murray is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 4 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "57d80974-8b7b-4934-b8cc-9715ea50c490",
-    "name": "Sean Mitchell",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Mitchell analyzes content performance and audience metrics to optimize digital strategies and engagement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "328fef30-a982-4089-8cfa-41e9f2ac3236",
-    "name": "Kimberly Bennett",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "With extensive knowledge in maritime medicine and emergency response, Kimberly Bennett ensures readiness for diverse medical situations at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "2ca4981e-08fc-4097-b3fa-3379c99acfd7",
-    "name": "Jacob Hamilton",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Hamilton provides comprehensive medical care with 14 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "de0d64fb-41f6-4d5e-88c9-8a79f10901d6",
-    "name": "Johnny Griffin",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Johnny Griffin has been a vital part of shipboard medical teams for 20 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "ec4ecb0f-3f5a-4cac-9551-1d0eb8ae98b2",
-    "name": "Jason Porter",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Jason Porter enforces safety standards and conducts training programs, drawing on 15 years of maritime safety expertise to minimize risks onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "858f641f-7e0a-474b-be4d-2792194a20ff",
-    "name": "Maya Keller",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Overseeing a diverse team, Hospitality Director Keller implements innovative service strategies and maintains the highest quality standards, reflecting 4 years in the industry.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "8b62b02f-7f05-4c44-bf01-c482a8a621bd",
-    "name": "Ariana Baker",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Baker enhances passenger satisfaction through attentive and personalized service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "aaa41de7-e42a-4d0b-8385-d9d1480e8318",
-    "name": "Jonathan Henderson",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "With 10 years leading stewardship teams, Chief Steward Henderson meticulously manages cabin services, laundry operations, and public area upkeep.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "17dc59bf-f3c6-42a2-b6fa-76891f14319a",
-    "name": "Betty Reeves",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "With 22 years of dedicated service, Senior Steward Reeves ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "16d4fc6c-7dfe-444c-8bc1-e4342f31017f",
-    "name": "Mark Hawkins",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Hawkins provides personalized guest services, backed by 17 years of elite hospitality expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "faaafe5a-d71e-4ca9-932d-67a36ad10407",
-    "name": "Harold Hall",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Hall coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "dbd3b96e-f71b-4a98-9b90-a07bc9414649",
-    "name": "Amy Jennings",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Amy Jennings ensures smooth operations and staff training, supported by 13 years in hospitality management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "6b639a2c-47a1-4e4f-9531-4eec327ffdef",
-    "name": "Kinsley Graham",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Kinsley Graham assists guests with inquiries and special requests, drawing on 11 years in customer service roles.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "a98f5274-85dc-4b00-bc12-091dda6a0de0",
-    "name": "Joshua Mitchell",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Mitchell's dedication over 6 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1eefb24a-7590-4696-b02a-32a1493123d5",
-    "name": "Antonio Hayes",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Antonio Hayes leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "292b3997-6ec5-48cb-8b56-2b549f212d5b",
-    "name": "Laura Hamilton",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Laura Hamilton designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "49be2637-dca0-4442-81e2-6e39c76bed40",
-    "name": "Victoria Reeves",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Reeves focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "b01cd74f-b8c3-4bf2-ad6d-dd30e6e3376c",
-    "name": "Deborah Henderson",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Henderson leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 7 years of innovative leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "8645103a-8e6a-466f-b719-94aa1a314bc5",
-    "name": "Samantha Palmer",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "With 10 years in high-volume kitchens, Sous Chef Palmer is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "8d5a6565-4214-4a3b-9271-0b0e1eaa8043",
-    "name": "Sandra Baker",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Baker continually develops new recipes, delighting guests with 19 years of dedication to the art of patisserie.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "1f9d3ddb-d7d9-4ec5-bdf9-804e4c2211a7",
-    "name": "Steven Marshall",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Steven Marshall ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "bio": "First Officer Bennett supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Argentina.",
     "languages": [
       {
         "code": "en",
@@ -1510,17 +54,69 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "979da76b-8540-4621-9444-5a8e50f37eb7",
-    "name": "Jerry West",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Jerry West specializes in unique culinary styles, offering guests diverse flavors based on 5 years of expertise.",
+    "id": "e839177e-5d45-4f0d-832d-d065223aaf6f",
+    "name": "Ralph Warren",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Second Officer Warren's responsibilities include managing the ship's medical stores and providing medical assistance, drawing on 15 years of maritime service in Argentina.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "7c857860-5c69-4de5-9d3d-aca609e2b68a",
+    "name": "Ariana Watson",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Watson conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Argentina.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "b096770e-ab09-4286-8f80-4b20eec64b6d",
+    "name": "Jerry Harper",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Jerry Harper plays a key role in training junior officers on Argentina-specific navigational challenges and best practices, backed by 20 years of experience.",
     "languages": [
       {
         "code": "en",
@@ -1535,70 +131,44 @@ export const buenosairesTeamMembers: CrewMember[] = [
         "name": "Italian"
       }
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "57dc6f9c-d26a-410b-86e6-4c6c8d670acb",
-    "name": "Bruce Keller",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Keller manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 17 years of Japanese culinary excellence.",
+    "id": "aea99c37-b05c-401b-b2b2-976b2d9460c5",
+    "name": "Vincent Holloway",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Holloway works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       },
       {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
         "code": "it",
         "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
       }
     ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "1c1cc42a-ac88-4653-b0fe-0be866206660",
-    "name": "Frank Foster",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Frank Foster maintains high standards in food presentation and safety for all cold kitchen offerings.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "e36e3356-70b1-4f49-8704-d48aba125ef1",
-    "name": "Oliver Dunn",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "With 22 years of expertise, Butcher Dunn expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Pan-Asian dishes.",
+    "id": "a245e5c7-e352-47e1-98cd-3fc04465e325",
+    "name": "Samuel Reed",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Under the guidance of senior officers, Deck Cadet Reed is developing a strong foundation in practical navigation and ship handling in Argentina.",
     "languages": [
       {
         "code": "en",
@@ -1614,17 +184,43 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "58e37c26-057c-46f9-a591-b37069a2d15a",
-    "name": "Michael West",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Michael West combines traditional techniques with innovation to delight guests with baked specialties.",
+    "id": "53798668-840c-4226-8bbd-e3895a677923",
+    "name": "Timothy Hudson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Timothy Hudson plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Argentina.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "a37cd793-289d-440e-bdae-ac8b5afd82ad",
+    "name": "Mary Hall",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Mary Hall oversees all vessel systems with 7 years of expertise in maritime engineering, specializing in sustainable technologies and ensuring compliance with safety and environmental regulations.",
     "languages": [
       {
         "code": "en",
@@ -1640,17 +236,199 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "2c77fab0-8311-47d3-8184-9ec523369234",
-    "name": "Thomas Graves",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Thomas Graves enhances dining experiences by sourcing and recommending premium wines.",
+    "id": "a82f1126-5e43-4148-a71e-b78d591ed7e8",
+    "name": "Christian Hall",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Hall manages spare parts inventory and oversees condition monitoring programs to prevent system failures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "c98a4c6a-e1eb-4339-9f64-ce1bcd7c5213",
+    "name": "Patrick Montgomery",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Patrick Montgomery's 16 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "bafdf7eb-1cdd-4d8d-aaaa-ee6e0f5932d7",
+    "name": "Melissa Dunn",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Melissa Dunn supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "c6701a3d-7143-4bdc-a2cd-044b2d803ced",
+    "name": "Savannah Porter",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Savannah Porter is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "3fcca580-a3ea-47ee-800a-f72d897ed27d",
+    "name": "Kinsley Marshall",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Kinsley Marshall monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "dc86fc32-b19f-493c-a596-0c6470014a48",
+    "name": "Michael Mitchell",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Mitchell manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 18 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "c368f16d-83b4-4c21-a2e2-5bc5bbf68ddd",
+    "name": "Randy Warren",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Warren collaborates across departments to implement new technologies aligned with industry standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "a5eafaa2-45c6-49b3-b842-6ce350e791b6",
+    "name": "William Gardner",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "William Gardner drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
     "languages": [
       {
         "code": "en",
@@ -1666,17 +444,277 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "b2fcb258-1d41-48b7-a50f-deeca100a408",
-    "name": "Amanda Gardner",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Gardner crafts creative cocktails, combining flavor expertise with 21 years of bartending skill.",
+    "id": "23a4aa92-9c83-4d11-960a-7dd60efd42cc",
+    "name": "Laura Fletcher",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Fletcher troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "2ddc690f-2c64-4b73-a513-18813a80a5e8",
+    "name": "Philip West",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Philip West oversees all security operations with 12 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "505573d1-149a-474d-a231-6698f3a760d5",
+    "name": "John Mitchell",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Mitchell is proficient in emergency communication procedures and crowd management, vital skills honed over 18 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "60fd5ebb-e19b-49ed-9892-7d3c9b20713f",
+    "name": "Willie Curtis",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Known for analytical expertise, Willie Curtis conducts vulnerability assessments and designs contingency plans to address evolving threats.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "af9ea7ef-2e05-4e8d-b6c9-dd886d173390",
+    "name": "Diego Olivia",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Diego Olivia ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 20 years of focused work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "1df0185f-e806-4964-9ea8-2d2ea2acaad4",
+    "name": "Zoe Douglas",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Douglas leads risk assessment initiatives and supports vessel security certification processes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "f70d87cd-d305-49cd-856d-d00a2af6b2ed",
+    "name": "Nancy Reed",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 12 years of experience, Nancy Reed is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "41017c59-3a0a-4ca4-975f-4d89b2921657",
+    "name": "Aaliyah Crawford",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Crawford is an expert in ISM, ISPS, and MLC compliance, bringing 14 years of dedicated focus to these areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "7dc4a11b-f593-4fbc-b013-9548070b568c",
+    "name": "Joshua Crawford",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Joshua Crawford crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "67d1ea5b-48de-4cd7-b08d-23298acf7f06",
+    "name": "Jesse Crawford",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Crawford gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "cf02c99e-68fa-426f-b501-9623505030bb",
+    "name": "Laura Harper",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Harper has a talent for making every child feel special, using 21 years of experience to tailor activities to individual personalities.",
     "languages": [
       {
         "code": "en",
@@ -1698,453 +736,11 @@ export const buenosairesTeamMembers: CrewMember[] = [
     "region": "Argentina"
   },
   {
-    "id": "252eb2bd-8413-48ee-89a9-cf7a71484ddd",
-    "name": "Joan Campbell",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Joan Campbell provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 15 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "554ab7f1-de3e-49f4-9114-ffc55317f2a6",
-    "name": "Eric Hall",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "With 8 years in clinical and culinary nutrition, Eric Hall provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "741319cd-13f8-4034-acdc-3678cd3a8029",
-    "name": "Zachary Mason",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 20 years orchestrating spectacular onboard entertainment, Zachary Mason manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "02c8901a-ef4c-419a-938d-2237891780dc",
-    "name": "Mark Stewart",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Mark Stewart manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "9000b545-edd0-4c90-b277-2c6f164b8d71",
-    "name": "Lisa Morgan",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lisa Morgan consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 8 years on stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "e9ee57df-e42f-456e-89e3-15600b85bdbb",
-    "name": "Aaliyah Cooper",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Aaliyah Cooper enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "0574bff4-36b2-44cb-b847-6ac9ebb71caf",
-    "name": "Mark Graves",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Graves brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 20 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "01c4592c-e561-4991-8ecb-9c8873aa8cb7",
-    "name": "Philip Nash",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "With an innovative vision and 21 years in professional choreography, Philip Nash designs dynamic and original dance pieces for production shows and special events.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "892de911-9590-4a33-a9a6-5917de7c40ef",
-    "name": "Sarah Chambers",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "With a sharp wit and 12 years on the comedy circuit, Sarah Chambers offers hilarious observational humor and storytelling that resonates with diverse audiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "9d53d203-cb82-468a-bdb9-1088615b683b",
-    "name": "Christopher Nash",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "With 12 years honing the art of illusion, Christopher Nash performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "74e83b36-ff14-4485-b381-db681dd62d7f",
-    "name": "Alan Olivia",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Alan Olivia utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 13 years of club experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "9b70dfd4-46ff-44bc-8c1d-7ee02d8b00ee",
-    "name": "Gabriella Hamilton",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Gabriella Hamilton supports entertainment events with technical expertise in live sound engineering.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "8c2d0ea8-a79d-4cd8-8959-6eab9d6e1a67",
-    "name": "Dorothy Collins",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Dorothy Collins's artistic vision and technical mastery over 3 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "7fe93699-7dd9-482d-9992-fc445f582b72",
-    "name": "Alexander Lawson",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Stage Manager Lawson coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "c4d81a1f-417a-47c5-860f-273d59d978ca",
-    "name": "Gary Price",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Gary Price ensures timely and efficient delivery of shows, leveraging 13 years in production management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "12f30480-4eb8-478c-a689-c1fbf09b3085",
-    "name": "Mason Fisher",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Mason Fisher combines creativity and craftsmanship with 8 years of design expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "badadef9-7d11-484a-9e37-cfdef9b9f69d",
-    "name": "Mark Harper",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Mark Harper promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      },
-      {
-        "code": "it",
-        "name": "Italian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Buenos Aires",
-    "country": "Argentina",
-    "region": "Argentina"
-  },
-  {
-    "id": "d894a39a-ff5e-4ec6-aab4-783a6d459f4a",
-    "name": "Riley Knight",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Knight combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "id": "96a77feb-7420-4db1-b75c-3fcd7c059c06",
+    "name": "Deborah Fisher",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, Deborah Fisher balances fun and educational content to engage teens effectively onboard.",
     "languages": [
       {
         "code": "en",
@@ -2160,17 +756,121 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "43fe42ae-47f5-48a5-ad85-8d8ceeebeba5",
-    "name": "Sophia Collins",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Sophia Collins oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "id": "fe39780a-0fcd-49cd-ac71-747e13900e39",
+    "name": "Jason Fox",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Fox coordinates with external educators and experts to deliver diverse and culturally relevant content.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "2cdc8b02-ad7a-4292-829a-4bf1e8342b89",
+    "name": "Robert Knight",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Knight is certified in pediatric first aid and CPR, bringing 10 years of trusted care to families onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "06550654-cb0d-49ec-9890-7516f7740a1f",
+    "name": "Nora Chambers",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Nora Chambers manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "6b43fb73-c589-4e12-95b8-8eb7b67e2dfb",
+    "name": "Audrey Dunn",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Audrey Dunn maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "5f4fd3df-7aa0-482b-b9ad-b057fe539f40",
+    "name": "Douglas Graham",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Douglas Graham leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
     "languages": [
       {
         "code": "en",
@@ -2186,17 +886,95 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "8a38d992-cfac-4f70-bdce-715539b95232",
-    "name": "Lily Griffin",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Lily Griffin leverages 12 years in logistics to optimize onboard operations.",
+    "id": "bc3952a5-afe6-432a-b2d7-8bb583274861",
+    "name": "Jennifer Carpenter",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Carpenter has built strong relationships with local tour operators worldwide over 7 years, guaranteeing quality and value.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "7478a288-1a12-4b0d-bc9d-547d20e6ec37",
+    "name": "Valentina Dean",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Dean's portfolio showcases 19 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "612c80d6-2f92-47ed-b032-b097c33ee608",
+    "name": "Nicholas Douglas",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Nicholas Douglas effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "50ec515c-1672-4e21-ba6c-01168a75b081",
+    "name": "Matthew Knight",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Matthew Knight manages digital content and multimedia production, applying 12 years in digital media, marketing, and audience engagement strategies.",
     "languages": [
       {
         "code": "en",
@@ -2212,17 +990,381 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "b4154e1b-6e9a-40a9-9e39-0a7bd20697d4",
-    "name": "Layla Porter",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Inventory Specialist Porter implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "id": "c69e2843-2787-41d0-8c3c-f4d5ef93fbbf",
+    "name": "Christopher Hamilton",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Christopher Hamilton, with a distinguished 13-year career in hydraulic systems and maritime health, provides expert medical oversight for thousands of passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8a019232-d31e-4033-8d88-0bb6224b11b1",
+    "name": "Jack Mitchell",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Mitchell collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "b79aec31-37f4-49f1-88db-9e0e59cdc10e",
+    "name": "Audrey Day",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Audrey Day delivers compassionate nursing care onboard, backed by 19 years of clinical practice in maritime and travel healthcare settings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "7d6bfcf3-a166-4278-b2a9-2f9315731cdd",
+    "name": "Zola Keller",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Zola Keller fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "cc7a5435-df22-4f31-a03b-acd8f397506f",
+    "name": "Catherine West",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Catherine West manages all hospitality services, ensuring exceptional guest experiences with 15 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "d7aa0e29-011a-44fb-a28f-cc991bf9ee15",
+    "name": "David Harper",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "With a passion for service excellence developed over 10 years, David Harper leads the guest relations team to anticipate and exceed passenger expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "5093004c-90fb-481c-8809-f1b0d2771f66",
+    "name": "Antonio Grant",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 13 years leading stewardship teams, Chief Steward Grant meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "01ca5fee-cae1-4501-bb4f-c410d51a1bd7",
+    "name": "Chloe Chambers",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Chloe Chambers is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "cf8ad91e-cdda-4038-87ba-6e04775a477c",
+    "name": "Nicholas Mitchell",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Nicholas Mitchell crafts unforgettable moments for discerning guests, drawing on 5 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "e356794e-6ce9-45af-85b4-0bce50ae521a",
+    "name": "Evelyn Carpenter",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Carpenter plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8b625f7a-8134-4942-a63a-b37cc55adfdb",
+    "name": "Gerald Montgomery",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Montgomery leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "2952752e-2a59-4b4a-b980-ecba54805b7e",
+    "name": "Terry Price",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Terry Price assists guests with inquiries and special requests, drawing on 20 years in customer service roles.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "d7a58419-1f19-4293-9cbd-f09d8dabe64c",
+    "name": "Pamela Grant",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Grant offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "5857d475-9199-4f27-894c-fed48295ef7f",
+    "name": "Joe Holloway",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Joe Holloway leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "0cfc439e-656a-4b1a-b39b-d863c8703cb1",
+    "name": "Rebecca Bennett",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Bennett manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
     "languages": [
       {
         "code": "en",
@@ -2244,11 +1386,479 @@ export const buenosairesTeamMembers: CrewMember[] = [
     "region": "Argentina"
   },
   {
-    "id": "c4ce7957-a328-4f35-890c-cf1f302d94d4",
-    "name": "Jordan Mitchell",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Jordan Mitchell applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "id": "797a8d49-0f1d-479a-9fed-977215253fa2",
+    "name": "Noah Dunn",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Noah Dunn conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 5 years in adult learning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "1c927014-df25-4bfc-b24b-43dbc209d407",
+    "name": "Amy Dixon",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Continental and international gastronomy, Amy Dixon ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 16 years of award-winning experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "641233ac-1774-4db5-b85c-faa0d824a2d3",
+    "name": "Christopher Grant",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Christopher Grant trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 20 years of mentorship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "93cae4aa-94c8-417c-89c5-871fc4037a0b",
+    "name": "David Graham",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Graham crafts exquisite desserts with 16 years of baking and pastry artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "beb0785b-33d2-4940-8ebf-6b1b9efd6280",
+    "name": "Scarlett Fisher",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the vessel automation station (e.g., Saucier, Grillardin), Chef de Partie Fisher brings 6 years of expertise in preparing precise Caribbean components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "3cd58733-ed8e-4509-9ae2-2f76952a4529",
+    "name": "Ronald Watson",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Watson brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "3de723d2-dec7-41de-89d2-1c9f11878111",
+    "name": "Carol Montgomery",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Montgomery manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 16 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "ce672910-bda3-4c26-87b9-b981f1e65603",
+    "name": "Katherine Fox",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Katherine Fox is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 8 years of Nordic expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8a638737-66a8-4e60-9e7a-d2a8c147ce9e",
+    "name": "Roger Wallace",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Roger Wallace maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 19 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "abb000d3-1b6e-4c06-be20-bff89209d379",
+    "name": "Abigail Watson",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Abigail Watson manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 19 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "f35f5fc2-b587-4423-b261-b5a7dc158ec3",
+    "name": "Carlos Charlotte",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Carlos Charlotte enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "2cb75340-1474-48e2-a10e-34ea8cbd5928",
+    "name": "Abigail Cooper",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Cooper delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "bd6c6c54-8d9c-44ce-9442-9165ad3f4134",
+    "name": "Janet Carpenter",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Carpenter ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 8 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8aa8757b-c62a-45ef-85a3-6a7586222991",
+    "name": "Cynthia Olivia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Cynthia Olivia conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 6 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "ec191b36-1300-4f97-a859-7a6e537881c0",
+    "name": "Cynthia Crawford",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Cynthia Crawford constantly seeks innovative entertainment concepts and top-tier talent, leveraging 14 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "a0423421-ee56-4e26-afd0-112e6902157e",
+    "name": "Ronald Day",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Ronald Day's organizational skills, honed over 11 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "15883119-9d32-4f58-96a7-9af2e454422e",
+    "name": "Christopher Gibson",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Christopher Gibson brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "a9c89aff-2bdd-4bb8-b704-ae03a5cd0eb7",
+    "name": "Mia Maxwell",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Maxwell adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 4 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "bded582e-2910-4942-b412-d3dbea050b10",
+    "name": "Joel Curtis",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Curtis brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 21 years.",
     "languages": [
       {
         "code": "en",
@@ -2264,17 +1874,17 @@ export const buenosairesTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"
   },
   {
-    "id": "277c56ef-4fef-4cf6-8c1e-0eedd3e0b8a9",
-    "name": "Joel Price",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Joel Price promotes sustainable practices aligned with maritime environmental standards.",
+    "id": "720374e4-03d4-48ac-8b09-ff0545ffcf1b",
+    "name": "Jerry Cooper",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Cooper works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 15 years of artistic direction.",
     "languages": [
       {
         "code": "en",
@@ -2289,8 +1899,398 @@ export const buenosairesTeamMembers: CrewMember[] = [
         "name": "Italian"
       }
     ],
-    "experienceYears": 12,
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "1b020aa3-b0ac-4c4a-a507-293efb69f1b3",
+    "name": "Zola Sutton",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Sutton masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "11b34998-169d-434d-8044-d7fe748d2a47",
+    "name": "Aiden Fletcher",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Fletcher mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "83f10d08-0bc9-4cad-9163-ca4e1cb9e0d6",
+    "name": "Audrey Carpenter",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Carpenter stays current with music trends while also mastering classics, offering 16 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 16,
     "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "136011aa-6464-4d5b-b4ac-cdbcb1089cf8",
+    "name": "Nathan Stewart",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Stewart manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "1c020bb1-5727-4ce9-8ff0-c94d180ca78c",
+    "name": "Amina Cooper",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 18 years in theatrical lighting design and operation, Amina Cooper transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "324280d5-8880-4036-8e4c-688de1ee1da2",
+    "name": "Isabella Reeves",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Reeves coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "83167813-f23c-4ac8-91a6-921cf122a57f",
+    "name": "Victor Dunn",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Victor Dunn's strategic planning and problem-solving skills, developed over 19 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "282a7390-512c-4108-925e-5fb18b9d633d",
+    "name": "Albert Mitchell",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Mitchell manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "23b70aed-1da2-428c-8cd5-be15b93cb328",
+    "name": "Gabriel Chambers",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Gabriel Chambers's passion for cultural exchange, cultivated over 22 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8f5a486b-a898-4cb5-9807-c29d4aebdd62",
+    "name": "Randy Nash",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Nash delivers unique and innovative acts, blending multiple disciplines with 14 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "50626358-8a51-4a87-9e52-e7928f4db276",
+    "name": "Blake Dixon",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Blake Dixon oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "501ae4e6-c2d4-42ce-a2ad-8776b73ad3d2",
+    "name": "Laura Foster",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 3 years coordinating complex supply chains, Laura Foster ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "d327a1a7-9b9c-4224-9b1f-3b439d9e3eeb",
+    "name": "Maya Chambers",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Chambers tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "b0584b04-100a-407d-9c4a-f7cb387e6911",
+    "name": "Gabriella Hudson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Gabriella Hudson's sharp negotiation skills and 10 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "region": "Argentina"
+  },
+  {
+    "id": "8f40547a-bf42-4d01-ad11-5efb0731d004",
+    "name": "Philip Dean",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Dean implements green initiatives to minimize environmental impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "it",
+        "name": "Italian"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
     "city": "Buenos Aires",
     "country": "Argentina",
     "region": "Argentina"

@@ -2,413 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Tokyo
-    // Generated on: 2025-06-10T03:41:38.307Z
+    // Generated on: 2025-06-10T08:14:17.445Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const tokyoTeamMembers: CrewMember[] = [
   {
-    "id": "b2f7d9e9-d055-49f9-8039-def51b588fdd",
-    "name": "Sean Graves",
+    "id": "93c5cba0-cd88-4927-b713-0dd826298942",
+    "name": "Audrey Hamilton",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Graves's strategic decision-making and crisis management skills, honed over 9 years, ensure smooth and safe voyages throughout Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "2d5cb129-9988-4561-b49b-b3ffa6e30455",
-    "name": "Bobby Dixon",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Bobby Dixon applies comprehensive knowledge of Japan's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "9cd82c94-f2a0-4842-9ef5-b38b12819f16",
-    "name": "Alan Campbell",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Campbell's responsibilities include managing the ship's medical stores and providing medical assistance, drawing on 3 years of maritime service in Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "024e642b-af6c-45d2-b612-5f383809b298",
-    "name": "Scarlett Campbell",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Campbell assists with cargo operations and ballast management, a key part of their 3 years of development in Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "8d5c13bd-7dd5-457f-8b83-55b1ef425935",
-    "name": "Randy Lawson",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Randy Lawson collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "82606ded-d615-428a-82a9-e0a4712aecb8",
-    "name": "Peter Stewart",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Stewart documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "9cccbf00-bfc6-402a-a3cd-ed0c7fb81f61",
-    "name": "Jack Mason",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "As a dedicated Deck Cadet, Jack Mason is gaining 15 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "7fc86dce-2f2e-4996-893b-acb6d8b4e5ca",
-    "name": "Melissa Wallace",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Wallace maintains the vessel's exterior appearance and structural integrity, a testament to 10 years of dedication in Japan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "73bd7517-f6bb-449f-b540-a70bf2882d49",
-    "name": "Bryan Hudson",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Known for strategic problem-solving, Bryan Hudson directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "77460b00-ca84-4982-b91f-ce85f314f817",
-    "name": "Emily Hayes",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Hayes coordinates maintenance and repairs with 22 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "5fd6e08f-6546-4f00-9bde-ee2bafe75c72",
-    "name": "Susan Montgomery",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Susan Montgomery supports engineering operations with 12 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "30c70fe0-9327-4bc7-b677-416ea4265ec4",
-    "name": "Mary Murray",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 13 years, Mary Murray ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "8f143d35-7119-4fe6-8a17-88f50bdf5c6d",
-    "name": "Priya Jennings",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "With 6 years of mechanical expertise, Priya Jennings maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "ae88a1f9-4b55-42a7-9e6b-081c9c3e597e",
-    "name": "Bryan West",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer West's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 13 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "27c6e392-aa1f-419b-9312-cf2933aa958d",
-    "name": "Adam Porter",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Adam Porter applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "971e34cf-0104-4f14-aca6-1b0c260bddaa",
-    "name": "Antonio Olivia",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Olivia collaborates across departments to implement new technologies aligned with industry standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "b9a5f812-7c0a-4365-b84d-55e319989a18",
-    "name": "Katherine Russell",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Technical Manager Russell oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "2aec6136-e606-4d66-8927-ba9257d4e796",
-    "name": "Kennedy Gardner",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Gardner troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "ba49f080-6371-40de-bcb0-5c5db05b64d5",
-    "name": "Nomsa Henderson",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Nomsa Henderson oversees all security operations with 7 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "bio": "Drawing on 7 years of command, Audrey Hamilton expertly manages all aspects of vessel operation in Japan, emphasizing crew development and operational excellence.",
     "languages": [
       {
         "code": "en",
@@ -420,17 +24,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "d9d2acab-0dd4-4aae-9867-ea0e6b2e6824",
-    "name": "Edward Maxwell",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "With 14 years on watch, Edward Maxwell is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
+    "id": "5343a17c-291e-4485-93a8-4318e46a6e68",
+    "name": "Isabella Curtis",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Isabella Curtis, with 11 years navigating Japan, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       {
         "code": "en",
@@ -441,238 +45,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "743850aa-da69-406e-976b-c5c47febf922",
-    "name": "Stella Fox",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Drawing on 12 years, Stella Fox has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "c063ab98-1039-4b4d-a0c9-4fff788551e3",
-    "name": "Victor Mason",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Victor Mason ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 10 years of focused work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "6721e238-b8b6-4b04-855a-98805eeac541",
-    "name": "William Griffin",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With 3 years in the role, William Griffin is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "f8a218cd-114c-4f5a-b5c0-16cf901cbf54",
-    "name": "Isabella Jennings",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Jennings coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "f5870722-0b69-4bcd-a244-c4271595bc5a",
-    "name": "Kenneth Baker",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Kenneth Baker meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 3 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "80bf6df9-96f0-420f-be3f-52768cad4c19",
-    "name": "Arthur Parker",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Arthur Parker integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "761b4e43-f4cc-4455-b2f3-f29e3f61917e",
-    "name": "Lucas Graham",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Graham is adept at creating a welcoming and fun atmosphere where families can create lasting memories, a skill honed over 20 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "dcf2b747-9549-4ed5-aa60-a16dec324a5e",
-    "name": "Dorothy Holloway",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Holloway collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "40734fe4-8cdf-4feb-b0cc-1140547392d1",
-    "name": "Wei Harper",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Harper is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 3 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "4674b3e5-34c6-4b28-bbfc-5c52e1414367",
-    "name": "Layla Stewart",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Layla Stewart oversees onboard educational initiatives, combining 12 years of academic and program management experience to enrich passenger learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "bdfe9976-d022-4426-8b50-8d12dcc6972f",
-    "name": "Christopher Day",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for patience and professionalism, Christopher Day communicates effectively with parents and crew to support child wellbeing.",
+    "id": "1d0470e1-2593-4a93-a452-288000eb13ac",
+    "name": "Julie Griffin",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Julie Griffin brings 17 years of experience navigating Japan's challenging routes.",
     "languages": [
       {
         "code": "en",
@@ -684,61 +68,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "d1fe6585-f2bf-4a4e-bf67-8d195225c9c9",
-    "name": "Olivia Foster",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With a focus on guest engagement and satisfaction, Olivia Foster designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "107ef588-f09b-4676-854c-87a3f2f7534e",
-    "name": "Gary Clark",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Clark possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 14 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "05aaa46a-7145-42a9-b040-d8d8dbde63d4",
-    "name": "Layla Wells",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Wells integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
+    "id": "3cf18c81-09d5-4b03-b8c2-e3b9739ce7cc",
+    "name": "Adeline Warren",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Warren conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Japan.",
     "languages": [
       {
         "code": "en",
@@ -750,17 +90,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "9f9e6f74-ba0f-4c1f-bb62-d0b438d83dd5",
-    "name": "Richard Gardner",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Richard Gardner manages shore excursions with 16 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
+    "id": "f45b7456-2bae-4b89-b722-b0d79e482e59",
+    "name": "Patricia Gibson",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Experienced in electronic chart systems (ECDIS) and radar, Patricia Gibson has 16 years navigating the complex and often congested waters of Japan.",
     "languages": [
       {
         "code": "en",
@@ -772,17 +112,61 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "1e074639-3bab-495f-9967-01eed567cf3f",
-    "name": "Zachary Graves",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, Zachary Graves collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "id": "58f959f5-db29-4d71-98ab-6b42ce95762e",
+    "name": "Ethan Keller",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Keller documents incidents and implements corrective actions to continuously improve onboard safety performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "4f2c2ca2-85a1-4220-84bf-2d32f82b0676",
+    "name": "Christopher Olivia",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Under the guidance of senior officers, Deck Cadet Olivia is developing a strong foundation in practical navigation and ship handling in Japan.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "01bef914-0432-41f2-b50a-f35e15ba46f4",
+    "name": "Olivia Gibson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Gibson mentors junior deck crew, promoting professional development and adherence to best practices in Japan's maritime industry.",
     "languages": [
       {
         "code": "en",
@@ -794,17 +178,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "e95a3cae-a2a0-4008-bb8d-67b1441a61fd",
-    "name": "Edward Douglas",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Leveraging 3 years in filmmaking, Edward Douglas produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "id": "fe24f8d1-1320-4fc6-abe1-e54f6b1022ee",
+    "name": "Jeffrey Porter",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Porter manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
     "languages": [
       {
         "code": "en",
@@ -815,18 +199,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "233276c5-a2f0-4d92-ab92-828694d1d704",
-    "name": "Genesis Curtis",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Genesis Curtis manages digital content and multimedia production, applying 20 years in digital media, marketing, and audience engagement strategies.",
+    "id": "988b1783-d848-43d9-b012-e7938a26ddef",
+    "name": "Douglas Wells",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Wells coordinates maintenance and repairs with 10 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
     "languages": [
       {
         "code": "en",
@@ -837,18 +221,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "fbf5a542-acf1-4582-98ec-1185612dce23",
-    "name": "Justin Warren",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Justin Warren oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
+    "id": "79ad2c7c-56d2-4c55-b00f-78d9515a8414",
+    "name": "Thomas Gardner",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With 15 years of experience, Thomas Gardner is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
     "languages": [
       {
         "code": "en",
@@ -860,259 +244,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "fd8cb47a-7952-4b0f-b533-e29d2b6c0c1e",
-    "name": "Thabo Griffin",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Griffin, drawing from 17 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "661f55d7-301e-4d03-bb7e-97301caac9ac",
-    "name": "Oliver Morgan",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Morgan provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 8,
     "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "7e177bec-a14a-4b82-bcf8-efd8d3c47c8b",
-    "name": "Raymond Price",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to regulatory adherence, Raymond Price stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "df3f2e7d-3e95-46a4-9974-718ea88fa222",
-    "name": "Rajesh Spencer",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 14 years in hospitality management, Rajesh Spencer drives operational excellence and team performance onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "1344b8e4-8a11-497d-b308-764e6c876fab",
-    "name": "Emma Stewart",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Stewart enhances passenger satisfaction through attentive and personalized service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "3980d2c4-b619-48a2-a37c-c7aa1b2e9168",
-    "name": "Dylan Campbell",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Dylan Campbell excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 6 years of dedication.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "914d95ab-2c44-4b78-8074-83c0783b5e7e",
-    "name": "Austin Dixon",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Austin Dixon is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "1d2dfb3b-253b-4259-a84c-2cc0c0d4a6e2",
-    "name": "Alan Stewart",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Alan Stewart crafts unforgettable moments for discerning guests, drawing on 14 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "c4a54d43-728b-40ab-9ee0-739909aeddfc",
-    "name": "Priya Ellis",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Priya Ellis oversees accommodation services, ensuring comfort and efficiency with 20 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "f78d96d1-14c4-4aa7-9297-a79ca0f4d769",
-    "name": "Caroline Dunn",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "With a keen eye for detail developed over 22 years, Housekeeping Supervisor Dunn conducts rigorous inspections to uphold pristine conditions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "e625cfaa-3875-4ebc-94ae-a4ab952e020a",
-    "name": "Vincent Hawkins",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Hawkins facilitates seamless guest interactions to enhance onboard experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "410605ec-1469-4c93-9ba5-e41081f45534",
-    "name": "Valentina Stewart",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Valentina Stewart acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "id": "8c6f0ab0-dcba-4314-9c15-0660d4b78962",
+    "name": "Elizabeth Holloway",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Holloway specializes in fault-finding within complex circuits and automation logic, a skill honed over 19 years.",
     "languages": [
       {
         "code": "en",
@@ -1124,83 +266,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "b3df9538-2993-439c-8eb8-dc49a0222585",
-    "name": "Patrick Stewart",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Patrick Stewart leads front office teams with a focus on excellent customer service and operational efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "6ee4c3ba-91be-4ab8-948b-fedd2480c5c4",
-    "name": "Brian Parker",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Brian Parker designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "85f32b2f-249c-4895-8c11-0d18d2972c9b",
-    "name": "Zola Olivia",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Zola Olivia conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 8 years in adult learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "f4ea246a-0d78-46a1-8744-74a5e30657c8",
-    "name": "Adeline Carpenter",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Mastering Pan-Asian and international gastronomy, Adeline Carpenter ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 17 years of award-winning experience.",
+    "id": "7c7f57d2-7a0c-4370-8cca-e18dfccfa3bf",
+    "name": "John Dean",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "John Dean is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
     "languages": [
       {
         "code": "en",
@@ -1212,17 +288,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "fb544cb0-eb55-41d5-8849-3b7aae7a8fb4",
-    "name": "Caroline Gardner",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Caroline Gardner trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 10 years of mentorship.",
+    "id": "e9726e2b-42be-4988-a4d4-cd0110fb6b19",
+    "name": "Amy Baker",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 15 years, Amy Baker is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
     "languages": [
       {
         "code": "en",
@@ -1233,348 +309,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "bb80a85a-250d-482b-92b2-c270a6b838bd",
-    "name": "Elena Palmer",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Palmer crafts exquisite desserts with 9 years of baking and pastry artistry.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "185eda43-56ac-4dd4-acf2-d95f638551be",
-    "name": "Russell West",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Russell West ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "21170f1d-a2a8-4983-97ed-cb454cb88636",
-    "name": "David Griffin",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Griffin brings innovation and authenticity to the onboard dining experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "b214957e-4ad1-4b2b-a70f-165b2c464ccf",
-    "name": "Lucas West",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef West prepares fresh and artistic sushi dishes, drawing on 17 years of Japanese culinary tradition.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "0f74fa69-aa26-471f-b674-c379061157bf",
-    "name": "Maria Hunter",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Hunter expertly prepares cold dishes and appetizers with 20 years of culinary proficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "c3e82777-3507-4f23-ab20-628355e1405f",
-    "name": "Thomas Harper",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "With 9 years of expertise, Butcher Harper expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Caribbean dishes.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "befb420b-003a-4cc9-b9c4-3db32cd6aadd",
-    "name": "Lawrence Wallace",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Wallace produces fresh breads and baked goods, leveraging 13 years of baking expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "e8af04a3-495f-4262-938e-b48e7aed596d",
-    "name": "Elizabeth Jennings",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "With 11 years in Michelin-starred establishments, Sommelier Jennings elevates the dining journey through impeccable wine service and cellar management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "d5b47c83-b526-40c4-954e-f657c67a35d6",
-    "name": "Liam Henderson",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 20 years behind the bar, Liam Henderson designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "ddd33e7d-c7c3-4ed1-883f-29f2d4511544",
-    "name": "Rachel Chambers",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Rachel Chambers combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "ea49c3e4-1cfd-44b7-af87-8912411c79ee",
-    "name": "Harper Palmer",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Harper Palmer collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "e6feb774-85dd-4238-b5c5-b5f643b58bdc",
-    "name": "Blake Mitchell",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Mitchell curates diverse programming to engage and delight guests throughout voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "4234185e-5b70-4c5b-8902-928e2e5329a3",
-    "name": "Deborah Cooper",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Deborah Cooper's organizational skills, honed over 17 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "70350a17-1a05-4d95-9c22-e9436ae9d599",
-    "name": "Jason Bennett",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Bennett captivates audiences with dynamic performances, backed by 11 years of professional singing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 11,
+    "experienceYears": 15,
     "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "5ccec3b2-a835-4fe3-825e-5ec1fa022e53",
-    "name": "Sebastian Curtis",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "A master of the {instrument}, Sebastian Curtis brings 18 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "1d74e69a-1d36-414a-8f46-b63db17aae85",
-    "name": "Donna Hayes",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Hayes brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 5 years.",
+    "id": "d070ff94-1b90-47bd-b861-0384a6d36689",
+    "name": "Sofia Griffin",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Griffin manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 5 years of dedication.",
     "languages": [
       {
         "code": "en",
@@ -1586,17 +332,83 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "a32eade0-0b63-4d5c-946e-8f729a6f2504",
-    "name": "Isabella Porter",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "With an innovative vision and 3 years in professional choreography, Isabella Porter designs dynamic and original dance pieces for production shows and special events.",
+    "id": "22e2cdb4-01e5-4ac0-8e75-c031cf0d7dca",
+    "name": "Diego Griffin",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Griffin leads technical solutions for navigation, communication, automation, and control systems with 18 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "1071964a-bbe2-43b0-a7e2-19ec0c6a9a9b",
+    "name": "Marcus Hall",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Marcus Hall provides expert guidance on complex technical challenges and long-term asset management, drawing from 20 years of senior engineering leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "b54a049b-2b13-4c48-aae1-84a560d3a7c2",
+    "name": "Brenda Cooper",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Cooper applies 7 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "9b25a1f3-b315-4ce7-a3d3-65e54f4690f2",
+    "name": "Melissa Porter",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Melissa Porter, with 3 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
     "languages": [
       {
         "code": "en",
@@ -1608,17 +420,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "b4fbea7f-2c16-4cd9-9984-2f2388625183",
-    "name": "Gabriel Parker",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Parker delivers engaging and memorable stand-up routines onboard.",
+    "id": "91c5d356-a6e2-4daa-9708-c05a4ec9184c",
+    "name": "Skylar Mitchell",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Mitchell is proficient in emergency communication procedures and crowd management, vital skills honed over 6 years.",
     "languages": [
       {
         "code": "en",
@@ -1629,40 +441,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "deb15797-55d2-4605-b701-3a53d6d862c8",
-    "name": "Ryan Parker",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Ryan Parker blends showmanship and technique to deliver captivating magic shows at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "8a2b80d0-a694-4204-8924-4d1dce2da2c0",
-    "name": "Adeline Grant",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Adeline Grant keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "id": "1c104148-1f8c-4fa5-8833-d547bd277812",
+    "name": "Joseph Watson",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Watson develops tailored security plans and threat mitigation strategies based on 4 years of maritime threat analysis and intelligence gathering.",
     "languages": [
       {
         "code": "en",
@@ -1674,61 +464,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "1094a7ad-e6be-477e-8454-f9bc4e481ef3",
-    "name": "Diego Hudson",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Hudson expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "edf23849-7624-4ebc-ae22-72380c63b8e3",
-    "name": "Joe Hall",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Hall designs and operates lighting systems to enhance onboard shows and events.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "610ab6f8-2142-4d5c-81a1-f0ef82ceb97e",
-    "name": "Timothy Russell",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "With 21 years in professional stage management, Timothy Russell meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "id": "eb721a08-eab4-4e29-bda8-12be554e1614",
+    "name": "Jacob Murray",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "With a background in IT security, Jacob Murray safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
     "languages": [
       {
         "code": "en",
@@ -1740,83 +486,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "0d154442-3a35-4100-8e13-24df95250459",
-    "name": "Joel Nash",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Joel Nash ensures timely and efficient delivery of shows, leveraging 19 years in production management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "d1e3a0e4-297f-4660-a0e8-2344e3312186",
-    "name": "Timothy Keller",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "With 18 years of experience in theatrical costume design, Timothy Keller conceives and produces stunning wardrobes that define characters and elevate productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "4c1fa51f-18f7-4619-9fc5-da2b123a9dde",
-    "name": "Adeline Maxwell",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Maxwell curates culturally enriching events and experiences for guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ja",
-        "name": "Japanese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
-    "city": "Tokyo",
-    "country": "Japan",
-    "region": "Japan"
-  },
-  {
-    "id": "f538bb03-a5fd-448d-baaa-3f11f2884c15",
-    "name": "Matthew Murray",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 22 years pushing artistic boundaries, Matthew Murray offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "id": "9fb585ba-74f7-4817-90e4-5c7c45fae660",
+    "name": "Dennis Fletcher",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Dennis Fletcher manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
     "languages": [
       {
         "code": "en",
@@ -1828,17 +508,17 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "43cd892e-5c91-4175-9707-6f1b1aff0e8a",
-    "name": "Billy Porter",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Billy Porter plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 9 years of maritime expertise.",
+    "id": "62092da9-36f3-4082-9c0a-7f8677cde614",
+    "name": "Albert Porter",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, Albert Porter conducts regular audits of access logs and assists in security incident investigations.",
     "languages": [
       {
         "code": "en",
@@ -1849,18 +529,18 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "8afbec9e-97fe-408f-ba2c-b56a3589cdce",
-    "name": "Gabriel Henderson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Henderson manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "id": "32203df1-f858-4929-a752-b4cfb8095a93",
+    "name": "Lisa Marshall",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Marshall conducts safety audits, training, and inspections to uphold the highest standards throughout vessel operations.",
     "languages": [
       {
         "code": "en",
@@ -1871,18 +551,106 @@ export const tokyoTeamMembers: CrewMember[] = [
         "name": "Japanese"
       }
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "73918f5e-ca73-4e10-8e78-f56a82e317c5",
-    "name": "Valentina Baker",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Valentina Baker ensures accurate inventory control using advanced management systems.",
+    "id": "51aeddc1-9515-4589-af06-ed05ae8512a7",
+    "name": "Aria Payne",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Payne manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "0e8029ef-106f-43d7-8730-b5ec97b58623",
+    "name": "Melissa Mason",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Mason designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "0ab73eed-3538-4c43-9f64-1cde9693cdd1",
+    "name": "Donna Hayes",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for energetic delivery and adaptability, Donna Hayes adjusts programming to accommodate different group sizes and interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "f7b410e0-f960-45a1-99c1-61454be6890e",
+    "name": "Gabriel Griffin",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, Gabriel Griffin balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "136b9009-d56c-45be-ba39-d562b479f954",
+    "name": "Allison Douglas",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Douglas coordinates with external educators and experts to deliver diverse and culturally relevant content.",
     "languages": [
       {
         "code": "en",
@@ -1894,17 +662,105 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "593ecd73-202a-4216-9bdb-cf002dac65ec",
-    "name": "Nicholas Grant",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "With 20 years in strategic sourcing, Nicholas Grant identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "id": "4d6661fb-749f-4c68-b257-6b38e9e2d251",
+    "name": "Liam Douglas",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Douglas promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "98e0fccd-9642-4b44-a245-8788727e99da",
+    "name": "Chloe Gibson",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 3 years in recreation management, Chloe Gibson curates an exciting and varied daily program of entertainment and activities for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "83f3a6d0-96b3-4bd5-a5ef-b9c0ed58a0d6",
+    "name": "Alexa Sutton",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Sutton ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "674ca087-735a-46d9-b98c-5fc8bdb7acd8",
+    "name": "Caroline Foster",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Caroline Foster leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "8f866f1b-a76a-4de1-944c-605e15aa3883",
+    "name": "Harry Watson",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Watson prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
     "languages": [
       {
         "code": "en",
@@ -1916,17 +772,699 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "5565ab30-6024-4b68-ab00-795b48e45746",
+    "name": "Samantha Dixon",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Dixon manages photographic equipment, editing workflows, and passenger portrait sessions with precision and professionalism.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "aeae4ed6-64ba-47d0-a4ac-8b1b5958d46e",
+    "name": "Sofia Charlotte",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Charlotte maintains technical equipment and coordinates with production teams to ensure seamless content delivery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "843a2604-3ee7-4d90-97ce-313409462196",
+    "name": "Harry Carpenter",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 4 years in the digital realm, Harry Carpenter crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "3a0cedd3-2e92-47af-bb88-f97f7fcb61aa",
+    "name": "Peter Murray",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "With extensive knowledge in maritime medicine and emergency response, Peter Murray ensures readiness for diverse medical situations at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "a191c6ca-1503-476a-9ce4-e4bff18c262b",
+    "name": "Louis Maxwell",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Maxwell conducts routine health assessments and manages medical records in compliance with international maritime standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "09db2fa9-3f85-4821-8ed3-e6634d73dafa",
+    "name": "Susan Warren",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Warren is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 13 years of practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "b7b6d289-a1d9-4ce2-8bbd-607becd07464",
+    "name": "Allison Clark",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 10 years overseeing maritime safety, Allison Clark ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Japan.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 10,
     "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"
   },
   {
-    "id": "8cce7d03-4559-4997-823c-f017a3cce85b",
-    "name": "Harry Olivia",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "With 20 years dedicated to environmental stewardship in the maritime sector, Harry Olivia develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "id": "534ad202-8eb4-4c24-b264-0441ba74d3e0",
+    "name": "Patricia Day",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Patricia Day is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 8 years of cultivating outstanding hospitality teams.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "a7b40a81-396b-4120-a170-a153b1c5cb72",
+    "name": "Sofia Griffin",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Sofia Griffin coordinates guest services and resolves issues, leveraging 22 years of customer relations expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "e9cc25e5-ea5f-4946-9523-784605976cd8",
+    "name": "Andrew Russell",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Andrew Russell excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 14 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "55834417-09cf-47a8-bfb4-8efce73dc8ff",
+    "name": "Logan Graves",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Graves delivers attentive guest services and supports stewardship operations, drawing on 3 years onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "15d8c122-24b3-4d73-bab8-8887df734549",
+    "name": "Carl Holloway",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 12 years, Butler Holloway offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "b2706300-8a9f-439a-a280-b3da21140f21",
+    "name": "Anthony Dunn",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Dunn coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "633145a9-9d89-48c3-83d8-88e3f5057073",
+    "name": "Amina Graham",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Amina Graham ensures smooth operations and staff training, supported by 6 years in hospitality management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "5c8d4d0a-29f7-4be2-97e4-a573ff61acb0",
+    "name": "Amelia Marshall",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Marshall facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "e44dc5fe-e960-42f8-8994-7215bd7e90c7",
+    "name": "Nicole Day",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Day offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "ddf1fcbe-6bc5-4514-934a-5462ee9bd951",
+    "name": "Roger Holloway",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Holloway oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "19f925bc-eaf7-4fdf-a0ce-454c9baac2a5",
+    "name": "Albert Clark",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Clark liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "75a1160e-ddd3-472d-93f1-2602befc1259",
+    "name": "Gabriel Hayes",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Gabriel Hayes develops training programs to elevate hospitality team skills, with 21 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "3f9680b3-d08d-442b-9de1-7e34c2828ca8",
+    "name": "Aaliyah Palmer",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Asian fusion and international gastronomy, Aaliyah Palmer ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 7 years of award-winning experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "1bea19ce-dd10-4a42-810f-c02a566eaba9",
+    "name": "Caroline Warren",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 3 years in high-volume kitchens, Sous Chef Warren is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "130bbc56-e4d2-4201-a97d-735b993dadf4",
+    "name": "Vincent Marshall",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate French pastries and innovative dessert creations, Pastry Chef Marshall brings 6 years of refined skill to the culinary team.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "00ced6a9-a5d5-489b-848f-7b91f0af9a64",
+    "name": "Michael Curtis",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Michael Curtis maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 5 years of discipline.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "d908c989-2339-4702-aee7-f37d32502938",
+    "name": "Arthur Collins",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Arthur Collins creates authentic dishes that transport guests to Japan, drawing on 4 years of dedicated culinary exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "a77b5bb5-ec6a-4fdc-aac2-a90e4c8f493e",
+    "name": "Willie Charlotte",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Charlotte prepares fresh and artistic sushi dishes, drawing on 5 years of Japanese culinary tradition.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "28fd847c-39f5-4ad7-8973-6dd237cb4b46",
+    "name": "Henry Wallace",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Wallace ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "5c8b0570-70e3-45ec-a9f9-ed1efe76033b",
+    "name": "Catherine Mitchell",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Catherine Mitchell maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 13 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "3f06b0b4-4827-4a40-84f5-25e313703651",
+    "name": "Joel Palmer",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Palmer produces fresh breads and baked goods, leveraging 12 years of baking expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "e994c1a8-e98f-4b32-a823-d88bec42de68",
+    "name": "Joshua Jennings",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Joshua Jennings provides engaging wine education and tasting experiences for guests, sharing insights from 13 years exploring global viticulture.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "74476abf-c41d-4596-a927-d369304c1942",
+    "name": "Sophia Russell",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Russell crafts creative cocktails, combining flavor expertise with 3 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "7d899ca5-e82a-4332-abb9-ee5845fd0df2",
+    "name": "Dennis Baker",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Dennis Baker provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 15 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "865d637d-ef5f-4775-bc1c-c27ff36116b8",
+    "name": "Lily Lawson",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "With 20 years in clinical and culinary nutrition, Lily Lawson provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +1476,469 @@ export const tokyoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "59e38c9c-f4ff-49c4-bf56-accc7ea47eaa",
+    "name": "Leah Olivia",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Olivia curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "d67088ab-c780-43ea-be27-bbf12b639f7e",
+    "name": "Susan Hayes",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Susan Hayes manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "11b4bf39-5f86-405b-ae45-ab01d94a1f4d",
+    "name": "Sean Crawford",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Crawford collaborates with the cast and creative team, bringing 7 years of professional discipline and artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "f70b7392-8b70-43ca-b9ec-98f5309ed6a1",
+    "name": "Louis Dixon",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Dixon adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 13 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "2fc1662f-1d3a-4068-b326-2d26e722be54",
+    "name": "William Reed",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 13 years of professional training in {danceStyle} and contemporary dance, William Reed executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "4588ba20-8633-44a6-8ebe-0c27ffbbf86a",
+    "name": "Betty Cooper",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Cooper creates captivating dance routines, blending creativity with 10 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "aad1eadc-2721-4cd6-8620-42182fa56275",
+    "name": "Kinsley Holloway",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Kinsley Holloway's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "ed9d8da3-6d4f-4993-9a1f-6544036de25a",
+    "name": "Ronald Campbell",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Campbell combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "b8f8f8c3-b915-4ae4-95b4-c69b430beecf",
+    "name": "Nathan Carpenter",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Carpenter stays current with music trends while also mastering classics, offering 10 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "34945844-5344-4a6f-b950-11d82de443ee",
+    "name": "Bruce Campbell",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Bruce Campbell's keen ear and technical proficiency, developed over 17 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "63e88d1a-ebc8-4d1f-8fc4-a4a60fadc6ed",
+    "name": "Layla Fisher",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Fisher programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "c6dc9889-f27d-46de-ae12-a641f7f1ab46",
+    "name": "Ashley Russell",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Ashley Russell supervises stage operations and talent, drawing on 12 years of event management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "47a4132e-2f60-40d9-b4c1-3743d4712529",
+    "name": "Mark Lawson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Mark Lawson's strategic planning and problem-solving skills, developed over 17 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "fea7502c-e1c1-43c7-9a1b-2d9ec2ff6d24",
+    "name": "Nathan Nash",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Nathan Nash combines creativity and craftsmanship with 19 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "b14acec5-ec86-4fe9-bab7-d31a69fe0807",
+    "name": "Alexander Gardner",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 12 years in arts and cultural programming, Alexander Gardner develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "6d69c5d1-debd-40de-b7a5-1c2a529f788f",
+    "name": "Valentina Graves",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Graves combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "bd60ce00-db06-4091-93d5-8d9368e7c0da",
+    "name": "Caroline Keller",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Caroline Keller oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "786043db-508f-460c-9823-28096ddfb6b8",
+    "name": "Jason Curtis",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Curtis meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "8baac198-baf3-40df-b8f8-40d40efdc27e",
+    "name": "Nicholas Reeves",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Reeves tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "42467e85-642c-48e6-88f8-2d606ad195b7",
+    "name": "Samuel Palmer",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Palmer manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Tokyo",
+    "country": "Japan",
+    "region": "Japan"
+  },
+  {
+    "id": "6b9bf328-f14b-4938-a1d8-c5a323a23a1a",
+    "name": "Janet Watson",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Janet Watson champions innovative eco-friendly technologies and practices, leveraging 22 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ja",
+        "name": "Japanese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "Tokyo",
     "country": "Japan",
     "region": "Japan"

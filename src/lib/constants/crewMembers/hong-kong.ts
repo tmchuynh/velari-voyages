@@ -2,17 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Hong Kong
-    // Generated on: 2025-06-10T03:41:38.292Z
+    // Generated on: 2025-06-10T08:14:17.429Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const hongkongTeamMembers: CrewMember[] = [
   {
-    "id": "c998d673-7d7c-4b0d-adde-978b5c58bc3a",
-    "name": "Aiden Douglas",
+    "id": "d094324d-8e1e-4ea1-9053-61114c8c187c",
+    "name": "Elijah Collins",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Aiden Douglas brings over 4 years of experience navigating Unknown's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
+    "bio": "With a distinguished 3-year career, Elijah Collins ensures the highest standards of safety and seamanship aboard, navigating Hong Kong with precision and authority.",
     "languages": [
       {
         "code": "en",
@@ -23,18 +23,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "72151cf9-ac79-4284-8e47-482e301fa0d2",
-    "name": "Hannah Hayes",
+    "id": "832bdd96-824d-488d-beff-c6f2ed25ee56",
+    "name": "Oliver Dunn",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Hannah Hayes applies comprehensive knowledge of Unknown's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "bio": "First Officer Dunn supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Hong Kong.",
     "languages": [
       {
         "code": "en",
@@ -45,18 +45,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "70113f92-0e8c-40b5-baa3-82c88ec9e717",
-    "name": "Kinsley Parker",
+    "id": "73b40920-47b2-413c-9472-ea9ddacd6e1b",
+    "name": "Sofia Spencer",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "With a strong focus on electronic navigation and safety equipment, Kinsley Parker brings 22 years of experience navigating Unknown's challenging routes.",
+    "bio": "Utilizing 21 years of expertise, Sofia Spencer meticulously maintains navigational charts and publications crucial for safe transit in Hong Kong.",
     "languages": [
       {
         "code": "en",
@@ -67,18 +67,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "0738a496-cf7b-49be-a906-091ddad02f4b",
-    "name": "Emma Nash",
+    "id": "faff27d0-f869-45f5-befc-ac5f8f40101b",
+    "name": "Emma Stewart",
     "role": "Third Officer",
     "department": "Deck Department",
-    "bio": "Drawing on 19 years of experience in Unknown, Emma Nash is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
+    "bio": "As a vigilant watchkeeper, Emma Stewart has 13 years supporting navigation, safety drills, and emergency procedures aboard vessels in Hong Kong.",
     "languages": [
       {
         "code": "en",
@@ -89,18 +89,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "f1fe0ba6-c65b-4a36-a2fc-0798fe879be2",
-    "name": "Eleanor Clark",
+    "id": "ac143f61-2e24-4e51-bfce-b1d8927dde52",
+    "name": "Christian Dunn",
     "role": "Navigation Officer",
     "department": "Deck Department",
-    "bio": "Eleanor Clark collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to Unknown.",
+    "bio": "With 14 years dedicated to Hong Kong routes, Christian Dunn excels in dynamic positioning and integrated navigation systems management.",
     "languages": [
       {
         "code": "en",
@@ -111,18 +111,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "c08fd5c5-e21f-4c5c-b366-4bc334ea7adc",
-    "name": "Mary Day",
+    "id": "063e35bb-af0d-43fc-b8d9-10793c9f27ca",
+    "name": "Virginia Murray",
     "role": "Safety Officer",
     "department": "Deck Department",
-    "bio": "Leveraging 16 years in maritime safety, Mary Day excels at developing and implementing targeted safety training programs relevant to Unknown's specific operational hazards.",
+    "bio": "Committed to regulatory adherence, Virginia Murray stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
     "languages": [
       {
         "code": "en",
@@ -133,18 +133,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "29e6fe14-52d6-4c27-8dab-624b0930c7b0",
-    "name": "Elizabeth Henderson",
+    "id": "e793e1cb-5b73-4cd1-bf01-e025eff926a2",
+    "name": "Patricia Reeves",
     "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Elizabeth Henderson, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Unknown maritime operations.",
+    "bio": "Patricia Reeves supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Hong Kong's maritime environment.",
     "languages": [
       {
         "code": "en",
@@ -155,18 +155,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "3bffa41e-6f83-43f4-ac95-6cc167a43768",
-    "name": "Joe Olivia",
+    "id": "5cb7d7a7-8dc9-44b5-add7-fd822a9300a5",
+    "name": "Larry Gibson",
     "role": "Bosun",
     "department": "Deck Department",
-    "bio": "With 10 years managing deck teams, Joe Olivia coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Unknown.",
+    "bio": "Bosun Gibson maintains the vessel's exterior appearance and structural integrity, a testament to 3 years of dedication in Hong Kong.",
     "languages": [
       {
         "code": "en",
@@ -177,18 +177,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "6b30c01d-466c-44be-bc41-0d46d4646333",
-    "name": "Roy Collins",
+    "id": "c2b39260-8106-465f-9c25-caa3359060a2",
+    "name": "Janet Harper",
     "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "With 16 years at the helm of engineering departments, Roy Collins excels in propulsion systems systems and guarantees adherence to strict environmental MARPOL regulations.",
+    "bio": "With 10 years in marine engineering, Janet Harper ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
     "languages": [
       {
         "code": "en",
@@ -199,18 +199,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "aa7bb9ad-887f-4afa-b05a-d9d016f3f28b",
-    "name": "Scarlett Bennett",
+    "id": "eb4e1919-05f1-4c16-b320-7a2339599a18",
+    "name": "Lily Dunn",
     "role": "First Engineer",
     "department": "Engineering Department",
-    "bio": "Drawing on 8 years, Scarlett Bennett takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
+    "bio": "Drawing on 20 years, Lily Dunn takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
     "languages": [
       {
         "code": "en",
@@ -221,18 +221,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "4c21d11c-f5db-48b7-a2f0-ea10f84e3e29",
-    "name": "Brandon Hudson",
+    "id": "7691f2ba-67b2-4c70-a2a1-79ab923a2fee",
+    "name": "Gary Hunter",
     "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "With strong technical acumen, Brandon Hudson assists in crew training on engineering systems and emergency response procedures.",
+    "bio": "Gary Hunter's 3 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
     "languages": [
       {
         "code": "en",
@@ -243,18 +243,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "556d754b-fd27-4920-874a-1f7650614cff",
-    "name": "Wei Murray",
+    "id": "366b7c38-662e-4e1d-8031-323a90f62f3e",
+    "name": "Rebecca Morgan",
     "role": "Electrical Engineer",
     "department": "Engineering Department",
-    "bio": "Wei Murray's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 14 years in the field.",
+    "bio": "Rebecca Morgan manages all electrical systems on board, applying 15 years of expertise in marine electrical engineering and system integration.",
     "languages": [
       {
         "code": "en",
@@ -265,18 +265,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "d85afe69-36e0-4abf-8f29-7f2eec2abe09",
-    "name": "Andrew Wells",
+    "id": "4312c1f6-e14e-41e5-ac78-6b8890270365",
+    "name": "Margaret Coleman",
     "role": "Mechanical Engineer",
     "department": "Engineering Department",
-    "bio": "With 11 years dedicated to marine mechanics, Andrew Wells excels in the overhaul and alignment of engines and rotating machinery.",
+    "bio": "Margaret Coleman's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 13 years of service.",
     "languages": [
       {
         "code": "en",
@@ -287,18 +287,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "db4d0dc1-bfa8-4a6b-a502-ee338ca6133d",
-    "name": "Margaret Hayes",
+    "id": "c0ec547f-449e-4314-b227-6101c3f6f40e",
+    "name": "Ashley Charlotte",
     "role": "HVAC Engineer",
     "department": "Engineering Department",
-    "bio": "Margaret Hayes designs, installs, and maintains heating, ventilation, and air conditioning systems with 22 years of maritime specialization.",
+    "bio": "HVAC Engineer Charlotte ensures optimal climate control aboard vessels, leveraging 21 years of system optimization and energy efficiency knowledge.",
     "languages": [
       {
         "code": "en",
@@ -309,18 +309,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "0655ca7e-f6c7-49c7-8f70-b635d7e3d527",
-    "name": "Vincent Graham",
+    "id": "1c26d674-0554-4d49-80fc-5cab6db385b0",
+    "name": "Kimberly Nash",
     "role": "Environmental Engineer",
     "department": "Engineering Department",
-    "bio": "Leveraging 5 years in marine environmental science, Vincent Graham ensures strict adherence to all international and local environmental laws.",
+    "bio": "With 14 years focused on sustainability, Kimberly Nash develops and implements environmental protection measures aboard ships, ensuring regulatory compliance.",
     "languages": [
       {
         "code": "en",
@@ -331,18 +331,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "0300359d-282e-45c1-a084-a724b83376a2",
-    "name": "Savannah Baker",
+    "id": "ef612d72-8c9b-4d42-a782-a42a38538939",
+    "name": "Samantha Keller",
     "role": "Systems Engineer",
     "department": "Engineering Department",
-    "bio": "Drawing upon 3 years, Savannah Baker specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
+    "bio": "Systems Engineer Keller leads technical solutions for navigation, communication, automation, and control systems with 16 years of service.",
     "languages": [
       {
         "code": "en",
@@ -353,18 +353,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "f1afd008-8a38-4e19-a79f-036e80948de5",
-    "name": "Leah Reed",
+    "id": "f9cf89ea-6335-4292-b603-2b23ff77ce1a",
+    "name": "Maya Fletcher",
     "role": "Technical Manager",
     "department": "Engineering Department",
-    "bio": "With 10 years leading technical teams, Leah Reed ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "bio": "Known for strong leadership, Maya Fletcher fosters a culture of technical excellence and cross-functional collaboration onboard.",
     "languages": [
       {
         "code": "en",
@@ -375,18 +375,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "e787a8f0-e9a0-44d2-aeaa-24267e76b379",
-    "name": "Betty Mason",
+    "id": "9786a6bf-050c-473b-a4a8-9ce61f3f8957",
+    "name": "Daniel Gibson",
     "role": "Maintenance Engineer",
     "department": "Engineering Department",
-    "bio": "Betty Mason meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 14 years of service.",
+    "bio": "Daniel Gibson ensures all vessel machinery operates smoothly and safely, backed by 22 years in preventive and corrective maintenance programs.",
     "languages": [
       {
         "code": "en",
@@ -397,84 +397,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "cf519a9f-eb21-45b4-82fc-72458cb78d0d",
-    "name": "Carl Hamilton",
+    "id": "d65a095b-58f7-4ed5-879e-bf8c9c3cfb1f",
+    "name": "Isabella West",
     "role": "Security Director",
     "department": "Security Department",
-    "bio": "Security Director Hamilton leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "21201dde-8720-4e42-bb9e-bd2e6b0959a1",
-    "name": "Nicole Ellis",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 6 years of maritime security experience, Nicole Ellis excels in threat detection and proactive deterrence measures.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "ffd12b8d-b86b-4cc7-a9de-2012dac5f35c",
-    "name": "Harold Gibson",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Harold Gibson's 5 years include proficiency in evidence collection and report writing for maritime security incidents.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "3bae9b12-359b-4149-a38b-c0e45aa404dd",
-    "name": "Isabella Fisher",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Fisher conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 11 years of expertise.",
+    "bio": "With 11 years in maritime security, Isabella West ensures comprehensive protection for passengers, crew, and assets through proactive strategy and coordination.",
     "languages": [
       {
         "code": "en",
@@ -486,1381 +420,17 @@ export const hongkongTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "6bfa28b6-82ee-47c5-8746-50aea0f5d6dc",
-    "name": "David Dunn",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Dunn leads risk assessment initiatives and supports vessel security certification processes.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "32497495-0215-492d-a3c4-61c32cf48b79",
-    "name": "Gabriel Hayes",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Access Control Officer Hayes coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "1d69a917-74b8-4c17-92d4-34fc28a4b2fe",
-    "name": "Samantha Clark",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 22 years, Samantha Clark ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "eb4f440c-62bd-464a-96e5-7d1e6faaaf44",
-    "name": "Juan Gardner",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Juan Gardner integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "955063dc-7508-4e61-a074-908ead5005c4",
-    "name": "Harold Henderson",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Henderson gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "3d311c4a-76ec-421c-abb9-61537851b29f",
-    "name": "Jeffrey Carpenter",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Carpenter collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "275a88fd-8a6d-4592-b0e6-489f9483a97e",
-    "name": "Deborah Nash",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Deborah Nash develops dynamic programs catering to teenage guests, drawing on 16 years of youth facilitation and event management expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "633dac66-6bf3-4035-ba67-fe73cf9c7a55",
-    "name": "Billy Dunn",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Billy Dunn oversees onboard educational initiatives, combining 3 years of academic and program management experience to enrich passenger learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "9ce57228-176d-4685-baa9-fafb80f6e0d5",
-    "name": "Avery Mason",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Avery Mason manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "801dbd80-76d0-4473-9acc-be5816994a50",
-    "name": "Carl Murray",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With strong organizational skills, Carl Murray manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "944dfa54-025f-4736-b05f-876575b8a352",
-    "name": "Kyle Maxwell",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "With expertise in various water sports, Kyle Maxwell provides personalized coaching that accommodates different skill levels and abilities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "663c9a99-c34f-40b4-bec8-e01f4fb5eb13",
-    "name": "Melissa Morgan",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 9 years of expertise, Melissa Morgan offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "d073663c-3f07-4574-bc3c-3160a7fd4ed2",
-    "name": "Scott Sutton",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Leveraging 6 years of experience, Scott Sutton curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "83e8749d-332b-49d2-9f2c-af5e04f8a508",
-    "name": "Harold Jennings",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Lead Photographer Jennings captures stunning imagery of ship life, landscapes, and destinations, backed by 15 years of professional photography expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "a2df6a62-7d0d-43b8-aeb1-176b5272bfde",
-    "name": "Maria Graves",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer Graves crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "867a90ef-571e-42c8-82c9-d74b31a09dae",
-    "name": "Kevin Nash",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "With expertise in social media, video editing, and graphic design, Kevin Nash drives effective digital campaigns that promote the voyage experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "97d0ecdb-441b-4164-a0dd-3f7b99318bd3",
-    "name": "Angela Henderson",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Drawing on 19 years as a medical leader, Angela Henderson ensures the ship's medical facility operates to the highest international healthcare standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "94bbece0-4317-45e6-946c-e43cb35dc770",
-    "name": "Donna Graham",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Known for calm professionalism, Dr. Graham leads medical emergency interventions and coordinates evacuation when necessary.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "ee894aef-df2f-48b0-a839-88e95ac3a4a8",
-    "name": "Genesis Collins",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Genesis Collins has been a vital part of shipboard medical teams for 12 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "55b0c575-8d79-4200-8086-2b009d97c830",
-    "name": "Elizabeth Price",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Price documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "07d077f1-f2c7-4420-844a-92976447e9e8",
-    "name": "Joe Crawford",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Joe Crawford manages all hospitality services, ensuring exceptional guest experiences with 15 years of leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "0a8db48c-17de-41f1-9286-3be471bb0788",
-    "name": "Brenda Fletcher",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Fletcher is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "dd64ba52-175b-4bde-a192-f5bb86f5c3a7",
-    "name": "Mark Coleman",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Mark Coleman ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "5bc45cf4-ba7d-45a0-a7ff-ad8bbc60719f",
-    "name": "Aiden Keller",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Aiden Keller is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "716b367d-bd06-443e-b269-2b11e791616c",
-    "name": "Madelyn Stewart",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Madelyn Stewart crafts unforgettable moments for discerning guests, drawing on 17 years of experience in curating exclusive and seamless luxury service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "032d2882-972e-4b9c-92a7-5fd27dddc827",
-    "name": "Juan Dixon",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Dixon coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "08c4005e-3ebf-4d76-813d-57700187cc56",
-    "name": "Amanda Parker",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Parker leads cleaning teams, maintaining impeccable standards across all guest areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "484981ae-1638-4cf5-8eff-e27c7128cdc5",
-    "name": "Susan Curtis",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Curtis efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "f08629f3-16b6-404b-9a3b-fae746312f31",
-    "name": "Miguel Mason",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Mason offers expert local knowledge and personalized recommendations to enrich guest journeys.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e0d0ba49-1057-43fe-94c5-79ae4d759b1f",
-    "name": "Jacob Fletcher",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Jacob Fletcher is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 9 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "ebd6d69d-eb58-4a0d-bfd9-9c393ae93caf",
-    "name": "Aria Clark",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Aria Clark's expertise over 22 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "00cfa4de-c63f-4feb-83e7-ce4e83bfc63d",
-    "name": "Helen Hamilton",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Helen Hamilton conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 10 years in adult learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "9dda1680-fadd-4e47-a494-da75cedf3136",
-    "name": "Harry Bennett",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Beyond crafting exquisite Asian fusion, Chef Bennett expertly manages kitchen hygiene, inventory, and food cost control, honed over 17 years in demanding culinary environments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "947b92d2-0768-49b2-adc9-161701d4fc0d",
-    "name": "Maya Gibson",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "With 11 years in high-volume kitchens, Sous Chef Gibson is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "bb88cfd0-e71c-4456-8074-bbe36ac057f4",
-    "name": "Carl Charlotte",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Charlotte crafts exquisite desserts with 21 years of baking and pastry artistry.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "5700e362-2b9c-4c53-aa0c-55cd12a2f109",
-    "name": "Lawrence Marshall",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Lawrence Marshall maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 4 years of discipline.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "9dbf8acc-372c-495c-b0d4-25f9bb814dff",
-    "name": "Kinsley Day",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Day curates exclusive menus for themed dining venues, showcasing 10 years of passion for {cuisineSpecific} traditions and techniques.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "51bb8859-f7f3-4559-8573-4fc473938526",
-    "name": "Russell Chambers",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Russell Chambers delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 6 years of rigorous training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "cf566445-f05d-47b6-9456-cc3c0d4d077e",
-    "name": "Miguel Dunn",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Dunn ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 12 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e411fd82-30f8-4b53-9091-9bc6a74f189d",
-    "name": "Joan Dean",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Dean ensures quality meat preparation, supported by 7 years of skilled butchery work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "b5823355-cecf-4a94-a778-0b4765c87ef1",
-    "name": "Betty Mitchell",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Mitchell produces fresh breads and baked goods, leveraging 18 years of baking expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "82769299-9e7b-4d64-9cfa-ff2858a11339",
-    "name": "Timothy Murray",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sommelier Murray curates wine selections, offering expert pairing advice with 15 years in fine wine service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e2c5a24b-0820-425a-a67c-9dbd9e2ff190",
-    "name": "Ariana Baker",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 20 years behind the bar, Ariana Baker designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e3b3828d-ad3f-406b-b5c5-735550a6e0c3",
-    "name": "Pamela Russell",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Russell ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 3 years of dedication to the craft.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "49af6779-52c6-4278-b3ec-7f1dba3a1a22",
-    "name": "Joan Gardner",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "With 20 years in clinical and culinary nutrition, Joan Gardner provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "a8de466d-2d13-4aa3-9ef7-6d900abd6f75",
-    "name": "Harper Mitchell",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Harper Mitchell plans and oversees all entertainment activities, applying 3 years of event and talent management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "7913eef8-50dd-46b4-884e-db611be5931f",
-    "name": "Anna Parker",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Anna Parker manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "b37c9fc6-fb23-4f10-ac6f-27a6092dfa8d",
-    "name": "Lisa Knight",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Knight captivates audiences with dynamic performances, backed by 15 years of professional singing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "a4da5dd0-a823-440a-b8ee-d3fd4c4949ba",
-    "name": "Bella Morgan",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Morgan adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 10 years of diverse musical experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "7e97c5f9-bcf1-4891-87da-550cb778a955",
-    "name": "Pamela Payne",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Pamela Payne is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 20 years of professional dance experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "75b1cbce-9168-404a-b2ac-777049625cc7",
-    "name": "Roger Mason",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Mason works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 14 years of artistic direction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "21a5ead3-46f8-4bbb-9f67-7e6488d06d1d",
-    "name": "Adam Hudson",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Adam Hudson entertains guests with humor and timing, backed by 8 years in comedy performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "a9ecea59-1a47-4d1b-b66d-27722ff06e50",
-    "name": "Isabella Bennett",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "With 19 years honing the art of illusion, Isabella Bennett performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "851f8886-c983-4a0a-b283-c8a8876a9c8c",
-    "name": "Raymond Fletcher",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Fletcher creates vibrant atmospheres with expertly mixed music, drawing on 21 years in live DJing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "5f99d73b-3e60-4e1c-9646-eafa97eb7de0",
-    "name": "Scarlett Fox",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "With 5 years of experience in mixing live sound for theatre, music, and events, Scarlett Fox guarantees crystal-clear audio for all onboard productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "1027734f-dd42-4ae1-8c48-8e4c0a588a43",
-    "name": "Madelyn Fisher",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Madelyn Fisher applies 5 years of technical skill to create immersive visual experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "8af67b2f-5b9f-46b4-831c-e48f85c86911",
-    "name": "Bobby Hall",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Stage Manager Hall coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "eb6a612c-c561-4560-b40b-57440ccf88d2",
-    "name": "Matthew Morgan",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "With 22 years managing complex theatrical and event productions, Matthew Morgan oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e02098bb-09f8-4011-b58c-b1f64309d845",
-    "name": "Emma Holloway",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Emma Holloway's artistic flair and attention to historical detail, honed over 6 years, bring visual richness and authenticity to the stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "6369fd45-ccad-4fbb-bdd6-2e1f3d192ef9",
-    "name": "Luis Jennings",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Luis Jennings promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "a31a7c59-84d9-4ad2-b66b-e235419ec43a",
-    "name": "Noah Carpenter",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "With 19 years pushing artistic boundaries, Noah Carpenter offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "ea0067bf-b0fe-4c96-b2e0-92cea7295d98",
-    "name": "Michelle Foster",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "With 16 years streamlining vessel-wide processes, Michelle Foster ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 16,
     "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "bae0855d-8e50-4139-b13b-0e45495f8072",
-    "name": "Gary Morgan",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 10 years coordinating complex supply chains, Gary Morgan ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "id": "b1e5407c-185e-4cca-ac00-df657d08e9db",
+    "name": "Roy Warren",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 3 years of maritime security experience, Roy Warren excels in threat detection and proactive deterrence measures.",
     "languages": [
       {
         "code": "en",
@@ -1871,62 +441,18 @@ export const hongkongTeamMembers: CrewMember[] = [
         "name": "Chinese"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
   },
   {
-    "id": "e8aca2b7-02c1-411c-931a-13137e341ed2",
-    "name": "Avery Russell",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 12 years in inventory management, Avery Russell meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "122360e0-61ed-465b-983e-37d24f5c4595",
-    "name": "Chloe Hayes",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Chloe Hayes applies expertise in vendor management and cost optimization to benefit ship operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "zh",
-        "name": "Chinese"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Hong Kong",
-    "country": "Hong Kong",
-    "region": "Unknown"
-  },
-  {
-    "id": "e349642d-fb65-4e8c-9f38-0432039b3daf",
-    "name": "Luis Graves",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Graves ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "id": "4acc8297-1ca5-49e3-bf2b-30c50ef6e32e",
+    "name": "Louis Mitchell",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 4 years, Louis Mitchell has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
     "languages": [
       {
         "code": "en",
@@ -1938,9 +464,1483 @@ export const hongkongTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
     "city": "Hong Kong",
     "country": "Hong Kong",
-    "region": "Unknown"
+    "region": "Hong Kong"
+  },
+  {
+    "id": "50314e4b-3f1d-4386-89c9-ccf585dea409",
+    "name": "Scott Nash",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Scott Nash continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "8bf1a79c-2f9b-4c4e-b320-0e0ddd3a9063",
+    "name": "Lily Curtis",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Lily Curtis's 13 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "c90b6ef0-d9df-4b1d-b985-841aa5ee7da2",
+    "name": "Kyle Knight",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Knight manages secure boarding and access with 11 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "6b58eb7c-2b6d-4ec4-80e3-8964d483235f",
+    "name": "Bobby Porter",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Porter is an expert in ISM, ISPS, and MLC compliance, bringing 15 years of dedicated focus to these areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "2fdd4d1a-16a9-4e7a-9726-b95235650ad1",
+    "name": "Margaret Carpenter",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Margaret Carpenter has a knack for inspiring young minds, developing innovative curriculums over 6 years that make learning an adventure onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "cbd5540d-ff58-4316-b1d7-9f4e83ba7a14",
+    "name": "Kennedy Gibson",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Kennedy Gibson ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "b8e153c7-8910-484f-85d9-3cbc76d8f68f",
+    "name": "Juan Hall",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Experienced in youth engagement, Juan Hall provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "9c334bed-aa98-496b-bb3d-f5319c99d2d1",
+    "name": "Sarah Graham",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and inclusivity, Sarah Graham maintains open communication with parents and guardians regarding teen program activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "286f8289-c79c-4d21-9e50-28989ed8d3ee",
+    "name": "Miguel Henderson",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 4 years in educational programming, Miguel Henderson designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "17919de5-1585-446a-9fb8-2183c314c688",
+    "name": "Victoria Hall",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With expertise in child health and safety protocols, Victoria Hall manages routines and responds to individual needs of children under care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "9bcccdbd-23b1-4ecc-bf4e-18dd9711c1cb",
+    "name": "Barbara Murray",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Murray is passionate about creating vibrant social atmospheres, a skill perfected over 12 years of orchestrating memorable onboard events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "9f6a20e4-00f0-4089-8799-a3dcc823a58b",
+    "name": "Willie Hunter",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Willie Hunter teaches water sports safely and effectively, leveraging 14 years of professional instruction and certification in aquatic activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "d51a7828-c3c6-4313-bf22-d7e400f4bb1a",
+    "name": "Dylan Day",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Day integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "b9c9f476-48c0-44d9-a85d-ff7ab0ba0855",
+    "name": "Maya Marshall",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent problem-solving, Maya Marshall adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "249f6d9e-9d6a-4b65-bd4b-e8cd07c1c4d6",
+    "name": "Johnny Hayes",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Johnny Hayes directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "ff276326-9c8c-4c60-8f2f-640518fc0dc8",
+    "name": "Anna Jennings",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Leveraging 17 years in filmmaking, Anna Jennings produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "c48c7f26-5fd7-400b-9fda-93a0c6722d15",
+    "name": "Sandra Curtis",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Curtis ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "93a9ce06-2184-418d-95a2-54dcdd63e118",
+    "name": "Albert Graves",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Albert Graves, with a distinguished 8-year career in hydraulic systems and maritime health, provides expert medical oversight for thousands of passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "5d77b266-a698-4b4d-a20d-b570a299784d",
+    "name": "Larry Hawkins",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Hawkins collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "5f847f01-ef83-42dd-a4c5-9720788d98ba",
+    "name": "Stephanie Porter",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Stephanie Porter has been a vital part of shipboard medical teams for 20 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "41d3146a-09c9-4951-81a1-431b90ae6a96",
+    "name": "Pamela Bennett",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Pamela Bennett conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Hong Kong's maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "a874c598-a416-441d-968b-e0d6c8e93837",
+    "name": "Javier Bennett",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 5 years in hospitality management, Javier Bennett drives operational excellence and team performance onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "db8705c7-2685-4abb-b2f3-0ec8f3635694",
+    "name": "Samantha Mason",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Mason enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "3dd5d425-7dc0-4a5b-a634-4a3b159798dd",
+    "name": "Mason Graves",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 17 years leading stewardship teams, Chief Steward Graves meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "ec950277-7361-418a-8a70-a62bdb352c9e",
+    "name": "Mark Dixon",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Mark Dixon provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 4 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "0872576d-051a-43be-84b3-e0f4b7ebc70e",
+    "name": "Kimberly Gardner",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Kimberly Gardner anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "ca575081-b2a0-4deb-94e7-333a30e8dda8",
+    "name": "Amelia Keller",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Keller coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "5730e9aa-ee32-4e5e-9dc8-1fcb024d3f6c",
+    "name": "Rajesh Harper",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Harper is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 15 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "06927dcf-76a4-4266-ad7c-bcaf500daa31",
+    "name": "Adam Holloway",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Holloway facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "e7894fae-3f55-412c-9996-60835553656d",
+    "name": "Carlos Graham",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Carlos Graham leverages 14 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "94f3dd3f-d5d9-4557-9f62-30c806afd7a8",
+    "name": "Kyle Bennett",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Kyle Bennett leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "85320681-7bd6-4832-93ee-583dc6229351",
+    "name": "Sebastian Fox",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Fox manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "61b86502-2261-4899-9c18-5414ba7a268f",
+    "name": "Frank Hawkins",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 16 years of designing and delivering impactful training, Frank Hawkins empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "b48c12ec-7283-4b7b-a5bf-fc9c14d11427",
+    "name": "Peter Russell",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 7 years in fine dining, Chef Russell specializes in Caribbean flavors using locally sourced ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "d2ab5097-9089-4c77-aa1e-f4c1b6cb1421",
+    "name": "Mark Graves",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Mark Graves excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "c0441b6d-ffe5-4dfa-96d8-45d915387458",
+    "name": "Pamela Mitchell",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Mitchell continually develops new recipes, delighting guests with 21 years of dedication to the art of patisserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "7cc572aa-e176-4b8d-b73e-eaac4651ffee",
+    "name": "Stephen Parker",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Parker manages specific kitchen stations with 20 years of focused culinary skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "b11294ef-7fca-4f44-af6b-72070767a193",
+    "name": "Austin Carpenter",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Austin Carpenter creates authentic dishes that transport guests to Hong Kong, drawing on 12 years of dedicated culinary exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "1877175a-fe5e-4b05-a7d0-26ae7cdfe45e",
+    "name": "Alexander Dean",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Dean prepares fresh and artistic sushi dishes, drawing on 22 years of Japanese culinary tradition.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "1d4b3d5d-48c2-44d0-9777-4e8ec5698aa1",
+    "name": "Henry Lawson",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 19 years specializing in charcuterie, salads, and elaborate cold platters, Chef Lawson brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "1c5ac518-bbe2-4792-9c2e-cf6879a20456",
+    "name": "Eleanor Day",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Eleanor Day maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 7 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "62f5a047-408a-4140-9035-265a9370615b",
+    "name": "John Crawford",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "John Crawford combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "3b32bb1a-5ab0-4cc3-b218-28026120d3c1",
+    "name": "Jack Price",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Price navigates an extensive cellar to find the perfect wine for every palate and Latin American, drawing on 20 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "cccf3efa-5a66-4304-bfd7-28a83b518671",
+    "name": "Albert Fletcher",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Fletcher delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "43713769-dfce-4158-b3ff-0d8720c6952c",
+    "name": "Austin Griffin",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 20 years of expertise in coffee origins, brewing methods, and latte art, Austin Griffin crafts the perfect cup for every guest.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "d12ca325-9dc9-4aae-bfc9-ebf66f2ce4bd",
+    "name": "Adam Wells",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Adam Wells collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "4c02547b-6512-487c-a45e-79b2592b2337",
+    "name": "Bella Gardner",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Bella Gardner plans and oversees all entertainment activities, applying 5 years of event and talent management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "761da61b-b060-4ead-b840-9c96771fc424",
+    "name": "Nora Hunter",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Hunter serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "6a0187fe-ee39-4ef5-9d64-de993e31da48",
+    "name": "Michelle Warren",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Warren collaborates with the cast and creative team, bringing 9 years of professional discipline and artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "2fa9de57-f4dd-4b78-8d38-c0dcf9448d0b",
+    "name": "Christopher Hayes",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Hayes adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 16 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "6894f8a3-6d89-40cf-8b3b-e89c5204c411",
+    "name": "Darrell Charlotte",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Charlotte brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "92bfd1dd-38b1-4727-b424-c98334c2392e",
+    "name": "Brooklyn Reeves",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Brooklyn Reeves collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 15 years of experience in stage production.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "e5dfdf96-7170-413b-84d4-fe8f4837f22a",
+    "name": "Steven Crawford",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Crawford delivers engaging and memorable stand-up routines onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "e6337deb-a10b-43fc-b269-f9df133ba12b",
+    "name": "Gregory Hunter",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Hunter combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "e2834de1-e31a-4aac-a676-e4b0d36b0cac",
+    "name": "Olivia Nash",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Nash creates vibrant atmospheres with expertly mixed music, drawing on 20 years in live DJing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "77001242-c799-422c-b34f-151e1c3cff24",
+    "name": "Louis Mason",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 11 years of experience in mixing live sound for theatre, music, and events, Louis Mason guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "3093d14b-9e0f-44e3-bf9a-562c6070526e",
+    "name": "Harold Keller",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Harold Keller's artistic vision and technical mastery over 22 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "ecc56a67-cbea-4e78-a1fb-c74e5d2dc3e5",
+    "name": "Claire Olivia",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Olivia is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "f8cad10b-fabe-4d48-bbe5-028ca1418125",
+    "name": "Claire Grant",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Grant oversees logistics and technical coordination for large-scale entertainment productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "989f7df5-533a-4b72-b9ee-8b118c041e20",
+    "name": "Katherine Baker",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 9 years of experience in theatrical costume design, Katherine Baker conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "c2f98db2-d711-4dcd-8fe6-852b5db9c8bd",
+    "name": "Victoria Campbell",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Victoria Campbell's passion for cultural exchange, cultivated over 20 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "48947e0d-58ec-4f48-be5e-422a9dc73da2",
+    "name": "Billy Dean",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Dean combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "f97b499f-d036-4440-86f3-6abe5887e569",
+    "name": "Gregory Lawson",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Gregory Lawson plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 22 years of maritime expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "892c48f3-1264-4d25-b1fe-82327219f8a9",
+    "name": "Aaliyah Harper",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Aaliyah Harper leverages 6 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "d1e6a7d8-133e-4b24-9267-6303a25f66b7",
+    "name": "Joshua Warren",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Joshua Warren's analytical skills, honed over 6 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "5c2806be-a324-4eb4-9df4-ffdeae84ad98",
+    "name": "Benjamin Fisher",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Fisher manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
+  },
+  {
+    "id": "e1214432-18ed-4166-b5df-af57e074a7b3",
+    "name": "Charlotte Gardner",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Gardner implements green initiatives to minimize environmental impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Hong Kong"
   }
 ];

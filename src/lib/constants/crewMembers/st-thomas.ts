@@ -2,161 +2,35 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: St Thomas
-    // Generated on: 2025-06-10T03:41:38.306Z
+    // Generated on: 2025-06-10T08:14:17.443Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const stthomasTeamMembers: CrewMember[] = [
   {
-    "id": "095ee534-3517-448f-99da-2966d20fb421",
-    "name": "Susan Murray",
+    "id": "219fdc4b-367b-47ee-b85c-ce4259f7c9ab",
+    "name": "Antonio Spencer",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Murray is a veteran mariner with 10 years in US Virgin Islands, known for meticulous voyage planning and a steadfast commitment to maritime law.",
+    "bio": "Antonio Spencer brings over 3 years of experience navigating US Virgin Islands's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "6d1d2c84-d9d9-4d02-8cb9-908d4f17568c",
-    "name": "Brooklyn Crawford",
+    "id": "d63eb253-67ff-43e0-be87-518c5a4d7ed4",
+    "name": "Roy Knight",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "First Officer Crawford's 8-year background includes robust training in advanced navigation systems and crew supervision within US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "c1d70dd9-74f6-4d49-8d43-771193594e14",
-    "name": "Hannah Hayes",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Hayes's responsibilities include managing the ship's medical stores and providing medical assistance, drawing on 21 years of maritime service in US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "af2d6265-ac7a-46e4-a4c5-75362b5edcb1",
-    "name": "Kimberly Mitchell",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Mitchell assists with cargo operations and ballast management, a key part of their 9 years of development in US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "3b95a42d-fc71-4a9e-a557-9689a11958d0",
-    "name": "Grace Hayes",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Hayes ensures all navigational equipment is calibrated and fully operational, leveraging 5 years of technical expertise in US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "3d230a16-9256-4054-8688-c5cdd3923025",
-    "name": "David Dunn",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Dunn works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "6377b167-81fa-4bbe-a5b1-c949614edf6e",
-    "name": "Michael Morgan",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Eager to learn, Deck Cadet Michael Morgan diligently assists with bridge duties and deck maintenance tasks, absorbing essential skills for navigating US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "9ffe548d-4641-4de2-99c1-88c6ea62fb28",
-    "name": "Skylar Wells",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 7 years of seamanship, Bosun Wells is an expert in rigging, anchoring, and all aspects of deck machinery operation in US Virgin Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "8e2d96ed-17c5-4c72-b531-37e19c38989f",
-    "name": "Isabella Russell",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Russell manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
+    "bio": "Roy Knight, with 14 years navigating US Virgin Islands, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       {
         "code": "en",
@@ -164,161 +38,17 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "ac73b1b8-b710-47e8-b2df-ff65b466793b",
-    "name": "Bryan Russell",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Russell is responsible for the main propulsion machinery and auxiliary systems, bringing 16 years of hands-on expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "f6465945-76a6-47c5-96a2-0b737c63674d",
-    "name": "Rebecca Mitchell",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Rebecca Mitchell's 12 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "249cb56e-7e88-4830-9ad3-756216d3d0f7",
-    "name": "Patrick Fletcher",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Responsible for wiring upgrades and automation system maintenance, Patrick Fletcher supports enhanced operational efficiency and crew safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "b9870c69-8126-44dd-a055-40a3c04761de",
-    "name": "Jeremy Fox",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Mechanical Engineer Fox collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "390bd870-7bb5-46dd-9c6e-77bc57c16614",
-    "name": "Dylan Griffin",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "HVAC Engineer Griffin ensures optimal climate control aboard vessels, leveraging 4 years of system optimization and energy efficiency knowledge.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "41e2f6a0-62d3-4e8f-abf9-5e1cdee3cf1b",
-    "name": "Mia Harper",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "With in-depth knowledge of MARPOL regulations, Mia Harper leads training and awareness programs on environmental best practices among crew members.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "c5dea77b-5203-4aa1-897f-06b689b2cccc",
-    "name": "Noah Dunn",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Noah Dunn manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "ba4ed232-7f42-4d6a-bc2b-402fbc112fd1",
-    "name": "Alan Hunter",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Alan Hunter provides expert guidance on complex technical challenges and long-term asset management, drawing from 16 years of senior engineering leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "4dbe5ba2-e1ed-489f-ad3b-b8811ea21248",
-    "name": "Tyler Fisher",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Fisher's 13 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "id": "5bd39ede-0e87-43de-87ed-a7d16a538326",
+    "name": "Nicholas Carpenter",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Nicholas Carpenter plays a critical role in voyage planning and watchkeeping, backed by 13 years ensuring operational integrity in US Virgin Islands.",
     "languages": [
       {
         "code": "en",
@@ -326,107 +56,17 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "210e388f-74a1-4665-bc54-bca6aae0c7bc",
-    "name": "Elijah Morgan",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former intelligence Elijah Morgan leads our security team with 16 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "fe1b4a69-6850-46ba-bdd7-09c60df637ef",
-    "name": "Cynthia Graham",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Cynthia Graham conducts routine security patrols and enforces safety regulations, backed by 12 years in maritime security operations and incident response.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "761aa770-74f5-4ea3-964c-a68d5a0a5dd6",
-    "name": "Claire Fox",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "With extensive training in security technologies, Claire Fox leads specialized investigations and security audits to strengthen vessel defenses.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "c08d1c05-cf41-4892-9bbd-966c1a913b5f",
-    "name": "Noah Wallace",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Wallace implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "e4bd0953-3453-4d7c-b4ba-7599eb64f2e6",
-    "name": "Ellie Coleman",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Coleman leads risk assessment initiatives and supports vessel security certification processes.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "8ab98147-e3c7-40be-8fdc-0e1181f31f01",
-    "name": "Louis Dunn",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Louis Dunn ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
+    "id": "b48a5eff-46cb-4734-9920-1304c4cce939",
+    "name": "Cynthia Parker",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Parker assists with cargo operations and ballast management, a key part of their 10 years of development in US Virgin Islands.",
     "languages": [
       {
         "code": "en",
@@ -434,197 +74,17 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "ab19bd26-1bd9-4ab2-b261-b688fbd865be",
-    "name": "Helen Knight",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Helen Knight works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "24f8b6d5-49da-429d-b202-5b21612b6918",
-    "name": "Christopher Carpenter",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "With 5 years shaping children's experiences at sea, Christopher Carpenter excels at creating memorable and enriching programs for all age groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "e1b0ea5d-2db4-4a16-be14-836843fc9316",
-    "name": "Austin Griffin",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With strong communication skills, Austin Griffin liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "b6aa7a1c-e540-41b6-ab7e-f5c8c38452d9",
-    "name": "Elijah Cooper",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With strong interpersonal skills, Elijah Cooper ensures a safe and welcoming environment for all child participants.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "1c870d7b-2bcd-4c14-9d90-990e029647a6",
-    "name": "Harper Montgomery",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Teen Activities Coordinator Montgomery is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 14 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "9db91cc1-7903-465c-bda1-7a9d86862b9d",
-    "name": "Melissa Hamilton",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on accessibility, Melissa Hamilton ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "1d5d583f-c775-49c8-906c-84d2ad110191",
-    "name": "Johnny Fox",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Fox is certified in pediatric first aid and CPR, bringing 7 years of trusted care to families onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "536a9397-05ef-456a-8dc2-2502a8a5ab5e",
-    "name": "Ralph Fletcher",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Activities Director Fletcher leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "e53e2aa6-b7d9-4326-9559-49a0d8f80683",
-    "name": "Lerato Day",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Lerato Day's primary focus for 8 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "1f9c1fb5-925d-4325-b117-a813cd81228d",
-    "name": "Christopher Campbell",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Campbell integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "89c34452-32e2-431d-864e-e78b9ad28f02",
-    "name": "Priya Olivia",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "With expertise in vendor relations and itinerary planning, Priya Olivia ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "id": "e760d39e-e7a7-4494-a308-74976ec5ea52",
+    "name": "Sean Dean",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Sean Dean's expertise in navigational risk assessment supports proactive decision-making for safe operations within US Virgin Islands's ports and coastal areas.",
     "languages": [
       {
         "code": "en",
@@ -632,17 +92,701 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "7d1a9345-6ae2-4525-8706-1e1c38980a5e",
-    "name": "Nicole Coleman",
+    "id": "3aec2cbc-e191-497e-8183-8ceebd972516",
+    "name": "Lucas Henderson",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Lucas Henderson fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "cea6661e-8f9b-4584-9db7-f2d6b3d5ad41",
+    "name": "Brenda Olivia",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, Brenda Olivia is gaining 21 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in US Virgin Islands.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "85defb43-2d04-445a-81c3-1ecfd46869ed",
+    "name": "Lisa Lawson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Lawson maintains the vessel's exterior appearance and structural integrity, a testament to 7 years of dedication in US Virgin Islands.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "adc97ef6-fcd0-4263-9626-2a7f228491ab",
+    "name": "Nicholas Lawson",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Known for strategic problem-solving, Nicholas Lawson directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6bba24a6-1b7e-466a-b341-77598243d529",
+    "name": "Kimberly Baker",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 21 years, Kimberly Baker takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "601aef6f-5580-46cc-9822-1a47261d0efc",
+    "name": "Harold Griffin",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Griffin conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "3faee758-456a-4cc1-b4d2-196cf5a60ab6",
+    "name": "Isabella Stewart",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Isabella Stewart supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "f1a9440d-c0b6-4ece-b1cc-f2ee806b56dd",
+    "name": "Christopher Chambers",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Chambers specializes in propulsion, HVAC, and auxiliary machinery with 16 years ensuring operational efficiency and reliability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "c8eb7df8-fc3f-4da4-a9ee-212a14d02de4",
+    "name": "Harry Morgan",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Morgan coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "9fa324e8-6248-4636-8bf5-75060fa061ed",
+    "name": "Blake Collins",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Blake Collins conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5ce412ad-ce0a-4c3b-a805-c7a6c933a38e",
+    "name": "Stephanie Olivia",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Olivia's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 5 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "ef1e7cf2-7f2e-4565-9db1-a312d010fd90",
+    "name": "Gabriel Spencer",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Spencer oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "15d6a96d-47a2-4987-8f78-42927f90156e",
+    "name": "Jose Graham",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Jose Graham develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "910e7899-10a9-4c81-a6aa-5147d99560c7",
+    "name": "Harold Coleman",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Coleman leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "2cf6f4a3-351c-4906-8ebe-d39b53af9acd",
+    "name": "Aiden Hunter",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, Aiden Hunter collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "38a64895-47e5-44b4-9b4a-d65f1f659b3f",
+    "name": "Jacob Griffin",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 17 years, Jacob Griffin has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "ad502714-eb57-4054-a556-22c17c0f79df",
+    "name": "Tyler Jennings",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 13 years in cyber defense, Tyler Jennings specializes in securing operational technology (OT) unique to maritime assets.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "97d35805-a2bf-439a-adfd-bd345ed850c2",
+    "name": "Betty Graves",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Betty Graves coordinates security protocols and emergency responses, drawing on 13 years in maritime operations and multi-agency collaboration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "f918339b-f2cc-4f86-a6f5-d2f588d5c8ab",
+    "name": "Jessica Palmer",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 6 years of experience, Jessica Palmer is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6e17ffe7-add6-44ee-8962-af1b8ff46ad6",
+    "name": "Benjamin Knight",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Benjamin Knight oversees adherence to maritime safety regulations, leveraging 22 years ensuring compliance, risk management, and regulatory audits.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "11d8f61b-ddb9-45d7-a310-0621e3f4c4ec",
+    "name": "William Ellis",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Committed to positive youth engagement, William Ellis integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6f120911-778f-406b-94c8-546aa6ce662c",
+    "name": "Carl Hudson",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Hudson designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "156776ea-468b-4fe4-bbd9-bd3b42f3bea2",
+    "name": "Marcus Montgomery",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Experienced in youth engagement, Marcus Montgomery provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "7d0fdfd9-ed5c-44e9-bc68-2816a59ed6c0",
+    "name": "Lawrence Dean",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Dean fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "2686d546-9443-445a-9a4e-f16b6f80189a",
+    "name": "Jack Hamilton",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Jack Hamilton, with 8 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "52c9b303-f0df-4efd-bc73-bc1bde7ac9a1",
+    "name": "Claire Collins",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Claire Collins provides attentive care and supervision for young passengers, backed by 16 years in professional child care and early childhood education.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "b8c87af2-8509-4cfa-943f-8266f01ac318",
+    "name": "Russell Dean",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Russell Dean designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "acf159d7-5457-4645-8097-24d3ad8fff30",
+    "name": "Douglas Clark",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Clark stays current with industry certifications and safety standards to uphold best practices onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "ed86f500-903b-4fd1-b9a4-ff9ee75f2116",
+    "name": "Gabriel Dunn",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Gabriel Dunn leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "1951810d-2c8d-484c-b1cf-b79731229609",
+    "name": "Joe Palmer",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in vendor relations and itinerary planning, Joe Palmer ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "351f0930-a44f-4d19-906f-3d92ee7c6677",
+    "name": "Lucas Sutton",
     "role": "Lead Photographer",
     "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Nicole Coleman ensures high-quality imagery that reflects the voyage’s unique character.",
+    "bio": "With extensive experience in portrait, event, and environmental photography, Lucas Sutton ensures high-quality imagery that reflects the voyage’s unique character.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "9d1f1f77-ef20-4d76-8809-da3a8d88a530",
+    "name": "Avery Crawford",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Avery Crawford uses 4 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "b5166342-56a3-4d8a-863e-147db4424e70",
+    "name": "Jennifer Olivia",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Olivia is proficient in SEO, content management systems, and digital advertising, skills honed over 16 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6088db87-bce4-4f73-a4fc-3f9346bd28a9",
+    "name": "Liam Baker",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to preventive care, Liam Baker promotes health education and wellness initiatives throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5958611c-6ea7-4984-9a37-37e7e7f5643c",
+    "name": "Joseph Foster",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Foster is skilled in minor surgical procedures and advanced cardiac life support, bringing 21 years of critical care experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "bd19a65d-b7d7-447c-8189-c37c90cd122c",
+    "name": "Cynthia Stewart",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Stewart supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "340d6b68-3ea6-44f1-bf8d-42744e7e5373",
+    "name": "Ethan Reeves",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to regulatory adherence, Ethan Reeves stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5da578c6-0adb-4881-96bf-0ce342281d6d",
+    "name": "Joel Charlotte",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Overseeing a diverse team, Hospitality Director Charlotte implements innovative service strategies and maintains the highest quality standards, reflecting 18 years in the industry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5f0e0cfd-ef1d-4d1e-89e7-a87e4db9a15c",
+    "name": "Michael Watson",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Michael Watson coordinates guest services and resolves issues, leveraging 11 years of customer relations expertise.",
     "languages": [
       {
         "code": "en",
@@ -650,125 +794,17 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "daf8bac0-960b-4394-8156-abf5b19a293b",
-    "name": "Nicholas Dunn",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "With a strong understanding of narrative flow and audience engagement, Nicholas Dunn produces videos for promotional and archival purposes.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "a0a216e3-9d10-4158-9130-6db8fc4490c6",
-    "name": "Benjamin Spencer",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "With 17 years in the digital realm, Benjamin Spencer crafts compelling online stories and manages the ship's social media channels to connect with guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "4ff92a5e-a289-47c9-93c6-144243257760",
-    "name": "Amelia Marshall",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Amelia Marshall oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "f407dc92-57e9-42a3-bf1f-b935e623d7ee",
-    "name": "Larry Coleman",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Ship's Doctor Coleman is skilled in minor surgical procedures and advanced cardiac life support, bringing 5 years of critical care experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "ab505bf3-0d63-4dfd-9b72-75ad3abff24b",
-    "name": "Roy Parker",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Roy Parker has been a vital part of shipboard medical teams for 20 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "5be7be20-d1a2-4adb-8520-fd69182926e8",
-    "name": "Tyler Mason",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Tyler Mason conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in US Virgin Islands's maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "baaf1f48-b888-4ee6-a5b8-375947898506",
-    "name": "Elizabeth Murray",
-    "role": "Hospitality Director",
+    "id": "c8fd4b90-2b50-433f-9a91-ed8a0a7038c8",
+    "name": "Aaliyah Payne",
+    "role": "Chief Steward",
     "department": "Hospitality Department",
-    "bio": "Hospitality Director Murray orchestrates a seamless guest journey, from arrival to departure, leveraging 13 years of expertise in luxury service.",
+    "bio": "Chief Steward Payne trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 13 years.",
     "languages": [
       {
         "code": "en",
@@ -776,35 +812,17 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "7bf1d0cd-5a4f-4133-8431-1b2ead6d0c0d",
-    "name": "Isabella Coleman",
-    "role": "Guest Relations Manager",
+    "id": "739a7d12-0741-44f1-84d8-5e5bc8db83d5",
+    "name": "Philip Graham",
+    "role": "Senior Steward",
     "department": "Hospitality Department",
-    "bio": "With a passion for service excellence developed over 12 years, Isabella Coleman leads the guest relations team to anticipate and exceed passenger expectations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "0da9cb46-1557-4afa-9135-d971be375c8d",
-    "name": "Maya Reed",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Reed trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 18 years.",
+    "bio": "With 18 years of dedicated service, Senior Steward Graham ensures guest accommodations are impeccably maintained and personalized to preferences.",
     "languages": [
       {
         "code": "en",
@@ -812,53 +830,53 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "34ec42ae-e0ad-4a8e-8201-4e7caebd3b6c",
-    "name": "Keith Day",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Day delivers attentive guest services and supports stewardship operations, drawing on 15 years onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "3ca35f24-c8d6-41c1-9405-c5e11cb7eb2d",
-    "name": "Laura Collins",
+    "id": "66491247-b7d0-423a-8832-9bdacd83c49a",
+    "name": "Sarah Watson",
     "role": "Butler",
     "department": "Hospitality Department",
-    "bio": "Laura Collins anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "bio": "Butler Watson is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 18 years in top-tier hospitality.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       }
     ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "6854d1a2-3a17-45ef-b80c-34ba84f40bd4",
-    "name": "Stephanie Coleman",
+    "id": "6f4ad006-f8cd-41f6-bb83-e99214a289f4",
+    "name": "Savannah Griffin",
     "role": "Accommodation Manager",
     "department": "Hospitality Department",
-    "bio": "Accommodation Manager Coleman coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "bio": "Savannah Griffin expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 9 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6cc5fe87-1199-4c0b-a113-134bc478991e",
+    "name": "Miguel Gardner",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Miguel Gardner ensures smooth operations and staff training, supported by 12 years in hospitality management.",
     "languages": [
       {
         "code": "en",
@@ -866,35 +884,71 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "55ff5d0e-4c6c-43a9-b341-e921cc5ae678",
-    "name": "Riley Price",
-    "role": "Housekeeping Supervisor",
+    "id": "a602638e-1343-457b-ac24-5bf075b17d30",
+    "name": "Wei Montgomery",
+    "role": "Guest Services Specialist",
     "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Price is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 8 years of service.",
+    "bio": "Wei Montgomery's communication skills, honed over 14 years, are key to creating positive first impressions and lasting guest satisfaction.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       }
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "576e2bf5-331f-4105-be01-4cd15b8917c2",
-    "name": "Audrey West",
-    "role": "Guest Services Specialist",
+    "id": "5d9c471e-0735-4d0c-92a8-7ffc8963d05f",
+    "name": "Nathan Ellis",
+    "role": "Concierge",
     "department": "Hospitality Department",
-    "bio": "Audrey West's communication skills, honed over 15 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "bio": "Nathan Ellis leverages 9 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "70508666-d885-4f55-8051-1bdd8987db0c",
+    "name": "Helen Ellis",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Helen Ellis is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 13 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "fcb826fc-ab1d-410b-9993-0c516cd8d476",
+    "name": "Riley Porter",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Porter manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
     "languages": [
       {
         "code": "en",
@@ -902,35 +956,629 @@ export const stthomasTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "4a7bfbe3-9924-4136-90a3-4fa055f11383",
-    "name": "Darrell Hall",
-    "role": "Concierge",
+    "id": "b6cbcd84-cf31-4418-a80a-8ca56de5068c",
+    "name": "Christian Parker",
+    "role": "Hospitality Trainer",
     "department": "Hospitality Department",
-    "bio": "Darrell Hall acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "bio": "With 10 years of designing and delivering impactful training, Christian Parker empowers staff with the knowledge and skills to provide outstanding service.",
     "languages": [
       {
         "code": "en",
         "name": "English"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"
   },
   {
-    "id": "3eb6d3fc-98b8-49f9-90b7-a245d80ae0e1",
-    "name": "Bruce Stewart",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Stewart oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "id": "cfdc95bd-0669-4c38-81d6-637141d1c706",
+    "name": "Diego Morgan",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Asian fusion, Chef Morgan expertly manages kitchen hygiene, inventory, and food cost control, honed over 11 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "29331d05-cc35-4c03-b166-9d761c9a1d05",
+    "name": "Carol Charlotte",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Carol Charlotte excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "0c2eb163-f33d-4a85-a515-3199d17c7ca3",
+    "name": "Oliver Payne",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Pastry Chef Payne crafts exquisite desserts with 21 years of baking and pastry artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "8ccfe032-aceb-4cba-86be-dd21b0715435",
+    "name": "Sofia Parker",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Sofia Parker maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 10 years of discipline.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "4a4fe58c-cc15-445d-879c-4975aab7c757",
+    "name": "Charlotte Douglas",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Douglas brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "d2d48932-0dff-4f5c-93df-f1abe607f511",
+    "name": "Kimberly Hunter",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Kimberly Hunter delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 20 years of rigorous training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "ed92ec3b-ad91-48bc-a784-2875e6749253",
+    "name": "Maya Grant",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Maya Grant maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "9fdee07a-4447-46db-a6c5-e556a948a0cd",
+    "name": "Nathan Porter",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Nathan Porter is responsible for precise meat cuts that meet kitchen and guest expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "19a7e18b-3a2f-4dc2-bf70-468154bfb5c3",
+    "name": "Robert Morgan",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Robert Morgan manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 6 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "8b31eb90-fbfc-425e-ada4-41c62b52558f",
+    "name": "Alexander Marshall",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Alexander Marshall enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "2ea4bada-2616-40e9-95a2-fd94537e09a5",
+    "name": "Katherine Maxwell",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "With 15 years behind the bar, Katherine Maxwell designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "4a40ba9f-f2f4-4381-ad1d-126f5c3c5743",
+    "name": "Amanda Campbell",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Campbell ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 19 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "8421bc63-b358-4927-94eb-e327388e0c5e",
+    "name": "Sophia Gibson",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Gibson works closely with the culinary team to create wholesome Italian options that are both flavorful and aligned with wellness goals, drawing on 17 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "4515aa64-9168-4fac-a7ba-816cab300c13",
+    "name": "Victoria Spencer",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Spencer curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "40babd6e-2ebe-4127-9ad8-c008c9c2a131",
+    "name": "Alice Gardner",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Alice Gardner's organizational skills, honed over 12 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "c028eb2d-4f73-4e63-8d88-affdc50efa25",
+    "name": "Elijah Mitchell",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Mitchell collaborates with the cast and creative team, bringing 20 years of professional discipline and artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "13007085-6559-4bc6-aef3-6df2524d3ce2",
+    "name": "Janet Clark",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Janet Clark brings 5 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "d863572a-6a19-4e28-be42-12e8e9ffaada",
+    "name": "Walter Reeves",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 3 years of professional training in {danceStyle} and contemporary dance, Walter Reeves executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "a9e1eeca-a64a-4047-8d20-7ab5db3f7635",
+    "name": "Riley Hayes",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Riley Hayes leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "4aeb6570-6bd8-421e-ac87-95e224924f59",
+    "name": "Lily Holloway",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Lily Holloway's ability to connect with the audience and improvise, developed over 8 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "7315fb1c-cafb-4b75-bcde-b7bdbcca17ef",
+    "name": "Joshua Stewart",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Joshua Stewart brings a unique brand of enchantment to the ship's entertainment, drawing on 10 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "4f9157e9-09a3-4f2c-b684-9fff96bb60c5",
+    "name": "David Harper",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "David Harper utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 10 years of club experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5e96e6a1-64a0-4441-a9ab-1f5015faeb1b",
+    "name": "Cynthia Hunter",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Cynthia Hunter supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "cef19d14-bc07-4c7c-9360-9f579c6eeb0a",
+    "name": "Kevin Hawkins",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 7 years in theatrical lighting design and operation, Kevin Hawkins transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "eceaaae0-f2c6-4ccf-99c3-58b9bdcd9033",
+    "name": "Audrey Hawkins",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Audrey Hawkins supervises stage operations and talent, drawing on 6 years of event management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "d771275b-e55b-4a6b-8f4b-cecc40312da3",
+    "name": "Charlotte West",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Charlotte West ensures timely and efficient delivery of shows, leveraging 4 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "185b20bc-6ae8-47d2-a436-a461053481c9",
+    "name": "Jennifer Keller",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Jennifer Keller's artistic flair and attention to historical detail, honed over 11 years, bring visual richness and authenticity to the stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "5c6c3e9a-ad4a-4b10-8eac-e21671022ad0",
+    "name": "Carlos Hall",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Hall curates culturally enriching events and experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "04c19127-dd9e-4ec4-a59d-e4ad19e2dbdb",
+    "name": "Brandon Payne",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Brandon Payne presents breathtaking and thought-provoking performances honed over 21 years of dedicated artistic exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "a0a9bcf3-85af-4236-98e9-85b5ccccfbfe",
+    "name": "Eric Fletcher",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Fletcher applies 10 years of leadership in maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "6723b469-d3b8-4e51-979c-d62b16eb2abd",
+    "name": "Aiden Reeves",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 7 years coordinating complex supply chains, Aiden Reeves ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "1d331b57-2e76-48f3-87c5-c561075cdacd",
+    "name": "Ralph Marshall",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Ralph Marshall's analytical skills, honed over 11 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "b38a3fbf-5273-494b-877c-3374ed7020da",
+    "name": "Allison Gibson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Allison Gibson's sharp negotiation skills and 11 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "St Thomas",
+    "country": "US Virgin Islands",
+    "region": "US Virgin Islands"
+  },
+  {
+    "id": "f5f066f4-1de1-4253-8b6b-978f30fff4c1",
+    "name": "Angela Cooper",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Cooper implements green initiatives to minimize environmental impact.",
     "languages": [
       {
         "code": "en",
@@ -939,654 +1587,6 @@ export const stthomasTeamMembers: CrewMember[] = [
     ],
     "experienceYears": 18,
     "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "b578bf5a-28ab-47c8-a082-113f56016f7e",
-    "name": "Roger Russell",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Russell liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "58cd432f-7400-4054-8809-b17ca5482c58",
-    "name": "Joel Crawford",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Joel Crawford conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 3 years in adult learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "c81746fe-ae84-4f83-82a1-afd1efe4a5f3",
-    "name": "Jordan Wallace",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "With 17 years in fine dining, Chef Wallace specializes in Japanese flavors using locally sourced ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "1885f2a7-9ab8-4f00-9cce-66bbd2be30e6",
-    "name": "Genesis Douglas",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "As second-in-command, Sous Chef Douglas ensures seamless kitchen workflow and consistent dish quality, drawing on 19 years of hands-on Italian experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "30a97b7f-00a0-4b20-aa42-4fb5b923d373",
-    "name": "Timothy Parker",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Pastry Chef Parker crafts exquisite desserts with 17 years of baking and pastry artistry.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "e5f0ea43-d4cf-48d5-8833-46287f3166c2",
-    "name": "Cynthia Dunn",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Cynthia Dunn maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 10 years of discipline.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "44667a7f-3f22-405b-a81f-95751ecfeb04",
-    "name": "Nancy Crawford",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Nancy Crawford specializes in unique culinary styles, offering guests diverse flavors based on 12 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "dd8d7894-4ff2-4ea2-b145-3440f9d50dd4",
-    "name": "Walter Stewart",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Walter Stewart delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 15 years of rigorous training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "43874968-b66f-417a-b5a5-49066fff8311",
-    "name": "Thabo Gardner",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Gardner ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 5 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "944cb727-8bec-4a90-8caa-c2f13ec1553e",
-    "name": "Nora Dixon",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Dixon manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 12 years of specialized knowledge.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "dbd93a98-9e27-457e-a09b-80f1252664e5",
-    "name": "Joan Hudson",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Hudson meticulously prepares a wide array of Nordic-inspired and classic baked goods daily, showcasing skills honed over 13 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "66da167e-b9e3-4720-a6c2-a09e0b34ad29",
-    "name": "Maya Day",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "With 8 years in Michelin-starred establishments, Sommelier Day elevates the dining journey through impeccable wine service and cellar management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "e65993db-fab7-4cff-9627-e4b8d203c53a",
-    "name": "Terry Day",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Day delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 9 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "81a60ed8-0bff-4b7d-ae0a-ddb7daa36cd4",
-    "name": "Barbara Wells",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barbara Wells provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 5 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "a7c4307e-3418-4e9f-ab0d-fca1d3b9cc07",
-    "name": "Brian Knight",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Knight works closely with the culinary team to create wholesome French options that are both flavorful and aligned with wellness goals, drawing on 8 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "5edded8b-0506-44a6-a5b6-5ef46107ab83",
-    "name": "John Ellis",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "With 11 years orchestrating spectacular onboard entertainment, John Ellis manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "f62d7666-3186-4854-a79f-046f8b60f29a",
-    "name": "Grace Harper",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "With 8 years in arts administration, Grace Harper expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "2cff5cee-4c92-4b4c-a9b7-4ab3adb05583",
-    "name": "Harry Spencer",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 13 years, Lead Vocalist Spencer shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "80013dad-a1ca-4bde-876b-924626926eec",
-    "name": "Anthony Hall",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Anthony Hall enriches onboard ambiance through skilled instrumental and vocal performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "76126271-3d95-4813-b14f-cd61e7b41261",
-    "name": "Angela Collins",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Collins delivers energetic and polished routines, drawing on 3 years of dance training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "87d68383-41df-49ff-b3bf-7e5378214bfe",
-    "name": "Juan Fox",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Fox creates captivating dance routines, blending creativity with 9 years of dance expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "aa465cf0-b89e-4783-a5a1-aff98004d879",
-    "name": "Zoe Holloway",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Holloway delivers engaging and memorable stand-up routines onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "2fb69c57-b91e-4938-bcc1-257326b1b136",
-    "name": "Amina Dean",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Dean mystifies audiences with skilled illusions and interactive performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "864ea61d-924f-44d4-97c9-77e110f60660",
-    "name": "Kevin Fisher",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Kevin Fisher utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 7 years of club experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "29c5e1eb-cf26-427c-8fff-f6ae385c985f",
-    "name": "Wei Graves",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Graves expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "65beabe3-0dc9-476c-9a91-5acb3de7037d",
-    "name": "Jeremy West",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist West programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "7c36ac61-aea8-4a89-b96b-ea8e346813e3",
-    "name": "Ryan Harper",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Stage Manager Harper coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "1e1ecf58-7492-4a0e-a64a-9332552ec165",
-    "name": "Ella Cooper",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "With 15 years managing complex theatrical and event productions, Ella Cooper oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "93ed2bd5-e155-4101-bea6-4d038a29bebb",
-    "name": "Ethan Crawford",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Ethan Crawford's artistic flair and attention to historical detail, honed over 11 years, bring visual richness and authenticity to the stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "b394ba17-eaac-4b63-a333-170a61b6bbfb",
-    "name": "Nancy Graham",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Nancy Graham promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "3b100a83-8cb4-4a9f-bb8f-ef844c3f76e5",
-    "name": "Christopher Knight",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Christopher Knight captivates audiences with original performances tailored to shipboard entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "fe720903-993f-42cc-9e87-027a5f03a056",
-    "name": "Janet Cooper",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Janet Cooper oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "40b28cc0-95a6-47ed-9f95-9917bd753f85",
-    "name": "Alexa Hudson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 22 years coordinating complex supply chains, Alexa Hudson ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "16104996-2568-4488-8157-ecdde6649ec9",
-    "name": "Javier Reed",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "With 13 years in inventory management, Javier Reed meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "74329c32-661f-492b-9ddd-0e10a4ac935e",
-    "name": "Laura West",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Laura West applies expertise in vendor management and cost optimization to benefit ship operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "St Thomas",
-    "country": "US Virgin Islands",
-    "region": "US Virgin Islands"
-  },
-  {
-    "id": "d044d150-18e1-4d38-8d43-477c8b4809e9",
-    "name": "Anthony Maxwell",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Anthony Maxwell promotes sustainable practices aligned with maritime environmental standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "St Thomas",
     "country": "US Virgin Islands",
     "region": "US Virgin Islands"

@@ -2,17 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Mykonos
-    // Generated on: 2025-06-10T03:41:38.298Z
+    // Generated on: 2025-06-10T08:14:17.434Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const mykonosTeamMembers: CrewMember[] = [
   {
-    "id": "78f21c09-9dda-4351-aca2-e42dd6b6b552",
-    "name": "Walter Mitchell",
+    "id": "638d1293-65f4-4d6d-a90a-cef40741ea7e",
+    "name": "Jacob Gibson",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Walter Mitchell leads vessel operations with a deep understanding of Greek Islands's maritime environment, backed by 9 years of commanding large crews and complex vessels.",
+    "bio": "Captain Gibson is a veteran mariner with 9 years in Greek Islands, known for meticulous voyage planning and a steadfast commitment to maritime law.",
     "languages": [
       {
         "code": "en",
@@ -24,17 +24,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "793841de-d934-46a6-90d0-bffe49c7dc4c",
-    "name": "Alexa Douglas",
+    "id": "40ed8231-1a17-4615-b30d-03e657588241",
+    "name": "Brian Reeves",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Alexa Douglas applies comprehensive knowledge of Greek Islands's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "bio": "First Officer Reeves's 7-year background includes robust training in advanced navigation systems and crew supervision within Greek Islands.",
     "languages": [
       {
         "code": "en",
@@ -45,18 +45,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "31af4790-0132-48ea-a210-1c1ae485bb16",
-    "name": "Evelyn Graham",
+    "id": "56f6ce12-1f3a-48d7-93de-8b91d36e1f33",
+    "name": "Aria Wells",
     "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "Evelyn Graham is skilled in passage planning software and integrated bridge systems, contributing 5 years of knowledge to operations in Greek Islands.",
+    "bio": "Utilizing 5 years of expertise, Aria Wells meticulously maintains navigational charts and publications crucial for safe transit in Greek Islands.",
     "languages": [
       {
         "code": "en",
@@ -68,17 +68,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "c4f0b827-9c04-4603-89a7-e86dd8a83968",
-    "name": "Helen Collins",
+    "id": "599f8bab-b948-4829-bbeb-d6626e554136",
+    "name": "Allison Price",
     "role": "Third Officer",
     "department": "Deck Department",
-    "bio": "Third Officer Collins conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Greek Islands.",
+    "bio": "Allison Price's expertise in safety and lifesaving equipment maintenance comes from 14 years at sea within Greek Islands, ensuring crew and passenger preparedness.",
     "languages": [
       {
         "code": "en",
@@ -89,18 +89,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "420c87c9-d04a-4e60-b717-bc5ba60f25d4",
-    "name": "Gabriel Campbell",
+    "id": "4b126bf6-d605-427c-8a04-418aca96211c",
+    "name": "Claire Fox",
     "role": "Navigation Officer",
     "department": "Deck Department",
-    "bio": "Gabriel Campbell's expertise in navigational risk assessment supports proactive decision-making for safe operations within Greek Islands's ports and coastal areas.",
+    "bio": "Navigation Officer Fox maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Greek Islands.",
     "languages": [
       {
         "code": "en",
@@ -111,18 +111,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "70c3c092-c4e2-42c0-bb12-73a49d5bb7b8",
-    "name": "Audrey Keller",
+    "id": "d22a024d-6e99-45e2-b04e-aafeb9eb4079",
+    "name": "Savannah Crawford",
     "role": "Safety Officer",
     "department": "Deck Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Audrey Keller fosters a culture of safety awareness among crew and passengers.",
+    "bio": "Leveraging 15 years in maritime safety, Savannah Crawford excels at developing and implementing targeted safety training programs relevant to Greek Islands's specific operational hazards.",
     "languages": [
       {
         "code": "en",
@@ -133,18 +133,40 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "35c3e512-1535-4d01-b2e9-56b1a6013449",
-    "name": "Maya Charlotte",
+    "id": "985cbb55-a6bf-44dd-b39f-74bbe302dace",
+    "name": "Laura Hudson",
     "role": "Deck Cadet",
     "department": "Deck Department",
-    "bio": "Deck Cadet Charlotte learns shipboard operations under experienced officers, preparing for a future leadership role in Greek Islands waters.",
+    "bio": "Laura Hudson is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within Greek Islands.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "16a3b592-8a0a-47f7-b2e4-e188368c4427",
+    "name": "Aria West",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun West maintains the vessel's exterior appearance and structural integrity, a testament to 3 years of dedication in Greek Islands.",
     "languages": [
       {
         "code": "en",
@@ -156,39 +178,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "06e6d7ac-68cd-4af4-aaff-452556c08ae6",
-    "name": "Jose Porter",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Leveraging 5 years of seamanship, Bosun Porter is an expert in rigging, anchoring, and all aspects of deck machinery operation in Greek Islands.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "38d83622-9d9d-4099-8149-6aae24b8ef07",
-    "name": "Nomsa Hudson",
+    "id": "9fbd7cfb-9b05-4f0c-8890-717027644dc2",
+    "name": "John Hudson",
     "role": "Chief Engineer",
     "department": "Engineering Department",
-    "bio": "With 11 years in marine engineering, Nomsa Hudson ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
+    "bio": "Chief Engineer Hudson manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
     "languages": [
       {
         "code": "en",
@@ -200,17 +200,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "7fc909e0-32ba-4b99-9c2c-64276adda57c",
-    "name": "Mark Russell",
+    "id": "83930067-a1a1-45bd-880b-cd457a866036",
+    "name": "Willie Griffin",
     "role": "First Engineer",
     "department": "Engineering Department",
-    "bio": "With a focus on propulsion and power systems, Mark Russell applies 7 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
+    "bio": "Willie Griffin supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
     "languages": [
       {
         "code": "en",
@@ -221,18 +221,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "fa8ed45c-4645-427c-b3fc-711f07667f80",
-    "name": "Madelyn Ellis",
+    "id": "2c798cbc-b3a3-45ff-9143-994715c2fbef",
+    "name": "Avery Sutton",
     "role": "Second Engineer",
     "department": "Engineering Department",
-    "bio": "Second Engineer Ellis conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "bio": "With 9 years of experience, Avery Sutton is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
     "languages": [
       {
         "code": "en",
@@ -243,18 +243,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "a302c8af-658c-439b-920d-011621a67660",
-    "name": "Adeline Porter",
+    "id": "272a2769-984e-4eff-b6f4-4c521c072d10",
+    "name": "Angela Wallace",
     "role": "Electrical Engineer",
     "department": "Engineering Department",
-    "bio": "Adeline Porter implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
+    "bio": "Angela Wallace's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 19 years in the field.",
     "languages": [
       {
         "code": "en",
@@ -265,194 +265,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "e3a07aa8-f79b-48fc-878f-bc58f80a0695",
-    "name": "Tyler Warren",
+    "id": "c082a3ce-8d9b-4560-b30e-77f61ba42fc9",
+    "name": "Edward Ellis",
     "role": "Mechanical Engineer",
     "department": "Engineering Department",
-    "bio": "Mechanical Engineer Warren specializes in propulsion, HVAC, and auxiliary machinery with 7 years ensuring operational efficiency and reliability.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "7f4918de-b334-4df8-b12a-a8748ee070da",
-    "name": "Aaliyah Murray",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "With expertise in refrigeration cycles and ventilation design, Aaliyah Murray addresses environmental control challenges in varying maritime conditions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "fd487c3c-60be-4ae1-8048-c79c11c8f98d",
-    "name": "Leah Knight",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Leah Knight applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "20151709-ea60-4b35-b20b-b15134d6f83b",
-    "name": "Allison Cooper",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Allison Cooper is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 20 years of in-depth experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "a4df398f-2721-4372-aed9-08ecb25a769d",
-    "name": "Eleanor Dean",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "With 6 years leading technical teams, Eleanor Dean ensures vessel systems meet all regulatory, safety, and performance standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "1ac78bd2-5496-4dc4-aabc-ff0129e1afcd",
-    "name": "Eleanor Spencer",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Spencer applies 12 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "7c11a6fc-aaaa-47d9-8b41-72a95c99be64",
-    "name": "Gary Gardner",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Known for decisive leadership, Gary Gardner fosters a culture of vigilance and continuous improvement in maritime security standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "fd79744b-f5b1-4346-b12e-12b348f838ca",
-    "name": "Emma Campbell",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "With 6 years on watch, Emma Campbell is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "8f924178-bdc6-45bb-8047-d7811b4055a4",
-    "name": "Elijah Coleman",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Elijah Coleman provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
+    "bio": "Mechanical Engineer Ellis specializes in propulsion, HVAC, and auxiliary machinery with 17 years ensuring operational efficiency and reliability.",
     "languages": [
       {
         "code": "en",
@@ -464,17 +288,369 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "d4b92a2a-bafb-4318-8500-e9c9945d5acd",
-    "name": "Nora Bennett",
+    "id": "72be0bea-afbe-4985-a741-3c2661b9f946",
+    "name": "Nicole Keller",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Nicole Keller monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "9da26cce-ad1a-4a99-9e60-9f7a89dbbe48",
+    "name": "Jacob Warren",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Jacob Warren champions innovative solutions for waste reduction and energy efficiency, reflecting 10 years of commitment to maritime sustainability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "d3050891-73e7-46cc-8b03-a4e2990f90eb",
+    "name": "Carol Campbell",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Carol Campbell manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "df3e1c45-83e2-41fd-a511-3729f212c0a6",
+    "name": "Alice Griffin",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Known for strong leadership, Alice Griffin fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "2fec5a75-4135-4cac-bf50-29d893bbf93c",
+    "name": "Matthew Porter",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Matthew Porter meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 11 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "7c50ce8e-7000-46f6-aa94-0f5aee71869e",
+    "name": "Eugene Parker",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Eugene Parker, with 12 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "28cf9518-f26b-4512-aeb5-f3609a645b2f",
+    "name": "Elijah Price",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With 7 years on watch, Elijah Price is adept at identifying suspicious activities and ensuring adherence to the ship's security plan.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "213cf932-03a9-42da-a4c5-257638b14c76",
+    "name": "Jessica Douglas",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Douglas develops tailored security plans and threat mitigation strategies based on 22 years of maritime threat analysis and intelligence gathering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "616c5a92-7a3f-4b0e-9179-ac0efbe75edd",
+    "name": "Lily Porter",
     "role": "Cybersecurity Officer",
     "department": "Security Department",
-    "bio": "With a background in IT security, Nora Bennett safeguards shipboard communication and control systems against cyber threats, ensuring data integrity and system availability.",
+    "bio": "Cybersecurity Officer Porter conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 11 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "64162bab-b79f-49d3-9f2e-ab352ea6cc92",
+    "name": "Kenneth Hunter",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Hunter facilitates seamless security operations between ship and shore, a skill honed over 4 years of dedicated service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8cbf618c-998b-4330-892b-1fa24ce1cfb6",
+    "name": "Anthony Dixon",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "With expertise in surveillance and monitoring, Anthony Dixon detects and prevents unauthorized access to restricted vessel areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8770156e-4366-4f3c-934e-711e6f5dbade",
+    "name": "Emma Olivia",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Emma Olivia leads incident investigations and corrective action plans.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8e24be5f-adaa-41f9-909d-73c67dfe6300",
+    "name": "Isabella Douglas",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Douglas ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 7 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "349cd2a8-b465-45be-9461-a59445f7d269",
+    "name": "Darrell Foster",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With strong communication skills, Darrell Foster liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "58d6f337-448b-47ca-8514-8d1fc028150b",
+    "name": "Elizabeth Morgan",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Experienced in youth engagement, Elizabeth Morgan provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "010f6779-8e80-48c4-b0e1-6515d153a072",
+    "name": "Brian Curtis",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Curtis fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "e9519c2f-a929-4c88-bb48-3b2d7fab34aa",
+    "name": "Alice Olivia",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, Alice Olivia curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
     "languages": [
       {
         "code": "en",
@@ -486,83 +662,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "dded80e1-7145-48a3-bfec-15f9dc4e9193",
-    "name": "Savannah Ellis",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With 4 years in the role, Savannah Ellis is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "946ccd1b-c2f3-4733-94f8-17b8a2deafa0",
-    "name": "Gabriella Lawson",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Drawing on 10 years of experience, Gabriella Lawson is proficient in operating and maintaining advanced access control systems and screening equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "50695d33-245c-400a-80cd-709f929cd704",
-    "name": "Richard Mitchell",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Mitchell promotes a safety-first culture through continuous education and enforcement of best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "bab3007e-9e5c-4866-bf5c-583e1d0a8ff4",
-    "name": "Julie Sutton",
-    "role": "Youth Program Director",
+    "id": "4f2605f2-c242-4456-aa32-6aa7c6d84fb2",
+    "name": "Randy Keller",
+    "role": "Child Care Specialist",
     "department": "Youth & Family Programs",
-    "bio": "With 10 years shaping children's experiences at sea, Julie Sutton excels at creating memorable and enriching programs for all age groups.",
+    "bio": "With expertise in child health and safety protocols, Randy Keller manages routines and responds to individual needs of children under care.",
     "languages": [
       {
         "code": "en",
@@ -573,18 +683,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "8d050c8d-77b0-4ef3-bcfd-d9ff64572d9d",
-    "name": "Janet Grant",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Janet Grant organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 16 years of expertise.",
+    "id": "3c1b15c4-79e0-4717-b75d-3a5ebeba0dfc",
+    "name": "Roger Curtis",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Curtis is passionate about creating vibrant social atmospheres, a skill perfected over 18 years of orchestrating memorable onboard events.",
     "languages": [
       {
         "code": "en",
@@ -595,18 +705,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "27c793e8-246e-44b3-afef-11f32b3115d6",
-    "name": "Savannah Carpenter",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Savannah Carpenter is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 12 years in the field.",
+    "id": "4cb71795-4225-4cae-bad1-8d64a267d2c3",
+    "name": "Diego Palmer",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Diego Palmer's primary focus for 12 years has been ensuring every guest feels confident and secure while exploring the water.",
     "languages": [
       {
         "code": "en",
@@ -618,17 +728,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "7d686711-0def-4611-828a-6cd13030327a",
-    "name": "Madelyn Day",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Madelyn Day develops dynamic programs catering to teenage guests, drawing on 16 years of youth facilitation and event management expertise.",
+    "id": "2e94bf3d-84bd-4eac-a2e9-cbc7f95ed70d",
+    "name": "Janet Day",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 12 years of expertise, Janet Day offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
     "languages": [
       {
         "code": "en",
@@ -639,18 +749,216 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 16,
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "4dcb3628-70a0-419e-b54e-e5f893ef7afb",
+    "name": "Jane Carpenter",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 20 years of experience, Jane Carpenter curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "cfedc371-e8db-4788-8d45-403d39624c58",
+    "name": "Ralph Mason",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Ralph Mason collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "1e62fcd4-92e2-4377-a437-d91506feebae",
+    "name": "Olivia Murray",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Olivia Murray produces videos for promotional and archival purposes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "fe6b01bd-d0cf-48b9-b857-712a67a0b21d",
+    "name": "Aaliyah Collins",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Aaliyah Collins manages digital content and multimedia production, applying 17 years in digital media, marketing, and audience engagement strategies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "afdcb9b0-3b0a-4641-88a0-6162231d8b28",
+    "name": "Jesse Murray",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Murray has 9 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "c7d13c4a-65a1-4a6e-8655-d64a043469df",
+    "name": "Mark Sutton",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Sutton ensures passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "c148fb81-1a3a-46ff-aac7-3dae4b53d84a",
+    "name": "Catherine Parker",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 7 years of experience, Catherine Parker is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8ec0f87f-a02b-4c99-9552-5bfa528be3e4",
+    "name": "Joshua Murray",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Murray works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "db397ce1-0c7e-41bb-a9a3-2a25a8cecada",
+    "name": "Aaliyah Mason",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Aaliyah Mason manages all hospitality services, ensuring exceptional guest experiences with 22 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
     "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "176432f7-3aa5-4674-b3b0-1a3deb9faab9",
-    "name": "Elena Watson",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "With a commitment to lifelong learning, Elena Watson curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
+    "id": "03d568c4-a2b6-4470-bed9-c6d3886c1565",
+    "name": "Marcus Dean",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Marcus Dean champions a guest-first culture, utilizing 17 years of experience to train and motivate staff in delivering exceptional, personalized care.",
     "languages": [
       {
         "code": "en",
@@ -661,128 +969,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "adf49ce8-6a8f-421d-84fc-668304c5d80b",
-    "name": "Samuel Murray",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Samuel Murray manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "b29f4c69-4d9a-44d0-8753-4cea06ad8d27",
-    "name": "Arthur Hall",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Known for innovative programming, Arthur Hall continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "0f9f7c58-7e7e-4714-ba6c-021083db619c",
-    "name": "Janet Ellis",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Janet Ellis teaches water sports safely and effectively, leveraging 4 years of professional instruction and certification in aquatic activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "30830b43-cf13-483a-a39d-636e28d24249",
-    "name": "Zoe Porter",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 15 years of expertise, Zoe Porter offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "483d5065-5f3c-470c-bf14-73e09a73141a",
-    "name": "Katherine Holloway",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Holloway prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "370734eb-c9b7-4fca-b600-a1aa8bcbd04a",
-    "name": "Jerry Fletcher",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Lead Photographer Fletcher captures stunning imagery of ship life, landscapes, and destinations, backed by 13 years of professional photography expertise.",
+    "id": "8bf09400-eecf-449f-81fb-a0c845bbec84",
+    "name": "Donna Maxwell",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 13 years leading stewardship teams, Chief Steward Maxwell meticulously manages cabin services, laundry operations, and public area upkeep.",
     "languages": [
       {
         "code": "en",
@@ -794,17 +992,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "a0d603b0-68f4-4c91-a431-b86b82ec6889",
-    "name": "Laura West",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Videographer West is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 7 years.",
+    "id": "4fdca3e4-f1fa-4987-96d4-6077b9823329",
+    "name": "Sofia Dunn",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Sofia Dunn is skilled in managing cabin maintenance and guest requests with professionalism and care.",
     "languages": [
       {
         "code": "en",
@@ -815,18 +1013,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "46a54946-4cca-408a-a74b-c14360a1bac0",
-    "name": "Aaron Fox",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Fox is proficient in SEO, content management systems, and digital advertising, skills honed over 16 years.",
+    "id": "41db9c1f-c542-43c8-a7ae-29c065a7baa3",
+    "name": "Andrew Jennings",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Andrew Jennings anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
     "languages": [
       {
         "code": "en",
@@ -837,18 +1035,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "d02b1a16-0845-4165-b662-ae003b0094c6",
-    "name": "Bryan Hawkins",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to preventive care, Bryan Hawkins promotes health education and wellness initiatives throughout the voyage.",
+    "id": "7fe85fb4-e571-4a34-af96-cbafbdcb11f0",
+    "name": "Luis Curtis",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Curtis coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
     "languages": [
       {
         "code": "en",
@@ -859,18 +1057,40 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "bd230c66-02bc-4b56-a30c-40e0211a4085",
-    "name": "John Ellis",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With 19 years practicing medicine in diverse environments, Dr. Ellis is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "id": "6cce1365-6fee-4d02-80a2-b54196b7579b",
+    "name": "Jordan Watson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "With a keen eye for detail developed over 15 years, Housekeeping Supervisor Watson conducts rigorous inspections to uphold pristine conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "7bba1a86-4548-4369-a398-b7db05bdd311",
+    "name": "Richard Montgomery",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "With 19 years providing frontline support, Richard Montgomery is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
     "languages": [
       {
         "code": "en",
@@ -882,215 +1102,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "e6645ded-58c9-4a98-a8c9-6233e3f6c17f",
-    "name": "Naomi Hunter",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Leveraging 3 years in diverse nursing roles, Naomi Hunter excels in triage, wound care, and patient advocacy within the unique maritime environment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "69ebfb7b-b5fd-48b4-a04f-6d82d1b0877a",
-    "name": "Rebecca Mason",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Safety Officer Mason works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "11697ca3-fdaf-4faf-97cf-c9e1e4395788",
-    "name": "Eric Fisher",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Director Fisher orchestrates a seamless guest journey, from arrival to departure, leveraging 12 years of expertise in luxury service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 12,
     "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "6603b191-fdd3-4402-b607-ef0caa164997",
-    "name": "Matthew Hall",
-    "role": "Guest Relations Manager",
+    "id": "95a5eb35-985a-4387-991f-e6571f317ecd",
+    "name": "Genesis Fox",
+    "role": "Concierge",
     "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Hall enhances passenger satisfaction through attentive and personalized service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "fd99ab6d-38a7-4a30-a543-dcc95a9d1e2c",
-    "name": "Victoria Dunn",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Victoria Dunn excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 11 years of dedication.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "8c167f5e-35e1-494b-9612-10c9de4b4567",
-    "name": "Liam Marshall",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Liam Marshall is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "4fabd0a1-b370-435a-818e-aa578ed6a8df",
-    "name": "Harper Harper",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Harper is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 11 years in top-tier hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "eb771fa0-8d7e-4510-bddd-9edf9634bfe1",
-    "name": "Donna Coleman",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "With 19 years managing large-scale accommodation facilities, Donna Coleman ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "f6e8dee6-648b-4567-b087-c80565ed8e2f",
-    "name": "Rebecca Montgomery",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Rebecca Montgomery ensures smooth operations and staff training, supported by 3 years in hospitality management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "92e053b8-5879-4843-abbb-fbf029111511",
-    "name": "Daniel Crawford",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Daniel Crawford's communication skills, honed over 14 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "bio": "Concierge Fox offers expert local knowledge and personalized recommendations to enrich guest journeys.",
     "languages": [
       {
         "code": "en",
@@ -1108,33 +1130,11 @@ export const mykonosTeamMembers: CrewMember[] = [
     "region": "Greek Islands"
   },
   {
-    "id": "610c707e-94d4-4e31-8631-fc9c6b0192b9",
-    "name": "Cynthia Ellis",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Ellis offers expert local knowledge and personalized recommendations to enrich guest journeys.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "668b4723-af9c-4071-8552-989a50316611",
-    "name": "Eugene Clark",
+    "id": "a02384da-a35f-4fc7-914e-fd48990cf9b4",
+    "name": "Henry Reed",
     "role": "Front Desk Manager",
     "department": "Hospitality Department",
-    "bio": "Front Desk Manager Clark trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 14 years of best practices.",
+    "bio": "Henry Reed leads front office teams with a focus on excellent customer service and operational efficiency.",
     "languages": [
       {
         "code": "en",
@@ -1145,18 +1145,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "c4c34978-0f49-40e3-b75c-8388a2ba8283",
-    "name": "Brooklyn Charlotte",
+    "id": "986b943e-41bd-40c4-b656-973c688823d6",
+    "name": "Mason Montgomery",
     "role": "VIP Coordinator",
     "department": "Hospitality Department",
-    "bio": "With 3 years catering to high-profile clientele, Brooklyn Charlotte curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "bio": "With 16 years catering to high-profile clientele, Mason Montgomery curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
     "languages": [
       {
         "code": "en",
@@ -1167,62 +1167,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "041e795f-f792-4c66-ac0c-043e15901c10",
-    "name": "Billy Hall",
+    "id": "bd7f1318-68d3-4471-b766-5bc079fb6615",
+    "name": "Priya Campbell",
     "role": "Hospitality Trainer",
     "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Hall specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 22 years of industry best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "f0b00754-0f84-4305-9237-299b85aaf23e",
-    "name": "Douglas Olivia",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Olivia leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 8 years of innovative leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "c6b7a383-088b-414a-9c6d-22c5fe3e9b48",
-    "name": "Ariana Grant",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Ariana Grant excels in menu execution and team management to maintain high culinary standards.",
+    "bio": "Priya Campbell conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 18 years in adult learning.",
     "languages": [
       {
         "code": "en",
@@ -1234,17 +1190,391 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "a8c9603b-2eca-42c9-86ea-6c67db2096e0",
-    "name": "Oliver Wells",
+    "id": "8989e031-e976-40e7-a986-87b511eb0233",
+    "name": "Caroline Marshall",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Caribbean and international gastronomy, Caroline Marshall ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 18 years of award-winning experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "f19bf77c-6358-4caa-ab04-f2dd898f1618",
+    "name": "Jeffrey Collins",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Jeffrey Collins trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 20 years of mentorship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8c2fe8e5-f2fc-4019-b5f9-bcab6824d0a4",
+    "name": "Jennifer Crawford",
     "role": "Pastry Chef",
     "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Wells continually develops new recipes, delighting guests with 17 years of dedication to the art of patisserie.",
+    "bio": "Pastry Chef Crawford crafts exquisite desserts with 8 years of baking and pastry artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "0bbe6a00-d8a9-4d3d-b415-d5ac85d05b3e",
+    "name": "Steven Hudson",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the marine electronics station (e.g., Saucier, Grillardin), Chef de Partie Hudson brings 7 years of expertise in preparing precise Pan-Asian components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "c4ef52ce-cc47-4921-832c-8ecf12943187",
+    "name": "Maria Chambers",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Chambers curates exclusive menus for themed dining venues, showcasing 8 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "cb64d090-a99c-4452-86d8-f345869e54ae",
+    "name": "Victoria Montgomery",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Montgomery prepares fresh and artistic sushi dishes, drawing on 22 years of Japanese culinary tradition.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "b354cc7c-7974-460b-b04c-5381def4df09",
+    "name": "Layla Grant",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Layla Grant is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 14 years of Continental expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "6a5263f4-cb6e-4e98-b71c-352625b08381",
+    "name": "Paul Hunter",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Paul Hunter maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 21 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "697e761a-eac4-457b-99e4-315b54800502",
+    "name": "Gabriel Maxwell",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Maxwell meticulously prepares a wide array of Latin American-inspired and classic baked goods daily, showcasing skills honed over 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "85d195a0-b5c6-4b2a-8e7f-1c39ff21c606",
+    "name": "Timothy Hamilton",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Timothy Hamilton enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "fb371ceb-df00-4df6-9226-6432a99a6aed",
+    "name": "Amina Fisher",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Amina Fisher delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "be1ed9b0-f8ad-4a4c-a981-a78c89a2f6e9",
+    "name": "Louis Maxwell",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 21 years of expertise in coffee origins, brewing methods, and latte art, Louis Maxwell crafts the perfect cup for every guest.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "ea2e3347-d557-4932-9085-8bfade722ac3",
+    "name": "Jacob Chambers",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Chambers works closely with the culinary team to create wholesome Latin American options that are both flavorful and aligned with wellness goals, drawing on 21 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "f39837db-1332-4107-ac44-be0c4b97ff6e",
+    "name": "Lucas Fisher",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Fisher leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 8 years of industry leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "0eafaf38-679a-4758-bb6a-7a7b4836347b",
+    "name": "Gabriel Warren",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Gabriel Warren's organizational skills, honed over 7 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "e09c8fa1-927f-4307-a2a4-1d9787448d81",
+    "name": "Bruce Ellis",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Bruce Ellis consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 20 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "1c288ddc-bfe0-4eb5-8eba-15990383595a",
+    "name": "William Fisher",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, William Fisher brings 7 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "478cdf68-792e-449c-a4b7-4ef58c40ea60",
+    "name": "Donna Harper",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Donna Harper engages audiences with versatile dance styles across entertainment programs.",
     "languages": [
       {
         "code": "en",
@@ -1256,17 +1586,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "bf193db0-c29e-4fa6-84fd-0035cfb3aa59",
-    "name": "Vincent Harper",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Harper manages specific kitchen stations with 7 years of focused culinary skill.",
+    "id": "7617f1bd-6a60-4168-8e4e-7f0f2b199ad8",
+    "name": "Laura Murray",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Murray works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 3 years of artistic direction.",
     "languages": [
       {
         "code": "en",
@@ -1277,18 +1607,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "d6353367-59bf-4b50-b268-7cd86f77c2ab",
-    "name": "Audrey Dixon",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "With 5 years perfecting {cuisineSpecific} artistry, Audrey Dixon ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "id": "a57d4309-ec96-494a-9b1b-6bca75818e44",
+    "name": "Gabriel Keller",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Keller delivers engaging and memorable stand-up routines onboard.",
     "languages": [
       {
         "code": "en",
@@ -1300,545 +1630,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "5be033d6-1c16-4826-ae56-e046179b0f95",
-    "name": "Thandiwe Hawkins",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "With 9 years dedicated to the art of sushi and sashimi, Chef Hawkins meticulously selects the freshest seafood and crafts each piece with mastery.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "30bc993f-95ed-4fd6-b8aa-f97563b1054d",
-    "name": "Catherine Sutton",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Sutton expertly prepares cold dishes and appetizers with 7 years of culinary proficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "969458d5-b160-46e8-84f0-06d3dafc8561",
-    "name": "Kyle Hall",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "With 7 years of expertise, Butcher Hall expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Japanese dishes.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "36a67b43-caf4-4469-a546-c805a3d2cf46",
-    "name": "Rachel Henderson",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Rachel Henderson manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 11 years of professional baking.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "47edc6da-e6b4-4cad-891c-e65b6f791e8b",
-    "name": "Miguel Holloway",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Holloway navigates an extensive cellar to find the perfect wine for every palate and Japanese, drawing on 14 years of oenological expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "037496fe-cc6d-4ca1-abc9-fb3e450d5112",
-    "name": "Nancy Maxwell",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Nancy Maxwell delivers exceptional beverage experiences tailored to guest preferences onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "c691fc41-92a5-4747-ac78-0159a2128f22",
-    "name": "Isabella Griffin",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Griffin prepares specialty coffees with precision, backed by 7 years in coffee service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "be9548a5-5551-47d4-a1e5-da91fac6b305",
-    "name": "Joe Keller",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Joe Keller conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 12 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "31eecdf5-0925-42eb-bac3-66fe6a2dc652",
-    "name": "Christopher Morgan",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Christopher Morgan plans and oversees all entertainment activities, applying 6 years of event and talent management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "853df0fa-895c-47db-9ab3-d98dc7f8d163",
-    "name": "Scarlett Graham",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "With 7 years in arts administration, Scarlett Graham expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "d9f1b411-ff2c-4025-a209-21120a116ced",
-    "name": "Sean Jennings",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "As a key figure in production shows, Lead Vocalist Jennings collaborates with the cast and creative team, bringing 19 years of professional discipline and artistry.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "324cd5e6-7d1b-4cbf-981d-b3034e7102ef",
-    "name": "Rachel Lawson",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Lawson adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 4 years of diverse musical experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "1b465217-fe84-44ce-bd69-bd0a8995f100",
-    "name": "Thabo Hudson",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Thabo Hudson is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 18 years of professional dance experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "a6064e42-920a-4197-8705-530d323e7674",
-    "name": "Avery Coleman",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Avery Coleman leads rehearsals and performance design to enhance the entertainment experience onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "013e8154-abe0-44ed-9cf3-191893bf1a31",
-    "name": "Andrew Holloway",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Andrew Holloway entertains guests with humor and timing, backed by 22 years in comedy performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "a99d1f22-9c68-49d4-9af2-d81871f82533",
-    "name": "Adeline Harper",
+    "id": "93f1e0fe-ae9d-4a61-9a98-e50d5b8efd5e",
+    "name": "Scott Russell",
     "role": "Magic Act",
     "department": "Entertainment Department",
-    "bio": "Magic Act specialist Harper combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "4c6d8404-5ae5-4d59-b345-8d9eb178dd78",
-    "name": "Mason Hall",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Mason Hall utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 19 years of club experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "a5e5d923-cc88-4347-becf-88fb173d6254",
-    "name": "Harry Coleman",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Harry Coleman's keen ear and technical proficiency, developed over 22 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "ad3c2836-c178-45d3-b680-b371c4888526",
-    "name": "Ashley Grant",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Ashley Grant applies 18 years of technical skill to create immersive visual experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "1e80c000-f373-4924-a2bc-41eb35162e4f",
-    "name": "Jack Dunn",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "With 15 years in professional stage management, Jack Dunn meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "3af94bcb-d67a-4c39-80e7-a28c258885c3",
-    "name": "Stephanie Hunter",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Hunter oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "76c9f59a-dc44-470c-b198-7224619843f3",
-    "name": "Brooklyn Day",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Day manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "1cec9da0-9e7f-48b4-8e54-a750daea19ed",
-    "name": "Samantha Fletcher",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "With 20 years in arts and cultural programming, Samantha Fletcher develops insightful lectures, workshops, and performances that reflect the destinations visited.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "439d8de7-0252-4aca-8ccf-816f48070316",
-    "name": "Sarah Hayes",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Hayes combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "f8a861f9-8121-4020-8c55-a62caa10c546",
-    "name": "William Keller",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "William Keller oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "bio": "With 8 years honing the art of illusion, Scott Russell performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
     "languages": [
       {
         "code": "en",
@@ -1850,17 +1652,17 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "b3b795c7-d8a2-4083-8069-7607df9829df",
-    "name": "Susan Hunter",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 15 years coordinating complex supply chains, Susan Hunter ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "id": "afeef5c2-574e-42ab-95e7-7e61d06e2acc",
+    "name": "Jeffrey Clark",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 16 years of reading crowds, DJ Clark seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
     "languages": [
       {
         "code": "en",
@@ -1871,40 +1673,18 @@ export const mykonosTeamMembers: CrewMember[] = [
         "name": "Greek"
       }
     ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "3d99645b-93d8-4011-9f9c-94c0e20ea68b",
-    "name": "Naomi Knight",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Naomi Knight ensures accurate inventory control using advanced management systems.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "el",
-        "name": "Greek"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Mykonos",
-    "country": "Greece",
-    "region": "Greek Islands"
-  },
-  {
-    "id": "a7c0b70b-ed51-463f-a52a-a8cd8ed2df57",
-    "name": "Sebastian Porter",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Sebastian Porter's sharp negotiation skills and 18 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "id": "90c00e7d-51db-4753-b71d-5095efb5e981",
+    "name": "Virginia Henderson",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Virginia Henderson supports entertainment events with technical expertise in live sound engineering.",
     "languages": [
       {
         "code": "en",
@@ -1916,17 +1696,83 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"
   },
   {
-    "id": "6a74bc59-68e3-41c7-bb8b-07c7839333ac",
-    "name": "Julie Charlotte",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Charlotte implements green initiatives to minimize environmental impact.",
+    "id": "043043d1-aa61-4692-807a-19303a7997b7",
+    "name": "Naomi Douglas",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Naomi Douglas's artistic vision and technical mastery over 12 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "e6715b3d-28ff-4817-bbc3-7370a0cda264",
+    "name": "Donna Henderson",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Donna Henderson's calm under pressure and attention to detail, honed over 10 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "bb636b74-5229-481b-b1a8-2c4b500ed678",
+    "name": "Zoe Murray",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Zoe Murray's strategic planning and problem-solving skills, developed over 6 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "6f531967-5c19-46c5-a959-978570603679",
+    "name": "Laura Porter",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Laura Porter's artistic flair and attention to historical detail, honed over 20 years, bring visual richness and authenticity to the stage.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +1784,161 @@ export const mykonosTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "042188f0-c382-477f-924d-1517332c5b37",
+    "name": "Alice Hayes",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 22 years in arts and cultural programming, Alice Hayes develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "811356ce-8501-41fc-a0a1-9bec52ff66d4",
+    "name": "Larry Parker",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Parker combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8f09c901-ab86-4dd2-b186-b6097a104e45",
+    "name": "Chen Hunter",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Hunter is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "e9ad9a42-565e-482f-9365-3ed007be3f46",
+    "name": "Margaret Bennett",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Margaret Bennett leverages 16 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "8c231626-f53b-4fb5-8638-56f3104d077a",
+    "name": "Jesse Cooper",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Cooper tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "45f293e2-f088-481b-bb76-e3bcb33bbc47",
+    "name": "Adam Reeves",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 18 years in strategic sourcing, Adam Reeves identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Mykonos",
+    "country": "Greece",
+    "region": "Greek Islands"
+  },
+  {
+    "id": "c9fb2f77-e6d7-4206-86c9-4f15437d943c",
+    "name": "Rachel Keller",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Keller ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Mykonos",
     "country": "Greece",
     "region": "Greek Islands"

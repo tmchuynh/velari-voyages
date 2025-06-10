@@ -2,17 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: San Francisco
-    // Generated on: 2025-06-10T03:41:38.302Z
+    // Generated on: 2025-06-10T08:14:17.440Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const sanfranciscoTeamMembers: CrewMember[] = [
   {
-    "id": "ae1c20d7-808b-4143-bd09-9e5933ea75fa",
-    "name": "Adam Keller",
+    "id": "841ac65c-838c-4d5f-ba17-334cc94a89a7",
+    "name": "Ethan Bennett",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "With a distinguished 10-year career, Adam Keller ensures the highest standards of safety and seamanship aboard, navigating California with precision and authority.",
+    "bio": "Ethan Bennett leads vessel operations with a deep understanding of California's maritime environment, backed by 17 years of commanding large crews and complex vessels.",
     "languages": [
       {
         "code": "en",
@@ -23,106 +23,18 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "3e417d12-9f1a-40ac-ac46-8e27f9637dbb",
-    "name": "Brenda Olivia",
+    "id": "9a8029d3-79a5-4765-b093-84b115044255",
+    "name": "Edward Holloway",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Brenda Olivia applies comprehensive knowledge of California's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "59760215-01f1-44be-b789-c506008314ae",
-    "name": "Avery Clark",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Avery Clark is skilled in passage planning software and integrated bridge systems, contributing 3 years of knowledge to operations in California.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "13f543ef-0196-45cb-90ec-61e9c738f2be",
-    "name": "Alice Hudson",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Third Officer Hudson conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across California.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "e1799b21-5a6e-48d3-be58-f646653aa865",
-    "name": "Ellie Reed",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "With 6 years dedicated to California routes, Ellie Reed excels in dynamic positioning and integrated navigation systems management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "bdae88d4-6e65-4da1-a231-6aeb052b4d84",
-    "name": "Genesis Knight",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With 21 years overseeing maritime safety, Genesis Knight ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in California.",
+    "bio": "Edward Holloway, with 21 years navigating California, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       {
         "code": "en",
@@ -134,149 +46,17 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "ec89adc0-b868-4ecd-832f-af2b20a7ea7d",
-    "name": "Patrick Gardner",
-    "role": "Deck Cadet",
+    "id": "69fda057-7e4c-4632-a85d-746100054625",
+    "name": "Savannah Nash",
+    "role": "Second Officer",
     "department": "Deck Department",
-    "bio": "As a dedicated Deck Cadet, Patrick Gardner is gaining 7 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in California.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "4b2a9bc8-d82a-44e4-a3f6-63e9a7a700cb",
-    "name": "Kenneth Maxwell",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Kenneth Maxwell's leadership ensures the deck department operates efficiently and safely, drawing from 11 years of hands-on experience in California.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "a157c2f7-d256-40f6-831b-48b318be10d3",
-    "name": "Elizabeth Coleman",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Coleman manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9174ac0b-55a0-419c-a33b-a7a5abe59999",
-    "name": "Angela Charlotte",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 16 years, Angela Charlotte takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "d51e5bcf-33c6-4d9d-a385-eab91f6442c8",
-    "name": "Mary Fletcher",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Mary Fletcher's 9 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9f98b056-242c-4b16-8ef9-af15d17a711d",
-    "name": "Elizabeth Mitchell",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Mitchell conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "e24b5394-07de-4cc3-afc9-c820717d3b71",
-    "name": "Evelyn Douglas",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Evelyn Douglas's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 22 years of service.",
+    "bio": "Savannah Nash ensures compliance with navigation protocols and supports bridge team operations, leveraging 22 years in maritime operations across California.",
     "languages": [
       {
         "code": "en",
@@ -288,17 +68,17 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "ee30f580-2797-4c59-82e1-6eac08d8f832",
-    "name": "Jerry Harper",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Drawing on 3 years, Jerry Harper is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
+    "id": "3f56d767-ceb9-4d02-a086-1d9af7da174c",
+    "name": "Dennis Hamilton",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 5 years dedicated to bridge operations, Dennis Hamilton contributes to seamless voyages through California's waterways by monitoring safety and compliance.",
     "languages": [
       {
         "code": "en",
@@ -309,898 +89,18 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "da544827-1259-4904-a00b-8d6e2700b6c5",
-    "name": "Alice Dean",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 4 years in marine environmental science, Alice Dean ensures strict adherence to all international and local environmental laws.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "5ccabb0b-da8c-49b0-a910-7b02280b7dae",
-    "name": "Nancy Cooper",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Nancy Cooper integrates complex onboard systems, ensuring operational synergy and reliability with 3 years of maritime engineering expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "d373831a-e037-4d0e-86a1-e999b7c48a0a",
-    "name": "Sofia Keller",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Technical Manager Keller oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "39f1c068-cab2-4732-bd83-17af35b815ef",
-    "name": "Sarah Murray",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "With a focus on reliability-centered maintenance, Sarah Murray optimizes maintenance practices in accordance with industry best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
+    "experienceYears": 5,
     "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "5231e267-103f-4cc9-9758-30813ad3c6e1",
-    "name": "Keith Knight",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Security Director Knight has 7 years of experience liaising with international maritime security agencies and port authorities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "173154bf-f9c9-4360-b733-01c71697c21e",
-    "name": "Kenneth Knight",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, Kenneth Knight collaborates with other departments to enhance overall passenger and crew safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "34a8bbcb-531e-4616-81a3-5efb59fff1d1",
-    "name": "Victor Maxwell",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Maxwell develops tailored security plans and threat mitigation strategies based on 20 years of maritime threat analysis and intelligence gathering.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "7562f394-8fe9-4171-88d3-a4f242d81a1e",
-    "name": "Bella Henderson",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Known for proactive defense strategies, Bella Henderson continuously monitors network activity and coordinates responses to cyber incidents onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "7e4a6563-0e38-4b34-8f05-1180a66b0254",
-    "name": "Rebecca Price",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With strong organizational skills, Rebecca Price maintains detailed records and reports to support continuous security improvement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "22b33301-0dbe-4e88-b747-35e8a80c630b",
-    "name": "Lawrence Day",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Lawrence Day is trained in search procedures and contraband detection, contributing 3 years of vigilance to vessel security.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "3a443877-a30b-40b1-a11f-9749e05cd798",
-    "name": "Nora Warren",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Nora Warren meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 7 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "79e0000f-6929-46c3-bb1a-7b78090e3fd7",
-    "name": "Joshua Keller",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Keller manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "bc5ee7e2-f318-482e-a45f-a077437adfb7",
-    "name": "Nicole Curtis",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Nicole Curtis organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 10 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "a2f2f37b-c949-4f47-80de-b8b5783430c0",
-    "name": "Kennedy Fox",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Children's Entertainment Specialist Fox collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "2a76f4a3-61ba-48d9-bda9-1e631f1dcf41",
-    "name": "Johnny Watson",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and inclusivity, Johnny Watson maintains open communication with parents and guardians regarding teen program activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "65b3a2c4-dad6-4a4f-a484-35484521fe68",
-    "name": "Barbara Day",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Known for strong organizational skills, Barbara Day evaluates program effectiveness and implements improvements based on passenger feedback.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "f426a578-cef7-4888-9ef8-21c4f8e60eb1",
-    "name": "Jennifer Sutton",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Sutton is certified in pediatric first aid and CPR, bringing 17 years of trusted care to families onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "4a1120d8-55c7-4785-9091-0400031859ea",
-    "name": "Gerald Dean",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 15 years in recreation management, Gerald Dean curates an exciting and varied daily program of entertainment and activities for all guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "79c7e4d6-1af0-4680-9295-69587956a1d2",
-    "name": "Larry Harper",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Larry Harper's primary focus for 19 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "34078fd2-a979-43b2-9246-89f926b6f13e",
-    "name": "Samantha Hawkins",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 13 years of expertise, Samantha Hawkins offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "1acb3da4-a393-47ef-8079-9b2349af6ae4",
-    "name": "Samantha Jennings",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Leveraging 9 years of experience, Samantha Jennings curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "b19fe7dc-04c8-40e3-835f-38f24f28183e",
-    "name": "Mateo Palmer",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Drawing on 14 years behind the lens, Mateo Palmer expertly captures the essence of the cruise experience, from grand events to intimate moments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "77e58f8a-1812-4d3e-baa3-58c08bd0b3e0",
-    "name": "Benjamin Hudson",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Leveraging 15 years in filmmaking, Benjamin Hudson produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9c04c746-15c5-436a-b611-6ba8283d420f",
-    "name": "Emily Dixon",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Emily Dixon manages digital content and multimedia production, applying 15 years in digital media, marketing, and audience engagement strategies.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "ec0c966f-944c-42b2-8e50-1dbed4eee07f",
-    "name": "Gregory Fox",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to preventive care, Gregory Fox promotes health education and wellness initiatives throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "ee4df633-d606-4e55-9604-74f6f8c4911e",
-    "name": "Helen Mason",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Mason collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "f6a47254-39fb-4a93-997d-4e1076c1abf0",
-    "name": "Mary Grant",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Grant provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "ac01304a-1b0f-42f2-a307-31ddbfd96d51",
-    "name": "Joan Grant",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Joan Grant fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9106b41e-dfa3-477d-9b11-d3f074fc7498",
-    "name": "Gabriel Mitchell",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 13 years in hospitality management, Gabriel Mitchell drives operational excellence and team performance onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "2e13a7e7-af12-4e38-9f3d-2f32c9f26a42",
-    "name": "Samantha Marshall",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Samantha Marshall champions a guest-first culture, utilizing 7 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "8b76ea80-a42e-485c-a0e7-1f914d93cc23",
-    "name": "Rebecca Russell",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Russell trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 22 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9d47e698-3d5f-4991-b30d-51c413a814db",
-    "name": "Alexander Mitchell",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Mitchell also assists in training junior stewards, sharing expertise gained from 12 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "03ad7040-04f2-4bf8-8a3a-f9e26e4cf3b9",
-    "name": "Lucas Grant",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Grant is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 3 years in top-tier hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "472b047f-08e4-4f2c-af17-67bd36a8c644",
-    "name": "Leah Grant",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Leah Grant oversees accommodation services, ensuring comfort and efficiency with 14 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "3a7c516e-946a-4807-ad92-de16ce690beb",
-    "name": "Deborah Cooper",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Deborah Cooper manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 11 years of leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "8b86426f-700b-4f08-83e2-872040fc9046",
-    "name": "Kinsley Olivia",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Olivia efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "e034e6a6-5f1d-4d40-8b63-4d19651bd16e",
-    "name": "Juan Hamilton",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Hamilton's dedication over 12 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "fbe149c3-5fdb-41b6-bf39-05be91c4131d",
-    "name": "Kyle Knight",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "With 7 years in front office management, Kyle Knight ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9ef33128-75af-4fd6-b8f9-5a3cf78b4756",
-    "name": "Alexander Grant",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Grant manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "5d0c76fd-7325-4df6-a72e-6808b5ebbae1",
-    "name": "Kenneth Keller",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Kenneth Keller develops training programs to elevate hospitality team skills, with 4 years in workforce development.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "8fb52533-2084-49a9-bd9a-8332e29731f4",
-    "name": "Carol Carpenter",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Chef Carpenter creates exceptional Japanese cuisine with 8 years of culinary expertise from around the world.",
+    "id": "9b5dd7dc-e9bc-463a-aa47-fb1052225fea",
+    "name": "Virginia Foster",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Foster ensures all navigational equipment is calibrated and fully operational, leveraging 8 years of technical expertise in California.",
     "languages": [
       {
         "code": "en",
@@ -1212,17 +112,17 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "b9a7a4f9-5ca0-4626-adcb-268983016883",
-    "name": "Edward Dixon",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "As second-in-command, Sous Chef Dixon ensures seamless kitchen workflow and consistent dish quality, drawing on 18 years of hands-on Mediterranean experience.",
+    "id": "2301aab0-af81-45eb-9483-92066174a49c",
+    "name": "Brooklyn Palmer",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Brooklyn Palmer enforces safety standards and conducts training programs, drawing on 3 years of maritime safety expertise to minimize risks onboard.",
     "languages": [
       {
         "code": "en",
@@ -1233,18 +133,18 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "1748ba0f-dad7-49cc-b4ec-38a341e088e0",
-    "name": "Linda Gibson",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Linda Gibson manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 13 years.",
+    "id": "76258dc3-5d50-465f-abfe-bb5245a3e8b0",
+    "name": "Arthur Parker",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, Arthur Parker is gaining 10 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in California.",
     "languages": [
       {
         "code": "en",
@@ -1255,84 +155,18 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "da7ef355-ac26-4990-bb90-18b08b96e79c",
-    "name": "Michael Griffin",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Chef de Partie Griffin manages specific kitchen stations with 18 years of focused culinary skill.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "b085020b-6a22-4240-874f-76833e578f9e",
-    "name": "Gregory Charlotte",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Master of {cuisineSpecific} cuisine, Gregory Charlotte creates authentic dishes that transport guests to California, drawing on 21 years of dedicated culinary exploration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "1894a6a4-142d-41b1-85e2-d03af95974be",
-    "name": "Jesse Campbell",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Jesse Campbell combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "611015f8-31a6-4f0b-9bee-aaf13e65ee2b",
-    "name": "Nicholas Graves",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Garde Manger Graves ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 15 years.",
+    "id": "8c76d3a8-3c97-4536-bdb0-b8a1199ac321",
+    "name": "Nicholas Maxwell",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Maxwell maintains the vessel's exterior appearance and structural integrity, a testament to 15 years of dedication in California.",
     "languages": [
       {
         "code": "en",
@@ -1344,457 +178,17 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "c87db865-ab2a-4727-a703-16578a899b39",
-    "name": "Patrick Jennings",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Patrick Jennings is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "22a8a4c1-2150-42d1-ae89-e0000cb62aba",
-    "name": "Sarah Porter",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Porter meticulously prepares a wide array of Pan-Asian-inspired and classic baked goods daily, showcasing skills honed over 5 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "cfe60839-3d65-43ff-be8e-d471ca335ee2",
-    "name": "Valentina Payne",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Payne navigates an extensive cellar to find the perfect wine for every palate and Mediterranean, drawing on 7 years of oenological expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "a807dc5c-c86e-4d43-9da7-6c42b2f3fd69",
-    "name": "Gregory Gibson",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "With 18 years behind the bar, Gregory Gibson designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "5045bc24-d5dd-41b8-ba73-db78951fe5df",
-    "name": "Maya Foster",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Barista Foster prepares specialty coffees with precision, backed by 18 years in coffee service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "72a75ac3-520f-4a03-bc71-925b8f041863",
-    "name": "Noah Knight",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Noah Knight conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 6 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "6ffba127-b400-4220-be99-c484a123bdcf",
-    "name": "Eric West",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Eric West plans and oversees all entertainment activities, applying 15 years of event and talent management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "6859901c-43b0-4772-b9a5-0ab00771499c",
-    "name": "Louis Fisher",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Louis Fisher manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "646514b1-a149-4aa0-b3be-96490a26d348",
-    "name": "Kenneth Jennings",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Kenneth Jennings brings charisma and vocal expertise to the ship's entertainment lineup.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "755dd6ae-3553-476a-917e-e9dcbae71d17",
-    "name": "Alice Carpenter",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Carpenter adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 7 years of diverse musical experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "d8679771-5ddc-494d-b2a5-4cba49a1b742",
-    "name": "Daniel Graham",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Daniel Graham is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 6 years of professional dance experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "9ac99c36-5dee-43e1-bba4-4bad872d916f",
-    "name": "Dylan Warren",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Warren creates captivating dance routines, blending creativity with 14 years of dance expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "bc6d7642-0d7a-444e-9a8d-beda5058f645",
-    "name": "Nicholas Ellis",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Nicholas Ellis's ability to connect with the audience and improvise, developed over 16 years, makes each show a unique and highly enjoyable experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "d4508c8d-5330-4a73-8ebe-1377b4ea04a2",
-    "name": "Christopher Bennett",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Christopher Bennett brings a unique brand of enchantment to the ship's entertainment, drawing on 13 years of professional magic and a flair for theatrical presentation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "982dd6b0-d33d-4eef-8dd0-955fc140ac10",
-    "name": "Alexander Hudson",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Alexander Hudson keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "d25c3de0-206c-4d82-8315-b90a74b4a395",
-    "name": "Luis Collins",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Luis Collins's keen ear and technical proficiency, developed over 16 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "74a2ea2b-540c-485a-a645-f16b39ad7777",
-    "name": "Sophia Palmer",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Lighting Specialist Palmer designs and operates lighting systems to enhance onboard shows and events.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "5aa78672-f995-4dcb-affc-e52949717171",
-    "name": "Alan Hamilton",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "With 13 years in professional stage management, Alan Hamilton meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "0a28790f-b8d9-4c01-9032-5c3df621ae0d",
-    "name": "Claire Keller",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Keller oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "8032f736-ea13-4c95-be3b-723b6ef02ee2",
-    "name": "Luis Reed",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Luis Reed combines creativity and craftsmanship with 21 years of design expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "1a6bbf3e-74fb-496c-8e3a-a9577c039d0f",
-    "name": "Lisa Olivia",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Lisa Olivia's passion for cultural exchange, cultivated over 22 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "id": "958e5c0f-849d-4869-a2a7-3e3d0235ffc7",
+    "name": "Oliver Olivia",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 22 years in marine engineering, Oliver Olivia ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
     "languages": [
       {
         "code": "en",
@@ -1806,105 +200,17 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "619eb9a7-cb70-409b-8177-df922c784460",
-    "name": "Louis Murray",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Murray delivers unique and innovative acts, blending multiple disciplines with 3 years of artistic practice.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "279a0922-8cba-4c6a-b617-28ad565c84ec",
-    "name": "Mark Hawkins",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "With 4 years streamlining vessel-wide processes, Mark Hawkins ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "a65d5ee5-5867-47ea-ac0a-f69b669ab5be",
-    "name": "Amanda Reeves",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Amanda Reeves leverages 11 years in logistics to optimize onboard operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "61a61090-7287-4a1d-8bc3-39cab20a779e",
-    "name": "Patricia Parker",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Patricia Parker's analytical skills, honed over 19 years, are key to forecasting demand and optimizing stock levels across various departments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
-    "city": "San Francisco",
-    "country": "United States",
-    "region": "California"
-  },
-  {
-    "id": "4d74b2f1-f4a1-45e4-b4d2-244bd6c6d91b",
-    "name": "Anna Harper",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "With 7 years in strategic sourcing, Anna Harper identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "id": "6e7033bf-7718-430b-99f5-215d0af2be48",
+    "name": "Sophia Dunn",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Dunn is responsible for the main propulsion machinery and auxiliary systems, bringing 7 years of hands-on expertise.",
     "languages": [
       {
         "code": "en",
@@ -1916,17 +222,303 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"
   },
   {
-    "id": "a0e59e0d-b316-4dfd-88f3-840de1578531",
-    "name": "Ella Douglas",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Douglas implements green initiatives to minimize environmental impact.",
+    "id": "cc11760a-c7d9-4dbe-b179-f5af31cda3c1",
+    "name": "Betty Knight",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Betty Knight assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "eb546405-726f-4e88-b859-3b4c96f627bc",
+    "name": "Matthew Keller",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 14 years designing, installing, and maintaining vessel electrical infrastructure, Matthew Keller ensures continuous power supply and safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "f7822b8a-47b3-48f3-918a-f7fd38909bf0",
+    "name": "Sebastian Collins",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Sebastian Collins's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 21 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "3cddedfe-3ea9-4c30-9147-3cab5bc191fe",
+    "name": "Robert Griffin",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Robert Griffin designs, installs, and maintains heating, ventilation, and air conditioning systems with 10 years of maritime specialization.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "c92b16d5-1635-45f2-9a17-2c8e4b4309c7",
+    "name": "Steven Sutton",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Sutton manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 6 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "4f1572c1-c382-4c79-9885-75f969d076d8",
+    "name": "Nora Crawford",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Nora Crawford enhances system interoperability and cybersecurity aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9dd18040-b163-433c-81e4-be6f375a174d",
+    "name": "Wei Hawkins",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Known for strong leadership, Wei Hawkins fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "25cb25fc-0a17-4fb2-8037-152669fe7a69",
+    "name": "Harper Knight",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Harper Knight develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5043c028-6529-489d-b931-385f2116d3ea",
+    "name": "Abigail Gardner",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Former emergency response Abigail Gardner leads our security team with 12 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5d874b04-26d6-4eed-98b6-7c592b56bcac",
+    "name": "Jeremy Fox",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, Jeremy Fox collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "78dc436b-9abd-4e4a-a81d-5b787193b9b1",
+    "name": "Amelia Warren",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "With extensive training in security technologies, Amelia Warren leads specialized investigations and security audits to strengthen vessel defenses.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "1fd79a66-a63a-44b2-ab1d-35a89ef85913",
+    "name": "Alexander Bennett",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Experienced in compliance with maritime cybersecurity regulations, Alexander Bennett conducts training to enhance crew awareness of digital risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "ff2040b2-528c-44b3-94b7-fa84e405b52f",
+    "name": "Austin Chambers",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Austin Chambers's 6 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "80724d1d-c0c3-460e-9ea1-e69e339de3f9",
+    "name": "Dorothy Henderson",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, Dorothy Henderson conducts regular audits of access logs and assists in security incident investigations.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +530,1415 @@ export const sanfranciscoTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "8d92ea67-8550-40ab-9e8c-0cb97e58ae28",
+    "name": "Victoria Stewart",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Stewart is an expert in ISM, ISPS, and MLC compliance, bringing 11 years of dedicated focus to these areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "d15ff987-10f4-4d1c-97c5-efc57547b4af",
+    "name": "Mateo Ellis",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Mateo Ellis crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "29bd173d-b0ef-421a-959b-4827e2d28b81",
+    "name": "Kyle Spencer",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Kyle Spencer ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "b5e02cd6-4b68-44c0-8e24-8ef84c58d42f",
+    "name": "Priya Marshall",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Marshall collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "3339a240-1a29-4b20-911f-c7d1e2f28fb0",
+    "name": "Daniel Price",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Daniel Price develops dynamic programs catering to teenage guests, drawing on 8 years of youth facilitation and event management expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "cab1553a-9259-48ab-b15e-13a31870b85f",
+    "name": "Logan Montgomery",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Montgomery coordinates with external educators and experts to deliver diverse and culturally relevant content.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "0bd89970-2885-43fd-8b32-31ff8e8150f0",
+    "name": "Jerry Mason",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Jerry Mason communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "bd59ad10-8c21-4b2b-96a3-b9779c8d5889",
+    "name": "Olivia Chambers",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, Olivia Chambers continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "097b0484-ff58-4a47-88b3-fb09f71a2152",
+    "name": "Christian Foster",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Christian Foster teaches water sports safely and effectively, leveraging 20 years of professional instruction and certification in aquatic activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "bb0a26c1-f263-42b1-96fe-5c0540746edf",
+    "name": "Terry Foster",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Terry Foster leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "7f26cc1b-1e90-44be-9839-2b0a7be3cf01",
+    "name": "Nora Hudson",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent problem-solving, Nora Hudson adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "c8df5d82-f0b7-4f7b-8bf6-cf8dd966d339",
+    "name": "Mateo Keller",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Mateo Keller collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9ce7f471-56f5-4522-aba3-46149a5cb0f6",
+    "name": "Bella Payne",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Payne maintains technical equipment and coordinates with production teams to ensure seamless content delivery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "456df4cc-1f14-4554-b167-aebf3016e481",
+    "name": "Zola Mason",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With expertise in social media, video editing, and graphic design, Zola Mason drives effective digital campaigns that promote the voyage experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "fb1c16fb-b5db-4272-99d8-cd230587a89e",
+    "name": "Catherine Olivia",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to preventive care, Catherine Olivia promotes health education and wellness initiatives throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "eada4835-57e1-4040-b39a-aa2507415cc1",
+    "name": "Rachel Bennett",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Bennett collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "a9209a01-9ee6-4789-a663-e1f2be0aaff0",
+    "name": "Amy Hamilton",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Hamilton supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9ec736f5-3c94-43d7-94ad-543692e71d8d",
+    "name": "Chen Sutton",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Sutton documents incidents and implements corrective actions to continuously improve onboard safety performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5071c4ff-a7df-4fc9-bfee-ca2089710ec4",
+    "name": "Wei Montgomery",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Wei Montgomery manages all hospitality services, ensuring exceptional guest experiences with 19 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "29bc543f-87c0-493b-917c-149a922afef0",
+    "name": "Kenneth Spencer",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Spencer enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "fcbf319f-ad0b-4a1e-a8be-dc7bd181e0e8",
+    "name": "Gary Ellis",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 12 years leading stewardship teams, Chief Steward Ellis meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "48d9b6f0-75fd-41c1-bc9e-f269861cf900",
+    "name": "Nicholas Wells",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Nicholas Wells is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "74adf081-e7cb-4c55-a053-f7bbc674b7d7",
+    "name": "Patrick Coleman",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Coleman provides personalized guest services, backed by 21 years of elite hospitality expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "6258aa3c-9c31-4433-a055-69e7d0eb49f5",
+    "name": "Aaliyah Hamilton",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Aaliyah Hamilton expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 8 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "7aee9fa6-e0e4-4cf6-9ab8-93203b22365b",
+    "name": "Walter Watson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Watson leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "f4eea905-4114-484d-8eb2-7a614ca32942",
+    "name": "Patrick Grant",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Grant facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "4a688926-db83-4d98-99eb-4749f66e8069",
+    "name": "Valentina Dean",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 6 years of experience, Concierge Dean arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9f3b37cd-45c2-464f-8fcf-5dec5cb75254",
+    "name": "Aaliyah Stewart",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 21 years in front office management, Aaliyah Stewart ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "45066f53-eb65-438a-a30c-5907b8afb963",
+    "name": "Nomsa Jennings",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Nomsa Jennings designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
     "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "b65adfd4-8a69-426d-aff7-1c5c57dad30f",
+    "name": "Elena Murray",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Elena Murray conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 8 years in adult learning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9727b0e4-1e47-437b-87dd-be5f8499bccc",
+    "name": "Victoria Murray",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 6 years in fine dining, Chef Murray specializes in Asian fusion flavors using locally sourced ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "90fefe7c-f9ad-4a6e-bc53-d978c2e50dc1",
+    "name": "Dylan Fletcher",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Dylan Fletcher excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5852e236-12d1-42df-8b18-ba9312901dd1",
+    "name": "Gerald Coleman",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Italian pastries and innovative dessert creations, Pastry Chef Coleman brings 13 years of refined skill to the culinary team.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "6d478352-8c20-4067-826b-e975f2327178",
+    "name": "Priya Curtis",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the marine electronics station (e.g., Saucier, Grillardin), Chef de Partie Curtis brings 17 years of expertise in preparing precise Caribbean components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "cf6a8e01-5ac7-4da3-8e94-66c00ee4f8f1",
+    "name": "Roger Coleman",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Roger Coleman specializes in unique culinary styles, offering guests diverse flavors based on 19 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "d7c42776-b575-44e7-a890-b915d8a40957",
+    "name": "Eleanor Warren",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Warren prepares fresh and artistic sushi dishes, drawing on 9 years of Japanese culinary tradition.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "1e35e58f-cb1f-4278-b06a-6f08aa6dba8f",
+    "name": "Skylar Day",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Day ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 3 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "dd7eee3c-c621-405c-b38c-1232e41c319d",
+    "name": "Carl Reeves",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Reeves manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 16 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "ba953ab7-6ea1-4132-9b18-120893596c73",
+    "name": "Anna Douglas",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 14 years dedicated to the art of baking, Anna Douglas fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "d68e0fdf-1342-4fc5-aa12-05a4aa5ef426",
+    "name": "Eric Stewart",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Stewart navigates an extensive cellar to find the perfect wine for every palate and Continental, drawing on 20 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "e262f039-a880-4436-bc19-3687e7f328b8",
+    "name": "Philip Hall",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "With 20 years behind the bar, Philip Hall designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "28828027-5519-4896-bfe6-94a4bdd57030",
+    "name": "Jessica Crawford",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Jessica Crawford combines artistry and technique to serve quality espresso and coffee beverages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5bdccca8-ea26-4f75-b5c6-2b84c544c672",
+    "name": "Layla Clark",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "With 14 years in clinical and culinary nutrition, Layla Clark provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "ba20a195-6c11-4ce3-a6ca-69948d31045d",
+    "name": "Russell Murray",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Russell Murray plans and oversees all entertainment activities, applying 15 years of event and talent management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "028f594a-4b46-43f6-bcf0-851ed4676dbf",
+    "name": "Valentina Watson",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 8 years in arts administration, Valentina Watson expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "0f8997ba-241f-4969-894b-f47b9378bc5c",
+    "name": "Sean Wells",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Sean Wells brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "b4ffacef-6586-47a4-a022-d4c102900ac9",
+    "name": "Ashley Morgan",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Morgan adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 17 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "a3ba7ba8-d33d-4221-8c3c-f4409017619e",
+    "name": "Russell Knight",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Russell Knight is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 22 years of professional dance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "86a35387-5273-49e2-9bc8-5b3c8b3f9602",
+    "name": "Gabriel Payne",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "With an innovative vision and 3 years in professional choreography, Gabriel Payne designs dynamic and original dance pieces for production shows and special events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "9239bd17-2bfb-4d3f-9f27-f7beec024bcd",
+    "name": "Wayne Holloway",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Wayne Holloway entertains guests with humor and timing, backed by 6 years in comedy performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "becbeeaa-94ec-45af-9e7b-4860b906d287",
+    "name": "Stella Ellis",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Ellis mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "2e889f87-ef4d-4232-8316-d2537778c4af",
+    "name": "Steven Collins",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Steven Collins keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "e0f5e2ba-48ce-44d6-9ef1-24c5d859b74c",
+    "name": "Jacob Hawkins",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Jacob Hawkins supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "ddcebe1d-58e2-4d23-bbdd-a2402d154691",
+    "name": "Valentina Parker",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 21 years in theatrical lighting design and operation, Valentina Parker transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "868b0623-c8da-4e98-a497-45a9d28ce827",
+    "name": "Zola Keller",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 19 years in professional stage management, Zola Keller meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "e7b277cc-54a7-4f06-8b0e-74966724d1a0",
+    "name": "Liam Day",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Liam Day ensures timely and efficient delivery of shows, leveraging 8 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "acc120c7-ab32-4720-8a87-e511beb45476",
+    "name": "Dorothy Russell",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 22 years of experience in theatrical costume design, Dorothy Russell conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "5440e97f-b137-433a-8ade-0b8c3ada63c9",
+    "name": "Amanda Baker",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Amanda Baker promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "e9fb6be1-adb1-4249-bd72-c33ccdb5669c",
+    "name": "Samuel Wells",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 5 years pushing artistic boundaries, Samuel Wells offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "8cc280d0-3af3-462c-8a5f-320773ac7cdf",
+    "name": "Wei Nash",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Wei Nash oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "a425d3b6-4b83-45f8-a577-67d060a2fdf3",
+    "name": "Genesis Price",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 18 years coordinating complex supply chains, Genesis Price ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "c87544a9-6f1c-45a3-a0d3-99340b71791a",
+    "name": "Samantha Lawson",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Samantha Lawson ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "d8ddcb40-5f3a-4e67-ab6a-ca0879b3e99b",
+    "name": "Maya Crawford",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Crawford manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "California"
+  },
+  {
+    "id": "05b99207-4c84-4b2f-8d3e-8d2e30d9454d",
+    "name": "Jennifer Marshall",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Marshall ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
     "city": "San Francisco",
     "country": "United States",
     "region": "California"

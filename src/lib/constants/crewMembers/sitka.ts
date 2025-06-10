@@ -2,149 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Sitka
-    // Generated on: 2025-06-10T03:41:38.304Z
+    // Generated on: 2025-06-10T08:14:17.442Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const sitkaTeamMembers: CrewMember[] = [
   {
-    "id": "e0d60631-21ac-4152-8ec4-b34df71b1b53",
-    "name": "Zola Grant",
+    "id": "427f062e-5e4b-40f6-9380-4d69a5f1f57d",
+    "name": "Larry West",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Grant has navigated the challenging waters of Alaska for over 18 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "a58563b2-8bb3-4cea-b6c7-cd022a609176",
-    "name": "Jonathan Wells",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Leveraging 21 years of experience in Alaska, Jonathan Wells is adept at cargo operations, stability calculations, and bridge resource management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "d9e6bd78-778a-46f2-b4c9-0e29d7595b46",
-    "name": "Adeline Fox",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Adeline Fox is skilled in passage planning software and integrated bridge systems, contributing 4 years of knowledge to operations in Alaska.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "f7973c27-0ae9-4a1f-b0d9-279bdf2739ea",
-    "name": "Louis West",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Louis West's expertise in safety and lifesaving equipment maintenance comes from 16 years at sea within Alaska, ensuring crew and passenger preparedness.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "4cbb1e4c-5e82-4c72-bb7a-d924a18a3264",
-    "name": "Vincent Jennings",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Jennings ensures all navigational equipment is calibrated and fully operational, leveraging 17 years of technical expertise in Alaska.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "558f3d6d-a43d-44a0-93de-4df9a351405a",
-    "name": "Austin Porter",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Porter works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "80fbd6c7-c834-4ca5-8d2f-8d3cfc146c10",
-    "name": "Caroline Clark",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "With a strong commitment to professional growth, Caroline Clark actively participates in drills and training to build competence for safe vessel operation.",
+    "bio": "With 20 years at sea, Captain West is renowned for expertise in Alaska navigation, crew leadership, and passenger safety protocols.",
     "languages": [
       {
         "code": "en",
@@ -156,259 +24,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "f872d017-e933-4790-98b4-06975b77a3d6",
-    "name": "Caroline Holloway",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Caroline Holloway ensures compliance with safety standards during deck operations, fostering teamwork and discipline among crew members across Alaska's vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "79eb271c-ab23-4fe2-b959-1a196d31b652",
-    "name": "Rachel Porter",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Rachel Porter leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 21 years of innovative practice and power management knowledge.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "9a89ed90-88d2-4cb7-b771-0f29a5b54b36",
-    "name": "Andrew Payne",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Andrew Payne plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "a6d157fb-3db9-4de8-b767-7d12d756598d",
-    "name": "Charlotte Hawkins",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Second Engineer Hawkins conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "75f475b9-f198-42c5-a1ba-cd9c68212498",
-    "name": "Wei Stewart",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Responsible for wiring upgrades and automation system maintenance, Wei Stewart supports enhanced operational efficiency and crew safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "2446946b-e3b4-4ab7-b181-175235bcf48c",
-    "name": "Tyler Fisher",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Tyler Fisher's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 10 years of service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "789d8ad9-f496-45a0-a9b4-c9582ab333e8",
-    "name": "Sofia Mason",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "With expertise in refrigeration cycles and ventilation design, Sofia Mason addresses environmental control challenges in varying maritime conditions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "25d1c490-0edf-4914-9233-6ad3bd6f2880",
-    "name": "Ariana Gibson",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Environmental Engineer Gibson monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "ed57217a-4155-4759-99b5-67d47961a5c0",
-    "name": "Sebastian Campbell",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Sebastian Campbell is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 17 years of in-depth experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "a712429f-5ec1-4e9c-94d2-6917eda20bf7",
-    "name": "Michelle Marshall",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Known for strong leadership, Michelle Marshall fosters a culture of technical excellence and cross-functional collaboration onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "16095b5e-351d-4249-85f7-4ed2ce430a18",
-    "name": "Evelyn Chambers",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Chambers applies 4 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
     "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "ff86f5ae-186f-475b-a0ba-cc96a6fb9a08",
-    "name": "Catherine Gibson",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Known for decisive leadership, Catherine Gibson fosters a culture of vigilance and continuous improvement in maritime security standards.",
+    "id": "c9277633-30e3-4400-a2f8-74fd4c14904d",
+    "name": "Jerry Hudson",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Jerry Hudson, with 15 years navigating Alaska, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       {
         "code": "en",
@@ -420,17 +46,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "6b80d26a-aa2f-41f8-aee3-84b2221ac4a2",
-    "name": "Nomsa Maxwell",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Nomsa Maxwell is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "id": "51590a89-53b5-4807-a258-bd41c42f01f8",
+    "name": "Anna Nash",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Anna Nash plays a critical role in voyage planning and watchkeeping, backed by 16 years ensuring operational integrity in Alaska.",
     "languages": [
       {
         "code": "en",
@@ -441,18 +67,18 @@ export const sitkaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "c5b3c211-09ae-4d9c-9896-daa936cd1c54",
-    "name": "Isabella Russell",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Russell develops tailored security plans and threat mitigation strategies based on 18 years of maritime threat analysis and intelligence gathering.",
+    "id": "9d3a3987-4bb7-48df-8916-65673b7a4117",
+    "name": "Amanda Holloway",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 3 years dedicated to bridge operations, Amanda Holloway contributes to seamless voyages through Alaska's waterways by monitoring safety and compliance.",
     "languages": [
       {
         "code": "en",
@@ -463,18 +89,62 @@ export const sitkaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "61c91c7a-d863-4cf6-bc66-96f8a7ebe977",
-    "name": "Helen Hall",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 19 years in cyber defense, Helen Hall specializes in securing operational technology (OT) unique to maritime assets.",
+    "id": "87df265a-ac98-40a4-b629-1f56f1db9386",
+    "name": "Scott Hall",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Hall ensures all navigational equipment is calibrated and fully operational, leveraging 4 years of technical expertise in Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "dd7af333-2cfd-442f-af1e-9762208425c3",
+    "name": "Rachel Olivia",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Rachel Olivia stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0e8243a5-b1cc-49f8-9fbe-bd1002789841",
+    "name": "Thabo Collins",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Thabo Collins, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Alaska maritime operations.",
     "languages": [
       {
         "code": "en",
@@ -486,325 +156,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "f0359f62-a4bf-4500-9587-cae7c0cc1ea6",
-    "name": "John Douglas",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Maritime Security Coordinator Douglas implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "0c9f359e-9381-492a-95bd-c91e91752953",
-    "name": "Skylar Montgomery",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Drawing on 16 years of experience, Skylar Montgomery is proficient in operating and maintaining advanced access control systems and screening equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "527b9147-0d50-4e11-b8ba-f85052a1da1c",
-    "name": "Rachel Russell",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Rachel Russell works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "9325c68d-2f50-48c8-a112-3496f9c950c0",
-    "name": "Blake Curtis",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Blake Curtis integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "12744bec-f2cc-45a3-8db5-8750fe8c9a38",
-    "name": "Kennedy Nash",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Nash gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "7326cb6d-8e05-402b-a905-b8dc6c2997ad",
-    "name": "Zachary Hudson",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Experienced in youth engagement, Zachary Hudson provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "3dad67ab-6065-4732-a354-3b946896b8f9",
-    "name": "Madelyn Holloway",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and inclusivity, Madelyn Holloway maintains open communication with parents and guardians regarding teen program activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "dc1c8924-4928-4180-9c2b-8228fe57b75b",
-    "name": "Gary Wallace",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Gary Wallace, with 16 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "d601f3e9-ad79-4bed-ab1e-96cb4bcc4501",
-    "name": "Pamela Olivia",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Pamela Olivia manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "874bc6e8-cdb9-430e-9985-930a66beb8b6",
-    "name": "Kyle Lawson",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "With strong organizational skills, Kyle Lawson manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "ef130344-f778-4ee6-bcab-679e80e35ae6",
-    "name": "Daniel Spencer",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Spencer ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "c617c8bc-20f0-4fd9-aff4-abd43677c776",
-    "name": "Sebastian Graves",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, Sebastian Graves adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "071a4aa1-935d-4cef-ab8a-e1292d8ad26c",
-    "name": "Evelyn Keller",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Keller has built strong relationships with local tour operators worldwide over 13 years, guaranteeing quality and value.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "3cb22124-4881-4e10-853d-c32c6fd31800",
-    "name": "Scarlett Watson",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Scarlett Watson ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "91d7ac81-54c4-48e8-989f-b975fa12529d",
-    "name": "Johnny Gibson",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "With a strong understanding of narrative flow and audience engagement, Johnny Gibson produces videos for promotional and archival purposes.",
+    "id": "b8a6e934-c06b-43c9-a83e-227c9a8d5a83",
+    "name": "Arthur Campbell",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Arthur Campbell plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Alaska.",
     "languages": [
       {
         "code": "en",
@@ -816,17 +178,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "d17f084d-b679-4768-bfd3-70b29e5f508d",
-    "name": "Layla Dunn",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "With expertise in social media, video editing, and graphic design, Layla Dunn drives effective digital campaigns that promote the voyage experience.",
+    "id": "7ea5dbc6-efce-4eba-a455-c3dc100e6a8a",
+    "name": "Bobby Spencer",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Bobby Spencer brings 10 years of engineering excellence, leading innovations in sustainable maritime technology and driving continuous improvement in vessel operations.",
     "languages": [
       {
         "code": "en",
@@ -837,40 +199,84 @@ export const sitkaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "81b6a0e7-1433-4201-bddd-42c57d10a75e",
-    "name": "Sean Dean",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Sean Dean, with a distinguished 21-year career in marine electronics and maritime health, provides expert medical oversight for thousands of passengers and crew.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
+    "experienceYears": 10,
     "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "0de9ac36-4a75-4796-8a35-e52a43e9e3f6",
-    "name": "Scarlett Coleman",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Coleman ensures passenger and crew safety.",
+    "id": "d6d91043-4bb8-488c-b4f1-cea229ef7ffd",
+    "name": "Paul Montgomery",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Montgomery coordinates maintenance and repairs with 13 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "13196ae9-ffa7-4283-b473-3b7079471205",
+    "name": "Sophia Dunn",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Dunn meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 9 years of practical knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "9a98bb3f-6ed3-4b7b-9f3e-422295b69394",
+    "name": "Thomas Montgomery",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Thomas Montgomery's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 22 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6306c2b9-3595-4087-ae61-b7007fe2f2ea",
+    "name": "Alice Reeves",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Alice Reeves's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 21 years of service.",
     "languages": [
       {
         "code": "en",
@@ -882,17 +288,39 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "645eb66a-e4ba-4ea1-8ded-090d0e00b2d8",
-    "name": "Isabella Montgomery",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "With 7 years of experience, Isabella Montgomery is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "id": "8a11ee5b-dc57-475f-9a98-be2e095cc760",
+    "name": "Ellie Coleman",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "With expertise in refrigeration cycles and ventilation design, Ellie Coleman addresses environmental control challenges in varying maritime conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "2db7805e-5cb4-4850-a7c4-18edf53d68a3",
+    "name": "Eleanor Palmer",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Eleanor Palmer conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
     "languages": [
       {
         "code": "en",
@@ -904,17 +332,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "d3d0478e-02c3-42cc-bc69-3af4ee8f619a",
-    "name": "Betty Fox",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Committed to regulatory adherence, Betty Fox stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "id": "54a73f4d-a702-4cf5-bae8-d07254eaccdf",
+    "name": "Maria Spencer",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing upon 10 years, Maria Spencer specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
     "languages": [
       {
         "code": "en",
@@ -925,18 +353,18 @@ export const sitkaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "726fb610-d100-4fbe-8467-5ec5c76d1e6b",
-    "name": "Deborah Collins",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Director Collins orchestrates a seamless guest journey, from arrival to departure, leveraging 21 years of expertise in luxury service.",
+    "id": "e92c2677-ad5c-4614-b824-f417fe761e4d",
+    "name": "Eugene Dixon",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Dixon has 8 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
     "languages": [
       {
         "code": "en",
@@ -947,18 +375,128 @@ export const sitkaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "2fd4e267-b40e-480b-8e96-8e137c6becb4",
-    "name": "Alexander Sutton",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Alexander Sutton champions a guest-first culture, utilizing 16 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "id": "8f54f447-7b09-4040-ad2f-59aa4e6ebdc0",
+    "name": "Amy Palmer",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Amy Palmer meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 8 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "1300da67-024d-490d-845e-e3dccf27c1e1",
+    "name": "Ellie Ellis",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Ellie Ellis, with 13 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8f675667-9404-4fbf-a738-ae5bcb9f9537",
+    "name": "Benjamin Russell",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Russell is proficient in emergency communication procedures and crowd management, vital skills honed over 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "55caac91-cfb0-4fd3-aaf8-7248c7e30d58",
+    "name": "Maya Wells",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "With extensive training in security technologies, Maya Wells leads specialized investigations and security audits to strengthen vessel defenses.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "41889e60-5291-4bdc-9a49-256b973f22e0",
+    "name": "Blake Ellis",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Experienced in compliance with maritime cybersecurity regulations, Blake Ellis conducts training to enhance crew awareness of digital risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5fb2dfe7-c909-4d5c-ae13-6f14f75c1c69",
+    "name": "Walter Foster",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Walter Foster coordinates security protocols and emergency responses, drawing on 16 years in maritime operations and multi-agency collaboration.",
     "languages": [
       {
         "code": "en",
@@ -976,33 +514,11 @@ export const sitkaTeamMembers: CrewMember[] = [
     "region": "Alaska"
   },
   {
-    "id": "3e84ff4c-54f9-4e65-a2d3-b4971914be04",
-    "name": "Wei Ellis",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Ellis trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 13 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "81daf951-6ae7-4ad3-8284-1c55968bf8dd",
-    "name": "Joshua Hudson",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Joshua Hudson is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "id": "6f733434-a68d-4215-9d6a-fe84cf79b76d",
+    "name": "Christian Reeves",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Reeves coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
     "languages": [
       {
         "code": "en",
@@ -1014,919 +530,17 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"
   },
   {
-    "id": "1ab55e37-bc03-423b-bd1e-34456b3588aa",
-    "name": "Jane Baker",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "With discreet professionalism honed over 16 years, Butler Baker offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "92693c15-1508-411c-b2a7-24315b91d4d8",
-    "name": "Jesse Stewart",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Stewart coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "d4a50d37-eab3-41a2-a70e-9f9955df5d54",
-    "name": "Chloe Warren",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Warren leads cleaning teams, maintaining impeccable standards across all guest areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "c481e9a9-f44c-4425-b8ce-e31f95ab9e68",
-    "name": "Roy Fox",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Roy Fox's communication skills, honed over 10 years, are key to creating positive first impressions and lasting guest satisfaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "4f50c071-6e09-479f-a113-9acaf1e8e4e0",
-    "name": "Sophia Spencer",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Sophia Spencer leverages 9 years of service to provide exceptional concierge support onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "f56b7462-dde7-433f-817e-2d938f00bb6f",
-    "name": "Daniel Hamilton",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Hamilton trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 21 years of best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "9d6f5d06-cc7b-48e1-af40-da24199fcd4b",
-    "name": "Gerald Crawford",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "Gerald Crawford's expertise over 16 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "7bf7c890-a907-4ab2-acc9-fc248d6754da",
-    "name": "Allison Hayes",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Hayes focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "a47c05af-f910-4f52-b593-d79a31d29350",
-    "name": "George Wells",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Executive Chef Wells leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 18 years of innovative leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "ef8ae19a-1642-4224-a658-c0ed512c6c51",
-    "name": "Susan Fletcher",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "With 14 years in high-volume kitchens, Sous Chef Fletcher is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "ebd0deb5-cf50-4400-9150-cfac3fbb72f5",
-    "name": "Olivia Ellis",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Specializing in delicate French pastries and innovative dessert creations, Pastry Chef Ellis brings 4 years of refined skill to the culinary team.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "7a8f1deb-f4b2-4a21-8f09-dc2f8bc98e10",
-    "name": "Jeffrey Charlotte",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Jeffrey Charlotte ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "909e06d5-5891-4a9d-9e54-4501113f0b90",
-    "name": "Louis Price",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Louis Price specializes in unique culinary styles, offering guests diverse flavors based on 21 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "4899526f-4434-4039-89c1-63b2ae41eac7",
-    "name": "Margaret Fisher",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Margaret Fisher combines precision and creativity to deliver an authentic sushi experience at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "1816f569-9d69-4878-9b05-32030c5f1105",
-    "name": "Eugene Keller",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Eugene Keller is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 21 years of French expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "028668b2-2d76-4335-a747-8086b41ed65c",
-    "name": "Julie Charlotte",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Charlotte ensures quality meat preparation, supported by 18 years of skilled butchery work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "74499712-40c5-4017-b0a0-aade28c96945",
-    "name": "Peter Marshall",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 21 years dedicated to the art of baking, Peter Marshall fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "eec7d60e-4539-4915-b4b6-75f8e6b2a775",
-    "name": "Dylan Henderson",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Dylan Henderson provides engaging wine education and tasting experiences for guests, sharing insights from 7 years exploring global viticulture.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "9562db32-9139-4996-ab6e-ce0d68668860",
-    "name": "Louis Henderson",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Louis Henderson manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 4 years in the art of mixology.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "e9052e26-2880-42a8-a97a-757dcf745f35",
-    "name": "Maya Keller",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Maya Keller provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 15 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "e0b06b00-1705-47bc-b1b7-e1ac2293c77c",
-    "name": "Ethan Baker",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Baker designs balanced menus catering to health-conscious guests, leveraging 21 years of dietary expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "cae5b2bb-8e52-4a21-ad14-bab0a0aada47",
-    "name": "Kimberly Day",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Day leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 21 years of industry leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "db2da230-ebc4-4622-a712-53a087f63b47",
-    "name": "Ryan Dunn",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Dunn serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "2044767a-170f-41de-b3cb-d1a887f3b1b8",
-    "name": "Kinsley Lawson",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Kinsley Lawson consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 14 years on stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "a80211e5-0a98-4af9-bf15-fdbd784db2ad",
-    "name": "Jane Reeves",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "A master of the {instrument}, Jane Reeves brings 12 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "59aea4be-2abd-44ef-9f51-329093090997",
-    "name": "Samantha Chambers",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Chambers brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 9 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "1aafa7eb-be5b-40fc-8594-c2d15950e6df",
-    "name": "Scott Fletcher",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Fletcher works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 17 years of artistic direction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "9df68d40-b3c4-4f72-bbf2-113e1edb76ff",
-    "name": "James Coleman",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "James Coleman entertains guests with humor and timing, backed by 12 years in comedy performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "0df4ed38-e1cd-418a-828b-6ceba0c8f9ad",
-    "name": "Steven Bennett",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Steven Bennett blends showmanship and technique to deliver captivating magic shows at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "24bfc360-dbd2-4348-b4ea-e1ba51186366",
-    "name": "Rachel Hamilton",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Hamilton creates vibrant atmospheres with expertly mixed music, drawing on 5 years in live DJing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "3b7c2e43-446c-4d03-98fb-1764adbaab74",
-    "name": "Ella Gardner",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Gardner expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "16c8c20b-3555-408b-ab3d-d3f5c7672658",
-    "name": "Steven Fox",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "With 22 years in theatrical lighting design and operation, Steven Fox transforms stages and venues with dynamic and atmospheric lighting cues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "7af22940-ee3c-418d-b57d-a2f1e1f182be",
-    "name": "Jesse Hayes",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Jesse Hayes supervises stage operations and talent, drawing on 12 years of event management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "6a02445c-ce10-4922-9317-6101f6d0b68e",
-    "name": "Thandiwe Baker",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Production Manager Baker oversees logistics and technical coordination for large-scale entertainment productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "f0b120aa-9f6b-4b5f-b170-fb465220cf30",
-    "name": "Jessica Hunter",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Jessica Hunter's artistic flair and attention to historical detail, honed over 14 years, bring visual richness and authenticity to the stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "350d7133-0ccd-4476-b29d-2e970629416d",
-    "name": "Oliver Spencer",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Spencer curates culturally enriching events and experiences for guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "09569692-e1dc-466c-ae88-a2c8f555dec2",
-    "name": "Amanda Watson",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "A specialist in {artisticDiscipline}, Amanda Watson presents breathtaking and thought-provoking performances honed over 20 years of dedicated artistic exploration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "83981b62-33e3-468b-8b7f-dfeaad20d564",
-    "name": "Elizabeth Campbell",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Campbell applies 18 years of leadership in maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "4fc91c96-51db-475f-8c2a-323b9d2f8df8",
-    "name": "Albert Grant",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Grant meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "2d7fa5e7-3ae6-4084-9812-d8e391f6004e",
-    "name": "Susan Keller",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Inventory Specialist Keller implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "c88260d5-c104-4d40-ad10-63b5f0c66991",
-    "name": "Oliver Graves",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Graves manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Sitka",
-    "country": "United States",
-    "region": "Alaska"
-  },
-  {
-    "id": "0fd292de-5cd6-4c47-9c05-c6bc154e40cb",
-    "name": "Lily Harper",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Sustainability Coordinator Harper ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "id": "aadb55e3-ce10-41c4-8761-914a31033317",
+    "name": "Brenda Hudson",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Hudson promotes a safety-first culture through continuous education and enforcement of best practices.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +552,1393 @@ export const sitkaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "04127886-8c05-4cc5-ae62-148e4d892f4f",
+    "name": "Logan Crawford",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Known for creative leadership, Logan Crawford continuously evaluates and improves youth programming to meet evolving passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "00fa778e-fbdd-4552-b116-66b6efff4547",
+    "name": "Scarlett Hunter",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Scarlett Hunter, with 15 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f0005a15-88a1-4a4d-9869-7f24f31be601",
+    "name": "Amina Harper",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With strong interpersonal skills, Amina Harper ensures a safe and welcoming environment for all child participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "544b7e43-707c-46c8-9a59-c46796e7e45c",
+    "name": "Maria Hudson",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Hudson monitors participation and feedback to continuously refine and innovate teen programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "9fccc344-935e-4c7e-88a5-fbc98eab0c56",
+    "name": "Patricia Hayes",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, Patricia Hayes curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8d4244e9-7946-4e33-b071-99816ce070ff",
+    "name": "Bruce Morgan",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Bruce Morgan provides attentive care and supervision for young passengers, backed by 20 years in professional child care and early childhood education.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "caca06d9-ce6a-42c4-ad02-e32621e8da72",
+    "name": "Sarah Sutton",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Sarah Sutton, with 22 years in the cruise industry, expertly blends classic cruise activities with fresh, innovative entertainment options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f5704c93-8636-4058-9c11-ec45f1565168",
+    "name": "Aiden Reed",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Aiden Reed maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "239717d1-4da6-48a7-bfc4-2f0bdb1e0541",
+    "name": "Nora Porter",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Porter integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a5e66aac-b6bf-4a7d-9527-388d823d1bc6",
+    "name": "Rachel Curtis",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent problem-solving, Rachel Curtis adapts plans efficiently to address unexpected challenges or changing conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0e2c83a9-2f11-480b-a431-f440ab0054f4",
+    "name": "Amelia Watson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Amelia Watson leads the photo team with 6 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a8a181fe-7f2f-4c4e-8c0b-e48ff2e354f5",
+    "name": "Rebecca Parker",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Rebecca Parker produces videos for promotional and archival purposes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "3a797bdc-5ac3-42f5-bc03-c2322bd8b759",
+    "name": "Jonathan Morgan",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Morgan ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "36085d38-c22d-4a3a-addf-b0f9f635ed35",
+    "name": "Christine Campbell",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Campbell has 10 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6d6f7611-50ef-4da7-b113-106845d82ce4",
+    "name": "Christopher Morgan",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Morgan is skilled in minor surgical procedures and advanced cardiac life support, bringing 9 years of critical care experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c2ff7ff6-7990-4f74-84a6-22d3a8072a8f",
+    "name": "Lisa Palmer",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Palmer provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "2e089789-c405-4a72-bbb2-fec1956e506a",
+    "name": "Antonio Jennings",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Jennings works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "918834e3-3374-4258-aacc-dacfd0f3171c",
+    "name": "Mason Curtis",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Mason Curtis manages all hospitality services, ensuring exceptional guest experiences with 6 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0c072fba-1647-486b-9ba5-fdfb863a88c9",
+    "name": "Helen Knight",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Helen Knight champions a guest-first culture, utilizing 6 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "48cf2886-233c-4a61-933c-4404bbdf1f65",
+    "name": "Hannah Stewart",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Hannah Stewart excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 15 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "d780ef9f-cc0f-4a97-91cd-126f35ed7d59",
+    "name": "David Porter",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "David Porter is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "31ec28d4-e66a-4b48-a841-76fd4afe1ec6",
+    "name": "Katherine Maxwell",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 19 years, Butler Maxwell offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "7c132996-2093-4772-aa80-513cfbd5b474",
+    "name": "Liam Spencer",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 5 years managing large-scale accommodation facilities, Liam Spencer ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "28344d80-826a-4de8-a389-3190c402160e",
+    "name": "Nicole Murray",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "With a keen eye for detail developed over 10 years, Housekeeping Supervisor Murray conducts rigorous inspections to uphold pristine conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c238bd66-8489-40a9-83e7-14ef51dba942",
+    "name": "Joshua Crawford",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Joshua Crawford assists guests with inquiries and special requests, drawing on 7 years in customer service roles.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b2be48dd-96a0-423c-81f1-f304eeda72ea",
+    "name": "Avery Cooper",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Cooper offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "81d83948-4eee-4f08-ad63-8ff1d3b214dc",
+    "name": "George Hall",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "George Hall is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 20 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b455a378-609b-4dae-b744-776c3e25346c",
+    "name": "Miguel Graves",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Graves manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "1c88864e-69ae-437c-8825-8dd4f8adbe04",
+    "name": "Sophia Coleman",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Coleman specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 12 years of industry best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "684a99c9-c31f-4d3f-8940-24bbc7b7bb53",
+    "name": "Harold Hall",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 21 years in fine dining, Chef Hall specializes in Mediterranean flavors using locally sourced ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c128bf8d-0a7e-48d6-b7fb-e039c1e4b5e3",
+    "name": "Susan Cooper",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Cooper supports kitchen operations with 21 years of culinary expertise and leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "36f2c247-a60c-4fa4-8550-1544d8c0fbe8",
+    "name": "Ella Griffin",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Ella Griffin manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 5 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "708b906a-f208-4768-a079-9c1a380d0caa",
+    "name": "Christopher Coleman",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Christopher Coleman ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "1d338e85-99b2-44f3-bcdd-5ac3c8523237",
+    "name": "Dylan Foster",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 22 years perfecting {cuisineSpecific} artistry, Dylan Foster ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6633224e-638e-4ffd-bb29-eaf257a077af",
+    "name": "Sofia Dunn",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sofia Dunn combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "780921ac-f47d-455f-aa3b-49dd95c103ed",
+    "name": "Stephen Mitchell",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Mitchell expertly prepares cold dishes and appetizers with 3 years of culinary proficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f871ac55-052d-45e8-9f51-ed2497f3dc32",
+    "name": "Johnny Wells",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 11 years of expertise, Butcher Wells expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various French dishes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "09a6a64e-2265-4e28-b5df-ff28175d624f",
+    "name": "Gerald Stewart",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 13 years dedicated to the art of baking, Gerald Stewart fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c45e99ff-3f7b-4b24-a724-42e6b64a0507",
+    "name": "Terry Fox",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Fox navigates an extensive cellar to find the perfect wine for every palate and Nordic, drawing on 15 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f272e40d-eae0-4682-8ebe-5ff20b87ae60",
+    "name": "Patrick Stewart",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Patrick Stewart delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ef10236c-ac34-46a3-a961-f031e91f8550",
+    "name": "Gabriel Harper",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Harper prepares specialty coffees with precision, backed by 8 years in coffee service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "be057a22-3c13-410d-8b9b-29193d015b12",
+    "name": "Harold Marshall",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Harold Marshall collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "41f93897-f701-4884-8cfd-82dd3add18d1",
+    "name": "Madelyn Charlotte",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Charlotte curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f8f7b53a-1d84-465f-83d6-51967b604510",
+    "name": "Allison Russell",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Allison Russell's organizational skills, honed over 17 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "81713246-2e2b-40bb-9058-ca54b4a17883",
+    "name": "Kennedy Spencer",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 3 years, Lead Vocalist Spencer shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "9eaef03c-e09c-49fe-b4dd-32368baadf93",
+    "name": "Catherine Bennett",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Catherine Bennett brings 22 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c09e8b75-5cc0-4ac3-adc0-2e76e7f8d775",
+    "name": "Joan Fisher",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Fisher delivers energetic and polished routines, drawing on 16 years of dance training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "303e3158-bfd6-47f5-99c8-093b0a1bfb5c",
+    "name": "Paul Dean",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Paul Dean collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 14 years of experience in stage production.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "cf7b1e3e-da6d-45e5-8d85-f6c3ef8c0d56",
+    "name": "Roy Cooper",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Cooper masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "d81c0c0c-6eae-44c4-8872-dfe30504a8d1",
+    "name": "Brian Wells",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Brian Wells brings a unique brand of enchantment to the ship's entertainment, drawing on 5 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5fdf27b2-6691-45df-9b66-e4cdf32c4b25",
+    "name": "Alice Crawford",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 21 years of reading crowds, DJ Crawford seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "aa4c3550-7954-4882-9939-cec901f6eddd",
+    "name": "Sebastian Crawford",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Crawford expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "03a5a0cd-2500-4cd8-99d4-85976c3b6842",
+    "name": "Tyler Fox",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Fox programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "886023d9-9f27-47c3-8aa8-70611487a47d",
+    "name": "Bruce Hawkins",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Hawkins coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "920943a1-9b9f-42d6-b7c8-9e607afb275d",
+    "name": "Patrick Fisher",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Patrick Fisher ensures timely and efficient delivery of shows, leveraging 17 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ca8dd60d-bceb-4bae-b40b-e3f32610752f",
+    "name": "Liam Jennings",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Jennings creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "66a7f6ee-3f81-4658-8500-77ce6999ccc1",
+    "name": "Maya Foster",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 11 years in arts and cultural programming, Maya Foster develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "e8f85cf7-ec69-49af-8a1e-0bd31c12958f",
+    "name": "Ronald Graves",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 16 years pushing artistic boundaries, Ronald Graves offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f16e9931-2c44-4b35-8c59-867f33faa2f3",
+    "name": "Charlotte Fletcher",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Charlotte Fletcher oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "867a66a4-17dc-48db-ae85-9d691768e54a",
+    "name": "Diego Lawson",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Diego Lawson leverages 3 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "383e4d1c-7197-473b-8ce7-fc7d1e3840e3",
+    "name": "Roy Payne",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Roy Payne's analytical skills, honed over 13 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "93ecb304-06dd-4c00-9531-e89d143b9d11",
+    "name": "Elena Lawson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Elena Lawson applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Sitka",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "7cf95c8a-9888-4156-aff3-896a8041e4ef",
+    "name": "Victoria Cooper",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Victoria Cooper promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
     "city": "Sitka",
     "country": "United States",
     "region": "Alaska"

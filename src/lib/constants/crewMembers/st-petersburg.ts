@@ -2,17 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: St Petersburg
-    // Generated on: 2025-06-10T03:41:38.305Z
+    // Generated on: 2025-06-10T08:14:17.443Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const stpetersburgTeamMembers: CrewMember[] = [
   {
-    "id": "564a98bf-3cb5-4d58-a7dc-ada91975b171",
-    "name": "Terry Price",
+    "id": "541858a2-a8bd-4819-a1b6-ee34926379ca",
+    "name": "Sandra Hudson",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Price has navigated the challenging waters of Russia for over 13 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
+    "bio": "Drawing on 15 years of command, Sandra Hudson expertly manages all aspects of vessel operation in Russia, emphasizing crew development and operational excellence.",
     "languages": [
       {
         "code": "en",
@@ -23,216 +23,18 @@ export const stpetersburgTeamMembers: CrewMember[] = [
         "name": "Russian"
       }
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "1bb267b1-ef20-4eae-beef-7269aca6d226",
-    "name": "Eleanor Hall",
+    "id": "cc87ddf3-c915-480a-bed0-8abaeab4ad49",
+    "name": "Jack Day",
     "role": "First Officer",
     "department": "Deck Department",
-    "bio": "Eleanor Hall applies comprehensive knowledge of Russia's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "388a422e-6583-4611-b1dc-ec43336f2dd5",
-    "name": "Samantha Douglas",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Douglas is adept at monitoring vessel position and environmental conditions, contributing to safe passage through Russia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "c960d8b2-d68f-4649-b56e-54764710c66d",
-    "name": "Nicole Fox",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "As a vigilant watchkeeper, Nicole Fox has 14 years supporting navigation, safety drills, and emergency procedures aboard vessels in Russia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "cc43d486-89ad-4d86-93ba-189d5c64723a",
-    "name": "Evelyn Douglas",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Navigation Officer Douglas ensures all navigational equipment is calibrated and fully operational, leveraging 14 years of technical expertise in Russia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "0a3bdab3-6734-4b3c-b5b3-cc9257f13c9c",
-    "name": "Jane Carpenter",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Carpenter documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "1130c591-e687-4c4e-a025-ecee93e8b463",
-    "name": "Alan Dixon",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Deck Cadet Dixon learns shipboard operations under experienced officers, preparing for a future leadership role in Russia waters.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "b6c06260-2be2-4bb3-889b-b4659d33f0e0",
-    "name": "Mary Porter",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Mary Porter plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Russia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "ac45da64-9585-40e9-80dc-414452e69fe9",
-    "name": "Bella Gibson",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "With 18 years at the helm of engineering departments, Bella Gibson excels in marine electronics systems and guarantees adherence to strict environmental MARPOL regulations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "557ed6de-1ceb-4eb8-b567-4c1e3212d9fd",
-    "name": "Aria Hudson",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "Aria Hudson supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "ded13d5b-1329-438f-af8d-37e07a6d1ef7",
-    "name": "Margaret Charlotte",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "Experienced in engine room management, Margaret Charlotte brings 13 years ensuring mechanical integrity, safety, and regulatory compliance.",
+    "bio": "Leveraging 13 years of experience in Russia, Jack Day is adept at cargo operations, stability calculations, and bridge resource management.",
     "languages": [
       {
         "code": "en",
@@ -244,853 +46,17 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e54e3f6c-2800-4000-b55c-0206126b295d",
-    "name": "Harold Griffin",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Harold Griffin manages all electrical systems on board, applying 14 years of expertise in marine electrical engineering and system integration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "91966780-186d-49b5-8e7e-a5d88ebef598",
-    "name": "Adam Morgan",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Adam Morgan performs root cause analysis for mechanical failures and implements corrective action plans to minimize operational disruptions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "032e33f6-fb97-45e2-ad61-4f0f71453461",
-    "name": "Benjamin Fox",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "With expertise in refrigeration cycles and ventilation design, Benjamin Fox addresses environmental control challenges in varying maritime conditions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "d268bde9-a2e1-43b4-81fd-a8cf72ccb9b2",
-    "name": "Nora West",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Leveraging 15 years in marine environmental science, Nora West ensures strict adherence to all international and local environmental laws.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "61faf94a-df72-44a4-8a84-ad9a8260c853",
-    "name": "Katherine Baker",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Systems Engineer Baker's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 9 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "c707daca-6c1a-408b-877f-5d727e5f79ee",
-    "name": "Scarlett Chambers",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Scarlett Chambers drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "1ff5aff3-ca3f-461a-b317-737927edbbf3",
-    "name": "Juan Wells",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Maintenance Engineer Wells applies 16 years of hands-on expertise maintaining and repairing shipboard mechanical and electrical equipment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "afd4ae1b-da6c-48a2-a5d4-c67c70d438e0",
-    "name": "Maya Henderson",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former coast guard Maya Henderson leads our security team with 21 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "addc988e-81ac-4e80-a979-91102308ae36",
-    "name": "Margaret Charlotte",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Focused on maintaining order, Margaret Charlotte collaborates with other departments to enhance overall passenger and crew safety.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "fb53ff6f-c25c-47ca-a0dd-641a4fb9cbcc",
-    "name": "Joshua Grant",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Known for analytical expertise, Joshua Grant conducts vulnerability assessments and designs contingency plans to address evolving threats.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "0ef32fe9-4d00-4cd7-954a-10b62041c7ca",
-    "name": "Roger Hayes",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Experienced in compliance with maritime cybersecurity regulations, Roger Hayes conducts training to enhance crew awareness of digital risks.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "6e4dcd06-1146-4a7c-8c28-c2113af46f13",
-    "name": "Alexander Carpenter",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Alexander Carpenter coordinates security protocols and emergency responses, drawing on 15 years in maritime operations and multi-agency collaboration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "18504a3f-4c7a-43c6-adf2-e8e6fa3f46d1",
-    "name": "Edward Nash",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Focused on security integrity, Edward Nash conducts regular audits of access logs and assists in security incident investigations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "0512f818-06b6-4b44-8fb5-d836262e3ed0",
-    "name": "Lily Campbell",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Lily Campbell oversees adherence to maritime safety regulations, leveraging 14 years ensuring compliance, risk management, and regulatory audits.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "511d8195-061c-454e-87b4-247cfe8cd18a",
-    "name": "Robert Parker",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Parker ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 22 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "95471d51-83ce-4187-9921-0559456f4baf",
-    "name": "Ronald Morgan",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Family Activities Coordinator Morgan is adept at creating a welcoming and fun atmosphere where families can create lasting memories, a skill honed over 17 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "19b48aac-da75-4469-8f6c-0a79fffabb69",
-    "name": "Skylar Reed",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Experienced in youth engagement, Skylar Reed provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "21c3333e-3075-4548-a3c9-4c0d21f1236d",
-    "name": "Aaron Day",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and inclusivity, Aaron Day maintains open communication with parents and guardians regarding teen program activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "1475ef2e-325f-4101-b8f0-832bd22aa90d",
-    "name": "Sandra Hunter",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Drawing on 13 years in educational programming, Sandra Hunter designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "13cada34-0e09-4eff-ae8b-fd3ad4eb2503",
-    "name": "Julie Spencer",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Spencer ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "6da216a3-fbbe-4449-9e4e-3fe2747dfdd1",
-    "name": "Jack Charlotte",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Known for innovative programming, Jack Charlotte continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "4ce9f342-4747-4b0b-8f3b-5ba992236da2",
-    "name": "Amelia Jennings",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Water Sports Instructor Jennings ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "66c42914-25ca-4df5-95be-6bc2b458474e",
-    "name": "Kinsley Knight",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Committed to inclusivity, Kinsley Knight adapts programming to accommodate varying fitness levels and any physical limitations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "498afbb1-eb25-4384-b461-ab5322e7c85f",
-    "name": "Samuel Hamilton",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Hamilton plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "6ae731c6-7cef-4a9e-bd95-5620cf9df407",
-    "name": "Valentina Charlotte",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Valentina Charlotte ensures high-quality imagery that reflects the voyage’s unique character.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "d19bf230-e9cd-49b7-b975-e5b64df7a8fe",
-    "name": "Terry Hudson",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and adaptability, Terry Hudson effectively captures the dynamic atmosphere and human moments aboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "f369184d-865d-45ad-9414-b284bed1489a",
-    "name": "William Baker",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Digital Media Specialist Baker analyzes content performance and audience metrics to optimize digital strategies and engagement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "ca9333fb-04b6-4899-ac5f-4c91f5f14eba",
-    "name": "Johnny Grant",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Grant maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "46d31ab1-107b-4d28-a376-3a152d88fd1f",
-    "name": "Janet Day",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "With 14 years practicing medicine in diverse environments, Dr. Day is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "f7303b38-3425-4582-a2d5-740e2b476cdd",
-    "name": "Ralph Bennett",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Known for meticulous attention to detail and a caring demeanor, Ralph Bennett has been a vital part of shipboard medical teams for 14 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "0edd4988-d57e-4aff-92cc-2dd644c64155",
-    "name": "Alexa Crawford",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Alexa Crawford fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "201537f2-767e-48fc-b703-b6313e8f18f1",
-    "name": "Carlos Warren",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Carlos Warren manages all hospitality services, ensuring exceptional guest experiences with 22 years of leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "732952db-6ff3-4086-b339-6e5331bb0cb7",
-    "name": "Darrell Hayes",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Guest Relations Manager Hayes is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 4,
     "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "64724740-94ee-40fd-8b4b-51f8e8596e5c",
-    "name": "Nomsa Dixon",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Chief Steward Dixon supervises housekeeping and guest services with 16 years of maritime hospitality experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "1c79a5b9-690d-4ad5-a436-026ebabea01a",
-    "name": "Harold Collins",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Senior Steward Collins also assists in training junior stewards, sharing expertise gained from 7 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "cdd4fa59-4fab-4c5f-a69c-4d2e38ee6ba9",
-    "name": "Donna Reed",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Donna Reed anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "9690cca2-60f9-4953-a6a1-7370eed99acf",
-    "name": "Antonio Hall",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Antonio Hall oversees accommodation services, ensuring comfort and efficiency with 4 years in maritime hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "ae19f283-215a-4733-b560-a740bc7ad056",
-    "name": "Thandiwe Parker",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Thandiwe Parker manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 18 years of leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e548c2d3-3725-4ca5-a576-aeb5038c1823",
-    "name": "Aria Dunn",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Aria Dunn's communication skills, honed over 3 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "id": "232971df-a141-4a60-82a9-1fddc9574b7c",
+    "name": "Carlos Stewart",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Carlos Stewart brings 3 years of experience navigating Russia's challenging routes.",
     "languages": [
       {
         "code": "en",
@@ -1102,479 +68,17 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "dcd88f6a-371f-469d-a4ac-4c925bb5645a",
-    "name": "Genesis Watson",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "Concierge Watson offers expert local knowledge and personalized recommendations to enrich guest journeys.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "baaa1061-38b0-449c-9ca5-32925a55819d",
-    "name": "Audrey Charlotte",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Front Desk Manager Charlotte oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "a6abb275-2072-4e7f-9c9f-443c06153103",
-    "name": "Liam Dunn",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Dunn liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e5836d9b-fa64-48a0-b603-972b2295abd6",
-    "name": "Adeline Fox",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Adeline Fox conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 10 years in adult learning.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "000ea659-ed77-4c5e-ab4a-ccb5b3dce515",
-    "name": "Stephen Henderson",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "Beyond crafting exquisite Pan-Asian, Chef Henderson expertly manages kitchen hygiene, inventory, and food cost control, honed over 14 years in demanding culinary environments.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "9090d000-f836-424e-a662-6586d6be3428",
-    "name": "Joe Baker",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Joe Baker trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 8 years of mentorship.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "ba9e9f31-80e1-45ae-bf6d-a3b842f7a2d5",
-    "name": "Carol Wells",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "Specializing in delicate Latin American pastries and innovative dessert creations, Pastry Chef Wells brings 20 years of refined skill to the culinary team.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "19574c35-6890-4152-aaa6-d7992b6930df",
-    "name": "Samantha Montgomery",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Samantha Montgomery ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "f6ea2fe9-c591-4f61-af78-899a080386b5",
-    "name": "Luis Gibson",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Gibson curates exclusive menus for themed dining venues, showcasing 15 years of passion for {cuisineSpecific} traditions and techniques.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "45553e6a-eec6-4d5c-b7ce-eb56aea6a7c3",
-    "name": "Skylar Chambers",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Chambers manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 18 years of Japanese culinary excellence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "65b8380e-7b58-4b1d-8448-230d2b973fda",
-    "name": "Diego Murray",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Diego Murray is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 16 years of Pacific Rim expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "c511e78f-e1c7-4cbd-a201-9fde85841cde",
-    "name": "Lawrence Hawkins",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Hawkins ensures quality meat preparation, supported by 8 years of skilled butchery work.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "f5942662-ab90-410e-a038-45f9d075487e",
-    "name": "Philip Reeves",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Philip Reeves manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 8 years of professional baking.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "a06d9c61-8905-4d91-9556-d3a32dfe9edc",
-    "name": "Jeffrey Jennings",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "With 18 years in Michelin-starred establishments, Sommelier Jennings elevates the dining journey through impeccable wine service and cellar management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e5d8b58b-7139-4196-bb9a-6ae4b49155e1",
-    "name": "Arthur Baker",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Arthur Baker manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 11 years in the art of mixology.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "45dcadea-8ed2-4f0b-88a0-43585a9c3ebc",
-    "name": "Matthew Mitchell",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Matthew Mitchell provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 22 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "be2170bf-7a7f-499d-aa96-cc03238de323",
-    "name": "Emma Fisher",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Nutritionist Fisher works closely with the culinary team to create wholesome Nordic options that are both flavorful and aligned with wellness goals, drawing on 5 years of expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "aaa38003-bb43-4c8d-a8c7-b72a60753a65",
-    "name": "Joseph West",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Joseph West plans and oversees all entertainment activities, applying 21 years of event and talent management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e36d44e3-e2ce-4253-b20f-d6afa3a421de",
-    "name": "Carol Dunn",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Carol Dunn's organizational skills, honed over 11 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "915ca11c-128b-4b65-a9ec-6dd7897c78fc",
-    "name": "Chen Gardner",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "With a versatile range and powerful stage presence developed over 20 years, Lead Vocalist Gardner shines in genres from pop and rock to jazz and musical theatre.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "b3b634e3-394b-4432-901c-21ceef6a1ca3",
-    "name": "Amelia Morgan",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "Musician Morgan adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 22 years of diverse musical experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "59973b9c-b099-40d5-ac59-f0f0dd097575",
-    "name": "Eric Fletcher",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Eric Fletcher is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 7 years of professional dance experience.",
+    "id": "76852bd8-0784-497f-9e51-ca81d7ad76a9",
+    "name": "Elizabeth Foster",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Elizabeth Foster's expertise in safety and lifesaving equipment maintenance comes from 7 years at sea within Russia, ensuring crew and passenger preparedness.",
     "languages": [
       {
         "code": "en",
@@ -1586,61 +90,17 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "12520e12-1c63-4a5f-aeae-afb7d7bf8b87",
-    "name": "Antonio Olivia",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Choreographer Olivia creates captivating dance routines, blending creativity with 13 years of dance expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "15a4b583-4900-458c-b58b-ddb21da4b420",
-    "name": "James Reeves",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Reeves masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "9ee51410-798f-4f2e-8dac-91538ff40227",
-    "name": "Elijah Porter",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Elijah Porter brings a unique brand of enchantment to the ship's entertainment, drawing on 18 years of professional magic and a flair for theatrical presentation.",
+    "id": "823d5f82-c692-4b04-85fd-2afb2882ac20",
+    "name": "Jeremy Hudson",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Jeremy Hudson's expertise in navigational risk assessment supports proactive decision-making for safe operations within Russia's ports and coastal areas.",
     "languages": [
       {
         "code": "en",
@@ -1652,17 +112,17 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "3efc9ed8-1b8a-4089-bb50-465aa77bf7b6",
-    "name": "Wei Wallace",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "DJ Wallace stays current with music trends while also mastering classics, offering 19 years of expertise in curating unforgettable musical journeys.",
+    "id": "4ea62696-1c33-4d88-a453-5301d1608a97",
+    "name": "Alice Parker",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With 16 years overseeing maritime safety, Alice Parker ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Russia.",
     "languages": [
       {
         "code": "en",
@@ -1673,150 +133,18 @@ export const stpetersburgTeamMembers: CrewMember[] = [
         "name": "Russian"
       }
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "49888eb9-a36b-43fa-9f30-4b116440c7fc",
-    "name": "Darrell Henderson",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "With 20 years of experience in mixing live sound for theatre, music, and events, Darrell Henderson guarantees crystal-clear audio for all onboard productions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "48ab3d4c-7a55-4a3d-8898-34ba2f9727c5",
-    "name": "Jason Dean",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Jason Dean's artistic vision and technical mastery over 13 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "87a88ef7-a631-4437-8728-8cdbd2bbf102",
-    "name": "Juan Nash",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Juan Nash supervises stage operations and talent, drawing on 11 years of event management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "3edbce7c-3e52-4c42-b5dc-081babc7c83a",
-    "name": "Chen Wallace",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Chen Wallace ensures timely and efficient delivery of shows, leveraging 5 years in production management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "e1fa1779-9c29-4099-b666-6480a7f2bf0a",
-    "name": "Sean Baker",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Sean Baker's artistic flair and attention to historical detail, honed over 8 years, bring visual richness and authenticity to the stage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "c51e0a3e-43b1-46a9-ae2d-fb0729e51fa8",
-    "name": "Jane Hayes",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Jane Hayes promotes diversity and cultural awareness through engaging onboard programming.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "ru",
-        "name": "Russian"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "St Petersburg",
-    "country": "Russia",
-    "region": "Russia"
-  },
-  {
-    "id": "c27c7379-7ba2-4226-8e78-fe78e0a8f2a1",
-    "name": "Dennis Porter",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Porter combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "id": "3d3cb124-2171-4313-a5e6-e64ecac7d564",
+    "name": "Valentina Graves",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Valentina Graves supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Russia's maritime environment.",
     "languages": [
       {
         "code": "en",
@@ -1828,17 +156,61 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "8c90babd-dd24-4979-af25-49de09d3e3a8",
-    "name": "Marcus Dixon",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "With 19 years streamlining vessel-wide processes, Marcus Dixon ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
+    "id": "984be773-d260-4ec6-b661-7240f78081b6",
+    "name": "Bobby Palmer",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 18 years of seamanship, Bosun Palmer is an expert in rigging, anchoring, and all aspects of deck machinery operation in Russia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "0a5e6721-b45e-4844-a49d-5f961c370023",
+    "name": "Kyle Foster",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Kyle Foster leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 20 years of innovative practice and vessel automation knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "7a3d7c15-189b-4c98-ba5d-df71e4c1c90e",
+    "name": "Lily Olivia",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Olivia is responsible for the main propulsion machinery and auxiliary systems, bringing 19 years of hands-on expertise.",
     "languages": [
       {
         "code": "en",
@@ -1850,17 +222,325 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "2d7cd581-e322-4cae-b9a8-489ba16afeaf",
-    "name": "Janet Stewart",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 10 years coordinating complex supply chains, Janet Stewart ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "id": "749167e9-b2dc-4280-afd7-8f0f7181537e",
+    "name": "Barbara Palmer",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Experienced in engine room management, Barbara Palmer brings 18 years ensuring mechanical integrity, safety, and regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "dd0f68e2-4119-4464-aa93-33a604da657b",
+    "name": "Gabriel Harper",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Gabriel Harper supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "876ac027-9fc9-43ec-a29f-512f77899d6e",
+    "name": "Raymond Price",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Price collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "749083eb-08e2-414c-b6c0-67ed10ca71f6",
+    "name": "Randy Maxwell",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Maxwell coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "5aa1b476-fbc2-482e-abe4-088367e0af0f",
+    "name": "Avery Hudson",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Avery Hudson conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "a7cac237-119a-4125-a664-35a24d3c44d0",
+    "name": "Sean Dixon",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Sean Dixon enhances system interoperability and cybersecurity aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "2c90c111-4ef3-4c61-9965-1571841fc336",
+    "name": "Amelia Foster",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Amelia Foster drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "58aabe63-c6d0-4f15-a3e9-28da93687d84",
+    "name": "Wei Hudson",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Wei Hudson ensures all vessel machinery operates smoothly and safely, backed by 21 years in preventive and corrective maintenance programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "301ea86b-422f-4c92-ae4a-9f3c01209bed",
+    "name": "Alice Cooper",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Alice Cooper oversees all security operations with 12 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "48636a63-f168-4a9d-98ce-949a44a67ce4",
+    "name": "Lily Graves",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Lily Graves is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "791cd8c5-ccce-446c-9ac0-75a667eb3a96",
+    "name": "Skylar Mitchell",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "With extensive training in security technologies, Skylar Mitchell leads specialized investigations and security audits to strengthen vessel defenses.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "0b042876-96eb-457c-bbc1-233a5a38d4d6",
+    "name": "Nomsa Murray",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Nomsa Murray ensures all onboard digital systems comply with stringent maritime cybersecurity guidelines like IMO MSC.428(98), backed by 19 years of focused work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "72fd9763-420b-410f-b1a2-f7a497105d3e",
+    "name": "Kinsley Hall",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Hall facilitates seamless security operations between ship and shore, a skill honed over 11 years of dedicated service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "8c69dad2-622d-4849-9608-5d010992a9f4",
+    "name": "Kyle Clark",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, Kyle Clark conducts regular audits of access logs and assists in security incident investigations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "8612ce8a-7fbb-41de-90e8-41f4a2175730",
+    "name": "William Dunn",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Dunn promotes a safety-first culture through continuous education and enforcement of best practices.",
     "languages": [
       {
         "code": "en",
@@ -1878,11 +558,11 @@ export const stpetersburgTeamMembers: CrewMember[] = [
     "region": "Russia"
   },
   {
-    "id": "3dd701fd-edce-4127-b45b-64f9c192703b",
-    "name": "Bella Grant",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Bella Grant ensures accurate inventory control using advanced management systems.",
+    "id": "19d99de3-de27-437d-86bb-692a877ab1d4",
+    "name": "Margaret Murray",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Committed to positive youth engagement, Margaret Murray integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
     "languages": [
       {
         "code": "en",
@@ -1893,18 +573,18 @@ export const stpetersburgTeamMembers: CrewMember[] = [
         "name": "Russian"
       }
     ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "efc5dda8-d7a4-4b2b-b954-53023bbf347e",
-    "name": "Blake Day",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Blake Day applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "id": "a48c744b-4d3b-4272-9ca2-730aa50c5cda",
+    "name": "Samantha Parker",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Samantha Parker, with 13 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
     "languages": [
       {
         "code": "en",
@@ -1915,18 +595,238 @@ export const stpetersburgTeamMembers: CrewMember[] = [
         "name": "Russian"
       }
     ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"
   },
   {
-    "id": "fdcb9507-220c-4535-9f60-36f47cc4d687",
-    "name": "Ethan Carpenter",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "With 6 years dedicated to environmental stewardship in the maritime sector, Ethan Carpenter develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "id": "dec585d6-2fe5-4749-b37d-e5ae041e78af",
+    "name": "Benjamin Fletcher",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 15 years of delighting young audiences, Benjamin Fletcher brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "e5f4c294-f6cb-4439-b29c-1a7c48321b74",
+    "name": "Christine Sutton",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Leveraging 15 years working with adolescents, Christine Sutton creates cool and engaging hangouts and events that resonate with teens.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "3ba4d410-d0f9-416f-8ce2-cb0928d6e2a1",
+    "name": "Philip Fisher",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Philip Fisher oversees onboard educational initiatives, combining 20 years of academic and program management experience to enrich passenger learning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "c63aa031-decf-4df7-bcd0-ac0503385cfd",
+    "name": "Elizabeth Charlotte",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With expertise in child health and safety protocols, Elizabeth Charlotte manages routines and responds to individual needs of children under care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "2a936cc1-c3be-4fb6-8e01-8ed599214d11",
+    "name": "Amelia Foster",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Foster leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "780bf355-44d5-4679-9cbb-9214993c83ba",
+    "name": "Zoe Murray",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in various water sports, Zoe Murray provides personalized coaching that accommodates different skill levels and abilities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "1ea34564-c584-4fb2-9a0a-fa1fc23521c2",
+    "name": "Nomsa Russell",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Nomsa Russell leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "562e069b-87af-451a-9789-62daec3f9506",
+    "name": "Joshua Day",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 13 years of experience, Joshua Day curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "a4014ca6-7b77-452e-972f-012721fd823a",
+    "name": "Christine Lawson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Christine Lawson collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "6bac0a24-9fb3-4230-a54c-c265e458f740",
+    "name": "Emily Holloway",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Holloway crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "f411cbc9-08a3-4ff9-8ee5-d8e9d4391de4",
+    "name": "Adeline Collins",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Known for technical proficiency and creative vision, Adeline Collins collaborates closely with marketing and entertainment teams to maximize reach and impact.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +838,1107 @@ export const stpetersburgTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "43d9e009-7b1d-468d-8fba-e6b99250d2f2",
+    "name": "Amina Russell",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Russell leads all medical operations onboard, leveraging 21 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "c7e130b7-9020-4c5a-a478-c9283fe29669",
+    "name": "Sophia Curtis",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Curtis provides comprehensive medical care with 5 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "d39b6077-36ce-44d4-b76a-99d36b360686",
+    "name": "Roger Coleman",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Roger Coleman has been a vital part of shipboard medical teams for 6 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "589a4eae-d618-48e0-be7b-c03880b221a5",
+    "name": "Bruce Carpenter",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Bruce Carpenter fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "753781bc-dd7e-4c11-a5f4-6b727c0362a6",
+    "name": "Susan Reeves",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Susan Reeves manages all hospitality services, ensuring exceptional guest experiences with 20 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "c5a18e64-de51-4342-bb88-c39949e18d8f",
+    "name": "Jennifer Reed",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Reed is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "211a2063-6373-40e6-9b6c-f7a30ba14012",
+    "name": "Pamela Graham",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Pamela Graham ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "008676b0-61a5-42c0-b8f5-fce717d28126",
+    "name": "Barbara Graves",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Graves also assists in training junior stewards, sharing expertise gained from 8 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "8473e8dd-8ec8-408b-bc1c-17a7e500b5c1",
+    "name": "Stephen Parker",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 16 years, Butler Parker offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "46a0eb8b-0556-4149-9919-80dff647ea62",
+    "name": "Alice Fox",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Alice Fox expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 16 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "03707f84-0842-403b-8fc7-059a34b2edec",
+    "name": "Lily Warren",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Lily Warren manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 20 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "56ae4b70-22d6-4e11-9937-3e7c76f27eb1",
+    "name": "Sarah Wallace",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Wallace facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "244cc55e-a998-4f2b-b372-f1b0d58f0816",
+    "name": "Elijah Collins",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Elijah Collins acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "78df9433-8d1d-4cce-8cee-9372107f0a73",
+    "name": "Priya Graham",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Graham trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 14 years of best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "e23759c2-0288-4d99-926b-8c7aa390dfac",
+    "name": "Jordan Knight",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Jordan Knight designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "119f1ae9-f5ab-4ff3-87e8-becef1fc96bb",
+    "name": "Steven Palmer",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Steven Palmer develops training programs to elevate hospitality team skills, with 5 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "e5a44252-9908-4f80-95d6-5352104b2b89",
+    "name": "Hannah Curtis",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Caribbean, Chef Curtis expertly manages kitchen hygiene, inventory, and food cost control, honed over 9 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "c926ee74-cf3c-4c13-99b4-5f433b0e8cf1",
+    "name": "Bryan Cooper",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Bryan Cooper excels in menu execution and team management to maintain high culinary standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "6c637f2f-4165-4045-ad6f-67c6e751fba6",
+    "name": "Alexander Charlotte",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Charlotte continually develops new recipes, delighting guests with 10 years of dedication to the art of patisserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "878e3881-eadc-4fef-b155-167f90ef2369",
+    "name": "Michelle Baker",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Baker manages specific kitchen stations with 12 years of focused culinary skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "e03d5bde-2249-41fe-8d0f-59c7c557c5ef",
+    "name": "Jennifer Reeves",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Jennifer Reeves creates authentic dishes that transport guests to Russia, drawing on 10 years of dedicated culinary exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "80775fcb-e30c-4ff6-8d6b-10fdcd57577f",
+    "name": "Mason Fletcher",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Fletcher prepares fresh and artistic sushi dishes, drawing on 6 years of Japanese culinary tradition.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "bfab3999-1236-4240-8213-08c47343926b",
+    "name": "Dorothy Parker",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 12 years specializing in charcuterie, salads, and elaborate cold platters, Chef Parker brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "5b9451b3-3254-48aa-8d8e-66c67bde0cc9",
+    "name": "Jessica Lawson",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Lawson ensures quality meat preparation, supported by 20 years of skilled butchery work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "11121394-fb8b-43fa-9d62-df894e69a320",
+    "name": "Sandra Hayes",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Hayes meticulously prepares a wide array of Latin American-inspired and classic baked goods daily, showcasing skills honed over 9 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "66fcee0e-8c8c-4806-897c-43527dddb8a2",
+    "name": "Tyler West",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier West navigates an extensive cellar to find the perfect wine for every palate and Caribbean, drawing on 22 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "f9702596-b444-4171-bb62-5e2cac5547c4",
+    "name": "Barbara Baker",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Barbara Baker manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 22 years in the art of mixology.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "73a5f8ce-63ce-453b-a616-ec4190d8d1b3",
+    "name": "Patricia Price",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Price prepares specialty coffees with precision, backed by 19 years in coffee service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "719659a3-9625-4347-8016-c1da2ba0c791",
+    "name": "George Hudson",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Hudson designs balanced menus catering to health-conscious guests, leveraging 5 years of dietary expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "ea09d87e-4e94-48eb-8837-7e1f3a570029",
+    "name": "Caroline Keller",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Keller leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 15 years of industry leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "00950381-489e-4449-82e3-1ec4fe7e183e",
+    "name": "Jennifer Stewart",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Stewart supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "4972cd20-5fb3-40e9-929d-c378299e4273",
+    "name": "Zachary Dean",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Zachary Dean consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 14 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "2a126ace-18dd-4dfa-8c74-3182390d3fdb",
+    "name": "Margaret Curtis",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Margaret Curtis brings 7 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "1f5ad181-90c9-4df2-8ac3-c89e59b42a9b",
+    "name": "Samuel Price",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 5 years of professional training in {danceStyle} and contemporary dance, Samuel Price executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "aeb0fbc5-8c64-4c40-8d08-17c0134d75b7",
+    "name": "Skylar Murray",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Skylar Murray leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "8cd54111-721c-43b8-a9e4-7ba2c345f493",
+    "name": "Sofia Chambers",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Chambers masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "8e3e6af7-890b-4d19-9c06-f58a050e63b8",
+    "name": "Priya Parker",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Parker combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "1ed8f02a-2873-4950-aa8f-eb21e6444192",
+    "name": "Sean Holloway",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 18 years of reading crowds, DJ Holloway seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "21267e85-1622-4fab-aff7-a3e86d882226",
+    "name": "Anthony Bennett",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Anthony Bennett's keen ear and technical proficiency, developed over 7 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "7237effa-e307-4f5c-abd5-3603df83c0f4",
+    "name": "Noah Mitchell",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Noah Mitchell's artistic vision and technical mastery over 14 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "6031d63c-c994-448b-b0a0-61993247f1a9",
+    "name": "Janet Dean",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 8 years in professional stage management, Janet Dean meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "abbf6636-a636-43d5-bc78-f739c524cb96",
+    "name": "Jordan Knight",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "With 9 years managing complex theatrical and event productions, Jordan Knight oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "f5f93a95-bd86-4f18-943a-1c9cf00f4ee1",
+    "name": "Cynthia Chambers",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 13 years of experience in theatrical costume design, Cynthia Chambers conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "e6ae3c38-da0e-4d0a-891b-b16c460310c3",
+    "name": "Sofia Fisher",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Fisher curates culturally enriching events and experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "870ce0bc-3efc-48f9-9c21-495380cca7eb",
+    "name": "Kennedy Reeves",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Reeves delivers unique and innovative acts, blending multiple disciplines with 3 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "9652afd0-1340-4fe6-8975-1dfbfaf3dc68",
+    "name": "Sophia Hunter",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "With 12 years streamlining vessel-wide processes, Sophia Hunter ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "815bba04-39c4-4258-bce6-b7d6bdd41252",
+    "name": "Riley Stewart",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Stewart manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "bc077ecc-64eb-4759-b063-9929d8cc05c4",
+    "name": "Zachary Fisher",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Zachary Fisher ensures accurate inventory control using advanced management systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "0172fd80-cc5c-4f80-8341-b88164650f59",
+    "name": "Patrick Cooper",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Patrick Cooper applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "St Petersburg",
+    "country": "Russia",
+    "region": "Russia"
+  },
+  {
+    "id": "1e03ef0e-5a71-4404-9de1-ea64e832fa50",
+    "name": "Isabella Russell",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Isabella Russell champions innovative eco-friendly technologies and practices, leveraging 3 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "ru",
+        "name": "Russian"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "St Petersburg",
     "country": "Russia",
     "region": "Russia"

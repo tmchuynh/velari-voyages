@@ -2,611 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Seattle
-    // Generated on: 2025-06-10T03:41:38.303Z
+    // Generated on: 2025-06-10T08:14:17.441Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const seattleTeamMembers: CrewMember[] = [
   {
-    "id": "3964d3e2-654e-4940-a5b7-618caf0cef0d",
-    "name": "Vincent Douglas",
+    "id": "2a4ded2b-0458-4a26-b001-e444af90e2f0",
+    "name": "Kennedy Gardner",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Captain Douglas's strategic decision-making and crisis management skills, honed over 17 years, ensure smooth and safe voyages throughout Washington.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "0be81a46-94ee-4a89-b193-b4d4b105930f",
-    "name": "Thandiwe Dixon",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Leveraging 14 years of experience in Washington, Thandiwe Dixon is adept at cargo operations, stability calculations, and bridge resource management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b5218601-f41d-467d-83f1-d650de287e99",
-    "name": "William Reeves",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Second Officer Reeves's responsibilities include managing the ship's medical stores and providing medical assistance, drawing on 16 years of maritime service in Washington.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "c97c752a-9d32-4544-8f30-9cfce67f6573",
-    "name": "Avery Dean",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Drawing on 10 years of experience in Washington, Avery Dean is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "368a2901-6601-47ca-8f0d-a4ff2895fd5c",
-    "name": "Billy Jennings",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "Billy Jennings's expertise in navigational risk assessment supports proactive decision-making for safe operations within Washington's ports and coastal areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "dac314fe-89c3-4e8d-86d3-706816effb34",
-    "name": "Samantha Baker",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "Safety Officer Baker documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "d325c45d-b7e9-41e3-a4a9-2a24a81ac3bb",
-    "name": "Timothy Olivia",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Timothy Olivia is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within Washington.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "342c1f5f-9853-46ec-8d71-2914915f1edf",
-    "name": "Katherine Day",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Bosun Day maintains the vessel's exterior appearance and structural integrity, a testament to 5 years of dedication in Washington.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "7e3a0b18-89e1-49c3-b4ea-e6a51ff6e2f8",
-    "name": "Emma Carpenter",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Chief Engineer Carpenter manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "98b6ff55-3a58-462b-b1c4-199f9b8f9fea",
-    "name": "Lisa Price",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "First Engineer Price is responsible for the main propulsion machinery and auxiliary systems, bringing 20 years of hands-on expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b56a4333-010c-429f-8dc5-6d4f757ebf28",
-    "name": "Charlotte West",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With 7 years of experience, Charlotte West is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "1c3e0fda-85b7-460d-b5be-c639639689ef",
-    "name": "Scott Hayes",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Electrical Engineer Hayes specializes in fault-finding within complex circuits and automation logic, a skill honed over 15 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "521b986e-41cb-472a-80d2-e62aca2ee83d",
-    "name": "Keith Henderson",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Keith Henderson performs root cause analysis for mechanical failures and implements corrective action plans to minimize operational disruptions.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "78d35e1b-5cb4-4fb6-800a-a4df8bd3f041",
-    "name": "Jesse Coleman",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Jesse Coleman designs, installs, and maintains heating, ventilation, and air conditioning systems with 22 years of maritime specialization.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "eca06562-ee68-4fbb-95b4-091c40184957",
-    "name": "Lerato Payne",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Lerato Payne champions innovative solutions for waste reduction and energy efficiency, reflecting 17 years of commitment to maritime sustainability.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "af1e2807-ccc9-423b-b721-cdf4b7f7d4c1",
-    "name": "Skylar Carpenter",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "Skylar Carpenter integrates complex onboard systems, ensuring operational synergy and reliability with 21 years of maritime engineering expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e0c51450-4469-4c60-ac6b-9bb02d1dc00b",
-    "name": "Sebastian Lawson",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Known for strong leadership, Sebastian Lawson fosters a culture of technical excellence and cross-functional collaboration onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "6ae595ba-029b-41b9-a0ff-bb0c506a45d5",
-    "name": "Gregory Sutton",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Gregory Sutton develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "08ea544a-c65b-4d4d-941b-f77995318e8f",
-    "name": "Scott Coleman",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former intelligence Scott Coleman leads our security team with 14 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "310a2374-876c-413c-8b8e-3e89765cd4d5",
-    "name": "Claire Porter",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Claire Porter is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "ab29a800-e0d1-4ad3-b4d4-4b2947ca23b4",
-    "name": "Sandra Lawson",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Lawson develops tailored security plans and threat mitigation strategies based on 20 years of maritime threat analysis and intelligence gathering.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "cc630ca9-5875-472a-aaf5-5cdc3e6e2852",
-    "name": "Virginia Watson",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Cybersecurity Officer Watson protects vessel networks and data with 8 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "f81cf6f5-f3fd-44a8-bc90-11e6cc4ac64a",
-    "name": "Alexander Palmer",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "Alexander Palmer coordinates security protocols and emergency responses, drawing on 6 years in maritime operations and multi-agency collaboration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "5432bd4e-005f-447a-b9d5-8c4fd65da70b",
-    "name": "Alice Harper",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Alice Harper is trained in search procedures and contraband detection, contributing 14 years of vigilance to vessel security.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b1290f9a-4913-4ee3-9e73-a9d148f0bc8a",
-    "name": "Thomas Bennett",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Safety Compliance Officer Bennett promotes a safety-first culture through continuous education and enforcement of best practices.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "5479ec99-52db-4444-bf3b-d7d0b47437e0",
-    "name": "Gary Curtis",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Youth Program Director Curtis manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "422fbeb7-f29c-40be-913b-268148706c9d",
-    "name": "Janet Fox",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Focused on safety and accessibility, Janet Fox ensures all family activities comply with onboard regulations and guest expectations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "f389e42c-b2c7-4c8c-99fe-01137fe16702",
-    "name": "Amina Day",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Known for energetic delivery and adaptability, Amina Day adjusts programming to accommodate different group sizes and interests.",
+    "bio": "Drawing on 12 years of command, Kennedy Gardner expertly manages all aspects of vessel operation in Washington, emphasizing crew development and operational excellence.",
     "languages": [
       {
         "code": "en",
@@ -618,17 +24,17 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "70f22ede-e2b9-4a4f-b663-a4e1e00018ef",
-    "name": "Dylan Payne",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With knowledge of adolescent development, Dylan Payne balances fun and educational content to engage teens effectively onboard.",
+    "id": "dd15625e-5db9-4c22-8adc-098e84f0f17d",
+    "name": "Victoria Dixon",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Former military officer Victoria Dixon brings exceptional navigational precision and leadership with 3 years sailing throughout Washington.",
     "languages": [
       {
         "code": "en",
@@ -639,18 +45,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "24acc9ed-09d1-49f0-bd55-164543b69673",
-    "name": "Ethan Fletcher",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Educational Program Manager Fletcher coordinates with external educators and experts to deliver diverse and culturally relevant content.",
+    "id": "7a74ccae-3432-4017-b49c-1434887eb1c6",
+    "name": "Jerry Parker",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Jerry Parker brings 14 years of experience navigating Washington's challenging routes.",
     "languages": [
       {
         "code": "en",
@@ -661,84 +67,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "32616286-0ff4-4e03-950b-938d7942b710",
-    "name": "James Sutton",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Child Care Specialist Sutton promotes social and emotional development through structured play and educational activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "5453193b-41d8-4a7d-b366-6557f8973700",
-    "name": "Lucas Grant",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Activities Director Grant is passionate about creating vibrant social atmospheres, a skill perfected over 19 years of orchestrating memorable onboard events.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e5d7d2fc-5e68-4a64-857c-c303a9b89835",
-    "name": "Sophia Dean",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Sophia Dean's primary focus for 5 years has been ensuring every guest feels confident and secure while exploring the water.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e8966177-162a-457f-a385-07228ed06ed4",
-    "name": "Carl Hayes",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 10 years of expertise, Carl Hayes offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "id": "f579b07a-80b9-4231-a2d2-7f808482d0e8",
+    "name": "Christian West",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 10 years dedicated to bridge operations, Christian West contributes to seamless voyages through Washington's waterways by monitoring safety and compliance.",
     "languages": [
       {
         "code": "en",
@@ -750,17 +90,61 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "569f33a5-d692-43f9-984e-4bb7718ce0a7",
-    "name": "Johnny West",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Johnny West's meticulous planning and attention to detail, developed over 8 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "id": "0939c51e-4b37-4ffa-a1cd-32de59deeb16",
+    "name": "Naomi Reeves",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "With 3 years dedicated to Washington routes, Naomi Reeves excels in dynamic positioning and integrated navigation systems management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "c35eb637-129d-49eb-b321-cca5d60ce7f6",
+    "name": "Gregory Hawkins",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Gregory Hawkins conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Washington's maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "1beb51c0-9848-490d-8537-68cda115d0c4",
+    "name": "Nora Hudson",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Hudson learns shipboard operations under experienced officers, preparing for a future leadership role in Washington waters.",
     "languages": [
       {
         "code": "en",
@@ -772,17 +156,237 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "937d1a0b-2eff-4057-a4c1-ee48e3fe855f",
-    "name": "Carol Mitchell",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "With extensive experience in portrait, event, and environmental photography, Carol Mitchell ensures high-quality imagery that reflects the voyage’s unique character.",
+    "id": "ed367f1e-415d-443c-9df3-c4f20743293a",
+    "name": "Jesse Graham",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Graham mentors junior deck crew, promoting professional development and adherence to best practices in Washington's maritime industry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "71e597c1-ae4b-43c6-979a-040f4fcf1033",
+    "name": "Maria Russell",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Russell's extensive 3-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "7e584d53-4922-40af-90d5-ebaeb54cbf98",
+    "name": "Harry Dunn",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 16 years, Harry Dunn takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "fc491570-f80b-40d3-bd95-8fc16a53d742",
+    "name": "Zola Graham",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Graham meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 10 years of practical knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "c0997b77-bb9f-42f8-b8a4-c28473aef2a8",
+    "name": "Albert Keller",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Albert Keller implements energy-saving technologies and complies with international standards for electrical safety aboard ships.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "dbb0be9c-9b01-474a-b611-c00150829749",
+    "name": "Naomi Mason",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Naomi Mason performs root cause analysis for mechanical failures and implements corrective action plans to minimize operational disruptions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "420b914a-a7a1-495a-8009-32355f2a80ef",
+    "name": "Juan Grant",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Juan Grant monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "f801879f-b7ad-4383-b70d-b1aa7f40a348",
+    "name": "Kevin Fox",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 13 years in marine environmental science, Kevin Fox ensures strict adherence to all international and local environmental laws.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "7eb9c30e-4e1f-48ce-9107-49638bb876a4",
+    "name": "John Keller",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "John Keller manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "b6d8305c-9926-4eea-b716-82c82ffad67d",
+    "name": "Alan Douglas",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Alan Douglas provides expert guidance on complex technical challenges and long-term asset management, drawing from 16 years of senior engineering leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "aa745af6-2e48-4ddb-be97-1383c11752b9",
+    "name": "Linda Morgan",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Linda Morgan develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
     "languages": [
       {
         "code": "en",
@@ -794,17 +398,523 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "a1710f34-5388-4710-ada4-2df2c331942d",
+    "name": "Isabella Hawkins",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Hawkins leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "19ca9e3d-b717-428e-a758-201e4fcf7bf9",
+    "name": "Anthony Marshall",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Anthony Marshall is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "6c6f405e-a257-40b0-ae59-c3c876bb067e",
+    "name": "Gregory Collins",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Collins advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "75d03e86-f4af-4a16-970b-cc95a4a5623d",
+    "name": "Terry Reeves",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Experienced in compliance with maritime cybersecurity regulations, Terry Reeves conducts training to enhance crew awareness of digital risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "b292c215-5f0f-409f-a755-a5c8cfc29428",
+    "name": "Tyler Fox",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Tyler Fox manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
     "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "91f03296-63bc-4108-bcef-41ad30b8b66b",
-    "name": "Joshua Murray",
+    "id": "733fbb18-4a94-4d67-a3eb-9a1aae819d16",
+    "name": "Allison Murray",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Murray manages secure boarding and access with 22 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "58b66036-13d2-4d1b-a135-261f9ab6457c",
+    "name": "Zachary Parker",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Zachary Parker oversees adherence to maritime safety regulations, leveraging 18 years ensuring compliance, risk management, and regulatory audits.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "c16e32ba-6254-4434-ab9b-1c4941874ae7",
+    "name": "Harper Warren",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Warren manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "94596a45-3224-48f8-b39d-972970468c5a",
+    "name": "Kinsley Hawkins",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Kinsley Hawkins ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "b9932595-b3c9-47a0-a45d-6cadc0dea691",
+    "name": "Larry Hunter",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for energetic delivery and adaptability, Larry Hunter adjusts programming to accommodate different group sizes and interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "92dc8f4f-9770-4e24-b60f-01352c269c77",
+    "name": "Alexa Charlotte",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Alexa Charlotte develops dynamic programs catering to teenage guests, drawing on 16 years of youth facilitation and event management expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "2917ea1e-809c-4af9-a1ca-597f5fbf2ed2",
+    "name": "Bobby Porter",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Porter forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 12 years of networking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "695d6978-e203-46bc-91fc-fc67832f034b",
+    "name": "Katherine Douglas",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Douglas promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "98790e98-6682-4728-9a11-3eeecc216dbf",
+    "name": "Ralph Griffin",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Ralph Griffin designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "2bec5f52-0855-436a-b3a2-e58b62f43ff9",
+    "name": "Austin Henderson",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Austin Henderson maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "e5827e8a-7e68-4ff2-b346-7df97e6595b6",
+    "name": "Riley Fox",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on motivation and proper technique, Riley Fox helps passengers adopt and maintain healthy lifestyles during their voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "ca7288eb-6e11-4091-afd7-208b11f39208",
+    "name": "Ethan Reeves",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 12 years of experience, Ethan Reeves curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "fb3f842a-ad17-46e7-904f-6724e29abbf2",
+    "name": "Peter Knight",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Peter Knight leads the photo team with 17 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "958d3931-0e85-4339-8c07-08e0591df3fe",
+    "name": "Victor West",
     "role": "Videographer",
     "department": "Photography & Videography",
-    "bio": "Videographer Murray is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 14 years.",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Victor West produces videos for promotional and archival purposes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "724318f9-ba42-4b12-b2db-665a9e87aa08",
+    "name": "Virginia Hunter",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With expertise in social media, video editing, and graphic design, Virginia Hunter drives effective digital campaigns that promote the voyage experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "ce1e5114-9f99-4bb1-a78a-d6012804b63a",
+    "name": "Maya Payne",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Payne leads all medical operations onboard, leveraging 15 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "5c690fa2-5683-4c2a-b686-23ab03b7e1af",
+    "name": "Johnny Harper",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Harper is skilled in minor surgical procedures and advanced cardiac life support, bringing 6 years of critical care experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "ec5d5146-31db-4075-9515-e8df7df26d99",
+    "name": "Larry Douglas",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Larry Douglas has been a vital part of shipboard medical teams for 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "24579f02-8684-4003-aa04-1c081e57941d",
+    "name": "Isabella Fox",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 14 years overseeing maritime safety, Isabella Fox ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Washington.",
     "languages": [
       {
         "code": "en",
@@ -816,17 +926,17 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "53c4ad5c-c014-4851-93bc-81c6a477ddb3",
-    "name": "Audrey Day",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Audrey Day manages digital content and multimedia production, applying 20 years in digital media, marketing, and audience engagement strategies.",
+    "id": "c8b50b6c-5184-479d-a5aa-cec8fc0dd825",
+    "name": "Pamela Montgomery",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 20 years in hospitality management, Pamela Montgomery drives operational excellence and team performance onboard.",
     "languages": [
       {
         "code": "en",
@@ -838,17 +948,17 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "8a6c7c92-9cba-4c0f-a730-db03cff5f7a3",
-    "name": "Rebecca Griffin",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Griffin leads all medical operations onboard, leveraging 7 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "id": "395d2706-208b-4a5c-8a92-31a1a0d1aa5f",
+    "name": "Jane Maxwell",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Maxwell is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
     "languages": [
       {
         "code": "en",
@@ -859,18 +969,128 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "b9c575dd-3018-4858-a720-9624d5efebef",
-    "name": "Wei Douglas",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Douglas provides comprehensive medical care with 9 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "id": "34b228b2-489b-469f-9bcf-07cbbea77f4d",
+    "name": "Valentina Reed",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Valentina Reed excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 14 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "7dc08b72-5317-4601-be80-6049b98ad9cd",
+    "name": "Bruce Cooper",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Bruce Cooper provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 17 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "c6e7b43b-799f-4da8-b7af-b15adc754909",
+    "name": "Pamela Clark",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Clark provides personalized guest services, backed by 20 years of elite hospitality expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "d7b6c028-8586-47cd-9317-182a83fc67ba",
+    "name": "Darrell Hall",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Hall plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 21 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "b5a66b29-24a1-4211-b02c-6f144d0e61fd",
+    "name": "Alan Charlotte",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Alan Charlotte manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 14 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "42884184-7c2d-4175-bf9c-50a3ac848684",
+    "name": "Audrey Graves",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Graves efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
     "languages": [
       {
         "code": "en",
@@ -888,231 +1108,11 @@ export const seattleTeamMembers: CrewMember[] = [
     "region": "Washington"
   },
   {
-    "id": "e93e98bc-6a45-4b26-bd05-9f7213319f34",
-    "name": "Virginia Price",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Nurse Price provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "7cb5e9ff-4825-43e2-b60d-b11b2a608bc3",
-    "name": "Amanda Chambers",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Amanda Chambers fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "26f1d9cc-7a96-4df0-863a-b3ee04787402",
-    "name": "Aiden Henderson",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "With 5 years in hospitality management, Aiden Henderson drives operational excellence and team performance onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e3c0d20b-a571-4b10-a794-e5d2ed2e32d6",
-    "name": "Mary Morgan",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Mary Morgan champions a guest-first culture, utilizing 14 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e44338e6-9da4-4174-8984-988b5effc652",
-    "name": "Bella Reeves",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "Bella Reeves ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "04a6b5b2-8e55-4553-bcd7-aa656d3ed9da",
-    "name": "Charlotte Olivia",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "Charlotte Olivia is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b203686d-4278-466a-b28c-8c56f2983c2a",
-    "name": "Matthew Watson",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Watson is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 17 years in top-tier hospitality.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "7e5e88df-93d3-458e-acb4-9fd9cf4a95f2",
-    "name": "Gregory Porter",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Accommodation Manager Porter coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "46aaa3bc-31e1-46f9-9ad9-3f6e5ee0812b",
-    "name": "Chen Price",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Housekeeping Supervisor Price is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 3 years of service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "169971a1-1ca3-4a3f-9da9-fabb61b16862",
-    "name": "William Fox",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "Guest Services Specialist Fox facilitates seamless guest interactions to enhance onboard experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "9fc95251-9d53-4ac2-a1e2-9ed6e866b021",
-    "name": "Andrew Murray",
+    "id": "4ca8f4b4-7078-4f58-85c3-541a42a91d26",
+    "name": "Peter Sutton",
     "role": "Concierge",
     "department": "Hospitality Department",
-    "bio": "Andrew Murray acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "bio": "Concierge Sutton's dedication over 12 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
     "languages": [
       {
         "code": "en",
@@ -1123,18 +1123,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "e56368cb-9605-4992-b1e6-aed98912ea0f",
-    "name": "Chen Price",
+    "id": "ace840bc-8d55-49d1-a9ac-e4b200d7121a",
+    "name": "Kennedy Marshall",
     "role": "Front Desk Manager",
     "department": "Hospitality Department",
-    "bio": "Front Desk Manager Price oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "bio": "With 22 years in front office management, Kennedy Marshall ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
     "languages": [
       {
         "code": "en",
@@ -1145,502 +1145,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "b9ce034f-c071-4c19-a032-b6683661c52d",
-    "name": "Katherine Crawford",
+    "id": "62380cdd-fa3e-41b1-b041-fddb2bc864ad",
+    "name": "Noah Harper",
     "role": "VIP Coordinator",
     "department": "Hospitality Department",
-    "bio": "VIP Coordinator Crawford manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b177f220-ddaa-48b4-bd16-5a5e7ae16a3f",
-    "name": "Joshua Palmer",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Palmer focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "b3fdf211-3b7b-4f46-83f8-dbc892c11fb6",
-    "name": "Vincent Keller",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "With 4 years in fine dining, Chef Keller specializes in Japanese flavors using locally sourced ingredients.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "2c2d1c35-8342-49c7-8956-44e0f8de2297",
-    "name": "Eric Day",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Eric Day trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 14 years of mentorship.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "025fa955-759c-486e-8178-e94beab1c3df",
-    "name": "Amina Mason",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Mason continually develops new recipes, delighting guests with 15 years of dedication to the art of patisserie.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "36275cce-e3dd-4fd4-8e19-a59cd3706f1f",
-    "name": "Barbara Porter",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Barbara Porter ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "9a8ca0a5-2651-483a-b6c8-ac92e363979d",
-    "name": "Daniel Curtis",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Master of {cuisineSpecific} cuisine, Daniel Curtis creates authentic dishes that transport guests to Washington, drawing on 12 years of dedicated culinary exploration.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e4506e61-133a-4576-8546-76c77895a01c",
-    "name": "Sarah Reed",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Reed manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 21 years of Japanese culinary excellence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "60ae56f5-dc6b-462e-bed1-bc2e032bc72c",
-    "name": "Catherine Hawkins",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "Catherine Hawkins is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 9 years of Asian fusion expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "0baf7164-b418-415e-b705-1c082d960da0",
-    "name": "Matthew Wells",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Butcher Wells manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 17 years of specialized knowledge.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "43033b2b-ced8-444d-8315-8710dbab3ad9",
-    "name": "Samuel Spencer",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "Baker Spencer meticulously prepares a wide array of Continental-inspired and classic baked goods daily, showcasing skills honed over 13 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "305fea7d-d09b-41d9-88bf-2208b4563cc3",
-    "name": "Maria Hayes",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Certified Sommelier Hayes navigates an extensive cellar to find the perfect wine for every palate and Continental, drawing on 10 years of oenological expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "acde593d-e9a8-4d72-a460-edfaea719d3d",
-    "name": "Joe Dixon",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Joe Dixon manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 3 years in the art of mixology.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "d478e784-49b7-4318-9868-a44ceb5af3af",
-    "name": "Samuel Gibson",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Samuel Gibson provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 22 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "63f2cb52-f480-4d8f-b2e4-a356d9541ba3",
-    "name": "Amanda Fox",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "Amanda Fox collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "9058eacb-43ba-466e-a680-1a9f34817d75",
-    "name": "Luis Russell",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Luis Russell plans and oversees all entertainment activities, applying 16 years of event and talent management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "01ca5dcb-44fe-434e-b513-9009f128c715",
-    "name": "Marcus Griffin",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "Performance Coordinator Griffin supports talent and technical teams to deliver seamless shows.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "836313b0-8e44-4660-8597-318bf7c3878b",
-    "name": "Scott Olivia",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Olivia captivates audiences with dynamic performances, backed by 20 years of professional singing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "0f0eb628-e68b-46ad-8b05-52fdc1fa4673",
-    "name": "Amanda Price",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "A master of the {instrument}, Amanda Price brings 14 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "fa9bb43e-4d37-4ea0-a859-2f2c6159eaf1",
-    "name": "Kyle Warren",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Warren delivers energetic and polished routines, drawing on 22 years of dance training.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "f1de5f37-6187-4838-9fe7-ee096fe34c32",
-    "name": "Linda Grant",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Linda Grant collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 11 years of experience in stage production.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "255ff702-a456-43c9-b4e8-44acb713d21e",
-    "name": "Juan Lawson",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Lawson masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "f9f707c0-a26a-4f82-9d8b-a3043117a02c",
-    "name": "Gabriella Douglas",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Gabriella Douglas blends showmanship and technique to deliver captivating magic shows at sea.",
+    "bio": "Noah Harper designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
     "languages": [
       {
         "code": "en",
@@ -1652,17 +1168,17 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "ff416255-22a5-407b-9dcc-ead63a17f41f",
-    "name": "Richard Clark",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "Richard Clark keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "id": "cbfb113b-a4f0-4bfd-9204-8bf07c968c1b",
+    "name": "William Grant",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Grant focuses on enhancing guest service quality through targeted education and coaching.",
     "languages": [
       {
         "code": "en",
@@ -1673,18 +1189,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "cca3b262-6be2-4abf-9f27-7f5c8f24846d",
-    "name": "Paul Graves",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Audio Technician Graves expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
+    "id": "381a1e5e-cc15-4286-944d-e8ef31cc2f1c",
+    "name": "Gary Palmer",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 14 years in fine dining, Chef Palmer specializes in Pacific Rim flavors using locally sourced ingredients.",
     "languages": [
       {
         "code": "en",
@@ -1695,106 +1211,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "c407c1db-146a-4a0d-aacd-9f76f53b89c1",
-    "name": "Emily Dean",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Emily Dean's artistic vision and technical mastery over 17 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "9ae43993-a187-49fd-af89-39bdcb413011",
-    "name": "Joshua Knight",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Joshua Knight's calm under pressure and attention to detail, honed over 5 years, are vital for delivering complex, multi-layered performances without a hitch.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "8007bc52-efe2-44b1-a74f-25897cd4399b",
-    "name": "Ariana Olivia",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Ariana Olivia ensures timely and efficient delivery of shows, leveraging 5 years in production management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "e9944a60-caa3-4d87-8e69-d0b154ebbf36",
-    "name": "Michael Hunter",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Hunter creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Seattle",
-    "country": "United States",
-    "region": "Washington"
-  },
-  {
-    "id": "5eb3edb0-9d18-4d11-af14-37718da0076f",
-    "name": "Henry Knight",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Knight curates culturally enriching events and experiences for guests.",
+    "id": "5d79582d-28e6-46cd-bc71-6d52c58d3ffe",
+    "name": "Zoe Charlotte",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Zoe Charlotte trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 7 years of mentorship.",
     "languages": [
       {
         "code": "en",
@@ -1806,17 +1234,39 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "eef41038-ccf1-4987-bb86-675f680f6f6f",
-    "name": "Carol Curtis",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Carol Curtis captivates audiences with original performances tailored to shipboard entertainment.",
+    "id": "d176327a-e92e-4c9c-9212-bbea0e894bab",
+    "name": "Betty Crawford",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Betty Crawford manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "3dd1872f-9770-48c7-934e-9ed7a67eb0c4",
+    "name": "Antonio Holloway",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Antonio Holloway ensures consistency and quality in dish preparation across assigned kitchen areas.",
     "languages": [
       {
         "code": "en",
@@ -1828,17 +1278,105 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "11b1f22a-4fa9-4fb6-9e1d-92cfef4be3d0",
-    "name": "Mateo Watson",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "With 11 years streamlining vessel-wide processes, Mateo Watson ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
+    "id": "4abedb0d-f811-4e60-a3fd-cb68f5e7a63f",
+    "name": "Adam Montgomery",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Montgomery curates exclusive menus for themed dining venues, showcasing 22 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "255770c9-3902-4a35-abe0-fa1ae9a283e9",
+    "name": "Skylar Dixon",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Dixon manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 10 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "f212a6c3-8d1f-4b60-a1a3-5f3d4d5ce20b",
+    "name": "Sean Montgomery",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Sean Montgomery maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "83288c3c-d046-4c72-81de-75c77d2dabd4",
+    "name": "Alexa Jennings",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Jennings manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 8 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "13bcf6e7-312a-413b-8cc3-0f9331e9efe2",
+    "name": "Harold Grant",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Grant meticulously prepares a wide array of Italian-inspired and classic baked goods daily, showcasing skills honed over 11 years.",
     "languages": [
       {
         "code": "en",
@@ -1850,17 +1388,17 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "a33c87c1-eed3-486b-b765-b95793c3f193",
-    "name": "Adeline Henderson",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "Logistics Coordinator Henderson meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
+    "id": "aa836621-7ed3-4b20-8df8-bbc3a55f29e6",
+    "name": "Mia Reeves",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Mia Reeves enhances dining experiences by sourcing and recommending premium wines.",
     "languages": [
       {
         "code": "en",
@@ -1871,18 +1409,18 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/23.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "9f5ea41a-02a3-4a73-8c65-c36839e6987c",
-    "name": "Amanda Reeves",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Inventory Specialist Reeves implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "id": "2f923bfb-0c15-4b7d-9475-bfa1c651e594",
+    "name": "Sebastian Olivia",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Olivia crafts creative cocktails, combining flavor expertise with 21 years of bartending skill.",
     "languages": [
       {
         "code": "en",
@@ -1893,18 +1431,62 @@ export const seattleTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "de27b165-16fb-43db-95a2-ff297ed33472",
-    "name": "Linda Murray",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Linda Murray applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "id": "945ac46f-5f33-4f89-97ef-55eb1ac5e462",
+    "name": "Wei Morgan",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Morgan ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 9 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "e33441ae-9990-4136-be81-2bfcbd6dbaeb",
+    "name": "Harold Crawford",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Harold Crawford collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "a756ed55-6837-48f5-a84d-acdbe1551794",
+    "name": "Joan Lawson",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 18 years orchestrating spectacular onboard entertainment, Joan Lawson manages everything from Broadway-style shows to intimate musical performances and themed parties.",
     "languages": [
       {
         "code": "en",
@@ -1916,17 +1498,281 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"
   },
   {
-    "id": "31542b5b-f6e5-431f-919d-3948ba6a2050",
-    "name": "Terry Charlotte",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "Terry Charlotte promotes sustainable practices aligned with maritime environmental standards.",
+    "id": "2c0f2091-e8f0-4297-ba95-a065d2f6849d",
+    "name": "Helen Graham",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Graham serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "276d7428-e0e3-43f4-900b-b432efdcd9f7",
+    "name": "Ellie Gibson",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Ellie Gibson consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 8 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "6389afc8-4850-494d-bd01-bc4a609ac6c4",
+    "name": "Ronald Bennett",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Bennett adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 7 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "419584d4-8b5e-42c4-8838-7e0c31b3b3c3",
+    "name": "Frank Wells",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 16 years of professional training in {danceStyle} and contemporary dance, Frank Wells executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "b58562cd-78fb-4a50-a699-3caa27f27c4d",
+    "name": "Paul Reeves",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Reeves creates captivating dance routines, blending creativity with 12 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "347d323d-73b2-47e4-a8b6-5928b7b3bc01",
+    "name": "Nicole Dixon",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Nicole Dixon entertains guests with humor and timing, backed by 11 years in comedy performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "62657afc-7de6-4a43-8bd0-80f347d7d531",
+    "name": "Lisa Gardner",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Gardner mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "76079327-a359-433f-9d39-70866e5bba05",
+    "name": "Alexander Baker",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Baker creates vibrant atmospheres with expertly mixed music, drawing on 15 years in live DJing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "ab796e12-2e6d-4d8b-9aac-229457bd29cb",
+    "name": "Christian Henderson",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 8 years of experience in mixing live sound for theatre, music, and events, Christian Henderson guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "24722f7a-4619-44c4-bec6-997f11992398",
+    "name": "Peter Murray",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Peter Murray applies 12 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "480622c8-2b63-4c42-ac74-1b2cdd53cbea",
+    "name": "Zachary Warren",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 14 years in professional stage management, Zachary Warren meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "38ba4ffa-1359-44e1-b5bc-0daeebcb70f4",
+    "name": "Lucas Dunn",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Lucas Dunn's strategic planning and problem-solving skills, developed over 4 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "5d7344a2-9866-49bd-87fb-5a90d80d0434",
+    "name": "Jeremy Reeves",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Reeves creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +1784,161 @@ export const seattleTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "49ff24d3-6773-422d-ba91-8f74d8abdc62",
+    "name": "Billy Clark",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Clark collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "ad29c55d-cf5d-474a-9890-a814ba9b8903",
+    "name": "Ashley Lawson",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Ashley Lawson presents breathtaking and thought-provoking performances honed over 13 years of dedicated artistic exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "a85a31b3-7145-4f9d-b338-6b58fed9049d",
+    "name": "Priya Cooper",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Cooper is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "197b73d6-f28d-4441-8a71-55a29da13fed",
+    "name": "Anna West",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Anna West leverages 3 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "29f1d2f9-a4ad-47bb-b638-0257a1532e42",
+    "name": "Willie Nash",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Willie Nash's analytical skills, honed over 4 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "f93e4970-d2a6-4cef-b9c7-cdcb72c0c36b",
+    "name": "Billy Wallace",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Billy Wallace applies expertise in vendor management and cost optimization to benefit ship operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "Washington"
+  },
+  {
+    "id": "a25ebad3-d39e-4e3b-9c0c-2e48532ce4c1",
+    "name": "Aria Holloway",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 10 years dedicated to environmental stewardship in the maritime sector, Aria Holloway develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
     "city": "Seattle",
     "country": "United States",
     "region": "Washington"

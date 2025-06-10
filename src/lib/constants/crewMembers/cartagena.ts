@@ -2,281 +2,17 @@
   // This file is auto-generated
     // Do not edit manually.
     // City: Cartagena
-    // Generated on: 2025-06-10T03:41:38.289Z
+    // Generated on: 2025-06-10T08:14:17.423Z
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const cartagenaTeamMembers: CrewMember[] = [
   {
-    "id": "d417f37e-6f86-4156-811b-203c654872ba",
-    "name": "Samuel Stewart",
+    "id": "bc82fcdd-28ea-4fd0-9a7c-5d6ab0dc74f9",
+    "name": "Willie Ellis",
     "role": "Captain",
     "department": "Deck Department",
-    "bio": "Samuel Stewart brings over 5 years of experience navigating Colombia's waters, specializing in coastal and offshore operations with a focus on safety and efficiency.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "d11ee205-9897-4fc2-9b0e-f4bc3abd222c",
-    "name": "Hannah Dixon",
-    "role": "First Officer",
-    "department": "Deck Department",
-    "bio": "Hannah Dixon specializes in Colombia navigation with 5 years of experience managing bridge operations and ensuring adherence to safety standards.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "cda6c2b6-eacd-4b80-92be-324c1fd25cbf",
-    "name": "Lerato Charlotte",
-    "role": "Second Officer",
-    "department": "Deck Department",
-    "bio": "Lerato Charlotte plays a critical role in voyage planning and watchkeeping, backed by 16 years ensuring operational integrity in Colombia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "e2b46bf3-a9f5-42e9-9c28-dffaec9feffe",
-    "name": "Rebecca Graves",
-    "role": "Third Officer",
-    "department": "Deck Department",
-    "bio": "Rebecca Graves supports communication and lookout duties during watches, maintaining high situational awareness in Colombia's maritime environment.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "9d8d353c-b249-4ccd-a53b-7a9cdd6e5e18",
-    "name": "John Hawkins",
-    "role": "Navigation Officer",
-    "department": "Deck Department",
-    "bio": "John Hawkins plays a key role in training junior officers on Colombia-specific navigational challenges and best practices, backed by 18 years of experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "77129f3e-ba1e-493e-9200-097e2f903148",
-    "name": "Robert Douglas",
-    "role": "Safety Officer",
-    "department": "Deck Department",
-    "bio": "With a thorough understanding of hazard identification and mitigation, Robert Douglas fosters a culture of safety awareness among crew and passengers.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "5d573bba-73be-461b-ae71-7f58612c1840",
-    "name": "Scott Fletcher",
-    "role": "Deck Cadet",
-    "department": "Deck Department",
-    "bio": "Deck Cadet Fletcher learns shipboard operations under experienced officers, preparing for a future leadership role in Colombia waters.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "0483d396-e78e-49c1-8350-35fadf6a55b5",
-    "name": "Jeffrey Dean",
-    "role": "Bosun",
-    "department": "Deck Department",
-    "bio": "Jeffrey Dean plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Colombia.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "c10c4461-3bb9-4be5-b5f1-e4eb68a9b2d6",
-    "name": "Gabriel Hayes",
-    "role": "Chief Engineer",
-    "department": "Engineering Department",
-    "bio": "Gabriel Hayes oversees all vessel systems with 10 years of expertise in maritime engineering, specializing in mechanical systems and ensuring compliance with safety and environmental regulations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "fbf8c66b-a3bf-4129-9789-dee9aff18738",
-    "name": "Nicholas Nash",
-    "role": "First Engineer",
-    "department": "Engineering Department",
-    "bio": "With a focus on propulsion and power systems, Nicholas Nash applies 12 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "771293ac-176d-4305-b044-d1ff98bc0761",
-    "name": "Harold Maxwell",
-    "role": "Second Engineer",
-    "department": "Engineering Department",
-    "bio": "With 17 years of experience, Harold Maxwell is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "e8275812-8f49-4698-8271-f53b51358fee",
-    "name": "Gregory Russell",
-    "role": "Electrical Engineer",
-    "department": "Engineering Department",
-    "bio": "Gregory Russell's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 22 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "87fd1c65-c5ad-4d3f-b0c4-d91623c69f94",
-    "name": "Samantha Parker",
-    "role": "Mechanical Engineer",
-    "department": "Engineering Department",
-    "bio": "Samantha Parker's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 15 years of service.",
+    "bio": "Drawing on 15 years of command, Willie Ellis expertly manages all aspects of vessel operation in Colombia, emphasizing crew development and operational excellence.",
     "languages": [
       {
         "code": "en",
@@ -288,17 +24,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "cb740237-40ad-495c-948b-14ff4ca676e6",
-    "name": "Richard Payne",
-    "role": "HVAC Engineer",
-    "department": "Engineering Department",
-    "bio": "Richard Payne monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
+    "id": "e8e132bf-ab9a-4c34-9145-2e157ebe9f1e",
+    "name": "Albert Olivia",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Albert Olivia, with 12 years navigating Colombia, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
     "languages": [
       {
         "code": "en",
@@ -309,18 +45,18 @@ export const cartagenaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 18,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "3d6a7d8d-e6f5-44fa-a047-5636439d8bb8",
-    "name": "Betty Grant",
-    "role": "Environmental Engineer",
-    "department": "Engineering Department",
-    "bio": "Betty Grant conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
+    "id": "92615486-e8a3-469b-ad06-34dba7444398",
+    "name": "Joe Baker",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Joe Baker applies 5 years of navigational skills to support safe and efficient voyages across Colombia, with strong expertise in chart plotting and communication systems.",
     "languages": [
       {
         "code": "en",
@@ -331,40 +67,18 @@ export const cartagenaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "ba1ccc3c-5395-4691-9f0c-78ae636bee51",
-    "name": "Sandra Grant",
-    "role": "Systems Engineer",
-    "department": "Engineering Department",
-    "bio": "With extensive knowledge of software and hardware interfaces, Sandra Grant enhances system interoperability and cybersecurity aboard vessels.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "9d194cc0-daa1-46f9-a491-9435f221fdc8",
-    "name": "Bruce Baker",
-    "role": "Technical Manager",
-    "department": "Engineering Department",
-    "bio": "Known for strong leadership, Bruce Baker fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "id": "91f2b877-4552-45f2-8fc9-a2721f7ee68a",
+    "name": "Melissa Dixon",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Dixon conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Colombia.",
     "languages": [
       {
         "code": "en",
@@ -376,457 +90,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "8cbc815a-6fd7-4b70-accb-6c1a52307ece",
-    "name": "Samantha Harper",
-    "role": "Maintenance Engineer",
-    "department": "Engineering Department",
-    "bio": "Samantha Harper meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 13 years of service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "9314f4d4-1a96-448f-a282-1e47e4438524",
-    "name": "Adeline Graves",
-    "role": "Security Director",
-    "department": "Security Department",
-    "bio": "Former intelligence Adeline Graves leads our security team with 17 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "a4e94326-dc5f-4a98-810a-3240b3731763",
-    "name": "Roy Chambers",
-    "role": "Security Officer",
-    "department": "Security Department",
-    "bio": "Security Officer Chambers is proficient in emergency communication procedures and crowd management, vital skills honed over 11 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "e600f06d-b4c8-4930-872d-a599e5b9cd60",
-    "name": "Harold Curtis",
-    "role": "Security Specialist",
-    "department": "Security Department",
-    "bio": "Security Specialist Curtis develops tailored security plans and threat mitigation strategies based on 19 years of maritime threat analysis and intelligence gathering.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "c222e67d-ab60-4283-b196-b3a5755358bc",
-    "name": "Liam Jennings",
-    "role": "Cybersecurity Officer",
-    "department": "Security Department",
-    "bio": "Experienced in compliance with maritime cybersecurity regulations, Liam Jennings conducts training to enhance crew awareness of digital risks.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "ab0d8ce1-c4cf-4b01-821f-097f40a57d7d",
-    "name": "Sandra Payne",
-    "role": "Maritime Security Coordinator",
-    "department": "Security Department",
-    "bio": "With strong organizational skills, Sandra Payne maintains detailed records and reports to support continuous security improvement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "f0a1574b-5ecf-4e59-8ddb-2f85ee4c3adb",
-    "name": "Brandon Dean",
-    "role": "Access Control Officer",
-    "department": "Security Department",
-    "bio": "Focused on security integrity, Brandon Dean conducts regular audits of access logs and assists in security incident investigations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "cfd0a580-4556-47f2-87b0-6c8fae956637",
-    "name": "Benjamin Curtis",
-    "role": "Safety Compliance Officer",
-    "department": "Security Department",
-    "bio": "Leveraging 10 years, Benjamin Curtis ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "77a85f4c-bef8-4a25-b51f-394ec9343c42",
-    "name": "Michelle Maxwell",
-    "role": "Youth Program Director",
-    "department": "Youth & Family Programs",
-    "bio": "Committed to positive youth engagement, Michelle Maxwell integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "7ea19f9a-53bc-495e-be64-89509ec7c828",
-    "name": "Aria Carpenter",
-    "role": "Family Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "With strong communication skills, Aria Carpenter liaises with hospitality and entertainment teams to deliver seamless family-oriented services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "915f15aa-9061-4197-8da2-7603c8169f0e",
-    "name": "Audrey Hunter",
-    "role": "Children's Entertainment Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "Experienced in youth engagement, Audrey Hunter provides fun, educational, and culturally sensitive activities tailored for children of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "ca47bc83-9682-4b57-8918-aba27c78b01f",
-    "name": "Susan Lawson",
-    "role": "Teen Activities Coordinator",
-    "department": "Youth & Family Programs",
-    "bio": "Susan Lawson develops dynamic programs catering to teenage guests, drawing on 17 years of youth facilitation and event management expertise.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "565a1741-b468-4d81-8b5a-e06a8919abe0",
-    "name": "Gregory Reed",
-    "role": "Educational Program Manager",
-    "department": "Youth & Family Programs",
-    "bio": "Gregory Reed, with 11 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "16e55ffb-6d76-4c67-befc-18d0b182902a",
-    "name": "Luis West",
-    "role": "Child Care Specialist",
-    "department": "Youth & Family Programs",
-    "bio": "With expertise in child health and safety protocols, Luis West manages routines and responds to individual needs of children under care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "0bd63dab-ffe3-43a7-9d9e-fe27b694f70c",
-    "name": "Johnny Collins",
-    "role": "Activities Director",
-    "department": "Activities & Recreation",
-    "bio": "Drawing on 21 years in recreation management, Johnny Collins curates an exciting and varied daily program of entertainment and activities for all guests.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "4584e9cf-4d9d-45d4-b004-4ed718d5971f",
-    "name": "Zoe Murray",
-    "role": "Water Sports Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Known for excellent communication and risk management skills, Zoe Murray maintains vigilance during all aquatic activities to protect participants.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "7e904863-d2df-40bc-9990-b2b5033f3059",
-    "name": "Donna Hall",
-    "role": "Fitness Instructor",
-    "department": "Activities & Recreation",
-    "bio": "Fitness Instructor Hall promotes wellness and physical health through tailored exercise programs, backed by 12 years of fitness training and client engagement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "b03f7823-d8c9-4860-9cd0-bdb90bbdf3fb",
-    "name": "Douglas Spencer",
-    "role": "Excursion Coordinator",
-    "department": "Activities & Recreation",
-    "bio": "Excursion Coordinator Spencer prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "99d6c82e-f99f-4295-9a9c-1039f4a6e80b",
-    "name": "Nora Morgan",
-    "role": "Lead Photographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and attention to detail, Nora Morgan collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "d8ff33bb-5c22-4aff-b0a6-5358ae348a87",
-    "name": "Janet Hayes",
-    "role": "Videographer",
-    "department": "Photography & Videography",
-    "bio": "Known for creativity and adaptability, Janet Hayes effectively captures the dynamic atmosphere and human moments aboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "e50df651-32b7-400b-91ce-0d4a4207300e",
-    "name": "Samantha Lawson",
-    "role": "Digital Media Specialist",
-    "department": "Photography & Videography",
-    "bio": "Samantha Lawson manages digital content and multimedia production, applying 8 years in digital media, marketing, and audience engagement strategies.",
+    "id": "1cfc955c-7e33-4d53-bbf9-f61954091e3d",
+    "name": "Audrey Reeves",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Reeves ensures all navigational equipment is calibrated and fully operational, leveraging 8 years of technical expertise in Colombia.",
     "languages": [
       {
         "code": "en",
@@ -838,39 +112,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "38a7c260-8236-490a-a72b-aa7fb08b255b",
-    "name": "Sandra Lawson",
-    "role": "Chief Medical Officer",
-    "department": "Health & Safety",
-    "bio": "Chief Medical Officer Lawson leads all medical operations onboard, leveraging 20 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "b3001367-f4cb-4f3d-94d5-6f67f52234b9",
-    "name": "Gabriel Hawkins",
-    "role": "Ship's Doctor",
-    "department": "Health & Safety",
-    "bio": "Dr. Hawkins, drawing from 16 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
+    "id": "e6a1c071-ee99-4e86-bf3c-81f1bdecda98",
+    "name": "Alan Graham",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Alan Graham conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Colombia's maritime operations.",
     "languages": [
       {
         "code": "en",
@@ -888,11 +140,11 @@ export const cartagenaTeamMembers: CrewMember[] = [
     "region": "Colombia"
   },
   {
-    "id": "82d5ca90-a35b-4c7f-a64f-0de85bb88f41",
-    "name": "Dennis Dixon",
-    "role": "Nurse",
-    "department": "Health & Safety",
-    "bio": "Leveraging 3 years in diverse nursing roles, Dennis Dixon excels in triage, wound care, and patient advocacy within the unique maritime environment.",
+    "id": "5b79d0b2-836a-43b3-91bd-c70af5170960",
+    "name": "John Hall",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Deck Cadet Hall learns shipboard operations under experienced officers, preparing for a future leadership role in Colombia waters.",
     "languages": [
       {
         "code": "en",
@@ -903,128 +155,18 @@ export const cartagenaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "9d7c3201-4006-454a-a0dd-35936dd88835",
-    "name": "Christopher Warren",
-    "role": "Safety Officer",
-    "department": "Health & Safety",
-    "bio": "Christopher Warren conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Colombia's maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "71340ad4-8f29-4dd7-95e7-d511daf4c368",
-    "name": "Billy Hawkins",
-    "role": "Hospitality Director",
-    "department": "Hospitality Department",
-    "bio": "Billy Hawkins manages all hospitality services, ensuring exceptional guest experiences with 4 years of leadership.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "0d875cc4-6f87-48b8-a97b-40263ebe583e",
-    "name": "Audrey Harper",
-    "role": "Guest Relations Manager",
-    "department": "Hospitality Department",
-    "bio": "Audrey Harper champions a guest-first culture, utilizing 21 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "7b356c3c-0245-4596-a32d-f54ff07be97b",
-    "name": "Benjamin Keller",
-    "role": "Chief Steward",
-    "department": "Hospitality Department",
-    "bio": "With 16 years leading stewardship teams, Chief Steward Keller meticulously manages cabin services, laundry operations, and public area upkeep.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "f00982ea-102a-4dca-9675-f20b5be7bdc3",
-    "name": "Eric Wallace",
-    "role": "Senior Steward",
-    "department": "Hospitality Department",
-    "bio": "With 13 years of dedicated service, Senior Steward Wallace ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "7f68c856-a115-44c1-a2ff-d63d02dedc7e",
-    "name": "Ryan Griffin",
-    "role": "Butler",
-    "department": "Hospitality Department",
-    "bio": "Butler Griffin is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 22 years in top-tier hospitality.",
+    "id": "15e7b64b-2756-4f7c-aa36-e002d09a6bf1",
+    "name": "Aiden Morgan",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Morgan mentors junior deck crew, promoting professional development and adherence to best practices in Colombia's maritime industry.",
     "languages": [
       {
         "code": "en",
@@ -1042,11 +184,11 @@ export const cartagenaTeamMembers: CrewMember[] = [
     "region": "Colombia"
   },
   {
-    "id": "68d64e7d-9e18-4f29-bb79-e92de6012f1c",
-    "name": "Henry Morgan",
-    "role": "Accommodation Manager",
-    "department": "Hospitality Department",
-    "bio": "Henry Morgan oversees accommodation services, ensuring comfort and efficiency with 6 years in maritime hospitality.",
+    "id": "8a5dd73a-b730-4927-92b2-d38b995b50a2",
+    "name": "Joe Dixon",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 21 years in marine engineering, Joe Dixon ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
     "languages": [
       {
         "code": "en",
@@ -1057,18 +199,194 @@ export const cartagenaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "b265309b-4b83-4940-b378-81ee5875247e",
-    "name": "Alexander Baker",
-    "role": "Housekeeping Supervisor",
-    "department": "Hospitality Department",
-    "bio": "Alexander Baker ensures smooth operations and staff training, supported by 11 years in hospitality management.",
+    "id": "6833c5cf-ce4d-4025-8b79-9ac109f29406",
+    "name": "Joan Montgomery",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Joan Montgomery supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "73590e5e-3dc3-4b88-ada8-0577e0e8679d",
+    "name": "Johnny Fisher",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With 22 years of experience, Johnny Fisher is responsible for specific auxiliary engines, boilers, and associated systems, ensuring their reliability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "27f63dd3-5c86-46cb-a800-195714f95045",
+    "name": "Helen Dean",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Dean conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "da9dbd03-62aa-4a1a-ba64-26dc76ddb0ec",
+    "name": "Samantha Cooper",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Samantha Cooper's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 13 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "9ffbc359-e127-43a0-a2cc-b7708152fd6a",
+    "name": "Eric Dean",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Eric Dean designs, installs, and maintains heating, ventilation, and air conditioning systems with 9 years of maritime specialization.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "65dd3e0d-167a-4caf-b7a5-5955a672ee6c",
+    "name": "Alice Maxwell",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Maxwell manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 17 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "70522416-1b5e-42b3-bb1d-3b734716b0a3",
+    "name": "Jonathan Murray",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Murray collaborates across departments to implement new technologies aligned with industry standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "90760659-3ba2-4c08-a7e0-b91af48fc6e4",
+    "name": "Mia Henderson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Known for strong leadership, Mia Henderson fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "1cd6247b-f807-4cfb-9377-33f037207fb1",
+    "name": "Eleanor Reed",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on reliability-centered maintenance, Eleanor Reed optimizes maintenance practices in accordance with industry best practices.",
     "languages": [
       {
         "code": "en",
@@ -1080,83 +398,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "8fa0349a-d9eb-4d22-b63a-3da3bc90b57f",
-    "name": "Luis Jennings",
-    "role": "Guest Services Specialist",
-    "department": "Hospitality Department",
-    "bio": "With 20 years providing frontline support, Luis Jennings is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 20,
-    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "094d8e8c-f821-4830-80c0-07d38849c37e",
-    "name": "Alexander Harper",
-    "role": "Concierge",
-    "department": "Hospitality Department",
-    "bio": "With an extensive network and 7 years of experience, Concierge Harper arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 7,
-    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "fe5ef761-63e2-402c-975e-3f88595cc39e",
-    "name": "Elizabeth Lawson",
-    "role": "Front Desk Manager",
-    "department": "Hospitality Department",
-    "bio": "Elizabeth Lawson is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 14 years in the field.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "d1a9db52-1300-4702-a28a-c4e129c1e930",
-    "name": "Kinsley Hunter",
-    "role": "VIP Coordinator",
-    "department": "Hospitality Department",
-    "bio": "VIP Coordinator Hunter liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
+    "id": "7f58cf53-de58-4c28-9a0a-dc0a0ec9ae85",
+    "name": "Joan Mason",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Former investigations Joan Mason leads our security team with 11 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
     "languages": [
       {
         "code": "en",
@@ -1168,39 +420,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "514eb152-da60-49bc-bb4c-86dfc6ec373c",
-    "name": "Kinsley Morgan",
-    "role": "Hospitality Trainer",
-    "department": "Hospitality Department",
-    "bio": "Hospitality Trainer Morgan focuses on enhancing guest service quality through targeted education and coaching.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "42b11b7c-8560-4ad7-b512-8bae9bef8f32",
-    "name": "Johnny Porter",
-    "role": "Executive Chef",
-    "department": "Culinary Department",
-    "bio": "With 5 years in fine dining, Chef Porter specializes in French flavors using locally sourced ingredients.",
+    "id": "8e103240-d975-4999-ac97-e141ddfa40f6",
+    "name": "Christopher Griffin",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Christopher Griffin conducts routine security patrols and enforces safety regulations, backed by 5 years in maritime security operations and incident response.",
     "languages": [
       {
         "code": "en",
@@ -1218,209 +448,11 @@ export const cartagenaTeamMembers: CrewMember[] = [
     "region": "Colombia"
   },
   {
-    "id": "761af2fa-b1ae-4d64-a205-77e906f22788",
-    "name": "Antonio Fox",
-    "role": "Sous Chef",
-    "department": "Culinary Department",
-    "bio": "Antonio Fox trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 19 years of mentorship.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "12e2530f-5822-4a25-92d9-a3d97e38407c",
-    "name": "Angela Fox",
-    "role": "Pastry Chef",
-    "department": "Culinary Department",
-    "bio": "With a passion for sweet masterpieces, Pastry Chef Fox continually develops new recipes, delighting guests with 12 years of dedication to the art of patisserie.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "646a8863-7b63-4f0b-b68b-949d937fe759",
-    "name": "Victor Chambers",
-    "role": "Chef de Partie",
-    "department": "Culinary Department",
-    "bio": "Victor Chambers ensures consistency and quality in dish preparation across assigned kitchen areas.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "6ab42855-48b5-4578-928b-110d71822aa3",
-    "name": "Mary Hudson",
-    "role": "Specialty Chef",
-    "department": "Culinary Department",
-    "bio": "Specialty Chef Hudson brings innovation and authenticity to the onboard dining experience.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "e524c0cf-db15-4a7d-aa58-b64ce3199842",
-    "name": "Kennedy Jennings",
-    "role": "Sushi Chef",
-    "department": "Culinary Department",
-    "bio": "Sushi Chef Jennings manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 15 years of Japanese culinary excellence.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 15,
-    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "bf41ce84-08e3-479c-be5b-d9a56922ce94",
-    "name": "Savannah Crawford",
-    "role": "Garde Manger",
-    "department": "Culinary Department",
-    "bio": "With 11 years specializing in charcuterie, salads, and elaborate cold platters, Chef Crawford brings artistry and precision to the Garde Manger station.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "d64a1194-3acd-4b36-85c4-d722acbe4804",
-    "name": "Audrey Watson",
-    "role": "Butcher",
-    "department": "Culinary Department",
-    "bio": "Audrey Watson is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "91768c69-857c-4a72-a7aa-bda2b4c9afa6",
-    "name": "Carlos Gardner",
-    "role": "Baker",
-    "department": "Culinary Department",
-    "bio": "With 21 years dedicated to the art of baking, Carlos Gardner fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 21,
-    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "da03fd63-7d71-4708-a3cf-082918b20542",
-    "name": "Anna Clark",
-    "role": "Sommelier",
-    "department": "Culinary Department",
-    "bio": "Sommelier Clark curates wine selections, offering expert pairing advice with 12 years in fine wine service.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "2d0d387c-5ad0-4390-a1dc-7f1a3d91a31b",
-    "name": "Kyle Graham",
-    "role": "Mixologist",
-    "department": "Culinary Department",
-    "bio": "Mixologist Graham delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 6 years.",
+    "id": "90e4fdce-6ad0-4836-8251-e708ea270158",
+    "name": "Antonio Dixon",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "With extensive training in security technologies, Antonio Dixon leads specialized investigations and security audits to strengthen vessel defenses.",
     "languages": [
       {
         "code": "en",
@@ -1432,281 +464,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "4e6a6eb2-d165-4bd5-98ed-62ba0885d09a",
-    "name": "Ethan Harper",
-    "role": "Barista",
-    "department": "Culinary Department",
-    "bio": "Ethan Harper combines artistry and technique to serve quality espresso and coffee beverages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 8,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "2fcec170-717f-4800-a274-2473829d3f8b",
-    "name": "Laura Collins",
-    "role": "Nutritionist",
-    "department": "Culinary Department",
-    "bio": "With 6 years in clinical and culinary nutrition, Laura Collins provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 6,
-    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "f1e62b2b-a06d-4d65-aede-b9d0a8629503",
-    "name": "Thomas Marshall",
-    "role": "Entertainment Director",
-    "department": "Entertainment Department",
-    "bio": "Entertainment Director Marshall curates diverse programming to engage and delight guests throughout voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "1238ba85-a8db-4c3e-b499-365f3a765248",
-    "name": "Joseph Russell",
-    "role": "Performance Coordinator",
-    "department": "Entertainment Department",
-    "bio": "With 4 years in arts administration, Joseph Russell expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "eecfe3c9-46bb-4dcf-b396-c1e6c64d2e6c",
-    "name": "Joshua Fletcher",
-    "role": "Lead Vocalist",
-    "department": "Entertainment Department",
-    "bio": "Lead Vocalist Fletcher captivates audiences with dynamic performances, backed by 5 years of professional singing.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 5,
-    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "95540775-4b06-4460-8b6e-c103228ed0d4",
-    "name": "Zola Palmer",
-    "role": "Musician",
-    "department": "Entertainment Department",
-    "bio": "With 22 years entertaining audiences worldwide, Zola Palmer creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 22,
-    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "bc42d79e-1e54-468b-a985-40cd9b1d0a50",
-    "name": "George Carpenter",
-    "role": "Dancer",
-    "department": "Entertainment Department",
-    "bio": "Dancer Carpenter brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 16 years.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/50.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "2d020967-ba35-4600-b200-b3d2233188e2",
-    "name": "Oliver Porter",
-    "role": "Choreographer",
-    "department": "Entertainment Department",
-    "bio": "Oliver Porter leads rehearsals and performance design to enhance the entertainment experience onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "4b8a2ac5-4ce6-43b5-8a37-ef1905aaebaa",
-    "name": "Patricia Dean",
-    "role": "Comedy Performer",
-    "department": "Entertainment Department",
-    "bio": "Comedy Performer Dean masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "ce766ed7-c7b5-4cb3-a99a-14b710102d45",
-    "name": "Julie Fletcher",
-    "role": "Magic Act",
-    "department": "Entertainment Department",
-    "bio": "Magic Act specialist Fletcher mystifies audiences with skilled illusions and interactive performances.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 16,
-    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "6b32afef-35ad-460a-9f9d-c2187944fee7",
-    "name": "Brooklyn Hamilton",
-    "role": "DJ",
-    "department": "Entertainment Department",
-    "bio": "With an extensive music library and 3 years of reading crowds, DJ Hamilton seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "deafb1e5-ff2c-4c3d-a90b-689eed7d1465",
-    "name": "Julie Graham",
-    "role": "Audio Technician",
-    "department": "Entertainment Department",
-    "bio": "Julie Graham's keen ear and technical proficiency, developed over 12 years, are essential for delivering immersive and high-quality auditory experiences.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 12,
-    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "810dce26-e8ac-4beb-9c18-fee0dfb3813a",
-    "name": "Vincent Reed",
-    "role": "Lighting Specialist",
-    "department": "Entertainment Department",
-    "bio": "Vincent Reed's artistic vision and technical mastery over 17 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "id": "14a07753-d360-46bd-9fe9-a04da80921ac",
+    "name": "Maya Douglas",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Douglas implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
     "languages": [
       {
         "code": "en",
@@ -1718,39 +486,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 17,
-    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "6707390e-0b88-4b18-bef9-74f1f7669017",
-    "name": "Keith Keller",
-    "role": "Stage Manager",
-    "department": "Entertainment Department",
-    "bio": "Keith Keller supervises stage operations and talent, drawing on 3 years of event management.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 3,
-    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "2bc557b1-f329-4122-aac1-5c349f974999",
-    "name": "Stella Russell",
-    "role": "Production Manager",
-    "department": "Entertainment Department",
-    "bio": "Stella Russell's strategic planning and problem-solving skills, developed over 10 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "id": "9cfa4b98-8211-4e5b-bdd3-8d2a8beeb94f",
+    "name": "Larry Hudson",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Larry Hudson coordinates security protocols and emergency responses, drawing on 10 years in maritime operations and multi-agency collaboration.",
     "languages": [
       {
         "code": "en",
@@ -1762,17 +508,39 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "e325d581-05be-4d1b-9af7-ad35f851040c",
-    "name": "Noah Watson",
-    "role": "Costume Designer",
-    "department": "Entertainment Department",
-    "bio": "Costume Designer Watson manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "id": "8c7660af-d863-4a53-9b02-5a4842e26895",
+    "name": "Joe Montgomery",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Joe Montgomery ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/18.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "13fe8fb7-37c8-4cc6-a6b3-80b2fc397c8e",
+    "name": "Jane West",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Jane West works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
     "languages": [
       {
         "code": "en",
@@ -1784,17 +552,171 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 13,
-    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "4f80c5d3-6dfe-40f2-988f-89d659b1b3a3",
-    "name": "Ellie Fletcher",
-    "role": "Cultural Program Director",
-    "department": "Entertainment Department",
-    "bio": "Cultural Program Director Fletcher curates culturally enriching events and experiences for guests.",
+    "id": "a8b7b0c9-5167-49db-9d89-53272283c432",
+    "name": "Emily Gibson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Gibson ensures all youth activities are not only fun but also adhere to the highest safety and child protection standards, drawing on 11 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "c48d1248-b4b7-41e6-b540-31e5a731bca5",
+    "name": "Sandra Hawkins",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Hawkins gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "443f453d-aa49-4670-bd15-f6cda8afe4aa",
+    "name": "Russell Olivia",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Russell Olivia is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 21 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "9d02a494-3d6c-4e67-bf13-7c1b57816072",
+    "name": "Roy Jennings",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Jennings is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 13 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "ab7240f0-6a91-4307-b622-9428b5ef8fa6",
+    "name": "Alexander Day",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Alexander Day ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "9c2aa93d-52f3-4f03-a9da-1bde8de804e1",
+    "name": "Gregory Parker",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Parker is certified in pediatric first aid and CPR, bringing 11 years of trusted care to families onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "a7ad172d-8e2a-43ab-a27f-f26d28e3b043",
+    "name": "Caroline Crawford",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Caroline Crawford manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "0c6bc4de-5828-4fac-a3ca-a0e3271e149d",
+    "name": "Luis Dunn",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Dunn possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 10 years.",
     "languages": [
       {
         "code": "en",
@@ -1806,17 +728,17 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 10,
-    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "109cbd3c-623b-461e-a41e-bbc42a44a7a0",
-    "name": "Terry Foster",
-    "role": "Performance Artist",
-    "department": "Entertainment Department",
-    "bio": "Performance Artist Foster delivers unique and innovative acts, blending multiple disciplines with 4 years of artistic practice.",
+    "id": "d830d05b-df14-4bf9-8625-3201bc9867aa",
+    "name": "Amy Warren",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 3 years of expertise, Amy Warren offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
     "languages": [
       {
         "code": "en",
@@ -1827,106 +749,18 @@ export const cartagenaTeamMembers: CrewMember[] = [
         "name": "Spanish"
       }
     ],
-    "experienceYears": 4,
-    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
   },
   {
-    "id": "12f4cee6-16cc-4fa2-9812-652e2f9bafcc",
-    "name": "Emma Morgan",
-    "role": "Operations Manager",
-    "department": "Operations Department",
-    "bio": "Operations Manager Morgan applies 11 years of leadership in maritime operations.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "8e737602-2478-4ac6-a341-cfc59323acba",
-    "name": "Ronald Douglas",
-    "role": "Logistics Coordinator",
-    "department": "Operations Department",
-    "bio": "With 11 years coordinating complex supply chains, Ronald Douglas ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 11,
-    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "3142c35d-b55f-4d2c-bba1-c7eb6e78cffc",
-    "name": "Zoe Parker",
-    "role": "Inventory Specialist",
-    "department": "Operations Department",
-    "bio": "Zoe Parker ensures accurate inventory control using advanced management systems.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 9,
-    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "90ad43c5-97b4-4232-8481-7bbf48033cfb",
-    "name": "Larry Olivia",
-    "role": "Procurement Officer",
-    "department": "Operations Department",
-    "bio": "Procurement Officer Olivia sources and negotiates contracts for goods and services needed onboard.",
-    "languages": [
-      {
-        "code": "en",
-        "name": "English"
-      },
-      {
-        "code": "es",
-        "name": "Spanish"
-      }
-    ],
-    "experienceYears": 19,
-    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
-    "city": "Cartagena",
-    "country": "Colombia",
-    "region": "Colombia"
-  },
-  {
-    "id": "c1ba9b87-e86b-40f0-9aad-e6ed5ea462ab",
-    "name": "Joshua Clark",
-    "role": "Sustainability Coordinator",
-    "department": "Operations Department",
-    "bio": "With 14 years dedicated to environmental stewardship in the maritime sector, Joshua Clark develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "id": "2f6a2ea5-867c-4b6d-a620-402a4f61f9a7",
+    "name": "Harold Day",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent problem-solving, Harold Day adapts plans efficiently to address unexpected challenges or changing conditions.",
     "languages": [
       {
         "code": "en",
@@ -1938,7 +772,1173 @@ export const cartagenaTeamMembers: CrewMember[] = [
       }
     ],
     "experienceYears": 14,
-    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "5eeff503-0a35-4a9e-8aac-c87bdab8074e",
+    "name": "Jennifer Parker",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Jennifer Parker leads the photo team with 7 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "c0ff9b78-f799-4ce4-9388-ee6b0a54a0e7",
+    "name": "Hannah West",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer West is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "1aac259b-065e-48f3-9aab-ce06030195cb",
+    "name": "Lisa Dixon",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Dixon ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "b88b17a0-fa45-402a-b186-a7e317b992b3",
+    "name": "Walter Crawford",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "With extensive knowledge in maritime medicine and emergency response, Walter Crawford ensures readiness for diverse medical situations at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "6b29ad69-87b6-4882-8f2b-c6a004113045",
+    "name": "Harper Sutton",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Sutton ensures passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "c141de48-fe31-441a-baba-3b80434aa8fe",
+    "name": "Kyle Fletcher",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 19 years of experience, Kyle Fletcher is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "84f5931d-d469-4c54-91f4-4ec44bf2534f",
+    "name": "Randy Graves",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 10 years overseeing maritime safety, Randy Graves ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Colombia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "2ed833bc-ab4e-435f-ab88-bf742b2a4b8c",
+    "name": "Christine Reeves",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Christine Reeves is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 17 years of cultivating outstanding hospitality teams.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "7a6ea9df-9d29-4337-862e-192bdfb04da5",
+    "name": "Matthew Porter",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Porter enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "740867aa-51f8-419a-97de-b49f5a301708",
+    "name": "Jeffrey Stewart",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Stewart supervises housekeeping and guest services with 12 years of maritime hospitality experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "b2c2d350-83b7-4aaa-bd70-63b9101d7f48",
+    "name": "Avery Parker",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Avery Parker is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "6cf1b208-9a25-49d0-80c9-47af877fe1bf",
+    "name": "Frank Hudson",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Frank Hudson anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "7919fbd1-d54a-4fac-b340-9db13521f06e",
+    "name": "Gabriel Collins",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Collins plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 15 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "b957677d-b309-4f4c-adb8-fa39e6a5f1d5",
+    "name": "Bobby Stewart",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Bobby Stewart ensures smooth operations and staff training, supported by 7 years in hospitality management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "3dee866e-3ffd-4a3a-a973-4503d317596c",
+    "name": "Gregory Jennings",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "With 17 years providing frontline support, Gregory Jennings is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "ac1b5a5f-7452-43a6-82fe-c624796e6582",
+    "name": "Amanda Coleman",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Amanda Coleman acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "4efe246f-85d8-41de-8444-dcaba316ce24",
+    "name": "Isabella Ellis",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Isabella Ellis leads front office teams with a focus on excellent customer service and operational efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "7275dfb5-a57a-4822-81ec-9d5887582094",
+    "name": "Savannah Knight",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Savannah Knight designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "18bd2e75-9e50-4e42-af32-a017a1c83a92",
+    "name": "Gabriel Gardner",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Gardner specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 15 years of industry best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "aaab048a-0bb6-47d5-96cb-819b250c8ae7",
+    "name": "Aiden Ellis",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Ellis creates exceptional Asian fusion cuisine with 8 years of culinary expertise from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "fe267554-4366-4432-82ae-efda38fd9ad3",
+    "name": "Adam Wells",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Adam Wells trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 16 years of mentorship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "aa5e91ad-b6e4-4bff-820b-54c24bf8b660",
+    "name": "Valentina Keller",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Valentina Keller blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "4ec5ab2b-535b-49d9-abef-48995b0b9fc9",
+    "name": "Larry Dixon",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Larry Dixon maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 12 years of discipline.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "73bf201d-d537-4e08-bd76-a5e756d66bfc",
+    "name": "Johnny Palmer",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Palmer curates exclusive menus for themed dining venues, showcasing 20 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "4ef0bceb-7faf-48f5-a9c1-d4f4bc728aeb",
+    "name": "Jerry Dean",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Dean manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 22 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "1717e41f-9a53-4103-be7d-104cf8d92692",
+    "name": "Patrick Montgomery",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Montgomery expertly prepares cold dishes and appetizers with 16 years of culinary proficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "8f501092-fadd-4c1b-b20b-9cb73d907083",
+    "name": "Avery Carpenter",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 11 years of expertise, Butcher Carpenter expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Latin American dishes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "fd4b0235-dedb-4b90-a084-d92199281a15",
+    "name": "Jeremy Hudson",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "With 22 years dedicated to the art of baking, Jeremy Hudson fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "43cac173-5aa8-448e-99fe-94bb057ec029",
+    "name": "Allison Campbell",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Allison Campbell provides engaging wine education and tasting experiences for guests, sharing insights from 20 years exploring global viticulture.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "770432af-5412-4c8e-82bc-126eed0de832",
+    "name": "Alexander Fox",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Fox crafts creative cocktails, combining flavor expertise with 15 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "2cc7c512-dcc7-455d-be87-eea1b1110a27",
+    "name": "Diego Collins",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Diego Collins provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 19 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "868a0746-6820-4a17-b181-633c2d04c998",
+    "name": "Madelyn Olivia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Madelyn Olivia collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "d5a754cf-0499-4f65-b929-a0ca0e18a73e",
+    "name": "Michelle Fletcher",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 21 years orchestrating spectacular onboard entertainment, Michelle Fletcher manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "106d8f98-7b11-4bf8-a65c-ce4b8164cc74",
+    "name": "Ralph Clark",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Clark serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "9ba7688e-33af-43ee-a0a2-50562521179e",
+    "name": "Benjamin Maxwell",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Benjamin Maxwell consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 16 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "09de27d0-78a8-42a6-9898-a8a468a633ef",
+    "name": "Eleanor Porter",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Eleanor Porter brings 15 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "e9c44a49-ad84-4eee-8791-417210d84b45",
+    "name": "Carol Hayes",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 10 years of professional training in {danceStyle} and contemporary dance, Carol Hayes executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "4b8e483a-b1a0-4829-a3c5-4600dbc94e77",
+    "name": "Amelia Sutton",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Amelia Sutton leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "89dc8701-45c8-46a9-9c2b-f4d40ab5bb1c",
+    "name": "Alexander Lawson",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Lawson masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "60efc911-0f71-452b-8042-cb72db6948c3",
+    "name": "Robert Henderson",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Robert Henderson brings a unique brand of enchantment to the ship's entertainment, drawing on 15 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "caf6972a-054c-45c0-a47c-4f823a389cf2",
+    "name": "Andrew Stewart",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Andrew Stewart keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "ced6d867-6647-42f8-a49c-146628f05f92",
+    "name": "Pamela Clark",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Pamela Clark's keen ear and technical proficiency, developed over 18 years, are essential for delivering immersive and high-quality auditory experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "0bec48a4-2eb4-4649-bf99-a970d603221e",
+    "name": "Tyler Payne",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 18 years in theatrical lighting design and operation, Tyler Payne transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "53deb718-1656-4b42-ac4c-9ddc737098a1",
+    "name": "Lily Fox",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Lily Fox's calm under pressure and attention to detail, honed over 9 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "212b417b-9512-450b-97ea-58dc1d72bdab",
+    "name": "Sebastian Henderson",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Henderson oversees logistics and technical coordination for large-scale entertainment productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "bca8f6e5-968e-4166-91e6-a3b14fc06719",
+    "name": "Douglas Porter",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 22 years of experience in theatrical costume design, Douglas Porter conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "ec483e67-c8a3-4652-bf9a-874b34988942",
+    "name": "Ralph Chambers",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Chambers collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "8192485e-5b93-46c5-b525-daac19e8355b",
+    "name": "Kennedy Bennett",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Bennett combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "6f6555e1-fd11-44f4-9140-0ef77df606b3",
+    "name": "Christopher Price",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Price is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "10a5b87c-9c4a-42fa-9518-4665a2c402aa",
+    "name": "Wayne Keller",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Wayne Keller leverages 6 years in logistics to optimize onboard operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "214fca79-2b79-41aa-8059-81f49d86498b",
+    "name": "Gabriel Parker",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Parker tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "fc85e9fc-c1b6-4585-93bd-174b1de3e7f6",
+    "name": "Vincent West",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 18 years in strategic sourcing, Vincent West identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Cartagena",
+    "country": "Colombia",
+    "region": "Colombia"
+  },
+  {
+    "id": "4b146896-3f3f-4349-8eaa-32d91f36feb7",
+    "name": "Austin Marshall",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Austin Marshall champions innovative eco-friendly technologies and practices, leveraging 15 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
     "city": "Cartagena",
     "country": "Colombia",
     "region": "Colombia"
