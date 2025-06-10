@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Auckland
+    // Generated on: 2025-06-10T03:41:38.284Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const aucklandTeamMembers: CrewMember[] = [
   {
-    name: "Roy Russell",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Roy Russell leads vessel operations with a deep understanding of Asia Pacific's maritime environment, backed by 10 years of commanding large crews and complex vessels.",
-    languages: ["Malay", "Chinese", "Hindi", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sofia Marshall",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Sofia Marshall specializes in Asia Pacific navigation with 20 years of experience managing bridge operations and ensuring adherence to safety standards.",
-    languages: ["Hindi", "Chinese", "Urdu", "Indonesian", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Maria Russell",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "With a strong focus on electronic navigation and safety equipment, Maria Russell brings 21 years of experience navigating Asia Pacific's challenging routes.",
-    languages: ["Thai", "Chinese", "Indonesian", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Maria Collins",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Third Officer Collins assists with cargo operations and ballast management, a key part of their 12 years of development in Asia Pacific.",
-    languages: ["Tagalog", "Hindi", "Thai", "Bengali", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Willie Graham",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Experienced in electronic chart systems (ECDIS) and radar, Willie Graham has 4 years navigating the complex and often congested waters of Asia Pacific.",
-    languages: ["Bengali", "Hindi", "Urdu", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brooklyn Hunter",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "With a thorough understanding of hazard identification and mitigation, Brooklyn Hunter fosters a culture of safety awareness among crew and passengers.",
-    languages: ["Chinese", "Malay", "Thai", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nathan Wallace",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Nathan Wallace supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Asia Pacific's maritime environment.",
-    languages: ["Chinese", "Japanese", "Urdu", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kimberly Montgomery",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Kimberly Montgomery's leadership ensures the deck department operates efficiently and safely, drawing from 8 years of hands-on experience in Asia Pacific.",
-    languages: ["Thai", "Indonesian", "Japanese", "Hindi", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stephen Fletcher",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Fletcher manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    languages: ["Vietnamese", "Japanese", "Urdu", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aaron Spencer",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Aaron Spencer applies 6 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["Indonesian", "Vietnamese", "Bengali", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ethan Campbell",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Ethan Campbell's 14 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    languages: ["Thai", "Vietnamese", "Tagalog", "Korean", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Rebecca Knight",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Electrical Engineer Knight conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    languages: ["Urdu", "Tagalog", "Indonesian", "Vietnamese", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brenda Knight",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "With 8 years dedicated to marine mechanics, Brenda Knight excels in the overhaul and alignment of engines and rotating machinery.",
-    languages: ["Thai", "Hindi", "Indonesian", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Margaret Jennings",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Margaret Jennings monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    languages: ["Bengali", "Japanese", "Malay", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Betty Cooper",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Betty Cooper champions innovative solutions for waste reduction and energy efficiency, reflecting 18 years of commitment to maritime sustainability.",
-    languages: ["Japanese", "Thai", "Hindi", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Albert Hall",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Albert Hall manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    languages: ["Thai", "Korean", "Malay", "Vietnamese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Allison Warren",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "With 6 years leading technical teams, Allison Warren ensures vessel systems meet all regulatory, safety, and performance standards.",
-    languages: ["Hindi", "Vietnamese", "Malay", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mark Mitchell",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Mark Mitchell meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 15 years of service.",
-    languages: ["Korean", "Malay", "Hindi", "Tagalog", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Maria Marshall",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Maria Marshall, with 19 years in the field, is an expert in ISPS Code implementation and maritime counter-terrorism strategies.",
-    languages: ["Japanese", "Tagalog", "Chinese", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aiden Collins",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Security Officer Collins performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
-    languages: ["Urdu", "Bengali", "Japanese", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nicholas Mason",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Nicholas Mason provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
-    languages: ["Chinese", "Malay", "Urdu", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ariana Hall",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Cybersecurity Officer Hall protects vessel networks and data with 7 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    languages: ["Thai", "Indonesian", "Malay", "Urdu", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nathan Day",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Maritime Security Coordinator Day facilitates seamless security operations between ship and shore, a skill honed over 10 years of dedicated service.",
-    languages: ["Hindi", "Bengali", "Vietnamese", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Hannah Wallace",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "With expertise in surveillance and monitoring, Hannah Wallace detects and prevents unauthorized access to restricted vessel areas.",
-    languages: ["Thai", "Malay", "Hindi", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Mitchell",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Sophia Mitchell works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    languages: ["Bengali", "Thai", "Chinese", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jonathan Chambers",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Jonathan Chambers designs and leads engaging youth programs, applying 12 years in educational, recreational, and developmental management onboard.",
-    languages: ["Urdu", "Indonesian", "Korean", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nancy Bennett",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Nancy Bennett organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 16 years of expertise.",
-    languages: ["Tagalog", "Thai", "Chinese", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Logan Marshall",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "With strong interpersonal skills, Logan Marshall ensures a safe and welcoming environment for all child participants.",
-    languages: ["Bengali", "Hindi", "Japanese", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nathan Gardner",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Focused on safety and inclusivity, Nathan Gardner maintains open communication with parents and guardians regarding teen program activities.",
-    languages: ["Urdu", "Chinese", "Japanese", "Thai", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jason Holloway",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Focused on accessibility, Jason Holloway ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
-    languages: ["Tagalog", "Korean", "Vietnamese", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mary Maxwell",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "With expertise in child health and safety protocols, Mary Maxwell manages routines and responds to individual needs of children under care.",
-    languages: ["Japanese", "Thai", "Malay", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brandon Keller",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Brandon Keller plans and coordinates all recreational activities, utilizing 6 years of event management expertise to create engaging, inclusive programs.",
-    languages: ["Japanese", "Hindi", "Chinese", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Alan Bennett",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Water Sports Instructor Bennett stays current with industry certifications and safety standards to uphold best practices onboard.",
-    languages: ["Malay", "Chinese", "Hindi", "Korean", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Linda Wells",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Fitness Instructor Wells integrates modern fitness trends and equipment to provide dynamic and effective workout options.",
-    languages: ["Bengali", "Urdu", "Japanese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Virginia Payne",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Virginia Payne's meticulous planning and attention to detail, developed over 20 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
-    languages: ["Vietnamese", "Bengali", "Chinese", "Malay", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jesse Curtis",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Lead Photographer Curtis captures stunning imagery of ship life, landscapes, and destinations, backed by 15 years of professional photography expertise.",
-    languages: ["Malay", "Hindi", "Vietnamese", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Amy Hudson",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Leveraging 19 years in filmmaking, Amy Hudson produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
-    languages: ["Tagalog", "Chinese", "Malay", "Indonesian", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Diego Knight",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Known for technical proficiency and creative vision, Diego Knight collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    languages: ["Malay", "Tagalog", "Thai", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Dorothy Parker",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "With extensive knowledge in maritime medicine and emergency response, Dorothy Parker ensures readiness for diverse medical situations at sea.",
-    languages: ["Tagalog", "Vietnamese", "Thai", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joe Maxwell",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "With 17 years practicing medicine in diverse environments, Dr. Maxwell is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    languages: ["Hindi", "Malay", "Urdu", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Edward Dixon",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Edward Dixon delivers compassionate nursing care onboard, backed by 16 years of clinical practice in maritime and travel healthcare settings.",
-    languages: ["Chinese", "Bengali", "Thai", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Thandiwe Morgan",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Safety Officer Morgan works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    languages: ["Chinese", "Japanese", "Bengali", "Thai", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stephen Fletcher",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Overseeing a diverse team, Hospitality Director Fletcher implements innovative service strategies and maintains the highest quality standards, reflecting 17 years in the industry.",
-    languages: ["Japanese", "Korean", "Hindi", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jeremy Reeves",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "With a passion for service excellence developed over 11 years, Jeremy Reeves leads the guest relations team to anticipate and exceed passenger expectations.",
-    languages: ["Korean", "Urdu", "Indonesian", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elizabeth Fox",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Elizabeth Fox excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 4 years of dedication.",
-    languages: ["Tagalog", "Malay", "Indonesian", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jerry Dean",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Senior Steward Dean delivers attentive guest services and supports stewardship operations, drawing on 18 years onboard.",
-    languages: ["Malay", "Vietnamese", "Urdu", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Richard Porter",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "With discreet professionalism honed over 8 years, Butler Porter offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
-    languages: ["Urdu", "Malay", "Bengali", "Thai", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "George Reed",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "George Reed expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 12 years of experience.",
-    languages: ["Thai", "Bengali", "Korean", "Chinese", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Cynthia Curtis",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Housekeeping Supervisor Curtis leads cleaning teams, maintaining impeccable standards across all guest areas.",
-    languages: ["Korean", "Bengali", "Malay", "Thai", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jason Curtis",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Jason Curtis assists guests with inquiries and special requests, drawing on 3 years in customer service roles.",
-    languages: ["Hindi", "Vietnamese", "Tagalog", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Charlotte Cooper",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Concierge Cooper's dedication over 3 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
-    languages: ["Vietnamese", "Malay", "Japanese", "Urdu", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Barbara Hayes",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Hayes oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    languages: ["Urdu", "Thai", "Chinese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Patricia Mason",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "Patricia Mason designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    languages: ["Japanese", "Bengali", "Urdu", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Liam Graham",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Graham specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 5 years of industry best practices.",
-    languages: ["Hindi", "Tagalog", "Urdu", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Katherine Hudson",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Mastering Japanese and international gastronomy, Katherine Hudson ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 19 years of award-winning experience.",
-    languages: ["Indonesian", "Urdu", "Bengali", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stephen Hall",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Sous Chef Hall supports kitchen operations with 21 years of culinary expertise and leadership.",
-    languages: ["Indonesian", "Malay", "Vietnamese", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sofia Coleman",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Sofia Coleman blends creativity and technique to deliver memorable pastry experiences for guests.",
-    languages: ["Thai", "Urdu", "Tagalog", "Vietnamese", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Allison Payne",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "With 17 years as a section chef, Allison Payne is responsible for stock control and guiding commis chefs within their designated area of the Pan-Asian kitchen.",
-    languages: ["Bengali", "Tagalog", "Thai", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Amanda Porter",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "With 6 years perfecting {cuisineSpecific} artistry, Amanda Porter ensures each plate is a true representation of its cultural heritage and bold flavors.",
-    languages: ["Hindi", "Vietnamese", "Malay", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aiden Ellis",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Aiden Ellis combines precision and creativity to deliver an authentic sushi experience at sea.",
-    languages: ["Indonesian", "Hindi", "Japanese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Avery Keller",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "With 19 years specializing in charcuterie, salads, and elaborate cold platters, Chef Keller brings artistry and precision to the Garde Manger station.",
-    languages: ["Urdu", "Indonesian", "Vietnamese", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Samuel Morgan",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "With 11 years of expertise, Butcher Morgan expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Caribbean dishes.",
-    languages: ["Thai", "Hindi", "Korean", "Tagalog", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Samuel Carpenter",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Samuel Carpenter combines traditional techniques with innovation to delight guests with baked specialties.",
-    languages: ["Japanese", "Chinese", "Korean", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elizabeth Wells",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Certified Sommelier Wells navigates an extensive cellar to find the perfect wine for every palate and Japanese, drawing on 9 years of oenological expertise.",
-    languages: ["Bengali", "Indonesian", "Tagalog", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Adeline Wallace",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "With 18 years behind the bar, Adeline Wallace designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    languages: ["Thai", "Tagalog", "Malay", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Olivia Graves",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Olivia Graves provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 10 years.",
-    languages: ["Japanese", "Malay", "Indonesian", "Hindi", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aiden Ellis",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Aiden Ellis collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    languages: ["Urdu", "Vietnamese", "Malay", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Hall",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Sophia Hall constantly seeks innovative entertainment concepts and top-tier talent, leveraging 8 years to keep the onboard experience fresh, exciting, and memorable.",
-    languages: ["Urdu", "Korean", "Chinese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Eric Ellis",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Eric Ellis's organizational skills, honed over 14 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    languages: ["Indonesian", "Vietnamese", "Malay", "Urdu", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Cooper",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "With a versatile range and powerful stage presence developed over 5 years, Lead Vocalist Cooper shines in genres from pop and rock to jazz and musical theatre.",
-    languages: ["Urdu", "Indonesian", "Hindi", "Japanese", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sofia Gardner",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "Musician Gardner adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 9 years of diverse musical experience.",
-    languages: ["Japanese", "Bengali", "Hindi", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Eric Palmer",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Dancer Palmer delivers energetic and polished routines, drawing on 19 years of dance training.",
-    languages: ["Urdu", "Indonesian", "Korean", "Bengali", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Carl Campbell",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Carl Campbell collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 22 years of experience in stage production.",
-    languages: ["Chinese", "Urdu", "Indonesian", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Abigail Day",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Abigail Day entertains guests with humor and timing, backed by 17 years in comedy performance.",
-    languages: ["Japanese", "Bengali", "Thai", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Deborah Douglas",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "With 20 years honing the art of illusion, Deborah Douglas performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    languages: ["Bengali", "Korean", "Japanese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joel Cooper",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "Joel Cooper utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 9 years of club experience.",
-    languages: ["Malay", "Thai", "Korean", "Indonesian", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Arthur Reeves",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Reeves manages sound systems and ensures optimal audio quality for performances onboard.",
-    languages: ["Malay", "Bengali", "Urdu", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Michelle Campbell",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Campbell programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    languages: ["Malay", "Hindi", "Thai", "Urdu", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Eugene Spencer",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "With 3 years in professional stage management, Eugene Spencer meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    languages: ["Hindi", "Bengali", "Malay", "Thai", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Noah Gardner",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "With 12 years managing complex theatrical and event productions, Noah Gardner oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
-    languages: ["Vietnamese", "Tagalog", "Malay", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Carlos Morgan",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Carlos Morgan combines creativity and craftsmanship with 4 years of design expertise.",
-    languages: ["Indonesian", "Malay", "Japanese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joseph Reeves",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Joseph Reeves promotes diversity and cultural awareness through engaging onboard programming.",
-    languages: ["Chinese", "Indonesian", "Thai", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Rajesh Campbell",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Performance Artist Campbell delivers unique and innovative acts, blending multiple disciplines with 19 years of artistic practice.",
-    languages: ["Tagalog", "Chinese", "Korean", "Vietnamese", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Willie Hall",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Willie Hall oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
-    languages: ["Japanese", "Bengali", "Korean", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Madelyn Fisher",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "With 6 years coordinating complex supply chains, Madelyn Fisher ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    languages: ["Vietnamese", "Korean", "Malay", "Bengali", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Chloe Reed",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "With 20 years in inventory management, Chloe Reed meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    languages: ["Vietnamese", "Urdu", "Japanese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Lucas Murray",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Procurement Officer Murray manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
-    languages: ["Chinese", "Malay", "Indonesian", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Helen Palmer",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "With 12 years dedicated to environmental stewardship in the maritime sector, Helen Palmer develops and manages programs for waste reduction, recycling, and energy conservation.",
-    languages: ["Thai", "Japanese", "Indonesian", "Hindi", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Auckland",
-    country: "New Zealand",
-    region: "Asia Pacific",
-  },
+    "id": "53c6c3b8-b178-443e-bd6f-6820d8f17ff9",
+    "name": "Kevin Olivia",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Olivia has navigated the challenging waters of New Zealand for over 6 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "14c91ff3-4d9e-4443-8b69-af801a8fdbcb",
+    "name": "Aiden Curtis",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Aiden Curtis specializes in New Zealand navigation with 12 years of experience managing bridge operations and ensuring adherence to safety standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "86431c1e-8890-48cf-8dfb-5af56ee1f7d3",
+    "name": "Jeffrey Fox",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Jeffrey Fox plays a critical role in voyage planning and watchkeeping, backed by 12 years ensuring operational integrity in New Zealand.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "54ce4530-e388-4ee0-bd17-c339e5858bf2",
+    "name": "Ronald Holloway",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 21 years dedicated to bridge operations, Ronald Holloway contributes to seamless voyages through New Zealand's waterways by monitoring safety and compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "71d90a6c-9768-46b9-aa5a-774fea9ee0e0",
+    "name": "Zachary Jennings",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Zachary Jennings's expertise in navigational risk assessment supports proactive decision-making for safe operations within New Zealand's ports and coastal areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "866ffa6a-6602-4c02-b6af-f2835d3e4838",
+    "name": "Michael Coleman",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Michael Coleman fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "bb2b1bb9-5690-49ba-90e0-66dfd9aa2d12",
+    "name": "Aiden West",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "With a strong commitment to professional growth, Aiden West actively participates in drills and training to build competence for safe vessel operation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "839a0d15-7232-45a0-9b20-c08b9c3e07db",
+    "name": "Antonio Hall",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Hall supervises deck crew operations with 17 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in New Zealand.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "1e2c479f-4a23-476c-a7a2-eaedea64df9d",
+    "name": "Jack Warren",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Warren's extensive 6-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "d105f95e-3559-45f0-9a38-1c18b6d6b246",
+    "name": "Darrell Watson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Watson is responsible for the main propulsion machinery and auxiliary systems, bringing 7 years of hands-on expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "41fae5af-985d-4638-8fdb-7e6f5394a012",
+    "name": "Helen Cooper",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Helen Cooper assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9262e55b-aa17-47d2-9bc8-2bb68831cb25",
+    "name": "Marcus Fox",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Fox specializes in fault-finding within complex circuits and automation logic, a skill honed over 15 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "6de6f55c-036f-4905-b33c-00e03af672cf",
+    "name": "Joan Gardner",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Gardner provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 20 years of insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "8b9c31ff-639a-4b9e-8403-1115cdf0d62c",
+    "name": "Matthew Spencer",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Spencer's focus includes maintaining air quality and compliance with health standards across all vessel compartments, a skill developed over 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "8ff60d00-84e6-4e64-a392-eba00cd6ae38",
+    "name": "Kinsley Gibson",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Gibson manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 22 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "62119b89-1cb1-4472-988b-2d04b5148e07",
+    "name": "Brandon Gardner",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Gardner leads technical solutions for navigation, communication, automation, and control systems with 6 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "78f19bac-5bfb-47fc-84cf-3fcac0430fb2",
+    "name": "Harold Parker",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With a strategic overview honed over 19 years, Harold Parker directs fleet-wide technical policies and ensures best practices are implemented.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "ac9fdc81-5220-481e-83de-c4e6ae518ae1",
+    "name": "Dennis Montgomery",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Dennis Montgomery ensures all vessel machinery operates smoothly and safely, backed by 21 years in preventive and corrective maintenance programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "38105f05-f221-4ca7-8e48-5e43a681e978",
+    "name": "Alexander Ellis",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Ellis has 15 years of experience liaising with international maritime security agencies and port authorities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "49f3b902-a836-48d1-84aa-68330fe435d8",
+    "name": "Hannah Coleman",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "With keen attention to risk, Hannah Coleman has 17 years experience protecting vessel personnel, property, and critical infrastructure against diverse threats.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "177754af-d4f4-4a7f-a85a-8659481accba",
+    "name": "Jessica Hall",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 12 years, Jessica Hall has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "5a18266f-b5f3-488b-9f94-3e3fdc66bdc7",
+    "name": "Layla Maxwell",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Maxwell implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "dea70a17-eb6d-4860-ab17-4299cdb8983c",
+    "name": "Thabo Wallace",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Wallace leads risk assessment initiatives and supports vessel security certification processes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "e5bdb78b-cfa4-4200-9eca-c9122ffa1baf",
+    "name": "Kennedy Sutton",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Drawing on 21 years of experience, Kennedy Sutton is proficient in operating and maintaining advanced access control systems and screening equipment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "746c211b-dc9e-4977-a218-dc9a79df3719",
+    "name": "Joshua Gardner",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Joshua Gardner oversees adherence to maritime safety regulations, leveraging 15 years ensuring compliance, risk management, and regulatory audits.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "d8072ee0-4cf7-4be0-9219-cc24b1f835f7",
+    "name": "Alexander Dean",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Committed to positive youth engagement, Alexander Dean integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "dcf9498a-e541-4fa9-a259-96938df695b1",
+    "name": "Johnny Fox",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Johnny Fox, with 6 years of experience, excels in logistics and planning, ensuring every family event runs smoothly and delights guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "e4051dfc-af21-4f74-a4b0-48c24e147ffa",
+    "name": "Thandiwe Olivia",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Olivia has a talent for making every child feel special, using 8 years of experience to tailor activities to individual personalities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "7d762b94-919b-4642-8e18-c7e08db1a87e",
+    "name": "Joseph Hudson",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Joseph Hudson uses 18 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "bde6b5a2-43d4-4c13-a26b-f72f2feeccca",
+    "name": "Sarah Curtis",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Curtis forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 11 years of networking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "1d4a9a45-4297-4bfe-a108-b6643cf372cb",
+    "name": "Madelyn Russell",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Russell promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "0446dd99-3612-432a-bb6b-52be95edf7ac",
+    "name": "Vincent Jennings",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Vincent Jennings plans and coordinates all recreational activities, utilizing 18 years of event management expertise to create engaging, inclusive programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "0b88fb93-f9a4-4f81-b782-0e4d396a438b",
+    "name": "Eric Gibson",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Gibson stays current with industry certifications and safety standards to uphold best practices onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9a5ae915-2279-4f76-b958-31ea41b27ed4",
+    "name": "Anna Baker",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 13 years of expertise, Anna Baker offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "fa9e27e5-c3f9-47c3-875f-7615098d130a",
+    "name": "Daniel Montgomery",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Montgomery plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "4692a67b-6ec6-4a82-b94c-682af08f60b3",
+    "name": "Ethan Murray",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Ethan Murray leads the photo team with 11 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "a70ded28-e267-4d2b-8339-9666d10d515c",
+    "name": "Jane Payne",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Jane Payne uses 22 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "448ca922-0a82-458f-b771-0226ac49898d",
+    "name": "Noah Dunn",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 9 years in the digital realm, Noah Dunn crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "7614ef91-48c2-41a2-aac4-7152a288b484",
+    "name": "Nicole Sutton",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Sutton leads all medical operations onboard, leveraging 9 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "3b6879fe-2678-436b-bc68-c8d7c2162ea7",
+    "name": "Dorothy Price",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Price provides comprehensive medical care with 21 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "5d58be1d-1729-4f65-be85-e2aa80dcce07",
+    "name": "Zola Hunter",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Leveraging 13 years in diverse nursing roles, Zola Hunter excels in triage, wound care, and patient advocacy within the unique maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "95378d98-3133-40bb-9bf7-ae8941f6ba11",
+    "name": "Lucas Lawson",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Lawson documents incidents and implements corrective actions to continuously improve onboard safety performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "3041b54f-e5d3-44c6-a624-1c67da3ba472",
+    "name": "Jennifer Hall",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 22 years in hospitality management, Jennifer Hall drives operational excellence and team performance onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "4e6b12ce-5fd3-49a3-aefc-8be63761e33e",
+    "name": "Michael Henderson",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Henderson is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "177d7fed-9cfd-4378-9515-b27fbfbaa098",
+    "name": "Ella Wallace",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Wallace supervises housekeeping and guest services with 10 years of maritime hospitality experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9f8659f2-9063-43ad-bdd7-c6d8708c4090",
+    "name": "Lawrence Carpenter",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Lawrence Carpenter is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "e3074778-e391-426c-9269-8aa950495ab0",
+    "name": "Walter Montgomery",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Butler Montgomery provides personalized guest services, backed by 17 years of elite hospitality expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "3caf4b87-2537-4581-9a08-cf0f257bf3bd",
+    "name": "Audrey Clark",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Audrey Clark oversees accommodation services, ensuring comfort and efficiency with 19 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "6d35a915-b3a8-4802-adf6-4c6ef7a84182",
+    "name": "Gabriel Collins",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Collins leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "fb113a85-3e47-49b5-a688-dceee4f9025f",
+    "name": "Virginia Grant",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Virginia Grant's communication skills, honed over 11 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "100f789c-2b3b-4614-b603-cc22d15e4adb",
+    "name": "Roger Hunter",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 17 years of experience, Concierge Hunter arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "dd9f7d9d-05b8-49b4-b694-dbc6b0b3edd3",
+    "name": "Dennis Hawkins",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 13 years in front office management, Dennis Hawkins ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "a154f7a8-d6a8-44c3-ab4f-caeb319e2d47",
+    "name": "Aiden Porter",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Aiden Porter's expertise over 18 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "730498ed-83be-4c34-9baa-7bf4f5de0cb9",
+    "name": "Lawrence Gibson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Lawrence Gibson develops training programs to elevate hospitality team skills, with 10 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "348162b4-d4ca-4f14-9990-90f4e37571be",
+    "name": "Lerato Parker",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Executive Chef Parker leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 10 years of innovative leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "61b52be1-6fb0-475f-b51a-abbc22a35dc7",
+    "name": "Savannah Cooper",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Savannah Cooper trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 19 years of mentorship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "41ead1c3-8f9a-4c0b-9f86-0722cf747476",
+    "name": "Cynthia Price",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Cynthia Price manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 4 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "a18d462b-c0f8-43f5-9f59-846addf678c5",
+    "name": "Thomas Fletcher",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Chef de Partie Fletcher manages specific kitchen stations with 7 years of focused culinary skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "a13588ad-a790-4e0f-9ffe-e26df94349b8",
+    "name": "Wayne Hunter",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Hunter curates exclusive menus for themed dining venues, showcasing 8 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "6f32d811-4256-4883-8d63-586739269bce",
+    "name": "Wei Keller",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Keller manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 4 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "5f539c3a-22af-4e71-97d0-25a66d6b9517",
+    "name": "Jesse Grant",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Jesse Grant is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 3 years of Pacific Rim expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "f45da64e-b8c4-46f9-bb1b-f4543e129d65",
+    "name": "Chloe Carpenter",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Carpenter ensures quality meat preparation, supported by 19 years of skilled butchery work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "64ae0248-24f6-4dcb-b509-686d5a3494a9",
+    "name": "Diego Hamilton",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Diego Hamilton combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "6c9bf0a5-c45e-4a85-ae9e-95aed059fb43",
+    "name": "James Clark",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "James Clark enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "afe2a089-8dd7-48b6-b154-7505723fb067",
+    "name": "Nicole Chambers",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Chambers crafts creative cocktails, combining flavor expertise with 17 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "82fd051b-aed9-4517-91d2-1ccb34798b44",
+    "name": "Carol Wells",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Wells prepares specialty coffees with precision, backed by 13 years in coffee service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "4ac28ca1-1673-4afc-a045-fa22460c4539",
+    "name": "Elijah Holloway",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Elijah Holloway conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 4 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "cea2aec8-83af-4a5c-b492-9ccb8c707996",
+    "name": "Edward Hayes",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Edward Hayes plans and oversees all entertainment activities, applying 5 years of event and talent management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "4ec229d0-0a57-4ffb-864f-78464904ad92",
+    "name": "Riley Henderson",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Riley Henderson's organizational skills, honed over 10 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9a85a4e0-854b-48a7-970d-247aa311f20d",
+    "name": "Terry Watson",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Terry Watson brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9b3492d0-7bb2-474a-af34-2911a8fa34ab",
+    "name": "Louis Stewart",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Stewart performs live music across genres, engaging guests with 9 years of performance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "72d7395e-3b7e-4e89-8870-0d2fb0e7eeda",
+    "name": "Ariana Wells",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Ariana Wells is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 17 years of professional dance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/66.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "d00f7a03-6330-4ac9-910d-cf4f61c195d8",
+    "name": "Mark Collins",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Collins creates captivating dance routines, blending creativity with 12 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "cdc984c8-9174-4cf5-b002-cfe8b6effc73",
+    "name": "Russell Charlotte",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Russell Charlotte's ability to connect with the audience and improvise, developed over 12 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "8649c999-d721-497f-8f4f-70b4dc924d87",
+    "name": "Bella Fox",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "With 18 years honing the art of illusion, Bella Fox performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "47597a59-43cb-46e9-b053-fbd474b0dfa8",
+    "name": "Linda Palmer",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Palmer creates vibrant atmospheres with expertly mixed music, drawing on 19 years in live DJing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9eb04592-463d-410b-879b-e18e518af0b2",
+    "name": "Aaron Reeves",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Aaron Reeves supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "657ee694-d547-46d1-868a-4e1426211ffd",
+    "name": "Louis Charlotte",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Charlotte programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "af3795f3-3687-4be2-a625-07950cafa33d",
+    "name": "Christopher Carpenter",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Christopher Carpenter's calm under pressure and attention to detail, honed over 8 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "390a5e40-dea7-43c2-98c1-8638b743c9a8",
+    "name": "Brian Knight",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Brian Knight ensures timely and efficient delivery of shows, leveraging 20 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "8aaa182e-c56c-480b-870f-30eea3fc6caa",
+    "name": "Jacob Hall",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 13 years of experience in theatrical costume design, Jacob Hall conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "5a1bead0-2894-48bf-b3b8-a2bed7c0185f",
+    "name": "Kinsley Ellis",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 22 years in arts and cultural programming, Kinsley Ellis develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "fdd42ffe-2513-4b18-acc7-0efb884699dc",
+    "name": "Alan Dixon",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Dixon delivers unique and innovative acts, blending multiple disciplines with 21 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "53f7986b-2a26-4027-8a2a-2b677b113bb9",
+    "name": "Sophia Montgomery",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "With 14 years streamlining vessel-wide processes, Sophia Montgomery ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "9cecf7b1-3a00-435b-b214-737f6eb094ea",
+    "name": "Rajesh Hamilton",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Rajesh Hamilton's expertise in procurement and vendor management, developed over 21 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "46cfd492-85e8-4692-8326-d7559b21ff35",
+    "name": "Eric Crawford",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 3 years in inventory management, Eric Crawford meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "642db951-e185-4a08-8dfa-9773545f3d19",
+    "name": "Matthew Griffin",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Matthew Griffin's sharp negotiation skills and 18 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  },
+  {
+    "id": "5416f6c2-6a5a-470d-852f-c8cd63c7a2d9",
+    "name": "Sean Dunn",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Dunn ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "mi",
+        "name": "Maori"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "region": "New Zealand"
+  }
 ];

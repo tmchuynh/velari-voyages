@@ -1,1060 +1,1594 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Nassau
+    // Generated on: 2025-06-10T03:41:38.298Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const nassauTeamMembers: CrewMember[] = [
   {
-    name: "Jordan Collins",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Collins is a veteran mariner with 7 years in Caribbean, known for meticulous voyage planning and a steadfast commitment to maritime law.",
-    languages: ["English", "Spanish", "Aymara", "Quechua"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Cynthia Foster",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Former emergency response officer Cynthia Foster brings exceptional navigational precision and leadership with 5 years sailing throughout Caribbean.",
-    languages: ["English", "Guarani", "Aymara", "Quechua"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Frank Gardner",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Frank Gardner ensures compliance with navigation protocols and supports bridge team operations, leveraging 10 years in maritime operations across Caribbean.",
-    languages: ["English", "Spanish", "Portuguese", "Haitian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Samuel Bennett",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Third Officer Bennett conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Caribbean.",
-    languages: ["English", "Guarani", "French", "Aymara"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Olivia Wallace",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "With 12 years dedicated to Caribbean routes, Olivia Wallace excels in dynamic positioning and integrated navigation systems management.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Edward Sutton",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Edward Sutton conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Caribbean's maritime operations.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Zoe Nash",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Deck Cadet Nash learns shipboard operations under experienced officers, preparing for a future leadership role in Caribbean waters.",
-    languages: ["English", "Haitian", "Aymara"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Benjamin Holloway",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Benjamin Holloway ensures compliance with safety standards during deck operations, fostering teamwork and discipline among crew members across Caribbean's vessels.",
-    languages: ["English", "Guarani", "Quechua", "Spanish"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Harold Chambers",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Chambers manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    languages: ["English", "Quechua", "Portuguese", "Haitian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Jerry Hall",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Jerry Hall applies 4 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["English", "Spanish", "Haitian", "Guarani"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Steven Ellis",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Second Engineer Ellis conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    languages: ["English", "Portuguese", "Quechua", "Guarani"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Ronald Mitchell",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Drawing on 10 years, Ronald Mitchell ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    languages: ["English", "Portuguese", "Guarani", "Haitian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Kimberly Wells",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Kimberly Wells's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 21 years of service.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Bobby Dunn",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "With expertise in refrigeration cycles and ventilation design, Bobby Dunn addresses environmental control challenges in varying maritime conditions.",
-    languages: ["English", "Portuguese", "Guarani"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Thandiwe Clark",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Thandiwe Clark conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
-    languages: ["English", "Portuguese", "Haitian", "Aymara"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Zola Maxwell",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "With extensive knowledge of software and hardware interfaces, Zola Maxwell enhances system interoperability and cybersecurity aboard vessels.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Gary Hudson",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "With 11 years leading technical teams, Gary Hudson ensures vessel systems meet all regulatory, safety, and performance standards.",
-    languages: ["English", "Haitian", "Quechua"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sarah Hawkins",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Maintenance Engineer Hawkins's 14 years include managing workshop resources and training junior staff in effective repair techniques.",
-    languages: ["English", "Quechua", "Portuguese", "Haitian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Logan Hamilton",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Drawing on 6 years and a investigations background, Logan Hamilton develops and executes sophisticated security plans tailored to high-risk maritime environments.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Julie Marshall",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Julie Marshall conducts routine security patrols and enforces safety regulations, backed by 4 years in maritime security operations and incident response.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Christopher Keller",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Known for analytical expertise, Christopher Keller conducts vulnerability assessments and designs contingency plans to address evolving threats.",
-    languages: ["English", "French", "Guarani"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Lerato Hall",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Known for proactive defense strategies, Lerato Hall continuously monitors network activity and coordinates responses to cyber incidents onboard.",
-    languages: ["English", "Guarani", "Aymara"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Dylan Carpenter",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "With strong organizational skills, Dylan Carpenter maintains detailed records and reports to support continuous security improvement.",
-    languages: ["English", "Guarani", "French"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Kyle Baker",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Access Control Officer Baker coordinates with port authorities and crew to facilitate smooth and secure passenger and cargo flow.",
-    languages: ["English", "Quechua", "Spanish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Harper Russell",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Leveraging 19 years, Harper Russell ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
-    languages: ["English", "French", "Aymara", "Portuguese"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Joseph Griffin",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Known for creative leadership, Joseph Griffin continuously evaluates and improves youth programming to meet evolving passenger needs.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Patrick Gibson",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Focused on safety and accessibility, Patrick Gibson ensures all family activities comply with onboard regulations and guest expectations.",
-    languages: ["English", "Quechua", "French", "Haitian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Aria Hamilton",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Known for energetic delivery and adaptability, Aria Hamilton adjusts programming to accommodate different group sizes and interests.",
-    languages: ["English", "Quechua", "Aymara", "French"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Michelle Clark",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Teen Activities Coordinator Clark monitors participation and feedback to continuously refine and innovate teen programming.",
-    languages: ["English", "Aymara", "Guarani"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Maria Gibson",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "With a commitment to lifelong learning, Maria Gibson curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
-    languages: ["English", "Quechua", "Portuguese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Melissa Bennett",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Child Care Specialist Bennett is certified in pediatric first aid and CPR, bringing 8 years of trusted care to families onboard.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "David Gibson",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Activities Director Gibson leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
-    languages: ["English", "Guarani", "Quechua"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Riley Morgan",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Riley Morgan's primary focus for 14 years has been ensuring every guest feels confident and secure while exploring the water.",
-    languages: ["English", "Haitian", "Spanish", "French"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Wayne Fox",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Wayne Fox is passionate about inspiring guests to discover the joy of movement, bringing energy and expertise from 21 years in the fitness industry.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Brenda Baker",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "With expertise in vendor relations and itinerary planning, Brenda Baker ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Aria Fox",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Known for creativity and attention to detail, Aria Fox collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Charlotte Cooper",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Leveraging 11 years in filmmaking, Charlotte Cooper produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
-    languages: ["English", "Portuguese", "Haitian", "Aymara"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Virginia Payne",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Digital Media Specialist Payne is proficient in SEO, content management systems, and digital advertising, skills honed over 17 years.",
-    languages: ["English", "French", "Quechua"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/93.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Genesis West",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Genesis West, with a distinguished 14-year career in hydraulic systems and maritime health, provides expert medical oversight for thousands of passengers and crew.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Isabella Fletcher",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Ship's Doctor Fletcher conducts routine health assessments and manages medical records in compliance with international maritime standards.",
-    languages: ["English", "Aymara", "Guarani"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Steven Chambers",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Nurse Chambers is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 15 years of practice.",
-    languages: ["English", "Haitian", "Portuguese", "Aymara"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Barbara Clark",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Committed to regulatory adherence, Barbara Clark stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Russell Fox",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Hospitality Director Fox orchestrates a seamless guest journey, from arrival to departure, leveraging 4 years of expertise in luxury service.",
-    languages: ["English", "French", "Aymara"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Thandiwe Jennings",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Thandiwe Jennings champions a guest-first culture, utilizing 5 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    languages: ["English", "Aymara", "Guarani", "Spanish"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Gary Hall",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Gary Hall excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 4 years of dedication.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Michelle Holloway",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Senior Steward Holloway also assists in training junior stewards, sharing expertise gained from 17 years in maritime hospitality.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Adeline Dunn",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Butler Dunn provides personalized guest services, backed by 17 years of elite hospitality expertise.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Raymond Clark",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Raymond Clark oversees accommodation services, ensuring comfort and efficiency with 18 years in maritime hospitality.",
-    languages: ["English", "Portuguese", "Quechua", "French"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Melissa Nash",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Housekeeping Supervisor Nash is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 19 years of service.",
-    languages: ["English", "French", "Spanish", "Haitian"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Pamela Parker",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "With 10 years providing frontline support, Pamela Parker is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Samuel Fisher",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Concierge Fisher's dedication over 4 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sarah Lawson",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Lawson oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    languages: ["English", "French", "Portuguese", "Quechua"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Wei Hayes",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "Wei Hayes's expertise over 5 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    languages: ["English", "Quechua", "Haitian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Thandiwe Mitchell",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Thandiwe Mitchell conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 13 years in adult learning.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Aiden Day",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Chef Day creates exceptional Pacific Rim cuisine with 20 years of culinary expertise from around the world.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Emma Grant",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "With 12 years in high-volume kitchens, Sous Chef Grant is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    languages: ["English", "Quechua", "Portuguese", "Guarani"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sophia Day",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "With a passion for sweet masterpieces, Pastry Chef Day continually develops new recipes, delighting guests with 18 years of dedication to the art of patisserie.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/98.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Gerald Cooper",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Cooper manages specific kitchen stations with 7 years of focused culinary skill.",
-    languages: ["English", "Portuguese", "Haitian"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Katherine Ellis",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Specialty Chef Ellis curates exclusive menus for themed dining venues, showcasing 10 years of passion for {cuisineSpecific} traditions and techniques.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Brenda Campbell",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Campbell manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 4 years of Japanese culinary excellence.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Bella Mason",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Mason expertly prepares cold dishes and appetizers with 3 years of culinary proficiency.",
-    languages: ["English", "Quechua", "Spanish", "Haitian"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Ralph Graves",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Butcher Graves ensures quality meat preparation, supported by 21 years of skilled butchery work.",
-    languages: ["English", "Guarani", "Portuguese", "Haitian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Joan Douglas",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Baker Douglas meticulously prepares a wide array of Mediterranean-inspired and classic baked goods daily, showcasing skills honed over 14 years.",
-    languages: ["English", "Portuguese", "Haitian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Dorothy Jennings",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Certified Sommelier Jennings navigates an extensive cellar to find the perfect wine for every palate and Mediterranean, drawing on 6 years of oenological expertise.",
-    languages: ["English", "French", "Aymara"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Olivia Foster",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Foster crafts creative cocktails, combining flavor expertise with 4 years of bartending skill.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/29.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sarah Chambers",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Barista Chambers prepares specialty coffees with precision, backed by 13 years in coffee service.",
-    languages: ["English", "Spanish", "Quechua"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Amy West",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Amy West collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    languages: ["English", "Haitian", "French"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Madelyn Collins",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Madelyn Collins plans and oversees all entertainment activities, applying 7 years of event and talent management.",
-    languages: ["English", "Guarani", "French"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Catherine Sutton",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Catherine Sutton's organizational skills, honed over 10 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sophia Hawkins",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Lead Vocalist Hawkins captivates audiences with dynamic performances, backed by 14 years of professional singing.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Justin Morgan",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "Musician Morgan adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 11 years of diverse musical experience.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/16.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Evelyn Reeves",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Dancer Reeves brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 14 years.",
-    languages: ["English", "French", "Guarani"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Emily Marshall",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "With an innovative vision and 21 years in professional choreography, Emily Marshall designs dynamic and original dance pieces for production shows and special events.",
-    languages: ["English", "Spanish", "Aymara"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Arthur Collins",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "With a sharp wit and 21 years on the comedy circuit, Arthur Collins offers hilarious observational humor and storytelling that resonates with diverse audiences.",
-    languages: ["English", "Quechua", "French", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Samuel Dean",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Magic Act specialist Dean mystifies audiences with skilled illusions and interactive performances.",
-    languages: ["English", "French", "Guarani"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "John Carpenter",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "DJ Carpenter creates vibrant atmospheres with expertly mixed music, drawing on 21 years in live DJing.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Emily Parker",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Parker manages sound systems and ensures optimal audio quality for performances onboard.",
-    languages: ["English", "Haitian", "Quechua", "Spanish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Lawrence Coleman",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Coleman programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    languages: ["English", "Spanish", "Quechua"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Samantha Montgomery",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Samantha Montgomery supervises stage operations and talent, drawing on 12 years of event management.",
-    languages: ["English", "Haitian", "Aymara", "Quechua"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Brandon Dixon",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Brandon Dixon's strategic planning and problem-solving skills, developed over 14 years, are crucial for the successful execution of a high-quality entertainment program.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sean Coleman",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "With 14 years of experience in theatrical costume design, Sean Coleman conceives and produces stunning wardrobes that define characters and elevate productions.",
-    languages: ["English", "Quechua", "Spanish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Dorothy Morgan",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "With 19 years in arts and cultural programming, Dorothy Morgan develops insightful lectures, workshops, and performances that reflect the destinations visited.",
-    languages: ["English", "Guarani", "Aymara", "Spanish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Rebecca Morgan",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Rebecca Morgan captivates audiences with original performances tailored to shipboard entertainment.",
-    languages: ["English", "Guarani", "French"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Olivia Mitchell",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Olivia Mitchell oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
-    languages: ["English", "Quechua", "French", "Aymara"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Caroline Hudson",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Caroline Hudson leverages 14 years in logistics to optimize onboard operations.",
-    languages: ["English", "Quechua", "Aymara"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Sandra Harper",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Sandra Harper ensures accurate inventory control using advanced management systems.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Walter Lawson",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Walter Lawson's sharp negotiation skills and 13 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    languages: ["English", "Spanish", "French", "Guarani"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
-  {
-    name: "Andrew Fisher",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "With 17 years dedicated to environmental stewardship in the maritime sector, Andrew Fisher develops and manages programs for waste reduction, recycling, and energy conservation.",
-    languages: ["English", "Quechua", "French", "Haitian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Nassau",
-    country: "Bahamas",
-    region: "Caribbean",
-  },
+    "id": "a1e3dcec-301f-44ea-b888-d06232e9f76f",
+    "name": "Nora Porter",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Porter is a veteran mariner with 17 years in Bahamas, known for meticulous voyage planning and a steadfast commitment to maritime law.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "50f977ad-84a2-4563-af9b-a3fdba2bce0c",
+    "name": "Matthew Hunter",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Matthew Hunter specializes in Bahamas navigation with 4 years of experience managing bridge operations and ensuring adherence to safety standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "00092d34-efdf-40c3-8fef-4df5aaf6ad92",
+    "name": "Gerald Dixon",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Gerald Dixon applies 15 years of navigational skills to support safe and efficient voyages across Bahamas, with strong expertise in chart plotting and communication systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "5ff83607-f7b0-48b1-9b7c-25a528bbae62",
+    "name": "Nancy Sutton",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Nancy Sutton meticulously updates ship's logs and navigational records, ensuring accuracy and compliance during voyages in Bahamas over 6 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "3ca65c5c-4503-46b8-a6a3-eb7ddeb056dc",
+    "name": "Naomi Sutton",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "With 10 years dedicated to Bahamas routes, Naomi Sutton excels in dynamic positioning and integrated navigation systems management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "c911c8a5-9baf-4cd5-b561-69fb72b20720",
+    "name": "Ella Cooper",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Leveraging 21 years in maritime safety, Ella Cooper excels at developing and implementing targeted safety training programs relevant to Bahamas's specific operational hazards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "50eb1e85-7a59-4cee-9487-d77804e4e5d9",
+    "name": "Gerald Carpenter",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Gerald Carpenter is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within Bahamas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "fce4d789-92d0-4468-8cbd-216993a23135",
+    "name": "Aria Coleman",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Aria Coleman's leadership ensures the deck department operates efficiently and safely, drawing from 22 years of hands-on experience in Bahamas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "40a3fd02-1f1a-4a19-ba0f-d32708f76032",
+    "name": "Grace Price",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Known for strategic problem-solving, Grace Price directs all technical operations, balancing safety, performance, and cost-effectiveness aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "0f22b208-c808-46dc-a2c3-da5a13c735cc",
+    "name": "Joshua West",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer West is responsible for the main propulsion machinery and auxiliary systems, bringing 17 years of hands-on expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "c103519d-85bd-4f49-9ff8-9067d876b9a2",
+    "name": "Riley Sutton",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Riley Sutton plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "7f4d275e-8395-4c31-a589-ca0d0899f057",
+    "name": "Christian Murray",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Christian Murray supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "9b50482e-0dd9-457b-b5b1-f08e17a659b8",
+    "name": "Catherine Stewart",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 21 years of mechanical expertise, Catherine Stewart maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "c50e4e4e-b105-43ca-ae5f-01972944ba2e",
+    "name": "Randy Carpenter",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Carpenter ensures optimal climate control aboard vessels, leveraging 6 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "27f77eee-ebad-41bc-ab19-e678f3ec1c8f",
+    "name": "Ariana Holloway",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 5 years in marine environmental science, Ariana Holloway ensures strict adherence to all international and local environmental laws.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "793895d3-c1bc-4bfb-9c15-b2d35fa35966",
+    "name": "Anthony Fox",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Anthony Fox integrates complex onboard systems, ensuring operational synergy and reliability with 9 years of maritime engineering expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "ade58846-a1c7-4535-a5ef-3a365f171831",
+    "name": "Lucas Parker",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Lucas Parker provides expert guidance on complex technical challenges and long-term asset management, drawing from 3 years of senior engineering leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "1bd0d4e0-0221-44be-b77c-ac458d048f81",
+    "name": "Maya Clark",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 18 years, Maya Clark is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "8006ce0f-5462-4779-9faf-a07bb1f0f9fa",
+    "name": "Eric Murray",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Known for decisive leadership, Eric Murray fosters a culture of vigilance and continuous improvement in maritime security standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "6cd2700a-ec2c-4220-bc59-98db62f4b4d6",
+    "name": "Edward Porter",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Edward Porter conducts routine security patrols and enforces safety regulations, backed by 16 years in maritime security operations and incident response.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "f14c5f8e-81d0-4073-b7cf-2a05c6864d1d",
+    "name": "Rajesh Porter",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Porter advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "8273df36-046d-41ed-b8c6-b55522a55338",
+    "name": "Cynthia Clark",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Clark conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 4 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "f3bdda0a-e631-4e30-b81a-9d7c9185a0a8",
+    "name": "Amy Ellis",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Ellis leads risk assessment initiatives and supports vessel security certification processes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "e75c05e5-52b6-474b-8bcb-1857de3bf569",
+    "name": "Marcus Chambers",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Chambers plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "0689a5c1-d5a4-427b-b7f6-76e9108a2e46",
+    "name": "Rebecca Marshall",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Marshall is an expert in ISM, ISPS, and MLC compliance, bringing 18 years of dedicated focus to these areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "157a869e-666e-4922-9c6d-0cd72aa84b51",
+    "name": "Brandon Griffin",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Brandon Griffin has a knack for inspiring young minds, developing innovative curriculums over 12 years that make learning an adventure onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "fbb2e35c-a55c-48a8-9b39-9d3cd0088690",
+    "name": "Jeffrey Parker",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Parker designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "651c5f47-0436-4795-be86-c526bec11380",
+    "name": "Victoria Palmer",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Children's Entertainment Specialist Palmer collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "85c66abe-8d7f-4871-953b-009f0ed70815",
+    "name": "George Stewart",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, George Stewart balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "bccca575-8a6a-4857-8056-ded7473c5b37",
+    "name": "Joshua Curtis",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 4 years in educational programming, Joshua Curtis designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "7a4d820f-585b-431f-9fa2-be1336094402",
+    "name": "Gabriella Russell",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Gabriella Russell provides attentive care and supervision for young passengers, backed by 7 years in professional child care and early childhood education.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "92b35e43-d54f-4dc9-be13-efd523124afb",
+    "name": "Brian Gardner",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Gardner leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "f920dae9-2988-4991-b9d0-4d14f1fbbfce",
+    "name": "Sebastian Graves",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Sebastian Graves's primary focus for 21 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "c538d9b7-9425-46b5-8640-0de9da4c5ba0",
+    "name": "Sophia Hunter",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Hunter provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "b3eda5cf-118e-4d15-b9f0-730b3474f370",
+    "name": "Caroline Henderson",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Caroline Henderson's meticulous planning and attention to detail, developed over 7 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "cb98f5e9-2065-41dd-aef6-9d39193ccc0d",
+    "name": "Amy Lawson",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Amy Lawson leads the photo team with 4 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "ba70a8fd-c7c4-400f-8d63-ecf106afe7f3",
+    "name": "Edward Dean",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Edward Dean effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "2bd196c7-8f80-4988-8b3e-f275a63e4773",
+    "name": "Bobby Clark",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Known for technical proficiency and creative vision, Bobby Clark collaborates closely with marketing and entertainment teams to maximize reach and impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "75953f90-3ceb-40ec-932b-feb41dc1db94",
+    "name": "Abigail Coleman",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Drawing on 11 years as a medical leader, Abigail Coleman ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "b4e729d2-61b8-49ff-95e7-e81087e77854",
+    "name": "Alice Carpenter",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Carpenter, drawing from 16 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "51133317-0e89-4b0a-9aae-1e009a8b1220",
+    "name": "Michelle Baker",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Baker provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "eb34664b-ab9f-4a67-a2c9-18e72b8a0c0a",
+    "name": "Carlos Warren",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Carlos Warren enforces safety standards and conducts training programs, drawing on 8 years of maritime safety expertise to minimize risks onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "cd88f8ae-0e1f-477d-aaff-2d9e07a9bdae",
+    "name": "Matthew Dean",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Overseeing a diverse team, Hospitality Director Dean implements innovative service strategies and maintains the highest quality standards, reflecting 17 years in the industry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "72b0455b-c89f-4f4d-ad17-cef8eaa47868",
+    "name": "Joe Morgan",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Joe Morgan champions a guest-first culture, utilizing 3 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "983725fd-2233-4e73-bb65-18e079fa580c",
+    "name": "Carl Hawkins",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Hawkins trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 5 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "25fb441b-70b2-4da0-a799-aed5f12e5054",
+    "name": "Riley Curtis",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Curtis also assists in training junior stewards, sharing expertise gained from 16 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "d7002573-ab21-41d8-8699-e7bf1f880c9d",
+    "name": "Philip Cooper",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Philip Cooper crafts unforgettable moments for discerning guests, drawing on 20 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "2dd9f47c-f5b8-40df-9f25-589438a39807",
+    "name": "Caroline Foster",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Caroline Foster oversees accommodation services, ensuring comfort and efficiency with 10 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "662330d7-f1d0-49ea-adbf-e04dfe07ce4e",
+    "name": "Bella Douglas",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Douglas leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "1930f90e-5a87-46fe-bf75-1895b2669c77",
+    "name": "Bobby Porter",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Bobby Porter's communication skills, honed over 13 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "d4b7ee4d-d207-45c6-b417-693bafff076f",
+    "name": "Jacob Baker",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Jacob Baker leverages 10 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "8e7ad80e-6a5f-41d7-aff8-9fbefafbc012",
+    "name": "Joshua Porter",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Porter oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "3e05539e-7a5c-49fb-99cc-b04e9349d46b",
+    "name": "Michelle Cooper",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 22 years catering to high-profile clientele, Michelle Cooper curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "8e0a382c-4caf-4e34-80e7-bcf8272d85ea",
+    "name": "Lily Hudson",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Lily Hudson conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 7 years in adult learning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "b4525203-4647-4b81-9395-99a2eee01556",
+    "name": "Evelyn Campbell",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Pan-Asian, Chef Campbell expertly manages kitchen hygiene, inventory, and food cost control, honed over 21 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "96f3666f-fba9-4df8-9035-d4c25784403b",
+    "name": "Sarah Palmer",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sarah Palmer trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 12 years of mentorship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "1adfc164-46eb-45e5-b6ff-35f43d3d3ebd",
+    "name": "Isabella Reed",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate French pastries and innovative dessert creations, Pastry Chef Reed brings 21 years of refined skill to the culinary team.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "d414b4f8-a06d-48fc-9288-7e2870e27012",
+    "name": "Avery Carpenter",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 6 years as a section chef, Avery Carpenter is responsible for stock control and guiding commis chefs within their designated area of the Continental kitchen.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "abfc0f8b-11a1-40bd-b0d1-a3741d8ea552",
+    "name": "Sophia Stewart",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Stewart curates exclusive menus for themed dining venues, showcasing 13 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "d4257074-8906-4a87-bcd1-b787e0bb8028",
+    "name": "Patrick Mitchell",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Patrick Mitchell delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 14 years of rigorous training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "b0579f93-7016-4ebb-8562-7fce6dae81ee",
+    "name": "Scarlett Baker",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 17 years specializing in charcuterie, salads, and elaborate cold platters, Chef Baker brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "e75593e0-ecfe-44c3-a11c-d512af1c131c",
+    "name": "Angela Charlotte",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Charlotte ensures quality meat preparation, supported by 11 years of skilled butchery work.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "f2553726-8395-4bb1-ba31-ea43e1e597cb",
+    "name": "Nomsa Sutton",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Nomsa Sutton combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "abc79a88-cdb5-4f71-9626-089af24ec723",
+    "name": "Alice Campbell",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Alice Campbell enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "2edb3cac-8c9d-4fb2-adc5-d50db85b58c0",
+    "name": "Kenneth Crawford",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Kenneth Crawford delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "7c05aacd-e731-4511-b78f-1e6a015ce81b",
+    "name": "Sofia Baker",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Baker ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 7 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "ab5987cf-49cc-4c56-a185-6a39cbad95b3",
+    "name": "Douglas Dean",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Dean designs balanced menus catering to health-conscious guests, leveraging 6 years of dietary expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "b7ac5dbc-2e4e-4882-b706-8bf08ad46242",
+    "name": "Brandon Harper",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Harper leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 17 years of industry leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "aa372545-7ab7-4018-9e72-4a8e9966eac7",
+    "name": "Nathan Graham",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Nathan Graham manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "f0638671-eb8e-4013-bd42-aeb8b4288eff",
+    "name": "Michelle Ellis",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Lead Vocalist Ellis captivates audiences with dynamic performances, backed by 20 years of professional singing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "bf54e917-a49c-4fc7-8f85-ed03799068d1",
+    "name": "Ethan Dean",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Dean adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 18 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "ef47b80a-dd6c-443b-9445-36fa37f4e123",
+    "name": "Anna Sutton",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 6 years of professional training in {danceStyle} and contemporary dance, Anna Sutton executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "a713d148-6564-4718-9a20-b96429add7bb",
+    "name": "Philip Olivia",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Philip Olivia leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "c26fabd3-24fb-4eda-8d0f-adbdb4dca036",
+    "name": "Philip Spencer",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Comedy Performer Spencer masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "bf777061-462a-4298-804a-2546c98a9a89",
+    "name": "Javier Price",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Javier Price brings a unique brand of enchantment to the ship's entertainment, drawing on 7 years of professional magic and a flair for theatrical presentation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "642c48b2-0c1c-467a-95f3-da920d8a3530",
+    "name": "Roger Charlotte",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Charlotte stays current with music trends while also mastering classics, offering 4 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "9f68e8cd-7bfc-4100-992c-6c7e95307d5b",
+    "name": "Roger Wallace",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 9 years of experience in mixing live sound for theatre, music, and events, Roger Wallace guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "27a3a3cf-0897-4f24-8c0b-12397f54a87d",
+    "name": "Roy Murray",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Murray designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "14a5d068-2cf3-47a4-bf13-83b11577f354",
+    "name": "Margaret West",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager West is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "1438aaa3-9c96-447b-9e2f-dffc72c4e1d3",
+    "name": "Virginia Foster",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Virginia Foster's strategic planning and problem-solving skills, developed over 14 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "76cb539b-2a70-4daa-b705-f93f8948438f",
+    "name": "Savannah Stewart",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Savannah Stewart combines creativity and craftsmanship with 6 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "a54dc4f4-cc66-4461-952c-b1c1a13d527c",
+    "name": "Amina Coleman",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Amina Coleman promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "7d2b97dc-c160-45dc-a559-c87e81014cfb",
+    "name": "Eleanor West",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Eleanor West captivates audiences with original performances tailored to shipboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "97e568bb-eec3-4cff-b04a-7a857f4ea6e3",
+    "name": "Raymond Mitchell",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Raymond Mitchell oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "3689edca-92c3-47d6-b4a6-c75d6ffc5073",
+    "name": "Emily Porter",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Emily Porter's expertise in procurement and vendor management, developed over 22 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "0de36311-85d0-4ec5-8b62-49335780d99d",
+    "name": "Helen Spencer",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Helen Spencer's analytical skills, honed over 10 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "1f1efd41-e367-45fc-8f40-1c06adba2d30",
+    "name": "Kinsley Hudson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Kinsley Hudson's sharp negotiation skills and 14 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  },
+  {
+    "id": "a9b7f5f2-a209-40d9-8324-f919f2c12fce",
+    "name": "Cynthia Dunn",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Dunn implements green initiatives to minimize environmental impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Nassau",
+    "country": "Bahamas",
+    "region": "Bahamas"
+  }
 ];

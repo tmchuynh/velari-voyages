@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Miami
+    // Generated on: 2025-06-10T03:41:38.296Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const miamiTeamMembers: CrewMember[] = [
   {
-    name: "Ralph Parker",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Parker has navigated the challenging waters of Caribbean for over 16 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Allison Jennings",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "With 12 years of maritime expertise, Allison Jennings coordinates watchkeeping duties and emergency response, expertly navigating Caribbean's waterways.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/41.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Marcus Chambers",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Utilizing 10 years of expertise, Marcus Chambers meticulously maintains navigational charts and publications crucial for safe transit in Caribbean.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Barbara Mason",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "As a vigilant watchkeeper, Barbara Mason has 8 years supporting navigation, safety drills, and emergency procedures aboard vessels in Caribbean.",
-    languages: ["English", "Haitian", "Quechua", "Guarani"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Wei Dunn",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Wei Dunn plays a key role in training junior officers on Caribbean-specific navigational challenges and best practices, backed by 4 years of experience.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/91.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Maya Parker",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Leveraging 19 years in maritime safety, Maya Parker excels at developing and implementing targeted safety training programs relevant to Caribbean's specific operational hazards.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Mia Price",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Mia Price supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Caribbean's maritime environment.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Chen Cooper",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Chen Cooper ensures compliance with safety standards during deck operations, fostering teamwork and discipline among crew members across Caribbean's vessels.",
-    languages: ["English", "Quechua", "Haitian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Tyler West",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "With 3 years in marine engineering, Tyler West ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
-    languages: ["English", "Portuguese", "Haitian", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Richard Palmer",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Richard Palmer applies 20 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["English", "Quechua", "Aymara", "French"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Stephen Henderson",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Stephen Henderson plays an integral role in maintaining fuel efficiency and reducing emissions through optimized machinery operation.",
-    languages: ["English", "Portuguese", "Quechua", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Elizabeth Watson",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Electrical Engineer Watson conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
-    languages: ["English", "Spanish", "Quechua"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Joshua Fox",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "With 21 years dedicated to marine mechanics, Joshua Fox excels in the overhaul and alignment of engines and rotating machinery.",
-    languages: ["English", "Portuguese", "Guarani"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Aaron Ellis",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "HVAC Engineer Ellis coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
-    languages: ["English", "Quechua", "Portuguese", "Spanish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Stella Knight",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "With in-depth knowledge of MARPOL regulations, Stella Knight leads training and awareness programs on environmental best practices among crew members.",
-    languages: ["English", "Haitian", "Aymara"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Katherine Carpenter",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Katherine Carpenter manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    languages: ["English", "Haitian", "Guarani"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Hannah Hall",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Hannah Hall drives continuous improvement initiatives and implements emerging maritime technologies to maintain competitive operational capabilities.",
-    languages: ["English", "Quechua", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Nicholas Foster",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Nicholas Foster ensures all vessel machinery operates smoothly and safely, backed by 6 years in preventive and corrective maintenance programs.",
-    languages: ["English", "French", "Quechua", "Guarani"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Aaliyah Russell",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Security Director Russell leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    languages: ["English", "Guarani", "Quechua"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Sophia Hawkins",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Security Officer Hawkins performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
-    languages: ["English", "Aymara", "Haitian"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Carlos Russell",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "With extensive training in security technologies, Carlos Russell leads specialized investigations and security audits to strengthen vessel defenses.",
-    languages: ["English", "Haitian", "Spanish", "French"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Cynthia Reed",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Experienced in compliance with maritime cybersecurity regulations, Cynthia Reed conducts training to enhance crew awareness of digital risks.",
-    languages: ["English", "Haitian", "Guarani", "Spanish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Russell Curtis",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Russell Curtis's 20 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
-    languages: ["English", "Haitian", "Spanish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Aiden Morgan",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Aiden Morgan ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    languages: ["English", "Quechua", "Spanish", "Guarani"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Evelyn Spencer",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Leveraging 3 years, Evelyn Spencer ensures the vessel's Safety Management System (SMS) is effectively implemented and continuously improved.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Ashley Harper",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Ashley Harper has a knack for inspiring young minds, developing innovative curriculums over 10 years that make learning an adventure onboard.",
-    languages: ["English", "Haitian", "Guarani"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Evelyn Cooper",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Family Activities Coordinator Cooper gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
-    languages: ["English", "Portuguese", "Haitian", "Guarani"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "William Jennings",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Children's Entertainment Specialist Jennings has a talent for making every child feel special, using 5 years of experience to tailor activities to individual personalities.",
-    languages: ["English", "Aymara", "Guarani"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Sean Stewart",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Leveraging 16 years working with adolescents, Sean Stewart creates cool and engaging hangouts and events that resonate with teens.",
-    languages: ["English", "Aymara", "Portuguese", "Spanish"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Gabriella Coleman",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Gabriella Coleman oversees onboard educational initiatives, combining 22 years of academic and program management experience to enrich passenger learning.",
-    languages: ["English", "Aymara", "French"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Nathan Foster",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Nathan Foster provides attentive care and supervision for young passengers, backed by 19 years in professional child care and early childhood education.",
-    languages: ["English", "Quechua", "Guarani"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Logan Gardner",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Activities Director Gardner leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
-    languages: ["English", "Haitian", "French", "Spanish"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jordan Palmer",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Water Sports Instructor Palmer ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    languages: ["English", "French", "Guarani"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Noah Hudson",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Committed to inclusivity, Noah Hudson adapts programming to accommodate varying fitness levels and any physical limitations.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Timothy Montgomery",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Excursion Coordinator Montgomery prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
-    languages: ["English", "French", "Spanish", "Quechua"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Kevin Knight",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Lead Photographer Knight captures stunning imagery of ship life, landscapes, and destinations, backed by 5 years of professional photography expertise.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Elena Holloway",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Elena Holloway uses 17 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
-    languages: ["English", "Haitian", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/34.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Luis West",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Luis West uses 4 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
-    languages: ["English", "Spanish", "Aymara", "Guarani"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Tyler Parker",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Chief Medical Officer Parker maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Stella Wells",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Dr. Wells provides comprehensive medical care with 5 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
-    languages: ["English", "Portuguese", "Aymara"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Joshua Murray",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Nurse Murray is experienced in managing chronic health conditions at sea and providing ongoing support to guests with specific medical needs, drawing from 16 years of practice.",
-    languages: ["English", "Quechua", "Spanish", "Haitian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Bruce Collins",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Committed to regulatory adherence, Bruce Collins stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    languages: ["English", "Haitian", "Quechua"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Douglas Nash",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Douglas Nash is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 11 years of cultivating outstanding hospitality teams.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Kyle Gibson",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Guest Relations Manager Gibson is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
-    languages: ["English", "Aymara", "Spanish", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Daniel Graham",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "With 16 years leading stewardship teams, Chief Steward Graham meticulously manages cabin services, laundry operations, and public area upkeep.",
-    languages: ["English", "Aymara", "Haitian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Edward Dixon",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Edward Dixon is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Keith Palmer",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Keith Palmer crafts unforgettable moments for discerning guests, drawing on 15 years of experience in curating exclusive and seamless luxury service.",
-    languages: ["English", "Guarani", "Aymara", "Quechua"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Harper Spencer",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Accommodation Manager Spencer plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 7 years.",
-    languages: ["English", "Haitian", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Javier Hunter",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "With a keen eye for detail developed over 11 years, Housekeeping Supervisor Hunter conducts rigorous inspections to uphold pristine conditions.",
-    languages: ["English", "Aymara", "Haitian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Bobby Gibson",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Guest Services Specialist Gibson facilitates seamless guest interactions to enhance onboard experiences.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jose Graves",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "With an extensive network and 17 years of experience, Concierge Graves arranges bespoke shore excursions, dining reservations, and special occasion services.",
-    languages: ["English", "Spanish", "Aymara"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Donna Cooper",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Donna Cooper is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 19 years in the field.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Sofia Grant",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "VIP Coordinator Grant manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    languages: ["English", "Haitian", "Aymara"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Eric Mason",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Mason specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 13 years of industry best practices.",
-    languages: ["English", "Haitian", "Quechua", "Aymara"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Ariana Fisher",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Mastering French and international gastronomy, Ariana Fisher ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 11 years of award-winning experience.",
-    languages: ["English", "Quechua", "Aymara"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Rebecca Coleman",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "With 13 years in high-volume kitchens, Sous Chef Coleman is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    languages: ["English", "Guarani", "Aymara"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Stella Reed",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Stella Reed blends creativity and technique to deliver memorable pastry experiences for guests.",
-    languages: ["English", "Haitian", "Quechua"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Zola Collins",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Collins manages specific kitchen stations with 19 years of focused culinary skill.",
-    languages: ["English", "Guarani", "Aymara"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Blake Carpenter",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "With 15 years perfecting {cuisineSpecific} artistry, Blake Carpenter ensures each plate is a true representation of its cultural heritage and bold flavors.",
-    languages: ["English", "Quechua", "Haitian", "Guarani"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Kennedy Baker",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Baker manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 12 years of Japanese culinary excellence.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Edward Collins",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Collins ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 8 years.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Emily Dunn",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Emily Dunn maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 20 years in professional butchery.",
-    languages: ["English", "Haitian", "French", "Spanish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Scott Fisher",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Scott Fisher manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 6 years of professional baking.",
-    languages: ["English", "Portuguese", "Haitian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Susan Murray",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Susan Murray provides engaging wine education and tasting experiences for guests, sharing insights from 12 years exploring global viticulture.",
-    languages: ["English", "Aymara", "Spanish"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Gary Gardner",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "With 4 years behind the bar, Gary Gardner designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "George Mitchell",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "With 14 years of expertise in coffee origins, brewing methods, and latte art, George Mitchell crafts the perfect cup for every guest.",
-    languages: ["English", "Quechua", "Guarani"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/15.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Robert Fox",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "With 15 years in clinical and culinary nutrition, Robert Fox provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
-    languages: ["English", "Aymara", "French"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Patricia Keller",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Patricia Keller plans and oversees all entertainment activities, applying 22 years of event and talent management.",
-    languages: ["English", "Spanish", "French", "Haitian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Anthony Porter",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Anthony Porter's organizational skills, honed over 4 years, are crucial for maintaining a complex entertainment calendar and ensuring all performers are well-supported.",
-    languages: ["English", "Aymara", "Guarani", "Spanish"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jacob Carpenter",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Jacob Carpenter consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 5 years on stage.",
-    languages: ["English", "Aymara", "Guarani"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jordan Henderson",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "A master of the {instrument}, Jordan Henderson brings 9 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    languages: ["English", "Haitian", "French", "Guarani"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Lerato Knight",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Dancer Knight brings dynamism and grace to every performance, captivating audiences with technical skill and expressive movement honed over 5 years.",
-    languages: ["English", "Spanish", "Aymara"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Susan Fox",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Choreographer Fox creates captivating dance routines, blending creativity with 17 years of dance expertise.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Diego Holloway",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "With a sharp wit and 9 years on the comedy circuit, Diego Holloway offers hilarious observational humor and storytelling that resonates with diverse audiences.",
-    languages: ["English", "Haitian", "Aymara", "Guarani"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Roy Chambers",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "With 8 years honing the art of illusion, Roy Chambers performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
-    languages: ["English", "Portuguese", "Guarani", "Spanish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jose Graves",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "With an extensive music library and 14 years of reading crowds, DJ Graves seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
-    languages: ["English", "Portuguese", "Haitian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Hannah Knight",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Knight expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    languages: ["English", "French", "Aymara"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Wayne Clark",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Wayne Clark's artistic vision and technical mastery over 11 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    languages: ["English", "Haitian", "Portuguese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Margaret Murray",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "With 15 years in professional stage management, Margaret Murray meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    languages: ["English", "Spanish", "Guarani", "French"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Amina Gardner",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Amina Gardner's strategic planning and problem-solving skills, developed over 17 years, are crucial for the successful execution of a high-quality entertainment program.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Lerato Mason",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "With 5 years of experience in theatrical costume design, Lerato Mason conceives and produces stunning wardrobes that define characters and elevate productions.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Brian Dunn",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Brian Dunn's passion for cultural exchange, cultivated over 18 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
-    languages: ["English", "Aymara", "Spanish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Chen Wells",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "A specialist in {artisticDiscipline}, Chen Wells presents breathtaking and thought-provoking performances honed over 9 years of dedicated artistic exploration.",
-    languages: ["English", "Spanish", "Haitian", "Aymara"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Timothy Nash",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Timothy Nash plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 18 years of maritime expertise.",
-    languages: ["English", "Guarani", "Aymara"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Helen Gardner",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Logistics Coordinator Gardner manages supply chain and transport logistics, ensuring efficient resource allocation.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Larry Graham",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Larry Graham ensures accurate inventory control using advanced management systems.",
-    languages: ["English", "Quechua", "Aymara"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Sebastian Russell",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Procurement Officer Russell sources and negotiates contracts for goods and services needed onboard.",
-    languages: ["English", "Spanish", "Guarani", "French"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Paul Spencer",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Paul Spencer champions innovative eco-friendly technologies and practices, leveraging 10 years to enhance the vessel's environmental performance and reputation.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    city: "Miami",
-    country: "United States",
-    region: "Caribbean",
-  },
+    "id": "587ad325-d5f6-4528-8fa9-16595bc14b48",
+    "name": "Russell Cooper",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Cooper has navigated the challenging waters of Florida for over 11 years, consistently prioritizing sustainable maritime practices and regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5c29079e-d785-42bd-a23a-d24c8a4d7aa3",
+    "name": "Nathan Stewart",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Nathan Stewart applies comprehensive knowledge of Florida's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "77bfa63a-bb9e-48e6-93d9-33683467a4af",
+    "name": "Avery Reeves",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Avery Reeves is skilled in passage planning software and integrated bridge systems, contributing 19 years of knowledge to operations in Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b000fb47-d93c-40f1-9eac-008458513871",
+    "name": "Christine Holloway",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Christine Holloway supports communication and lookout duties during watches, maintaining high situational awareness in Florida's maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ae32524b-dd1f-4afa-b275-de961cb18885",
+    "name": "Samantha Harper",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Samantha Harper utilizes advanced navigational technology with 10 years ensuring precise route planning and safe passage in Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "261da1f7-1809-43ea-bc9c-ad83547be1b1",
+    "name": "Ryan Spencer",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Ryan Spencer stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d03fe3c8-86bb-41e3-9419-1b1e5b652939",
+    "name": "Bruce Campbell",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Bruce Campbell is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e5a0819d-dbc2-4cd1-8096-9131d459b735",
+    "name": "Ella Dunn",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 22 years managing deck teams, Ella Dunn coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d1c16d3b-d50a-4032-8114-89af1fb3ec3f",
+    "name": "Katherine Griffin",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Katherine Griffin oversees all vessel systems with 22 years of expertise in maritime engineering, specializing in hydraulic systems and ensuring compliance with safety and environmental regulations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "10314eaa-1c3f-4951-a649-dce5122dc4af",
+    "name": "Zola Wells",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Wells coordinates maintenance and repairs with 21 years of experience in marine mechanical systems, ensuring seamless engine room operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "361c27e9-832f-4125-a2bd-c810efcc7344",
+    "name": "Elizabeth Harper",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Elizabeth Harper's 7 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e1e46e64-7c48-4fb2-82d6-3b917f5ac7f7",
+    "name": "Joseph Lawson",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Joseph Lawson's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 9 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "6a9b6496-1dee-46be-812e-b5b3ad8f50b6",
+    "name": "Sofia Keller",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Keller specializes in propulsion, HVAC, and auxiliary machinery with 18 years ensuring operational efficiency and reliability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d58f4c4a-30ee-4f0a-b0ac-8f08b0c03a02",
+    "name": "Carl Fox",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Carl Fox designs, installs, and maintains heating, ventilation, and air conditioning systems with 14 years of maritime specialization.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b83bc601-3a58-4121-aa44-1ac64bdc0b2c",
+    "name": "Sarah Payne",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "With in-depth knowledge of MARPOL regulations, Sarah Payne leads training and awareness programs on environmental best practices among crew members.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "cde51fca-d851-4bbf-a7da-57153695cead",
+    "name": "Virginia Fisher",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Virginia Fisher is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 10 years of in-depth experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e9ecaa07-6794-4255-8700-9ac1cc6f98d8",
+    "name": "Benjamin Watson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Watson oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "148a733e-4543-4fc9-a183-510f39e6cd5f",
+    "name": "Harper Ellis",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Harper Ellis meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 5 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b90ad2f2-5a08-4397-a392-78eb30253f89",
+    "name": "Zachary Reeves",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 14 years and a naval background, Zachary Reeves develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "fdfe6a0f-a611-4e72-a6a3-24640bbe5c5d",
+    "name": "Ethan Harper",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, Ethan Harper collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d319f53b-e146-4245-8af8-c89afe4cfccb",
+    "name": "Sarah Fletcher",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 4 years, Sarah Fletcher has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "be103fc9-5afa-4572-bd9b-1efddb8c5e91",
+    "name": "Dylan Nash",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Nash conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 18 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "af61d5a9-d4bd-4956-bb7d-c9f20795f2de",
+    "name": "Caroline Graves",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, Caroline Graves maintains detailed records and reports to support continuous security improvement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c47022f8-ed93-462d-b0b3-91667e89e6d2",
+    "name": "Rebecca Spencer",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Spencer plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 8 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d1553098-d146-4d00-94ee-1b3a5b447cb0",
+    "name": "Sean Cooper",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Sean Cooper meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 17 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b9b3ade7-c071-484c-b13f-7db68fae9d70",
+    "name": "Blake Reeves",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Blake Reeves designs and leads engaging youth programs, applying 17 years in educational, recreational, and developmental management onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b1552c0d-d2b4-4ee0-858b-901b698aa269",
+    "name": "Mary Grant",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Mary Grant organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 8 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5f88c2ef-18c7-40b6-b3a2-cd00219afb0a",
+    "name": "Nicole Olivia",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for energetic delivery and adaptability, Nicole Olivia adjusts programming to accommodate different group sizes and interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/33.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ad9e55d5-92c9-44c7-89b9-17b6bfa1a402",
+    "name": "Nora Dean",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, Nora Dean balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "cab748ba-0f5f-4e3b-b294-2ebe74b0193a",
+    "name": "Wayne Wells",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Wayne Wells, with 21 years in curriculum development, ensures educational content is engaging, accurate, and inspiring for passengers of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "fab6ad33-6731-4aec-afc6-c5922475e563",
+    "name": "Nancy Ellis",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Nancy Ellis communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "529ddb52-0a02-4243-aecc-8a323066c252",
+    "name": "Nicholas Reed",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Nicholas Reed, with 11 years in the cruise industry, expertly blends classic cruise activities with fresh, innovative entertainment options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "18b4b782-192d-416d-9fe7-50c03b4165ad",
+    "name": "Victoria Bennett",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in various water sports, Victoria Bennett provides personalized coaching that accommodates different skill levels and abilities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "9d73caa1-76a7-4534-9676-575e417e68c0",
+    "name": "Ethan Nash",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Fitness Instructor Nash promotes wellness and physical health through tailored exercise programs, backed by 16 years of fitness training and client engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ec8d662c-8ae6-452a-921a-d3d236cb2f3d",
+    "name": "Jessica Morgan",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Morgan has built strong relationships with local tour operators worldwide over 20 years, guaranteeing quality and value.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b613c218-e325-41a7-a022-d0904888cc25",
+    "name": "Juan Hunter",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Hunter's portfolio showcases 15 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "81151ebd-702b-4553-a2cc-753f0c321b7d",
+    "name": "Aaliyah Gibson",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Leveraging 12 years in filmmaking, Aaliyah Gibson produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5d0a6104-9713-41af-a465-ab3f6d2f0c48",
+    "name": "Louis Hamilton",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Hamilton analyzes content performance and audience metrics to optimize digital strategies and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "2ffe061d-0f1d-469b-b412-234999845b38",
+    "name": "John Charlotte",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Charlotte has 13 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "2a64dfcd-c987-48a2-9214-ae4e8bd1f0d8",
+    "name": "Javier Hall",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Known for calm professionalism, Dr. Hall leads medical emergency interventions and coordinates evacuation when necessary.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7fc2b609-ec06-43aa-8c72-38bef8adf638",
+    "name": "Sean Ellis",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 9 years of experience, Sean Ellis is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "991ae0a2-a09a-4f22-8f26-909ab4869103",
+    "name": "Billy Harper",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Harper documents incidents and implements corrective actions to continuously improve onboard safety performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b1afe085-dbdf-4955-8e01-60a6bd1bd71e",
+    "name": "Jessica Keller",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Jessica Keller manages all hospitality services, ensuring exceptional guest experiences with 12 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ac569c7b-7626-48a4-b2c5-b761d1ad4e70",
+    "name": "Keith Morgan",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Keith Morgan coordinates guest services and resolves issues, leveraging 21 years of customer relations expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d0cc1ba1-52f6-4e38-a066-8ed40bbc5673",
+    "name": "Susan Graham",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Graham trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 13 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7286f56b-6db0-4129-bd4f-92ac9c88bb12",
+    "name": "Angela Grant",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Angela Grant provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 16 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c2547b5d-2e39-4f7f-b1fd-d8ec8444e72e",
+    "name": "Mia Gibson",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Mia Gibson crafts unforgettable moments for discerning guests, drawing on 3 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b5929363-9be2-444c-8b28-228b6ce4b56b",
+    "name": "Jacob Harper",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Jacob Harper oversees accommodation services, ensuring comfort and efficiency with 14 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "86f0a3c9-2d54-4df1-8c4b-5c967e5f0125",
+    "name": "Robert Gardner",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Robert Gardner manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 14 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7fd1a345-b1b4-4de6-adfa-89f8ac7982f7",
+    "name": "Scott Grant",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Scott Grant's communication skills, honed over 4 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ff821178-32fb-4789-afe6-c4d6ce6e1ce7",
+    "name": "Zola Parker",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Parker offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7bc7e22d-5e35-4516-843d-6b4a0183add8",
+    "name": "Gerald Olivia",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Olivia trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 4 years of best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "243e7e40-1af9-4ec4-9319-832f0b9216ab",
+    "name": "Dennis Hall",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Hall manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "708ac3df-7394-4866-b236-356f1490e5c8",
+    "name": "Nicole Ellis",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Ellis focuses on enhancing guest service quality through targeted education and coaching.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "92131578-989a-4dd5-b14f-72873258c3fe",
+    "name": "Roger Knight",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Chef Knight creates exceptional Latin American cuisine with 13 years of culinary expertise from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a36edd05-4b13-46ae-903d-9638a19964e9",
+    "name": "Gabriel Griffin",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef Griffin ensures seamless kitchen workflow and consistent dish quality, drawing on 11 years of hands-on Continental experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e90bac0b-932c-4239-9ea4-704999ffa9ac",
+    "name": "Jessica Spencer",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "With a passion for sweet masterpieces, Pastry Chef Spencer continually develops new recipes, delighting guests with 5 years of dedication to the art of patisserie.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a8f8a10c-541a-46da-81ca-2ce471cbeb64",
+    "name": "Olivia Fisher",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Olivia Fisher maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 14 years of discipline.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b41289a6-380b-4312-999b-56d0a397a970",
+    "name": "Nomsa Knight",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Knight brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e1f1dbc6-34aa-44a6-b5c6-239e9a1ae595",
+    "name": "Robert Hayes",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "With 16 years dedicated to the art of sushi and sashimi, Chef Hayes meticulously selects the freshest seafood and crafts each piece with mastery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "dd417d6e-13d6-4fe1-b706-bb775dd59bf8",
+    "name": "Thomas Russell",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 18 years specializing in charcuterie, salads, and elaborate cold platters, Chef Russell brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a2c9be8d-3681-4a59-851e-d6a057054e39",
+    "name": "Jose Carpenter",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 12 years of expertise, Butcher Carpenter expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Caribbean dishes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c83a48aa-5b75-4208-8d0a-19bfb234a2e9",
+    "name": "Allison Curtis",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Allison Curtis combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8aa0cb18-1584-4c82-a2b0-7c5de1a0a2d4",
+    "name": "Lily Maxwell",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "With 18 years in Michelin-starred establishments, Sommelier Maxwell elevates the dining journey through impeccable wine service and cellar management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8c679844-a456-45b5-9844-ab1be3af29b7",
+    "name": "Catherine Curtis",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Curtis delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 22 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5c368c74-44a7-4d60-9c2a-23ecb3adf6a3",
+    "name": "Olivia Chambers",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Chambers prepares specialty coffees with precision, backed by 16 years in coffee service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7c59557f-a2dc-44b6-a248-e666d550852d",
+    "name": "Darrell Hawkins",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Darrell Hawkins collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b2072c76-d245-4319-ba20-610446805a7e",
+    "name": "Robert Price",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Robert Price plans and oversees all entertainment activities, applying 15 years of event and talent management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b91361e7-3046-4a7d-8001-9fea5d5f0139",
+    "name": "Kinsley Hunter",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Hunter serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "85e06668-9c6c-41d4-be74-65b87c03129b",
+    "name": "Virginia Coleman",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Virginia Coleman brings charisma and vocal expertise to the ship's entertainment lineup.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "14d9f700-59ac-4f2c-b08a-88ac7a569030",
+    "name": "Alexander Hunter",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Alexander Hunter enriches onboard ambiance through skilled instrumental and vocal performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "6533af19-e2d7-42dd-be55-c9c2a454c25e",
+    "name": "David Jennings",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 5 years of professional training in {danceStyle} and contemporary dance, David Jennings executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "1e455e71-8e98-46a9-a1da-84c770a60321",
+    "name": "Joel Graham",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Joel Graham collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 16 years of experience in stage production.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d7733d2a-657c-435e-affb-ab7fdf5922e6",
+    "name": "Brenda Fisher",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 21 years on the comedy circuit, Brenda Fisher offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d01c9667-ee73-419b-9c77-f82dea6c5cc7",
+    "name": "Juan Hawkins",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "With 11 years honing the art of illusion, Juan Hawkins performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "39658070-ac28-4bcc-a76c-69db3f9b1690",
+    "name": "Katherine Foster",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Katherine Foster utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 17 years of club experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b49aa5cb-a423-49e0-8562-d19f2c984b5e",
+    "name": "Walter Curtis",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Walter Curtis supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "2ef0a058-c8c9-480b-9d8f-fbe17f5580da",
+    "name": "Matthew Harper",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Matthew Harper applies 10 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8eb5a087-53b3-46f1-b758-09816d99062a",
+    "name": "Joshua Harper",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 22 years in professional stage management, Joshua Harper meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b8066a58-b203-47a5-8c76-3348e1d3c5b5",
+    "name": "Emily Charlotte",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Emily Charlotte's strategic planning and problem-solving skills, developed over 18 years, are crucial for the successful execution of a high-quality entertainment program.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "835df706-3d26-4387-a1f3-a9eefd365526",
+    "name": "Anna Porter",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Porter creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c4b4ff95-574a-49be-b419-36ad859e181c",
+    "name": "Elizabeth Cooper",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Elizabeth Cooper promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "54bbafb4-2bb9-46df-a3e8-46caf920d61d",
+    "name": "Steven Jennings",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Jennings delivers unique and innovative acts, blending multiple disciplines with 15 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "1f89d555-c64f-4080-b184-036047a92cad",
+    "name": "Edward Sutton",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Sutton is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e767fe44-fb84-4836-8b49-e805801e950a",
+    "name": "Nathan Griffin",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Nathan Griffin's expertise in procurement and vendor management, developed over 4 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7cb5a7dd-c009-48e2-9c27-acb74dfa938f",
+    "name": "Ellie Murray",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 13 years in inventory management, Ellie Murray meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a0e5a625-e686-47c1-b2e2-6deffc8a18a7",
+    "name": "Logan Wallace",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Logan Wallace's sharp negotiation skills and 13 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7fc5398f-96b7-4aca-9d9a-6f66af5bce72",
+    "name": "Ellie Dean",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Ellie Dean promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Miami",
+    "country": "United States",
+    "region": "Florida"
+  }
 ];

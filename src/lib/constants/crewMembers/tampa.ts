@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Tampa
+    // Generated on: 2025-06-10T03:41:38.307Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const tampaTeamMembers: CrewMember[] = [
   {
-    name: "Randy Graves",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Graves's strategic decision-making and crisis management skills, honed over 18 years, ensure smooth and safe voyages throughout Caribbean.",
-    languages: ["English", "French", "Guarani"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/50.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Gabriel Knight",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Gabriel Knight, with 6 years navigating Caribbean, plays a vital role in safety drills, crew training, and maintaining navigational equipment.",
-    languages: ["English", "Haitian", "French"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Dorothy Ellis",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Dorothy Ellis plays a critical role in voyage planning and watchkeeping, backed by 3 years ensuring operational integrity in Caribbean.",
-    languages: ["English", "French", "Aymara"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Samantha Harper",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Samantha Harper's expertise in safety and lifesaving equipment maintenance comes from 13 years at sea within Caribbean, ensuring crew and passenger preparedness.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jennifer Henderson",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Experienced in electronic chart systems (ECDIS) and radar, Jennifer Henderson has 4 years navigating the complex and often congested waters of Caribbean.",
-    languages: ["English", "French", "Haitian"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Isabella Grant",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Safety Officer Grant documents incidents and implements corrective actions to continuously improve onboard safety performance.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Louis Dean",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Deck Cadet Dean learns shipboard operations under experienced officers, preparing for a future leadership role in Caribbean waters.",
-    languages: ["English", "French", "Quechua"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Skylar Russell",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Leveraging 13 years of seamanship, Bosun Russell is an expert in rigging, anchoring, and all aspects of deck machinery operation in Caribbean.",
-    languages: ["English", "Quechua", "Spanish"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Dylan Henderson",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Henderson's extensive 13-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
-    languages: ["English", "Quechua", "Guarani"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Timothy Sutton",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With 4 years in marine engineering, Timothy Sutton excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
-    languages: ["English", "Portuguese", "Guarani"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Elizabeth Knight",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Second Engineer Knight conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    languages: ["English", "Haitian", "Aymara", "Guarani"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Maya Douglas",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "With 14 years designing, installing, and maintaining vessel electrical infrastructure, Maya Douglas ensures continuous power supply and safety.",
-    languages: ["English", "Portuguese", "Guarani", "Haitian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Diego Baker",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Diego Baker's problem-solving abilities are crucial for addressing unexpected mechanical challenges, ensuring vessel safety and uptime through 19 years of service.",
-    languages: ["English", "Guarani", "Spanish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Audrey Douglas",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Audrey Douglas monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Amina Hudson",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Amina Hudson conducts environmental impact assessments to support sustainable voyage planning and operational improvements.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Henry Parker",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Drawing upon 18 years, Henry Parker specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
-    languages: ["English", "Aymara", "Quechua", "Portuguese"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Adam Gibson",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Technical Manager Gibson oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
-    languages: ["English", "Quechua", "Haitian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Deborah Griffin",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Maintenance Engineer Griffin troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Christian Dunn",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Known for decisive leadership, Christian Dunn fosters a culture of vigilance and continuous improvement in maritime security standards.",
-    languages: ["English", "Aymara", "Guarani"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Avery Crawford",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Avery Crawford conducts routine security patrols and enforces safety regulations, backed by 17 years in maritime security operations and incident response.",
-    languages: ["English", "Quechua", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Chloe Harper",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Chloe Harper provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
-    languages: ["English", "French", "Haitian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Virginia Hall",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Leveraging 13 years in cyber defense, Virginia Hall specializes in securing operational technology (OT) unique to maritime assets.",
-    languages: ["English", "Aymara", "French", "Haitian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Cynthia Graves",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "With 22 years in the role, Cynthia Graves is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
-    languages: ["English", "Quechua", "Spanish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Dennis Crawford",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Access Control Officer Crawford manages secure boarding and access with 22 years maintaining maritime entry protocols and identification verification.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Walter Ellis",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Safety Compliance Officer Ellis promotes a safety-first culture through continuous education and enforcement of best practices.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Nora Nash",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Committed to positive youth engagement, Nora Nash integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
-    languages: ["English", "Quechua", "French"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Samantha Mitchell",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Leveraging 21 years in family entertainment, Samantha Mitchell curates a diverse schedule of events appealing to all members of the family.",
-    languages: ["English", "Haitian", "Spanish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Donna Cooper",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "With strong interpersonal skills, Donna Cooper ensures a safe and welcoming environment for all child participants.",
-    languages: ["English", "French", "Quechua"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Mia Campbell",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Focused on safety and inclusivity, Mia Campbell maintains open communication with parents and guardians regarding teen program activities.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jessica Marshall",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Educational Program Manager Marshall coordinates with external educators and experts to deliver diverse and culturally relevant content.",
-    languages: ["English", "Guarani", "French"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Helen Keller",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Helen Keller provides attentive care and supervision for young passengers, backed by 10 years in professional child care and early childhood education.",
-    languages: ["English", "French", "Haitian", "Spanish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jennifer Reed",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "With strong organizational skills, Jennifer Reed manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    languages: ["English", "Guarani", "Quechua"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Betty Douglas",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Betty Douglas teaches water sports safely and effectively, leveraging 11 years of professional instruction and certification in aquatic activities.",
-    languages: ["English", "Aymara", "French"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Isabella Hudson",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Isabella Hudson is passionate about inspiring guests to discover the joy of movement, bringing energy and expertise from 14 years in the fitness industry.",
-    languages: ["English", "Portuguese", "Haitian", "Aymara"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/85.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Amina Stewart",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Excursion Coordinator Stewart plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
-    languages: ["English", "Haitian", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Kenneth Morgan",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Drawing on 4 years behind the lens, Kenneth Morgan expertly captures the essence of the cruise experience, from grand events to intimate moments.",
-    languages: ["English", "Haitian", "Aymara", "Quechua"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Elizabeth West",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "With a strong understanding of narrative flow and audience engagement, Elizabeth West produces videos for promotional and archival purposes.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Frank Montgomery",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Known for technical proficiency and creative vision, Frank Montgomery collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    languages: ["English", "Haitian", "Quechua"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Jeremy Wells",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Jeremy Wells oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
-    languages: ["English", "Haitian", "Portuguese", "Guarani"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Blake Cooper",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Dr. Cooper provides comprehensive medical care with 12 years of expertise in maritime and travel medicine, addressing acute and chronic conditions onboard.",
-    languages: ["English", "Quechua", "Haitian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Miguel West",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Known for meticulous attention to detail and a caring demeanor, Miguel West has been a vital part of shipboard medical teams for 17 years.",
-    languages: ["English", "Aymara", "French", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Alan Maxwell",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Committed to regulatory adherence, Alan Maxwell stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Sean Hunter",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Sean Hunter is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 10 years of cultivating outstanding hospitality teams.",
-    languages: ["English", "Spanish", "Guarani"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/8.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Henry Reeves",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Henry Reeves champions a guest-first culture, utilizing 19 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    languages: ["English", "Quechua", "Portuguese"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Russell Crawford",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Russell Crawford ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    languages: ["English", "Quechua", "Portuguese", "Guarani"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/13.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Rebecca West",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Rebecca West provides exceptional valet services and anticipates guest needs, contributing to a luxurious and comfortable onboard experience over 3 years.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Andrew Gardner",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Butler Gardner provides personalized guest services, backed by 5 years of elite hospitality expertise.",
-    languages: ["English", "Portuguese", "Guarani", "Haitian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Amanda Sutton",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Amanda Sutton oversees accommodation services, ensuring comfort and efficiency with 3 years in maritime hospitality.",
-    languages: ["English", "Aymara", "French", "Quechua"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Avery Hawkins",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Avery Hawkins manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 3 years of leadership.",
-    languages: ["English", "Guarani", "Quechua", "Haitian"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Lucas Watson",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "With 22 years providing frontline support, Lucas Watson is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    languages: ["English", "Spanish", "Guarani"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/90.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Ella Hunter",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Ella Hunter leverages 22 years of service to provide exceptional concierge support onboard.",
-    languages: ["English", "Haitian", "Spanish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Alan Mason",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Mason oversees reception operations, ensuring efficient guest check-in and issue resolution.",
-    languages: ["English", "Haitian", "French", "Aymara"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Rebecca Russell",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "VIP Coordinator Russell manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
-    languages: ["English", "Haitian", "Spanish"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Liam Porter",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Porter focuses on enhancing guest service quality through targeted education and coaching.",
-    languages: ["English", "Guarani", "French"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/29.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Kennedy Griffin",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Beyond crafting exquisite Asian fusion, Chef Griffin expertly manages kitchen hygiene, inventory, and food cost control, honed over 13 years in demanding culinary environments.",
-    languages: ["English", "Guarani", "Aymara"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Cynthia West",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Cynthia West trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 21 years of mentorship.",
-    languages: ["English", "Haitian", "Quechua", "Aymara"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Patricia Coleman",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Patricia Coleman manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 5 years.",
-    languages: ["English", "Quechua", "Guarani", "Aymara"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Eleanor Hall",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "With 17 years as a section chef, Eleanor Hall is responsible for stock control and guiding commis chefs within their designated area of the Pacific Rim kitchen.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Peter Carpenter",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Specialty Chef Carpenter brings innovation and authenticity to the onboard dining experience.",
-    languages: ["English", "Spanish", "Aymara"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Genesis Lawson",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Lawson manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 7 years of Japanese culinary excellence.",
-    languages: ["English", "Spanish", "Quechua", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Aaron Hudson",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Hudson expertly prepares cold dishes and appetizers with 11 years of culinary proficiency.",
-    languages: ["English", "Aymara", "Guarani", "Haitian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Dylan Watson",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Butcher Watson ensures quality meat preparation, supported by 17 years of skilled butchery work.",
-    languages: ["English", "Quechua", "Portuguese", "Spanish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Willie Bennett",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "With 6 years dedicated to the art of baking, Willie Bennett fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    languages: ["English", "Spanish", "Portuguese", "Haitian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Victoria Day",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Certified Sommelier Day navigates an extensive cellar to find the perfect wine for every palate and Latin American, drawing on 8 years of oenological expertise.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Scarlett Murray",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "With 13 years behind the bar, Scarlett Murray designs innovative signature cocktails and perfectly executes classic recipes using premium spirits and fresh ingredients.",
-    languages: ["English", "Aymara", "Quechua"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Randy Baker",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Randy Baker combines artistry and technique to serve quality espresso and coffee beverages.",
-    languages: ["English", "Portuguese", "Guarani"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/12.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Paul Cooper",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Nutritionist Cooper works closely with the culinary team to create wholesome Japanese options that are both flavorful and aligned with wellness goals, drawing on 6 years of expertise.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Joan Lawson",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "With 11 years orchestrating spectacular onboard entertainment, Joan Lawson manages everything from Broadway-style shows to intimate musical performances and themed parties.",
-    languages: ["English", "Guarani", "Haitian", "Spanish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Ralph Wells",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Performance Coordinator Wells supports talent and technical teams to deliver seamless shows.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Angela Hudson",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Lead Vocalist Hudson captivates audiences with dynamic performances, backed by 12 years of professional singing.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Isabella Collins",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "A master of the {instrument}, Isabella Collins brings 11 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    languages: ["English", "Aymara", "Spanish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Eleanor Spencer",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Eleanor Spencer engages audiences with versatile dance styles across entertainment programs.",
-    languages: ["English", "Quechua", "Spanish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Antonio Warren",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Choreographer Warren works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 17 years of artistic direction.",
-    languages: ["English", "Guarani", "French", "Quechua"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Christine Hamilton",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Christine Hamilton's ability to connect with the audience and improvise, developed over 7 years, makes each show a unique and highly enjoyable experience.",
-    languages: ["English", "Guarani", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Evelyn Nash",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Evelyn Nash blends showmanship and technique to deliver captivating magic shows at sea.",
-    languages: ["English", "Portuguese", "Guarani", "Aymara"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Benjamin Montgomery",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "Benjamin Montgomery keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Brandon Hudson",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Brandon Hudson's keen ear and technical proficiency, developed over 13 years, are essential for delivering immersive and high-quality auditory experiences.",
-    languages: ["English", "Haitian", "French"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Joan Ellis",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Ellis designs and operates lighting systems to enhance onboard shows and events.",
-    languages: ["English", "Guarani", "Portuguese", "Spanish"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Johnny Graham",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "With 20 years in professional stage management, Johnny Graham meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    languages: ["English", "Haitian", "Quechua"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Nathan Hayes",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Nathan Hayes's strategic planning and problem-solving skills, developed over 21 years, are crucial for the successful execution of a high-quality entertainment program.",
-    languages: ["English", "Haitian", "Guarani", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Eric Parker",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "With 5 years of experience in theatrical costume design, Eric Parker conceives and produces stunning wardrobes that define characters and elevate productions.",
-    languages: ["English", "Aymara", "Portuguese", "French"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Katherine Porter",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Cultural Program Director Porter curates culturally enriching events and experiences for guests.",
-    languages: ["English", "Spanish", "Haitian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "George Carpenter",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Performance Artist Carpenter combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    languages: ["English", "Aymara", "Portuguese"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Michelle Chambers",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "With 9 years streamlining vessel-wide processes, Michelle Chambers ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
-    languages: ["English", "Spanish", "Portuguese"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Betty Curtis",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Logistics Coordinator Curtis meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
-    languages: ["English", "Portuguese", "Quechua"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Diego Knight",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Inventory Specialist Knight tracks and manages stock levels, maintaining operational readiness.",
-    languages: ["English", "Guarani", "Haitian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Victor Grant",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Victor Grant applies expertise in vendor management and cost optimization to benefit ship operations.",
-    languages: ["English", "Aymara", "French"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
-  {
-    name: "Caroline Clark",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Sustainability Coordinator Clark implements green initiatives to minimize environmental impact.",
-    languages: ["English", "Quechua", "Portuguese"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    city: "Tampa",
-    country: "United States",
-    region: "Caribbean",
-  },
+    "id": "7e45b6d7-fb2e-421a-aa5a-96961c9f8118",
+    "name": "Terry Mitchell",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Mitchell's strategic decision-making and crisis management skills, honed over 21 years, ensure smooth and safe voyages throughout Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b8422842-7d15-449f-bd4d-30d17029a2ec",
+    "name": "Nicholas Hall",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Former firefighting officer Nicholas Hall brings exceptional navigational precision and leadership with 19 years sailing throughout Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "941511bc-6117-4b78-a418-4165ea86e433",
+    "name": "Liam Curtis",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Liam Curtis ensures compliance with navigation protocols and supports bridge team operations, leveraging 18 years in maritime operations across Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e1d178c9-8b9f-4ea3-8151-bc25a59ad824",
+    "name": "Bryan Parker",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Third Officer Parker assists with cargo operations and ballast management, a key part of their 20 years of development in Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b76dd84c-6466-4ba8-9e48-d18f43a677a8",
+    "name": "Daniel Lawson",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Daniel Lawson plays a key role in training junior officers on Florida-specific navigational challenges and best practices, backed by 14 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a955c8fd-779f-4eb7-a041-71702dfac0f4",
+    "name": "Amelia Dixon",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Amelia Dixon stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "1d5a5c34-7b76-4ef7-a7cc-9b889631ebcf",
+    "name": "Ellie Griffin",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Ellie Griffin, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Florida maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "0b291ce2-c75b-4f97-9355-96af306b4d92",
+    "name": "Austin Baker",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Baker supervises deck crew operations with 8 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in Florida.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ffdb42cd-9b3a-4894-ac99-35586cd15252",
+    "name": "Jennifer Parker",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Jennifer Parker oversees all vessel systems with 6 years of expertise in maritime engineering, specializing in vessel automation and ensuring compliance with safety and environmental regulations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "115a533a-d46f-48eb-848c-e3dfbb89163a",
+    "name": "Sean Dunn",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With 5 years in marine engineering, Sean Dunn excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "4ad77e74-6937-493b-9b2d-0a23236054ac",
+    "name": "Oliver West",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Oliver West's 3 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "29600615-db75-43b3-81e9-6ed6b04a68f2",
+    "name": "Noah Watson",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 16 years, Noah Watson ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "03afd210-304f-4351-b641-2edea5e84b12",
+    "name": "Lily Foster",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Foster collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e8915b4a-0719-43ca-a9a8-f60dcbd9119c",
+    "name": "Caroline Douglas",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Douglas coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7e39dc5f-e3b8-4bbe-97dc-5c75a2e1bde8",
+    "name": "Daniel Fisher",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Fisher monitors emissions and advises on strategies to minimize the vessel’s environmental footprint.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5870c703-750e-48ca-a927-445f54a7fe73",
+    "name": "Scarlett Holloway",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing upon 10 years, Scarlett Holloway specializes in the architecture and maintenance of integrated automation systems (IAS) critical for modern vessel operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "1baf8289-fc1e-4a5d-958e-0771685aad90",
+    "name": "Justin Fisher",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With 13 years leading technical teams, Justin Fisher ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "439fda7f-d198-49ca-813a-062f03957bb8",
+    "name": "Frank Reed",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Frank Reed meticulously documents all maintenance activities, ensuring a comprehensive history for all critical machinery, built over 17 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8b6d85a8-b13e-43a6-ac46-0651c5389d4d",
+    "name": "George Keller",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "George Keller oversees all security operations with 13 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "640c8572-09d2-4016-a435-c0cbba8f15c7",
+    "name": "Gabriella Clark",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Clark is proficient in emergency communication procedures and crowd management, vital skills honed over 16 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "23f0d64b-a653-4c3a-9c2f-7f710fbdb538",
+    "name": "Savannah Wallace",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Wallace designs and delivers bespoke security training programs for crew members, reflecting 4 years of practical insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "372f1951-9bd1-43a0-976e-00797e9e5af5",
+    "name": "Nicholas Coleman",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Leveraging 17 years in cyber defense, Nicholas Coleman specializes in securing operational technology (OT) unique to maritime assets.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a22b564a-f50e-42e1-883e-fd65372d55c4",
+    "name": "Dennis Hudson",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Dennis Hudson's 15 years include expertise in crisis communication and liaising with flag state and port state control on security matters.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "0ac1b16d-b49e-4b78-ac1c-8ce5a078ba6f",
+    "name": "Leah Bennett",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Bennett manages secure boarding and access with 21 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8f7d5a27-960f-45f4-8e50-6e2e261f5f77",
+    "name": "Chen Warren",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Chen Warren works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7b9d5a68-c022-47f2-a5f5-b4be1ddeaf29",
+    "name": "Wei Warren",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With 5 years shaping children's experiences at sea, Wei Warren excels at creating memorable and enriching programs for all age groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "3f836ab8-265c-4c45-aedb-5d9a18f4a77e",
+    "name": "Dorothy Hayes",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Hayes gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "757ae974-63c8-4a47-9073-cd89b99d0811",
+    "name": "Philip Henderson",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Philip Henderson engages young guests with creative entertainment programs, leveraging 22 years in children’s recreational services and event planning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "518cb1e3-cbf0-4751-954d-5a398a01fa24",
+    "name": "Sophia Russell",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "With knowledge of adolescent development, Sophia Russell balances fun and educational content to engage teens effectively onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "6b31fe99-ae00-4fd0-adfc-91215603860f",
+    "name": "Keith Hudson",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Keith Hudson ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b30e2a12-3abd-4690-9c3e-24e8b03ffd31",
+    "name": "Marcus Maxwell",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Maxwell ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7368e8b9-5f04-4cb7-90a4-2fa9558f82b6",
+    "name": "Scott Holloway",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Scott Holloway, with 12 years in the cruise industry, expertly blends classic cruise activities with fresh, innovative entertainment options.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "51eb39b2-faae-4c65-b21c-bfc069500c8d",
+    "name": "Joe Morgan",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Morgan ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/27.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "83ab7043-a27b-4b45-9fd8-1debfc22be7b",
+    "name": "Lawrence Knight",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 4 years of expertise, Lawrence Knight offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/45.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "97be627b-d164-4a51-a9da-12fcd568bbb7",
+    "name": "Zola Holloway",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Holloway prioritizes compliance with local regulations and emergency preparedness during all shore activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "737e08f2-f3b1-44dd-9e49-ce6fa8e8743a",
+    "name": "Carlos Fletcher",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Fletcher's portfolio showcases 12 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d9c20760-71f9-465f-a484-2ee14dd35964",
+    "name": "Zola Graves",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Zola Graves uses 14 years of editing expertise to transform raw footage into engaging narratives that resonate with passengers and promote future voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8a779a99-1688-48e1-a217-cfccdcc48312",
+    "name": "Hannah Dean",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Dean analyzes content performance and audience metrics to optimize digital strategies and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "8c4e5378-189a-4c8c-817a-34ba0a8978d2",
+    "name": "Joseph Collins",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "With extensive knowledge in maritime medicine and emergency response, Joseph Collins ensures readiness for diverse medical situations at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "a87f96dc-3906-4659-952a-d315e2904606",
+    "name": "Aiden Nash",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Known for calm professionalism, Dr. Nash leads medical emergency interventions and coordinates evacuation when necessary.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "601b7c1f-23d1-44c4-9f6e-b46cc6904907",
+    "name": "Gregory Mason",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Gregory Mason has been a vital part of shipboard medical teams for 5 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "931ec431-2026-4861-aadd-be9e77cc611a",
+    "name": "Stephen Campbell",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to regulatory adherence, Stephen Campbell stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "2fb0f53f-51ef-4828-9638-9e9ae401adc3",
+    "name": "Lucas Bennett",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Lucas Bennett manages all hospitality services, ensuring exceptional guest experiences with 17 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "2f45bb3a-1600-4820-abe3-d3b05a242c7a",
+    "name": "Edward Dunn",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Dunn enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "825b1088-8744-4ede-bc7d-a94265dd2861",
+    "name": "Harper Keller",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 19 years leading stewardship teams, Chief Steward Keller meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "177f1139-561c-4741-8f2c-cfc9f4adc43e",
+    "name": "Mark Nash",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Nash delivers attentive guest services and supports stewardship operations, drawing on 3 years onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "50a4c131-4fd0-42a2-ae21-9a982d77e5b9",
+    "name": "Rajesh Hunter",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Rajesh Hunter anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ec5f91cd-12a4-413d-9b54-e3f5321d8dd1",
+    "name": "James Chambers",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "James Chambers expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 8 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c9a7e632-2956-41b4-ae93-eb3a5aa6555b",
+    "name": "Bruce Olivia",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "With a keen eye for detail developed over 4 years, Housekeeping Supervisor Olivia conducts rigorous inspections to uphold pristine conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "0adbe9ea-4faf-4d1c-870c-596516488202",
+    "name": "Edward Reed",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "With 21 years providing frontline support, Edward Reed is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "5b9327e3-9336-4059-a2e0-9642d4a8683f",
+    "name": "Timothy Hunter",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Hunter offers expert local knowledge and personalized recommendations to enrich guest journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "244d4b59-d5d9-4f40-b380-aebb187f70e9",
+    "name": "Victoria Campbell",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Victoria Campbell is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 22 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "766e29d4-ba5a-42a5-a521-487b61300d7e",
+    "name": "Wei Griffin",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Wei Griffin's expertise over 16 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b6278871-1e0f-450f-b92d-b35b5bb3488b",
+    "name": "Liam Reeves",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Reeves specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 19 years of industry best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "89eadd11-6fe0-4f8a-8da7-b5118993a1d9",
+    "name": "Caroline Chambers",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Executive Chef Chambers leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 12 years of innovative leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "88d57334-3011-4a80-8077-e6e821fa8249",
+    "name": "Layla West",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "As second-in-command, Sous Chef West ensures seamless kitchen workflow and consistent dish quality, drawing on 15 years of hands-on Italian experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "b27bde40-47d5-4b0c-8404-e5e3dc0bc80f",
+    "name": "Carl Jennings",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Carl Jennings manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 7 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "58740815-4d81-46c2-97a4-32184312bce6",
+    "name": "Adeline Spencer",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Adeline Spencer ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e82e5502-94f6-4bdf-aef6-6d43ecd78ca7",
+    "name": "Samantha Knight",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Knight brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "799af6b2-99e9-4e40-871f-c8caa20c02a4",
+    "name": "Joel Keller",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Keller manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 12 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d067be93-1bc7-4964-a634-8faa3d2aa1df",
+    "name": "Riley Warren",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Riley Warren maintains high standards in food presentation and safety for all cold kitchen offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "49133597-21a7-40f9-8fb9-af0e73b3dce0",
+    "name": "Eric Fisher",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Eric Fisher maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 9 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c3dea367-d9e6-4433-9a27-ea2c5f5e5916",
+    "name": "Anna Bennett",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Anna Bennett combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "510177e8-fcb9-4396-b6a1-87f78b3c43ec",
+    "name": "Adeline Olivia",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Adeline Olivia enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/0.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "f1cf6e63-91f5-4030-bb77-31d2c973ad1f",
+    "name": "Donna Murray",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Murray crafts creative cocktails, combining flavor expertise with 12 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "be827d47-0577-4ef9-83e7-cbbf8a496033",
+    "name": "Ashley Hall",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Hall ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 4 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "adc29fd4-ed7a-4bff-838e-b0211736356e",
+    "name": "Matthew Reed",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Matthew Reed conducts onboard wellness seminars and workshops, empowering guests with nutritional knowledge gained over 20 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "c4e54f15-810b-4c8a-925e-6f4fe6837a35",
+    "name": "Keith Wells",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 11 years orchestrating spectacular onboard entertainment, Keith Wells manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "4b08da4b-c4d3-4eb8-b601-fbe9e88b560f",
+    "name": "Audrey Maxwell",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Audrey Maxwell manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "7b45f0f9-06da-487b-aa40-9c3ff7729273",
+    "name": "Samantha Fisher",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "As a key figure in production shows, Lead Vocalist Fisher collaborates with the cast and creative team, bringing 7 years of professional discipline and artistry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "9221fa23-220f-4259-897b-01f96da6b9fc",
+    "name": "David Nash",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Nash performs live music across genres, engaging guests with 6 years of performance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "f97813a9-1bfd-4871-aab9-ac347395654f",
+    "name": "Sandra Harper",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Harper delivers energetic and polished routines, drawing on 21 years of dance training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/22.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "bf0d18c1-56d1-426c-ab5e-e83352edd919",
+    "name": "Margaret Bennett",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "With an innovative vision and 11 years in professional choreography, Margaret Bennett designs dynamic and original dance pieces for production shows and special events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "81bd5fb4-e5ca-489d-a350-19247f7d630e",
+    "name": "Willie Coleman",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Willie Coleman's ability to connect with the audience and improvise, developed over 16 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "870950b1-2edf-4583-93e9-55b6d76fa23e",
+    "name": "Madelyn Fisher",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Fisher combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "6981a53a-e744-4ee7-ae44-e4f88e654183",
+    "name": "Aiden Ellis",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Ellis stays current with music trends while also mastering classics, offering 21 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "657beac5-cccf-4144-bc16-acbc7c197c68",
+    "name": "Kenneth Crawford",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Kenneth Crawford supports entertainment events with technical expertise in live sound engineering.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "45d63ea2-0bb8-4673-97fc-7b912d95df7c",
+    "name": "Alexa Dixon",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Alexa Dixon applies 5 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "91f035ce-ed27-4338-b661-748b046d771f",
+    "name": "Jose Parker",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "With 11 years in professional stage management, Jose Parker meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "ef1ff054-24fd-4f53-9879-5b55577fb093",
+    "name": "Gregory Ellis",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Ellis collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d7b3b30e-8c43-492b-926a-f9b6da911131",
+    "name": "Noah Hamilton",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 9 years of experience in theatrical costume design, Noah Hamilton conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "23c7469e-0d19-4975-a803-738bcf4e2743",
+    "name": "Abigail Dean",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 20 years in arts and cultural programming, Abigail Dean develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "d77272da-f040-47c0-ac90-1d14fa01d742",
+    "name": "Larry Keller",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "A specialist in {artisticDiscipline}, Larry Keller presents breathtaking and thought-provoking performances honed over 17 years of dedicated artistic exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "e046dbc3-4aea-412d-960e-1421d0213326",
+    "name": "Joshua Russell",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Russell is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/19.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "9df5026b-ba74-49d1-80f8-ec95d2c24735",
+    "name": "Stephen Mason",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Stephen Mason's expertise in procurement and vendor management, developed over 10 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "63c5dcd8-ed54-4452-9205-183d1fd49d43",
+    "name": "Noah Morgan",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Morgan implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "3cc59e12-32d1-414b-b255-733290b34f0f",
+    "name": "Christopher Hawkins",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Hawkins manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  },
+  {
+    "id": "f6f9c15b-9181-4804-97b8-269abb859f6f",
+    "name": "Gary Henderson",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 15 years dedicated to environmental stewardship in the maritime sector, Gary Henderson develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Tampa",
+    "country": "United States",
+    "region": "Florida"
+  }
 ];

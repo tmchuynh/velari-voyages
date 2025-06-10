@@ -1,1060 +1,1594 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Sydney
+    // Generated on: 2025-06-10T03:41:38.306Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const sydneyTeamMembers: CrewMember[] = [
   {
-    name: "Brandon Day",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Day's strategic decision-making and crisis management skills, honed over 10 years, ensure smooth and safe voyages throughout Asia Pacific.",
-    languages: ["Malay", "Indonesian", "Urdu", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Barbara Marshall",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "First Officer Marshall's 11-year background includes robust training in advanced navigation systems and crew supervision within Asia Pacific.",
-    languages: ["Hindi", "Malay", "Tagalog", "Thai", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Zola Spencer",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Second Officer Spencer is adept at monitoring vessel position and environmental conditions, contributing to safe passage through Asia Pacific.",
-    languages: ["Hindi", "Bengali", "Thai", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/25.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Cynthia Hayes",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Cynthia Hayes supports communication and lookout duties during watches, maintaining high situational awareness in Asia Pacific's maritime environment.",
-    languages: ["Indonesian", "Hindi", "Vietnamese", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Richard Clark",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Navigation Officer Clark ensures all navigational equipment is calibrated and fully operational, leveraging 11 years of technical expertise in Asia Pacific.",
-    languages: ["Thai", "Bengali", "Indonesian", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Abigail Day",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Abigail Day enforces safety standards and conducts training programs, drawing on 4 years of maritime safety expertise to minimize risks onboard.",
-    languages: ["Bengali", "Urdu", "Japanese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Scarlett Gibson",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Under the guidance of senior officers, Deck Cadet Gibson is developing a strong foundation in practical navigation and ship handling in Asia Pacific.",
-    languages: ["Japanese", "Tagalog", "Hindi", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jesse Mason",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Jesse Mason's leadership ensures the deck department operates efficiently and safely, drawing from 15 years of hands-on experience in Asia Pacific.",
-    languages: ["Hindi", "Thai", "Japanese", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nancy Fisher",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Fisher manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    languages: ["Urdu", "Indonesian", "Tagalog", "Malay", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joshua Cooper",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "First Engineer Cooper is responsible for the main propulsion machinery and auxiliary systems, bringing 3 years of hands-on expertise.",
-    languages: ["Chinese", "Japanese", "Korean", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jennifer Baker",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Second Engineer Baker conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
-    languages: ["Urdu", "Korean", "Hindi", "Vietnamese", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/20.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Richard Chambers",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "With 9 years designing, installing, and maintaining vessel electrical infrastructure, Richard Chambers ensures continuous power supply and safety.",
-    languages: ["Bengali", "Malay", "Urdu", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sarah Gardner",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "With 22 years of mechanical expertise, Sarah Gardner maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    languages: ["Bengali", "Korean", "Chinese", "Hindi", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Naomi Nash",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Naomi Nash designs, installs, and maintains heating, ventilation, and air conditioning systems with 16 years of maritime specialization.",
-    languages: ["Bengali", "Korean", "Vietnamese", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Steven Reed",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "With in-depth knowledge of MARPOL regulations, Steven Reed leads training and awareness programs on environmental best practices among crew members.",
-    languages: ["Chinese", "Hindi", "Urdu", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Isabella Spencer",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Systems Engineer Spencer collaborates across departments to implement new technologies aligned with industry standards.",
-    languages: ["Tagalog", "Hindi", "Japanese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Billy Graves",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Technical Manager Graves has 9 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
-    languages: ["Indonesian", "Hindi", "Bengali", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Louis Sutton",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Louis Sutton develops maintenance schedules and coordinates with crew to minimize downtime and extend equipment service life.",
-    languages: ["Urdu", "Indonesian", "Bengali", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Roy Murray",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Drawing on 6 years and a anti-piracy background, Roy Murray develops and executes sophisticated security plans tailored to high-risk maritime environments.",
-    languages: ["Tagalog", "Hindi", "Bengali", "Urdu", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Willie Russell",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Focused on maintaining order, Willie Russell collaborates with other departments to enhance overall passenger and crew safety.",
-    languages: ["Japanese", "Malay", "Bengali", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Henry Ellis",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Henry Ellis's 17 years include proficiency in evidence collection and report writing for maritime security incidents.",
-    languages: ["Thai", "Urdu", "Indonesian", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Alice Parker",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Cybersecurity Officer Parker protects vessel networks and data with 7 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    languages: ["Urdu", "Chinese", "Japanese", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/63.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Rajesh Wells",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Maritime Security Coordinator Wells implements compliance programs, conducts drills, and trains crew on security best practices and regulatory requirements.",
-    languages: ["Korean", "Urdu", "Hindi", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Samuel Hunter",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Samuel Hunter is trained in search procedures and contraband detection, contributing 5 years of vigilance to vessel security.",
-    languages: ["Korean", "Urdu", "Japanese", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/89.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mary Campbell",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Safety Compliance Officer Campbell is an expert in ISM, ISPS, and MLC compliance, bringing 22 years of dedicated focus to these areas.",
-    languages: ["Tagalog", "Chinese", "Japanese", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Walter Morgan",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Known for creative leadership, Walter Morgan continuously evaluates and improves youth programming to meet evolving passenger needs.",
-    languages: ["Urdu", "Thai", "Vietnamese", "Bengali", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Gabriel Dixon",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Family Activities Coordinator Dixon designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
-    languages: ["Indonesian", "Korean", "Bengali", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kinsley Parker",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Kinsley Parker is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 15 years in the field.",
-    languages: ["Urdu", "Hindi", "Tagalog", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Bryan Dixon",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Teen Activities Coordinator Dixon fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
-    languages: ["Malay", "Korean", "Vietnamese", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mateo Curtis",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "With a commitment to lifelong learning, Mateo Curtis curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
-    languages: ["Japanese", "Indonesian", "Urdu", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/1.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Roy Montgomery",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "With expertise in child health and safety protocols, Roy Montgomery manages routines and responds to individual needs of children under care.",
-    languages: ["Urdu", "Tagalog", "Malay", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Lisa Warren",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Activities Director Warren leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
-    languages: ["Urdu", "Indonesian", "Hindi", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/78.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brandon Hall",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Leveraging 21 years of experience, Brandon Hall is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
-    languages: ["Indonesian", "Japanese", "Thai", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/96.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Antonio West",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Fitness Instructor West promotes wellness and physical health through tailored exercise programs, backed by 14 years of fitness training and client engagement.",
-    languages: ["Malay", "Japanese", "Hindi", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/73.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elijah Russell",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Leveraging 21 years of experience, Elijah Russell curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
-    languages: ["Japanese", "Bengali", "Malay", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Miguel Gibson",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Lead Photographer Gibson manages photographic equipment, editing workflows, and passenger portrait sessions with precision and professionalism.",
-    languages: ["Malay", "Korean", "Tagalog", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Margaret Campbell",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Margaret Campbell documents ship activities, excursions, and special events, delivering high-quality video content with 18 years of professional videography experience.",
-    languages: ["Tagalog", "Indonesian", "Chinese", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Caroline Baker",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "With expertise in social media, video editing, and graphic design, Caroline Baker drives effective digital campaigns that promote the voyage experience.",
-    languages: ["Japanese", "Hindi", "Urdu", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Roger Harper",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Chief Medical Officer Harper maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
-    languages: ["Vietnamese", "Urdu", "Korean", "Tagalog", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Michelle Payne",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Ship's Doctor Payne is skilled in minor surgical procedures and advanced cardiac life support, bringing 13 years of critical care experience.",
-    languages: ["Japanese", "Vietnamese", "Korean", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nicole Price",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "With 22 years of experience, Nicole Price is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
-    languages: ["Tagalog", "Indonesian", "Malay", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mark Day",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Committed to regulatory adherence, Mark Day stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    languages: ["Urdu", "Japanese", "Indonesian", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/19.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Alan Dunn",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Alan Dunn is dedicated to fostering a welcoming and memorable atmosphere for all guests, drawing upon 11 years of cultivating outstanding hospitality teams.",
-    languages: ["Hindi", "Malay", "Indonesian", "Tagalog", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Scarlett Montgomery",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Guest Relations Manager Montgomery is adept at handling complex guest inquiries and ensuring swift, satisfactory resolutions, fostering loyalty and positive experiences.",
-    languages: ["Malay", "Japanese", "Indonesian", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Maria Fisher",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Maria Fisher excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 6 years of dedication.",
-    languages: ["Hindi", "Bengali", "Urdu", "Malay", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Austin Foster",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Senior Steward Foster also assists in training junior stewards, sharing expertise gained from 11 years in maritime hospitality.",
-    languages: ["Japanese", "Bengali", "Tagalog", "Thai", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jane Price",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Jane Price crafts unforgettable moments for discerning guests, drawing on 14 years of experience in curating exclusive and seamless luxury service.",
-    languages: ["Vietnamese", "Bengali", "Malay", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/13.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Priya Warren",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Priya Warren expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 18 years of experience.",
-    languages: ["Tagalog", "Malay", "Thai", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Vincent Montgomery",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Vincent Montgomery ensures smooth operations and staff training, supported by 11 years in hospitality management.",
-    languages: ["Bengali", "Chinese", "Malay", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Paul Nash",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Paul Nash assists guests with inquiries and special requests, drawing on 7 years in customer service roles.",
-    languages: ["Bengali", "Tagalog", "Thai", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aaron Warren",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Aaron Warren acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    languages: ["Tagalog", "Indonesian", "Chinese", "Vietnamese", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Caroline Jennings",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Caroline Jennings is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 3 years in the field.",
-    languages: ["Malay", "Tagalog", "Hindi", "Chinese", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Luis Ellis",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "Luis Ellis's expertise over 18 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    languages: ["Vietnamese", "Bengali", "Indonesian", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brian Crawford",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Crawford focuses on enhancing guest service quality through targeted education and coaching.",
-    languages: ["Malay", "Japanese", "Tagalog", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stella Porter",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Mastering Japanese and international gastronomy, Stella Porter ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 4 years of award-winning experience.",
-    languages: ["Indonesian", "Japanese", "Vietnamese", "Hindi", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sofia Fletcher",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Sous Chef Fletcher supports kitchen operations with 21 years of culinary expertise and leadership.",
-    languages: ["Korean", "Chinese", "Thai", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Abigail Knight",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "With a passion for sweet masterpieces, Pastry Chef Knight continually develops new recipes, delighting guests with 14 years of dedication to the art of patisserie.",
-    languages: ["Tagalog", "Indonesian", "Vietnamese", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Thabo Curtis",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Curtis manages specific kitchen stations with 4 years of focused culinary skill.",
-    languages: ["Malay", "Urdu", "Vietnamese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kyle Sutton",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "With 8 years perfecting {cuisineSpecific} artistry, Kyle Sutton ensures each plate is a true representation of its cultural heritage and bold flavors.",
-    languages: ["Thai", "Urdu", "Korean", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Matthew Hayes",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Matthew Hayes delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 6 years of rigorous training.",
-    languages: ["Thai", "Tagalog", "Japanese", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Lily Foster",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Foster expertly prepares cold dishes and appetizers with 11 years of culinary proficiency.",
-    languages: ["Tagalog", "Korean", "Thai", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aria Fox",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Aria Fox is responsible for precise meat cuts that meet kitchen and guest expectations.",
-    languages: ["Urdu", "Malay", "Chinese", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "William Russell",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "William Russell combines traditional techniques with innovation to delight guests with baked specialties.",
-    languages: ["Bengali", "Indonesian", "Chinese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Carol Dunn",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Sommelier Dunn curates wine selections, offering expert pairing advice with 20 years in fine wine service.",
-    languages: ["Malay", "Thai", "Bengali", "Chinese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Claire Warren",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Warren crafts creative cocktails, combining flavor expertise with 4 years of bartending skill.",
-    languages: ["Indonesian", "Vietnamese", "Bengali", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Michael Jennings",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Michael Jennings combines artistry and technique to serve quality espresso and coffee beverages.",
-    languages: ["Malay", "Korean", "Thai", "Japanese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elizabeth Wells",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "With 6 years in clinical and culinary nutrition, Elizabeth Wells provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
-    languages: ["Korean", "Indonesian", "Tagalog", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/52.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jerry Curtis",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Curtis leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 14 years of industry leadership.",
-    languages: ["Urdu", "Korean", "Malay", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/87.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Lucas Grant",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Performance Coordinator Grant serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
-    languages: ["Tagalog", "Japanese", "Thai", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aaliyah Chambers",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Aaliyah Chambers consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 9 years on stage.",
-    languages: ["Malay", "Japanese", "Korean", "Hindi", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ronald Day",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "A master of the {instrument}, Ronald Day brings 20 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    languages: ["Indonesian", "Hindi", "Thai", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ariana Grant",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "With 9 years of professional training in {danceStyle} and contemporary dance, Ariana Grant executes complex choreography with precision and artistry in mainstage productions.",
-    languages: ["Thai", "Korean", "Chinese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Charlotte Morgan",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Charlotte Morgan leads rehearsals and performance design to enhance the entertainment experience onboard.",
-    languages: ["Tagalog", "Indonesian", "Hindi", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Pamela Reeves",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Comedy Performer Reeves masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
-    languages: ["Indonesian", "Hindi", "Urdu", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/36.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mary Dixon",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Magic Act specialist Dixon mystifies audiences with skilled illusions and interactive performances.",
-    languages: ["Vietnamese", "Hindi", "Chinese", "Bengali", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Naomi Reed",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "DJ Reed stays current with music trends while also mastering classics, offering 8 years of expertise in curating unforgettable musical journeys.",
-    languages: ["Indonesian", "Bengali", "Urdu", "Chinese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Adam Baker",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Baker manages sound systems and ensures optimal audio quality for performances onboard.",
-    languages: ["Malay", "Urdu", "Korean", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jane Dean",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "With 18 years in theatrical lighting design and operation, Jane Dean transforms stages and venues with dynamic and atmospheric lighting cues.",
-    languages: ["Vietnamese", "Indonesian", "Malay", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Evelyn Curtis",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "With 9 years in professional stage management, Evelyn Curtis meticulously calls cues, manages backstage operations, and ensures the smooth running of every show.",
-    languages: ["Korean", "Tagalog", "Vietnamese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ella Gibson",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Ella Gibson's strategic planning and problem-solving skills, developed over 13 years, are crucial for the successful execution of a high-quality entertainment program.",
-    languages: ["Bengali", "Vietnamese", "Japanese", "Indonesian", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Aria Hayes",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Aria Hayes's artistic flair and attention to historical detail, honed over 10 years, bring visual richness and authenticity to the stage.",
-    languages: ["Japanese", "Tagalog", "Hindi", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mateo Day",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Mateo Day's passion for cultural exchange, cultivated over 16 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
-    languages: ["Tagalog", "Thai", "Bengali", "Malay", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Brooklyn Curtis",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "With 8 years pushing artistic boundaries, Brooklyn Curtis offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    languages: ["Vietnamese", "Tagalog", "Thai", "Chinese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Collins",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Operations Manager Collins is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
-    languages: ["Korean", "Japanese", "Vietnamese", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jose Nash",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Logistics Coordinator Nash meticulously plans and tracks shipments, manages customs documentation, and optimizes storage solutions onboard.",
-    languages: ["Korean", "Tagalog", "Bengali", "Chinese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Roy Price",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Inventory Specialist Price implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    languages: ["Bengali", "Indonesian", "Vietnamese", "Tagalog", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kyle Stewart",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Kyle Stewart applies expertise in vendor management and cost optimization to benefit ship operations.",
-    languages: ["Tagalog", "Japanese", "Thai", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Christine Carpenter",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Christine Carpenter promotes sustainable practices aligned with maritime environmental standards.",
-    languages: ["Urdu", "Bengali", "Hindi", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Sydney",
-    country: "Australia",
-    region: "Asia Pacific",
-  },
+    "id": "33c35073-0818-40a8-9ee3-ff5501f7d3c7",
+    "name": "Lily Price",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "With 12 years at sea, Captain Price is renowned for expertise in Australia navigation, crew leadership, and passenger safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "e38324ed-354c-489e-8051-d4cf5e64d242",
+    "name": "Aria Hamilton",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Hamilton's 20-year background includes robust training in advanced navigation systems and crew supervision within Australia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "8c00252e-948e-42c1-b7ab-72530417eac7",
+    "name": "Gabriel Russell",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Gabriel Russell brings 6 years of experience navigating Australia's challenging routes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "95f3f43b-c217-425e-9b14-94f0a99d1a0e",
+    "name": "Dorothy Hawkins",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Dorothy Hawkins supports communication and lookout duties during watches, maintaining high situational awareness in Australia's maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "ac6dfb7a-4cea-4f33-b6b0-06922bb32475",
+    "name": "Bobby Wallace",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Navigation Officer Wallace maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Australia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "57ccc8b3-6116-4bb2-9b60-7ff7efcf4698",
+    "name": "Miguel Marshall",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Committed to regulatory adherence, Miguel Marshall stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "c11f12dd-3c2f-419e-b458-34c647bfae65",
+    "name": "Stella Sutton",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Stella Sutton, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Australia maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "b3441df6-2fee-4a32-a865-42c20906e421",
+    "name": "Amina Murray",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 16 years managing deck teams, Amina Murray coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in Australia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "07f34b93-c214-41e5-a8af-ea55b50ee325",
+    "name": "Laura Murray",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Murray manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "01eabdd0-ab75-4f31-944c-058cc1565a23",
+    "name": "Roger Warren",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 9 years, Roger Warren takes charge of the engine room in the Chief Engineer's absence, ensuring all systems run smoothly and efficiently.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "952a9cbe-5e49-4796-9262-0f1615786462",
+    "name": "Jessica Holloway",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Holloway conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "2ef5448e-582c-4a45-8525-1568979a5ea7",
+    "name": "Grace Campbell",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Responsible for wiring upgrades and automation system maintenance, Grace Campbell supports enhanced operational efficiency and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/75.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "c0662d24-7414-420f-9627-8d7f36ea582b",
+    "name": "Joshua Olivia",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Olivia specializes in propulsion, HVAC, and auxiliary machinery with 11 years ensuring operational efficiency and reliability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/40.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "b8d0f851-af97-48b1-adf5-3bb35cb5e403",
+    "name": "Aaliyah Dean",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "With expertise in refrigeration cycles and ventilation design, Aaliyah Dean addresses environmental control challenges in varying maritime conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "85f413e3-9a06-4925-a4a5-feb760df0528",
+    "name": "Lisa Campbell",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Campbell manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 9 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "91b5b236-0805-4ae6-a0af-ebdfc3da8da4",
+    "name": "Wei Sutton",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Wei Sutton is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 21 years of in-depth experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "30070f4d-ce0a-4f93-9ae2-4830934501f2",
+    "name": "Zachary Dunn",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With 4 years leading technical teams, Zachary Dunn ensures vessel systems meet all regulatory, safety, and performance standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "26f108fb-841b-4b89-b9c4-e3a30b6f3ee0",
+    "name": "Samuel Fletcher",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Fletcher's 5 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "67c08bb8-be59-4ebd-9174-1990b5ca4740",
+    "name": "Nomsa Graves",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Nomsa Graves oversees all security operations with 15 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "747d38bc-d7ee-434e-bcb9-82ec87be10ae",
+    "name": "Helen Warren",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Helen Warren is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "1194e3f0-5e04-4908-b2a3-3de937ca1e17",
+    "name": "Darrell Dean",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Dean advises senior management on emerging security trends and implements best practices in security operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "d09b1eb2-91a6-4da3-8f3c-8e493383f48b",
+    "name": "Dennis Harper",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Dennis Harper continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "c1184c95-7ab4-4e62-8dd0-5750f2db84ea",
+    "name": "Liam Carpenter",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Maritime Security Coordinator Carpenter facilitates seamless security operations between ship and shore, a skill honed over 22 years of dedicated service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "0debd42d-8096-42e5-862b-c8a95ed37eca",
+    "name": "Ethan Porter",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Porter manages secure boarding and access with 8 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "4006b6ec-318f-458b-a680-9b7dc35dc29a",
+    "name": "Noah Charlotte",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Charlotte promotes a safety-first culture through continuous education and enforcement of best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "251240e5-3a8a-4f89-919f-9343806d09dc",
+    "name": "Steven Price",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With 10 years shaping children's experiences at sea, Steven Price excels at creating memorable and enriching programs for all age groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "4467da0c-24ac-478a-a037-a2e936ad2a35",
+    "name": "Lerato Holloway",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Holloway gathers feedback to adapt programs that enhance passenger satisfaction and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "d05e2554-cbf2-4d9b-8306-1a5f213edd69",
+    "name": "Sarah Wallace",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Sarah Wallace engages young guests with creative entertainment programs, leveraging 20 years in children’s recreational services and event planning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "1b5abea0-c00f-45b1-8482-ff37330d3604",
+    "name": "Carlos Porter",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Carlos Porter uses 8 years of insight to design activities like themed parties, sports tournaments, and creative workshops specifically for teen cruisers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "d57b0c31-597c-4730-8605-1e44f917834a",
+    "name": "Kinsley Mitchell",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 22 years in educational programming, Kinsley Mitchell designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "334124c8-d70c-448e-86a5-2c0e31a2a497",
+    "name": "Stella Chambers",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Known for patience and professionalism, Stella Chambers communicates effectively with parents and crew to support child wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "f2769c85-30ca-4bb3-9ba8-2fe6f7cbe402",
+    "name": "Arthur Sutton",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Sutton leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "cf801db5-4dfe-4ad1-91ea-278c3e635213",
+    "name": "Brooklyn Montgomery",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Leveraging 10 years of experience, Brooklyn Montgomery is certified to instruct activities such as snorkeling, kayaking, and paddleboarding in diverse marine environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "76a6a01b-5993-4e28-8d83-7924ded9b904",
+    "name": "Mason Curtis",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Committed to inclusivity, Mason Curtis adapts programming to accommodate varying fitness levels and any physical limitations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "dfc08641-5944-40df-a069-1d0318fdcedf",
+    "name": "Lucas Knight",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Lucas Knight manages shore excursions with 9 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "2de9185d-b46e-47c9-93b5-8d5ef1d798b5",
+    "name": "David Coleman",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "David Coleman leads the photo team with 10 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "e58b43b8-ef0d-4e34-83a2-dc384af4a075",
+    "name": "Logan Murray",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Leveraging 10 years in filmmaking, Logan Murray produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "064a0dc0-cf66-480e-b7fe-c621fa0aabfe",
+    "name": "Joshua Hudson",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Digital Media Specialist Hudson ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "6d41274f-d04f-406e-9604-54d7cead506c",
+    "name": "Eric Carpenter",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Eric Carpenter oversees health protocols, emergency medical services, and public health compliance, coordinating medical teams and resources effectively.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "9f75145f-d1f7-409a-bf45-498c2d18eb3c",
+    "name": "Harry Dunn",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With 16 years practicing medicine in diverse environments, Dr. Dunn is adept at diagnosing and treating a wide array of conditions encountered at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "f20226ab-2e8f-4b2c-ae88-8c09c9600abf",
+    "name": "Albert Keller",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Known for meticulous attention to detail and a caring demeanor, Albert Keller has been a vital part of shipboard medical teams for 12 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "60fafa10-0800-41ae-841f-9a84c21d7618",
+    "name": "Sebastian Curtis",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Curtis works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "9d7499ca-9996-4ff9-a14e-a6e714a56c5c",
+    "name": "Carl Hall",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Overseeing a diverse team, Hospitality Director Hall implements innovative service strategies and maintains the highest quality standards, reflecting 11 years in the industry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "d79706fe-4ce2-46b1-a121-fd2fa4d589cd",
+    "name": "Michelle Reeves",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Michelle Reeves champions a guest-first culture, utilizing 16 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "ea46c633-75b7-48e8-b29c-e9a5bf5e1295",
+    "name": "Diego Palmer",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "With 9 years leading stewardship teams, Chief Steward Palmer meticulously manages cabin services, laundry operations, and public area upkeep.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "691ff469-7e23-497b-ad88-6a7447fc94ed",
+    "name": "Sarah Coleman",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Coleman delivers attentive guest services and supports stewardship operations, drawing on 20 years onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "92904d18-53fb-493d-8073-ce74ce52c845",
+    "name": "Susan Olivia",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Susan Olivia crafts unforgettable moments for discerning guests, drawing on 14 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "41e0ed57-03c2-4597-a3dd-f698cb91bfee",
+    "name": "Emily Hawkins",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "With 19 years managing large-scale accommodation facilities, Emily Hawkins ensures all guest cabins and public areas meet exacting standards of cleanliness and repair.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "fe911c8a-a5b5-4920-bed6-3edae7c74be6",
+    "name": "Victor Marshall",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Marshall is committed to sustainability in cleaning practices, implementing eco-friendly procedures throughout their 19 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "44c2a2fb-1ef3-4968-ac12-686170821bf8",
+    "name": "Luis Mitchell",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Luis Mitchell assists guests with inquiries and special requests, drawing on 7 years in customer service roles.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "9c860a23-2d05-4e9f-b89e-d6c5b91893ab",
+    "name": "Aria Dean",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Aria Dean leverages 13 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "aa2748a9-1288-4342-bb85-d94ebf0d07be",
+    "name": "Russell Griffin",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 16 years in front office management, Russell Griffin ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "e7a63d28-d2b7-4ed3-baf8-b9afd90cb272",
+    "name": "Joshua Day",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 6 years catering to high-profile clientele, Joshua Day curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "6288e307-481b-4a2a-bb56-a7f52fc483cd",
+    "name": "Nicholas Reed",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Nicholas Reed develops training programs to elevate hospitality team skills, with 22 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "ade8ef3d-fc9e-4a49-91a5-d2ba2a7dac4d",
+    "name": "Priya Henderson",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Mastering Pacific Rim and international gastronomy, Priya Henderson ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 18 years of award-winning experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "37f026fe-d12b-4ff4-a5d5-a28014445fb6",
+    "name": "Brian Stewart",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 3 years in high-volume kitchens, Sous Chef Stewart is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "26b9ada7-8003-4601-b193-7a58d8213cd1",
+    "name": "Eugene Hamilton",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Eugene Hamilton manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 9 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "85992fb6-ef58-4692-93ab-e2d3c5df529a",
+    "name": "Javier Harper",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the electrical systems station (e.g., Saucier, Grillardin), Chef de Partie Harper brings 4 years of expertise in preparing precise Asian fusion components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "e483d6b8-80e9-4036-b5e3-835dcb02a9af",
+    "name": "Eugene Hamilton",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Master of {cuisineSpecific} cuisine, Eugene Hamilton creates authentic dishes that transport guests to Australia, drawing on 13 years of dedicated culinary exploration.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/31.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "eef073df-cc57-4ddf-b491-67778aafe201",
+    "name": "Christopher Nash",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Christopher Nash combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "7c64f213-ad44-411e-bdec-9a3d8b3ede7f",
+    "name": "Lisa Price",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Lisa Price is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 22 years of Mediterranean expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "bc31d80e-3876-4388-807b-c05bcd29539b",
+    "name": "George Fox",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Fox manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 16 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "d1311e25-06b7-42ee-86ba-b4dac2219422",
+    "name": "Richard Wells",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Richard Wells combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "2273c800-f380-4877-9491-610f2b8647ec",
+    "name": "Stephanie Foster",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Stephanie Foster provides engaging wine education and tasting experiences for guests, sharing insights from 17 years exploring global viticulture.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/36.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "4a2045fa-3352-4b83-b93f-aaa70a667b4a",
+    "name": "Adam Carpenter",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Adam Carpenter delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "916c6732-561c-497c-bb89-64c7e0d5765f",
+    "name": "Keith Carpenter",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Carpenter ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 16 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "76a7d380-b4eb-4f42-86a1-4c1f5b7ab383",
+    "name": "Jessica Parker",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Jessica Parker collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/83.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "dfbd079d-29ad-4090-bc09-6eeb4b0eba76",
+    "name": "Victor Campbell",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Victor Campbell plans and oversees all entertainment activities, applying 4 years of event and talent management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "022e5c53-fd10-440b-851b-0e2033399754",
+    "name": "Betty Holloway",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Betty Holloway manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "5a2ee563-421e-4247-9a5c-25c05dcb7dc9",
+    "name": "Emma Marshall",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Emma Marshall consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 14 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "fe90122d-9bf9-4aed-ac8b-d03da6a661b0",
+    "name": "Margaret Hall",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Hall adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 12 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "da1928df-d806-4c83-af17-507cd5f6ece3",
+    "name": "Linda Crawford",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Linda Crawford engages audiences with versatile dance styles across entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "2605139d-e839-4f4f-9c92-20d576103c56",
+    "name": "Olivia Morgan",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Olivia Morgan leads rehearsals and performance design to enhance the entertainment experience onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "352817e9-d0d9-4fcf-ab8e-120888231aa1",
+    "name": "Lisa Charlotte",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Lisa Charlotte entertains guests with humor and timing, backed by 8 years in comedy performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "13248a11-1bb6-4837-ba5d-816eac13df75",
+    "name": "Kevin Murray",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Kevin Murray blends showmanship and technique to deliver captivating magic shows at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "9b738558-9d58-40ef-80d0-c51c6d260310",
+    "name": "Kimberly Olivia",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Olivia stays current with music trends while also mastering classics, offering 4 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "79425f4b-3128-4562-ba75-0312ab17f22d",
+    "name": "Nathan Graham",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Graham manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "0f6f5fa5-7a1f-4426-b9c1-c8a57ac1e3ec",
+    "name": "Amanda Hall",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Amanda Hall applies 6 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "be6c6b80-221c-48d3-9c50-1869f0c9ab8f",
+    "name": "Samuel Morgan",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Samuel Morgan's calm under pressure and attention to detail, honed over 19 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "096d377e-4e0e-4dc9-95d5-2fc6db5a36cb",
+    "name": "Evelyn Collins",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Evelyn Collins ensures timely and efficient delivery of shows, leveraging 12 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "73814d62-21d4-44f6-8d33-2fc3bdeb659c",
+    "name": "Grace Jennings",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Grace Jennings combines creativity and craftsmanship with 13 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/76.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "3130b18e-0d9f-40f2-ba83-31614878e702",
+    "name": "Marcus Graves",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Graves collaborates with local artists, historians, and experts to provide authentic and immersive cultural experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "5522f5b9-c5b7-4947-80dc-937e172bb1f3",
+    "name": "Zachary Hayes",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 5 years pushing artistic boundaries, Zachary Hayes offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "0024821e-8e0f-4677-a149-5c99d8dc7f94",
+    "name": "Alexander Chambers",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Alexander Chambers oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "f94cdfd5-dcde-4174-b11d-da847051a2f1",
+    "name": "Robert Hall",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Hall manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "75b6a9ef-901a-4206-baa9-0cb8f7f28fdf",
+    "name": "Melissa Day",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Melissa Day's analytical skills, honed over 19 years, are key to forecasting demand and optimizing stock levels across various departments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "c236c507-d1cf-4d42-9e5d-795c0436e80a",
+    "name": "Janet Maxwell",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Maxwell sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  },
+  {
+    "id": "29f85451-fa27-4615-a2e3-5bf23c55e330",
+    "name": "Roy Price",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Roy Price promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "Australia"
+  }
 ];

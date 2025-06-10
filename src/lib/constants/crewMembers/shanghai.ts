@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Shanghai
+    // Generated on: 2025-06-10T03:41:38.303Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const shanghaiTeamMembers: CrewMember[] = [
   {
-    name: "Albert Morgan",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Morgan is a veteran mariner with 15 years in Asia Pacific, known for meticulous voyage planning and a steadfast commitment to maritime law.",
-    languages: ["Chinese", "Vietnamese", "Hindi", "English"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Emily Maxwell",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "With 22 years of maritime expertise, Emily Maxwell coordinates watchkeeping duties and emergency response, expertly navigating Asia Pacific's waterways.",
-    languages: ["Vietnamese", "Thai", "Indonesian", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Matthew Lawson",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Second Officer Lawson is adept at monitoring vessel position and environmental conditions, contributing to safe passage through Asia Pacific.",
-    languages: ["Hindi", "Bengali", "Urdu", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kevin Price",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "With 16 years dedicated to bridge operations, Kevin Price contributes to seamless voyages through Asia Pacific's waterways by monitoring safety and compliance.",
-    languages: ["Vietnamese", "Chinese", "Korean", "Hindi", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Leah Maxwell",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Leah Maxwell collaborates with the bridge team to optimize voyage efficiency, integrating real-time data and weather information specific to Asia Pacific.",
-    languages: ["Tagalog", "Chinese", "Vietnamese", "Hindi", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Zola Jennings",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Leveraging 4 years in maritime safety, Zola Jennings excels at developing and implementing targeted safety training programs relevant to Asia Pacific's specific operational hazards.",
-    languages: ["Tagalog", "Thai", "Hindi", "Korean", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Austin Watson",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Deck Cadet Watson learns shipboard operations under experienced officers, preparing for a future leadership role in Asia Pacific waters.",
-    languages: ["Hindi", "Urdu", "Tagalog", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Larry Maxwell",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Bosun Maxwell mentors junior deck crew, promoting professional development and adherence to best practices in Asia Pacific's maritime industry.",
-    languages: ["Indonesian", "Tagalog", "Urdu", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jane Mason",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Mason manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
-    languages: ["Japanese", "Malay", "Urdu", "Chinese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Raymond Foster",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "Raymond Foster plays a key role in implementing engineering upgrades and system modifications, leveraging extensive technical knowledge.",
-    languages: ["Tagalog", "Japanese", "Bengali", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Diego Graves",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Second Engineer Graves meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 4 years of practical knowledge.",
-    languages: ["Vietnamese", "Malay", "Urdu", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Amanda Bennett",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Drawing on 16 years, Amanda Bennett ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    languages: ["Indonesian", "Thai", "Bengali", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Arthur Clark",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Mechanical Engineer Clark collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    languages: ["Malay", "Japanese", "Bengali", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Anna Reeves",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Anna Reeves plays a key role in energy conservation by optimizing HVAC operations, backed by 20 years of specialized experience.",
-    languages: ["Indonesian", "Thai", "Vietnamese", "Chinese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joan Graves",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "With in-depth knowledge of MARPOL regulations, Joan Graves leads training and awareness programs on environmental best practices among crew members.",
-    languages: ["Urdu", "Indonesian", "Korean", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ella Watson",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Ella Watson manages system diagnostics and upgrades to improve vessel performance and crew operational efficiency.",
-    languages: ["Indonesian", "Korean", "Tagalog", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Amelia Reed",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Known for strong leadership, Amelia Reed fosters a culture of technical excellence and cross-functional collaboration onboard.",
-    languages: ["Thai", "Vietnamese", "Japanese", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Gary Dean",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Leveraging 5 years, Gary Dean is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
-    languages: ["Thai", "Malay", "Indonesian", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Paul Stewart",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Security Director Stewart leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
-    languages: ["Japanese", "Vietnamese", "Tagalog", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ryan Henderson",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Security Officer Henderson is proficient in emergency communication procedures and crowd management, vital skills honed over 12 years.",
-    languages: ["Indonesian", "Tagalog", "Bengali", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jesse Fletcher",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Jesse Fletcher's 8 years include proficiency in evidence collection and report writing for maritime security incidents.",
-    languages: ["Malay", "Vietnamese", "Hindi", "Tagalog", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jordan Maxwell",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Cybersecurity Officer Maxwell protects vessel networks and data with 10 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    languages: ["Bengali", "Vietnamese", "Indonesian", "Urdu", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sebastian Parker",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Maritime Security Coordinator Parker leads risk assessment initiatives and supports vessel security certification processes.",
-    languages: ["Hindi", "Indonesian", "Malay", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/35.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Billy Watson",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Billy Watson ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    languages: ["Malay", "Hindi", "Bengali", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jessica Hayes",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Jessica Hayes meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 8 years.",
-    languages: ["Tagalog", "Thai", "Vietnamese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/75.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Janet Cooper",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Janet Cooper designs and leads engaging youth programs, applying 11 years in educational, recreational, and developmental management onboard.",
-    languages: ["Japanese", "Tagalog", "Bengali", "Urdu", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Philip Chambers",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Leveraging 12 years in family entertainment, Philip Chambers curates a diverse schedule of events appealing to all members of the family.",
-    languages: ["Urdu", "Japanese", "Hindi", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Emma Campbell",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "With strong interpersonal skills, Emma Campbell ensures a safe and welcoming environment for all child participants.",
-    languages: ["Indonesian", "Urdu", "Tagalog", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stephanie Crawford",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Focused on safety and inclusivity, Stephanie Crawford maintains open communication with parents and guardians regarding teen program activities.",
-    languages: ["Urdu", "Vietnamese", "Chinese", "Thai", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Gardner",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Educational Program Manager Gardner coordinates with external educators and experts to deliver diverse and culturally relevant content.",
-    languages: ["Vietnamese", "Indonesian", "Hindi", "Urdu", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Roger Mason",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Child Care Specialist Mason is certified in pediatric first aid and CPR, bringing 19 years of trusted care to families onboard.",
-    languages: ["Bengali", "Vietnamese", "Malay", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Steven Fletcher",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Steven Fletcher plans and coordinates all recreational activities, utilizing 12 years of event management expertise to create engaging, inclusive programs.",
-    languages: ["Bengali", "Vietnamese", "Urdu", "English"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Nomsa Parker",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Water Sports Instructor Parker ensures guests enjoy safe, fun, and memorable water-based experiences while strictly adhering to safety protocols.",
-    languages: ["Vietnamese", "Korean", "Tagalog", "Urdu", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/16.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Jerry Reeves",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Drawing on 22 years of expertise, Jerry Reeves offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
-    languages: ["Korean", "Urdu", "Vietnamese", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Margaret Mitchell",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Margaret Mitchell manages shore excursions with 3 years coordinating logistics, safety, and guest engagement across diverse international destinations.",
-    languages: ["Thai", "Urdu", "Chinese", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Eleanor Cooper",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Eleanor Cooper directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
-    languages: ["Malay", "Thai", "Bengali", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Victor Foster",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Leveraging 6 years in filmmaking, Victor Foster produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
-    languages: ["Urdu", "Bengali", "Chinese", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Amina Crawford",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Digital Media Specialist Crawford ensures an engaging online presence by creating and curating multimedia content tailored to diverse passenger demographics.",
-    languages: ["Hindi", "Chinese", "Tagalog", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/79.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Zola Curtis",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Drawing on 4 years as a medical leader, Zola Curtis ensures the ship's medical facility operates to the highest international healthcare standards.",
-    languages: ["Bengali", "Indonesian", "Vietnamese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/7.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Linda Spencer",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "With 9 years practicing medicine in diverse environments, Dr. Spencer is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    languages: ["Vietnamese", "Korean", "Indonesian", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ronald Hunter",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Leveraging 20 years in diverse nursing roles, Ronald Hunter excels in triage, wound care, and patient advocacy within the unique maritime environment.",
-    languages: ["Thai", "Korean", "Chinese", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ella Baker",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "Ella Baker conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Asia Pacific's maritime operations.",
-    languages: ["Thai", "Urdu", "Vietnamese", "Tagalog", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Linda Graham",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Linda Graham manages all hospitality services, ensuring exceptional guest experiences with 19 years of leadership.",
-    languages: ["Hindi", "Bengali", "Urdu", "Indonesian", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Wei Payne",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Wei Payne champions a guest-first culture, utilizing 20 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    languages: ["Chinese", "Japanese", "Indonesian", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Miguel Marshall",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Miguel Marshall ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
-    languages: ["Bengali", "Chinese", "Vietnamese", "Urdu", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Harper Gardner",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "With 7 years of dedicated service, Senior Steward Gardner ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    languages: ["Urdu", "Korean", "Bengali", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Robert Crawford",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Butler Crawford is a master of personal assistance, ensuring every detail of a guest's stay is flawless, reflecting 9 years in top-tier hospitality.",
-    languages: ["Bengali", "Hindi", "Vietnamese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Wayne Graham",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Wayne Graham expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 21 years of experience.",
-    languages: ["Urdu", "Malay", "Tagalog", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Virginia Carpenter",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Virginia Carpenter manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 3 years of leadership.",
-    languages: ["Hindi", "Japanese", "Korean", "Malay", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Gary Payne",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "With 18 years providing frontline support, Gary Payne is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    languages: ["Korean", "Vietnamese", "Tagalog", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Eleanor Douglas",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Eleanor Douglas leverages 4 years of service to provide exceptional concierge support onboard.",
-    languages: ["Chinese", "Malay", "Indonesian", "Thai", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Stephanie Wallace",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Wallace trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 10 years of best practices.",
-    languages: ["Malay", "Urdu", "Tagalog", "Hindi", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Kyle Crawford",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "VIP Coordinator Crawford liaises with all departments to provide seamless, anticipatory service for distinguished guests, maintaining utmost confidentiality.",
-    languages: ["Korean", "Bengali", "Hindi", "Malay", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/57.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Christian Maxwell",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Maxwell specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 14 years of industry best practices.",
-    languages: ["Thai", "Malay", "Indonesian", "Urdu", "English"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Edward Collins",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Beyond crafting exquisite Japanese, Chef Collins expertly manages kitchen hygiene, inventory, and food cost control, honed over 11 years in demanding culinary environments.",
-    languages: ["Thai", "Korean", "Malay", "English"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Cynthia Bennett",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Cynthia Bennett excels in menu execution and team management to maintain high culinary standards.",
-    languages: ["Urdu", "Tagalog", "Bengali", "Malay", "English"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Naomi Grant",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Specializing in delicate Caribbean pastries and innovative dessert creations, Pastry Chef Grant brings 5 years of refined skill to the culinary team.",
-    languages: ["Bengali", "Korean", "Tagalog", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "George Hudson",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Hudson manages specific kitchen stations with 16 years of focused culinary skill.",
-    languages: ["Chinese", "Korean", "Tagalog", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/27.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Harold Hamilton",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Harold Hamilton specializes in unique culinary styles, offering guests diverse flavors based on 21 years of expertise.",
-    languages: ["Bengali", "Indonesian", "Urdu", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Hannah Fletcher",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Fletcher manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 4 years of Japanese culinary excellence.",
-    languages: ["Indonesian", "Vietnamese", "Japanese", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joe Reeves",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Joe Reeves maintains high standards in food presentation and safety for all cold kitchen offerings.",
-    languages: ["Urdu", "Vietnamese", "Malay", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Dean",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Sophia Dean maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 6 years in professional butchery.",
-    languages: ["Japanese", "Vietnamese", "Bengali", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Isabella Mitchell",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Isabella Mitchell combines traditional techniques with innovation to delight guests with baked specialties.",
-    languages: ["Thai", "Chinese", "Vietnamese", "Indonesian", "English"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Johnny Warren",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Sommelier Warren curates wine selections, offering expert pairing advice with 21 years in fine wine service.",
-    languages: ["Bengali", "Thai", "Chinese", "Japanese", "English"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mia Grant",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Grant crafts creative cocktails, combining flavor expertise with 9 years of bartending skill.",
-    languages: ["Vietnamese", "Thai", "Japanese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Blake Stewart",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Blake Stewart provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 16 years.",
-    languages: ["Vietnamese", "Chinese", "Bengali", "English"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Samantha Payne",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Nutritionist Payne works closely with the culinary team to create wholesome Continental options that are both flavorful and aligned with wellness goals, drawing on 10 years of expertise.",
-    languages: ["Thai", "Hindi", "Malay", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Justin Holloway",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Holloway curates diverse programming to engage and delight guests throughout voyages.",
-    languages: ["Vietnamese", "Indonesian", "Chinese", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Dorothy Keller",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Performance Coordinator Keller supports talent and technical teams to deliver seamless shows.",
-    languages: ["Urdu", "Hindi", "Vietnamese", "English"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Mark Reeves",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Mark Reeves brings charisma and vocal expertise to the ship's entertainment lineup.",
-    languages: ["Chinese", "Bengali", "Urdu", "Japanese", "English"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Caroline Montgomery",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "With 6 years entertaining audiences worldwide, Caroline Montgomery creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
-    languages: ["Bengali", "Hindi", "Korean", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elizabeth Hunter",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Elizabeth Hunter is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 5 years of professional dance experience.",
-    languages: ["Thai", "Bengali", "Tagalog", "English"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/28.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Harry Mason",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Harry Mason collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 7 years of experience in stage production.",
-    languages: ["Chinese", "Indonesian", "Japanese", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/98.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Liam Morgan",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Comedy Performer Morgan masterfully crafts clean and engaging sets suitable for a cruise environment, ensuring evenings are filled with laughter and amusement.",
-    languages: ["Indonesian", "Chinese", "Malay", "Korean", "English"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ronald Nash",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Ronald Nash brings a unique brand of enchantment to the ship's entertainment, drawing on 22 years of professional magic and a flair for theatrical presentation.",
-    languages: ["Urdu", "Korean", "Japanese", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/93.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joel Foster",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "Joel Foster keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
-    languages: ["Bengali", "Urdu", "Indonesian", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Justin Foster",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Foster manages sound systems and ensures optimal audio quality for performances onboard.",
-    languages: ["Indonesian", "Urdu", "Korean", "English"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Bella Reed",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Bella Reed applies 13 years of technical skill to create immersive visual experiences.",
-    languages: ["Bengali", "Indonesian", "Urdu", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Terry Knight",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Stage Manager Knight coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    languages: ["Vietnamese", "Korean", "Urdu", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Elizabeth Maxwell",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Elizabeth Maxwell's strategic planning and problem-solving skills, developed over 4 years, are crucial for the successful execution of a high-quality entertainment program.",
-    languages: ["Japanese", "Tagalog", "Hindi", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Hannah Fisher",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Costume Designer Fisher manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
-    languages: ["Japanese", "Indonesian", "Malay", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Andrew Hudson",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Cultural Program Director Hudson curates culturally enriching events and experiences for guests.",
-    languages: ["Chinese", "Thai", "Malay", "English"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Hannah Hayes",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Performance Artist Hayes combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
-    languages: ["Indonesian", "Chinese", "Urdu", "English"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/23.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Rachel Baker",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Rachel Baker plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 13 years of maritime expertise.",
-    languages: ["Urdu", "Malay", "Korean", "English"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sean Dean",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "With 7 years coordinating complex supply chains, Sean Dean ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    languages: ["Japanese", "Vietnamese", "Korean", "Bengali", "English"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Sophia Crawford",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Inventory Specialist Crawford implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    languages: ["Tagalog", "Chinese", "Bengali", "English"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Joan Collins",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Joan Collins's sharp negotiation skills and 22 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
-    languages: ["Japanese", "Thai", "Korean", "Tagalog", "English"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/64.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
-  {
-    name: "Ashley Gibson",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Ashley Gibson champions innovative eco-friendly technologies and practices, leveraging 10 years to enhance the vessel's environmental performance and reputation.",
-    languages: ["Thai", "Japanese", "Tagalog", "Bengali", "English"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Shanghai",
-    country: "China",
-    region: "Asia Pacific",
-  },
+    "id": "714fe722-959c-457b-aee1-90f7e0708323",
+    "name": "Grace Bennett",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Bennett is a veteran mariner with 10 years in China, known for meticulous voyage planning and a steadfast commitment to maritime law.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "61b1589d-9e06-4426-bb7e-23a260a2fdaf",
+    "name": "Kinsley Reeves",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Reeves's 16-year background includes robust training in advanced navigation systems and crew supervision within China.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "3fbcc2ad-aece-4106-b4ce-6f80b770d211",
+    "name": "Lily Collins",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Lily Collins is skilled in passage planning software and integrated bridge systems, contributing 18 years of knowledge to operations in China.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "9ab59734-7ec0-4de6-bbe8-7233007499ce",
+    "name": "Jacob Clark",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Jacob Clark supports communication and lookout duties during watches, maintaining high situational awareness in China's maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "5feb1fa5-6fe4-41a0-86fb-b9985fe2b67e",
+    "name": "Dennis Nash",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Dennis Nash utilizes advanced navigational technology with 20 years ensuring precise route planning and safe passage in China.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "23eb1b7b-25cf-44e9-854c-c95d1589fcdd",
+    "name": "James Holloway",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, James Holloway fosters a culture of safety awareness among crew and passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "9bff7177-93a4-41f5-979f-1b9a12fef2bc",
+    "name": "Ryan Morgan",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Ryan Morgan is an aspiring maritime professional with foundational training and practical experience in ship operations and navigation within China.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "3aba457a-82b2-4694-8bc8-707f8a2eb23a",
+    "name": "Brenda Day",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Brenda Day plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through China.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4d144ce7-9434-4491-b5a8-908c884e1cae",
+    "name": "Aaliyah Grant",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 19 years at the helm of engineering departments, Aaliyah Grant excels in marine electronics systems and guarantees adherence to strict environmental MARPOL regulations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "13d3f159-98eb-47fb-a214-ce30933c419f",
+    "name": "Aiden Graves",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Graves is responsible for the main propulsion machinery and auxiliary systems, bringing 3 years of hands-on expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "29c8bde1-7b40-47af-95a3-f16bae1b6564",
+    "name": "Jessica Collins",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Collins meticulously manages bunkering operations and ensures the quality of fuel and lubricants, drawing on 9 years of practical knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "af14330d-fcf9-4a78-8f32-68584bddd5e4",
+    "name": "Patrick Murray",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 20 years, Patrick Murray ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "96901a7c-8902-40e5-94bc-1dc1f734a659",
+    "name": "Melissa Parker",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Melissa Parker is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/7.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "22b7e649-8a9f-4f2e-9f78-077b84e97865",
+    "name": "Walter Campbell",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "With expertise in refrigeration cycles and ventilation design, Walter Campbell addresses environmental control challenges in varying maritime conditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/40.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "df0cba1a-da12-42c4-a6cc-feac8f5aecd4",
+    "name": "Samantha Baker",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Environmental Engineer Baker manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 10 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "ce233f31-f954-4f97-9821-1d7e04be186e",
+    "name": "Genesis Curtis",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Curtis collaborates across departments to implement new technologies aligned with industry standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "108e4a9f-37da-4013-b1a5-31a84bd87ada",
+    "name": "Elijah Henderson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Henderson oversees budgeting, procurement, and scheduling of maintenance to optimize vessel availability and lifecycle costs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "bf5245c7-a339-4b2c-90cc-ee2e5ce7d31d",
+    "name": "Timothy Murray",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Maintenance Engineer Murray's 9 years include managing workshop resources and training junior staff in effective repair techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "40adf20b-dfea-4087-8d96-cac9ddbac534",
+    "name": "Nancy Sutton",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Drawing on 14 years and a maritime safety background, Nancy Sutton develops and executes sophisticated security plans tailored to high-risk maritime environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "e1f5d7ea-6b86-4aa4-a303-02ceceb1ec06",
+    "name": "Timothy Dixon",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Timothy Dixon is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "c0cc1707-7d18-49d8-aae0-66bc4d2d267a",
+    "name": "Noah Hawkins",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Drawing on 19 years, Noah Hawkins has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "c89466ca-474a-4697-9ace-c98e551cbf1a",
+    "name": "Tyler Gardner",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Gardner conducts regular penetration testing and vulnerability assessments of ship systems, drawing on 18 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "e3e5a32c-44cf-4f4f-9b89-b6fe30bec0c6",
+    "name": "Noah Hamilton",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Noah Hamilton manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "e0014158-004c-4c2d-b092-128d31a3a12c",
+    "name": "Zoe Marshall",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Marshall plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "df70f662-603c-40b3-a2df-22a72fc98173",
+    "name": "Jonathan Hawkins",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Jonathan Hawkins leads incident investigations and corrective action plans.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "22ecae04-9970-4d8a-b499-b57367dc25b7",
+    "name": "Thabo Warren",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Thabo Warren designs and leads engaging youth programs, applying 19 years in educational, recreational, and developmental management onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4e8314e3-7287-45bf-86bc-5133da7582e5",
+    "name": "Avery Nash",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Avery Nash organizes family-friendly events and activities, ensuring inclusive participation and memorable experiences with 11 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "463dde90-b9ee-4a1c-8ca5-3215a855299c",
+    "name": "Aria Griffin",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Aria Griffin engages young guests with creative entertainment programs, leveraging 17 years in children’s recreational services and event planning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "bf56c6ec-5506-49d3-8cd5-fe9d0c1b3cbd",
+    "name": "Luis Jennings",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Jennings is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 3 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "fd52630d-3a8d-4fb8-b0ec-28556b39d1b8",
+    "name": "Samantha Campbell",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Samantha Campbell ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "45bf63e2-a6ce-4b23-9a53-b827a495db98",
+    "name": "Aria Warren",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Warren promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "99ef9586-461d-4284-b88b-c0e322950bf1",
+    "name": "Amy Reeves",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on guest engagement and satisfaction, Amy Reeves designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "3daaa71f-f3ff-4e1a-b49f-fca76e7158c9",
+    "name": "Roger Gardner",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Known for excellent communication and risk management skills, Roger Gardner maintains vigilance during all aquatic activities to protect participants.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "f4abd494-29ad-42d0-a690-9a59e5d68fa0",
+    "name": "Lisa Dean",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Lisa Dean leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "1d421ece-ed62-4a8d-9238-475cd62d3fce",
+    "name": "Mateo Chambers",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in vendor relations and itinerary planning, Mateo Chambers ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "8a301163-c3ce-4639-875f-edc34bdf8939",
+    "name": "Jose Hayes",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lead Photographer Hayes manages photographic equipment, editing workflows, and passenger portrait sessions with precision and professionalism.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/51.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "c8470d37-1654-4364-8b61-d8d03705a4f8",
+    "name": "Evelyn Dean",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Dean crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "84460ec5-5c06-4fb6-88d7-5d26d5370be3",
+    "name": "Gabriel Mitchell",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Gabriel Mitchell uses 21 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "a5eabe73-1f23-41fc-b2a7-1d9b334b3017",
+    "name": "Brooklyn Griffin",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Griffin maintains medical supplies and liaises with shore-based health facilities to support comprehensive care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/74.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "3784c699-9a3a-44f7-afd9-41d30b10a97a",
+    "name": "Tyler Hall",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "With specialization in emergency response, preventative medicine, and maritime health protocols, Dr. Hall ensures passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "de0ff5c9-fe88-46bb-a3d8-9d0f95ef3d87",
+    "name": "Alan Stewart",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Stewart provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "48ca44e1-92ce-4c16-a13e-91384ed31f8f",
+    "name": "Ethan Fox",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Safety Officer Fox works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "6bb7584b-f005-47de-bcfa-61e76e950134",
+    "name": "Timothy Bennett",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Bennett orchestrates a seamless guest journey, from arrival to departure, leveraging 12 years of expertise in luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "f01fb8f3-f012-4667-8244-f7e7a96ba3e0",
+    "name": "Russell Griffin",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Russell Griffin champions a guest-first culture, utilizing 13 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "e3f5dcb6-a835-4177-ab24-0b8d3b18857f",
+    "name": "Lawrence Olivia",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Lawrence Olivia ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "dc12a129-0dab-4f94-be21-1e4604857f43",
+    "name": "Stephen Gibson",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Stephen Gibson is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "602a7455-400c-4e7d-b585-b7dc9267999d",
+    "name": "Nicole Morgan",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Nicole Morgan crafts unforgettable moments for discerning guests, drawing on 21 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "60f86ee2-3750-4678-badf-b3265eafffa4",
+    "name": "Claire Hawkins",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Claire Hawkins expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 21 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/69.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4eac5012-10a3-41a1-847b-697ff9417b89",
+    "name": "Gary Hayes",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Hayes leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "ff979c8b-e3bc-43ad-a172-1102b51e9fc6",
+    "name": "Anthony Jennings",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Anthony Jennings's communication skills, honed over 8 years, are key to creating positive first impressions and lasting guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "70f9cb23-8c30-4769-b068-559366c5fb3c",
+    "name": "Edward Knight",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Concierge Knight's dedication over 7 years ensures every guest request, no matter how unique, is handled with sophistication and efficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "76874cff-dc8d-4bba-82fa-40162cd0ad13",
+    "name": "Aria Lawson",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Lawson oversees reception operations, ensuring efficient guest check-in and issue resolution.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "b8e7df33-5033-4b02-990d-ca76710866b5",
+    "name": "Gary Graham",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Graham manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "d2ffd676-aab6-42ea-8938-e35421a6a462",
+    "name": "Skylar Murray",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Skylar Murray develops training programs to elevate hospitality team skills, with 3 years in workforce development.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "df1fa301-0664-4006-b589-4f92184f19a2",
+    "name": "Diego Reed",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Pacific Rim, Chef Reed expertly manages kitchen hygiene, inventory, and food cost control, honed over 13 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "0ad07e26-8537-4895-bc08-267e3d7f9d75",
+    "name": "Steven Lawson",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "Sous Chef Lawson supports kitchen operations with 11 years of culinary expertise and leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "370bba16-e943-4dd4-88aa-c2078bec1d12",
+    "name": "Maria Price",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Maria Price blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "5d3aafb1-dff2-49b2-8468-80feac565774",
+    "name": "Tyler Palmer",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Tyler Palmer maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 22 years of discipline.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "da5d197f-0136-4e4d-a804-eb00b48b255f",
+    "name": "Maya Reed",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Reed curates exclusive menus for themed dining venues, showcasing 22 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/44.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "baf17379-ee1a-480b-b29e-68a1c82206b6",
+    "name": "Michelle Gardner",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Gardner manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 19 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "19b53ea0-fc05-4a3c-986a-a6d58f88ef29",
+    "name": "Christine Sutton",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "With 8 years specializing in charcuterie, salads, and elaborate cold platters, Chef Sutton brings artistry and precision to the Garde Manger station.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "2ab8de64-2c55-42ad-ac5f-6bb54c017e0b",
+    "name": "William Reeves",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "With 4 years of expertise, Butcher Reeves expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Japanese dishes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "44bcc73d-27d4-458d-9c32-ff2239f1c5df",
+    "name": "Layla Coleman",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Layla Coleman manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 13 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "eb7bc748-bcec-416a-adf3-f2d28bd4b6d5",
+    "name": "Austin Parker",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "With 17 years in Michelin-starred establishments, Sommelier Parker elevates the dining journey through impeccable wine service and cellar management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/6.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "b8f7b26b-a93a-4bf6-8d75-05923b0dc173",
+    "name": "Christopher Porter",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Christopher Porter delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "064cfd5e-4af8-4342-a949-1508d44cd976",
+    "name": "Avery Watson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Barista Watson ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 12 years of dedication to the craft.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "1ac4d838-95c9-4754-a119-a025024d8d7f",
+    "name": "Roger Reed",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Roger Reed collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "f2380adc-f80c-4c3d-b038-3bacba747224",
+    "name": "Rachel Crawford",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "With 17 years orchestrating spectacular onboard entertainment, Rachel Crawford manages everything from Broadway-style shows to intimate musical performances and themed parties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4b02202d-82e7-4941-b121-2657ab52b7d6",
+    "name": "Jason Mason",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 7 years in arts administration, Jason Mason expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "827f47cc-e26c-4787-8315-f0e3e504475b",
+    "name": "Luis Murray",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 12 years, Lead Vocalist Murray shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "b3493b5a-298c-44fa-ab5b-172d12fce4e9",
+    "name": "Matthew Marshall",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Marshall performs live music across genres, engaging guests with 18 years of performance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "93996900-e09f-4851-a1f3-44091fad0f29",
+    "name": "Timothy Hamilton",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Hamilton delivers energetic and polished routines, drawing on 5 years of dance training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "fb79f77f-7e76-41e2-a98b-b4392d7bb187",
+    "name": "Roger Reed",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Reed works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 9 years of artistic direction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "dc019348-183a-46ad-9b8d-a20919bf9e6e",
+    "name": "Charlotte Wallace",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 8 years on the comedy circuit, Charlotte Wallace offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "1d53c55b-d4cd-4836-a104-12f5eb316884",
+    "name": "Steven Keller",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Keller mystifies audiences with skilled illusions and interactive performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4c4e689f-77be-4334-9f1d-2cb6619ac01a",
+    "name": "Zola Marshall",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Marshall stays current with music trends while also mastering classics, offering 11 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "5f4a9f7d-a8c7-4c6d-bed1-1e8c1b0a74cb",
+    "name": "Dylan Reeves",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Reeves manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "ed04dbd1-4b8d-4b04-894a-b47d72a50556",
+    "name": "Juan Hudson",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "With 17 years in theatrical lighting design and operation, Juan Hudson transforms stages and venues with dynamic and atmospheric lighting cues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "5dba2d84-29b1-42ab-ac71-66ea1cbd1233",
+    "name": "Savannah Reeves",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Savannah Reeves supervises stage operations and talent, drawing on 14 years of event management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "fb2cb51e-e855-406b-958e-fa5dfbe11668",
+    "name": "Keith Chambers",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Keith Chambers ensures timely and efficient delivery of shows, leveraging 3 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "657b5484-237e-4113-bda5-7354966dbd3f",
+    "name": "Melissa Fox",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Fox manages the entire costume lifecycle, from initial sketches and fabric sourcing to fittings and maintenance, ensuring every garment is show-ready.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "4a247171-26a5-4509-b195-722a6bb2099a",
+    "name": "Jessica Hayes",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "With 6 years in arts and cultural programming, Jessica Hayes develops insightful lectures, workshops, and performances that reflect the destinations visited.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "373b998d-d826-48cd-bc8b-3857c69445e3",
+    "name": "Gregory Lawson",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Lawson delivers unique and innovative acts, blending multiple disciplines with 6 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "c224868d-1ecd-4e3b-b1b5-fea647fb65dd",
+    "name": "Gregory Coleman",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Gregory Coleman oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "d8b764aa-316c-46f6-8de9-99442f8e8ae6",
+    "name": "Stella Maxwell",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 21 years coordinating complex supply chains, Stella Maxwell ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/54.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "a2821e16-435e-4550-b8c3-054f4ef3eab3",
+    "name": "Noah Curtis",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 16 years in inventory management, Noah Curtis meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "a6eadc97-0e0c-43a3-acf5-876c968b5f60",
+    "name": "Alice Dunn",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Alice Dunn's sharp negotiation skills and 15 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  },
+  {
+    "id": "d9126d95-8cfe-4d36-82c8-7c05fec508f7",
+    "name": "Sophia Clark",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "With 12 years dedicated to environmental stewardship in the maritime sector, Sophia Clark develops and manages programs for waste reduction, recycling, and energy conservation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "zh",
+        "name": "Chinese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/62.jpg",
+    "city": "Shanghai",
+    "country": "China",
+    "region": "China"
+  }
 ];

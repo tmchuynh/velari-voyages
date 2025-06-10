@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Vancouver
+    // Generated on: 2025-06-10T03:41:38.307Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const vancouverTeamMembers: CrewMember[] = [
   {
-    name: "Douglas Montgomery",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Captain Montgomery's strategic decision-making and crisis management skills, honed over 16 years, ensure smooth and safe voyages throughout Alaska.",
-    languages: ["English", "Russian", "Arabic"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/70.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Douglas Chambers",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Douglas Chambers applies comprehensive knowledge of Alaska's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
-    languages: ["English", "Portuguese", "Arabic", "Russian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Andrew Cooper",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Utilizing 15 years of expertise, Andrew Cooper meticulously maintains navigational charts and publications crucial for safe transit in Alaska.",
-    languages: ["English", "Spanish", "Arabic"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Roy Watson",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "With 8 years dedicated to bridge operations, Roy Watson contributes to seamless voyages through Alaska's waterways by monitoring safety and compliance.",
-    languages: ["English", "Italian", "German", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Sarah Sutton",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Sarah Sutton's expertise in navigational risk assessment supports proactive decision-making for safe operations within Alaska's ports and coastal areas.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Harry Harper",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "With 13 years overseeing maritime safety, Harry Harper ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Alaska.",
-    languages: ["English", "Chinese", "Italian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Gabriel Mason",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "As a dedicated Deck Cadet, Gabriel Mason is gaining 20 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Alaska.",
-    languages: ["English", "Russian", "Spanish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Ralph Gardner",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Bosun Gardner maintains the vessel's exterior appearance and structural integrity, a testament to 20 years of dedication in Alaska.",
-    languages: ["English", "Portuguese", "German"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Janet Gibson",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "With 20 years at the helm of engineering departments, Janet Gibson excels in propulsion systems systems and guarantees adherence to strict environmental MARPOL regulations.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/97.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Kevin Cooper",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Kevin Cooper applies 15 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["English", "Chinese", "Arabic", "Italian"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Benjamin Montgomery",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Benjamin Montgomery's 19 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    languages: ["English", "Japanese", "German"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Mark Nash",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Drawing on 20 years, Mark Nash ensures the integrity of high-voltage systems and sophisticated electronic controls throughout the vessel.",
-    languages: ["English", "Japanese", "Italian", "Arabic"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Valentina Dixon",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Mechanical Engineer Dixon provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 22 years of insight.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Linda Wallace",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Linda Wallace monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    languages: ["English", "French", "Japanese", "Spanish"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Ariana Hamilton",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Ariana Hamilton applies expertise in waste management, ballast water treatment, and pollution control, promoting eco-friendly maritime operations.",
-    languages: ["English", "German", "Spanish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/56.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Amina Chambers",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Amina Chambers integrates complex onboard systems, ensuring operational synergy and reliability with 11 years of maritime engineering expertise.",
-    languages: ["English", "Spanish", "Arabic"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/91.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Eugene Lawson",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Technical Manager Lawson has 6 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
-    languages: ["English", "German", "Chinese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Deborah Clark",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Maintenance Engineer Clark troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    languages: ["English", "Arabic", "Chinese", "Spanish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Elizabeth Lawson",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Security Director Lawson has 17 years of experience liaising with international maritime security agencies and port authorities.",
-    languages: ["English", "German", "Portuguese", "Arabic"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Diego Knight",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Security Officer Knight is proficient in emergency communication procedures and crowd management, vital skills honed over 8 years.",
-    languages: ["English", "Italian", "German"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Wei Dean",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Security Specialist Dean designs and delivers bespoke security training programs for crew members, reflecting 8 years of practical insight.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Harper Fox",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Cybersecurity Officer Fox protects vessel networks and data with 19 years of specialized cybersecurity expertise in maritime digital infrastructure.",
-    languages: ["English", "German", "Spanish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Joseph Fletcher",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Maritime Security Coordinator Fletcher facilitates seamless security operations between ship and shore, a skill honed over 3 years of dedicated service.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Edward Hall",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Access Control Officer Hall manages secure boarding and access with 7 years maintaining maritime entry protocols and identification verification.",
-    languages: ["English", "Arabic", "Italian"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Aiden Nash",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "With a thorough understanding of hazard identification and mitigation, Aiden Nash leads incident investigations and corrective action plans.",
-    languages: ["English", "Japanese", "Portuguese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/56.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Joel Dunn",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Youth Program Director Dunn manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    languages: ["English", "Chinese", "French", "Japanese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Sarah Porter",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Family Activities Coordinator Porter designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
-    languages: ["English", "Arabic", "Chinese"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Frank Reeves",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Frank Reeves is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 12 years in the field.",
-    languages: ["English", "Spanish", "Arabic", "Italian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/14.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Carl Sutton",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Teen Activities Coordinator Sutton is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 18 years.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Alan Carpenter",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Known for strong organizational skills, Alan Carpenter evaluates program effectiveness and implements improvements based on passenger feedback.",
-    languages: ["English", "Japanese", "German"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Joel Dean",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Joel Dean provides attentive care and supervision for young passengers, backed by 14 years in professional child care and early childhood education.",
-    languages: ["English", "Japanese", "Russian", "Arabic"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Willie Coleman",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "With strong organizational skills, Willie Coleman manages budgets, resources, and partnerships to deliver high-quality recreational services.",
-    languages: ["English", "German", "Arabic", "Italian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Alice Sutton",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Known for excellent communication and risk management skills, Alice Sutton maintains vigilance during all aquatic activities to protect participants.",
-    languages: ["English", "Italian", "German"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Roger Carpenter",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Committed to inclusivity, Roger Carpenter adapts programming to accommodate varying fitness levels and any physical limitations.",
-    languages: ["English", "Italian", "Spanish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Larry Marshall",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Excursion Coordinator Marshall plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
-    languages: ["English", "Arabic", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/7.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Elizabeth Mason",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Elizabeth Mason leads the photo team with 21 years of experience, mentoring staff and ensuring consistent, high-quality photographic services for all guests.",
-    languages: ["English", "Portuguese", "Russian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Gabriel Henderson",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Gabriel Henderson documents ship activities, excursions, and special events, delivering high-quality video content with 5 years of professional videography experience.",
-    languages: ["English", "Russian", "Chinese", "Arabic"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Frank Fletcher",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Known for technical proficiency and creative vision, Frank Fletcher collaborates closely with marketing and entertainment teams to maximize reach and impact.",
-    languages: ["English", "Russian", "Chinese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Sophia Harper",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Sophia Harper, with a distinguished 3-year career in power management and maritime health, provides expert medical oversight for thousands of passengers and crew.",
-    languages: ["English", "Russian", "Italian", "Japanese"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Angela Montgomery",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "With 19 years practicing medicine in diverse environments, Dr. Montgomery is adept at diagnosing and treating a wide array of conditions encountered at sea.",
-    languages: ["English", "Arabic", "French"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Kenneth Warren",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Known for meticulous attention to detail and a caring demeanor, Kenneth Warren has been a vital part of shipboard medical teams for 12 years.",
-    languages: ["English", "Italian", "Spanish"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/46.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Leah Palmer",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "With 9 years overseeing maritime safety, Leah Palmer ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Alaska.",
-    languages: ["English", "Italian", "Portuguese", "French"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Michelle Dixon",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Hospitality Director Dixon orchestrates a seamless guest journey, from arrival to departure, leveraging 16 years of expertise in luxury service.",
-    languages: ["English", "Portuguese", "French"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Justin Fox",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Justin Fox coordinates guest services and resolves issues, leveraging 4 years of customer relations expertise.",
-    languages: ["English", "Spanish", "Russian", "German"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Evelyn Harper",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Evelyn Harper excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 21 years of dedication.",
-    languages: ["English", "Japanese", "French"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Maya Warren",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "With 6 years of dedicated service, Senior Steward Warren ensures guest accommodations are impeccably maintained and personalized to preferences.",
-    languages: ["English", "French", "Italian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/82.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Emily Morgan",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Emily Morgan anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    languages: ["English", "Arabic", "German"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Alice Hawkins",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Accommodation Manager Hawkins plays a key role in inventory control for linens, amenities, and cleaning supplies, optimizing resources over 15 years.",
-    languages: ["English", "Portuguese", "Arabic"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/77.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Eleanor Morgan",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "With a keen eye for detail developed over 18 years, Housekeeping Supervisor Morgan conducts rigorous inspections to uphold pristine conditions.",
-    languages: ["English", "Chinese", "French"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Harper Dunn",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Guest Services Specialist Dunn facilitates seamless guest interactions to enhance onboard experiences.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/73.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Philip Fisher",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Philip Fisher leverages 16 years of service to provide exceptional concierge support onboard.",
-    languages: ["English", "German", "Chinese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Blake Dunn",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Dunn trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 8 years of best practices.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "David Dean",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "With 7 years catering to high-profile clientele, David Dean curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    languages: ["English", "Russian", "Japanese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Lawrence Dean",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Lawrence Dean conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 17 years in adult learning.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Lily Palmer",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Executive Chef Palmer leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 18 years of innovative leadership.",
-    languages: ["English", "Chinese", "Spanish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Alan Watson",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Alan Watson trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 5 years of mentorship.",
-    languages: ["English", "French", "Portuguese", "Italian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/65.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Rebecca Hayes",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Pastry Chef Hayes crafts exquisite desserts with 17 years of baking and pastry artistry.",
-    languages: ["English", "Japanese", "Spanish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Albert Bennett",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Albert Bennett maintains immaculate standards of organization and hygiene at their station, contributing to the kitchen's overall efficiency with 17 years of discipline.",
-    languages: ["English", "Japanese", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Stella Watson",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Stella Watson specializes in unique culinary styles, offering guests diverse flavors based on 5 years of expertise.",
-    languages: ["English", "German", "Chinese", "French"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Ralph Clark",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Clark manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 15 years of Japanese culinary excellence.",
-    languages: ["English", "Japanese", "Arabic"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Michelle Sutton",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Sutton ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 20 years.",
-    languages: ["English", "Chinese", "French"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Frank Price",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "With 17 years of expertise, Butcher Price expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Pacific Rim dishes.",
-    languages: ["English", "Spanish", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Ariana Henderson",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "With 22 years dedicated to the art of baking, Ariana Henderson fills the ship with the aroma of freshly baked artisan breads, pastries, and viennoiserie.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Daniel Reed",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "With 9 years in Michelin-starred establishments, Sommelier Reed elevates the dining journey through impeccable wine service and cellar management.",
-    languages: ["English", "Japanese", "German", "French"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Joel Dunn",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Dunn delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 7 years.",
-    languages: ["English", "Chinese", "German"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Terry Hayes",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Terry Hayes combines artistry and technique to serve quality espresso and coffee beverages.",
-    languages: ["English", "Japanese", "Arabic"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/86.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Naomi Payne",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Nutritionist Payne designs balanced menus catering to health-conscious guests, leveraging 14 years of dietary expertise.",
-    languages: ["English", "Italian", "Chinese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/61.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Priya Douglas",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Douglas leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 8 years of industry leadership.",
-    languages: ["English", "Japanese", "Russian", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Elijah Sutton",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Performance Coordinator Sutton supports talent and technical teams to deliver seamless shows.",
-    languages: ["English", "French", "Japanese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Sofia Chambers",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Sofia Chambers brings charisma and vocal expertise to the ship's entertainment lineup.",
-    languages: ["English", "Arabic", "Portuguese", "Japanese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Nicole Porter",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "Musician Porter adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 5 years of diverse musical experience.",
-    languages: ["English", "French", "German"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Dennis Knight",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Dancer Knight delivers energetic and polished routines, drawing on 20 years of dance training.",
-    languages: ["English", "Russian", "German", "Chinese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Claire Chambers",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Choreographer Chambers works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 9 years of artistic direction.",
-    languages: ["English", "Japanese", "Arabic", "French"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/45.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Amy Chambers",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Comedy Performer Chambers delivers engaging and memorable stand-up routines onboard.",
-    languages: ["English", "French", "Portuguese"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Walter Curtis",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Magic Act specialist Curtis combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
-    languages: ["English", "French", "Arabic", "Italian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/39.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Gregory Payne",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "DJ Payne stays current with music trends while also mastering classics, offering 10 years of expertise in curating unforgettable musical journeys.",
-    languages: ["English", "Spanish", "Russian", "Arabic"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "James Harper",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Harper expertly operates and maintains complex soundboards, microphones, and speaker systems, ensuring every note and word is perfectly heard.",
-    languages: ["English", "Arabic", "Spanish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Brandon Hunter",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Hunter programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    languages: ["English", "Russian", "Portuguese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Isabella Foster",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Stage Manager Foster coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    languages: ["English", "Portuguese", "Japanese", "French"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Julie Morgan",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Production Manager Morgan oversees logistics and technical coordination for large-scale entertainment productions.",
-    languages: ["English", "Japanese", "Russian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Thomas Sutton",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Thomas Sutton's artistic flair and attention to historical detail, honed over 8 years, bring visual richness and authenticity to the stage.",
-    languages: ["English", "Japanese", "Chinese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/76.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Victoria Hayes",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Cultural Program Director Hayes curates culturally enriching events and experiences for guests.",
-    languages: ["English", "Italian", "German", "French"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Javier Dixon",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "With 11 years pushing artistic boundaries, Javier Dixon offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Stephen Chambers",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Stephen Chambers plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 13 years of maritime expertise.",
-    languages: ["English", "Portuguese", "Russian", "Spanish"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Jordan Harper",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Jordan Harper's expertise in procurement and vendor management, developed over 20 years, ensures cost-effective and reliable sourcing for all vessel needs.",
-    languages: ["English", "Spanish", "Arabic"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "David Porter",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Inventory Specialist Porter implements efficient stock rotation (FIFO) and conducts regular audits to prevent shortages and minimize waste.",
-    languages: ["English", "Russian", "Chinese"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/84.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Blake Wells",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Procurement Officer Wells sources and negotiates contracts for goods and services needed onboard.",
-    languages: ["English", "Arabic", "Portuguese", "Chinese"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/60.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
-  {
-    name: "Miguel Reeves",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "With 21 years dedicated to environmental stewardship in the maritime sector, Miguel Reeves develops and manages programs for waste reduction, recycling, and energy conservation.",
-    languages: ["English", "German", "Spanish", "Italian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/38.jpg",
-    city: "Vancouver",
-    country: "Canada",
-    region: "Alaska",
-  },
+    "id": "69987a52-eed0-4acd-98f6-17048f4fb068",
+    "name": "Sebastian Murray",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Captain Murray's strategic decision-making and crisis management skills, honed over 8 years, ensure smooth and safe voyages throughout British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "7cfa3dc4-e6c0-4a6e-b25a-bc630e08f6cc",
+    "name": "Charlotte Hudson",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Hudson's 13-year background includes robust training in advanced navigation systems and crew supervision within British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "bb687864-e781-4332-866f-c02a9e8d2f3e",
+    "name": "Victor Keller",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Second Officer Keller is adept at monitoring vessel position and environmental conditions, contributing to safe passage through British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "d9f04739-8dd0-4fab-94f2-1d88de881821",
+    "name": "Billy Harper",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Billy Harper's expertise in safety and lifesaving equipment maintenance comes from 22 years at sea within British Columbia, ensuring crew and passenger preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/80.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "174ac931-a51b-44da-872c-7f684e19cfb5",
+    "name": "Cynthia Carpenter",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "With 16 years dedicated to British Columbia routes, Cynthia Carpenter excels in dynamic positioning and integrated navigation systems management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "68e6cf1d-6f8b-4fd4-bbd5-c29b4df8f1fc",
+    "name": "Susan West",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "With 18 years overseeing maritime safety, Susan West ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "42476969-eb8e-45ed-9e69-d716cf710e3b",
+    "name": "Joel Murray",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Eager to learn, Deck Cadet Joel Murray diligently assists with bridge duties and deck maintenance tasks, absorbing essential skills for navigating British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "13bbbcc2-67ee-48e0-b4f6-95dce2a2ffaf",
+    "name": "Wei Henderson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "With 8 years managing deck teams, Wei Henderson coordinates tasks such as mooring, cargo handling, and routine repairs, maintaining operational readiness in British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "53f33c60-58f2-4fab-887c-4c292d3d9285",
+    "name": "Billy Palmer",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Palmer's extensive 11-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "7ea79be8-bfe4-4c21-9cf6-f618562ce743",
+    "name": "Aaliyah Sutton",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With 8 years in marine engineering, Aaliyah Sutton excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "70c3e683-68b1-403b-a169-3052eb5bff52",
+    "name": "Layla Baker",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "With strong technical acumen, Layla Baker assists in crew training on engineering systems and emergency response procedures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "89cd3528-bed1-4395-8d2f-610a0555f800",
+    "name": "Hannah Hamilton",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Hannah Hamilton's expertise covers power distribution, electric propulsion components, and emergency backup systems, backed by 11 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "0108e2fa-0457-403c-9cfb-d99e82cc76a7",
+    "name": "Alan Parker",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Alan Parker is skilled in preventive maintenance scheduling and compliance with technical documentation and safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "0d32cf7a-e162-43c7-9dff-89e85d9122b6",
+    "name": "Savannah Mason",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Mason ensures optimal climate control aboard vessels, leveraging 8 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "65fc374b-7118-40dc-be46-2d0264e4e719",
+    "name": "James Fletcher",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "James Fletcher champions innovative solutions for waste reduction and energy efficiency, reflecting 16 years of commitment to maritime sustainability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "3e61def0-571a-497d-8989-56071c77b408",
+    "name": "Ella Cooper",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Ella Cooper is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 5 years of in-depth experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "79336e33-95fa-41fd-8eac-0d5e28d0af03",
+    "name": "Blake Warren",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With a strategic overview honed over 14 years, Blake Warren directs fleet-wide technical policies and ensures best practices are implemented.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "1a5a870d-c83f-4fac-a882-d963c0550e76",
+    "name": "Lisa Day",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on reliability-centered maintenance, Lisa Day optimizes maintenance practices in accordance with industry best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "8476379f-2cb8-4e11-bebc-933c75f49d61",
+    "name": "Logan Crawford",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Crawford has 7 years of experience liaising with international maritime security agencies and port authorities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "71594eba-3b3c-4b32-825b-d5538cb75be0",
+    "name": "Abigail Dunn",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Abigail Dunn conducts routine security patrols and enforces safety regulations, backed by 22 years in maritime security operations and incident response.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "2fd0b8d2-02b5-458b-87a0-13f35b841f25",
+    "name": "Linda Crawford",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Linda Crawford provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "edfcb54f-2c64-4aa8-851d-75b4f414b209",
+    "name": "Gabriel Wallace",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Cybersecurity Officer Wallace implements firewalls, intrusion detection systems, and incident response protocols tailored for maritime environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "a669cad5-2f51-4ba7-a652-c704e81a554d",
+    "name": "Janet Griffin",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Janet Griffin manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "e926d480-5a97-446d-a934-cb468cdf4c75",
+    "name": "Isabella Mason",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Mason plays a crucial role in gangway security and managing visitor identification processes, a responsibility held for 19 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "6170d8d4-1f82-4437-bc24-72192bbee8b8",
+    "name": "Lawrence Knight",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Safety Compliance Officer Knight is an expert in ISM, ISPS, and MLC compliance, bringing 19 years of dedicated focus to these areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/67.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "b1b9ec8e-cf60-4d42-be7c-5bb90674b9f7",
+    "name": "Mason Gibson",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Committed to positive youth engagement, Mason Gibson integrates educational content with fun, age-appropriate activities tailored to diverse passenger groups.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/47.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "22824663-c908-4e40-9bd5-eced5555d61f",
+    "name": "James Curtis",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Curtis designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "f4197528-51e2-46db-a393-961c319173d1",
+    "name": "Harry Stewart",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Harry Stewart is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 21 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "02e3d8d2-a34a-4a3e-87e4-33c2cf332f6e",
+    "name": "Christopher Hamilton",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Hamilton is skilled at mentoring and connecting with teenagers, ensuring they have a fantastic and safe experience, drawing on 10 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "60c1a86f-0278-407d-87bd-3c2fe21ee51a",
+    "name": "Barbara Curtis",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "With a commitment to lifelong learning, Barbara Curtis curates curriculum and interactive sessions that enhance passenger knowledge and engagement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "5195356c-f630-4bab-9ff7-2c0e33307ed3",
+    "name": "Jeffrey Graham",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Graham ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "3aac7c9e-765e-4d74-8ac0-020c55ae9085",
+    "name": "Janet Graves",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Graves leads a team of specialists, ensuring seamless execution of events that enhance the overall passenger experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "f1e338e8-33ec-4b51-a215-60ebac10b87e",
+    "name": "Victoria Ellis",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Ellis possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 6 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "a28174c6-0eb2-497d-a4b7-bc51062e2622",
+    "name": "Isabella Olivia",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "With a focus on motivation and proper technique, Isabella Olivia helps passengers adopt and maintain healthy lifestyles during their voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "b1d0acee-a2e3-485c-abdc-fc467b71b532",
+    "name": "Avery Wallace",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Wallace plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "b129d776-1948-4651-8aed-5c7b719761ee",
+    "name": "Lily Day",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Lily Day directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "025cc6d7-61dc-49e9-b512-63a21118f15a",
+    "name": "Alice Baker",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and adaptability, Alice Baker effectively captures the dynamic atmosphere and human moments aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "903a1558-a8d5-4cb2-a06a-4bb327aff049",
+    "name": "Victor Gardner",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 10 years in the digital realm, Victor Gardner crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "b2fdcb69-8a42-4c7e-bad7-7ac86fcabbe5",
+    "name": "Jesse Olivia",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Olivia leads all medical operations onboard, leveraging 21 years of clinical and maritime healthcare expertise to ensure passenger and crew wellbeing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "30a10c43-f1ee-40a4-bcd4-e5d8ab8ea5f6",
+    "name": "Katherine Dixon",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Dixon, drawing from 12 years in travel and maritime health, offers expert advice on pre-existing conditions and destination-specific health risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/37.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "85a59846-dd33-4a22-975e-9494a7cd0717",
+    "name": "Carlos Montgomery",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Nurse Montgomery supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "4d18f581-9ffa-447c-a899-f56729bd51a2",
+    "name": "Kennedy Reed",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 17 years overseeing maritime safety, Kennedy Reed ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in British Columbia.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "73781056-24b9-4939-9f68-3e0207f93c8e",
+    "name": "Rachel Crawford",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Overseeing a diverse team, Hospitality Director Crawford implements innovative service strategies and maintains the highest quality standards, reflecting 9 years in the industry.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "3ba5120f-2e04-4f89-b91b-a14e19d7620e",
+    "name": "Marcus Reed",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Guest Relations Manager Reed enhances passenger satisfaction through attentive and personalized service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "55e79321-e13d-4e7a-a435-2518114d26a2",
+    "name": "Elijah Sutton",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Elijah Sutton excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 16 years of dedication.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "ef71177f-56ce-46c3-bdc3-4156ac42f2de",
+    "name": "Linda Charlotte",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Linda Charlotte is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "371fff73-fd23-4224-b3f1-d824a0bc83cb",
+    "name": "Angela Griffin",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 3 years, Butler Griffin offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "2c324431-30bd-4699-8a7a-94c8fa6bf8f7",
+    "name": "Bruce Gibson",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Bruce Gibson expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 11 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "f6e5c205-790f-44ac-a683-1f2e6af7e83e",
+    "name": "Noah Keller",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Keller leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "5a1fbbe5-befa-4424-9186-4537d8d711d4",
+    "name": "Audrey Wallace",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Wallace efficiently handles onboard account management, reservations for activities, and general assistance with a friendly and professional demeanor.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "35a06dc1-159a-4796-8899-ec78ff76205b",
+    "name": "Antonio Morgan",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Antonio Morgan acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "992f7ffc-73ea-4927-976c-9fe489bba68d",
+    "name": "Christian Wells",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Christian Wells is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 11 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "7b55d8d2-a130-40f1-bfd3-47712b0d6c84",
+    "name": "Lisa Grant",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "VIP Coordinator Grant manages exclusive guest services, ensuring privacy and personalized attention throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/80.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "cb270654-389a-40ca-956c-0009dacaa6a5",
+    "name": "Ronald Grant",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Trainer Grant focuses on enhancing guest service quality through targeted education and coaching.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "eaf004cb-bdd1-442b-963c-3a5628188f87",
+    "name": "Frank Knight",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Beyond crafting exquisite Pacific Rim, Chef Knight expertly manages kitchen hygiene, inventory, and food cost control, honed over 10 years in demanding culinary environments.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "f3e827ed-7dd7-4614-8b01-7d9004945335",
+    "name": "Terry Bennett",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 6 years in high-volume kitchens, Sous Chef Bennett is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "497936d8-604e-4753-a740-b4dd2a14dc60",
+    "name": "Nicholas Lawson",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Specializing in delicate Nordic pastries and innovative dessert creations, Pastry Chef Lawson brings 14 years of refined skill to the culinary team.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "8696fead-fe82-4124-985a-222c0bdb5e92",
+    "name": "Grace Grant",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Grace Grant ensures consistency and quality in dish preparation across assigned kitchen areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "4c4a7492-6dfa-4920-9c59-65813238d752",
+    "name": "Mark Fox",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Fox curates exclusive menus for themed dining venues, showcasing 16 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/24.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "736533c5-350f-4cda-b3b8-1c599a209d0a",
+    "name": "Jeremy Graves",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Sushi Chef Graves manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 13 years of Japanese culinary excellence.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "3f6644df-8c42-4ec3-a91f-7df0fed214f9",
+    "name": "Sean Reeves",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Sean Reeves is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 13 years of Japanese expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "38189a82-7492-4bef-9493-b809fe61a809",
+    "name": "Oliver Stewart",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Stewart manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 11 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "699e581d-227e-4ea7-9105-53b9582691cd",
+    "name": "Ariana Reed",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Ariana Reed combines traditional techniques with innovation to delight guests with baked specialties.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "dd93a6d5-9536-4c91-8bc6-551fb4f88ca5",
+    "name": "Jason Lawson",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Certified Sommelier Lawson navigates an extensive cellar to find the perfect wine for every palate and Nordic, drawing on 8 years of oenological expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "a2e11592-cd98-44e2-87e8-8b1509bd1b63",
+    "name": "Diego Day",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Diego Day delivers exceptional beverage experiences tailored to guest preferences onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "2e5d9d4c-53c1-410e-889d-50748006cdc0",
+    "name": "Richard Curtis",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "Richard Curtis provides friendly and efficient service at the coffee bar, sharing knowledge and passion for specialty coffee honed over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "f9bdf3aa-1583-481c-9488-03037ae79861",
+    "name": "Margaret Fox",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Fox works closely with the culinary team to create wholesome Mediterranean options that are both flavorful and aligned with wellness goals, drawing on 11 years of expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "5040c263-15bb-4dfd-b0ec-efaa946a58ca",
+    "name": "Jonathan Olivia",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Olivia leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 5 years of industry leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "c3dabe9b-95b4-48f5-a77f-b8f41b399284",
+    "name": "Juan Collins",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Collins serves as the key liaison between artists, production staff, and management, ensuring clear communication and efficient problem-solving.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "7dfcbe86-9068-4c09-9b41-ca1f506d2f3a",
+    "name": "Mark Gardner",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 17 years, Lead Vocalist Gardner shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "4534078a-3c24-44d5-a589-1280267a95b0",
+    "name": "Harper Price",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "A master of the {instrument}, Harper Price brings 3 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "93208d40-4686-4083-8ffd-8b51d050472f",
+    "name": "Christopher Russell",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "With 7 years of professional training in {danceStyle} and contemporary dance, Christopher Russell executes complex choreography with precision and artistry in mainstage productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "19e68da3-c443-4ac4-b7c1-37e01e24334f",
+    "name": "Joseph Holloway",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Joseph Holloway collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 15 years of experience in stage production.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "47fa96f8-77ec-4dd6-943a-3d55517817fd",
+    "name": "Wei Fisher",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Wei Fisher entertains guests with humor and timing, backed by 19 years in comedy performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "8934aa9a-699b-4b3f-a2ff-e6d1972834a3",
+    "name": "Sandra Day",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Day combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "2e9cd13b-0949-45dc-9e42-c4f7b058f53a",
+    "name": "Eleanor Day",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Day creates vibrant atmospheres with expertly mixed music, drawing on 6 years in live DJing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/31.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "540ed578-f037-45e9-a61f-353aed5aaafc",
+    "name": "Katherine Fletcher",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Fletcher manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "78539953-bce8-4481-8a56-09d4109c1736",
+    "name": "Philip Payne",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Payne designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "9403eae0-3bce-42ba-8c39-29d1a8015b86",
+    "name": "William Hayes",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Hayes coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "97051a1e-e668-4c2e-8359-733fb545e67b",
+    "name": "Jeremy Campbell",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Jeremy Campbell ensures timely and efficient delivery of shows, leveraging 17 years in production management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "8de605b5-33e6-4b39-8118-209f0de7f2c3",
+    "name": "Cynthia Marshall",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "With 9 years of experience in theatrical costume design, Cynthia Marshall conceives and produces stunning wardrobes that define characters and elevate productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "0d24ed6c-1225-4c09-a2c3-619d94a3a225",
+    "name": "Angela Reed",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Angela Reed's passion for cultural exchange, cultivated over 10 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/34.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "12dfb876-3d37-46e6-b04d-46ae1d50fdbe",
+    "name": "Daniel Baker",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Baker delivers unique and innovative acts, blending multiple disciplines with 11 years of artistic practice.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/27.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "3aacc811-c05f-4c0a-8eb6-d72c7982d455",
+    "name": "Aaliyah Watson",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Aaliyah Watson plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 16 years of maritime expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/30.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "df83d83a-dbe5-447c-8a0f-3e806b164ace",
+    "name": "Vincent Fletcher",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Logistics Coordinator Fletcher manages supply chain and transport logistics, ensuring efficient resource allocation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "71095133-b037-4b75-b89a-a51df43d9fb8",
+    "name": "Daniel Reeves",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 17 years in inventory management, Daniel Reeves meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "9078729e-b168-4ac6-9663-7f114824789b",
+    "name": "Harry Fox",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Harry Fox's sharp negotiation skills and 4 years of experience contribute significantly to controlling operational costs while maintaining quality standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  },
+  {
+    "id": "77ee9a2b-cc7e-4c72-a917-810807154a41",
+    "name": "Thandiwe Dixon",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Thandiwe Dixon champions innovative eco-friendly technologies and practices, leveraging 9 years to enhance the vessel's environmental performance and reputation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "fr",
+        "name": "French"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Vancouver",
+    "country": "Canada",
+    "region": "British Columbia"
+  }
 ];

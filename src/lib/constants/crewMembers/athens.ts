@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Athens
+    // Generated on: 2025-06-10T03:41:38.285Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const athensTeamMembers: CrewMember[] = [
   {
-    name: "Stephanie Gardner",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Stephanie Gardner leads vessel operations with a deep understanding of Mediterranean's maritime environment, backed by 21 years of commanding large crews and complex vessels.",
-    languages: ["English", "Portuguese", "Danish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/33.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jesse Gibson",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "With 12 years of maritime expertise, Jesse Gibson coordinates watchkeeping duties and emergency response, expertly navigating Mediterranean's waterways.",
-    languages: ["English", "Danish", "French"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ronald Gardner",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "With a strong focus on electronic navigation and safety equipment, Ronald Gardner brings 13 years of experience navigating Mediterranean's challenging routes.",
-    languages: ["English", "French", "Finnish", "Dutch"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/97.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Rajesh Price",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Third Officer Price conducts regular safety inspections and coordinates emergency drills, enhancing onboard security across Mediterranean.",
-    languages: ["English", "Russian", "Greek"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/79.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Daniel Price",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Daniel Price utilizes advanced navigational technology with 21 years ensuring precise route planning and safe passage in Mediterranean.",
-    languages: ["English", "Polish", "Italian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Kenneth Wells",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Safety Officer Wells works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    languages: ["English", "Italian", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/33.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Priya Hall",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Priya Hall, a promising Deck Cadet, is quickly mastering the fundamentals of seamanship and safety protocols specific to Mediterranean maritime operations.",
-    languages: ["English", "Danish", "Swedish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amina Hayes",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Bosun Hayes maintains the vessel's exterior appearance and structural integrity, a testament to 22 years of dedication in Mediterranean.",
-    languages: ["English", "Czech", "Swedish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Joan West",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer West's extensive 16-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
-    languages: ["English", "Dutch", "German"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amelia Bennett",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Amelia Bennett applies 9 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["English", "Finnish", "German"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/26.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Stephanie Mitchell",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "With strong technical acumen, Stephanie Mitchell assists in crew training on engineering systems and emergency response procedures.",
-    languages: ["English", "Russian", "Czech", "Greek"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Walter Payne",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "With 4 years designing, installing, and maintaining vessel electrical infrastructure, Walter Payne ensures continuous power supply and safety.",
-    languages: ["English", "French", "Finnish", "Russian"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amina Douglas",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "With 22 years of mechanical expertise, Amina Douglas maintains critical ship machinery, including pumps, compressors, and hydraulic systems.",
-    languages: ["English", "Danish", "Russian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jeremy Hunter",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Jeremy Hunter designs, installs, and maintains heating, ventilation, and air conditioning systems with 15 years of maritime specialization.",
-    languages: ["English", "Portuguese", "Polish", "Greek"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Rachel Curtis",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Environmental Engineer Curtis manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 20 years of dedication.",
-    languages: ["English", "Norwegian", "Portuguese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/32.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Avery Bennett",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Systems Engineer Bennett's proficiency in network engineering and data management ensures seamless information flow across shipboard platforms, built over 11 years.",
-    languages: ["English", "French", "Greek"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Anthony Chambers",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "With 18 years leading technical teams, Anthony Chambers ensures vessel systems meet all regulatory, safety, and performance standards.",
-    languages: ["English", "German", "Greek"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/24.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Maya Porter",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on reliability-centered maintenance, Maya Porter optimizes maintenance practices in accordance with industry best practices.",
-    languages: ["English", "Portuguese", "Norwegian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ellie Maxwell",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Ellie Maxwell oversees all security operations with 11 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
-    languages: ["English", "German", "Dutch"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/53.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Laura Murray",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "With keen attention to risk, Laura Murray has 7 years experience protecting vessel personnel, property, and critical infrastructure against diverse threats.",
-    languages: ["English", "German", "Greek"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Brian Wallace",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Security Specialist Wallace advises senior management on emerging security trends and implements best practices in security operations.",
-    languages: ["English", "Portuguese", "Norwegian"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ella Keller",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Experienced in compliance with maritime cybersecurity regulations, Ella Keller conducts training to enhance crew awareness of digital risks.",
-    languages: ["English", "Polish", "Italian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/37.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Patrick Dunn",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "With 10 years in the role, Patrick Dunn is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
-    languages: ["English", "Czech", "Spanish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Carol Dean",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Carol Dean ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
-    languages: ["English", "Norwegian", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Katherine Morgan",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Safety Compliance Officer Morgan is an expert in ISM, ISPS, and MLC compliance, bringing 9 years of dedicated focus to these areas.",
-    languages: ["English", "Norwegian", "Italian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/27.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Carl Spencer",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Youth Program Director Spencer manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    languages: ["English", "Polish", "Dutch", "Danish"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/5.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Chen Hayes",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Focused on safety and accessibility, Chen Hayes ensures all family activities comply with onboard regulations and guest expectations.",
-    languages: ["English", "Czech", "Polish", "Greek"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nomsa Russell",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Nomsa Russell engages young guests with creative entertainment programs, leveraging 3 years in children’s recreational services and event planning.",
-    languages: ["English", "Italian", "Finnish", "Polish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Matthew Fletcher",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Teen Activities Coordinator Fletcher monitors participation and feedback to continuously refine and innovate teen programming.",
-    languages: ["English", "Dutch", "Polish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Charlotte Stewart",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Educational Program Manager Stewart coordinates with external educators and experts to deliver diverse and culturally relevant content.",
-    languages: ["English", "French", "Spanish", "Russian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Valentina Murray",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Valentina Murray provides attentive care and supervision for young passengers, backed by 14 years in professional child care and early childhood education.",
-    languages: ["English", "Polish", "Finnish", "Portuguese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Alexander Dunn",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Drawing on 4 years in recreation management, Alexander Dunn curates an exciting and varied daily program of entertainment and activities for all guests.",
-    languages: ["English", "Polish", "Czech", "German"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Hannah Mitchell",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Water Sports Instructor Mitchell possesses an in-depth knowledge of local water conditions and marine life, enhancing guest experiences over 8 years.",
-    languages: ["English", "Russian", "Italian"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Alexa West",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Fitness Instructor West provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 8 years.",
-    languages: ["English", "German", "Czech"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/31.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Audrey Hawkins",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Leveraging 18 years of experience, Audrey Hawkins curates a portfolio of unique and authentic shore excursions that showcase the best of each port.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Margaret Day",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Drawing on 14 years behind the lens, Margaret Day expertly captures the essence of the cruise experience, from grand events to intimate moments.",
-    languages: ["English", "Portuguese", "Russian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sofia Fletcher",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Leveraging 6 years in filmmaking, Sofia Fletcher produces cinematic-quality videos that beautifully encapsulate the journey and its destinations.",
-    languages: ["English", "Norwegian", "Finnish"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Allison Wallace",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Digital Media Specialist Wallace analyzes content performance and audience metrics to optimize digital strategies and engagement.",
-    languages: ["English", "Norwegian", "Portuguese"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amina Clark",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Drawing on 7 years as a medical leader, Amina Clark ensures the ship's medical facility operates to the highest international healthcare standards.",
-    languages: ["English", "Dutch", "French", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/39.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Samuel Dean",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Ship's Doctor Dean is skilled in minor surgical procedures and advanced cardiac life support, bringing 7 years of critical care experience.",
-    languages: ["English", "Finnish", "Russian"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/74.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Darrell Coleman",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Nurse Coleman provides empathetic and skilled assistance, ensuring patient comfort and adherence to strict hygiene and infection control protocols.",
-    languages: ["English", "Swedish", "German", "Finnish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "David Murray",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "With a thorough understanding of hazard identification and mitigation, David Murray fosters a culture of safety awareness among crew and passengers.",
-    languages: ["English", "Polish", "Norwegian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Madelyn Keller",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Madelyn Keller manages all hospitality services, ensuring exceptional guest experiences with 16 years of leadership.",
-    languages: ["English", "Czech", "Swedish"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Audrey Coleman",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Guest Relations Manager Coleman enhances passenger satisfaction through attentive and personalized service.",
-    languages: ["English", "Swedish", "Danish", "Dutch"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nora Carpenter",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Chief Steward Carpenter supervises housekeeping and guest services with 7 years of maritime hospitality experience.",
-    languages: ["English", "Swedish", "Spanish"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Edward Foster",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Senior Steward Foster also assists in training junior stewards, sharing expertise gained from 16 years in maritime hospitality.",
-    languages: ["English", "Russian", "Norwegian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Emily Grant",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Emily Grant anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    languages: ["English", "Finnish", "Russian", "Dutch"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Harold Lawson",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Harold Lawson expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 8 years of experience.",
-    languages: ["English", "Danish", "Spanish", "Portuguese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Alice Russell",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Alice Russell manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 11 years of leadership.",
-    languages: ["English", "Polish", "German"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nathan Palmer",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Nathan Palmer assists guests with inquiries and special requests, drawing on 12 years in customer service roles.",
-    languages: ["English", "German", "Norwegian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/44.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Edward Morgan",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Concierge Morgan offers expert local knowledge and personalized recommendations to enrich guest journeys.",
-    languages: ["English", "Spanish", "Czech", "Polish"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Janet Fletcher",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "With 4 years in front office management, Janet Fletcher ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
-    languages: ["English", "Czech", "Swedish", "German"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Gary Warren",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "With 15 years catering to high-profile clientele, Gary Warren curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
-    languages: ["English", "Spanish", "Italian", "Russian"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jennifer Curtis",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Curtis specializes in areas like luxury service standards, complaint resolution, and upselling techniques, drawing on 19 years of industry best practices.",
-    languages: ["English", "Finnish", "Italian"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amy Crawford",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Chef Crawford creates exceptional Asian fusion cuisine with 9 years of culinary expertise from around the world.",
-    languages: ["English", "Dutch", "Polish", "Portuguese"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/30.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Tyler Russell",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "With 11 years in high-volume kitchens, Sous Chef Russell is adept at managing specific stations and stepping in for the Executive Chef as needed.",
-    languages: ["English", "Polish", "Portuguese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/41.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sophia Stewart",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Sophia Stewart manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 5 years.",
-    languages: ["English", "Polish", "Swedish"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/38.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sean Reed",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Reed manages specific kitchen stations with 21 years of focused culinary skill.",
-    languages: ["English", "Italian", "Swedish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Priya Holloway",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Priya Holloway specializes in unique culinary styles, offering guests diverse flavors based on 21 years of expertise.",
-    languages: ["English", "Spanish", "Swedish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Maya Price",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Maya Price delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 17 years of rigorous training.",
-    languages: ["English", "Finnish", "Italian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Roy Holloway",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Holloway expertly prepares cold dishes and appetizers with 8 years of culinary proficiency.",
-    languages: ["English", "Swedish", "Dutch", "Finnish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/71.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Carol Hawkins",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Carol Hawkins maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 13 years in professional butchery.",
-    languages: ["English", "Finnish", "Italian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Henry Henderson",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Baker Henderson produces fresh breads and baked goods, leveraging 5 years of baking expertise.",
-    languages: ["English", "Dutch", "Finnish", "Portuguese"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Donna Maxwell",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Donna Maxwell enhances dining experiences by sourcing and recommending premium wines.",
-    languages: ["English", "Spanish", "Greek"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Patrick Fisher",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Fisher crafts creative cocktails, combining flavor expertise with 3 years of bartending skill.",
-    languages: ["English", "German", "Swedish", "Portuguese"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/68.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Henry Marshall",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Barista Marshall ensures consistently excellent coffee quality, from bean grinding to final pour, reflecting 9 years of dedication to the craft.",
-    languages: ["English", "Dutch", "French", "Greek"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Katherine Hawkins",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Nutritionist Hawkins designs balanced menus catering to health-conscious guests, leveraging 21 years of dietary expertise.",
-    languages: ["English", "Norwegian", "Czech"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Rachel Watson",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Watson curates diverse programming to engage and delight guests throughout voyages.",
-    languages: ["English", "Dutch", "Portuguese", "Spanish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/68.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Andrew Nash",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "With 12 years in arts administration, Andrew Nash expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
-    languages: ["English", "Swedish", "German"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Steven Spencer",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Lead Vocalist Spencer captivates audiences with dynamic performances, backed by 22 years of professional singing.",
-    languages: ["English", "Czech", "Danish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Matthew Reed",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "A master of the {instrument}, Matthew Reed brings 3 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    languages: ["English", "Polish", "Danish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Samantha Crawford",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "With 6 years of professional training in {danceStyle} and contemporary dance, Samantha Crawford executes complex choreography with precision and artistry in mainstage productions.",
-    languages: ["English", "Swedish", "Danish"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/10.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sarah Reeves",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Sarah Reeves collaborates with costume and lighting designers to create a cohesive and visually stunning spectacle, drawing on 18 years of experience in stage production.",
-    languages: ["English", "French", "Greek"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/11.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Helen Payne",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Helen Payne's ability to connect with the audience and improvise, developed over 7 years, makes each show a unique and highly enjoyable experience.",
-    languages: ["English", "Czech", "Greek"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Leah Keller",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Leah Keller blends showmanship and technique to deliver captivating magic shows at sea.",
-    languages: ["English", "Greek", "Portuguese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Cynthia Hamilton",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "Cynthia Hamilton keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
-    languages: ["English", "Polish", "Czech"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Lerato Baker",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Lerato Baker's keen ear and technical proficiency, developed over 10 years, are essential for delivering immersive and high-quality auditory experiences.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Patricia Harper",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Harper programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    languages: ["English", "Danish", "Greek"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Christian Day",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Stage Manager Day is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
-    languages: ["English", "Russian", "Dutch"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/2.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Mary Graham",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Mary Graham ensures timely and efficient delivery of shows, leveraging 18 years in production management.",
-    languages: ["English", "Czech", "Russian"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ralph Carpenter",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Ralph Carpenter's artistic flair and attention to historical detail, honed over 20 years, bring visual richness and authenticity to the stage.",
-    languages: ["English", "Czech", "Dutch", "Polish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/37.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Zachary Spencer",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Cultural Program Director Spencer curates culturally enriching events and experiences for guests.",
-    languages: ["English", "Dutch", "Italian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/77.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Thomas Fox",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Performance Artist Fox delivers unique and innovative acts, blending multiple disciplines with 5 years of artistic practice.",
-    languages: ["English", "Spanish", "Greek", "Swedish"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Bryan Collins",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "With 8 years streamlining vessel-wide processes, Bryan Collins ensures optimal efficiency, resource allocation, and inter-departmental synergy.",
-    languages: ["English", "Greek", "Dutch"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Stella Reeves",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "Stella Reeves leverages 11 years in logistics to optimize onboard operations.",
-    languages: ["English", "Polish", "Russian"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/84.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Elijah Montgomery",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "Elijah Montgomery's analytical skills, honed over 16 years, are key to forecasting demand and optimizing stock levels across various departments.",
-    languages: ["English", "Spanish", "Norwegian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Susan Campbell",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Procurement Officer Campbell manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
-    languages: ["English", "Dutch", "Portuguese"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
-  {
-    name: "Mark Fisher",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Mark Fisher promotes sustainable practices aligned with maritime environmental standards.",
-    languages: ["English", "German", "Danish"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Athens",
-    country: "Greece",
-    region: "Mediterranean",
-  },
+    "id": "f0f6cd6d-783a-4377-99ef-bc284d132fb1",
+    "name": "Alexander Watson",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "Alexander Watson leads vessel operations with a deep understanding of Mainland Greece's maritime environment, backed by 18 years of commanding large crews and complex vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c88ee362-0626-4bb1-bdad-b976c1a3c9c4",
+    "name": "Zoe Sutton",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "First Officer Sutton supports the Captain by managing daily operations and maintaining vessel readiness, backed by extensive experience in Mainland Greece.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c542c97b-d783-4fee-898d-be555c7d4a7a",
+    "name": "Gabriel Hawkins",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "With a strong focus on electronic navigation and safety equipment, Gabriel Hawkins brings 10 years of experience navigating Mainland Greece's challenging routes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "3719f42e-c704-4f8d-8f9c-8054ca30834d",
+    "name": "Isabella Wells",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Isabella Wells's expertise in safety and lifesaving equipment maintenance comes from 11 years at sea within Mainland Greece, ensuring crew and passenger preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "d742e12c-6c7a-484b-9f3e-e9c3415a602a",
+    "name": "Andrew Hunter",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "With 12 years dedicated to Mainland Greece routes, Andrew Hunter excels in dynamic positioning and integrated navigation systems management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "acfc2e07-41db-4c13-a6ca-b334ed9eead9",
+    "name": "Philip Palmer",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Safety Officer Palmer works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "6b81dce0-7c48-44c2-9518-3a91e24ba38e",
+    "name": "Jeremy Dunn",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "Jeremy Dunn supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Mainland Greece's maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/44.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "83c79661-02cc-4220-a8fb-c616033fa221",
+    "name": "Emily Mitchell",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Emily Mitchell's leadership ensures the deck department operates efficiently and safely, drawing from 5 years of hands-on experience in Mainland Greece.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/49.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "bf6b2593-483a-4f6c-a1f1-629a47243167",
+    "name": "Larry Montgomery",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Montgomery manages engineering teams and coordinates preventative maintenance programs to maximize uptime and efficiency throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "f8f912c9-2ca0-406c-ae97-4b560e30dcb8",
+    "name": "Ellie Fletcher",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "First Engineer Fletcher is responsible for the main propulsion machinery and auxiliary systems, bringing 4 years of hands-on expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/35.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "d2179c2e-2fcf-43c6-bde8-0bb3bd02f9f1",
+    "name": "Walter Hunter",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Second Engineer Hunter conducts routine inspections and coordinates repairs for critical propulsion and auxiliary machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "144d41b0-04fb-484a-80e4-ad1fa7454e38",
+    "name": "Jane Ellis",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Ellis conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "2ac25f40-2948-4aef-8bb6-59f3927ad18c",
+    "name": "Angela Dixon",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Dixon provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 22 years of insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "5a48e104-55f5-4d07-9344-fd83a3b87a61",
+    "name": "Zachary Lawson",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "Drawing on 9 years, Zachary Lawson is proficient in troubleshooting and repairing complex refrigeration plants and air handling units.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "b04ab04c-ea6b-4ce1-861c-06932209c38c",
+    "name": "Christian Hudson",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 13 years in marine environmental science, Christian Hudson ensures strict adherence to all international and local environmental laws.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "4bc424e9-69c7-42d1-a104-fec834adc5c7",
+    "name": "Austin Collins",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Austin Collins is pivotal in troubleshooting and resolving complex issues across interconnected electronic and control systems, thanks to 13 years of in-depth experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c683632a-a622-4f2e-9a50-d81d75eb8436",
+    "name": "Nancy Wallace",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "With a strategic overview honed over 16 years, Nancy Wallace directs fleet-wide technical policies and ensures best practices are implemented.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "dd17abcc-5156-405c-9451-9ca0ac9f7b11",
+    "name": "Thomas Chambers",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 11 years, Thomas Chambers is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/18.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "01ecd4d3-f6cf-4c21-aee9-d21e64f9abdc",
+    "name": "John Fox",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Security Director Fox leads threat analysis initiatives and implements advanced security measures to safeguard vessel integrity.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c2999e43-232f-4b63-9ce8-16fe887e906e",
+    "name": "Noah Wallace",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Focused on maintaining order, Noah Wallace collaborates with other departments to enhance overall passenger and crew safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "9136196d-c4a6-4222-8c46-e80734471680",
+    "name": "Savannah Carpenter",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Savannah Carpenter's 5 years include proficiency in evidence collection and report writing for maritime security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "eb54001e-6499-4031-9dd7-e37f2c56c5eb",
+    "name": "Richard Russell",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Richard Russell continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "db17ce64-7791-4665-884f-3f59ceda426d",
+    "name": "Bella Payne",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With strong organizational skills, Bella Payne maintains detailed records and reports to support continuous security improvement.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "8fe08ed8-0985-4e84-8b44-9d1601614fd1",
+    "name": "Amina Coleman",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Focused on security integrity, Amina Coleman conducts regular audits of access logs and assists in security incident investigations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "3df5d8d2-0c42-4b3c-becd-7ae9349a1e7b",
+    "name": "Sebastian Day",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Sebastian Day meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 4 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "2845164f-8d89-4243-b1b7-a0a16df3298d",
+    "name": "Jane Wells",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "With a passion for youth development, Jane Wells crafts innovative activities fostering learning, social growth, and cultural awareness during voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/24.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "96833450-854e-4558-909b-b885a63ea6ac",
+    "name": "Jonathan Warren",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Warren is adept at creating a welcoming and fun atmosphere where families can create lasting memories, a skill honed over 6 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "fa16e385-756d-4002-b431-498fe2628862",
+    "name": "Eugene Gardner",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Eugene Gardner is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 3 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/48.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "0315b78a-6a66-4230-a9b8-73be0374c21c",
+    "name": "Katherine Henderson",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Henderson fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "8de3e8f4-db49-4e73-bd73-e3e4f8ebabb6",
+    "name": "Javier Sutton",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Javier Sutton ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/59.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "4008f546-74e5-4c8d-84ea-cd4038f60ea9",
+    "name": "Javier Hayes",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With 21 years dedicated to early childhood development, Javier Hayes creates a stimulating and secure setting for the youngest guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "fae3786d-8f25-45f9-9540-39cadff7b51e",
+    "name": "Gary Porter",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Known for innovative programming, Gary Porter continuously evaluates activity trends and passenger feedback to refresh and improve offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c19684a1-3920-479e-af49-8695f237e988",
+    "name": "Michelle Chambers",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Michelle Chambers's primary focus for 5 years has been ensuring every guest feels confident and secure while exploring the water.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/77.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "1391e206-7b30-45d6-b0fe-08d4d438efc7",
+    "name": "Virginia Knight",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Virginia Knight leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/39.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "4310de51-b9f1-4f71-a561-8c0db90e7f03",
+    "name": "Joel Graves",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Excursion Coordinator Graves plans enriching off-ship experiences that promote cultural immersion and memorable interactions for passengers.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "7822d64e-56df-48cf-bf08-a0b2d3a59b40",
+    "name": "Patricia Fox",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "With extensive experience in portrait, event, and environmental photography, Patricia Fox ensures high-quality imagery that reflects the voyage’s unique character.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "bbc4ee62-39a5-4228-95e9-c7afd7f41af2",
+    "name": "Matthew Henderson",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "With a strong understanding of narrative flow and audience engagement, Matthew Henderson produces videos for promotional and archival purposes.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "ce22bdf9-8df5-4a26-872b-c183cd80985b",
+    "name": "Henry Cooper",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Known for technical proficiency and creative vision, Henry Cooper collaborates closely with marketing and entertainment teams to maximize reach and impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "42a75fb5-8823-435c-8108-23e11acfc726",
+    "name": "Jason Hamilton",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Committed to preventive care, Jason Hamilton promotes health education and wellness initiatives throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c6ddd742-7f42-403b-be03-602527c7d12c",
+    "name": "Cynthia Murray",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Ship's Doctor Murray conducts routine health assessments and manages medical records in compliance with international maritime standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/21.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "c079df7a-9988-4b30-96a5-172d6764941c",
+    "name": "Alexander Fisher",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Leveraging 6 years in diverse nursing roles, Alexander Fisher excels in triage, wound care, and patient advocacy within the unique maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/66.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "40d629b6-024d-4323-8377-de3b4c5c15e2",
+    "name": "Bryan Palmer",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Bryan Palmer conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Mainland Greece's maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "b54bc21a-1b40-4c4f-88d3-b8ccfd127792",
+    "name": "Brooklyn Knight",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Brooklyn Knight manages all hospitality services, ensuring exceptional guest experiences with 4 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/78.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "16be5a34-8da7-423f-b8b6-30ceb973e6f6",
+    "name": "Michelle Mason",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Michelle Mason champions a guest-first culture, utilizing 13 years of experience to train and motivate staff in delivering exceptional, personalized care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "6ffc9d32-0823-4eb0-985e-770412045143",
+    "name": "Rajesh Parker",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Rajesh Parker ensures the highest standards of cleanliness and comfort throughout passenger accommodations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "ea53462f-aba5-4406-a284-e1a029ee09d8",
+    "name": "William Ellis",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Senior Steward Ellis also assists in training junior stewards, sharing expertise gained from 22 years in maritime hospitality.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "4ca3c31c-ad31-4587-9d17-3c530dbece10",
+    "name": "Sebastian Henderson",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 7 years, Butler Henderson offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "28f3ee40-808c-427d-9630-32866fdde6f2",
+    "name": "Anna Bennett",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Bennett coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "9f1072ea-1039-4634-bbd9-def08bc55bcb",
+    "name": "Bella Graves",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Housekeeping Supervisor Graves leads cleaning teams, maintaining impeccable standards across all guest areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/29.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "eac95288-055e-4282-967e-28bcc27c1b68",
+    "name": "Elijah Lawson",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Lawson facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "83516677-ecc7-420e-b4d6-0aee454c20b6",
+    "name": "Helen Fox",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "With an extensive network and 18 years of experience, Concierge Fox arranges bespoke shore excursions, dining reservations, and special occasion services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "7c610783-26bb-48a9-9858-d4e509b210de",
+    "name": "Aaron Olivia",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "With 13 years in front office management, Aaron Olivia ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/28.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "1f0957eb-ec7a-4ec8-a8bb-6a66637f60d9",
+    "name": "Ella Carpenter",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 19 years catering to high-profile clientele, Ella Carpenter curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "1dcd171a-a8d2-496c-972a-aa9124942c0e",
+    "name": "Joshua Hall",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "Joshua Hall conducts needs assessments and measures training effectiveness to ensure continuous improvement across all hospitality departments, reflecting 16 years in adult learning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "4b489e86-3aef-42b0-b8f2-56d9c0367c4c",
+    "name": "Robert Charlotte",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "Executive Chef Charlotte leads a brigade of talented chefs, orchestrating all culinary operations and menu development with 5 years of innovative leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "9828e43c-55bb-4f2a-8aee-a048afb03a11",
+    "name": "Alexander Campbell",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 21 years in high-volume kitchens, Sous Chef Campbell is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "664ed24c-72af-4a09-9a7a-d5ce5f33805d",
+    "name": "Jeremy Maxwell",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Jeremy Maxwell blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/48.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "ec9fc6bc-72d8-4637-8ec4-294413eed725",
+    "name": "Ashley Hayes",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "Specializing in the hydraulic systems station (e.g., Saucier, Grillardin), Chef de Partie Hayes brings 21 years of expertise in preparing precise Italian components.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "d8b44de3-e6d7-4cd8-9fba-86771dab5c5f",
+    "name": "Zoe Chambers",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "With 13 years perfecting {cuisineSpecific} artistry, Zoe Chambers ensures each plate is a true representation of its cultural heritage and bold flavors.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "eb796f19-17b3-4f0d-92a0-cd08f4dba48b",
+    "name": "Ralph Jennings",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Ralph Jennings combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/39.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "900e91f0-d7dd-4857-aae3-7b3c4500a771",
+    "name": "Alexa Porter",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Garde Manger Porter expertly prepares cold dishes and appetizers with 10 years of culinary proficiency.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "0d99e101-0b26-4209-ba3b-6272871a9f14",
+    "name": "Kennedy Hudson",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Hudson manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 7 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/54.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "a6ea9019-f195-44a1-a851-c9b4d375d923",
+    "name": "Patricia Fletcher",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Baker Fletcher produces fresh breads and baked goods, leveraging 13 years of baking expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/32.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "b3a33d96-003f-49fc-bba7-10282e962a06",
+    "name": "Blake Sutton",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Blake Sutton enhances dining experiences by sourcing and recommending premium wines.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/57.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "1eb9d1e8-ed55-4b45-8d8f-eeb2f7c9b0cd",
+    "name": "Julie Nash",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Julie Nash manages bar inventory and contributes to menu development, ensuring a sophisticated and exciting beverage program, backed by 22 years in the art of mixology.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "741edeb7-4070-43af-8574-251f34966506",
+    "name": "Sean Hayes",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 15 years of expertise in coffee origins, brewing methods, and latte art, Sean Hayes crafts the perfect cup for every guest.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "f2366724-fea3-4a59-aee0-c583784bd402",
+    "name": "Layla Olivia",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Layla Olivia collaborates with chefs to ensure nutritious and delicious meal options onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "868296fe-1603-4619-8c81-cd07001cd9cd",
+    "name": "Ryan Russell",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Russell leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 7 years of industry leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "ac262e9f-614d-4b3f-991e-ecfc34142a4a",
+    "name": "Ethan Olivia",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 19 years in arts administration, Ethan Olivia expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/37.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "9577b065-5e94-4ff8-b224-0657c5d25cf2",
+    "name": "Leah Graves",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "Leah Graves consistently delivers show-stopping performances, connecting with audiences through emotive storytelling and exceptional vocal talent honed across 9 years on stage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "f99b1d30-a330-4560-9933-c918d1b8b827",
+    "name": "Scott Sutton",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "With 5 years entertaining audiences worldwide, Scott Sutton creates an engaging atmosphere, taking requests and interacting with guests through the power of live music.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "430b5434-c55e-4896-a516-db6af6d3e82b",
+    "name": "George Holloway",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "George Holloway is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 5 years of professional dance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "32d0cdad-2a89-4f4d-ac2c-0f997bbeb567",
+    "name": "Billy Palmer",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Palmer creates captivating dance routines, blending creativity with 9 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "729118ed-f410-49ee-8c62-01a3fbb43c19",
+    "name": "Keith Hayes",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "With a sharp wit and 14 years on the comedy circuit, Keith Hayes offers hilarious observational humor and storytelling that resonates with diverse audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "0f79e79f-08e5-4cf6-b963-3c40e555218c",
+    "name": "Paul Keller",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Keller combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "1c4f635b-e05d-4edc-9390-2b3bda06a41a",
+    "name": "Johnny Reed",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "Johnny Reed utilizes professional mixing skills and an energetic presence to ensure high-energy parties and memorable nights for guests, backed by 10 years of club experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "f2cd699f-d36b-487e-933d-cbf37eb8cf27",
+    "name": "Linda Foster",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Foster manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "5e84b5d8-2be7-41f7-87d7-c0d57fba3265",
+    "name": "Darrell Hayes",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Darrell Hayes applies 3 years of technical skill to create immersive visual experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "8aa23518-4519-4fa2-8273-9d6f41b8f868",
+    "name": "Valentina Sutton",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Stage Manager Sutton is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "fa72d0c6-fa69-4008-942b-aac4054c9939",
+    "name": "Madelyn Morgan",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Morgan oversees logistics and technical coordination for large-scale entertainment productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "cec634e6-f8cc-4012-9b03-9661ec7fbc57",
+    "name": "Thandiwe Fox",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Fox creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "b5f3271d-174f-4a51-a6f3-9b177a0db8ba",
+    "name": "Thabo Reeves",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Thabo Reeves promotes diversity and cultural awareness through engaging onboard programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "ebc4bed3-c00c-4f77-a4ae-8c34473f6d1d",
+    "name": "Maya Montgomery",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Maya Montgomery captivates audiences with original performances tailored to shipboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/9.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "0930e467-458a-4054-934c-375c83f09120",
+    "name": "Gabriella West",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager West applies 16 years of leadership in maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/49.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "9643d3d9-9fcc-46a5-9167-614a402b6c99",
+    "name": "Brandon Parker",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Brandon Parker's expertise in procurement and vendor management, developed over 14 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "71d0a4a5-19e5-4078-a30a-644cd4ce0229",
+    "name": "Grace Olivia",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "With 17 years in inventory management, Grace Olivia meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/17.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "5e675400-186a-4afe-b518-b7d55b391b43",
+    "name": "Grace Morgan",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "Procurement Officer Morgan sources and negotiates contracts for goods and services needed onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/56.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  },
+  {
+    "id": "15589dcc-f0c0-45fe-b289-f8d114d0a84b",
+    "name": "Sandra Fox",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Fox implements green initiatives to minimize environmental impact.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "el",
+        "name": "Greek"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/52.jpg",
+    "city": "Athens",
+    "country": "Greece",
+    "region": "Mainland Greece"
+  }
 ];

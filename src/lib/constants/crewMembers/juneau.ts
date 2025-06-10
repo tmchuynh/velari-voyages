@@ -1,1060 +1,1946 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Juneau
+    // Generated on: 2025-06-10T03:41:38.292Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const juneauTeamMembers: CrewMember[] = [
   {
-    name: "Emma Douglas",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "Drawing on 15 years of command, Emma Douglas expertly manages all aspects of vessel operation in Alaska, emphasizing crew development and operational excellence.",
-    languages: ["English", "Italian", "Portuguese"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Isabella Knight",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "Leveraging 19 years of experience in Alaska, Isabella Knight is adept at cargo operations, stability calculations, and bridge resource management.",
-    languages: ["English", "German", "Spanish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/43.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Jose Hayes",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Jose Hayes applies 3 years of navigational skills to support safe and efficient voyages across Alaska, with strong expertise in chart plotting and communication systems.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Darrell Griffin",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Drawing on 18 years of experience in Alaska, Darrell Griffin is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
-    languages: ["English", "German", "Chinese", "Arabic"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/58.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Evelyn Murray",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Navigation Officer Murray maintains detailed voyage records and monitors navigation aids, ensuring compliance with maritime regulations in Alaska.",
-    languages: ["English", "Japanese", "French"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Russell Reeves",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Committed to regulatory adherence, Russell Reeves stays updated on maritime safety laws and best practices, facilitating crew training and certification.",
-    languages: ["English", "Japanese", "German"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/45.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Riley Cooper",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Riley Cooper supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Alaska's maritime environment.",
-    languages: ["English", "French", "Japanese", "German"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Carlos Chambers",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Carlos Chambers plays a pivotal role in implementing maintenance schedules and overseeing deck inventory to support smooth voyages through Alaska.",
-    languages: ["English", "Chinese", "German", "Spanish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/3.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Ashley Keller",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Chief Engineer Keller's extensive 21-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
-    languages: ["English", "Arabic", "French"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/12.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Katherine Marshall",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on propulsion and power systems, Katherine Marshall applies 12 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
-    languages: ["English", "Portuguese", "Russian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Victoria Reeves",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Victoria Reeves's 4 years include supervising junior engineers and engine room ratings, fostering a culture of safety and competence.",
-    languages: ["English", "Spanish", "Italian", "Arabic"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Kyle Graham",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Responsible for wiring upgrades and automation system maintenance, Kyle Graham supports enhanced operational efficiency and crew safety.",
-    languages: ["English", "French", "Arabic", "Russian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/17.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Avery Cooper",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Mechanical Engineer Cooper collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    languages: ["English", "Chinese", "German", "Portuguese"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Emma Coleman",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Emma Coleman plays a key role in energy conservation by optimizing HVAC operations, backed by 10 years of specialized experience.",
-    languages: ["English", "Chinese", "Arabic"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Jack Graham",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Jack Graham champions innovative solutions for waste reduction and energy efficiency, reflecting 14 years of commitment to maritime sustainability.",
-    languages: ["English", "Japanese", "Chinese", "Spanish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Savannah Marshall",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "Systems Engineer Marshall collaborates across departments to implement new technologies aligned with industry standards.",
-    languages: ["English", "Spanish", "Chinese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Joel Chambers",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "With a strategic overview honed over 20 years, Joel Chambers directs fleet-wide technical policies and ensures best practices are implemented.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Brooklyn Dean",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "With a focus on reliability-centered maintenance, Brooklyn Dean optimizes maintenance practices in accordance with industry best practices.",
-    languages: ["English", "Portuguese", "German"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Mateo Curtis",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Drawing on 8 years and a law enforcement background, Mateo Curtis develops and executes sophisticated security plans tailored to high-risk maritime environments.",
-    languages: ["English", "Arabic", "Italian", "Japanese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Anthony Price",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Security Officer Price performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
-    languages: ["English", "Arabic", "Italian"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/18.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Naomi Sutton",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Drawing on 21 years, Naomi Sutton has in-depth knowledge of non-lethal defense tactics and anti-piracy measures.",
-    languages: ["English", "Spanish", "German"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Blake Spencer",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Experienced in compliance with maritime cybersecurity regulations, Blake Spencer conducts training to enhance crew awareness of digital risks.",
-    languages: ["English", "Italian", "Japanese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/95.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Sofia Warren",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "With strong organizational skills, Sofia Warren maintains detailed records and reports to support continuous security improvement.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Adeline Ellis",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Adeline Ellis is trained in search procedures and contraband detection, contributing 8 years of vigilance to vessel security.",
-    languages: ["English", "Italian", "Arabic"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Rebecca Watson",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Safety Compliance Officer Watson promotes a safety-first culture through continuous education and enforcement of best practices.",
-    languages: ["English", "Russian", "German"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/76.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Kimberly Sutton",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Youth Program Director Sutton manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
-    languages: ["English", "Arabic", "Chinese"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Grace Wells",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Family Activities Coordinator Wells is adept at creating a welcoming and fun atmosphere where families can create lasting memories, a skill honed over 16 years.",
-    languages: ["English", "Russian", "French"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Priya Fletcher",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Children's Entertainment Specialist Fletcher collaborates with youth program teams to develop diverse content promoting creativity and social interaction.",
-    languages: ["English", "French", "Italian"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Charlotte Parker",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Leveraging 20 years working with adolescents, Charlotte Parker creates cool and engaging hangouts and events that resonate with teens.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Ellie Fisher",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Drawing on 9 years in educational programming, Ellie Fisher designs enriching lectures, workshops, and cultural immersion activities related to the voyage itinerary.",
-    languages: ["English", "Italian", "Spanish", "Arabic"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/67.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Dylan Holloway",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Child Care Specialist Holloway ensures safety, comfort, and developmentally appropriate activities in a nurturing onboard environment.",
-    languages: ["English", "Italian", "Arabic"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Marcus Griffin",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "With a focus on guest engagement and satisfaction, Marcus Griffin designs diverse activity schedules that cater to a wide range of interests and age groups onboard.",
-    languages: ["English", "German", "Italian", "Spanish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/men/81.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Christian Clark",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Known for excellent communication and risk management skills, Christian Clark maintains vigilance during all aquatic activities to protect participants.",
-    languages: ["English", "Chinese", "Italian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/25.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Gerald Jennings",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Committed to inclusivity, Gerald Jennings adapts programming to accommodate varying fitness levels and any physical limitations.",
-    languages: ["English", "Japanese", "French"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/52.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Darrell Sutton",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Known for excellent problem-solving, Darrell Sutton adapts plans efficiently to address unexpected challenges or changing conditions.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Philip Mitchell",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "With extensive experience in portrait, event, and environmental photography, Philip Mitchell ensures high-quality imagery that reflects the voyage’s unique character.",
-    languages: ["English", "Chinese", "Italian"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Isabella Gardner",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Videographer Gardner crafts compelling visual stories that highlight onboard experiences and diverse destinations through expert filming and editing.",
-    languages: ["English", "Italian", "Portuguese"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Robert Cooper",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Robert Cooper manages digital content and multimedia production, applying 7 years in digital media, marketing, and audience engagement strategies.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/83.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Gabriel Dixon",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Gabriel Dixon, with a distinguished 11-year career in marine electronics and maritime health, provides expert medical oversight for thousands of passengers and crew.",
-    languages: ["English", "Italian", "French"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/67.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Kenneth Cooper",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Dr. Cooper collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
-    languages: ["English", "Arabic", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/36.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Aria Hunter",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Known for meticulous attention to detail and a caring demeanor, Aria Hunter has been a vital part of shipboard medical teams for 14 years.",
-    languages: ["English", "Chinese", "Japanese", "German"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/4.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Joshua Crawford",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "With a thorough understanding of hazard identification and mitigation, Joshua Crawford fosters a culture of safety awareness among crew and passengers.",
-    languages: ["English", "French", "Chinese", "German"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Rajesh Reed",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "Overseeing a diverse team, Hospitality Director Reed implements innovative service strategies and maintains the highest quality standards, reflecting 20 years in the industry.",
-    languages: ["English", "French", "Spanish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/69.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Adam Hall",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Guest Relations Manager Hall enhances passenger satisfaction through attentive and personalized service.",
-    languages: ["English", "German", "French"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Betty Cooper",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Chief Steward Cooper trains and mentors the housekeeping staff, instilling a keen eye for detail and a commitment to impeccable service honed over 7 years.",
-    languages: ["English", "Portuguese", "Italian", "Arabic"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Sandra Collins",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Senior Steward Collins delivers attentive guest services and supports stewardship operations, drawing on 15 years onboard.",
-    languages: ["English", "Italian", "German"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/94.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Terry Carpenter",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "With discreet professionalism honed over 18 years, Butler Carpenter offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
-    languages: ["English", "Chinese", "Spanish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/11.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Jordan Gibson",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Accommodation Manager Gibson coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
-    languages: ["English", "Chinese", "Spanish", "Japanese"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/85.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Ralph Gardner",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Housekeeping Supervisor Gardner leads cleaning teams, maintaining impeccable standards across all guest areas.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/20.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Gary Sutton",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "With 13 years providing frontline support, Gary Sutton is adept at information sharing, problem-solving, and ensuring guests feel valued and well-informed.",
-    languages: ["English", "Russian", "Chinese"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/43.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Adam Porter",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Adam Porter acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
-    languages: ["English", "Japanese", "Italian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Abigail Hall",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "With 6 years in front office management, Abigail Hall ensures a welcoming and organized reception area, managing all aspects of guest registration and billing.",
-    languages: ["English", "Portuguese", "Russian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/42.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Benjamin Gibson",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "Benjamin Gibson designs and executes VIP programs that exceed the highest standards of luxury and discretion.",
-    languages: ["English", "Chinese", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Grace Crawford",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Grace Crawford develops training programs to elevate hospitality team skills, with 14 years in workforce development.",
-    languages: ["English", "Russian", "Japanese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Raymond Maxwell",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Mastering Mediterranean and international gastronomy, Raymond Maxwell ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 20 years of award-winning experience.",
-    languages: ["English", "Spanish", "Chinese"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/82.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Christine Holloway",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "As second-in-command, Sous Chef Holloway ensures seamless kitchen workflow and consistent dish quality, drawing on 16 years of hands-on Japanese experience.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Kinsley Keller",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Pastry Chef Keller crafts exquisite desserts with 16 years of baking and pastry artistry.",
-    languages: ["English", "Arabic", "Portuguese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Hannah Carpenter",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Carpenter manages specific kitchen stations with 21 years of focused culinary skill.",
-    languages: ["English", "Japanese", "Spanish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/8.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Aaliyah Sutton",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Master of {cuisineSpecific} cuisine, Aaliyah Sutton creates authentic dishes that transport guests to Alaska, drawing on 19 years of dedicated culinary exploration.",
-    languages: ["English", "Russian", "Japanese"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Walter Coleman",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Coleman manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 14 years of Japanese culinary excellence.",
-    languages: ["English", "Spanish", "Japanese", "Arabic"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/34.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Adeline Douglas",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Garde Manger Douglas ensures all cold food items are stored and handled with the utmost care, upholding critical food safety protocols over 14 years.",
-    languages: ["English", "Chinese", "Italian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Patricia Marshall",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "With 4 years of expertise, Butcher Marshall expertly handles all meat and poultry, providing custom cuts and ensuring optimal yield for various Latin American dishes.",
-    languages: ["English", "German", "Chinese", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Brenda Mitchell",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Baker Mitchell meticulously prepares a wide array of Pan-Asian-inspired and classic baked goods daily, showcasing skills honed over 10 years.",
-    languages: ["English", "Spanish", "Portuguese"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/6.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Amelia Stewart",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Amelia Stewart enhances dining experiences by sourcing and recommending premium wines.",
-    languages: ["English", "Portuguese", "Russian"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Naomi Henderson",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Henderson crafts creative cocktails, combining flavor expertise with 19 years of bartending skill.",
-    languages: ["English", "Arabic", "French", "German"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/46.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Larry Stewart",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "Larry Stewart combines artistry and technique to serve quality espresso and coffee beverages.",
-    languages: ["English", "Portuguese", "Italian"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Sophia Ellis",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Sophia Ellis collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    languages: ["English", "Arabic", "Italian"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Philip Hamilton",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Hamilton leads a dynamic team of performers and technicians, ensuring flawless execution and high-energy engagement across all venues, backed by 6 years of industry leadership.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Edward Dean",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Edward Dean manages scheduling and logistics for performers, ensuring smooth entertainment operations onboard.",
-    languages: ["English", "Italian", "French"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Raymond Porter",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "Lead Vocalist Porter captivates audiences with dynamic performances, backed by 17 years of professional singing.",
-    languages: ["English", "German", "Russian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/53.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Nora Griffin",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "A master of the {instrument}, Nora Griffin brings 9 years of versatile musicianship, performing solo or as part of an ensemble in various ship venues.",
-    languages: ["English", "Arabic", "Portuguese", "German"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/49.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "George Crawford",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Dancer Crawford delivers energetic and polished routines, drawing on 14 years of dance training.",
-    languages: ["English", "German", "Italian", "Chinese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Carl Jennings",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "With an innovative vision and 3 years in professional choreography, Carl Jennings designs dynamic and original dance pieces for production shows and special events.",
-    languages: ["English", "Spanish", "German"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Riley Murray",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "With a sharp wit and 4 years on the comedy circuit, Riley Murray offers hilarious observational humor and storytelling that resonates with diverse audiences.",
-    languages: ["English", "Russian", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/70.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Elijah Hawkins",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Elijah Hawkins brings a unique brand of enchantment to the ship's entertainment, drawing on 9 years of professional magic and a flair for theatrical presentation.",
-    languages: ["English", "Chinese", "Italian", "Spanish"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Gabriella Wells",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "Gabriella Wells keeps dance floors lively with dynamic sets tailored for diverse guest preferences.",
-    languages: ["English", "German", "French"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/98.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Oliver Curtis",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Oliver Curtis's keen ear and technical proficiency, developed over 16 years, are essential for delivering immersive and high-quality auditory experiences.",
-    languages: ["English", "Russian", "Portuguese", "French"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Jeffrey Griffin",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Jeffrey Griffin's artistic vision and technical mastery over 18 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
-    languages: ["English", "Chinese", "Arabic"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/31.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Lily Foster",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Stage Manager Foster is the organizational backbone of the production, liaising between performers, technicians, and the director to maintain artistic integrity and timing.",
-    languages: ["English", "Spanish", "Italian", "French"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Vincent Hamilton",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "With 13 years managing complex theatrical and event productions, Vincent Hamilton oversees budgeting, scheduling, staffing, and technical riders for all entertainment.",
-    languages: ["English", "Japanese", "French"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/22.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Kennedy Crawford",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Kennedy Crawford's artistic flair and attention to historical detail, honed over 4 years, bring visual richness and authenticity to the stage.",
-    languages: ["English", "German", "Japanese"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Nancy Wallace",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Cultural Program Director Wallace curates culturally enriching events and experiences for guests.",
-    languages: ["English", "French", "Chinese", "Spanish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Philip Warren",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "A specialist in {artisticDiscipline}, Philip Warren presents breathtaking and thought-provoking performances honed over 16 years of dedicated artistic exploration.",
-    languages: ["English", "Portuguese", "Japanese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/48.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Eleanor Nash",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Eleanor Nash plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 10 years of maritime expertise.",
-    languages: ["English", "Spanish", "French", "Italian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/54.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Isabella Hayes",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "With 20 years coordinating complex supply chains, Isabella Hayes ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    languages: ["English", "Russian", "Spanish", "Italian"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/14.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Alice Dunn",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "With 9 years in inventory management, Alice Dunn meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    languages: ["English", "Russian", "Italian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/55.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Elizabeth Gardner",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Procurement Officer Gardner manages supplier relationships, monitors market trends, and ensures compliance with ethical purchasing policies.",
-    languages: ["English", "Spanish", "Arabic"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/40.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
-  {
-    name: "Mary Clark",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Mary Clark champions innovative eco-friendly technologies and practices, leveraging 17 years to enhance the vessel's environmental performance and reputation.",
-    languages: ["English", "Japanese", "French", "Russian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/92.jpg",
-    city: "Juneau",
-    country: "United States",
-    region: "Alaska",
-  },
+    "id": "88278c82-7901-4724-ae0a-215abd2d0915",
+    "name": "Stephanie Hawkins",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "With 13 years at sea, Captain Hawkins is renowned for expertise in Alaska navigation, crew leadership, and passenger safety protocols.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a37847df-747c-447e-8564-bd6a2a89a337",
+    "name": "Lisa Montgomery",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Lisa Montgomery applies comprehensive knowledge of Alaska's tides, currents, and weather patterns, contributing to efficient and safe ship navigation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "61ebdc02-db29-435d-8fcc-e9ac4159d7b0",
+    "name": "Javier Bennett",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Second Officer Bennett is adept at monitoring vessel position and environmental conditions, contributing to safe passage through Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "284529d0-f0eb-497f-881f-b05ca9943154",
+    "name": "Ryan Reeves",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "Drawing on 7 years of experience in Alaska, Ryan Reeves is responsible for the upkeep of firefighting appliances and lifesaving apparatus.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "de8f2294-e13b-4131-9939-e536ad02f5b7",
+    "name": "Chen Russell",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Experienced in electronic chart systems (ECDIS) and radar, Chen Russell has 12 years navigating the complex and often congested waters of Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "cc3a05a8-ebfe-4c2d-96d4-78e40417e463",
+    "name": "Randy Gardner",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Randy Gardner enforces safety standards and conducts training programs, drawing on 18 years of maritime safety expertise to minimize risks onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a08ea38f-0228-4017-8693-58081796fcdd",
+    "name": "Elijah Jennings",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, Elijah Jennings is gaining 7 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "1f203503-1ea0-4bbb-87ed-996ac0813d41",
+    "name": "Janet Fox",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Leveraging 12 years of seamanship, Bosun Fox is an expert in rigging, anchoring, and all aspects of deck machinery operation in Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6f5b6851-ee97-4d85-98dd-f452d515c294",
+    "name": "Susan Charlotte",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "Chief Engineer Charlotte's extensive 6-year background includes overseeing major overhauls and ensuring peak operational readiness of all machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b8795550-450b-40a3-8d22-abe7797ee19f",
+    "name": "Joseph Henderson",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With 12 years in marine engineering, Joseph Henderson excels in diagnosing faults and executing prompt, effective repairs to critical shipboard machinery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "2dbe0ad7-02a0-4fea-b6a5-22f8afa9e401",
+    "name": "Joshua Warren",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Joshua Warren supports engineering operations with 16 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "e3960098-744e-4f1a-97bb-03fa8fb272fb",
+    "name": "Janet Maxwell",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "With 3 years designing, installing, and maintaining vessel electrical infrastructure, Janet Maxwell ensures continuous power supply and safety.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "d97a5348-7573-4776-bd4a-26cd0db72df1",
+    "name": "Timothy Hayes",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Hayes provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 10 years of insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "e1bfff22-4e32-40e2-bbe9-0ccef468e4fe",
+    "name": "Adeline Holloway",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Holloway ensures optimal climate control aboard vessels, leveraging 9 years of system optimization and energy efficiency knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/women/84.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "4a9f5e0f-dc48-47fa-b355-016da4d9f66c",
+    "name": "Layla Carpenter",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Layla Carpenter champions innovative solutions for waste reduction and energy efficiency, reflecting 22 years of commitment to maritime sustainability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/78.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "dc2e39cd-8173-4165-8b3a-7cc4889738e3",
+    "name": "Christian Russell",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "Systems Engineer Russell leads technical solutions for navigation, communication, automation, and control systems with 13 years of service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/69.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0819e904-e910-4d79-a16c-2f04d81c4c79",
+    "name": "Arthur Spencer",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Technical Manager Spencer has 4 years of experience managing dry-dock specifications, contract negotiations, and supervision of major refit projects.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/62.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "43e8a9d6-a945-46b8-8ebe-4fd7ae04c7cd",
+    "name": "Thandiwe Cooper",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 15 years, Thandiwe Cooper is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/41.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "3f7ee582-0881-468d-ab87-f1a89110de5a",
+    "name": "Peter Knight",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Peter Knight oversees all security operations with 21 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "4037b30c-0bcb-4274-a3f6-0deaa332810c",
+    "name": "Rebecca Henderson",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Henderson performs access control duties and monitors surveillance systems to maintain a secure onboard environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "046d1b64-6b03-4b54-a988-7d9d48f37a0b",
+    "name": "Donna Keller",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Donna Keller provides expert assessment and response coordination to maritime security challenges, leveraging advanced knowledge in risk management and compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/53.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8358140f-58b8-4fb6-9616-fb373cc655da",
+    "name": "Sofia Hunter",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Known for proactive defense strategies, Sofia Hunter continuously monitors network activity and coordinates responses to cyber incidents onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/20.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "05a7ee38-9efc-4286-b9a7-6da3bd75f54d",
+    "name": "Andrew Mason",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "Andrew Mason manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0b8a0885-688b-4a1f-a9b3-52e353f028b6",
+    "name": "Janet Foster",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Access Control Officer Foster manages secure boarding and access with 15 years maintaining maritime entry protocols and identification verification.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5d5b96c8-1019-49fb-88d7-a0331269ba7a",
+    "name": "Henry Price",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "With a thorough understanding of hazard identification and mitigation, Henry Price leads incident investigations and corrective action plans.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f4efffa3-fd39-47e1-a8c3-321f23c85f8c",
+    "name": "Bryan Collins",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Known for creative leadership, Bryan Collins continuously evaluates and improves youth programming to meet evolving passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b3c8ac9f-2a2a-4388-9403-b470e8c71861",
+    "name": "Christine Bennett",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Family Activities Coordinator Bennett designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/72.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "77656c7d-79f7-49c4-94f3-ae5c7bedaca9",
+    "name": "Rajesh Wallace",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 8 years of delighting young audiences, Rajesh Wallace brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c7c7a76d-48df-4758-8772-8025391a7479",
+    "name": "Russell Hawkins",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Hawkins fosters positive social environments with interactive, age-appropriate activities that encourage peer bonding.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/11.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f9a78676-fb06-45be-a853-625f6df88005",
+    "name": "Bobby Baker",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on accessibility, Bobby Baker ensures programs accommodate different learning styles and abilities for broad passenger appeal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/50.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "15a283b8-67fc-4e2e-974e-870dff0bc727",
+    "name": "Ellie Cooper",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Child Care Specialist Cooper promotes social and emotional development through structured play and educational activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/55.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "76a13545-d5fe-4d1e-aad9-e1e15e720257",
+    "name": "Marcus Crawford",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "Activities Director Crawford is passionate about creating vibrant social atmospheres, a skill perfected over 21 years of orchestrating memorable onboard events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ae357644-e8bf-473f-a99e-07772a6ac053",
+    "name": "Lisa Hawkins",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Lisa Hawkins teaches water sports safely and effectively, leveraging 17 years of professional instruction and certification in aquatic activities.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/5.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5e1ab247-b62a-468a-83b4-4c33ad9e4992",
+    "name": "Patrick Ellis",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Drawing on 19 years of expertise, Patrick Ellis offers specialized classes like yoga, Pilates, and high-intensity interval training (HIIT).",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ce3a6e46-e54d-42d8-9014-1ababbb56966",
+    "name": "Patrick Knight",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "Patrick Knight's meticulous planning and attention to detail, developed over 19 years, ensure every guest's off-ship adventure is seamless and unforgettable.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "39155d14-eae7-4ff4-9c8c-1deeb697741d",
+    "name": "Ella Baker",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Ella Baker directs all photographic projects onboard, blending technical skill and artistic vision to create visually compelling narratives.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/43.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "2766007a-e916-4aa7-98ee-129e2f01902f",
+    "name": "John Payne",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Payne maintains technical equipment and coordinates with production teams to ensure seamless content delivery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/34.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8ba0f38e-5d00-43ce-8228-e527a7aaadda",
+    "name": "Dylan Crawford",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "With 5 years in the digital realm, Dylan Crawford crafts compelling online stories and manages the ship's social media channels to connect with guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ee1e1a3a-1fca-4765-82fa-75c4fd7c311e",
+    "name": "Amelia Day",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Chief Medical Officer Day has 5 years of experience in managing public health emergencies at sea and implementing robust infection control measures.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6c74d19b-03b6-4716-afa9-463c50d58bc2",
+    "name": "Thabo Spencer",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Spencer collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/65.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "dd7c9860-dcc8-427d-9a83-8909858b22aa",
+    "name": "Jose Olivia",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "With 13 years of experience, Jose Olivia is proficient in emergency care, routine medical procedures, and health education for passengers and crew.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "feacd5ec-8b0a-4190-b2bf-495238e512b0",
+    "name": "Isabella Baker",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "With 13 years overseeing maritime safety, Isabella Baker ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Alaska.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/25.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0830fc72-9f29-4c1e-9720-5bc747761b86",
+    "name": "Steven Baker",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "With 18 years in hospitality management, Steven Baker drives operational excellence and team performance onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "d081c1f3-7d39-455b-8b9f-b23fd101d2b1",
+    "name": "Jason Fletcher",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "With a passion for service excellence developed over 22 years, Jason Fletcher leads the guest relations team to anticipate and exceed passenger expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "57586642-6152-4f42-9615-9fce72955103",
+    "name": "Jessica Curtis",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Curtis supervises housekeeping and guest services with 7 years of maritime hospitality experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "9b30871a-3776-49ed-b079-b124f41fa032",
+    "name": "Maya Curtis",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Maya Curtis is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "26361ba6-df69-46c9-816a-cf548a71885f",
+    "name": "Gabriella Hayes",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "Gabriella Hayes crafts unforgettable moments for discerning guests, drawing on 15 years of experience in curating exclusive and seamless luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/3.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8fb17927-2dea-40ac-9059-d711d982b791",
+    "name": "Maya Day",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Maya Day expertly handles guest feedback regarding accommodations, implementing swift solutions and driving continuous improvement based on 15 years of experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f2d0a499-82e9-4dbb-ab8a-75e0780294f7",
+    "name": "Benjamin Dean",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Benjamin Dean manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 8 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "9d0813ed-3a23-408b-bd09-c34d991c4a01",
+    "name": "Audrey Spencer",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Guest Services Specialist Spencer facilitates seamless guest interactions to enhance onboard experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "7b539773-b2db-4032-be2a-36f85d52e9f1",
+    "name": "Amy Maxwell",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Amy Maxwell acts as a personal guide to onboard and onshore experiences, providing insider tips and tailored advice to create unique memories for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/19.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "56b16a94-d606-441f-8add-2896bb069d8c",
+    "name": "Nicholas Gardner",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Front Desk Manager Gardner trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 15 years of best practices.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/64.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "afbfadee-d6ad-4b96-99d4-cd76f9f2f35b",
+    "name": "Paul Hamilton",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "Paul Hamilton's expertise over 12 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/83.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "305bf3f3-e06e-490e-ad41-f69110ad503a",
+    "name": "Larry Wells",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 8 years of designing and delivering impactful training, Larry Wells empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c57cf887-cd91-48cb-90b2-9556aa3328e9",
+    "name": "Gabriel Charlotte",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 15 years in fine dining, Chef Charlotte specializes in Latin American flavors using locally sourced ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "587a5b37-15f3-4ccb-802d-e690e1b280d0",
+    "name": "Harper Cooper",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 6 years in high-volume kitchens, Sous Chef Cooper is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "80f2ba1b-2179-492a-a1a9-bb7c88ec8db8",
+    "name": "Elizabeth Collins",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "Elizabeth Collins blends creativity and technique to deliver memorable pastry experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "19d11065-4e64-471a-98d4-0508154d3872",
+    "name": "Michael Harper",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 18 years as a section chef, Michael Harper is responsible for stock control and guiding commis chefs within their designated area of the Asian fusion kitchen.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "6e4f7589-f1a6-4b65-847d-184077851a04",
+    "name": "Albert Reed",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Reed brings innovation and authenticity to the onboard dining experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/79.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "3408a122-785c-437a-9727-c98391f0b216",
+    "name": "Nathan Griffin",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Nathan Griffin combines precision and creativity to deliver an authentic sushi experience at sea.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a0216bd3-8348-4a07-be8b-a06d3935ec1a",
+    "name": "Alice Keller",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Alice Keller is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 5 years of Asian fusion expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/63.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a40b9880-d290-4cf6-bc41-3aa78455a226",
+    "name": "Joe Foster",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Joe Foster maintains the highest standards of hygiene and technique in meat processing, a skill perfected over 12 years in professional butchery.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/81.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b0c05725-2147-402d-9b50-a622dcbf87bd",
+    "name": "Scarlett Porter",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Scarlett Porter manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 19 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/8.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c7fd91c4-0b4c-4880-945a-efc01105de8a",
+    "name": "Edward Morgan",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Edward Morgan provides engaging wine education and tasting experiences for guests, sharing insights from 5 years exploring global viticulture.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "bf3d2aea-a273-4494-9765-a0950533bbfc",
+    "name": "Katherine Payne",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Payne crafts creative cocktails, combining flavor expertise with 13 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/68.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "7bbadecc-a764-48b7-976e-b1f4487d1e2e",
+    "name": "Gabriel Crawford",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 9 years of expertise in coffee origins, brewing methods, and latte art, Gabriel Crawford crafts the perfect cup for every guest.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "c729cb1d-8eac-43ee-9c1f-9a32fa847f94",
+    "name": "Emma Dunn",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "Nutritionist Dunn designs balanced menus catering to health-conscious guests, leveraging 19 years of dietary expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "95f08849-67cc-43de-8643-9d06bbbbde34",
+    "name": "Riley Palmer",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Riley Palmer constantly seeks innovative entertainment concepts and top-tier talent, leveraging 11 years to keep the onboard experience fresh, exciting, and memorable.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/60.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "d8319ae8-3334-4d76-8336-6b1709ebd273",
+    "name": "Elizabeth Campbell",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "With 3 years in arts administration, Elizabeth Campbell expertly coordinates rehearsal schedules, venue allocations, and technical requirements for a multitude of acts.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "a938a061-4db2-45a6-94c6-1f2ccf0b69f8",
+    "name": "Javier Curtis",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 9 years, Lead Vocalist Curtis shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "3926de6c-5993-49ca-8c3b-4d29c8db263b",
+    "name": "Randy Crawford",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Crawford adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 3 years of diverse musical experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "041a4bbe-57d7-4bc0-8080-f53d042e20d6",
+    "name": "Vincent Lawson",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Vincent Lawson engages audiences with versatile dance styles across entertainment programs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/13.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5bc24cdf-373a-45dd-aca7-312e05520f34",
+    "name": "James Jennings",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Jennings works closely with dancers to teach and refine intricate movements, ensuring performances are polished and impactful, reflecting 21 years of artistic direction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "f655fa01-e917-4a1a-a0d4-06beaea361e7",
+    "name": "Louis Baker",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Louis Baker entertains guests with humor and timing, backed by 18 years in comedy performance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/76.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "bfb2b500-9526-47d9-8f18-4d175f822a02",
+    "name": "Mason West",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "With 10 years honing the art of illusion, Mason West performs mind-bending feats of magic, from close-up tricks to grand stage illusions, delighting guests of all ages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ea681e49-d0c8-4a43-bca6-b634ab7375cd",
+    "name": "Evelyn Keller",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "With an extensive music library and 20 years of reading crowds, DJ Keller seamlessly blends genres to create the perfect soundtrack for any onboard event or nightclub.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "8eaee6c1-d18a-4f2e-bbc7-9b40c7606840",
+    "name": "Avery Fisher",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "With 14 years of experience in mixing live sound for theatre, music, and events, Avery Fisher guarantees crystal-clear audio for all onboard productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5b545ce4-1c27-4866-8c61-20d0f5069f93",
+    "name": "Samantha Hamilton",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Lighting Specialist Hamilton designs and operates lighting systems to enhance onboard shows and events.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/71.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "ab92726a-ef15-461d-a785-db3b01c75dec",
+    "name": "Harper Gardner",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Harper Gardner supervises stage operations and talent, drawing on 18 years of event management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "79c232ad-de1c-4f16-b35f-d14cadd975ea",
+    "name": "Mark Hunter",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Hunter oversees logistics and technical coordination for large-scale entertainment productions.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/68.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "055651d7-ed7e-416d-80a3-890fecf9f7b8",
+    "name": "Nathan Day",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Costume Designer Day creates unique and period-appropriate costumes, enhancing visual storytelling in performances.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "5d4af6af-f4fa-4899-be6a-938482ef6e89",
+    "name": "Carol Hayes",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Hayes curates culturally enriching events and experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "bfc01632-e8be-443b-a5c3-bd3682a1a9be",
+    "name": "Susan Foster",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "With 15 years pushing artistic boundaries, Susan Foster offers a distinctive and captivating addition to the ship's diverse entertainment offerings.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "0f920595-1c23-4d5d-9a15-49a787347fe5",
+    "name": "Maya Fox",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Maya Fox oversees daily operations and coordinates departments to maintain smooth vessel functioning.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/26.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "feaa711a-0d77-4a3c-a457-2a67d30fe4ca",
+    "name": "Helen Knight",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "Helen Knight's expertise in procurement and vendor management, developed over 19 years, ensures cost-effective and reliable sourcing for all vessel needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/43.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "e98c8297-0ec2-4e28-867d-dd9bc960b057",
+    "name": "Elijah Hall",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Hall tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/51.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "b06e86e9-996a-4b14-8311-04438c671ad7",
+    "name": "Skylar Gibson",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 22 years in strategic sourcing, Skylar Gibson identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  },
+  {
+    "id": "7456b8a9-244c-47d4-826a-0e6e8cd35148",
+    "name": "Victor Knight",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Sustainability Coordinator Knight ensures compliance with international environmental regulations (e.g., MARPOL) and promotes a culture of sustainability among crew and guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Juneau",
+    "country": "United States",
+    "region": "Alaska"
+  }
 ];

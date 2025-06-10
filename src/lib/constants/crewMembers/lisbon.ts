@@ -1,1060 +1,2298 @@
-import { CrewMember } from "@/lib/interfaces/people/staff";
+
+  // This file is auto-generated
+    // Do not edit manually.
+    // City: Lisbon
+    // Generated on: 2025-06-10T03:41:38.295Z
+  
+  import { CrewMember } from "@/lib/interfaces/people/staff";
 
 export const lisbonTeamMembers: CrewMember[] = [
   {
-    name: "Catherine Wells",
-    role: "Captain",
-    department: "Deck Department",
-    bio: "With 21 years at sea, Captain Wells is renowned for expertise in Mediterranean navigation, crew leadership, and passenger safety protocols.",
-    languages: ["English", "German", "Finnish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Betty Gibson",
-    role: "First Officer",
-    department: "Deck Department",
-    bio: "With 6 years of maritime expertise, Betty Gibson coordinates watchkeeping duties and emergency response, expertly navigating Mediterranean's waterways.",
-    languages: ["English", "Polish", "French"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/47.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ariana Spencer",
-    role: "Second Officer",
-    department: "Deck Department",
-    bio: "Ariana Spencer is skilled in passage planning software and integrated bridge systems, contributing 13 years of knowledge to operations in Mediterranean.",
-    languages: ["English", "Polish", "Norwegian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Thomas Cooper",
-    role: "Third Officer",
-    department: "Deck Department",
-    bio: "Thomas Cooper's expertise in safety and lifesaving equipment maintenance comes from 18 years at sea within Mediterranean, ensuring crew and passenger preparedness.",
-    languages: ["English", "Czech", "Portuguese"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/80.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nancy Fletcher",
-    role: "Navigation Officer",
-    department: "Deck Department",
-    bio: "Nancy Fletcher's expertise in navigational risk assessment supports proactive decision-making for safe operations within Mediterranean's ports and coastal areas.",
-    languages: ["English", "Italian", "German"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/96.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Leah Fox",
-    role: "Safety Officer",
-    department: "Deck Department",
-    bio: "Safety Officer Fox works proactively to prevent accidents by inspecting equipment, conducting drills, and ensuring regulatory compliance.",
-    languages: ["English", "Norwegian", "Dutch"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Terry Griffin",
-    role: "Deck Cadet",
-    department: "Deck Department",
-    bio: "Terry Griffin supports deck crew activities while developing skills in seamanship, navigation, and emergency response tailored to Mediterranean's maritime environment.",
-    languages: ["English", "Portuguese", "Danish"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jeremy Reeves",
-    role: "Bosun",
-    department: "Deck Department",
-    bio: "Jeremy Reeves's leadership ensures the deck department operates efficiently and safely, drawing from 14 years of hands-on experience in Mediterranean.",
-    languages: ["English", "Polish", "Italian"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Adeline Gibson",
-    role: "Chief Engineer",
-    department: "Engineering Department",
-    bio: "Adeline Gibson leads the engineering department with a focus on fuel efficiency and emissions reduction, drawing upon 6 years of innovative practice and sustainable technologies knowledge.",
-    languages: ["English", "Italian", "French"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/58.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Noah Cooper",
-    role: "First Engineer",
-    department: "Engineering Department",
-    bio: "Noah Cooper supervises engineering staff during watch shifts, maintaining operational readiness and compliance with maritime safety standards.",
-    languages: ["English", "Polish", "Portuguese", "Spanish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/72.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Linda Watson",
-    role: "Second Engineer",
-    department: "Engineering Department",
-    bio: "Experienced in engine room management, Linda Watson brings 5 years ensuring mechanical integrity, safety, and regulatory compliance.",
-    languages: ["English", "German", "Norwegian"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/women/71.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Frank Russell",
-    role: "Electrical Engineer",
-    department: "Engineering Department",
-    bio: "Responsible for wiring upgrades and automation system maintenance, Frank Russell supports enhanced operational efficiency and crew safety.",
-    languages: ["English", "Greek", "Dutch"],
-    experienceYears: 7,
-    profileImage: "https://randomuser.me/api/portraits/men/92.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ashley Cooper",
-    role: "Mechanical Engineer",
-    department: "Engineering Department",
-    bio: "Mechanical Engineer Cooper collaborates closely with the engineering team to enhance machinery performance and lifecycle management.",
-    languages: ["English", "Italian", "Russian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/69.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Brandon Griffin",
-    role: "HVAC Engineer",
-    department: "Engineering Department",
-    bio: "Brandon Griffin monitors system performance and implements upgrades to enhance passenger comfort and crew wellbeing.",
-    languages: ["English", "Polish", "Italian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Virginia Hall",
-    role: "Environmental Engineer",
-    department: "Engineering Department",
-    bio: "Environmental Engineer Hall manages the ship's garbage management plan and oversees the operation of pollution prevention equipment, with 17 years of dedication.",
-    languages: ["English", "French", "Czech"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/5.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Bobby Keller",
-    role: "Systems Engineer",
-    department: "Engineering Department",
-    bio: "With extensive knowledge of software and hardware interfaces, Bobby Keller enhances system interoperability and cybersecurity aboard vessels.",
-    languages: ["English", "Finnish", "German"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/32.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Albert Graves",
-    role: "Technical Manager",
-    department: "Engineering Department",
-    bio: "Known for strong leadership, Albert Graves fosters a culture of technical excellence and cross-functional collaboration onboard.",
-    languages: ["English", "Czech", "French"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Michelle Baker",
-    role: "Maintenance Engineer",
-    department: "Engineering Department",
-    bio: "Maintenance Engineer Baker troubleshoots system faults and implements timely repairs, maintaining vessel operational readiness.",
-    languages: ["English", "Dutch", "Swedish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Philip Graves",
-    role: "Security Director",
-    department: "Security Department",
-    bio: "Philip Graves oversees all security operations with 6 years of specialized training in international maritime safety, regulatory compliance, and emergency preparedness.",
-    languages: ["English", "German", "Polish", "Italian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/men/30.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sophia Palmer",
-    role: "Security Officer",
-    department: "Security Department",
-    bio: "Sophia Palmer is trained in conflict resolution and emergency protocols, ensuring rapid and effective response to security incidents.",
-    languages: ["English", "Swedish", "Polish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Leah Fox",
-    role: "Security Specialist",
-    department: "Security Department",
-    bio: "Known for analytical expertise, Leah Fox conducts vulnerability assessments and designs contingency plans to address evolving threats.",
-    languages: ["English", "Swedish", "Polish", "Finnish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/35.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Anthony Reeves",
-    role: "Cybersecurity Officer",
-    department: "Security Department",
-    bio: "Known for proactive defense strategies, Anthony Reeves continuously monitors network activity and coordinates responses to cyber incidents onboard.",
-    languages: ["English", "Greek", "Swedish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/55.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Wei Crawford",
-    role: "Maritime Security Coordinator",
-    department: "Security Department",
-    bio: "Wei Crawford manages communication between security teams and external authorities to ensure swift resolution of maritime security incidents.",
-    languages: ["English", "German", "Polish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/10.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Ashley Nash",
-    role: "Access Control Officer",
-    department: "Security Department",
-    bio: "Ashley Nash is trained in search procedures and contraband detection, contributing 21 years of vigilance to vessel security.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Olivia Foster",
-    role: "Safety Compliance Officer",
-    department: "Security Department",
-    bio: "Olivia Foster works closely with regulatory bodies to ensure the vessel meets all international safety conventions and company policies.",
-    languages: ["English", "Italian", "Norwegian", "Portuguese"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/17.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Amy Gibson",
-    role: "Youth Program Director",
-    department: "Youth & Family Programs",
-    bio: "Known for creative leadership, Amy Gibson continuously evaluates and improves youth programming to meet evolving passenger needs.",
-    languages: ["English", "Danish", "Greek"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/44.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Luis Marshall",
-    role: "Family Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "Family Activities Coordinator Marshall designs multi-generational programs that promote bonding and enjoyment throughout the voyage.",
-    languages: ["English", "Norwegian", "German", "Italian"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/40.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jesse Chambers",
-    role: "Children's Entertainment Specialist",
-    department: "Youth & Family Programs",
-    bio: "Jesse Chambers is passionate about sparking imagination, developing new and exciting entertainment formats for kids over 10 years in the field.",
-    languages: ["English", "Polish", "Czech"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/49.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Luis Spencer",
-    role: "Teen Activities Coordinator",
-    department: "Youth & Family Programs",
-    bio: "With knowledge of adolescent development, Luis Spencer balances fun and educational content to engage teens effectively onboard.",
-    languages: ["English", "German", "Finnish", "Italian"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/21.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Virginia Reed",
-    role: "Educational Program Manager",
-    department: "Youth & Family Programs",
-    bio: "Educational Program Manager Reed forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 10 years of networking.",
-    languages: ["English", "Danish", "Polish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/22.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Cynthia Clark",
-    role: "Child Care Specialist",
-    department: "Youth & Family Programs",
-    bio: "Child Care Specialist Clark promotes social and emotional development through structured play and educational activities.",
-    languages: ["English", "Italian", "Spanish"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/66.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Carl Reed",
-    role: "Activities Director",
-    department: "Activities & Recreation",
-    bio: "Activities Director Reed is passionate about creating vibrant social atmospheres, a skill perfected over 10 years of orchestrating memorable onboard events.",
-    languages: ["English", "Czech", "Finnish"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/men/42.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jane Graham",
-    role: "Water Sports Instructor",
-    department: "Activities & Recreation",
-    bio: "Known for excellent communication and risk management skills, Jane Graham maintains vigilance during all aquatic activities to protect participants.",
-    languages: ["English", "Danish", "Swedish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/9.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jose Baker",
-    role: "Fitness Instructor",
-    department: "Activities & Recreation",
-    bio: "Fitness Instructor Baker provides nutritional advice and wellness coaching, empowering guests to achieve their health goals over 20 years.",
-    languages: ["English", "Russian", "Greek"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/6.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Eugene Graves",
-    role: "Excursion Coordinator",
-    department: "Activities & Recreation",
-    bio: "Excursion Coordinator Graves has built strong relationships with local tour operators worldwide over 17 years, guaranteeing quality and value.",
-    languages: ["English", "Portuguese", "Norwegian", "Italian"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Donna Fisher",
-    role: "Lead Photographer",
-    department: "Photography & Videography",
-    bio: "Lead Photographer Fisher's portfolio showcases 8 years of diverse work, including breathtaking drone shots and artistic compositions from around the world.",
-    languages: ["English", "Polish", "Danish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nicole Wells",
-    role: "Videographer",
-    department: "Photography & Videography",
-    bio: "Videographer Wells is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 13 years.",
-    languages: ["English", "French", "Dutch"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/women/1.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Lisa Stewart",
-    role: "Digital Media Specialist",
-    department: "Photography & Videography",
-    bio: "Lisa Stewart uses 4 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
-    languages: ["English", "Polish", "Portuguese"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/50.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Stephanie Palmer",
-    role: "Chief Medical Officer",
-    department: "Health & Safety",
-    bio: "Drawing on 11 years as a medical leader, Stephanie Palmer ensures the ship's medical facility operates to the highest international healthcare standards.",
-    languages: ["English", "Dutch", "Portuguese"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/60.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Chloe Mason",
-    role: "Ship's Doctor",
-    department: "Health & Safety",
-    bio: "Ship's Doctor Mason is skilled in minor surgical procedures and advanced cardiac life support, bringing 3 years of critical care experience.",
-    languages: ["English", "Greek", "Czech"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/women/81.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Kyle Collins",
-    role: "Nurse",
-    department: "Health & Safety",
-    bio: "Nurse Collins supports the medical team by administering treatments, monitoring patient conditions, and maintaining comprehensive medical records.",
-    languages: ["English", "Greek", "Czech"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Kimberly Carpenter",
-    role: "Safety Officer",
-    department: "Health & Safety",
-    bio: "With 19 years overseeing maritime safety, Kimberly Carpenter ensures strict adherence to international safety regulations (SOLAS, MARPOL) and promotes a culture of vigilance onboard vessels operating in Mediterranean.",
-    languages: ["English", "Russian", "German"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/95.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Roger Graham",
-    role: "Hospitality Director",
-    department: "Hospitality Department",
-    bio: "With 9 years in hospitality management, Roger Graham drives operational excellence and team performance onboard.",
-    languages: ["English", "Dutch", "Portuguese"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Raymond Graham",
-    role: "Guest Relations Manager",
-    department: "Hospitality Department",
-    bio: "Raymond Graham champions a guest-first culture, utilizing 19 years of experience to train and motivate staff in delivering exceptional, personalized care.",
-    languages: ["English", "French", "Finnish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/men/47.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Olivia Russell",
-    role: "Chief Steward",
-    department: "Hospitality Department",
-    bio: "Olivia Russell excels in inventory management for linens and amenities, maintaining premium standards across all staterooms and suites with 16 years of dedication.",
-    languages: ["English", "German", "Portuguese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Wayne Stewart",
-    role: "Senior Steward",
-    department: "Hospitality Department",
-    bio: "Wayne Stewart is skilled in managing cabin maintenance and guest requests with professionalism and care.",
-    languages: ["English", "Swedish", "Czech", "German"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jessica Hayes",
-    role: "Butler",
-    department: "Hospitality Department",
-    bio: "Jessica Hayes anticipates guest needs to deliver tailored luxury experiences throughout the voyage.",
-    languages: ["English", "Spanish", "Czech"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jerry Carpenter",
-    role: "Accommodation Manager",
-    department: "Hospitality Department",
-    bio: "Jerry Carpenter oversees accommodation services, ensuring comfort and efficiency with 4 years in maritime hospitality.",
-    languages: ["English", "Dutch", "Finnish"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/men/64.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Stella Grant",
-    role: "Housekeeping Supervisor",
-    department: "Hospitality Department",
-    bio: "Stella Grant manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 21 years of leadership.",
-    languages: ["English", "Dutch", "German", "Russian"],
-    experienceYears: 21,
-    profileImage: "https://randomuser.me/api/portraits/women/48.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sophia Cooper",
-    role: "Guest Services Specialist",
-    department: "Hospitality Department",
-    bio: "Sophia Cooper's communication skills, honed over 6 years, are key to creating positive first impressions and lasting guest satisfaction.",
-    languages: ["English", "Polish", "Czech", "Norwegian"],
-    experienceYears: 6,
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Anthony Fisher",
-    role: "Concierge",
-    department: "Hospitality Department",
-    bio: "Anthony Fisher leverages 14 years of service to provide exceptional concierge support onboard.",
-    languages: ["English", "Norwegian", "Czech"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/men/28.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Mateo Foster",
-    role: "Front Desk Manager",
-    department: "Hospitality Department",
-    bio: "Front Desk Manager Foster trains staff in handling diverse guest interactions and maintaining accurate records, drawing on 8 years of best practices.",
-    languages: ["English", "German", "Swedish", "Czech"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Nicholas Foster",
-    role: "VIP Coordinator",
-    department: "Hospitality Department",
-    bio: "Nicholas Foster's expertise over 15 years lies in creating unparalleled experiences, making every VIP guest feel exceptionally valued and pampered.",
-    languages: ["English", "Finnish", "Portuguese", "Swedish"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/66.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Scarlett Cooper",
-    role: "Hospitality Trainer",
-    department: "Hospitality Department",
-    bio: "Hospitality Trainer Cooper focuses on enhancing guest service quality through targeted education and coaching.",
-    languages: ["English", "French", "Norwegian", "Portuguese"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "John Gibson",
-    role: "Executive Chef",
-    department: "Culinary Department",
-    bio: "Mastering Italian and international gastronomy, John Gibson ensures every dish reflects the highest standards of quality, presentation, and flavor, backed by 8 years of award-winning experience.",
-    languages: ["English", "Portuguese", "Spanish"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/men/61.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Skylar Mason",
-    role: "Sous Chef",
-    department: "Culinary Department",
-    bio: "Skylar Mason trains and supervises junior chefs, playing a key role in maintaining discipline and motivation within the culinary team with 22 years of mentorship.",
-    languages: ["English", "Italian", "Finnish"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/74.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Chloe Fletcher",
-    role: "Pastry Chef",
-    department: "Culinary Department",
-    bio: "Specializing in delicate French pastries and innovative dessert creations, Pastry Chef Fletcher brings 10 years of refined skill to the culinary team.",
-    languages: ["English", "Polish", "Russian"],
-    experienceYears: 10,
-    profileImage: "https://randomuser.me/api/portraits/women/88.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Stephanie Fisher",
-    role: "Chef de Partie",
-    department: "Culinary Department",
-    bio: "Chef de Partie Fisher manages specific kitchen stations with 18 years of focused culinary skill.",
-    languages: ["English", "Greek", "Polish"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/women/0.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Javier Clark",
-    role: "Specialty Chef",
-    department: "Culinary Department",
-    bio: "Specialty Chef Clark brings innovation and authenticity to the onboard dining experience.",
-    languages: ["English", "Spanish", "French"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/4.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Antonio Knight",
-    role: "Sushi Chef",
-    department: "Culinary Department",
-    bio: "Sushi Chef Knight manages the sushi bar operations, ensuring exceptional quality and presentation, reflecting 5 years of Japanese culinary excellence.",
-    languages: ["English", "Russian", "Czech", "Polish"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/26.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Samantha Spencer",
-    role: "Garde Manger",
-    department: "Culinary Department",
-    bio: "Samantha Spencer maintains high standards in food presentation and safety for all cold kitchen offerings.",
-    languages: ["English", "Finnish", "Polish"],
-    experienceYears: 19,
-    profileImage: "https://randomuser.me/api/portraits/women/3.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Kennedy Hayes",
-    role: "Butcher",
-    department: "Culinary Department",
-    bio: "Butcher Hayes ensures quality meat preparation, supported by 12 years of skilled butchery work.",
-    languages: ["English", "French", "Danish", "Finnish"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/62.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Susan Mitchell",
-    role: "Baker",
-    department: "Culinary Department",
-    bio: "Susan Mitchell manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 11 years of professional baking.",
-    languages: ["English", "Spanish", "Swedish", "Danish"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/women/15.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Thandiwe Hall",
-    role: "Sommelier",
-    department: "Culinary Department",
-    bio: "Thandiwe Hall provides engaging wine education and tasting experiences for guests, sharing insights from 17 years exploring global viticulture.",
-    languages: ["English", "Polish", "Russian", "Portuguese"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/21.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sophia Mitchell",
-    role: "Mixologist",
-    department: "Culinary Department",
-    bio: "Mixologist Mitchell delights guests with flair, technique, and a deep understanding of flavor profiles, creating personalized drink experiences over 17 years.",
-    languages: ["English", "Finnish", "German"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/women/59.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jack Price",
-    role: "Barista",
-    department: "Culinary Department",
-    bio: "With 15 years of expertise in coffee origins, brewing methods, and latte art, Jack Price crafts the perfect cup for every guest.",
-    languages: ["English", "Czech", "Italian"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/9.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Emily Palmer",
-    role: "Nutritionist",
-    department: "Culinary Department",
-    bio: "Emily Palmer collaborates with chefs to ensure nutritious and delicious meal options onboard.",
-    languages: ["English", "Italian", "Russian"],
-    experienceYears: 22,
-    profileImage: "https://randomuser.me/api/portraits/women/18.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Blake Harper",
-    role: "Entertainment Director",
-    department: "Entertainment Department",
-    bio: "Entertainment Director Harper curates diverse programming to engage and delight guests throughout voyages.",
-    languages: ["English", "Greek", "Czech", "Swedish"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/men/62.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Liam Graves",
-    role: "Performance Coordinator",
-    department: "Entertainment Department",
-    bio: "Performance Coordinator Graves supports talent and technical teams to deliver seamless shows.",
-    languages: ["English", "Italian", "Finnish"],
-    experienceYears: 17,
-    profileImage: "https://randomuser.me/api/portraits/men/51.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Savannah Carpenter",
-    role: "Lead Vocalist",
-    department: "Entertainment Department",
-    bio: "As a key figure in production shows, Lead Vocalist Carpenter collaborates with the cast and creative team, bringing 15 years of professional discipline and artistry.",
-    languages: ["English", "German", "Swedish"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/86.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Aaliyah Murray",
-    role: "Musician",
-    department: "Entertainment Department",
-    bio: "Musician Murray adapts their repertoire to suit different moods and themes, from relaxing background melodies to upbeat sets, drawing on 20 years of diverse musical experience.",
-    languages: ["English", "Danish", "Norwegian"],
-    experienceYears: 20,
-    profileImage: "https://randomuser.me/api/portraits/women/57.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jerry Sutton",
-    role: "Dancer",
-    department: "Entertainment Department",
-    bio: "Jerry Sutton is a dedicated member of the ensemble, contributing to high-energy production numbers and themed events, showcasing 11 years of professional dance experience.",
-    languages: ["English", "Dutch", "Czech"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/63.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Mia Payne",
-    role: "Choreographer",
-    department: "Entertainment Department",
-    bio: "Mia Payne leads rehearsals and performance design to enhance the entertainment experience onboard.",
-    languages: ["English", "Greek", "Italian"],
-    experienceYears: 12,
-    profileImage: "https://randomuser.me/api/portraits/women/87.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Elizabeth Fisher",
-    role: "Comedy Performer",
-    department: "Entertainment Department",
-    bio: "Elizabeth Fisher entertains guests with humor and timing, backed by 8 years in comedy performance.",
-    languages: ["English", "Spanish", "Czech"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/72.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Terry Grant",
-    role: "Magic Act",
-    department: "Entertainment Department",
-    bio: "Magic Act specialist Grant mystifies audiences with skilled illusions and interactive performances.",
-    languages: ["English", "German", "Russian", "Czech"],
-    experienceYears: 11,
-    profileImage: "https://randomuser.me/api/portraits/men/75.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Aiden West",
-    role: "DJ",
-    department: "Entertainment Department",
-    bio: "DJ West creates vibrant atmospheres with expertly mixed music, drawing on 18 years in live DJing.",
-    languages: ["English", "Polish", "Italian"],
-    experienceYears: 18,
-    profileImage: "https://randomuser.me/api/portraits/men/54.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Carlos Palmer",
-    role: "Audio Technician",
-    department: "Entertainment Department",
-    bio: "Audio Technician Palmer manages sound systems and ensures optimal audio quality for performances onboard.",
-    languages: ["English", "Czech", "Portuguese"],
-    experienceYears: 16,
-    profileImage: "https://randomuser.me/api/portraits/men/59.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Gerald Palmer",
-    role: "Lighting Specialist",
-    department: "Entertainment Department",
-    bio: "Lighting Specialist Palmer programs and operates sophisticated lighting consoles, working closely with directors to achieve the desired visual impact for each performance.",
-    languages: ["English", "Dutch", "Norwegian"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/men/23.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jose Harper",
-    role: "Stage Manager",
-    department: "Entertainment Department",
-    bio: "Stage Manager Harper coordinates all aspects of live performances, ensuring flawless execution of entertainment programs.",
-    languages: ["English", "Greek", "Polish"],
-    experienceYears: 3,
-    profileImage: "https://randomuser.me/api/portraits/men/94.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Caroline Bennett",
-    role: "Production Manager",
-    department: "Entertainment Department",
-    bio: "Caroline Bennett ensures timely and efficient delivery of shows, leveraging 9 years in production management.",
-    languages: ["English", "Danish", "Russian"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/women/19.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Jacob Marshall",
-    role: "Costume Designer",
-    department: "Entertainment Department",
-    bio: "Jacob Marshall combines creativity and craftsmanship with 9 years of design expertise.",
-    languages: ["English", "Swedish", "Norwegian", "Czech"],
-    experienceYears: 9,
-    profileImage: "https://randomuser.me/api/portraits/men/0.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Aaliyah Dixon",
-    role: "Cultural Program Director",
-    department: "Entertainment Department",
-    bio: "Aaliyah Dixon's passion for cultural exchange, cultivated over 8 years, enriches the voyage by fostering understanding and appreciation of diverse traditions.",
-    languages: ["English", "Czech", "Greek", "Russian"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/65.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Sophia Carpenter",
-    role: "Performance Artist",
-    department: "Entertainment Department",
-    bio: "Sophia Carpenter captivates audiences with original performances tailored to shipboard entertainment.",
-    languages: ["English", "Greek", "French"],
-    experienceYears: 4,
-    profileImage: "https://randomuser.me/api/portraits/women/80.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Joan Murray",
-    role: "Operations Manager",
-    department: "Operations Department",
-    bio: "Joan Murray plays a crucial role in port operations coordination, safety compliance oversight, and emergency response planning, backed by 15 years of maritime expertise.",
-    languages: ["English", "Norwegian", "Polish"],
-    experienceYears: 15,
-    profileImage: "https://randomuser.me/api/portraits/women/89.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Scarlett Watson",
-    role: "Logistics Coordinator",
-    department: "Operations Department",
-    bio: "With 8 years coordinating complex supply chains, Scarlett Watson ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
-    languages: ["English", "Czech", "Greek"],
-    experienceYears: 8,
-    profileImage: "https://randomuser.me/api/portraits/women/24.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Chen Mitchell",
-    role: "Inventory Specialist",
-    department: "Operations Department",
-    bio: "With 5 years in inventory management, Chen Mitchell meticulously maintains records for all consumables, technical spares, and retail goods onboard.",
-    languages: ["English", "Danish", "Italian", "Czech"],
-    experienceYears: 5,
-    profileImage: "https://randomuser.me/api/portraits/men/88.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Linda Murray",
-    role: "Procurement Officer",
-    department: "Operations Department",
-    bio: "Linda Murray applies expertise in vendor management and cost optimization to benefit ship operations.",
-    languages: ["English", "Spanish", "Finnish"],
-    experienceYears: 14,
-    profileImage: "https://randomuser.me/api/portraits/women/90.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
-  {
-    name: "Walter Campbell",
-    role: "Sustainability Coordinator",
-    department: "Operations Department",
-    bio: "Sustainability Coordinator Campbell implements green initiatives to minimize environmental impact.",
-    languages: ["English", "Spanish", "Italian"],
-    experienceYears: 13,
-    profileImage: "https://randomuser.me/api/portraits/men/78.jpg",
-    city: "Lisbon",
-    country: "Portugal",
-    region: "Mediterranean",
-  },
+    "id": "e5c67efd-553f-4d8d-a138-70fd012dabc4",
+    "name": "Emma Collins",
+    "role": "Captain",
+    "department": "Deck Department",
+    "bio": "With a distinguished 5-year career, Emma Collins ensures the highest standards of safety and seamanship aboard, navigating Portugal with precision and authority.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/38.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "ab9faa0f-874c-4aad-99e9-da8d7296255b",
+    "name": "Victor Collins",
+    "role": "First Officer",
+    "department": "Deck Department",
+    "bio": "Victor Collins specializes in Portugal navigation with 3 years of experience managing bridge operations and ensuring adherence to safety standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/36.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "b44766b5-84e3-4cb9-b7e5-7cec04cac9c0",
+    "name": "Alan Baker",
+    "role": "Second Officer",
+    "department": "Deck Department",
+    "bio": "Alan Baker plays a critical role in voyage planning and watchkeeping, backed by 14 years ensuring operational integrity in Portugal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/16.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "041057ac-941a-4431-84a7-96414daeb356",
+    "name": "Riley Dixon",
+    "role": "Third Officer",
+    "department": "Deck Department",
+    "bio": "With 17 years dedicated to bridge operations, Riley Dixon contributes to seamless voyages through Portugal's waterways by monitoring safety and compliance.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/38.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "9a794c8e-10e4-4e6b-a8b2-56962972a096",
+    "name": "Kinsley Baker",
+    "role": "Navigation Officer",
+    "department": "Deck Department",
+    "bio": "Kinsley Baker's expertise in navigational risk assessment supports proactive decision-making for safe operations within Portugal's ports and coastal areas.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "fbc3239a-b5ce-48ec-85b0-c913200a478b",
+    "name": "Christopher Ellis",
+    "role": "Safety Officer",
+    "department": "Deck Department",
+    "bio": "Christopher Ellis conducts comprehensive safety audits, meticulous risk assessments, and coordinates emergency preparedness drills to minimize hazards and ensure readiness in Portugal's maritime operations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/71.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "dc9b211f-1972-4d81-9165-4674853e6ff7",
+    "name": "Grace Carpenter",
+    "role": "Deck Cadet",
+    "department": "Deck Department",
+    "bio": "As a dedicated Deck Cadet, Grace Carpenter is gaining 6 years of hands-on knowledge in deck maintenance, watchkeeping, and safety procedures in Portugal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/women/59.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "c2aef00d-a4ff-4dc0-9182-9ef07a5849a6",
+    "name": "Nora Henderson",
+    "role": "Bosun",
+    "department": "Deck Department",
+    "bio": "Bosun Henderson supervises deck crew operations with 8 years of expertise ensuring maintenance, safety, and efficient handling of equipment aboard ships in Portugal.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/women/1.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8be57023-61a6-453a-8264-ae230e5aa7fb",
+    "name": "Eleanor Graham",
+    "role": "Chief Engineer",
+    "department": "Engineering Department",
+    "bio": "With 16 years in marine engineering, Eleanor Graham ensures optimal performance and reliability of propulsion, power generation, and auxiliary systems onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "1530bc01-1382-41c5-b207-6e2b31450f28",
+    "name": "Oliver Cooper",
+    "role": "First Engineer",
+    "department": "Engineering Department",
+    "bio": "With a focus on propulsion and power systems, Oliver Cooper applies 21 years of expertise to optimize engine performance and troubleshoot complex mechanical issues.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "601218d8-6d5d-4984-b0c6-d2e95389a04e",
+    "name": "Ryan Dean",
+    "role": "Second Engineer",
+    "department": "Engineering Department",
+    "bio": "Ryan Dean supports engineering operations with 4 years focused on mechanical maintenance, diagnostics, and equipment troubleshooting aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "2a885e15-eea6-4775-b20c-d4686c5f860c",
+    "name": "Evelyn Charlotte",
+    "role": "Electrical Engineer",
+    "department": "Engineering Department",
+    "bio": "Electrical Engineer Charlotte conducts regular testing and troubleshooting of generators, switchboards, and control systems to prevent downtime.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/17.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "933a6b05-3ed0-4a61-b2dc-1c89cd604fb7",
+    "name": "Lawrence Keller",
+    "role": "Mechanical Engineer",
+    "department": "Engineering Department",
+    "bio": "Mechanical Engineer Keller provides vital support in dry-docking operations, overseeing repairs and upgrades to mechanical systems based on 14 years of insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/46.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "2df8e0bf-08f3-44d9-a095-6194a5412d1b",
+    "name": "Wei Bennett",
+    "role": "HVAC Engineer",
+    "department": "Engineering Department",
+    "bio": "HVAC Engineer Bennett coordinates with other engineering disciplines to integrate HVAC solutions with overall ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "e678022d-2a49-4ea7-9669-d3753a4a9ed9",
+    "name": "Edward Murray",
+    "role": "Environmental Engineer",
+    "department": "Engineering Department",
+    "bio": "Edward Murray champions innovative solutions for waste reduction and energy efficiency, reflecting 7 years of commitment to maritime sustainability.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "f2422862-63bf-4e83-8f08-fe896a1495b0",
+    "name": "Luis Charlotte",
+    "role": "Systems Engineer",
+    "department": "Engineering Department",
+    "bio": "With extensive knowledge of software and hardware interfaces, Luis Charlotte enhances system interoperability and cybersecurity aboard vessels.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "907d4411-7335-4bcb-86c3-1881bc3df78e",
+    "name": "Joseph Hudson",
+    "role": "Technical Manager",
+    "department": "Engineering Department",
+    "bio": "Known for strong leadership, Joseph Hudson fosters a culture of technical excellence and cross-functional collaboration onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/32.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "ccb86b8e-886d-49c2-85ae-5e67188fc065",
+    "name": "Jacob Morgan",
+    "role": "Maintenance Engineer",
+    "department": "Engineering Department",
+    "bio": "Leveraging 15 years, Jacob Morgan is skilled in using diagnostic tools to predict and prevent equipment failures across a wide range of ship systems.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/42.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "3f69dda5-fd45-4ca8-b552-70cf86f9a058",
+    "name": "Russell Douglas",
+    "role": "Security Director",
+    "department": "Security Department",
+    "bio": "Former surveillance Russell Douglas leads our security team with 12 years of expertise in maritime safety protocols, risk assessment, and crisis management.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "21ece25b-d8a2-49f0-af0b-9ab2542d07f0",
+    "name": "Joe Porter",
+    "role": "Security Officer",
+    "department": "Security Department",
+    "bio": "Security Officer Porter is proficient in emergency communication procedures and crowd management, vital skills honed over 12 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/15.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8b69f0ad-fee9-4e66-a999-1e50fa24116f",
+    "name": "Kyle Grant",
+    "role": "Security Specialist",
+    "department": "Security Department",
+    "bio": "Security Specialist Grant designs and delivers bespoke security training programs for crew members, reflecting 10 years of practical insight.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/74.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "f28b4802-525b-4d1e-8335-76771e6346dc",
+    "name": "Gary Harper",
+    "role": "Cybersecurity Officer",
+    "department": "Security Department",
+    "bio": "Experienced in compliance with maritime cybersecurity regulations, Gary Harper conducts training to enhance crew awareness of digital risks.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/41.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "9fb09ec1-4eb0-403e-8c48-c094f772abe3",
+    "name": "Patricia Crawford",
+    "role": "Maritime Security Coordinator",
+    "department": "Security Department",
+    "bio": "With 3 years in the role, Patricia Crawford is adept at developing and updating the Ship Security Plan (SSP) and ensuring its effective implementation.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8fdd0863-1b83-41ea-8efd-66c41ca268ba",
+    "name": "Layla Parker",
+    "role": "Access Control Officer",
+    "department": "Security Department",
+    "bio": "Layla Parker ensures all personnel and visitors comply with security clearance, manifests, and international maritime access regulations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "c5825109-4113-4394-b7ef-bcc8dd402488",
+    "name": "Rajesh Cooper",
+    "role": "Safety Compliance Officer",
+    "department": "Security Department",
+    "bio": "Rajesh Cooper meticulously prepares the vessel for internal and external safety audits, ensuring all documentation and practices meet or exceed standards, backed by 11 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 11,
+    "profileImage": "https://randomuser.me/api/portraits/men/55.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "4fe095a7-822c-4763-b5a1-d4335721a8ef",
+    "name": "Savannah Jennings",
+    "role": "Youth Program Director",
+    "department": "Youth & Family Programs",
+    "bio": "Youth Program Director Jennings manages program staff and coordinates resources to deliver safe, inclusive, and dynamic youth experiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "20d55e82-a215-4b94-afb0-896ed3c0be14",
+    "name": "Tyler Dunn",
+    "role": "Family Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Focused on safety and accessibility, Tyler Dunn ensures all family activities comply with onboard regulations and guest expectations.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/men/33.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "a6cbd112-4b73-4192-89ed-a464706d324f",
+    "name": "Willie Hayes",
+    "role": "Children's Entertainment Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "Drawing on 10 years of delighting young audiences, Willie Hayes brings a unique blend of magic, storytelling, and interactive games to the ship.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/65.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8c0afdfb-db67-4343-b87b-cc90e97c0d28",
+    "name": "Audrey Douglas",
+    "role": "Teen Activities Coordinator",
+    "department": "Youth & Family Programs",
+    "bio": "Teen Activities Coordinator Douglas monitors participation and feedback to continuously refine and innovate teen programming.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/15.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "c746730e-83b0-4cd5-be33-d7e156d1afec",
+    "name": "Miguel Porter",
+    "role": "Educational Program Manager",
+    "department": "Youth & Family Programs",
+    "bio": "Educational Program Manager Porter forges partnerships with guest speakers and institutions to provide high-quality learning experiences, leveraging 7 years of networking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/29.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "3a53aa68-2f82-4673-af85-2129425631fa",
+    "name": "Gregory Montgomery",
+    "role": "Child Care Specialist",
+    "department": "Youth & Family Programs",
+    "bio": "With 15 years dedicated to early childhood development, Gregory Montgomery creates a stimulating and secure setting for the youngest guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "5bf55457-dd6b-4f96-be31-d4cd60bd36ae",
+    "name": "Edward Morgan",
+    "role": "Activities Director",
+    "department": "Activities & Recreation",
+    "bio": "With strong organizational skills, Edward Morgan manages budgets, resources, and partnerships to deliver high-quality recreational services.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 3,
+    "profileImage": "https://randomuser.me/api/portraits/men/70.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "3b847519-4940-42c1-b98b-8def7f393e0f",
+    "name": "Hannah Fletcher",
+    "role": "Water Sports Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Water Sports Instructor Fletcher stays current with industry certifications and safety standards to uphold best practices onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "5a5f527f-c2e5-49f6-ba5f-74a393edde3e",
+    "name": "Nicholas Baker",
+    "role": "Fitness Instructor",
+    "department": "Activities & Recreation",
+    "bio": "Nicholas Baker leads group fitness classes, personal training sessions, and wellness workshops designed to meet diverse passenger needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/63.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "4886b66a-ffd7-41ab-bf32-3f9493621620",
+    "name": "Elizabeth Reed",
+    "role": "Excursion Coordinator",
+    "department": "Activities & Recreation",
+    "bio": "With expertise in vendor relations and itinerary planning, Elizabeth Reed ensures smooth, safe, and enjoyable excursions tailored to passenger interests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/81.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "6bc42e43-11a1-4072-a8fb-19721d7b894f",
+    "name": "Lawrence Hamilton",
+    "role": "Lead Photographer",
+    "department": "Photography & Videography",
+    "bio": "Known for creativity and attention to detail, Lawrence Hamilton collaborates with other departments to produce visual content that enhances onboard marketing and memory-making.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/women/30.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "bc6eddd8-d288-4243-8be2-ffd55d6a85ca",
+    "name": "Lerato Maxwell",
+    "role": "Videographer",
+    "department": "Photography & Videography",
+    "bio": "Videographer Maxwell is skilled in aerial videography and underwater filming, adding unique perspectives to cruise documentation over 6 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "ee5840b2-24dc-4390-9838-fdd961fbaa74",
+    "name": "Christian Wallace",
+    "role": "Digital Media Specialist",
+    "department": "Photography & Videography",
+    "bio": "Christian Wallace uses 5 years of experience to leverage emerging digital trends, enhancing guest communication and brand visibility online.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/75.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "083aa68e-84e9-4e14-afe5-fe15a7c02464",
+    "name": "Brandon Maxwell",
+    "role": "Chief Medical Officer",
+    "department": "Health & Safety",
+    "bio": "Drawing on 12 years as a medical leader, Brandon Maxwell ensures the ship's medical facility operates to the highest international healthcare standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "2dda1c9a-4b5e-4143-bced-f46829a7107b",
+    "name": "Antonio Campbell",
+    "role": "Ship's Doctor",
+    "department": "Health & Safety",
+    "bio": "Dr. Campbell collaborates with medical officers and safety teams to uphold the highest health standards aboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/61.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "cc34f62a-e265-4ebc-8e41-78889d0e657b",
+    "name": "Ryan Russell",
+    "role": "Nurse",
+    "department": "Health & Safety",
+    "bio": "Leveraging 9 years in diverse nursing roles, Ryan Russell excels in triage, wound care, and patient advocacy within the unique maritime environment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/35.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "0c24d115-49cd-447d-a3f6-1077ff370bdf",
+    "name": "Jessica Cooper",
+    "role": "Safety Officer",
+    "department": "Health & Safety",
+    "bio": "Leveraging 16 years in maritime safety, Jessica Cooper excels at developing and implementing targeted safety training programs relevant to Portugal's specific operational hazards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 16,
+    "profileImage": "https://randomuser.me/api/portraits/women/60.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "333eb6a7-1f6d-441d-a1e8-16f6541bcf98",
+    "name": "Randy Wallace",
+    "role": "Hospitality Director",
+    "department": "Hospitality Department",
+    "bio": "Hospitality Director Wallace orchestrates a seamless guest journey, from arrival to departure, leveraging 5 years of expertise in luxury service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/men/0.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "c757ed44-9bf1-4f2b-a54a-392fd3189861",
+    "name": "Oliver Chambers",
+    "role": "Guest Relations Manager",
+    "department": "Hospitality Department",
+    "bio": "Oliver Chambers coordinates guest services and resolves issues, leveraging 10 years of customer relations expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/45.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "10a17f21-242d-4b25-b16d-f24054f0de57",
+    "name": "Juan Reeves",
+    "role": "Chief Steward",
+    "department": "Hospitality Department",
+    "bio": "Chief Steward Reeves supervises housekeeping and guest services with 17 years of maritime hospitality experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 17,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "1f709010-b2f6-4b4d-9c89-652724a56a83",
+    "name": "Arthur Price",
+    "role": "Senior Steward",
+    "department": "Hospitality Department",
+    "bio": "Arthur Price is skilled in managing cabin maintenance and guest requests with professionalism and care.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 9,
+    "profileImage": "https://randomuser.me/api/portraits/men/20.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "6f12423e-d7e8-4cfc-9fc5-5ab6d9334abc",
+    "name": "Evelyn Wallace",
+    "role": "Butler",
+    "department": "Hospitality Department",
+    "bio": "With discreet professionalism honed over 6 years, Butler Wallace offers bespoke services, including in-suite dining, wardrobe management, and personalized arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 6,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "9734830e-fb07-4432-9a9a-ea28dff98d99",
+    "name": "Lucas Campbell",
+    "role": "Accommodation Manager",
+    "department": "Hospitality Department",
+    "bio": "Accommodation Manager Campbell coordinates housekeeping and maintenance teams for optimal guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/58.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "ad7dabe3-1139-4ee3-abbd-807113c220a2",
+    "name": "Eric Lawson",
+    "role": "Housekeeping Supervisor",
+    "department": "Hospitality Department",
+    "bio": "Eric Lawson manages daily assignments, motivates the housekeeping team, and ensures efficient use of cleaning resources, drawing on 4 years of leadership.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/2.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8fa05858-6e2f-4f77-a0c6-e2ebadfeeebe",
+    "name": "Dennis Hudson",
+    "role": "Guest Services Specialist",
+    "department": "Hospitality Department",
+    "bio": "Dennis Hudson assists guests with inquiries and special requests, drawing on 22 years in customer service roles.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/84.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "b5e94d47-87f4-4f25-bb85-52e9f4e5042c",
+    "name": "Alexa Montgomery",
+    "role": "Concierge",
+    "department": "Hospitality Department",
+    "bio": "Alexa Montgomery leverages 5 years of service to provide exceptional concierge support onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "125bc6dd-bb03-4093-9707-e91689eee626",
+    "name": "Marcus Grant",
+    "role": "Front Desk Manager",
+    "department": "Hospitality Department",
+    "bio": "Marcus Grant is pivotal in managing high-traffic periods and resolving escalated guest concerns with professionalism and grace, reflecting 15 years in the field.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/46.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "838e2507-6c8b-4c6a-a84c-8c1ed86d5ee1",
+    "name": "Joshua Parker",
+    "role": "VIP Coordinator",
+    "department": "Hospitality Department",
+    "bio": "With 12 years catering to high-profile clientele, Joshua Parker curates bespoke itineraries and ensures flawless execution of all VIP arrangements.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/women/13.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "9037dcb3-c247-4918-9198-a74bbc2a3b76",
+    "name": "Brenda Olivia",
+    "role": "Hospitality Trainer",
+    "department": "Hospitality Department",
+    "bio": "With 10 years of designing and delivering impactful training, Brenda Olivia empowers staff with the knowledge and skills to provide outstanding service.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/61.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "3e4a233d-5d9e-42d4-bada-6d609409ae76",
+    "name": "Roger Fox",
+    "role": "Executive Chef",
+    "department": "Culinary Department",
+    "bio": "With 13 years in fine dining, Chef Fox specializes in Japanese flavors using locally sourced ingredients.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/57.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "49e1fa2e-72c0-40bf-94e7-86e2bc4cd7fc",
+    "name": "Michelle Cooper",
+    "role": "Sous Chef",
+    "department": "Culinary Department",
+    "bio": "With 4 years in high-volume kitchens, Sous Chef Cooper is adept at managing specific stations and stepping in for the Executive Chef as needed.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/42.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "256f5902-b48a-47ed-a937-ec58d77c4acc",
+    "name": "George Dunn",
+    "role": "Pastry Chef",
+    "department": "Culinary Department",
+    "bio": "George Dunn manages the pastry section, from artisan breads to elaborate cakes and plated desserts, ensuring exceptional quality over 14 years.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/women/14.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "41220539-318b-4414-b5cf-12ce66b423b1",
+    "name": "Genesis Ellis",
+    "role": "Chef de Partie",
+    "department": "Culinary Department",
+    "bio": "With 10 years as a section chef, Genesis Ellis is responsible for stock control and guiding commis chefs within their designated area of the Caribbean kitchen.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "bd9ad337-66d3-4865-8152-8c04753b6c1d",
+    "name": "Darrell Hunter",
+    "role": "Specialty Chef",
+    "department": "Culinary Department",
+    "bio": "Specialty Chef Hunter curates exclusive menus for themed dining venues, showcasing 15 years of passion for {cuisineSpecific} traditions and techniques.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "b5bfe238-bd0c-45ef-8bfe-c9b1a88b4043",
+    "name": "Adeline Hudson",
+    "role": "Sushi Chef",
+    "department": "Culinary Department",
+    "bio": "Adeline Hudson delights guests with traditional Edomae-style sushi and contemporary maki rolls, showcasing skills honed over 19 years of rigorous training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/10.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "7e1a22e4-2e8e-4551-8b94-2ccee1463310",
+    "name": "Jennifer Clark",
+    "role": "Garde Manger",
+    "department": "Culinary Department",
+    "bio": "Jennifer Clark is responsible for creating visually stunning and delicious cold appetizers, canapés, and buffet displays, backed by 21 years of Mediterranean expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "4dfca3c8-8666-4b04-8b9a-90b8ae61368d",
+    "name": "Michelle Olivia",
+    "role": "Butcher",
+    "department": "Culinary Department",
+    "bio": "Butcher Olivia manages meat inventory and advises chefs on the best cuts for specific culinary applications, drawing on 19 years of specialized knowledge.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 19,
+    "profileImage": "https://randomuser.me/api/portraits/women/79.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "2b7ff8d4-c060-4a61-b411-22d9056022c5",
+    "name": "Rachel Warren",
+    "role": "Baker",
+    "department": "Culinary Department",
+    "bio": "Rachel Warren manages the bakery's production schedule and ingredient inventory, ensuring consistent quality and freshness, backed by 13 years of professional baking.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/72.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "4b64f162-f570-40d3-8ce1-40623ffb1558",
+    "name": "Sophia Grant",
+    "role": "Sommelier",
+    "department": "Culinary Department",
+    "bio": "Sophia Grant provides engaging wine education and tasting experiences for guests, sharing insights from 20 years exploring global viticulture.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/women/47.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "68a05c9f-1858-4914-8779-8138148eea2f",
+    "name": "Katherine Lawson",
+    "role": "Mixologist",
+    "department": "Culinary Department",
+    "bio": "Mixologist Lawson crafts creative cocktails, combining flavor expertise with 4 years of bartending skill.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "d95f77c6-7e99-4aa9-80ef-71f30fc8650d",
+    "name": "Laura Gibson",
+    "role": "Barista",
+    "department": "Culinary Department",
+    "bio": "With 10 years of expertise in coffee origins, brewing methods, and latte art, Laura Gibson crafts the perfect cup for every guest.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "1af4ec9d-e6ec-4a51-a9f3-39295a59563a",
+    "name": "Ellie Gibson",
+    "role": "Nutritionist",
+    "department": "Culinary Department",
+    "bio": "With 13 years in clinical and culinary nutrition, Ellie Gibson provides personalized dietary consultations and develops specialized meal plans for guests with specific needs.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/women/28.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "4c42993e-efa0-4fa0-949d-15497abd2178",
+    "name": "Susan Sutton",
+    "role": "Entertainment Director",
+    "department": "Entertainment Department",
+    "bio": "Entertainment Director Sutton curates diverse programming to engage and delight guests throughout voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/22.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "e6d55df5-f65c-43c8-aeba-2c2104ea1dda",
+    "name": "Liam Montgomery",
+    "role": "Performance Coordinator",
+    "department": "Entertainment Department",
+    "bio": "Performance Coordinator Montgomery supports talent and technical teams to deliver seamless shows.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/23.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "70b3d450-a2de-4b55-992c-4775a7c84682",
+    "name": "Jack Cooper",
+    "role": "Lead Vocalist",
+    "department": "Entertainment Department",
+    "bio": "With a versatile range and powerful stage presence developed over 7 years, Lead Vocalist Cooper shines in genres from pop and rock to jazz and musical theatre.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "84290dcc-1576-4241-aed8-67958610a58e",
+    "name": "Logan Grant",
+    "role": "Musician",
+    "department": "Entertainment Department",
+    "bio": "Musician Grant performs live music across genres, engaging guests with 12 years of performance experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/53.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "32dc1f62-d871-4c91-a02c-7bcea621952c",
+    "name": "Joel Murray",
+    "role": "Dancer",
+    "department": "Entertainment Department",
+    "bio": "Dancer Murray delivers energetic and polished routines, drawing on 12 years of dance training.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "1b3b09ac-16d7-4ddc-9633-d48a49a1623e",
+    "name": "Katherine Russell",
+    "role": "Choreographer",
+    "department": "Entertainment Department",
+    "bio": "Choreographer Russell creates captivating dance routines, blending creativity with 7 years of dance expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 7,
+    "profileImage": "https://randomuser.me/api/portraits/women/70.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "ad80edd9-a06b-4090-92cb-0dfb5847390a",
+    "name": "Javier Graham",
+    "role": "Comedy Performer",
+    "department": "Entertainment Department",
+    "bio": "Javier Graham's ability to connect with the audience and improvise, developed over 13 years, makes each show a unique and highly enjoyable experience.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 13,
+    "profileImage": "https://randomuser.me/api/portraits/men/4.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "e8e1e1ea-8c80-45ea-8429-57f91332f75b",
+    "name": "Adeline Clark",
+    "role": "Magic Act",
+    "department": "Entertainment Department",
+    "bio": "Magic Act specialist Clark combines masterful sleight of hand with engaging patter, creating an atmosphere of wonder and excitement during every {duration} show.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 15,
+    "profileImage": "https://randomuser.me/api/portraits/women/82.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "22d1e2cd-a01c-4c51-8f07-dd9ee22a9363",
+    "name": "Brenda Mitchell",
+    "role": "DJ",
+    "department": "Entertainment Department",
+    "bio": "DJ Mitchell stays current with music trends while also mastering classics, offering 22 years of expertise in curating unforgettable musical journeys.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/women/73.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "110daa57-19c7-47c1-b24e-9dc701ccbc64",
+    "name": "Eleanor Harper",
+    "role": "Audio Technician",
+    "department": "Entertainment Department",
+    "bio": "Audio Technician Harper manages sound systems and ensures optimal audio quality for performances onboard.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 22,
+    "profileImage": "https://randomuser.me/api/portraits/men/14.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "8db51a7c-2680-48cb-9268-9c19cb4ba82d",
+    "name": "Laura Hall",
+    "role": "Lighting Specialist",
+    "department": "Entertainment Department",
+    "bio": "Laura Hall's artistic vision and technical mastery over 21 years ensure that lighting plays a crucial role in the storytelling and excitement of onboard entertainment.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/women/64.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "25a6daa0-639c-4810-8edd-dbbf3cc068e0",
+    "name": "Carol Crawford",
+    "role": "Stage Manager",
+    "department": "Entertainment Department",
+    "bio": "Carol Crawford's calm under pressure and attention to detail, honed over 8 years, are vital for delivering complex, multi-layered performances without a hitch.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 8,
+    "profileImage": "https://randomuser.me/api/portraits/men/26.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "7dae388d-d00b-4ddc-baa5-a6bd907e3505",
+    "name": "Richard Jennings",
+    "role": "Production Manager",
+    "department": "Entertainment Department",
+    "bio": "Production Manager Jennings collaborates with creative teams and technical departments to bring ambitious show concepts to life, on time and within budget.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 4,
+    "profileImage": "https://randomuser.me/api/portraits/men/67.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "b3846ddc-1f1a-4695-8f0e-e21deb7c0f49",
+    "name": "Amy Campbell",
+    "role": "Costume Designer",
+    "department": "Entertainment Department",
+    "bio": "Amy Campbell combines creativity and craftsmanship with 21 years of design expertise.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 21,
+    "profileImage": "https://randomuser.me/api/portraits/men/25.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "bea63521-5eb9-4943-b2f9-e62d1ffaf0fa",
+    "name": "Ellie Sutton",
+    "role": "Cultural Program Director",
+    "department": "Entertainment Department",
+    "bio": "Cultural Program Director Sutton curates culturally enriching events and experiences for guests.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "c2cc48e0-94da-4213-92d0-91c3b611dad7",
+    "name": "Aaliyah Baker",
+    "role": "Performance Artist",
+    "department": "Entertainment Department",
+    "bio": "Performance Artist Baker combines elements of {artisticDisciplineCombination} to create truly unique and memorable entertainment experiences for discerning audiences.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 14,
+    "profileImage": "https://randomuser.me/api/portraits/men/56.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "cd5ca5ee-8fb1-4d18-95a1-a7cfb2c58628",
+    "name": "Daniel Hayes",
+    "role": "Operations Manager",
+    "department": "Operations Department",
+    "bio": "Operations Manager Hayes is adept at problem-solving complex logistical challenges and implementing solutions that enhance overall ship performance and guest satisfaction.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 20,
+    "profileImage": "https://randomuser.me/api/portraits/men/73.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "79fb3b0a-398b-40b8-822d-e43e81b76550",
+    "name": "Jeremy Morgan",
+    "role": "Logistics Coordinator",
+    "department": "Operations Department",
+    "bio": "With 12 years coordinating complex supply chains, Jeremy Morgan ensures timely delivery of provisions, spare parts, and equipment essential for uninterrupted voyages.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 12,
+    "profileImage": "https://randomuser.me/api/portraits/men/82.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "bc94eb39-5514-4ba0-af17-60aa9e1a08de",
+    "name": "Marcus Jennings",
+    "role": "Inventory Specialist",
+    "department": "Operations Department",
+    "bio": "Inventory Specialist Jennings tracks and manages stock levels, maintaining operational readiness.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 18,
+    "profileImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "6a477da8-1077-46ad-9893-c832eadd79b1",
+    "name": "Charlotte Olivia",
+    "role": "Procurement Officer",
+    "department": "Operations Department",
+    "bio": "With 5 years in strategic sourcing, Charlotte Olivia identifies reliable suppliers and negotiates favorable terms for all shipboard necessities, from fuel to food.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      }
+    ],
+    "experienceYears": 5,
+    "profileImage": "https://randomuser.me/api/portraits/women/16.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  },
+  {
+    "id": "f88584f1-5c3f-42e1-9463-580e2bef22dd",
+    "name": "Louis Morgan",
+    "role": "Sustainability Coordinator",
+    "department": "Operations Department",
+    "bio": "Louis Morgan promotes sustainable practices aligned with maritime environmental standards.",
+    "languages": [
+      {
+        "code": "en",
+        "name": "English"
+      },
+      {
+        "code": "es",
+        "name": "Spanish"
+      },
+      {
+        "code": "pt",
+        "name": "Portuguese"
+      }
+    ],
+    "experienceYears": 10,
+    "profileImage": "https://randomuser.me/api/portraits/men/77.jpg",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "region": "Portugal"
+  }
 ];
