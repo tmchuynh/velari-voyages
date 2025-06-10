@@ -1,19 +1,3 @@
-import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
-import {
-  getCityFiles,
-  formatKebebToTitleCase,
-  formatTitleToKebabCase,
-} from "./utils/file-utils.mjs";
-import {
-  cityCoordinates,
-  cityCountryMap,
-  cityToRegionMap,
-} from "./utils/geo-utils.mjs";
-import { countryNamePhrases } from "./utils/name-utils.mjs";
-import { positiveAdjectives } from "./utils/description-utils.mjs";
-
 /**
  * City Vessel Generator Script
  * ============================
@@ -39,6 +23,23 @@ import { positiveAdjectives } from "./utils/description-utils.mjs";
  * node scripts/create-city-vessel-files.mjs --city venice --list --sort type    - List vessels sorted by type
  * node scripts/create-city-vessel-files.mjs --help              - Show help information
  */
+
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import {
+  getCityFiles,
+  formatKebebToTitleCase,
+  formatTitleToKebabCase,
+} from "./utils/file-utils.mjs";
+import {
+  cityCoordinates,
+  cityCountryMap,
+  cityToRegionMap,
+} from "./utils/geo-utils.mjs";
+import { countryNamePhrases } from "./utils/name-utils.mjs";
+import { generateUniqueId } from "./utils/data-generator.mjs";
+import { positiveAdjectives } from "./utils/description-utils.mjs";
 
 // Get the equivalent of __dirname in ESM
 const __filename = fileURLToPath(import.meta.url);
@@ -222,7 +223,7 @@ function listVesselsForCity(cityName, sortOption = "none") {
     let match;
     while ((match = vesselPattern.exec(arrayMatch[1])) !== null) {
       vessels.push({
-        id: match[1],
+        id: generateUniqueId(),
         name: match[2],
         type: match[3],
         capacity: parseInt(match[4]),
@@ -347,7 +348,7 @@ function generateVesselDescription(name, type, cityName) {
   const adj =
     positiveAdjectives[Math.floor(Math.random() * positiveAdjectives.length)];
 
-  const descriptions = [
+  const vesselDescriptions = [
     `The ${name} offers an unparalleled cruising experience from ${cityDisplayName}, combining luxury amenities with state-of-the-art navigation technology. This ${type.toLowerCase()} features spacious cabins, gourmet dining options, and entertainment venues that showcase the best of ${regionName} hospitality.`,
 
     `Setting sail from the beautiful port of ${cityDisplayName}, the ${name} is a floating paradise designed for the discerning traveler. This ${adj} ${type.toLowerCase()} boasts panoramic viewing decks, world-class cuisine, and personalized service that ensures an unforgettable journey.`,
@@ -369,7 +370,9 @@ function generateVesselDescription(name, type, cityName) {
     `With its distinctive profile and luxurious appointments, the ${name} stands as a jewel in the ${cityDisplayName} harbor. This prestigious ${type.toLowerCase()} offers travelers a perfect combination of adventure and relaxation, with expert-guided excursions, world-class entertainment, and sublime culinary experiences.`,
   ];
 
-  return descriptions[Math.floor(Math.random() * descriptions.length)];
+  return vesselDescriptions[
+    Math.floor(Math.random() * vesselDescriptions.length)
+  ];
 }
 
 // Generate vessel safety equipment
