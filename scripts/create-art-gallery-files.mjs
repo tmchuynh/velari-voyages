@@ -676,7 +676,7 @@ function generateArtGalleriesForCity(cityName) {
     return [];
   }
 
-  const region = cityToRegionMap(cityName);
+  const region = cityToRegionMap[cityName];
   const artGalleries = [];
 
   // Generate one art gallery per vessel
