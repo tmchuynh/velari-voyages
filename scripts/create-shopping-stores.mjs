@@ -9,13 +9,16 @@
  * Each file exports an array variable named "{camelCaseCityName}Shopping"
  * with shopping store data that matches the Shopping interface from venues.ts
  *
+ * The Shopping interface represents categories (e.g., "Duty-Free") for each vessel,
+ * with a stores array containing individual stores within that category.
+ *
  * Features:
- * - Generates shopping stores for each vessel in each city
- * - Creates randomized shopping store details including name, description, type,
- *   hours, contact information, and FAQ data
+ * - Generates shopping categories for each vessel in each city
+ * - Creates randomized store details including name, description, contact info
  * - Follows the Shopping interface requirements with vesselId references
- * - Customizes shopping stores based on the city/region and vessel type
- * - Ensures each cruise ship has at least 3 shopping stores of each type (8 types)
+ * - Customizes stores based on city/region and vessel type
+ * - Ensures each cruise ship has one category of each of the 8 types
+ * - Each category contains at least 3 individual stores
  * - Supports different operational modes:
  *   - Create: Only generates files if they don't already exist (default)
  *   - Append: Adds new shopping store data to existing files
@@ -25,7 +28,7 @@
  *
  * Usage Examples:
  * --------------
- * # Default: creates files with shopping stores for all vessels in each city
+ * # Default: creates files with shopping categories for all vessels in each city
  * node scripts/create-shopping-stores.mjs
  *
  * # Append new shopping stores to existing files
@@ -38,8 +41,8 @@
  * # Shorter version:
  * node scripts/create-shopping-stores.mjs -r
  *
- * # Specify number of stores per vessel (default is 24 to ensure 3 of each type)
- * node scripts/create-shopping-stores.mjs --stores-per-vessel=30
+ * # Specify number of stores per category (default is 3)
+ * node scripts/create-shopping-stores.mjs --stores-per-category=5
  *
  * # Enable debug mode
  * node scripts/create-shopping-stores.mjs --debug
@@ -48,12 +51,12 @@
  *
  * Command-line Options:
  * ------------------
- * --append, -a               Enable Append mode. Adds new shopping stores to existing files.
- *                           If a file doesn't exist, it's created.
+ * --append, -a                 Enable Append mode. Adds new shopping categories to existing files.
+ *                             If a file doesn't exist, it's created.
  *
- * --rewrite, -r             Enable Rewrite mode. Overwrites existing shopping store files.
+ * --rewrite, -r               Enable Rewrite mode. Overwrites existing shopping store files.
  *
- * --stores-per-vessel=N     Number of shopping stores to generate per vessel (default: 24).
+ * --stores-per-category=N     Number of stores to generate per category (default: 3).
  *
  * --debug, -d               Enable debug mode for verbose logging.
  *
@@ -105,19 +108,63 @@ const cityFiles = getCityFiles();
 const args = process.argv.slice(2);
 const APPEND_MODE = args.includes("--append") || args.includes("-a");
 const REWRITE_MODE = args.includes("--rewrite") || args.includes("-r");
-const STORES_PER_VESSEL = parseInt(
-  args.find((arg) => arg.startsWith("--stores-per-vessel="))?.split("=")[1] ||
-    "24", // Default 24 to ensure 3 of each of the 8 types
+const STORES_PER_CATEGORY = parseInt(
+  args.find((arg) => arg.startsWith("--stores-per-category="))?.split("=")[1] ||
+    "3", // Default 3 stores per category
   10
 );
 const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
+const HELP_MODE = args.includes("--help") || args.includes("-h");
+
+// Show help if requested
+if (HELP_MODE) {
+  console.log(`
+Shopping Stores Data Generator Script
+====================================
+
+This script generates TypeScript files containing shopping store venue data for each vessel
+in each city within the Velari Voyages project.
+
+Usage:
+  node scripts/create-shopping-stores.mjs [options]
+
+Options:
+  --append, -a                 Enable Append mode. Adds new shopping categories to existing files.
+                              If a file doesn't exist, it's created.
+  --rewrite, -r               Enable Rewrite mode. Overwrites existing shopping store files.
+  --stores-per-category=N     Number of stores to generate per category (default: 3).
+  --debug, -d                 Enable debug mode for verbose logging.
+  --help, -h                  Display this help message.
+
+Examples:
+  node scripts/create-shopping-stores.mjs                              # Create new files only
+  node scripts/create-shopping-stores.mjs --append                     # Append to existing files
+  node scripts/create-shopping-stores.mjs --rewrite                    # Rewrite all files
+  node scripts/create-shopping-stores.mjs --stores-per-category=5      # Generate 5 stores per category
+  node scripts/create-shopping-stores.mjs --debug                      # Enable debug logging
+
+Features:
+- Generates shopping categories for each vessel in each city
+- Organizes stores by category (e.g., "Duty-Free") with multiple stores per category
+- Each cruise ship has one category of each of the 8 types with 3+ stores per category
+- Creates randomized store details including name, description, contact info
+- Customizes stores based on city/region and vessel type
+- Supports 8 shopping categories: Duty-Free, Jewelry & Watches, Fashion & Accessories,
+  Electronics & Gadgets, Souvenirs & Gifts, Health & Beauty, Sports & Outdoor, Home & Living
+
+Output:
+Files are created in: src/lib/constants/venues/shopping/{city-name}-shopping.ts
+Each file exports a typed array compatible with the Shopping interface.
+`);
+  process.exit(0);
+}
 
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
   }`
 );
-console.log(`Stores per vessel: ${STORES_PER_VESSEL}`);
+console.log(`Stores per category: ${STORES_PER_CATEGORY}`);
 console.log(`Debug mode: ${DEBUG_MODE ? "Enabled" : "Disabled"}`);
 
 // Shopping store types from the Shopping interface
@@ -482,40 +529,57 @@ function getVesselDataForCity(cityName) {
   }
 }
 
-// Generate shopping store data for a specific vessel
-function generateStoreForVessel(vessel, cityName, region, storeType) {
-  const storeName = generateStoreName(storeType, cityName, vessel.name, region);
+// Generate individual store data for a specific category
+function generateIndividualStore(storeType, cityName, vesselName, region) {
+  const storeName = generateStoreName(storeType, cityName, vesselName, region);
   const hours = generateStoreHours();
-  const faqs = getRandomItems(shoppingFAQTemplates, getRandomInt(3, 5));
 
   return {
     id: generateUniqueId(),
-    vesselId: vessel.id,
     name: storeName,
     description: generateStoreDescription(
       storeName,
       storeType,
-      vessel.name,
+      vesselName,
       cityName
     ),
-    imageUrl: `/images/shopping/${storeType.toLowerCase().replace(/\s+/g, "-")}-store.jpg`,
     hours: hours,
     contact: {
       contactNumber: `+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}`,
       contactEmail: generateRandomEmail("shopping.velarivoyages.com"),
     },
-    type: storeType,
     hasSales: getRandomBool(0.7), // 70% chance of having sales
     isPopular: getRandomBool(0.4), // 40% chance of being popular
-    faqs: faqs.map((faq) => ({
-      question: faq.question,
-      answer: faq.answer,
-    })),
   };
 }
 
-// Generate shopping store data for a city
-function generateStoresForCity(cityName) {
+// Generate shopping category data for a specific vessel and store type
+function generateShoppingCategoryForVessel(
+  vessel,
+  cityName,
+  region,
+  storeType,
+  storesPerCategory = 3
+) {
+  const stores = [];
+
+  // Generate individual stores for this category
+  for (let i = 0; i < storesPerCategory; i++) {
+    stores.push(
+      generateIndividualStore(storeType, cityName, vessel.name, region)
+    );
+  }
+
+  return {
+    id: generateUniqueId(),
+    vesselId: vessel.id,
+    type: storeType,
+    stores: stores,
+  };
+}
+
+// Generate shopping categories for a city
+function generateShoppingCategoriesForCity(cityName) {
   const vessels = getVesselDataForCity(cityName);
   if (vessels.length === 0) {
     console.log(`⚠️  Skipping ${cityName} - no vessels found`);
@@ -523,76 +587,64 @@ function generateStoresForCity(cityName) {
   }
 
   const region = getRegionForCity(cityName);
-  const stores = [];
+  const shoppingCategories = [];
 
   vessels.forEach((vessel) => {
-    // Ensure at least 3 stores of each type per vessel
-    const storeTypes = [...SHOPPING_TYPES];
-    const storesForVessel = Math.max(
-      STORES_PER_VESSEL,
-      SHOPPING_TYPES.length * 3
-    );
-
-    // First, add 3 stores of each type
+    // Generate one category for each shopping type per vessel
     SHOPPING_TYPES.forEach((storeType) => {
-      for (let i = 0; i < 3; i++) {
-        stores.push(
-          generateStoreForVessel(vessel, cityName, region, storeType)
-        );
-      }
+      shoppingCategories.push(
+        generateShoppingCategoryForVessel(
+          vessel,
+          cityName,
+          region,
+          storeType,
+          STORES_PER_CATEGORY
+        )
+      );
     });
-
-    // Then add random additional stores to reach the target
-    const additionalStores = storesForVessel - SHOPPING_TYPES.length * 3;
-    for (let i = 0; i < additionalStores; i++) {
-      const randomType = getRandomElement(SHOPPING_TYPES);
-      stores.push(generateStoreForVessel(vessel, cityName, region, randomType));
-    }
   });
 
   if (DEBUG_MODE) {
     console.log(
-      `Generated ${stores.length} shopping stores for ${cityName} (${vessels.length} vessels)`
+      `Generated ${shoppingCategories.length} shopping categories for ${cityName} (${vessels.length} vessels, ${SHOPPING_TYPES.length} types each)`
     );
   }
 
-  return stores;
+  return shoppingCategories;
 }
 
 // Create TypeScript file content
-function createShoppingFileContent(cityName, stores) {
+function createShoppingFileContent(cityName, shoppingCategories) {
   const camelCaseCityName = formatKebabToCamelCase(cityName);
   const capitalizedCityName = capitalize(cityName);
 
-  const storeDataString = stores
+  const categoryDataString = shoppingCategories
     .map(
-      (store) =>
+      (category) =>
         `  {
-    id: "${store.id}",
-    vesselId: "${store.vesselId}",
-    name: "${store.name}",
-    description: "${store.description}",
-    imageUrl: "${store.imageUrl}",
-    hours: {
-      start: "${store.hours.start}",
-      end: "${store.hours.end}",
-      duration: "${store.hours.duration}",
-      description: "${store.hours.description}",
-    },
-    contact: {
-      contactNumber: "${store.contact.contactNumber}",
-      contactEmail: "${store.contact.contactEmail}",
-    },
-    type: "${store.type}",
-    hasSales: ${store.hasSales},
-    isPopular: ${store.isPopular},
-    faqs: [
-${store.faqs
+    id: "${category.id}",
+    vesselId: "${category.vesselId}",
+    type: "${category.type}",
+    stores: [
+${category.stores
   .map(
-    (faq) =>
+    (store) =>
       `      {
-        question: "${faq.question}",
-        answer: "${faq.answer}",
+        id: "${store.id}",
+        name: "${store.name}",
+        description: "${store.description}",
+        hours: {
+          start: "${store.hours.start}",
+          end: "${store.hours.end}",
+          duration: "${store.hours.duration}",
+          description: "${store.hours.description}",
+        },
+        contact: {
+          contactNumber: "${store.contact.contactNumber}",
+          contactEmail: "${store.contact.contactEmail}",
+        },
+        hasSales: ${store.hasSales},
+        isPopular: ${store.isPopular},
       }`
   )
   .join(",\n")}
@@ -601,14 +653,15 @@ ${store.faqs
     )
     .join(",\n");
 
-  return `// Shopping store venues data for ${capitalizedCityName}
-// This file contains shopping store information for cruise vessels operating from ${capitalizedCityName}
-// Each store is associated with a specific vessel and offers various retail categories
+  return `// This file is auto-generated
+    // Do not edit manually.
+    // City: ${capitalizedCityName}
+    // Generated on: ${new Date().toISOString()}
 
 import { Shopping } from "@/lib/interfaces/services/venues";
 
 export const ${camelCaseCityName}Shopping: Shopping[] = [
-${storeDataString}
+${categoryDataString}
 ];
 `;
 }
@@ -650,14 +703,14 @@ async function generateShoppingFiles() {
     }
 
     try {
-      const newStores = generateStoresForCity(city);
+      const newShoppingCategories = generateShoppingCategoriesForCity(city);
 
-      if (newStores.length === 0) {
-        console.log(`⚠️  No shopping stores generated for ${city}`);
+      if (newShoppingCategories.length === 0) {
+        console.log(`⚠️  No shopping categories generated for ${city}`);
         continue;
       }
 
-      let allStores = newStores;
+      let allShoppingCategories = newShoppingCategories;
 
       // Handle append mode
       if (APPEND_MODE && fileExists) {
@@ -676,8 +729,10 @@ async function generateShoppingFiles() {
               `Found ${existingStoresCount} existing stores in ${city}-shopping.ts`
             );
 
-            // For append mode, we'll just add new stores
-            console.log(`📝 Appending to existing shopping stores for ${city}`);
+            // For append mode, we'll just add new categories
+            console.log(
+              `📝 Appending to existing shopping categories for ${city}`
+            );
             filesAppended++;
           }
         } catch (error) {
@@ -688,18 +743,21 @@ async function generateShoppingFiles() {
       }
 
       // Create file content
-      const fileContent = createShoppingFileContent(city, allStores);
+      const fileContent = createShoppingFileContent(
+        city,
+        allShoppingCategories
+      );
 
       // Write file
       fs.writeFileSync(shoppingFilePath, fileContent);
 
       if (APPEND_MODE && fileExists) {
         console.log(
-          `✅ Updated shopping store file for ${capitalize(city)} (${allStores.length} stores)`
+          `✅ Updated shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`
         );
       } else {
         console.log(
-          `✅ Created shopping store file for ${capitalize(city)} (${allStores.length} stores)`
+          `✅ Created shopping store file for ${capitalize(city)} (${allShoppingCategories.length} categories)`
         );
         filesCreated++;
       }
