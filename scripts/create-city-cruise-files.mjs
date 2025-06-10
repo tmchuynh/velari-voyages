@@ -15,13 +15,16 @@
  *
  * Usage Examples:
  * --------------
- * # Default: adds 10 cruises per city only for new files
+ * # Default: adds 10-20 random cruises per city only for new files
  * node scripts/create-city-cruise-files.mjs
  *
  * # Adds 5 cruises to existing files
  * node scripts/create-city-cruise-files.mjs --append 5
  *
- * # Rewrites all files with 10 cruises each (discards existing data)
+ * # Adds 10-20 random cruises to existing files
+ * node scripts/create-city-cruise-files.mjs --append-default
+ *
+ * # Rewrites all files with 10-20 random cruises each (discards existing data)
  * node scripts/create-city-cruise-files.mjs --rewrite
  *
  * # Creates files even if they already exist
@@ -35,10 +38,11 @@
  *
  * Command-line Options:
  * ------------------
- * --append, -a NUMBER  Append NUMBER of cruises to existing files
- * --rewrite, -r        Rewrite all files, discarding existing cruises
- * --force-create, -f   Create files even if they already exist (default: only create if missing)
- * --help, -h           Display help message
+ * --append, -a NUMBER      Append NUMBER of cruises to existing files
+ * --append-default         Append 10-20 random cruises to existing files
+ * --rewrite, -r            Rewrite all files, discarding existing cruises
+ * --force-create, -f       Create files even if they already exist (default: only create if missing)
+ * --help, -h               Display help message
  *
  * Output Files:
  * ------------
@@ -88,11 +92,23 @@ const __dirname = path.dirname(__filename);
 
 // Parse command-line arguments
 const args = process.argv.slice(2);
-const CRUISES_PER_CITY = 10; // Default value
-let cruisesToAppend = CRUISES_PER_CITY;
+const MIN_CRUISES_PER_CITY = 10; // Minimum cruises per city
+const MAX_CRUISES_PER_CITY = 20; // Maximum cruises per city
+let cruisesToAppend = null; // Will be set based on mode
 let forceRewrite = false;
 let forceCreate = false; // New flag to control creation behavior
+let useRandomCounts = true; // Flag to control random vs fixed counts
 const APPEND_MODE = args.includes("--append") || args.includes("-a");
+const APPEND_DEFAULT_MODE = args.includes("--append-default");
+
+// Function to generate random cruise count between min and max
+function getRandomCruiseCount() {
+  return (
+    Math.floor(
+      Math.random() * (MAX_CRUISES_PER_CITY - MIN_CRUISES_PER_CITY + 1)
+    ) + MIN_CRUISES_PER_CITY
+  );
+}
 
 // Process command-line arguments
 for (let i = 0; i < args.length; i++) {
@@ -100,8 +116,11 @@ for (let i = 0; i < args.length; i++) {
     const value = parseInt(args[i + 1]);
     if (!isNaN(value) && value > 0) {
       cruisesToAppend = value;
+      useRandomCounts = false; // Use fixed count when specific number is provided
       i++; // Skip the next argument (the number)
     }
+  } else if (args[i] === "--append-default") {
+    useRandomCounts = true; // Use random counts for append-default
   } else if (args[i] === "--rewrite" || args[i] === "-r") {
     forceRewrite = true;
   } else if (args[i] === "--force-create" || args[i] === "-f") {
@@ -111,10 +130,13 @@ for (let i = 0; i < args.length; i++) {
 Usage: node scripts/create-city-cruise-files.mjs [options]
 
 Options:
-  --append, -a NUMBER  Append NUMBER of cruises to existing files
-  --rewrite, -r        Rewrite all files, discarding existing cruises
-  --force-create, -f   Create files even if they already exist (default: only create if missing)
-  --help, -h           Display this help message
+  --append, -a NUMBER      Append NUMBER of cruises to existing files
+  --append-default         Append 10-20 random cruises to existing files
+  --rewrite, -r            Rewrite all files, discarding existing cruises
+  --force-create, -f       Create files even if they already exist (default: only create if missing)
+  --help, -h               Display this help message
+
+Default behavior: Creates 10-20 random cruises per city for new files only.
     `);
     process.exit(0);
   }
@@ -127,9 +149,12 @@ console.log(`Running with options:
     ? "Creating files even if they exist"
     : "Only creating files that don't exist"
 }
-- ${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${
-  forceRewrite ? "per city" : "to each file"
+- ${
+  useRandomCounts
+    ? `Creating ${MIN_CRUISES_PER_CITY}-${MAX_CRUISES_PER_CITY} random cruises per city`
+    : `${forceRewrite ? "Creating" : "Appending"} ${cruisesToAppend} cruises ${forceRewrite ? "per city" : "to each file"}`
 }
+- Mode: ${APPEND_DEFAULT_MODE ? "Append Default" : APPEND_MODE ? "Append Specific" : "Create New"}
 `);
 
 // Base directory for cruise files
@@ -817,7 +842,15 @@ for (const city of cityFiles) {
   const camelCaseCity = formatKebabToCamelCase(city);
   const cruiseFilePath = path.join(cruisesDir, `${city}-cruises.ts`);
   let existingCruises = [];
-  let cruisesToAdd = cruisesToAppend; // Use the command-line argument value
+
+  // Determine number of cruises to add based on mode
+  let cruisesToAdd;
+  if (useRandomCounts) {
+    cruisesToAdd = getRandomCruiseCount(); // Generate random count between 10-20
+  } else {
+    cruisesToAdd = cruisesToAppend; // Use the specific command-line argument value
+  }
+
   let fileAction = "Created";
 
   try {
@@ -826,7 +859,8 @@ for (const city of cityFiles) {
       fs.existsSync(cruiseFilePath) &&
       !forceRewrite &&
       !forceCreate &&
-      !APPEND_MODE
+      !APPEND_MODE &&
+      !APPEND_DEFAULT_MODE
     ) {
       console.log(`Skipping ${cruiseFilePath}: File already exists`);
       continue; // Skip to next city
@@ -839,7 +873,7 @@ for (const city of cityFiles) {
 
       // Extract the existing array
       const arrayMatch = existingContent.match(
-        /export const \w+Cruises: Cruise\[\] = \[([\s\S]*?)\];/,
+        /export const \w+Cruises: Cruise\[\] = \[([\s\S]*?)\];/
       );
       if (arrayMatch && arrayMatch[1]) {
         try {
@@ -848,7 +882,7 @@ for (const city of cityFiles) {
           if (objectMatches) {
             const existingObjectCount = objectMatches.length;
             console.log(
-              `Found ${existingObjectCount} existing cruises in ${city}-cruises.ts`,
+              `Found ${existingObjectCount} existing cruises in ${city}-cruises.ts`
             );
 
             // Keep the existing content untouched
@@ -859,7 +893,7 @@ for (const city of cityFiles) {
         } catch (parseError) {
           console.error(
             `Error parsing existing cruises in ${city}-cruises.ts:`,
-            parseError,
+            parseError
           );
         }
       }
@@ -904,7 +938,7 @@ for (const city of cityFiles) {
       "constants",
       "cruises",
       "vessels", // Corrected path to vessels directory
-      `${city}-vessels.ts`,
+      `${city}-vessels.ts`
     );
 
     if (fs.existsSync(vesselFilePath)) {
@@ -918,14 +952,14 @@ for (const city of cityFiles) {
         }
       } catch (e) {
         console.warn(
-          `Could not read or parse vessel file for ${city}: ${e.message}`,
+          `Could not read or parse vessel file for ${city}: ${e.message}`
         );
       }
     }
 
     if (availableVesselIds.length === 0) {
       console.warn(
-        `No vessels found for city ${city}. Skipping cruise generation for this city.`,
+        `No vessels found for city ${city}. Skipping cruise generation for this city.`
       );
       // continue; // Skip to the next city if no vessels are available
     }
@@ -1004,7 +1038,7 @@ for (const city of cityFiles) {
 
       const tourCategoryId = getTourCategoryId(
         parseInt(cruiseData.itinerary.totalDuration, 10),
-        tags,
+        tags
       );
 
       // Generate contact email based on cruise title
@@ -1103,16 +1137,16 @@ ${combinedCruises}
     fs.writeFileSync(cruiseFilePath, fileContent);
     totalCruisesCreated += cruiseObjects.length;
     console.log(
-      `${fileAction} file: ${cruiseFilePath} with ${cruiseObjects.length} new cruises`,
+      `${fileAction} file: ${cruiseFilePath} with ${cruiseObjects.length} new cruises (${city})`
     );
   } catch (error) {
     console.error(`Error processing cruise file for ${city}:`, error);
   }
-
-  console.log(`Total cities processed: ${cityFiles.length}`);
-  console.log(`Rewritten ${rewrittenFiles} existing cruise files`);
-  console.log(`Updated ${updatedFiles} existing cruise files`);
-  console.log(`Created ${createdFiles} new cruise files`);
-  console.log(`\nSummary:`);
 }
+
+console.log(`\nSummary:`);
+console.log(`Total cities processed: ${cityFiles.length}`);
+console.log(`Rewritten ${rewrittenFiles} existing cruise files`);
+console.log(`Updated ${updatedFiles} existing cruise files`);
+console.log(`Created ${createdFiles} new cruise files`);
 console.log(`Total new cruises created: ${totalCruisesCreated}`);
