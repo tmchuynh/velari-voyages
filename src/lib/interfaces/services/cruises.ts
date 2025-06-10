@@ -25,6 +25,7 @@ export interface CruisCategory {
 }
 
 export interface BaseCruise {
+  id: string;
   basePrice: number;
   departureLocation: Location;
   arrivalLocation: Location;
