@@ -52,7 +52,7 @@
  *   - `./utils/file-utils.mjs`: For `getCityFiles` to list available cities.
  *   - `./utils/geo-utils.mjs`: For `cityCountryMap` (city to country mapping) and
  *     `cityToRegionMap` (city to broader region mapping).
- *   - `./data-generator.mjs`: For `getRandomInt`.
+ *   - `./utils/data-generator.mjs`: For `getRandomInt` and `generateUniqueId`.
  *   - `./utils/name-utils.mjs`: For `getRandomName` to generate realistic names.
  *   - `./utils/language-utils.mjs`: For `getRandomLanguages` to assign languages based on country/region.
  */
@@ -65,22 +65,10 @@ import {
   defaultCrewMemberBioTemplate,
 } from "./utils/template-util.mjs";
 import { cityCountryMap, cityToRegionMap } from "./utils/geo-utils.mjs";
-import { getRandomInt } from "./data-generator.mjs";
+import { getRandomInt, generateUniqueId } from "./utils/data-generator.mjs";
 import { getRandomName } from "./utils/name-utils.mjs";
 import { getRandomLanguages } from "./utils/language-utils.mjs";
 
-// // Basic usage
-// node scripts/create-crew-members.mjs
-
-// // Generate or overwrite a specific city's crew
-// node scripts/create-crew-members.mjs --city=miami --force=true
-
-// // Add more crew for a specific city and department
-// node scripts/create-crew-members.mjs --city=miami --department="Engineering Department"
-// node scripts/create-crew-members.mjs --city=sydney --department="Security Department"
-
-// // Add more crew for a specific city, department, and role
-// node scripts/create-crew-members.mjs --city=miami --department="Engineering Department" --role="Mechanical Engineer" --count=2
 
 function formatKebebToTitleCase(str) {
   return str
@@ -425,26 +413,16 @@ const cuisineTypes = [
   "Latin American",
 ];
 
-// Add this function to determine gender based on first name
-function determineGenderFromName(firstName) {
-  // Check if name is in masculine or feminine lists
-  if (masculineNames.includes(firstName)) {
-    return "men";
-  } else if (feminineNames.includes(firstName)) {
-    return "women";
-  }
-
-  // If we can't determine, use first letter as a simple heuristic
-  // Names starting with A-M more likely to be assigned male, N-Z female
-  // This is an arbitrary rule for names not in our lists
-  return firstName.charAt(0).toUpperCase() <= "M" ? "men" : "women";
-}
-
 // Function to generate a crew member
-function generateCrewMember(city) {
-  const useFeminineName = Math.random() > 0.5;
-  const name = getRandomName(useFeminineName);
-  const gender = useFeminineName ? "women" : "men";
+function generateCrewMember(city, department, role, index = 0) {
+  const fullName = getRandomName();
+  const firstName = fullName.split(" ")[0];
+  const lastName = fullName.split(" ")[1] || "";
+
+  // Simple gender determination based on name ending
+  const gender =
+    firstName.endsWith("a") || firstName.endsWith("e") ? "women" : "men";
+
   const country = cityCountryMap[city.toLowerCase().replace(/ /g, "-")];
   const languages = getRandomLanguages(
     getRandomInt(3, 5),
@@ -453,6 +431,12 @@ function generateCrewMember(city) {
       "global"
   );
 
+  // Get city data from mapping
+  const countryName =
+    cityCountryMap[city.toLowerCase().replace(/ /g, "-")] || "Unknown";
+  const regionName =
+    cityToRegionMap[city.toLowerCase().replace(/ /g, "-")] || "Unknown";
+
   // If city not found in cruiseDepartureLocations, use a default
   const defaultLocation = {
     city: formatKebebToTitleCase(city),
@@ -460,21 +444,9 @@ function generateCrewMember(city) {
     region: regionName,
   };
 
-  const locationData = cityData || defaultLocation;
+  const locationData = defaultLocation;
 
-  const decision = Math.random() > 0.5;
-
-  const firstName = decision
-    ? feminineNames[Math.floor(Math.random() * feminineNames.length)]
-    : masculineNames[Math.floor(Math.random() * masculineNames.length)];
-
-  const lastName =
-    namesByRegion.global.last[
-      Math.floor(Math.random() * namesByRegion.global.last.length)
-    ];
-  const fullName = `${firstName} ${lastName}`;
-
-  const experienceYears = Math.floor(Math.random() * 20) + 3; // 5-20 years
+  const experienceYears = Math.floor(Math.random() * 20) + 3; // 3-23 years
 
   // Generate bio using templates based on role
   let bio;
@@ -513,19 +485,15 @@ function generateCrewMember(city) {
     );
   }
 
-  // Generate profile image using randomuser.me
-  // Determine gender based on first name
-  const randomId = Math.floor(Math.random() * 99); // Random number for the image
-  const profileImage = `https://randomuser.me/api/portraits/${gender}/${randomId}.jpg`;
-
   return {
+    id: generateUniqueId(),
     name: fullName,
     role,
     department,
     bio,
     languages,
     experienceYears,
-    profileImage,
+    profileImage: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
     city: locationData.city,
     country: locationData.country,
     state: locationData.state,
@@ -612,7 +580,7 @@ function writeCrewMembersToFile(city, crewMembers, append = false) {
   const fileContent = `
   // This file is auto-generated
     // Do not edit manually.
-    // City: ${capitalizeWords(city)}
+    // City: ${formatKebebToTitleCase(city)}
     // Generated on: ${new Date().toISOString()}
   
   import { CrewMember } from "@/lib/interfaces/people/staff";
