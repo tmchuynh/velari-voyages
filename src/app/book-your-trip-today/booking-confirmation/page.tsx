@@ -40,7 +40,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cruiseCategoryMap } from "@/lib/constants/info/cruiseCategories";
 import { CrewMember } from "@/lib/interfaces/people/staff";
-import { CruiseVessel } from "@/lib/interfaces/services/cruises";
+import { CruiseVessel, Vessels } from "@/lib/interfaces/services/cruises";
 import { getCrewMemberData } from "@/lib/utils/get/crew-members";
 import { getVesselForCruise } from "@/lib/utils/get/vessels";
 import Image from "next/image";
@@ -63,7 +63,7 @@ export default function BookingConfirmationPage() {
   const [crewMembers, setCrewMembers] = useState<CrewMember[]>([]);
   const [loading, setLoading] = useState(true);
   const [contactPersonnel, setContactPersonnel] = useState<CrewMember[]>([]);
-  const [vessel, setVessel] = useState<CruiseVessel | null>(null);
+  const [vessel, setVessel] = useState<Vessels | null>(null);
 
   // Filter state for crew members
   const [showFilters, setShowFilters] = useState(false);
@@ -99,7 +99,7 @@ export default function BookingConfirmationPage() {
     if (bookingInfo.cruiseCategory && bookingInfo.departureCity) {
       const cruiseVessel = getVesselForCruise(
         bookingInfo.departureCity,
-        bookingInfo.cruiseCategory,
+        bookingInfo.cruiseCategory
       );
       setVessel(cruiseVessel);
     }
@@ -118,7 +118,7 @@ export default function BookingConfirmationPage() {
                 member.role === "Captain" ||
                 member.role === "Guest Relations Manager" ||
                 member.role === "Chief Medical Officer" ||
-                member.role === "Hospitality Director",
+                member.role === "Hospitality Director"
             )
             .slice(0, 3); // Limit to 3 key contacts
 
@@ -133,7 +133,7 @@ export default function BookingConfirmationPage() {
               acc[dept] = 1;
               return acc;
             },
-            {} as Record<string, number>,
+            {} as Record<string, number>
           );
           setCurrentPages(initialPages);
         }
@@ -160,7 +160,7 @@ export default function BookingConfirmationPage() {
 
   const allExperiences = useMemo(() => {
     return [...new Set(crewMembers.map((crew) => crew.experienceYears))].sort(
-      (a = 0, b = 0) => a - b,
+      (a = 0, b = 0) => a - b
     );
   }, [crewMembers]);
 
@@ -230,7 +230,7 @@ export default function BookingConfirmationPage() {
         groups[department].push(member);
         return groups;
       },
-      {} as Record<string, CrewMember[]>,
+      {} as Record<string, CrewMember[]>
     );
   }, [filteredCrewMembers]);
 
@@ -382,7 +382,7 @@ export default function BookingConfirmationPage() {
                             {
                               year: "numeric",
                               month: "long",
-                            },
+                            }
                           )}
                         </p>
                         {vessel && (
@@ -940,7 +940,7 @@ export default function BookingConfirmationPage() {
                               onClick={() =>
                                 handlePageChange(
                                   department,
-                                  Math.max(1, currentPage - 1),
+                                  Math.max(1, currentPage - 1)
                                 )
                               }
                               className={
@@ -970,7 +970,7 @@ export default function BookingConfirmationPage() {
                               onClick={() =>
                                 handlePageChange(
                                   department,
-                                  Math.min(totalPages, currentPage + 1),
+                                  Math.min(totalPages, currentPage + 1)
                                 )
                               }
                               className={
