@@ -5,8 +5,8 @@ import {
   Location,
   TimePeriod,
 } from "@/lib/types/types";
-import { ContactPersonnel } from "../people/staff";
 import { IconType } from "react-icons";
+import { ContactPersonnel } from "../people/staff";
 
 export interface YachtRoute {
   route: Location[];
@@ -26,6 +26,11 @@ export interface CruisCategory {
 
 export interface BaseCruise {
   id: string;
+  /**
+   * Required vessel assignment - every cruise must be assigned to a valid vessel
+   * @see Vessels interface for valid vessel IDs
+   */
+  vesselId: Vessels["id"];
   basePrice: number;
   departureLocation: Location;
   arrivalLocation: Location;
