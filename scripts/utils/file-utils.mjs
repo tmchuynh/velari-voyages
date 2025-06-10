@@ -250,3 +250,44 @@ export function formatTitleToKebabCase(title) {
     .join("-")
     .replace(/[^a-z0-9-]/g, ""); // Remove any non-alphanumeric characters except hyphens
 }
+
+
+export const capitalize = (str) => {
+  if (!str) return "";
+
+  const normalizedStr = str.replace(/-/g, " ").replace(/_/g, " ");
+  const wordsToIgnore = new Set([
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "but",
+    "by",
+    "for",
+    "in",
+    "nor",
+    "of",
+    "on",
+    "or",
+    "the",
+    "up",
+  ]);
+
+  const words = normalizedStr.split(" ");
+  const capitalizedWords = words
+    .filter((word) => word.length > 0) // Remove empty strings from multiple spaces
+    .map((word, index, arr) => {
+      const lowerWord = word.toLowerCase();
+      if (
+        index === 0 ||
+        (index === arr.length - 1 && arr.length > 1) ||
+        !wordsToIgnore.has(lowerWord)
+      ) {
+        return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+      }
+      return lowerWord;
+    });
+
+  return capitalizedWords.join(" ");
+};
