@@ -53,6 +53,7 @@ import fs from "fs";
 import path from "path";
 import { getRandomName, determineGenderFromName } from "./utils/name-utils.mjs";
 import { capitalize } from "./utils/file-utils.mjs";
+import { getRandomRating } from "./utils/data-generator.mjs";
 import {
   positiveAdjectives,
   serviceAdjectives,
@@ -366,8 +367,6 @@ function generateTestimonials(restaurantName, count = 5) {
     const title =
       professionalTitles[Math.floor(Math.random() * professionalTitles.length)];
 
-    const rating = Math.floor(Math.random() * 2) + 3 + Math.random().toFixed(1);
-
     const date = new Date();
     date.setDate(date.getDate() - Math.floor(Math.random() * 730)); // Up to 2 years ago
 
@@ -440,12 +439,17 @@ function generateTestimonials(restaurantName, count = 5) {
       `For a ${positiveAdj} meal with ${serviceAdj} service in a ${atmosphereAdj} setting, ${restaurantName} is the place to be.`,
     ];
 
+    const fullName = getRandomName();
+    const firstName = fullName.split(" ")[0];
+    const gender = determineGenderFromName(firstName);
+
     // Create a testimonial that matches the interface
     const testimonial = {
       quote: templates[Math.floor(Math.random() * templates.length)],
-      author: getRandomName(),
+      author: fullName,
+      image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
       title: title,
-      rating: rating, // Random rating between 4 and 5
+      rating: getRandomRating(), // Random rating between 4 and 5
       // Add image for some testimonials (30% chance)
       ...(Math.random() < 0.3 && {
         image: `/images/testimonials/person-${
