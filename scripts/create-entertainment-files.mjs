@@ -6,7 +6,7 @@
  * in each city within the Velari Voyages project.
  * It creates files within the directory structure:
  * "src/lib/constants/venues/entertainment/{cityName}/{vesselName}/"
- * 
+ *
  * File Structure Generated:
  * - entertainment.ts: Contains EntertainmentCategory[] data
  * - {category-type}-entertainment.ts: Contains Entertainment[] data for each category
@@ -79,7 +79,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { cityCountryMap } from "./utils/geo-utils.mjs";
+import { cityToRegionMap } from "./utils/geo-utils.mjs";
 import {
   generateUniqueId,
   getRandomElement,
@@ -111,7 +111,7 @@ const DEBUG_MODE = args.includes("--debug") || args.includes("-d");
 console.log(
   `Mode: ${
     APPEND_MODE ? "Append" : REWRITE_MODE ? "Rewrite" : "Create new only"
-  }`
+  }`,
 );
 console.log(
   `Will ${
@@ -120,19 +120,19 @@ console.log(
       : APPEND_MODE
         ? "append to"
         : "only create missing"
-  } entertainment files`
+  } entertainment files`,
 );
 
 // Entertainment types from the interface
 const entertainmentTypes = [
   "Live Music",
-  "Dancing", 
+  "Dancing",
   "Comedy",
   "Game Show",
   "Movie Theater",
   "Karaoke",
   "Magic Show",
-  "Nightclub"
+  "Nightclub",
 ];
 
 // Entertainment show data by category
@@ -150,7 +150,7 @@ const entertainmentShows = {
       "Tribute Bands Night",
       "Singer-Songwriter Showcase",
       "Big Band Revival",
-      "Folk & Americana"
+      "Folk & Americana",
     ],
     descriptions: [
       "An intimate evening of smooth jazz melodies under the starlit sky",
@@ -164,10 +164,10 @@ const entertainmentShows = {
       "Tribute performances honoring legendary artists",
       "Original compositions and covers by talented indie artists",
       "Swing and big band classics brought to life",
-      "Traditional folk music with modern interpretations"
-    ]
+      "Traditional folk music with modern interpretations",
+    ],
   },
-  "Dancing": {
+  Dancing: {
     names: [
       "Ballroom Spectacular",
       "Latin Dance Night",
@@ -180,7 +180,7 @@ const entertainmentShows = {
       "Partner Dance Workshop",
       "Dance Through the Decades",
       "International Folk Dances",
-      "Professional Dance Showcase"
+      "Professional Dance Showcase",
     ],
     descriptions: [
       "Elegant ballroom dancing featuring waltz, foxtrot, and tango",
@@ -194,10 +194,10 @@ const entertainmentShows = {
       "Learn partner dances with professional instruction",
       "Dance styles spanning from the 1920s to today",
       "Traditional folk dances from various cultures",
-      "Professional dancers performing spectacular choreographed routines"
-    ]
+      "Professional dancers performing spectacular choreographed routines",
+    ],
   },
-  "Comedy": {
+  Comedy: {
     names: [
       "Stand-Up Comedy Night",
       "Improv Comedy Show",
@@ -210,7 +210,7 @@ const entertainmentShows = {
       "Comedy Magic",
       "Storytelling Comedy",
       "Comedy Game Show",
-      "Clean Comedy Showcase"
+      "Clean Comedy Showcase",
     ],
     descriptions: [
       "Professional stand-up comedians deliver laugh-out-loud performances",
@@ -224,8 +224,8 @@ const entertainmentShows = {
       "Magic tricks combined with hilarious comedy routines",
       "Humorous storytelling and comedic monologues",
       "Game show format with comedic challenges and prizes",
-      "Clean, wholesome comedy perfect for the entire family"
-    ]
+      "Clean, wholesome comedy perfect for the entire family",
+    ],
   },
   "Game Show": {
     names: [
@@ -240,7 +240,7 @@ const entertainmentShows = {
       "Price is Right",
       "Jeopardy Challenge",
       "Team Challenge",
-      "Pop Culture Quiz"
+      "Pop Culture Quiz",
     ],
     descriptions: [
       "Test your knowledge with cruise ship and travel trivia",
@@ -254,8 +254,8 @@ const entertainmentShows = {
       "Guess the prices of various items to win amazing prizes",
       "Answer questions in this classic quiz show format",
       "Team-based challenges combining trivia and physical tasks",
-      "Test your knowledge of current pop culture trends"
-    ]
+      "Test your knowledge of current pop culture trends",
+    ],
   },
   "Movie Theater": {
     names: [
@@ -270,7 +270,7 @@ const entertainmentShows = {
       "Animation Celebration",
       "Indie Film Spotlight",
       "Oscar Winners Showcase",
-      "Midnight Movie Screening"
+      "Midnight Movie Screening",
     ],
     descriptions: [
       "Recent box office hits shown on the big screen",
@@ -284,10 +284,10 @@ const entertainmentShows = {
       "Animated movies for kids and adults alike",
       "Independent films from emerging filmmakers",
       "Academy Award-winning films and performances",
-      "Late-night cult classics and special screenings"
-    ]
+      "Late-night cult classics and special screenings",
+    ],
   },
-  "Karaoke": {
+  Karaoke: {
     names: [
       "Karaoke Superstars",
       "Duet Night",
@@ -300,7 +300,7 @@ const entertainmentShows = {
       "Karaoke Idol",
       "Family Karaoke Hour",
       "Karaoke Battle",
-      "International Karaoke"
+      "International Karaoke",
     ],
     descriptions: [
       "Showcase your singing talents and become a karaoke superstar",
@@ -314,8 +314,8 @@ const entertainmentShows = {
       "American Idol-style karaoke competition with judges",
       "Family-friendly karaoke with songs for all ages",
       "Team vs. team karaoke challenges and competitions",
-      "Songs in multiple languages for our international guests"
-    ]
+      "Songs in multiple languages for our international guests",
+    ],
   },
   "Magic Show": {
     names: [
@@ -330,7 +330,7 @@ const entertainmentShows = {
       "Card Magic Mastery",
       "Stage Magic Extravaganza",
       "Magic Workshop",
-      "International Magic Acts"
+      "International Magic Acts",
     ],
     descriptions: [
       "Grand-scale illusions and spectacular magic performances",
@@ -344,10 +344,10 @@ const entertainmentShows = {
       "Masterful card tricks and sleight of hand demonstrations",
       "Large-scale stage magic with elaborate props and illusions",
       "Learn basic magic tricks in this hands-on workshop",
-      "World-class magicians from around the globe"
-    ]
+      "World-class magicians from around the globe",
+    ],
   },
-  "Nightclub": {
+  Nightclub: {
     names: [
       "DJ Dance Party",
       "Silent Disco",
@@ -360,7 +360,7 @@ const entertainmentShows = {
       "Masquerade Ball",
       "Cocktails & Dancing",
       "Live DJ Sets",
-      "Dance Floor Competition"
+      "Dance Floor Competition",
     ],
     descriptions: [
       "High-energy dance party with professional DJs",
@@ -374,92 +374,246 @@ const entertainmentShows = {
       "Elegant masquerade ball with formal attire",
       "Sophisticated evening of cocktails and social dancing",
       "Professional DJs spinning the latest tracks",
-      "Dance competitions with prizes and recognition"
-    ]
-  }
+      "Dance competitions with prizes and recognition",
+    ],
+  },
 };
 
 // Performer types and specialties
 const performerSpecialties = {
   "Live Music": [
-    "Vocalist", "Guitarist", "Pianist", "Drummer", "Saxophonist", 
-    "Violinist", "Bass Player", "Keyboardist", "Trumpeter", "Flutist"
+    "Vocalist",
+    "Guitarist",
+    "Pianist",
+    "Drummer",
+    "Saxophonist",
+    "Violinist",
+    "Bass Player",
+    "Keyboardist",
+    "Trumpeter",
+    "Flutist",
   ],
-  "Dancing": [
-    "Ballroom Dancer", "Latin Dancer", "Hip-Hop Dancer", "Contemporary Dancer",
-    "Ballet Dancer", "Jazz Dancer", "Tap Dancer", "Choreographer"
+  Dancing: [
+    "Ballroom Dancer",
+    "Latin Dancer",
+    "Hip-Hop Dancer",
+    "Contemporary Dancer",
+    "Ballet Dancer",
+    "Jazz Dancer",
+    "Tap Dancer",
+    "Choreographer",
   ],
-  "Comedy": [
-    "Stand-Up Comedian", "Improv Actor", "Comedy Writer", "Sketch Performer",
-    "Musical Comedian", "Storyteller"
+  Comedy: [
+    "Stand-Up Comedian",
+    "Improv Actor",
+    "Comedy Writer",
+    "Sketch Performer",
+    "Musical Comedian",
+    "Storyteller",
   ],
   "Game Show": [
-    "Game Show Host", "Assistant Host", "Trivia Expert", "Entertainment Coordinator"
+    "Game Show Host",
+    "Assistant Host",
+    "Trivia Expert",
+    "Entertainment Coordinator",
   ],
   "Movie Theater": [
-    "Film Curator", "Projectionist", "Theater Manager", "Film Critic"
+    "Film Curator",
+    "Projectionist",
+    "Theater Manager",
+    "Film Critic",
   ],
-  "Karaoke": [
-    "Karaoke Host", "DJ", "Vocal Coach", "Entertainment Coordinator"
-  ],
+  Karaoke: ["Karaoke Host", "DJ", "Vocal Coach", "Entertainment Coordinator"],
   "Magic Show": [
-    "Magician", "Illusionist", "Mentalist", "Escape Artist", "Comedy Magician"
+    "Magician",
+    "Illusionist",
+    "Mentalist",
+    "Escape Artist",
+    "Comedy Magician",
   ],
-  "Nightclub": [
-    "DJ", "MC", "Dance Instructor", "Event Coordinator", "Lighting Technician"
-  ]
+  Nightclub: [
+    "DJ",
+    "MC",
+    "Dance Instructor",
+    "Event Coordinator",
+    "Lighting Technician",
+  ],
 };
 
 // Merchandise by category
 const merchandiseByCategory = {
   "Live Music": [
-    { name: "Concert T-Shirt", description: "Official performance t-shirt with tour dates", price: 25 },
-    { name: "Live Album CD", description: "Recording of tonight's performance", price: 15 },
-    { name: "Artist Poster", description: "Signed poster of the performing artist", price: 20 },
-    { name: "Music Playlist Download", description: "Digital download of tonight's setlist", price: 10 }
+    {
+      name: "Concert T-Shirt",
+      description: "Official performance t-shirt with tour dates",
+      price: 25,
+    },
+    {
+      name: "Live Album CD",
+      description: "Recording of tonight's performance",
+      price: 15,
+    },
+    {
+      name: "Artist Poster",
+      description: "Signed poster of the performing artist",
+      price: 20,
+    },
+    {
+      name: "Music Playlist Download",
+      description: "Digital download of tonight's setlist",
+      price: 10,
+    },
   ],
-  "Dancing": [
-    { name: "Dance DVD", description: "Learn the moves from tonight's performance", price: 18 },
-    { name: "Dance Shoes", description: "Professional ballroom dance shoes", price: 45 },
-    { name: "Choreography Book", description: "Step-by-step dance instructions", price: 22 },
-    { name: "Performance Photos", description: "Professional photos from the show", price: 12 }
+  Dancing: [
+    {
+      name: "Dance DVD",
+      description: "Learn the moves from tonight's performance",
+      price: 18,
+    },
+    {
+      name: "Dance Shoes",
+      description: "Professional ballroom dance shoes",
+      price: 45,
+    },
+    {
+      name: "Choreography Book",
+      description: "Step-by-step dance instructions",
+      price: 22,
+    },
+    {
+      name: "Performance Photos",
+      description: "Professional photos from the show",
+      price: 12,
+    },
   ],
-  "Comedy": [
-    { name: "Comedy Special DVD", description: "Recording of tonight's comedy show", price: 16 },
-    { name: "Comedian's Joke Book", description: "Collection of original jokes and stories", price: 14 },
-    { name: "Comedy Show T-Shirt", description: "Funny t-shirt with show quotes", price: 20 },
-    { name: "Autographed Photo", description: "Signed photo with the comedian", price: 15 }
+  Comedy: [
+    {
+      name: "Comedy Special DVD",
+      description: "Recording of tonight's comedy show",
+      price: 16,
+    },
+    {
+      name: "Comedian's Joke Book",
+      description: "Collection of original jokes and stories",
+      price: 14,
+    },
+    {
+      name: "Comedy Show T-Shirt",
+      description: "Funny t-shirt with show quotes",
+      price: 20,
+    },
+    {
+      name: "Autographed Photo",
+      description: "Signed photo with the comedian",
+      price: 15,
+    },
   ],
   "Game Show": [
-    { name: "Game Show T-Shirt", description: "Contestant t-shirt from the show", price: 18 },
-    { name: "Trivia Book", description: "Collection of game show questions", price: 12 },
-    { name: "Winner's Certificate", description: "Personalized participation certificate", price: 8 },
-    { name: "Game Show Pen Set", description: "Official game show writing instruments", price: 10 }
+    {
+      name: "Game Show T-Shirt",
+      description: "Contestant t-shirt from the show",
+      price: 18,
+    },
+    {
+      name: "Trivia Book",
+      description: "Collection of game show questions",
+      price: 12,
+    },
+    {
+      name: "Winner's Certificate",
+      description: "Personalized participation certificate",
+      price: 8,
+    },
+    {
+      name: "Game Show Pen Set",
+      description: "Official game show writing instruments",
+      price: 10,
+    },
   ],
   "Movie Theater": [
-    { name: "Movie Poster", description: "Official poster from tonight's feature film", price: 15 },
-    { name: "Popcorn Bucket", description: "Souvenir popcorn bucket", price: 12 },
-    { name: "Theater Program", description: "Collector's edition program guide", price: 8 },
-    { name: "Movie Trivia Cards", description: "Fun movie trivia card game", price: 14 }
+    {
+      name: "Movie Poster",
+      description: "Official poster from tonight's feature film",
+      price: 15,
+    },
+    {
+      name: "Popcorn Bucket",
+      description: "Souvenir popcorn bucket",
+      price: 12,
+    },
+    {
+      name: "Theater Program",
+      description: "Collector's edition program guide",
+      price: 8,
+    },
+    {
+      name: "Movie Trivia Cards",
+      description: "Fun movie trivia card game",
+      price: 14,
+    },
   ],
-  "Karaoke": [
-    { name: "Karaoke Microphone", description: "Professional karaoke microphone", price: 25 },
-    { name: "Song Book", description: "Complete karaoke song catalog", price: 16 },
-    { name: "Performance Recording", description: "Recording of your karaoke performance", price: 10 },
-    { name: "Karaoke Star T-Shirt", description: "Show off your karaoke skills", price: 18 }
+  Karaoke: [
+    {
+      name: "Karaoke Microphone",
+      description: "Professional karaoke microphone",
+      price: 25,
+    },
+    {
+      name: "Song Book",
+      description: "Complete karaoke song catalog",
+      price: 16,
+    },
+    {
+      name: "Performance Recording",
+      description: "Recording of your karaoke performance",
+      price: 10,
+    },
+    {
+      name: "Karaoke Star T-Shirt",
+      description: "Show off your karaoke skills",
+      price: 18,
+    },
   ],
   "Magic Show": [
-    { name: "Magic Trick Set", description: "Learn basic magic tricks at home", price: 30 },
-    { name: "Magician's Wand", description: "Replica of the magician's wand", price: 20 },
-    { name: "Magic Book", description: "Beginner's guide to magic tricks", price: 18 },
-    { name: "Performance Photo", description: "Photo with the magician", price: 12 }
+    {
+      name: "Magic Trick Set",
+      description: "Learn basic magic tricks at home",
+      price: 30,
+    },
+    {
+      name: "Magician's Wand",
+      description: "Replica of the magician's wand",
+      price: 20,
+    },
+    {
+      name: "Magic Book",
+      description: "Beginner's guide to magic tricks",
+      price: 18,
+    },
+    {
+      name: "Performance Photo",
+      description: "Photo with the magician",
+      price: 12,
+    },
   ],
-  "Nightclub": [
+  Nightclub: [
     { name: "DJ Mix CD", description: "Tonight's DJ set on CD", price: 15 },
-    { name: "Glow Accessories", description: "LED bracelets and necklaces", price: 8 },
-    { name: "Club T-Shirt", description: "Official nightclub merchandise", price: 22 },
-    { name: "VIP Pass Holder", description: "Souvenir VIP lanyard and pass holder", price: 10 }
-  ]
+    {
+      name: "Glow Accessories",
+      description: "LED bracelets and necklaces",
+      price: 8,
+    },
+    {
+      name: "Club T-Shirt",
+      description: "Official nightclub merchandise",
+      price: 22,
+    },
+    {
+      name: "VIP Pass Holder",
+      description: "Souvenir VIP lanyard and pass holder",
+      price: 10,
+    },
+  ],
 };
 
 // Testimonial templates by category
@@ -470,23 +624,23 @@ const testimonialTemplates = {
     "The live music scene on this cruise is world-class. {performer} is incredibly talented.",
     "I've been to many concerts, but this intimate setting made it extra special.",
     "The acoustics were perfect and the musicians were phenomenal. Highly recommend!",
-    "This was the highlight of my cruise! Such professional and entertaining performers."
+    "This was the highlight of my cruise! Such professional and entertaining performers.",
   ],
-  "Dancing": [
+  Dancing: [
     "The choreography was absolutely stunning! {performer} made it look effortless.",
     "I learned so much during the {showName} workshop. The instructors were patient and skilled.",
     "The energy in the room was electric! Everyone was dancing and having a blast.",
     "Professional level dancing with such grace and precision. Truly spectacular!",
     "This dance show brought tears to my eyes. The emotion and artistry were beautiful.",
-    "I haven't danced like this in years! The {showName} event was so much fun."
+    "I haven't danced like this in years! The {showName} event was so much fun.",
   ],
-  "Comedy": [
+  Comedy: [
     "I laughed until my sides hurt! {performer} is hilarious and so entertaining.",
     "The {showName} show was the perfect way to end our evening. Great comedy!",
     "Clean, family-friendly humor that had everyone cracking up. Loved it!",
     "This comedian knows how to work a crowd. Interactive and genuinely funny.",
     "Best comedy show I've seen in years! {performer} had perfect timing.",
-    "The whole family enjoyed this show. Humor that appeals to all ages."
+    "The whole family enjoyed this show. Humor that appeals to all ages.",
   ],
   "Game Show": [
     "What a fun interactive experience! The {showName} got everyone involved.",
@@ -494,7 +648,7 @@ const testimonialTemplates = {
     "This game show brought out everyone's competitive spirit. So much fun!",
     "Great family entertainment. Everyone from kids to grandparents enjoyed it.",
     "The trivia was challenging but fair. Loved testing my knowledge!",
-    "Interactive entertainment at its best! The whole audience was participating."
+    "Interactive entertainment at its best! The whole audience was participating.",
   ],
   "Movie Theater": [
     "Perfect movie selection and great theater setup. Comfortable seating and excellent sound.",
@@ -502,15 +656,15 @@ const testimonialTemplates = {
     "Great way to relax and enjoy a good film. The movie theater is well-maintained.",
     "Family movie night was perfect! The kids loved it and so did the adults.",
     "Classic films in a beautiful setting. The cinematography looked amazing on the big screen.",
-    "The variety of movies shown caters to all tastes. Something for everyone!"
+    "The variety of movies shown caters to all tastes. Something for everyone!",
   ],
-  "Karaoke": [
+  Karaoke: [
     "I finally got to sing my favorite song! The {showName} event was so much fun.",
     "Great song selection and supportive audience. {performer} was an excellent host.",
     "Even though I can't sing, I had a blast! Everyone was so encouraging.",
     "The karaoke equipment was top-notch and the atmosphere was electric.",
     "This brought out my inner rock star! Such a fun and liberating experience.",
-    "Perfect entertainment for a group. We all took turns and had amazing time."
+    "Perfect entertainment for a group. We all took turns and had amazing time.",
   ],
   "Magic Show": [
     "I still can't figure out how {performer} did those tricks! Absolutely mind-blowing.",
@@ -518,16 +672,16 @@ const testimonialTemplates = {
     "Family-friendly magic that amazed adults and children alike. Fantastic performance!",
     "The close-up magic was incredible. {performer} has such talented hands.",
     "I was skeptical about magic shows, but this completely changed my mind.",
-    "Interactive magic that made me feel like part of the show. Truly special experience."
+    "Interactive magic that made me feel like part of the show. Truly special experience.",
   ],
-  "Nightclub": [
+  Nightclub: [
     "The DJ {performer} really knew how to keep the dance floor packed all night!",
     "Great music, amazing lights, and such a fun atmosphere. Perfect nightclub experience.",
     "The {showName} party was incredible! Danced until the early morning hours.",
     "Fantastic sound system and the perfect mix of music. Had an amazing time!",
     "The energy was contagious and the music selection was spot-on. Loved every minute.",
-    "Best night out on the ship! The nightclub scene here is world-class."
-  ]
+    "Best night out on the ship! The nightclub scene here is world-class.",
+  ],
 };
 
 // FAQ templates by category
@@ -535,156 +689,142 @@ const faqTemplates = {
   "Live Music": [
     {
       question: "Do I need tickets for live music performances?",
-      answer: "Most live music performances are complimentary for all guests. Some special concerts may require tickets which can be reserved at Guest Services."
+      answer:
+        "Most live music performances are complimentary for all guests. Some special concerts may require tickets which can be reserved at Guest Services.",
     },
     {
       question: "Can I request songs from the performers?",
-      answer: "Many of our live music acts accept requests! Feel free to approach the performers during breaks or submit requests to the entertainment desk."
+      answer:
+        "Many of our live music acts accept requests! Feel free to approach the performers during breaks or submit requests to the entertainment desk.",
     },
     {
       question: "Are the live music venues suitable for all ages?",
-      answer: "Yes, our live music performances welcome guests of all ages unless specifically noted as adults-only events."
-    }
+      answer:
+        "Yes, our live music performances welcome guests of all ages unless specifically noted as adults-only events.",
+    },
   ],
-  "Dancing": [
+  Dancing: [
     {
       question: "Do I need dance experience to participate?",
-      answer: "Not at all! Our dance events welcome all skill levels. We offer beginner-friendly sessions and professional instruction."
+      answer:
+        "Not at all! Our dance events welcome all skill levels. We offer beginner-friendly sessions and professional instruction.",
     },
     {
       question: "Should I bring special dance shoes?",
-      answer: "Comfortable shoes are recommended, but not required. Dance shoes are available for purchase in our onboard shops."
+      answer:
+        "Comfortable shoes are recommended, but not required. Dance shoes are available for purchase in our onboard shops.",
     },
     {
       question: "Are dance lessons included in the cruise fare?",
-      answer: "Most group dance lessons and social dancing events are complimentary. Private lessons may have an additional charge."
-    }
+      answer:
+        "Most group dance lessons and social dancing events are complimentary. Private lessons may have an additional charge.",
+    },
   ],
-  "Comedy": [
+  Comedy: [
     {
       question: "Is the comedy show appropriate for children?",
-      answer: "We offer both family-friendly comedy shows and adults-only performances. Check the daily program for specific show ratings."
+      answer:
+        "We offer both family-friendly comedy shows and adults-only performances. Check the daily program for specific show ratings.",
     },
     {
       question: "Can I interact with the comedians?",
-      answer: "Many of our comedy shows include audience interaction. Comedians often mingle with guests after performances."
+      answer:
+        "Many of our comedy shows include audience interaction. Comedians often mingle with guests after performances.",
     },
     {
       question: "Do I need to reserve seats for comedy shows?",
-      answer: "Most comedy shows are first-come, first-served. Popular shows may fill up, so arriving early is recommended."
-    }
+      answer:
+        "Most comedy shows are first-come, first-served. Popular shows may fill up, so arriving early is recommended.",
+    },
   ],
   "Game Show": [
     {
       question: "How do I participate in game shows?",
-      answer: "Most game shows accept volunteer participants from the audience. Some may require advance sign-up at Guest Services."
+      answer:
+        "Most game shows accept volunteer participants from the audience. Some may require advance sign-up at Guest Services.",
     },
     {
       question: "Are there prizes for winners?",
-      answer: "Yes! Game show winners receive various prizes including cruise credits, merchandise, and special experiences."
+      answer:
+        "Yes! Game show winners receive various prizes including cruise credits, merchandise, and special experiences.",
     },
     {
       question: "Can children participate in game shows?",
-      answer: "We have family game shows that welcome participants of all ages, as well as adult-only competitions."
-    }
+      answer:
+        "We have family game shows that welcome participants of all ages, as well as adult-only competitions.",
+    },
   ],
   "Movie Theater": [
     {
       question: "What movies are shown during the cruise?",
-      answer: "We feature a mix of current releases, classic films, and family favorites. The schedule is available in your daily program."
+      answer:
+        "We feature a mix of current releases, classic films, and family favorites. The schedule is available in your daily program.",
     },
     {
       question: "Is there a charge for movie tickets?",
-      answer: "All movie screenings are complimentary for our guests. Popcorn and beverages are available for purchase."
+      answer:
+        "All movie screenings are complimentary for our guests. Popcorn and beverages are available for purchase.",
     },
     {
       question: "Are the movies shown with subtitles?",
-      answer: "English films are shown without subtitles. Foreign films may include English subtitles."
-    }
+      answer:
+        "English films are shown without subtitles. Foreign films may include English subtitles.",
+    },
   ],
-  "Karaoke": [
+  Karaoke: [
     {
       question: "What songs are available for karaoke?",
-      answer: "We have an extensive library of songs in multiple languages, including current hits and classic favorites."
+      answer:
+        "We have an extensive library of songs in multiple languages, including current hits and classic favorites.",
     },
     {
       question: "Do I need to bring my own microphone?",
-      answer: "All microphones and equipment are provided. We maintain high-quality sound systems for the best experience."
+      answer:
+        "All microphones and equipment are provided. We maintain high-quality sound systems for the best experience.",
     },
     {
       question: "Can I sing duets with friends?",
-      answer: "Absolutely! We encourage group performances and duets. Multiple microphones are available."
-    }
+      answer:
+        "Absolutely! We encourage group performances and duets. Multiple microphones are available.",
+    },
   ],
   "Magic Show": [
     {
       question: "Will I be called on stage during the magic show?",
-      answer: "Some magic shows include audience participation. Participation is always voluntary - you can simply indicate if you'd prefer not to participate."
+      answer:
+        "Some magic shows include audience participation. Participation is always voluntary - you can simply indicate if you'd prefer not to participate.",
     },
     {
       question: "Are magic shows suitable for young children?",
-      answer: "Most of our magic shows are family-friendly and designed to entertain guests of all ages."
+      answer:
+        "Most of our magic shows are family-friendly and designed to entertain guests of all ages.",
     },
     {
       question: "Can I learn magic tricks during the cruise?",
-      answer: "Some magicians offer workshops or sell beginner magic sets. Check with entertainment staff for availability."
-    }
+      answer:
+        "Some magicians offer workshops or sell beginner magic sets. Check with entertainment staff for availability.",
+    },
   ],
-  "Nightclub": [
+  Nightclub: [
     {
       question: "What is the dress code for the nightclub?",
-      answer: "Smart casual to formal attire is required. No swimwear, tank tops, or flip-flops are permitted."
+      answer:
+        "Smart casual to formal attire is required. No swimwear, tank tops, or flip-flops are permitted.",
     },
     {
       question: "What are the nightclub operating hours?",
-      answer: "Nightclub hours vary by itinerary but typically open after dinner and close in the early morning hours."
+      answer:
+        "Nightclub hours vary by itinerary but typically open after dinner and close in the early morning hours.",
     },
     {
       question: "Is there a minimum age for the nightclub?",
-      answer: "The nightclub welcomes guests 18 and older. Some special events may be 21+."
-    }
-  ]
+      answer:
+        "The nightclub welcomes guests 18 and older. Some special events may be 21+.",
+    },
+  ],
 };
 
-// Get region for a city
-function getRegionForCity(cityName) {
-  const countryName = cityCountryMap[cityName] || "";
-  const regionMap = {
-    "United States": "North America",
-    Canada: "North America", 
-    Mexico: "North America",
-    "United Kingdom": "Europe",
-    France: "Europe",
-    Spain: "Europe",
-    Italy: "Europe",
-    Germany: "Europe",
-    Netherlands: "Europe",
-    Norway: "Europe",
-    Sweden: "Europe", 
-    Denmark: "Europe",
-    Finland: "Europe",
-    Russia: "Europe",
-    Japan: "Asia",
-    China: "Asia",
-    "South Korea": "Asia",
-    Singapore: "Asia",
-    Thailand: "Asia",
-    Vietnam: "Asia",
-    India: "Asia",
-    Australia: "Oceania",
-    "New Zealand": "Oceania",
-    Brazil: "South America",
-    Argentina: "South America",
-    Chile: "South America",
-    Uruguay: "South America",
-    Peru: "South America",
-    Colombia: "South America",
-    Malta: "Europe",
-    Ireland: "Europe",
-  };
 
-  return regionMap[countryName] || "Default";
-}
 
 // Generate entertainment operating hours
 function generateEntertainmentHours(categoryType) {
@@ -697,7 +837,7 @@ function generateEntertainmentHours(categoryType) {
       description = "Multiple showtimes throughout the day";
       break;
     case "Nightclub":
-      startHour = getRandomInt(21, 22); // 9pm-10pm  
+      startHour = getRandomInt(21, 22); // 9pm-10pm
       endHour = getRandomInt(2, 4); // 2am-4am
       description = "Late night entertainment venue";
       break;
@@ -714,8 +854,11 @@ function generateEntertainmentHours(categoryType) {
 
   return {
     start: `${startHour.toString().padStart(2, "0")}:00`,
-    end: endHour > 24 ? `0${(endHour - 24).toString()}:00` : `${endHour.toString().padStart(2, "0")}:00`,
-    duration: `${endHour > startHour ? endHour - startHour : (24 - startHour) + endHour} hours`,
+    end:
+      endHour > 24
+        ? `0${(endHour - 24).toString()}:00`
+        : `${endHour.toString().padStart(2, "0")}:00`,
+    duration: `${endHour > startHour ? endHour - startHour : 24 - startHour + endHour} hours`,
     description: description,
   };
 }
@@ -724,68 +867,90 @@ function generateEntertainmentHours(categoryType) {
 function generateLocation() {
   const deck = getRandomInt(5, 15);
   const areas = [
-    "Main Theater", "Atrium", "Pool Deck", "Upper Deck", "Forward Lounge",
-    "Aft Lounge", "Midship Theater", "Sky Deck", "Observation Deck",
-    "Entertainment Plaza", "Central Court", "Grand Ballroom"
+    "Main Theater",
+    "Atrium",
+    "Pool Deck",
+    "Upper Deck",
+    "Forward Lounge",
+    "Aft Lounge",
+    "Midship Theater",
+    "Sky Deck",
+    "Observation Deck",
+    "Entertainment Plaza",
+    "Central Court",
+    "Grand Ballroom",
   ];
-  
+
   return {
     deck: deck,
-    area: getRandomElement(areas)
+    area: getRandomElement(areas),
   };
 }
 
 // Generate testimonials for a show
-function generateTestimonials(showName, performer, categoryType, count = getRandomInt(5, 10)) {
+function generateTestimonials(
+  showName,
+  performer,
+  categoryType,
+  count = getRandomInt(5, 10),
+) {
   const testimonials = [];
-  const templates = testimonialTemplates[categoryType] || testimonialTemplates["Live Music"];
-  
+  const templates =
+    testimonialTemplates[categoryType] || testimonialTemplates["Live Music"];
+
   for (let i = 0; i < count; i++) {
     const fullName = getRandomName();
     const firstName = fullName.split(" ")[0];
     const gender = determineGenderFromName(firstName);
-    
+
     // Select and customize template
     let quote = getRandomElement(templates);
-    quote = quote.replace('{showName}', showName);
-    quote = quote.replace('{performer}', performer);
-    
+    quote = quote.replace("{showName}", showName);
+    quote = quote.replace("{performer}", performer);
+
     const testimonial = {
       quote: quote,
       author: fullName,
-      title: getRandomElement(["Guest", "Cruise Passenger", "Traveler", "Vacationer"]),
+      title: getRandomElement([
+        "Guest",
+        "Cruise Passenger",
+        "Traveler",
+        "Vacationer",
+      ]),
       image: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
       rating: getRandomInt(4, 5), // 4 or 5 stars
-      date: `2024-${getRandomInt(1, 12).toString().padStart(2, "0")}-${getRandomInt(1, 28).toString().padStart(2, "0")}`
+      date: `2024-${getRandomInt(1, 12).toString().padStart(2, "0")}-${getRandomInt(1, 28).toString().padStart(2, "0")}`,
     };
-    
+
     testimonials.push(testimonial);
   }
-  
+
   return testimonials;
 }
 
 // Generate merchandise for a show
 function generateMerchandise(categoryType, showName) {
-  const categoryMerchandise = merchandiseByCategory[categoryType] || merchandiseByCategory["Live Music"];
+  const categoryMerchandise =
+    merchandiseByCategory[categoryType] || merchandiseByCategory["Live Music"];
   const selectedItems = getRandomItems(categoryMerchandise, getRandomInt(1, 3));
-  
-  return selectedItems.map(item => ({
+
+  return selectedItems.map((item) => ({
     id: generateUniqueId(),
     name: item.name,
-    description: item.description.replace('{showName}', showName),
+    description: item.description.replace("{showName}", showName),
     price: item.price + getRandomInt(-5, 10), // Add some price variation
-    currency: "USD"
+    currency: "USD",
   }));
 }
 
 // Generate performer data
 function generatePerformer(categoryType) {
-  const specialties = performerSpecialties[categoryType] || performerSpecialties["Live Music"];
+  const specialties =
+    performerSpecialties[categoryType] || performerSpecialties["Live Music"];
   const fullName = getRandomName();
   const firstName = fullName.split(" ")[0];
   const gender = determineGenderFromName(firstName);
-  
+
   return {
     id: generateUniqueId(),
     firstName: firstName,
@@ -794,11 +959,14 @@ function generatePerformer(categoryType) {
     bio: `Professional ${getRandomElement(specialties).toLowerCase()} with years of cruise ship entertainment experience.`,
     imageUrl: `https://randomuser.me/api/portraits/${gender}/${Math.floor(Math.random() * 85)}.jpg`,
     contact: {
-      contactEmail: generateRandomEmail("entertainment.velarivoyages.com")
+      contactEmail: generateRandomEmail("entertainment.velarivoyages.com"),
     },
     yearsOfExperience: getRandomInt(3, 15),
     specialties: getRandomItems(specialties, getRandomInt(1, 3)),
-    certifications: ["Professional Entertainment License", "Maritime Safety Certification"]
+    certifications: [
+      "Professional Entertainment License",
+      "Maritime Safety Certification",
+    ],
   };
 }
 
@@ -807,12 +975,12 @@ function getVesselDataForCity(cityName) {
   const vesselFilePath = path.join(
     __dirname,
     "..",
-    "src", 
+    "src",
     "lib",
     "constants",
     "cruises",
     "vessels",
-    `${cityName}-vessels.ts`
+    `${cityName}-vessels.ts`,
   );
 
   if (!fs.existsSync(vesselFilePath)) {
@@ -846,7 +1014,7 @@ function getVesselDataForCity(cityName) {
     return vessels;
   } catch (error) {
     console.warn(
-      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`
+      `⚠️  Could not read vessel file for ${cityName}: ${error.message}`,
     );
     return [];
   }
@@ -855,14 +1023,16 @@ function getVesselDataForCity(cityName) {
 // Generate entertainment categories for a vessel
 function generateEntertainmentCategories(vessel, cityName, region) {
   const categories = [];
-  
+
   // Determine how many categories based on vessel type
-  const isLuxury = vessel.type.toLowerCase().includes("luxury") || vessel.type.toLowerCase().includes("vip");
+  const isLuxury =
+    vessel.type.toLowerCase().includes("luxury") ||
+    vessel.type.toLowerCase().includes("vip");
   const categoryCount = isLuxury ? getRandomInt(6, 8) : getRandomInt(4, 6);
-  
+
   const selectedTypes = getRandomItems(entertainmentTypes, categoryCount);
-  
-  selectedTypes.forEach(type => {
+
+  selectedTypes.forEach((type) => {
     const location = generateLocation();
     const category = {
       id: generateUniqueId(),
@@ -870,13 +1040,13 @@ function generateEntertainmentCategories(vessel, cityName, region) {
       type: type,
       location: location,
       hasBar: getRandomBool(0.7), // 70% chance
-      hasFoodService: getRandomBool(0.4), // 40% chance  
-      hasAccessibleSeating: getRandomBool(0.8) // 80% chance
+      hasFoodService: getRandomBool(0.4), // 40% chance
+      hasAccessibleSeating: getRandomBool(0.8), // 80% chance
     };
-    
+
     categories.push(category);
   });
-  
+
   return categories;
 }
 
@@ -884,15 +1054,16 @@ function generateEntertainmentCategories(vessel, cityName, region) {
 function generateEntertainmentShows(category, vessel, cityName, region) {
   const showCount = getRandomInt(6, 10);
   const shows = [];
-  const categoryShows = entertainmentShows[category.type] || entertainmentShows["Live Music"];
-  
+  const categoryShows =
+    entertainmentShows[category.type] || entertainmentShows["Live Music"];
+
   for (let i = 0; i < showCount; i++) {
     const showName = getRandomElement(categoryShows.names);
     const description = getRandomElement(categoryShows.descriptions);
     const performer = generatePerformer(category.type);
     const hasMerchandise = getRandomBool(0.6); // 60% chance
     const hours = generateEntertainmentHours(category.type);
-    
+
     const show = {
       id: generateUniqueId(),
       title: showName,
@@ -900,52 +1071,61 @@ function generateEntertainmentShows(category, vessel, cityName, region) {
       tickets: {
         isRequired: getRandomBool(0.3), // 30% chance tickets required
         price: getRandomBool(0.3) ? getRandomInt(15, 45) : 0,
-        currency: "USD"
+        currency: "USD",
       },
       isAdultOnly: getRandomBool(0.2), // 20% chance adults only
       duration: `${getRandomInt(60, 120)} minutes`,
       schedule: [
         {
           start: hours.start,
-          end: hours.end, 
+          end: hours.end,
           duration: hours.duration,
-          description: `${showName} performance times`
-        }
+          description: `${showName} performance times`,
+        },
       ],
       performers: [performer],
-      testimonials: generateTestimonials(showName, `${performer.firstName} ${performer.lastName}`, category.type),
+      testimonials: generateTestimonials(
+        showName,
+        `${performer.firstName} ${performer.lastName}`,
+        category.type,
+      ),
       hasVIPSeating: getRandomBool(0.4), // 40% chance
       hasAccessibleSeating: getRandomBool(0.9), // 90% chance
-      hasMerchandise: hasMerchandise
+      hasMerchandise: hasMerchandise,
     };
-    
+
     // Add merchandise if hasMerchandise is true
     if (hasMerchandise) {
       show.merchandise = generateMerchandise(category.type, showName)[0]; // Single merchandise item
     }
-    
+
     shows.push(show);
   }
-  
+
   return shows;
 }
 
-// Generate entertainment data for a vessel  
+// Generate entertainment data for a vessel
 function generateEntertainmentForVessel(vessel, cityName, region) {
   const categories = generateEntertainmentCategories(vessel, cityName, region);
   const entertainmentShows = [];
-  
-  categories.forEach(category => {
-    const shows = generateEntertainmentShows(category, vessel, cityName, region);
+
+  categories.forEach((category) => {
+    const shows = generateEntertainmentShows(
+      category,
+      vessel,
+      cityName,
+      region,
+    );
     entertainmentShows.push({
       category: category,
-      shows: shows
+      shows: shows,
     });
   });
-  
+
   return {
     categories: categories,
-    entertainment: entertainmentShows
+    entertainment: entertainmentShows,
   };
 }
 
@@ -965,7 +1145,7 @@ function createEntertainmentCategoriesFileContent(categories) {
     hasBar: ${category.hasBar},
     hasFoodService: ${category.hasFoodService},
     hasAccessibleSeating: ${category.hasAccessibleSeating},
-  }`
+  }`,
     )
     .join(",\n");
 
@@ -990,11 +1170,11 @@ function createEntertainmentShowsFileContent(categoryType, shows, categoryId) {
     category: "${categoryType}",
     name: "${show.title}",
     description: "${show.description}",
-    imageUrl: "/images/entertainment/${categoryType.toLowerCase().replace(' ', '-')}-show.jpg",
-    hours: ${JSON.stringify(show.schedule[0], null, 6).replace(/^/gm, '    ')},
+    imageUrl: "/images/entertainment/${categoryType.toLowerCase().replace(" ", "-")}-show.jpg",
+    hours: ${JSON.stringify(show.schedule[0], null, 6).replace(/^/gm, "    ")},
     contact: {
       contactNumber: "+1-${getRandomInt(200, 999)}-${getRandomInt(100, 999)}-${getRandomInt(1000, 9999)}",
-      contactEmail: "${generateRandomEmail('entertainment.velarivoyages.com')}",
+      contactEmail: "${generateRandomEmail("entertainment.velarivoyages.com")}",
     },
     shows: [{
       id: "${show.id}",
@@ -1007,8 +1187,8 @@ function createEntertainmentShowsFileContent(categoryType, shows, categoryId) {
       },
       isAdultOnly: ${show.isAdultOnly},
       duration: "${show.duration}",
-      schedule: [${JSON.stringify(show.schedule[0], null, 8).replace(/^/gm, '        ')}],
-      performers: [${JSON.stringify(show.performers[0], null, 8).replace(/^/gm, '        ')}],
+      schedule: [${JSON.stringify(show.schedule[0], null, 8).replace(/^/gm, "        ")}],
+      performers: [${JSON.stringify(show.performers[0], null, 8).replace(/^/gm, "        ")}],
       testimonials: [
 ${show.testimonials
   .map(
@@ -1020,32 +1200,39 @@ ${show.testimonials
           image: "${testimonial.image}",
           rating: ${testimonial.rating},
           date: "${testimonial.date}",
-        }`
+        }`,
   )
   .join(",\n")}
       ],
       hasVIPSeating: ${show.hasVIPSeating},
       hasAccessibleSeating: ${show.hasAccessibleSeating},
-      hasMerchandise: ${show.hasMerchandise}${show.merchandise ? `,
-      merchandise: ${JSON.stringify(show.merchandise, null, 8).replace(/^/gm, '      ')}` : ''}
+      hasMerchandise: ${show.hasMerchandise}${
+        show.merchandise
+          ? `,
+      merchandise: ${JSON.stringify(show.merchandise, null, 8).replace(/^/gm, "      ")}`
+          : ""
+      }
     }],
     faqs: [
-${getRandomItems(faqTemplates[categoryType] || faqTemplates["Live Music"], getRandomInt(3, 5))
+${getRandomItems(
+  faqTemplates[categoryType] || faqTemplates["Live Music"],
+  getRandomInt(3, 5),
+)
   .map(
     (faq) =>
       `      {
         question: "${faq.question}",
         answer: "${faq.answer}",
-      }`
+      }`,
   )
   .join(",\n")}
     ],
     isPopular: ${getRandomBool(0.3)}
-  }`
+  }`,
     )
     .join(",\n");
 
-  const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, '-');
+  const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, "-");
 
   return `// ${categoryType} entertainment shows
 // This file contains ${categoryType.toLowerCase()} entertainment show information
@@ -1064,10 +1251,10 @@ async function generateEntertainmentFiles() {
     __dirname,
     "..",
     "src",
-    "lib", 
+    "lib",
     "constants",
     "venues",
-    "entertainment"
+    "entertainment",
   );
 
   // Create base directory if it doesn't exist
@@ -1089,7 +1276,7 @@ async function generateEntertainmentFiles() {
       continue;
     }
 
-    const region = getRegionForCity(city);
+    const region = cityToRegionMap(city);
     const cityDir = path.join(entertainmentDir, city);
 
     // Create city directory
@@ -1099,8 +1286,11 @@ async function generateEntertainmentFiles() {
     }
 
     for (const vessel of vessels) {
-      const vesselDir = path.join(cityDir, vessel.name.toLowerCase().replace(/\s+/g, '-'));
-      
+      const vesselDir = path.join(
+        cityDir,
+        vessel.name.toLowerCase().replace(/\s+/g, "-"),
+      );
+
       // Create vessel directory
       if (!fs.existsSync(vesselDir)) {
         fs.mkdirSync(vesselDir, { recursive: true });
@@ -1108,21 +1298,31 @@ async function generateEntertainmentFiles() {
       }
 
       try {
-        const entertainmentData = generateEntertainmentForVessel(vessel, city, region);
+        const entertainmentData = generateEntertainmentForVessel(
+          vessel,
+          city,
+          region,
+        );
 
         // Create entertainment.ts file with categories
-        const categoriesFilePath = path.join(vesselDir, 'entertainment.ts');
+        const categoriesFilePath = path.join(vesselDir, "entertainment.ts");
         const categoriesFileExists = fs.existsSync(categoriesFilePath);
 
         if (!categoriesFileExists || REWRITE_MODE || APPEND_MODE) {
-          const categoriesContent = createEntertainmentCategoriesFileContent(entertainmentData.categories);
+          const categoriesContent = createEntertainmentCategoriesFileContent(
+            entertainmentData.categories,
+          );
           fs.writeFileSync(categoriesFilePath, categoriesContent);
-          
+
           if (categoriesFileExists) {
-            console.log(`✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`);
+            console.log(
+              `✅ Updated entertainment categories for ${vessel.name} in ${capitalize(city)}`,
+            );
             filesAppended++;
           } else {
-            console.log(`✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`);
+            console.log(
+              `✅ Created entertainment categories for ${vessel.name} in ${capitalize(city)}`,
+            );
             filesCreated++;
           }
         } else {
@@ -1130,34 +1330,44 @@ async function generateEntertainmentFiles() {
         }
 
         // Create individual entertainment show files for each category
-        entertainmentData.entertainment.forEach(entertainmentCategory => {
+        entertainmentData.entertainment.forEach((entertainmentCategory) => {
           const categoryType = entertainmentCategory.category.type;
-          const fileNameSuffix = categoryType.toLowerCase().replace(/\s+/g, '-');
-          const showsFilePath = path.join(vesselDir, `${fileNameSuffix}-entertainment.ts`);
+          const fileNameSuffix = categoryType
+            .toLowerCase()
+            .replace(/\s+/g, "-");
+          const showsFilePath = path.join(
+            vesselDir,
+            `${fileNameSuffix}-entertainment.ts`,
+          );
           const showsFileExists = fs.existsSync(showsFilePath);
 
           if (!showsFileExists || REWRITE_MODE || APPEND_MODE) {
             const showsContent = createEntertainmentShowsFileContent(
-              categoryType, 
+              categoryType,
               entertainmentCategory.shows,
-              entertainmentCategory.category.id
+              entertainmentCategory.category.id,
             );
             fs.writeFileSync(showsFilePath, showsContent);
-            
+
             if (showsFileExists) {
-              console.log(`✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`);
+              console.log(
+                `✅ Updated ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
+              );
               filesAppended++;
             } else {
-              console.log(`✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`);
+              console.log(
+                `✅ Created ${categoryType} shows for ${vessel.name} in ${capitalize(city)}`,
+              );
               filesCreated++;
             }
           } else {
             filesSkipped++;
           }
         });
-
       } catch (error) {
-        console.error(`❌ Error processing ${vessel.name} in ${city}: ${error.message}`);
+        console.error(
+          `❌ Error processing ${vessel.name} in ${city}: ${error.message}`,
+        );
       }
     }
   }
